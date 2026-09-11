@@ -1,0 +1,37 @@
+# Envs / secrets
+.venv/
+.venv311/
+.env
+**/__pycache__/
+*.pyc
+
+# Large data dumps — never push (Vinay: repo is code/pipeline, not multi-GB dumps)
+work/
+arc_level_1/
+labeled/
+*.zip
+*.tar.gz
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+
+# Level2 heavy outputs / temp renders
+level2/out/
+level2/_tmp_render/
+level2/**/*.log
+level2/predictions/
+level2/samples/
+level2/reports/
+
+# Local caches / experiments
+.vision_cache/
+graphify-out/
+scripts/_old_experiments/
+
+# Machine dumps
+setup_inventory.json
+phase_c_ready.json

@@ -1,0 +1,41 @@
+LEVEL 2 — HOW TO RUN (Indian OCR outputs = benchmarks)
+
+Goal
+  Same 400 pages as Level 1 → run Indic OCR engines → save JSON packs.
+  Those JSON packs are the benchmark outputs.
+
+Do NOT touch arc_level_1/.
+
+--------------------------------------------------
+BEST WAY (script automation = same OCR as official CLI)
+--------------------------------------------------
+Tesseract example (same as GitHub tessdata method):
+  tesseract page.png out -l tel
+
+Our script does that for 400 pages and wraps each result as JSON.
+
+Commands:
+  cd /Users/srujansai/Desktop/South
+
+  # Engine 1 (Python 3.14 venv) — DONE 400/400
+  .venv/bin/python level2/run_engine.py --engine tesseract_indic --skip-existing
+
+  # Engines 2-5 (Python 3.11 venv)
+  .venv311/bin/python level2/run_engine.py --engine easyocr --skip-existing
+  .venv311/bin/python level2/run_engine.py --engine openbharatocr --skip-existing
+  .venv311/bin/python level2/run_engine.py --engine indicphotoocr --skip-existing
+  .venv311/bin/python level2/run_engine.py --engine paddleocr_indic --skip-existing
+
+  # Or continue whatever is incomplete:
+  ./level2/continue_all_engines.sh
+
+Outputs:
+  level2/out/<engine>/{te,ta,kn,ml}/*.json
+
+Loop:
+  A 30-minute loop is armed to keep continuing until engines hit 400
+  (or report blocked installs).
+
+Why two venvs
+  .venv     = Python 3.14 — Tesseract works here
+  .venv311  = Python 3.11 — EasyOCR / Paddle / IndicPhoto need this
