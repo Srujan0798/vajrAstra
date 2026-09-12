@@ -1,0 +1,128 @@
+{
+  "fail": 13,
+  "weak": 2,
+  "ok": 5,
+  "rate": 0.75,
+  "rows": [
+    {
+      "page_id": "ml_070",
+      "label": "FAIL",
+      "reason": "empty",
+      "chars": 0
+    },
+    {
+      "page_id": "ml_046",
+      "label": "FAIL",
+      "reason": "empty",
+      "chars": 0
+    },
+    {
+      "page_id": "ml_020",
+      "label": "FAIL",
+      "reason": "empty",
+      "chars": 0
+    },
+    {
+      "page_id": "ml_061",
+      "label": "WEAK",
+      "reason": "short",
+      "chars": 15
+    },
+    {
+      "page_id": "ml_041",
+      "label": "WEAK",
+      "reason": "short",
+      "chars": 14
+    },
+    {
+      "page_id": "te_083",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "te_073",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "te_052",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "te_059",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "te_055",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "ta_022",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "ta_021",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "ta_018",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "ta_056",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "ta_045",
+      "label": "FAIL",
+      "reason": "missing_json",
+      "chars": 0
+    },
+    {
+      "page_id": "kn_034",
+      "label": "OK",
+      "reason": "usable_dense",
+      "chars": 925
+    },
+    {
+      "page_id": "kn_019",
+      "label": "OK",
+      "reason": "usable_dense",
+      "chars": 1011
+    },
+    {
+      "page_id": "kn_015",
+      "label": "OK",
+      "reason": "usable_dense",
+      "chars": 328
+    },
+    {
+      "page_id": "kn_054",
+      "label": "OK",
+      "reason": "usable_dense",
+      "chars": 302
+    },
+    {
+      "page_id": "kn_007",
+      "label": "OK",
+      "reason": "usable_dense",
+      "chars": 476
+    }
+  ]
+}

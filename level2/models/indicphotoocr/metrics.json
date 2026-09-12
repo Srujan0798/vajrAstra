@@ -1,0 +1,14 @@
+{
+ "engine": "indicphotoocr",
+ "n_json": 400,
+ "matching_page_ids": 400,
+ "missing": 0,
+ "n_empty": 10,
+ "n_short_lt50": 22,
+ "nonempty_rate": 0.975,
+ "collapse_rate": 0.025,
+ "median_capture_ratio": 0.916,
+ "empty_rate": 0.025,
+ "median_chars": 1051,
+ "median_ms_per_page": 15700
+}

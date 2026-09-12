@@ -1,0 +1,14 @@
+{
+ "engine": "paddleocr_indic",
+ "n_json": 400,
+ "matching_page_ids": 400,
+ "missing": 0,
+ "n_empty": 7,
+ "n_short_lt50": 29,
+ "nonempty_rate": 0.9825,
+ "collapse_rate": 0.017,
+ "median_capture_ratio": 0.762,
+ "empty_rate": 0.018,
+ "median_chars": 584,
+ "median_ms_per_page": 95182
+}

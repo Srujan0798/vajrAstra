@@ -1,3202 +1,4402 @@
 [
-  {
-    "page_id": "te_001",
-    "raw_path": "work/te/s_telugu0001pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 4,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_002",
-    "raw_path": "work/te/s_telugu0002pro_raw.pdf",
-    "page_index": 4,
-    "pdf_pages": 16,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_003",
-    "raw_path": "work/te/s_telugu0003pro_raw.pdf",
-    "page_index": 9,
-    "pdf_pages": 19,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_004",
-    "raw_path": "work/te/s_telugu0004pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 16,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_005",
-    "raw_path": "work/te/s_telugu0005pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 19,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_006",
-    "raw_path": "work/te/s_telugu0006pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 16,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_007",
-    "raw_path": "work/te/s_telugu0007pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 7,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_008",
-    "raw_path": "work/te/s_telugu0008pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 7,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_009",
-    "raw_path": "work/te/s_telugu0009pro_raw.pdf",
-    "page_index": 27,
-    "pdf_pages": 36,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_010",
-    "raw_path": "work/te/s_telugu0010pro_raw.pdf",
-    "page_index": 63,
-    "pdf_pages": 64,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_011",
-    "raw_path": "work/te/s_telugu0011pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 74,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_012",
-    "raw_path": "work/te/s_telugu0012pro_raw.pdf",
-    "page_index": 47,
-    "pdf_pages": 188,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_013",
-    "raw_path": "work/te/s_telugu0013pro_raw.pdf",
-    "page_index": 32,
-    "pdf_pages": 64,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_014",
-    "raw_path": "work/te/s_telugu0014pro_raw.pdf",
-    "page_index": 49,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_015",
-    "raw_path": "work/te/s_telugu0015pro_raw.pdf",
-    "page_index": 155,
-    "pdf_pages": 156,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_016",
-    "raw_path": "work/te/s_telugu0016pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 132,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_017",
-    "raw_path": "work/te/s_telugu0017pro_raw.pdf",
-    "page_index": 47,
-    "pdf_pages": 188,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_018",
-    "raw_path": "work/te/s_telugu0018pro_raw.pdf",
-    "page_index": 90,
-    "pdf_pages": 180,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_019",
-    "raw_path": "work/te/s_telugu0019pro_raw.pdf",
-    "page_index": 93,
-    "pdf_pages": 124,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_020",
-    "raw_path": "work/te/s_telugu0020pro_raw.pdf",
-    "page_index": 85,
-    "pdf_pages": 86,
-    "lang": "te",
-    "batch": "B0"
-  },
-  {
-    "page_id": "te_021",
-    "raw_path": "work/te/s_telugu0021pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 112,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_022",
-    "raw_path": "work/te/s_telugu0022pro_raw.pdf",
-    "page_index": 20,
-    "pdf_pages": 82,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_023",
-    "raw_path": "work/te/s_telugu0023pro_raw.pdf",
-    "page_index": 74,
-    "pdf_pages": 148,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_024",
-    "raw_path": "work/te/s_telugu0024pro_raw.pdf",
-    "page_index": 36,
-    "pdf_pages": 48,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_025",
-    "raw_path": "work/te/s_telugu0025pro_raw.pdf",
-    "page_index": 86,
-    "pdf_pages": 87,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_026",
-    "raw_path": "work/te/s_telugu0026pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_027",
-    "raw_path": "work/te/s_telugu0027pro_raw.pdf",
-    "page_index": 29,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_028",
-    "raw_path": "work/te/s_telugu0028pro_raw.pdf",
-    "page_index": 74,
-    "pdf_pages": 148,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_029",
-    "raw_path": "work/te/s_telugu0029pro_raw.pdf",
-    "page_index": 105,
-    "pdf_pages": 140,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_030",
-    "raw_path": "work/te/s_telugu0030pro_raw.pdf",
-    "page_index": 91,
-    "pdf_pages": 92,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_031",
-    "raw_path": "work/te/s_telugu0031pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 92,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_032",
-    "raw_path": "work/te/s_telugu0032pro_raw.pdf",
-    "page_index": 31,
-    "pdf_pages": 124,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_033",
-    "raw_path": "work/te/s_telugu0033pro_raw.pdf",
-    "page_index": 48,
-    "pdf_pages": 96,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_034",
-    "raw_path": "work/te/s_telugu0034pro_raw.pdf",
-    "page_index": 75,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_035",
-    "raw_path": "work/te/s_telugu0035pro_raw.pdf",
-    "page_index": 99,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_036",
-    "raw_path": "work/te/s_telugu0036pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 140,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_037",
-    "raw_path": "work/te/s_telugu0037pro_raw.pdf",
-    "page_index": 27,
-    "pdf_pages": 108,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_038",
-    "raw_path": "work/te/s_telugu0038pro_raw.pdf",
-    "page_index": 46,
-    "pdf_pages": 92,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_039",
-    "raw_path": "work/te/s_telugu0039pro_raw.pdf",
-    "page_index": 75,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_040",
-    "raw_path": "work/te/s_telugu0040pro_raw.pdf",
-    "page_index": 139,
-    "pdf_pages": 140,
-    "lang": "te",
-    "batch": "B1"
-  },
-  {
-    "page_id": "te_041",
-    "raw_path": "work/te/s_telugu0041pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_042",
-    "raw_path": "work/te/s_telugu0042pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 50,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_043",
-    "raw_path": "work/te/s_telugu0043pro_raw.pdf",
-    "page_index": 33,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_044",
-    "raw_path": "work/te/s_telugu0044pro_raw.pdf",
-    "page_index": 37,
-    "pdf_pages": 50,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_045",
-    "raw_path": "work/te/s_telugu0045pro_raw.pdf",
-    "page_index": 147,
-    "pdf_pages": 148,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_046",
-    "raw_path": "work/te/s_telugu0046pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_047",
-    "raw_path": "work/te/s_telugu0047pro_raw.pdf",
-    "page_index": 24,
-    "pdf_pages": 98,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_048",
-    "raw_path": "work/te/s_telugu0048pro_raw.pdf",
-    "page_index": 50,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_049",
-    "raw_path": "work/te/s_telugu0049pro_raw.pdf",
-    "page_index": 78,
-    "pdf_pages": 104,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_050",
-    "raw_path": "work/te/s_telugu0050pro_raw.pdf",
-    "page_index": 99,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_051",
-    "raw_path": "work/te/s_telugu0051pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 124,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_052",
-    "raw_path": "work/te/s_telugu0052pro_raw.pdf",
-    "page_index": 36,
-    "pdf_pages": 144,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_053",
-    "raw_path": "work/te/s_telugu0053pro_raw.pdf",
-    "page_index": 70,
-    "pdf_pages": 140,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_054",
-    "raw_path": "work/te/s_telugu0054pro_raw.pdf",
-    "page_index": 87,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_055",
-    "raw_path": "work/te/s_telugu0055pro_raw.pdf",
-    "page_index": 171,
-    "pdf_pages": 172,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_056",
-    "raw_path": "work/te/s_telugu0056pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 50,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_057",
-    "raw_path": "work/te/s_telugu0057pro_raw.pdf",
-    "page_index": 16,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_058",
-    "raw_path": "work/te/s_telugu0058pro_raw.pdf",
-    "page_index": 62,
-    "pdf_pages": 124,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_059",
-    "raw_path": "work/te/s_telugu0059pro_raw.pdf",
-    "page_index": 87,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_060",
-    "raw_path": "work/te/s_telugu0060pro_raw.pdf",
-    "page_index": 115,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B2"
-  },
-  {
-    "page_id": "te_061",
-    "raw_path": "work/te/s_telugu0061pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 92,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_062",
-    "raw_path": "work/te/s_telugu0062pro_raw.pdf",
-    "page_index": 38,
-    "pdf_pages": 152,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_063",
-    "raw_path": "work/te/s_telugu0063pro_raw.pdf",
-    "page_index": 33,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_064",
-    "raw_path": "work/te/s_telugu0064pro_raw.pdf",
-    "page_index": 43,
-    "pdf_pages": 58,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_065",
-    "raw_path": "work/te/s_telugu0065pro_raw.pdf",
-    "page_index": 65,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_066",
-    "raw_path": "work/te/s_telugu0066pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 58,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_067",
-    "raw_path": "work/te/s_telugu0067pro_raw.pdf",
-    "page_index": 29,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_068",
-    "raw_path": "work/te/s_telugu0068pro_raw.pdf",
-    "page_index": 29,
-    "pdf_pages": 58,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_069",
-    "raw_path": "work/te/s_telugu0069pro_raw.pdf",
-    "page_index": 43,
-    "pdf_pages": 58,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_070",
-    "raw_path": "work/te/s_telugu0070pro_raw.pdf",
-    "page_index": 99,
-    "pdf_pages": 100,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_071",
-    "raw_path": "work/te/s_telugu0071pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_072",
-    "raw_path": "work/te/s_telugu0072pro_raw.pdf",
-    "page_index": 33,
-    "pdf_pages": 132,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_073",
-    "raw_path": "work/te/s_telugu0073pro_raw.pdf",
-    "page_index": 44,
-    "pdf_pages": 88,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_074",
-    "raw_path": "work/te/s_telugu0074pro_raw.pdf",
-    "page_index": 111,
-    "pdf_pages": 148,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_075",
-    "raw_path": "work/te/s_telugu0075pro_raw.pdf",
-    "page_index": 65,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_076",
-    "raw_path": "work/te/s_telugu0076pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_077",
-    "raw_path": "work/te/s_telugu0077pro_raw.pdf",
-    "page_index": 37,
-    "pdf_pages": 148,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_078",
-    "raw_path": "work/te/s_telugu0078pro_raw.pdf",
-    "page_index": 74,
-    "pdf_pages": 148,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_079",
-    "raw_path": "work/te/s_telugu0079pro_raw.pdf",
-    "page_index": 105,
-    "pdf_pages": 140,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_080",
-    "raw_path": "work/te/s_telugu0080pro_raw.pdf",
-    "page_index": 127,
-    "pdf_pages": 128,
-    "lang": "te",
-    "batch": "B3"
-  },
-  {
-    "page_id": "te_081",
-    "raw_path": "work/te/s_telugu0081pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 108,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_082",
-    "raw_path": "work/te/s_telugu0082pro_raw.pdf",
-    "page_index": 29,
-    "pdf_pages": 116,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_083",
-    "raw_path": "work/te/s_telugu0083pro_raw.pdf",
-    "page_index": 114,
-    "pdf_pages": 228,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_084",
-    "raw_path": "work/te/s_telugu0084pro_raw.pdf",
-    "page_index": 99,
-    "pdf_pages": 132,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_085",
-    "raw_path": "work/te/s_telugu0001pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 4,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_086",
-    "raw_path": "work/te/s_telugu0002pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 16,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_087",
-    "raw_path": "work/te/s_telugu0003pro_raw.pdf",
-    "page_index": 4,
-    "pdf_pages": 19,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_088",
-    "raw_path": "work/te/s_telugu0004pro_raw.pdf",
-    "page_index": 8,
-    "pdf_pages": 16,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_089",
-    "raw_path": "work/te/s_telugu0005pro_raw.pdf",
-    "page_index": 14,
-    "pdf_pages": 19,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_090",
-    "raw_path": "work/te/s_telugu0006pro_raw.pdf",
-    "page_index": 15,
-    "pdf_pages": 16,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_091",
-    "raw_path": "work/te/s_telugu0007pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 7,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_092",
-    "raw_path": "work/te/s_telugu0008pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 7,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_093",
-    "raw_path": "work/te/s_telugu0009pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 36,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_094",
-    "raw_path": "work/te/s_telugu0010pro_raw.pdf",
-    "page_index": 48,
-    "pdf_pages": 64,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_095",
-    "raw_path": "work/te/s_telugu0011pro_raw.pdf",
-    "page_index": 73,
-    "pdf_pages": 74,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_096",
-    "raw_path": "work/te/s_telugu0012pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 188,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_097",
-    "raw_path": "work/te/s_telugu0013pro_raw.pdf",
-    "page_index": 16,
-    "pdf_pages": 64,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_098",
-    "raw_path": "work/te/s_telugu0014pro_raw.pdf",
-    "page_index": 33,
-    "pdf_pages": 66,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_099",
-    "raw_path": "work/te/s_telugu0015pro_raw.pdf",
-    "page_index": 117,
-    "pdf_pages": 156,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "te_100",
-    "raw_path": "work/te/s_telugu0016pro_raw.pdf",
-    "page_index": 131,
-    "pdf_pages": 132,
-    "lang": "te",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_001",
-    "raw_path": "work/ta/s_tamil0001pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_002",
-    "raw_path": "work/ta/s_tamil0002pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_003",
-    "raw_path": "work/ta/s_tamil0003pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_004",
-    "raw_path": "work/ta/s_tamil0004pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_005",
-    "raw_path": "work/ta/s_tamil0005pro_raw.pdf",
-    "page_index": 11,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_006",
-    "raw_path": "work/ta/s_tamil0006pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_007",
-    "raw_path": "work/ta/s_tamil0007pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 15,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_008",
-    "raw_path": "work/ta/s_tamil0008pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 7,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_009",
-    "raw_path": "work/ta/s_tamil0009pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_010",
-    "raw_path": "work/ta/s_tamil0010pro_raw.pdf",
-    "page_index": 13,
-    "pdf_pages": 14,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_011",
-    "raw_path": "work/ta/s_tamil0011pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 15,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_012",
-    "raw_path": "work/ta/s_tamil0012pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_013",
-    "raw_path": "work/ta/s_tamil0013pro_raw.pdf",
-    "page_index": 13,
-    "pdf_pages": 27,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_014",
-    "raw_path": "work/ta/s_tamil0014pro_raw.pdf",
-    "page_index": 13,
-    "pdf_pages": 18,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_015",
-    "raw_path": "work/ta/s_tamil0015pro_raw.pdf",
-    "page_index": 129,
-    "pdf_pages": 130,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_016",
-    "raw_path": "work/ta/s_tamil0016pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 157,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_017",
-    "raw_path": "work/ta/s_tamil0017pro_raw.pdf",
-    "page_index": 4,
-    "pdf_pages": 18,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_018",
-    "raw_path": "work/ta/s_tamil0018pro_raw.pdf",
-    "page_index": 8,
-    "pdf_pages": 16,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_019",
-    "raw_path": "work/ta/s_tamil0019pro_raw.pdf",
-    "page_index": 210,
-    "pdf_pages": 280,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_020",
-    "raw_path": "work/ta/s_tamil0020pro_raw.pdf",
-    "page_index": 367,
-    "pdf_pages": 368,
-    "lang": "ta",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ta_021",
-    "raw_path": "work/ta/s_tamil0021pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_022",
-    "raw_path": "work/ta/s_tamil0022pro_raw.pdf",
-    "page_index": 68,
-    "pdf_pages": 272,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_023",
-    "raw_path": "work/ta/s_tamil0023pro_raw.pdf",
-    "page_index": 160,
-    "pdf_pages": 320,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_024",
-    "raw_path": "work/ta/s_tamil0024pro_raw.pdf",
-    "page_index": 234,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_025",
-    "raw_path": "work/ta/s_tamil0025pro_raw.pdf",
-    "page_index": 335,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_026",
-    "raw_path": "work/ta/s_tamil0026pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_027",
-    "raw_path": "work/ta/s_tamil0027pro_raw.pdf",
-    "page_index": 82,
-    "pdf_pages": 328,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_028",
-    "raw_path": "work/ta/s_tamil0028pro_raw.pdf",
-    "page_index": 172,
-    "pdf_pages": 344,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_029",
-    "raw_path": "work/ta/s_tamil0029pro_raw.pdf",
-    "page_index": 216,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_030",
-    "raw_path": "work/ta/s_tamil0030pro_raw.pdf",
-    "page_index": 327,
-    "pdf_pages": 328,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_031",
-    "raw_path": "work/ta/s_tamil0031pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 360,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_032",
-    "raw_path": "work/ta/s_tamil0032pro_raw.pdf",
-    "page_index": 84,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_033",
-    "raw_path": "work/ta/s_tamil0033pro_raw.pdf",
-    "page_index": 120,
-    "pdf_pages": 240,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_034",
-    "raw_path": "work/ta/s_tamil0034pro_raw.pdf",
-    "page_index": 174,
-    "pdf_pages": 232,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_035",
-    "raw_path": "work/ta/s_tamil0035pro_raw.pdf",
-    "page_index": 311,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_036",
-    "raw_path": "work/ta/s_tamil0036pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 272,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_037",
-    "raw_path": "work/ta/s_tamil0037pro_raw.pdf",
-    "page_index": 84,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_038",
-    "raw_path": "work/ta/s_tamil0038pro_raw.pdf",
-    "page_index": 144,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_039",
-    "raw_path": "work/ta/s_tamil0005pro_raw.pdf",
-    "page_index": 9,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_040",
-    "raw_path": "work/ta/s_tamil0006pro_raw.pdf",
-    "page_index": 11,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ta_041",
-    "raw_path": "work/ta/s_tamil0007pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 15,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_042",
-    "raw_path": "work/ta/s_tamil0008pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 7,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_043",
-    "raw_path": "work/ta/s_tamil0010pro_raw.pdf",
-    "page_index": 7,
-    "pdf_pages": 14,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_044",
-    "raw_path": "work/ta/s_tamil0011pro_raw.pdf",
-    "page_index": 11,
-    "pdf_pages": 15,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_045",
-    "raw_path": "work/ta/s_tamil0012pro_raw.pdf",
-    "page_index": 11,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_046",
-    "raw_path": "work/ta/s_tamil0013pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 27,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_047",
-    "raw_path": "work/ta/s_tamil0014pro_raw.pdf",
-    "page_index": 4,
-    "pdf_pages": 18,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_048",
-    "raw_path": "work/ta/s_tamil0015pro_raw.pdf",
-    "page_index": 65,
-    "pdf_pages": 130,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_049",
-    "raw_path": "work/ta/s_tamil0016pro_raw.pdf",
-    "page_index": 117,
-    "pdf_pages": 157,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_050",
-    "raw_path": "work/ta/s_tamil0017pro_raw.pdf",
-    "page_index": 17,
-    "pdf_pages": 18,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_051",
-    "raw_path": "work/ta/s_tamil0018pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 16,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_052",
-    "raw_path": "work/ta/s_tamil0019pro_raw.pdf",
-    "page_index": 70,
-    "pdf_pages": 280,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_053",
-    "raw_path": "work/ta/s_tamil0020pro_raw.pdf",
-    "page_index": 184,
-    "pdf_pages": 368,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_054",
-    "raw_path": "work/ta/s_tamil0021pro_raw.pdf",
-    "page_index": 216,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_055",
-    "raw_path": "work/ta/s_tamil0022pro_raw.pdf",
-    "page_index": 271,
-    "pdf_pages": 272,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_056",
-    "raw_path": "work/ta/s_tamil0023pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 320,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_057",
-    "raw_path": "work/ta/s_tamil0024pro_raw.pdf",
-    "page_index": 78,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_058",
-    "raw_path": "work/ta/s_tamil0025pro_raw.pdf",
-    "page_index": 168,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_059",
-    "raw_path": "work/ta/s_tamil0026pro_raw.pdf",
-    "page_index": 234,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_060",
-    "raw_path": "work/ta/s_tamil0027pro_raw.pdf",
-    "page_index": 327,
-    "pdf_pages": 328,
-    "lang": "ta",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ta_061",
-    "raw_path": "work/ta/s_tamil0028pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 344,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_062",
-    "raw_path": "work/ta/s_tamil0029pro_raw.pdf",
-    "page_index": 72,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_063",
-    "raw_path": "work/ta/s_tamil0030pro_raw.pdf",
-    "page_index": 164,
-    "pdf_pages": 328,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_064",
-    "raw_path": "work/ta/s_tamil0031pro_raw.pdf",
-    "page_index": 270,
-    "pdf_pages": 360,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_065",
-    "raw_path": "work/ta/s_tamil0032pro_raw.pdf",
-    "page_index": 335,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_066",
-    "raw_path": "work/ta/s_tamil0033pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 240,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_067",
-    "raw_path": "work/ta/s_tamil0034pro_raw.pdf",
-    "page_index": 58,
-    "pdf_pages": 232,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_068",
-    "raw_path": "work/ta/s_tamil0035pro_raw.pdf",
-    "page_index": 156,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_069",
-    "raw_path": "work/ta/s_tamil0036pro_raw.pdf",
-    "page_index": 204,
-    "pdf_pages": 272,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_070",
-    "raw_path": "work/ta/s_tamil0037pro_raw.pdf",
-    "page_index": 335,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_071",
-    "raw_path": "work/ta/s_tamil0038pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_072",
-    "raw_path": "work/ta/s_tamil0005pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_073",
-    "raw_path": "work/ta/s_tamil0006pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_074",
-    "raw_path": "work/ta/s_tamil0007pro_raw.pdf",
-    "page_index": 11,
-    "pdf_pages": 15,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_075",
-    "raw_path": "work/ta/s_tamil0008pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 7,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_076",
-    "raw_path": "work/ta/s_tamil0010pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 14,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_077",
-    "raw_path": "work/ta/s_tamil0011pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 15,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_078",
-    "raw_path": "work/ta/s_tamil0012pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 12,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_079",
-    "raw_path": "work/ta/s_tamil0013pro_raw.pdf",
-    "page_index": 20,
-    "pdf_pages": 27,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_080",
-    "raw_path": "work/ta/s_tamil0014pro_raw.pdf",
-    "page_index": 17,
-    "pdf_pages": 18,
-    "lang": "ta",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ta_081",
-    "raw_path": "work/ta/s_tamil0015pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 130,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_082",
-    "raw_path": "work/ta/s_tamil0016pro_raw.pdf",
-    "page_index": 39,
-    "pdf_pages": 157,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_083",
-    "raw_path": "work/ta/s_tamil0017pro_raw.pdf",
-    "page_index": 9,
-    "pdf_pages": 18,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_084",
-    "raw_path": "work/ta/s_tamil0018pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 16,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_085",
-    "raw_path": "work/ta/s_tamil0019pro_raw.pdf",
-    "page_index": 279,
-    "pdf_pages": 280,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_086",
-    "raw_path": "work/ta/s_tamil0020pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 368,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_087",
-    "raw_path": "work/ta/s_tamil0021pro_raw.pdf",
-    "page_index": 72,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_088",
-    "raw_path": "work/ta/s_tamil0022pro_raw.pdf",
-    "page_index": 136,
-    "pdf_pages": 272,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_089",
-    "raw_path": "work/ta/s_tamil0023pro_raw.pdf",
-    "page_index": 240,
-    "pdf_pages": 320,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_090",
-    "raw_path": "work/ta/s_tamil0024pro_raw.pdf",
-    "page_index": 311,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_091",
-    "raw_path": "work/ta/s_tamil0025pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_092",
-    "raw_path": "work/ta/s_tamil0026pro_raw.pdf",
-    "page_index": 78,
-    "pdf_pages": 312,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_093",
-    "raw_path": "work/ta/s_tamil0027pro_raw.pdf",
-    "page_index": 164,
-    "pdf_pages": 328,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_094",
-    "raw_path": "work/ta/s_tamil0028pro_raw.pdf",
-    "page_index": 258,
-    "pdf_pages": 344,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_095",
-    "raw_path": "work/ta/s_tamil0029pro_raw.pdf",
-    "page_index": 287,
-    "pdf_pages": 288,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_096",
-    "raw_path": "work/ta/s_tamil0030pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 328,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_097",
-    "raw_path": "work/ta/s_tamil0031pro_raw.pdf",
-    "page_index": 90,
-    "pdf_pages": 360,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_098",
-    "raw_path": "work/ta/s_tamil0032pro_raw.pdf",
-    "page_index": 168,
-    "pdf_pages": 336,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_099",
-    "raw_path": "work/ta/s_tamil0033pro_raw.pdf",
-    "page_index": 180,
-    "pdf_pages": 240,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ta_100",
-    "raw_path": "work/ta/s_tamil0034pro_raw.pdf",
-    "page_index": 231,
-    "pdf_pages": 232,
-    "lang": "ta",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_001",
-    "raw_path": "work/kn/s_kannada0001pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_002",
-    "raw_path": "work/kn/s_kannada0002pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_003",
-    "raw_path": "work/kn/s_kannada0003pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_004",
-    "raw_path": "work/kn/s_kannada0004pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_005",
-    "raw_path": "work/kn/s_kannada0005pro_raw.pdf",
-    "page_index": 15,
-    "pdf_pages": 16,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_006",
-    "raw_path": "work/kn/s_kannada0006pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 5,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_007",
-    "raw_path": "work/kn/s_kannada0007pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 5,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_008",
-    "raw_path": "work/kn/s_kannada0009pro_raw.pdf",
-    "page_index": 9,
-    "pdf_pages": 19,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_009",
-    "raw_path": "work/kn/s_kannada0010pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 3,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_010",
-    "raw_path": "work/kn/s_kannada0011pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 2,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_011",
-    "raw_path": "work/kn/s_kannada0012pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 2,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_012",
-    "raw_path": "work/kn/s_kannada0013pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 10,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_013",
-    "raw_path": "work/kn/s_kannada0014pro_raw.pdf",
-    "page_index": 21,
-    "pdf_pages": 43,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_014",
-    "raw_path": "work/kn/s_kannada0015pro_raw.pdf",
-    "page_index": 21,
-    "pdf_pages": 28,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_015",
-    "raw_path": "work/kn/s_kannada0016pro_raw.pdf",
-    "page_index": 499,
-    "pdf_pages": 500,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_016",
-    "raw_path": "work/kn/s_kannada0017pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 66,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_017",
-    "raw_path": "work/kn/s_kannada0018pro_raw.pdf",
-    "page_index": 56,
-    "pdf_pages": 226,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_018",
-    "raw_path": "work/kn/s_kannada0019pro_raw.pdf",
-    "page_index": 84,
-    "pdf_pages": 168,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_019",
-    "raw_path": "work/kn/s_kannada0020pro_raw.pdf",
-    "page_index": 102,
-    "pdf_pages": 136,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_020",
-    "raw_path": "work/kn/s_kannada0021pro_raw.pdf",
-    "page_index": 151,
-    "pdf_pages": 152,
-    "lang": "kn",
-    "batch": "B0"
-  },
-  {
-    "page_id": "kn_021",
-    "raw_path": "work/kn/s_kannada0022pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 144,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_022",
-    "raw_path": "work/kn/s_kannada0023pro_raw.pdf",
-    "page_index": 261,
-    "pdf_pages": 1047,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_023",
-    "raw_path": "work/kn/s_kannada0024pro_raw.pdf",
-    "page_index": 32,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_024",
-    "raw_path": "work/kn/s_kannada0025pro_raw.pdf",
-    "page_index": 66,
-    "pdf_pages": 88,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_025",
-    "raw_path": "work/kn/s_kannada0026pro_raw.pdf",
-    "page_index": 63,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_026",
-    "raw_path": "work/kn/s_kannada0027pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 72,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_027",
-    "raw_path": "work/kn/s_kannada0028pro_raw.pdf",
-    "page_index": 16,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_028",
-    "raw_path": "work/kn/s_kannada0029pro_raw.pdf",
-    "page_index": 32,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_029",
-    "raw_path": "work/kn/s_kannada0030pro_raw.pdf",
-    "page_index": 54,
-    "pdf_pages": 72,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_030",
-    "raw_path": "work/kn/s_kannada0031pro_raw.pdf",
-    "page_index": 79,
-    "pdf_pages": 80,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_031",
-    "raw_path": "work/kn/s_kannada0032pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 80,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_032",
-    "raw_path": "work/kn/s_kannada0033pro_raw.pdf",
-    "page_index": 20,
-    "pdf_pages": 80,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_033",
-    "raw_path": "work/kn/s_kannada0034pro_raw.pdf",
-    "page_index": 52,
-    "pdf_pages": 104,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_034",
-    "raw_path": "work/kn/s_kannada0035pro_raw.pdf",
-    "page_index": 99,
-    "pdf_pages": 133,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_035",
-    "raw_path": "work/kn/s_kannada0036pro_raw.pdf",
-    "page_index": 132,
-    "pdf_pages": 133,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_036",
-    "raw_path": "work/kn/s_kannada0037pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 54,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_037",
-    "raw_path": "work/kn/s_kannada0038pro_raw.pdf",
-    "page_index": 108,
-    "pdf_pages": 432,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_038",
-    "raw_path": "work/kn/s_kannada0039pro_raw.pdf",
-    "page_index": 258,
-    "pdf_pages": 516,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_039",
-    "raw_path": "work/kn/s_kannada0040pro_raw.pdf",
-    "page_index": 712,
-    "pdf_pages": 950,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_040",
-    "raw_path": "work/kn/s_kannada0041pro_raw.pdf",
-    "page_index": 106,
-    "pdf_pages": 107,
-    "lang": "kn",
-    "batch": "B1"
-  },
-  {
-    "page_id": "kn_041",
-    "raw_path": "work/kn/s_kannada0001pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_042",
-    "raw_path": "work/kn/s_kannada0002pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_043",
-    "raw_path": "work/kn/s_kannada0003pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_044",
-    "raw_path": "work/kn/s_kannada0004pro_raw.pdf",
-    "page_index": 23,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_045",
-    "raw_path": "work/kn/s_kannada0005pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 16,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_046",
-    "raw_path": "work/kn/s_kannada0006pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 5,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_047",
-    "raw_path": "work/kn/s_kannada0007pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 5,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_048",
-    "raw_path": "work/kn/s_kannada0009pro_raw.pdf",
-    "page_index": 14,
-    "pdf_pages": 19,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_049",
-    "raw_path": "work/kn/s_kannada0010pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 3,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_050",
-    "raw_path": "work/kn/s_kannada0011pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 2,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_051",
-    "raw_path": "work/kn/s_kannada0012pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 2,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_052",
-    "raw_path": "work/kn/s_kannada0013pro_raw.pdf",
-    "page_index": 5,
-    "pdf_pages": 10,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_053",
-    "raw_path": "work/kn/s_kannada0014pro_raw.pdf",
-    "page_index": 32,
-    "pdf_pages": 43,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_054",
-    "raw_path": "work/kn/s_kannada0015pro_raw.pdf",
-    "page_index": 27,
-    "pdf_pages": 28,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_055",
-    "raw_path": "work/kn/s_kannada0016pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 500,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_056",
-    "raw_path": "work/kn/s_kannada0017pro_raw.pdf",
-    "page_index": 16,
-    "pdf_pages": 66,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_057",
-    "raw_path": "work/kn/s_kannada0018pro_raw.pdf",
-    "page_index": 113,
-    "pdf_pages": 226,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_058",
-    "raw_path": "work/kn/s_kannada0019pro_raw.pdf",
-    "page_index": 126,
-    "pdf_pages": 168,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_059",
-    "raw_path": "work/kn/s_kannada0020pro_raw.pdf",
-    "page_index": 135,
-    "pdf_pages": 136,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_060",
-    "raw_path": "work/kn/s_kannada0021pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 152,
-    "lang": "kn",
-    "batch": "B2"
-  },
-  {
-    "page_id": "kn_061",
-    "raw_path": "work/kn/s_kannada0022pro_raw.pdf",
-    "page_index": 36,
-    "pdf_pages": 144,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_062",
-    "raw_path": "work/kn/s_kannada0023pro_raw.pdf",
-    "page_index": 523,
-    "pdf_pages": 1047,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_063",
-    "raw_path": "work/kn/s_kannada0024pro_raw.pdf",
-    "page_index": 48,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_064",
-    "raw_path": "work/kn/s_kannada0025pro_raw.pdf",
-    "page_index": 87,
-    "pdf_pages": 88,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_065",
-    "raw_path": "work/kn/s_kannada0026pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_066",
-    "raw_path": "work/kn/s_kannada0027pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 72,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_067",
-    "raw_path": "work/kn/s_kannada0028pro_raw.pdf",
-    "page_index": 32,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_068",
-    "raw_path": "work/kn/s_kannada0029pro_raw.pdf",
-    "page_index": 48,
-    "pdf_pages": 64,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_069",
-    "raw_path": "work/kn/s_kannada0030pro_raw.pdf",
-    "page_index": 71,
-    "pdf_pages": 72,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_070",
-    "raw_path": "work/kn/s_kannada0031pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 80,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_071",
-    "raw_path": "work/kn/s_kannada0032pro_raw.pdf",
-    "page_index": 20,
-    "pdf_pages": 80,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_072",
-    "raw_path": "work/kn/s_kannada0033pro_raw.pdf",
-    "page_index": 40,
-    "pdf_pages": 80,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_073",
-    "raw_path": "work/kn/s_kannada0034pro_raw.pdf",
-    "page_index": 78,
-    "pdf_pages": 104,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_074",
-    "raw_path": "work/kn/s_kannada0035pro_raw.pdf",
-    "page_index": 132,
-    "pdf_pages": 133,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_075",
-    "raw_path": "work/kn/s_kannada0036pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 133,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_076",
-    "raw_path": "work/kn/s_kannada0037pro_raw.pdf",
-    "page_index": 13,
-    "pdf_pages": 54,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_077",
-    "raw_path": "work/kn/s_kannada0038pro_raw.pdf",
-    "page_index": 216,
-    "pdf_pages": 432,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_078",
-    "raw_path": "work/kn/s_kannada0039pro_raw.pdf",
-    "page_index": 387,
-    "pdf_pages": 516,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_079",
-    "raw_path": "work/kn/s_kannada0040pro_raw.pdf",
-    "page_index": 949,
-    "pdf_pages": 950,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_080",
-    "raw_path": "work/kn/s_kannada0041pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 107,
-    "lang": "kn",
-    "batch": "B3"
-  },
-  {
-    "page_id": "kn_081",
-    "raw_path": "work/kn/s_kannada0001pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_082",
-    "raw_path": "work/kn/s_kannada0002pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_083",
-    "raw_path": "work/kn/s_kannada0003pro_raw.pdf",
-    "page_index": 23,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_084",
-    "raw_path": "work/kn/s_kannada0004pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 24,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_085",
-    "raw_path": "work/kn/s_kannada0005pro_raw.pdf",
-    "page_index": 4,
-    "pdf_pages": 16,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_086",
-    "raw_path": "work/kn/s_kannada0006pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 5,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_087",
-    "raw_path": "work/kn/s_kannada0007pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 5,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_088",
-    "raw_path": "work/kn/s_kannada0009pro_raw.pdf",
-    "page_index": 18,
-    "pdf_pages": 19,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_089",
-    "raw_path": "work/kn/s_kannada0010pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 3,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_090",
-    "raw_path": "work/kn/s_kannada0013pro_raw.pdf",
-    "page_index": 9,
-    "pdf_pages": 10,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_091",
-    "raw_path": "work/kn/s_kannada0014pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 43,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_092",
-    "raw_path": "work/kn/s_kannada0015pro_raw.pdf",
-    "page_index": 7,
-    "pdf_pages": 28,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_093",
-    "raw_path": "work/kn/s_kannada0016pro_raw.pdf",
-    "page_index": 250,
-    "pdf_pages": 500,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_094",
-    "raw_path": "work/kn/s_kannada0017pro_raw.pdf",
-    "page_index": 49,
-    "pdf_pages": 66,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_095",
-    "raw_path": "work/kn/s_kannada0018pro_raw.pdf",
-    "page_index": 225,
-    "pdf_pages": 226,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_096",
-    "raw_path": "work/kn/s_kannada0019pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 168,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_097",
-    "raw_path": "work/kn/s_kannada0020pro_raw.pdf",
-    "page_index": 34,
-    "pdf_pages": 136,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_098",
-    "raw_path": "work/kn/s_kannada0021pro_raw.pdf",
-    "page_index": 76,
-    "pdf_pages": 152,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_099",
-    "raw_path": "work/kn/s_kannada0022pro_raw.pdf",
-    "page_index": 108,
-    "pdf_pages": 144,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "kn_100",
-    "raw_path": "work/kn/s_kannada0023pro_raw.pdf",
-    "page_index": 1046,
-    "pdf_pages": 1047,
-    "lang": "kn",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_001",
-    "raw_path": "work/ml/s_malayalam0001pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 3,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_002",
-    "raw_path": "work/ml/s_malayalam0002pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 3,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_003",
-    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
-    "page_index": 7,
-    "pdf_pages": 15,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_004",
-    "raw_path": "work/ml/s_malayalam0005pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_005",
-    "raw_path": "work/ml/s_malayalam0006pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_006",
-    "raw_path": "work/ml/s_malayalam0007pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_007",
-    "raw_path": "work/ml/s_malayalam0008pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_008",
-    "raw_path": "work/ml/s_malayalam0009pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_009",
-    "raw_path": "work/ml/s_malayalam0010pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_010",
-    "raw_path": "work/ml/s_malayalam0011pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_011",
-    "raw_path": "work/ml/s_malayalam0012pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_012",
-    "raw_path": "work/ml/s_malayalam0013pro_raw.png",
-    "page_index": 0,
-    "pdf_pages": 1,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_013",
-    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
-    "page_index": 16,
-    "pdf_pages": 32,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_014",
-    "raw_path": "work/ml/s_malayalam0015pro_raw.pdf",
-    "page_index": 89,
-    "pdf_pages": 119,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_015",
-    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
-    "page_index": 240,
-    "pdf_pages": 241,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_016",
-    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 64,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_017",
-    "raw_path": "work/ml/s_malayalam0018pro_raw.pdf",
-    "page_index": 13,
-    "pdf_pages": 52,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_018",
-    "raw_path": "work/ml/s_malayalam0019pro_raw.pdf",
-    "page_index": 94,
-    "pdf_pages": 188,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_019",
-    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 9,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_020",
-    "raw_path": "work/ml/s_malayalam0021pro_raw.pdf",
-    "page_index": 461,
-    "pdf_pages": 462,
-    "lang": "ml",
-    "batch": "B0"
-  },
-  {
-    "page_id": "ml_021",
-    "raw_path": "work/ml/s_malayalam0022pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 138,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_022",
-    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
-    "page_index": 12,
-    "pdf_pages": 48,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_023",
-    "raw_path": "work/ml/s_malayalam0024pro_raw.pdf",
-    "page_index": 157,
-    "pdf_pages": 314,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_024",
-    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
-    "page_index": 154,
-    "pdf_pages": 206,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_025",
-    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
-    "page_index": 199,
-    "pdf_pages": 200,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_026",
-    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 114,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_027",
-    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
-    "page_index": 31,
-    "pdf_pages": 124,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_028",
-    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 7,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_029",
-    "raw_path": "work/ml/s_malayalam0001pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 3,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_030",
-    "raw_path": "work/ml/s_malayalam0002pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 3,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_031",
-    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 15,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_032",
-    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
-    "page_index": 8,
-    "pdf_pages": 32,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_033",
-    "raw_path": "work/ml/s_malayalam0015pro_raw.pdf",
-    "page_index": 59,
-    "pdf_pages": 119,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_034",
-    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
-    "page_index": 180,
-    "pdf_pages": 241,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_035",
-    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
-    "page_index": 63,
-    "pdf_pages": 64,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_036",
-    "raw_path": "work/ml/s_malayalam0018pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 52,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_037",
-    "raw_path": "work/ml/s_malayalam0019pro_raw.pdf",
-    "page_index": 47,
-    "pdf_pages": 188,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_038",
-    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
-    "page_index": 4,
-    "pdf_pages": 9,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_039",
-    "raw_path": "work/ml/s_malayalam0021pro_raw.pdf",
-    "page_index": 346,
-    "pdf_pages": 462,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_040",
-    "raw_path": "work/ml/s_malayalam0022pro_raw.pdf",
-    "page_index": 137,
-    "pdf_pages": 138,
-    "lang": "ml",
-    "batch": "B1"
-  },
-  {
-    "page_id": "ml_041",
-    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 48,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_042",
-    "raw_path": "work/ml/s_malayalam0024pro_raw.pdf",
-    "page_index": 78,
-    "pdf_pages": 314,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_043",
-    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
-    "page_index": 103,
-    "pdf_pages": 206,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_044",
-    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
-    "page_index": 150,
-    "pdf_pages": 200,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_045",
-    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
-    "page_index": 113,
-    "pdf_pages": 114,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_046",
-    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 124,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_047",
-    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
-    "page_index": 1,
-    "pdf_pages": 7,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_048",
-    "raw_path": "work/ml/s_malayalam0001pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 3,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_049",
-    "raw_path": "work/ml/s_malayalam0002pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 3,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_050",
-    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
-    "page_index": 14,
-    "pdf_pages": 15,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_051",
-    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 32,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_052",
-    "raw_path": "work/ml/s_malayalam0015pro_raw.pdf",
-    "page_index": 29,
-    "pdf_pages": 119,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_053",
-    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
-    "page_index": 120,
-    "pdf_pages": 241,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_054",
-    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
-    "page_index": 48,
-    "pdf_pages": 64,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_055",
-    "raw_path": "work/ml/s_malayalam0018pro_raw.pdf",
-    "page_index": 51,
-    "pdf_pages": 52,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_056",
-    "raw_path": "work/ml/s_malayalam0019pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 188,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_057",
-    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
-    "page_index": 2,
-    "pdf_pages": 9,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_058",
-    "raw_path": "work/ml/s_malayalam0021pro_raw.pdf",
-    "page_index": 231,
-    "pdf_pages": 462,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_059",
-    "raw_path": "work/ml/s_malayalam0022pro_raw.pdf",
-    "page_index": 103,
-    "pdf_pages": 138,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_060",
-    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
-    "page_index": 47,
-    "pdf_pages": 48,
-    "lang": "ml",
-    "batch": "B2"
-  },
-  {
-    "page_id": "ml_061",
-    "raw_path": "work/ml/s_malayalam0024pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 314,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_062",
-    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
-    "page_index": 51,
-    "pdf_pages": 206,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_063",
-    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
-    "page_index": 100,
-    "pdf_pages": 200,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_064",
-    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
-    "page_index": 85,
-    "pdf_pages": 114,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_065",
-    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
-    "page_index": 123,
-    "pdf_pages": 124,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_066",
-    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 7,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_067",
-    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
-    "page_index": 3,
-    "pdf_pages": 15,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_068",
-    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
-    "page_index": 24,
-    "pdf_pages": 32,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_069",
-    "raw_path": "work/ml/s_malayalam0015pro_raw.pdf",
-    "page_index": 118,
-    "pdf_pages": 119,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_070",
-    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 241,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_071",
-    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
-    "page_index": 16,
-    "pdf_pages": 64,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_072",
-    "raw_path": "work/ml/s_malayalam0018pro_raw.pdf",
-    "page_index": 26,
-    "pdf_pages": 52,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_073",
-    "raw_path": "work/ml/s_malayalam0019pro_raw.pdf",
-    "page_index": 141,
-    "pdf_pages": 188,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_074",
-    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
-    "page_index": 8,
-    "pdf_pages": 9,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_075",
-    "raw_path": "work/ml/s_malayalam0021pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 462,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_076",
-    "raw_path": "work/ml/s_malayalam0022pro_raw.pdf",
-    "page_index": 34,
-    "pdf_pages": 138,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_077",
-    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
-    "page_index": 24,
-    "pdf_pages": 48,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_078",
-    "raw_path": "work/ml/s_malayalam0024pro_raw.pdf",
-    "page_index": 235,
-    "pdf_pages": 314,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_079",
-    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
-    "page_index": 205,
-    "pdf_pages": 206,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_080",
-    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 200,
-    "lang": "ml",
-    "batch": "B3"
-  },
-  {
-    "page_id": "ml_081",
-    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
-    "page_index": 28,
-    "pdf_pages": 114,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_082",
-    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
-    "page_index": 62,
-    "pdf_pages": 124,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_083",
-    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
-    "page_index": 5,
-    "pdf_pages": 7,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_084",
-    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
-    "page_index": 11,
-    "pdf_pages": 15,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_085",
-    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
-    "page_index": 31,
-    "pdf_pages": 32,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_086",
-    "raw_path": "work/ml/s_malayalam0015pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 119,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_087",
-    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
-    "page_index": 60,
-    "pdf_pages": 241,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_088",
-    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
-    "page_index": 32,
-    "pdf_pages": 64,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_089",
-    "raw_path": "work/ml/s_malayalam0018pro_raw.pdf",
-    "page_index": 39,
-    "pdf_pages": 52,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_090",
-    "raw_path": "work/ml/s_malayalam0019pro_raw.pdf",
-    "page_index": 187,
-    "pdf_pages": 188,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_091",
-    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 9,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_092",
-    "raw_path": "work/ml/s_malayalam0021pro_raw.pdf",
-    "page_index": 115,
-    "pdf_pages": 462,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_093",
-    "raw_path": "work/ml/s_malayalam0022pro_raw.pdf",
-    "page_index": 69,
-    "pdf_pages": 138,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_094",
-    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
-    "page_index": 36,
-    "pdf_pages": 48,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_095",
-    "raw_path": "work/ml/s_malayalam0024pro_raw.pdf",
-    "page_index": 313,
-    "pdf_pages": 314,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_096",
-    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
-    "page_index": 0,
-    "pdf_pages": 206,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_097",
-    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
-    "page_index": 50,
-    "pdf_pages": 200,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_098",
-    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
-    "page_index": 57,
-    "pdf_pages": 114,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_099",
-    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
-    "page_index": 93,
-    "pdf_pages": 124,
-    "lang": "ml",
-    "batch": "B4"
-  },
-  {
-    "page_id": "ml_100",
-    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
-    "page_index": 6,
-    "pdf_pages": 7,
-    "lang": "ml",
-    "batch": "B4"
-  }
+ {
+  "page_id": "te_001",
+  "raw_path": "Datasets/te/s_telugu0001pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 4,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1958,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_002",
+  "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+  "page_index": 4,
+  "pdf_pages": 16,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1337,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_003",
+  "raw_path": "Datasets/te/s_telugu0003pro_raw.pdf",
+  "page_index": 9,
+  "pdf_pages": 19,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 637,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_004",
+  "raw_path": "Datasets/te/s_telugu0004pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 16,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 847,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_005",
+  "raw_path": "Datasets/te/s_telugu0005pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 19,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1049,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_006",
+  "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 16,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 1553,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_007",
+  "raw_path": "Datasets/te/s_telugu0007pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 7,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 952,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_008",
+  "raw_path": "Datasets/te/s_telugu0008pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 7,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 751,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_009",
+  "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+  "page_index": 27,
+  "pdf_pages": 36,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 1659,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_010",
+  "raw_path": "Datasets/te/s_telugu0010pro_raw.pdf",
+  "page_index": 63,
+  "pdf_pages": 64,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 102,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_011",
+  "raw_path": "Datasets/te/s_telugu0011pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 74,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 143,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_012",
+  "raw_path": "Datasets/te/s_telugu0012pro_raw.pdf",
+  "page_index": 47,
+  "pdf_pages": 188,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 1734,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_013",
+  "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+  "page_index": 32,
+  "pdf_pages": 64,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 379,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_014",
+  "raw_path": "Datasets/te/s_telugu0014pro_raw.pdf",
+  "page_index": 49,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 709,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_015",
+  "raw_path": "Datasets/te/s_telugu0015pro_raw.pdf",
+  "page_index": 155,
+  "pdf_pages": 156,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 294,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_016",
+  "raw_path": "Datasets/te/s_telugu0016pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 132,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 104,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_017",
+  "raw_path": "Datasets/te/s_telugu0017pro_raw.pdf",
+  "page_index": 47,
+  "pdf_pages": 188,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 908,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_018",
+  "raw_path": "Datasets/te/s_telugu0018pro_raw.pdf",
+  "page_index": 90,
+  "pdf_pages": 180,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1228,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_019",
+  "raw_path": "Datasets/te/s_telugu0019pro_raw.pdf",
+  "page_index": 93,
+  "pdf_pages": 124,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1426,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_020",
+  "raw_path": "Datasets/te/s_telugu0020pro_raw.pdf",
+  "page_index": 85,
+  "pdf_pages": 86,
+  "lang": "te",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 202,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_021",
+  "raw_path": "Datasets/te/s_telugu0021pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 112,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 192,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_022",
+  "raw_path": "Datasets/te/s_telugu0022pro_raw.pdf",
+  "page_index": 20,
+  "pdf_pages": 82,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 968,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_023",
+  "raw_path": "Datasets/te/s_telugu0023pro_raw.pdf",
+  "page_index": 74,
+  "pdf_pages": 148,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 1652,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_024",
+  "raw_path": "Datasets/te/s_telugu0024pro_raw.pdf",
+  "page_index": 36,
+  "pdf_pages": 48,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 285,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_025",
+  "raw_path": "Datasets/te/s_telugu0025pro_raw.pdf",
+  "page_index": 86,
+  "pdf_pages": 87,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 159,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_026",
+  "raw_path": "Datasets/te/s_telugu0026pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 135,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_027",
+  "raw_path": "Datasets/te/s_telugu0027pro_raw.pdf",
+  "page_index": 29,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 290,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_028",
+  "raw_path": "Datasets/te/s_telugu0028pro_raw.pdf",
+  "page_index": 74,
+  "pdf_pages": 148,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 1857,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_029",
+  "raw_path": "Datasets/te/s_telugu0029pro_raw.pdf",
+  "page_index": 105,
+  "pdf_pages": 140,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 1306,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_030",
+  "raw_path": "Datasets/te/s_telugu0030pro_raw.pdf",
+  "page_index": 91,
+  "pdf_pages": 92,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 396,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_031",
+  "raw_path": "Datasets/te/s_telugu0031pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 92,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 136,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_032",
+  "raw_path": "Datasets/te/s_telugu0032pro_raw.pdf",
+  "page_index": 31,
+  "pdf_pages": 124,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 683,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_033",
+  "raw_path": "Datasets/te/s_telugu0033pro_raw.pdf",
+  "page_index": 48,
+  "pdf_pages": 96,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 471,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_034",
+  "raw_path": "Datasets/te/s_telugu0034pro_raw.pdf",
+  "page_index": 75,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 1116,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_035",
+  "raw_path": "Datasets/te/s_telugu0035pro_raw.pdf",
+  "page_index": 99,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 453,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_036",
+  "raw_path": "Datasets/te/s_telugu0036pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 140,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 105,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_037",
+  "raw_path": "Datasets/te/s_telugu0037pro_raw.pdf",
+  "page_index": 27,
+  "pdf_pages": 108,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 1387,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_038",
+  "raw_path": "Datasets/te/s_telugu0038pro_raw.pdf",
+  "page_index": 46,
+  "pdf_pages": 92,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 2200,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_039",
+  "raw_path": "Datasets/te/s_telugu0039pro_raw.pdf",
+  "page_index": 75,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Telugu",
+  "l1_chars": 439,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_040",
+  "raw_path": "Datasets/te/s_telugu0040pro_raw.pdf",
+  "page_index": 139,
+  "pdf_pages": 140,
+  "lang": "te",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 209,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_041",
+  "raw_path": "Datasets/te/s_telugu0041pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1023,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_042",
+  "raw_path": "Datasets/te/s_telugu0042pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 50,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 997,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_043",
+  "raw_path": "Datasets/te/s_telugu0043pro_raw.pdf",
+  "page_index": 33,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 745,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_044",
+  "raw_path": "Datasets/te/s_telugu0044pro_raw.pdf",
+  "page_index": 37,
+  "pdf_pages": 50,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1753,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_045",
+  "raw_path": "Datasets/te/s_telugu0045pro_raw.pdf",
+  "page_index": 147,
+  "pdf_pages": 148,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 143,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_046",
+  "raw_path": "Datasets/te/s_telugu0046pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 57,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_047",
+  "raw_path": "Datasets/te/s_telugu0047pro_raw.pdf",
+  "page_index": 24,
+  "pdf_pages": 98,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 817,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_048",
+  "raw_path": "Datasets/te/s_telugu0048pro_raw.pdf",
+  "page_index": 50,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 983,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_049",
+  "raw_path": "Datasets/te/s_telugu0049pro_raw.pdf",
+  "page_index": 78,
+  "pdf_pages": 104,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 1124,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_050",
+  "raw_path": "Datasets/te/s_telugu0050pro_raw.pdf",
+  "page_index": 99,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 1148,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_051",
+  "raw_path": "Datasets/te/s_telugu0051pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 124,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 69,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_052",
+  "raw_path": "Datasets/te/s_telugu0052pro_raw.pdf",
+  "page_index": 36,
+  "pdf_pages": 144,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 1906,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_053",
+  "raw_path": "Datasets/te/s_telugu0053pro_raw.pdf",
+  "page_index": 70,
+  "pdf_pages": 140,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 1820,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_054",
+  "raw_path": "Datasets/te/s_telugu0054pro_raw.pdf",
+  "page_index": 87,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 836,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_055",
+  "raw_path": "Datasets/te/s_telugu0055pro_raw.pdf",
+  "page_index": 171,
+  "pdf_pages": 172,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 136,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_056",
+  "raw_path": "Datasets/te/s_telugu0056pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 50,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1023,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_057",
+  "raw_path": "Datasets/te/s_telugu0057pro_raw.pdf",
+  "page_index": 16,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 885,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_058",
+  "raw_path": "Datasets/te/s_telugu0058pro_raw.pdf",
+  "page_index": 62,
+  "pdf_pages": 124,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 1386,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_059",
+  "raw_path": "Datasets/te/s_telugu0059pro_raw.pdf",
+  "page_index": 87,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 1638,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_060",
+  "raw_path": "Datasets/te/s_telugu0060pro_raw.pdf",
+  "page_index": 115,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B2",
+  "dominant_script": "Telugu",
+  "l1_chars": 159,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_061",
+  "raw_path": "Datasets/te/s_telugu0061pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 92,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 705,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_062",
+  "raw_path": "Datasets/te/s_telugu0062pro_raw.pdf",
+  "page_index": 38,
+  "pdf_pages": 152,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2583,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_063",
+  "raw_path": "Datasets/te/s_telugu0063pro_raw.pdf",
+  "page_index": 33,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1631,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_064",
+  "raw_path": "Datasets/te/s_telugu0064pro_raw.pdf",
+  "page_index": 43,
+  "pdf_pages": 58,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1214,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_065",
+  "raw_path": "Datasets/te/s_telugu0065pro_raw.pdf",
+  "page_index": 65,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Telugu",
+  "l1_chars": 212,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_066",
+  "raw_path": "Datasets/te/s_telugu0066pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 58,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 76,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_067",
+  "raw_path": "Datasets/te/s_telugu0067pro_raw.pdf",
+  "page_index": 29,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 5392,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_068",
+  "raw_path": "Datasets/te/s_telugu0068pro_raw.pdf",
+  "page_index": 29,
+  "pdf_pages": 58,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Telugu",
+  "l1_chars": 2621,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_069",
+  "raw_path": "Datasets/te/s_telugu0069pro_raw.pdf",
+  "page_index": 43,
+  "pdf_pages": 58,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 950,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_070",
+  "raw_path": "Datasets/te/s_telugu0070pro_raw.pdf",
+  "page_index": 99,
+  "pdf_pages": 100,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Telugu",
+  "l1_chars": 211,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_071",
+  "raw_path": "Datasets/te/s_telugu0071pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 735,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_072",
+  "raw_path": "Datasets/te/s_telugu0072pro_raw.pdf",
+  "page_index": 33,
+  "pdf_pages": 132,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1208,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_073",
+  "raw_path": "Datasets/te/s_telugu0073pro_raw.pdf",
+  "page_index": 44,
+  "pdf_pages": 88,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 3892,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_074",
+  "raw_path": "Datasets/te/s_telugu0074pro_raw.pdf",
+  "page_index": 111,
+  "pdf_pages": 148,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2698,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_075",
+  "raw_path": "Datasets/te/s_telugu0075pro_raw.pdf",
+  "page_index": 65,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1354,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_076",
+  "raw_path": "Datasets/te/s_telugu0076pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1354,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_077",
+  "raw_path": "Datasets/te/s_telugu0077pro_raw.pdf",
+  "page_index": 37,
+  "pdf_pages": 148,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1667,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_078",
+  "raw_path": "Datasets/te/s_telugu0078pro_raw.pdf",
+  "page_index": 74,
+  "pdf_pages": 148,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1884,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_079",
+  "raw_path": "Datasets/te/s_telugu0079pro_raw.pdf",
+  "page_index": 105,
+  "pdf_pages": 140,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1158,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_080",
+  "raw_path": "Datasets/te/s_telugu0080pro_raw.pdf",
+  "page_index": 127,
+  "pdf_pages": 128,
+  "lang": "te",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 675,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_081",
+  "raw_path": "Datasets/te/s_telugu0081pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 108,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 71,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_082",
+  "raw_path": "Datasets/te/s_telugu0082pro_raw.pdf",
+  "page_index": 29,
+  "pdf_pages": 116,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1757,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_083",
+  "raw_path": "Datasets/te/s_telugu0083pro_raw.pdf",
+  "page_index": 114,
+  "pdf_pages": 228,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 2888,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_084",
+  "raw_path": "Datasets/te/s_telugu0084pro_raw.pdf",
+  "page_index": 99,
+  "pdf_pages": 132,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1953,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_085",
+  "raw_path": "Datasets/te/s_telugu0001pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 4,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 1936,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_086",
+  "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 16,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 2886,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_087",
+  "raw_path": "Datasets/te/s_telugu0003pro_raw.pdf",
+  "page_index": 4,
+  "pdf_pages": 19,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 476,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_088",
+  "raw_path": "Datasets/te/s_telugu0004pro_raw.pdf",
+  "page_index": 8,
+  "pdf_pages": 16,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 716,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_089",
+  "raw_path": "Datasets/te/s_telugu0005pro_raw.pdf",
+  "page_index": 14,
+  "pdf_pages": 19,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 594,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_090",
+  "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+  "page_index": 15,
+  "pdf_pages": 16,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 50,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_091",
+  "raw_path": "Datasets/te/s_telugu0007pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 7,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 1734,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_092",
+  "raw_path": "Datasets/te/s_telugu0008pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 7,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 2080,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_093",
+  "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 36,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 3249,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_094",
+  "raw_path": "Datasets/te/s_telugu0010pro_raw.pdf",
+  "page_index": 48,
+  "pdf_pages": 64,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1013,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_095",
+  "raw_path": "Datasets/te/s_telugu0011pro_raw.pdf",
+  "page_index": 73,
+  "pdf_pages": 74,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 197,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_096",
+  "raw_path": "Datasets/te/s_telugu0012pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 188,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 66,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_097",
+  "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+  "page_index": 16,
+  "pdf_pages": 64,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 4938,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "te_098",
+  "raw_path": "Datasets/te/s_telugu0014pro_raw.pdf",
+  "page_index": 33,
+  "pdf_pages": 66,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1642,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_099",
+  "raw_path": "Datasets/te/s_telugu0015pro_raw.pdf",
+  "page_index": 117,
+  "pdf_pages": 156,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 2519,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "te_100",
+  "raw_path": "Datasets/te/s_telugu0016pro_raw.pdf",
+  "page_index": 131,
+  "pdf_pages": 132,
+  "lang": "te",
+  "batch": "B4",
+  "dominant_script": "Telugu",
+  "l1_chars": 3325,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_001",
+  "raw_path": "Datasets/ta/s_tamil0001pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 1545,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_002",
+  "raw_path": "Datasets/ta/s_tamil0002pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 902,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_003",
+  "raw_path": "Datasets/ta/s_tamil0003pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 395,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_004",
+  "raw_path": "Datasets/ta/s_tamil0004pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 594,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_005",
+  "raw_path": "Datasets/ta/s_tamil0005pro_raw.pdf",
+  "page_index": 11,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 1173,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_006",
+  "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 1688,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_007",
+  "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 15,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 701,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_008",
+  "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 7,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 1330,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_009",
+  "raw_path": "Datasets/ta/s_tamil0009pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 363,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_010",
+  "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+  "page_index": 13,
+  "pdf_pages": 14,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 845,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_011",
+  "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 15,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 1097,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_012",
+  "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_013",
+  "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+  "page_index": 13,
+  "pdf_pages": 27,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1348,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_014",
+  "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+  "page_index": 13,
+  "pdf_pages": 18,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Devanagari",
+  "l1_chars": 2029,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_015",
+  "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+  "page_index": 129,
+  "pdf_pages": 130,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1141,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_016",
+  "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 157,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 54,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_017",
+  "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+  "page_index": 4,
+  "pdf_pages": 18,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Devanagari",
+  "l1_chars": 2598,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_018",
+  "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+  "page_index": 8,
+  "pdf_pages": 16,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Devanagari",
+  "l1_chars": 607,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_019",
+  "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+  "page_index": 210,
+  "pdf_pages": 280,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 3218,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_020",
+  "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+  "page_index": 367,
+  "pdf_pages": 368,
+  "lang": "ta",
+  "batch": "B0",
+  "dominant_script": "Tamil",
+  "l1_chars": 2215,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_021",
+  "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 414,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_022",
+  "raw_path": "Datasets/ta/s_tamil0022pro_raw.pdf",
+  "page_index": 68,
+  "pdf_pages": 272,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 1866,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_023",
+  "raw_path": "Datasets/ta/s_tamil0023pro_raw.pdf",
+  "page_index": 160,
+  "pdf_pages": 320,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 1933,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_024",
+  "raw_path": "Datasets/ta/s_tamil0024pro_raw.pdf",
+  "page_index": 234,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 3698,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_025",
+  "raw_path": "Datasets/ta/s_tamil0025pro_raw.pdf",
+  "page_index": 335,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 98,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_026",
+  "raw_path": "Datasets/ta/s_tamil0026pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 291,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_027",
+  "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+  "page_index": 82,
+  "pdf_pages": 328,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 960,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_028",
+  "raw_path": "Datasets/ta/s_tamil0028pro_raw.pdf",
+  "page_index": 172,
+  "pdf_pages": 344,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 1612,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_029",
+  "raw_path": "Datasets/ta/s_tamil0029pro_raw.pdf",
+  "page_index": 216,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 3600,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_030",
+  "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+  "page_index": 327,
+  "pdf_pages": 328,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 3356,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_031",
+  "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 360,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 276,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_032",
+  "raw_path": "Datasets/ta/s_tamil0032pro_raw.pdf",
+  "page_index": 84,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 2456,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_033",
+  "raw_path": "Datasets/ta/s_tamil0033pro_raw.pdf",
+  "page_index": 120,
+  "pdf_pages": 240,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 3295,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_034",
+  "raw_path": "Datasets/ta/s_tamil0034pro_raw.pdf",
+  "page_index": 174,
+  "pdf_pages": 232,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 3040,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_035",
+  "raw_path": "Datasets/ta/s_tamil0035pro_raw.pdf",
+  "page_index": 311,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 74,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_036",
+  "raw_path": "Datasets/ta/s_tamil0036pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 272,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 267,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_037",
+  "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+  "page_index": 84,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 1660,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_038",
+  "raw_path": "Datasets/ta/s_tamil0038pro_raw.pdf",
+  "page_index": 144,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 2686,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_039",
+  "raw_path": "Datasets/ta/s_tamil0005pro_raw.pdf",
+  "page_index": 9,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 903,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_040",
+  "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+  "page_index": 11,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B1",
+  "dominant_script": "Tamil",
+  "l1_chars": 673,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_041",
+  "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 15,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 1453,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_042",
+  "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 7,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 1268,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_043",
+  "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+  "page_index": 7,
+  "pdf_pages": 14,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 609,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_044",
+  "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+  "page_index": 11,
+  "pdf_pages": 15,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 864,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_045",
+  "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+  "page_index": 11,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 434,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_046",
+  "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 27,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 515,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_047",
+  "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+  "page_index": 4,
+  "pdf_pages": 18,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 593,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_048",
+  "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+  "page_index": 65,
+  "pdf_pages": 130,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1074,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_049",
+  "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+  "page_index": 117,
+  "pdf_pages": 157,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 2453,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_050",
+  "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+  "page_index": 17,
+  "pdf_pages": 18,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 775,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_051",
+  "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 16,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Devanagari",
+  "l1_chars": 824,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_052",
+  "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+  "page_index": 70,
+  "pdf_pages": 280,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 2051,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_053",
+  "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+  "page_index": 184,
+  "pdf_pages": 368,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 3353,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_054",
+  "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+  "page_index": 216,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 2724,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_055",
+  "raw_path": "Datasets/ta/s_tamil0022pro_raw.pdf",
+  "page_index": 271,
+  "pdf_pages": 272,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 3855,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_056",
+  "raw_path": "Datasets/ta/s_tamil0023pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 320,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 273,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_057",
+  "raw_path": "Datasets/ta/s_tamil0024pro_raw.pdf",
+  "page_index": 78,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 4146,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_058",
+  "raw_path": "Datasets/ta/s_tamil0025pro_raw.pdf",
+  "page_index": 168,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 3401,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_059",
+  "raw_path": "Datasets/ta/s_tamil0026pro_raw.pdf",
+  "page_index": 234,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Tamil",
+  "l1_chars": 2963,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_060",
+  "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+  "page_index": 327,
+  "pdf_pages": 328,
+  "lang": "ta",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 96,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_061",
+  "raw_path": "Datasets/ta/s_tamil0028pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 344,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 315,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_062",
+  "raw_path": "Datasets/ta/s_tamil0029pro_raw.pdf",
+  "page_index": 72,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 1502,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_063",
+  "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+  "page_index": 164,
+  "pdf_pages": 328,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 1364,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_064",
+  "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+  "page_index": 270,
+  "pdf_pages": 360,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 1190,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_065",
+  "raw_path": "Datasets/ta/s_tamil0032pro_raw.pdf",
+  "page_index": 335,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 3295,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_066",
+  "raw_path": "Datasets/ta/s_tamil0033pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 240,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 349,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_067",
+  "raw_path": "Datasets/ta/s_tamil0034pro_raw.pdf",
+  "page_index": 58,
+  "pdf_pages": 232,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 1541,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_068",
+  "raw_path": "Datasets/ta/s_tamil0035pro_raw.pdf",
+  "page_index": 156,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 3609,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_069",
+  "raw_path": "Datasets/ta/s_tamil0036pro_raw.pdf",
+  "page_index": 204,
+  "pdf_pages": 272,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 2904,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_070",
+  "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+  "page_index": 335,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 100,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_071",
+  "raw_path": "Datasets/ta/s_tamil0038pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 265,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_072",
+  "raw_path": "Datasets/ta/s_tamil0005pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1787,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_073",
+  "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 857,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_074",
+  "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+  "page_index": 11,
+  "pdf_pages": 15,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Tamil",
+  "l1_chars": 965,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_075",
+  "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 7,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2638,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_076",
+  "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 14,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 556,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_077",
+  "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 15,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 3385,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_078",
+  "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 12,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1041,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_079",
+  "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+  "page_index": 20,
+  "pdf_pages": 27,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1381,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_080",
+  "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+  "page_index": 17,
+  "pdf_pages": 18,
+  "lang": "ta",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1651,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_081",
+  "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 130,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1786,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_082",
+  "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+  "page_index": 39,
+  "pdf_pages": 157,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1987,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_083",
+  "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+  "page_index": 9,
+  "pdf_pages": 18,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Devanagari",
+  "l1_chars": 906,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_084",
+  "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 16,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1895,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_085",
+  "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+  "page_index": 279,
+  "pdf_pages": 280,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 3232,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_086",
+  "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 368,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 265,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_087",
+  "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+  "page_index": 72,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 3375,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_088",
+  "raw_path": "Datasets/ta/s_tamil0022pro_raw.pdf",
+  "page_index": 136,
+  "pdf_pages": 272,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 2017,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_089",
+  "raw_path": "Datasets/ta/s_tamil0023pro_raw.pdf",
+  "page_index": 240,
+  "pdf_pages": 320,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 1867,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_090",
+  "raw_path": "Datasets/ta/s_tamil0024pro_raw.pdf",
+  "page_index": 311,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 155,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ta_091",
+  "raw_path": "Datasets/ta/s_tamil0025pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 355,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_092",
+  "raw_path": "Datasets/ta/s_tamil0026pro_raw.pdf",
+  "page_index": 78,
+  "pdf_pages": 312,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 2541,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_093",
+  "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+  "page_index": 164,
+  "pdf_pages": 328,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 1116,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_094",
+  "raw_path": "Datasets/ta/s_tamil0028pro_raw.pdf",
+  "page_index": 258,
+  "pdf_pages": 344,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 1907,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_095",
+  "raw_path": "Datasets/ta/s_tamil0029pro_raw.pdf",
+  "page_index": 287,
+  "pdf_pages": 288,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 2949,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_096",
+  "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 328,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 397,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_097",
+  "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+  "page_index": 90,
+  "pdf_pages": 360,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 1226,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_098",
+  "raw_path": "Datasets/ta/s_tamil0032pro_raw.pdf",
+  "page_index": 168,
+  "pdf_pages": 336,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 2780,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_099",
+  "raw_path": "Datasets/ta/s_tamil0033pro_raw.pdf",
+  "page_index": 180,
+  "pdf_pages": 240,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 1999,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ta_100",
+  "raw_path": "Datasets/ta/s_tamil0034pro_raw.pdf",
+  "page_index": 231,
+  "pdf_pages": 232,
+  "lang": "ta",
+  "batch": "B4",
+  "dominant_script": "Tamil",
+  "l1_chars": 3256,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_001",
+  "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 3751,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_002",
+  "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 2132,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_003",
+  "raw_path": "Datasets/kn/s_kannada0003pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 2089,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_004",
+  "raw_path": "Datasets/kn/s_kannada0004pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 2024,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_005",
+  "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+  "page_index": 15,
+  "pdf_pages": 16,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1442,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_006",
+  "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 5,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1442,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_007",
+  "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 5,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 584,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_008",
+  "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+  "page_index": 9,
+  "pdf_pages": 19,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1802,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_009",
+  "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 3,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 500,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_010",
+  "raw_path": "Datasets/kn/s_kannada0011pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 2,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1800,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_011",
+  "raw_path": "Datasets/kn/s_kannada0012pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 2,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 2152,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_012",
+  "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 10,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 2587,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_013",
+  "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+  "page_index": 21,
+  "pdf_pages": 43,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1444,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_014",
+  "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+  "page_index": 21,
+  "pdf_pages": 28,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 1318,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_015",
+  "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+  "page_index": 499,
+  "pdf_pages": 500,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 369,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_016",
+  "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 66,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 123,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_017",
+  "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+  "page_index": 56,
+  "pdf_pages": 226,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 613,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_018",
+  "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+  "page_index": 84,
+  "pdf_pages": 168,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 562,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_019",
+  "raw_path": "Datasets/kn/s_kannada0020pro_raw.pdf",
+  "page_index": 102,
+  "pdf_pages": 136,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1292,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_020",
+  "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+  "page_index": 151,
+  "pdf_pages": 152,
+  "lang": "kn",
+  "batch": "B0",
+  "dominant_script": "Telugu",
+  "l1_chars": 1085,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_021",
+  "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 144,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 205,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_022",
+  "raw_path": "Datasets/kn/s_kannada0023pro_raw.pdf",
+  "page_index": 261,
+  "pdf_pages": 1047,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 1241,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_023",
+  "raw_path": "Datasets/kn/s_kannada0024pro_raw.pdf",
+  "page_index": 32,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 986,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_024",
+  "raw_path": "Datasets/kn/s_kannada0025pro_raw.pdf",
+  "page_index": 66,
+  "pdf_pages": 88,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 911,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_025",
+  "raw_path": "Datasets/kn/s_kannada0026pro_raw.pdf",
+  "page_index": 63,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 333,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_026",
+  "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 72,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 268,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_027",
+  "raw_path": "Datasets/kn/s_kannada0028pro_raw.pdf",
+  "page_index": 16,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 858,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_028",
+  "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+  "page_index": 32,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 1070,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_029",
+  "raw_path": "Datasets/kn/s_kannada0030pro_raw.pdf",
+  "page_index": 54,
+  "pdf_pages": 72,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 1810,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_030",
+  "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+  "page_index": 79,
+  "pdf_pages": 80,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 876,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_031",
+  "raw_path": "Datasets/kn/s_kannada0032pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 80,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 331,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_032",
+  "raw_path": "Datasets/kn/s_kannada0033pro_raw.pdf",
+  "page_index": 20,
+  "pdf_pages": 80,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 1774,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_033",
+  "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+  "page_index": 52,
+  "pdf_pages": 104,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 1559,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_034",
+  "raw_path": "Datasets/kn/s_kannada0035pro_raw.pdf",
+  "page_index": 99,
+  "pdf_pages": 133,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 1958,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_035",
+  "raw_path": "Datasets/kn/s_kannada0036pro_raw.pdf",
+  "page_index": 132,
+  "pdf_pages": 133,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 419,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_036",
+  "raw_path": "Datasets/kn/s_kannada0037pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 54,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 141,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_037",
+  "raw_path": "Datasets/kn/s_kannada0038pro_raw.pdf",
+  "page_index": 108,
+  "pdf_pages": 432,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 1535,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_038",
+  "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+  "page_index": 258,
+  "pdf_pages": 516,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 741,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_039",
+  "raw_path": "Datasets/kn/s_kannada0040pro_raw.pdf",
+  "page_index": 712,
+  "pdf_pages": 950,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 1533,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_040",
+  "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+  "page_index": 106,
+  "pdf_pages": 107,
+  "lang": "kn",
+  "batch": "B1",
+  "dominant_script": "Kannada",
+  "l1_chars": 672,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_041",
+  "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 186,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_042",
+  "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 2478,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_043",
+  "raw_path": "Datasets/kn/s_kannada0003pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 1792,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_044",
+  "raw_path": "Datasets/kn/s_kannada0004pro_raw.pdf",
+  "page_index": 23,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 1652,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_045",
+  "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 16,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 57,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_046",
+  "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 5,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 1596,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_047",
+  "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 5,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 825,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_048",
+  "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+  "page_index": 14,
+  "pdf_pages": 19,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 1726,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_049",
+  "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 3,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 57,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_050",
+  "raw_path": "Datasets/kn/s_kannada0011pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 2,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 595,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_051",
+  "raw_path": "Datasets/kn/s_kannada0012pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 2,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 795,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_052",
+  "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+  "page_index": 5,
+  "pdf_pages": 10,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 1377,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_053",
+  "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+  "page_index": 32,
+  "pdf_pages": 43,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 2794,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_054",
+  "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+  "page_index": 27,
+  "pdf_pages": 28,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 1763,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_055",
+  "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 500,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 878,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_056",
+  "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+  "page_index": 16,
+  "pdf_pages": 66,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 876,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_057",
+  "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+  "page_index": 113,
+  "pdf_pages": 226,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 867,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_058",
+  "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+  "page_index": 126,
+  "pdf_pages": 168,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 2033,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_059",
+  "raw_path": "Datasets/kn/s_kannada0020pro_raw.pdf",
+  "page_index": 135,
+  "pdf_pages": 136,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 967,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_060",
+  "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 152,
+  "lang": "kn",
+  "batch": "B2",
+  "dominant_script": "Kannada",
+  "l1_chars": 869,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_061",
+  "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+  "page_index": 36,
+  "pdf_pages": 144,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1456,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_062",
+  "raw_path": "Datasets/kn/s_kannada0023pro_raw.pdf",
+  "page_index": 523,
+  "pdf_pages": 1047,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1156,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_063",
+  "raw_path": "Datasets/kn/s_kannada0024pro_raw.pdf",
+  "page_index": 48,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 542,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_064",
+  "raw_path": "Datasets/kn/s_kannada0025pro_raw.pdf",
+  "page_index": 87,
+  "pdf_pages": 88,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 496,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_065",
+  "raw_path": "Datasets/kn/s_kannada0026pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 339,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_066",
+  "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 72,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1038,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_067",
+  "raw_path": "Datasets/kn/s_kannada0028pro_raw.pdf",
+  "page_index": 32,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1081,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_068",
+  "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+  "page_index": 48,
+  "pdf_pages": 64,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2158,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_069",
+  "raw_path": "Datasets/kn/s_kannada0030pro_raw.pdf",
+  "page_index": 71,
+  "pdf_pages": 72,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 92,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_070",
+  "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 80,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 469,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_071",
+  "raw_path": "Datasets/kn/s_kannada0032pro_raw.pdf",
+  "page_index": 20,
+  "pdf_pages": 80,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2172,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_072",
+  "raw_path": "Datasets/kn/s_kannada0033pro_raw.pdf",
+  "page_index": 40,
+  "pdf_pages": 80,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1817,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_073",
+  "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+  "page_index": 78,
+  "pdf_pages": 104,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1904,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_074",
+  "raw_path": "Datasets/kn/s_kannada0035pro_raw.pdf",
+  "page_index": 132,
+  "pdf_pages": 133,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 210,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_075",
+  "raw_path": "Datasets/kn/s_kannada0036pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 133,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2564,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_076",
+  "raw_path": "Datasets/kn/s_kannada0037pro_raw.pdf",
+  "page_index": 13,
+  "pdf_pages": 54,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2698,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_077",
+  "raw_path": "Datasets/kn/s_kannada0038pro_raw.pdf",
+  "page_index": 216,
+  "pdf_pages": 432,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 485,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_078",
+  "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+  "page_index": 387,
+  "pdf_pages": 516,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 1780,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_079",
+  "raw_path": "Datasets/kn/s_kannada0040pro_raw.pdf",
+  "page_index": 949,
+  "pdf_pages": 950,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 182,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_080",
+  "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 107,
+  "lang": "kn",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 625,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_081",
+  "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 61,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_082",
+  "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 2080,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_083",
+  "raw_path": "Datasets/kn/s_kannada0003pro_raw.pdf",
+  "page_index": 23,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 2171,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_084",
+  "raw_path": "Datasets/kn/s_kannada0004pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 24,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 1692,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_085",
+  "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+  "page_index": 4,
+  "pdf_pages": 16,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 61,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_086",
+  "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 5,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 3914,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_087",
+  "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 5,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 1890,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_088",
+  "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+  "page_index": 18,
+  "pdf_pages": 19,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 1047,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_089",
+  "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 3,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 1451,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_090",
+  "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+  "page_index": 9,
+  "pdf_pages": 10,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 3914,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_091",
+  "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 43,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1625,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_092",
+  "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+  "page_index": 7,
+  "pdf_pages": 28,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 2348,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_093",
+  "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+  "page_index": 250,
+  "pdf_pages": 500,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 712,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_094",
+  "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+  "page_index": 49,
+  "pdf_pages": 66,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1129,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_095",
+  "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+  "page_index": 225,
+  "pdf_pages": 226,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 1496,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_096",
+  "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 168,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 861,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_097",
+  "raw_path": "Datasets/kn/s_kannada0020pro_raw.pdf",
+  "page_index": 34,
+  "pdf_pages": 136,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 617,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_098",
+  "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+  "page_index": 76,
+  "pdf_pages": 152,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Kannada",
+  "l1_chars": 883,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "kn_099",
+  "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+  "page_index": 108,
+  "pdf_pages": 144,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 281,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "kn_100",
+  "raw_path": "Datasets/kn/s_kannada0023pro_raw.pdf",
+  "page_index": 1046,
+  "pdf_pages": 1047,
+  "lang": "kn",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1108,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_001",
+  "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 3,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 1942,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_002",
+  "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 3,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1308,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_003",
+  "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+  "page_index": 7,
+  "pdf_pages": 15,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1315,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_004",
+  "raw_path": "Datasets/ml/s_malayalam0005pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1148,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_005",
+  "raw_path": "Datasets/ml/s_malayalam0006pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 572,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_006",
+  "raw_path": "Datasets/ml/s_malayalam0007pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1660,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_007",
+  "raw_path": "Datasets/ml/s_malayalam0008pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2286,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_008",
+  "raw_path": "Datasets/ml/s_malayalam0009pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2336,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_009",
+  "raw_path": "Datasets/ml/s_malayalam0010pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2320,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_010",
+  "raw_path": "Datasets/ml/s_malayalam0011pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2060,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_011",
+  "raw_path": "Datasets/ml/s_malayalam0012pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2064,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_012",
+  "raw_path": "Datasets/ml/s_malayalam0013pro_raw.png",
+  "page_index": 0,
+  "pdf_pages": 1,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2031,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_013",
+  "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+  "page_index": 16,
+  "pdf_pages": 32,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1486,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_014",
+  "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+  "page_index": 89,
+  "pdf_pages": 119,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 465,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_015",
+  "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+  "page_index": 240,
+  "pdf_pages": 241,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 442,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_016",
+  "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 64,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Latin",
+  "l1_chars": 906,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_017",
+  "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+  "page_index": 13,
+  "pdf_pages": 52,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1413,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_018",
+  "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+  "page_index": 94,
+  "pdf_pages": 188,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1233,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_019",
+  "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 9,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1663,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_020",
+  "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+  "page_index": 461,
+  "pdf_pages": 462,
+  "lang": "ml",
+  "batch": "B0",
+  "dominant_script": "Malayalam",
+  "l1_chars": 365,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_021",
+  "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 138,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 138,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_022",
+  "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+  "page_index": 12,
+  "pdf_pages": 48,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1567,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_023",
+  "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+  "page_index": 157,
+  "pdf_pages": 314,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1158,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_024",
+  "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+  "page_index": 154,
+  "pdf_pages": 206,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1233,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_025",
+  "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+  "page_index": 199,
+  "pdf_pages": 200,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 572,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_026",
+  "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 114,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 406,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_027",
+  "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+  "page_index": 31,
+  "pdf_pages": 124,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1207,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_028",
+  "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 7,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1437,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_029",
+  "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 3,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1780,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_030",
+  "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 3,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2069,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_031",
+  "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 15,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1774,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_032",
+  "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+  "page_index": 8,
+  "pdf_pages": 32,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1655,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_033",
+  "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+  "page_index": 59,
+  "pdf_pages": 119,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 935,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_034",
+  "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+  "page_index": 180,
+  "pdf_pages": 241,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2336,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_035",
+  "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+  "page_index": 63,
+  "pdf_pages": 64,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 63,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_036",
+  "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 52,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1129,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_037",
+  "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+  "page_index": 47,
+  "pdf_pages": 188,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1178,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_038",
+  "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+  "page_index": 4,
+  "pdf_pages": 9,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1124,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_039",
+  "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+  "page_index": 346,
+  "pdf_pages": 462,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2284,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_040",
+  "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+  "page_index": 137,
+  "pdf_pages": 138,
+  "lang": "ml",
+  "batch": "B1",
+  "dominant_script": "Latin",
+  "l1_chars": 130,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_041",
+  "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 48,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1308,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_042",
+  "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+  "page_index": 78,
+  "pdf_pages": 314,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1198,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_043",
+  "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+  "page_index": 103,
+  "pdf_pages": 206,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1068,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_044",
+  "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+  "page_index": 150,
+  "pdf_pages": 200,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1377,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_045",
+  "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+  "page_index": 113,
+  "pdf_pages": 114,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 213,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_046",
+  "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 124,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2049,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_047",
+  "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+  "page_index": 1,
+  "pdf_pages": 7,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1126,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_048",
+  "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 3,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1323,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_049",
+  "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 3,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1906,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_050",
+  "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+  "page_index": 14,
+  "pdf_pages": 15,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1648,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_051",
+  "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 32,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1681,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_052",
+  "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+  "page_index": 29,
+  "pdf_pages": 119,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 99,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_053",
+  "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+  "page_index": 120,
+  "pdf_pages": 241,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 666,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_054",
+  "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+  "page_index": 48,
+  "pdf_pages": 64,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 467,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_055",
+  "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+  "page_index": 51,
+  "pdf_pages": 52,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1887,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_056",
+  "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 188,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1028,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_057",
+  "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+  "page_index": 2,
+  "pdf_pages": 9,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1545,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_058",
+  "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+  "page_index": 231,
+  "pdf_pages": 462,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1146,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_059",
+  "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+  "page_index": 103,
+  "pdf_pages": 138,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Malayalam",
+  "l1_chars": 336,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_060",
+  "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+  "page_index": 47,
+  "pdf_pages": 48,
+  "lang": "ml",
+  "batch": "B2",
+  "dominant_script": "Latin",
+  "l1_chars": 379,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_061",
+  "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 314,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_062",
+  "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+  "page_index": 51,
+  "pdf_pages": 206,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 589,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_063",
+  "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+  "page_index": 100,
+  "pdf_pages": 200,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3580,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_064",
+  "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+  "page_index": 85,
+  "pdf_pages": 114,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2249,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_065",
+  "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+  "page_index": 123,
+  "pdf_pages": 124,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_066",
+  "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 7,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_067",
+  "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+  "page_index": 3,
+  "pdf_pages": 15,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2532,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_068",
+  "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+  "page_index": 24,
+  "pdf_pages": 32,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 710,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_069",
+  "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+  "page_index": 118,
+  "pdf_pages": 119,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 434,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_070",
+  "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 241,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 210,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_071",
+  "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+  "page_index": 16,
+  "pdf_pages": 64,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2069,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_072",
+  "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+  "page_index": 26,
+  "pdf_pages": 52,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2359,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_073",
+  "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+  "page_index": 141,
+  "pdf_pages": 188,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3008,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_074",
+  "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+  "page_index": 8,
+  "pdf_pages": 9,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 836,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_075",
+  "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 462,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_076",
+  "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+  "page_index": 34,
+  "pdf_pages": 138,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2911,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_077",
+  "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+  "page_index": 24,
+  "pdf_pages": 48,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2242,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_078",
+  "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+  "page_index": 235,
+  "pdf_pages": 314,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2267,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_079",
+  "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+  "page_index": 205,
+  "pdf_pages": 206,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_080",
+  "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 200,
+  "lang": "ml",
+  "batch": "B3",
+  "dominant_script": "Latin",
+  "l1_chars": 2044,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_081",
+  "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+  "page_index": 28,
+  "pdf_pages": 114,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1111,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_082",
+  "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+  "page_index": 62,
+  "pdf_pages": 124,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1111,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_083",
+  "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+  "page_index": 5,
+  "pdf_pages": 7,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2374,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_084",
+  "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+  "page_index": 11,
+  "pdf_pages": 15,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3879,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_085",
+  "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+  "page_index": 31,
+  "pdf_pages": 32,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 166,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_086",
+  "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 119,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 2096,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_087",
+  "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+  "page_index": 60,
+  "pdf_pages": 241,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 2096,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_088",
+  "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+  "page_index": 32,
+  "pdf_pages": 64,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 1488,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_089",
+  "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+  "page_index": 39,
+  "pdf_pages": 52,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2532,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_090",
+  "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+  "page_index": 187,
+  "pdf_pages": 188,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 681,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_091",
+  "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 9,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3183,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_092",
+  "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+  "page_index": 115,
+  "pdf_pages": 462,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Latin",
+  "l1_chars": 880,
+  "mixed_book_page": true
+ },
+ {
+  "page_id": "ml_093",
+  "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+  "page_index": 69,
+  "pdf_pages": 138,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1997,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_094",
+  "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+  "page_index": 36,
+  "pdf_pages": 48,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1997,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_095",
+  "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+  "page_index": 313,
+  "pdf_pages": 314,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1056,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_096",
+  "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+  "page_index": 0,
+  "pdf_pages": 206,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1992,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_097",
+  "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+  "page_index": 50,
+  "pdf_pages": 200,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2389,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_098",
+  "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+  "page_index": 57,
+  "pdf_pages": 114,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2389,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_099",
+  "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+  "page_index": 93,
+  "pdf_pages": 124,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2389,
+  "mixed_book_page": false
+ },
+ {
+  "page_id": "ml_100",
+  "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+  "page_index": 6,
+  "pdf_pages": 7,
+  "lang": "ml",
+  "batch": "B4",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1865,
+  "mixed_book_page": false
+ }
 ]

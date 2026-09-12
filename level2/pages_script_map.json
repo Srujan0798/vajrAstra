@@ -1,0 +1,2002 @@
+{
+ "te_001": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1958
+ },
+ "te_002": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1337
+ },
+ "te_003": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 637
+ },
+ "te_004": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 847
+ },
+ "te_005": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1049
+ },
+ "te_006": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1553
+ },
+ "te_007": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 952
+ },
+ "te_008": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 751
+ },
+ "te_009": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1659
+ },
+ "te_010": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 102
+ },
+ "te_011": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 143
+ },
+ "te_012": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1734
+ },
+ "te_013": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 379
+ },
+ "te_014": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 709
+ },
+ "te_015": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 294
+ },
+ "te_016": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 104
+ },
+ "te_017": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 908
+ },
+ "te_018": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1228
+ },
+ "te_019": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1426
+ },
+ "te_020": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 202
+ },
+ "te_021": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 192
+ },
+ "te_022": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 968
+ },
+ "te_023": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1652
+ },
+ "te_024": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 285
+ },
+ "te_025": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 159
+ },
+ "te_026": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 135
+ },
+ "te_027": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 290
+ },
+ "te_028": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1857
+ },
+ "te_029": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1306
+ },
+ "te_030": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 396
+ },
+ "te_031": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 136
+ },
+ "te_032": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 683
+ },
+ "te_033": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 471
+ },
+ "te_034": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1116
+ },
+ "te_035": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 453
+ },
+ "te_036": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 105
+ },
+ "te_037": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1387
+ },
+ "te_038": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 2200
+ },
+ "te_039": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 439
+ },
+ "te_040": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 209
+ },
+ "te_041": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1023
+ },
+ "te_042": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 997
+ },
+ "te_043": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 745
+ },
+ "te_044": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1753
+ },
+ "te_045": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 143
+ },
+ "te_046": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 57
+ },
+ "te_047": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 817
+ },
+ "te_048": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 983
+ },
+ "te_049": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1124
+ },
+ "te_050": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1148
+ },
+ "te_051": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 69
+ },
+ "te_052": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1906
+ },
+ "te_053": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1820
+ },
+ "te_054": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 836
+ },
+ "te_055": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 136
+ },
+ "te_056": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1023
+ },
+ "te_057": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 885
+ },
+ "te_058": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1386
+ },
+ "te_059": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1638
+ },
+ "te_060": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 159
+ },
+ "te_061": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 705
+ },
+ "te_062": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 2583
+ },
+ "te_063": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1631
+ },
+ "te_064": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1214
+ },
+ "te_065": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 212
+ },
+ "te_066": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 76
+ },
+ "te_067": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 5392
+ },
+ "te_068": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 2621
+ },
+ "te_069": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 950
+ },
+ "te_070": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 211
+ },
+ "te_071": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 735
+ },
+ "te_072": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1208
+ },
+ "te_073": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 3892
+ },
+ "te_074": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 2698
+ },
+ "te_075": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1354
+ },
+ "te_076": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1354
+ },
+ "te_077": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1667
+ },
+ "te_078": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1884
+ },
+ "te_079": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1158
+ },
+ "te_080": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 675
+ },
+ "te_081": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 71
+ },
+ "te_082": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1757
+ },
+ "te_083": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 2888
+ },
+ "te_084": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1953
+ },
+ "te_085": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1936
+ },
+ "te_086": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 2886
+ },
+ "te_087": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 476
+ },
+ "te_088": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 716
+ },
+ "te_089": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 594
+ },
+ "te_090": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 50
+ },
+ "te_091": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 1734
+ },
+ "te_092": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 2080
+ },
+ "te_093": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 3249
+ },
+ "te_094": {
+  "lang_tag": "te",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1013
+ },
+ "te_095": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 197
+ },
+ "te_096": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 66
+ },
+ "te_097": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 4938
+ },
+ "te_098": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 1642
+ },
+ "te_099": {
+  "lang_tag": "te",
+  "dominant_script": "Latin",
+  "l1_chars": 2519
+ },
+ "te_100": {
+  "lang_tag": "te",
+  "dominant_script": "Telugu",
+  "l1_chars": 3325
+ },
+ "ta_001": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1545
+ },
+ "ta_002": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 902
+ },
+ "ta_003": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 395
+ },
+ "ta_004": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 594
+ },
+ "ta_005": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1173
+ },
+ "ta_006": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 1688
+ },
+ "ta_007": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 701
+ },
+ "ta_008": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1330
+ },
+ "ta_009": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 363
+ },
+ "ta_010": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 845
+ },
+ "ta_011": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1097
+ },
+ "ta_012": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1044
+ },
+ "ta_013": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1348
+ },
+ "ta_014": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 2029
+ },
+ "ta_015": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1141
+ },
+ "ta_016": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 54
+ },
+ "ta_017": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 2598
+ },
+ "ta_018": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 607
+ },
+ "ta_019": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3218
+ },
+ "ta_020": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2215
+ },
+ "ta_021": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 414
+ },
+ "ta_022": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1866
+ },
+ "ta_023": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1933
+ },
+ "ta_024": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3698
+ },
+ "ta_025": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 98
+ },
+ "ta_026": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 291
+ },
+ "ta_027": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 960
+ },
+ "ta_028": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1612
+ },
+ "ta_029": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3600
+ },
+ "ta_030": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3356
+ },
+ "ta_031": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 276
+ },
+ "ta_032": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2456
+ },
+ "ta_033": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3295
+ },
+ "ta_034": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3040
+ },
+ "ta_035": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 74
+ },
+ "ta_036": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 267
+ },
+ "ta_037": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1660
+ },
+ "ta_038": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2686
+ },
+ "ta_039": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 903
+ },
+ "ta_040": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 673
+ },
+ "ta_041": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 1453
+ },
+ "ta_042": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1268
+ },
+ "ta_043": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 609
+ },
+ "ta_044": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 864
+ },
+ "ta_045": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 434
+ },
+ "ta_046": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 515
+ },
+ "ta_047": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 593
+ },
+ "ta_048": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1074
+ },
+ "ta_049": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 2453
+ },
+ "ta_050": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 775
+ },
+ "ta_051": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 824
+ },
+ "ta_052": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2051
+ },
+ "ta_053": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3353
+ },
+ "ta_054": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2724
+ },
+ "ta_055": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3855
+ },
+ "ta_056": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 273
+ },
+ "ta_057": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 4146
+ },
+ "ta_058": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3401
+ },
+ "ta_059": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2963
+ },
+ "ta_060": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 96
+ },
+ "ta_061": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 315
+ },
+ "ta_062": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1502
+ },
+ "ta_063": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1364
+ },
+ "ta_064": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1190
+ },
+ "ta_065": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3295
+ },
+ "ta_066": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 349
+ },
+ "ta_067": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1541
+ },
+ "ta_068": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3609
+ },
+ "ta_069": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2904
+ },
+ "ta_070": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 100
+ },
+ "ta_071": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 265
+ },
+ "ta_072": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 1787
+ },
+ "ta_073": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 857
+ },
+ "ta_074": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 965
+ },
+ "ta_075": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 2638
+ },
+ "ta_076": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 556
+ },
+ "ta_077": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 3385
+ },
+ "ta_078": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1041
+ },
+ "ta_079": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1381
+ },
+ "ta_080": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 1651
+ },
+ "ta_081": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 1786
+ },
+ "ta_082": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 1987
+ },
+ "ta_083": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 906
+ },
+ "ta_084": {
+  "lang_tag": "ta",
+  "dominant_script": "Devanagari",
+  "l1_chars": 1895
+ },
+ "ta_085": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3232
+ },
+ "ta_086": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 265
+ },
+ "ta_087": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3375
+ },
+ "ta_088": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2017
+ },
+ "ta_089": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1867
+ },
+ "ta_090": {
+  "lang_tag": "ta",
+  "dominant_script": "Latin",
+  "l1_chars": 155
+ },
+ "ta_091": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 355
+ },
+ "ta_092": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2541
+ },
+ "ta_093": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1116
+ },
+ "ta_094": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1907
+ },
+ "ta_095": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2949
+ },
+ "ta_096": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 397
+ },
+ "ta_097": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1226
+ },
+ "ta_098": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 2780
+ },
+ "ta_099": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 1999
+ },
+ "ta_100": {
+  "lang_tag": "ta",
+  "dominant_script": "Tamil",
+  "l1_chars": 3256
+ },
+ "kn_001": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 3751
+ },
+ "kn_002": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 2132
+ },
+ "kn_003": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 2089
+ },
+ "kn_004": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 2024
+ },
+ "kn_005": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1442
+ },
+ "kn_006": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1442
+ },
+ "kn_007": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 584
+ },
+ "kn_008": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1802
+ },
+ "kn_009": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 500
+ },
+ "kn_010": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1800
+ },
+ "kn_011": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 2152
+ },
+ "kn_012": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 2587
+ },
+ "kn_013": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1444
+ },
+ "kn_014": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1318
+ },
+ "kn_015": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 369
+ },
+ "kn_016": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 123
+ },
+ "kn_017": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 613
+ },
+ "kn_018": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 562
+ },
+ "kn_019": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1292
+ },
+ "kn_020": {
+  "lang_tag": "kn",
+  "dominant_script": "Telugu",
+  "l1_chars": 1085
+ },
+ "kn_021": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 205
+ },
+ "kn_022": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1241
+ },
+ "kn_023": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 986
+ },
+ "kn_024": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 911
+ },
+ "kn_025": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 333
+ },
+ "kn_026": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 268
+ },
+ "kn_027": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 858
+ },
+ "kn_028": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1070
+ },
+ "kn_029": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1810
+ },
+ "kn_030": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 876
+ },
+ "kn_031": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 331
+ },
+ "kn_032": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1774
+ },
+ "kn_033": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1559
+ },
+ "kn_034": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1958
+ },
+ "kn_035": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 419
+ },
+ "kn_036": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 141
+ },
+ "kn_037": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1535
+ },
+ "kn_038": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 741
+ },
+ "kn_039": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1533
+ },
+ "kn_040": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 672
+ },
+ "kn_041": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 186
+ },
+ "kn_042": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 2478
+ },
+ "kn_043": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1792
+ },
+ "kn_044": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1652
+ },
+ "kn_045": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 57
+ },
+ "kn_046": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1596
+ },
+ "kn_047": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 825
+ },
+ "kn_048": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1726
+ },
+ "kn_049": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 57
+ },
+ "kn_050": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 595
+ },
+ "kn_051": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 795
+ },
+ "kn_052": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1377
+ },
+ "kn_053": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 2794
+ },
+ "kn_054": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1763
+ },
+ "kn_055": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 878
+ },
+ "kn_056": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 876
+ },
+ "kn_057": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 867
+ },
+ "kn_058": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 2033
+ },
+ "kn_059": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 967
+ },
+ "kn_060": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 869
+ },
+ "kn_061": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1456
+ },
+ "kn_062": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1156
+ },
+ "kn_063": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 542
+ },
+ "kn_064": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 496
+ },
+ "kn_065": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 339
+ },
+ "kn_066": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1038
+ },
+ "kn_067": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1081
+ },
+ "kn_068": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 2158
+ },
+ "kn_069": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 92
+ },
+ "kn_070": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 469
+ },
+ "kn_071": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 2172
+ },
+ "kn_072": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1817
+ },
+ "kn_073": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1904
+ },
+ "kn_074": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 210
+ },
+ "kn_075": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 2564
+ },
+ "kn_076": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 2698
+ },
+ "kn_077": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 485
+ },
+ "kn_078": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1780
+ },
+ "kn_079": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 182
+ },
+ "kn_080": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 625
+ },
+ "kn_081": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 61
+ },
+ "kn_082": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 2080
+ },
+ "kn_083": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 2171
+ },
+ "kn_084": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1692
+ },
+ "kn_085": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 61
+ },
+ "kn_086": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 3914
+ },
+ "kn_087": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1890
+ },
+ "kn_088": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1047
+ },
+ "kn_089": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1451
+ },
+ "kn_090": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 3914
+ },
+ "kn_091": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1625
+ },
+ "kn_092": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 2348
+ },
+ "kn_093": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 712
+ },
+ "kn_094": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1129
+ },
+ "kn_095": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 1496
+ },
+ "kn_096": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 861
+ },
+ "kn_097": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 617
+ },
+ "kn_098": {
+  "lang_tag": "kn",
+  "dominant_script": "Kannada",
+  "l1_chars": 883
+ },
+ "kn_099": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 281
+ },
+ "kn_100": {
+  "lang_tag": "kn",
+  "dominant_script": "Latin",
+  "l1_chars": 1108
+ },
+ "ml_001": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 1942
+ },
+ "ml_002": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1308
+ },
+ "ml_003": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1315
+ },
+ "ml_004": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1148
+ },
+ "ml_005": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 572
+ },
+ "ml_006": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1660
+ },
+ "ml_007": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2286
+ },
+ "ml_008": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2336
+ },
+ "ml_009": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2320
+ },
+ "ml_010": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2060
+ },
+ "ml_011": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2064
+ },
+ "ml_012": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2031
+ },
+ "ml_013": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1486
+ },
+ "ml_014": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 465
+ },
+ "ml_015": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 442
+ },
+ "ml_016": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 906
+ },
+ "ml_017": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1413
+ },
+ "ml_018": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1233
+ },
+ "ml_019": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1663
+ },
+ "ml_020": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 365
+ },
+ "ml_021": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 138
+ },
+ "ml_022": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1567
+ },
+ "ml_023": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1158
+ },
+ "ml_024": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1233
+ },
+ "ml_025": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 572
+ },
+ "ml_026": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 406
+ },
+ "ml_027": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1207
+ },
+ "ml_028": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1437
+ },
+ "ml_029": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1780
+ },
+ "ml_030": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2069
+ },
+ "ml_031": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1774
+ },
+ "ml_032": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1655
+ },
+ "ml_033": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 935
+ },
+ "ml_034": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2336
+ },
+ "ml_035": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 63
+ },
+ "ml_036": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1129
+ },
+ "ml_037": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1178
+ },
+ "ml_038": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1124
+ },
+ "ml_039": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2284
+ },
+ "ml_040": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 130
+ },
+ "ml_041": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1308
+ },
+ "ml_042": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1198
+ },
+ "ml_043": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1068
+ },
+ "ml_044": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1377
+ },
+ "ml_045": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 213
+ },
+ "ml_046": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2049
+ },
+ "ml_047": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1126
+ },
+ "ml_048": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1323
+ },
+ "ml_049": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1906
+ },
+ "ml_050": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1648
+ },
+ "ml_051": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1681
+ },
+ "ml_052": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 99
+ },
+ "ml_053": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 666
+ },
+ "ml_054": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 467
+ },
+ "ml_055": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1887
+ },
+ "ml_056": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1028
+ },
+ "ml_057": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1545
+ },
+ "ml_058": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1146
+ },
+ "ml_059": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 336
+ },
+ "ml_060": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 379
+ },
+ "ml_061": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2044
+ },
+ "ml_062": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 589
+ },
+ "ml_063": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3580
+ },
+ "ml_064": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2249
+ },
+ "ml_065": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2044
+ },
+ "ml_066": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2044
+ },
+ "ml_067": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2532
+ },
+ "ml_068": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 710
+ },
+ "ml_069": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 434
+ },
+ "ml_070": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 210
+ },
+ "ml_071": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2069
+ },
+ "ml_072": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2359
+ },
+ "ml_073": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3008
+ },
+ "ml_074": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 836
+ },
+ "ml_075": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2044
+ },
+ "ml_076": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2911
+ },
+ "ml_077": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2242
+ },
+ "ml_078": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2267
+ },
+ "ml_079": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2044
+ },
+ "ml_080": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2044
+ },
+ "ml_081": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1111
+ },
+ "ml_082": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1111
+ },
+ "ml_083": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2374
+ },
+ "ml_084": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3879
+ },
+ "ml_085": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 166
+ },
+ "ml_086": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2096
+ },
+ "ml_087": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 2096
+ },
+ "ml_088": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 1488
+ },
+ "ml_089": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2532
+ },
+ "ml_090": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 681
+ },
+ "ml_091": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 3183
+ },
+ "ml_092": {
+  "lang_tag": "ml",
+  "dominant_script": "Latin",
+  "l1_chars": 880
+ },
+ "ml_093": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1997
+ },
+ "ml_094": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1997
+ },
+ "ml_095": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1056
+ },
+ "ml_096": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1992
+ },
+ "ml_097": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2389
+ },
+ "ml_098": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2389
+ },
+ "ml_099": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 2389
+ },
+ "ml_100": {
+  "lang_tag": "ml",
+  "dominant_script": "Malayalam",
+  "l1_chars": 1865
+ }
+}

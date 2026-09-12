@@ -1,0 +1,14 @@
+{
+ "engine": "easyocr",
+ "n_json": 343,
+ "matching_page_ids": 343,
+ "missing": 57,
+ "n_empty": 3,
+ "n_short_lt50": 21,
+ "nonempty_rate": 0.9913,
+ "collapse_rate": 0.009,
+ "median_capture_ratio": 0.849,
+ "empty_rate": 0.009,
+ "median_chars": 1102,
+ "median_ms_per_page": 31670
+}

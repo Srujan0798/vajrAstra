@@ -1,0 +1,14 @@
+{
+ "engine": "anuvaad_tesseract",
+ "n_json": 400,
+ "matching_page_ids": 400,
+ "missing": 0,
+ "n_empty": 31,
+ "n_short_lt50": 25,
+ "nonempty_rate": 0.9225,
+ "collapse_rate": 0.078,
+ "median_capture_ratio": 0.861,
+ "empty_rate": 0.077,
+ "median_chars": 1132,
+ "median_ms_per_page": 3680
+}

@@ -1,0 +1,14 @@
+{
+ "engine": "rapidocr",
+ "n_json": 400,
+ "matching_page_ids": 400,
+ "missing": 0,
+ "n_empty": 100,
+ "n_short_lt50": 30,
+ "nonempty_rate": 0.75,
+ "collapse_rate": 0.25,
+ "median_capture_ratio": 0.289,
+ "empty_rate": 0.25,
+ "median_chars": 787,
+ "median_ms_per_page": 444
+}

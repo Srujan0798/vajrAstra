@@ -6,7 +6,7 @@
 *.pyc
 
 # Large data dumps — never push (Vinay: repo is code/pipeline, not multi-GB dumps)
-work/
+Datasets/
 arc_level_1/
 labeled/
 *.zip
@@ -26,6 +26,21 @@ level2/**/*.log
 level2/predictions/
 level2/samples/
 level2/reports/
+level2/renders_shared/
+level2/pages_400/
+level2/models/*/json/
+level2/models/*/png/
+level2/models/*/json_v0_weak/
+level2/models/*/logs/
+level2/logs_active/
+level2/logs_archive/
+level2/out_archive/
+level2/HEARTBEAT.jsonl
+level2/_archive/
+level2/research/
+level2/DASHBOARD.md
+level2/.deps/
+.deps/
 
 # Local caches / experiments
 .vision_cache/
@@ -35,3 +50,4 @@ scripts/_old_experiments/
 # Machine dumps
 setup_inventory.json
 phase_c_ready.json
+.DS_Store
