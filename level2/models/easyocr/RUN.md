@@ -9,24 +9,24 @@
 - **out:** level2/out/easyocr/ | **models:** level2/models/easyocr/json/
 
 ## Counts (disk)
-- n_json: 343
-- matching the shared 400: 343
-- missing: 57
-- empty: 3 | short(<50): 21 | good(>=50): 319
-- nonempty_rate: 0.991 | collapse_rate: 0.009
+- n_json: 400
+- matching the shared 400: 400
+- missing: 0
+- empty: 9 | short(<50): 27 | good(>=50): 364
+- nonempty_rate: 0.978 | collapse_rate: 0.022
 - capture ratio vs PDF layer (median): 0.849
 
 ## 5 example page_ids
 - best: ta_055 (4466 chars)
 - worst(nonempty): ml_040 (2 chars)
-- empty: ['ml_035', 'ml_020', 'ml_025']
+- empty: ['ml_095', 'ml_065', 'ml_035']
 - english-leak: ['ta_005', 'ta_040', 'kn_005']
 - table-ish: ['te_009', 'te_012', 'te_091']
 
 ## Strengths
-- low empty rate (0.9%)
-- median 1102 chars/page
-- 31670 ms/page
+- low empty rate (2.2%)
+- median 1113 chars/page
+- 30726 ms/page
 
 ## Weaknesses
 - see reports/FAILURE_TAXONOMY.md

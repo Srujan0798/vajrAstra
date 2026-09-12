@@ -1,14 +1,14 @@
 {
  "engine": "easyocr",
- "n_json": 343,
- "matching_page_ids": 343,
- "missing": 57,
- "n_empty": 3,
- "n_short_lt50": 21,
- "nonempty_rate": 0.9913,
- "collapse_rate": 0.009,
+ "n_json": 400,
+ "matching_page_ids": 400,
+ "missing": 0,
+ "n_empty": 9,
+ "n_short_lt50": 27,
+ "nonempty_rate": 0.9775,
+ "collapse_rate": 0.022,
  "median_capture_ratio": 0.849,
- "empty_rate": 0.009,
- "median_chars": 1102,
- "median_ms_per_page": 31670
+ "empty_rate": 0.022,
+ "median_chars": 1113,
+ "median_ms_per_page": 30726
 }
