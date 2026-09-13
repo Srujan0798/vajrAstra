@@ -14,12 +14,12 @@
 - missing: 0
 - empty: 11 | short(<50): 22 | good(>=50): 367
 - nonempty_rate: 0.973 | collapse_rate: 0.027
-- capture ratio vs PDF layer (median): 0.89
+- capture ratio vs PDF layer (median): ?
 
 ## 5 example page_ids
 - best: ta_055 (4033 chars)
 - worst(nonempty): ml_056 (2 chars)
-- empty: ['ml_065', 'ml_090', 'ml_055']
+- empty: ['ml_079', 'ml_095', 'ml_040']
 - english-leak: ['te_001', 'te_002', 'te_003']
 - table-ish: none
 

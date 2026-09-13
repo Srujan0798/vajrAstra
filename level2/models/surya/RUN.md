@@ -14,12 +14,12 @@
 - missing: 0
 - empty: 11 | short(<50): 26 | good(>=50): 363
 - nonempty_rate: 0.973 | collapse_rate: 0.027
-- capture ratio vs PDF layer (median): 0.0
+- capture ratio vs PDF layer (median): ?
 
 ## 5 example page_ids
 - best: kn_084 (3894 chars)
-- worst(nonempty): te_051 (9 chars)
-- empty: ['ml_065', 'ml_090', 'ml_055']
+- worst(nonempty): te_024 (9 chars)
+- empty: ['ml_079', 'ml_095', 'ml_040']
 - english-leak: ['te_096', 'ta_005', 'ta_040']
 - table-ish: none
 
@@ -29,7 +29,7 @@
 - 16329 ms/page
 
 ## Weaknesses
-- capture ratio vs PDF layer only 0.0
+- see reports/FAILURE_TAXONOMY.md
 
 ## Rerun history
 - surya_v0_grammar_broken (182 packs) (active run in level2/out/surya/)

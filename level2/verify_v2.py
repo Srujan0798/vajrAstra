@@ -602,6 +602,11 @@ def main() -> None:
                         for e, sc in sorted(page_scripts.items()) if sc == s)
         matrix_rows.append(row)
 
+    # P1: Hallucination count after removing manifest tag suspects
+    # (true hallucinations = engines reading wrong script on correctly-tagged pages)
+    suspect_pids = set(suspect_pages.keys())
+    halluc_after_correction = [h for h in halluc if h["page"] not in suspect_pids]
+
     with open(REPORTS / "MATRIX.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(matrix_rows[0].keys()))
         w.writeheader()
@@ -741,6 +746,8 @@ def main() -> None:
         "schema_missing_examples": schema_missing[:20],
         "hallucination_events": len(halluc),
         "hallucination_examples": halluc[:10],
+        "hallucination_after_tag_correction": len(halluc_after_correction),
+        "hallucination_after_tag_correction_examples": halluc_after_correction[:10],
         "manifest_tag_suspects": sorted(suspect_pages.values(),
                                         key=lambda x: x["page_id"]),
         "l1_crosscheck": {e: summary[e]["l1_crosscheck"] for e in ENGINES},

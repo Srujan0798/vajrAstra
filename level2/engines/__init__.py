@@ -39,7 +39,8 @@ def register(engine: BaseEngine) -> BaseEngine:
 
 def _load_builtin_plugins() -> None:
     from . import local  # noqa: F401  (each module registers its adapter)
-    from . import level3_stub  # noqa: F401
+    from . import sarvam_api  # noqa: F401
+    from . import bhashini_api  # noqa: F401
 
 
 _load_builtin_plugins()

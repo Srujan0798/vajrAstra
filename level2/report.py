@@ -112,6 +112,7 @@ def main() -> int:
     steps += [(f"deep_verify:{e}", [str(PY), str(L2 / "deep_verify.py"), e])
               for e in ENGINES]
     steps += [
+        ("gap_report", [str(PY), str(L2 / "research" / "gap_report_gen.py")]),
         ("report_gen", [str(PY), str(L2 / "report_gen.py")]),
         ("seal_gen", [str(PY), str(L2 / "seal_gen.py")]),
     ]

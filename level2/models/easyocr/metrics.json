@@ -7,7 +7,7 @@
  "n_short_lt50": 27,
  "nonempty_rate": 0.9775,
  "collapse_rate": 0.022,
- "median_capture_ratio": 0.849,
+ "median_capture_ratio": null,
  "empty_rate": 0.022,
  "median_chars": 1113,
  "median_ms_per_page": 30726

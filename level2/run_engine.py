@@ -68,6 +68,8 @@ _ENGINE_VERSIONS = {
     "doctr": "python-doctr 1.1.0 (crnn_vgg16_bn)",
     "surya": "surya-ocr 0.22.1 (surya-2, block-mode html)",
     "anuvaad_tesseract": "anuvaad tessdata + tesseract 5.5.2",
+    "sarvam_api": "Sarvam Vision 1.5 (doc-ai digitise API; dry-run until SARVAM_API_KEY)",
+    "bhashini_api": "Bhashini/ULCA OCR (adapter dry-run; endpoint TODO-VERIFY)",
 }
 
 _easy_readers: dict[str, object] = {}
@@ -648,6 +650,14 @@ def run_ocr(engine: str, image_path: Path, lang: str, light: bool = False) -> st
         return ocr_rapidocr(image_path, lang)
     if engine == "anuvaad_tesseract":
         return ocr_anuvaad_tesseract(image_path, lang)
+    try:
+        from engines import REGISTRY
+    except ImportError:
+        import sys as _sys
+        _sys.path.insert(0, str(L2))
+        from engines import REGISTRY
+    if engine in REGISTRY:
+        return REGISTRY[engine].run(image_path)
     raise SystemExit(f"Unknown engine: {engine}")
 
 
@@ -720,6 +730,8 @@ def main() -> None:
             "doctr",
             "rapidocr",
             "anuvaad_tesseract",
+            "sarvam_api",
+            "bhashini_api",
         ],
     )
     ap.add_argument("--lang", choices=["te", "ta", "kn", "ml", "all"], default="all")

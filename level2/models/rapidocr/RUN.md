@@ -14,12 +14,12 @@
 - missing: 0
 - empty: 100 | short(<50): 30 | good(>=50): 270
 - nonempty_rate: 0.750 | collapse_rate: 0.25
-- capture ratio vs PDF layer (median): 0.289
+- capture ratio vs PDF layer (median): ?
 
 ## 5 example page_ids
 - best: ta_055 (3555 chars)
 - worst(nonempty): te_041 (6 chars)
-- empty: ['ml_019', 'ml_018', 'ml_028']
+- empty: ['ml_083', 'ml_077', 'ml_079']
 - english-leak: ['te_020', 'te_024', 'te_041']
 - table-ish: ['te_006', 'te_019', 'te_023']
 
@@ -29,7 +29,6 @@
 
 ## Weaknesses
 - 27 English-leak pages
-- capture ratio vs PDF layer only 0.289
 
 ## Rerun history
 - rapidocr_v0_restricted_lang (400 packs); rapidocr_v1_chinese_mojibake (400 packs) (active run in level2/out/rapidocr/)

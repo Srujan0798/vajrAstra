@@ -39,6 +39,18 @@ VERSIONS = {
     "anuvaad_tesseract": "anuvaad tessdata + tesseract 5.5.2",
 }
 
+# G3 core reports — these must regenerate every tick (mtime spread < 120s)
+CORE_REPORTS = [
+    "LEADERBOARD.md",
+    "VERIFY_V2_SUMMARY.json",
+    "MATRIX.csv",
+    "LEADERBOARD_BY_SCRIPT.md",
+    "TRUE_CONSENSUS.json",
+    "FAILURE_TAXONOMY.md",
+    "CER_STAGE3B.json",
+    "GAP.md",
+]
+
 QUALITY_STATUS = {
     "openbharatocr": "alias (tesseract_indic mirror — excluded from independent consensus)",
     "rapidocr": "partial_wash (ml=100 wash no-model; te/ta/kn honest signal v2 rerun 13 Sep)",
@@ -215,11 +227,7 @@ def main() -> None:
              "quality_status" in (MODELS / e / "RUN.md").read_text(encoding="utf-8")
              for e in ENGINES)
     gates.append(("G2", "classification (signal|alias|wash) in every RUN.md", g2))
-    import glob as _glob
-    key_reports = ["LEADERBOARD.md", "VERIFY_V2_SUMMARY.json", "MATRIX.csv",
-                   "LEADERBOARD_BY_SCRIPT.md", "TRUE_CONSENSUS.json",
-                   "FAILURE_TAXONOMY.md", "CER_STAGE3B.json"]
-    mt = [os.path.getmtime(REPORTS / f) for f in key_reports
+    mt = [os.path.getmtime(REPORTS / f) for f in CORE_REPORTS
           if (REPORTS / f).exists()]
     g3 = bool(mt) and (max(mt) - min(mt)) < 120
     gates.append(("G3", "core reports same-tick fresh (mtime spread <120s)", g3))
