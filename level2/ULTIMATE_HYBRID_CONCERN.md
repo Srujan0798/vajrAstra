@@ -123,3 +123,24 @@ ALL engines (core 5 + agreed +3) have 400 matching page_ids in models/<eng>/json
 - [LAW] P103 note: "400 × 5 = 2000 packs, do not write 20000" — counts always from disk.
 - [covered] P104/P105: +3 engines in L2 as FULL engines (not smoke), done: rapidocr, tesseract_bilingual, doctr, surya, anuvaad → 10 engines total.
 - REMAINING OPEN ITEMS from P101: (a) operator will later place Vaultstack main-strategy docs in Downloads — read when they appear; (b) Level 3 = top-5 paid Indian models with API keys/logins — starts only after seal.
+
+## 17. FINAL MASTER PLAN (Kimi K3, 13 Sep — grounded in deck + sync transcript)
+- DEADLINES: BHASHINI initial results ~Sep 16 (Vinay, on tape); David methodology call Saturday (numbers must survive him); Srujan exams 18–22 → heavy-work window closes Sep 17.
+- THE DECK REALITY: Vaultstack = 4-trainable-stage company (Stage 0 OpenCV preprocess → 1 DocLayout-YOLO LoRA → 2 parallel SFT TrOCR + Qwen3-VL-8B + PaddleOCR-VL w/ akshara-boundary aux loss → 2b SCST RL on CER → 3 small-LLM SFT noisy→JSON → 3b SimPO/DPO on CER-tagged pairs). L2 repo = THE DATA ENGINE: out/ JSONs = Stage-3 noisy corpus; capture ratios = gap slide; per-page CER vs PDF layer = Stage-3b preference labels; dominant_script/mixed flags = bench stratification; L1 gold = audit layer. No fine-tuning on bench data. Bench vs Sarvam/IndicDLP.
+- [LAW] 4-PAGE GATE: no engine change touches 400 pages until it survives 4 (one per language). Saved rapidocr from a wasted rerun.
+- [LAW] ONE WRITER ONE TRUTH: level2/report.py is the ONLY report pipeline — DASHBOARD, LEADERBOARD (script-sliced), MATRIX, VERIFY_*.json, SEAL, CER, GAP — one pass, loop-wired. No hand-written numbers in reports/ ever.
+- [LAW] Free-tier labeling APIs (Grok/NIM/Gemini, Vinay-sanctioned) are for LABELING only; "no paid keys in L2 benchmark" stands. Keep separated.
+- Consensus spec (final): char 5-gram Jaccard ≥0.6, pairwise, ≥6 engines, tesseract-family = 1 vote. Word-token Jaccard kept as secondary.
+- Sep-15 deliverables to Vinay: gap slide (one number: % of page text ALL free engines miss, pooled per script), showcase 6×6, failure taxonomy, latency column, five-liner (10/10 · 4000 packs · verified fresh · gap number · L3 budget ask).
+- Post-seal: plugin socket built (level2/engines/, 12 registered, Sarvam/Bhashini stubs LOCKED); cost worksheet level2/research/LEVEL3_COST_ESTIMATE.md (all prices TODO-VERIFY at kickoff).
+- Docs stay ≤6 living: README, SOUTH_CANON, ULTIMATE_HYBRID_CONCERN, FOLDER_MAP, IMPROVEMENTS_CURRENT_WORK, HOW_TO_RUN. Others fold/archive.
+- Nightly verify diff = regression alarm; FAIL cluster ≥5 same signature → auto-open IMPROVEMENTS line.
+
+## 18. ULTIMATE 10/10 BLUEPRINT (13 Sep, final consolidation — supersedes scoring of §17 items already done)
+- DONE TONIGHT (verified): easyocr 400 · timeout real · script-sliced leaderboard · family consensus · rapidocr 3.9.2 per-lang + ml honest-empty · openbharat alias · pages_400 fixed · PROMPT.md 10/10 · engine_meta stamps · plugin socket · cost worksheet · git 3 commits · pycache purge · hallucination flip · render_once · seal LEVEL2_SEALED=true.
+- REMAINING (Track B verify spec): B7 NFC ✓done · B9 = char 5-GRAM Jaccard ≥0.6 consensus (word-token stays secondary) · B11 CER/WER floor vs PDF-layer → reports/CER_STAGE3B.json = Stage-3b preference pairs · B12 L1-gold edit-distance cross-check · B16 line-count sanity · B21 PNG sha1 checksums pinned at render · B22 nightly regression alarm (>2% → DASHBOARD alarm) · B23 generated_at stamp inside EVERY report · B6 missing=ABSENT explicit.
+- Track A remainder: A3 purge _bin variants from renders_shared (400 files) · C5 stamp en_fallback limitation on paddle ml packs · C8 measure preprocess uplift from _bin retry telemetry · C9 one 300-dpi re-render probe on the 31 historically-empty pages (recover or prove blank) · C10 published-Indic-benchmark sanity doc (MLITS etc).
+- Track D: D2 docs 11→6 LIVING (README, SOUTH_CANON, ULTIMATE_HYBRID_CONCERN, FOLDER_MAP, IMPROVEMENTS_CURRENT_WORK, HOW_TO_RUN) — fold ENGINES.txt/EXPLAIN_FOR_SRUJAN.txt/LEVEL2_MASTER_BRIEF.txt/PIPELINE_STORY into archive or the six · D9 DECISIONS.log append-only ledger · D8 handoff test = docs alone drive a fresh agent.
+- Track E (Sep-15 deliverables): GAP_REPORT.md (ONE number: % of GT volume ALL free engines miss, pooled + per-script) · SHOWCASE 6 pages × 6 engines (book/bad-scan/form/stamp/handwriting/mixed) · failure taxonomy · latency table · best-per-scenario · explain-like-I-own-it one-pager · 5-liner to Vinay.
+- Track G deck wiring documented in README: out/ packs = Stage-3 corpus · CER = 3b preference pairs · capture = gap slide · disagreement = Stage-1 layout queue · L1 = audit layer · firewall: no fine-tune on bench data.
+- Scoreboard honesty: today 6.8/10 → 10/10 = all Track B + A-remainder + E green before Sep 16; seal-green by Sep 17; exams 18–22 automation runs itself.
