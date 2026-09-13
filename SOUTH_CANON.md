@@ -1,4 +1,5 @@
 # SOUTH_CANON
+# L2 operational law: level2/ULTIMATE_HYBRID_CONCERN.md supersedes where conflicting.
 # Single keep-file for understanding (not a summary).
 # Merged from: BHASHINI proposal, WhatsApp 9 Sep 2026, meeting 10 Sep 2026, Grok labeling thread 9–11 Sep 2026.
 # Live disk: this file + work/ + labeled/ + prompts/ + scripts/. Evidence zips+meeting docx are in Downloads backup.

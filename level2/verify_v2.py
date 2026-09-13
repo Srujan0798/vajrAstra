@@ -85,7 +85,7 @@ def char_ngrams(t: str, n: int = 5) -> set[str]:
     """Char n-gram SET of a whitespace-stripped string (B9 basis)."""
     s = "".join(t.split())
     if len(s) < n:
-        return {s} if s else set()
+        return set()
     return {s[i:i+n] for i in range(len(s) - n + 1)}
 
 
@@ -121,17 +121,6 @@ def edit_distance(a, b) -> int:
         pv = mh | (~(xv | ph) & full)
         mv = xv & ph
     return score
-
-
-def cer_wer(hyp: str, gt: str) -> tuple[float, float] | None:
-    """(CER, WER) vs GT; None when GT has no chars/words."""
-    if not gt:
-        return None
-    cer = edit_distance(hyp, gt) / len(gt)
-    gw = gt.split()
-    hw = hyp.split()
-    wer = (edit_distance(hw, gw) / len(gw)) if gw else None
-    return round(cer, 4), round(wer, 4) if wer is not None else None
 
 
 def build_index() -> dict[str, dict[str, Path]]:
@@ -399,7 +388,7 @@ def main() -> None:
 
     agg = {e: {"empty": 0, "thin": 0, "loop": 0, "checked": 0, "missing": 0,
                "chars": [], "garbage": [], "nfc_bad": 0, "eng_leak": 0,
-               "lines_vs_gt_short": 0, "native_digits": 0,
+               "native_digits": 0,
                "ascii_digits_on_indic": 0, "cap_l1": [], "cap_pdf": [],
                "by_script": defaultdict(list), "by_script_packs": defaultdict(int),
                "by_script_thin": defaultdict(int),
@@ -427,8 +416,8 @@ def main() -> None:
     best_engine_wins: Counter = Counter()
     # B12 L1-gold cross-check
     l1_cer_collect: dict[str, list[float]] = {e: [] for e in ENGINES}
-    l1_gt_thin: dict[str, int] = {e: 0 for e in ENGINES}
     l1_cer_gt1: dict[str, list[str]] = {e: [] for e in ENGINES}
+    gt_thin_counts: dict[str, int] = {e: 0 for e in ENGINES}
     # B16 line-count sanity
     lines_short: dict[str, list[str]] = {e: [] for e in ENGINES}
 
@@ -455,6 +444,10 @@ def main() -> None:
                 schema_missing.append(f"{e}/{pid}")
                 agg[e]["missing"] += 1
                 row[e] = None
+                if len(gtn) < 200:
+                    page_row_cer[e] = {"cer": None, "wer": None,
+                                       "gt_chars": len(gtn),
+                                       "reason": "gt_thin"}
                 continue
             if state != "ok":
                 schema_bad.append(f"{e}/{pid}")
@@ -465,6 +458,15 @@ def main() -> None:
                 agg[e]["by_script_packs"][dom] += 1
             if not txt:
                 agg[e]["empty"] += 1
+                if len(gtn) < 200:
+                    page_row_cer[e] = {"cer": None, "wer": None,
+                                       "gt_chars": len(gtn),
+                                       "reason": "gt_thin"}
+                else:
+                    cer_collect[e].append(1.0)
+                    wer_collect[e].append(1.0)
+                    page_row_cer[e] = {"cer": 1.0, "wer": 1.0,
+                                       "gt_chars": len(gtn)}
                 continue
             row[e] = len(txt)
             live_engines += 1
@@ -477,26 +479,25 @@ def main() -> None:
                     agg[e]["by_script_thin"][dom] += 1
             etxt = cer_norm(txt)
             eng_words = etxt.split()
-            if gtn:
-                if len(gtn) >= 200:
-                    ratio = round(len(etxt) / len(gtn), 3)
-                    agg[e]["cap_pdf"].append(ratio)
-                    if dom:
-                        agg[e]["by_script_cap"][dom].append(ratio)
-                    ed = edit_distance(etxt, gtn)
-                    cer = round(ed / len(gtn), 4)
-                    cer_collect[e].append(cer)
-                    wer = (round(edit_distance(eng_words, gt_w) / len(gt_w), 4)
-                           if gt_w else None)
-                    if wer is not None:
-                        wer_collect[e].append(wer)
-                    page_row_cer[e] = {"cer": cer, "wer": wer,
-                                       "gt_chars": len(gtn)}
-                else:
-                    l1_gt_thin[e] += 1
-                    page_row_cer[e] = {"cer": None, "wer": None,
-                                       "gt_chars": len(gtn),
-                                       "reason": "gt_thin"}
+            if len(gtn) >= 200:
+                ratio = round(len(etxt) / len(gtn), 3)
+                agg[e]["cap_pdf"].append(ratio)
+                if dom:
+                    agg[e]["by_script_cap"][dom].append(ratio)
+                ed = edit_distance(etxt, gtn)
+                cer = round(ed / len(gtn), 4)
+                cer_collect[e].append(cer)
+                wer = (round(edit_distance(eng_words, gt_w) / len(gt_w), 4)
+                       if gt_w else None)
+                if wer is not None:
+                    wer_collect[e].append(wer)
+                page_row_cer[e] = {"cer": cer, "wer": wer,
+                                   "gt_chars": len(gtn)}
+            else:
+                gt_thin_counts[e] += 1
+                page_row_cer[e] = {"cer": None, "wer": None,
+                                   "gt_chars": len(gtn),
+                                   "reason": "gt_thin"}
             # B12: same CER vs L1 gold text (>=200 chars)
             if l1n is not None and len(l1n) >= 200:
                 l1_cer = round(edit_distance(etxt, l1n) / len(l1n), 4)
@@ -638,7 +639,7 @@ def main() -> None:
             "garbage_examples": a["garbage"][:5],
             "nfc_violations": a["nfc_bad"],
             "english_leak_pages": a["eng_leak"],
-            "lines_short_vs_gt": a["lines_vs_gt_short"],
+            "lines_short_vs_gt": len(lines_short[e]),
             "native_digit_pages": a["native_digits"],
             "ascii_digits_on_indic_pages": a["ascii_digits_on_indic"],
             "distinct_output_hashes": len(text_hash[e]),
@@ -748,8 +749,7 @@ def main() -> None:
         "cer_stage3b": {
             "file": "CER_STAGE3B.json",
             "pairs_with_gt": sum(len(v) for v in cer_per_page.values()),
-            "gt_thin_entries": sum(1 for v in cer_per_page.values()
-                                   for x in v.values() if x.get("cer") is None),
+            "gt_thin_entries": sum(gt_thin_counts.values()),
             "median_cer_per_engine": median_cer_per_engine,
             "best_engine_wins": dict(best_engine_wins),
         },

@@ -3,8 +3,9 @@
 ## ACTIVE (the work)
 - `pages_manifest.json` — 400-page frozen set (with dominant_script + mixed_book_page fields)
 - `pages_script_map.json` — per-page dominant script (from L1 gold)
-- `renders_shared/` — the 400 shared PNG renders (single copy, all engines read these)
-- `pages_400/` — legacy page-set folder (kept: INDEX.json + PNGs used by early runs)
+- `renders_shared/` — the 400 shared PNG renders (single copy, all engines read these); sha1-pinned in `renders_shared.sha1` + `render_sha1` field per page in `pages_manifest.json`
+- `renders_shared_bin/` — the 400 `<page_id>_bin.png` binarized retry variants (regenerable from run_engine.preprocess_image; moved out of renders_shared 13 Sep, kept per archive law)
+- `pages_400/` — legacy page-set folder (kept: INDEX.json + PNGs; its 400 PNG symlinks point at the long-gone `level2/_tmp_render/` and are ALL broken — known legacy breakage, superseded by renders_shared; left as-is per archive law)
 - `run_engine.py` — the engine harness (open policy, timeout, retry, heartbeat)
 - `orchestrator.py` — one-push ops (status/fill/migrate/verify/dashboard/guards/loop/autoloop)
 - `verify_all.py` — mass verification vs PDF text layer
@@ -18,21 +19,19 @@
 - `out_archive/` — superseded policy runs (v0_singlelang etc.) — never delete
 - `models/` — seal structure per engine (json/, png/, RUN.md, metrics.json, PROMPT.md = engine contract; json_v0_weak = archived weak runs)
 - `reports/` — generated reports (VERIFY_*, DEEP_VERIFY_*, MATRIX.csv, LEADERBOARD, FAILURE_TAXONOMY, LANG_*, SCENARIO_BEST, GAP_ANALYSIS, SHOWCASE, REVIEW_QUEUE, DUPLICATE_AUDIT, WHATSAPP_WEEKLY, LEVEL2_SEAL)
-- `research/` — +3 model research + smoke tests (incl. anuvaad tessdata) + rapidocr damage stats
+- `research/` — +3 model research + smoke tests (incl. anuvaad tessdata) + rapidocr damage stats + `300DPI_PROBE.md` (empty-page recovery probe: 0/10 recover, no rerun warranted) + `PUBLISHED_BENCHMARKS.md` (our capture-ratio method vs MLITS/IIIT-IndicHW-Word/IndicDLP — not numerically compared, external numbers TODO-VERIFY)
 - `prompts/` — Level-1 batch prompts (historical, frozen)
 - `HEARTBEAT.jsonl` — per-page run telemetry (grows during fills)
 - `DASHBOARD.md` — auto-refreshed status page (counts + speed + ETA + guards)
+- `DECISIONS.log` — append-only ledger of irreversible choices (D9; one line: date | area | decision | why | owner)
 - `logs_active/` — live run logs + SPAWN_GUARD.json (orchestrator spawns here; root stays clean)
 - `logs_archive/` — logs of completed engines (auto-moved by `orchestrator.py archive-logs`)
 
-## DOCS (read-me-first order)
-- `ULTIMATE_HYBRID_CONCERN.md` — ALL operator directives merged (the law; §10-11 = 10-engine seal contract)
-- `PIPELINE_STORY.md` — "explain like I own it" story (what/why/how of the pipeline)
-- `README_LEVEL2.md` — level overview
-- `LEVEL2_MASTER_BRIEF.txt` — one-page ownership note
-- `HOW_TO_RUN.txt`, `EXPLAIN_FOR_SRUJAN.txt`, `ENGINES.txt` — how/what
-- `IMPROVEMENTS_CURRENT_WORK.md` — current pipeline improvements (status audited 12 Sep; supersedes archived ENHANCEMENTS_SPEC)
-- `IMPROVEMENTS_VAJRASTRA_FUTURE.md` — product roadmap (NOT now)
+## DOCS (law D2: exactly six living docs)
+Root (3): `README.md` (overview + Vaultstack deck wiring) · `SOUTH_CANON.md` (history/law-zero; L2 ops law supersedes where conflicting) · `HOW_TO_RUN.txt` (ops card: venvs, one-push commands, 4-page gate, engine socket)
+level2/ (3): `ULTIMATE_HYBRID_CONCERN.md` (ALL operator directives — the law; §17-18 = current plan) · `FOLDER_MAP.md` (this file) · `IMPROVEMENTS_CURRENT_WORK.md` (pipeline improvements, §18 = execution status)
+Auto-generated (not counted): `DASHBOARD.md` (data, regenerates each loop)
+How-to/why/narrative content lives in HOW_TO_RUN.txt (root); engine docs: `engines/README.md` + `models/<eng>/{PROMPT,RUN}.md`; numbers: `reports/` only.
 
 ## models/<engine>/ contents (all 10 engines)
 - `PROMPT.md` — ENGINE CONTRACT (invoke config, engine+version, policy, known limits). NOT a prompt sent to engines — L2 engines are programs (no prompting, per ULTIMATE_HYBRID_CONCERN §11)
@@ -43,11 +42,19 @@
 
 ## Root (repo)
 - `scripts/setup_fresh_machine.sh` — one-command fresh-machine setup (venvs, deps, checks)
-- root README.md — repo overview (see it for layout)
+- root README.md — repo overview + Vaultstack deck wiring (see it for layout)
+- root HOW_TO_RUN.txt — the ops card (six living docs #6; moved up from level2/ 13 Sep, D2)
 
-## _archive/ (dead but kept)
+## _archive/ (dead but kept — every file has a 3-line ARCHIVED header)
 - `ENHANCEMENTS_SPEC.md` — superseded by IMPROVEMENTS_CURRENT_WORK.md (~85% duplicate; archived 13 Sep with header)
 - `LEVEL2_SEAL_AGENT_PROMPT.md` — 5-engine-era seal prompt; 10-engine contract lives in ULTIMATE_HYBRID_CONCERN.md §10-11 (archived 13 Sep with header)
+- `README_LEVEL2.md` — early L2 overview; covered by root README + this map (archived 13 Sep, D2)
+- `PIPELINE_STORY.md` — narrative; ops folded into root HOW_TO_RUN.txt, numbers-story into reports/ (archived 13 Sep, D2)
+- `LEVEL2_MASTER_BRIEF.txt` — ownership note; covered by ULTIMATE_HYBRID_CONCERN §2/§3/§10-11 (archived 13 Sep, D2)
+- `EXPLAIN_FOR_SRUJAN.txt` — owner-explainer; unique bits folded into HOW_TO_RUN.txt appendix (archived 13 Sep, D2)
+- `ENGINES.txt` — first engine list; covered by README + law §11 + this map (archived 13 Sep, D2)
+- `HOW_TO_RUN.txt` — early ops note; superseded by root HOW_TO_RUN.txt (archived 13 Sep, D2)
+- `IMPROVEMENTS_VAJRASTRA_FUTURE.md` — product roadmap, parked intact (NOT-now-work per law §15; resurrect at product time)
 - `logs/` — all run logs (incl. logs_cycle, orch_*)
 - `reports/` — old audit snapshots (QUALITY_AUDIT etc.)
 - `misc/` — weak-investigation artifacts, DISCOVERY.json, old research text

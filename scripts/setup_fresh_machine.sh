@@ -20,8 +20,10 @@ if [ ! -d .venv311 ]; then
   .venv311/bin/pip install -q --upgrade pip
   .venv311/bin/pip install -q "pymupdf>=1.24" pillow pytesseract \
     "easyocr==1.7.2" "paddleocr==3.7.0" "paddlepaddle==3.3.1" \
-    "rapidocr-onnxruntime==1.4.4" "python-doctr==1.1.0" "surya-ocr==0.22.1" \
-    "openbharatocr==0.4.3" scikit-image
+    "rapidocr==3.9.2" omegaconf "python-doctr==1.1.0" "surya-ocr==0.22.1" \
+    "numpy==1.26.4" "opencv-python==4.6.0.66" scikit-image
+  # openbharatocr pins easyocr==1.7.1 (stale; we run 1.7.2 — proven coexisting)
+  .venv311/bin/pip install -q --no-deps "openbharatocr==0.4.3"
 fi
 
 if command -v tesseract >/dev/null 2>&1; then

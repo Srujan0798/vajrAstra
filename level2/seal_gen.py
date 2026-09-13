@@ -6,6 +6,8 @@ Usage: .venv/bin/python level2/seal_gen.py
 from __future__ import annotations
 
 import json
+import os
+import subprocess
 from collections import Counter
 from pathlib import Path
 
@@ -206,6 +208,66 @@ def main() -> None:
         rows.append((e, len(pages), len(matched), len(MANIFEST_IDS - set(pages.keys())), empty))
     incomplete = [r[0] for r in rows if r[2] < 400]
 
+    gates: list[tuple[str, str, bool]] = []
+    g1 = not incomplete
+    gates.append(("G1", "10 engines x 400 matching page_ids in models/", g1))
+    g2 = all((MODELS / e / "RUN.md").exists() and
+             "quality_status" in (MODELS / e / "RUN.md").read_text(encoding="utf-8")
+             for e in ENGINES)
+    gates.append(("G2", "classification (signal|alias|wash) in every RUN.md", g2))
+    import glob as _glob
+    key_reports = ["LEADERBOARD.md", "VERIFY_V2_SUMMARY.json", "MATRIX.csv",
+                   "LEADERBOARD_BY_SCRIPT.md", "TRUE_CONSENSUS.json",
+                   "FAILURE_TAXONOMY.md", "CER_STAGE3B.json"]
+    mt = [os.path.getmtime(REPORTS / f) for f in key_reports
+          if (REPORTS / f).exists()]
+    g3 = bool(mt) and (max(mt) - min(mt)) < 120
+    gates.append(("G3", "core reports same-tick fresh (mtime spread <120s)", g3))
+    lb = (REPORTS / "LEADERBOARD_BY_SCRIPT.md").read_text(encoding="utf-8") if (REPORTS / "LEADERBOARD_BY_SCRIPT.md").exists() else ""
+    g4 = all(s in lb for s in ("Telugu", "Tamil", "Kannada", "Malayalam", "Devanagari", "Latin"))
+    gates.append(("G4", "leaderboard script-sliced (6 strata)", g4))
+    try:
+        v2 = json.loads((REPORTS / "VERIFY_V2_SUMMARY.json").read_text(encoding="utf-8"))
+        g5 = ("consensus_5gram_count" in v2 and "true_consensus_pages" in v2
+              and v2.get("schema_violations", 0) == 0)
+    except Exception:
+        g5 = False
+    gates.append(("G5", "true consensus (5-gram + word) computed; family-deduped", g5))
+    try:
+        g6 = v2.get("schema_violations", 1) == 0
+    except Exception:
+        g6 = False
+    gates.append(("G6", "schema clean (missing = ABSENT rows)", g6))
+    try:
+        vvs = json.loads((L2 / "pages_manifest.json").read_text(encoding="utf-8"))
+        g7 = len(vvs) == 400 and all(
+            (ROOT / x["raw_path"]).exists() for x in vvs)
+    except Exception:
+        g7 = False
+    gates.append(("G7", "manifest integrity 400/400", g7))
+    try:
+        g8r = subprocess.run(
+            ["find", str(L2 / "pages_400"), "-type", "l", "!", "-exec",
+             "test", "-e", "{}", ";", "-print"],
+            capture_output=True, text=True)
+        g8 = not g8r.stdout.strip()
+    except Exception:
+        g8 = False
+    gates.append(("G8", "pages_400 symlinks all resolve", g8))
+    gates.append(("G9", "LEVEL 3 NOT STARTED line present", True))
+    try:
+        s = subprocess.run(["git", "status", "--porcelain"], cwd=str(ROOT),
+                           capture_output=True, text=True)
+        g10 = not s.stdout.strip()
+    except Exception:
+        g10 = False
+    gates.append(("G10", "git working tree clean (all committed)", g10))
+    try:
+        g11 = (ROOT / ".setup_smoke_proven").exists()
+    except Exception:
+        g11 = False
+    gates.append(("G11", "setup.sh smoke-tested (flag file)", g11))
+
     lines = ["# LEVEL2_SEAL.md", "", "Generated from disk counts. Do not invent.", "",
              "| model_id | n_json | matching | missing | empty | RUN.md |",
              "|---|---|---|---|---|---|"]
@@ -215,9 +277,14 @@ def main() -> None:
               f"Incomplete engines: {incomplete or 'none'}",
               "", "## Forbidden checks",
               "- Paid Gemini/Claude/GPT/Sarvam/Bhashini keys: **not used**",
-              "- Training: **not started**", "- Aryan pipeline: **not touched**", "",
-              "## Seal status", "LEVEL 3 NOT STARTED", "",
-              f"LEVEL2_SEALED = **{'true' if not incomplete else 'false'}**"]
+              "- Training: **not started**", "- Aryan pipeline: **not touched**",
+              "", "## Seal gates (machine-checked)",
+              "| gate | check | state |", "|---|---|---|"]
+    for gid, desc, ok in gates:
+        lines.append(f"| {gid} | {desc} | {'GREEN' if ok else 'RED'} |")
+    sealed = all(ok for _, _, ok in gates) and not incomplete
+    lines += ["", "## Seal status", "LEVEL 3 NOT STARTED", "",
+              f"LEVEL2_SEALED = **{'true' if sealed else 'false'}**"]
     (REPORTS / "LEVEL2_SEAL.md").write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
 

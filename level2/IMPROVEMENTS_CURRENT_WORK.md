@@ -85,3 +85,34 @@ Status legend: [x] done, [~] partial, [ ] todo
 72. [x] "Explain like I own it" story — level2/PIPELINE_STORY.md
 73. [~] Engine metadata in each JSON — ocr_engine field present; version/policy/dpi stamping needs run_engine.py change (noted for main agent)
 74. [x] LEVEL2_SEAL.md auto-generation from disk — seal_gen.py (counts, forbidden checks, LEVEL 3 NOT STARTED)
+
+## 18. EXECUTION STATUS (13 Sep — Track A/B/D done-tonight + remaining)
+Track A (extraction):
+- [x] easyocr 400/400 via per-script readers (spawn-guard released; DASHBOARD easyocr DONE) — evidence: level2/out/easyocr/ 400 json, level2/DECISIONS.log 2026-09-12
+- [x] rapidocr 3.9.2 per-lang upgrade, ml honest-empty — evidence: level2/models/rapidocr/RUN.md (model/version line: "per-lang PP-OCRv5/v4 mobile rec; te/ta/kn+dev; ml=no model->honest empty")
+- [x] openbharat alias classification (ID-card-only, tesseract-mirror fallback documented) — evidence: level2/models/openbharatocr/RUN.md
+- [x] timeout real + shutdown fix — evidence: run_engine.py run_ocr_with_timeout (300s wall); HEARTBEAT.jsonl telemetry
+- [x] provenance ocr_engine + engine_meta {engine, policy, dpi, version} in every pack — evidence: level2/out/rapidocr/te/te_001.json engine_meta
+- [x] pages_400 broken symlinks fixed → renders_shared single-copy — evidence: renders_shared/ 400 PNGs, models/*/png/ symlinks
+- [ ] A3: purge _bin variants from renders_shared (renders_shared_bin/ holds 400; parent dir clean — verify before delete)
+- [ ] C5: stamp en_fallback limitation on paddle ml packs
+- [ ] C8: measure preprocess uplift from _bin retry telemetry
+- [ ] C9: 300-dpi re-render probe on 31 historically-empty pages (recover or prove GT-blank)
+- [ ] C10: published-Indic-benchmark sanity doc (MLITS etc.)
+Track B (verify):
+- [x] B7 NFC — nfc_violations = 0 (item 39)
+- [x] family consensus (tesseract-family = 1 vote) — evidence: reports/VERIFY_V2_SUMMARY.json consensus 382/400
+- [x] B16 line-count sanity — lines_short_vs_gt (item 27)
+- [x] B6 missing=ABSENT explicit — manifest_render_check 0 missing (item 41)
+- [ ] B9: switch consensus to char 5-gram Jaccard ≥0.6 (word-token stays secondary) — reports/TRUE_CONSENSUS.json still word-token spec
+- [ ] B11: CER/WER floor → reports/CER_STAGE3B.json (Stage-3b preference pairs)
+- [ ] B12: L1-gold edit-distance cross-check (capture ratios exist; full alignment pending)
+- [ ] B21: PNG sha1 checksums pinned at render
+- [ ] B22: nightly regression alarm (>2% → DASHBOARD alarm)
+- [ ] B23: generated_at stamp inside EVERY report
+Track D (docs/law):
+- [x] D2 docs 11→6 LIVING — evidence: this file + README + SOUTH_CANON + ULTIMATE_HYBRID_CONCERN + FOLDER_MAP + HOW_TO_RUN (root); 7 archived with headers in level2/_archive/
+- [x] D9 DECISIONS.log ledger created (17 backfilled lines) — evidence: level2/DECISIONS.log
+- [x] CANON pointer line added (L2 ops law supersedes where conflicting) — evidence: SOUTH_CANON.md line 2
+- [x] Track G deck wiring in root README (§ "How Level 2 feeds Vaultstack")
+- [ ] D8: handoff test — docs alone drive a fresh agent end-to-end

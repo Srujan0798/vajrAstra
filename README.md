@@ -5,7 +5,8 @@ Private working repo for **Srujan Sai** (Vaultstack AI) on South Indian document
 ## Layout (clean — see level2/FOLDER_MAP.md)
 
 ```
-SOUTH_CANON.md               # the law (read first)
+SOUTH_CANON.md               # the law (read first; L2 ops law: level2/ULTIMATE_HYBRID_CONCERN.md supersedes where conflicting)
+HOW_TO_RUN.txt                # ops card (venvs, one-push commands, 4-page gate, engine socket)
 Datasets/                    # source PDFs (te/ta/kn/ml) — renamed from work/
 arc_level_1/                 # Level-1 labels (frozen) + L1 scripts archive
 scripts/                     # active utilities (inventory, rasterize, verify)
@@ -35,6 +36,14 @@ python level2/orchestrator.py status   # dashboard
 python level2/orchestrator.py fill     # parallel fills (resumes, skip-existing)
 python level2/verify_all.py            # verification suite
 ```
+
+## How Level 2 feeds Vaultstack (deck stages)
+- `level2/out/` packs → **Stage-3 SFT** noisy-corpus source (raw engine text is the training input)
+- CER table (vs PDF-layer + L1-gold) → **Stage-3b preference pairs** for SimPO/DPO ranking
+- capture / gap analysis (`reports/GAP_*`) → the **pitch slide** (what all free engines miss)
+- disagreement pages (cross-engine conflict, `reports/REVIEW_QUEUE.md`) → **Stage-1 layout training queue**
+- L1 gold labels → **audit layer** (ground truth the benchmark answers to)
+- Firewall: bench data is **never fine-tuned on** — it stays the referee, not the food
 
 ## Not in git
 Datasets/, out/, out_archive/, models/png, renders — data stays local/Drive.
