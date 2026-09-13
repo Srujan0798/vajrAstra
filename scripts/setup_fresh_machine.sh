@@ -41,7 +41,7 @@ import pymupdf, pytesseract, PIL
 print("venv 3.14: pymupdf/pytesseract/PIL OK")
 EOF
 .venv311/bin/python - <<'EOF'
-import easyocr, paddleocr, rapidocr_onnxruntime
+import easyocr, paddleocr, rapidocr
 from doctr.io import DocumentFile
 import surya, openbharatocr
 print("venv311: all 311-family engines import OK")
