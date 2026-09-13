@@ -8,7 +8,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1958,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6ecdf1de01eeb7be988e31cf224556586b03ebdd"
  },
  {
   "page_id": "te_002",
@@ -19,7 +20,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1337,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9936c27cd0ac13e4516c9ea754f4696cc50e57fd"
  },
  {
   "page_id": "te_003",
@@ -30,7 +32,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 637,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "784fc9b382d0aac537b16ae5092f2f95e3f8cbfb"
  },
  {
   "page_id": "te_004",
@@ -41,7 +44,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 847,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5272ec2ae6669cb38cc74561d62c545afee51338"
  },
  {
   "page_id": "te_005",
@@ -52,7 +56,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1049,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7d1fa3f3e2c0bd48c5a7d59afca5b18769d7944b"
  },
  {
   "page_id": "te_006",
@@ -63,7 +68,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 1553,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "319fe215d84b07c0d9cfc4ab3399d5bd69188904"
  },
  {
   "page_id": "te_007",
@@ -74,7 +80,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 952,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "27d2422c216627fb2802de974274db540882bd34"
  },
  {
   "page_id": "te_008",
@@ -85,7 +92,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 751,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9b866d3f7b4ec8233a8bb88f82a51ae72e42d62e"
  },
  {
   "page_id": "te_009",
@@ -96,7 +104,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 1659,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "4772e916cd915bdc3cfefe30e5f177b2f391a9c3"
  },
  {
   "page_id": "te_010",
@@ -107,7 +116,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 102,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d0e1849b362d570b3179ab5d17f5c008e9d8afee"
  },
  {
   "page_id": "te_011",
@@ -118,7 +128,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 143,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "ea24127634c5aa1dfcd8098e7e665ce74fdc09eb"
  },
  {
   "page_id": "te_012",
@@ -129,7 +140,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 1734,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "30dbcb90def4281e1deb80449e2911c8a06c8223"
  },
  {
   "page_id": "te_013",
@@ -140,7 +152,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 379,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9cb09ba4337950c36a8879250df3e57bc7921552"
  },
  {
   "page_id": "te_014",
@@ -151,7 +164,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 709,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "34e880c01e6e14f533d43a9a4a1c026508809ae4"
  },
  {
   "page_id": "te_015",
@@ -162,7 +176,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 294,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1de26211c1fa1f150ea44a1a269c15f7ea83ad59"
  },
  {
   "page_id": "te_016",
@@ -173,7 +188,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 104,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "12977452655ee91be28e44b181016cf080a49da3"
  },
  {
   "page_id": "te_017",
@@ -184,7 +200,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 908,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "e145f76db33ee2c6b6605e6520707aec755ee088"
  },
  {
   "page_id": "te_018",
@@ -195,7 +212,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1228,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ba7d4ea3709eae99ab2f8a80401ba9b0fc368a7c"
  },
  {
   "page_id": "te_019",
@@ -206,7 +224,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1426,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "c5e0ffea88f10c88d4f7c34bed3d51b25ec36b6c"
  },
  {
   "page_id": "te_020",
@@ -217,7 +236,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 202,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "628c6c3c4f71f33ee022b48933021506494ae3f5"
  },
  {
   "page_id": "te_021",
@@ -228,7 +248,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 192,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "c0932e94fbea8671b8a1eac84b8809b9584b6459"
  },
  {
   "page_id": "te_022",
@@ -239,7 +260,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 968,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "562d2d7bdedd1516e83d12eb54c909facf19dbd3"
  },
  {
   "page_id": "te_023",
@@ -250,7 +272,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 1652,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "73dd886c4f198133b1d097c6f69c6617537d0ed8"
  },
  {
   "page_id": "te_024",
@@ -261,7 +284,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 285,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "56c116914f55b4067f098a7017e4114a583a8b1f"
  },
  {
   "page_id": "te_025",
@@ -272,7 +296,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 159,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "6119a9e964243877a7e3f0e6105dd356f9fdf574"
  },
  {
   "page_id": "te_026",
@@ -283,7 +308,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 135,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "92c5649ec200979c16fcf0a16c40e284c2f4392c"
  },
  {
   "page_id": "te_027",
@@ -294,7 +320,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 290,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "bbc2e73d19425f11de7c2156ccf69410d54ef988"
  },
  {
   "page_id": "te_028",
@@ -305,7 +332,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 1857,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a2cdc8292d7a59591419391f074f032e048af03d"
  },
  {
   "page_id": "te_029",
@@ -316,7 +344,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 1306,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f61b984ff402e0548a8fb5a520a65a15761a16f7"
  },
  {
   "page_id": "te_030",
@@ -327,7 +356,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 396,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e3216aff5ccfd08d01987aa99729036ad2dea46a"
  },
  {
   "page_id": "te_031",
@@ -338,7 +368,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 136,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "b7e4eb81d7bea68bba03b200fc447f8ee5457ee0"
  },
  {
   "page_id": "te_032",
@@ -349,7 +380,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 683,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "736cbdcea786ecb6c375011077af4dec2d7b540f"
  },
  {
   "page_id": "te_033",
@@ -360,7 +392,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 471,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "65d1e229acb20145794728153898f495f1b827ed"
  },
  {
   "page_id": "te_034",
@@ -371,7 +404,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 1116,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "3ff4c03b433e4de24b0e99fdf293ce554b150e96"
  },
  {
   "page_id": "te_035",
@@ -382,7 +416,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 453,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "be13fa5fc13a5ccfa5fa0a147014757c9be48cc7"
  },
  {
   "page_id": "te_036",
@@ -393,7 +428,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 105,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "a07a248761593a8d41a9d65e7930c1dcc204f50c"
  },
  {
   "page_id": "te_037",
@@ -404,7 +440,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 1387,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d6fe96c2def7127a44098eb1d8b4add9074a93fb"
  },
  {
   "page_id": "te_038",
@@ -415,7 +452,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 2200,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "31ba7a7b9a61550934a10024525504740c61c906"
  },
  {
   "page_id": "te_039",
@@ -426,7 +464,8 @@
   "batch": "B1",
   "dominant_script": "Telugu",
   "l1_chars": 439,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "4e2b3085037f5abbe8a609c731def5037aa9ef6d"
  },
  {
   "page_id": "te_040",
@@ -437,7 +476,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 209,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e7adb202f3854fad6b52a046789a42c4d43d713e"
  },
  {
   "page_id": "te_041",
@@ -448,7 +488,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 1023,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "8b0581f797b777803f982a4ab304af6f7ce5d4c1"
  },
  {
   "page_id": "te_042",
@@ -459,7 +500,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 997,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f3c637f9658937526bb19c458ded1fb0b55017f3"
  },
  {
   "page_id": "te_043",
@@ -470,7 +512,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 745,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "c035081d93277f186cd171c6c1219926b9ee442b"
  },
  {
   "page_id": "te_044",
@@ -481,7 +524,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 1753,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "34f705b780bf387b6309450df693419611afc062"
  },
  {
   "page_id": "te_045",
@@ -492,7 +536,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 143,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "fc3b35a96056d74ce67cb5885d9b0d712d9877c6"
  },
  {
   "page_id": "te_046",
@@ -503,7 +548,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 57,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "13a78a6374731f20a56eb3fd253f949b0e58eb28"
  },
  {
   "page_id": "te_047",
@@ -514,7 +560,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 817,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2260a83db7c92dc155deccccf00c7912526fea7e"
  },
  {
   "page_id": "te_048",
@@ -525,7 +572,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 983,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "450e4afa5634c18c8201913b214092540950ec9f"
  },
  {
   "page_id": "te_049",
@@ -536,7 +584,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 1124,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "60d65d563714a44f3406db22ece12955f31f4070"
  },
  {
   "page_id": "te_050",
@@ -547,7 +596,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 1148,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e458ec5a72a19f5816bc853ec8c4af4f40fe8016"
  },
  {
   "page_id": "te_051",
@@ -558,7 +608,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 69,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9e02363ec8dbacac0851eaedc7d70a572e924cdd"
  },
  {
   "page_id": "te_052",
@@ -569,7 +620,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 1906,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "c3c68cd8e83c36d6ba0e3099feeceb03e0fedcf4"
  },
  {
   "page_id": "te_053",
@@ -580,7 +632,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 1820,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "0e4330c0c517a35efba6906df8083802b8adbb5f"
  },
  {
   "page_id": "te_054",
@@ -591,7 +644,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 836,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "eef6675f36efdfcb9c885c2716d15dee082c1dc4"
  },
  {
   "page_id": "te_055",
@@ -602,7 +656,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 136,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7458c936ba76f699cc2bea70ec2833b907867985"
  },
  {
   "page_id": "te_056",
@@ -613,7 +668,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 1023,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "233f23fdb2380f2bfb8da73046e5d1cfa8e1d23c"
  },
  {
   "page_id": "te_057",
@@ -624,7 +680,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 885,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d08d55b6ca24c986cf27fe7bb274b45d03c87f89"
  },
  {
   "page_id": "te_058",
@@ -635,7 +692,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 1386,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2beb05b544069f4bfe4cfb3b464949660132bb27"
  },
  {
   "page_id": "te_059",
@@ -646,7 +704,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 1638,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "cf6a822065f4f2bd23cc08343a4fb74ca494d399"
  },
  {
   "page_id": "te_060",
@@ -657,7 +716,8 @@
   "batch": "B2",
   "dominant_script": "Telugu",
   "l1_chars": 159,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "61f65a8254e2bbdf0c15e7aa3e2a0d77252bcc9a"
  },
  {
   "page_id": "te_061",
@@ -668,7 +728,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 705,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "788906a09425c34fb4582611b3f9dc3bd35944c4"
  },
  {
   "page_id": "te_062",
@@ -679,7 +740,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2583,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "fa8227e216d6f599970296fa84d30b64d4b998b0"
  },
  {
   "page_id": "te_063",
@@ -690,7 +752,8 @@
   "batch": "B3",
   "dominant_script": "Devanagari",
   "l1_chars": 1631,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "09db1a02045568da8847e96bac71a875b8048b1a"
  },
  {
   "page_id": "te_064",
@@ -701,7 +764,8 @@
   "batch": "B3",
   "dominant_script": "Devanagari",
   "l1_chars": 1214,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "720ea0ac03dccda9dc551cb371ca5258369ce0f0"
  },
  {
   "page_id": "te_065",
@@ -712,7 +776,8 @@
   "batch": "B3",
   "dominant_script": "Telugu",
   "l1_chars": 212,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7d2ba17f448b12a7a59e4e69efb43f331ca25ce3"
  },
  {
   "page_id": "te_066",
@@ -723,7 +788,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 76,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "665b5a4d80919c7fe30456b350bd0ba024c6758b"
  },
  {
   "page_id": "te_067",
@@ -734,7 +800,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 5392,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f906c62c7574f2666026686d5c737c0d0fa7690e"
  },
  {
   "page_id": "te_068",
@@ -745,7 +812,8 @@
   "batch": "B3",
   "dominant_script": "Telugu",
   "l1_chars": 2621,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "470aa9314cbbdfd43dcdca05cf48d1de86b9e4c1"
  },
  {
   "page_id": "te_069",
@@ -756,7 +824,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 950,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "393bca0f871b710404cf8f84457e6d27316fc97d"
  },
  {
   "page_id": "te_070",
@@ -767,7 +836,8 @@
   "batch": "B3",
   "dominant_script": "Telugu",
   "l1_chars": 211,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "fd80fa62f831d4236a0ab70b9661e826b5415ba9"
  },
  {
   "page_id": "te_071",
@@ -778,7 +848,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 735,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "939b312bee9554659a20fdf9377fedd708973c83"
  },
  {
   "page_id": "te_072",
@@ -789,7 +860,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1208,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "a1a7a05d24780bac8b14ce628c7bcbc3e120a64b"
  },
  {
   "page_id": "te_073",
@@ -800,7 +872,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 3892,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "64517a6d8780e6314a9c5b22715cd5a94e0c2cc3"
  },
  {
   "page_id": "te_074",
@@ -811,7 +884,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2698,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2fa844c1d86d6aa77b0fe87b00f6d6eab2f29358"
  },
  {
   "page_id": "te_075",
@@ -822,7 +896,8 @@
   "batch": "B3",
   "dominant_script": "Devanagari",
   "l1_chars": 1354,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2f3cbbca162acad7ac0f26b59fa318d783742900"
  },
  {
   "page_id": "te_076",
@@ -833,7 +908,8 @@
   "batch": "B3",
   "dominant_script": "Devanagari",
   "l1_chars": 1354,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e34ff474b66d29f5d9a5f7642c64ec0f59f71186"
  },
  {
   "page_id": "te_077",
@@ -844,7 +920,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1667,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "08a82a7341166162313221649635d1ed324425f3"
  },
  {
   "page_id": "te_078",
@@ -855,7 +932,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1884,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "cd96aaeef327c6c9b06e4dd8cc4ee2b071f17f9b"
  },
  {
   "page_id": "te_079",
@@ -866,7 +944,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1158,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "194c01a7ba3ea770bc2da07a660a50fa2d5f77aa"
  },
  {
   "page_id": "te_080",
@@ -877,7 +956,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 675,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f54821e8701d64184222314343160f2e47be8691"
  },
  {
   "page_id": "te_081",
@@ -888,7 +968,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 71,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5f56dc8774dd49e69a11b9a200df01abfcd1d99e"
  },
  {
   "page_id": "te_082",
@@ -899,7 +980,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1757,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f987fd418dfa98b298c3b37dbc472d73124e5992"
  },
  {
   "page_id": "te_083",
@@ -910,7 +992,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 2888,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "95267384364d2860a7f9ccd44e8e3d12dbce829b"
  },
  {
   "page_id": "te_084",
@@ -921,7 +1004,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1953,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "03f196703b6638b57c6f888dd4ebaa7da6e5b4c3"
  },
  {
   "page_id": "te_085",
@@ -932,7 +1016,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 1936,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "72b3c1527f390115ce64c8c2cadc18e5cc3281b2"
  },
  {
   "page_id": "te_086",
@@ -943,7 +1028,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 2886,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "477385a859ff51620a324c0f5382171c8c75e699"
  },
  {
   "page_id": "te_087",
@@ -954,7 +1040,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 476,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b8e3c6daf15c422dafed8999c283ad7e00322d4a"
  },
  {
   "page_id": "te_088",
@@ -965,7 +1052,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 716,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "eef600f68343b2bc206f9c71058035f22fe10b12"
  },
  {
   "page_id": "te_089",
@@ -976,7 +1064,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 594,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6c61d0a209623fd6cbdc02ea81bc8cf243818533"
  },
  {
   "page_id": "te_090",
@@ -987,7 +1076,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 50,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9bab5c1f1eb7225060b74fcc3fa1b6f000567c97"
  },
  {
   "page_id": "te_091",
@@ -998,7 +1088,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 1734,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9715299f3bf165e3dc290e578a9d354f7acd4346"
  },
  {
   "page_id": "te_092",
@@ -1009,7 +1100,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 2080,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f3b0aa8d0b1adf66f3672b9ed3bf5b6c9ed3aa8f"
  },
  {
   "page_id": "te_093",
@@ -1020,7 +1112,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 3249,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b6922e2fbe93d77d156729268068ac06fa69cb2c"
  },
  {
   "page_id": "te_094",
@@ -1031,7 +1124,8 @@
   "batch": "B4",
   "dominant_script": "Devanagari",
   "l1_chars": 1013,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "61608a5c85a44f40a4b819e5016f36c1d3f1ff44"
  },
  {
   "page_id": "te_095",
@@ -1042,7 +1136,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 197,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5b4020e4d9f158439a9d5d12644d847b706a54f3"
  },
  {
   "page_id": "te_096",
@@ -1053,7 +1148,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 66,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a08419122cba5fe32cb847bd9b221f7c1dbbf43d"
  },
  {
   "page_id": "te_097",
@@ -1064,7 +1160,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 4938,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d70a3b4bbcb66c6206ca28614cada23a47460ecb"
  },
  {
   "page_id": "te_098",
@@ -1075,7 +1172,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1642,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "a04feef7ab6dcda73bd3cfda435bbfb58506cfad"
  },
  {
   "page_id": "te_099",
@@ -1086,7 +1184,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 2519,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "8568773090639afe40a49f1d66dab055d9e37ccc"
  },
  {
   "page_id": "te_100",
@@ -1097,7 +1196,8 @@
   "batch": "B4",
   "dominant_script": "Telugu",
   "l1_chars": 3325,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "583cb9c9ff3d234b3052ae3d59e04966b3b8acda"
  },
  {
   "page_id": "ta_001",
@@ -1108,7 +1208,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 1545,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7589f3a02dbf0cf3543d86c8aab7aff0a6e900d5"
  },
  {
   "page_id": "ta_002",
@@ -1119,7 +1220,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 902,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "3d03eb81efd02632fe15ca6cb696249dbd5bfb0d"
  },
  {
   "page_id": "ta_003",
@@ -1130,7 +1232,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 395,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "e7a132fd8cc4d2ed69b3b82139074216110a64f7"
  },
  {
   "page_id": "ta_004",
@@ -1141,7 +1244,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 594,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "256b5b3b5824870339e84659f4a6927eb50dafe7"
  },
  {
   "page_id": "ta_005",
@@ -1152,7 +1256,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 1173,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ee12e682251d230aca53199e8ebefb2166fb48f7"
  },
  {
   "page_id": "ta_006",
@@ -1163,7 +1268,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 1688,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "aae40990531e60a8f81155a5e5c7af6113a69f26"
  },
  {
   "page_id": "ta_007",
@@ -1174,7 +1280,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 701,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6ffb4e873069bc72325fc74e051bfddd11372ffe"
  },
  {
   "page_id": "ta_008",
@@ -1185,7 +1292,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 1330,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5bf72fd05ec1a6b2dc6ae3955129823757212efa"
  },
  {
   "page_id": "ta_009",
@@ -1196,7 +1304,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 363,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "bed90baaded95de999878d4988642af2a4ece869"
  },
  {
   "page_id": "ta_010",
@@ -1207,7 +1316,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 845,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d6c6ac877e9bc518c5c25fdbbdf516b08b56fa29"
  },
  {
   "page_id": "ta_011",
@@ -1218,7 +1328,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 1097,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "0f206a8891ad27dc878aace39c632114df0833de"
  },
  {
   "page_id": "ta_012",
@@ -1229,7 +1340,8 @@
   "batch": "B0",
   "dominant_script": "Devanagari",
   "l1_chars": 1044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "c154a3e47e0c296495de1190b5ebcd8ea3425d0d"
  },
  {
   "page_id": "ta_013",
@@ -1240,7 +1352,8 @@
   "batch": "B0",
   "dominant_script": "Devanagari",
   "l1_chars": 1348,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2e474f388eed11d88f63a88591f14fe543fb7180"
  },
  {
   "page_id": "ta_014",
@@ -1251,7 +1364,8 @@
   "batch": "B0",
   "dominant_script": "Devanagari",
   "l1_chars": 2029,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "b681d07c2b0a34f8f642e9416c1a155851def927"
  },
  {
   "page_id": "ta_015",
@@ -1262,7 +1376,8 @@
   "batch": "B0",
   "dominant_script": "Devanagari",
   "l1_chars": 1141,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2b79a71051a97f9268c83e68d419660cb5c6de8d"
  },
  {
   "page_id": "ta_016",
@@ -1273,7 +1388,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 54,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "b3c0a46b6346a9409e8c5e9cb420b59d7dc26cce"
  },
  {
   "page_id": "ta_017",
@@ -1284,7 +1400,8 @@
   "batch": "B0",
   "dominant_script": "Devanagari",
   "l1_chars": 2598,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e284636099f386cdaa9a0cc383a32c28be4bcfc4"
  },
  {
   "page_id": "ta_018",
@@ -1295,7 +1412,8 @@
   "batch": "B0",
   "dominant_script": "Devanagari",
   "l1_chars": 607,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "1a812fbdbb8e1e421b5be6d61affbfcb98495cf7"
  },
  {
   "page_id": "ta_019",
@@ -1306,7 +1424,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 3218,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "025264734dbf3b2b7988c2f152ba1c3047857161"
  },
  {
   "page_id": "ta_020",
@@ -1317,7 +1436,8 @@
   "batch": "B0",
   "dominant_script": "Tamil",
   "l1_chars": 2215,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "742767011d70a214c6496818d54d94a314ef9c8f"
  },
  {
   "page_id": "ta_021",
@@ -1328,7 +1448,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 414,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2c5e0e4db28a79d5f6887bbf72c8ffd2a6e8f35c"
  },
  {
   "page_id": "ta_022",
@@ -1339,7 +1460,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 1866,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7818bafc1766d3b2d2b298c6600a3de4efd8f87c"
  },
  {
   "page_id": "ta_023",
@@ -1350,7 +1472,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 1933,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ab5470b141a69cf206638e87fc75efaa357535d8"
  },
  {
   "page_id": "ta_024",
@@ -1361,7 +1484,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 3698,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1925250426fc525bbd2dbe44d7f93bd8f2eeae14"
  },
  {
   "page_id": "ta_025",
@@ -1372,7 +1496,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 98,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "fca0fe383733d0646efe3b9e2d900ee6f8f1172c"
  },
  {
   "page_id": "ta_026",
@@ -1383,7 +1508,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 291,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6008fb0cc5de359e4226cce230d91ee4773724a4"
  },
  {
   "page_id": "ta_027",
@@ -1394,7 +1520,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 960,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "81da0f380cd87bfc69c9e171dea83109a71c3f83"
  },
  {
   "page_id": "ta_028",
@@ -1405,7 +1532,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 1612,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2424d5f9e128f385bb4019f143b76fc2c63b7dfd"
  },
  {
   "page_id": "ta_029",
@@ -1416,7 +1544,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 3600,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "dae153626012ffc1f6fd46faf05bbe5a27b161c5"
  },
  {
   "page_id": "ta_030",
@@ -1427,7 +1556,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 3356,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b2d50a89526608d1b2bbcaa76e8b311d820e404f"
  },
  {
   "page_id": "ta_031",
@@ -1438,7 +1568,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 276,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "14dd515af3523a4ed65a392ff5a822b78b0fea64"
  },
  {
   "page_id": "ta_032",
@@ -1449,7 +1580,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 2456,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "02c812beb0202595f43556e3bba89d2832db9eaa"
  },
  {
   "page_id": "ta_033",
@@ -1460,7 +1592,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 3295,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "c267fa2c1a6ed1d3b4466cb97401c9d5de962400"
  },
  {
   "page_id": "ta_034",
@@ -1471,7 +1604,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 3040,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9c182324e2f6ae107cdd4392f003721a1f46a988"
  },
  {
   "page_id": "ta_035",
@@ -1482,7 +1616,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 74,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "6300966194b83b15f4443f4344ecff31eb87ce35"
  },
  {
   "page_id": "ta_036",
@@ -1493,7 +1628,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 267,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f64b7c50b8149cff5d92a82e3e492f0fff0eb661"
  },
  {
   "page_id": "ta_037",
@@ -1504,7 +1640,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 1660,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "522bf370ac745e41630e11d988d9384f3774b17d"
  },
  {
   "page_id": "ta_038",
@@ -1515,7 +1652,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 2686,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f5a2a379d99c52ac2ef3a8897e5f78cd5b4e10fa"
  },
  {
   "page_id": "ta_039",
@@ -1526,7 +1664,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 903,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "21a2fb8f1eec9eec6858a448065f0194b078dbe3"
  },
  {
   "page_id": "ta_040",
@@ -1537,7 +1676,8 @@
   "batch": "B1",
   "dominant_script": "Tamil",
   "l1_chars": 673,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1768e01b15eadfe8dd93754cfc753b0c02852ee4"
  },
  {
   "page_id": "ta_041",
@@ -1548,7 +1688,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 1453,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2ef9e840acdbbb800ec678877856fe1b9680bd54"
  },
  {
   "page_id": "ta_042",
@@ -1559,7 +1700,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 1268,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "c257082d2ba836c444a417b863c1178a77a93b43"
  },
  {
   "page_id": "ta_043",
@@ -1570,7 +1712,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 609,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5fceafdf1892922487aff65c067068204cbbcd61"
  },
  {
   "page_id": "ta_044",
@@ -1581,7 +1724,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 864,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2834779be79c6789668ea7a0fb3afb999db977de"
  },
  {
   "page_id": "ta_045",
@@ -1592,7 +1736,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 434,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "141b63520ae31e907e4d131a0d6e56936b8f5a23"
  },
  {
   "page_id": "ta_046",
@@ -1603,7 +1748,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 515,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "44541fc6d13b9c52f45a0fa3dd54d825f16048ca"
  },
  {
   "page_id": "ta_047",
@@ -1614,7 +1760,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 593,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7452e429ae8dfc2105ba534a6dadaebfc05821e1"
  },
  {
   "page_id": "ta_048",
@@ -1625,7 +1772,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 1074,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5b6488814ee860bd59318cfbb04fee909e151de4"
  },
  {
   "page_id": "ta_049",
@@ -1636,7 +1784,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 2453,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d7bdceddd318eec5c3db97af59476d85b4e2bff1"
  },
  {
   "page_id": "ta_050",
@@ -1647,7 +1796,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 775,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "4ae5820b5ce17e61738c427202542f835dc3fef5"
  },
  {
   "page_id": "ta_051",
@@ -1658,7 +1808,8 @@
   "batch": "B2",
   "dominant_script": "Devanagari",
   "l1_chars": 824,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "01f4f974f6b4582d8a63b6b69bd4760d9f48804f"
  },
  {
   "page_id": "ta_052",
@@ -1669,7 +1820,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 2051,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "235e84fcec388c0405abc2a53553ed6f8bebcdc5"
  },
  {
   "page_id": "ta_053",
@@ -1680,7 +1832,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 3353,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1a2701770bb02002eb5bf1e1b37f7e636643d6cf"
  },
  {
   "page_id": "ta_054",
@@ -1691,7 +1844,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 2724,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "215007b4da0c4c0dbac4adbcd3bf845c2aa00734"
  },
  {
   "page_id": "ta_055",
@@ -1702,7 +1856,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 3855,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d31690a0e42c8b70616374410344d224389a7b73"
  },
  {
   "page_id": "ta_056",
@@ -1713,7 +1868,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 273,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "307eb9a6fbca0a15a3ddeb511a9bb828994461b2"
  },
  {
   "page_id": "ta_057",
@@ -1724,7 +1880,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 4146,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f3ebc94283a026f31285712dcddf1f1e828bac8c"
  },
  {
   "page_id": "ta_058",
@@ -1735,7 +1892,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 3401,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "240db998c62a305cca1e154f5ab06c8c7679e299"
  },
  {
   "page_id": "ta_059",
@@ -1746,7 +1904,8 @@
   "batch": "B2",
   "dominant_script": "Tamil",
   "l1_chars": 2963,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "62025c0343190de91e2e543c046509e74b5c8ec7"
  },
  {
   "page_id": "ta_060",
@@ -1757,7 +1916,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 96,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "8681e461ca3af5ff43641066601c1d1bc91d68cc"
  },
  {
   "page_id": "ta_061",
@@ -1768,7 +1928,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 315,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d73634d71ff178da90b4afa34bbc5399db0ede54"
  },
  {
   "page_id": "ta_062",
@@ -1779,7 +1940,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 1502,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2be8e7b95b3ded03d3604f88459417f10543bf4e"
  },
  {
   "page_id": "ta_063",
@@ -1790,7 +1952,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 1364,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "82316022b7a900f253894ad32e091fd51c7aec11"
  },
  {
   "page_id": "ta_064",
@@ -1801,7 +1964,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 1190,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8c391f0f662c38cff0926b94d25085aa902e8467"
  },
  {
   "page_id": "ta_065",
@@ -1812,7 +1976,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 3295,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b30b94198126c6bdb1dc8a841d1df0f6967fd57c"
  },
  {
   "page_id": "ta_066",
@@ -1823,7 +1988,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 349,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "29beecb7763319c30525bf987fb08a6491ffe3ab"
  },
  {
   "page_id": "ta_067",
@@ -1834,7 +2000,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 1541,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "bea338aeaa7342ce5ab0755bc3144887004b5d7b"
  },
  {
   "page_id": "ta_068",
@@ -1845,7 +2012,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 3609,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "c1d4b1e950419a5bacff617414a4415302ae3817"
  },
  {
   "page_id": "ta_069",
@@ -1856,7 +2024,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 2904,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "979993ea2ae10e6ab97d37f872b3c12ba0bea12c"
  },
  {
   "page_id": "ta_070",
@@ -1867,7 +2036,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 100,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "4c71f54ae8db5e02d3072a2f6a4d8d46e9ba3b2f"
  },
  {
   "page_id": "ta_071",
@@ -1878,7 +2048,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 265,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "fd7ea6bec749da79422aefe2c11ba0dab393f5a9"
  },
  {
   "page_id": "ta_072",
@@ -1889,7 +2060,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1787,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "32ee431b45e6f9741714bfa858cb4f18e0292ce8"
  },
  {
   "page_id": "ta_073",
@@ -1900,7 +2072,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 857,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "1cf5417e3ec53a9d20fafeb3f3695ab393607dee"
  },
  {
   "page_id": "ta_074",
@@ -1911,7 +2084,8 @@
   "batch": "B3",
   "dominant_script": "Tamil",
   "l1_chars": 965,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "596069a739bad212de0e04bbaaed2d8c75840c47"
  },
  {
   "page_id": "ta_075",
@@ -1922,7 +2096,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2638,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e5a38959723416b7b5d81a98526dab612826f8e4"
  },
  {
   "page_id": "ta_076",
@@ -1933,7 +2108,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 556,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d68c0553b6123a36cf5db100e9f99e2ee1437b2b"
  },
  {
   "page_id": "ta_077",
@@ -1944,7 +2120,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 3385,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "8a4610b0ae757efa71302c35105a423745e98d79"
  },
  {
   "page_id": "ta_078",
@@ -1955,7 +2132,8 @@
   "batch": "B3",
   "dominant_script": "Devanagari",
   "l1_chars": 1041,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9115cc7e1b993eef5e622c87c50d22299fe60098"
  },
  {
   "page_id": "ta_079",
@@ -1966,7 +2144,8 @@
   "batch": "B3",
   "dominant_script": "Devanagari",
   "l1_chars": 1381,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e2bb7e6ac97ad4e98dc1122dd920f786900f326c"
  },
  {
   "page_id": "ta_080",
@@ -1977,7 +2156,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1651,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "563d6169a32d3c2be384d8735433bf461171399b"
  },
  {
   "page_id": "ta_081",
@@ -1988,7 +2168,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1786,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "bc2322ab6c32ff6782a7d337555befee48601430"
  },
  {
   "page_id": "ta_082",
@@ -1999,7 +2180,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1987,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "edc9985fbebded132a5189633bf81ac3049ed902"
  },
  {
   "page_id": "ta_083",
@@ -2010,7 +2192,8 @@
   "batch": "B4",
   "dominant_script": "Devanagari",
   "l1_chars": 906,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d3dd6f81e04c8fa38eda1089891d609757adc021"
  },
  {
   "page_id": "ta_084",
@@ -2021,7 +2204,8 @@
   "batch": "B4",
   "dominant_script": "Devanagari",
   "l1_chars": 1895,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "27cf4cd6f74f71aa8e6422d9ac2092e525412251"
  },
  {
   "page_id": "ta_085",
@@ -2032,7 +2216,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 3232,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "45c0498470c6afbebb5a419194dffd81082b6df6"
  },
  {
   "page_id": "ta_086",
@@ -2043,7 +2228,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 265,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "4c8bd4bc242c1346470104a0116a01a59a6dfeb9"
  },
  {
   "page_id": "ta_087",
@@ -2054,7 +2240,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 3375,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d412ef5a932586c2e73f276ab1d324e8a66cf735"
  },
  {
   "page_id": "ta_088",
@@ -2065,7 +2252,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 2017,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9a0de3ba16340a03e4a9fda311681e42a333258e"
  },
  {
   "page_id": "ta_089",
@@ -2076,7 +2264,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 1867,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "0911820e5f0c61733b2c45c54fb0d7fe19a716c9"
  },
  {
   "page_id": "ta_090",
@@ -2087,7 +2276,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 155,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5cfe758cefde42b0c66e07bb44f5ab7d7a7fe265"
  },
  {
   "page_id": "ta_091",
@@ -2098,7 +2288,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 355,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "326c5a1abea73a67fdcfd1d8b12949d83af8a3cf"
  },
  {
   "page_id": "ta_092",
@@ -2109,7 +2300,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 2541,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "4522163d44792032c7bb09aa1f22dfac234bd9c9"
  },
  {
   "page_id": "ta_093",
@@ -2120,7 +2312,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 1116,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "3ebed4d9d776f352133feec57c5974dc45f94c5d"
  },
  {
   "page_id": "ta_094",
@@ -2131,7 +2324,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 1907,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "4940478f472b1d0d3a782a16242028fb6f2dafb3"
  },
  {
   "page_id": "ta_095",
@@ -2142,7 +2336,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 2949,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "23d3d0745d95e347e70f5a880bb9fd2706302675"
  },
  {
   "page_id": "ta_096",
@@ -2153,7 +2348,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 397,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "4baffa5b80c8f771cc8fe2b58b3c2e36a6a021d1"
  },
  {
   "page_id": "ta_097",
@@ -2164,7 +2360,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 1226,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "3293919d8d80929e4f289bb8ea95c119cf88f6b4"
  },
  {
   "page_id": "ta_098",
@@ -2175,7 +2372,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 2780,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "c47fb82e6707144b574e197fc690ce6f767e12d6"
  },
  {
   "page_id": "ta_099",
@@ -2186,7 +2384,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 1999,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "af3a2a1cc142db55f5ab18961ffbf8c303854cae"
  },
  {
   "page_id": "ta_100",
@@ -2197,7 +2396,8 @@
   "batch": "B4",
   "dominant_script": "Tamil",
   "l1_chars": 3256,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "51b08445697401f3cbc1428de27dbeef99eaefb1"
  },
  {
   "page_id": "kn_001",
@@ -2208,7 +2408,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 3751,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "1b2b0b06514a299b22ab99103df04c5367bf7c9e"
  },
  {
   "page_id": "kn_002",
@@ -2219,7 +2420,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 2132,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "65460b0ceb38f866bb58c17542fe822824448ad2"
  },
  {
   "page_id": "kn_003",
@@ -2230,7 +2432,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 2089,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "987f4cb039ec063a1aef344238984b58f30ab2b8"
  },
  {
   "page_id": "kn_004",
@@ -2241,7 +2444,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 2024,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7909ff6385ac453b4906c4a047d0d240fad6365c"
  },
  {
   "page_id": "kn_005",
@@ -2252,7 +2456,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1442,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "c26ecb6797bc8bd2f291f29b5aeaae009163b69d"
  },
  {
   "page_id": "kn_006",
@@ -2263,7 +2468,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1442,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "593ab89f7d9f90287bb2b2329bd2fbfa54b9b09b"
  },
  {
   "page_id": "kn_007",
@@ -2274,7 +2480,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 584,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "83d292e616e61b1acbb15a39c8795cc3afde1157"
  },
  {
   "page_id": "kn_008",
@@ -2285,7 +2492,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1802,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d4e07bca7cfc99a26a8d108f682c3d4533c1fcb9"
  },
  {
   "page_id": "kn_009",
@@ -2296,7 +2504,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 500,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "71eadf195538cbdf2d7fa2176837de996e039612"
  },
  {
   "page_id": "kn_010",
@@ -2307,7 +2516,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1800,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "ff70910d9de19a5c3a9422a8f87fc746b86279fb"
  },
  {
   "page_id": "kn_011",
@@ -2318,7 +2528,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 2152,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "ff3536d29968d5e074cdcc0d829d0f4bcd4b9b89"
  },
  {
   "page_id": "kn_012",
@@ -2329,7 +2540,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 2587,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "0c1c21b36f17cd44d50d804e0bba5bce6d8ed99b"
  },
  {
   "page_id": "kn_013",
@@ -2340,7 +2552,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1444,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "b2bcbdcdd9acbff6825775bc10adc2558c613382"
  },
  {
   "page_id": "kn_014",
@@ -2351,7 +2564,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 1318,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "4ed7521939dae1de4568b88ee677612c9cf4b0e2"
  },
  {
   "page_id": "kn_015",
@@ -2362,7 +2576,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 369,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "3b1c095ccc921980704512c7b2d487cfb2d914e5"
  },
  {
   "page_id": "kn_016",
@@ -2373,7 +2588,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 123,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "87ca1a8fc36051c368b63493014c925267203919"
  },
  {
   "page_id": "kn_017",
@@ -2384,7 +2600,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 613,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "e99dd66ea9d0c92c9731b5f0a99e8cdeb212c9b1"
  },
  {
   "page_id": "kn_018",
@@ -2395,7 +2612,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 562,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "46d1ca314e3a21ae92e04e4b54fa3a39f2514865"
  },
  {
   "page_id": "kn_019",
@@ -2406,7 +2624,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1292,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "066b90379ab4238c6c72f9293655c6ec6dc42300"
  },
  {
   "page_id": "kn_020",
@@ -2417,7 +2636,8 @@
   "batch": "B0",
   "dominant_script": "Telugu",
   "l1_chars": 1085,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "0210a510e46e4f0de1ffcdec8d104e58ee114243"
  },
  {
   "page_id": "kn_021",
@@ -2428,7 +2648,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 205,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ebed67aa39206560ab746817368a54e4169edf94"
  },
  {
   "page_id": "kn_022",
@@ -2439,7 +2660,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 1241,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "13897dd2bf924de539809fd5a6b795319bfc2687"
  },
  {
   "page_id": "kn_023",
@@ -2450,7 +2672,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 986,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "dc98afb43aef4033639d0fecfd4cbd94122230f8"
  },
  {
   "page_id": "kn_024",
@@ -2461,7 +2684,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 911,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a83e5562582a76705e824b749e342282a4fcd512"
  },
  {
   "page_id": "kn_025",
@@ -2472,7 +2696,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 333,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "25e871f9d55a1fa7c734e02e536dbc836d1f9456"
  },
  {
   "page_id": "kn_026",
@@ -2483,7 +2708,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 268,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "98e3ece1485d55a49b8f29e4f34bca2dc2913537"
  },
  {
   "page_id": "kn_027",
@@ -2494,7 +2720,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 858,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2817885a47092256d8113b5e5879990f573f1469"
  },
  {
   "page_id": "kn_028",
@@ -2505,7 +2732,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 1070,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f3643319788af261b3e32e1f9829064366e76d51"
  },
  {
   "page_id": "kn_029",
@@ -2516,7 +2744,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 1810,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8b52cac4ed77e00755732233595b2ba0c898e91c"
  },
  {
   "page_id": "kn_030",
@@ -2527,7 +2756,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 876,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ebe61f39093cf128ca5032158d893630b413fc7c"
  },
  {
   "page_id": "kn_031",
@@ -2538,7 +2768,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 331,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5435322f60721673e123100d0e37ba01ce8efde9"
  },
  {
   "page_id": "kn_032",
@@ -2549,7 +2780,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 1774,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b9de2060774d46c2475a95223e4ed5ec5e28ddb9"
  },
  {
   "page_id": "kn_033",
@@ -2560,7 +2792,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 1559,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "18b1485d0fd9bc269ec8d8b640e0d8a542c52915"
  },
  {
   "page_id": "kn_034",
@@ -2571,7 +2804,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 1958,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5585ff68ce4be4c6f5f3ef22e936a33df0d8245c"
  },
  {
   "page_id": "kn_035",
@@ -2582,7 +2816,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 419,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9b561bf1a19ecdfe3928d627dd631b32eebdcf07"
  },
  {
   "page_id": "kn_036",
@@ -2593,7 +2828,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 141,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "523a0fe7d58691bfbecc8dc3580d053b9ad78d8a"
  },
  {
   "page_id": "kn_037",
@@ -2604,7 +2840,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 1535,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d47e4e6ffb9c9fa1c2975f6b63a693d134034b89"
  },
  {
   "page_id": "kn_038",
@@ -2615,7 +2852,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 741,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "222c84710a8c04c3674df02e41f7cb7aea66a4a8"
  },
  {
   "page_id": "kn_039",
@@ -2626,7 +2864,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 1533,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5a62f3ca29af96f287e53da281249fb96266fbca"
  },
  {
   "page_id": "kn_040",
@@ -2637,7 +2876,8 @@
   "batch": "B1",
   "dominant_script": "Kannada",
   "l1_chars": 672,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a03e40d5408d1ed3e822c8fafa71ce1b8831dcaa"
  },
  {
   "page_id": "kn_041",
@@ -2648,7 +2888,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 186,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8e5f165c8101a95f3f813cb599c90dd064913da5"
  },
  {
   "page_id": "kn_042",
@@ -2659,7 +2900,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 2478,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "87d9f6be15341c32e370d533d7e9a751828d4cb4"
  },
  {
   "page_id": "kn_043",
@@ -2670,7 +2912,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 1792,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "199b744e1529dc80304a679ce80f4aa74a764b12"
  },
  {
   "page_id": "kn_044",
@@ -2681,7 +2924,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 1652,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1094a25ff18cb9d2ed1c96fb4f4c415464bbf623"
  },
  {
   "page_id": "kn_045",
@@ -2692,7 +2936,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 57,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "061e2050e269263255e9b0001873a587e50ae06c"
  },
  {
   "page_id": "kn_046",
@@ -2703,7 +2948,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 1596,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "130a0f90f5fa977cb9075dbc0736b337282b8406"
  },
  {
   "page_id": "kn_047",
@@ -2714,7 +2960,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 825,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2811f91802feb503674ca6c2e417575559ec3390"
  },
  {
   "page_id": "kn_048",
@@ -2725,7 +2972,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 1726,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d9929d8c723407b7856fe5566b009086837671b8"
  },
  {
   "page_id": "kn_049",
@@ -2736,7 +2984,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 57,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "3a4858113afec8bb64ccb8d1930acb6546de75d5"
  },
  {
   "page_id": "kn_050",
@@ -2747,7 +2996,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 595,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "07609d00746e83d1be4f6ec2bfd92a7e7fad0a33"
  },
  {
   "page_id": "kn_051",
@@ -2758,7 +3008,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 795,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1cf434631b8ca16ea34b1fd65e5ec3d2a3177c11"
  },
  {
   "page_id": "kn_052",
@@ -2769,7 +3020,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 1377,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "42fff50852e5a955b7fcf4ae8bb424e71f048136"
  },
  {
   "page_id": "kn_053",
@@ -2780,7 +3032,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 2794,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "e5d4135f7a7e335acdf8fc188a03bbce5eb55269"
  },
  {
   "page_id": "kn_054",
@@ -2791,7 +3044,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 1763,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d6601c4606d0bf257acac57f3dddd09907dc44b0"
  },
  {
   "page_id": "kn_055",
@@ -2802,7 +3056,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 878,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2f8499d1aba764753498554dda023661e7c2eb80"
  },
  {
   "page_id": "kn_056",
@@ -2813,7 +3068,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 876,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "eeb959c67c52d5e902931452db1e603caf9f644c"
  },
  {
   "page_id": "kn_057",
@@ -2824,7 +3080,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 867,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "27a8716895613eeaaf92190a1f09616b21a57810"
  },
  {
   "page_id": "kn_058",
@@ -2835,7 +3092,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 2033,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "fd006e84c8fbe83dc161472ac81e280466db5208"
  },
  {
   "page_id": "kn_059",
@@ -2846,7 +3104,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 967,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a4511dd69145c5e0d59436d36902dd0d88677892"
  },
  {
   "page_id": "kn_060",
@@ -2857,7 +3116,8 @@
   "batch": "B2",
   "dominant_script": "Kannada",
   "l1_chars": 869,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1ecf5a56f5045b18eadb29fec77faf427769f2b1"
  },
  {
   "page_id": "kn_061",
@@ -2868,7 +3128,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1456,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "bfce54e6c80029f76afe0ddc9ca92eebd3e2ef79"
  },
  {
   "page_id": "kn_062",
@@ -2879,7 +3140,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1156,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "663a84b9533856eb180c64c01b86c580e325d82b"
  },
  {
   "page_id": "kn_063",
@@ -2890,7 +3152,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 542,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "3c0c5aafbb7effb12d1e7fdbbfe52363ddf8bd9f"
  },
  {
   "page_id": "kn_064",
@@ -2901,7 +3164,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 496,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "58d2b42a07e5cce893d521e37ed27697c541a87c"
  },
  {
   "page_id": "kn_065",
@@ -2912,7 +3176,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 339,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d2a675ad73336cdc9614635e4eda93c7d5b8db86"
  },
  {
   "page_id": "kn_066",
@@ -2923,7 +3188,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1038,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "cd68b433b06e312d13a28be5409a241be700dee6"
  },
  {
   "page_id": "kn_067",
@@ -2934,7 +3200,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1081,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "978770f54ff53f933ac9f728fed2bf734bfe7f60"
  },
  {
   "page_id": "kn_068",
@@ -2945,7 +3212,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2158,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "86c00425b1c83c48dcf124e432ee86fc35167c0c"
  },
  {
   "page_id": "kn_069",
@@ -2956,7 +3224,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 92,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "07f94c77975a5979a96d4a5923dbba07f861d721"
  },
  {
   "page_id": "kn_070",
@@ -2967,7 +3236,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 469,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "02eefe7aa197b448672c3585b2cef9d82cf42302"
  },
  {
   "page_id": "kn_071",
@@ -2978,7 +3248,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2172,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "68070adce63ebc8911476a1acf0cf12d1ca325af"
  },
  {
   "page_id": "kn_072",
@@ -2989,7 +3260,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1817,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7a5ee4cc6b3b7f78d5fadeb78428a3d9ecc09064"
  },
  {
   "page_id": "kn_073",
@@ -3000,7 +3272,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1904,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "37ba08ebe3d9ad3ea7c3e576dff94f0f58fdeba9"
  },
  {
   "page_id": "kn_074",
@@ -3011,7 +3284,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 210,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9b561bf1a19ecdfe3928d627dd631b32eebdcf07"
  },
  {
   "page_id": "kn_075",
@@ -3022,7 +3296,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2564,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f4f4e179f5cebed187ba0eb42fd8b03e6ee9fe60"
  },
  {
   "page_id": "kn_076",
@@ -3033,7 +3308,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2698,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "cce0ffda4a8d12c337044698ea66443b26944d16"
  },
  {
   "page_id": "kn_077",
@@ -3044,7 +3320,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 485,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "84c627c6dda1ba730975569e352078cf6c158a34"
  },
  {
   "page_id": "kn_078",
@@ -3055,7 +3332,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 1780,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "8e17571fefe8c75c35d373975c5a206ffda44adb"
  },
  {
   "page_id": "kn_079",
@@ -3066,7 +3344,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 182,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "641fffb2fbd09ec30388f1e1cc5c18cdb28cbfb0"
  },
  {
   "page_id": "kn_080",
@@ -3077,7 +3356,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 625,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "1a6d29bce1dcbf298368e95548814567d40ba096"
  },
  {
   "page_id": "kn_081",
@@ -3088,7 +3368,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 61,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "6fd68c8b465a04758e3452f23108bcfa949caab5"
  },
  {
   "page_id": "kn_082",
@@ -3099,7 +3380,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 2080,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "bd346f4f724764b50b28fd7a0c1c470daf74d6f1"
  },
  {
   "page_id": "kn_083",
@@ -3110,7 +3392,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 2171,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2f63d190b0ad5bf6ddd8fabf92b3d28f0a28edee"
  },
  {
   "page_id": "kn_084",
@@ -3121,7 +3404,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 1692,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6ee36a90e7ab536185351533941c955d8b4d16af"
  },
  {
   "page_id": "kn_085",
@@ -3132,7 +3416,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 61,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "af6455bce53cbe186619b47a1a3a1b0ca39af3ad"
  },
  {
   "page_id": "kn_086",
@@ -3143,7 +3428,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 3914,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "565297fd77666dda39adc53340e2595aa0e59a46"
  },
  {
   "page_id": "kn_087",
@@ -3154,7 +3440,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 1890,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "fe35016dc87f4a3f20fc93738bb6061761de1a32"
  },
  {
   "page_id": "kn_088",
@@ -3165,7 +3452,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 1047,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "140d6e80bdb00c6806a145c6e16177bd5a2cac89"
  },
  {
   "page_id": "kn_089",
@@ -3176,7 +3464,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 1451,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "aabda6be3645f80bb1c42b16870592345d031e36"
  },
  {
   "page_id": "kn_090",
@@ -3187,7 +3476,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 3914,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "9192efb82cf2a659103cf858ef357fc554e20002"
  },
  {
   "page_id": "kn_091",
@@ -3198,7 +3488,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1625,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "2627631aee810b8ae5587546cd07ef1d870ba7d7"
  },
  {
   "page_id": "kn_092",
@@ -3209,7 +3500,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 2348,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8ab0c6d741552a2505f764da17bac064cb826e25"
  },
  {
   "page_id": "kn_093",
@@ -3220,7 +3512,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 712,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5cc65a0a8b257dd3c50ef76505ca2a5b749b5256"
  },
  {
   "page_id": "kn_094",
@@ -3231,7 +3524,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1129,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d9511a7b5d54f4cad67a6d6ca37e693b8886d56f"
  },
  {
   "page_id": "kn_095",
@@ -3242,7 +3536,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 1496,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "3da18883cae2759770c1fbc7b9cd8498f9b3899c"
  },
  {
   "page_id": "kn_096",
@@ -3253,7 +3548,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 861,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f1f51a02b2dfce54f929ed4d7c3aebc0523a1ba3"
  },
  {
   "page_id": "kn_097",
@@ -3264,7 +3560,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 617,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "fe7d951bc10476f5ec36b92b6f2126a0e83842e0"
  },
  {
   "page_id": "kn_098",
@@ -3275,7 +3572,8 @@
   "batch": "B4",
   "dominant_script": "Kannada",
   "l1_chars": 883,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a6e690bfb8085afecc13bbbc015055ce42e9ea51"
  },
  {
   "page_id": "kn_099",
@@ -3286,7 +3584,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 281,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "d0cd6b57b98d228e6b882c1b6534abb1b22962d0"
  },
  {
   "page_id": "kn_100",
@@ -3297,7 +3596,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1108,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "04886cf6da547fe0965669d462e6489b89f89489"
  },
  {
   "page_id": "ml_001",
@@ -3308,7 +3608,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 1942,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "226a09559dfb90b1dc9f65b6f91e55afb594febd"
  },
  {
   "page_id": "ml_002",
@@ -3319,7 +3620,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1308,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f64999758898c9758d8c5c644ee105a6fc60bee6"
  },
  {
   "page_id": "ml_003",
@@ -3330,7 +3632,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1315,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "000b4d12f10c6e7b6c6adffb97da589d0d8384ba"
  },
  {
   "page_id": "ml_004",
@@ -3341,7 +3644,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1148,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "0c3082cf42d5d1dd8432257b137f3561a971f731"
  },
  {
   "page_id": "ml_005",
@@ -3352,7 +3656,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 572,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7f1f13daffcdef5cf1589518e315f42e9e98ee7e"
  },
  {
   "page_id": "ml_006",
@@ -3363,7 +3668,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1660,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a7c2a4f166563974ab28defa3ffdbe76826cbb0b"
  },
  {
   "page_id": "ml_007",
@@ -3374,7 +3680,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 2286,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ce3bcdf96214279317436807fb638383b839fbee"
  },
  {
   "page_id": "ml_008",
@@ -3385,7 +3692,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 2336,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "929b271ec924ccb38634339f7a304d37c8b00554"
  },
  {
   "page_id": "ml_009",
@@ -3396,7 +3704,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 2320,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "129e60e1d5a30ac04613b4d2eefb9da85be70f21"
  },
  {
   "page_id": "ml_010",
@@ -3407,7 +3716,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 2060,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "130c32dbdffde8effb797c1e3074c8071607b96e"
  },
  {
   "page_id": "ml_011",
@@ -3418,7 +3728,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 2064,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2a0cca774ca977ba4a8509885dfa39ffce319bdf"
  },
  {
   "page_id": "ml_012",
@@ -3429,7 +3740,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 2031,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8989adbd93bc2872d42c2b9dff5ba37abf3256b6"
  },
  {
   "page_id": "ml_013",
@@ -3440,7 +3752,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1486,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "529d01091b2a108aa0590cbe97e9f4751b48f0fe"
  },
  {
   "page_id": "ml_014",
@@ -3451,7 +3764,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 465,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "cbdea724f20f33598d81c0e655ee964b7a3b835d"
  },
  {
   "page_id": "ml_015",
@@ -3462,7 +3776,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 442,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ed44f5b3531fbda015d36d4d1ab9781fcaf7c178"
  },
  {
   "page_id": "ml_016",
@@ -3473,7 +3788,8 @@
   "batch": "B0",
   "dominant_script": "Latin",
   "l1_chars": 906,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "33ad4511906d7d2c250b48deb7a036d8c06c86f8"
  },
  {
   "page_id": "ml_017",
@@ -3484,7 +3800,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1413,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "483855197ff6ede64e737b767efc9f7dac473a7c"
  },
  {
   "page_id": "ml_018",
@@ -3495,7 +3812,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1233,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "62769897b3d7fc45c59fe6e634421e2ad7fd2042"
  },
  {
   "page_id": "ml_019",
@@ -3506,7 +3824,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 1663,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a39d5538cac0bf5466d3fd2c226a3cdf03fbb968"
  },
  {
   "page_id": "ml_020",
@@ -3517,7 +3836,8 @@
   "batch": "B0",
   "dominant_script": "Malayalam",
   "l1_chars": 365,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8ad7b320fe32a5318a6a46a510302673716975d3"
  },
  {
   "page_id": "ml_021",
@@ -3528,7 +3848,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 138,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "504082514d6ee91c22709f93763b8d735c5acf41"
  },
  {
   "page_id": "ml_022",
@@ -3539,7 +3860,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1567,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "64214c4f89dd02503aed7b719c1fff2687c10830"
  },
  {
   "page_id": "ml_023",
@@ -3550,7 +3872,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1158,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "3ccc5371a255fe77b7bbb77973ac339a7fa51f61"
  },
  {
   "page_id": "ml_024",
@@ -3561,7 +3884,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1233,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "94e7ef204850d6486cb11667818c397fd7dedc61"
  },
  {
   "page_id": "ml_025",
@@ -3572,7 +3896,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 572,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2714928092b2a527d14f0baf67b31819e776c497"
  },
  {
   "page_id": "ml_026",
@@ -3583,7 +3908,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 406,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "cf87418a855b07d4c180cbe25db7e55554877777"
  },
  {
   "page_id": "ml_027",
@@ -3594,7 +3920,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1207,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "eb45768cff82cdcd80945f02e5b642ed16f67641"
  },
  {
   "page_id": "ml_028",
@@ -3605,7 +3932,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1437,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "054fc143474b63756a405bff8cd58bb669ed8f34"
  },
  {
   "page_id": "ml_029",
@@ -3616,7 +3944,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1780,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d085af4c32f89b64a8f6379bbbc191647890e770"
  },
  {
   "page_id": "ml_030",
@@ -3627,7 +3956,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 2069,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "56cd2c5601d3678d6a404ae6568b8e74f4bde671"
  },
  {
   "page_id": "ml_031",
@@ -3638,7 +3968,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1774,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "215ecc4614a3992db99407ec9eafb7df2d6409f3"
  },
  {
   "page_id": "ml_032",
@@ -3649,7 +3980,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1655,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "2cab3bb1011cb162ed478499c520309c4d0b51a0"
  },
  {
   "page_id": "ml_033",
@@ -3660,7 +3992,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 935,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9a69de8b102a5c6c718d29654e5a5d726fc9626e"
  },
  {
   "page_id": "ml_034",
@@ -3671,7 +4004,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 2336,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "90b80e8ac930af466779375974f2604a10cad1e1"
  },
  {
   "page_id": "ml_035",
@@ -3682,7 +4016,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 63,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f636b8c7ddd37870d8cbd98dfee05b501d0286a1"
  },
  {
   "page_id": "ml_036",
@@ -3693,7 +4028,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1129,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "37cb55d125744fd6c10ded8b51b9221f2b675ea2"
  },
  {
   "page_id": "ml_037",
@@ -3704,7 +4040,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1178,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "68243929d10231d81303917542256e3f5af80007"
  },
  {
   "page_id": "ml_038",
@@ -3715,7 +4052,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 1124,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d72e0255d5bcac0917f73b85d0961ef55ba30036"
  },
  {
   "page_id": "ml_039",
@@ -3726,7 +4064,8 @@
   "batch": "B1",
   "dominant_script": "Malayalam",
   "l1_chars": 2284,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "f248474f64df8a7b5cd96bf3ab7fd493d517598f"
  },
  {
   "page_id": "ml_040",
@@ -3737,7 +4076,8 @@
   "batch": "B1",
   "dominant_script": "Latin",
   "l1_chars": 130,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "af7611540b865cba8e94d884c35a2bd2d2479949"
  },
  {
   "page_id": "ml_041",
@@ -3748,7 +4088,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1308,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8269820e1ec64b8b10fe72a056e4b88815ab1114"
  },
  {
   "page_id": "ml_042",
@@ -3759,7 +4100,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1198,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9433cd229fbb158c36f608eec3edf17fff6b0685"
  },
  {
   "page_id": "ml_043",
@@ -3770,7 +4112,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1068,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d390cd2d9d8a9f3d12bf429855a8ef053bc3b3c1"
  },
  {
   "page_id": "ml_044",
@@ -3781,7 +4124,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1377,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "bdff06d7238e52795227baefb6770a6374576789"
  },
  {
   "page_id": "ml_045",
@@ -3792,7 +4136,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 213,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "a393cb55b9e515b670c995812ef8b93392f86fad"
  },
  {
   "page_id": "ml_046",
@@ -3803,7 +4148,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 2049,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "ca583c3a1be26583b1784560b0e39ca8fb89378d"
  },
  {
   "page_id": "ml_047",
@@ -3814,7 +4160,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1126,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "5c91a26760144c2ae90ef80f885b06ba2c89d4d7"
  },
  {
   "page_id": "ml_048",
@@ -3825,7 +4172,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1323,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6c5072244ac04e7d4a97f28e180b696a9c3ca0eb"
  },
  {
   "page_id": "ml_049",
@@ -3836,7 +4184,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1906,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9f3aed6ff9d972c93a4bd4b31b63c7f428729284"
  },
  {
   "page_id": "ml_050",
@@ -3847,7 +4196,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1648,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1c6173d41f18774163276dd94ff67ef4889bc256"
  },
  {
   "page_id": "ml_051",
@@ -3858,7 +4208,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1681,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "4b59b85b02defc8d02575e084a88793e7b217bf1"
  },
  {
   "page_id": "ml_052",
@@ -3869,7 +4220,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 99,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "3e884af9a3c9a7924b7320c9e55ecb7db5087d50"
  },
  {
   "page_id": "ml_053",
@@ -3880,7 +4232,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 666,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "92f54484e53a0adb82ecacde21c1d7809287ec8f"
  },
  {
   "page_id": "ml_054",
@@ -3891,7 +4244,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 467,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9057d86ebbf17b450eb9e38cd6f7c1b12d8d7ebd"
  },
  {
   "page_id": "ml_055",
@@ -3902,7 +4256,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1887,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "0b02d5bdcc1ff4f7d8358fae7b9e830d8df92c7c"
  },
  {
   "page_id": "ml_056",
@@ -3913,7 +4268,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1028,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "7411afebd684fbe0d12b30422fe8ae6f9f48ca8f"
  },
  {
   "page_id": "ml_057",
@@ -3924,7 +4280,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1545,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "1fb128a12edc97432b135fa7fa4f7ef047f3f9dd"
  },
  {
   "page_id": "ml_058",
@@ -3935,7 +4292,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 1146,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "adadbdefbeb2bc8eab05915babffa84c0c42f150"
  },
  {
   "page_id": "ml_059",
@@ -3946,7 +4304,8 @@
   "batch": "B2",
   "dominant_script": "Malayalam",
   "l1_chars": 336,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "485d3af746214ca8a293bb3f438510644013403e"
  },
  {
   "page_id": "ml_060",
@@ -3957,7 +4316,8 @@
   "batch": "B2",
   "dominant_script": "Latin",
   "l1_chars": 379,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "b0c9f489b1428de6f37fa7a0f998b900681c0ec4"
  },
  {
   "page_id": "ml_061",
@@ -3968,7 +4328,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7cae2ec8da0c693c94f5d2f808f821cab07822e7"
  },
  {
   "page_id": "ml_062",
@@ -3979,7 +4340,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 589,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6c08955ba3600e8d37ee2c4dcff68163297fa0d5"
  },
  {
   "page_id": "ml_063",
@@ -3990,7 +4352,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 3580,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d36b4c35285a618d5f8244cc549664fc453c45e2"
  },
  {
   "page_id": "ml_064",
@@ -4001,7 +4364,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2249,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "70712634aa33da1b5a19256a623803943693f647"
  },
  {
   "page_id": "ml_065",
@@ -4012,7 +4376,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "f424b4c12396124dd17a885fe7d10b6885c9cd4b"
  },
  {
   "page_id": "ml_066",
@@ -4023,7 +4388,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7a3898bd546801d4276ebce4b66b05e591deac3a"
  },
  {
   "page_id": "ml_067",
@@ -4034,7 +4400,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2532,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "735cf024da1759391fe6fd6b6b61be862f5a1d35"
  },
  {
   "page_id": "ml_068",
@@ -4045,7 +4412,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 710,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5ff50dbdfc38430a188e908234b05da342d38518"
  },
  {
   "page_id": "ml_069",
@@ -4056,7 +4424,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 434,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "378ff40ac6109e5cf72d262184ee707bc752f630"
  },
  {
   "page_id": "ml_070",
@@ -4067,7 +4436,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 210,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "6a66e5b8a09ac29ee6e401360e71e1f478c9b25a"
  },
  {
   "page_id": "ml_071",
@@ -4078,7 +4448,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2069,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "558251ffa20b1c754e7864ef4f17aaebd4af79e2"
  },
  {
   "page_id": "ml_072",
@@ -4089,7 +4460,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2359,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "676aaa80714fc46dd14d368987d177070c52c775"
  },
  {
   "page_id": "ml_073",
@@ -4100,7 +4472,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 3008,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9c17b3f141297d875f851dcbb17063c053bf5f48"
  },
  {
   "page_id": "ml_074",
@@ -4111,7 +4484,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 836,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "24e58c340359ac77c313af1f4a1064c498aaa17a"
  },
  {
   "page_id": "ml_075",
@@ -4122,7 +4496,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "6848de03982671471f1d638821ca26abaf4d5827"
  },
  {
   "page_id": "ml_076",
@@ -4133,7 +4508,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2911,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "da3627e24a5e46a5928d4772b5cd221bdc89aebb"
  },
  {
   "page_id": "ml_077",
@@ -4144,7 +4520,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2242,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8f776d557d1c65d4697d8707d93d2a5a17641034"
  },
  {
   "page_id": "ml_078",
@@ -4155,7 +4532,8 @@
   "batch": "B3",
   "dominant_script": "Malayalam",
   "l1_chars": 2267,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "59abeb3325ca06ec76f68a8c3f584f0a750158f7"
  },
  {
   "page_id": "ml_079",
@@ -4166,7 +4544,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "260b1e390443d19de0d4b56896685e4395075c2f"
  },
  {
   "page_id": "ml_080",
@@ -4177,7 +4556,8 @@
   "batch": "B3",
   "dominant_script": "Latin",
   "l1_chars": 2044,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "12d77b29e171150a2542cc2c422853c92eb362ce"
  },
  {
   "page_id": "ml_081",
@@ -4188,7 +4568,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1111,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "d93dd75aac127cc92d96916f854684145504b42f"
  },
  {
   "page_id": "ml_082",
@@ -4199,7 +4580,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1111,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b4168262c090dff74b76d1af68659d165e1c23c2"
  },
  {
   "page_id": "ml_083",
@@ -4210,7 +4592,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 2374,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "00c4d6f9277d2ad53da8e89307cc4c2940caa27a"
  },
  {
   "page_id": "ml_084",
@@ -4221,7 +4604,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 3879,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "31960e4b18a7b737ead2464b0cbf31448b2a8ab7"
  },
  {
   "page_id": "ml_085",
@@ -4232,7 +4616,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 166,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7c953b4c2c56737446703fe1d63933825e395027"
  },
  {
   "page_id": "ml_086",
@@ -4243,7 +4628,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 2096,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "bfef3c011a446af3ed546475fc4de2c5d8d70246"
  },
  {
   "page_id": "ml_087",
@@ -4254,7 +4640,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 2096,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "bfb118076bac4cbac3e002f7d157412b955b82ea"
  },
  {
   "page_id": "ml_088",
@@ -4265,7 +4652,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 1488,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "8db79d72bd5a3c240e54204f6190df3194489c7d"
  },
  {
   "page_id": "ml_089",
@@ -4276,7 +4664,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 2532,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "405af8f982014539578364bba93e16ec2fb05e70"
  },
  {
   "page_id": "ml_090",
@@ -4287,7 +4676,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 681,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "7c07397a94ea76a4352883549af67e890c12daec"
  },
  {
   "page_id": "ml_091",
@@ -4298,7 +4688,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 3183,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "8145a2c1e634b47c8178719f6fa7568a9e24b26c"
  },
  {
   "page_id": "ml_092",
@@ -4309,7 +4700,8 @@
   "batch": "B4",
   "dominant_script": "Latin",
   "l1_chars": 880,
-  "mixed_book_page": true
+  "mixed_book_page": true,
+  "render_sha1": "5f9037ec774493a8a5f30ed132d588cf55264b4c"
  },
  {
   "page_id": "ml_093",
@@ -4320,7 +4712,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1997,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "b35e83436b95a34f896228cd6567f5ccb8702ada"
  },
  {
   "page_id": "ml_094",
@@ -4331,7 +4724,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1997,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "0d141e5ebee7514f6e2fab98fa181fba9d4bb549"
  },
  {
   "page_id": "ml_095",
@@ -4342,7 +4736,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1056,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "6cfa98762135d997833aa730dacae31b3f11c34a"
  },
  {
   "page_id": "ml_096",
@@ -4353,7 +4748,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1992,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "e42abb821018f80bc96cc7df8718163956d18265"
  },
  {
   "page_id": "ml_097",
@@ -4364,7 +4760,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 2389,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "9c947fcbe050eaef4aaa44769458397ef3a59ad2"
  },
  {
   "page_id": "ml_098",
@@ -4375,7 +4772,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 2389,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "67efa791bc7c0d1e21dfcb203cf856ccacd9df0f"
  },
  {
   "page_id": "ml_099",
@@ -4386,7 +4784,8 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 2389,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "dddc184a909a9d21a15c2771a7d95f17a7d437bb"
  },
  {
   "page_id": "ml_100",
@@ -4397,6 +4796,7 @@
   "batch": "B4",
   "dominant_script": "Malayalam",
   "l1_chars": 1865,
-  "mixed_book_page": false
+  "mixed_book_page": false,
+  "render_sha1": "832c54ae22711207448f59750708043760aedfff"
  }
 ]

@@ -144,3 +144,14 @@ ALL engines (core 5 + agreed +3) have 400 matching page_ids in models/<eng>/json
 - Track E (Sep-15 deliverables): GAP_REPORT.md (ONE number: % of GT volume ALL free engines miss, pooled + per-script) · SHOWCASE 6 pages × 6 engines (book/bad-scan/form/stamp/handwriting/mixed) · failure taxonomy · latency table · best-per-scenario · explain-like-I-own-it one-pager · 5-liner to Vinay.
 - Track G deck wiring documented in README: out/ packs = Stage-3 corpus · CER = 3b preference pairs · capture = gap slide · disagreement = Stage-1 layout queue · L1 = audit layer · firewall: no fine-tune on bench data.
 - Scoreboard honesty: today 6.8/10 → 10/10 = all Track B + A-remainder + E green before Sep 16; seal-green by Sep 17; exams 18–22 automation runs itself.
+
+## 19. DEFINITIVE OPERATING DOCTRINE (13 Sep, post-4000-checkpoint — final consolidation)
+- Score at 4000: 7.0/10. Remaining 3 points = proof, honesty, packaging. NOT more packs.
+- Effective independent engine families: 7 (tesseract-family pooled, easyocr, paddleocr, indicphotoocr, doctr, surya, rapidocr).
+- [LAW] SEAL CONTRACT G1-G12: 10×400 in models/ · classification per engine (signal|alias|wash) · reports same-tick fresh (mtime spread <60s) · script-sliced leaderboard · true consensus family-deduped · schema clean (missing=ABSENT row) · manifest 400/400 · pages_400 honest · LEVEL 3 NOT STARTED line · git clean · setup.sh smoke-proven once · human gate (defend to David without notes). LEVEL2_SEALED=true only when G1-G11 machine-green.
+- [LAW] No hand edits any number stored under level2/reports/ or models/. Report freshness stamped (generated_at) or it's fiction.
+- [LAW] D11 INCIDENTS: same-signature FAIL ≥5 pages → auto-line in IMPROVEMENTS + stop that engine's spawns until human ack. D12 DEADLINE GUARD: new scope auto-rejected inside T-4 of a demo. D9: DECISIONS.log append-only ledger.
+- Verify spec V1-V23 = the full truth engine (V9 = 5-gram Jaccard ≥0.6 family-deduped; V11 CER → Stage-3b pairs; V12 L1-gold cross-check; V21 render sha1; V22 nightly regression alarm >2% = red; V23 stamps).
+- Consensus final spec: char 5-gram Jaccard ≥0.6 pairwise, ≥6 engines, family = 1 vote.
+- Sep-16 package (Part VII): gap slide (headline % of GT volume missed) · leaderboard v2 · showcase 6×6 · failure taxonomy · cost table · one-pager · five-liner: "L2: 10/10 engines × 400 pages. Verified & sealed. Free-OSS gap: X%. Showpiece + leaderboard ready. Next: Level-3 budget approval."
+- Standing orders (permanent): numbers generated never written · 4-page proof before 400 change · family=1 vote, noise=labeled, alias=disclosed, tags can be wrong but 3 engines agreeing can't be hallucinating · one writer per report · datasets immutable/archives append-only/reruns versioned · commit green, reproduce weekly, budget before keys · group=counts, David=receipts, Vinay=five lines · missing is a row not a silence · one fact one file · seal is a machine state not a feeling.

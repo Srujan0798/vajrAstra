@@ -1,0 +1,90 @@
+vajrAstra — HOW TO RUN (the ops card; one of the six living docs)
+Law: level2/ULTIMATE_HYBRID_CONCERN.md · Map: level2/FOLDER_MAP.md
+Audience: Srujan + any fresh agent on any machine.
+
+WHAT LEVEL 2 IS (own this explanation)
+  Same 400 South pages as Level 1 (te/ta/kn/ml, 100 each) run through
+  10 free OSS OCR engines -> 4000 JSON benchmark packs.
+  NOT a new OCR: the harness renders each page to PNG, calls each engine
+  exactly like its official CLI, and wraps the RAW text as Level-1-style
+  JSON. Engines are programs, not agents — no prompting ever (law §11).
+  Metric = MAX RAW OUTPUT: dense script text is useful even with errors;
+  empty / 1-line-on-dense-page / English-essay / repeat-loop is useless.
+  Empty is honest; fabricated text is the worst fail. Engines read ANY
+  script on a page — the page_id lang tag is an ID, never a constraint
+  (open policy, law §15).
+
+TWO VENVS (why + who lives where)
+  .venv    = Python 3.14 — tesseract family: tesseract_indic,
+             tesseract_bilingual, anuvaad_tesseract
+  .venv311 = Python 3.11 — easyocr, openbharatocr, indicphotoocr,
+             paddleocr_indic, rapidocr, doctr, surya
+  Reason: paddle/easyocr/surya/doctr/rapidocr need 3.11 wheels; tesseract
+  runs on 3.14. orchestrator.py engine_python() knows the mapping —
+  never run run_engine.py with the wrong venv.
+
+ONE-PUSH COMMANDS (level2/orchestrator.py — the control tower)
+  cd /Users/srujansai/Desktop/South
+  .venv311/bin/python level2/orchestrator.py status      # disk-truth dashboard
+  .venv311/bin/python level2/orchestrator.py fill         # parallel respawn, incomplete engines only
+  .venv311/bin/python level2/orchestrator.py migrate      # out/<eng> -> models/<eng>/json
+  .venv311/bin/python level2/orchestrator.py verify       # verify_all.py + verify_v2.py
+  .venv311/bin/python level2/orchestrator.py dashboard    # regenerate DASHBOARD.md
+  .venv311/bin/python level2/orchestrator.py guards      # disk + core + spawn-guard status
+  .venv311/bin/python level2/orchestrator.py cycle        # one full refresh chain
+  .venv311/bin/python level2/orchestrator.py autoloop 30  # unattended loop, every 30 min
+  Single engine (rare, manual):
+  .venv311/bin/python level2/run_engine.py --engine <id> --skip-existing
+  (pick the venv from the mapping above)
+
+THE 4-PAGE GATE (law §17 — never skip)
+  No engine change touches the 400 until it survives 4 pages first
+  (one per language). Failed probe = fix + re-probe; a wasted 400-page
+  rerun costs hours (this gate saved rapidocr once).
+
+WHERE PACKS LIVE
+  level2/out/<engine>/{te,ta,kn,ml}/*.json   live outputs (400 per engine)
+  level2/renders_shared/                     the single shared 400-PNG set
+  level2/models/<engine>/json/               seal structure (via migrate)
+  level2/out_archive/<eng>_vN_<reason>/      superseded runs — never deleted
+  level2/reports/                            ALL numbers live here only
+  Every pack stamps ocr_engine + engine_meta {engine, policy, dpi, version}.
+
+HOW THE LOOP WORKS (autoloop)
+  Each cycle: fill (respawn stalled/incomplete; 10-min stall kill;
+  spawn-guard blocks known-broken respawns; 5GB-disk + 7-core guards)
+  -> migrate -> verify (PDF-layer GT + cross-engine consensus / loops /
+  English-leak / NFC / schema) -> dashboard -> archive-logs -> seal.
+  HEARTBEAT.jsonl logs every page run (crash-survivable telemetry).
+  One writer: report_gen.py is the ONLY report pipeline — never hand
+  numbers into reports/ (law §17).
+
+ADDING AN ENGINE (plugin socket: level2/engines/)
+  1. Get an ocr_<id>(image_path, lang) function into run_engine.py
+     (main agent owns that file — request, do not hand-edit).
+  2. Create engines/local/<id>.py (~15 lines) implementing BaseEngine:
+     name / version / lang_hint / run(png) -> NFC text; it self-registers
+     into REGISTRY. Exact template: level2/engines/README.md.
+  3. Add it to the import list in engines/local/__init__.py.
+  4. Extend EXPECTED_LOCAL in engines/test_registry.py, then:
+     .venv/bin/python level2/engines/test_registry.py   (must stay green)
+  Level-3 (paid APIs): stubs in engines/level3_stub.py raise LOCKED
+  until Level 2 is sealed (law §5). Keys in env vars only, never committed.
+
+FRESH MACHINE
+  scripts/setup_fresh_machine.sh — creates both venvs, installs deps,
+  downloads tessdata + weights, verifies imports, prints status.
+  Then: nohup .venv311/bin/python level2/orchestrator.py autoloop 30 &
+
+DO NOT TOUCH
+  arc_level_1/ (frozen Level-1 archive) · Datasets/ (source PDFs) ·
+  out_archive/, _archive/, models/*/json_v0_weak/ (archive law).
+
+APPENDIX — EXPLAIN ENGINES TO THE OWNER (folded from EXPLAIN_FOR_SRUJAN.txt)
+  Q: is this a different OCR? A: no — same engines as their official
+     usage (e.g. tesseract -l tel); we automate 400 pages + JSON packaging.
+  Q: why two venvs? A: 3.11 wheels vs 3.14 — mapping above.
+  Q: what counts as success? A: max raw output (coverage + nonempty),
+     not perfect accuracy. These are benchmarks, not products.
+  Q: when do we train? A: never on bench data — packs feed Stage-3 as
+     noisy corpus (see README deck wiring); the firewall holds.

@@ -4,6 +4,12 @@
 Adds:
   - coverage_ge6 (>=6/10 engines produce nonempty text; renamed from 'consensus')
   - true consensus (>=6 engines AND median pairwise token Jaccard >= 0.5)
+  - B9 char 5-gram consensus (family-deduped votes, median pairwise Jaccard >= 0.6)
+  - B11 CER/WER floor vs PDF-layer GT -> CER_STAGE3B.json (Stage-3b preference pairs)
+  - B12 L1-gold cross-check CER -> l1_crosscheck
+  - B16 line-count sanity (<50% of GT lines on dense pages, GT >= 10 lines)
+  - B6 absent packs surfaced per engine in LEADERBOARD.md
+  - B22 regression alarm vs previous run (baseline kept in _verify_v2_previous.json)
   - repetition-loop detection (n-gram redundancy)
   - charset hallucination (script X output on script Y page), with
     manifest dominant_script cross-check and manifest_tag_suspects
@@ -12,13 +18,15 @@ Adds:
   - script-sliced leaderboard (LEADERBOARD_BY_SCRIPT.md)
   - consolidated CSV: page_id x engine matrix
 Outputs: reports/VERIFY_V2_SUMMARY.json, reports/MATRIX.csv, reports/LEADERBOARD.md,
-         reports/LEADERBOARD_BY_SCRIPT.md, reports/TRUE_CONSENSUS.json, reports/FAILURE_TAXONOMY.md
+          reports/LEADERBOARD_BY_SCRIPT.md, reports/TRUE_CONSENSUS.json, reports/FAILURE_TAXONOMY.md,
+          reports/CER_STAGE3B.json
 """
 from __future__ import annotations
 
 import csv
 import hashlib
 import json
+import time
 import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -46,6 +54,84 @@ SCRIPT_BUCKETS = ["Latin", "Telugu", "Tamil", "Kannada", "Malayalam", "Devanagar
 REQUIRED_KEYS = {"page_id", "source", "lang", "script", "quality_tier",
                  "image", "regions", "ocr_engine"}
 REQ_REGION_KEYS = {"region_id", "cls", "bbox_xyxy", "text"}
+
+L1_DIR = ROOT / "arc_level_1" / "labeled"
+L1_LANGS = ("te", "ta", "kn", "ml")
+
+# tesseract-family engines mirror one model — one vote in family/5-gram consensus
+FAMILY = {
+    "tesseract_family": {"tesseract_indic", "tesseract_bilingual",
+                         "anuvaad_tesseract", "openbharatocr"},
+}
+
+
+def family_of(e: str) -> str:
+    for fam, members in FAMILY.items():
+        if e in members:
+            return fam
+    return e
+
+
+FAMILY_MEMBERS = FAMILY["tesseract_family"]
+
+
+def cer_norm(text: str) -> str:
+    """NFC, lowercase, whitespace collapsed to single spaces — CER/WER basis."""
+    t = unicodedata.normalize("NFC", text).lower()
+    return " ".join(t.split())
+
+
+def char_ngrams(t: str, n: int = 5) -> set[str]:
+    """Char n-gram SET of a whitespace-stripped string (B9 basis)."""
+    s = "".join(t.split())
+    if len(s) < n:
+        return {s} if s else set()
+    return {s[i:i+n] for i in range(len(s) - n + 1)}
+
+
+def edit_distance(a, b) -> int:
+    """Levenshtein via Myers bit-vector (exact S+D+I; lists allowed for words)."""
+    if a == b:
+        return 0
+    m, n = len(a), len(b)
+    if m == 0:
+        return n
+    if n == 0:
+        return m
+    if m > 950:
+        a, b, m, n = b, a, n, m
+    peq: dict = {}
+    for i, c in enumerate(a):
+        peq[c] = peq.get(c, 0) | (1 << i)
+    full = (1 << m) - 1
+    msb = 1 << (m - 1)
+    pv, mv, score = full, 0, m
+    for c in b:
+        eq = peq.get(c, 0)
+        xv = eq | mv
+        xh = (((eq & pv) + pv) ^ pv) | eq
+        ph = mv | (~(xh | pv) & full)
+        mh = pv & xh
+        if ph & msb:
+            score += 1
+        elif mh & msb:
+            score -= 1
+        ph = ((ph << 1) | 1) & full
+        mh = (mh << 1) & full
+        pv = mh | (~(xv | ph) & full)
+        mv = xv & ph
+    return score
+
+
+def cer_wer(hyp: str, gt: str) -> tuple[float, float] | None:
+    """(CER, WER) vs GT; None when GT has no chars/words."""
+    if not gt:
+        return None
+    cer = edit_distance(hyp, gt) / len(gt)
+    gw = gt.split()
+    hw = hyp.split()
+    wer = (edit_distance(hw, gw) / len(gw)) if gw else None
+    return round(cer, 4), round(wer, 4) if wer is not None else None
 
 
 def build_index() -> dict[str, dict[str, Path]]:
@@ -234,6 +320,23 @@ def pdf_text_by_page(manifest: list[dict]) -> dict[str, str]:
     return out
 
 
+def load_l1_gold() -> dict[str, str]:
+    """page_id -> joined L1 region text from arc_level_1/labeled/{te,ta,kn,ml}."""
+    out: dict[str, str] = {}
+    for lang in L1_LANGS:
+        d = L1_DIR / lang
+        if not d.exists():
+            continue
+        for p in sorted(d.glob("*.json")):
+            try:
+                obj = json.loads(p.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            pid = obj.get("page_id") or p.stem
+            out[pid] = "\n".join(r.get("text", "") for r in obj.get("regions", []))
+    return out
+
+
 def manifest_render_check() -> dict:
     """Items 41/58/59/60: manifest integrity + render checksum sanity from disk."""
     manifest = json.loads((L2 / "pages_manifest.json").read_text(encoding="utf-8"))
@@ -281,10 +384,18 @@ def manifest_render_check() -> dict:
 
 
 def main() -> None:
+    t_start = time.time()
     REPORTS.mkdir(exist_ok=True)
     manifest = json.loads((L2 / "pages_manifest.json").read_text(encoding="utf-8"))
     idx = build_index()
     gt = pdf_text_by_page(manifest)
+    # task 7: ONE extraction cache reused by all engines + all checks
+    gt_raw: dict[str, str] = {pid: (gt.get(pid, "") or "").strip() for pid in (it["page_id"] for it in manifest)}
+    gt_norm: dict[str, str] = {pid: cer_norm(t) for pid, t in gt_raw.items()}
+    gt_words: dict[str, list[str]] = {pid: t.split() for pid, t in gt_norm.items()}
+    l1_gold = load_l1_gold()
+    l1_norm: dict[str, str] = {pid: cer_norm(t) for pid, t in l1_gold.items()}
+    l1_words: dict[str, list[str]] = {pid: t.split() for pid, t in l1_norm.items()}
 
     agg = {e: {"empty": 0, "thin": 0, "loop": 0, "checked": 0, "missing": 0,
                "chars": [], "garbage": [], "nfc_bad": 0, "eng_leak": 0,
@@ -306,16 +417,20 @@ def main() -> None:
     schema_missing = []
     text_hash: dict[str, set[str]] = {e: set() for e in ENGINES}
     dup_texts: dict[str, dict[str, int]] = {e: {} for e in ENGINES}
-    # tesseract-family engines mirror one model — one vote in family consensus
-    FAMILY = {
-        "tesseract_family": {"tesseract_indic", "tesseract_bilingual",
-                             "anuvaad_tesseract", "openbharatocr"},
-    }
-    def family_of(e: str) -> str:
-        for fam, members in FAMILY.items():
-            if e in members:
-                return fam
-        return e
+    # B9 char 5-gram consensus (law spec) — family-deduped votes
+    consensus5_pages = []
+    consensus5_detail: dict[str, dict] = {}
+    # B11 CER/WER floor vs PDF-layer GT (Stage-3b preference-pair labels)
+    cer_per_page: dict[str, dict] = {}
+    cer_collect: dict[str, list[float]] = {e: [] for e in ENGINES}
+    wer_collect: dict[str, list[float]] = {e: [] for e in ENGINES}
+    best_engine_wins: Counter = Counter()
+    # B12 L1-gold cross-check
+    l1_cer_collect: dict[str, list[float]] = {e: [] for e in ENGINES}
+    l1_gt_thin: dict[str, int] = {e: 0 for e in ENGINES}
+    l1_cer_gt1: dict[str, list[str]] = {e: [] for e in ENGINES}
+    # B16 line-count sanity
+    lines_short: dict[str, list[str]] = {e: [] for e in ENGINES}
 
     for item in manifest:
         pid = item["page_id"]
@@ -326,6 +441,13 @@ def main() -> None:
         page_tokens: dict[str, set[str]] = {}
         page_scripts: dict[str, str] = {}
         fam_tokens: dict[str, set[str]] = {}
+        fam_5grams: dict[str, set[str]] = {}
+        page_row_cer: dict[str, dict] = {}
+        gtn = gt_norm.get(pid, "")
+        gt_w = gt_words.get(pid, [])
+        l1n = l1_norm.get(pid)
+        l1_w = l1_words.get(pid, [])
+        gt_lines = len([ln for ln in gt_raw.get(pid, "").splitlines() if ln.strip()])
         for e in ENGINES:
             p = idx[e].get(pid)
             state = schema_state(p)
@@ -353,17 +475,39 @@ def main() -> None:
                 agg[e]["by_script"][dom].append(len(txt))
                 if len(txt) < 30:
                     agg[e]["by_script_thin"][dom] += 1
-            gt_txt = gt.get(pid, "").strip()
-            if len(gt_txt) >= 200:
-                ratio = round(len(txt) / len(gt_txt), 3)
-                agg[e]["cap_pdf"].append(ratio)
-                if dom:
-                    agg[e]["by_script_cap"][dom].append(ratio)
-                gt_lines = len([l for l in gt_txt.splitlines() if l.strip()])
-                if gt_lines >= 6:
-                    eng_lines = len([l for l in txt.splitlines() if l.strip()])
-                    if eng_lines < gt_lines / 3:
-                        agg[e]["lines_vs_gt_short"] += 1
+            etxt = cer_norm(txt)
+            eng_words = etxt.split()
+            if gtn:
+                if len(gtn) >= 200:
+                    ratio = round(len(etxt) / len(gtn), 3)
+                    agg[e]["cap_pdf"].append(ratio)
+                    if dom:
+                        agg[e]["by_script_cap"][dom].append(ratio)
+                    ed = edit_distance(etxt, gtn)
+                    cer = round(ed / len(gtn), 4)
+                    cer_collect[e].append(cer)
+                    wer = (round(edit_distance(eng_words, gt_w) / len(gt_w), 4)
+                           if gt_w else None)
+                    if wer is not None:
+                        wer_collect[e].append(wer)
+                    page_row_cer[e] = {"cer": cer, "wer": wer,
+                                       "gt_chars": len(gtn)}
+                else:
+                    l1_gt_thin[e] += 1
+                    page_row_cer[e] = {"cer": None, "wer": None,
+                                       "gt_chars": len(gtn),
+                                       "reason": "gt_thin"}
+            # B12: same CER vs L1 gold text (>=200 chars)
+            if l1n is not None and len(l1n) >= 200:
+                l1_cer = round(edit_distance(etxt, l1n) / len(l1n), 4)
+                l1_cer_collect[e].append(l1_cer)
+                if l1_cer > 1.0:
+                    l1_cer_gt1[e].append(pid)
+            # B16: dense GT pages, engine emitted <50% of GT lines
+            if gt_lines >= 10:
+                eng_lines = len(txt.splitlines())
+                if eng_lines < gt_lines * 0.5:
+                    lines_short[e].append(pid)
             l1 = item.get("l1_chars") or 0
             if l1 > 200:
                 agg[e]["cap_l1"].append(round(len(txt) / l1, 3))
@@ -390,9 +534,19 @@ def main() -> None:
                 fam = family_of(e)
                 # family union: tesseract-mirror engines pool their tokens as ONE vote
                 fam_tokens[fam] = fam_tokens.get(fam, set()) | set(toks)
+            grams = char_ngrams(etxt, 5)
+            if grams:
+                fam = family_of(e)
+                fam_5grams[fam] = fam_5grams.get(fam, set()) | grams
             s = script_of(txt)
             if s:
                 page_scripts[e] = s
+        if page_row_cer:
+            scored = [(e, v["cer"]) for e, v in page_row_cer.items()
+                      if v.get("cer") is not None]
+            if scored:
+                best_engine_wins[min(scored, key=lambda kv: kv[1])[0]] += 1
+            cer_per_page[pid] = page_row_cer
         if live_engines >= 6:
             coverage_count += 1
             coverage_pages.append(pid)
@@ -417,6 +571,17 @@ def main() -> None:
                 "median_pairwise_jaccard": round(fmj, 4)}
             if fmj >= 0.5:
                 family_consensus_pages.append(pid)
+        # B9: char 5-gram consensus — family-deduped votes, median pairwise >= 0.6
+        if len(fam_5grams) >= 6:
+            keys = sorted(fam_5grams)
+            grams_js = [jaccard(fam_5grams[keys[i]], fam_5grams[keys[j]])
+                        for i in range(len(keys)) for j in range(i + 1, len(keys))]
+            g5 = median(grams_js)
+            consensus5_detail[pid] = {
+                "independent_votes": len(keys),
+                "median_pairwise_jaccard_5gram": round(g5, 4)}
+            if g5 >= 0.6:
+                consensus5_pages.append(pid)
         if not item.get("mixed_book_page", False) and dom and dom != "unknown":
             votes = Counter(s for s in page_scripts.values()
                             if s and s != "Latin" and s != dom)
@@ -480,6 +645,21 @@ def main() -> None:
             "max_duplicate_pages": dup_max,
             **hb[e],
         }
+        summary[e]["median_cer_vs_pdf"] = (round(median(cer_collect[e]), 4)
+                                           if cer_collect[e] else None)
+        summary[e]["median_wer_vs_pdf"] = (round(median(wer_collect[e]), 4)
+                                           if wer_collect[e] else None)
+        summary[e]["cer_pairs_vs_pdf"] = len(cer_collect[e])
+        summary[e]["l1_crosscheck"] = {
+            "median_cer_vs_l1": round(median(l1_cer_collect[e]), 4) if l1_cer_collect[e] else None,
+            "l1_pages_compared": len(l1_cer_collect[e]),
+            "l1_cer_gt1_pages": len(l1_cer_gt1[e]),
+            "l1_cer_gt1_examples": l1_cer_gt1[e][:10],
+        }
+        summary[e]["lines_short_50pct"] = {
+            "count": len(lines_short[e]),
+            "page_ids": lines_short[e][:50],
+        }
 
     (REPORTS / "TRUE_CONSENSUS.json").write_text(
         json.dumps({
@@ -497,6 +677,35 @@ def main() -> None:
                 "page_ids": family_consensus_pages,
                 "per_page": fam_detail,
             },
+            "consensus_5gram": {
+                "definition": "char 5-gram SETS (NFC, lowercase, whitespace-stripped); "
+                              "family-deduped votes (tesseract-family pooled as ONE vote "
+                              "via union of 5-gram sets); >=6 independent votes AND "
+                              "median pairwise Jaccard >= 0.6 (Law B9 spec)",
+                "count": len(consensus5_pages),
+                "page_ids": consensus5_pages,
+                "per_page": consensus5_detail,
+            },
+        }, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    median_cer_per_engine = {e: summary[e]["median_cer_vs_pdf"] for e in ENGINES}
+    best_engine_per_page = {}
+    for item in manifest:
+        pid = item["page_id"]
+        row_c = cer_per_page.get(pid, {})
+        scored = [(e, v["cer"]) for e, v in row_c.items() if v.get("cer") is not None]
+        if scored:
+            best = min(scored, key=lambda kv: kv[1])[0]
+            best_engine_per_page[pid] = {"best_engine": best,
+                                         "cer": row_c[best]["cer"]}
+    (REPORTS / "CER_STAGE3B.json").write_text(
+        json.dumps({
+            "definition": "Stage-3b preference-pair labels: CER/WER of engine output "
+                          "vs PDF text-layer GT (NFC, lowercase, whitespace-collapsed; "
+                          "Levenshtein). Pages with <200 GT chars: null CER, reason gt_thin.",
+            "per_page": cer_per_page,
+            "median_cer_per_engine": median_cer_per_engine,
+            "best_engine_per_page": best_engine_per_page,
         }, ensure_ascii=False, indent=1), encoding="utf-8")
 
     out = {
@@ -507,6 +716,12 @@ def main() -> None:
         "true_consensus_definition": ">=6 engines with text AND median pairwise "
                                      "token Jaccard >= 0.5 (see TRUE_CONSENSUS.json)",
         "true_consensus_page_ids": true_consensus_pages,
+        "consensus_5gram_pages": consensus5_pages,
+        "consensus_5gram_count": len(consensus5_pages),
+        "consensus_5gram_definition": "char 5-gram SETS (NFC, lowercase, whitespace-stripped); "
+                                     "family-deduped (tesseract-family = ONE vote); "
+                                     ">=6 independent votes AND median pairwise "
+                                     "Jaccard >= 0.6 (Law B9)",
         "consensus_pages": {
             "consensus_pages_ge6_engines": coverage_count,
             "consensus_page_ids": coverage_pages,
@@ -527,44 +742,133 @@ def main() -> None:
         "hallucination_examples": halluc[:10],
         "manifest_tag_suspects": sorted(suspect_pages.values(),
                                         key=lambda x: x["page_id"]),
+        "l1_crosscheck": {e: summary[e]["l1_crosscheck"] for e in ENGINES},
+        "lines_short_50pct": {e: summary[e]["lines_short_50pct"]["count"]
+                              for e in ENGINES},
+        "cer_stage3b": {
+            "file": "CER_STAGE3B.json",
+            "pairs_with_gt": sum(len(v) for v in cer_per_page.values()),
+            "gt_thin_entries": sum(1 for v in cer_per_page.values()
+                                   for x in v.values() if x.get("cer") is None),
+            "median_cer_per_engine": median_cer_per_engine,
+            "best_engine_wins": dict(best_engine_wins),
+        },
         "heartbeat": hb,
         "engines": summary,
+        "total_packs": sum(len(idx[e]) for e in ENGINES),
+        "runtime_seconds": round(time.time() - t_start, 1),
     }
+
+    # B22: regression alarm vs previous run (first run = baseline, no alarm)
+    prev_path = REPORTS / "_verify_v2_previous.json"
+    regression_alarm = []
+    if prev_path.exists():
+        try:
+            prev = json.loads(prev_path.read_text(encoding="utf-8"))
+        except Exception:
+            prev = None
+        if prev:
+            def prev_metric(path: list):
+                o: object = prev
+                for k in path:
+                    if not isinstance(o, dict) or k not in o:
+                        return None
+                    o = o[k]
+                return o
+            scalars = [("coverage_ge6", ["coverage_ge6"], "higher"),
+                       ("true_consensus", ["true_consensus_pages"], "higher"),
+                       ("consensus_5gram", ["consensus_5gram_count"], "higher"),
+                       ("schema_missing", ["schema_missing_packs"], "lower")]
+            for e in ENGINES:
+                scalars.append((f"{e}.empty_rate", ["engines", e, "empty_rate"], "lower"))
+                scalars.append((f"{e}.median_chars", ["engines", e, "median_chars"], "higher"))
+            for name, path, better in scalars:
+                cur_v = prev_metric(path)
+                new_v: object = out
+                for k in path:
+                    new_v = new_v.get(k) if isinstance(new_v, dict) else None
+                if new_v is None or cur_v is None:
+                    continue
+                if not isinstance(new_v, (int, float)) or not isinstance(cur_v, (int, float)):
+                    continue
+                if cur_v == new_v:
+                    continue
+                if better == "higher":
+                    if new_v < cur_v and cur_v > 0:
+                        rel = (cur_v - new_v) / abs(cur_v)
+                        if rel > 0.02:
+                            regression_alarm.append(
+                                {"metric": name, "previous": cur_v, "current": new_v,
+                                 "rel_regression": round(rel, 4)})
+                else:
+                    grew_worse = new_v > cur_v
+                    base = abs(cur_v) if cur_v != 0 else None
+                    rel = ((new_v - cur_v) / base) if base else None
+                    if grew_worse and (rel is None or rel > 0.02):
+                        regression_alarm.append(
+                            {"metric": name, "previous": cur_v, "current": new_v,
+                             "rel_regression": round(rel, 4) if rel is not None else None})
+            prev_packs = prev.get("total_packs")
+            cur_packs = out.get("total_packs")
+            if isinstance(prev_packs, int) and isinstance(cur_packs, int) \
+                    and cur_packs < prev_packs:
+                regression_alarm.append({"metric": "total_packs",
+                                         "previous": prev_packs,
+                                         "current": cur_packs,
+                                         "rel_regression": round(
+                                             (prev_packs - cur_packs) / prev_packs, 4)})
+    out["regression_alarm"] = regression_alarm
+    try:
+        old = json.loads((REPORTS / "VERIFY_V2_SUMMARY.json").read_text(encoding="utf-8"))
+        prev_path.write_text(json.dumps(old, ensure_ascii=False, indent=1),
+                             encoding="utf-8")
+    except Exception:
+        prev_path.write_text("{}", encoding="utf-8")
+
     (REPORTS / "VERIFY_V2_SUMMARY.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
     tax_lines = ["# Failure Taxonomy — per engine (disk-truth)", "",
                  "Labels: EMPTY (no text) | LOOP (8-gram redundancy >0.6) | GARBAGE (>30% noise chars) |",
-                 "ENG_LEAK (Indic page, >90% ASCII words) | LINES_SHORT (<1/3 of PDF-layer lines) |",
-                 "NFC_BAD (text_nfc not normalized) | DUP (same text on many pages).", "",
+                 "ENG_LEAK (Indic page, >90% ASCII words) | LINES_SHORT (<50% of PDF-layer lines",
+                 "on dense pages, GT >= 10 lines — B16) | NFC_BAD (text_nfc not normalized) |",
+                 "DUP (same text on many pages).", "",
                  "| engine | empty | loop | garbage | eng-leak | lines-short | nfc-bad | max-dup | p10/med/p90 chars |",
                  "|---|---|---|---|---|---|---|---|---|"]
     for e, s in summary.items():
         empty_n = round(s["empty_rate"] * 400) if s["empty_rate"] is not None else "—"
         tax_lines.append(f"| {e} | {empty_n} | {s['loop_pages']} | "
-                         f"{s['garbage_pages_gt30pct']} | {s['english_leak_pages']} | {s['lines_short_vs_gt']} | "
+                         f"{s['garbage_pages_gt30pct']} | {s['english_leak_pages']} | {s['lines_short_50pct']['count']} | "
                          f"{s['nfc_violations']} | {s['max_duplicate_pages']} | {s['p10_chars']}/{s['median_chars']}/{s['p90_chars']} |")
     (REPORTS / "FAILURE_TAXONOMY.md").write_text("\n".join(tax_lines) + "\n", encoding="utf-8")
 
-    lines = ["# Engine Leaderboard (open policy, disk-truth)", "",
-             "**per-language numbers mix scripts; see LEADERBOARD_BY_SCRIPT.md**", "",
-             "| engine | checked | empty% | thin | loops | median chars | total chars | med capture vs PDF | ms/page | pages/hour |",
-             "|---|---|---|---|---|---|---|---|---|---|"]
+    alarm_bits = [f"{a['metric']}: {a['previous']} -> {a['current']}"
+                  for a in regression_alarm]
+    lines = ["# Engine Leaderboard (open policy, disk-truth)", ""]
+    if regression_alarm:
+        lines += [f"**⚠ REGRESSION vs previous run ({len(regression_alarm)} metric(s)): "
+                  f"{'; '.join(alarm_bits)}**", ""]
+    lines += ["**per-language numbers mix scripts; see LEADERBOARD_BY_SCRIPT.md**", "",
+              "| engine | checked | absent | empty% | thin | loops | median chars | total chars | med capture vs PDF | CER_med | ms/page | pages/hour |",
+              "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for e, s in sorted(summary.items(), key=lambda kv: -(kv[1]["total_output_chars"] or 0)):
         cap = s.get("median_capture_vs_pdf")
         if cap is None:
             cap = s.get("median_capture_vs_l1")
         empty_pct = f"{s['empty_rate']*100:.1f}" if s['empty_rate'] is not None else "?"
-        lines.append(f"| {e} | {s['checked']} | {empty_pct}% | {s['thin_pages_lt30']} | "
+        cer_med = s.get("median_cer_vs_pdf")
+        lines.append(f"| {e} | {s['checked']} | {s['missing_packs']} | {empty_pct}% | {s['thin_pages_lt30']} | "
                      f"{s['loop_pages']} | {s['median_chars']} | {s['total_output_chars']} | "
-                     f"{cap if cap is not None else '—'} | {s['median_ms_per_page'] or '—'} | "
+                     f"{cap if cap is not None else '—'} | {cer_med if cer_med is not None else '—'} | {s['median_ms_per_page'] or '—'} | "
                      f"{s['pages_per_hour'] or '—'} |")
     lines += ["", f"coverage pages (>=6 engines nonempty; renamed from 'consensus'): {coverage_count}/400",
               f"true consensus pages (>=6 engines, median pairwise Jaccard >= 0.5): "
               f"{len(true_consensus_pages)}/400 — reports/TRUE_CONSENSUS.json",
+              f"consensus_5gram pages (B9: family-deduped char 5-gram sets, median pairwise >= 0.6): "
+              f"{len(consensus5_pages)}/400",
               f"schema violations: {len(schema_bad)} | missing packs: {len(schema_missing)}",
               f"hallucination events: {len(halluc)} | manifest tag suspects: {len(suspect_pages)}",
-              "", "details: FAILURE_TAXONOMY.md, LEADERBOARD_BY_SCRIPT.md"]
+              "", "details: FAILURE_TAXONOMY.md, LEADERBOARD_BY_SCRIPT.md, CER_STAGE3B.json"]
     (REPORTS / "LEADERBOARD.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     lines = ["# Leaderboard by dominant script (manifest dominant_script buckets)", "",
@@ -597,6 +901,9 @@ def main() -> None:
 
     print(f"coverage_ge6 (was 'consensus'): {coverage_count}/400")
     print(f"true_consensus_pages (median pairwise Jaccard >= 0.5): {len(true_consensus_pages)}/400")
+    print(f"consensus_5gram_pages (B9, median pairwise 5-gram Jaccard >= 0.6): {len(consensus5_pages)}/400")
+    if regression_alarm:
+        print(f"⚠ REGRESSION ({len(regression_alarm)}): {'; '.join(alarm_bits)}")
     print(f"schema violations: {len(schema_bad)} | missing packs: {len(schema_missing)}")
     print(f"hallucinations: {len(halluc)} | manifest tag suspects: {len(suspect_pages)} "
           f"({', '.join(sorted(suspect_pages)) or 'none'})")
@@ -605,12 +912,18 @@ def main() -> None:
           f"locked_pdfs={len(mc['locked_pdfs'])} missing_render={len(mc['missing_render'])} "
           f"tiny_render={len(mc['stale_render'])}")
     for e, s in summary.items():
+        l1x = s["l1_crosscheck"]
         print(f"{e:<22} chk={s['checked']:>3} miss={s['missing_packs']:>3} empty={s['empty_rate']} "
               f"thin={s['thin_pages_lt30']:>3} loops={s['loop_pages']:>3} medChars={s['median_chars']:>5} "
               f"leak={s['english_leak_pages']:>2} dup={s['max_duplicate_pages']:>2} "
+              f"CERpdf={s['median_cer_vs_pdf'] if s['median_cer_vs_pdf'] is not None else '—'} "
+              f"CERl1={l1x['median_cer_vs_l1'] if l1x['median_cer_vs_l1'] is not None else '—'} "
+              f"l1gt1={l1x['l1_cer_gt1_pages']:>3} linesShort={s['lines_short_50pct']['count']:>3} "
               f"ms={s['median_ms_per_page'] or '—'} pph={s['pages_per_hour'] or '—'}")
+    print(f"best-engine wins (min CER/page): {dict(best_engine_wins)}")
+    print(f"runtime: {out['runtime_seconds']}s")
     print("\nwrote: MATRIX.csv, VERIFY_V2_SUMMARY.json, TRUE_CONSENSUS.json, "
-          "LEADERBOARD.md, LEADERBOARD_BY_SCRIPT.md, FAILURE_TAXONOMY.md")
+          "LEADERBOARD.md, LEADERBOARD_BY_SCRIPT.md, FAILURE_TAXONOMY.md, CER_STAGE3B.json")
 
 
 if __name__ == "__main__":

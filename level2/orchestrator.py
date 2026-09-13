@@ -5,7 +5,8 @@ Usage:
   .venv311/bin/python level2/orchestrator.py status        # disk-truth dashboard
   .venv311/bin/python level2/orchestrator.py fill          # restart any stalled/incomplete engine fills (parallel, guarded)
   .venv311/bin/python level2/orchestrator.py migrate       # sync out/<eng> -> models/<eng>/json
-  .venv311/bin/python level2/orchestrator.py verify       # run verify_all.py + verify_v2.py
+  .venv311/bin/python level2/orchestrator.py verify       # run verify_v2.py alone
+  .venv311/bin/python level2/orchestrator.py report       # regenerate EVERY report (report.py)
   .venv311/bin/python level2/orchestrator.py dashboard    # regenerate DASHBOARD.md (counts+speed+ETA)
   .venv311/bin/python level2/orchestrator.py guards       # disk + core + spawn-guard status
   .venv311/bin/python level2/orchestrator.py archive-logs  # move finished-engine logs -> logs_archive/
@@ -283,11 +284,12 @@ def cmd_dashboard() -> None:
     lines += ["", "## Reports freshness (age in minutes)", "",
               "| report | age (min) |", "|---|---|"]
     now = time.time()
-    fresh = sorted(REPORTS_DIR.glob("*.md")) + [REPORTS_DIR / "VERIFY_V2_SUMMARY.json"]
+    fresh = []
+    if REPORTS_DIR.exists():
+        fresh = [p for p in REPORTS_DIR.iterdir() if p.is_file()]
+    fresh.sort(key=lambda p: p.name)
     stale = []
     for p in fresh:
-        if not p.exists():
-            continue
         age = int((now - p.stat().st_mtime) / 60)
         if age > 60:
             stale.append(p.name)
@@ -368,19 +370,24 @@ def check_spawn_outcomes() -> None:
 
 
 def cmd_verify_v2() -> None:
-    """Run only the light verifier (verify_v2.py, ~36s; stdlib + optional pymupdf)."""
+    """Thin wrapper — verify_v2 alone; full report regeneration lives in report.py."""
     subprocess.run([str(PY311), str(L2 / "verify_v2.py")], cwd=str(ROOT))
 
 
+def cmd_report() -> None:
+    """ONE WRITER ONE TRUTH (law §18 Track B): verify_v2 + deep_verify x10 +
+    report_gen + seal_gen + generated_at/generator stamps, in one pass."""
+    subprocess.run([str(PY314), str(L2 / "report.py")], cwd=str(ROOT))
+
+
 def refresh_chain() -> None:
-    """One full disk-truth refresh: stall-kill -> fill -> migrate -> verify_v2 -> seal -> dashboard -> archive."""
+    """One full disk-truth refresh: stall-kill -> fill -> migrate -> report.py -> dashboard -> archive."""
     stall_kill()
     cmd_fill()
     time.sleep(60)
     check_spawn_outcomes()
     cmd_migrate()
-    cmd_verify_v2()
-    subprocess.run([str(PY311), str(L2 / "seal_gen.py")], cwd=str(ROOT))
+    cmd_report()
     cmd_dashboard()
     cmd_archive_logs()
 
@@ -447,6 +454,8 @@ def main() -> None:
         cmd_autoloop(mins)
     elif mode == "verify":
         cmd_verify_v2()
+    elif mode == "report":
+        cmd_report()
     elif mode == "all":
         cmd_cycle()
     else:
