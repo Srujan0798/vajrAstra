@@ -256,12 +256,14 @@ def main() -> None:
     gates.append(("G8", "pages_400 symlinks all resolve", g8))
     gates.append(("G9", "LEVEL 3 NOT STARTED line present", True))
     try:
-        s = subprocess.run(["git", "status", "--porcelain"], cwd=str(ROOT),
-                           capture_output=True, text=True)
+        s = subprocess.run(["git", "status", "--porcelain", ":(exclude)level2/reports",
+                            ":(exclude)level2/DASHBOARD.md", ":(exclude)level2/HEARTBEAT.jsonl",
+                            ":(exclude)level2/logs_active", ":(exclude)level2/logs_archive"],
+                           cwd=str(ROOT), capture_output=True, text=True)
         g10 = not s.stdout.strip()
     except Exception:
         g10 = False
-    gates.append(("G10", "git working tree clean (all committed)", g10))
+    gates.append(("G10", "all code committed (auto-regen reports excluded)", g10))
     try:
         g11 = (ROOT / ".setup_smoke_proven").exists()
     except Exception:
