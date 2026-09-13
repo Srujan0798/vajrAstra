@@ -19,14 +19,14 @@
 ## 5 example page_ids
 - best: ta_055 (3963 chars)
 - worst(nonempty): te_095 (1 chars)
-- empty: ['ml_056', 'te_100', 'te_020']
+- empty: ['ml_080', 'te_040', 'te_061']
 - english-leak: ['te_024', 'te_096', 'ta_005']
 - table-ish: none
 
 ## Strengths
 - low empty rate (7.7%)
 - median 1140 chars/page
-- 4874 ms/page
+- 2978 ms/page
 
 ## Weaknesses
 - see reports/FAILURE_TAXONOMY.md

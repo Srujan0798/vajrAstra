@@ -1,46 +1,29 @@
-"""vajraAstra Level-2/3 engine socket: BaseEngine + REGISTRY.
-
-Level-3 engines (Sarvam, Bhashini, ...) drop in here with zero harness
-surgery. Project law: level2/ULTIMATE_HYBRID_CONCERN.md §5 — Level 3 is
-LOCKED until Level 2 seals.
-"""
+"""Engine plugin interface for Level-2 and Level-3 engines."""
 from __future__ import annotations
-
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Optional
-
+from typing import Dict, List
 
 class BaseEngine(ABC):
-    """Contract every OCR engine (local or paid-API) must satisfy."""
-
-    name: str = "base"
-    version: str = "0.0.0"
-    lang_hint: Optional[str] = None
-
+    """Base class for all OCR engines (Level-2 local + Level-3 paid)."""
+    name: str
+    version: str
+    
     @abstractmethod
     def run(self, png_path: Path) -> str:
-        """OCR a rendered page PNG and return the extracted text (NFC)."""
-        raise NotImplementedError
+        """Run OCR on a PNG, return raw text."""
+        pass
 
-    def label(self) -> str:
-        return f"{self.name} v{self.version}"
+_ENGINES: Dict[str, 'BaseEngine'] = {}
 
+def register(engine: 'BaseEngine'):
+    _ENGINES[engine.name] = engine
 
-REGISTRY: dict[str, BaseEngine] = {}
+def get_engine(name: str) -> 'BaseEngine':
+    return _ENGINES[name]
 
+def list_engines() -> List[str]:
+    return list(_ENGINES.keys())
 
-def register(engine: BaseEngine) -> BaseEngine:
-    if engine.name in REGISTRY:
-        raise ValueError(f"duplicate engine id: {engine.name}")
-    REGISTRY[engine.name] = engine
-    return engine
-
-
-def _load_builtin_plugins() -> None:
-    from . import local  # noqa: F401  (each module registers its adapter)
-    from . import sarvam_api  # noqa: F401
-    from . import bhashini_api  # noqa: F401
-
-
-_load_builtin_plugins()
+def get_all_engines() -> Dict[str, 'BaseEngine']:
+    return _ENGINES.copy()

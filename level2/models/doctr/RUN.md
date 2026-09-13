@@ -19,14 +19,14 @@
 ## 5 example page_ids
 - best: ta_055 (4033 chars)
 - worst(nonempty): ml_056 (2 chars)
-- empty: ['ml_046', 'ml_025', 'ml_065']
+- empty: ['ml_025', 'ml_055', 'ml_079']
 - english-leak: ['te_001', 'te_002', 'te_003']
 - table-ish: none
 
 ## Strengths
 - low empty rate (2.8%)
 - median 1035 chars/page
-- 3166 ms/page
+- 3138 ms/page
 
 ## Weaknesses
 - 263 English-leak pages (Latin-only recognition)
