@@ -10,5 +10,6 @@
  "median_capture_ratio": null,
  "empty_rate": 0.022,
  "median_chars": 1113,
- "median_ms_per_page": 30726
+ "median_ms_per_page": 30726,
+ "limitations": "reader combos te+en/ta+en/kn+en + hi+mr+ne+en pairwise-validated on disk (391/400 nonempty; Devanagari bundle validated 12 Sep)"
 }

@@ -18,8 +18,8 @@
 
 ## 5 example page_ids
 - best: kn_084 (3894 chars)
-- worst(nonempty): te_024 (9 chars)
-- empty: ['ml_079', 'ml_046', 'ml_035']
+- worst(nonempty): te_051 (9 chars)
+- empty: ['ml_020', 'ml_035', 'ml_095']
 - english-leak: ['te_096', 'ta_005', 'ta_040']
 - table-ish: none
 
@@ -29,7 +29,7 @@
 - 16329 ms/page
 
 ## Weaknesses
-- see reports/FAILURE_TAXONOMY.md
+- surya-ocr 0.22.1 RecognitionPredictor has NO language-hint param; fully open-script; upstream feature tracked
 
 ## Rerun history
 - surya_v0_grammar_broken (182 packs) (active run in level2/out/surya/)

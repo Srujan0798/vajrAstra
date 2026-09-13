@@ -19,7 +19,7 @@
 ## 5 example page_ids
 - best: ta_055 (4466 chars)
 - worst(nonempty): ml_040 (2 chars)
-- empty: ['ml_079', 'ml_035', 'ml_095']
+- empty: ['ml_020', 'ml_035', 'ml_095']
 - english-leak: ['ta_005', 'ta_040', 'kn_005']
 - table-ish: ['te_009', 'te_012', 'te_091']
 
@@ -29,7 +29,7 @@
 - 30726 ms/page
 
 ## Weaknesses
-- see reports/FAILURE_TAXONOMY.md
+- reader combos te+en/ta+en/kn+en + hi+mr+ne+en pairwise-validated on disk (391/400 nonempty; Devanagari bundle validated 12 Sep)
 
 ## Rerun history
 - easyocr_v0_restricted_lang (400 packs) (active run in level2/out/easyocr/)

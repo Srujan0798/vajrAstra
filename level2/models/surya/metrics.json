@@ -10,5 +10,6 @@
  "median_capture_ratio": null,
  "empty_rate": 0.028,
  "median_chars": 1135,
- "median_ms_per_page": 16329
+ "median_ms_per_page": 16329,
+ "limitations": "surya-ocr 0.22.1 RecognitionPredictor has NO language-hint param; fully open-script; upstream feature tracked"
 }

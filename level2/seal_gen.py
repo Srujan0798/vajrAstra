@@ -23,6 +23,23 @@ ENGINES = [
     "surya", "anuvaad_tesseract",
 ]
 
+# Engine-specific honesty notes (surfaced in every RUN.md Weaknesses +
+# metrics.json; disk-derived, never hand-written — one-writer law).
+ENGINE_LIMITATIONS = {
+    "paddleocr_indic": (
+        "NO ml model in paddle 3.7.0: all 100 ml pages run the en stack "
+        "(ml script ratio 0.0 in packs — coverage hole, not model failure)"
+    ),
+    "surya": (
+        "surya-ocr 0.22.1 RecognitionPredictor has NO language-hint param; "
+        "fully open-script; upstream feature tracked"
+    ),
+    "easyocr": (
+        "reader combos te+en/ta+en/kn+en + hi+mr+ne+en pairwise-validated "
+        "on disk (391/400 nonempty; Devanagari bundle validated 12 Sep)"
+    ),
+}
+
 MANIFEST = json.loads((L2 / "pages_manifest.json").read_text(encoding="utf-8"))
 MANIFEST_IDS = {x["page_id"] for x in MANIFEST}
 
@@ -138,6 +155,9 @@ def gen_engine(engine: str) -> None:
             weaknesses.append(f"same text repeated on up to {vs['max_duplicate_pages']} pages (suspect)")
     if vs1.get("median_capture_ratio") is not None and vs1["median_capture_ratio"] < 0.5:
         weaknesses.append(f"capture ratio vs PDF layer only {vs1['median_capture_ratio']}")
+    # engine-specific honesty notes (plan P1-8/P1-9): always surfaced, disk-derived
+    if engine in ENGINE_LIMITATIONS:
+        weaknesses.append(ENGINE_LIMITATIONS[engine])
     if not strengths:
         strengths.append("see reports/LEADERBOARD.md")
     if not weaknesses:
@@ -165,6 +185,7 @@ def gen_engine(engine: str) -> None:
         "empty_rate": vs.get("empty_rate"),
         "median_chars": vs.get("median_chars"),
         "median_ms_per_page": vs.get("median_ms_per_page"),
+        "limitations": ENGINE_LIMITATIONS.get(engine, []),
     }, indent=1), encoding="utf-8")
 
     run_md = f"""# RUN.md — `{engine}`

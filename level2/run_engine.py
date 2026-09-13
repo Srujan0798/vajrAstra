@@ -80,7 +80,9 @@ def nfc(s: str) -> str:
 
 
 def preprocess_image(image_path: Path) -> Path:
-    """Deskew + border-crop + binarize-variant prep (pure PIL, no new deps).
+    """Binarize-only variant prep (pure PIL, no new deps; NO deskew —
+    plan P2-12 truth: skew correction was never implemented; adding it would
+    change every retry path and needs its own gate first).
 
     Returns original path (engines get raw render); binarized variant saved
     alongside for retry use: <stem>_bin.png

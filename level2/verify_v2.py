@@ -6,6 +6,8 @@ Adds:
   - true consensus (>=6 engines AND median pairwise token Jaccard >= 0.5)
   - B9 char 5-gram consensus (family-deduped votes, median pairwise Jaccard >= 0.6)
   - B11 CER/WER floor vs PDF-layer GT -> CER_STAGE3B.json (Stage-3b preference pairs)
+  - B11.1 GT-quality gate (C2 14 Sep): Indic-tagged pages whose layer is <15% Indic
+    = legacy-font mojibake -> CER/WER nulled (reason legacy_mojibake_layer), never ranked
   - B12 L1-gold cross-check CER -> l1_crosscheck
   - B16 line-count sanity (<50% of GT lines on dense pages, GT >= 10 lines)
   - B6 absent packs surfaced per engine in LEADERBOARD.md
@@ -418,6 +420,7 @@ def main() -> None:
     l1_cer_collect: dict[str, list[float]] = {e: [] for e in ENGINES}
     l1_cer_gt1: dict[str, list[str]] = {e: [] for e in ENGINES}
     gt_thin_counts: dict[str, int] = {e: 0 for e in ENGINES}
+    mojibake_page_count = 0
     # B16 line-count sanity
     lines_short: dict[str, list[str]] = {e: [] for e in ENGINES}
 
@@ -437,6 +440,18 @@ def main() -> None:
         l1n = l1_norm.get(pid)
         l1_w = l1_words.get(pid, [])
         gt_lines = len([ln for ln in gt_raw.get(pid, "").splitlines() if ln.strip()])
+        # GT-quality gate (C2, 14 Sep): Indic-tagged pages whose PDF layer is
+        # <15% Indic are legacy-font mojibake — CER vs them is meaningless.
+        # Null the page (all engines) with reason; never feeds rankings.
+        gt_mojibake = False
+        if dom in ("Telugu", "Tamil", "Kannada", "Malayalam", "Devanagari"):
+            raw_gt = gt_raw.get(pid, "") or ""
+            if raw_gt.strip():
+                n_indic = sum(1 for c in raw_gt if 0x0900 <= ord(c) <= 0x0DFF)
+                if n_indic / len(raw_gt.strip()) < 0.15:
+                    gt_mojibake = True
+        if gt_mojibake:
+            mojibake_page_count += 1
         for e in ENGINES:
             p = idx[e].get(pid)
             state = schema_state(p)
@@ -458,7 +473,11 @@ def main() -> None:
                 agg[e]["by_script_packs"][dom] += 1
             if not txt:
                 agg[e]["empty"] += 1
-                if len(gtn) < 200:
+                if gt_mojibake:
+                    page_row_cer[e] = {"cer": None, "wer": None,
+                                       "gt_chars": len(gtn),
+                                       "reason": "legacy_mojibake_layer"}
+                elif len(gtn) < 200:
                     page_row_cer[e] = {"cer": None, "wer": None,
                                        "gt_chars": len(gtn),
                                        "reason": "gt_thin"}
@@ -479,7 +498,12 @@ def main() -> None:
                     agg[e]["by_script_thin"][dom] += 1
             etxt = cer_norm(txt)
             eng_words = etxt.split()
-            if len(gtn) >= 200:
+            if gt_mojibake:
+                # legacy-font mojibake layer (C2): CER/WER vs it is noise
+                page_row_cer[e] = {"cer": None, "wer": None,
+                                   "gt_chars": len(gtn),
+                                   "reason": "legacy_mojibake_layer"}
+            elif len(gtn) >= 200:
                 ratio = round(len(etxt) / len(gtn), 3)
                 agg[e]["cap_pdf"].append(ratio)
                 if dom:
@@ -757,9 +781,11 @@ def main() -> None:
             "file": "CER_STAGE3B.json",
             "pairs_with_gt": sum(len(v) for v in cer_per_page.values()),
             "gt_thin_entries": sum(gt_thin_counts.values()),
+            "gt_mojibake_entries": mojibake_page_count,
             "median_cer_per_engine": median_cer_per_engine,
             "best_engine_wins": dict(best_engine_wins),
         },
+        "gt_mojibake_pages": mojibake_page_count,
         "heartbeat": hb,
         "engines": summary,
         "total_packs": sum(len(idx[e]) for e in ENGINES),

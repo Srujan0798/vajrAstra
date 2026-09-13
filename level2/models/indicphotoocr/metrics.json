@@ -10,5 +10,6 @@
  "median_capture_ratio": null,
  "empty_rate": 0.025,
  "median_chars": 1051,
- "median_ms_per_page": 15700
+ "median_ms_per_page": 15700,
+ "limitations": []
 }

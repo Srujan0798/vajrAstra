@@ -18,8 +18,8 @@
 
 ## 5 example page_ids
 - best: ta_055 (3679 chars)
-- worst(nonempty): ml_079 (1 chars)
-- empty: ['ml_046', 'ml_035', 'ml_055']
+- worst(nonempty): ml_095 (1 chars)
+- empty: ['ml_020', 'ml_035', 'ml_046']
 - english-leak: ['te_024', 'te_041', 'te_042']
 - table-ish: ['te_044', 'te_057', 'te_064']
 
@@ -30,6 +30,7 @@
 
 ## Weaknesses
 - 89 English-leak pages (Latin-only recognition)
+- NO ml model in paddle 3.7.0: all 100 ml pages run the en stack (ml script ratio 0.0 in packs — coverage hole, not model failure)
 
 ## Rerun history
 - none (single policy run) (active run in level2/out/paddleocr_indic/)
