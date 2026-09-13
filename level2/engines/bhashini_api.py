@@ -1,4 +1,5 @@
-"""Adapter: bhashini_api (Level-3 paid API, Bhashini/ULCA OCR lane). TODO-VERIFY.
+#!/usr/bin/env python3
+"""Adapter: bhashini_api (Level-3 paid API, Bhashini/ULCA OCR lane).
 
 Bhashini public surfaces (bhashini.gov.in, ulca.bhashini.gov.in) are
 JS-only apps; no fetchable official OCR API reference exists. Verified
@@ -24,24 +25,22 @@ KEY_ENV = "BHASHINI_API_KEY"
 ENDPOINT = ""  # TODO-VERIFY: ULCA/Anuvaad OCR endpoint (none publicly documented)
 DRY_RUN_TEXT = "<dry-run: bhashini_api not configured — set BHASHINI_API_KEY>"
 
-
-class BhashiniAPI(BaseEngine):
+class BhashiniAPI:
     name = "bhashini_api"
     version = "bhashini ulca-ocr (endpoint+price TODO-VERIFY)"
-    lang_hint: Optional[str] = None
-
+    
+    def __init__(self):
+        self.key = os.environ.get(KEY_ENV)
+        self.dry_run = not self.key
+    
     def run(self, png_path: Path) -> str:
-        if not os.environ.get(KEY_ENV):
+        if self.dry_run:
             return DRY_RUN_TEXT
-        if not ENDPOINT:
-            raise NotImplementedError(
-                "bhashini_api: OCR endpoint TODO-VERIFY — fill ENDPOINT from "
-                "official Bhashini/ULCA docs at kickoff"
-            )
-        raise NotImplementedError(
-            "bhashini_api: request/response shape TODO-VERIFY — implement after "
-            "official ULCA docs are confirmed (see LEVEL3_KICKOFF.md §2.2)"
-        )
+        
+        # TODO-VERIFY: Implement actual Bhashini/ULCA API call
+        # Expected flow: upload image → job → poll → download
+        # Need: endpoint, auth format, request format, response format, pricing
+        raise NotImplementedError("Bhashini API endpoint not verified — implement at kickoff")
 
-
+from . import register
 register(BhashiniAPI())
