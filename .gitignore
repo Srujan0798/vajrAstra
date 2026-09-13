@@ -50,4 +50,8 @@ scripts/_old_experiments/
 # Machine dumps
 setup_inventory.json
 phase_c_ready.json
+
+# Operator strategy docs (binary, never push)
+*.pptx
+*.docx
 .DS_Store
