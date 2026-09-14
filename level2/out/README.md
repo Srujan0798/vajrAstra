@@ -113,10 +113,11 @@ rest from PDF pages; `out/<engine>/ml/` holds 100 JSONs, of which
 
 ## 5. Where the numbers come from
 
-Every headline number about Level 2 (gap %, accuracy tiers, per-script
-winners, latency) is computed from these 4,000 packs by machine — nothing
-hand-written. The analysis reports travel alongside this folder in the
-summary package (`SEP16_ONE_SCREEN.md`, `GAP.md`, `LEADERBOARD_BY_SCRIPT.md`,
-`CER_BY_SCRIPT.md`).
+Every headline number about Level 2 (gap %, accuracy, per-script winners,
+latency) is computed from these 4,000 packs by machine — nothing hand-written.
+Key results: best-engine volume gap 7.1% (lower bound, on the 177 pages with
+a usable text layer); accuracy leaders surya and anuvaad_tesseract (median
+character error rate 0.43 / 0.48). Full analysis is generated from these
+packs in the vajrAstra repo.
 
 <!-- generated 2026-09-14, disk census: 10 engines x 400 packs; 13 PNG-source pages (ta 4, ml 9) -->
