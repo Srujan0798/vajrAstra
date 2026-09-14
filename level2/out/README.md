@@ -88,9 +88,9 @@ engines) — open them directly to compare engines on the scan pages:
 | `kn` Kannada | 100 | `kn_001`–`kn_100` | 100 | 0 |
 | `ml` Malayalam | 100 | `ml_001`–`ml_100` | 91 | **9** (`ml_004`–`ml_012`) |
 
-So in any engine folder you can count: `out/<engine>/ta/` → 100 JSONs, of
+In any engine folder, per language: `out/<engine>/ta/` holds 100 JSONs, of
 which `ta_001.json … ta_004.json` came from single-page PNG scans and the
-rest from PDF pages; `out/<engine>/ml/` → 100 JSONs, of which
+rest from PDF pages; `out/<engine>/ml/` holds 100 JSONs, of which
 `ml_004.json … ml_012.json` came from PNG scans.
 
 ---
