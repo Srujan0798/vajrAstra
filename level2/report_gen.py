@@ -126,7 +126,15 @@ def main() -> None:
               "(no free engine reads everything). The full on-page gap is the",
               "Vaultstack opportunity; Level-1 gold `l1_chars` total: "
               f"**{sum(r['l1'] for rows in by_lang.values() for r in rows):,} chars**."]
-    (REPORTS / "GAP_ANALYSIS.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # H2 (operator 14 Sep): single quotable gap number — GAP.md owns it.
+    # GAP_ANALYSIS.md (raw volume view) retired to _archive/; writer no longer emits it.
+    gap_analysis_note = [
+        "# GAP_ANALYSIS — retired 14 Sep (H2 decision)",
+        "",
+        "This raw-volume view is RETIRED: one quotable gap number lives in GAP.md",
+        "(7.1% lower bound). Historical copy: _archive/GAP_ANALYSIS_retired_20260914.md",
+    ]
+    (REPORTS / "GAP_ANALYSIS.md").write_text("\n".join(gap_analysis_note) + "\n", encoding="utf-8")
 
     # item 70: showcase — 10 pages x 10 engines, first 120 chars each
     show_pids = [m["page_id"] for m in manifest[:10]]
