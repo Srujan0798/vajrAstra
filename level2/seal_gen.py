@@ -318,8 +318,11 @@ def main() -> None:
     for gid, desc, ok in gates:
         lines.append(f"| {gid} | {desc} | {'GREEN' if ok else 'RED'} |")
     sealed = all(ok for _, _, ok in gates) and not incomplete
+    from datetime import datetime, timezone
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     lines += ["", "## Seal status", "LEVEL 3 NOT STARTED", "",
-              f"LEVEL2_SEALED = **{'true' if sealed else 'false'}**"]
+              f"LEVEL2_SEALED = **{'true' if sealed else 'false'}**", "",
+              f"<!-- generated_at: {stamp} | generator: seal_gen.py -->"]
     (REPORTS / "LEVEL2_SEAL.md").write_text("\n".join(lines), encoding="utf-8")
     print("\n".join(lines))
 
