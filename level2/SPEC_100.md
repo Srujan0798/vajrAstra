@@ -199,77 +199,11 @@ graph TD
 
 | # | Fix | Evidence | Fix Command | Acceptance | Lift |
 |---|-----|----------|-------------|------------|------|
-| **P0-1** | **Purge 14,600 synth renders** | `ls renders_shared/synth_* \| wc -l` → **14,600** | `mkdir -p _archive/synth_leak_20260914; mv renders_shared/synth_* _archive/synth_leak_20260914/; shasum renders_shared/*.png > renders_shared.sha1` | `ls renders_shared \| wc -l` == 400; verify_v2 manifest passes | Data truth 9.5→10 |
+| **P0-1** | **Purge 14,600 synth renders** | `ls renders_shared/synth_* \| wc -l` → **14,600** | `mkdir -p _archive/synth_leak; mv renders_shared/synth_* _archive/; shasum renders_shared/*.png > renders_shared.sha1` | `ls renders_shared \| wc -l` == 400; verify_v2 manifest passes | Data truth 9.5→10 |
 | **P0-2** | **Archive GAP_ANALYSIS.md** | `reports/GAP_ANALYSIS.md` (9.9%) vs `GAP.md` (7.1%) | `mv reports/GAP_ANALYSIS.md _archive/` | Exactly one gap file quotable | Reporting 8→9 |
-| **P0-3** | **Commit tree (G10)** | `git status --short` shows 10 RUN.md + untracked | `git add -A && git commit -m "auto-regen + P0 fixes"` | `git status --porcelain` clean | Repro 8→9 |
+| **P0-3** | **Commit tree (G10)** | `git status --short` shows 10 RUN.md + untracked | `git add -A && git commit -m "P0 fixes"` | `git status --porcelain` clean | Repro 8→9 |
 | **P0-4** | **Fix thin KeyError** | KeyError at `verify_v2.py:216` | Add `"thin": 0` to agg init dict | verify_v2 runs clean | Code +0.5 |
 | **P0-5** | **Delete dup functions** | `verify_v2.py:131-155` dup jaccard/engine_text/schema_ok | `sed -i '131,155d' level2/verify_v2.py` | verify_v2 runs clean | Code +1 |
-
----
-
-## 📋 COMPLETE IMPROVEMENT REGISTER (100% Audited)
-
-### P0 — CRITICAL (Do First — Blocks Everything)
-
-| ID | Fix | Evidence | Fix Command | Acceptance | Status |
-|----|-----|------------|-------------|------------|--------|
-| **P0-1** | Purge 14,600 synth renders | `ls renders_shared/synth_* \| wc -l` → **14,600** | `mkdir -p _archive/synth_leak; mv renders_shared/synth_* _archive/; shasum renders_shared/*.png > renders_shared.sha1` | `ls renders_shared \| wc -l` == 400 | ✅ DONE |
-| **P0-2** | Archive GAP_ANALYSIS.md | `ls reports/GAP_ANALYSIS.md` exists | `mv reports/GAP_ANALYSIS.md _archive/` | `! -f reports/GAP_ANALYSIS.md` | ⬜ |
-| **P0-3** | Commit tree (G10) | `git status --short` shows 10 RUN.md | `git add -A && git commit -m "P0 fixes"` | `git status --porcelain` clean | ⬜ |
-| **P0-4** | Fix thin KeyError | KeyError at `verify_v2.py:216` | Add `"thin": 0` to agg init dict | verify_v2 runs clean | ⬜ |
-| **P0-5** | Delete dup functions | `verify_v2.py:131-155` dup jaccard/engine_text/schema_ok | `sed -i '131,155d' level2/verify_v2.py` | verify_v2 runs clean | ⬜ |
-
-### P1 — QUALITY HARDENING (This Week)
-
-| ID | Fix | Evidence | Fix Command | Acceptance | Lift |
-|----|-----|----------|-------------|------------|------|
-| **P1-1** | Quarantine verdict (H-queue) | `_quarantine/` has 4 files | H-queue decision in DECISIONS.log | +0.5 |
-| **P1-2** | Wire regression_test.py into autoloop | `orchestrator.py` has autoloop | Add to `refresh_chain()` | +0.5 |
-| **P1-3** | Formalize engines/ socket + README | `engines/README.md` missing | Create `engines/README.md` | +0.5 |
-| **P1-4** | B21 render sha1 spot-audit | `renders_shared.sha1` exists | Quarterly cron job | +0.5 |
-| **P1-5** | B22 regression alarm LIVE | `regression_test.py` exists | Add DASHBOARD banner on >2% CER delta | +0.5 |
-| **P1-6** | Confidence harvest (V18) | paddle/doctr/rapid have confs | Add `confidence_mean` to packs | +0.5 |
-| **P1-7** | 300-DPI probe → CLOSED | `300DPI_PROBE.md`: 0/10 recovered | Document in PROMPT.md | +0.5 |
-| **P1-8** | Deskew — SKIPPED (documented) | Docstring claims deskew; only binarize | Document in PROMPT.md | +0.5 |
-| **P1-9** | Latency trust fix | TIMING_PROBE.jsonl has 21 measurements | Republish LATENCY.md from probe | +0.5 |
-
----
-
-## 📊 SARVAM DELTA TABLE — THE ONLY SCOREBOARD
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ff4444', 'edgeLabelBackground':'#fff0f0'}}}%%
-graph LR
-    subgraph "SARVAM PUBLISHED ACCURACY"
-        S1[Telugu: 87.7%] --> S2[Tamil: 93.4%]
-        S3[Kannada: 89.9%] --> S4[Malayalam: 91.6%]
-    end
-    
-    subgraph "OUR BEST ACCURACY"
-        O1[Telugu: 57.0% -30.7pp] --> O2[Tamil: 36.7% -56.7pp]
-        O3[Kannada: 19.1% -70.8pp] --> O4[Malayalam: 34.5% -57.1pp]
-    end
-    
-    subgraph "GAP ANALYSIS"
-        G1[Telugu: -30.7pp] --> G2[Tamil: -56.7pp]
-        G3[Kannada: -70.8pp] --> G4[Malayalam: -57.1pp]
-    end
-    
-    S1 -.->|GAP: -30.7pp| O1
-    S2 -.->|GAP: -56.7pp| O2
-    S3 -.->|GAP: -70.8pp| O3
-    S4 -.->|GAP: -57.1pp| O4
-```
-
-| Script | Our Best CER (Engine) | Our Accuracy | Sarvam Published Acc | Gap (pp) | Verdict |
-|--------|----------------------|--------------|----------------------|----------|---------|
-| **Telugu** | 0.430 (surya) | 57.0% | 87.7% | **−30.7pp** | ❌ Not competitive |
-| **Tamil** | 0.633 (surya) | 36.7% | 93.4% | **−56.7pp** | ❌ Not competitive |
-| **Kannada** | 0.810 (surya)* | 19.1% | 89.9% | **−70.8pp** | ❌ Not competitive |
-| **Malayalam** | 0.655 (indicphoto)* | 34.5% | 91.6% | **−57.1pp** | ❌ Not competitive |
-
-> **Median CER (our best ensemble):** ~0.43 | **Sarvam published CER:** ~0.12 | **Gap: ~3.5× worse**
-> **We are NOT competitive with Sarvam on accuracy. We have a BENCHMARK; Sarvam has a PRODUCT.**
 
 ---
 
@@ -299,9 +233,38 @@ graph LR
 | **P1-8** | Deskew — SKIPPED (documented) | Docstring claims deskew; only binarize | Document in PROMPT.md | +0.5 | ⬜ |
 | **P1-9** | Latency trust fix | TIMING_PROBE.jsonl has 21 measurements | Republish LATENCY.md from probe | +0.5 | ⬜ |
 
+### P2 — COMPETITIVE ENGINEERING (Next 2 Weeks)
+
+| ID | Task | Gate | Dependency |
+|----|------|------|------------|
+| **P2-1** | Acquire Sarvam comparison pages | `research/gates/P16_sarvam_pages/` protocol | [SARVAM-DELTA: CRITICAL] |
+| **P2-2** | AKER vs CER verdict closure | DECISIONS.log verdict | C×G debate |
+| **P2-2** | Bootstrap CIs on writer basis | 1000 resamples on 79-page v2-clean | C×G debate |
+| **P2-4** | Distillation readiness (P21 prep) | Aligned multi-teacher corpus exported | T2 complete |
+| **P2-5** | Engine #11 candidate (PaddleOCR-VL 1.6) | 4-page gate passes → engine #11 | P21 prep |
+| **P2-6** | Surya lang-hint upstream watch | Track releases; 4-page gate on release | P22 |
+
+### P3 — 100/10 CLIMB (The Sarvam-Beating Program)
+
+| Phase | Milestone | Timeline | Target |
+|-------|-----------|----------|--------|
+| **α — Data (M1-2)** | D1: Akshara annotation schema + segmenter (10K pages) | M1-2 | 10K L2A-ready |
+| | D2: Layout gold expansion (IndicDLP-42 on 400p) | M1-2 | L1→Stage1 ready |
+| | D3: Hard-case expansion (handwriting, stamps, forms) | M1-2 | Coverage ↑ |
+| **β — Training (M3-6)** | T1: Stage-0 learned preprocess (-15% CER) | M3 | 4-page gate ROI |
+| | T2: Stage-2 SFT + akshara aux loss | M4 | CER < tess-fam (0.493) |
+| | T3: Stage-2b SCST RL on CER | M5 | -10% CER vs SFT |
+| | T4: Stage-3 SFT + SimPO/DPO (50K pairs) | M6 | JSON F1 > 0.9 |
+| **γ — Product (M7-9)** | S1: Distill ensemble → student (1/10th latency) | M7-8 | 95% quality, 10× speed |
+| | S2: Triton + K8s + SLOs live | M8 | p99<2s, 99.9% avail |
+| | S3: Paid-API A/B (Sarvam vs student) | M9 | Vinay pricing story |
+| **δ — Win Condition** | W1: Beat Sarvam on our pages AND their pages | M12 | **#1 in India** |
+| | W2: Beat Sarvam on 2 external benches | M12 | **Beat Sarvam** |
+| | W3: Stranger reproduction from setup.sh | M12 | **Reproducible** |
+
 ---
 
-## 🏗️ PHASE 1-5: THE 100/10 CLIMB ROADMAP
+## 🏗️ PHASE ARCHITECTURE OVERVIEW
 
 ```mermaid
 gantt
@@ -336,7 +299,6 @@ gantt
 ## 🏗️ PHASE ARCHITECTURE OVERVIEW
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '10px'}}}%%
 graph TB
     subgraph "PHASE α: DATA MOAT [M1-2]"
         D1[Akshara Annotation Schema] --> D1a[10K pages L2A-ready]
@@ -382,7 +344,6 @@ graph TB
 ## 🏗️ VAULTSTACK 4-STAGE PIPELINE — L2 DATA ENGINE WIRING
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '11px'}}}%%
 graph LR
     subgraph "LEVEL 2 BENCHMARK ENGINE"
         L2A[4000 OCR Packs] --> L2B[Capture Ratios]
@@ -481,6 +442,7 @@ graph LR
     I --> K[Alert: CER Regression > 0.5%]
     J --> L[Update Baseline]
     K --> M[Slack/GitHub Alert]
+    L --> M
     
     style I fill:#ffcccc
     style K fill:#ffcccc
