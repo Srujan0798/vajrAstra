@@ -1,6 +1,6 @@
 # GAP REPORT — headline: ground-truth text volume the best free engines still miss
 
-GT = PDF text layer (pymupdf; pages_manifest raw_path + page_index, module-cached). Basis: pages with GT >= 200 chars = **177/400**. The other 223 pages have no usable layer (scan-only): gap not computable there — those pages need OCR regardless.
+GT = the PDF text layer of each source page (the machine-readable ground truth). Basis: pages with GT >= 200 chars = **177/400**. The other 223 pages have no usable layer (scan-only): gap not computable there — those pages need OCR regardless.
 
 ## Headline
 
@@ -37,7 +37,7 @@ GT = PDF text layer (pymupdf; pages_manifest raw_path + page_index, module-cache
   over-capture on 96 pages) is the literal spec formula; it is in
   the per-script table too, so nobody quotes it by accident.
 - GT = raw text layer, stripped; no normalization (this is volume, not
-  correctness — see CER_STAGE3B.json for character error rates).
+  correctness — character error rates are reported separately).
 - Basis (177 pages) = the same set LEADERBOARD_BY_SCRIPT.md
   uses for capture medians; Malayalam has only 9 usable-layer pages (77 total).
 - l1_chars (Level-1 gold labels) total over all 400 pages: 552,535.

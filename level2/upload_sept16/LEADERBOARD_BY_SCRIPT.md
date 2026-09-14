@@ -1,7 +1,7 @@
-# Leaderboard by dominant script (manifest dominant_script buckets)
+# Leaderboard by script
 
-Per-language tables mix scripts (e.g. 'te' pages are 47 Telugu + 42 Latin + 11 Devanagari).
-This is the script-sliced view; capture ratio vs PDF text layer (pages with >=200-char layer only).
+Pages are grouped by the script that dominates each page (per-language tables would mix scripts — e.g. 'te' pages are 47 Telugu + 42 Latin + 11 Devanagari).
+Capture ratio is measured vs the PDF text layer (pages with a >=200-char layer only).
 
 ## Latin — 124 pages (capture computed on 43 pages with >=200-char PDF text layer)
 

@@ -10,7 +10,7 @@
 
 ## The gap (headline)
 
-- Best-free-engine volume gap (LOWER BOUND): **7.1%** — pooling the best engine per page misses 19,737 of 277,854 GT chars over the **177/400 pages with a >=200-char PDF text layer** (basis recomputed; other 223 pages are scan-only).
+- Best-free-engine volume gap (LOWER BOUND): **7.1%** — pooling the best engine per page misses 19,737 of 277,854 ground-truth chars over the **177/400 pages with a >=200-char PDF text layer** (basis recomputed; other 223 pages are scan-only).
 - Layer health: **63 legacy-font + 43 broken layers** among those 177 pages — extraction fails on 106 of them; OCR is the only road.
 - Per-script (same basis; gap % = 1 - sum(min(best chars, GT))/sum(GT)):
 
@@ -24,7 +24,7 @@
 | Devanagari | 24 | 30,018 | **5.2%** |
 | **ALL** | **177** | **277,854** | **7.1%** |
 
-_Lower bound: wrong chars count as captured; capture capped at GT per page (uncapped pooling reads 0.2% because 96/177 pages over-capture garbage/stamp chars). Full method: GAP.md._
+_Lower bound: wrong chars count as captured; capture capped at the ground-truth length per page (uncapped pooling reads 0.2% because 96/177 pages over-capture garbage/stamp chars). Full method: GAP.md._
 
 ## Per-script capture winners (median chars, from LEADERBOARD_BY_SCRIPT.md)
 
@@ -82,9 +82,9 @@ _Telemetry coverage disclosed: thin rows — tesseract_bilingual (4p), openbhara
 | rapidocr | 100 | 0 |
 | **total** | **272** | **0** |
 
-_Details: FAILURE_TAXONOMY.md (garbage 1 pages, eng-leak 401)._
+_Other failure modes across the 4,000 packs: 1 garbage page, 401 English-leak pages (Indic page read mostly in Latin letters)._
 
-## Engine classifications (models/*/RUN.md; family pool = anuvaad_tesseract, openbharatocr, tesseract_bilingual, tesseract_indic)
+## Engine classifications (family pool = anuvaad_tesseract, openbharatocr, tesseract_bilingual, tesseract_indic)
 
 | engine | classification |
 |---|---|
