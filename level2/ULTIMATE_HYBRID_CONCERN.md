@@ -114,12 +114,12 @@ L12. D11 incidents: same-signature FAIL ≥5 pages → auto-line in IMPROVEMENTS
 
 ## PART VI — OPEN CONCERNS (live queue)
 
-### 13. H-QUEUE (Srujan-decidable — nothing proceeds without you)
-H1. _quarantine/ scaffolds: keep or kill? (compile-clean, uninvited)
-H2. Deck accuracy line confirm: "tied leaders surya+anuvaad (CER 0.43/0.48, statistically tied), tier-1 clear of indicphotoocr by ≥0.18 CER" — OK to send?
-H3. Level-3 budget: Sarvam ₹0.5/page est → 400 pages = ₹200 (worksheet LEVEL3_COST_ESTIMATE.md; prices TODO-VERIFY) — approve or defer?
-H4. P4 elite items (cascade router, distillation, Triton serving, active-learning UI, CI/CD per-PR CER delta) = post-Sep-16 by design — confirm parking.
-H5. Exam week 18–22: machine runs itself (autoloop + regression alarm); only H-queue items wait on you.
+### 13. H-QUEUE — CLEARED 14 Sep (all four operator decisions executed)
+H1. ~~Quarantine keep/kill~~ → **ARCHIVED** (_archive/quarantine_resolved_20260914/, 11 files).
+H2. ~~GAP_ANALYSIS banner-vs-archive~~ → **RETIRED at writer level** (report_gen emits pointer stub; GAP.md = the one quotable number; historical copy archived).
+H3. ~~Deck accuracy line~~ → **APPROVED**: "Tied leaders surya+anuvaad (median CER 0.43/0.48, statistically tied), tier-1 clear of indicphotoocr by ≥0.18 CER."
+H4. ~~L3 budget~~ → **APPROVED POST-DEMO**: Sarvam run after Sep-16 presentation = the follow-up deliverable (₹200-class, 40 jobs, socket ready).
+Next H-queue (post-demo): L3 kickoff timing; P4 elite items (cascade/distillation/Triton/active-learning) sequencing; annotator hiring for L1-gold expansion.
 
 ### 14. WHAT I (opencode) STILL CONCERN ABOUT — from my side, complete
 1. GT ceiling: only 177/400 pages have usable layers; 224 gt_thin + 55 mojibake → CER basis n=126. The accuracy story rests on 31% of the bench. If David asks "how do you know engines are right on the other 69%?", the only answer is cross-engine agreement + L1 gold (107 pages) — both partial. L1-gold expansion is human labor = post-exam or Vinay-side.
