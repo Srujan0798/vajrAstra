@@ -61,5 +61,9 @@ cd vajrAstra && bash setup.sh
 .venv/bin/python level2/report.py     # regenerates every report from packs on disk
 ```
 
+**Raw outputs:** all 4,000 engine packs live at `level2/out/` (see its README
+for layout, engine notes, and where the PNG/PDF sources are) —
+https://github.com/Srujan0798/vajrAstra/tree/main/level2/out
+
 Generated 2026-09-14. Level 2 complete & sealed; Level 3 (paid-API
 comparison, Sarvam ≈₹100 net for 400 pages) approved for post-demo.
