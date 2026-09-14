@@ -18,7 +18,6 @@ leaders, latency, failure census.
 | `GAP.md` | the headline number: 7.1% of ground-truth text even the best free engine misses (lower bound) + per-script table |
 | `LEADERBOARD_BY_SCRIPT.md` | per-script winners — ranked within each script, no blended averages |
 | `LATENCY.md` | ms/page + pages/hour per engine (probe-backed for tesseract family) |
-| `WHATSAPP_SEPT16.md` | the 5-line summary for the group chat |
 
 ## Headline numbers (all machine-verified, no hand numbers)
 
