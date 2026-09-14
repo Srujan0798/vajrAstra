@@ -1,6 +1,6 @@
-# LATENCY — per engine (HEARTBEAT.jsonl, disk-truth)
+# LATENCY — per engine
 
-Fields: engine / page_id / dur_ms (+ t, chars, fail). Rule: per (engine, page) the latest timed run wins — reruns never inflate a median. 10,602 heartbeat lines parsed.
+Per-engine run telemetry across the 400 pages; where an engine was re-run on a page, the latest timed run counts (re-runs never inflate a median).
 
 | engine | pages timed | median ms/page | p10 | p90 | pages/hour | timeouts | lang-retries | probe n=20? |
 |---|---|---|---|---|---|---|---|---|
