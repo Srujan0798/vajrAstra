@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_066",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 18,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "B.I My World of Feelings\nYia?\nJl.\nAtrs\nWe live surrounded by people, other living beings and\nTr.\nHOT\nnature. Things keep happening in this world! Sometimes\nCOLD\nthe weather is hot, sometimes its cold or rainy or windy!\nIi\nRainy\nWiNDy\nLike the outside weather, our\nWorld of feelings also keeps\nThere  is  another world\nChanging! It depends on what is\ninside us. It is made up of.\nhappening inside the body and\nfeelings We  feel  happy.\nWhat's happening outside. When.\nSad, angry, upset, irritated\nwe fall down and get hurt, we fee.\nSleepy, tired, bored... the list\npain. What if there was no pain?\ngoes on!\nWe would not even know we have\nhurt ourselves! Pain draws our\nattention to the part that is hurt\nSo that we can take care of it.\nEPUBLIS.\nMake groups of 4.\nThink of 3 feelings.\nDiscuss what if there\nHow do they help you?\nWere no feelings?\nWrite below:\nWhat would happen\nthen?\nNOT TO BE R\nThink and Do\nFeelings bring\nDo  you think  animals have\na positive\nfeelings? Why do you think so?\nChange in me.\nWhat about plants?\n1l",
+      "text_nfc": "B.I My World of Feelings\nYia?\nJl.\nAtrs\nWe live surrounded by people, other living beings and\nTr.\nHOT\nnature. Things keep happening in this world! Sometimes\nCOLD\nthe weather is hot, sometimes its cold or rainy or windy!\nIi\nRainy\nWiNDy\nLike the outside weather, our\nWorld of feelings also keeps\nThere  is  another world\nChanging! It depends on what is\ninside us. It is made up of.\nhappening inside the body and\nfeelings We  feel  happy.\nWhat's happening outside. When.\nSad, angry, upset, irritated\nwe fall down and get hurt, we fee.\nSleepy, tired, bored... the list\npain. What if there was no pain?\ngoes on!\nWe would not even know we have\nhurt ourselves! Pain draws our\nattention to the part that is hurt\nSo that we can take care of it.\nEPUBLIS.\nMake groups of 4.\nThink of 3 feelings.\nDiscuss what if there\nHow do they help you?\nWere no feelings?\nWrite below:\nWhat would happen\nthen?\nNOT TO BE R\nThink and Do\nFeelings bring\nDo  you think  animals have\na positive\nfeelings? Why do you think so?\nChange in me.\nWhat about plants?\n1l",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_095",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 225,
+    "width": 1443,
+    "height": 2320
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1443,
+        2320
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "23 385 saeens\nc3\nWE 38 sagesse\naE 3eb saeene\nwONO aocjocd 2o0n sageese\naoogodo wows 000a Aaeetve II aE II\nOoOn CNPR CODO CONDR\naoo ajod aod ajod cJoo agodado...... .\na\n2308 DaoFa 8839 es baan sasgeets\n23e03 0080 Roct 200js saees\nepoas 2aons aea Jeaon\ndes desions 3580 Ios saeese I\nNcgeetuo Aas..... II aE II\n2070 002003 ders I ned tw 3o03 203\neneonioe TUoneF I 3e00t Snne\naowor 333 WOF NOne\n23 23003 2300700 morse SOR I\nRedgesoD saes..... II 23 C II\ndopg CUoR drpg Cror\najod cjod ao0 cjod c3od ao@ad.o.......\nto8 230 2803 dot W0830 C3 eiogcor\naaod ooae Rog sorigetsade\nWO83T aio NO80 dackop@oc/...\nW dey\neo0\ndoes Bora 28 aNOse II\nNeseetse Nae@...... II\ne\na8\nIl\nRyORd 3 BoEgae\n2E 385 sayeetioa dOEOFO\naesodons Ren Seofi ned.",
+      "text_nfc": "23 385 saeens\nc3\nWE 38 sagesse\naE 3eb saeene\nwONO aocjocd 2o0n sageese\naoogodo wows 000a Aaeetve II aE II\nOoOn CNPR CODO CONDR\naoo ajod aod ajod cJoo agodado...... .\na\n2308 DaoFa 8839 es baan sasgeets\n23e03 0080 Roct 200js saees\nepoas 2aons aea Jeaon\ndes desions 3580 Ios saeese I\nNcgeetuo Aas..... II aE II\n2070 002003 ders I ned tw 3o03 203\neneonioe TUoneF I 3e00t Snne\naowor 333 WOF NOne\n23 23003 2300700 morse SOR I\nRedgesoD saes..... II 23 C II\ndopg CUoR drpg Cror\najod cjod ao0 cjod c3od ao@ad.o.......\nto8 230 2803 dot W0830 C3 eiogcor\naaod ooae Rog sorigetsade\nWO83T aio NO80 dackop@oc/...\nW dey\neo0\ndoes Bora 28 aNOse II\nNeseetse Nae@...... II\ne\na8\nIl\nRyORd 3 BoEgae\n2E 385 sayeetioa dOEOFO\naesodons Ren Seofi ned.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_068",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 24,
+    "width": 1509,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1509,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "C32D mom\n63mB Onaraions 02m\na.d Bmfaon\nJahsodmsal 2r D60r-\nsolomnt Aujadid -0 001223-\nBi2\nomos (8 21 3 cau2omom\nirofloni\nwgao-j20m9om7ms <OoD 2domo\nBi8nd randuintodogmnnd\nswjomb - 0o\nC o2m 21690310\nmsiGo- BoomomRo\n- 3 g-mmy\nFois all 32005\nala\narjomab ainmalbod\nConnli\nL-6m-122-\n20776\n25,-10-0a coodoa Aor- 300\n232 ad\nO\ne\n2n12a.-8 <3-8\nnt 1J>\n2 V na\n- yaa8, - (- - il\n8625\n&\nnICe\n66ms 2065\nwel aloga\n8 L\num a d\ncnnamo\nsdoslargo\n2-Aama--f-p OQiaood",
+      "text_nfc": "C32D mom\n63mB Onaraions 02m\na.d Bmfaon\nJahsodmsal 2r D60r-\nsolomnt Aujadid -0 001223-\nBi2\nomos (8 21 3 cau2omom\nirofloni\nwgao-j20m9om7ms <OoD 2domo\nBi8nd randuintodogmnnd\nswjomb - 0o\nC o2m 21690310\nmsiGo- BoomomRo\n- 3 g-mmy\nFois all 32005\nala\narjomab ainmalbod\nConnli\nL-6m-122-\n20776\n25,-10-0a coodoa Aor- 300\n232 ad\nO\ne\n2n12a.-8 <3-8\nnt 1J>\n2 V na\n- yaa8, - (- - il\n8625\n&\nnICe\n66ms 2065\nwel aloga\n8 L\num a d\ncnnamo\nsdoslargo\n2-Aama--f-p OQiaood",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

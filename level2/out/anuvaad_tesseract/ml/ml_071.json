@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_071",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 16,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "രാ അള്്യായം\n\n്്. അതജളൃതൽ്്് അ രജൽപുത്രൻറ ിലേകഗുണത്തി്ര\nത്കേക छठ AOS lajo ames! Se\n\n- gIamMaMcjoow aiodla. 99 @ca1sSAVosalo é\nMo AYlRoEOWQe Seas പഴകകിപ്പോയതിനാൽ asdieae\nകൊങ്ടു നാട്ടകാരടെ 229 lob: അതിനുണ്ടയിരുന്ന െവലു\n०३, B09 OSes). അങ്ങനെ CONE മൂന്നു സംവത്സരംകക\n\nറിഞ്ഞല്ലോഴെക്കം ുകുമാരനുമേൽക്കേൽ ഉണ്ടയിവരുന്നു\nരോരോ ോശ്കൃതകുളെപ്പററിയല്ലാതെ amy asa eo aves\nSe Org \\od) srasMOmom BbgIes0U Oman. തർങ്ക\noS “Gawled combi lam — niggame@m kre «(eam\nരഞ്ഞു Geaido UMIMAYI0IgaD Se तर) व?” ഴനനു .\n്യിൽ മാത്രമോയി, രളഞിയുടെനുസ്സിൽ Meow soley\nണ്യിരുന്ന ejlolas asagiyaconaiong _ ब09010050\nहोल कक 51० 0010) yao Laxwe Hlalace @@ Aan saroeanene\nമ്പോളെല്ലാ CAG 10GWM GaiGinveeaio. ठोक af\\are 50\naim oslo lesw ls agama Mo avecaic കുഴിഞ്ഞതില്\nപപിസൌെ രാജുകുമാരനും താകെയും MMle Aose@nIn 2०\n928, 1N218}00, cagnado ജീവവനെ രക്ഷിച്ച ബാലികു कस\nആ്ശമാനുചും മർതയും രജകുമാരനെറെ ഉള്ളിലും ‘agjadto\nഏഘെയളൈാണടു രപ്പട്ട Medd’ afiraa wie lagen\nDMs താകയുടെ 9.0 lojo ബലമായിപ്പതിഞ്ഞിരുനു ay\nMOAMBEL} Gorsa eWay അല്ോചിന്റൽകിയും gSlas\n00९4 809 ailanomudiass ced) gSlaionlaan. —\nSRM o10Tyoo Booeas ;\n വസ്േ ക്ര്ണ ०1652) aco coy lawwreg yds\nക്ണാത്ത MAWES jo GOAIGAS adgewodle തെ\nFlea ിച്ചുകൊണടമിരുനനു\n\nയെപ്യമകനതിനനു മുസുതന്നെ ടാമനുതസ്വു്\nസകുലവിട്ടകിലും അയുലാള്രാസത്തില അസുമോന്കമയ\n\n",
+      "text_nfc": "രാ അള്്യായം\n\n്്. അതജളൃതൽ്്് അ രജൽപുത്രൻറ ിലേകഗുണത്തി്ര\nത്കേക छठ AOS lajo ames! Se\n\n- gIamMaMcjoow aiodla. 99 @ca1sSAVosalo é\nMo AYlRoEOWQe Seas പഴകകിപ്പോയതിനാൽ asdieae\nകൊങ്ടു നാട്ടകാരടെ 229 lob: അതിനുണ്ടയിരുന്ന െവലു\n०३, B09 OSes). അങ്ങനെ CONE മൂന്നു സംവത്സരംകക\n\nറിഞ്ഞല്ലോഴെക്കം ുകുമാരനുമേൽക്കേൽ ഉണ്ടയിവരുന്നു\nരോരോ ോശ്കൃതകുളെപ്പററിയല്ലാതെ amy asa eo aves\nSe Org \\od) srasMOmom BbgIes0U Oman. തർങ്ക\noS “Gawled combi lam — niggame@m kre «(eam\nരഞ്ഞു Geaido UMIMAYI0IgaD Se तर) व?” ഴനനു .\n്യിൽ മാത്രമോയി, രളഞിയുടെനുസ്സിൽ Meow soley\nണ്യിരുന്ന ejlolas asagiyaconaiong _ ब09010050\nहोल कक 51० 0010) yao Laxwe Hlalace @@ Aan saroeanene\nമ്പോളെല്ലാ CAG 10GWM GaiGinveeaio. ठोक af\\are 50\naim oslo lesw ls agama Mo avecaic കുഴിഞ്ഞതില്\nപപിസൌെ രാജുകുമാരനും താകെയും MMle Aose@nIn 2०\n928, 1N218}00, cagnado ജീവവനെ രക്ഷിച്ച ബാലികു कस\nആ്ശമാനുചും മർതയും രജകുമാരനെറെ ഉള്ളിലും ‘agjadto\nഏഘെയളൈാണടു രപ്പട്ട Medd’ afiraa wie lagen\nDMs താകയുടെ 9.0 lojo ബലമായിപ്പതിഞ്ഞിരുനു ay\nMOAMBEL} Gorsa eWay അല്ോചിന്റൽകിയും gSlas\n00९4 809 ailanomudiass ced) gSlaionlaan. —\nSRM o10Tyoo Booeas ;\n വസ്േ ക്ര്ണ ०1652) aco coy lawwreg yds\nക്ണാത്ത MAWES jo GOAIGAS adgewodle തെ\nFlea ിച്ചുകൊണടമിരുനനു\n\nയെപ്യമകനതിനനു മുസുതന്നെ ടാമനുതസ്വു്\nസകുലവിട്ടകിലും അയുലാള്രാസത്തില അസുമോന്കമയ\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

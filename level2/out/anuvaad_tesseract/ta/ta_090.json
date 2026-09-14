@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_090",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0024pro_raw.pdf",
+    "page_index": 311,
+    "width": 1821,
+    "height": 2451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1821,
+        2451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "| | XII Std Biology-Zoology Practical TM.indd 304\n\nகுறிப்புகள்\n\n304\n\n27/12/2022 19:39:03 | |\n",
+      "text_nfc": "| | XII Std Biology-Zoology Practical TM.indd 304\n\nகுறிப்புகள்\n\n304\n\n27/12/2022 19:39:03 | |\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

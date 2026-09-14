@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_056",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 16,
+    "width": 1056,
+    "height": 1689
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1056,
+        1689
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "we\n\nR 1. fe} a\n\nB\nio}\nray\nಶಿಕ\n.\n&\n2\nfen\n\nmE E RE BSF\nBae शे gP ons se 2 Mk Br\nDS (३ 3 हि कि शेप हिल wet हि\nB ge eB wo Ee 8 8B B pts 2\n23 2 35,2 ABE 2p A 4\no, 8 7 Bpbe B 9 नए ye fe डि 8 1%\nfl cos GW 3s RB? छि ». दे & @ Bir\nBr B 8836.\" B के Bo B28 x Bra\noR हे दी ९ Bal मेड कं SO 3 a3\nwo Bp bo vB pe. BBB 8\nare ga. wed BE Pp) 2 B Bgmes hs &\nBf RM PB. 26 8 2B ५\nPR लो RBRwYy, BOD BE BReBBb\nकु ke aD Big B D 2 ८३ करे HDD\n,3 9) Sb sn, t er BBRGE? हर\nBo. +! E 3B Hg 2 YD EP 2 iP +3) f:\n3.3 3 ठ 5 BBR सह SP %\n“8 हब B B® FS, 11 93\n& B सदन 3 Bw» BW: 3 dy £ गे न\n: 3 g 245 9 8 हट 3 3 Be 8 3\nहै माई टाल go wee 2g 8 ने\nमिस Ln & ROK RR Be B g\nBm F Fue Bare aa हि\np32 B = B85 dD yn 5 ¢ ¥3 3\no 8 © ww B ¢ O wW) $ HD b $5 8B\nBye Bab ae ee Be 8 Bee\ndDuLB 2p Ser EB = 6 YD es BS\nBD दे BERR. Sg Bs S a. 4\nDB exw 2B pS 2B 3 ° 483\neyku Base see Gp 8 perms\n3B, 5 २98 CE mek 2 Ba °\n3) 2 8 B उन ४ दिन 3) 3 Bay\nBEB Cs & 28388 e D ee 2 Ib 13 Se\nS5BRSERPR BRB “BBS BB KB 3 ह, कं\nडक ६ रा 858 8B 3 Bs) गूछ\nok 3B RA\n\n16\n",
+      "text_nfc": "we\n\nR 1. fe} a\n\nB\nio}\nray\nಶಿಕ\n.\n&\n2\nfen\n\nmE E RE BSF\nBae शे gP ons se 2 Mk Br\nDS (३ 3 हि कि शेप हिल wet हि\nB ge eB wo Ee 8 8B B pts 2\n23 2 35,2 ABE 2p A 4\no, 8 7 Bpbe B 9 नए ye fe डि 8 1%\nfl cos GW 3s RB? छि ». दे & @ Bir\nBr B 8836.\" B के Bo B28 x Bra\noR हे दी ९ Bal मेड कं SO 3 a3\nwo Bp bo vB pe. BBB 8\nare ga. wed BE Pp) 2 B Bgmes hs &\nBf RM PB. 26 8 2B ५\nPR लो RBRwYy, BOD BE BReBBb\nकु ke aD Big B D 2 ८३ करे HDD\n,3 9) Sb sn, t er BBRGE? हर\nBo. +! E 3B Hg 2 YD EP 2 iP +3) f:\n3.3 3 ठ 5 BBR सह SP %\n“8 हब B B® FS, 11 93\n& B सदन 3 Bw» BW: 3 dy £ गे न\n: 3 g 245 9 8 हट 3 3 Be 8 3\nहै माई टाल go wee 2g 8 ने\nमिस Ln & ROK RR Be B g\nBm F Fue Bare aa हि\np32 B = B85 dD yn 5 ¢ ¥3 3\no 8 © ww B ¢ O wW) $ HD b $5 8B\nBye Bab ae ee Be 8 Bee\ndDuLB 2p Ser EB = 6 YD es BS\nBD दे BERR. Sg Bs S a. 4\nDB exw 2B pS 2B 3 ° 483\neyku Base see Gp 8 perms\n3B, 5 २98 CE mek 2 Ba °\n3) 2 8 B उन ४ दिन 3) 3 Bay\nBEB Cs & 28388 e D ee 2 Ib 13 Se\nS5BRSERPR BRB “BBS BB KB 3 ह, कं\nडक ६ रा 858 8B 3 Bs) गूछ\nok 3B RA\n\n16\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_010",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0010pro_raw.pdf",
+    "page_index": 63,
+    "width": 596.9483032226562,
+    "height": 795.9302978515625
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        596.9483032226562,
+        795.9302978515625
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Aso,\nHRI sriRuRd,\nI\n1 TEd (RId #14T)\n82.00\nRiER\nchoots\n3",
+      "text_nfc": "Aso,\nHRI sriRuRd,\nI\n1 TEd (RId #14T)\n82.00\nRiER\nchoots\n3",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_027",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0027pro_raw.pdf",
+    "page_index": 29,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "చిత్రంలోని చేతివేళ్ళను లెక్కించండి: చేతివేళ్ళు ఎన్నివున్నాయో అన్నిగీతలు పక్కనున్న గడిలో గీయండి మొత్తం గీతలను లెక్కించి వాటి సంఖ్యను పక్కనున్న గడిలో రాయండి\n4\nరెండు సమూహాలలోని చిత్రాలను లెక్కించండి. మొత్తం చిత్రాల సంఖ్య రాయండి:\nబొంగరాలు\nబొంగరాలు\n2\nబొంగరాలు\nసీతాకోక చిలుకలు\nసీతాకోకచిలుకలు\nతాకోక చిలుకలు\n20",
+      "text_nfc": "చిత్రంలోని చేతివేళ్ళను లెక్కించండి: చేతివేళ్ళు ఎన్నివున్నాయో అన్నిగీతలు పక్కనున్న గడిలో గీయండి మొత్తం గీతలను లెక్కించి వాటి సంఖ్యను పక్కనున్న గడిలో రాయండి\n4\nరెండు సమూహాలలోని చిత్రాలను లెక్కించండి. మొత్తం చిత్రాల సంఖ్య రాయండి:\nబొంగరాలు\nబొంగరాలు\n2\nబొంగరాలు\nసీతాకోక చిలుకలు\nసీతాకోకచిలుకలు\nతాకోక చిలుకలు\n20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

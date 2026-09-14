@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_004",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0005pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 579
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        579
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "accel mtesiamen geared coment ca anode APS\n\na aedracsoei\nപി pent ജത അട Sarno\n[ങ്ക\n\nal\n\nകൂട്ടാ ട്‌\nBlogads ഹര്‍ $%/2018/ 422 [5/5\nഹു്‌ ഷമമ്ഥ, അല്ലി ഷീല,\n\nകലം Ae Drbboe RAS: 4\nക പ\n\n(\n\nപ്ര ക്കള്‍\n",
+      "text_nfc": "accel mtesiamen geared coment ca anode APS\n\na aedracsoei\nപി pent ജത അട Sarno\n[ങ്ക\n\nal\n\nകൂട്ടാ ട്‌\nBlogads ഹര്‍ $%/2018/ 422 [5/5\nഹു്‌ ഷമമ്ഥ, അല്ലി ഷീല,\n\nകലം Ae Drbboe RAS: 4\nക പ\n\n(\n\nപ്ര ക്കള്‍\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

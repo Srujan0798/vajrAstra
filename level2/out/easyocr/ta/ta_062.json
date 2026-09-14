@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_062",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0029pro_raw.pdf",
+    "page_index": 72,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "GDgD LgIफ़l६boo , OकIobफफ़फ़ा, O१Fठठा 6Dठणा IDppio Jlक़mIOफ़ILIIफंफ़्री॰ं @ILBG, कlफकछ, Oफ़pe Ioppio GLope Llyniफ़lul JI@|6I6DBIऊIB6ाT २  ढााना6णा. थJगULलफ़ी॰ O८L @७ BLL Kjolonoणा थफ़्ीBnग़Upp थlODIDLILIIB @uppgl @GLILgoID, १९९२ थJDथJनणणlq६D, ८L, @pफ़luIनीनठा Lgफ़lnmlBoा Ioppib LIploi छंकनoनणा   @Inफ़luIb, १९९२ छील७ऊंऊऊंछ्ीन्ठा ९ooD @फ़फ़lul थIBIIIBgSI६D Boz (pob BLLLILg @I थफ़्तीषााग्र छ॰oछ OLippgl OमLी २फ़नणा २ @JLILooाj छनाIOD फ़lj @IकlकBLILIGकpgl, @फ़ी६b LlooT@I(Olनणा शILIlछi:\nQuIBGूग छ६ाा\nBoz Gpd @ulBGफ़j कठा 6D६णणा QuIBGpए &६ाा\nBo ७p@ @uIBGpj (lj @InBD)\n6pnफ़ldbgILL @uIBGpj / 6D६ण्णा QuIBGpए (थIJoLLL)\nछlनDनणणा @uIBGफ़ग छ६ा 2 -छ@ी @uIBGpj छ६ा\nछlनD6णणा @uIBGpए (lr @InBD)\nछlनDनणणा @uBGफ़ग कना (थIवDIDLL)\nछoी @uIBछफ़j (lr @InBD)\n२ छoी @uIBGफ़ग कनाा (थIबDLDLL)\nLीrlol थI@J@I@j छ६ा (lr @InBD)\nOgnyl॰ फILu २ poluIn6ाj छठाा\nIBIDgl ९०६Dछनण   Bjंनoफ़नoUl @(rlGLiLIGgफ़ojo Loppiio BLGLILIGSpoj @pgluIn@l६ं p -(oIछBLILILL २uIj JlODIDLIL @pफ़luILi Lठंफ़्ीग्र Ipoib InppIIछनflठoा @Inगlui (नBLO) J७i. @gl @pglul थIा्र मIा6ंD 1988 ६ GoIकBLILILLgl थJनणn6b 1992 थJio थJनठणाLq 6b BLL Ysop   थड़ीBाग़i OLIppgl\nplफl ७ld७\n1LIJGंDLIJ फ़lणlu I६छंफीनठा UI ६b LInT L ६D छनणणा षI6णठfीgp६b\n२. BLLgफ़lpछ LDUDLII छ OमUI६DLIGID फ़lpJ@IनणTIंIB6ODनाT BनoL OBulp६b\n3. @pनSLLIनाए छठाा IनDवछा D६Dना LIITgIBILILIफ़lनD Blpip LIlBaflLIनoLI @lrlछpo\n4 LIrile InDpछछंफ़ी॰oा L6णठfीl&नDनाा @(mlछLiLGoglp६ं 11 5६0 O५k 1 २8६ 2h 2 286 63 1ौ/ Uii% 0.156 0287 2.344 1.४4 0.7204 \"ा 0ap%2\n5. छनणणfीक६D% Dppi थJulन|B6ODना ILछछlp॰b\n6. 2 6ंT@फ़ी @l६oठfीछpoop छ७pp६ं\nINSIDER TRADING\nAK +< ^\n59\n१२th Commerce Tamil Unit 3.indd 5९\n19/12/2022 14:45:04\nOऋ flupion ?\nMUUAL FUNDS",
+      "text_nfc": "GDgD LgIफ़l६boo , OकIobफफ़फ़ा, O१Fठठा 6Dठणा IDppio Jlक़mIOफ़ILIIफंफ़्री॰ं @ILBG, कlफकछ, Oफ़pe Ioppio GLope Llyniफ़lul JI@|6I6DBIऊIB6ाT २  ढााना6णा. थJगULलफ़ी॰ O८L @७ BLL Kjolonoणा थफ़्ीBnग़Upp थlODIDLILIIB @uppgl @GLILgoID, १९९२ थJDथJनणणlq६D, ८L, @pफ़luIनीनठा Lgफ़lnmlBoा Ioppib LIploi छंकनoनणा   @Inफ़luIb, १९९२ छील७ऊंऊऊंछ्ीन्ठा ९ooD @फ़फ़lul थIBIIIBgSI६D Boz (pob BLLLILg @I थफ़्तीषााग्र छ॰oछ OLippgl OमLी २फ़नणा २ @JLILooाj छनाIOD फ़lj @IकlकBLILIGकpgl, @फ़ी६b LlooT@I(Olनणा शILIlछi:\nQuIBGूग छ६ाा\nBoz Gpd @ulBGफ़j कठा 6D६णणा QuIBGpए &६ाा\nBo ७p@ @uIBGpj (lj @InBD)\n6pnफ़ldbgILL @uIBGpj / 6D६ण्णा QuIBGpए (थIJoLLL)\nछlनDनणणा @uIBGफ़ग छ६ा 2 -छ@ी @uIBGpj छ६ा\nछlनD6णणा @uIBGpए (lr @InBD)\nछlनDनणणा @uBGफ़ग कना (थIवDIDLL)\nछoी @uIBछफ़j (lr @InBD)\n२ छoी @uIBGफ़ग कनाा (थIबDLDLL)\nLीrlol थI@J@I@j छ६ा (lr @InBD)\nOgnyl॰ फILu २ poluIn6ाj छठाा\nIBIDgl ९०६Dछनण   Bjंनoफ़नoUl @(rlGLiLIGgफ़ojo Loppiio BLGLILIGSpoj @pgluIn@l६ं p -(oIछBLILILL २uIj JlODIDLIL @pफ़luILi Lठंफ़्ीग्र Ipoib InppIIछनflठoा @Inगlui (नBLO) J७i. @gl @pglul थIा्र मIा6ंD 1988 ६ GoIकBLILILLgl थJनणn6b 1992 थJio थJनठणाLq 6b BLL Ysop   थड़ीBाग़i OLIppgl\nplफl ७ld७\n1LIJGंDLIJ फ़lणlu I६छंफीनठा UI ६b LInT L ६D छनणणा षI6णठfीgp६b\n२. BLLgफ़lpछ LDUDLII छ OमUI६DLIGID फ़lpJ@IनणTIंIB6ODनाT BनoL OBulp६b\n3. @pनSLLIनाए छठाा IनDवछा D६Dना LIITgIBILILIफ़lनD Blpip LIlBaflLIनoLI @lrlछpo\n4 LIrile InDpछछंफ़ी॰oा L6णठfीl&नDनाा @(mlछLiLGoglp६ं 11 5६0 O५k 1 २8६ 2h 2 286 63 1ौ/ Uii% 0.156 0287 2.344 1.४4 0.7204 \"ा 0ap%2\n5. छनणणfीक६D% Dppi थJulन|B6ODना ILछछlp॰b\n6. 2 6ंT@फ़ी @l६oठfीछpoop छ७pp६ं\nINSIDER TRADING\nAK +< ^\n59\n१२th Commerce Tamil Unit 3.indd 5९\n19/12/2022 14:45:04\nOऋ flupion ?\nMUUAL FUNDS",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

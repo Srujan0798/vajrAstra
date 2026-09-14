@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_066",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0033pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT\n6\nN Gawse\n5LLDBTO 9IIJT\nGLD60I616060\nOT 600TLITLD\nB 600T\na\nOungis 5LDL\n5LLDBTO JIT afoauocumt LITLITOU OLDIIGLD SLL3BT TSLp GalofudLdutL5\nLI6erfla 56061551600\nSGOTLITGDLD LD60115 OWILDDD OFUQILD QuGI5DDCLD 251\nXIIStd Tamill Introduction Pages.indd 1\n23/12/2023 11:28:08",
+      "text_nfc": "IT\n6\nN Gawse\n5LLDBTO 9IIJT\nGLD60I616060\nOT 600TLITLD\nB 600T\na\nOungis 5LDL\n5LLDBTO JIT afoauocumt LITLITOU OLDIIGLD SLL3BT TSLp GalofudLdutL5\nLI6erfla 56061551600\nSGOTLITGDLD LD60115 OWILDDD OFUQILD QuGI5DDCLD 251\nXIIStd Tamill Introduction Pages.indd 1\n23/12/2023 11:28:08",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

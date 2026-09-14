@@ -1,0 +1,41 @@
+{
+  "page_id": "te_033",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0033pro_raw.pdf",
+    "page_index": 48,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "*Oh! 10 ! [t' $ ೊOt ೩ [en. [t' $ ೩ Squirte].\"\nCome On, Squirte], [o]]ow m0. [et' $ find the [Te]]. TTThere 1s she?\n*M೩]] be [Te] js behind this basket. Ca yOu see ೩ fuTTy t೩i]?;\nOh! 10! [t' $ ]0t [@en. [t'$ C೩t. ]\n.Come On, Cat, [o]]ow ]0. Let' $ [ind the [Te]. MThere js she?;\n*TTTho' $ behind this [Ose sarden? Can yOu see ೩ stripy nose?,\nCome On, Fox [o]]ow Te. [']] [ead yOu [ OL[ picnic spot. ,\n**Stil] 10 [Ten! Mhere did she 80?\n*Calt can' [ ಃuess. Ca3 yOu 8ueSs ?*,\n30",
+      "text_nfc": "*Oh! 10 ! [t' $ ೊOt ೩ [en. [t' $ ೩ Squirte].\"\nCome On, Squirte], [o]]ow m0. [et' $ find the [Te]]. TTThere 1s she?\n*M೩]] be [Te] js behind this basket. Ca yOu see ೩ fuTTy t೩i]?;\nOh! 10! [t' $ ]0t [@en. [t'$ C೩t. ]\n.Come On, Cat, [o]]ow ]0. Let' $ [ind the [Te]. MThere js she?;\n*TTTho' $ behind this [Ose sarden? Can yOu see ೩ stripy nose?,\nCome On, Fox [o]]ow Te. [']] [ead yOu [ OL[ picnic spot. ,\n**Stil] 10 [Ten! Mhere did she 80?\n*Calt can' [ ಃuess. Ca3 yOu 8ueSs ?*,\n30",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

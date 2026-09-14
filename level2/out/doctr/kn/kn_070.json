@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_070",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2\nROFO\nDO00 3580 a aES NotO30 cs\n90033\nDepartment of School Education & Literacy\n883 8300,\nO\ncg\naberto aOEO na5295\n2\n8580\nc\nnser5 agroon\n3 O2\nPhysical Education,\nSntO\nVALUE\nEDUCATION\nMental and Social wellbeing\nIncluding\n16\no\n630 30n3 QwoFne 238302370 aTt\nActivity Book for Class 6 Students\n2026 - - 2027\nopts 3780 JoBoCON a3 302503 90033\na\nW03078 33e c03, 2on8od = 560 085.",
+      "text_nfc": "2\nROFO\nDO00 3580 a aES NotO30 cs\n90033\nDepartment of School Education & Literacy\n883 8300,\nO\ncg\naberto aOEO na5295\n2\n8580\nc\nnser5 agroon\n3 O2\nPhysical Education,\nSntO\nVALUE\nEDUCATION\nMental and Social wellbeing\nIncluding\n16\no\n630 30n3 QwoFne 238302370 aTt\nActivity Book for Class 6 Students\n2026 - - 2027\nopts 3780 JoBoCON a3 302503 90033\na\nW03078 33e c03, 2on8od = 560 085.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

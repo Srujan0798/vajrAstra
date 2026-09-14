@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1605 3.147\nNo. 402.\nവെള്ള വക്കമ്മാരൻ.\nഅ പ്ലെങ്കിൽ സർദാർ ഷേയിക്ക് ആയാസ്ഖാൻ.\nകൈയാടി രാജ കെ നായർഗവണ്ണർ.\nഗ്രന്ഥകത്താലു 3 :\n2 രാ. രാ. സി. കുഞ്ഞിരാമമേനവനവർക്ക് - ഉശ്ശിവപേരൂർ.\nമണ്ടാം പേരില്ല് — 1929.\nകോപ്പി - 1500.\nPrinted at The Mangalodayam Press, Trichur.\nPrice 1-0-0\nሳില 1__0__0.\n(Copyright to the author.)\nIndic Digital Archive Foundation",
+      "text_nfc": "1605 3.147\nNo. 402.\nവെള്ള വക്കമ്മാരൻ.\nഅ പ്ലെങ്കിൽ സർദാർ ഷേയിക്ക് ആയാസ്ഖാൻ.\nകൈയാടി രാജ കെ നായർഗവണ്ണർ.\nഗ്രന്ഥകത്താലു 3 :\n2 രാ. രാ. സി. കുഞ്ഞിരാമമേനവനവർക്ക് - ഉശ്ശിവപേരൂർ.\nമണ്ടാം പേരില്ല് — 1929.\nകോപ്പി - 1500.\nPrinted at The Mangalodayam Press, Trichur.\nPrice 1-0-0\nሳില 1__0__0.\n(Copyright to the author.)\nIndic Digital Archive Foundation",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

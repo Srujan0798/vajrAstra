@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_062",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0029pro_raw.pdf",
+    "page_index": 72,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "GiogJLb 4515160601, 61510055551, 61560T6060T LoDID BIGIDLDSmILITOl6D OL8E, apo5, 6515 LOIDILD GLoDE Lmmibalu\n31g/616D5Th156T 2_6TT6TT60T.\nETibLISSlo 61EL7 6U5 FLL LTOILDITGOT 3danDD S6OLDLLITE 00551 OGiLob, 1992 syibaj6dorigd, 618L1,\nObBlumol6ot ubdlgn156t LODDILD uflouj5560601 omfuib, 1992 50555560T CLD6DLD Obalu SiTaT1555T6 80b50\nFLLULTOI 91616115605 OLIDDS1\n68L1 91560T 2_-miullcorjearté) Bisudbslud@Dsl O5l L160T6106160T SILIIEI:\nQubsbjoor\n80b50 QubsbjbiT /\n500b50 Qub5b\n65mO1Lu Quesbil\n060600T Qubsbjao\n(Bijoaib)\nO60600T Quesbi (2160LDLL)\nL\nV\n5160600T Qub5BIGGT /\n5160600T Que5bi\n5160600T Qub5bibi\n2561 Qubsbioit\n(Bjoimaib)\n(160LDLL)\n2509 Qub5bi\n2501 QubEbjEGT\n(Bljoraib)\n(3160LDLL)\nLifloy 21g660j50T\n(Bljouaib)\nO5mflé BILu 2_5olumanjsdir\nIBLD5I CL060560T F160560W gum46iubbsoub Lommb\n61856\nBLbuub55ob Obslumalo 2_GOIASLULL 2_uj\nGygifuto\nS160DLDLL Obslui ubsy LIDDILD LomDprhe5erflooT GIfuLD\n(61EL1) 2YEi. 051 Oislu SITEITOD 1988 6\nREITASiuLLSL 2560II60 1992 2yib 94600TIG6D\nELLU6OD 9166ILD 6UDD5I\ni\nL\nLLIJOTULIT BBlusgglt\n2. ELL5SME LMILITE\n3. (P580LLITGTIJE56IT I56060T5560D61T\n6 F E 60 L IT L 60 L\nO1ELIGULICDLD Bipl6l6017h456D6T\nLIglsmiugld Apibs\n6560016511600f15500\n560L 618i1560\nurh15orfil60LI 611011550\nMUTUAL\nFUNDS\n4. ur5 LDITDD5555160T\nLI600f1856061\n5. 5600f185605 LommID\n6. D6TTOL 6J600fl55605\ngugrisesduobgisd\n2p116466061 IL55150\n56550\n11.560 -\n012a\n1.286 A 0:468\nINSIDERE\n15 2.286\n563\nTRADING\n.0287\nANSST\n2.344\n0.1204\n0.1902\n59\n12th Commerce Tamil Unit 3.indd 59\n19/12/2022 14:45:04",
+      "text_nfc": "GiogJLb 4515160601, 61510055551, 61560T6060T LoDID BIGIDLDSmILITOl6D OL8E, apo5, 6515 LOIDILD GLoDE Lmmibalu\n31g/616D5Th156T 2_6TT6TT60T.\nETibLISSlo 61EL7 6U5 FLL LTOILDITGOT 3danDD S6OLDLLITE 00551 OGiLob, 1992 syibaj6dorigd, 618L1,\nObBlumol6ot ubdlgn156t LODDILD uflouj5560601 omfuib, 1992 50555560T CLD6DLD Obalu SiTaT1555T6 80b50\nFLLULTOI 91616115605 OLIDDS1\n68L1 91560T 2_-miullcorjearté) Bisudbslud@Dsl O5l L160T6106160T SILIIEI:\nQubsbjoor\n80b50 QubsbjbiT /\n500b50 Qub5b\n65mO1Lu Quesbil\n060600T Qubsbjao\n(Bijoaib)\nO60600T Quesbi (2160LDLL)\nL\nV\n5160600T Qub5BIGGT /\n5160600T Que5bi\n5160600T Qub5bibi\n2561 Qubsbioit\n(Bjoimaib)\n(160LDLL)\n2509 Qub5bi\n2501 QubEbjEGT\n(Bljoraib)\n(3160LDLL)\nLifloy 21g660j50T\n(Bljouaib)\nO5mflé BILu 2_5olumanjsdir\nIBLD5I CL060560T F160560W gum46iubbsoub Lommb\n61856\nBLbuub55ob Obslumalo 2_GOIASLULL 2_uj\nGygifuto\nS160DLDLL Obslui ubsy LIDDILD LomDprhe5erflooT GIfuLD\n(61EL1) 2YEi. 051 Oislu SITEITOD 1988 6\nREITASiuLLSL 2560II60 1992 2yib 94600TIG6D\nELLU6OD 9166ILD 6UDD5I\ni\nL\nLLIJOTULIT BBlusgglt\n2. ELL5SME LMILITE\n3. (P580LLITGTIJE56IT I56060T5560D61T\n6 F E 60 L IT L 60 L\nO1ELIGULICDLD Bipl6l6017h456D6T\nLIglsmiugld Apibs\n6560016511600f15500\n560L 618i1560\nurh15orfil60LI 611011550\nMUTUAL\nFUNDS\n4. ur5 LDITDD5555160T\nLI600f1856061\n5. 5600f185605 LommID\n6. D6TTOL 6J600fl55605\ngugrisesduobgisd\n2p116466061 IL55150\n56550\n11.560 -\n012a\n1.286 A 0:468\nINSIDERE\n15 2.286\n563\nTRADING\n.0287\nANSST\n2.344\n0.1204\n0.1902\n59\n12th Commerce Tamil Unit 3.indd 59\n19/12/2022 14:45:04",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "=n + Ww\n\nध्वनि यंत्र\n\n(डॉ. कपिलदेव द्विवेदी, भाषा विज्ञान एवं भाषा शास्त्र, पृष्ठ संख्या 128)\n\nचित्र परिचय :\n1. श्वास नली\n2. भोजन नली\n3. स्वर यंत्र\n\n4. स्वर तंत्री\n5 काकल\n\n6. अभिकाकल\n\n7. गलबिल/उपालिजिह्वा\n8... अलिजिह्वा/कौवा\n\n9. नासाविवर\n\n10. कोमल तालु\n\n11. ஊனி\n\n12. कठोर तालु\n\n13. वर्त्स\n\n14. दंत\n\n15. ओष्ठ\n\n16. जिह्वा नोक\n\n(Wind Pipe)\nGullet/Food Pipe)\nLarynx)\n(Vocal Cord)\nGlottis)\nEpiglottis)\nPharynx)\n(Uvula)\n\n‘Nasal Cavity)\nSoft Palate)\nCerebrum)\n‘Hard Palate)\n‘Alveolus)\nTeeth)\n\nLips)\n\nTip of the Tongue)\n\nध्वनिविज्ञान\n\n65\n",
+      "text_nfc": "=n + Ww\n\nध्वनि यंत्र\n\n(डॉ. कपिलदेव द्विवेदी, भाषा विज्ञान एवं भाषा शास्त्र, पृष्ठ संख्या 128)\n\nचित्र परिचय :\n1. श्वास नली\n2. भोजन नली\n3. स्वर यंत्र\n\n4. स्वर तंत्री\n5 काकल\n\n6. अभिकाकल\n\n7. गलबिल/उपालिजिह्वा\n8... अलिजिह्वा/कौवा\n\n9. नासाविवर\n\n10. कोमल तालु\n\n11. ஊனி\n\n12. कठोर तालु\n\n13. वर्त्स\n\n14. दंत\n\n15. ओष्ठ\n\n16. जिह्वा नोक\n\n(Wind Pipe)\nGullet/Food Pipe)\nLarynx)\n(Vocal Cord)\nGlottis)\nEpiglottis)\nPharynx)\n(Uvula)\n\n‘Nasal Cavity)\nSoft Palate)\nCerebrum)\n‘Hard Palate)\n‘Alveolus)\nTeeth)\n\nLips)\n\nTip of the Tongue)\n\nध्वनिविज्ञान\n\n65\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

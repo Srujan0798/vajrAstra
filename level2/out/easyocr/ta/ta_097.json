@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_097",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 90,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6.2.4.1 break Bozpol break Bozmलl थ१oछ २ ठToाL_ छकीULI LOLछंकDछ @ीLL G ठlolofl BuImg Olमulछlलgl. फlगरoblठor छLLं GLILITLLIToण छl LOLछंछीठo 2 LpLIGफ़छछ OloloflGul @GछGio Bo pलlछछ LITulBlmgl lLIbफ़कoनOUlbठr LoglLIL फ़olpl नाठठr@l olUio @looग while थl६Dogl for ULBछ OlBUlbLOफ़LiLGuo Sbooाmob, break Bo moomLl LIULIDTLIGछछी BLGLILIITLLGOL LOLBOOB @ीLLG फ़lmफ़छछी OlolonflGuImभ ठlमuIUIओIquID. break Jo pलl फ़loomGolmmLiLIGio GLII छुl फlगरoblठठr BLGLl LITLLGLITUlDl, IOLBOOB @ीLLG Ololofl Bupl, IOLछछ थloLDLILloo @@फ़फ़कछ थOऊंछl २ नाoा @m (oom LIGफ़lullob @Gूछl @UIIऊlक ठlछIL IIGL. break Lloorooा६Dnooा LOLBंछीठठr २ arGaा @Gpफ़nob, break Bozmpl IlB 2LLIलLonछ (Inner most) थloLoू छlनiना LOLLBooB @lLLG OloloflGuIpio\nOgnL फ़lulD: break\nEnter loop\nfalse\nCondition\ntrue\nbreak?\nyes\nExit loop\nno\nRemaining body of loop\nLILID ६.7 break Bo mmlooblBUIDLIIG for ULछG Lommio while ULऊछlooloir break Bo pलीठor OlBULIनDLITG &७५ OlछI GऊBLILILLGoToा छl.\nfor var in sequence: if condition: break #code inside for loop #code outside for loop while test expression: #code inside while loop if condition: break #code inside while loop #code outside while loop\n8५\nBLGLILIILLG BLLकOLOLIL|छनाr\n१२th Computer Science_TM Chapter G.inad 8५\n11-01-2023 12:38:17",
+      "text_nfc": "6.2.4.1 break Bozpol break Bozmलl थ१oछ २ ठToाL_ छकीULI LOLछंकDछ @ीLL G ठlolofl BuImg Olमulछlलgl. फlगरoblठor छLLं GLILITLLIToण छl LOLछंछीठo 2 LpLIGफ़छछ OloloflGul @GछGio Bo pलlछछ LITulBlmgl lLIbफ़कoनOUlbठr LoglLIL फ़olpl नाठठr@l olUio @looग while थl६Dogl for ULBछ OlBUlbLOफ़LiLGuo Sbooाmob, break Bo moomLl LIULIDTLIGछछी BLGLILIITLLGOL LOLBOOB @ीLLG फ़lmफ़छछी OlolonflGuImभ ठlमuIUIओIquID. break Jo pलl फ़loomGolmmLiLIGio GLII छुl फlगरoblठठr BLGLl LITLLGLITUlDl, IOLBOOB @ीLLG Ololofl Bupl, IOLछछ थloLDLILloo @@फ़फ़कछ थOऊंछl २ नाoा @m (oom LIGफ़lullob @Gूछl @UIIऊlक ठlछIL IIGL. break Lloorooा६Dnooा LOLBंछीठठr २ arGaा @Gpफ़nob, break Bozmpl IlB 2LLIलLonछ (Inner most) थloLoू छlनiना LOLLBooB @lLLG OloloflGuIpio\nOgnL फ़lulD: break\nEnter loop\nfalse\nCondition\ntrue\nbreak?\nyes\nExit loop\nno\nRemaining body of loop\nLILID ६.7 break Bo mmlooblBUIDLIIG for ULछG Lommio while ULऊछlooloir break Bo pलीठor OlBULIनDLITG &७५ OlछI GऊBLILILLGoToा छl.\nfor var in sequence: if condition: break #code inside for loop #code outside for loop while test expression: #code inside while loop if condition: break #code inside while loop #code outside while loop\n8५\nBLGLILIILLG BLLकOLOLIL|छनाr\n१२th Computer Science_TM Chapter G.inad 8५\n11-01-2023 12:38:17",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

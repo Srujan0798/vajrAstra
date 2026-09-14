@@ -1,0 +1,41 @@
+{
+  "page_id": "te_072",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0072pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "విస్తరణ చేయండి :\nፌ. . . (1) ( x + 2 )( x + 3 ) = x ²+ ( 2 + 3 )x + ( 2 × 3 ) = x ²+ 5x + 6\nὰ ଙ୍. (2) ( y + 4 )( y − 3 ) = y 2 + (4 − 3) y + (4) × (−3) = y 2 + y − 12\n? હ. ( 3 ) ( 2 a + 3 b )( 2 a − 3 b ) ( 2 a ) 2 + [( 3 b ) + ( − 3 b )] 2 a +[ 3 b × ( − 3 b )]\nසෞ. (4) \\left(m+\\frac{3}{2}\\right)\\left(m+\\frac{1}{2}\\right)=m^2+\\left(\\frac{3}{2}+\\frac{1}{2}\\right)m+\\frac{3}{2}\\times\\frac{1}{2}=m^2+2m+\\frac{3}{4}\nಹಿದ್ಯಾ (5) (x - 3)(x - 7) = x^2 + (-3 - 7)x + (-3)(-7) = x^2 - 10x + 21\nఅభ్యాసమాలిక 5.1\nవిస్తరణ చేయండి.\n(1) (a + 2)(a - 1)\n(2) (m - 4)(m + 6)\n(3) (p + 8)(p - 3)\n(4) (13 + x)(13 - x)\n(5) (3x + 4y)(3x + 5y)\n(6) (9x - 5t)(9x + 3t)\n(7) \\left( m + \\frac{2}{3} \\right) \\left( m - \\frac{7}{3} \\right)\n(8) \\left( x + \\frac{1}{x} \\right) \\left( x - \\frac{1}{x} \\right)\n(9) \\left( \\frac{1}{y} + 4 \\right) \\left( \\frac{1}{y} - 9 \\right)\n(II) (a + b)^3 యొక్క విస్తరణ (Expansion of (a + b)^3 )\n(a + b)^3 = (a + b)(a + b)(a + b) = (a + b)(a + b)^2\n= (a + b)(a^2 + 2ab + b^2)\n= a(a^2 + 2ab + b^2) + b(a^2 + 2ab + b^2)\n= a^3 + 2a^2b + ab^2 + ba^2 + 2ab^2 + b^3\n= a^3 + 3a^2b + 3ab^2 + b^3\n\\therefore (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3\nఈ విస్తరణ సూత్రాలనుపయోగించి సాధించిన కొన్ని ఉదాహరణలను నేర్చుకొందాం.\nఉదా. (1) (x + 3)^3\n(a + b) 3 = a 3 + 3a 2 b + 3ab 2 + b 3\nఇవట a = x , b = 3 గలదు.\n24",
+      "text_nfc": "విస్తరణ చేయండి :\nፌ. . . (1) ( x + 2 )( x + 3 ) = x ²+ ( 2 + 3 )x + ( 2 × 3 ) = x ²+ 5x + 6\nὰ ଙ୍. (2) ( y + 4 )( y − 3 ) = y 2 + (4 − 3) y + (4) × (−3) = y 2 + y − 12\n? હ. ( 3 ) ( 2 a + 3 b )( 2 a − 3 b ) ( 2 a ) 2 + [( 3 b ) + ( − 3 b )] 2 a +[ 3 b × ( − 3 b )]\nසෞ. (4) \\left(m+\\frac{3}{2}\\right)\\left(m+\\frac{1}{2}\\right)=m^2+\\left(\\frac{3}{2}+\\frac{1}{2}\\right)m+\\frac{3}{2}\\times\\frac{1}{2}=m^2+2m+\\frac{3}{4}\nಹಿದ್ಯಾ (5) (x - 3)(x - 7) = x^2 + (-3 - 7)x + (-3)(-7) = x^2 - 10x + 21\nఅభ్యాసమాలిక 5.1\nవిస్తరణ చేయండి.\n(1) (a + 2)(a - 1)\n(2) (m - 4)(m + 6)\n(3) (p + 8)(p - 3)\n(4) (13 + x)(13 - x)\n(5) (3x + 4y)(3x + 5y)\n(6) (9x - 5t)(9x + 3t)\n(7) \\left( m + \\frac{2}{3} \\right) \\left( m - \\frac{7}{3} \\right)\n(8) \\left( x + \\frac{1}{x} \\right) \\left( x - \\frac{1}{x} \\right)\n(9) \\left( \\frac{1}{y} + 4 \\right) \\left( \\frac{1}{y} - 9 \\right)\n(II) (a + b)^3 యొక్క విస్తరణ (Expansion of (a + b)^3 )\n(a + b)^3 = (a + b)(a + b)(a + b) = (a + b)(a + b)^2\n= (a + b)(a^2 + 2ab + b^2)\n= a(a^2 + 2ab + b^2) + b(a^2 + 2ab + b^2)\n= a^3 + 2a^2b + ab^2 + ba^2 + 2ab^2 + b^3\n= a^3 + 3a^2b + 3ab^2 + b^3\n\\therefore (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3\nఈ విస్తరణ సూత్రాలనుపయోగించి సాధించిన కొన్ని ఉదాహరణలను నేర్చుకొందాం.\nఉదా. (1) (x + 3)^3\n(a + b) 3 = a 3 + 3a 2 b + 3ab 2 + b 3\nఇవట a = x , b = 3 గలదు.\n24",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

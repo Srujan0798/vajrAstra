@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_046",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 0,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "10\nART\n2\nuC\n0771CH10\n(1)\nC \n     a\na  e ta, 3 i ll\n3TETR\n.\nE  ,   \n  M\n(2)\n    \nTT\n\n3H TH \nT\nfaT\n2\n3TTTT,\n\nT   C\nfl\nO\nTrr\nd\nHET\nT\noded\nTd7\nHE\nll\nq\nFT\nTH\nFRERTTR\n37T-iC\ni\n l\n\nReprint 2026-27",
+      "text_nfc": "10\nART\n2\nuC\n0771CH10\n(1)\nC \n     a\na  e ta, 3 i ll\n3TETR\n.\nE  ,   \n  M\n(2)\n    \nTT\n\n3H TH \nT\nfaT\n2\n3TTTT,\n\nT   C\nfl\nO\nTrr\nd\nHET\nT\noded\nTd7\nHE\nll\nq\nFT\nTH\nFRERTTR\n37T-iC\ni\n l\n\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

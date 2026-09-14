@@ -1,0 +1,41 @@
+{
+  "page_id": "te_051",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0051pro_raw.pdf",
+    "page_index": 0,
+    "width": 599.6219482421875,
+    "height": 816.1190795898438
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        599.6219482421875,
+        816.1190795898438
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "MY\nENGLISH BOOK\nGrade Six\nFOR\nFREE\nDISTRIBUTION",
+      "text_nfc": "MY\nENGLISH BOOK\nGrade Six\nFOR\nFREE\nDISTRIBUTION",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

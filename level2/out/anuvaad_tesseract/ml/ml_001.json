@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_001",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1630,
+    "height": 2019
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1630,
+        2019
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "oerorestre oreo mpmScre\ngoahSoom\nolmamowess wleevrcela\nWELW LW Lstmoerwrowonn,\n(€)\n(@lo@yoe’ golsecro 0s CHWS) “elotabe: eyruosre fos Foeystreyo omanGm (a)\n\n(s) teecoch@ tame tow wocefaorcw ന്പ്രസി tos susceotPyperrouwTeWs\nree cwscravyS (ow escw avleg_we_rto tacotolr gopama@racfoyo setBaaxW (e)\n\n)\n\nsavy / (omesyro p  ്്്\n\n() i ८. WICWLAOORL PO\ntobe . [७ छल (5 [Flee Swemcr?) gotste of8H ९9100 16 0 08100110 5\n(z) 2 @urtecanpotecn cetow 0009905 wscreLWOm@Rr yo WHY ‘y\n\n(2) & QIE@\nMSD Wepouw ¢ @BBE|PeroypotsGe wiscavbe goamscroPworvsr sel@ywocsrnyy ६\n(z) ८. be woncavye stscPotsMoAHVB Geogoa@ta ००009 enjBe[Se z\n(z) & ്രൗഴ റഗസേ Wweywsusawstory ०8600 gaMyancevyre cwefscfoyv +\n\nqneaasfycrea\n\nPB wo ao Mcvow[Oreer\n\ntwrawfoscuvonfrrtwo ctuvcmerem tBtuvlesyrEe 59028 wowcurw sstw\nLUDWIYCMO@lwr Mevoryorfro teeqnaas9sD sIAYVCY MBYwoes ‘sUItE|Pero Lwlabe\ncorhaup goyawscroe set@recuncrs Gp [1000० tuvtesyos ത്രഥnrwotstp tors owcreo\nrsecreatstoeyrer omuLwefoorwos orenyLo@)@, ‘uvteeoryr~me cfwomer) [wre\nCODLAW WIICWLAOFOD WL NVSTOYCOW @McVMLORYLMCHNH cHCTEDeSHY go DLWHCSTONo\nFeyreconw [nee revg,9Gy tuwoyacayiste wmuneyy cvcfscfeyv tows Mowa,weoetwam\noorBoem ngs Hecw setwww goywwfoces’ wecocmacs micwew (po Bsivor@woro\nfuwesro ceogvato ofracrus goBe Ste wrocs F8tvtuwBesa9w (uscBassnoum TAO\nrusctst uvtecue@crs ctuwwusecumcetunwfretwu town testamduvos ംതംലരഡ\n‘ouscecralsw ംത:ലഡിഡ wor Bethiewotr aovclrers otowr) vermcn\ncraefoow quote ger jourlee o@recfeu wecunoy wom) wwieetocme|sro\nWO Wsta sro torom@unemD reeymotuse@ (008 susceelwup crucscwoU GD [19000\nERevcetsamegcr goyotoe sefaipcoupoces Muvfowcew etamtorn ०600 suscwe\nc~MPDreS crarowPD yw്രmwcpcwnm setmoturTe@ uvgLotw ‘sust@sLIa@wotory cWMMprO\nior tow movratucw ga@yoncanye awcfacfayo setmWw GerEDLOT “WI9CUDLW OLB\nsasxm@racteo wywoicr) t@unteasstm Mom BBloerreo.aofmer wueMcrtewrowcyv\nhe ware eeneafecrra Fymcr oncefen SstSawtscwo secm |\n\n. SPO) (omesro Gey y= UORDeS\nSIU EOL WV TVAV IVI 270 : 9POD\n08 * SIIBIX TLOZ - yours XI: 55छू3\nII -??S Y)uaussassy IANBUILUNG puoാ3\n\nuo uo1)s3nt) sduresg\n",
+      "text_nfc": "oerorestre oreo mpmScre\ngoahSoom\nolmamowess wleevrcela\nWELW LW Lstmoerwrowonn,\n(€)\n(@lo@yoe’ golsecro 0s CHWS) “elotabe: eyruosre fos Foeystreyo omanGm (a)\n\n(s) teecoch@ tame tow wocefaorcw ന്പ്രസി tos susceotPyperrouwTeWs\nree cwscravyS (ow escw avleg_we_rto tacotolr gopama@racfoyo setBaaxW (e)\n\n)\n\nsavy / (omesyro p  ്്്\n\n() i ८. WICWLAOORL PO\ntobe . [७ छल (5 [Flee Swemcr?) gotste of8H ९9100 16 0 08100110 5\n(z) 2 @urtecanpotecn cetow 0009905 wscreLWOm@Rr yo WHY ‘y\n\n(2) & QIE@\nMSD Wepouw ¢ @BBE|PeroypotsGe wiscavbe goamscroPworvsr sel@ywocsrnyy ६\n(z) ८. be woncavye stscPotsMoAHVB Geogoa@ta ००009 enjBe[Se z\n(z) & ്രൗഴ റഗസേ Wweywsusawstory ०8600 gaMyancevyre cwefscfoyv +\n\nqneaasfycrea\n\nPB wo ao Mcvow[Oreer\n\ntwrawfoscuvonfrrtwo ctuvcmerem tBtuvlesyrEe 59028 wowcurw sstw\nLUDWIYCMO@lwr Mevoryorfro teeqnaas9sD sIAYVCY MBYwoes ‘sUItE|Pero Lwlabe\ncorhaup goyawscroe set@recuncrs Gp [1000० tuvtesyos ത്രഥnrwotstp tors owcreo\nrsecreatstoeyrer omuLwefoorwos orenyLo@)@, ‘uvteeoryr~me cfwomer) [wre\nCODLAW WIICWLAOFOD WL NVSTOYCOW @McVMLORYLMCHNH cHCTEDeSHY go DLWHCSTONo\nFeyreconw [nee revg,9Gy tuwoyacayiste wmuneyy cvcfscfeyv tows Mowa,weoetwam\noorBoem ngs Hecw setwww goywwfoces’ wecocmacs micwew (po Bsivor@woro\nfuwesro ceogvato ofracrus goBe Ste wrocs F8tvtuwBesa9w (uscBassnoum TAO\nrusctst uvtecue@crs ctuwwusecumcetunwfretwu town testamduvos ംതംലരഡ\n‘ouscecralsw ംത:ലഡിഡ wor Bethiewotr aovclrers otowr) vermcn\ncraefoow quote ger jourlee o@recfeu wecunoy wom) wwieetocme|sro\nWO Wsta sro torom@unemD reeymotuse@ (008 susceelwup crucscwoU GD [19000\nERevcetsamegcr goyotoe sefaipcoupoces Muvfowcew etamtorn ०600 suscwe\nc~MPDreS crarowPD yw്രmwcpcwnm setmoturTe@ uvgLotw ‘sust@sLIa@wotory cWMMprO\nior tow movratucw ga@yoncanye awcfacfayo setmWw GerEDLOT “WI9CUDLW OLB\nsasxm@racteo wywoicr) t@unteasstm Mom BBloerreo.aofmer wueMcrtewrowcyv\nhe ware eeneafecrra Fymcr oncefen SstSawtscwo secm |\n\n. SPO) (omesro Gey y= UORDeS\nSIU EOL WV TVAV IVI 270 : 9POD\n08 * SIIBIX TLOZ - yours XI: 55छू3\nII -??S Y)uaussassy IANBUILUNG puoാ3\n\nuo uo1)s3nt) sduresg\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

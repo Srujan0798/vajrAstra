@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_044",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0004pro_raw.pdf",
+    "page_index": 23,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "E\n24\nKAnnaDA\nSpace For Rough Work I dy tಾa-ಕಾn ಸe\n\nH\n",
+      "text_nfc": "E\n24\nKAnnaDA\nSpace For Rough Work I dy tಾa-ಕಾn ಸe\n\nH\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

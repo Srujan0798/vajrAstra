@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "22 23\n\n16 -17 18 19 20 21\n\n13 14 15\n\n12\n\n=\n—\n9\na\n\n9\n\nIndic Digital Archive Foundation\n\n19\n\n7492.\n\nവെള ളവക്കമ്മാഭനു.\n\nഅല്ലെങ്കിൽ\n\n14 15 16 17 18\n\n100800 ഷേയിക്ക്‌ ആയാസ്‌ഖാ൯.\n\n43\n\n12\n\nन क ७0 8 6 9 8 ५ 9 5\n\nനായര്‍ഗപണ്ണര്‍.\n\n10 11\n\n3 ഗ്രന്ഥകത്താവു :\nB00. രാ. സി.കഞ്ഞിരാമമേയനവനവരകളാ.\nതൃള്ശിപടപരൂര്‍.\n\n9\n\n° 3\nരണ്ടാംപതിപ്പ്‌ 1929.\n\nവി\n\nPrinted at\nThe Mangalodayain Press,\nTrichur.\nലില 100.\n\n(Copyright [9 the author.)\n\nയ le ലൂ ലലല जूक വ ധം eee വ ഇ മ ഇ 2,\n\nണാ ര के 554 के के. जे 8 6 30 28 32 33 1314\n\ngpura.org\n\n& ട്‌ 171 217 67 07 ട്‌ + ച്‌ &\n\n",
+      "text_nfc": "22 23\n\n16 -17 18 19 20 21\n\n13 14 15\n\n12\n\n=\n—\n9\na\n\n9\n\nIndic Digital Archive Foundation\n\n19\n\n7492.\n\nവെള ളവക്കമ്മാഭനു.\n\nഅല്ലെങ്കിൽ\n\n14 15 16 17 18\n\n100800 ഷേയിക്ക്‌ ആയാസ്‌ഖാ൯.\n\n43\n\n12\n\nन क ७0 8 6 9 8 ५ 9 5\n\nനായര്‍ഗപണ്ണര്‍.\n\n10 11\n\n3 ഗ്രന്ഥകത്താവു :\nB00. രാ. സി.കഞ്ഞിരാമമേയനവനവരകളാ.\nതൃള്ശിപടപരൂര്‍.\n\n9\n\n° 3\nരണ്ടാംപതിപ്പ്‌ 1929.\n\nവി\n\nPrinted at\nThe Mangalodayain Press,\nTrichur.\nലില 100.\n\n(Copyright [9 the author.)\n\nയ le ലൂ ലലല जूक വ ധം eee വ ഇ മ ഇ 2,\n\nണാ ര के 554 के के. जे 8 6 30 28 32 33 1314\n\ngpura.org\n\n& ട്‌ 171 217 67 07 ട്‌ + ച്‌ &\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

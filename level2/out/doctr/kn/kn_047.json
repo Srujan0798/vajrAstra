@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_047",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+    "page_index": 2,
+    "width": 1410,
+    "height": 1951
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1410,
+        1951
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Dgon-B (wowton w30) : (14 eoanet)\nII. dend aspoaswodddo wo0s Qaaass 80030 080 aonen aeddoz awog 2d008. 6\n0. d9 asegs DOA. 9. opayeads aeyne.\na. Loppeaone aa3 C3\nIII. Dea3 socad XERNO asoajas dass OA ooeaaon Xodoea3an3s DOW03O eort\nDEDNas/Rean 23 20000.\n4\nIV. Bend naeponaa 28 eto aa,03ne N0ge82 20008.\n4\nDwOT Wowa Hogess mcjos. 200007 3eelas Aaadadoent, x3abasph\nXapob6cprbsogco. aa 38 3p 300 aoide dadihad.aoacadit ewon\n2083330 so0t, eas ONAN 2p0ass, X0323,328 238817 wd0s Na00063prb3t, WOWWOA\nwaso doearadads epaea Eszaropd. 20007 aeeade ent ooo asotsasog bonio\neptJapabssprbsogp eoAae JaA sowe 3.03046.040080050 OWOT oaged.\nevwodron- e902323083 Hora, Notos Hora, aya 233,603, A0b3, gets, lts 9300n4.\nD0Eaaon oeeaga baaoddo doa awotaws 2383003838795 8@a Bepatondoade\nedogaona wOwo e asont NOWOQR 3eabednivod on wee 8308 283n9 a3 L\nwadab abce ODODBAD Bep8,30bb000e Beewasd. eoanoa moasaone sandeswon\naweanes 23803030 -\nc9a3.\nawanen aaaoh aoos gonneA\nahECEOR0O Q d.\n0.03707e Horard. O. 80:.\na. aAOTS 305000.\nJgon-C (esoe Wo.6dr0) : (14 eoaneb)\nV. dend aanen AN025303003 euzo 20008.\n1.edrodo dotgooas 30oa goa soedo aadochs 23D8, JOEDE woa.\n1\ngJo0oto et---- ets)\n2. Bend 3on9 gocas EpEaJOEDE wosasen aoa.\n1\nAOOTT 37 Boxa sodroseas Hocao aa eesea.\n3.88 nedabad JODEROO 20008.\n1\nQa rage\napads\n4. dena aasants 2os D8de 282 wd000.\n3\n0).2333 0023 docds.\n9).20dee.\n2).30000033003\na\nPage 3",
+      "text_nfc": "Dgon-B (wowton w30) : (14 eoanet)\nII. dend aspoaswodddo wo0s Qaaass 80030 080 aonen aeddoz awog 2d008. 6\n0. d9 asegs DOA. 9. opayeads aeyne.\na. Loppeaone aa3 C3\nIII. Dea3 socad XERNO asoajas dass OA ooeaaon Xodoea3an3s DOW03O eort\nDEDNas/Rean 23 20000.\n4\nIV. Bend naeponaa 28 eto aa,03ne N0ge82 20008.\n4\nDwOT Wowa Hogess mcjos. 200007 3eelas Aaadadoent, x3abasph\nXapob6cprbsogco. aa 38 3p 300 aoide dadihad.aoacadit ewon\n2083330 so0t, eas ONAN 2p0ass, X0323,328 238817 wd0s Na00063prb3t, WOWWOA\nwaso doearadads epaea Eszaropd. 20007 aeeade ent ooo asotsasog bonio\neptJapabssprbsogp eoAae JaA sowe 3.03046.040080050 OWOT oaged.\nevwodron- e902323083 Hora, Notos Hora, aya 233,603, A0b3, gets, lts 9300n4.\nD0Eaaon oeeaga baaoddo doa awotaws 2383003838795 8@a Bepatondoade\nedogaona wOwo e asont NOWOQR 3eabednivod on wee 8308 283n9 a3 L\nwadab abce ODODBAD Bep8,30bb000e Beewasd. eoanoa moasaone sandeswon\naweanes 23803030 -\nc9a3.\nawanen aaaoh aoos gonneA\nahECEOR0O Q d.\n0.03707e Horard. O. 80:.\na. aAOTS 305000.\nJgon-C (esoe Wo.6dr0) : (14 eoaneb)\nV. dend aanen AN025303003 euzo 20008.\n1.edrodo dotgooas 30oa goa soedo aadochs 23D8, JOEDE woa.\n1\ngJo0oto et---- ets)\n2. Bend 3on9 gocas EpEaJOEDE wosasen aoa.\n1\nAOOTT 37 Boxa sodroseas Hocao aa eesea.\n3.88 nedabad JODEROO 20008.\n1\nQa rage\napads\n4. dena aasants 2os D8de 282 wd000.\n3\n0).2333 0023 docds.\n9).20dee.\n2).30000033003\na\nPage 3",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

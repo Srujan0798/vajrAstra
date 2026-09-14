@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_005",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0006pro_raw.png",
+    "page_index": 0,
+    "width": 384,
+    "height": 530
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        384,
+        530
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\"asems ras omyeor\"\ng08.ml -0 3 - 2446/2017\neonnd eodn eam\neñagrummorugéo - esso33\nBn006n8 mo.0471 2322841, 2328149\neaaliat: sibivpn@gmail.com\nmen 04.07.2017\naonáá amoná\nemxasint\n38\naadmd\n no\nrumd\nrud.\naa\nao adaeeem m, me dem, emoo\nme m ezeze  \nmueelaeene msust- mum\nmuam-\n()   me  \n8.and.m/-25460/17 mm d.\n(2) e  e 17.0.20 a 8.m.\n(2)    310.2017  8..\nene-25460/17 mm q.\nene-25460/17 mm \nmumae (ub aemjm. omo, erzmoo ecuouboa\ncuezm g.em iege aeo eoezmeí mm\neme omdagem eeomm memmow\naegzomo soe eléseeoeemm utey(wwis\nmakoleommoaram () e egsee eaaoleom ne\n(ezm. em, oo eee\nmll meseeon  eemo mm (2)  ed\neeem mzgego (odem. en mcee 22-\noeoe aemeo psamboto e sjwoc aeo. aemzo\nso emeeo a\na  egm \naoec coten men, amdeo, cecen e\nomdm \nnege den omgyolees za-oo aomoet laodoleezm menee",
+      "text_nfc": "\"asems ras omyeor\"\ng08.ml -0 3 - 2446/2017\neonnd eodn eam\neñagrummorugéo - esso33\nBn006n8 mo.0471 2322841, 2328149\neaaliat: sibivpn@gmail.com\nmen 04.07.2017\naonáá amoná\nemxasint\n38\naadmd\n no\nrumd\nrud.\naa\nao adaeeem m, me dem, emoo\nme m ezeze  \nmueelaeene msust- mum\nmuam-\n()   me  \n8.and.m/-25460/17 mm d.\n(2) e  e 17.0.20 a 8.m.\n(2)    310.2017  8..\nene-25460/17 mm q.\nene-25460/17 mm \nmumae (ub aemjm. omo, erzmoo ecuouboa\ncuezm g.em iege aeo eoezmeí mm\neme omdagem eeomm memmow\naegzomo soe eléseeoeemm utey(wwis\nmakoleommoaram () e egsee eaaoleom ne\n(ezm. em, oo eee\nmll meseeon  eemo mm (2)  ed\neeem mzgego (odem. en mcee 22-\noeoe aemeo psamboto e sjwoc aeo. aemzo\nso emeeo a\na  egm \naoec coten men, amdeo, cecen e\nomdm \nnege den omgyolees za-oo aomoet laodoleezm menee",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

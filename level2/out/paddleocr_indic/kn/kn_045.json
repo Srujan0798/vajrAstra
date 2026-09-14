@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n\n.\n\n\n+h.\ni\ni+.\n\nKANNADA\nಅನುಮತಿಸಲಾದಸಮಯಿಕಿಗಂಟ\nಗಂಷಅಂಕಗಳು.೯ಂ\nTime allowedi ? hours\nMaximum Marhs i 8o\n13?\n Page 1of 16 \nP. T.O.\n51\nI",
+      "text_nfc": "\n\n.\n\n\n+h.\ni\ni+.\n\nKANNADA\nಅನುಮತಿಸಲಾದಸಮಯಿಕಿಗಂಟ\nಗಂಷಅಂಕಗಳು.೯ಂ\nTime allowedi ? hours\nMaximum Marhs i 8o\n13?\n Page 1of 16 \nP. T.O.\n51\nI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

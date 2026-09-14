@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_018",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 84,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Naboozo gee\n75\nwoood: i) ewsoos awoF woa\n3\ngowots Nossas aoed aesoma\ntodso\n1ac, 23e 33e\nDOFTe ensoowa 300 N83719\na\nNos3\nNaozo\nBe@00a0was0030.\nn Ne aarfae evsoona g00ao NE378\n3\nNosjooa a,\nwoas Noea\nend\naz = 600 aa -o a,= 700\nepwo\na + 2d = 600\naa .\na + 6d = 700\n83 Aowesdronea, 282007 d = 25 aa a = 550 adawica.\n0\n-o\nedood aode WaFde ensoona B300a NE3Te\n3\nNosy\n= 550\nii) En\na1o= a + 9d = 550 + 9 X 25 = 775\nedood 103e Warfae 3 ensoosa g00a0 NE3T8 7033\n775\ne\n7 -\niii) coorie\nS,-\n2\n[2 X 550 + (7 = 1) X 251\n7\nil\n[1100 + 150] E 4375\n2\n&e7i 7 WaFnge evsoona\n3\n20623\nB0Dao NE3Te\nNoas\n= 4375\negyo 5.3\nU\n1.\nbehd Naboozo geane aosaw, 80080000\ni) 2, 7, 12\nd 10 aoneaon\nii) -37, -33, -29\nd 12 aaneaon\niii) 0.6, 1.7, 2.8\n100 aaneaon\niv) 1\nI\nd 11 aaneaon\n15\n12\n10\n2. gwne aos d0008000\n-\ni) 7 + 107 + 14 +\n+ 84\nii) 34 + 32 + 30 +\n+ 10\niii) -5 + (-8) + (-11)+\n+ (-230)\n3. Naboozo gepave\ni) a= - 5, d= 3, a, = 50 80o n aa S, d0w80000\nii) a = 7, a13 = 35 e0o d avas S13 Rea 000000000\niii) a12 = 37, d = 3 8Wo a aa S12 nea 00000000\n-o",
+      "text_nfc": "Naboozo gee\n75\nwoood: i) ewsoos awoF woa\n3\ngowots Nossas aoed aesoma\ntodso\n1ac, 23e 33e\nDOFTe ensoowa 300 N83719\na\nNos3\nNaozo\nBe@00a0was0030.\nn Ne aarfae evsoona g00ao NE378\n3\nNosjooa a,\nwoas Noea\nend\naz = 600 aa -o a,= 700\nepwo\na + 2d = 600\naa .\na + 6d = 700\n83 Aowesdronea, 282007 d = 25 aa a = 550 adawica.\n0\n-o\nedood aode WaFde ensoona B300a NE3Te\n3\nNosy\n= 550\nii) En\na1o= a + 9d = 550 + 9 X 25 = 775\nedood 103e Warfae 3 ensoosa g00a0 NE3T8 7033\n775\ne\n7 -\niii) coorie\nS,-\n2\n[2 X 550 + (7 = 1) X 251\n7\nil\n[1100 + 150] E 4375\n2\n&e7i 7 WaFnge evsoona\n3\n20623\nB0Dao NE3Te\nNoas\n= 4375\negyo 5.3\nU\n1.\nbehd Naboozo geane aosaw, 80080000\ni) 2, 7, 12\nd 10 aoneaon\nii) -37, -33, -29\nd 12 aaneaon\niii) 0.6, 1.7, 2.8\n100 aaneaon\niv) 1\nI\nd 11 aaneaon\n15\n12\n10\n2. gwne aos d0008000\n-\ni) 7 + 107 + 14 +\n+ 84\nii) 34 + 32 + 30 +\n+ 10\niii) -5 + (-8) + (-11)+\n+ (-230)\n3. Naboozo gepave\ni) a= - 5, d= 3, a, = 50 80o n aa S, d0w80000\nii) a = 7, a13 = 35 e0o d avas S13 Rea 000000000\niii) a12 = 37, d = 3 8Wo a aa S12 nea 00000000\n-o",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

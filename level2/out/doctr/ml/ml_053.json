@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_053",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 120,
+    "width": 945,
+    "height": 1496
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        945,
+        1496
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "60000 GOBy O00\n97\nG6 00000 2501000 m2,S bomyjoolme\nJ\nE G21010499m01 eromama. 9 00000 Qm 0\n600 Gauohemocolmma?2 00ma mUcOd noc Omjooad\nesalo aglo\n66000! olaeonl 0090000 9600001! 6> 6 mumy\nculejg@aio.degjoo 60600 600086aJamo.\naileyo CO0\nQjo 58092ley\"\na0ma myolajo0a.020d 2560000S\nOJOSYOY0.\ncooulejo SO0Qo 090 c@umon@la.do O50:\n20 ampod 00 (O QCU 60B 8 B0 doodo mejroono 600606\nma\najdlanlejolorngol ma8C009100\niroelaJoo O\n0Q1000 QOS 20 92 ama 0m10000 B10021691g.\n66000! olaa noulo er ajoomuloyajo Bloeiscol\nOJoo 600.000. 6O0 08000 eolmao 500001e\nD\nama 6O2 CDM 600000 600.80l6000 6L00000.06 d\n9loroy 27 o0)m 0y0l0.100450230 Gognoogloy\ndmallondo 200 somunjajolog 0 6mo 00Q23\nssmogsaconalaboase 66m0 modma 0oao\n060 Doglooooles o 620 300000 eQwoai)\n60 Bma a00l80o 6m600 800000 20016.0@J00.@0S\n098c00lejo dSlodsoong. golma B@ BoaInoQo\n602leoom apoolaoyma.\na00 21010LA OSO aoejoro geojaloo 860\neroolol 002200 eolse 00002)° QyQu0oo Golojlem\n0 .\n48.021009j6.010 gomool alealo QSGdo GO\n18 *",
+      "text_nfc": "60000 GOBy O00\n97\nG6 00000 2501000 m2,S bomyjoolme\nJ\nE G21010499m01 eromama. 9 00000 Qm 0\n600 Gauohemocolmma?2 00ma mUcOd noc Omjooad\nesalo aglo\n66000! olaeonl 0090000 9600001! 6> 6 mumy\nculejg@aio.degjoo 60600 600086aJamo.\naileyo CO0\nQjo 58092ley\"\na0ma myolajo0a.020d 2560000S\nOJOSYOY0.\ncooulejo SO0Qo 090 c@umon@la.do O50:\n20 ampod 00 (O QCU 60B 8 B0 doodo mejroono 600606\nma\najdlanlejolorngol ma8C009100\niroelaJoo O\n0Q1000 QOS 20 92 ama 0m10000 B10021691g.\n66000! olaa noulo er ajoomuloyajo Bloeiscol\nOJoo 600.000. 6O0 08000 eolmao 500001e\nD\nama 6O2 CDM 600000 600.80l6000 6L00000.06 d\n9loroy 27 o0)m 0y0l0.100450230 Gognoogloy\ndmallondo 200 somunjajolog 0 6mo 00Q23\nssmogsaconalaboase 66m0 modma 0oao\n060 Doglooooles o 620 300000 eQwoai)\n60 Bma a00l80o 6m600 800000 20016.0@J00.@0S\n098c00lejo dSlodsoong. golma B@ BoaInoQo\n602leoom apoolaoyma.\na00 21010LA OSO aoejoro geojaloo 860\neroolol 002200 eolse 00002)° QyQu0oo Golojlem\n0 .\n48.021009j6.010 gomool alealo QSGdo GO\n18 *",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

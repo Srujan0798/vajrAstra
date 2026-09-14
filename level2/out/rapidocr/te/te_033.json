@@ -1,0 +1,41 @@
+{
+  "page_id": "te_033",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0033pro_raw.pdf",
+    "page_index": 48,
+    "width": 595.2760009765625,
+    "height": 793.7009887695312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\"Oh! no! It's\nnot\na\nHen.\nIt's\na Squirrel.\"\n\"Come on\nSquirrel,\nfollow\nv me. Let'\nfind the\nS\nHen.\nWhere is\nshe?\"\nMay\nbe\nHen is\nbehind\nthis\nbasket.\nCan\nyou\nsee a\nfurry\ntail?\"\nO\nno!\nIt's\n\"Come\neon,Cat,\nnot\nHen.\nIt's\nfollow\nme.Let's\nCat.\"\nfind the\nHen.\nWhere\nis\nshe?\"\n\"Who's\nbehind this rose\ngarden?\nCan you\nsee a\n stripy nose?\"\n\"Come\non,Fox\nfollow\nme.I'll lead\nyou to\nour picnic\nspot.'\n\"Still no\nHen! Where\ndid she go?\"\n\"Calf\ncan't\nguess.\nCan you\nguess?\"",
+      "text_nfc": "\"Oh! no! It's\nnot\na\nHen.\nIt's\na Squirrel.\"\n\"Come on\nSquirrel,\nfollow\nv me. Let'\nfind the\nS\nHen.\nWhere is\nshe?\"\nMay\nbe\nHen is\nbehind\nthis\nbasket.\nCan\nyou\nsee a\nfurry\ntail?\"\nO\nno!\nIt's\n\"Come\neon,Cat,\nnot\nHen.\nIt's\nfollow\nme.Let's\nCat.\"\nfind the\nHen.\nWhere\nis\nshe?\"\n\"Who's\nbehind this rose\ngarden?\nCan you\nsee a\n stripy nose?\"\n\"Come\non,Fox\nfollow\nme.I'll lead\nyou to\nour picnic\nspot.'\n\"Still no\nHen! Where\ndid she go?\"\n\"Calf\ncan't\nguess.\nCan you\nguess?\"",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

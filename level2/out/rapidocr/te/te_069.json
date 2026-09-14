@@ -1,0 +1,41 @@
+{
+  "page_id": "te_069",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0069pro_raw.pdf",
+    "page_index": 43,
+    "width": 595.0001220703125,
+    "height": 841.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.0001220703125,
+        841.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "EIRE\nfaci =  e\nllh = ypgj\n = 12\nLlh\n∂  =\n=\nFC = 9\nfy = g fy\nte \n = ql Hahd (y\nyaa\ni va f f ya # Met:-\n(&)\n(R)\n(₹)\nu s \n37T\n(\ni2\n yaia i vad ant a famal.\n(&)\nLill l\ni\n(R)\n(₹)\na   \n31T\nyరad 3:   ner ie q aal.\n(&)\n(R)\n) రౌ, Tై\nfagatTy.\n(₹)\nTITTE.\n(&)\nferi.\n(R)\n(₹)\n(&)\nT,\n,\nP3R34B\n(R)\n'ri బ\nyich 3y\n•\n(2) ఘ  సే 34\nchH:\n(i)\n(ii)\n)u e   .\n35",
+      "text_nfc": "EIRE\nfaci =  e\nllh = ypgj\n = 12\nLlh\n∂  =\n=\nFC = 9\nfy = g fy\nte \n = ql Hahd (y\nyaa\ni va f f ya # Met:-\n(&)\n(R)\n(₹)\nu s \n37T\n(\ni2\n yaia i vad ant a famal.\n(&)\nLill l\ni\n(R)\n(₹)\na   \n31T\nyరad 3:   ner ie q aal.\n(&)\n(R)\n) రౌ, Tై\nfagatTy.\n(₹)\nTITTE.\n(&)\nferi.\n(R)\n(₹)\n(&)\nT,\n,\nP3R34B\n(R)\n'ri బ\nyich 3y\n•\n(2) ఘ  సే 34\nchH:\n(i)\n(ii)\n)u e   .\n35",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

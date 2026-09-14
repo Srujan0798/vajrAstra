@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_017",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 4,
+    "width": 594.239990234375,
+    "height": 785.0399780273438
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.239990234375,
+        785.0399780273438
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ETch\nTiqo fTE     F    fTT  a F 4R E\n    - \nT   TE       E\nT      3 , F   \nF,   M,    A  \nfaET   ET F  TH 4T   HH o 3  F \n,       S x  E -  \n34  E3 F     H H- 3\n3C T   M  T h HE C SH TR  3R 3 3\ne  f fe  -R 3    fa  a1\n  E-ET   E   E F E    I\n T,  3      E\nH          T  T\n1,    3 3 o   i   a    T\n   O, , A,  H    F\nETC TE  E   , 3   \nI fT  3 H      3  T -f \n -   \nf E ,   ,\nCh8T 7  E MTYCh HCER 3 Gt-fR  Vh 3TE 3R 3TRC \nTR  RE   E,  3 E ,\n 3R 33  T   3    5 1 E4R E 34 3 \n,  HET T SET 3   MHS H R  ,\nGT  3 R  3 TT  3 3 A   E  \n    ,\nT3, aET T  HT  T\nL-9ZOZuOZ",
+      "text_nfc": "ETch\nTiqo fTE     F    fTT  a F 4R E\n    - \nT   TE       E\nT      3 , F   \nF,   M,    A  \nfaET   ET F  TH 4T   HH o 3  F \n,       S x  E -  \n34  E3 F     H H- 3\n3C T   M  T h HE C SH TR  3R 3 3\ne  f fe  -R 3    fa  a1\n  E-ET   E   E F E    I\n T,  3      E\nH          T  T\n1,    3 3 o   i   a    T\n   O, , A,  H    F\nETC TE  E   , 3   \nI fT  3 H      3  T -f \n -   \nf E ,   ,\nCh8T 7  E MTYCh HCER 3 Gt-fR  Vh 3TE 3R 3TRC \nTR  RE   E,  3 E ,\n 3R 33  T   3    5 1 E4R E 34 3 \n,  HET T SET 3   MHS H R  ,\nGT  3 R  3 TT  3 3 A   E  \n    ,\nT3, aET T  HT  T\nL-9ZOZuOZ",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

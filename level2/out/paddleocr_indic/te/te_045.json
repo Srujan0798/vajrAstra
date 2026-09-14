@@ -1,0 +1,41 @@
+{
+  "page_id": "te_045",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0045pro_raw.pdf",
+    "page_index": 147,
+    "width": 1658,
+    "height": 2209
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2209
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "))\n7\n\nAL\n\nH\n9690\nPsE\n$\nమహారాష్ర\nరాష్ర\nపార్యపుస్తక\nనిర్మితి\nమరియు\nపాఠ్యపణాళిక\nపరిళో\nోధన\nసంస్థ,\nపుణె-411\n004.\nme\n₹\ndu\n57.00\nqRR\n3TR\n(HTT\n9)\nSaCCT\nq1aa",
+      "text_nfc": "))\n7\n\nAL\n\nH\n9690\nPsE\n$\nమహారాష్ర\nరాష్ర\nపార్యపుస్తక\nనిర్మితి\nమరియు\nపాఠ్యపణాళిక\nపరిళో\nోధన\nసంస్థ,\nపుణె-411\n004.\nme\n₹\ndu\n57.00\nqRR\n3TR\n(HTT\n9)\nSaCCT\nq1aa",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

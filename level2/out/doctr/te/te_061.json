@@ -1,0 +1,41 @@
+{
+  "page_id": "te_061",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0061pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2209
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2209
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "sspno o t0\nc SES osones\nA\nL",
+      "text_nfc": "sspno o t0\nc SES osones\nA\nL",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

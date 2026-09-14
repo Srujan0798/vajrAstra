@@ -1,0 +1,41 @@
+{
+  "page_id": "te_042",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0042pro_raw.pdf",
+    "page_index": 12,
+    "width": 595.2750244140625,
+    "height": 841.8889770507812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2750244140625,
+        841.8889770507812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8. jorden \npchl. aa.\nBBFPAB\nlh\nfou f\n  H\nlbk\n|RII\ngourin\nfr\nll ht l\ng13\n|P032\n||X||\nI032\n,\n3114  MG I\n11411\nallk -\nPoctef ft -\ntaco, 4ax. Gcao - cso. yauin -\nHTUIRI. 41O - 8SI, fIGOu.\npohl aoreid 3rat fal.\n1.?. vilsall yoa.\n'K\n(3π)\nE\n3'T\n(3πT)\nl(\n3TT\n(&)\nYlh\n(3π)\n(₹)\nh \nLE\n()\nTRT\n(3π)\n()\n(₹)\nMacia :  dg,  F cre.\nfaGeao Te\nI\nA FEU Ed.",
+      "text_nfc": "8. jorden \npchl. aa.\nBBFPAB\nlh\nfou f\n  H\nlbk\n|RII\ngourin\nfr\nll ht l\ng13\n|P032\n||X||\nI032\n,\n3114  MG I\n11411\nallk -\nPoctef ft -\ntaco, 4ax. Gcao - cso. yauin -\nHTUIRI. 41O - 8SI, fIGOu.\npohl aoreid 3rat fal.\n1.?. vilsall yoa.\n'K\n(3π)\nE\n3'T\n(3πT)\nl(\n3TT\n(&)\nYlh\n(3π)\n(₹)\nh \nLE\n()\nTRT\n(3π)\n()\n(₹)\nMacia :  dg,  F cre.\nfaGeao Te\nI\nA FEU Ed.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

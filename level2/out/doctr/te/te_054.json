@@ -1,0 +1,41 @@
+{
+  "page_id": "te_054",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0054pro_raw.pdf",
+    "page_index": 87,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "28s 08 Soraany sos 50205\n855 sessanics Sorewew 08800\n1360335 SSy JROS bowo?\nds sa357 SSd 8OWO?\" 5\nsogsass 3850 soraasows S35\n03803 5 80 Deses 28 dos\n\"Desssod Jesass 3n8 8585 des\n-\n257 Sess S5y 85 Sods wow!\"6\na\n-\n59 385050 : GlI 3858 59530505 mo 1938 E56 erds) n058 2e7, worodes epow6).\ndnpaso 285 dwrgeaso NOO 23850015056 Srgos &8, SPREZ Josoagseabo NOO\ncogdes &6 SDsTO. 88060 30555 02865 dadodot eoéos 3osgses Sosta\n5oS o3e Baorpees SToto JOSTIOS. &ge stso 255 Wisves, soeen, aognres\nlrod. es Berns Oise DOSOD Wees Psy 508 esaso SOANNIOSS 1986 E56\n30doof dges 200080 DRoson eodsonrjos. Bres abserKo etoo aog\nSoseso No& Ksoswand.\n78",
+      "text_nfc": "28s 08 Soraany sos 50205\n855 sessanics Sorewew 08800\n1360335 SSy JROS bowo?\nds sa357 SSd 8OWO?\" 5\nsogsass 3850 soraasows S35\n03803 5 80 Deses 28 dos\n\"Desssod Jesass 3n8 8585 des\n-\n257 Sess S5y 85 Sods wow!\"6\na\n-\n59 385050 : GlI 3858 59530505 mo 1938 E56 erds) n058 2e7, worodes epow6).\ndnpaso 285 dwrgeaso NOO 23850015056 Srgos &8, SPREZ Josoagseabo NOO\ncogdes &6 SDsTO. 88060 30555 02865 dadodot eoéos 3osgses Sosta\n5oS o3e Baorpees SToto JOSTIOS. &ge stso 255 Wisves, soeen, aognres\nlrod. es Berns Oise DOSOD Wees Psy 508 esaso SOANNIOSS 1986 E56\n30doof dges 200080 DRoson eodsonrjos. Bres abserKo etoo aog\nSoseso No& Ksoswand.\n78",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

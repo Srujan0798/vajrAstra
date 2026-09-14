@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_048",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 14,
+    "width": 595.2755737304688,
+    "height": 841.8897705078125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "h\nಸಾಏತಯು\nB\nಸಾಏತೃಯನು\nಸಾಏತೈಗೆ\n೩oಣ'e\nು-ಎಏಜಾನಗಳು.ತಮು.-ಅಮೂಲ.ವಾದಸಮಯವನುಸಂಶೋಧನೆಯಲ-ಕಳೆಯುತಾರ\n-ಇಲರುವಅನೃಥ೯ಕನಾಮ\nA\nಸಮಯ\nB\nಸಂಶೋಧನೆ\nಕಳೆ\nಎಭಾನಿ\nGx\n9ಕೆಟ್.ಆಟದಲ-ನೂರನೆಯ.ಪಂದೃದಲನೂರು.ರನ್ಹೊಡೆದವರು.ಅತಿಏರಳ-\nಇಲಇರುವಸಂಖಾ.ವಾಚಕ\nA\nನೂರನೆಯ\nB\n೨ಂg\nರಿಕೆಟ್\nನೂರು\nಇದುಸವ೯ನಾವುಪದಕೃಉದಾಹರಣ.\nA\nರಮಶ\nB\nನದ\nಯಾರು\n18s\n15\nP.T.O.\n#.",
+      "text_nfc": "h\nಸಾಏತಯು\nB\nಸಾಏತೃಯನು\nಸಾಏತೈಗೆ\n೩oಣ'e\nು-ಎಏಜಾನಗಳು.ತಮು.-ಅಮೂಲ.ವಾದಸಮಯವನುಸಂಶೋಧನೆಯಲ-ಕಳೆಯುತಾರ\n-ಇಲರುವಅನೃಥ೯ಕನಾಮ\nA\nಸಮಯ\nB\nಸಂಶೋಧನೆ\nಕಳೆ\nಎಭಾನಿ\nGx\n9ಕೆಟ್.ಆಟದಲ-ನೂರನೆಯ.ಪಂದೃದಲನೂರು.ರನ್ಹೊಡೆದವರು.ಅತಿಏರಳ-\nಇಲಇರುವಸಂಖಾ.ವಾಚಕ\nA\nನೂರನೆಯ\nB\n೨ಂg\nರಿಕೆಟ್\nನೂರು\nಇದುಸವ೯ನಾವುಪದಕೃಉದಾಹರಣ.\nA\nರಮಶ\nB\nನದ\nಯಾರು\n18s\n15\nP.T.O.\n#.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

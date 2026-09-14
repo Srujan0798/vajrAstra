@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_037",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+    "page_index": 47,
+    "width": 984,
+    "height": 1612
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        984,
+        1612
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ailafigasrsemns, രാജവംശുവ് മായ പേർല്യ്ക്ു . മുക്കു\nത്ടുടമന്നോ, അദ്ദേക കുതീിയിരുന്നില്ല . ac കലജു 4)\nനേപരത്തിലെ രജകുമാരൻ wamlae വിവംലേയ്യുരെന്നു\n്ോജ്യവം അദ്ദേഫത്തിനുങ്ടായിരുന്നു .\n\nഅക്ലനൻ BOF ag ream) x}  ടുതിയു Ades കകാണ്ടിരുനു .\nപക്ഷേ, അല്ല സരതതതിനുള്ളിൽ msm ചില സംഭവങ്ങം so\n\nAS വീഅപസത്തെ Ratio Mma {lo} anal छी छाठा9\n\nMeda വക്ക്വത്തിനീികാകേനുന്ന യോഗമു്ടനുു g Wad\nMade fAieapos Tred AAalmab® ഭേ്്യവു് a4\n\nges) aot) agyl.0aQ ഭേക്കേ്ടാ m0 Qrmlel at\nരിാഘങ്ങം പുണ്റ്യത്താകകർടക്കു പേന്ല്ല. sazawdiwi\n\nMICO കാമുകനറ ലടരത്തപ്പോലും സവഡീ M9245\nAllow swt Baoan OT ‘Mylmossmo menaraloe eye\nहु കീഴക്കി 0.28) cag 62.40 Q\n\namiad «1640 സിങ്കാല്ല abl aaceqeain ०4\n\nBons 8 INQ INEM MamMMowleaw amon a\nകാലത്തു oleiniojamg’. ceem അതെല്ലാം Ala jog\n\ngoasmie” aM 020) എനിക്കു ്നുസ്സിലയി 999 _तघ०७७-\nശ്തി 2യി BW COD) Drawer choo @HABWo army\n\n“amynmbios)  e@eslaonmome comand) zion G2? എ as\nനാജിജുന്നു സന്യാ സിയുടെ 6 5598०. AR Qwaba0.a@bo eu\n\n",
+      "text_nfc": "ailafigasrsemns, രാജവംശുവ് മായ പേർല്യ്ക്ു . മുക്കു\nത്ടുടമന്നോ, അദ്ദേക കുതീിയിരുന്നില്ല . ac കലജു 4)\nനേപരത്തിലെ രജകുമാരൻ wamlae വിവംലേയ്യുരെന്നു\n്ോജ്യവം അദ്ദേഫത്തിനുങ്ടായിരുന്നു .\n\nഅക്ലനൻ BOF ag ream) x}  ടുതിയു Ades കകാണ്ടിരുനു .\nപക്ഷേ, അല്ല സരതതതിനുള്ളിൽ msm ചില സംഭവങ്ങം so\n\nAS വീഅപസത്തെ Ratio Mma {lo} anal छी छाठा9\n\nMeda വക്ക്വത്തിനീികാകേനുന്ന യോഗമു്ടനുു g Wad\nMade fAieapos Tred AAalmab® ഭേ്്യവു് a4\n\nges) aot) agyl.0aQ ഭേക്കേ്ടാ m0 Qrmlel at\nരിാഘങ്ങം പുണ്റ്യത്താകകർടക്കു പേന്ല്ല. sazawdiwi\n\nMICO കാമുകനറ ലടരത്തപ്പോലും സവഡീ M9245\nAllow swt Baoan OT ‘Mylmossmo menaraloe eye\nहु കീഴക്കി 0.28) cag 62.40 Q\n\namiad «1640 സിങ്കാല്ല abl aaceqeain ०4\n\nBons 8 INQ INEM MamMMowleaw amon a\nകാലത്തു oleiniojamg’. ceem അതെല്ലാം Ala jog\n\ngoasmie” aM 020) എനിക്കു ്നുസ്സിലയി 999 _तघ०७७-\nശ്തി 2യി BW COD) Drawer choo @HABWo army\n\n“amynmbios)  e@eslaonmome comand) zion G2? എ as\nനാജിജുന്നു സന്യാ സിയുടെ 6 5598०. AR Qwaba0.a@bo eu\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

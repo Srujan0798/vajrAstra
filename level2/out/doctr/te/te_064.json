@@ -1,0 +1,41 @@
+{
+  "page_id": "te_064",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0064pro_raw.pdf",
+    "page_index": 43,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "gariheich\ngarithech dER ChYUT.\nTalGei moelen Hifadt gherveid galqueid HEHT à Uch HTEZH 38. cHife7 CUCERId 371ch\nfochiuft 3714relei HEHT GEOT dlldid. GHRIH ferteeit YAHT deH RIHT 37ef 4497 ERIT atuat.\n374fard Eprit 27e1 del alverrerat foeteent HHa 3110h017 aivelre chirel faufor OEREIT Ed. angeff\ngra HaH1hrich ZIT acchlal 3722114 coeieil 3T12. AT sardd g-a Fad: YHihoch TAR ChRRICIT\nfICHUIR 31161d.\ngeriheichd fage\n(8) Hoodiet yedien ticafa HHT.\n(R) Hecfucuia HHT.\n(3) TEGRiHQEN H-HT.\n(8) CilcH adaridet HHT.\ngerl GEIR cadici ded PIPI Ta\n(8) HEHT chifa cheft Tiocid 3THcA.\n(R) 4ata dGl FYoC Hogid, a44h a fagelgHr 3THId.\n(3) yerdiet TCG HalT 372f UHSRT HIY aTHad.\n(8) gata Ael UEeT 3THId.\ngeritdch dEIR CI. PIRIOT Ceia TY chdlen 3721RH CRT.\nfagq- 3gal Haidien grutyiaot dG Tele.'\nTYII Shrit ?\nfa. C TIOEaR\nTayiaol fasri\nuiuityraol dG\nviayiaol farrt facalder, yut\nT chobcueld ad, chi facallaar ET\naride viraeRlcn Hardltet gherleen\nChIHTHIOT 8o Toar Tivft Troityialol\nfeare dG Tae ai Trifchi-n Ta Elait.\n3 3",
+      "text_nfc": "gariheich\ngarithech dER ChYUT.\nTalGei moelen Hifadt gherveid galqueid HEHT à Uch HTEZH 38. cHife7 CUCERId 371ch\nfochiuft 3714relei HEHT GEOT dlldid. GHRIH ferteeit YAHT deH RIHT 37ef 4497 ERIT atuat.\n374fard Eprit 27e1 del alverrerat foeteent HHa 3110h017 aivelre chirel faufor OEREIT Ed. angeff\ngra HaH1hrich ZIT acchlal 3722114 coeieil 3T12. AT sardd g-a Fad: YHihoch TAR ChRRICIT\nfICHUIR 31161d.\ngeriheichd fage\n(8) Hoodiet yedien ticafa HHT.\n(R) Hecfucuia HHT.\n(3) TEGRiHQEN H-HT.\n(8) CilcH adaridet HHT.\ngerl GEIR cadici ded PIPI Ta\n(8) HEHT chifa cheft Tiocid 3THcA.\n(R) 4ata dGl FYoC Hogid, a44h a fagelgHr 3THId.\n(3) yerdiet TCG HalT 372f UHSRT HIY aTHad.\n(8) gata Ael UEeT 3THId.\ngeritdch dEIR CI. PIRIOT Ceia TY chdlen 3721RH CRT.\nfagq- 3gal Haidien grutyiaot dG Tele.'\nTYII Shrit ?\nfa. C TIOEaR\nTayiaol fasri\nuiuityraol dG\nviayiaol farrt facalder, yut\nT chobcueld ad, chi facallaar ET\naride viraeRlcn Hardltet gherleen\nChIHTHIOT 8o Toar Tivft Troityialol\nfeare dG Tae ai Trifchi-n Ta Elait.\n3 3",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

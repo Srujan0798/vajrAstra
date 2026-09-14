@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "42 Step into My Story\nEmpothy\nEvery day in school, your friends feel different feelings: happy, sad, left out,\nproud or even embarrassed. Sometimes, we do not notice or we do not know\nwhat to say. But when we take a moment to think about how they might be\nfeeling, we start building empathy.\nThese are some ways in which you know you have empathy :\n- I helped a friend who was hurt\nI gave my time and support\nor sad.\nwhen someone was upset.\nI shared something because\nI said sorry when I hurt\nsomeone did not have it.\nsomeone's feelings.\nI noticed someone sitting alone\n- I listened to a friend when they\nand sat with them.\nwanted to talk.\nActivity :\nIn groups of 4 : Discuss and share what you would do in each of\nthese situations\nYour friend is sitting\nA classmate painted\nwith some other friend\nsomething really\nduring lunch. They did\nwell and the teacher\nnot ask if you wanted\npraised them. You\nto join them and\nalso painted well\nignored you.\nbut no one noticed.\nRole play\nMake small\nYou fall down\nYou made a\ngroups. Act it out\nwhile playing and\nmistake while\nin front of the\nhurt your knee.\nreading in front of\nclass. Show how\nYour friends\nthe class and a few\nyou can care for\nnoticed and did\nchildren laughed.\nothers and what\nnot help you.\nkind thing can be\ndone.\nEmpathy helps\nme care, listen,\nWhen we try to understand what someone else is\nand support\nfeeling, we become kinder.\nothers in small\nbut important\nThink and Do: Connect with your family\nways\nmembers. Try to understand how they are feeling.\nTalk to them about it.\n25",
+      "text_nfc": "42 Step into My Story\nEmpothy\nEvery day in school, your friends feel different feelings: happy, sad, left out,\nproud or even embarrassed. Sometimes, we do not notice or we do not know\nwhat to say. But when we take a moment to think about how they might be\nfeeling, we start building empathy.\nThese are some ways in which you know you have empathy :\n- I helped a friend who was hurt\nI gave my time and support\nor sad.\nwhen someone was upset.\nI shared something because\nI said sorry when I hurt\nsomeone did not have it.\nsomeone's feelings.\nI noticed someone sitting alone\n- I listened to a friend when they\nand sat with them.\nwanted to talk.\nActivity :\nIn groups of 4 : Discuss and share what you would do in each of\nthese situations\nYour friend is sitting\nA classmate painted\nwith some other friend\nsomething really\nduring lunch. They did\nwell and the teacher\nnot ask if you wanted\npraised them. You\nto join them and\nalso painted well\nignored you.\nbut no one noticed.\nRole play\nMake small\nYou fall down\nYou made a\ngroups. Act it out\nwhile playing and\nmistake while\nin front of the\nhurt your knee.\nreading in front of\nclass. Show how\nYour friends\nthe class and a few\nyou can care for\nnoticed and did\nchildren laughed.\nothers and what\nnot help you.\nkind thing can be\ndone.\nEmpathy helps\nme care, listen,\nWhen we try to understand what someone else is\nand support\nfeeling, we become kinder.\nothers in small\nbut important\nThink and Do: Connect with your family\nways\nmembers. Try to understand how they are feeling.\nTalk to them about it.\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

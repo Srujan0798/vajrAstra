@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_034",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 180,
+    "width": 945,
+    "height": 1496
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        945,
+        1496
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "arolonyamoo Broeyjooo\n157\nG0100o00.\nomq00 m00d0 609100100 BO)\nmo muoaolen? afmo agaooejo moolwsgyso. S\nQJ8OD6E olssodgaglejo @OCJ0000 oalimg 601\n0f cpooono.\nG0J@Q0008000080005 s1 donallondo caJa9@n91om\n60320 00001. oyrolo Baun9o amalma\nQg60 800O\nmlojlaema.\n0000800S 60002 60369 cgsooayad majeo\nalejge cq@Uaiololesto\no.aJgla-joapom) (6\n00m00 OCB do alaoond cADINS0060 goeaom U 00\naol rwleieoojod aumlmo m\nanm B0 mocoloo 61\noocpasgomonlad\naolcdleilgansocolasme.\nds 206Q1\nmo saflowoondo alglod ergewowapaile\naoles\najoad\n600080\nojlalso\n(O O o\nmuoaol\n601 g.papoobmom BC Goo@0oQ10en0\". 801060810\nmeiagpolloer 20003lo9g\nCO\naJosnala.cooespoa0m-d.02000\na G0IDBRIS0 000600010 a02 aJoludlermajo on\nalma mulaplalsensogjo.\n90 d00amo 8 malma\naJomiomjmuggjeocromlej99\neoewowmailecumo\nQ1000 ouello anjeulgosomeo cojonslosomles\n6091007\nce00 Booory @rormlmu@oinapoce B@\nemumpompoQes\nm066m000 0080000 gomajaioluo 0603glejo\nde\n0060300001 alcoumlo oswoaool @1000.80.0610000\nde allamomoo ejgonjodnwailgn\n0181801090 66008\na\nE\nooeloo wolanleaco 6 CC laB mo.\ndo\nC",
+      "text_nfc": "arolonyamoo Broeyjooo\n157\nG0100o00.\nomq00 m00d0 609100100 BO)\nmo muoaolen? afmo agaooejo moolwsgyso. S\nQJ8OD6E olssodgaglejo @OCJ0000 oalimg 601\n0f cpooono.\nG0J@Q0008000080005 s1 donallondo caJa9@n91om\n60320 00001. oyrolo Baun9o amalma\nQg60 800O\nmlojlaema.\n0000800S 60002 60369 cgsooayad majeo\nalejge cq@Uaiololesto\no.aJgla-joapom) (6\n00m00 OCB do alaoond cADINS0060 goeaom U 00\naol rwleieoojod aumlmo m\nanm B0 mocoloo 61\noocpasgomonlad\naolcdleilgansocolasme.\nds 206Q1\nmo saflowoondo alglod ergewowapaile\naoles\najoad\n600080\nojlalso\n(O O o\nmuoaol\n601 g.papoobmom BC Goo@0oQ10en0\". 801060810\nmeiagpolloer 20003lo9g\nCO\naJosnala.cooespoa0m-d.02000\na G0IDBRIS0 000600010 a02 aJoludlermajo on\nalma mulaplalsensogjo.\n90 d00amo 8 malma\naJomiomjmuggjeocromlej99\neoewowmailecumo\nQ1000 ouello anjeulgosomeo cojonslosomles\n6091007\nce00 Booory @rormlmu@oinapoce B@\nemumpompoQes\nm066m000 0080000 gomajaioluo 0603glejo\nde\n0060300001 alcoumlo oswoaool @1000.80.0610000\nde allamomoo ejgonjodnwailgn\n0181801090 66008\na\nE\nooeloo wolanleaco 6 CC laB mo.\ndo\nC",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

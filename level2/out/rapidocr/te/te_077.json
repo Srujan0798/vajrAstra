@@ -1,0 +1,41 @@
+{
+  "page_id": "te_077",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0077pro_raw.pdf",
+    "page_index": 37,
+    "width": 595.2760009765625,
+    "height": 793.7009887695312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "superb diamond necklace, and her heart began to beat\nwith uncontrolled desire. Her hands trembled as she\ntook it. She fastened it around her neck and stood\nlost in ecstasy as she looked at herself.\nWhich sentences\nThen she asked anxiously, hesitating, 'Would you\ntell us that\nlend me this, just this?\"\nMathilde greatly\n\"Why, yes, of course.\"\ndesired the\nnecklace?\nShe threw her arms around her friend's neck,\nrapturously, then fled with her treasure.\nThe day of the party arrived. Madame Loisel was\na success. She was prettier than all the other women,\nelegant, gracious, smiling, and full of joy.\nShe danced wildly, with passion, forgetting\neverything in the triumph of her beauty and success,\nfloating in a cloud of happiness.\nMathilde and her husband left at about four\nrapturously : with\no'clock in the morning. When they were finally in the\ngreat joy\nstreet, they could not find a cab. They walked down\nfled with her\ntoward the Seine, till they found one. They were\ntreasure : Here,\ndropped off at their door in the Rue des Martyrs, and\nfled means went\nsadly, it was all over, for her.\naway quickly.\nIn front of the mirror, she took a final look at\npanic stricken :\nherself in all her glory. But suddenly she uttered a\nwith a sudden\ncry. She no longer had the necklace round her neck!\nfeeling of fear\n\"What is the matter?\" asked her husband.\ndistraught :\nShe turned towards him, panic-stricken, \"I have ….\nworried, disturbed\nI have... I no longer have Madame Forestier's\nnecklace.\"\nHe stood up, distraught, What!.. How! ...That's\nimpossible !\"\nThink and answer:\nWhy did Mathilde\nnot notice the loss\nof her necklace?\n26",
+      "text_nfc": "superb diamond necklace, and her heart began to beat\nwith uncontrolled desire. Her hands trembled as she\ntook it. She fastened it around her neck and stood\nlost in ecstasy as she looked at herself.\nWhich sentences\nThen she asked anxiously, hesitating, 'Would you\ntell us that\nlend me this, just this?\"\nMathilde greatly\n\"Why, yes, of course.\"\ndesired the\nnecklace?\nShe threw her arms around her friend's neck,\nrapturously, then fled with her treasure.\nThe day of the party arrived. Madame Loisel was\na success. She was prettier than all the other women,\nelegant, gracious, smiling, and full of joy.\nShe danced wildly, with passion, forgetting\neverything in the triumph of her beauty and success,\nfloating in a cloud of happiness.\nMathilde and her husband left at about four\nrapturously : with\no'clock in the morning. When they were finally in the\ngreat joy\nstreet, they could not find a cab. They walked down\nfled with her\ntoward the Seine, till they found one. They were\ntreasure : Here,\ndropped off at their door in the Rue des Martyrs, and\nfled means went\nsadly, it was all over, for her.\naway quickly.\nIn front of the mirror, she took a final look at\npanic stricken :\nherself in all her glory. But suddenly she uttered a\nwith a sudden\ncry. She no longer had the necklace round her neck!\nfeeling of fear\n\"What is the matter?\" asked her husband.\ndistraught :\nShe turned towards him, panic-stricken, \"I have ….\nworried, disturbed\nI have... I no longer have Madame Forestier's\nnecklace.\"\nHe stood up, distraught, What!.. How! ...That's\nimpossible !\"\nThink and answer:\nWhy did Mathilde\nnot notice the loss\nof her necklace?\n26",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

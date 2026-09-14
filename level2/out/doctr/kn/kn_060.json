@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_060",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ONOFE3 NOOFO\n2250\n10\nao\nBone cone\ntO\n20p =\n1\nfauar syangd\nUT en $ 3IR a\nNCEERT\noogead 3ge38 Rozoena aa 30ae8 dorg\nde eodegodoe abone dadoeg 110016\nG00F837 aoarE Hoap (d.)\n63e etox agesdo, C\ngonslod - 560003",
+      "text_nfc": "ONOFE3 NOOFO\n2250\n10\nao\nBone cone\ntO\n20p =\n1\nfauar syangd\nUT en $ 3IR a\nNCEERT\noogead 3ge38 Rozoena aa 30ae8 dorg\nde eodegodoe abone dadoeg 110016\nG00F837 aoarE Hoap (d.)\n63e etox agesdo, C\ngonslod - 560003",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

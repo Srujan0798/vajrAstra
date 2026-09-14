@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_051",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 0,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "al A\nUFIR UIEI\n0771CH04\nchet d 31dT à CHRT 4rt 377 fyr chal det JldT\nà EHRT 41-1? 644 cheft ST ait N ghes HIaT à? UiET\nat Tei ETT RIRIG, VR FTT Cft # 461 UAT àl STTCT\ntf fehdla Yod HH VT-t9h VeT ald 64 ads\nJlldt à Uoh YAr-HT fes eft aldi à STT 918\ni HTPTI Hu, HHS, CGeT, 6al, ERdt, for\nCRHd cht ae 377 ct for Godt E Uch\nTet 377 3Hoh fohrlit CHT JERI, EHRT ER,\nTITA ZIT 3T6R1 fer t GER STT # 461 TAT 3744 TRT\nA\nRy chT 4r Mohr 3tf HHE # fictdt fagidt bl\nfar # ahe9 d eft AH tod à HYS a 381\nHTY CGet CHch 4-1 N aecidt à 377 fyr\nST ari t HER vT oht VIT Uch Ry a Ien\n\nalchr HHF N affurr fuct Jdt à VCT-49h\n\nVRT 611 vldl àl\n46\nEF VCT-49h cht\nfendait gidl VR 370 a 614 Hoch\nERT H, tohel 7, HIdT-faat t\nReprint 2026-27",
+      "text_nfc": "al A\nUFIR UIEI\n0771CH04\nchet d 31dT à CHRT 4rt 377 fyr chal det JldT\nà EHRT 41-1? 644 cheft ST ait N ghes HIaT à? UiET\nat Tei ETT RIRIG, VR FTT Cft # 461 UAT àl STTCT\ntf fehdla Yod HH VT-t9h VeT ald 64 ads\nJlldt à Uoh YAr-HT fes eft aldi à STT 918\ni HTPTI Hu, HHS, CGeT, 6al, ERdt, for\nCRHd cht ae 377 ct for Godt E Uch\nTet 377 3Hoh fohrlit CHT JERI, EHRT ER,\nTITA ZIT 3T6R1 fer t GER STT # 461 TAT 3744 TRT\nA\nRy chT 4r Mohr 3tf HHE # fictdt fagidt bl\nfar # ahe9 d eft AH tod à HYS a 381\nHTY CGet CHch 4-1 N aecidt à 377 fyr\nST ari t HER vT oht VIT Uch Ry a Ien\n\nalchr HHF N affurr fuct Jdt à VCT-49h\n\nVRT 611 vldl àl\n46\nEF VCT-49h cht\nfendait gidl VR 370 a 614 Hoch\nERT H, tohel 7, HIdT-faat t\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_029",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0029pro_raw.pdf",
+    "page_index": 105,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Obsave S0sabo : WII J2 Sososros 09-05-19565 esogbds orgo6t0\n5e0, Doaots egoesoso destes (TPSE56 2pow6s. 58 eDoolses\nedrrsosy, ONOODOBOS ro. 58 eolgs Dodoggeaso No8 sodess\nQ0.3., 8805.8. Sao0. e9Olg eoe Sgoroe, Deabarbsess dod zogpeosspeore\n385 08000 aowo.\nI\n6o. Segogregs wodets, Beohoty ess ossep So8. a0e3e56 369568550\nJgesaga, S0e0er8e, agdabsgog 6589) 20X9 3osas, 35 d8ao\nNoésoe esado adenso. 588 esogids aod esozdis ia8 esoaots SoNgo 25805003 woreoors\nS80160 awden Jonooves, lessaots sorvbrdey 080 edowaw. eodmg aesse 88 esag osses\nTPS Sorngves esotd Sosogo Sto BOwsNO.\nsojosod :\n1) ODIES 8055 e958056 (58J Jo sosaw?\n2) es0e685056 crSDe3s brtoos 50 darhisw?\n3) 505org160 eooresen (Dsedares) 55 WOESS dnaw?\nII 3829000 203-00035500P0.\nJeossots = eolds SOld (eë); goono = 830 ce5E Saboos esahoi sogo; eanavon =\noeu; Sejero = Jausero; Nooso = sossero; e3soedaso = 305000; Soso = wr Wosso\n50d; ebavre = Deaosos 35 Sogess.\nIII 88sod - esstoosod - oobod.\nes) Soa We3S 80850, es8s DPSENSS 2w200s oobod.\n1) 20363 essesogor dSy Sopes.\n2) a06 JJOS JS Sgorg.\n3) eodos Boeprse ses Waranen.\nes) eds\na0s3 sesyegro S8O0s Jo.\n3) awees bobod.\n1) eogos 38sps0 sio apoes (epegs QnOo.\n2) e9010638556 Xo eodos So150 38.\n3) 2075 SgST S0TOD5aSos?\n4) 21550 Joaw 88 306 6328 Jowo.\n96",
+      "text_nfc": "Obsave S0sabo : WII J2 Sososros 09-05-19565 esogbds orgo6t0\n5e0, Doaots egoesoso destes (TPSE56 2pow6s. 58 eDoolses\nedrrsosy, ONOODOBOS ro. 58 eolgs Dodoggeaso No8 sodess\nQ0.3., 8805.8. Sao0. e9Olg eoe Sgoroe, Deabarbsess dod zogpeosspeore\n385 08000 aowo.\nI\n6o. Segogregs wodets, Beohoty ess ossep So8. a0e3e56 369568550\nJgesaga, S0e0er8e, agdabsgog 6589) 20X9 3osas, 35 d8ao\nNoésoe esado adenso. 588 esogids aod esozdis ia8 esoaots SoNgo 25805003 woreoors\nS80160 awden Jonooves, lessaots sorvbrdey 080 edowaw. eodmg aesse 88 esag osses\nTPS Sorngves esotd Sosogo Sto BOwsNO.\nsojosod :\n1) ODIES 8055 e958056 (58J Jo sosaw?\n2) es0e685056 crSDe3s brtoos 50 darhisw?\n3) 505org160 eooresen (Dsedares) 55 WOESS dnaw?\nII 3829000 203-00035500P0.\nJeossots = eolds SOld (eë); goono = 830 ce5E Saboos esahoi sogo; eanavon =\noeu; Sejero = Jausero; Nooso = sossero; e3soedaso = 305000; Soso = wr Wosso\n50d; ebavre = Deaosos 35 Sogess.\nIII 88sod - esstoosod - oobod.\nes) Soa We3S 80850, es8s DPSENSS 2w200s oobod.\n1) 20363 essesogor dSy Sopes.\n2) a06 JJOS JS Sgorg.\n3) eodos Boeprse ses Waranen.\nes) eds\na0s3 sesyegro S8O0s Jo.\n3) awees bobod.\n1) eogos 38sps0 sio apoes (epegs QnOo.\n2) e9010638556 Xo eodos So150 38.\n3) 2075 SgST S0TOD5aSos?\n4) 21550 Joaw 88 306 6328 Jowo.\n96",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

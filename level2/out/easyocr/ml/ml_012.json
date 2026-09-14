@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_012",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0013pro_raw.png",
+    "page_index": 0,
+    "width": 405,
+    "height": 565
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        405,
+        565
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "auctilrD= d mdw Iomn 7|701721 Ealsmianelr mnit +। rcaemu Allooonnmmooom tcak5a॰ Cutnln oralmnrel Clan =lolalla W%0ष7 Irlioeorulmoueo प]-ड ruajoalra attult alca \"रDt 0--00 Iahs-miaa mmulaD< orrpleaant omanein mrlaolaad 0Ja   Fatazaflalr emn n२olmue४s mpoc m cफDoinnlo Tudshd  plem aanplo arocemef roonunanaicmn f auanc- 0!530000* clSlwoaolownie elloiaotinlts 0|10-.190 \"748:-=9 -+0+~ dislmaepeeole OuL alraa slqzunwilaoeno Okcale] IaाmlruD uainvlliell9 कlslcuomoolos calels Taiu lC 0101 1!70 }\"%0 mubesola rrl lol ७ollDlon 093|0 गभlaa Jubonolo Prmooio enez Gial0163 mltrivall mlatl oozetlololmmnmoollm२eno Invcalv0 फisloanle mlan linooon I7E+\"0<81स +)2-0100 nda T audshत= 8 81+\"4^13 mlwaumoiltl2Dlo aotanano arolas olwlal tleoto Poएomimlel२२ slwam imara LtnoLta llimaallo 7 l1o9)[|1003 Ja muosl nrad mnala>ठर pcooruenlole B]slpa re00४- Wut =szole  mlaelic Zacuailn zena Tफml nl tolrolo tlolpnlal mani -RiEaoai  mlmon loozml Clol tDuoellanर PlSlmoinat es nllmdammon fDuot mo2anod Biotet0 CE bomnamie2 ALDDD OIDE r-R!7 mmsaउ२ l eieno२ Olyemleaelos उlplu m:mUIWd ाarJ0 WखUDPAD naomllat Dr05+3-81 =मणाम Iu2=0u eepstom   २oaneajकाको _ @undBodes lLOlUTD amD7U  ubo Wbdaorna  rzan DimudEn ' 7009 0[6:77+]0 0115715\nQluoomranoqlo \"#/- omolae५o\n*3\"900 +omama -EJ\n5< ilmluoid Tणj८  J६ो",
+      "text_nfc": "auctilrD= d mdw Iomn 7|701721 Ealsmianelr mnit +। rcaemu Allooonnmmooom tcak5a॰ Cutnln oralmnrel Clan =lolalla W%0ष7 Irlioeorulmoueo प]-ड ruajoalra attult alca \"रDt 0--00 Iahs-miaa mmulaD< orrpleaant omanein mrlaolaad 0Ja   Fatazaflalr emn n२olmue४s mpoc m cफDoinnlo Tudshd  plem aanplo arocemef roonunanaicmn f auanc- 0!530000* clSlwoaolownie elloiaotinlts 0|10-.190 \"748:-=9 -+0+~ dislmaepeeole OuL alraa slqzunwilaoeno Okcale] IaाmlruD uainvlliell9 कlslcuomoolos calels Taiu lC 0101 1!70 }\"%0 mubesola rrl lol ७ollDlon 093|0 गभlaa Jubonolo Prmooio enez Gial0163 mltrivall mlatl oozetlololmmnmoollm२eno Invcalv0 फisloanle mlan linooon I7E+\"0<81स +)2-0100 nda T audshत= 8 81+\"4^13 mlwaumoiltl2Dlo aotanano arolas olwlal tleoto Poएomimlel२२ slwam imara LtnoLta llimaallo 7 l1o9)[|1003 Ja muosl nrad mnala>ठर pcooruenlole B]slpa re00४- Wut =szole  mlaelic Zacuailn zena Tफml nl tolrolo tlolpnlal mani -RiEaoai  mlmon loozml Clol tDuoellanर PlSlmoinat es nllmdammon fDuot mo2anod Biotet0 CE bomnamie2 ALDDD OIDE r-R!7 mmsaउ२ l eieno२ Olyemleaelos उlplu m:mUIWd ाarJ0 WखUDPAD naomllat Dr05+3-81 =मणाम Iu2=0u eepstom   २oaneajकाको _ @undBodes lLOlUTD amD7U  ubo Wbdaorna  rzan DimudEn ' 7009 0[6:77+]0 0115715\nQluoomranoqlo \"#/- omolae५o\n*3\"900 +omama -EJ\n5< ilmluoid Tणj८  J६ो",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

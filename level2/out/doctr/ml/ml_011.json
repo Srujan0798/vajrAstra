@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_011",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0012pro_raw.png",
+    "page_index": 0,
+    "width": 385,
+    "height": 564
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        385,
+        564
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "7-\nmoompo) amiokajmangijalignom unintemupted myon ejal co0nu0s\nCuaholeojahago gmond maciononilat pommlono ajuknouila aomaonal\naoguenysyammja-aujo\nCakilo\nenoneunog\nmudasonki\nany\ngraaonflagesamg alcionildanernemmniogagasaun,\nreraouse.ounoyagmmonul\ntwunaynallongmaosemo\nnaerd\nakoo\nauhiaflong\nmosfinlomio\nampcomvongmemaen.\n0107.1949\n€)\naynt.j@rnomaliogem\nOmonl\n(ruorrunscwsioliong\nsouaomloym (ajagunemaghons dhomTo djshnoudo muoenetulsfsaumogo The\nKanam Tenancy Abolition Act, 1976 te The Kanam Tenancy Abolition Kules, 1977 aoeri\nen.owe.nonlgigga. DD mimao (nlhono nP on0al momunomenso\ndosmo ajsloomod c010bo niaj amjm sjalnghos serollaoddmng n0gP\nseauhouoaijo mhdammeroaojavujo saculeame menamuaitlyloojamjo QM 3\n(1) (nDDO aoemo ajslaormodad manmjes OGOULA ajalalld nujdemaore\ngsamuoonesOubo goagnumymajanujo Gantlisjent, 01011970 ajmt go\nmioarale (nioeniesJajens.\nto mimiommloer 45000 midointilamont mygi, ngommodjeo\nslejagloe moejjad eranulnasornad minomulsteodaoein arruglnang\nBondinuoomn mhoola] mudanod pmnoniomlsions. GMNAJ 9 (nudoto\ngrolanoo, eoemaajs/muoemod, dhoem codauuto misanl nlicmemut\ngudon/siom a0) anoud, orugladeang aondhmud ewgoooaeoerrmjo\ntaumdlaule-olaecenamyaoenk. mwono oaikryd Aajoia m'momlamo dhormo\najslmomlo mommennaaiab eodrufmaim) 1975 umugled (nmlauldly\nmiomlamo amoent esjallas cunjernai aem) ajmod 3 aomumolentso\neruglebeang nonoirudad eodaogeaa (uotrumulla) n0) amogtay\nmstadonamoent. ab 20 (1) exrugladoang Gondlmud, dumy 16 () (ndODo\nuncuendeangled medamoe distuolt mescubeol ocums osigojeglad\nnothaogo muoerumullal nfnubsanud gosuagsjemmjawjo anumo.\nnemoet gpmmosinianesnuded nudaaymi mudgholeog mobahyem\na0ojo doemo diskmomio midameioenet mimammlaeio agmloen\n(anlhuooleajmnigs ngmoad ajaumlhalenibem mkaoo, 1963 cumal InooDo\naoemo anjshmommodaojo nudaaym mudgladlesgin aenuchoueajent.\neoomlmons pamocmalad onums oaigyqenglos rumjom aopo aguocasest",
+      "text_nfc": "7-\nmoompo) amiokajmangijalignom unintemupted myon ejal co0nu0s\nCuaholeojahago gmond maciononilat pommlono ajuknouila aomaonal\naoguenysyammja-aujo\nCakilo\nenoneunog\nmudasonki\nany\ngraaonflagesamg alcionildanernemmniogagasaun,\nreraouse.ounoyagmmonul\ntwunaynallongmaosemo\nnaerd\nakoo\nauhiaflong\nmosfinlomio\nampcomvongmemaen.\n0107.1949\n€)\naynt.j@rnomaliogem\nOmonl\n(ruorrunscwsioliong\nsouaomloym (ajagunemaghons dhomTo djshnoudo muoenetulsfsaumogo The\nKanam Tenancy Abolition Act, 1976 te The Kanam Tenancy Abolition Kules, 1977 aoeri\nen.owe.nonlgigga. DD mimao (nlhono nP on0al momunomenso\ndosmo ajsloomod c010bo niaj amjm sjalnghos serollaoddmng n0gP\nseauhouoaijo mhdammeroaojavujo saculeame menamuaitlyloojamjo QM 3\n(1) (nDDO aoemo ajslaormodad manmjes OGOULA ajalalld nujdemaore\ngsamuoonesOubo goagnumymajanujo Gantlisjent, 01011970 ajmt go\nmioarale (nioeniesJajens.\nto mimiommloer 45000 midointilamont mygi, ngommodjeo\nslejagloe moejjad eranulnasornad minomulsteodaoein arruglnang\nBondinuoomn mhoola] mudanod pmnoniomlsions. GMNAJ 9 (nudoto\ngrolanoo, eoemaajs/muoemod, dhoem codauuto misanl nlicmemut\ngudon/siom a0) anoud, orugladeang aondhmud ewgoooaeoerrmjo\ntaumdlaule-olaecenamyaoenk. mwono oaikryd Aajoia m'momlamo dhormo\najslmomlo mommennaaiab eodrufmaim) 1975 umugled (nmlauldly\nmiomlamo amoent esjallas cunjernai aem) ajmod 3 aomumolentso\neruglebeang nonoirudad eodaogeaa (uotrumulla) n0) amogtay\nmstadonamoent. ab 20 (1) exrugladoang Gondlmud, dumy 16 () (ndODo\nuncuendeangled medamoe distuolt mescubeol ocums osigojeglad\nnothaogo muoerumullal nfnubsanud gosuagsjemmjawjo anumo.\nnemoet gpmmosinianesnuded nudaaymi mudgholeog mobahyem\na0ojo doemo diskmomio midameioenet mimammlaeio agmloen\n(anlhuooleajmnigs ngmoad ajaumlhalenibem mkaoo, 1963 cumal InooDo\naoemo anjshmommodaojo nudaaym mudgladlesgin aenuchoueajent.\neoomlmons pamocmalad onums oaigyqenglos rumjom aopo aguocasest",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

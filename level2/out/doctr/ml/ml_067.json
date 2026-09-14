@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_067",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "G0DBJ681300 :\n(i)\n600e O0600 al010b0000 GOGLONJSYOTD)TD.O n0681300 ?\n(ii)\nmBlos Mov6)06830g oaBe/0omNoNbD0o nom\nalglaomo 0000)066ns !\n(iii) nonoD6m 600050 mU(MIBDOO ?\n(iv)\n01000010 Oe/Oro) mlm alolOberoroleel06)38 (01006mo\n(Ooela/olm d06maol NoomO nonop6m ?\n(v)\nGeDdorolod GOBJODO 09(016006m (U(MI3Q0\n(Oalnsie-olayo (6100?\n(vi)\naloggmroomdeb3068300 Onlo 00063O 00631360 ?\n(vii) 600e o0onlo dingldo)o bajausorola)o nB60 (oDwmo\nQImO 0063360 ?\n(viii) 00n000000clexd elan 0)n-og/s10nlo0 G0006m ?\n2.\nomloleom 616mWl0 QDOlo 210050138 7 GalD81681300.00)0\n200000 0090)0 : (63)Gopmlmjo 630) 00006 olloo) (Reading\nComprehension)\n7x1=7\nGendo emdlsymm n8801)0 Qelo 6log16mlegld 63006m\naaygeildles0omo. 600O0 Qông0)o elegeom.eola (G0916500.00067D\n(T000.0l6s40roloe/0) 000 pelmono) vopmola 2loidd\nOasisoajmo nomo MO0)6S 20000 6bsjoogm\napLOpdonyaDem. GOmOn 0008 0OJDOUG6D00006n)30ol0 Q160\nQDO) nelmanomo d06m0Ds)sjam)ons nomo almodeo00\naumooom. amnaapoonploo (nlole)eiool\non.Duleo)m.olompaJo 060, 0082/68130000 200m momionole\n6DWO Muingislooiom lnI0OmO dslopom nomolapas, QDO)\nnelmaoomo (100000n9S oeonlo 0860 (nDWOOdnoloogm 630)\nmpaup@la.oomaal CnoTpl@oonjsgom). 000100@T0@T0XO\nD00DBOQBagda/00)f0os GOO) 0000006m nelmle.06ml0J000060300\n12\n4\n[]",
+      "text_nfc": "G0DBJ681300 :\n(i)\n600e O0600 al010b0000 GOGLONJSYOTD)TD.O n0681300 ?\n(ii)\nmBlos Mov6)06830g oaBe/0omNoNbD0o nom\nalglaomo 0000)066ns !\n(iii) nonoD6m 600050 mU(MIBDOO ?\n(iv)\n01000010 Oe/Oro) mlm alolOberoroleel06)38 (01006mo\n(Ooela/olm d06maol NoomO nonop6m ?\n(v)\nGeDdorolod GOBJODO 09(016006m (U(MI3Q0\n(Oalnsie-olayo (6100?\n(vi)\naloggmroomdeb3068300 Onlo 00063O 00631360 ?\n(vii) 600e o0onlo dingldo)o bajausorola)o nB60 (oDwmo\nQImO 0063360 ?\n(viii) 00n000000clexd elan 0)n-og/s10nlo0 G0006m ?\n2.\nomloleom 616mWl0 QDOlo 210050138 7 GalD81681300.00)0\n200000 0090)0 : (63)Gopmlmjo 630) 00006 olloo) (Reading\nComprehension)\n7x1=7\nGendo emdlsymm n8801)0 Qelo 6log16mlegld 63006m\naaygeildles0omo. 600O0 Qông0)o elegeom.eola (G0916500.00067D\n(T000.0l6s40roloe/0) 000 pelmono) vopmola 2loidd\nOasisoajmo nomo MO0)6S 20000 6bsjoogm\napLOpdonyaDem. GOmOn 0008 0OJDOUG6D00006n)30ol0 Q160\nQDO) nelmanomo d06m0Ds)sjam)ons nomo almodeo00\naumooom. amnaapoonploo (nlole)eiool\non.Duleo)m.olompaJo 060, 0082/68130000 200m momionole\n6DWO Muingislooiom lnI0OmO dslopom nomolapas, QDO)\nnelmaoomo (100000n9S oeonlo 0860 (nDWOOdnoloogm 630)\nmpaup@la.oomaal CnoTpl@oonjsgom). 000100@T0@T0XO\nD00DBOQBagda/00)f0os GOO) 0000006m nelmle.06ml0J000060300\n12\n4\n[]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

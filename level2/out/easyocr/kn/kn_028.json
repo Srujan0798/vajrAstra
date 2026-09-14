@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4.2 Ste into My Stoy\n[lo'n\nBvery day in schoo], youT friends fee] differezt feelin8s: happy, sad, Jeft out; proud or even embatrassed. Sometimes , Te do ೊot ೊotice o 1e do not [[OT] hat to sax But ಞhe] we take ೩ moment to think ೩bout ]ow they misht be feelin8; we start buildin8 empathy .\nThese are soಔe Tays i1 which JT0u KToT Jou have empathy [ he]ped ೩ [riend who Tas [urt 8atTe T} ti[e ad   support ೦T sad. TT[e]] So[eo]e TT೩S upset. [ shared somethin8 because [ said Soೋ]] M[e[] [ [u1]t sozeoze did ]ot [ave jt. ೬ so[eone s feelinss. [ ೊoticed someone sittin8 ೩lone [ ]istened to ೩ friend when they ad sat Tith them wanted to taxk. BL/S Activity [1 8roups of 4 Discuss ad share what Jou would do i1 each o[ these situatios\n[our friend is sittins with so[e other [tiend durins [unch. They did [ot ask if Jou wanted to join them and jsmored you .\nA classmate painted somethins Teally e]] and the teache] p[aised them. [[O1] aso painted wel] but [0 o]e [oticed.\nRole p]ay Make s a]] STOUDS . Act jt out i1 tront of the cJass Show [ow you ca1 care [o[ others and what ]ind thin8 ca be done.\n[[O1] [a]] dow]] while playins and [urt Tout Inee Tou] [ೊiends noticed and did not [elp Jou.\nTou made ೩ mistake 1hile Teadins in front ot the class ad ೩ [eಞ] children Laushed.\nಔmpathyy helps me care, listen, ad support others ]1 sma]] but important Taj]s\nTTThen we t1y to understand what someone else js [eelin8; Te become sinde] .\nThinx and Do: Con]ect TTjt] J0L[ fami]}] [e[bets TTy] to understand [ow they are [eelin. Talk to the1 ೩bout jt.\n25",
+      "text_nfc": "4.2 Ste into My Stoy\n[lo'n\nBvery day in schoo], youT friends fee] differezt feelin8s: happy, sad, Jeft out; proud or even embatrassed. Sometimes , Te do ೊot ೊotice o 1e do not [[OT] hat to sax But ಞhe] we take ೩ moment to think ೩bout ]ow they misht be feelin8; we start buildin8 empathy .\nThese are soಔe Tays i1 which JT0u KToT Jou have empathy [ he]ped ೩ [riend who Tas [urt 8atTe T} ti[e ad   support ೦T sad. TT[e]] So[eo]e TT೩S upset. [ shared somethin8 because [ said Soೋ]] M[e[] [ [u1]t sozeoze did ]ot [ave jt. ೬ so[eone s feelinss. [ ೊoticed someone sittin8 ೩lone [ ]istened to ೩ friend when they ad sat Tith them wanted to taxk. BL/S Activity [1 8roups of 4 Discuss ad share what Jou would do i1 each o[ these situatios\n[our friend is sittins with so[e other [tiend durins [unch. They did [ot ask if Jou wanted to join them and jsmored you .\nA classmate painted somethins Teally e]] and the teache] p[aised them. [[O1] aso painted wel] but [0 o]e [oticed.\nRole p]ay Make s a]] STOUDS . Act jt out i1 tront of the cJass Show [ow you ca1 care [o[ others and what ]ind thin8 ca be done.\n[[O1] [a]] dow]] while playins and [urt Tout Inee Tou] [ೊiends noticed and did not [elp Jou.\nTou made ೩ mistake 1hile Teadins in front ot the class ad ೩ [eಞ] children Laushed.\nಔmpathyy helps me care, listen, ad support others ]1 sma]] but important Taj]s\nTTThen we t1y to understand what someone else js [eelin8; Te become sinde] .\nThinx and Do: Con]ect TTjt] J0L[ fami]}] [e[bets TTy] to understand [ow they are [eelin. Talk to the1 ೩bout jt.\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

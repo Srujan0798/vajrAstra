@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_077",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0038pro_raw.pdf",
+    "page_index": 216,
+    "width": 2339,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        2339,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೪೧೪\nಕನಕಿಸಾತ್ದಶ೯ನ--ಳ\nಶ\n೧.ವಾ೦ಕಲಾನಿಆಲಕಲನಆನ\nವಜದಿಮೃಗೇಂದ -ವಜದಸಂಹ\nಹೋಂಹೋರಾಡ\nಹೋೊದುಕುಳಗೊಂಡುನೋವಸಹಸ\nಭೂಂಭೂತಗಳಿ-ಅಸಂಖಕುದಜೀಎಗಳ\nಭೂಸತೆಯಕಾಂತಿಭೂದೇವಯಗಂಡಎಷು\nನಾಮಧಾಂಗಳು-ವೈಷವಭಕರು\n.\nತೊಡರುಸಂಬಂಧಃಸಂಕೋಲೆಃಆಭರಣ\nಸಮಾಜಿಚಂತನೆಃನೀತಬೋಧನೆ\n೨.ಅಹಸಪನ\nದಳುಂ-ಅಗೃಜಾಲಿ\nಕೋಣಿ-ಪಪಂಚ\n\nಜಪಾಶ-ಹಗ\nದಾನವಾಂ-ದಾನವ್ಅರ-ರಾಕಸರಿಶತುವಷು\n\nಗೋವತಕರುಗಳು\n\no Io o I.",
+      "text_nfc": "೪೧೪\nಕನಕಿಸಾತ್ದಶ೯ನ--ಳ\nಶ\n೧.ವಾ೦ಕಲಾನಿಆಲಕಲನಆನ\nವಜದಿಮೃಗೇಂದ -ವಜದಸಂಹ\nಹೋಂಹೋರಾಡ\nಹೋೊದುಕುಳಗೊಂಡುನೋವಸಹಸ\nಭೂಂಭೂತಗಳಿ-ಅಸಂಖಕುದಜೀಎಗಳ\nಭೂಸತೆಯಕಾಂತಿಭೂದೇವಯಗಂಡಎಷು\nನಾಮಧಾಂಗಳು-ವೈಷವಭಕರು\n.\nತೊಡರುಸಂಬಂಧಃಸಂಕೋಲೆಃಆಭರಣ\nಸಮಾಜಿಚಂತನೆಃನೀತಬೋಧನೆ\n೨.ಅಹಸಪನ\nದಳುಂ-ಅಗೃಜಾಲಿ\nಕೋಣಿ-ಪಪಂಚ\n\nಜಪಾಶ-ಹಗ\nದಾನವಾಂ-ದಾನವ್ಅರ-ರಾಕಸರಿಶತುವಷು\n\nಗೋವತಕರುಗಳು\n\no Io o I.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

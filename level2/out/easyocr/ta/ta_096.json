@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_096",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ci##1 cptatr L फ़loltूn 6 शJष\nGoबDूl६o@ @ग्रनणगrLIio थJनठंग (\nक६oठfीनणfी LIUIGDTLIITGकना ६Gऊफ़luI६ & ठtiltosop\nछIDीफ़ड़IG थI्र & @ीl६o६DUll६DनDnLI LIITLLIITOD @lyorlGi छीLLछंफ़ी॰्ण &yु O@lनflufLLILILLgI\nLlनir olflक Bobollsgloop छनठठLLIT6ODLD LDनoflpGयUIDpp OमUIgID OLGmlGmoti थJ७i\n१2th _ Computer  Application _ Tamil version FM.indd\n19-01-2023 17:34:13",
+      "text_nfc": "ci##1 cptatr L फ़loltूn 6 शJष\nGoबDूl६o@ @ग्रनणगrLIio थJनठंग (\nक६oठfीनणfी LIUIGDTLIITGकना ६Gऊफ़luI६ & ठtiltosop\nछIDीफ़ड़IG थI्र & @ीl६o६DUll६DनDnLI LIITLLIITOD @lyorlGi छीLLछंफ़ी॰्ण &yु O@lनflufLLILILLgI\nLlनir olflक Bobollsgloop छनठठLLIT6ODLD LDनoflpGयUIDpp OमUIgID OLGmlGmoti थJ७i\n१2th _ Computer  Application _ Tamil version FM.indd\n19-01-2023 17:34:13",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_069",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0015pro_raw.pdf",
+    "page_index": 118,
+    "width": 1644,
+    "height": 1980
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        1980
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0511  11 23\nÉIndrion\n101119\n8\nrnonJ\n6\n9\n5\n248.\n8\nnson\nIEI\n4\n3\n6\n5\n3\ncm 0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ngpura.org\n8183",
+      "text_nfc": "0511  11 23\nÉIndrion\n101119\n8\nrnonJ\n6\n9\n5\n248.\n8\nnson\nIEI\n4\n3\n6\n5\n3\ncm 0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ngpura.org\n8183",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

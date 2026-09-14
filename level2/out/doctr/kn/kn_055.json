@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_055",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 1448,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1448,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0 0 d euy\nbo\n3\n4\ngune a\n1\n1\n2650f000\nrj\nAEFTdETS daades\neT )\n,\nA\nCtif\n(22903 dod3 Daade00d)\n2\naie. 200a0g Baesodadad\n3\n-",
+      "text_nfc": "0 0 d euy\nbo\n3\n4\ngune a\n1\n1\n2650f000\nrj\nAEFTdETS daades\neT )\n,\nA\nCtif\n(22903 dod3 Daade00d)\n2\naie. 200a0g Baesodadad\n3\n-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

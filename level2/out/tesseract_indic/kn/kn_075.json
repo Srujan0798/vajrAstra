@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_075",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0036pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಅಗಾ೦ತರ\nJNANA000634\n\n",
+      "text_nfc": "ಅಗಾ೦ತರ\nJNANA000634\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

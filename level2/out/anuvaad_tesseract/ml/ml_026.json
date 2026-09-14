@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_026",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 955,
+    "height": 1387
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        955,
+        1387
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "मै ee रू:\nSS ee ललित Ke\n\n& (5४1६8 डा TCS aie\nSy 5%\n\ni कै\nऊ **\n\nRiedie iS\n\n",
+      "text_nfc": "मै ee रू:\nSS ee ललित Ke\n\n& (5४1६8 डा TCS aie\nSy 5%\n\ni कै\nऊ **\n\nRiedie iS\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

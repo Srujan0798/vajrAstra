@@ -1,0 +1,41 @@
+{
+  "page_id": "te_097",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0013pro_raw.pdf",
+    "page_index": 16,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n \n\nhd\nP\n\n\n\n\"04\n\n\n\n\n41j\n\n\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\" \n\n\n\n\n!\"\n\n\n\n\n9",
+      "text_nfc": "\n \n\nhd\nP\n\n\n\n\"04\n\n\n\n\n41j\n\n\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\" \n\n\n\n\n!\"\n\n\n\n\n9",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

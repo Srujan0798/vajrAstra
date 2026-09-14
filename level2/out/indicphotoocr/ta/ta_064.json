@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_064",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 270,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "பகுதி இ\nഉണങ്ങ த்து வினாக்க ளு க்கும் விடையளி ଓ மதிப்பெண்\nபைத்தானி லுள்ள open செயற்கூற்றைபற்றி குறிப்பு எழுதுக மேலும் இதன் இரண்டு வழிமுறைகளின்\nவேறுபாடுகள் என்ன ஡\nஏற்கனவே உள்ள கோப்பில் மாற்றம் செய்யும் பைத்தான் நிரலை 6tclds\n3 காற்புள்ளியை தானமைவு பிரிப்பானாக கொண்டுள்ள csv கோப்பினை படிப்பதற்கான பைத்தான்\nநிரலை 6tlds\nwrite மற்றும் append mode முறைமைகளின் வேறுபாடு என்ன\nreader மற்றும் dictreader இடையேயான வேறுபாடு யாது\nபகுதி ஈ\n9460600 த்து வினாக்களு ਏ கும் വി டையளி 15 மதிப்பெண்\nஎக்ஸெல் மற்றும் csv கோப்பின் வேறுபாடு என்ன ஡\nபல்வேறு கோப்பு முறைமைகளின் பொருள்களை பட்டியலிடுக\nபைத்தானில் w கோப்பை படிப்பதற்கான பல்வேறு வழிமுறைகளை எழுதுக\nதனிப்பயனாக்கம் பிரிப்பானுடன் joliqui csv கோப்பை எழுதுவதற்கான பைத்தான் நிரலை எழுதுக\ncsv கோப்பிலுள்ள ਲੁ തവ வடிவமைப்பதற்கு பின்பற்றவேண்டிய விதிமுறைகளை எழுதுக\nமேற்பார் തവ நூல்கள்\npython for data analysis data wrangling with pandas numpy and ipython by william\nmckinney\ncsv file reading and writing python 370 documentation\n3 httpsdocspythonorg\n265 பைத்தான் மற்றும் csv கோப்புகள்\n12th computer science tm chapter 13 indd 265 11012023 123957",
+      "text_nfc": "பகுதி இ\nഉണങ്ങ த்து வினாக்க ளு க்கும் விடையளி ଓ மதிப்பெண்\nபைத்தானி லுள்ள open செயற்கூற்றைபற்றி குறிப்பு எழுதுக மேலும் இதன் இரண்டு வழிமுறைகளின்\nவேறுபாடுகள் என்ன ஡\nஏற்கனவே உள்ள கோப்பில் மாற்றம் செய்யும் பைத்தான் நிரலை 6tclds\n3 காற்புள்ளியை தானமைவு பிரிப்பானாக கொண்டுள்ள csv கோப்பினை படிப்பதற்கான பைத்தான்\nநிரலை 6tlds\nwrite மற்றும் append mode முறைமைகளின் வேறுபாடு என்ன\nreader மற்றும் dictreader இடையேயான வேறுபாடு யாது\nபகுதி ஈ\n9460600 த்து வினாக்களு ਏ கும் വി டையளி 15 மதிப்பெண்\nஎக்ஸெல் மற்றும் csv கோப்பின் வேறுபாடு என்ன ஡\nபல்வேறு கோப்பு முறைமைகளின் பொருள்களை பட்டியலிடுக\nபைத்தானில் w கோப்பை படிப்பதற்கான பல்வேறு வழிமுறைகளை எழுதுக\nதனிப்பயனாக்கம் பிரிப்பானுடன் joliqui csv கோப்பை எழுதுவதற்கான பைத்தான் நிரலை எழுதுக\ncsv கோப்பிலுள்ள ਲੁ തവ வடிவமைப்பதற்கு பின்பற்றவேண்டிய விதிமுறைகளை எழுதுக\nமேற்பார் തവ நூல்கள்\npython for data analysis data wrangling with pandas numpy and ipython by william\nmckinney\ncsv file reading and writing python 370 documentation\n3 httpsdocspythonorg\n265 பைத்தான் மற்றும் csv கோப்புகள்\n12th computer science tm chapter 13 indd 265 11012023 123957",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

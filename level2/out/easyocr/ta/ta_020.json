@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_020",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+    "page_index": 367,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "GबDplनo@ @ग्र 6णorLIio थJनणंण(  क६णणा &GLLgl@lulob LIILII@D २ G@Inककक ७७\nLIITLII@D @llbglpy क६ाा 1. ७६Dनणा @!j . @६. नमobl६i७ LIT6iDLनछT 6OD6oठILI GLIII&lfluIj, ६२l६oणflBolluI६D छloop, UITIloDछ B६Dgnफ़री, ६१८नDा ६०D६णा . २. @६Dनणा @!p . थb. ६ी८६q 6णणा 6्छा @६o6ooाLi GLIJI&lफluIj , @l६ooflBolu I६D gloop, UnIBlनDछ छनbनफ्री , ६६नठा 6DDनणा. ३. @नDनणा @!j. @६. नgवणflLpn @o6ooाLi GLIJIT&lटluIj, @l६ooflBolu I६D gloop, Loflp ढl@२l७o६l छ६Dठग्री, ठी७म&ी. GoबnUI@I6ाए &६ाा 1. @६Dनणा@!j. LIIL. OlgUIBGInj २ फ़olLi GLIJIBlrluIj, @२l६ooflBolUI६D छloop, छITUI छड़LDGंD B६D६D Wppib थmlolu l६b B६bgnफ़री, ६म६णा ६DD६णा २. छी७७फ़ी. नguIpछी @गGuoq LIUfnElUIनाj , GaLDLलlLg LIनTT नOIILLGछ Opj olऊठir, ६म६णा 6DD६णा .\nLIILgIOD थJमीग्रीuIj ७७ 1. ७बDनणा @फ़j . थ१. मOप्राक्ीन्णीी ७glक६D६D @l६oठfीBolU I६D eJtlrluIj, शI &ीठणाj्र  GLo6Dफ़Bl6oनDLi LIनाiTनाfl, BLDLIggIj, Sीकol6ाreऊग़ IITOILLD. २. @०Dनणा @!j . &. @pnGg6i७ompी ७glक६D६D @l६oठfीBolU I६D eJtlrluIj, Loflछ @Iना6णाnग्र थJIंIकीGaDn @फ़छीuIठठा OlLIठठठा छठाा GLD6DIBlनOबDLILIाTनाfl, छl७मणी. ३. छी७ioफ़ी. @. IBगI&ी @नo6ooाLi GLIIEIrfluI , @२l६ooflBolluI६D gloop, BIUIG% Ilsbooछ थI्र Br DBनflj B६D@pl, न८नछा 6०D६णा . 4. (नDनणा @Ij. p. @२In & ७g@IनDा २ polLi GLIJIElफ़fluIj , @l६oणflकolu I६D छloop, @niBl(oiq6oणाn Uloqवoा @fG६IBI6oाफ़5छn छनbबप्री, ६म६णा ६DD६णा 5. @बDन्णा @२Ij . #. Glnग़ ७glक६OD६D @l६oठflछ@lU I६D eJtlrluIj, +G. GoI6DnUIgD GLD6DIBlनO६DLILIGाTनाfl, GmlढटlLILIIIq, BL@nj IOnOILLLID. 6. छी७. थ!. BlL मछग्र @Ij छंठ्री ७gI+6OD६D ६२l६oठfीlBollu I६D थJमlrluI, ी७Giछी IOG5FUIOnSाT थIJ& DBनflj GLDSDJlनOGDLILIनाTनfl , नऊनठा छI&ी, छी७Oफ़६DG@IनDी IIOILLI. 7 ७बDनणा @फ़j . +. &नofl@In #न्छा २ polii GLIIElpluIj , @l६oणflBOlU I६D छloop, @ग़niBी(oqनoणाn Lloqवoा @fG६IBI6णाड़bछI छनbब्प्री, ६१मनणा ६DD६णा\nUIL @७IंIकनoनOOILILIIनाग्र Loppiio @llbgly छी७. @ी. २ @६pIछव्छा , (gJककD६D @२l६ठठfीB६lU I६D e५षीफ़luIj, थI&r IOnछीफ्री GUGDDlनoODLILIनाTनfl, नDDBSILIGLILL नOL, ६ष६णा 6D६णा .\nक६D@ Lopoio @Ilq @IनDIDLILछ ७७ @Iौq ( @IबOLOLIL GuIIGक६q Llpमnpp प्रIGg०q छातंlBLILIनDT 6म६D@IGInI\n@ll६oगo|ऊGmuiL७फ ७५ ७.मप्र @Iनणणान्छा , @२IITYLILIITLq , G#६Dib. LO. (७७६#ठD , @फgILIGLILL नOL , फ़्रीG@IT शऊj्रं फ थJoujL @lना नlनठा LITL LIJUDBGI, @JIIDIISLID.\nJILनDL @Ilq @IDDIDLIL छक्रीग्रं थJड़IBD\nपरकंकLGLILIIG थI७नणंणा BIIODIg @QUIB प्र ऊंछीन्णछं 6gग़neDक @ी६मव् @७IIकीनDनOOILIL पGL६q @ग्णflBnID\n@फ़आ६b 8० ग्ी.ना 6iD नाiD ना६DीlऊणणL GLDLIनDIgG%I छाानाfी६ं JIBणILLILILLGनiiनाgl. 6@IL eJLIनBL @oopuio शIBणIL GLnj:\n3६0\n१२th Accountancy Glossary indd 3६0\n12/9'2021 11:08:29 PP1/",
+      "text_nfc": "GबDplनo@ @ग्र 6णorLIio थJनणंण(  क६णणा &GLLgl@lulob LIILII@D २ G@Inककक ७७\nLIITLII@D @llbglpy क६ाा 1. ७६Dनणा @!j . @६. नमobl६i७ LIT6iDLनछT 6OD6oठILI GLIII&lfluIj, ६२l६oणflBolluI६D छloop, UITIloDछ B६Dgnफ़री, ६१८नDा ६०D६णा . २. @६Dनणा @!p . थb. ६ी८६q 6णणा 6्छा @६o6ooाLi GLIJI&lफluIj , @l६ooflBolu I६D gloop, UnIBlनDछ छनbनफ्री , ६६नठा 6DDनणा. ३. @नDनणा @!j. @६. नgवणflLpn @o6ooाLi GLIJIT&lटluIj, @l६ooflBolu I६D gloop, Loflp ढl@२l७o६l छ६Dठग्री, ठी७म&ी. GoबnUI@I6ाए &६ाा 1. @६Dनणा@!j. LIIL. OlgUIBGInj २ फ़olLi GLIJIBlrluIj, @२l६ooflBolUI६D छloop, छITUI छड़LDGंD B६D६D Wppib थmlolu l६b B६bgnफ़री, ६म६णा ६DD६णा २. छी७७फ़ी. नguIpछी @गGuoq LIUfnElUIनाj , GaLDLलlLg LIनTT नOIILLGछ Opj olऊठir, ६म६णा 6DD६णा .\nLIILgIOD थJमीग्रीuIj ७७ 1. ७बDनणा @फ़j . थ१. मOप्राक्ीन्णीी ७glक६D६D @l६oठfीBolU I६D eJtlrluIj, शI &ीठणाj्र  GLo6Dफ़Bl6oनDLi LIनाiTनाfl, BLDLIggIj, Sीकol6ाreऊग़ IITOILLD. २. @०Dनणा @!j . &. @pnGg6i७ompी ७glक६D६D @l६oठfीBolU I६D eJtlrluIj, Loflछ @Iना6णाnग्र थJIंIकीGaDn @फ़छीuIठठा OlLIठठठा छठाा GLD6DIBlनOबDLILIाTनाfl, छl७मणी. ३. छी७ioफ़ी. @. IBगI&ी @नo6ooाLi GLIIEIrfluI , @२l६ooflBolluI६D gloop, BIUIG% Ilsbooछ थI्र Br DBनflj B६D@pl, न८नछा 6०D६णा . 4. (नDनणा @Ij. p. @२In & ७g@IनDा २ polLi GLIJIElफ़fluIj , @l६oणflकolu I६D छloop, @niBl(oiq6oणाn Uloqवoा @fG६IBI6oाफ़5छn छनbबप्री, ६म६णा ६DD६णा 5. @बDन्णा @२Ij . #. Glnग़ ७glक६OD६D @l६oठflछ@lU I६D eJtlrluIj, +G. GoI6DnUIgD GLD6DIBlनO६DLILIGाTनाfl, GmlढटlLILIIIq, BL@nj IOnOILLLID. 6. छी७. थ!. BlL मछग्र @Ij छंठ्री ७gI+6OD६D ६२l६oठfीlBollu I६D थJमlrluI, ी७Giछी IOG5FUIOnSाT थIJ& DBनflj GLDSDJlनOGDLILIनाTनfl , नऊनठा छI&ी, छी७Oफ़६DG@IनDी IIOILLI. 7 ७बDनणा @फ़j . +. &नofl@In #न्छा २ polii GLIIElpluIj , @l६oणflBOlU I६D छloop, @ग़niBी(oqनoणाn Lloqवoा @fG६IBI6णाड़bछI छनbब्प्री, ६१मनणा ६DD६णा\nUIL @७IंIकनoनOOILILIIनाग्र Loppiio @llbgly छी७. @ी. २ @६pIछव्छा , (gJककD६D @२l६ठठfीB६lU I६D e५षीफ़luIj, थI&r IOnछीफ्री GUGDDlनoODLILIनाTनfl, नDDBSILIGLILL नOL, ६ष६णा 6D६णा .\nक६D@ Lopoio @Ilq @IनDIDLILछ ७७ @Iौq ( @IबOLOLIL GuIIGक६q Llpमnpp प्रIGg०q छातंlBLILIनDT 6म६D@IGInI\n@ll६oगo|ऊGmuiL७फ ७५ ७.मप्र @Iनणणान्छा , @२IITYLILIITLq , G#६Dib. LO. (७७६#ठD , @फgILIGLILL नOL , फ़्रीG@IT शऊj्रं फ थJoujL @lना नlनठा LITL LIJUDBGI, @JIIDIISLID.\nJILनDL @Ilq @IDDIDLIL छक्रीग्रं थJड़IBD\nपरकंकLGLILIIG थI७नणंणा BIIODIg @QUIB प्र ऊंछीन्णछं 6gग़neDक @ी६मव् @७IIकीनDनOOILIL पGL६q @ग्णflBnID\n@फ़आ६b 8० ग्ी.ना 6iD नाiD ना६DीlऊणणL GLDLIनDIgG%I छाानाfी६ं JIBणILLILILLGनiiनाgl. 6@IL eJLIनBL @oopuio शIBणIL GLnj:\n3६0\n१२th Accountancy Glossary indd 3६0\n12/9'2021 11:08:29 PP1/",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

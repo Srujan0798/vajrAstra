@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_010",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0011pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 586
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        586
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-6.\n021/1-31609/09 917 31.10.19\n ee r\nzgo ezman gamen meongmmoen.\nmega zskwoda o meem oome essmmago\ng\n o  2 E ( e \nwomo msen an ga oele skoa ameg\n meee eaom men meemo \nskzes m e (ey d am mhaeg\nenn\noe(smmegagos\naag\nhag\nme8on8\nganelengmmom  oejm m esozes mskome\nmn\nmeskmoomesies egauejeamles mudecod gomenneges go eny\nmoy meenmozaon g ayen st egee\neon ee(smijemene mm wam mshale medenumom.\n5.\n\norwwr\n\nwaeme gd weogo emgwooem gmoezmnmoe\n 72() o a d mm\n \nee(seuemes an ges wam mudghaeegon møzmid.\n72 D (A)( n m  d\nwam em (ae sn me e a\ne\nn\ngmo\n10smo,\nocrwtore\n(res\nhiskwode\n\n\nTenancy condition pemosmem\n01.04.1964\nauDndo\n00\nméwemee\notrcr\nendwen\njskooda\ngmo\n()\nmmm e m\noe\ne\nmemebezmme",
+      "text_nfc": "-6.\n021/1-31609/09 917 31.10.19\n ee r\nzgo ezman gamen meongmmoen.\nmega zskwoda o meem oome essmmago\ng\n o  2 E ( e \nwomo msen an ga oele skoa ameg\n meee eaom men meemo \nskzes m e (ey d am mhaeg\nenn\noe(smmegagos\naag\nhag\nme8on8\nganelengmmom  oejm m esozes mskome\nmn\nmeskmoomesies egauejeamles mudecod gomenneges go eny\nmoy meenmozaon g ayen st egee\neon ee(smijemene mm wam mshale medenumom.\n5.\n\norwwr\n\nwaeme gd weogo emgwooem gmoezmnmoe\n 72() o a d mm\n \nee(seuemes an ges wam mudghaeegon møzmid.\n72 D (A)( n m  d\nwam em (ae sn me e a\ne\nn\ngmo\n10smo,\nocrwtore\n(res\nhiskwode\n\n\nTenancy condition pemosmem\n01.04.1964\nauDndo\n00\nméwemee\notrcr\nendwen\njskooda\ngmo\n()\nmmm e m\noe\ne\nmemebezmme",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

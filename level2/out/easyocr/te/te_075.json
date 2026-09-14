@@ -1,0 +1,41 @@
+{
+  "page_id": "te_075",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0075pro_raw.pdf",
+    "page_index": 65,
+    "width": 1658,
+    "height": 2212
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2212
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ढव्णफ महाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ , पुणे . महाराष्ट्र  रज्य पाठयपुस्तक निर्मिती य अम्यामक्म  संशोपन मंडळ मराठी आंतरभारती इयत्ता वी र ३८.००",
+      "text_nfc": "ढव्णफ महाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ , पुणे . महाराष्ट्र  रज्य पाठयपुस्तक निर्मिती य अम्यामक्म  संशोपन मंडळ मराठी आंतरभारती इयत्ता वी र ३८.००",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

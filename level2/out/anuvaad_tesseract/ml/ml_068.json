@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_068",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 24,
+    "width": 1509,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1509,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Cer OOS 6374 ്2ചമ2: os. 2\"\n\nab Binjasrwt wn) oral ol Qn 6 o>|-\n\nAoyerunr -3,-2 %—?- AVDIRAZ : ८५९2\n\nकि कर . പച്ചി ാപ്വത്ക്നത Er H)rep wou\n\nmtr Am) ay) Dears 772 aa-oo asl On77? १\n\n<b -Bnw Pho Sasa pogo\n\n> Narn One ~T हि नर्स कि ് - FAT\n\nPPM BEI BW Seo DO or1*Zy0 CB ANGI Ome\n\nOMeA’> ~~) 4, Qe CH ay ee et She.\n\nBinet mma, (5 |\" 12, =\n\nZeGtit-+ Qo, ledge eden Alem)\nzea ait Peat Pee || a ae Qo 20-8 3-3\nPetr aeserte—- move Geka girs» Joy\n\n| धर नकली aye : —2-k तन दी नी go മഷ.ക\n\n|\n\n",
+      "text_nfc": "Cer OOS 6374 ്2ചമ2: os. 2\"\n\nab Binjasrwt wn) oral ol Qn 6 o>|-\n\nAoyerunr -3,-2 %—?- AVDIRAZ : ८५९2\n\nकि कर . പച്ചി ാപ്വത്ക്നത Er H)rep wou\n\nmtr Am) ay) Dears 772 aa-oo asl On77? १\n\n<b -Bnw Pho Sasa pogo\n\n> Narn One ~T हि नर्स कि ് - FAT\n\nPPM BEI BW Seo DO or1*Zy0 CB ANGI Ome\n\nOMeA’> ~~) 4, Qe CH ay ee et She.\n\nBinet mma, (5 |\" 12, =\n\nZeGtit-+ Qo, ledge eden Alem)\nzea ait Peat Pee || a ae Qo 20-8 3-3\nPetr aeserte—- move Geka girs» Joy\n\n| धर नकली aye : —2-k तन दी नी go മഷ.ക\n\n|\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_083",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 9,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "dER   HATEE, hE-R, T, S\nfS ET  3      -f    S\na  HST TE SaET 3PTH  h- S  3T1 H TTT\ngq\nM    HE  E     EHT T (\n, -,   E    E   T\nT  E RT  34CET   3R E 5 H  TT  CT\nAH\nHE fE\nMTR, H TTET FAHT \nHGRT-HH-C, TYRTCFHOT HHE-f\n© NCERT\nx\nL\nReprint 2026-27",
+      "text_nfc": "dER   HATEE, hE-R, T, S\nfS ET  3      -f    S\na  HST TE SaET 3PTH  h- S  3T1 H TTT\ngq\nM    HE  E     EHT T (\n, -,   E    E   T\nT  E RT  34CET   3R E 5 H  TT  CT\nAH\nHE fE\nMTR, H TTET FAHT \nHGRT-HH-C, TYRTCFHOT HHE-f\n© NCERT\nx\nL\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

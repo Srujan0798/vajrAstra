@@ -1,0 +1,41 @@
+{
+  "page_id": "te_030",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0030pro_raw.pdf",
+    "page_index": 91,
+    "width": 594.6296997070312,
+    "height": 819.1126098632812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.6296997070312,
+        819.1126098632812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Hand\nName\nof the\nwashing\nsteps\nnational\nDNOD\nanimal\nRhyming\nFive musical\nword for\nWord\nwith\ninstruments\n'nest\nsound\n\"ee\nWord starts\nwith\nbr\nOONOO\nWord starts\nNNNN\nwith\ncl\nWords with\n5 letter\nDays of\n00\nsound\nwords\nthe week\nWords end\n2 letter\nwith\nt\nsound\nwords\nStart\nWord starts\n3 letter\nwith\nwords\nMAHARASHTRA STATE BUREAU OF\nTEXTBOOK PRODUCTION AND\nSARAO\nCURRICULUM RESEARCH, PUNE.\nSamagra\nShiksha\n    hlh\n(For free distribution)",
+      "text_nfc": "Hand\nName\nof the\nwashing\nsteps\nnational\nDNOD\nanimal\nRhyming\nFive musical\nword for\nWord\nwith\ninstruments\n'nest\nsound\n\"ee\nWord starts\nwith\nbr\nOONOO\nWord starts\nNNNN\nwith\ncl\nWords with\n5 letter\nDays of\n00\nsound\nwords\nthe week\nWords end\n2 letter\nwith\nt\nsound\nwords\nStart\nWord starts\n3 letter\nwith\nwords\nMAHARASHTRA STATE BUREAU OF\nTEXTBOOK PRODUCTION AND\nSARAO\nCURRICULUM RESEARCH, PUNE.\nSamagra\nShiksha\n    hlh\n(For free distribution)",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

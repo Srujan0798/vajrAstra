@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_049",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+    "page_index": 0,
+    "width": 1695,
+    "height": 2198
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1695,
+        2198
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1\nBNeE8S J5Ed\nBNOEEE Does Nooed 3N0ede esateed,\nNoas 3esses/es.p1e-3/2013.\nZode oate: 243, 23e eobpy\n0p0r3 Nop, (.8.90%.sordergo d dea,\ne3ogsted, apoos: 26.04.2013.\neoreess\nOaab: No00d Bogded 230O0JE Ntno abawodd 3e9\nsosera 000.\neoegea): 3obod 230p0r00 esaleeda Rodpees Noar: 1 abi 2.\n******\nONOE 838 Nobod 30308 (8dgda) esppadab, 2012 o aode0 39-0 Dedes.\n33. 3000d Sogt estse3 aboned Noaverss esponeda Ooes Nobod 2300\nesaleeda abeegesoded, pwesag abrs. pabogosigua Jar330g003. de opabeg\naboe365 2013 d eoasd 230N0E3 Sase 2J08 Rdas Noted 30330830 13000001303\nabowodd aegatrta sosserbaeg NOROPPR Nogoeo obeddo 200000b00deb BoobE\n33300c0as esagaad Dagabwoln. ONDEE3B No00d Nogo8 espppaba, 1959 d\n(Rosaaed) eppatad) Jodeo 20 deg Nwrgo abowena exg 2030d80030. D\newdod,\n1. 30500 Joaa rtris / 33000, Nozts e9t3833 abowe e3Noedadeg wows 03\naegrs abo 2d3ade.\n2. 3gn Sobed 30330e0 J00OQN0O3 Noe 283 ridrigd), Ne at3 stsrigd\ndegreg obedo Noe ababa sprisd), Ne aoabwe 20aao gegdege abo\ne3ere0wrn aants ervejoof)doagd. Noe twad, Noe 36a0wad WOR esry\neppabab Jodea 20 (1) des espie Neod.\n3. Noab aoz epwo 10 soriged abowena (Nominal or Associate Member)\n033 2030e.\n4: RpWOOJes NagRd abawents da3 a0woe (OpWed WOWO abod WOR\neoog Be 330er3eg 030r3 perse0a)\n5. Bogt abderdesd 12 3038d8d awog Joga\ndorguopgadod 2\nabowena\naey 220030e).\n6. N0500 Nogo8 esppabas\n23e2803 esti sagaeadgat 883 5\nacordeaddeg 3\naoeresded dowoodew agesoi ritdris / 33000\nabbwena dey pasoe\n7. 883 3 No500 ogEddeo Nogaow epaspabaodeg dex3600o3 avonie\napag Nea epao Roeegden 3oabew ogesea saris / weppai\nabowena aeny deoadade).\n8. No50d dozisenrdes:\n(1) es Nogas e9t3883 Jas dagodes epae 3odto 310 elsajeg\n0peigebs00 Seabo eseides,\n(2) aodee 720 eseabeg Rogas 3abo3a esredscdeg.\n(3) Rogas eogegg @\neponbeowo) seg sedorgrstse mrjeg epao",
+      "text_nfc": "1\nBNeE8S J5Ed\nBNOEEE Does Nooed 3N0ede esateed,\nNoas 3esses/es.p1e-3/2013.\nZode oate: 243, 23e eobpy\n0p0r3 Nop, (.8.90%.sordergo d dea,\ne3ogsted, apoos: 26.04.2013.\neoreess\nOaab: No00d Bogded 230O0JE Ntno abawodd 3e9\nsosera 000.\neoegea): 3obod 230p0r00 esaleeda Rodpees Noar: 1 abi 2.\n******\nONOE 838 Nobod 30308 (8dgda) esppadab, 2012 o aode0 39-0 Dedes.\n33. 3000d Sogt estse3 aboned Noaverss esponeda Ooes Nobod 2300\nesaleeda abeegesoded, pwesag abrs. pabogosigua Jar330g003. de opabeg\naboe365 2013 d eoasd 230N0E3 Sase 2J08 Rdas Noted 30330830 13000001303\nabowodd aegatrta sosserbaeg NOROPPR Nogoeo obeddo 200000b00deb BoobE\n33300c0as esagaad Dagabwoln. ONDEE3B No00d Nogo8 espppaba, 1959 d\n(Rosaaed) eppatad) Jodeo 20 deg Nwrgo abowena exg 2030d80030. D\newdod,\n1. 30500 Joaa rtris / 33000, Nozts e9t3833 abowe e3Noedadeg wows 03\naegrs abo 2d3ade.\n2. 3gn Sobed 30330e0 J00OQN0O3 Noe 283 ridrigd), Ne at3 stsrigd\ndegreg obedo Noe ababa sprisd), Ne aoabwe 20aao gegdege abo\ne3ere0wrn aants ervejoof)doagd. Noe twad, Noe 36a0wad WOR esry\neppabab Jodea 20 (1) des espie Neod.\n3. Noab aoz epwo 10 soriged abowena (Nominal or Associate Member)\n033 2030e.\n4: RpWOOJes NagRd abawents da3 a0woe (OpWed WOWO abod WOR\neoog Be 330er3eg 030r3 perse0a)\n5. Bogt abderdesd 12 3038d8d awog Joga\ndorguopgadod 2\nabowena\naey 220030e).\n6. N0500 Nogo8 esppabas\n23e2803 esti sagaeadgat 883 5\nacordeaddeg 3\naoeresded dowoodew agesoi ritdris / 33000\nabbwena dey pasoe\n7. 883 3 No500 ogEddeo Nogaow epaspabaodeg dex3600o3 avonie\napag Nea epao Roeegden 3oabew ogesea saris / weppai\nabowena aeny deoadade).\n8. No50d dozisenrdes:\n(1) es Nogas e9t3883 Jas dagodes epae 3odto 310 elsajeg\n0peigebs00 Seabo eseides,\n(2) aodee 720 eseabeg Rogas 3abo3a esredscdeg.\n(3) Rogas eogegg @\neponbeowo) seg sedorgrstse mrjeg epao",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

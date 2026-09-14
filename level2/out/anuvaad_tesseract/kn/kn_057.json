@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_057",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 113,
+    "width": 1108,
+    "height": 1643
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1108,
+        1643
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ತುಳುವೆರೆ ಐಸ್‌ರೊ\n० ಭಾಸ್ಕರ ರೈ se\n\nಐಸ್‌ರೊಯೆ ಐಸ್‌ರೊ ತುಳುವೆರೆನ ಐಸ್‌ರೊ\nNad ಪೂರ ಗಮ್ಮಲ್ ಗೆಜ್ಜೆಕಟ್ಟಿಮಂದೆಲು ॥ ಪಲ್ಲವಿ ॥\n\nಸಾಲ್ ಸಾಲ್ ಪರ್ಬಲೇಸ್\n\nಆಟ ನಾಟ್ಯ ಗೊಬ್ಬುಲೇತ್ I\n\nಓಲೆ ಪೋಂಡಲ ತಮ್ಮನಾ\n\nಮಾತ shone vgs ॥ ಐಸ್‌ರೊ ti ೧ II\n\nಪಗ್ಗು ಬೇಸ್ಯ ಕಾರ್ತೆಲ್\n\nಆಟಿ ಸೋಣ ಪುಯಿಂತೆಲ್ It\n\nDAD ಭೀಮೆ ಮುಗಿಪುವೆ\n\nಅಟ್ಟೆಮಿ ಕಿಟ್ಟೆ ಉದಿಪುವೆ I ಐಸ್‌ರೊ il Di\n\nನಾಗ 3B Sono\n\n2203 WO ಕಂಬುಲ Il\n\nಸೀಮೆ wos, ಸಂತೆಯೇ\n\nಕಟ್ಟಕೋರಿ ಕೋಲಯೇ Il HSA ॥ 9. Il\n\nಕಳೆಂಜೆ ಚೆನ್ನುಮಾದಿರೊ\n\nಕಂಡಕಲ Wows ॥\n\nಚೆನ್ನೆಜಿಬಿಲಿ ತಪ್ಪಂಗಾಯಿ\n\nಸೋಜಿಸರ್ಬತ್ ಬಚ್ಚಂಗಾಯಿ IIಐಸ್‌ರೊ ॥ 9. Il\n\nಊರು ಪೋಂಡು ಪೇಂಟೆ ಆಂಡ್\n\nಬರವು ಸರವು ಕಡಪ ಪೋಂಡು i!\n\nಪದ ಪದೊಲಿ ನಲಿಕೆ ತೆಲಿಕೆ\n\nಪನ್ನಿ ಬೆನ್ನಿ ಮೀರಿ ಬಲಕೆ HAGA IP I\n\nನೆಯಿ-ಪೇರ್ /99\n",
+      "text_nfc": "ತುಳುವೆರೆ ಐಸ್‌ರೊ\n० ಭಾಸ್ಕರ ರೈ se\n\nಐಸ್‌ರೊಯೆ ಐಸ್‌ರೊ ತುಳುವೆರೆನ ಐಸ್‌ರೊ\nNad ಪೂರ ಗಮ್ಮಲ್ ಗೆಜ್ಜೆಕಟ್ಟಿಮಂದೆಲು ॥ ಪಲ್ಲವಿ ॥\n\nಸಾಲ್ ಸಾಲ್ ಪರ್ಬಲೇಸ್\n\nಆಟ ನಾಟ್ಯ ಗೊಬ್ಬುಲೇತ್ I\n\nಓಲೆ ಪೋಂಡಲ ತಮ್ಮನಾ\n\nಮಾತ shone vgs ॥ ಐಸ್‌ರೊ ti ೧ II\n\nಪಗ್ಗು ಬೇಸ್ಯ ಕಾರ್ತೆಲ್\n\nಆಟಿ ಸೋಣ ಪುಯಿಂತೆಲ್ It\n\nDAD ಭೀಮೆ ಮುಗಿಪುವೆ\n\nಅಟ್ಟೆಮಿ ಕಿಟ್ಟೆ ಉದಿಪುವೆ I ಐಸ್‌ರೊ il Di\n\nನಾಗ 3B Sono\n\n2203 WO ಕಂಬುಲ Il\n\nಸೀಮೆ wos, ಸಂತೆಯೇ\n\nಕಟ್ಟಕೋರಿ ಕೋಲಯೇ Il HSA ॥ 9. Il\n\nಕಳೆಂಜೆ ಚೆನ್ನುಮಾದಿರೊ\n\nಕಂಡಕಲ Wows ॥\n\nಚೆನ್ನೆಜಿಬಿಲಿ ತಪ್ಪಂಗಾಯಿ\n\nಸೋಜಿಸರ್ಬತ್ ಬಚ್ಚಂಗಾಯಿ IIಐಸ್‌ರೊ ॥ 9. Il\n\nಊರು ಪೋಂಡು ಪೇಂಟೆ ಆಂಡ್\n\nಬರವು ಸರವು ಕಡಪ ಪೋಂಡು i!\n\nಪದ ಪದೊಲಿ ನಲಿಕೆ ತೆಲಿಕೆ\n\nಪನ್ನಿ ಬೆನ್ನಿ ಮೀರಿ ಬಲಕೆ HAGA IP I\n\nನೆಯಿ-ಪೇರ್ /99\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

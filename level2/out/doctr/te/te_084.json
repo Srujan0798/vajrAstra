@@ -1,0 +1,41 @@
+{
+  "page_id": "te_084",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0084pro_raw.pdf",
+    "page_index": 99,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "woanots Wasood aonvero\nBeons 60 S0083880056 383 escaogeroes Soev asO0is eoes .\nSoSoa:\n2008500010 58,05, 35205\nII SOWs BO011\n50,80 2y01058500010 a885\nII SOWOS B0S11\n50 d8swe0do3 So5ss\nII 8000 20S11\nwaogens 20085 02300085\nII SO0os B0011\nWndod e9016255966ro0\nII SOWOS B0S11\noesassoë : eolgesests eoes & sgasoobe - eabs 50 3eg OaysA JDosto SOS Xoéo Je\nSJsd Jo0s Dyes Ssoones Doesots JerXoes.\nSOSts :\n58600 8oga\nR a\ns0ood oobes\n2\n2J055 280 0808\nR\n50200 ooabes\n2 e\nKoéo 20875 00es\n2 -\n(oge Dag 00 80\n2\n-\nKogeoos aaose\n2\neodono aoesso Sasos\n2\n258005003 2JoQwa Saitss\n2 a\naes 28e705505 Saits\n2 a\n058n03 83800\nsoawë 50 3egis 0233, sJeogco, DeSnd.\n023 :\neao 5 essso! Soobe ao esvssvegé 53505 Jew SSAICOES 02005\narjaos Bewns SosA wwym 2033 as.\nBeondeasis dooe Beoriss\nBeod Sezbots sevhogots\nDesoes fevo 00h6 2J0000\ndopgeos Bevh 82.\neabgeresab! eods SOWX OSJG esogesescooes.\n023 :\noobevdrs Joggelges SJ6O ssoas - SN eevhs \"nesdabs es5 8 Sary eryos.\nDesapoios (235 88 as goEales Kopas 283856 ms Beuhs apolsse\n58000.\nJejes\n02 :\nSeroes aô stso Be0X056 & J3eod. ed 380 osy - essasois es\n90",
+      "text_nfc": "woanots Wasood aonvero\nBeons 60 S0083880056 383 escaogeroes Soev asO0is eoes .\nSoSoa:\n2008500010 58,05, 35205\nII SOWs BO011\n50,80 2y01058500010 a885\nII SOWOS B0S11\n50 d8swe0do3 So5ss\nII 8000 20S11\nwaogens 20085 02300085\nII SO0os B0011\nWndod e9016255966ro0\nII SOWOS B0S11\noesassoë : eolgesests eoes & sgasoobe - eabs 50 3eg OaysA JDosto SOS Xoéo Je\nSJsd Jo0s Dyes Ssoones Doesots JerXoes.\nSOSts :\n58600 8oga\nR a\ns0ood oobes\n2\n2J055 280 0808\nR\n50200 ooabes\n2 e\nKoéo 20875 00es\n2 -\n(oge Dag 00 80\n2\n-\nKogeoos aaose\n2\neodono aoesso Sasos\n2\n258005003 2JoQwa Saitss\n2 a\naes 28e705505 Saits\n2 a\n058n03 83800\nsoawë 50 3egis 0233, sJeogco, DeSnd.\n023 :\neao 5 essso! Soobe ao esvssvegé 53505 Jew SSAICOES 02005\narjaos Bewns SosA wwym 2033 as.\nBeondeasis dooe Beoriss\nBeod Sezbots sevhogots\nDesoes fevo 00h6 2J0000\ndopgeos Bevh 82.\neabgeresab! eods SOWX OSJG esogesescooes.\n023 :\noobevdrs Joggelges SJ6O ssoas - SN eevhs \"nesdabs es5 8 Sary eryos.\nDesapoios (235 88 as goEales Kopas 283856 ms Beuhs apolsse\n58000.\nJejes\n02 :\nSeroes aô stso Be0X056 & J3eod. ed 380 osy - essasois es\n90",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

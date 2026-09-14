@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_086",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+    "page_index": 0,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "di\nΓT\nG\n6\n1S\nதமிழ்நாடு\nஅரசு\nமேல்நி\nைலை\nஇரண்டாம்\nஆண்டு\nO\nக்குப்பதிவியல்\nகண்\nதமிழ்நாடு\nஅரசு\nவிலையில்லாப் பாடநூல்\nவழங்கும் \n திட்டத்தின்\nகீழ்\n வெளியிடப்பட்டது\nபள்ளிக்\nகல்வித்துறை\nதீண்டாமை மனிதேநேயமற்ற\nரோமு\nபெருங்குற்றமும்\nஆகும்\n12th-Accountancy-Front.indd\n12/11/2021\n11:53:36 PM",
+      "text_nfc": "di\nΓT\nG\n6\n1S\nதமிழ்நாடு\nஅரசு\nமேல்நி\nைலை\nஇரண்டாம்\nஆண்டு\nO\nக்குப்பதிவியல்\nகண்\nதமிழ்நாடு\nஅரசு\nவிலையில்லாப் பாடநூல்\nவழங்கும் \n திட்டத்தின்\nகீழ்\n வெளியிடப்பட்டது\nபள்ளிக்\nகல்வித்துறை\nதீண்டாமை மனிதேநேயமற்ற\nரோமு\nபெருங்குற்றமும்\nஆகும்\n12th-Accountancy-Front.indd\n12/11/2021\n11:53:36 PM",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_038",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 258,
+    "width": 1123,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1123,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಟಿಪ್ಪಣಿಗಳು ೨೪೭\n\nಕನ್ನಡ ನುಡಿಯ ಜಾಯಮಾನವನ್ನು ಗಮನಿಸದೆ ಅದರ ವ್ಯಾಕರಣ\nಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಚೌಕಟ್ಟಿಗೆ ಅಳವಡಿಸಿರುವುದೇ\nಇಂಥ ಗೊಂದಲಗಳಿಗೆ ಕಾರಣವಾಗಿದೆ. ಪ್ರಕೃತದಲ್ಲಿ, ಮಾರ್ಗಕಾರನು\nಸಂಸ್ಕೃತವ್ಕಾಕರಣದ ಕಾರಕ ವ್ಯವಸ್ಥೆಯನ್ನು ಅನುಸರಿಸಿರುವುದರಿಂದ\nಅವನು ಕರ್ತವನ್ನು ಕಾರಕಾನುಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿಲ್ಲವೆಂದು ಶ್ರೀ ಕೆ.ಟಿ.\nಪಾಂಡುರಂಗಿಯವರು ಅಭಿಪ್ರಾಯಪಟ್ಟಿದ್ದಾರೆ. ಅವರು ತಿಳಿಸುವಂತೆ,\nಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಪ್ರಕಾರ ಪ್ರಥಮಾ ವಿಭಕ್ತಿ ಕಾರಕಾಧೀನವಲ್ಲ ;\nಹಾಗೂ (ಕರ್ಮಣಿ ಪ್ರಯೋಗದಲ್ಲಿ) ತೃತೀಯಾ ವಿಭಕ್ತಿಯ\n“ಕರಣ'ಕಾರಕವೇ “ಕರ್ತ'ಕಾರಕತ್ವವನ್ನೂ ಒಳಗೊಳ್ಳುತ್ತದೆ. ಮಾರ್ಗಕಾರನ\nಉಕ್ತಿಯನ್ನು ಅವನು ಈ ರೀತಿ ಸಮರ್ಥಿಸಿರುವುದು ಗ್ರಾಹ್ಯವಾಗಿ\nಕಂಡುಬ೦ದರೂ, ಮಾರ್ಗಕಾರನು ಹೇಳುವ “ಕರ್ಕ'ಕಾರಕ ರಹಿತವಾದ\nಆರು ಕಾರಕಗಳಲ್ಲಿ ಷಷ್ಠಿಯೂ ಸೇರುವುದೇ ಇಲ್ಲವೆ ಎಂಬ ಸಮಸ್ಯೆಗೆ\nಅವರಿಂದ ಪರಿಹಾರ ಸೂಚಿತವಾಗಿಲ್ಲ.”?\n\nಕೇಶಿರಾಜನೂ ತೃತೀಯೆಗೆ ಕತೃಕಾರಕತ್ವವನ್ನು ಹೇಳಿದ್ದಾನೆ. ('ತೃತೀಯೆ ಪೇಟಲ್‌\nಪಡೆಗುಂ ಕತ್ಕಕರಣ ಹೇತು ಸ್ಥಿತಿಯೊಳ್‌' — ಸೂ. ೧೨೮. ಉದಾ. ಕಾವ್ಯಮೆನ್ನಿಂ\nBee? ಪಟ್ಟುದು.)\n\n(ಆಧುನಿಕ ಭಾಷಾ ಶಾಸ್ತ್ರಜ್ಞರ ಪ್ರಕಾರ, ಕನ್ನಡದಲ್ಲಿ ಪ್ರಥಮಾ ವಿಭಕ್ತಿಯಿದ್ದರೂ\nಅದನ್ನು ಸಂಕೇತಿಸುವ Tob ನುಡಿಯ ಜಾಯಮಾನಕ್ಕೆ ಹೊರತು. ನಾಮಪಕೃತಿಯೇ\nಪ್ರಥಮೆಯ ಅರ್ಥದಲ್ಲಿ ಪ್ರಯೋಗವಾಗುತ್ತದೆ. ಮಾರ್ಗಕಾರನ ಲಕ್ಷ್ಯಪದ್ಯದಲ್ಲಿಯೇ\n— ‘BOBS ಬಂದಂ' - Now ಪ್ರಯೋಗ ಇದಕ್ಕೆ ನಿದರ್ಶನ. ಅಲ್ಲದೆ, ವಾಕ್ಯದ\n\n೧೨. \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven\nvibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit\ngrammarians, the first case termination does not convey any Karaka. The second\nconveys Karma, the Karana and Karta and so on. The verbal termination con-\nveys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons........ a plan of reference to Karma on this basis\ncannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot\nalso be applied mutatis mutandis to Kannada.\" - Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' : Paper by Sri K.T. Pandurangi, M.A. ; Vide\nproceedings of the Seminar on Grammatical \"Theories in Kannada\" (October\n1965), Annamalai University, Annamalainagar.\n\n",
+      "text_nfc": "ಟಿಪ್ಪಣಿಗಳು ೨೪೭\n\nಕನ್ನಡ ನುಡಿಯ ಜಾಯಮಾನವನ್ನು ಗಮನಿಸದೆ ಅದರ ವ್ಯಾಕರಣ\nಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಚೌಕಟ್ಟಿಗೆ ಅಳವಡಿಸಿರುವುದೇ\nಇಂಥ ಗೊಂದಲಗಳಿಗೆ ಕಾರಣವಾಗಿದೆ. ಪ್ರಕೃತದಲ್ಲಿ, ಮಾರ್ಗಕಾರನು\nಸಂಸ್ಕೃತವ್ಕಾಕರಣದ ಕಾರಕ ವ್ಯವಸ್ಥೆಯನ್ನು ಅನುಸರಿಸಿರುವುದರಿಂದ\nಅವನು ಕರ್ತವನ್ನು ಕಾರಕಾನುಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿಲ್ಲವೆಂದು ಶ್ರೀ ಕೆ.ಟಿ.\nಪಾಂಡುರಂಗಿಯವರು ಅಭಿಪ್ರಾಯಪಟ್ಟಿದ್ದಾರೆ. ಅವರು ತಿಳಿಸುವಂತೆ,\nಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಪ್ರಕಾರ ಪ್ರಥಮಾ ವಿಭಕ್ತಿ ಕಾರಕಾಧೀನವಲ್ಲ ;\nಹಾಗೂ (ಕರ್ಮಣಿ ಪ್ರಯೋಗದಲ್ಲಿ) ತೃತೀಯಾ ವಿಭಕ್ತಿಯ\n“ಕರಣ'ಕಾರಕವೇ “ಕರ್ತ'ಕಾರಕತ್ವವನ್ನೂ ಒಳಗೊಳ್ಳುತ್ತದೆ. ಮಾರ್ಗಕಾರನ\nಉಕ್ತಿಯನ್ನು ಅವನು ಈ ರೀತಿ ಸಮರ್ಥಿಸಿರುವುದು ಗ್ರಾಹ್ಯವಾಗಿ\nಕಂಡುಬ೦ದರೂ, ಮಾರ್ಗಕಾರನು ಹೇಳುವ “ಕರ್ಕ'ಕಾರಕ ರಹಿತವಾದ\nಆರು ಕಾರಕಗಳಲ್ಲಿ ಷಷ್ಠಿಯೂ ಸೇರುವುದೇ ಇಲ್ಲವೆ ಎಂಬ ಸಮಸ್ಯೆಗೆ\nಅವರಿಂದ ಪರಿಹಾರ ಸೂಚಿತವಾಗಿಲ್ಲ.”?\n\nಕೇಶಿರಾಜನೂ ತೃತೀಯೆಗೆ ಕತೃಕಾರಕತ್ವವನ್ನು ಹೇಳಿದ್ದಾನೆ. ('ತೃತೀಯೆ ಪೇಟಲ್‌\nಪಡೆಗುಂ ಕತ್ಕಕರಣ ಹೇತು ಸ್ಥಿತಿಯೊಳ್‌' — ಸೂ. ೧೨೮. ಉದಾ. ಕಾವ್ಯಮೆನ್ನಿಂ\nBee? ಪಟ್ಟುದು.)\n\n(ಆಧುನಿಕ ಭಾಷಾ ಶಾಸ್ತ್ರಜ್ಞರ ಪ್ರಕಾರ, ಕನ್ನಡದಲ್ಲಿ ಪ್ರಥಮಾ ವಿಭಕ್ತಿಯಿದ್ದರೂ\nಅದನ್ನು ಸಂಕೇತಿಸುವ Tob ನುಡಿಯ ಜಾಯಮಾನಕ್ಕೆ ಹೊರತು. ನಾಮಪಕೃತಿಯೇ\nಪ್ರಥಮೆಯ ಅರ್ಥದಲ್ಲಿ ಪ್ರಯೋಗವಾಗುತ್ತದೆ. ಮಾರ್ಗಕಾರನ ಲಕ್ಷ್ಯಪದ್ಯದಲ್ಲಿಯೇ\n— ‘BOBS ಬಂದಂ' - Now ಪ್ರಯೋಗ ಇದಕ್ಕೆ ನಿದರ್ಶನ. ಅಲ್ಲದೆ, ವಾಕ್ಯದ\n\n೧೨. \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven\nvibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit\ngrammarians, the first case termination does not convey any Karaka. The second\nconveys Karma, the Karana and Karta and so on. The verbal termination con-\nveys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons........ a plan of reference to Karma on this basis\ncannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot\nalso be applied mutatis mutandis to Kannada.\" - Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' : Paper by Sri K.T. Pandurangi, M.A. ; Vide\nproceedings of the Seminar on Grammatical \"Theories in Kannada\" (October\n1965), Annamalai University, Annamalainagar.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

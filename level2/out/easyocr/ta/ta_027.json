@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.6 coILIgఐflఐi ఐ్ఐ:Oద6i LoDmIU ఖఐGsTalllorilb6i ర్ై + స్ల + డ్జి ఫ్డీ ర్లి ర్ల ర్లే 0 ఫ ? 7 7 ఫ్ణి ^ల ? ర్ై క్డీ ? గ్లే?్ల ? క్ల ? గ్ల డ్డే డ్డె 8 డ్డె 8 8 8 క్డే క్డీ క్డీ డ్డీ ః ః డ్ణీ ః డ్ణీ ః ః ః ః ః క్డీ 'ద b 'b ఐ 'b ద 'k ఐ 8 8 8 8 దె క్జీ క్డీ !ీ కీg] థి క్డీశ్తి క్డీ క్తీశ్తీ క్డి కీశ్ీ క్డీ కణీ న్ి డ్డీ ం ం ం క్డీ శ్డీ I క్తీ క్డీ ఫ 2 2 p 2 ఫ ర్థె ః ః క్ణి ఫ్ణి కళిక ః ఐ [ కీశి = కి [ డ్డ్ క్డీ క్టీ ఠి ర్్ 6 ః ః\n73\nXIl U3-P-block indd 73\n21-12-2022 18.33.34",
+      "text_nfc": "3.1.6 coILIgఐflఐi ఐ్ఐ:Oద6i LoDmIU ఖఐGsTalllorilb6i ర్ై + స్ల + డ్జి ఫ్డీ ర్లి ర్ల ర్లే 0 ఫ ? 7 7 ఫ్ణి ^ల ? ర్ై క్డీ ? గ్లే?్ల ? క్ల ? గ్ల డ్డే డ్డె 8 డ్డె 8 8 8 క్డే క్డీ క్డీ డ్డీ ః ః డ్ణీ ః డ్ణీ ః ః ః ః ః క్డీ 'ద b 'b ఐ 'b ద 'k ఐ 8 8 8 8 దె క్జీ క్డీ !ీ కీg] థి క్డీశ్తి క్డీ క్తీశ్తీ క్డి కీశ్ీ క్డీ కణీ న్ి డ్డీ ం ం ం క్డీ శ్డీ I క్తీ క్డీ ఫ 2 2 p 2 ఫ ర్థె ః ః క్ణి ఫ్ణి కళిక ః ఐ [ కీశి = కి [ డ్డ్ క్డీ క్టీ ఠి ర్్ 6 ః ః\n73\nXIl U3-P-block indd 73\n21-12-2022 18.33.34",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

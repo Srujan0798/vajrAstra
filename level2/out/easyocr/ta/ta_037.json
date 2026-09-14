@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_037",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+    "page_index": 84,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "z223 + 123 + z1z2   = 1  Iz1 + z2 + Z3|\nI5/16i7 60ಯ0/1607LJIq   Z] + z2 + Z3 # 0 )\nz223 + Z123 + Z1z2 T60T @6]  = 7  z1 + z2 + Z3\no1089l3aಯlll` 0 2.16 z2 = = 67607m &LDGUTLIITI ' I೧ಗ(ತ [5/6u7( ಉom5lsoiT @ ([೫(ತLb 67607 [Bಐ]oಹ. ೫jol GI3/T6ir @3   22 = = .\n> Iz12 = | z | |z (z -]) = 0, Iz| = 0 ೨16ಉ೨್l | z = ] . IzI = 0 = z=0 o6TusJ 8@ ಪjol, |z| = ] = z2 = ]=z= ]\nI5/67 65016(ಪisl 2? = z = z2 =\n= ] .\n9/50( 3 ೬ಖಖJuJLppp   ಪ joysoT   @@ಸ೫(ತu0 ಅ56   ಏಣಟuJಪoತll|L0   @8ijಶ೨l @ಹಂತ [5lGo7( ಪ jooir @ ೨u(Lb 2.5.2 8 U  Jou I@IL IಯೆIಯಗಿಯೆಐ @Ijuad  on0 (Square roots of a complex number) q+ ib -60T @rjmಯ 06Lp 1 + T1 6760/5. ೨5/1osl  V d+ ib = 1 + 7y @5( ];y ೯ [ q+ ib = (T+iy)? = ೬? _ J? + i2Jy GILDul LDmDllb ಹಣLGOGUTLI U(ತS 5ಯಂ  ಕ BLDLILCಶಶ T 2 _ J2 = Q LDಣDILb 2xy = b (1? + J2 ) ? = (4? _ y? )? + 41 `y? = & + h? 12 + J2 [01oಹ ಅಯಹlIIo 12 _ J 2 = 142 + b? ೩2 _ J) 2 = Q Lpglun T? + J? = 1 d? + b? =ಿಣul@umooms 5ಗಹಹ\n102 + b? + 0 J = _ 2\n142 + b2 _ d J = 1 ' 6760ILI GILIoulTLb. 2\n2.1 = 0 6761Lm1ಖ(U[ಶl b [01oಹ 67600T 6760716U 1 LpDlub ] ಖ೫uool\n(DIuIGDLUJGDGUI[ಹoJLb LDಣDIL b (@@[ 6767160 ] Lpglu } ಖಣuJ6o @oJo CooDl (ಭIuUGLLJ6Dol[ oL @ (ಸu(ತLb\n9ಹC6J V q + ib = _\n- + q _ i b z = 0 @(b = 0 . (: Re(z) < - ) 1b 2 ಣ(U 6LೊGIL6007600 l607 @Jrj ೫3 D6L 5/16007 (SSI ]Lb Vq + ib = _ z +0 + i b z _ 0 @rತ z = q+ib Lpgluob = 0 . |b\n77\nಹ6LL 67600Tಹ6ir\n12th_Maths_TM_Vol1_CH2_Complex Numbers.indd\n16-12-2022 14.58.07",
+      "text_nfc": "z223 + 123 + z1z2   = 1  Iz1 + z2 + Z3|\nI5/16i7 60ಯ0/1607LJIq   Z] + z2 + Z3 # 0 )\nz223 + Z123 + Z1z2 T60T @6]  = 7  z1 + z2 + Z3\no1089l3aಯlll` 0 2.16 z2 = = 67607m &LDGUTLIITI ' I೧ಗ(ತ [5/6u7( ಉom5lsoiT @ ([೫(ತLb 67607 [Bಐ]oಹ. ೫jol GI3/T6ir @3   22 = = .\n> Iz12 = | z | |z (z -]) = 0, Iz| = 0 ೨16ಉ೨್l | z = ] . IzI = 0 = z=0 o6TusJ 8@ ಪjol, |z| = ] = z2 = ]=z= ]\nI5/67 65016(ಪisl 2? = z = z2 =\n= ] .\n9/50( 3 ೬ಖಖJuJLppp   ಪ joysoT   @@ಸ೫(ತu0 ಅ56   ಏಣಟuJಪoತll|L0   @8ijಶ೨l @ಹಂತ [5lGo7( ಪ jooir @ ೨u(Lb 2.5.2 8 U  Jou I@IL IಯೆIಯಗಿಯೆಐ @Ijuad  on0 (Square roots of a complex number) q+ ib -60T @rjmಯ 06Lp 1 + T1 6760/5. ೨5/1osl  V d+ ib = 1 + 7y @5( ];y ೯ [ q+ ib = (T+iy)? = ೬? _ J? + i2Jy GILDul LDmDllb ಹಣLGOGUTLI U(ತS 5ಯಂ  ಕ BLDLILCಶಶ T 2 _ J2 = Q LDಣDILb 2xy = b (1? + J2 ) ? = (4? _ y? )? + 41 `y? = & + h? 12 + J2 [01oಹ ಅಯಹlIIo 12 _ J 2 = 142 + b? ೩2 _ J) 2 = Q Lpglun T? + J? = 1 d? + b? =ಿಣul@umooms 5ಗಹಹ\n102 + b? + 0 J = _ 2\n142 + b2 _ d J = 1 ' 6760ILI GILIoulTLb. 2\n2.1 = 0 6761Lm1ಖ(U[ಶl b [01oಹ 67600T 6760716U 1 LpDlub ] ಖ೫uool\n(DIuIGDLUJGDGUI[ಹoJLb LDಣDIL b (@@[ 6767160 ] Lpglu } ಖಣuJ6o @oJo CooDl (ಭIuUGLLJ6Dol[ oL @ (ಸu(ತLb\n9ಹC6J V q + ib = _\n- + q _ i b z = 0 @(b = 0 . (: Re(z) < - ) 1b 2 ಣ(U 6LೊGIL6007600 l607 @Jrj ೫3 D6L 5/16007 (SSI ]Lb Vq + ib = _ z +0 + i b z _ 0 @rತ z = q+ib Lpgluob = 0 . |b\n77\nಹ6LL 67600Tಹ6ir\n12th_Maths_TM_Vol1_CH2_Complex Numbers.indd\n16-12-2022 14.58.07",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

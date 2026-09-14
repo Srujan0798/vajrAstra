@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_080",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 17,
+    "width": 595.3200073242188,
+    "height": 841.9199829101562
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "TET C     T   T    \neaffaar,\n3ia TEfa, iga aX TeT H 3m    Te I \nS  TE   Eef #   E, 3 3 ,\n4.9 8 a \n3i. CT ad (2012), S d H A, fa.Ta. TTT,\n.T  (2013), S,  ET, a\nT  (1968  (s U 1),\n.  i TA, (2010 EC EA T 3  T\nHaT (u2uefxcoye), T fac\nTH GYNY (1995), HTTfaSTT, YhT TiNTT, Tfaco\nBernard BlochandGeorge L.Trager (1972),Outlines of Linguistic\nAnalysis, Munshiram Manoharlal Publishers Pvt Ltd .\nGeorge Yule (1985), The Study of Language An Introduction,\nCambridge University Press, Cambridge, UK.\nJ. Sethi & P.V. Dhamija (1999), A Course in Phonetics and Spoken\nEnglish, Prentice Hall of India Private Limited, New Delhi.\nV\n4.10 R \n1.ES C      TR T \n2. E  34f 1\n1      8\n1 l  k   9\n78",
+      "text_nfc": "TET C     T   T    \neaffaar,\n3ia TEfa, iga aX TeT H 3m    Te I \nS  TE   Eef #   E, 3 3 ,\n4.9 8 a \n3i. CT ad (2012), S d H A, fa.Ta. TTT,\n.T  (2013), S,  ET, a\nT  (1968  (s U 1),\n.  i TA, (2010 EC EA T 3  T\nHaT (u2uefxcoye), T fac\nTH GYNY (1995), HTTfaSTT, YhT TiNTT, Tfaco\nBernard BlochandGeorge L.Trager (1972),Outlines of Linguistic\nAnalysis, Munshiram Manoharlal Publishers Pvt Ltd .\nGeorge Yule (1985), The Study of Language An Introduction,\nCambridge University Press, Cambridge, UK.\nJ. Sethi & P.V. Dhamija (1999), A Course in Phonetics and Spoken\nEnglish, Prentice Hall of India Private Limited, New Delhi.\nV\n4.10 R \n1.ES C      TR T \n2. E  34f 1\n1      8\n1 l  k   9\n78",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_004",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0005pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 579
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        579
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2 nhasvorin\nmuladiamere esdmsnal mummula ang amodruf nkancom\npoerpos\nmorigisyne. ayoer pamoesont marge s mitagumnnges\nqoskruoommcint\nmootus ciaoe memmulal\ngedkoroleanal manal mulaclasonee- maglalsamm spente\nlomnges shonpeond goyamammeregeoe.\nnos - ayal ( ariert niaiy\n1\n3 BVE\nakerymandes\n(anJA)\nap seydmaurd\nounp eey Ingol.apa)\nendaceeamoes -\nrkaxd myunt.\nx\nHoxym mard P3/201ef6422(9/sco\nmommbnash,\nmeyas/ssemb\nmoboniart,\n6\n9\nA\nGanmlolasë (agebau)\nneseass\n2000\n40.9h890 Peronshegiral,\n1\nà\n>",
+      "text_nfc": "2 nhasvorin\nmuladiamere esdmsnal mummula ang amodruf nkancom\npoerpos\nmorigisyne. ayoer pamoesont marge s mitagumnnges\nqoskruoommcint\nmootus ciaoe memmulal\ngedkoroleanal manal mulaclasonee- maglalsamm spente\nlomnges shonpeond goyamammeregeoe.\nnos - ayal ( ariert niaiy\n1\n3 BVE\nakerymandes\n(anJA)\nap seydmaurd\nounp eey Ingol.apa)\nendaceeamoes -\nrkaxd myunt.\nx\nHoxym mard P3/201ef6422(9/sco\nmommbnash,\nmeyas/ssemb\nmoboniart,\n6\n9\nA\nGanmlolasë (agebau)\nneseass\n2000\n40.9h890 Peronshegiral,\n1\nà\n>",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

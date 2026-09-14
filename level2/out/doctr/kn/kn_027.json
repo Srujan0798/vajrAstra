@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_027",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0028pro_raw.pdf",
+    "page_index": 16,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "21 Eooboesrj Oooo 2e3EESC2\naoCy asowonere 500sdode. deae abosaorese eg, aoa aon aanes, ea den don\naowsa wawoneg goawiea.\n1\neage eed aoa OsDE\ngeni\neoswaoh\nSFWOO\nwowane No soawan! Jaoni woa ae NWOs NoweFoerg DOOFO Srcod.oyaesocen\naoa ara eoswwon aowdoga eacotoosd. ewwoodion, seooas, aoay nedza egan\n208NWo7 enwe sonea Toabon wdawaon Boawwon 323 wotwaa. sa 30800 as\newa doaj soowawon D08EDD. say ajocartd epwo Hasoedd-Xaledoaddo eanya\ndoctdos NOay eoa awetero WOOreaa. ead\nJaontA\nnee aobzod epao 80000300\n-\n1\nwodo aoa Bond.ogaaods.\nmodse 3 232352:\ndeay 303 abaa NOWEFRSD aiocz32 was eoa adasoeses cegaa sroneooa\nanoadog, 88 engonea, Day Towoô- ne00on Bozsioe e\nBEtE\n2o3\n232352 :\na\naoay say sone adasoesbsad Q owenwawa woRson, 2323F2.\naoe esaowoh awowwoade aoonea, awoweta ROWIFIPOWa0, geojoad\nadogogos aronea aaatwwa 3\naz ewon Rosondos aoe etay Enadood\nday 2e00d2 cof aodaseeswaco.\nNOC eoz0 ternea asoawon, Day aARO lewon wepado 63 aaab\nRosoad WOW gpad w0803d.\n2 tend IaaeeneO asoojas aueasas doTs DE Stedooan a\n232852:\n1. NORD aaa Sone ada02son.\n2. gadFwoh NT 333001 addospaas aas awoos 2308 63 803 endoz\ndeead.ospoosd BOowaja.\n3. gedadad aATED ewon 3900000 3nadooadd, eao W9 gais beep\neday b000nDa0.\n4. \"atodo snadeoanp doa Ros0\" o\nwons aessoas, Jo30 e wADWn Da\ngeede aloodde 23 32g001 Rosedos NE32 \"sdry abodoe soA wNO\na8gogd\" e\nwoao aeebaa.\n9",
+      "text_nfc": "21 Eooboesrj Oooo 2e3EESC2\naoCy asowonere 500sdode. deae abosaorese eg, aoa aon aanes, ea den don\naowsa wawoneg goawiea.\n1\neage eed aoa OsDE\ngeni\neoswaoh\nSFWOO\nwowane No soawan! Jaoni woa ae NWOs NoweFoerg DOOFO Srcod.oyaesocen\naoa ara eoswwon aowdoga eacotoosd. ewwoodion, seooas, aoay nedza egan\n208NWo7 enwe sonea Toabon wdawaon Boawwon 323 wotwaa. sa 30800 as\newa doaj soowawon D08EDD. say ajocartd epwo Hasoedd-Xaledoaddo eanya\ndoctdos NOay eoa awetero WOOreaa. ead\nJaontA\nnee aobzod epao 80000300\n-\n1\nwodo aoa Bond.ogaaods.\nmodse 3 232352:\ndeay 303 abaa NOWEFRSD aiocz32 was eoa adasoeses cegaa sroneooa\nanoadog, 88 engonea, Day Towoô- ne00on Bozsioe e\nBEtE\n2o3\n232352 :\na\naoay say sone adasoesbsad Q owenwawa woRson, 2323F2.\naoe esaowoh awowwoade aoonea, awoweta ROWIFIPOWa0, geojoad\nadogogos aronea aaatwwa 3\naz ewon Rosondos aoe etay Enadood\nday 2e00d2 cof aodaseeswaco.\nNOC eoz0 ternea asoawon, Day aARO lewon wepado 63 aaab\nRosoad WOW gpad w0803d.\n2 tend IaaeeneO asoojas aueasas doTs DE Stedooan a\n232852:\n1. NORD aaa Sone ada02son.\n2. gadFwoh NT 333001 addospaas aas awoos 2308 63 803 endoz\ndeead.ospoosd BOowaja.\n3. gedadad aATED ewon 3900000 3nadooadd, eao W9 gais beep\neday b000nDa0.\n4. \"atodo snadeoanp doa Ros0\" o\nwons aessoas, Jo30 e wADWn Da\ngeede aloodde 23 32g001 Rosedos NE32 \"sdry abodoe soA wNO\na8gogd\" e\nwoao aeebaa.\n9",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

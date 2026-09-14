@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ल % N डूैँ # N + ी ड्ट्ूँ ५ # ड्लै फ ळ # ड्ँ १ झ # = # ठ # o \" ळ # १ ७ ७\n/6 05 7  l५ 7 Nor +०२. o0!280l0o22)@00. ७१o eJ ६ी ळ क़vOBJO  Bon@lda GDObmछ64onb.\n०० 8 ० ० ell @ ६ $ m३@ ठwelsmo\n७m O& 0iooवy : 00. 09- ml &a 6ooloo282@२I@olOd% @gठlelse IO\noonsooo lmle { =- ] 929. &8%8]}_1500\nPrinted at The l langalodayain   Press, Trichur Price 1= 00 ailel 1_0_-0.\nल\n(Copyright to the author )\ncm\n२  3 4 5 { 6 ७ { 8 9 10 11 12 13 14\ngpura.org\nOT TT ZT ६T +T ST ९T LT 8T",
+      "text_nfc": "ल % N डूैँ # N + ी ड्ट्ूँ ५ # ड्लै फ ळ # ड्ँ १ झ # = # ठ # o \" ळ # १ ७ ७\n/6 05 7  l५ 7 Nor +०२. o0!280l0o22)@00. ७१o eJ ६ी ळ क़vOBJO  Bon@lda GDObmछ64onb.\n०० 8 ० ० ell @ ६ $ m३@ ठwelsmo\n७m O& 0iooवy : 00. 09- ml &a 6ooloo282@२I@olOd% @gठlelse IO\noonsooo lmle { =- ] 929. &8%8]}_1500\nPrinted at The l langalodayain   Press, Trichur Price 1= 00 ailel 1_0_-0.\nल\n(Copyright to the author )\ncm\n२  3 4 5 { 6 ७ { 8 9 10 11 12 13 14\ngpura.org\nOT TT ZT ६T +T ST ९T LT 8T",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

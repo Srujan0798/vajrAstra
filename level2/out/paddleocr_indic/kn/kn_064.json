@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_064",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0025pro_raw.pdf",
+    "page_index": 87,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ತಡೆಗಟುವ\nಕವುಗಳು\nಟ\nಧೂಮಪಾನದಂದ\nಮದೃಪಾನದಂದ\nಅನಾರೋಗೃಕರಆಹಾರವನು\nಒತೃಡವನು\nಕಡವು\nದೂರಎರುವದು\nದೂರಎರುವುದು\nಕಡವುಿಮಾಡುವುದು\nಮಾಡುವದು\n\nಸಕರಿಮತುಸಕರಿಪದಾಥ-ಗಳ\nತೂಕಕಡವೆ\nಕೆಲಸಮತುದೆಹಕ\nಆರೋಗೃಕರ\nಸೇವನೆಯನುೃಕಡವುಮಾಡುವುದು\nಮಾಡುವದು\nವಾಯಾವು\nಆಹಾರಕವು\n.\n೧೦\nಗ\nನಂಿವಷಗಳನಂತರ\nವಷ-ಗಳನಂತರನಯವತ\nಏಯಮುತಿರಕೃದೊತಡಪಂಕೆ\nಸಕೃರಿಪಮಾಣಿಪರೀಕೆ\n೯೦",
+      "text_nfc": "ತಡೆಗಟುವ\nಕವುಗಳು\nಟ\nಧೂಮಪಾನದಂದ\nಮದೃಪಾನದಂದ\nಅನಾರೋಗೃಕರಆಹಾರವನು\nಒತೃಡವನು\nಕಡವು\nದೂರಎರುವದು\nದೂರಎರುವುದು\nಕಡವುಿಮಾಡುವುದು\nಮಾಡುವದು\n\nಸಕರಿಮತುಸಕರಿಪದಾಥ-ಗಳ\nತೂಕಕಡವೆ\nಕೆಲಸಮತುದೆಹಕ\nಆರೋಗೃಕರ\nಸೇವನೆಯನುೃಕಡವುಮಾಡುವುದು\nಮಾಡುವದು\nವಾಯಾವು\nಆಹಾರಕವು\n.\n೧೦\nಗ\nನಂಿವಷಗಳನಂತರ\nವಷ-ಗಳನಂತರನಯವತ\nಏಯಮುತಿರಕೃದೊತಡಪಂಕೆ\nಸಕೃರಿಪಮಾಣಿಪರೀಕೆ\n೯೦",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

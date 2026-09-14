@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_066",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 0,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "CFMTRAL BOARD Oಾ SLCONDAR[ FDUCATTON\nSAMPLE QUESTION PAPER FOR SSE 2024 25\nStd X\nTime Allowed 3 Hrs @19m ) ೧I312l ೧೧೧೦\nMaximum Marks 80 @6ಹ Qಂ066 80\n3 261mಎ@\nMALAYALAM (CODE - 012)\nThe question paper is divided into two sections Section A Reading Comprehension (VS.AQ) Vocabulary Building; Prose & Poetry (Mc.Q) 40 Marks Section B Grammar; Composition Literature (Prose; Poetry & Supplementary Reader 40 Marks n) ೧Is೨ro [Section A] L @m101ಯ೧ Im @Iom qulo ೧1೨೦1, | ?/)೧Ios@l9e @೨J3q] 6313ವo6  2@೧೦ ೧9J@J ಯ (630@0-m1೧)o 630*@3   0೨ನc೧   ೧1oo ) [8x]=8] 1903. @೧೧ೀ0೨ @7ಯ51೧J@) ದ6n3J೧ ]151315 ೧3' ೧Jನ೧w2೨ಯ(8 ೦.ಖ6J. UಂmUL@Ge.Oಹo @6೧lಹಿyg೧e116ಗಗಯo ಉುಂಹಮವJ ೧1ಯJ6SOJo @೧G೧logomonelog3g.os @ಾ@L0@el6G369n [R ೨11001.90   6c0631016.6 , ೧Inನ @೧೧೦೦ಉ1@೧ಗಯ )o   @L೧೦೧ು೧1ಹಿ (mಂಉlಯ )6S0Jo 2mಉಂ ಹಿಇ1ೀಾ   630)   ೧ l@o)೧ಚ   @9ಊಯ೦   os6eISJooxm). @೧ಉು1ಃ8@೨   @9ms1೧o@os ಅ೧೧i1so   ೧J3Od.06G39os   ೨೦೫ಣ೦   ಅನ3೧21೧ 1-೧೨೧ 89 ದ 91೧Jಇ0101m೧೨6೨m @ಾ೧.ನc6) @@೨m1.  1903-eJ @20 Q9m೧೦]ನ? @L೧೧ಉ೧1- @mಂ ] ೧9೩@1 @೧೧1@ಯ೨ @96s1೧l@ ' ೧J@12101ಹ91ದ.೦@0 ೨೦೧೫ಣ 01482l66 89 3JJ6n3ದ೧ IeJಹ@oom . 9m1G2೧3 ೧I3o@LQo ೧೧I೧೦ 8 ೧Im@ ) 29Lದ26, @3@7 @ಇ೧ಇಣ 0 16ಯದ ದಾel೧l೧ ದ್ಮಿಾS@ಂಹ್ಮಿಾಎm) ' 1908-@ಾ   @6೧   (೧J6 ly೨೧2೦೦ @೧೧1ಯ@೦1ಎ೧ದ   ೧y೨6 lೊ೨೧o ೧m   ೧lಥm@ವ @x]ೀ @mಂಉು] 630೧ IS1 ದಿ S %)@mಭsaG೧ ೨@1. ೧I39@.C6@0) @೧ I೨೧೦@6R [S)@O)೨೧ರ ಹg1ಯxm 630)   ಉ೩೧೧@0 1೧   ೧ilಯdR lelos   @೧]o   @mGSonso1@. (1@೦೧೦ @೧೧೧@೦1೧   630X 20 ( 216@ ೧I@1೧/ನ೧೦೧೦ 6 ೨I@Oo ,   (U) ೧I6G3e1oel 26100 ) @) ಹ೨೨೦, @[೨.6@0 6೨೨@೦ @01@ಾ 63@ ) ೧ l) 60/101.o ) m Q33೧ ೧l @೧೦)೨ ೧ |೦.61 ೨೨೧೨೦ ೧ l@c9 (10 6m @೧೦ನಅಣ @0 16 ೧ಗ m]೧ [ @ 6313 @ಇ0 6S೨ ೧o @mಂಉ1ದ6 (10 @ @ ೧IR1 (101ಯ.2J6n39ವ1@Im . 1903-69 @eJ6 Im@010ೌ   (mಂಉ1   ೧9@1 ಠ೧ (@ಯ೨೪೦ 6೧JDS16@o೧1cs೨nlam   ೧I39dI063139.65 630)   ಉoGo6ooe/@o6m . ೧೧ o೧1೧ ೧8ಇ ೧೯೦   mG೧0೨5೧6336g c599xo 31ಹ02೨ಯ1@1ಹ೧೨೦ (೧l. 630) @೧18, (೧] 630) @ 16೧ [D01ವ6೨ಯ]   ದಂ@೧cು15c86   @೨oommjo ೧@೨೦ @mಂ೧lಃmಂ6sonlo   ೨ಇ 30o ೧ಣ . 6೧೨ 2೧` ೧Ielo)o   ಖ6sಂQ1@ m: . (9 ೧@016೧ದಗ @m1೧@೧೨U೨@6೧೨೦ ೧ಊ ಹಿ@6 ಯಹ@] 630)  [೧I೧J೨೨ JoomGn JOoel @101೨ /೧16 -೦೧I@173 [೧J@೨m] 630) ೧JG3x ೧ ? ] . 81.6೧Iನಚm @9 0101ದ೨೨೦  he  Mox]d Set Free ೧m (10 @3೧೧@೦16೧ದ @moQeleloom  ` G039921ಹ82   G62ooonj   ೧m (ಂ೫6೦ @G29@1   [೧J@] .ುx6೧ |50 ) 0ಸ oblelo L೧I೧Iನ@O)೧೦ ೧91 @೧ಉ1@೦೨ ಹ s1೧l@ @ J 89 ೧I3೨ನl6313 0 .6 ೧೧ @ @೨ @19lJ 39 ೨ಇ೦ ಅಣಂ ೨ನ೩ |ಂ31೩]].6೨೧೨೧l ) 62m )o (10 @ @ 6 ೧Iಎ516@೦೧101@elಡo  ೧6m೦೦  ) ೧ಚmJ೦ @0@3೧೧೦   ಹಿ@) @1 . @067@೧I೨೦ಐಣ 6@೦) ೧ 91@)89 ಉJ೧ ]೧o 0ಂ81.o) @೧೨g )o @0@) 6n3೨.o೨೧lx m 3) @೧)63138. 65 [೧J@] ೦೧೧1೨ದ63369j 91   om L@2೧ಯ]  ಿ@   ಅ೦೦ ೧6m೦೦ ಿ ೧J@9@1ಯJm ) ೧m",
+      "text_nfc": "CFMTRAL BOARD Oಾ SLCONDAR[ FDUCATTON\nSAMPLE QUESTION PAPER FOR SSE 2024 25\nStd X\nTime Allowed 3 Hrs @19m ) ೧I312l ೧೧೧೦\nMaximum Marks 80 @6ಹ Qಂ066 80\n3 261mಎ@\nMALAYALAM (CODE - 012)\nThe question paper is divided into two sections Section A Reading Comprehension (VS.AQ) Vocabulary Building; Prose & Poetry (Mc.Q) 40 Marks Section B Grammar; Composition Literature (Prose; Poetry & Supplementary Reader 40 Marks n) ೧Is೨ro [Section A] L @m101ಯ೧ Im @Iom qulo ೧1೨೦1, | ?/)೧Ios@l9e @೨J3q] 6313ವo6  2@೧೦ ೧9J@J ಯ (630@0-m1೧)o 630*@3   0೨ನc೧   ೧1oo ) [8x]=8] 1903. @೧೧ೀ0೨ @7ಯ51೧J@) ದ6n3J೧ ]151315 ೧3' ೧Jನ೧w2೨ಯ(8 ೦.ಖ6J. UಂmUL@Ge.Oಹo @6೧lಹಿyg೧e116ಗಗಯo ಉುಂಹಮವJ ೧1ಯJ6SOJo @೧G೧logomonelog3g.os @ಾ@L0@el6G369n [R ೨11001.90   6c0631016.6 , ೧Inನ @೧೧೦೦ಉ1@೧ಗಯ )o   @L೧೦೧ು೧1ಹಿ (mಂಉlಯ )6S0Jo 2mಉಂ ಹಿಇ1ೀಾ   630)   ೧ l@o)೧ಚ   @9ಊಯ೦   os6eISJooxm). @೧ಉು1ಃ8@೨   @9ms1೧o@os ಅ೧೧i1so   ೧J3Od.06G39os   ೨೦೫ಣ೦   ಅನ3೧21೧ 1-೧೨೧ 89 ದ 91೧Jಇ0101m೧೨6೨m @ಾ೧.ನc6) @@೨m1.  1903-eJ @20 Q9m೧೦]ನ? @L೧೧ಉ೧1- @mಂ ] ೧9೩@1 @೧೧1@ಯ೨ @96s1೧l@ ' ೧J@12101ಹ91ದ.೦@0 ೨೦೧೫ಣ 01482l66 89 3JJ6n3ದ೧ IeJಹ@oom . 9m1G2೧3 ೧I3o@LQo ೧೧I೧೦ 8 ೧Im@ ) 29Lದ26, @3@7 @ಇ೧ಇಣ 0 16ಯದ ದಾel೧l೧ ದ್ಮಿಾS@ಂಹ್ಮಿಾಎm) ' 1908-@ಾ   @6೧   (೧J6 ly೨೧2೦೦ @೧೧1ಯ@೦1ಎ೧ದ   ೧y೨6 lೊ೨೧o ೧m   ೧lಥm@ವ @x]ೀ @mಂಉು] 630೧ IS1 ದಿ S %)@mಭsaG೧ ೨@1. ೧I39@.C6@0) @೧ I೨೧೦@6R [S)@O)೨೧ರ ಹg1ಯxm 630)   ಉ೩೧೧@0 1೧   ೧ilಯdR lelos   @೧]o   @mGSonso1@. (1@೦೧೦ @೧೧೧@೦1೧   630X 20 ( 216@ ೧I@1೧/ನ೧೦೧೦ 6 ೨I@Oo ,   (U) ೧I6G3e1oel 26100 ) @) ಹ೨೨೦, @[೨.6@0 6೨೨@೦ @01@ಾ 63@ ) ೧ l) 60/101.o ) m Q33೧ ೧l @೧೦)೨ ೧ |೦.61 ೨೨೧೨೦ ೧ l@c9 (10 6m @೧೦ನಅಣ @0 16 ೧ಗ m]೧ [ @ 6313 @ಇ0 6S೨ ೧o @mಂಉ1ದ6 (10 @ @ ೧IR1 (101ಯ.2J6n39ವ1@Im . 1903-69 @eJ6 Im@010ೌ   (mಂಉ1   ೧9@1 ಠ೧ (@ಯ೨೪೦ 6೧JDS16@o೧1cs೨nlam   ೧I39dI063139.65 630)   ಉoGo6ooe/@o6m . ೧೧ o೧1೧ ೧8ಇ ೧೯೦   mG೧0೨5೧6336g c599xo 31ಹ02೨ಯ1@1ಹ೧೨೦ (೧l. 630) @೧18, (೧] 630) @ 16೧ [D01ವ6೨ಯ]   ದಂ@೧cು15c86   @೨oommjo ೧@೨೦ @mಂ೧lಃmಂ6sonlo   ೨ಇ 30o ೧ಣ . 6೧೨ 2೧` ೧Ielo)o   ಖ6sಂQ1@ m: . (9 ೧@016೧ದಗ @m1೧@೧೨U೨@6೧೨೦ ೧ಊ ಹಿ@6 ಯಹ@] 630)  [೧I೧J೨೨ JoomGn JOoel @101೨ /೧16 -೦೧I@173 [೧J@೨m] 630) ೧JG3x ೧ ? ] . 81.6೧Iನಚm @9 0101ದ೨೨೦  he  Mox]d Set Free ೧m (10 @3೧೧@೦16೧ದ @moQeleloom  ` G039921ಹ82   G62ooonj   ೧m (ಂ೫6೦ @G29@1   [೧J@] .ುx6೧ |50 ) 0ಸ oblelo L೧I೧Iನ@O)೧೦ ೧91 @೧ಉ1@೦೨ ಹ s1೧l@ @ J 89 ೧I3೨ನl6313 0 .6 ೧೧ @ @೨ @19lJ 39 ೨ಇ೦ ಅಣಂ ೨ನ೩ |ಂ31೩]].6೨೧೨೧l ) 62m )o (10 @ @ 6 ೧Iಎ516@೦೧101@elಡo  ೧6m೦೦  ) ೧ಚmJ೦ @0@3೧೧೦   ಹಿ@) @1 . @067@೧I೨೦ಐಣ 6@೦) ೧ 91@)89 ಉJ೧ ]೧o 0ಂ81.o) @೧೨g )o @0@) 6n3೨.o೨೧lx m 3) @೧)63138. 65 [೧J@] ೦೧೧1೨ದ63369j 91   om L@2೧ಯ]  ಿ@   ಅ೦೦ ೧6m೦೦ ಿ ೧J@9@1ಯJm ) ೧m",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

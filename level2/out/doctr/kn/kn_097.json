@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_097",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0020pro_raw.pdf",
+    "page_index": 34,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3XB9P6\naones\nO0\n10\n10.1 acot\nae QOUo w00 sazene 28 2000 (32600)0000. 28 e0300e 3\n(32s) oa 2000078 Natoo wowan, 93e 3078000 30s0e0. 336 TOWOOAO\nwongoa 230 aEood, 3230,030 200, bON aseane wn n eger avaded. aoen\nwoa sazone aE aa w00 desaba acadwon ewaana (eNO6sOTDas)\naaa Raaes (NO0EF79D) aoeetiocso. a)\nEn w00 3E aa d033 PQ BOREORNOREO. 233 10.1 82 scadaos ahodo\nrgonea NOCy adadeaa.\nfp\nA\nfP\nA\n-\nB\nQ\n(i)\nEQ\n(ii)\nJQ\n(iii)\n283 10.1\n283 10.1 (i) d2 d023 aa o aEE o atoode wasor eowde. 68 ayodsone\n33 HOWOORGOS PQ en escataea 3 8e93 woao 3oaweea. 283 10.1 (ii) d2\n-o 33E\nd023 aa\naotes poasor 20000 A aa B\no\nRea\naoodd. 88\naodsode\nd023 PQ en EE eseat wabgca. a\n233 10.1 (iii) d2 d023 PQ as 0 320\n2o0e\nwoa poavoa 2000 A en aoodd. 28 oodeode d023 PQ en 338 REFE\nQa,deas. .",
+      "text_nfc": "3XB9P6\naones\nO0\n10\n10.1 acot\nae QOUo w00 sazene 28 2000 (32600)0000. 28 e0300e 3\n(32s) oa 2000078 Natoo wowan, 93e 3078000 30s0e0. 336 TOWOOAO\nwongoa 230 aEood, 3230,030 200, bON aseane wn n eger avaded. aoen\nwoa sazone aE aa w00 desaba acadwon ewaana (eNO6sOTDas)\naaa Raaes (NO0EF79D) aoeetiocso. a)\nEn w00 3E aa d033 PQ BOREORNOREO. 233 10.1 82 scadaos ahodo\nrgonea NOCy adadeaa.\nfp\nA\nfP\nA\n-\nB\nQ\n(i)\nEQ\n(ii)\nJQ\n(iii)\n283 10.1\n283 10.1 (i) d2 d023 aa o aEE o atoode wasor eowde. 68 ayodsone\n33 HOWOORGOS PQ en escataea 3 8e93 woao 3oaweea. 283 10.1 (ii) d2\n-o 33E\nd023 aa\naotes poasor 20000 A aa B\no\nRea\naoodd. 88\naodsode\nd023 PQ en EE eseat wabgca. a\n233 10.1 (iii) d2 d023 PQ as 0 320\n2o0e\nwoa poavoa 2000 A en aoodd. 28 oodeode d023 PQ en 338 REFE\nQa,deas. .",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

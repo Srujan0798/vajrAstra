@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_057",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 113,
+    "width": 398.7860107421875,
+    "height": 591.2680053710938
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        398.7860107421875,
+        591.2680053710938
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ತುಳುವೆರಿಐಸ್ರೊ\nAgecp ? pped .\nಐಸ್ರೊಯ.ಐಸ್ರೊತುಳುವರನಐಸ್ರೊ\nI cog I cogoegngy noogy peg peu.\nIl eoey bee bo.\nಓಲೆಿಪೋಂಡಲತಮನಾ\nಮಾತಮಯುಟ್ಬಲನ ಐಸ್ರೊಲ\nಪಗುಬೇಸೈಕಾತೆಲ್\nII ,ogooog eeg ue.\nಬಸುಭೀಮಮುಗಪವ\nಅಟಎುಕಿಟೈಉದಪವಿI ಐಸ್ರೊಿ೨ಿ1\nನಾಗನಡಿತಂಬಲ\nಬೂತಬಲಿಕಂಬುಲ\nಸೀಮಜಾತಿಸಂತೆಯ\nಕಟಕೋರ ಕೋಲಯ I ಐಸ್ರೊ I ೩ 1\nಕಳಂಚಿಚೆನುಮಾದರೂ\nIl epog oapog\nಚನೈಜೆಬಲಿತಪಂಗಾಯ\nಸೋಜಸಬೌತ್ ಬಚಂಗಾಯ 1ಐಸ್ರೊ 1 ೩ 1\nಊರುಪೋಂಡುಪೇಂಟಿಆಂಡ್\nಬರವಸರವಕಡಪಪೋಂಡು\nಪದಪದೊಲಿನಲಕಿತಲಕ\nಪಸೃಬಗ.ಎರಬಲಕ I ಐಸ್ರೊಳಿ\nನಿಯು-ಪೇರ್-೨೨",
+      "text_nfc": "ತುಳುವೆರಿಐಸ್ರೊ\nAgecp ? pped .\nಐಸ್ರೊಯ.ಐಸ್ರೊತುಳುವರನಐಸ್ರೊ\nI cog I cogoegngy noogy peg peu.\nIl eoey bee bo.\nಓಲೆಿಪೋಂಡಲತಮನಾ\nಮಾತಮಯುಟ್ಬಲನ ಐಸ್ರೊಲ\nಪಗುಬೇಸೈಕಾತೆಲ್\nII ,ogooog eeg ue.\nಬಸುಭೀಮಮುಗಪವ\nಅಟಎುಕಿಟೈಉದಪವಿI ಐಸ್ರೊಿ೨ಿ1\nನಾಗನಡಿತಂಬಲ\nಬೂತಬಲಿಕಂಬುಲ\nಸೀಮಜಾತಿಸಂತೆಯ\nಕಟಕೋರ ಕೋಲಯ I ಐಸ್ರೊ I ೩ 1\nಕಳಂಚಿಚೆನುಮಾದರೂ\nIl epog oapog\nಚನೈಜೆಬಲಿತಪಂಗಾಯ\nಸೋಜಸಬೌತ್ ಬಚಂಗಾಯ 1ಐಸ್ರೊ 1 ೩ 1\nಊರುಪೋಂಡುಪೇಂಟಿಆಂಡ್\nಬರವಸರವಕಡಪಪೋಂಡು\nಪದಪದೊಲಿನಲಕಿತಲಕ\nಪಸೃಬಗ.ಎರಬಲಕ I ಐಸ್ರೊಳಿ\nನಿಯು-ಪೇರ್-೨೨",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

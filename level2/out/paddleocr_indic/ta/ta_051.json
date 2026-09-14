@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_051",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 0,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "uR\nuri\n4\n0771CH04\n 3R TT 3R    \nE T   S \nAE   \n fhl 4ed  c-h  od  \n-    T3\nET HT, HE, CT, ET, TT, f\n   3 c fh E h\nT 3 3C T T TERT, EHRT E,\nshed\n        \nR c  ch 3e He  fhed faad 1\nfa h       3\nHY GC C 4T  CT3 4\n3   ER    A \n HH  a fhe s  sT-\n\n\n$-T\nfchrlot\n 3 H\n, FT , -f \nm\nReprint 2026-27",
+      "text_nfc": "uR\nuri\n4\n0771CH04\n 3R TT 3R    \nE T   S \nAE   \n fhl 4ed  c-h  od  \n-    T3\nET HT, HE, CT, ET, TT, f\n   3 c fh E h\nT 3 3C T T TERT, EHRT E,\nshed\n        \nR c  ch 3e He  fhed faad 1\nfa h       3\nHY GC C 4T  CT3 4\n3   ER    A \n HH  a fhe s  sT-\n\n\n$-T\nfchrlot\n 3 H\n, FT , -f \nm\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

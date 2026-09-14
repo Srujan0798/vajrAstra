@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_016",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 0,
+    "width": 900,
+    "height": 1333
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        900,
+        1333
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-\n3M70\nFI",
+      "text_nfc": "-\n3M70\nFI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

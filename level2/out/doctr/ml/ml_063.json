@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_063",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+    "page_index": 100,
+    "width": 992,
+    "height": 1583
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        992,
+        1583
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aaoagaley (oana0o BOCDO)\n98\n62/p81000080 08 songralemal 0106501008 0000 20 CO00 aljain\n006amm0 erQJDade Gooml. aglejo aigD800000005 dglelejo,\ndlscoolejo 0000 mlocqaroad 05005. moabogo5 amaid 90\ndOe Mvocpcoldajeeoame dorarol 2iolqman.aogja0l 00 019lool\nloleoooe 00 0.8001g-800/lob 0J20200 o0glaj 0600020\no0ma a0p0.09.400000319 00m0 Q10600.\ncgnco; 000000 aglt morolob n40006n0 9201 60gl00009m\n0f 800.80006 diongolsle Colags allal apleo. anm (ao\nsotompoala) 0106010.\n803 002000 ggalom 08000 allozaginosmwejgasngjed\nce10. 00000400ng mosobloo aumagso835 agme 860020 anjelg\ngoganaoa.joot a000o\" noma eo6oim0poalol 0yn00G00005\nn100000.\ne6021 Gocodlom aimoab 900 elag.a.o.@onaoogmp) 0UG000n11\noplmolaagsnao? (B10 G00002j00000 egaloo aogablanogmauiods\nong. (0GGa00 m2opalo00sc0003 cbogjo mpdeioalleedgsl Dalgles\nag0000 nnooelom aumagslocegmp 0.10000609. mb0gnDs.00.080lag\nQUPI(BO 9861oama? com0 ayobosond a0000.\n060ng01e) alsao Gauonole amo.sempgevong p0wa1 Cng)\nnolmoomoan 60060 sojeulasmp GaJoAJy (O als.80d0g8j00\ncueleis ololgo 20loo emoaslaoslmoxlolmorslolaem\"agma 210600).\n0800g0181 aglelono enogjenlasggjoo cmoieemogiasong 000\nal hang 01508000 auonlagoo.\n220 elaoloelgo 2060000\namloaloles 20 ngas140gjoq04 mlmallmoogad Momungon\ncnldboplons assolaymoens. erooldb emloioloe 01002 aULlamponl\non\ndélejo ocigglomalsleje 06000 aioml oaloglsongs agma 21061010).\n-\nGdoogauel 900000100 G.a.bo.semamolle (OOUGOS 000609\n8 aoppgo 09a1n00 bglefloao 22508d0o ollocgmslagalame.\nonJosm (S1OQUDO G183 auamo aong, 6103 mu00m0a310000j0 04060\nSlay 29502 moailos agejoar@o Boslagonl. aglelloabo B0 99\nd6lab 000000 ema olgeogmolom Bo0les aoandlayo.aoggp.\n06000 mecolab plealoolaop 608 ayaloogo0 600g0 0 mUO\n000600 0J0000500. eng coongallord olgoolid abolallgcoasiao\n8l 21olooi 6 -mumpe 5D sogeiapocoliasma, 1100) dong 0OWO\nOldo mgomidonls\n800000100100007 001o0 Qiosuplaopo.asl.\n40080- 66.00 aLisoBeL Qéoeios B0andegg 005000920810. &0\neilosnonagg/pntcainal 20001000 00m allas.aeg/moald)\n600770,37",
+      "text_nfc": "aaoagaley (oana0o BOCDO)\n98\n62/p81000080 08 songralemal 0106501008 0000 20 CO00 aljain\n006amm0 erQJDade Gooml. aglejo aigD800000005 dglelejo,\ndlscoolejo 0000 mlocqaroad 05005. moabogo5 amaid 90\ndOe Mvocpcoldajeeoame dorarol 2iolqman.aogja0l 00 019lool\nloleoooe 00 0.8001g-800/lob 0J20200 o0glaj 0600020\no0ma a0p0.09.400000319 00m0 Q10600.\ncgnco; 000000 aglt morolob n40006n0 9201 60gl00009m\n0f 800.80006 diongolsle Colags allal apleo. anm (ao\nsotompoala) 0106010.\n803 002000 ggalom 08000 allozaginosmwejgasngjed\nce10. 00000400ng mosobloo aumagso835 agme 860020 anjelg\ngoganaoa.joot a000o\" noma eo6oim0poalol 0yn00G00005\nn100000.\ne6021 Gocodlom aimoab 900 elag.a.o.@onaoogmp) 0UG000n11\noplmolaagsnao? (B10 G00002j00000 egaloo aogablanogmauiods\nong. (0GGa00 m2opalo00sc0003 cbogjo mpdeioalleedgsl Dalgles\nag0000 nnooelom aumagslocegmp 0.10000609. mb0gnDs.00.080lag\nQUPI(BO 9861oama? com0 ayobosond a0000.\n060ng01e) alsao Gauonole amo.sempgevong p0wa1 Cng)\nnolmoomoan 60060 sojeulasmp GaJoAJy (O als.80d0g8j00\ncueleis ololgo 20loo emoaslaoslmoxlolmorslolaem\"agma 210600).\n0800g0181 aglelono enogjenlasggjoo cmoieemogiasong 000\nal hang 01508000 auonlagoo.\n220 elaoloelgo 2060000\namloaloles 20 ngas140gjoq04 mlmallmoogad Momungon\ncnldboplons assolaymoens. erooldb emloioloe 01002 aULlamponl\non\ndélejo ocigglomalsleje 06000 aioml oaloglsongs agma 21061010).\n-\nGdoogauel 900000100 G.a.bo.semamolle (OOUGOS 000609\n8 aoppgo 09a1n00 bglefloao 22508d0o ollocgmslagalame.\nonJosm (S1OQUDO G183 auamo aong, 6103 mu00m0a310000j0 04060\nSlay 29502 moailos agejoar@o Boslagonl. aglelloabo B0 99\nd6lab 000000 ema olgeogmolom Bo0les aoandlayo.aoggp.\n06000 mecolab plealoolaop 608 ayaloogo0 600g0 0 mUO\n000600 0J0000500. eng coongallord olgoolid abolallgcoasiao\n8l 21olooi 6 -mumpe 5D sogeiapocoliasma, 1100) dong 0OWO\nOldo mgomidonls\n800000100100007 001o0 Qiosuplaopo.asl.\n40080- 66.00 aLisoBeL Qéoeios B0andegg 005000920810. &0\neilosnonagg/pntcainal 20001000 00m allas.aeg/moald)\n600770,37",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_081",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0081pro_raw.pdf",
+    "page_index": 0,
+    "width": 1649,
+    "height": 2226
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1649,
+        2226
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "चॅeख़ Jbodv D०२कथ नगलु॰ २Jक> ७one\nhN2(\nविश्वचषक १९८३\nविरूपण CANटदााAत0ा७ड\nभारत INDIA\n1000\nजात कूपर JAL COOPER 1००7\n6 FTII दूरदर्शन\n= RUIPEEE -0",
+      "text_nfc": "चॅeख़ Jbodv D०२कथ नगलु॰ २Jक> ७one\nhN2(\nविश्वचषक १९८३\nविरूपण CANटदााAत0ा७ड\nभारत INDIA\n1000\nजात कूपर JAL COOPER 1००7\n6 FTII दूरदर्शन\n= RUIPEEE -0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_083",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 9,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "dhart doRdarTt ZIT Hagyedoh dos a effud T67 t6 TTE à aifech ER-URAR, TRORT, SErHz 377\nHiseT t HTEZH à 34chT faedr a doh a TTT àl aiat-fugrt cfi HISheTT37T i tiauf N FT\nfardr chT HHgTT T2TT sush fafaer STRITHT thT Uoh-GER à viist t 3aechdl à ST9T FRTRTUT\na\nt tigof N Uoh 377 Horayuf A cd 76 sft à fon HT9T JT cft Hdd yisheT EHR a VRORT (fSTera\nER, TTH-YSTH, HrHIfdeh HYGRI TAT faERel treft ufufed à N artdt todt àl aa EH HIAT\ncf CH&TT chl allat URORT N 3401021 trat i 3TAERT a tet vis Hot 7 HIYT ARTETUT à CTR2IT chi\nargoht HIAT foheit UT Hohdl àl\nHIEZIT feie\nJIYER, HT9T ARTEIT FaHTT td\nHGE4-H4-queh, gaagtich faHToT H46-184\nTIETT sifach 3T-AEITT 377 YIARTETUT YRAG\nACE\nC\nCORO\npe\nO\nno\nX",
+      "text_nfc": "dhart doRdarTt ZIT Hagyedoh dos a effud T67 t6 TTE à aifech ER-URAR, TRORT, SErHz 377\nHiseT t HTEZH à 34chT faedr a doh a TTT àl aiat-fugrt cfi HISheTT37T i tiauf N FT\nfardr chT HHgTT T2TT sush fafaer STRITHT thT Uoh-GER à viist t 3aechdl à ST9T FRTRTUT\na\nt tigof N Uoh 377 Horayuf A cd 76 sft à fon HT9T JT cft Hdd yisheT EHR a VRORT (fSTera\nER, TTH-YSTH, HrHIfdeh HYGRI TAT faERel treft ufufed à N artdt todt àl aa EH HIAT\ncf CH&TT chl allat URORT N 3401021 trat i 3TAERT a tet vis Hot 7 HIYT ARTETUT à CTR2IT chi\nargoht HIAT foheit UT Hohdl àl\nHIEZIT feie\nJIYER, HT9T ARTEIT FaHTT td\nHGE4-H4-queh, gaagtich faHToT H46-184\nTIETT sifach 3T-AEITT 377 YIARTETUT YRAG\nACE\nC\nCORO\npe\nO\nno\nX",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

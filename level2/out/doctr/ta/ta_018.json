@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_018",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 8,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "VUT\n(ch) cho4HT ChINTT fop faheft fat 31146 ER N 4rft TeT 3TRITI\n37140h1 faelleter VIHT à 31140 ER t uufy a Uoh\nHauhch TeT à 3719 aletet 3Ta doht det ggad à\n377 doh 3ef HH 371427 ysTeft oft qr1 14 467 vild b\n3714 a-t a 374-11-374-1 and 4601 SRHT Fed à treft\nARReR N 3719H N faheit ThR chT fadld (C-7HH Tal, H6\nET N wad EU qTa HIORT Tlcel (ECTPT-I) dur CAITTI\n(G) \"ua, HHE, CGeT, aaT, ERdt, fyr CRHld ch Cd 377 fyr dodt Uoh TGt 3T7\n340h foht CHT JEERI, EHRT ER, TA AT TT6RI\"\nFtT dicR chT 46ch 31140h HTHT chls Uoh fas 39 3TT ETTT, 34 fas chl CHIChT 344\niT TRUI\nC\nC\nrep\n-\nbe\nXO\nno\nReprint 2026-27\nI\n49",
+      "text_nfc": "VUT\n(ch) cho4HT ChINTT fop faheft fat 31146 ER N 4rft TeT 3TRITI\n37140h1 faelleter VIHT à 31140 ER t uufy a Uoh\nHauhch TeT à 3719 aletet 3Ta doht det ggad à\n377 doh 3ef HH 371427 ysTeft oft qr1 14 467 vild b\n3714 a-t a 374-11-374-1 and 4601 SRHT Fed à treft\nARReR N 3719H N faheit ThR chT fadld (C-7HH Tal, H6\nET N wad EU qTa HIORT Tlcel (ECTPT-I) dur CAITTI\n(G) \"ua, HHE, CGeT, aaT, ERdt, fyr CRHld ch Cd 377 fyr dodt Uoh TGt 3T7\n340h foht CHT JEERI, EHRT ER, TA AT TT6RI\"\nFtT dicR chT 46ch 31140h HTHT chls Uoh fas 39 3TT ETTT, 34 fas chl CHIChT 344\niT TRUI\nC\nC\nrep\n-\nbe\nXO\nno\nReprint 2026-27\nI\n49",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

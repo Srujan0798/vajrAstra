@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_031",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0032pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SEOFO\nDO00 3580 3 aES NotO30 cs\n90033\nDepartment of School Education & Literacy\n883 8300,\nO\ncg\naberto aOEO na5295\n2\n8580\neg\nnser5 agroon\n3 O2\nPhysical Education,\nEnCO\nVALUE\nEDUCATION\nMental and Social wellbeing\nIncluding\n(7\no\n730 cone QWOFTg 2383008370 aTE\nActivity Book for Class 7 Students\n2026 - - 2027\noots 3780 JoBoCoN a3 302503 90023\na\nWN3078 33e c03, 2on8od = 560 085.\ni",
+      "text_nfc": "SEOFO\nDO00 3580 3 aES NotO30 cs\n90033\nDepartment of School Education & Literacy\n883 8300,\nO\ncg\naberto aOEO na5295\n2\n8580\neg\nnser5 agroon\n3 O2\nPhysical Education,\nEnCO\nVALUE\nEDUCATION\nMental and Social wellbeing\nIncluding\n(7\no\n730 cone QWOFTg 2383008370 aTE\nActivity Book for Class 7 Students\n2026 - - 2027\noots 3780 JoBoCoN a3 302503 90023\na\nWN3078 33e c03, 2on8od = 560 085.\ni",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

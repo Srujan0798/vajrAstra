@@ -1,0 +1,41 @@
+{
+  "page_id": "te_072",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0072pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "విస్తరణ చేయండి :\n\nఉదా. (1) (ऋ ने 2)(ऋ के 3) =౫+(2+93)౫+(2౫3) =౫+5%+6\n\nఉదా. (2) (कब) न 3) =v + (4-3)y + (4) x (-3) =) +y- 12\n\nఉదా. (3) (26+ 370) (26 - 3b) = (26): + [(3b) + (- 3b)]2a +[3b x (-36)]\n= 46% + 0౫ 264- 9b =4a-9b?\n\n3 1 3 | 3 1 3\nఉదా. (4 m+— m+— =m + + 77? + ౫ =m + +\n\nఉదా. (5) (x-3)(x-7) =౫+(-3- 7౫+ (-3)(-7) =౫-10+21\n\nఅభ్యాసమాలిక 5.1\n1. విస్తరణ చేయండి.\n\n1) (a +2)(a - 1) (2) (m - 4)(m + 6) (3) (p + 8)(p -3)\n4) (13 + x)(13 - x) (5) (3x + 4y)(3x + 5y) (6) (9x न 5f)(9x + 3f)\n\n(\n(\n\nతెలుసుకొందాం\n\n(IL) (a + &)* యొక్క విస్తరణ (Expansion of (a + €)”)\n\n(a+ b)=(at+b) (a+b) (at+b)=(a+b) (a+ by\n= (a+ b)(a’ + 2ab + b’)\n=a(a’ + 2ab + b’) + b(a’ + 2ab + b’)\n=a +2a’b + ab’ + ba’ + 2ab’ क\n\n=a + 3a’b + 3ab’ +b\n“| (a+ b=a + 3a’b + 3ab’ + b\n\nఈ విస్తరణ సూత్రాలనుపయోగించి సాధించిన కొన్ని ఉదాహరణలను నేర్చుకొందాం.\nఉదా. (1) (x +3)\n\n(a+ ౧)” = प्री + 3a’b + 3ab’ +b ఇచట d =X, b = 3 గలదు.\n",
+      "text_nfc": "విస్తరణ చేయండి :\n\nఉదా. (1) (ऋ ने 2)(ऋ के 3) =౫+(2+93)౫+(2౫3) =౫+5%+6\n\nఉదా. (2) (कब) न 3) =v + (4-3)y + (4) x (-3) =) +y- 12\n\nఉదా. (3) (26+ 370) (26 - 3b) = (26): + [(3b) + (- 3b)]2a +[3b x (-36)]\n= 46% + 0౫ 264- 9b =4a-9b?\n\n3 1 3 | 3 1 3\nఉదా. (4 m+— m+— =m + + 77? + ౫ =m + +\n\nఉదా. (5) (x-3)(x-7) =౫+(-3- 7౫+ (-3)(-7) =౫-10+21\n\nఅభ్యాసమాలిక 5.1\n1. విస్తరణ చేయండి.\n\n1) (a +2)(a - 1) (2) (m - 4)(m + 6) (3) (p + 8)(p -3)\n4) (13 + x)(13 - x) (5) (3x + 4y)(3x + 5y) (6) (9x न 5f)(9x + 3f)\n\n(\n(\n\nతెలుసుకొందాం\n\n(IL) (a + &)* యొక్క విస్తరణ (Expansion of (a + €)”)\n\n(a+ b)=(at+b) (a+b) (at+b)=(a+b) (a+ by\n= (a+ b)(a’ + 2ab + b’)\n=a(a’ + 2ab + b’) + b(a’ + 2ab + b’)\n=a +2a’b + ab’ + ba’ + 2ab’ क\n\n=a + 3a’b + 3ab’ +b\n“| (a+ b=a + 3a’b + 3ab’ + b\n\nఈ విస్తరణ సూత్రాలనుపయోగించి సాధించిన కొన్ని ఉదాహరణలను నేర్చుకొందాం.\nఉదా. (1) (x +3)\n\n(a+ ౧)” = प्री + 3a’b + 3ab’ +b ఇచట d =X, b = 3 గలదు.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

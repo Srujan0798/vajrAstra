@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_094",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 49,
+    "width": 1050,
+    "height": 1678
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1050,
+        1678
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "అభ్యత ਬੋਲਜੀ ੧੯੭੦ 300 22ਸ ਦੀਆ\n੨੦੦ ੮੦\n0૯ ਨੂੰਪੂਤੀਪੁਠਾਨ ભય 90\ncolouises 940300031300 કર marso\nਗਲਚੁਰਪਿਰਾਇਨਕੰਜੇ ੦੦ ੩੦੦੦੧੦ assaws\nਹਨਾ అన్న ਨੁਮਾਨੀ ਤ6ਤੀ੦ ৬২ মে  \nૐ \nરડાડ 9 fu rry wesnd ਨੇ\ndolorision ਹਾਂ ભ 551900031000\nਠਰ ਤੇ ੦੦ ८१७ ડર ਤੇ youst જી22\njodahognon ੦੦ ੪੯ ownous\nਭਾਰ ਸਦੀ 5004 amster ੭੧\n૪૦ ਯਤੀ ਹਾਰਾ   ੪੦੦੦੦\nਫਿੰਗ ਹੈ 4400 గండకాల নড়১১\nਮਨ મ્પ ਹਾਰ ૭૦૦૭૭૮ડીઝ ૭૦ર ૯૦૫૨૫ ੪\n5399 whlgy లోప ਸੁੰਘ ઈરેન્ડ\nইউনি সংগ্রিস రక్సల్ ૭૦ 01001 ੦ ੧੦੦੦ chansvolf ৬৫০০  ৴৫ ਤੇ ਹਰਾਓ\nਨਾ ਰਾਂ ૦૨૦૦૦૦૦૦ ৯১০১০৯ હ્મ ਗੁਲਗੁਣਾਉ\n9੦ ત્ર ਨ 9309 00261 ਤਾਈ\n੦੦ ੪੮ তৎকান্ত life ੩੪ তব\nસ્વસ્ટર ਪਰਾਇ ੭੦੦\nneme\n49",
+      "text_nfc": "అభ్యత ਬੋਲਜੀ ੧੯੭੦ 300 22ਸ ਦੀਆ\n੨੦੦ ੮੦\n0૯ ਨੂੰਪੂਤੀਪੁਠਾਨ ભય 90\ncolouises 940300031300 કર marso\nਗਲਚੁਰਪਿਰਾਇਨਕੰਜੇ ੦੦ ੩੦੦੦੧੦ assaws\nਹਨਾ అన్న ਨੁਮਾਨੀ ਤ6ਤੀ੦ ৬২ মে  \nૐ \nરડાડ 9 fu rry wesnd ਨੇ\ndolorision ਹਾਂ ભ 551900031000\nਠਰ ਤੇ ੦੦ ८१७ ડર ਤੇ youst જી22\njodahognon ੦੦ ੪੯ ownous\nਭਾਰ ਸਦੀ 5004 amster ੭੧\n૪૦ ਯਤੀ ਹਾਰਾ   ੪੦੦੦੦\nਫਿੰਗ ਹੈ 4400 గండకాల নড়১১\nਮਨ મ્પ ਹਾਰ ૭૦૦૭૭૮ડીઝ ૭૦ર ૯૦૫૨૫ ੪\n5399 whlgy లోప ਸੁੰਘ ઈરેન્ડ\nইউনি সংগ্রিস రక్సల్ ૭૦ 01001 ੦ ੧੦੦੦ chansvolf ৬৫০০  ৴৫ ਤੇ ਹਰਾਓ\nਨਾ ਰਾਂ ૦૨૦૦૦૦૦૦ ৯১০১০৯ હ્મ ਗੁਲਗੁਣਾਉ\n9੦ ત્ર ਨ 9309 00261 ਤਾਈ\n੦੦ ੪੮ তৎকান্ত life ੩੪ তব\nસ્વસ્ટર ਪਰਾਇ ੭੦੦\nneme\n49",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

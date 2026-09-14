@@ -1,0 +1,41 @@
+{
+  "page_id": "te_001",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Dosoone deun Donse S SDerOS0o-1 3ô5 WO ev 100\n380 039000)\n2.0000 06 Joze Dosaose Bevn ger 00085 Gn) e Joze eoneso eorooe (30)\nSooe (6e)9573222260\nDerisw -1\nespos - 30000s. 32 sroye\n1) Soa 0o0es woso sosod. ee es Daores pasod.4x2=8\naesseses airosens\nensesss eves eeave\nssswess ewes sogoes 855\nDoodos ! 35035 !\neejes:\nes) nosO J50 woevod ?\nes) aPNODS 21D Jasevod ?\nca) essess 32 wwevod ?\n6s) 2 woso esgoor as e) bavroisawod\nGSR INFO - (ecpsrmaths.in\nwww.apbadi.net\n200 a050s sgodrd Sevr ceslo\ncorsoos Datyoon 3 Mauises\nwnosos endes ena des\nJCCs AS ooyeblocs swoid..\nes) Maya Joessodd 220d ?\nes) Bayk wy2oisodess Soe3S Se6Rasd?\nca) 22005 MERDD Doolro ?\n6s) 2 soro esgooor as 2) dayosasod.\n2.) So8 WoWes hop sas aoew oobod. 8 soyee\na NS)O sevesss N 5033 swods Siss dyeso seo, sheew SQUSS esaun 2OJGT\nOAUSOL bocotoo. Sow Soi3o aoaiys esabis SS DOU) essoboess Ssgen, baten\ntsow ae3 S0 abyoreby as 353 Bay e30so STt esaurs R06Se3 eaio soo.\nAooseoves, Bognsrves Jer Soyceralr N Wisy eboeses 2500w0. a r2oEss Rohap\ne3855 oagr5 ossavee 3ng doges Gocd. afton DS wowodods Woseu, S5S W00300\nMoo0is Woysev, 6185 Sai snose Doows Wysev ess) SS esoderevess Goco. Je30\n3as Jogyjo. bse nooi, 03 Deroseore Doow 233 Sodeng BaJ esed.\nJOJEN wers Wpso BaJJ? es ednoo. JS 2oye3s essyoro 335 2aabo Soesoes 'sy\n68 20 Baug ô was es J5) CD SvesS esesd. awafor 3005d9 Say S Dar Bareoes\nAdossad 833 J2J C 28 eesoe Sries savowed. esaurs won 35 S0y55s)\nawaas ogayverese 8 STC ase3. JOJEJO 258500 as edsaws) dosrdd.",
+      "text_nfc": "Dosoone deun Donse S SDerOS0o-1 3ô5 WO ev 100\n380 039000)\n2.0000 06 Joze Dosaose Bevn ger 00085 Gn) e Joze eoneso eorooe (30)\nSooe (6e)9573222260\nDerisw -1\nespos - 30000s. 32 sroye\n1) Soa 0o0es woso sosod. ee es Daores pasod.4x2=8\naesseses airosens\nensesss eves eeave\nssswess ewes sogoes 855\nDoodos ! 35035 !\neejes:\nes) nosO J50 woevod ?\nes) aPNODS 21D Jasevod ?\nca) essess 32 wwevod ?\n6s) 2 woso esgoor as e) bavroisawod\nGSR INFO - (ecpsrmaths.in\nwww.apbadi.net\n200 a050s sgodrd Sevr ceslo\ncorsoos Datyoon 3 Mauises\nwnosos endes ena des\nJCCs AS ooyeblocs swoid..\nes) Maya Joessodd 220d ?\nes) Bayk wy2oisodess Soe3S Se6Rasd?\nca) 22005 MERDD Doolro ?\n6s) 2 soro esgooor as 2) dayosasod.\n2.) So8 WoWes hop sas aoew oobod. 8 soyee\na NS)O sevesss N 5033 swods Siss dyeso seo, sheew SQUSS esaun 2OJGT\nOAUSOL bocotoo. Sow Soi3o aoaiys esabis SS DOU) essoboess Ssgen, baten\ntsow ae3 S0 abyoreby as 353 Bay e30so STt esaurs R06Se3 eaio soo.\nAooseoves, Bognsrves Jer Soyceralr N Wisy eboeses 2500w0. a r2oEss Rohap\ne3855 oagr5 ossavee 3ng doges Gocd. afton DS wowodods Woseu, S5S W00300\nMoo0is Woysev, 6185 Sai snose Doows Wysev ess) SS esoderevess Goco. Je30\n3as Jogyjo. bse nooi, 03 Deroseore Doow 233 Sodeng BaJ esed.\nJOJEN wers Wpso BaJJ? es ednoo. JS 2oye3s essyoro 335 2aabo Soesoes 'sy\n68 20 Baug ô was es J5) CD SvesS esesd. awafor 3005d9 Say S Dar Bareoes\nAdossad 833 J2J C 28 eesoe Sries savowed. esaurs won 35 S0y55s)\nawaas ogayverese 8 STC ase3. JOJEJO 258500 as edsaws) dosrdd.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

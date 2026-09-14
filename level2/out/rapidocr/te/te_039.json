@@ -1,0 +1,41 @@
+{
+  "page_id": "te_039",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0039pro_raw.pdf",
+    "page_index": 75,
+    "width": 595.2760009765625,
+    "height": 793.7009887695312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "భాషాకీడల\nS\nపెంపొందించుకోండి.\nఖాళీగడులలో\nపదాల\nరాయండి.\nమర\nC\nE\nకరువు\nఎర\nE\nమరికొన్ని\nప్రాణుల\nచి(తాలన్ను\nగీసి\n రంగులు\nవేస్తా.\nపర్ు\nతెలిపి\nవాటిని\nగురించి\nవాక్యాల్లో\"\nసృజనాత్మకత\nేయంలోని\nముఖ్య\nవిషయం,\nGoy\nమీ\nసాంత\nమాటల్ో\nచెప్పండి.\nరాయండి.\n3\nఉపాధ్యాయ\nసూచన \nగేయాన్ని\nరాగయుక్తంగా,\nలయబద్ధంగా\nపాడించండి.\nవిద్యార్థులకు\nSS\nమీకు\nతెలియని\nపదాలు\nES\nచేసుకోండి.\nనిఘంటువు\nSOY\nవెదికి\nరాసుకోండి.\n66",
+      "text_nfc": "భాషాకీడల\nS\nపెంపొందించుకోండి.\nఖాళీగడులలో\nపదాల\nరాయండి.\nమర\nC\nE\nకరువు\nఎర\nE\nమరికొన్ని\nప్రాణుల\nచి(తాలన్ను\nగీసి\n రంగులు\nవేస్తా.\nపర్ు\nతెలిపి\nవాటిని\nగురించి\nవాక్యాల్లో\"\nసృజనాత్మకత\nేయంలోని\nముఖ్య\nవిషయం,\nGoy\nమీ\nసాంత\nమాటల్ో\nచెప్పండి.\nరాయండి.\n3\nఉపాధ్యాయ\nసూచన \nగేయాన్ని\nరాగయుక్తంగా,\nలయబద్ధంగా\nపాడించండి.\nవిద్యార్థులకు\nSS\nమీకు\nతెలియని\nపదాలు\nES\nచేసుకోండి.\nనిఘంటువు\nSOY\nవెదికి\nరాసుకోండి.\n66",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

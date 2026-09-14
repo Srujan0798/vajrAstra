@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_001",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1630,
+    "height": 2019
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1630,
+        2019
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "oerurastrಹ oralಊ fagl oScr೯g ಣLಣlಶgdಖ ,ಂt@@ತUಹ   Ut9೯ 0ucಐ1ಖ UುತU lu @ಡtಂಖ(ಉಾಲುಖಗು,\n(8) (@ಕಖ೦l[ಢ   %lgecro 09 ೦೦@೦೦)   't@tstU೮   ಣ mಲgrg   [oಟ ಘ @ortratrlr  ೦(೧೦[  (q) ($) (9೫೦೦೦b@   [@ಞ   t08 @ogr f@ಉಾcಉ   ೧Uಉುr   [oಐ  ನugc sgtfಕ (ಹಣrಖ@ುgತUg brರ( ouುsc au!ತ [@I@ಉು ಣscU Uುt`P [or೬ruto [@c@totr ಣO[@@oracfaro sgtaEa9lU  (e) 'II 0] ' ಇ1; (೦೧೦aರ [u) ೯ - uoljpas (z) @ ೪gcUು[ @@Fo [ು %@8೮ @ತಣ \"5ನಹ [r;arಣ ofuc೧ಂr) 9 @ %s(  ೦r೮ರu 9o [ @ [@ % c9roIru '9 (z) & @@ುtಂ@ೂogu೫gcg 9ಞt೦uು  %c೧'cs jscral@(ಡಲ[[ು @ಊu 1 (z) & @ಂ`@ @೦೦  'ತL@ಯ೦ @ @ತಣt5IFಕrl(t6(  ಲugcoulu   %OL@oscruvಣuುorಖr] sgtool@ocorolru '8 (z) & @(ಗu [@ಊC@U[o   ೩ggeats@GL(oತr  (ಐಖ೨@t೦ ofracrug   %(ತಣ Stc 'c (z) @ @ು@ತ for@ಖ   ತ @೩g@oator o೦cಠ %l@೦L@ಊ೦ಯLಗ್   ಉುcfac falru ' 9ಟಟ೨  f೮೦r೯ಖ \"ಕಗut% @J೦[೦ಂ@Ore' @rಣ tU[@ fo೮coೌಖಉು f otuಂ otuುಂ(grooಖ   ತತtuು(ಂ೯ [ಗac S9 rudಖ ಖUಂರಗು   ತಣೇU [@ಯಖcm@]ಉುr @ಚ೦or\"[@ಐfro   tಆ8@೫೨g೮೫ಖ   51ಸucO @೦I@C8 ಖgtsಕFr  [@tf೦ ೦೮೮೨ಖd  ಣL@oscrrm s@toracocra9  @D U(u tುtgw([uಖ [ocorugotstr (0ಟ occraಖ agcruatstogeIಹಈru omluುಞ f@ಖrಶ   oron r@]@,   @UುtogeLolF rrar ofucmcro1 [or crಖgಉು ೪ugcUl@ r@@ @Iಊಣಖrಇಂಗು @೦೦@Lಂಸೌ[೧೦೦೦೮ cccraace8u % (@ @oc೫rol u F[cರಗು [೧೪೮ [ಈ೮%೮@ಖ @ಯುtಂಯಂ@IStrm ಣmಊ೮l[U ಉುc facfalru toಣ @ಂUು(ರ@gor tಯಲlD) ೦೮೮೨ಖಯ೦   [೧೦ಐ ಊ೪೦೦ sgtದuು %[@foc(gಞಡ ಲugcocoacs RIcUಐul[u3 ತಣಃಥಞ @o೦r tಯುೂತr (ಇaooot@ ofracrug ಣ)ತ 9 5f Ur೮ಂಖ ತಣtಂtಲುತ(ಟ99@ ಗgceEpg ou[  [ತ@ ruofst ಣ Ufecucecraಐ otougc[@cಲt೦೧(ಹutuೂ @೦೦ ೀತಣೇ೦ಂUುಖಐ   ಂ@ಂ't@ಉು ouggecralrssd   ಂ(ಂಖrು1ಉ OOr೮ ತಣೀ೯್ [0rಣಉುotu @ತfFಞr   @t@ಬuುr1 o(roracಊ ciarsfgrು   %uoto  ಊt೦ಣನು [ouru3ತ   'o(racfಲlಖo Ngcoooo   Ucmru]   Uುtgಞ toಂ@ತlor ಲ@ಹ   ತಣtಯಂr  (ಇ ೦೦೦೨ 1agl oooture@ [[೮cಖ ನugcssgtoooo  orcacuಖd @ಖ  ೪gc@ sFggets@loogcr   ಣ[[utorg   sgtoo[ಲc@DL@ಂ8 (uf೧೫೦ಉ   @[@ೇor  o೦cಠ gcವ( oಊಲಖrುಡ orar ಖ ಲುl @@rcಖcuುಖಔ sotootura@ Uು%l@tg ' ugtoo೩g@ oಖtor ou@.ogr tor   (0[  @curatಐಉ   ಣL@I@OಊC@ur೯   ಉcfacfalru sGtmuು   ಲೀ aಖ (ಹ  ಲgcಯ[@ು   ಣ[ತ Epscraciaru   ಣLn-cru1   t@uುtpgst@o  @ಂ೧   ತಣ[ಥಣ ರವL @ f5ಣra Uಂe@ocuforro-ct \"ಈ(@೬್೦3೦@೦  9೫೦E[g f[cr೯ಖ F (ocr o೧c೨fಐಊ   ತಣ 5L@otsc mg 6(0@ ; }n3 1, (o೫calru (u)V - uoljbas 'S1u & auuLL JHTTTTVTTHAT TC[0 p0೦ 08 Syೊ8TA] [[Oc LJP]AT X[ : SsID ][ - 13S 1uauuSSassH ?4I]BuuunS  pu0aas 10]  [0[1S3m0 3IduutS",
+      "text_nfc": "oerurastrಹ oralಊ fagl oScr೯g ಣLಣlಶgdಖ ,ಂt@@ತUಹ   Ut9೯ 0ucಐ1ಖ UುತU lu @ಡtಂಖ(ಉಾಲುಖಗು,\n(8) (@ಕಖ೦l[ಢ   %lgecro 09 ೦೦@೦೦)   't@tstU೮   ಣ mಲgrg   [oಟ ಘ @ortratrlr  ೦(೧೦[  (q) ($) (9೫೦೦೦b@   [@ಞ   t08 @ogr f@ಉಾcಉ   ೧Uಉುr   [oಐ  ನugc sgtfಕ (ಹಣrಖ@ುgತUg brರ( ouುsc au!ತ [@I@ಉು ಣscU Uುt`P [or೬ruto [@c@totr ಣO[@@oracfaro sgtaEa9lU  (e) 'II 0] ' ಇ1; (೦೧೦aರ [u) ೯ - uoljpas (z) @ ೪gcUು[ @@Fo [ು %@8೮ @ತಣ \"5ನಹ [r;arಣ ofuc೧ಂr) 9 @ %s(  ೦r೮ರu 9o [ @ [@ % c9roIru '9 (z) & @@ುtಂ@ೂogu೫gcg 9ಞt೦uು  %c೧'cs jscral@(ಡಲ[[ು @ಊu 1 (z) & @ಂ`@ @೦೦  'ತL@ಯ೦ @ @ತಣt5IFಕrl(t6(  ಲugcoulu   %OL@oscruvಣuುorಖr] sgtool@ocorolru '8 (z) & @(ಗu [@ಊC@U[o   ೩ggeats@GL(oತr  (ಐಖ೨@t೦ ofracrug   %(ತಣ Stc 'c (z) @ @ು@ತ for@ಖ   ತ @೩g@oator o೦cಠ %l@೦L@ಊ೦ಯLಗ್   ಉುcfac falru ' 9ಟಟ೨  f೮೦r೯ಖ \"ಕಗut% @J೦[೦ಂ@Ore' @rಣ tU[@ fo೮coೌಖಉು f otuಂ otuುಂ(grooಖ   ತತtuು(ಂ೯ [ಗac S9 rudಖ ಖUಂರಗು   ತಣೇU [@ಯಖcm@]ಉುr @ಚ೦or\"[@ಐfro   tಆ8@೫೨g೮೫ಖ   51ಸucO @೦I@C8 ಖgtsಕFr  [@tf೦ ೦೮೮೨ಖd  ಣL@oscrrm s@toracocra9  @D U(u tುtgw([uಖ [ocorugotstr (0ಟ occraಖ agcruatstogeIಹಈru omluುಞ f@ಖrಶ   oron r@]@,   @UುtogeLolF rrar ofucmcro1 [or crಖgಉು ೪ugcUl@ r@@ @Iಊಣಖrಇಂಗು @೦೦@Lಂಸೌ[೧೦೦೦೮ cccraace8u % (@ @oc೫rol u F[cರಗು [೧೪೮ [ಈ೮%೮@ಖ @ಯುtಂಯಂ@IStrm ಣmಊ೮l[U ಉುc facfalru toಣ @ಂUು(ರ@gor tಯಲlD) ೦೮೮೨ಖಯ೦   [೧೦ಐ ಊ೪೦೦ sgtದuು %[@foc(gಞಡ ಲugcocoacs RIcUಐul[u3 ತಣಃಥಞ @o೦r tಯುೂತr (ಇaooot@ ofracrug ಣ)ತ 9 5f Ur೮ಂಖ ತಣtಂtಲುತ(ಟ99@ ಗgceEpg ou[  [ತ@ ruofst ಣ Ufecucecraಐ otougc[@cಲt೦೧(ಹutuೂ @೦೦ ೀತಣೇ೦ಂUುಖಐ   ಂ@ಂ't@ಉು ouggecralrssd   ಂ(ಂಖrು1ಉ OOr೮ ತಣೀ೯್ [0rಣಉುotu @ತfFಞr   @t@ಬuುr1 o(roracಊ ciarsfgrು   %uoto  ಊt೦ಣನು [ouru3ತ   'o(racfಲlಖo Ngcoooo   Ucmru]   Uುtgಞ toಂ@ತlor ಲ@ಹ   ತಣtಯಂr  (ಇ ೦೦೦೨ 1agl oooture@ [[೮cಖ ನugcssgtoooo  orcacuಖd @ಖ  ೪gc@ sFggets@loogcr   ಣ[[utorg   sgtoo[ಲc@DL@ಂ8 (uf೧೫೦ಉ   @[@ೇor  o೦cಠ gcವ( oಊಲಖrುಡ orar ಖ ಲುl @@rcಖcuುಖಔ sotootura@ Uು%l@tg ' ugtoo೩g@ oಖtor ou@.ogr tor   (0[  @curatಐಉ   ಣL@I@OಊC@ur೯   ಉcfacfalru sGtmuು   ಲೀ aಖ (ಹ  ಲgcಯ[@ು   ಣ[ತ Epscraciaru   ಣLn-cru1   t@uುtpgst@o  @ಂ೧   ತಣ[ಥಣ ರವL @ f5ಣra Uಂe@ocuforro-ct \"ಈ(@೬್೦3೦@೦  9೫೦E[g f[cr೯ಖ F (ocr o೧c೨fಐಊ   ತಣ 5L@otsc mg 6(0@ ; }n3 1, (o೫calru (u)V - uoljbas 'S1u & auuLL JHTTTTVTTHAT TC[0 p0೦ 08 Syೊ8TA] [[Oc LJP]AT X[ : SsID ][ - 13S 1uauuSSassH ?4I]BuuunS  pu0aas 10]  [0[1S3m0 3IduutS",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

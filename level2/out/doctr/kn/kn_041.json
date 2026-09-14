@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_041",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+    "page_index": 6,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n47. ds dehsonen a0002 :\n(a) senadrs\ntabad OWFODE\n(b) aadcr wor\nacoodo8\n(c) BOcogneon\ndoc3egg JAD\n(d) Qaeads\neuaesat\n(i) OAJ\n(ii) aciodes\n(ii) gAsry\n(iv) dogordr\n68 densangod Xootod eataoa e82 :\n(a) (b) (c) (d)\n(1) (iii) @) (iv) (ii)\n(2) (iii) (iv) () (ii)\n(3) (ii) (iii) () (iv)\n(4) (ii) (iv) (iii) (i)\n48. wot Nosane - eodo Roudovrcoa,\naoooda Axponaodd :\n(a) aoonosada aehda aoonideraorteb\n(b) wots nowo Oomroonta aoooda\ndoveddodods doondera\n(c) geddoenda 2002s\n(d) sodddeshdoss eplero Xoes\n(1) (a), (b) aas (c)\n(2) (c) aas (d)\n(3) (a) aab (d)\n(4) (a) awoS\n49. 00,800A0030 doeorie (RuBisCo) droa\netadeas 23833038380300 Qud 30350087\ncossadoagd :\n(1) 3-C Noawoaa a00 era\n(2) 6-C Hoatoaa w00 era\n7\nG1\n51. eneas NANEON 23eds nowone\ngadgedersod evadeso0xe3 3 gegabadon euss\n(engrarisb) atzadocd/odeg-ordocd :\n(1) sjeees aog\n(2) eaocdavo a0a eaesne\n(3) edoedato aas adgesnr\n(4) edoedato apg\n52. xooded deedaba nodbe2.\n(1) 2300000 won dedo aa 208\naAOTe\nsoreeddade dxwodo aprooadad.\n(2) oxood ege 28ha 0seads ayoo endy\na3) ea 39 wrooohdsd.\n(3) BDorneb, daDTSb, wrsneb gzeone\nseadricoowph 23e7b dt erooondogd.\n(4) 23e70 deda, doodeatgajog eao sog\nepod Decost.\n53. Bt asab apan aser pooosator(B\nDadaSAD Josaobada 3302dooxbajad abour\nepaosaropd, aonodd od aadoconaas :\n(1) aortes soowone\n(2) XX conasbriead,\n(3) 8e83\ngedreas\n(4) 8083 dednea\n(3) 4-C Xoabota 200 ero 2-C Xoatoaas 54. da dend\n-\nwod era\nsderteo ?\nwa\n(4) 3-C Xoodwsa aots eransb\n1\n50. 3ond 3agadooddos Aoor wgpawt e0zod83\naa Dae aopoos evsodean XOwOQado3, d3\nsend aceened atowas Toasond ?\n(1) aae aepaoe eaodssho3 Xaor aopaoe\nevsododa atowortere aegn ado3t.\nsocanse\nadoaas 08decbead\n(1) 20aato abas neseibate\n(2) evoaid wa apega\n(3) dgde aas Aoore\n(4) egowdeoat aoa AeFNaT\n(2) asde cepiwd e0zode3 aa Habr aepaot 55. xigeee egwo 3o2one doawowas\nevsodeanes 2ode endosa bono\nxoaehdg.\n(3) ase asepood e0zod83 aas Xaor wepawt\nevzodeane daa odoade Nowog\nadade.\n(4) aade aeplae ev3oda3ho3 Xaor wopaot\ne0sod83a atowortere saab adst.\naudo: €\n(1) 8307\n(2) avvogsosat\n(3) agtieslatr\n(4) ropat",
+      "text_nfc": "KANNADA\n47. ds dehsonen a0002 :\n(a) senadrs\ntabad OWFODE\n(b) aadcr wor\nacoodo8\n(c) BOcogneon\ndoc3egg JAD\n(d) Qaeads\neuaesat\n(i) OAJ\n(ii) aciodes\n(ii) gAsry\n(iv) dogordr\n68 densangod Xootod eataoa e82 :\n(a) (b) (c) (d)\n(1) (iii) @) (iv) (ii)\n(2) (iii) (iv) () (ii)\n(3) (ii) (iii) () (iv)\n(4) (ii) (iv) (iii) (i)\n48. wot Nosane - eodo Roudovrcoa,\naoooda Axponaodd :\n(a) aoonosada aehda aoonideraorteb\n(b) wots nowo Oomroonta aoooda\ndoveddodods doondera\n(c) geddoenda 2002s\n(d) sodddeshdoss eplero Xoes\n(1) (a), (b) aas (c)\n(2) (c) aas (d)\n(3) (a) aab (d)\n(4) (a) awoS\n49. 00,800A0030 doeorie (RuBisCo) droa\netadeas 23833038380300 Qud 30350087\ncossadoagd :\n(1) 3-C Noawoaa a00 era\n(2) 6-C Hoatoaa w00 era\n7\nG1\n51. eneas NANEON 23eds nowone\ngadgedersod evadeso0xe3 3 gegabadon euss\n(engrarisb) atzadocd/odeg-ordocd :\n(1) sjeees aog\n(2) eaocdavo a0a eaesne\n(3) edoedato aas adgesnr\n(4) edoedato apg\n52. xooded deedaba nodbe2.\n(1) 2300000 won dedo aa 208\naAOTe\nsoreeddade dxwodo aprooadad.\n(2) oxood ege 28ha 0seads ayoo endy\na3) ea 39 wrooohdsd.\n(3) BDorneb, daDTSb, wrsneb gzeone\nseadricoowph 23e7b dt erooondogd.\n(4) 23e70 deda, doodeatgajog eao sog\nepod Decost.\n53. Bt asab apan aser pooosator(B\nDadaSAD Josaobada 3302dooxbajad abour\nepaosaropd, aonodd od aadoconaas :\n(1) aortes soowone\n(2) XX conasbriead,\n(3) 8e83\ngedreas\n(4) 8083 dednea\n(3) 4-C Xoabota 200 ero 2-C Xoatoaas 54. da dend\n-\nwod era\nsderteo ?\nwa\n(4) 3-C Xoodwsa aots eransb\n1\n50. 3ond 3agadooddos Aoor wgpawt e0zod83\naa Dae aopoos evsodean XOwOQado3, d3\nsend aceened atowas Toasond ?\n(1) aae aepaoe eaodssho3 Xaor aopaoe\nevsododa atowortere aegn ado3t.\nsocanse\nadoaas 08decbead\n(1) 20aato abas neseibate\n(2) evoaid wa apega\n(3) dgde aas Aoore\n(4) egowdeoat aoa AeFNaT\n(2) asde cepiwd e0zode3 aa Habr aepaot 55. xigeee egwo 3o2one doawowas\nevsodeanes 2ode endosa bono\nxoaehdg.\n(3) ase asepood e0zod83 aas Xaor wepawt\nevzodeane daa odoade Nowog\nadade.\n(4) aade aeplae ev3oda3ho3 Xaor wopaot\ne0sod83a atowortere saab adst.\naudo: €\n(1) 8307\n(2) avvogsosat\n(3) agtieslatr\n(4) ropat",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

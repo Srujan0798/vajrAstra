@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_023",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0024pro_raw.pdf",
+    "page_index": 32,
+    "width": 1465,
+    "height": 1938
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1465,
+        1938
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6. egpe7-6/11\nc. aaore, HOrpOonogft coono Daepogs gase awnen, 70032.\nasodo:\n1) Daori wodoone Dewond.\nsogsaone - OOOFE gasoaa\n2) dona atoono\na\n84CRDA\nWOUr.\nwobra I dacwopr\ngosoasa\n3) 300-300007190 say WEsO Baoni 808FOUT, Bowod woao e8W30d.\ne3z030d - Hogpoasrvogre gasoaa\n>\notoeai geaa w00Or woas woawsdes.\n-o\n> gcooas 23e7 200 woas 3w8 sooges.\n>\nNOE3O0 enowwa, 30003.\n> day desde 3008 JoTO.\n> aglat aogeb wodo 883 terwa, aoto.\n>\n2ugas 283780 2nde 207e00 30003.\nDoaw aga 30,00.\nsapps eent 200.\n>\noacooan gabwone.\n>\nSay sowa Jeowondo.\na. tend aosooor, nasos.\n\nge\naoa dodob etoaod adoon\ncs\n2000R03\n8232.\nasowo : pafoeas - A abaoog - - gabdea A aowa - - atotoo >07\n1.\n>\n2.\n>\n3.\n4.\na. gosse aanes- egF dos goso aones\ne lognas argaD\no\nBow0n.\n28",
+      "text_nfc": "6. egpe7-6/11\nc. aaore, HOrpOonogft coono Daepogs gase awnen, 70032.\nasodo:\n1) Daori wodoone Dewond.\nsogsaone - OOOFE gasoaa\n2) dona atoono\na\n84CRDA\nWOUr.\nwobra I dacwopr\ngosoasa\n3) 300-300007190 say WEsO Baoni 808FOUT, Bowod woao e8W30d.\ne3z030d - Hogpoasrvogre gasoaa\n>\notoeai geaa w00Or woas woawsdes.\n-o\n> gcooas 23e7 200 woas 3w8 sooges.\n>\nNOE3O0 enowwa, 30003.\n> day desde 3008 JoTO.\n> aglat aogeb wodo 883 terwa, aoto.\n>\n2ugas 283780 2nde 207e00 30003.\nDoaw aga 30,00.\nsapps eent 200.\n>\noacooan gabwone.\n>\nSay sowa Jeowondo.\na. tend aosooor, nasos.\n\nge\naoa dodob etoaod adoon\ncs\n2000R03\n8232.\nasowo : pafoeas - A abaoog - - gabdea A aowa - - atotoo >07\n1.\n>\n2.\n>\n3.\n4.\na. gosse aanes- egF dos goso aones\ne lognas argaD\no\nBow0n.\n28",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

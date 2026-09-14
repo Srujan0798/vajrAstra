@@ -1,0 +1,41 @@
+{
+  "page_id": "te_065",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0065pro_raw.pdf",
+    "page_index": 65,
+    "width": 1800,
+    "height": 2400
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1800,
+        2400
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "સરાવર\n૬ ભયન ४\n૭\n૧૦\nमहाराष्‍ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासकम संशोधन मंडळ पुणे\nসমার যোতা ਰਿਸਿੰਰੀ\nਭਾਗਾਸਭਸਸੇਪੀਘਾਰ हिंदी सुलभारती इयत्ता 1 ‍वी ਦੇ 3000",
+      "text_nfc": "સરાવર\n૬ ભયન ४\n૭\n૧૦\nमहाराष्‍ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासकम संशोधन मंडळ पुणे\nসমার যোতা ਰਿਸਿੰਰੀ\nਭਾਗਾਸਭਸਸੇਪੀਘਾਰ हिंदी सुलभारती इयत्ता 1 ‍वी ਦੇ 3000",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_080",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 584.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        584.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aqpoogg 06 o$$g 8\n೫ಲ ಸಿದಾಂತಿಶೇ ಸದಲಂಗಸಾ.ಎ\nJNANAOO1771\nShilpa Siddhanthi Sri Siddha\nರಾವುದಾಸ್ಅಡಂತಾಯ್\nಂಟಕ\nಕನಾ೯ಟಕಿಲಅತಕಲಾಿಅಕಾಡೆಯು\nಅಕಳು\nKarnataka Lalithakala Academy",
+      "text_nfc": "aqpoogg 06 o$$g 8\n೫ಲ ಸಿದಾಂತಿಶೇ ಸದಲಂಗಸಾ.ಎ\nJNANAOO1771\nShilpa Siddhanthi Sri Siddha\nರಾವುದಾಸ್ಅಡಂತಾಯ್\nಂಟಕ\nಕನಾ೯ಟಕಿಲಅತಕಲಾಿಅಕಾಡೆಯು\nಅಕಳು\nKarnataka Lalithakala Academy",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

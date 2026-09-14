@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_074",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0035pro_raw.pdf",
+    "page_index": 132,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "~~\n\n೦)\nಳು.\n~\nnw\n\nಡು\nಗತಿಗ\nಶ್ತಿರು\n\n3\n\nI\n\nಜ್‌\nಲ\n\n&\nwo?\nAor)\nಸಂ\nರಗು\n\nಮ\nಆ\n\na ne\n\nಕಾರರು.\n\naes\n\nಜಾಗ |\n೧೨\n\nಣಿ\n\nಶೆ\n\nತ ಚಿಕಣ್ಣನವರು ನ\nಸೆ)\n\nಕಾ\nಖಿ\n\nಅದ್ಬುತ ಕಥ\n\nಕ\n\n/\n\n",
+      "text_nfc": "~~\n\n೦)\nಳು.\n~\nnw\n\nಡು\nಗತಿಗ\nಶ್ತಿರು\n\n3\n\nI\n\nಜ್‌\nಲ\n\n&\nwo?\nAor)\nಸಂ\nರಗು\n\nಮ\nಆ\n\na ne\n\nಕಾರರು.\n\naes\n\nಜಾಗ |\n೧೨\n\nಣಿ\n\nಶೆ\n\nತ ಚಿಕಣ್ಣನವರು ನ\nಸೆ)\n\nಕಾ\nಖಿ\n\nಅದ್ಬುತ ಕಥ\n\nಕ\n\n/\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

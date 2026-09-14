@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "22 23\n\n6-17 18 19 20 21\n\na3 14 15\n\n12\n\n=\n—\no\na\n\n9\n\nIndic Digital Archive Foundation\n\n19\n\nWo.402.\n\n98 8 01८90 202: I@A0.\n\nB® 9 a) की ൽ,\n\n14 618 16 17 18\n\n100800 ഷേയിക്ക് ആയീസ്ഖാൻ.\n\n13\n\n12\n\nन क ഫെ 8 ര 9 ലി യു .ട\n\nനായർഗപണ്ണർ.\n\n10 11\n\n3 Onnaainoay:\nB00. 09. സി.കുഞ്ഞിരാമമേനഷ 0201 0 ८ 00:\nതൃജ്ശിപപേരൂർ.\n\n9\n\n° 3\nരണ്ടാംപതിപ്പ് 1929.\n\neno 1000  )\n\nPrinted at\nThe Mangalodayain Press,\nTrichur.\nale: 100.\n\n(Copyright to the author.)\n\nको le ss ५ जूक <a eee Te PT ee Pe\n\nee 7 के के 20 28 2 23 14\n\ngpura.org\n\n8*6 0777276&7 *,*&78”74* &\n\n",
+      "text_nfc": "22 23\n\n6-17 18 19 20 21\n\na3 14 15\n\n12\n\n=\n—\no\na\n\n9\n\nIndic Digital Archive Foundation\n\n19\n\nWo.402.\n\n98 8 01८90 202: I@A0.\n\nB® 9 a) की ൽ,\n\n14 618 16 17 18\n\n100800 ഷേയിക്ക് ആയീസ്ഖാൻ.\n\n13\n\n12\n\nन क ഫെ 8 ര 9 ലി യു .ട\n\nനായർഗപണ്ണർ.\n\n10 11\n\n3 Onnaainoay:\nB00. 09. സി.കുഞ്ഞിരാമമേനഷ 0201 0 ८ 00:\nതൃജ്ശിപപേരൂർ.\n\n9\n\n° 3\nരണ്ടാംപതിപ്പ് 1929.\n\neno 1000  )\n\nPrinted at\nThe Mangalodayain Press,\nTrichur.\nale: 100.\n\n(Copyright to the author.)\n\nको le ss ५ जूक <a eee Te PT ee Pe\n\nee 7 के के 20 28 2 23 14\n\ngpura.org\n\n8*6 0777276&7 *,*&78”74* &\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

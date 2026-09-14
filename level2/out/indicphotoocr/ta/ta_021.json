@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_021",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "glitiligologuj ചെറുത്ത്\nதமி ழ்நாடு 9175\nமேல்நி തം ண் டாம் ஆண்டு\nசிறப்புத் தமிழ்\nதமிழ்நாடு 9175 விலையில்லாட் பாடநூ ல் வழங்கும் திட்டத்தின்கீழ் வெளியிடப்பட்டது\nபள்ளிக் கல்வித்துறை\nதீண்டாமை மனித நேயமற்ற செயலும் பெருங்குற்றமும் ஆகும்\nઝા std advance tamil introduction pages indd 11122021 222404",
+      "text_nfc": "glitiligologuj ചെറുത്ത്\nதமி ழ்நாடு 9175\nமேல்நி തം ண் டாம் ஆண்டு\nசிறப்புத் தமிழ்\nதமிழ்நாடு 9175 விலையில்லாட் பாடநூ ல் வழங்கும் திட்டத்தின்கீழ் வெளியிடப்பட்டது\nபள்ளிக் கல்வித்துறை\nதீண்டாமை மனித நேயமற்ற செயலும் பெருங்குற்றமும் ஆகும்\nઝા std advance tamil introduction pages indd 11122021 222404",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

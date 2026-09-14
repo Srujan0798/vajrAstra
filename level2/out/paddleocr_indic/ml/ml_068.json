@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_068",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 24,
+    "width": 1509,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1509,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "C.\nB, 30m 0318 272520, 0n5.027\n. 01526 51027 220—\n20768m12621W2878 280 0212280. 2NB-\n03 rn )wDo Br(\nN1B~J 2)WD00 00 A220.\nBidond 7m 521nrbard 8gm7d\nD) W026 02)~ ()) 23. 0330\nmoN1Bos-37o BeNmom260 Son govoonaryo\n  , aior (c, \nB125 200326 8, 20 m2, 2238005.\n300~13.8,80326, (163732。\n0\n3,s aro6 -ona 20ganrd Donj2n,8 5508\nmo (w) ) 一8 / . B, ), (7-\n8275 e23m8o 86on2a)28",
+      "text_nfc": "C.\nB, 30m 0318 272520, 0n5.027\n. 01526 51027 220—\n20768m12621W2878 280 0212280. 2NB-\n03 rn )wDo Br(\nN1B~J 2)WD00 00 A220.\nBidond 7m 521nrbard 8gm7d\nD) W026 02)~ ()) 23. 0330\nmoN1Bos-37o BeNmom260 Son govoonaryo\n  , aior (c, \nB125 200326 8, 20 m2, 2238005.\n300~13.8,80326, (163732。\n0\n3,s aro6 -ona 20ganrd Donj2n,8 5508\nmo (w) ) 一8 / . B, ), (7-\n8275 e23m8o 86on2a)28",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

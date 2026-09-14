@@ -1,0 +1,41 @@
+{
+  "page_id": "te_038",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0038pro_raw.pdf",
+    "page_index": 46,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "10. - adyboge 8os GEDO606o\naOOD Deobo - esa5asogs esro:\ndessys\nSONTSO\negoars\n8083\n2a08056 SuOA awotno daes derys\nepiso5awrs\nSertns\neawowrs.\neodse 3 esdgaao escgroe enso Booto.\negos essog Isaves 000008. doeso\nsobodaxarsebc80065h089603500055\nJoJts. 28 256,65 3870 S550\neobesdoss. BO8 3je33 SX JROBDS\npesog5 S5to egoJoes 20b00 doso.\nQwodd.\navegd wod daves 2000000s :\nswegt wod daes epjoWs0 JyeSS as\nbDa sons. egota Jota sesess\n3\n2go Soots. 2s0056 dooes 83305 a8\nwod 20bes5 3800, 88S OJS6 aaes\n3\nOJTO 35633057505 SrS awg asOo\nNObo 2a00s6630. dOES sos\n3 SURNNS\nwezor 503508.535 e8 Sexescotsod.\ndares\n002 seyatoton Bevnso ssew\nSPOXENS awetowes : 28 25a585 3050T8. 2o8556 aaes es0 JOWS\nJoë DOSOEs eoes Spocs. eggca\nR3y 5w8ses Sosots. egota SNOrEn\nJb 330 sweood 2\ndooso 88055\nBgas Joo Noto eojo1s) 33 6dabo\nSgoto. SOO dores OTTO 3s0 258 Says?\neoo does Sao56 bobessoes WAS 288\neopobecees Soto. 50500 3020 Jetad egewod. SOO as Jooy awssi\nwBNa. 500 Slns Joes 28 asty5ses\nswean S0OWNO aaes 00008. SOO\n500 Joogo SYT3 egota sees aweglon\n88000 sezg deso Soos. 5056 canss oos\nJewsen aT0S sswaw. asyaos Sabrets?\n83 Sexs Sa 3o SN 585 as awse\nSOWS aeSS daes Doawoses.\n\"89553 sess a55 eylobs\" eo\nas 3odo 285856555 3own. SOTSO\neods 308735 eodoss aspS0 Woo\n3060005.\nSwegd 505056 28852385 DoSe\n22A aavsodd. daes 5on DYEONGO\n20 ao 30500w0. esas8 JSavos,\nTNO 2e5JO JOSY Seyjesse asn\n3\neodoss Ragavs. eoota BCOs daes\n888n boesota. egas0 805085. egoota\ndares Sevgst Sg000sde 53 35505.\neeota na) NINSO 880 wewots.\naoavoWs 2o\n35000 85305 3 WJD 002\noo NOto gaseston. e8 DS SoObo\nestoestoo 500 Sonod. eawsn\nS088 nossee Soser sawwo\n&8. a8 88 Soso\n3\nSeys8.\ndoes 0023\nSexetresos ao es 3oso\n3\n3\n2sfue8o DOS 8000S BNSO Jeo. 3\n238\nestcs\nessossvev Joopass. 30856 daes\n356 svgo Nod eabescgs. egggo Boes\n2re5ges d5000 8d0 aOS Babeg\n37)",
+      "text_nfc": "10. - adyboge 8os GEDO606o\naOOD Deobo - esa5asogs esro:\ndessys\nSONTSO\negoars\n8083\n2a08056 SuOA awotno daes derys\nepiso5awrs\nSertns\neawowrs.\neodse 3 esdgaao escgroe enso Booto.\negos essog Isaves 000008. doeso\nsobodaxarsebc80065h089603500055\nJoJts. 28 256,65 3870 S550\neobesdoss. BO8 3je33 SX JROBDS\npesog5 S5to egoJoes 20b00 doso.\nQwodd.\navegd wod daves 2000000s :\nswegt wod daes epjoWs0 JyeSS as\nbDa sons. egota Jota sesess\n3\n2go Soots. 2s0056 dooes 83305 a8\nwod 20bes5 3800, 88S OJS6 aaes\n3\nOJTO 35633057505 SrS awg asOo\nNObo 2a00s6630. dOES sos\n3 SURNNS\nwezor 503508.535 e8 Sexescotsod.\ndares\n002 seyatoton Bevnso ssew\nSPOXENS awetowes : 28 25a585 3050T8. 2o8556 aaes es0 JOWS\nJoë DOSOEs eoes Spocs. eggca\nR3y 5w8ses Sosots. egota SNOrEn\nJb 330 sweood 2\ndooso 88055\nBgas Joo Noto eojo1s) 33 6dabo\nSgoto. SOO dores OTTO 3s0 258 Says?\neoo does Sao56 bobessoes WAS 288\neopobecees Soto. 50500 3020 Jetad egewod. SOO as Jooy awssi\nwBNa. 500 Slns Joes 28 asty5ses\nswean S0OWNO aaes 00008. SOO\n500 Joogo SYT3 egota sees aweglon\n88000 sezg deso Soos. 5056 canss oos\nJewsen aT0S sswaw. asyaos Sabrets?\n83 Sexs Sa 3o SN 585 as awse\nSOWS aeSS daes Doawoses.\n\"89553 sess a55 eylobs\" eo\nas 3odo 285856555 3own. SOTSO\neods 308735 eodoss aspS0 Woo\n3060005.\nSwegd 505056 28852385 DoSe\n22A aavsodd. daes 5on DYEONGO\n20 ao 30500w0. esas8 JSavos,\nTNO 2e5JO JOSY Seyjesse asn\n3\neodoss Ragavs. eoota BCOs daes\n888n boesota. egas0 805085. egoota\ndares Sevgst Sg000sde 53 35505.\neeota na) NINSO 880 wewots.\naoavoWs 2o\n35000 85305 3 WJD 002\noo NOto gaseston. e8 DS SoObo\nestoestoo 500 Sonod. eawsn\nS088 nossee Soser sawwo\n&8. a8 88 Soso\n3\nSeys8.\ndoes 0023\nSexetresos ao es 3oso\n3\n3\n2sfue8o DOS 8000S BNSO Jeo. 3\n238\nestcs\nessossvev Joopass. 30856 daes\n356 svgo Nod eabescgs. egggo Boes\n2re5ges d5000 8d0 aOS Babeg\n37)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

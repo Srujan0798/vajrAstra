@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.6 நட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\n2NaNO2 +2FeSO+ +3H,SO+→Fe(SO4)3 + 2NaHSO4 + 2HO\n5 NO+ 2HPO\n2Pb(NO3)→ 4NO2+2PbO+O2\nNHNO3 →NO + 2HO\n2NO + N2O4 → 2NO3\n2NO2→N,O4\n2HNO3+ P,O5\n5\n2\nதயாரித்தல்\n+2NO\nநட்ரஜனின் ஆக்சைடுதல் தயாரிப்பு\nInuro\nதன்மை\nmuro\n0|9109\nதிண்மம்\nை ம\nIure\n9\nதிண்மம்\n9\nதிண்மம்\nம\n©\nC09\n6ை\n09\nO\n.\n  γ \n&நடுநிலைத்\nநடுநிலைத்\nகொண்டது\n1099\n0099\n10099\nகொண்டது\n1099\nநிறமற்ற\nநிறமற்ற\nநீலநிறத்\nர்hரகிா\nநிறமற்ற\nநிறமற்ற\nஆக்ஸிஜனேற்ற\n±\nநிலை\nunn,mur\nNO\n3\n3\nON\n2\n3\n4\n3\n5\nநைட்ரஸ் ஆக்சைடு\nநைட்ரிக் ஆக்சைடு\nநைட்ரஜன்\nஆக்சைடு\nநட்ரஜன்\nசெஸ்கியுஆக்சைடு\n109\n8\nபென்டாக்சைடு\nடட்ராக்சைடு\nநைட்ரஜன்\nL\nஆக்சைடு\n.\nடை\nC09\n73\nXII U3-P-block.indd\n73\n21-12-2022\n18:33:34\nO",
+      "text_nfc": "3.1.6 நட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\n2NaNO2 +2FeSO+ +3H,SO+→Fe(SO4)3 + 2NaHSO4 + 2HO\n5 NO+ 2HPO\n2Pb(NO3)→ 4NO2+2PbO+O2\nNHNO3 →NO + 2HO\n2NO + N2O4 → 2NO3\n2NO2→N,O4\n2HNO3+ P,O5\n5\n2\nதயாரித்தல்\n+2NO\nநட்ரஜனின் ஆக்சைடுதல் தயாரிப்பு\nInuro\nதன்மை\nmuro\n0|9109\nதிண்மம்\nை ம\nIure\n9\nதிண்மம்\n9\nதிண்மம்\nம\n©\nC09\n6ை\n09\nO\n.\n  γ \n&நடுநிலைத்\nநடுநிலைத்\nகொண்டது\n1099\n0099\n10099\nகொண்டது\n1099\nநிறமற்ற\nநிறமற்ற\nநீலநிறத்\nர்hரகிா\nநிறமற்ற\nநிறமற்ற\nஆக்ஸிஜனேற்ற\n±\nநிலை\nunn,mur\nNO\n3\n3\nON\n2\n3\n4\n3\n5\nநைட்ரஸ் ஆக்சைடு\nநைட்ரிக் ஆக்சைடு\nநைட்ரஜன்\nஆக்சைடு\nநட்ரஜன்\nசெஸ்கியுஆக்சைடு\n109\n8\nபென்டாக்சைடு\nடட்ராக்சைடு\nநைட்ரஜன்\nL\nஆக்சைடு\n.\nடை\nC09\n73\nXII U3-P-block.indd\n73\n21-12-2022\n18:33:34\nO",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

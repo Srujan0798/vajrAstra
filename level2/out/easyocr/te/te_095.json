@@ -1,0 +1,41 @@
+{
+  "page_id": "te_095",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0011pro_raw.pdf",
+    "page_index": 73,
+    "width": 1655,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1655,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "द६्याया @ि 23'\nमहाराष्ट् निर्मिती राज्य अभ्यासक्रम संशौधन मॅडळ पाठगपुस्तक\nमहाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ , पुणे - ४११००४. हिंदी लोकवाणी , इयत्ता दहावी (हिंदी भाषा ) र ४२.००",
+      "text_nfc": "द६्याया @ि 23'\nमहाराष्ट् निर्मिती राज्य अभ्यासक्रम संशौधन मॅडळ पाठगपुस्तक\nमहाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ , पुणे - ४११००४. हिंदी लोकवाणी , इयत्ता दहावी (हिंदी भाषा ) र ४२.००",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

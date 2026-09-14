@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_097",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
+    "page_index": 50,
+    "width": 992,
+    "height": 1583
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        992,
+        1583
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "cdoogaie (oaeo. con.)\n43\nru0 33.\naeg eso \nm,  , m\nmm, \n\n\n  \n \n\n.\n\ne.\nce  e meme\n  \n , \n600\ncamo, eo, m voo aeilsn. a  .\n\n\n,mo \nmod meno m nonzoω alcome gauoj? o mue\nwo  mdme me a\n22\n\n\n\n \n.\n\n\"ue oea\nrreu\n\"\n\nn ca \" \nag  cn sm.\n\nn. ma mo c ma cmoloma muno\n,",
+      "text_nfc": "cdoogaie (oaeo. con.)\n43\nru0 33.\naeg eso \nm,  , m\nmm, \n\n\n  \n \n\n.\n\ne.\nce  e meme\n  \n , \n600\ncamo, eo, m voo aeilsn. a  .\n\n\n,mo \nmod meno m nonzoω alcome gauoj? o mue\nwo  mdme me a\n22\n\n\n\n \n.\n\n\"ue oea\nrreu\n\"\n\nn ca \" \nag  cn sm.\n\nn. ma mo c ma cmoloma muno\n,",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

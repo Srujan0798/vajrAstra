@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_039",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0040pro_raw.pdf",
+    "page_index": 712,
+    "width": 1353,
+    "height": 1901
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1353,
+        1901
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "e. n. e. 0. 3. a. ]\nar,e8Nob3\n683\n(5) 833 dogefpay osed 3aB wooe egesa deno8 I\n(a33. Xo. a-0-E)\nAag 8aos xodoe a deno eodajFwe aopno 3o0duasno8 II\n(ad. Xo. 8-8e5-2.\naacawa a,d8e rogde 8000F3 deno egodsog Xx3,38 II\n(ad. X0.0-090-0)\naodro Beno eesag 8 I (a33. Ho. 2-F9.2)\ndeve cowgaeroddar I (a3. Xo. e5-29-99)\n050230 dpso dodorgoad 2 No NOO Bene ederptad,,ap\n(03). Xo. 00-9a-e)\n2003 (No200 spdodiz 2200F30,298 d25eE 1 8038 I\n(00. Xo. 00-008-2)\naedeeos 8 538008 X332, do30d Beno doundaoele I\n(ed. Xo. 00-009-00)\nes 35yn2 E Bws aO 3, 303303-j03, Aefs, aoneorgas DowOFWe eU BodoeA\nsey B 8.\nEP o2 pes 3 ( M. Bloomfield) OOW dobts 35093 Nos Xe282003 adb. No. no-\n008-00 Jow a0e 3\nyosp03dsspussan es aradedod Besotys Ogegoasr\n(Lithnanian)daina Jo2) tute Avosta de doa dacna JoW Buytpy Xowog 24\ndojaods 2ees3p :. E saynes sopodtoson Jogones, donesot, Roey, aots\nJow BpFRes X028753,3.\nseainge Beso sw à sooagon Ss035nes, aot, 3OW\nepfie dey A wytoJe dojdods e5gesssod 30030) e52pas9 o3s ads3ds.\n3350830-0008 38F3p03333 30833 E 353.\nendoede-evs ssou, aepFson,\n02320. 2y003 sodds de seye 8 eget 300 OESDNSS.\nRorsossoenes DOUOFIOR\nd3303.\neet8 eudoese Jo2 seyos Beso 824 oteatooson evsodsenswasds,\nAoesdedode - ee sea eprs Sasond. espeg asonve et 822 S odoens\nsgessen tots wd.aas.\nIl sa,edrogtoss II\n32oeiae-ad 88308350080,8200\n332. Xo. L-0-022)\nesodorwos\nsonadse, Roayo ensoady aoodie adas 83 33,05.003010350 adsa seya Jsoa\ndo3 d00100L053,0360 eses d2 eeaae aooadss Sroasgt no No euwos eds",
+      "text_nfc": "e. n. e. 0. 3. a. ]\nar,e8Nob3\n683\n(5) 833 dogefpay osed 3aB wooe egesa deno8 I\n(a33. Xo. a-0-E)\nAag 8aos xodoe a deno eodajFwe aopno 3o0duasno8 II\n(ad. Xo. 8-8e5-2.\naacawa a,d8e rogde 8000F3 deno egodsog Xx3,38 II\n(ad. X0.0-090-0)\naodro Beno eesag 8 I (a33. Ho. 2-F9.2)\ndeve cowgaeroddar I (a3. Xo. e5-29-99)\n050230 dpso dodorgoad 2 No NOO Bene ederptad,,ap\n(03). Xo. 00-9a-e)\n2003 (No200 spdodiz 2200F30,298 d25eE 1 8038 I\n(00. Xo. 00-008-2)\naedeeos 8 538008 X332, do30d Beno doundaoele I\n(ed. Xo. 00-009-00)\nes 35yn2 E Bws aO 3, 303303-j03, Aefs, aoneorgas DowOFWe eU BodoeA\nsey B 8.\nEP o2 pes 3 ( M. Bloomfield) OOW dobts 35093 Nos Xe282003 adb. No. no-\n008-00 Jow a0e 3\nyosp03dsspussan es aradedod Besotys Ogegoasr\n(Lithnanian)daina Jo2) tute Avosta de doa dacna JoW Buytpy Xowog 24\ndojaods 2ees3p :. E saynes sopodtoson Jogones, donesot, Roey, aots\nJow BpFRes X028753,3.\nseainge Beso sw à sooagon Ss035nes, aot, 3OW\nepfie dey A wytoJe dojdods e5gesssod 30030) e52pas9 o3s ads3ds.\n3350830-0008 38F3p03333 30833 E 353.\nendoede-evs ssou, aepFson,\n02320. 2y003 sodds de seye 8 eget 300 OESDNSS.\nRorsossoenes DOUOFIOR\nd3303.\neet8 eudoese Jo2 seyos Beso 824 oteatooson evsodsenswasds,\nAoesdedode - ee sea eprs Sasond. espeg asonve et 822 S odoens\nsgessen tots wd.aas.\nIl sa,edrogtoss II\n32oeiae-ad 88308350080,8200\n332. Xo. L-0-022)\nesodorwos\nsonadse, Roayo ensoady aoodie adas 83 33,05.003010350 adsa seya Jsoa\ndo3 d00100L053,0360 eses d2 eeaae aooadss Sroasgt no No euwos eds",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

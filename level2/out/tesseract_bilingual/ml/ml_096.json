@@ -1,0 +1,43 @@
+{
+  "page_id": "ml_096",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [
+    "L2"
+  ],
+  "unreadable_reason": "ocr_empty",
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 0,
+    "width": 1127,
+    "height": 1744
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1127,
+        1744
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "",
+      "text_nfc": "",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

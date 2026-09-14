@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_023",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+    "page_index": 157,
+    "width": 876,
+    "height": 1362
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        876,
+        1362
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0e\n06080000\nboeJo 19.66.00)000ng\n00610100010600010.001000\n0088/0010 pomoromo R1O2I000 mupablagoom,g.2b\n608 000088J090 6106832100 GO1O2 olso 165\n2om: 6M --603 2101.8000000 (QGQJO 020100 0O\ngollo G9108102,008001000 002e\nEg-a.lgjamoomgy (e00 63800 E joo0ono. B0\nogjelod aloy 005g1e/0ossm,m 601%\nDoml\n6M\nNom 03Jaglo1s0 bodgqeanes?\naloy\n000010000191 60000s 21301. alono onsloy 6o\n00e1, (TOCDO, (coQlo dool) 01800.10.80000 epodamo\nBooploog\nQG: - (6106006)00 cooloom; mopo.@osneoclej\n60000 alloiodoy 2orolo/coleloono\" bo0looloabo 6l5g1\n003lo0 oangmno@ovom@sal mrooid Boolo 002m0o\nomo.\n20m1: 6m\neroomo 61006000000 goJonsole ollolod\n860000 mu20olajoo 00, (O6NS 0O28 6C3 Ocbogjo\nerooud (Borollod 0o2muldeo. @aNseam olaono BYDOI\nda gom2oono.\n28-00 mleioe 000000 eaolomod) 3\ndol\naoei2apooon/lenbo (1000Q10B0 010683000 60000 0008\nGosleambons (BYOOIO 2568loxmood (100J60 60JmWm\noblobogysomo.\npom: - opimwaorolmo\n6m\n20008 Obogjonod 0001\nco6o 260 0000365 Qj@olaacaianal r0020010.096n8 cog\nde droibamo 0-J001000093",
+      "text_nfc": "0e\n06080000\nboeJo 19.66.00)000ng\n00610100010600010.001000\n0088/0010 pomoromo R1O2I000 mupablagoom,g.2b\n608 000088J090 6106832100 GO1O2 olso 165\n2om: 6M --603 2101.8000000 (QGQJO 020100 0O\ngollo G9108102,008001000 002e\nEg-a.lgjamoomgy (e00 63800 E joo0ono. B0\nogjelod aloy 005g1e/0ossm,m 601%\nDoml\n6M\nNom 03Jaglo1s0 bodgqeanes?\naloy\n000010000191 60000s 21301. alono onsloy 6o\n00e1, (TOCDO, (coQlo dool) 01800.10.80000 epodamo\nBooploog\nQG: - (6106006)00 cooloom; mopo.@osneoclej\n60000 alloiodoy 2orolo/coleloono\" bo0looloabo 6l5g1\n003lo0 oangmno@ovom@sal mrooid Boolo 002m0o\nomo.\n20m1: 6m\neroomo 61006000000 goJonsole ollolod\n860000 mu20olajoo 00, (O6NS 0O28 6C3 Ocbogjo\nerooud (Borollod 0o2muldeo. @aNseam olaono BYDOI\nda gom2oono.\n28-00 mleioe 000000 eaolomod) 3\ndol\naoei2apooon/lenbo (1000Q10B0 010683000 60000 0008\nGosleambons (BYOOIO 2568loxmood (100J60 60JmWm\noblobogysomo.\npom: - opimwaorolmo\n6m\n20008 Obogjonod 0001\nco6o 260 0000365 Qj@olaacaianal r0020010.096n8 cog\nde droibamo 0-J001000093",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

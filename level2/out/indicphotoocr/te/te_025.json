@@ -1,0 +1,41 @@
+{
+  "page_id": "te_025",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0025pro_raw.pdf",
+    "page_index": 86,
+    "width": 1675,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1675,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "१९४५ ४११९\nmaharashtra state bureau of ਵੀਰ\ntextbook production and समग्र शिक्षा\ncurriculum research pune samagra shiksha\nউৎসৱময়যালয় संशोधन मंडळ\nवअभ्यासक्रम माय इंग्लिश बुक ग्रेड वन for free distribution",
+      "text_nfc": "१९४५ ४११९\nmaharashtra state bureau of ਵੀਰ\ntextbook production and समग्र शिक्षा\ncurriculum research pune samagra shiksha\nউৎসৱময়যালয় संशोधन मंडळ\nवअभ्यासक्रम माय इंग्लिश बुक ग्रेड वन for free distribution",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_098",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 76,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "203 gobnes\n65\n00eneb-060007eb\neapaones w00 apa NOSTES ea dtan adabood deoa aad\n- dia3\neonnen doodoatsa.\nadabaod\nesazgn 23td\n0000.000000000\neapwanes wawoa, & SApE at epsaoa, aoodd. eppaones aepay eonneoa\ndoan -o\nNOT&R adavt ade 3030. ewnen wawoa\ncag\n0\n3\n203a0 ensoe\nwto0o,\n3803 aaddodade wooon\n-\nea wenea,\naoodd.\n28 dwoeaned d00 0\nteae aoa\n0gne\n0d0b00 20030.\n-\neapasaw ao0 eonany epwo eomosaa - Bevda No30, dtan\ngeatood wewdocsa TowoF 3de0 stg Mrg vOSneoA 22p237030. e303 Xrg\nNOSTES w00 Readoeswas d3 epga0a, aooda a eus ciocasog woa\nbdawad. of az DEOJ acwdocene\n-0\n0\naots WDTS -\naoaaba 68 dewoa\n208a0 atoet soawad. Jozd diocarosneb 2ubgn Xco epppwanea,\nENORUOODE. ea down eon epwo eonosood aoon-2e/D8d.\no0\n-o\n-\n803837900 e3\nOaror\nwonaee 38 wosaorade tiocot e0o830do WNOTDEd? NoCy neabrioot\n06x2000r0803 Borene an aioce32. roppoobaohadbe 28 aassowon\nsawonssda\no\nddon o\ndaaoriogneet).\na08 2037 iocotaw\n- saywontes\n230\ntodsowon WOdOT\nayaras 9\nFREDEFOR\n8ax0er0ad.\ncoay a\n307e0 000\n803ne aoodd. eaa3 deawotsos X02307030\ne\nazo\nnoabwoa\no\nodesned\n000 o oanesaod a 2J\naoa 88 Aocodnen, 20r03t.\nconox\nsortotaJo doahadcoads cariooas oaad. cg0a aonos (lymph)\nepao eonosaa waad. docavogne 238a00 towwda dogne aloet de C\nayaotod DUOT adgesernes ao of seadoeened somposnsen eogddeebeat\newtoinsiogn wasesz eonosdas eowo anoraa, Q\na e0060a3000. aa\ndtaon agrpcodobe.gcoad e0o\n0\nwrodbsaohag EO\ngaa\naigeesesa, aooddsd.\nsosddocbead ewtoone aloot aononas conelorabooeneo 0oawed,\neanes wonnoa det anwoenea e0O80a3000E. 0\nea eosawoh\ndotswod epppaonen 30aw3. anosa 2080FWOR aa 309200 bedeg\ndoeyay wAwoed aa gewdoest aodnda eoo\n1\nDa awepFan\nabde o0\na\nboawaos aodsd.\n5.4.2\nAARe0 2\nJOrOEdE\nNAne0 TOWFI det Nos0 7o8 Noawones, aen apanadoots\ndoedocger aoodda wensog eonnse asrogead 3800a TOTONEW\n-\n\nwowaa, 68 aonoe 2328F0. NAnS dea DaJDFEOt d enswoa 30\n25p0Ron90 0\ndoteo agetwoh Bricob.ogtdesonbad. AATOR aorap, gedgeasar,\nCOTOT\nCN\na0as\n930 208n800\ndasparorte\n0g08\no\nabas Seaso\netowond.",
+      "text_nfc": "203 gobnes\n65\n00eneb-060007eb\neapaones w00 apa NOSTES ea dtan adabood deoa aad\n- dia3\neonnen doodoatsa.\nadabaod\nesazgn 23td\n0000.000000000\neapwanes wawoa, & SApE at epsaoa, aoodd. eppaones aepay eonneoa\ndoan -o\nNOT&R adavt ade 3030. ewnen wawoa\ncag\n0\n3\n203a0 ensoe\nwto0o,\n3803 aaddodade wooon\n-\nea wenea,\naoodd.\n28 dwoeaned d00 0\nteae aoa\n0gne\n0d0b00 20030.\n-\neapasaw ao0 eonany epwo eomosaa - Bevda No30, dtan\ngeatood wewdocsa TowoF 3de0 stg Mrg vOSneoA 22p237030. e303 Xrg\nNOSTES w00 Readoeswas d3 epga0a, aooda a eus ciocasog woa\nbdawad. of az DEOJ acwdocene\n-0\n0\naots WDTS -\naoaaba 68 dewoa\n208a0 atoet soawad. Jozd diocarosneb 2ubgn Xco epppwanea,\nENORUOODE. ea down eon epwo eonosood aoon-2e/D8d.\no0\n-o\n-\n803837900 e3\nOaror\nwonaee 38 wosaorade tiocot e0o830do WNOTDEd? NoCy neabrioot\n06x2000r0803 Borene an aioce32. roppoobaohadbe 28 aassowon\nsawonssda\no\nddon o\ndaaoriogneet).\na08 2037 iocotaw\n- saywontes\n230\ntodsowon WOdOT\nayaras 9\nFREDEFOR\n8ax0er0ad.\ncoay a\n307e0 000\n803ne aoodd. eaa3 deawotsos X02307030\ne\nazo\nnoabwoa\no\nodesned\n000 o oanesaod a 2J\naoa 88 Aocodnen, 20r03t.\nconox\nsortotaJo doahadcoads cariooas oaad. cg0a aonos (lymph)\nepao eonosaa waad. docavogne 238a00 towwda dogne aloet de C\nayaotod DUOT adgesernes ao of seadoeened somposnsen eogddeebeat\newtoinsiogn wasesz eonosdas eowo anoraa, Q\na e0060a3000. aa\ndtaon agrpcodobe.gcoad e0o\n0\nwrodbsaohag EO\ngaa\naigeesesa, aooddsd.\nsosddocbead ewtoone aloot aononas conelorabooeneo 0oawed,\neanes wonnoa det anwoenea e0O80a3000E. 0\nea eosawoh\ndotswod epppaonen 30aw3. anosa 2080FWOR aa 309200 bedeg\ndoeyay wAwoed aa gewdoest aodnda eoo\n1\nDa awepFan\nabde o0\na\nboawaos aodsd.\n5.4.2\nAARe0 2\nJOrOEdE\nNAne0 TOWFI det Nos0 7o8 Noawones, aen apanadoots\ndoedocger aoodda wensog eonnse asrogead 3800a TOTONEW\n-\n\nwowaa, 68 aonoe 2328F0. NAnS dea DaJDFEOt d enswoa 30\n25p0Ron90 0\ndoteo agetwoh Bricob.ogtdesonbad. AATOR aorap, gedgeasar,\nCOTOT\nCN\na0as\n930 208n800\ndasparorte\n0g08\no\nabas Seaso\netowond.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

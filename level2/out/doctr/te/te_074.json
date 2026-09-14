@@ -1,0 +1,41 @@
+{
+  "page_id": "te_074",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0074pro_raw.pdf",
+    "page_index": 111,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8055 BeuJ?\n8080 ads Seres BNO? es eppobeson botoo). Soë\n283 88056 esro Je356 Soë NOd 26350030008.\nesr 60550 sroo W500 wes J6s osp do\nJSDIS eads essoto boewod. 08 Soos (505) QWSS\n268 dego de Jsso 308 Seres 3050S0Q. OO 30\nWaTOO 287 essoto boewod.\n38 Sero w88DSSO se Jo650056 800s0 D6\nS56 287 essoto Goewod. Cony 050 18km J6s Xe The great belt bridge J6S J06500056 4.7m\nsonevod. SDS So0s0 208005 S56 88 J5550 Bodess Sn Doges Sobed boesaw.\nlwe DsE5O (Expansion of Liquids)\nlowess 283305 essgo 6o0o0. 5O wess\n283305 MUNSOSTEO boewod. 5SS SNO Oae\n3055850065 JSS2OO5O 3 ATIEO 6500\noawsisys.\nV,=V,(1+ B AT)\n(11)\nques AT 62f550 JOy. V2, V, eu (OW\newd, 59 ANSoJEreN. B 38 (OSD JgsS 300s0.\n3080085 Soos Begoi.\nDegres5s5o5t lOae J555o se SOT 5 bsoper\n5055 Beuno?\n5e33 a SOROS dglerso 2858 (5303 SoKos\nWersoso SO3o DsOr boewod. 800 5e3\nesore W5ED eoeso. 60 NooW asO 3\ngonebess 305000.\nwose 255630 (Expansion of gases)\nsawses 283 WUNSOSJEO STto botods.\nJowson 38 53 es JssoNO. 5O JOs\n1 as 283 9UNSOSSEOO Xo 50-55 20083 OO QUis\n3855800 30X8 mO OO Scoso sonesod. 28\nSéso 14.756 asedna.\nsad Suseso\nsoes Suseso\n+\nJOwsso\nsosvease\nBeso.\n88\n3\n&\n-\n14.7 woses Xe eolepsO\nJeso 14.720 13 (308 Waoss aweev 38500.\n1.N000 = (35908/2055057e00 88 ENNOO\n20800s 5050 JOws daaghenss 3005SS ed\nNO1SS 5-3 388550 JeTo bOlans?\n2. SosS awOso 0D56 as sa00 Susoso\nessoged boes JOs 20683 De3 (ersO SNNS?\nesodsse Scra 3oom bon sO JSoD\nSevwo. geroes Jgss 30052 30505 Drss\n3ooso eoeso. OOD Bo8 ABOS oassiys.\nV,=V,(1+BAT)\n(12)\nques AT essa cnfiesss sroy. V,, V, e JO\n5555 scN0560 ewd, 8D UNSOeses. B egss\n38 Jows 200005 DgsS g0050.\n102",
+      "text_nfc": "8055 BeuJ?\n8080 ads Seres BNO? es eppobeson botoo). Soë\n283 88056 esro Je356 Soë NOd 26350030008.\nesr 60550 sroo W500 wes J6s osp do\nJSDIS eads essoto boewod. 08 Soos (505) QWSS\n268 dego de Jsso 308 Seres 3050S0Q. OO 30\nWaTOO 287 essoto boewod.\n38 Sero w88DSSO se Jo650056 800s0 D6\nS56 287 essoto Goewod. Cony 050 18km J6s Xe The great belt bridge J6S J06500056 4.7m\nsonevod. SDS So0s0 208005 S56 88 J5550 Bodess Sn Doges Sobed boesaw.\nlwe DsE5O (Expansion of Liquids)\nlowess 283305 essgo 6o0o0. 5O wess\n283305 MUNSOSTEO boewod. 5SS SNO Oae\n3055850065 JSS2OO5O 3 ATIEO 6500\noawsisys.\nV,=V,(1+ B AT)\n(11)\nques AT 62f550 JOy. V2, V, eu (OW\newd, 59 ANSoJEreN. B 38 (OSD JgsS 300s0.\n3080085 Soos Begoi.\nDegres5s5o5t lOae J555o se SOT 5 bsoper\n5055 Beuno?\n5e33 a SOROS dglerso 2858 (5303 SoKos\nWersoso SO3o DsOr boewod. 800 5e3\nesore W5ED eoeso. 60 NooW asO 3\ngonebess 305000.\nwose 255630 (Expansion of gases)\nsawses 283 WUNSOSJEO STto botods.\nJowson 38 53 es JssoNO. 5O JOs\n1 as 283 9UNSOSSEOO Xo 50-55 20083 OO QUis\n3855800 30X8 mO OO Scoso sonesod. 28\nSéso 14.756 asedna.\nsad Suseso\nsoes Suseso\n+\nJOwsso\nsosvease\nBeso.\n88\n3\n&\n-\n14.7 woses Xe eolepsO\nJeso 14.720 13 (308 Waoss aweev 38500.\n1.N000 = (35908/2055057e00 88 ENNOO\n20800s 5050 JOws daaghenss 3005SS ed\nNO1SS 5-3 388550 JeTo bOlans?\n2. SosS awOso 0D56 as sa00 Susoso\nessoged boes JOs 20683 De3 (ersO SNNS?\nesodsse Scra 3oom bon sO JSoD\nSevwo. geroes Jgss 30052 30505 Drss\n3ooso eoeso. OOD Bo8 ABOS oassiys.\nV,=V,(1+BAT)\n(12)\nques AT essa cnfiesss sroy. V,, V, e JO\n5555 scN0560 ewd, 8D UNSOeses. B egss\n38 Jows 200005 DgsS g0050.\n102",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

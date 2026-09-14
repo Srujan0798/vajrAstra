@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ध्वनिविज्ञान\nध्वनि यंत्र\n(डॉ कपिलदेव द्विवेदी, भाषा विज्ञान एवं भाषा शास्त्र, पृष्ठ संख्या 128)\nचित्र परिचय :\n१. श्वास नली (Wind Pipe) 2. भोजन नली (Gullet/Food Pipe) 3. स्वर यंत्र (Larynx) 4. स्वर तंत्री (Vocal Cord) 5. काकल (Glottis) 6. अभिकाकल (Epiglottis) 7. गलबिल/उपालिजिहवा (Pharynx) 8. अलिजिहवा/कौवा (Uvula) 9. नासाविवर (Nasal Cavity) 10. कोमल तालु (Soft Palate) 11. मूर्धा (Cerebrum) 12. कठोर तालु (Hard Palate) 13. वर्त्स (Alveolus) 14. दंत (Teeth) 15. ओष्ठ (Lips) 16. जिहवा नोक (Tip of the Tongue)\n65",
+      "text_nfc": "ध्वनिविज्ञान\nध्वनि यंत्र\n(डॉ कपिलदेव द्विवेदी, भाषा विज्ञान एवं भाषा शास्त्र, पृष्ठ संख्या 128)\nचित्र परिचय :\n१. श्वास नली (Wind Pipe) 2. भोजन नली (Gullet/Food Pipe) 3. स्वर यंत्र (Larynx) 4. स्वर तंत्री (Vocal Cord) 5. काकल (Glottis) 6. अभिकाकल (Epiglottis) 7. गलबिल/उपालिजिहवा (Pharynx) 8. अलिजिहवा/कौवा (Uvula) 9. नासाविवर (Nasal Cavity) 10. कोमल तालु (Soft Palate) 11. मूर्धा (Cerebrum) 12. कठोर तालु (Hard Palate) 13. वर्त्स (Alveolus) 14. दंत (Teeth) 15. ओष्ठ (Lips) 16. जिहवा नोक (Tip of the Tongue)\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

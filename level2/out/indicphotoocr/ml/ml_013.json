@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_013",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 16,
+    "width": 1608,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1608,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "এল সমিতি সম্পন ੭੭ ਰੀਰਨ ૠ সমিতি 79 ১়০\n \nএকোত જીટીમ ਦੇ જ00ના ੧੦\nਸਾਈਨਾਈ ੦੦\nਸੁਆਰਮਾਨਾਈਮੇ ੭੭\nએનાડીન ਰਾਵਾਉ ੧੭ yroland 1803000414 ঠিক\nਸਪੈਨਾਰ અભીમૃત્ય 2704 ટી શ્રી\nਨਾਃ ય 22070\n23 ਨਿਪੀ ੧੭ ન્ટીમ છ\n2ndoogh ਕਾਰ\nસરળ સરાવરી 23 ४२०१ time ੦ નીતારી\n  ਕਾਰਾ જી જનર્ન ਕਾਰੀ ੮੦ 3 ੦ കമ്പാ\nળ ਆਰਕਾਰ ਸੀਸੂਰ 2416 ਮੰਅ কহস্য ਸੁਣਾਈ ੩੭\nപരിവർ সোণ 6 মহাসা  সমিতি\n१११४०१२\n2800ानंतर ਹੈ ਸੰਘ 22\n৫৫ ਸਾਈ જીતાકસી ਅਸੁ ০০০ ਦੀਆ b3n3112\nলৈ\nਨਾਂ মহাসে  ਸੁਖਾ   \n0027\nਸੰਘਾ সমিতি ਸਮਾਈ\nসমিতি ৯এ ਹੈ\nদণ্ড যোগম শশ ૪૭\nএল",
+      "text_nfc": "এল সমিতি সম্পন ੭੭ ਰੀਰਨ ૠ সমিতি 79 ১়০\n \nএকোত જીટીમ ਦੇ જ00ના ੧੦\nਸਾਈਨਾਈ ੦੦\nਸੁਆਰਮਾਨਾਈਮੇ ੭੭\nએનાડીન ਰਾਵਾਉ ੧੭ yroland 1803000414 ঠিক\nਸਪੈਨਾਰ અભીમૃત્ય 2704 ટી શ્રી\nਨਾਃ ય 22070\n23 ਨਿਪੀ ੧੭ ન્ટીમ છ\n2ndoogh ਕਾਰ\nસરળ સરાવરી 23 ४२०१ time ੦ નીતારી\n  ਕਾਰਾ જી જનર્ન ਕਾਰੀ ੮੦ 3 ੦ കമ്പാ\nળ ਆਰਕਾਰ ਸੀਸੂਰ 2416 ਮੰਅ কহস্য ਸੁਣਾਈ ੩੭\nപരിവർ সোণ 6 মহাসা  সমিতি\n१११४०१२\n2800ानंतर ਹੈ ਸੰਘ 22\n৫৫ ਸਾਈ જીતાકસી ਅਸੁ ০০০ ਦੀਆ b3n3112\nলৈ\nਨਾਂ মহাসে  ਸੁਖਾ   \n0027\nਸੰਘਾ সমিতি ਸਮਾਈ\nসমিতি ৯এ ਹੈ\nদণ্ড যোগম শশ ૪૭\nএল",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

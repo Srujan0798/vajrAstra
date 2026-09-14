@@ -1,0 +1,41 @@
+{
+  "page_id": "te_027",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0027pro_raw.pdf",
+    "page_index": 29,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "౫ చిత్రంలోని చేతివేళ్ళను లెక్కించండి. చేతివేళ్ళు ఎన్నివున్నాయో అన్నిగితలు పక్కనున్న గడిలో\nగియండి. మొత్తం గీతలను లెక్కించి వాటి సంఖ్యను పక్కనున్న గడిలో రాయండి.\n\n౫% రెండు సమూహాలలోని చిత్రాలను లెక్కించండి. మొత్తం చిత్రాల సంఖ్య రాయండి.\n\neee| [eeee\n[| బొంగరాలు || బొంగరాలు\n\nAAAAAAA\n\n|_| సీతాకోక చిలుకలు |_| సీతాకోకచిలుకలు\nहै दे हे के है के है के कि\n\n[| | సీతాకోక చిలుకలు\n",
+      "text_nfc": "౫ చిత్రంలోని చేతివేళ్ళను లెక్కించండి. చేతివేళ్ళు ఎన్నివున్నాయో అన్నిగితలు పక్కనున్న గడిలో\nగియండి. మొత్తం గీతలను లెక్కించి వాటి సంఖ్యను పక్కనున్న గడిలో రాయండి.\n\n౫% రెండు సమూహాలలోని చిత్రాలను లెక్కించండి. మొత్తం చిత్రాల సంఖ్య రాయండి.\n\neee| [eeee\n[| బొంగరాలు || బొంగరాలు\n\nAAAAAAA\n\n|_| సీతాకోక చిలుకలు |_| సీతాకోకచిలుకలు\nहै दे हे के है के है के कि\n\n[| | సీతాకోక చిలుకలు\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

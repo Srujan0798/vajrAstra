@@ -1,0 +1,41 @@
+{
+  "page_id": "te_010",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0010pro_raw.pdf",
+    "page_index": 63,
+    "width": 1659,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1659,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "AMa\nrigh\nyoul.\nHERIG\nPvel\naoegkrc\nd\n319218h4\nE\nHS0,\neT4sh\nARIO\n3iaaa,\n$emll\nGETA\n(ARIO\nHTTOT)\nRiE S\nR\n82.00\nRiel\nch0ots\nOSRAM\n3C\nT\n40",
+      "text_nfc": "AMa\nrigh\nyoul.\nHERIG\nPvel\naoegkrc\nd\n319218h4\nE\nHS0,\neT4sh\nARIO\n3iaaa,\n$emll\nGETA\n(ARIO\nHTTOT)\nRiE S\nR\n82.00\nRiel\nch0ots\nOSRAM\n3C\nT\n40",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

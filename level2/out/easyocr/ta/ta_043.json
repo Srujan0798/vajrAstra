@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_043",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 7,
+    "width": 1230,
+    "height": 2003
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1230,
+        2003
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "9|. ७mupglmoioDi H॰ i #कl थु. ७oppl७oiछं Oछn७os @. Goup@lबoLo @fn ।॰ थmo१फ़li L॰वग f #कl\n3. mplwolngl OlFulB. (aळग Gugli @ळंा@l DLOळ ) (i) uDऊझIढ्ं   (UBILILgIIDछम ) 9: uYULI ढंठा %* u५छड़r LII R॰ . LI७ Guso\n(3)\n(ii) @DLIU ढठा (Gpiui OuwOljsgul LGUgInऊंछम ) 9|: !॰J६ @DLIUI ढठा % @७ \" ढDLIUIढंठ @- \"@फ़lW नDLIU ढंठा ऋि॰ u५ऊं॰्न बDLIUढठा\n(iii) Bऊoषणी ( s७y OLTTGबा फG% ७lJI6 ना(५ऊIऊ ) थ॰ षIाmी % ७७७@ 8) कlनl फि ॰ B। ढ०ग ९l\n(iv ) फ\"@ @Li Ouwi uGUझIIBGम ) 9|॰ फIL ढण २ु० !ILख ६ठा Iा ढंठ g फIL OBBITJ ढंग सि . फ़ILLIT ढठा LB (क७## OJI ढJoJn ऊंछम ) 9॰ को ना @D ना % ८ न७ ना ४ Olupoi 2-- थे\n4\n8wऊऊव्ण ऊं छpil फ७B. (emगpl IoELOi ) (i) थwoां ऊफ़I ढं\n(3)",
+      "text_nfc": "9|. ७mupglmoioDi H॰ i #कl थु. ७oppl७oiछं Oछn७os @. Goup@lबoLo @fn ।॰ थmo१फ़li L॰वग f #कl\n3. mplwolngl OlFulB. (aळग Gugli @ळंा@l DLOळ ) (i) uDऊझIढ्ं   (UBILILgIIDछम ) 9: uYULI ढंठा %* u५छड़r LII R॰ . LI७ Guso\n(3)\n(ii) @DLIU ढठा (Gpiui OuwOljsgul LGUgInऊंछम ) 9|: !॰J६ @DLIUI ढठा % @७ \" ढDLIUIढंठ @- \"@फ़lW नDLIU ढंठा ऋि॰ u५ऊं॰्न बDLIUढठा\n(iii) Bऊoषणी ( s७y OLTTGबा फG% ७lJI6 ना(५ऊIऊ ) थ॰ षIाmी % ७७७@ 8) कlनl फि ॰ B। ढ०ग ९l\n(iv ) फ\"@ @Li Ouwi uGUझIIBGम ) 9|॰ फIL ढण २ु० !ILख ६ठा Iा ढंठ g फIL OBBITJ ढंग सि . फ़ILLIT ढठा LB (क७## OJI ढJoJn ऊंछम ) 9॰ को ना @D ना % ८ न७ ना ४ Olupoi 2-- थे\n4\n8wऊऊव्ण ऊं छpil फ७B. (emगpl IoELOi ) (i) थwoां ऊफ़I ढं\n(3)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_032",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0032pro_raw.pdf",
+    "page_index": 31,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "awto Sogpse essaogo (5as0\n63, 28, 71 Sogpge essirgogo (aso:\nejoessoes 0S Soev SSN enjoessoes 05 NOEDS\nejoessoes 28 Soev SSS enoessoes 28 NOEDS\nenoessoes 05 NOSPS 28\nesoessoes 28 NO2S 71\n2n05 NO2S 63\nepoessoes\n28 NOPS\n63053\n13350\n300\nSogprerst esjoessoes\n2n85\nNO2S\n052 NOPS\n* Sogges essiggo (as OO.\nSogpres\n49, 21, 14\n80, 90, 10\nessirogo (5as0\nSospses a8es\n63\n28\n71\nases\n6\n2\n7\n3\n8\n1\n71\nenjoessoes\n28 SO25\nSogpres\n11, 28, 14\n72, 79, 45\n* Sogpses essfagogo 8800 essosgo Bavers OO.\nSogprev\n18, 38, 8\n24, 10, 15\n65, 78, 71\n68, 42, 49\nesseagogo SaO\n20\n6E098\n(330\n63\na0\n309505\n2805\nNOSPS\n28\nepoesoe\n05 NOgS\nessirogo SaO\nessigogo SoO",
+      "text_nfc": "awto Sogpse essaogo (5as0\n63, 28, 71 Sogpge essirgogo (aso:\nejoessoes 0S Soev SSN enjoessoes 05 NOEDS\nejoessoes 28 Soev SSS enoessoes 28 NOEDS\nenoessoes 05 NOSPS 28\nesoessoes 28 NO2S 71\n2n05 NO2S 63\nepoessoes\n28 NOPS\n63053\n13350\n300\nSogprerst esjoessoes\n2n85\nNO2S\n052 NOPS\n* Sogges essiggo (as OO.\nSogpres\n49, 21, 14\n80, 90, 10\nessirogo (5as0\nSospses a8es\n63\n28\n71\nases\n6\n2\n7\n3\n8\n1\n71\nenjoessoes\n28 SO25\nSogpres\n11, 28, 14\n72, 79, 45\n* Sogpses essfagogo 8800 essosgo Bavers OO.\nSogprev\n18, 38, 8\n24, 10, 15\n65, 78, 71\n68, 42, 49\nesseagogo SaO\n20\n6E098\n(330\n63\na0\n309505\n2805\nNOSPS\n28\nepoesoe\n05 NOgS\nessirogo SaO\nessigogo SoO",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_076",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 0,
+    "width": 1255,
+    "height": 2035
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1255,
+        2035
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sample Question paper\n-\n(Tamil)\nMax. Marks : 80\nQIT.IDBuQLGLIeTsair : 80\nII - TERM (Oct 2010 - March 2011)\n(Class -IX)\nDITBA 0101551o - 5uli\nOOTLISITID QIGU4\n(93GLIUI 2010 - LDIiS 2011)\nTime : 3 hours\nSITGU Y/OTO! : 3 LD600f\nThe question paper is diveded into four sections:\nQ Gaarons 5TGT 5165 LAfajsoars O5TGOTL51.\nSECTION:A\nReading comprehension\n- 15 Marks\nLimal\n:\nu4550 (20J5OLL U53)\n-15 DSLGL6T5GT\nSECTION:B\nWriting\n- 15 Marks\nLimay\n: o\nGTL5150\n-15 180Quehrsar\nSECTION:C\nGrammar\n- 15 Marks\nLimoy\n:\n005560TID\n-15 1B0QLeTsar\nSECTION:D\nLiterature /Text Books\n- 35 Marks\nLAmol\n: FF\nGuiSuib/5ibljpu LIL51056 OT-35 DBUQLIGOT 55 GT\n* GTGUGUIT aleud-se5hgib SLLIui aloLwanlsnaSLuL Garoo@i.\n*\nPOUGOIT\naleralpsib\nomu\n1B0QLIGT5GT\n915015607\nOL380\nSDMALDULLGoirerea.\nLmal - 9\nu4550 - 15 DBUOLIGOT\n1.\nSjo QG ussoui uas0fi. 050013 GSILIBSI QI(5I\nLQAOL alearajag 2Au Furer\naOLoW\n6T0551\n6T(50/.\n(5)\nGTAQUIOT FITB5 Suloosr 20551 QIQSWTSL Emuui. (sa\nQI65 GTM55 EITIDLIGUTSS Inlqu 51or; LDJi, GaIaGarrd, DGOQ (Y5QIGT\nQumoaa F115551.\n6 6I Amu gerrale 05551 5 560T coofi pormmlujii\n-",
+      "text_nfc": "Sample Question paper\n-\n(Tamil)\nMax. Marks : 80\nQIT.IDBuQLGLIeTsair : 80\nII - TERM (Oct 2010 - March 2011)\n(Class -IX)\nDITBA 0101551o - 5uli\nOOTLISITID QIGU4\n(93GLIUI 2010 - LDIiS 2011)\nTime : 3 hours\nSITGU Y/OTO! : 3 LD600f\nThe question paper is diveded into four sections:\nQ Gaarons 5TGT 5165 LAfajsoars O5TGOTL51.\nSECTION:A\nReading comprehension\n- 15 Marks\nLimal\n:\nu4550 (20J5OLL U53)\n-15 DSLGL6T5GT\nSECTION:B\nWriting\n- 15 Marks\nLimay\n: o\nGTL5150\n-15 180Quehrsar\nSECTION:C\nGrammar\n- 15 Marks\nLimoy\n:\n005560TID\n-15 1B0QLeTsar\nSECTION:D\nLiterature /Text Books\n- 35 Marks\nLAmol\n: FF\nGuiSuib/5ibljpu LIL51056 OT-35 DBUQLIGOT 55 GT\n* GTGUGUIT aleud-se5hgib SLLIui aloLwanlsnaSLuL Garoo@i.\n*\nPOUGOIT\naleralpsib\nomu\n1B0QLIGT5GT\n915015607\nOL380\nSDMALDULLGoirerea.\nLmal - 9\nu4550 - 15 DBUOLIGOT\n1.\nSjo QG ussoui uas0fi. 050013 GSILIBSI QI(5I\nLQAOL alearajag 2Au Furer\naOLoW\n6T0551\n6T(50/.\n(5)\nGTAQUIOT FITB5 Suloosr 20551 QIQSWTSL Emuui. (sa\nQI65 GTM55 EITIDLIGUTSS Inlqu 51or; LDJi, GaIaGarrd, DGOQ (Y5QIGT\nQumoaa F115551.\n6 6I Amu gerrale 05551 5 560T coofi pormmlujii\n-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

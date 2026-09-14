@@ -1,0 +1,41 @@
+{
+  "page_id": "te_060",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0060pro_raw.pdf",
+    "page_index": 115,
+    "width": 1661,
+    "height": 2218
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1661,
+        2218
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మితి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, పుణె-411 004.\nतेलुगु गणित इ.७वी\n₹ 41.00",
+      "text_nfc": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మితి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, పుణె-411 004.\nतेलुगु गणित इ.७वी\n₹ 41.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

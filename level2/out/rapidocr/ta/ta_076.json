@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_076",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 0,
+    "width": 451.67999267578125,
+    "height": 732.47998046875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        451.67999267578125,
+        732.47998046875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sample Question paper\n( Tamil)\nII - TERM (Oct 2010 - March 2011)\n(Class - I X )\nமாதிரி வினாத்தாள் - தமிழ்\nஒன்பதாம் வகுப்பு\n(அக்டோபர் 2010 - மார்ச் 2011)\nMax. Marks : 80\nTime : 3 hours\nமொ.மதிப்பெண்கள் : 80\nகால அளவு : 3 மணி\nThe question paper is diveded into four sections:\nஇக் கெள்வித் தாள் நான்கு பிரிவுகளைக் கொண்டது.\nSECTION : A\nReading comprehension\n- 15 Marks\nபிரிவு\nle:\nபடித்தல் (உரைநடைப் பகுதி)\n- 15 மதிப்ெபெண்கள்\nSECTION : B\nWriting\n- 15 Marks\nபிரிவு\nfe:\nஎழுதுதல்\n- 15 மதிப்ெபெண்கள்\nSECTION : C\nGrammar\n- 15 Marks\n: இ\nஇலக்கணம்\n- 15 மதிப்பெண்கள்\nSECTION : D\nLiterature/ Text Books\n- 35 Marks\n:F\nஇலக்கியம்/தமிழ்ப் பாடநூல்கள்-35 மதிப்பண்கள்\n எல்லா வினாக்களுக்கும் கட்டாயம் விடையளிக்கப்படவேண்டும்.\n*ஒவ்வாரு வினாவிற்கும் உரியமதிப்பெண்கள்\nஅதனதன்\n$$1\nகுறிப்பிடப்பட்டுள்ளன.\nபிரி்வு - \nபடித்தல் - 15 மதிப்பெண்\n1.\nகழ் வரும் பத்தியைப் படிக்கவும்.இதெனைத் தொடர்ந்து வரும்\nபல்விடை வினாவுக்கு உரிய சரியானவிடையை\nஎடுத்து\nஎழுதவும்.\n(5)\nஎரிபொருள் சார்ந்த தயினை ஐந்து வகையாகப் பிரிப்பர். முதல்\nவகை  எரிந்து  சாம்பலாகக்  கூடிய  தாள்;  மரம்,  வைக்கோல்,  ஓஒலை முதலான\nபொருளைச் சார்ந்தது .இவை சிறியஅளவில் இருந்தா தண்ணீர் ஊற்றியும்",
+      "text_nfc": "Sample Question paper\n( Tamil)\nII - TERM (Oct 2010 - March 2011)\n(Class - I X )\nமாதிரி வினாத்தாள் - தமிழ்\nஒன்பதாம் வகுப்பு\n(அக்டோபர் 2010 - மார்ச் 2011)\nMax. Marks : 80\nTime : 3 hours\nமொ.மதிப்பெண்கள் : 80\nகால அளவு : 3 மணி\nThe question paper is diveded into four sections:\nஇக் கெள்வித் தாள் நான்கு பிரிவுகளைக் கொண்டது.\nSECTION : A\nReading comprehension\n- 15 Marks\nபிரிவு\nle:\nபடித்தல் (உரைநடைப் பகுதி)\n- 15 மதிப்ெபெண்கள்\nSECTION : B\nWriting\n- 15 Marks\nபிரிவு\nfe:\nஎழுதுதல்\n- 15 மதிப்ெபெண்கள்\nSECTION : C\nGrammar\n- 15 Marks\n: இ\nஇலக்கணம்\n- 15 மதிப்பெண்கள்\nSECTION : D\nLiterature/ Text Books\n- 35 Marks\n:F\nஇலக்கியம்/தமிழ்ப் பாடநூல்கள்-35 மதிப்பண்கள்\n எல்லா வினாக்களுக்கும் கட்டாயம் விடையளிக்கப்படவேண்டும்.\n*ஒவ்வாரு வினாவிற்கும் உரியமதிப்பெண்கள்\nஅதனதன்\n$$1\nகுறிப்பிடப்பட்டுள்ளன.\nபிரி்வு - \nபடித்தல் - 15 மதிப்பெண்\n1.\nகழ் வரும் பத்தியைப் படிக்கவும்.இதெனைத் தொடர்ந்து வரும்\nபல்விடை வினாவுக்கு உரிய சரியானவிடையை\nஎடுத்து\nஎழுதவும்.\n(5)\nஎரிபொருள் சார்ந்த தயினை ஐந்து வகையாகப் பிரிப்பர். முதல்\nவகை  எரிந்து  சாம்பலாகக்  கூடிய  தாள்;  மரம்,  வைக்கோல்,  ஓஒலை முதலான\nபொருளைச் சார்ந்தது .இவை சிறியஅளவில் இருந்தா தண்ணீர் ஊற்றியும்",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

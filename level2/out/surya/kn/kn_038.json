@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_038",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 258,
+    "width": 1123,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1123,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಟಿಪ್ಪಣಿಗಳು\n౨೪೭\nಕನ್ನಡ ನುಡಿಯ ಚಾಯಮಾನವನ್ನು ಗಮನಿಸದೆ ಅದರ ವ್ಯಾಕರಣ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಚೌಕಟ್ಟಿಗೆ ಅಳವಡಿಸಿರುವುದೇ ಇಂಥ ಗೊಂದಲಗಳಿಗೆ ಕಾರಣವಾಗಿದೆ. ಪ್ರಕೃತದಲ್ಲಿ, ಮಾರ್ಗಕಾರನು ಸಂಸ್ಕೃತವ್ಯಾಕರಣದ ಕಾರಕ ವ್ಯವಸ್ಥೆಯನ್ನು ಅನುಸರಿಸಿರುವುದರಿಂದ ಅವನು ಕರ್ತೃವನ್ನು ಕಾರಕಾನುಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿಲ್ಲವೆಂದು ಶ್ರೀ ಕೆ.ಟಿ. ಪಾಂಡುರಂಗಿಯವರು ಅಭಿಪ್ರಾಯಪಟ್ಟಿದ್ದಾರೆ. ಅವರು ತಿಳಿಸುವಂತೆ, ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಪ್ರಕಾರ ಪ್ರಥಮಾ ವಿಭಕ್ತಿ ಕಾರಕಾಧೀನವಲ್ಲ ; ಹಾಗೂ (ಕರ್ಮಣಿ ಪ್ರಯೋಗದಲ್ಲಿ) ತೃತೀಯಾ ವಿಭಕ್ತಿಯ ‘ಕರಣ’ಕಾರಕವೇ ‘ಕರ್ತೃ’ಕಾರಕತ್ವವನ್ನೂ ಒಳಗೊಳ್ಳುತ್ತದೆ. ಮಾರ್ಗಕಾರನ ಉಕ್ತಿಯನ್ನು ಅವನು ಈ ರೀತಿ ಸಮರ್ಥಿಸಿರುವುದು ಗ್ರಾಹ್ಯವಾಗಿ ಕಂಡುಬಂದರೂ, ಮಾರ್ಗಕಾರನು ಹೇಳುವ ‘ಕರ್ತೃ’ಕಾರಕ ರಹಿತವಾದ ಆರು ಕಾರಕಗಳಲ್ಲಿ ಷಷ್ಠಿಯೂ ಸೇರುವುದೇ ಇಲ್ಲವೆ ಎಂಬ ಸಮಸ್ಯೆಗೆ ಅವರಿಂದ ಪರಿಹಾರ ಸೂಚಿತವಾಗಿಲ್ಲ. ೧೨\nಕೇಶಿರಾಜನೂ ತೃತೀಯೆಗೆ ಕರ್ತೃಕಾರಕತ್ವವನ್ನು ಹೇಳಿದ್ದಾನೆ. (‘ತೃತೀಯೆ ಪೇಟಲ್ ಪಡೆಗುಂ ಕರ್ತೃಕರಣ ಹೇತು ಸ್ಥಿತಿಯೊಳ್’ – ಸೂ. ೧೨೮. ಉದಾ. ಕಾವ್ಯಮೆನ್ನಿಂ ಪೇಟ್ ಪಟ್ಟುದು.)\n(ಆಧುನಿಕ ಭಾಷಾ ಶಾಸ್ತ್ರಜ್ಞರ ಪ್ರಕಾರ, ಕನ್ನಡದಲ್ಲಿ ಪ್ರಥಮಾ ವಿಭಕ್ತಿಯಿದ್ದರೂ ಅದನ್ನು ಸಂಕೇತಿಸುವ ಪ್ರತ್ಯಯ ನುಡಿಯ ಚಾಯಮಾನಕ್ಕೆ ಹೊರತು. ನಾಮಪ್ರಕೃತಿಯೇ ಪ್ರಥಮೆಯ ಅರ್ಥದಲ್ಲಿ ಪ್ರಯೋಗವಾಗುತ್ತದೆ. ಮಾರ್ಗಕಾರನ ಲಕ್ಷ್ಯಪದ್ಯದಲ್ಲಿಯೇ – ‘ನರಪತಿ ಬಂದಂ’ – ಎಂಬ ಪ್ರಯೋಗ ಇದಕ್ಕೆ ನಿದರ್ಶನ. ಅಲ್ಲದೆ, ವಾಕ್ಯದ\nO. \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven vibhaktis. He begins his enumeration with Karmakaraka instead of Kartkaraka. This is because the order followed is that of vibhaktis. Accoring to Sanskrit grammarians, the first case termination does not convey any Karaka. The second conveys Karma, the Karana and Karta and so on. The verbal termination conveys Karta in active construction. Therefore the first case termination is added purely for technocal reasons..... a plan of reference to Karma on this basis cannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot also be applied mutatis mutandis to Kannada.\" - Influences of Sanskrit and prakrit Grammars on Kannada Grammarians': Paper by Sri K.T. Pandurangi, M.A. ; Vide proceedings of the Seminar on Grammatical \"Theories in Kannada\" (October 1965), Annamalai University, Annamalainagar.",
+      "text_nfc": "ಟಿಪ್ಪಣಿಗಳು\n౨೪೭\nಕನ್ನಡ ನುಡಿಯ ಚಾಯಮಾನವನ್ನು ಗಮನಿಸದೆ ಅದರ ವ್ಯಾಕರಣ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಚೌಕಟ್ಟಿಗೆ ಅಳವಡಿಸಿರುವುದೇ ಇಂಥ ಗೊಂದಲಗಳಿಗೆ ಕಾರಣವಾಗಿದೆ. ಪ್ರಕೃತದಲ್ಲಿ, ಮಾರ್ಗಕಾರನು ಸಂಸ್ಕೃತವ್ಯಾಕರಣದ ಕಾರಕ ವ್ಯವಸ್ಥೆಯನ್ನು ಅನುಸರಿಸಿರುವುದರಿಂದ ಅವನು ಕರ್ತೃವನ್ನು ಕಾರಕಾನುಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿಲ್ಲವೆಂದು ಶ್ರೀ ಕೆ.ಟಿ. ಪಾಂಡುರಂಗಿಯವರು ಅಭಿಪ್ರಾಯಪಟ್ಟಿದ್ದಾರೆ. ಅವರು ತಿಳಿಸುವಂತೆ, ಸಂಸ್ಕೃತ ವ್ಯಾಕರಣದ ಪ್ರಕಾರ ಪ್ರಥಮಾ ವಿಭಕ್ತಿ ಕಾರಕಾಧೀನವಲ್ಲ ; ಹಾಗೂ (ಕರ್ಮಣಿ ಪ್ರಯೋಗದಲ್ಲಿ) ತೃತೀಯಾ ವಿಭಕ್ತಿಯ ‘ಕರಣ’ಕಾರಕವೇ ‘ಕರ್ತೃ’ಕಾರಕತ್ವವನ್ನೂ ಒಳಗೊಳ್ಳುತ್ತದೆ. ಮಾರ್ಗಕಾರನ ಉಕ್ತಿಯನ್ನು ಅವನು ಈ ರೀತಿ ಸಮರ್ಥಿಸಿರುವುದು ಗ್ರಾಹ್ಯವಾಗಿ ಕಂಡುಬಂದರೂ, ಮಾರ್ಗಕಾರನು ಹೇಳುವ ‘ಕರ್ತೃ’ಕಾರಕ ರಹಿತವಾದ ಆರು ಕಾರಕಗಳಲ್ಲಿ ಷಷ್ಠಿಯೂ ಸೇರುವುದೇ ಇಲ್ಲವೆ ಎಂಬ ಸಮಸ್ಯೆಗೆ ಅವರಿಂದ ಪರಿಹಾರ ಸೂಚಿತವಾಗಿಲ್ಲ. ೧೨\nಕೇಶಿರಾಜನೂ ತೃತೀಯೆಗೆ ಕರ್ತೃಕಾರಕತ್ವವನ್ನು ಹೇಳಿದ್ದಾನೆ. (‘ತೃತೀಯೆ ಪೇಟಲ್ ಪಡೆಗುಂ ಕರ್ತೃಕರಣ ಹೇತು ಸ್ಥಿತಿಯೊಳ್’ – ಸೂ. ೧೨೮. ಉದಾ. ಕಾವ್ಯಮೆನ್ನಿಂ ಪೇಟ್ ಪಟ್ಟುದು.)\n(ಆಧುನಿಕ ಭಾಷಾ ಶಾಸ್ತ್ರಜ್ಞರ ಪ್ರಕಾರ, ಕನ್ನಡದಲ್ಲಿ ಪ್ರಥಮಾ ವಿಭಕ್ತಿಯಿದ್ದರೂ ಅದನ್ನು ಸಂಕೇತಿಸುವ ಪ್ರತ್ಯಯ ನುಡಿಯ ಚಾಯಮಾನಕ್ಕೆ ಹೊರತು. ನಾಮಪ್ರಕೃತಿಯೇ ಪ್ರಥಮೆಯ ಅರ್ಥದಲ್ಲಿ ಪ್ರಯೋಗವಾಗುತ್ತದೆ. ಮಾರ್ಗಕಾರನ ಲಕ್ಷ್ಯಪದ್ಯದಲ್ಲಿಯೇ – ‘ನರಪತಿ ಬಂದಂ’ – ಎಂಬ ಪ್ರಯೋಗ ಇದಕ್ಕೆ ನಿದರ್ಶನ. ಅಲ್ಲದೆ, ವಾಕ್ಯದ\nO. \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven vibhaktis. He begins his enumeration with Karmakaraka instead of Kartkaraka. This is because the order followed is that of vibhaktis. Accoring to Sanskrit grammarians, the first case termination does not convey any Karaka. The second conveys Karma, the Karana and Karta and so on. The verbal termination conveys Karta in active construction. Therefore the first case termination is added purely for technocal reasons..... a plan of reference to Karma on this basis cannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot also be applied mutatis mutandis to Kannada.\" - Influences of Sanskrit and prakrit Grammars on Kannada Grammarians': Paper by Sri K.T. Pandurangi, M.A. ; Vide proceedings of the Seminar on Grammatical \"Theories in Kannada\" (October 1965), Annamalai University, Annamalainagar.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

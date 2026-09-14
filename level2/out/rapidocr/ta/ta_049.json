@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_049",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 117,
+    "width": 595.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "FOHT, HE 3 \n217\nF 8\ni \nTT TR  T (oTR  T TR 3ER) R 372T  E T TCT fo\n(TTT) TY  IT-  3T TT  fT4 TT8 34 T TR iR  fo S\nR oER T RI -E 3RCR TEI  I   Td h H E\nOT5  3R  3 3   T  4,41 S1- E 5\nTRE on R3  fT4 ToT  TT ; 3 TST- ER tTH  foTY fR ETd 4 R\nT 1 3  TT CM CT  3T TEIE ,   3 3R 3  3\n… (3R 7  TTR4, 3f 3R TT ( T) HR  TR3 foT TE T I\n(d) TT AT aRTT HTE CTT HIR TR OT HST  T fT HTE d ; (5 RE\nST) RY  ST TR FT TR   OTE & (RI T TETA S\n(EST    RE ET   5, 3 3R M ET  \n TTIRE)TH TS) T\nHIT TY,    E  ,( E)aR  E\n→\n T  ,-H (T ; 3R I TY \nT TT  R,     S A,  Th  T\n8. 39  ch 31157-T-31CO\n35-- 3    h  3 \n3it    T ef  f \n   E W   \n 598   ,  \nTE 3 ET    ER RT  \nef f E 3hOR 7 1 e1 34 eT 1 uH \n TR T R , 3T7--3OR,  TE 2H\n11  4\n37T7S H TR R  T T  : OR, M\n3       3i  A  M\n ; 3i c  ef, igh  e fl\n3TOR  RT  THTH  3i M (T)  T ",
+      "text_nfc": "FOHT, HE 3 \n217\nF 8\ni \nTT TR  T (oTR  T TR 3ER) R 372T  E T TCT fo\n(TTT) TY  IT-  3T TT  fT4 TT8 34 T TR iR  fo S\nR oER T RI -E 3RCR TEI  I   Td h H E\nOT5  3R  3 3   T  4,41 S1- E 5\nTRE on R3  fT4 ToT  TT ; 3 TST- ER tTH  foTY fR ETd 4 R\nT 1 3  TT CM CT  3T TEIE ,   3 3R 3  3\n… (3R 7  TTR4, 3f 3R TT ( T) HR  TR3 foT TE T I\n(d) TT AT aRTT HTE CTT HIR TR OT HST  T fT HTE d ; (5 RE\nST) RY  ST TR FT TR   OTE & (RI T TETA S\n(EST    RE ET   5, 3 3R M ET  \n TTIRE)TH TS) T\nHIT TY,    E  ,( E)aR  E\n→\n T  ,-H (T ; 3R I TY \nT TT  R,     S A,  Th  T\n8. 39  ch 31157-T-31CO\n35-- 3    h  3 \n3it    T ef  f \n   E W   \n 598   ,  \nTE 3 ET    ER RT  \nef f E 3hOR 7 1 e1 34 eT 1 uH \n TR T R , 3T7--3OR,  TE 2H\n11  4\n37T7S H TR R  T T  : OR, M\n3       3i  A  M\n ; 3i c  ef, igh  e fl\n3TOR  RT  THTH  3i M (T)  T ",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

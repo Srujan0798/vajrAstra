@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_031",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT\nN Gouese\n9\n5LLDBTO SIT\nBLOUBlooou STOOTLITD Ob 6001 G\n60ofloof\nSMolwou\n5LLDBTG JIT aMOQULAGUGUT LITLITG 6 QILDIELD BLL3SoT8Lp GaiofuBLDutL5\nLI6iTerfla 5000155160m\nSGOTLITGOLD LD60715 GIWILDDD OFUQII Qugi5DDUpLD 25\nXII Std- Computer Science TMI Introduction.indd 1\n11-01-2023 12:40:48",
+      "text_nfc": "IT\nN Gouese\n9\n5LLDBTO SIT\nBLOUBlooou STOOTLITD Ob 6001 G\n60ofloof\nSMolwou\n5LLDBTG JIT aMOQULAGUGUT LITLITG 6 QILDIELD BLL3SoT8Lp GaiofuBLDutL5\nLI6iTerfla 5000155160m\nSGOTLITGOLD LD60715 GIWILDDD OFUQII Qugi5DDUpLD 25\nXII Std- Computer Science TMI Introduction.indd 1\n11-01-2023 12:40:48",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

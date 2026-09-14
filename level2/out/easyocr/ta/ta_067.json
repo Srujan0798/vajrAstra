@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_067",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0034pro_raw.pdf",
+    "page_index": 58,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(iii) &ಐತ@GL_[s 67@6ಯluJ 9 ಹ6i ಹ6i 81656J6 L_[5` LJ/T6D[59l56i 6iT [Sೊ]T6u ಅ11q59lu 86UoLILOLb   GILn(uತl   ಹ60l]llJmua IquJ   5I56i ಹ6ir ಖsjiDLILL@ Lಲ5(DGiT oTT LnTooms 9I56i1 56iT @Iಹ/160ವ0 6i76T ಅ/9/m3606   67@@ಯIuu 9J56il ಹ6il   67607 96L೨೫m @ D/Lb. ೨ -5ಗ[]G6TL0: 91ಖJLDloflll l5 5/ಶl . (iv)   @GTL_@u LIq @ಹ6T [6oಕ್ರ| [C6Tsij LIq @ಹoi UGiT6 T ತl೫(ತ LmglLb L06060 ಖ1Iqonr ml6ು GiToIT L060076U LIq @ಹ(BG T @J6 0TL 6U LIq os6ir =ತL )LiuIq ooofl6u SಣIಹL0, @ 6GiT of , L6TTL' Iq 607Lb BL[GuTm ಹofllDihlಹoiT GiT 6IT 607 .\n5ಣ5ಹ &ಿಝU (ii) UOಐಹಹ6i 9cಕ್ರ ೨೦೫ತಹ6 LIq5o; (ಠ ತಯ LDmDgILb @130156)607/T6U 5/6TDDILb ಪ6flLDihlsoir Glunslols ಯ6LLDL*L 9೦೫mo   5/1600ILILUm160T[o 7. ಖ ಹ//]6007L0:  [B1o೫ಹr] GILTL'L.1oಯ LDLb Lಠ.\nLlo TlTL*Iq @ru\n3.4 ಹcfumblಹoifಿಪr ೭_ಉಹu urolou\n@orrಹಹ ಹcfumblಹoir @orTs 5Iಯooollm 615/16007U 6iT 6T7 ಹoflLDl5lsoir @o[T5s ಹ6ಗLDmhl 6ir 676drಐ] j೦LD೫ಹL]L(86 [06u7. 9ೀJublಪ5/sl 6760ILತ| 8rj 9IqLUGL ಹoflLDLDTT(LD. 9l ೨@U೮ @ ಹ/LD0sl@m @J@T[j88lu167 (ul6 ಯoulLDLlGLo. Lo1t 16ul @I06UಖU೫m oು IDIಹLIu[]oJounಹm;   ಹ/6007LILIGub   57ಕl   9ಸubusnಕl ಅಿ(L. @LDoulLb ಪ| 5607 55 [5oollno L05 ಖr5[ಹ(o ಹ/1600ILILJGmpsl . Lou 560 lLDl5IಯCoTmUub L[T6[sCoTmULಸ 56[5@ಪ 3/16007LILGm109l . LoCLDCounO 40 v565L @(JLDL 5/9|೫ಹ6 T[6u   =6uತl . 9Jubunogl   9Jubussnml @Lq @16ು ಹ/16007LILGಣpಕl . ಶl [5Gul( I6D5ಯ6ITೊTಯl | Lffl೫sLILL'U6iT 6Tಪl. ಖ16೩: @L೫GT@LL ' ಶl ಣoLJL [Bmumloು ೨ 6i 6 Tಶ್ . 9ತl 7 2\" ೨[ UJ @ಸuD6 LJu;   61/16007L ಪJ. @@DLDGDLL* ಹ(JLiL [prತOoL_usl 70\" STu @(JLD6 LI೫; GIಹ/16007L ೨l.\n[ಗ1oಹಹಗ]\nಖ@ubofluut?\n51\n66TIRಹ6ir\nTN_GOVT_XII_Geography_chapter 03.indd 51\n12/9/2022 1:00.22 PM",
+      "text_nfc": "(iii) &ಐತ@GL_[s 67@6ಯluJ 9 ಹ6i ಹ6i 81656J6 L_[5` LJ/T6D[59l56i 6iT [Sೊ]T6u ಅ11q59lu 86UoLILOLb   GILn(uತl   ಹ60l]llJmua IquJ   5I56i ಹ6ir ಖsjiDLILL@ Lಲ5(DGiT oTT LnTooms 9I56i1 56iT @Iಹ/160ವ0 6i76T ಅ/9/m3606   67@@ಯIuu 9J56il ಹ6il   67607 96L೨೫m @ D/Lb. ೨ -5ಗ[]G6TL0: 91ಖJLDloflll l5 5/ಶl . (iv)   @GTL_@u LIq @ಹ6T [6oಕ್ರ| [C6Tsij LIq @ಹoi UGiT6 T ತl೫(ತ LmglLb L06060 ಖ1Iqonr ml6ು GiToIT L060076U LIq @ಹ(BG T @J6 0TL 6U LIq os6ir =ತL )LiuIq ooofl6u SಣIಹL0, @ 6GiT of , L6TTL' Iq 607Lb BL[GuTm ಹofllDihlಹoiT GiT 6IT 607 .\n5ಣ5ಹ &ಿಝU (ii) UOಐಹಹ6i 9cಕ್ರ ೨೦೫ತಹ6 LIq5o; (ಠ ತಯ LDmDgILb @130156)607/T6U 5/6TDDILb ಪ6flLDihlsoir Glunslols ಯ6LLDL*L 9೦೫mo   5/1600ILILUm160T[o 7. ಖ ಹ//]6007L0:  [B1o೫ಹr] GILTL'L.1oಯ LDLb Lಠ.\nLlo TlTL*Iq @ru\n3.4 ಹcfumblಹoifಿಪr ೭_ಉಹu urolou\n@orrಹಹ ಹcfumblಹoir @orTs 5Iಯooollm 615/16007U 6iT 6T7 ಹoflLDl5lsoir @o[T5s ಹ6ಗLDmhl 6ir 676drಐ] j೦LD೫ಹL]L(86 [06u7. 9ೀJublಪ5/sl 6760ILತ| 8rj 9IqLUGL ಹoflLDLDTT(LD. 9l ೨@U೮ @ ಹ/LD0sl@m @J@T[j88lu167 (ul6 ಯoulLDLlGLo. Lo1t 16ul @I06UಖU೫m oು IDIಹLIu[]oJounಹm;   ಹ/6007LILIGub   57ಕl   9ಸubusnಕl ಅಿ(L. @LDoulLb ಪ| 5607 55 [5oollno L05 ಖr5[ಹ(o ಹ/1600ILILJGmpsl . Lou 560 lLDl5IಯCoTmUub L[T6[sCoTmULಸ 56[5@ಪ 3/16007LILGm109l . LoCLDCounO 40 v565L @(JLDL 5/9|೫ಹ6 T[6u   =6uತl . 9Jubunogl   9Jubussnml @Lq @16ು ಹ/16007LILGಣpಕl . ಶl [5Gul( I6D5ಯ6ITೊTಯl | Lffl೫sLILL'U6iT 6Tಪl. ಖ16೩: @L೫GT@LL ' ಶl ಣoLJL [Bmumloು ೨ 6i 6 Tಶ್ . 9ತl 7 2\" ೨[ UJ @ಸuD6 LJu;   61/16007L ಪJ. @@DLDGDLL* ಹ(JLiL [prತOoL_usl 70\" STu @(JLD6 LI೫; GIಹ/16007L ೨l.\n[ಗ1oಹಹಗ]\nಖ@ubofluut?\n51\n66TIRಹ6ir\nTN_GOVT_XII_Geography_chapter 03.indd 51\n12/9/2022 1:00.22 PM",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_045",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 11,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "साझी समझ\nआप इंटरनेट या किसी अन्य माध्यम की सहायता से अन्य प्रवासी पक्षियों के बारे में रोचक जानकारी एकत्रित\nकीजिए और प्रवासी पक्षियों पर लेख लिखिए।\n\nखोजबीन के लिए\n\nनीचे दी गई इंटरनेट कड़ियों का प्रयोग करके आप जीव-जगत के बारे में और भी जान-समझ सकते हैं--\n\n© हमारा पर्यावरण\n\nhttps://youtu.be/gK vAoGtZY 11?si=3Z9ZHAxMzeosnm7L\n«. वह चिड़िया जो\n\nhttps://youtu.be/T93aUA 1jHkI?feature=shared\n\nचिड़िया\n\n",
+      "text_nfc": "साझी समझ\nआप इंटरनेट या किसी अन्य माध्यम की सहायता से अन्य प्रवासी पक्षियों के बारे में रोचक जानकारी एकत्रित\nकीजिए और प्रवासी पक्षियों पर लेख लिखिए।\n\nखोजबीन के लिए\n\nनीचे दी गई इंटरनेट कड़ियों का प्रयोग करके आप जीव-जगत के बारे में और भी जान-समझ सकते हैं--\n\n© हमारा पर्यावरण\n\nhttps://youtu.be/gK vAoGtZY 11?si=3Z9ZHAxMzeosnm7L\n«. वह चिड़िया जो\n\nhttps://youtu.be/T93aUA 1jHkI?feature=shared\n\nचिड़िया\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

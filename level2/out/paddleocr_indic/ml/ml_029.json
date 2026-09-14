@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_029",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 1,
+    "width": 1491,
+    "height": 1954
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1491,
+        1954
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": ".\n(1)\n1. SOo\n2.2\n(d).()\n1.Bm\n2.\n3.\n(Macks 1.5)\nSection - C (meoSo)\nIII.\na\n1.\n(\n(2)\n().).\n2.\nCOO200S)\n(2)\nr)\n(2)\n\n2:\n\n??\nd)\n(2×2=4)\n\nSTGS?\n2.\n(e)\n1. G?\n(1)\n(ogm,0lo,8,()\n2.\n(1)\n(,,,)\n3.?1)\nc)crr)clr,\n(o0)\n4.21?\n(1)\n(20mm,20mm²,20m,20m1ml)\n(1)\n5.?\n(oB), 2, 07, )\n(Males: 40)\nSection D (mil wisino)\nIV.\n\n(4×3=12)\n?\n2",
+      "text_nfc": ".\n(1)\n1. SOo\n2.2\n(d).()\n1.Bm\n2.\n3.\n(Macks 1.5)\nSection - C (meoSo)\nIII.\na\n1.\n(\n(2)\n().).\n2.\nCOO200S)\n(2)\nr)\n(2)\n\n2:\n\n??\nd)\n(2×2=4)\n\nSTGS?\n2.\n(e)\n1. G?\n(1)\n(ogm,0lo,8,()\n2.\n(1)\n(,,,)\n3.?1)\nc)crr)clr,\n(o0)\n4.21?\n(1)\n(20mm,20mm²,20m,20m1ml)\n(1)\n5.?\n(oB), 2, 07, )\n(Males: 40)\nSection D (mil wisino)\nIV.\n\n(4×3=12)\n?\n2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

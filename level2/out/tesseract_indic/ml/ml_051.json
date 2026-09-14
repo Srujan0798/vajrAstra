@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_051",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1529,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1529,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "T Full Test a नल IAS - ടി\n\nക്മാ 6 yeh ew MDA Brat etd\n\nका ह ച്‌ | wand\n3१८23 orm DleseyorrS की A) PBC, abv\nNee | Qian ചി. ite pra awd ൦൧൪ വര\n\nRA\n(PVA HD) a കെച്്സളി പുഴക്ക്‌ 2-1 ही\n\nക്കി സ്വ ഗ്രിഹ്‌ ot\naah ചിനം മിക എ ങ്ങളി,\n\nyee ആത്മ\n\nJ23¢h -ഒ-2----ടട്ര\n\nPWD MEGS, us we ടിക A BQRA B23} ച)\n\n| -\nBeem A> alebipyer लि दि “L49 a4? -\n\nOn ഗമ്ഴിഹകള്‍ ഗൃഹം 44244 കികു.\nmar ളി പാണ ബഹ Net\n\nथी മിക്ക്‌ ഷി\n\nनगद. malh >> oda 4 കമി 2 ഷിഫാ\n\nCBA\nചി. शत (सदन कि കക हि\n\nSa ieee:\n\nഗ്ര രക -\n\n~O32c2n.4\n\n",
+      "text_nfc": "T Full Test a नल IAS - ടി\n\nക്മാ 6 yeh ew MDA Brat etd\n\nका ह ച്‌ | wand\n3१८23 orm DleseyorrS की A) PBC, abv\nNee | Qian ചി. ite pra awd ൦൧൪ വര\n\nRA\n(PVA HD) a കെച്്സളി പുഴക്ക്‌ 2-1 ही\n\nക്കി സ്വ ഗ്രിഹ്‌ ot\naah ചിനം മിക എ ങ്ങളി,\n\nyee ആത്മ\n\nJ23¢h -ഒ-2----ടട്ര\n\nPWD MEGS, us we ടിക A BQRA B23} ച)\n\n| -\nBeem A> alebipyer लि दि “L49 a4? -\n\nOn ഗമ്ഴിഹകള്‍ ഗൃഹം 44244 കികു.\nmar ളി പാണ ബഹ Net\n\nथी മിക്ക്‌ ഷി\n\nनगद. malh >> oda 4 കമി 2 ഷിഫാ\n\nCBA\nചി. शत (सदन कि കക हि\n\nSa ieee:\n\nഗ്ര രക -\n\n~O32c2n.4\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

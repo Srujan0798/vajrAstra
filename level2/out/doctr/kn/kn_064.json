@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_064",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0025pro_raw.pdf",
+    "page_index": 87,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Stnea gaorieb\nE3\nI\nReabasordod\ndobooaas\nxgd w3 x88 awopsne\nReadasnd, 8033 aotsaas\n30 aOFTe dosd\n20003 oedoges aoce a\naodtenaod\ndodadaas\ndoz 80a3\nasotsayas\nafin\n2gtda0 80:\nasots paas\nenedeened esedar\n80a3 asotoayas\na\ntor a3s abot\naoasoas\n30 aaFne dosd 00303\nNEd aasoro aocE\nedoered\neood Eas\n80",
+      "text_nfc": "Stnea gaorieb\nE3\nI\nReabasordod\ndobooaas\nxgd w3 x88 awopsne\nReadasnd, 8033 aotsaas\n30 aOFTe dosd\n20003 oedoges aoce a\naodtenaod\ndodadaas\ndoz 80a3\nasotsayas\nafin\n2gtda0 80:\nasots paas\nenedeened esedar\n80a3 asotoayas\na\ntor a3s abot\naoasoas\n30 aaFne dosd 00303\nNEd aasoro aocE\nedoered\neood Eas\n80",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

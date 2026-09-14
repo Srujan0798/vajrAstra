@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_066",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 18,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1 My [oTld of [eelin8s\nTe ]ive suzrounded by people; other ]ivin8 bein8s ad ೊature. Thi s keep happenin8 in this world! Sometimes the weather is hot; sometimes its cold o[ [ainy oT windy!\nHOT\nCOLD\nRAINY\nWINDY\n[ike the outside weathe, ouT TOTLd 0[ [eelinss also keeps Tere js aothe] wo[]d chansin8! [t depends o] Mhat is inside US [t 1s ade   Tp 0[ happenin8 inside the body and feelin s. T]e [ee] happy, what s happenin8 outside. Mಘen sad , a8ry , upset; irtitated, we [a]] dow] ad 8et [urt; we [ee] sleepj] , tized, bored. the ]ist pain . TT]at if there was ]0 pain? TTTe Tould ot eve] LoT] Te [ave 80es [urt ouzsejves! Pain draws Ou[ attentio] to the part that js [uTt S0 that we ca take cae o೨ jt. @ # Jake 8Toups of 4: o[ 3 [eelins. Discuss what ]f there [Tow d0 they he]p you? TTeTe ]0 feelin8s? BE Mzite below: Mhat would [appen then? ೦ 8\nThinL and Do: Do ]TOU1 thin] aima[s jave Teelin8s? M]y do Jou thin] so? [hat ೩bout plants?\nTeelinss brins ೩ positive chanse in me.\n11",
+      "text_nfc": "3.1 My [oTld of [eelin8s\nTe ]ive suzrounded by people; other ]ivin8 bein8s ad ೊature. Thi s keep happenin8 in this world! Sometimes the weather is hot; sometimes its cold o[ [ainy oT windy!\nHOT\nCOLD\nRAINY\nWINDY\n[ike the outside weathe, ouT TOTLd 0[ [eelinss also keeps Tere js aothe] wo[]d chansin8! [t depends o] Mhat is inside US [t 1s ade   Tp 0[ happenin8 inside the body and feelin s. T]e [ee] happy, what s happenin8 outside. Mಘen sad , a8ry , upset; irtitated, we [a]] dow] ad 8et [urt; we [ee] sleepj] , tized, bored. the ]ist pain . TT]at if there was ]0 pain? TTTe Tould ot eve] LoT] Te [ave 80es [urt ouzsejves! Pain draws Ou[ attentio] to the part that js [uTt S0 that we ca take cae o೨ jt. @ # Jake 8Toups of 4: o[ 3 [eelins. Discuss what ]f there [Tow d0 they he]p you? TTeTe ]0 feelin8s? BE Mzite below: Mhat would [appen then? ೦ 8\nThinL and Do: Do ]TOU1 thin] aima[s jave Teelin8s? M]y do Jou thin] so? [hat ೩bout plants?\nTeelinss brins ೩ positive chanse in me.\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

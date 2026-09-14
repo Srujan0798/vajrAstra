@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_066",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 18,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "61117117210 21\n\nWe live surrounded by people, other living beings and ae\n\nnature. Things keep happening in this world! Sometimes\n\nCOLD\n\nthe weather is hot, sometimes its cold or rainy or windy!\n\nLike the outside weather, our\nworld of feelings also keeps\nchanging! It depends on what is\nhappening inside the body and\nwhat’s happening outside. When\nwe fall down and get hurt, we feel\npain. What if there was no pain?\nWe would not even know we have\nhurt ourselves! Pain draws our\nattention to the part that is hurt\nso that we can take care of it.\n\nMake groups of 4:\nDiscuss what if there\nwere no feelings?\nWhat would happen\nthen?\n\nFeelings bring\na positive\nchange in me.\n\nThere is another world\ninside us. It is made up of\nfeelings. We feel happy,\nsad, angry, upset, irritated,\nsleepy, tired, bored... the list\ngoes on! a2\n\nThink of 3 feelings.\nHow do they help you?\nWrite below:\n\nThink and Do:\n\nDo you think animals have\nfeelings? Why do you think so?\nWhat about plants?\n\n",
+      "text_nfc": "61117117210 21\n\nWe live surrounded by people, other living beings and ae\n\nnature. Things keep happening in this world! Sometimes\n\nCOLD\n\nthe weather is hot, sometimes its cold or rainy or windy!\n\nLike the outside weather, our\nworld of feelings also keeps\nchanging! It depends on what is\nhappening inside the body and\nwhat’s happening outside. When\nwe fall down and get hurt, we feel\npain. What if there was no pain?\nWe would not even know we have\nhurt ourselves! Pain draws our\nattention to the part that is hurt\nso that we can take care of it.\n\nMake groups of 4:\nDiscuss what if there\nwere no feelings?\nWhat would happen\nthen?\n\nFeelings bring\na positive\nchange in me.\n\nThere is another world\ninside us. It is made up of\nfeelings. We feel happy,\nsad, angry, upset, irritated,\nsleepy, tired, bored... the list\ngoes on! a2\n\nThink of 3 feelings.\nHow do they help you?\nWrite below:\n\nThink and Do:\n\nDo you think animals have\nfeelings? Why do you think so?\nWhat about plants?\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

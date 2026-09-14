@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_012",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 3,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.\n E ! , 4      H   \nfeay ed?\n32  35 \n−\n\nC\nFsdE\n–\nF \n() 3 3    T Ta A 3 R T54 f 3t  3R   ?\nf\n    a  3 E       \nG\n H S  , S   3   E  \na\nrigf\nHTC\n1. faser  oe\n1.ET  \nblis\nERI\n2.   fs\n2. T 3 219\n3. frfe fT\n3.SET  H\n4.-\n4.\n5. T CTH\n 3   \n5.\nW\nuifcrt\n\nT\ni  T 3   3 3 4 R 3 31\nt8\nFTT 37ef\n 3 3t R   3 HE   3 \n(‡)\nfafse  sH-sfa \nAf   !\"\nhHAH  T\nTIY ET, ET\nT\nT- \nff fa \nReprint 2026-27",
+      "text_nfc": "3.\n E ! , 4      H   \nfeay ed?\n32  35 \n−\n\nC\nFsdE\n–\nF \n() 3 3    T Ta A 3 R T54 f 3t  3R   ?\nf\n    a  3 E       \nG\n H S  , S   3   E  \na\nrigf\nHTC\n1. faser  oe\n1.ET  \nblis\nERI\n2.   fs\n2. T 3 219\n3. frfe fT\n3.SET  H\n4.-\n4.\n5. T CTH\n 3   \n5.\nW\nuifcrt\n\nT\ni  T 3   3 3 4 R 3 31\nt8\nFTT 37ef\n 3 3t R   3 HE   3 \n(‡)\nfafse  sH-sfa \nAf   !\"\nhHAH  T\nTIY ET, ET\nT\nT- \nff fa \nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

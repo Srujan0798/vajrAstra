@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "that end\n\n— with ‘r’.\n\nthat end\nwith “౮.\n\nTell\n5 words\n_ that begin\nwith ‘m’.\n\n* 5 words ©\nthat begin\nwith te\n\nTell\n4 words\nthat begin\nwith ‘st’.\n\nMAHARASHTRA STATE BUREAU OF TEXTBOOK\nPRODUCTION AND CURRICULUM RESEARCH, PUNE.\n\nमाय इंग्लिश बुक फाइन्ह (तेलुगु) ₹ 40.00\n\n",
+      "text_nfc": "that end\n\n— with ‘r’.\n\nthat end\nwith “౮.\n\nTell\n5 words\n_ that begin\nwith ‘m’.\n\n* 5 words ©\nthat begin\nwith te\n\nTell\n4 words\nthat begin\nwith ‘st’.\n\nMAHARASHTRA STATE BUREAU OF TEXTBOOK\nPRODUCTION AND CURRICULUM RESEARCH, PUNE.\n\nमाय इंग्लिश बुक फाइन्ह (तेलुगु) ₹ 40.00\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

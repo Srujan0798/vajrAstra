@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_003",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 7,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "5.\nomlolcogm oo 82|23|63132](00 043608l2|0 ९o५omooील ७oolलnoo0० b@0६600S 00 @09202@. 7/1=7 *0300' @gm @l3oolom @IOg@@I3० @logjo00@ ]3o ng@Jmmॅ ? (4) omछl (3) 6८(O)० (0) 00|)6m0)6 D) @og|\n(ii)\no06त\" ngm ml3oolom इooldello८० ९९० ? (A) O0[0ी (B) ozolom (0) 0z0ी॰l o06\n(iii)\n8=|)66\"@gm @l3oolom ७०olलz@l @oत0०० २२२ळीoo ngJomॅ ? (A) 3l6oi (B) (100]9(0000)0 (C) 30 0)0)0\n(iv )\n86)$-6 83डी' ngmm1 0I)06)0226$ @00l030) 31o000040!9m)6 omloloojmoiolod ngoJom ? (A) Ole0o-o)9>1 (B) 630 00064|!-04|036 (0) OooDl-oom (D ) 62|]830|-833^%4|!0\nOJelboी' @om @l3oolon coolलz@ @itn0loa|9p0l@ 0jn |o rg0 0 (4) Oba!230)m @1on0| (3) O)a]00l6@ @31on0 (0) Obelljo Glonololo (D) 0)2|6 6)&)613,88 (10@0| (vi) mllDo ngm तl3oolom mom3o00 (30 (0 @!3010 0_|30 rgo ? (A) 2| (B) 2io0o2zm@(06 (0) miy (D) 2l08 (vii) ३@ २ajoo@' @om ooon0oीoी (Ieल3onlीopm 638%|3० \"g0 ? (4) IBO० (B) (bD300 (0) mo3Oo (D) 3ल3e! 8\n^२",
+      "text_nfc": "5.\nomlolcogm oo 82|23|63132](00 043608l2|0 ९o५omooील ७oolलnoo0० b@0६600S 00 @09202@. 7/1=7 *0300' @gm @l3oolom @IOg@@I3० @logjo00@ ]3o ng@Jmmॅ ? (4) omछl (3) 6८(O)० (0) 00|)6m0)6 D) @og|\n(ii)\no06त\" ngm ml3oolom इooldello८० ९९० ? (A) O0[0ी (B) ozolom (0) 0z0ी॰l o06\n(iii)\n8=|)66\"@gm @l3oolom ७०olलz@l @oत0०० २२२ळीoo ngJomॅ ? (A) 3l6oi (B) (100]9(0000)0 (C) 30 0)0)0\n(iv )\n86)$-6 83डी' ngmm1 0I)06)0226$ @00l030) 31o000040!9m)6 omloloojmoiolod ngoJom ? (A) Ole0o-o)9>1 (B) 630 00064|!-04|036 (0) OooDl-oom (D ) 62|]830|-833^%4|!0\nOJelboी' @om @l3oolon coolलz@ @itn0loa|9p0l@ 0jn |o rg0 0 (4) Oba!230)m @1on0| (3) O)a]00l6@ @31on0 (0) Obelljo Glonololo (D) 0)2|6 6)&)613,88 (10@0| (vi) mllDo ngm तl3oolom mom3o00 (30 (0 @!3010 0_|30 rgo ? (A) 2| (B) 2io0o2zm@(06 (0) miy (D) 2l08 (vii) ३@ २ajoo@' @om ooon0oीoी (Ieल3onlीopm 638%|3० \"g0 ? (4) IBO० (B) (bD300 (0) mo3Oo (D) 3ल3e! 8\n^२",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

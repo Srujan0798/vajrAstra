@@ -1,0 +1,41 @@
+{
+  "page_id": "te_076",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0076pro_raw.pdf",
+    "page_index": 0,
+    "width": 1810,
+    "height": 2450
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1810,
+        2450
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IEGI\nE\nFEATEFIT\nC\naldodlul\nA A\nTICl Ch&TT\n2\n- -\n-\n(\n\n-\nI\nPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP, - - -\nUbDD -\n0000000000 -\n(\n(\nC\no\n- PPPPPPPPPPPPPPPPPPPL\n6 - 0 UUU - - DUD",
+      "text_nfc": "IEGI\nE\nFEATEFIT\nC\naldodlul\nA A\nTICl Ch&TT\n2\n- -\n-\n(\n\n-\nI\nPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP, - - -\nUbDD -\n0000000000 -\n(\n(\nC\no\n- PPPPPPPPPPPPPPPPPPPL\n6 - 0 UUU - - DUD",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

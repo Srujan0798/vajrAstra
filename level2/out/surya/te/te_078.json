@@ -1,0 +1,41 @@
+{
+  "page_id": "te_078",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0078pro_raw.pdf",
+    "page_index": 74,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(III) సంయోగ వియమం (Componendo) ఒకవేళ a b = c d అయినచో a + b = c + d / d అవుతుంది.\n\\frac{a}{b} = \\frac{c}{d}\n\\frac{a}{b}+1=\\frac{c}{d}+1 (ఇరువైపుల 1ని కలుపగా)\n\\frac{a+b}{b} = \\frac{c+d}{d}\nఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} అయిన ⁠ \\frac{a+b}{b} = \\frac{c+d}{d} అవుతుంది. ఈ ధర్మమును ‘సంయోగ నియమం’ అంటారు.\n(IV) వియోగ నియమం (Dividendo)\n\\therefore \\frac{a}{b} = \\frac{c}{d}\n∴ a/b− 1= c/d− 1 ( ఇరువైపుల 1ని తీసివేయగా )\n\\therefore \\frac{a-b}{b} = \\frac{c-d}{d}\nఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} ⁠ అయిన ⁠ \\frac{a-b}{b} = \\frac{c-d}{d} ⁠ అవుతుంది. ఈ ధర్మమును ‘వియోగ నియమం’ అంటారు.\n(V) సంయోగ-వియోగ వియమం (Componendo-dividendo) ఒకవేళ a b = c d అయిన a+b a-b = c+d c-d , a ≠ b , c ≠ d అవుతుంది.\nಒಮ್ಮೆಳ a = c / b ಅಯನ ∴ a + b / b = c + d / d\n\\therefore \\frac{a-b}{b} = \\frac{c-d}{d} (వియోగ నియమం ప్రకారం) ....(2)\na + b = c + d (1) మరియు (2) అను బట్టి \\therefore \\frac{a+b}{a-b} = \\frac{c+d}{c-d}\nఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} ⁠ అయిన ⁠ \\frac{a+b}{a-b} = \\frac{c+d}{c-d} ⁠ అవుతుంది. ఈ ధర్మమును ‘సంయోగ–వియోగ నియమం’ అంటారు.\nసంయోగ నియమం మరియు వియోగ నియమాల సాధారణ రూపం\nఒక్కో \\frac{a}{b} = \\frac{c}{d} అయినవో \\frac{a+b}{b} = \\frac{c+d}{d} (ఒకసారి సంయోగ నియమం ప్రకారం)\na+2b=c+2db/d (రెండుసార్లు సంయోగ నియమం ప్రకారం)\nసాధారణంగా \\frac{a+mb}{b} = \\frac{c+md}{d} ( m సార్లు సంయోగ నియమం ప్రకారం) ...(1)\nఅదే విధంగా ఒకవేళ a b = cd అయనూ a − m b = c − m d / b = c − m d / d ( m సార్లు వియోగ నియమం ప్రకారం) ...(2)\nమరియు ఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} ⁠ అయననో ⁠ \\frac{a+mb}{a-mb} = \\frac{c+md}{c-md} ⁠ ...((1) మరియు (2) అను బట్టి భాగించగా)\n65",
+      "text_nfc": "(III) సంయోగ వియమం (Componendo) ఒకవేళ a b = c d అయినచో a + b = c + d / d అవుతుంది.\n\\frac{a}{b} = \\frac{c}{d}\n\\frac{a}{b}+1=\\frac{c}{d}+1 (ఇరువైపుల 1ని కలుపగా)\n\\frac{a+b}{b} = \\frac{c+d}{d}\nఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} అయిన ⁠ \\frac{a+b}{b} = \\frac{c+d}{d} అవుతుంది. ఈ ధర్మమును ‘సంయోగ నియమం’ అంటారు.\n(IV) వియోగ నియమం (Dividendo)\n\\therefore \\frac{a}{b} = \\frac{c}{d}\n∴ a/b− 1= c/d− 1 ( ఇరువైపుల 1ని తీసివేయగా )\n\\therefore \\frac{a-b}{b} = \\frac{c-d}{d}\nఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} ⁠ అయిన ⁠ \\frac{a-b}{b} = \\frac{c-d}{d} ⁠ అవుతుంది. ఈ ధర్మమును ‘వియోగ నియమం’ అంటారు.\n(V) సంయోగ-వియోగ వియమం (Componendo-dividendo) ఒకవేళ a b = c d అయిన a+b a-b = c+d c-d , a ≠ b , c ≠ d అవుతుంది.\nಒಮ್ಮೆಳ a = c / b ಅಯನ ∴ a + b / b = c + d / d\n\\therefore \\frac{a-b}{b} = \\frac{c-d}{d} (వియోగ నియమం ప్రకారం) ....(2)\na + b = c + d (1) మరియు (2) అను బట్టి \\therefore \\frac{a+b}{a-b} = \\frac{c+d}{c-d}\nఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} ⁠ అయిన ⁠ \\frac{a+b}{a-b} = \\frac{c+d}{c-d} ⁠ అవుతుంది. ఈ ధర్మమును ‘సంయోగ–వియోగ నియమం’ అంటారు.\nసంయోగ నియమం మరియు వియోగ నియమాల సాధారణ రూపం\nఒక్కో \\frac{a}{b} = \\frac{c}{d} అయినవో \\frac{a+b}{b} = \\frac{c+d}{d} (ఒకసారి సంయోగ నియమం ప్రకారం)\na+2b=c+2db/d (రెండుసార్లు సంయోగ నియమం ప్రకారం)\nసాధారణంగా \\frac{a+mb}{b} = \\frac{c+md}{d} ( m సార్లు సంయోగ నియమం ప్రకారం) ...(1)\nఅదే విధంగా ఒకవేళ a b = cd అయనూ a − m b = c − m d / b = c − m d / d ( m సార్లు వియోగ నియమం ప్రకారం) ...(2)\nమరియు ఒకవేళ ⁠ \\frac{a}{b} = \\frac{c}{d} ⁠ అయననో ⁠ \\frac{a+mb}{a-mb} = \\frac{c+md}{c-md} ⁠ ...((1) మరియు (2) అను బట్టి భాగించగా)\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

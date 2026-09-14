@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_063",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 164,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "20 35\n6000\na\n46000\nULID 10.1 GUIGDGOULIGDLDLé 26TT6I ET560T1156T\nGJ6DODILIGDLDULéD OeD6o0rdBluLiiq@6Bib\n06161615 5560ofloofluyb (LD6060TLLD\n6T60T Bicpipdsslubdps. 5J6/56061\n910JUL615 CLD60 (LO606OTLLD 6160TOILD\n516/56061\n6UM16I5\n0055\n(LD6D60TLD 6T60TTJLD Siepipe.osluodDsi\nGUGDGOULIGDLDULléD 2_61T6I, (6DGOTLIMISGT\n91560T IP (50ifl56t CLDGDLD S16OLUITOTILD\n651600TU6D51 605LGLIE, 60565600fl6ofl\n(Tablet),\n5ooflumoit\n560ofleofl56i,\nouflu GE6DOJILL5TI5GT LDIDILD Lp\nGJ6DGDLGOLDLY #1T560Trh1561 GUIT6OTD6061\n(UPSIDGOTLITA56IITE Obi5\n(LOIqULD.\nQ60T0IBELD\nBLDULL 8T560TT156DGIT\n260600TLL51 GI6DGDLIGDLDU\n6T60T BicDipdsslubdps\n12th_Computer_Application_Tamils version CHAPTER 10.indd 155\n19-01-2023 17:47:31\n10.2 660ofloofl GI6ODGDLLIGDLDL LODMILD\n0606001555160T LIFflGOOTITLD O68d\nINTERNET 6T60TLI5160T offlouasib.\nINTERconnected NETwork 060600TLJID\n6T60TLI5 560fLULL G16DGDLL6OTGOT6eoteor@basarfleor\n260600TL4 6T60T GDTuDosuubopsh\n051 56061, 615mLl6, SITET, LD556T LopILD\n5ooflumi BmioLeotriaaaiTéb 560f165560flu.IT5\nQubslubdbsl\nBLib5\nflo\n346001656rfl6,\n360600TLJLD L01E56410 Eo5 OImD5\n56ILDIT5 LDITPI 6108m51 051 OUuNI\nOleinyb (D6ODULD, G5TLDGSHT6TGDID\nOILloouub LomDlugI\nLéborulyc560016565160T\nD60600TLLD\nLD6556565,\n0 58K\nGoueD@ouiL.58lqt6,\n6L14g1,\nLioforflulgjib 20566A 66171556061T\n2mb5ol68D51\nLITLID 10 5600fl6ofl GI6DGDLIGDLDLL gi aiplupsid 155",
+      "text_nfc": "20 35\n6000\na\n46000\nULID 10.1 GUIGDGOULIGDLDLé 26TT6I ET560T1156T\nGJ6DODILIGDLDULéD OeD6o0rdBluLiiq@6Bib\n06161615 5560ofloofluyb (LD6060TLLD\n6T60T Bicpipdsslubdps. 5J6/56061\n910JUL615 CLD60 (LO606OTLLD 6160TOILD\n516/56061\n6UM16I5\n0055\n(LD6D60TLD 6T60TTJLD Siepipe.osluodDsi\nGUGDGOULIGDLDULléD 2_61T6I, (6DGOTLIMISGT\n91560T IP (50ifl56t CLDGDLD S16OLUITOTILD\n651600TU6D51 605LGLIE, 60565600fl6ofl\n(Tablet),\n5ooflumoit\n560ofleofl56i,\nouflu GE6DOJILL5TI5GT LDIDILD Lp\nGJ6DGDLGOLDLY #1T560Trh1561 GUIT6OTD6061\n(UPSIDGOTLITA56IITE Obi5\n(LOIqULD.\nQ60T0IBELD\nBLDULL 8T560TT156DGIT\n260600TLL51 GI6DGDLIGDLDU\n6T60T BicDipdsslubdps\n12th_Computer_Application_Tamils version CHAPTER 10.indd 155\n19-01-2023 17:47:31\n10.2 660ofloofl GI6ODGDLLIGDLDL LODMILD\n0606001555160T LIFflGOOTITLD O68d\nINTERNET 6T60TLI5160T offlouasib.\nINTERconnected NETwork 060600TLJID\n6T60TLI5 560fLULL G16DGDLL6OTGOT6eoteor@basarfleor\n260600TL4 6T60T GDTuDosuubopsh\n051 56061, 615mLl6, SITET, LD556T LopILD\n5ooflumi BmioLeotriaaaiTéb 560f165560flu.IT5\nQubslubdbsl\nBLib5\nflo\n346001656rfl6,\n360600TLJLD L01E56410 Eo5 OImD5\n56ILDIT5 LDITPI 6108m51 051 OUuNI\nOleinyb (D6ODULD, G5TLDGSHT6TGDID\nOILloouub LomDlugI\nLéborulyc560016565160T\nD60600TLLD\nLD6556565,\n0 58K\nGoueD@ouiL.58lqt6,\n6L14g1,\nLioforflulgjib 20566A 66171556061T\n2mb5ol68D51\nLITLID 10 5600fl6ofl GI6DGDLIGDLDLL gi aiplupsid 155",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

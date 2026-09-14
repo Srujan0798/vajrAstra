@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 595.3200073242188,
+    "height": 841.9200439453125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.3200073242188,
+        841.9200439453125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "iSeries GZDEF\nI Set -- 4 1\nಪಶೈಪತಿಕೆಕೋಡ್-೧೩\n13\nQ.P. Code\n'Rop ಗea\nLe$0 #0 .ಎe ?.? m-g'he.\nRoll No.\nಪಿಕೆಮುಖಪಟದಲ.ಅವಶೃವಾಗಬರೆಯಂ.\nCandidates must write the Q.P. Code on \nI the title page of the answer-book.\nಈಪಶೃಪತ,ಕೆಯಲ15ಮುದೃತಪಟಗಳವೆಯಂಬುದನುಪಂಶಲಸ.\nಪೃಶಿಪತಿಕೆಯ ಬಲಭಾಗದಲ,ಕೊಟೈರುವಕೋಡ್ಸಂಖೈಯನು ಉತರಪತಿಕೆಯಮುಖ ಪಟದಲ\nಅಭೈಥ೯ಯುಬರೆಯಬೇಕು.\nಈಪೃಶೃಪತ,ಕೆಯಲ1ಪೃಶೈಗಳವೆಎಂಬುದನುಗಮನಸ.\nಉತಂಸುವದಕೈವೊದಲುಪೃಶೈಯಕೃಮಸಂಖೈಯನುಉತರಪತೃಕೆಯಯಥಾಸಾನದಲೃಬರೆಯುಂ.\nಈಪೃಶೃಪತಿಕೆಯನು.ಓದಕೊಳಲು15 ನಎುಷಗಳನುಕೊಡಲಾಗದ. ಪಶೃಪತ,ಕೆಯನು1ಂ.16ಿ೩.m.\nಗಎತಂಸಲಾಗುವದು. 10.15೩.m. ನಂದ1ಂ.:0೩.m. ರತನಕಎದಾೈ೪೯ಗಳುಪೃಶೃಪತ,ಕಯನು\nಓದಕೊಳಬೇಕುವತುಈಅವಧಯಲ.ಯಾವದೇಉತರವನು.ಉತರಪತ,ಕೆಯಲ.ಬರೆಯಬಾರದು.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 15 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m, the\ncandidates will read the question paper only and will not write any answer\nOon the answer-book during this period.\nh\n೨೨೨\n೩\nKANNADA\nಅನುಮತಸಲಾದಸಮಯ.Iೆಗಂಟ\nಗಂಷಅಂಕಗಳು.೫೦\nTime allowed 3 hours\nMaximum Marks : 80\n13\n5111\n Page 1of 16  \nP.T.O.\n11",
+      "text_nfc": "iSeries GZDEF\nI Set -- 4 1\nಪಶೈಪತಿಕೆಕೋಡ್-೧೩\n13\nQ.P. Code\n'Rop ಗea\nLe$0 #0 .ಎe ?.? m-g'he.\nRoll No.\nಪಿಕೆಮುಖಪಟದಲ.ಅವಶೃವಾಗಬರೆಯಂ.\nCandidates must write the Q.P. Code on \nI the title page of the answer-book.\nಈಪಶೃಪತ,ಕೆಯಲ15ಮುದೃತಪಟಗಳವೆಯಂಬುದನುಪಂಶಲಸ.\nಪೃಶಿಪತಿಕೆಯ ಬಲಭಾಗದಲ,ಕೊಟೈರುವಕೋಡ್ಸಂಖೈಯನು ಉತರಪತಿಕೆಯಮುಖ ಪಟದಲ\nಅಭೈಥ೯ಯುಬರೆಯಬೇಕು.\nಈಪೃಶೃಪತ,ಕೆಯಲ1ಪೃಶೈಗಳವೆಎಂಬುದನುಗಮನಸ.\nಉತಂಸುವದಕೈವೊದಲುಪೃಶೈಯಕೃಮಸಂಖೈಯನುಉತರಪತೃಕೆಯಯಥಾಸಾನದಲೃಬರೆಯುಂ.\nಈಪೃಶೃಪತಿಕೆಯನು.ಓದಕೊಳಲು15 ನಎುಷಗಳನುಕೊಡಲಾಗದ. ಪಶೃಪತ,ಕೆಯನು1ಂ.16ಿ೩.m.\nಗಎತಂಸಲಾಗುವದು. 10.15೩.m. ನಂದ1ಂ.:0೩.m. ರತನಕಎದಾೈ೪೯ಗಳುಪೃಶೃಪತ,ಕಯನು\nಓದಕೊಳಬೇಕುವತುಈಅವಧಯಲ.ಯಾವದೇಉತರವನು.ಉತರಪತ,ಕೆಯಲ.ಬರೆಯಬಾರದು.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 15 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m, the\ncandidates will read the question paper only and will not write any answer\nOon the answer-book during this period.\nh\n೨೨೨\n೩\nKANNADA\nಅನುಮತಸಲಾದಸಮಯ.Iೆಗಂಟ\nಗಂಷಅಂಕಗಳು.೫೦\nTime allowed 3 hours\nMaximum Marks : 80\n13\n5111\n Page 1of 16  \nP.T.O.\n11",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

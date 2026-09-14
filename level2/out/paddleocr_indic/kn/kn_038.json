@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_038",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 258,
+    "width": 1123,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1123,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಟಿಪಣಿೆಗಳು\n೨೪೭\n\nಕನೃಡನುಡಯಜಾಯಮಾನವನುಗಮನಸದಿಅದರವಾ.ಕರಣ\nಪರಿಯೆಗಳನುೃ ಸಂಸತವಾಕರಣದಚೌಕಟಿಗಿಅಳವಡಸರುವದೇ\nYe\nಇಂಥಿಗೊಂದಲಗಳಿಗಿಕಾರಣವಾಗದೆ.ಪಕೃತದಳಿಮಾಗ-ಕಾರನು\nಸಂಸತವಾಕರಣದಕಾರಕ ವೃವಸೈಯನುೃಅನುಸಂಸರುವದಂಂದ\nಕ\nಅವನುಕತಹೃವನು,ಕಾರಕಾನುಕಮದಳಿಸೇರಸ೪ವೆಂದುಶೀಕೆ.ಟಿ.\nಪಾಂಡುರಂಗಯವರುಅಭಪಾಯಪಟಿದಾರೆ.ಅವರುತಳಿಸುವಂತ\nಸಂಸೃತವಾಕರಣದಪಕಾರಪಥಮಾಏಭಕಿಕಾರಕಾಧೀನವಳ-\nಕeೆ\nಹಾಗೂಕವು-ಣಿಪಯೋಗದಳುತೃತೀಯಾಏಭಕಿಯ\nಕರಣಿಕಾರಕವೇಕತಹಕಾರಕತವನೂ.ಒಳಗೊಳುತದೆ.ಮಾಗ೯ಕಾರನ\nಉಕೈಯನು.ಅವನು ಈೀತಿಸಮಢ೯ಸರುವುದು ಗಾಹೃವಾಗ\nಕಂಡುಬಂದರೂ.ಮಾಗ-ಕಾರನುಹೀಳುವಕತ-ಕಾರಕಿರಃತವಾದ\nಆರುಕಾರಕಗಳಳಿಷಷಿಯೂಸೇರುವುದೇಇಲವಿಎಂಬಸಮಸೈಗೆ\nಗ\nಕೇಶಿರಾಜನೂ ತೃತೀಯಗಿಕತ೯ೃಕಾರಕತವನು.ಹೇಳದಾನೆ.ೀತೃತೀಯ ಪೀಟಲ್\nಪಡೆಗುಂಕತ೩ಕರಣಹೇತು೯ತಯೊಳ್ಿ-ಸೂ.೧೨ಲ.ಉದಾ.ಕಾವೃವುನೃಂ\nಪೇಟ್ಪಟುದು.\nಆಧುನಕಭಾಷಾಶಾಸಜರಿಪಕಾರ.ಕನೃಡದಳಿಪಥಮಾಏಭಕಿಯದರೂ\nಅದನುೃ ಸಂಕೀತಸುವಷತೃಯನುಡಯಜಾಯಮಾನಕಿಹೂರತು.ನಾವುಷಕೃತಯೇೀ\nಪಥವಯಅಥ೯ದಳಿಫಯೋಗವಾಗುತದೆ.ಮಾಗ೯ಕಾರನಲಕಪದೃದಳಿಯೇ\n-ನರಪತಿಬಂದಂಿ-ಎಂಬಪಯೋಗಇದಕಿನದಶ೯ನ.ಅ೪ದೆ.ವಾಕೃದ\nO?.In Kavirajamarga Nrpatunga enumerates six Karakas and seven.\nVibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit.\ngrammarians, the first case termination does not convey any Karaka. The second\nConveys Karma, the Karana and Karta and so on. The verbal termination con-\nVeys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons...... a plan of reference to Karma on this basis\nCannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot\nalso be applied mutatis mutandis to Kannada. - Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' . Paper by Sri K. T. Pandurangi, M. A.  Vide\nproceedings of the Seminar on Grammatical Theories in Kannada October\n196, Annamalai University, Annamalainagar.",
+      "text_nfc": "ಟಿಪಣಿೆಗಳು\n೨೪೭\n\nಕನೃಡನುಡಯಜಾಯಮಾನವನುಗಮನಸದಿಅದರವಾ.ಕರಣ\nಪರಿಯೆಗಳನುೃ ಸಂಸತವಾಕರಣದಚೌಕಟಿಗಿಅಳವಡಸರುವದೇ\nYe\nಇಂಥಿಗೊಂದಲಗಳಿಗಿಕಾರಣವಾಗದೆ.ಪಕೃತದಳಿಮಾಗ-ಕಾರನು\nಸಂಸತವಾಕರಣದಕಾರಕ ವೃವಸೈಯನುೃಅನುಸಂಸರುವದಂಂದ\nಕ\nಅವನುಕತಹೃವನು,ಕಾರಕಾನುಕಮದಳಿಸೇರಸ೪ವೆಂದುಶೀಕೆ.ಟಿ.\nಪಾಂಡುರಂಗಯವರುಅಭಪಾಯಪಟಿದಾರೆ.ಅವರುತಳಿಸುವಂತ\nಸಂಸೃತವಾಕರಣದಪಕಾರಪಥಮಾಏಭಕಿಕಾರಕಾಧೀನವಳ-\nಕeೆ\nಹಾಗೂಕವು-ಣಿಪಯೋಗದಳುತೃತೀಯಾಏಭಕಿಯ\nಕರಣಿಕಾರಕವೇಕತಹಕಾರಕತವನೂ.ಒಳಗೊಳುತದೆ.ಮಾಗ೯ಕಾರನ\nಉಕೈಯನು.ಅವನು ಈೀತಿಸಮಢ೯ಸರುವುದು ಗಾಹೃವಾಗ\nಕಂಡುಬಂದರೂ.ಮಾಗ-ಕಾರನುಹೀಳುವಕತ-ಕಾರಕಿರಃತವಾದ\nಆರುಕಾರಕಗಳಳಿಷಷಿಯೂಸೇರುವುದೇಇಲವಿಎಂಬಸಮಸೈಗೆ\nಗ\nಕೇಶಿರಾಜನೂ ತೃತೀಯಗಿಕತ೯ೃಕಾರಕತವನು.ಹೇಳದಾನೆ.ೀತೃತೀಯ ಪೀಟಲ್\nಪಡೆಗುಂಕತ೩ಕರಣಹೇತು೯ತಯೊಳ್ಿ-ಸೂ.೧೨ಲ.ಉದಾ.ಕಾವೃವುನೃಂ\nಪೇಟ್ಪಟುದು.\nಆಧುನಕಭಾಷಾಶಾಸಜರಿಪಕಾರ.ಕನೃಡದಳಿಪಥಮಾಏಭಕಿಯದರೂ\nಅದನುೃ ಸಂಕೀತಸುವಷತೃಯನುಡಯಜಾಯಮಾನಕಿಹೂರತು.ನಾವುಷಕೃತಯೇೀ\nಪಥವಯಅಥ೯ದಳಿಫಯೋಗವಾಗುತದೆ.ಮಾಗ೯ಕಾರನಲಕಪದೃದಳಿಯೇ\n-ನರಪತಿಬಂದಂಿ-ಎಂಬಪಯೋಗಇದಕಿನದಶ೯ನ.ಅ೪ದೆ.ವಾಕೃದ\nO?.In Kavirajamarga Nrpatunga enumerates six Karakas and seven.\nVibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit.\ngrammarians, the first case termination does not convey any Karaka. The second\nConveys Karma, the Karana and Karta and so on. The verbal termination con-\nVeys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons...... a plan of reference to Karma on this basis\nCannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot\nalso be applied mutatis mutandis to Kannada. - Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' . Paper by Sri K. T. Pandurangi, M. A.  Vide\nproceedings of the Seminar on Grammatical Theories in Kannada October\n196, Annamalai University, Annamalainagar.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

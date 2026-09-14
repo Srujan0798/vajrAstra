@@ -1,0 +1,41 @@
+{
+  "page_id": "te_009",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+    "page_index": 27,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "B\n( 28 )\nLJ/806\n111. The cost of depreciation generation funds is 116. Sales value variance is the difference between\nequal to\n(1) Standard sales and Actual sales\n(1) Cost of equity\n(2) Budgeted sales and Actual sales\n(2) Cost of debt\n(3) Standard sales and Budgeted sales\n(3) Overall cost of capital\n(4) Cost of retained earnings\n(4) Industry sales and Firm's sales\n112. The interest rate that equates the present 117. When margin of safety is 20 percent and P/V\nvaluè of the expected future cash flows to the\nratio is 60 percent, the profit will be\ninitial cost outlay is\n(1) 30 percent\n(1) ARR\n(2)\n(2) NPV\n331\npercent\n(3) 12 percent\n(3) IRR\n(4) Payback\n(4) 16 percent\n113. The\nmost\nimportant\nvariable\nwhile\n118. The difference between fixed and variable\ncalculating the cost of debt is\ncost has a special significance in the\npreparation of\n(1) Earnings\n(1) Master budget\n(2) Dividends\n(2) Flexible budget\n(3) Investment\n(3) Cash budget\n(4) Tax rate\n(4) Functional budget\n114. Which one of the following will take place\nwhen a fair return is not realized as 119. The time normally taken in replenishing\ncapitalization ?\ninventory after the order has been placed is\n(1). Under capitalization\n(1) Gestation time\n(2) Moderate capitalization\n(2) Operating time\n(3) Over capitalization\n(3) Lead time\n(4) No capitalization\n(4) Replenishing time\n115. The ratio that indicates a firm's commitment 120. Market risk is measured by\nto meet short-term liabilities is called\n(1) Beta co-efficiert\n(1) - Proprietory ratio\n(2) EBIT\n(2) Turnover ratio\n(3) ROI\n(3) Degree of leverage\n(4) Current ratio\n(4) Degree of freedom",
+      "text_nfc": "B\n( 28 )\nLJ/806\n111. The cost of depreciation generation funds is 116. Sales value variance is the difference between\nequal to\n(1) Standard sales and Actual sales\n(1) Cost of equity\n(2) Budgeted sales and Actual sales\n(2) Cost of debt\n(3) Standard sales and Budgeted sales\n(3) Overall cost of capital\n(4) Cost of retained earnings\n(4) Industry sales and Firm's sales\n112. The interest rate that equates the present 117. When margin of safety is 20 percent and P/V\nvaluè of the expected future cash flows to the\nratio is 60 percent, the profit will be\ninitial cost outlay is\n(1) 30 percent\n(1) ARR\n(2)\n(2) NPV\n331\npercent\n(3) 12 percent\n(3) IRR\n(4) Payback\n(4) 16 percent\n113. The\nmost\nimportant\nvariable\nwhile\n118. The difference between fixed and variable\ncalculating the cost of debt is\ncost has a special significance in the\npreparation of\n(1) Earnings\n(1) Master budget\n(2) Dividends\n(2) Flexible budget\n(3) Investment\n(3) Cash budget\n(4) Tax rate\n(4) Functional budget\n114. Which one of the following will take place\nwhen a fair return is not realized as 119. The time normally taken in replenishing\ncapitalization ?\ninventory after the order has been placed is\n(1). Under capitalization\n(1) Gestation time\n(2) Moderate capitalization\n(2) Operating time\n(3) Over capitalization\n(3) Lead time\n(4) No capitalization\n(4) Replenishing time\n115. The ratio that indicates a firm's commitment 120. Market risk is measured by\nto meet short-term liabilities is called\n(1) Beta co-efficiert\n(1) - Proprietory ratio\n(2) EBIT\n(2) Turnover ratio\n(3) ROI\n(3) Degree of leverage\n(4) Current ratio\n(4) Degree of freedom",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

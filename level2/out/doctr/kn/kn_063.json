@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_063",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0024pro_raw.pdf",
+    "page_index": 48,
+    "width": 1465,
+    "height": 1938
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1465,
+        1938
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8. egpeT-10/16\nc. weneOda\n3\n3\nQooren C3\n7032 eend coot 28008.\navodo : aa ergas eanano tos2 Wo2 docadosoood.\neeneno\n1. socwaw aman totoao Cnoe3 avasds.\n2. Begns Rocdabo asade wewen e5rg 2owa.\n3. word enodod W3 BeEFAREN ooaad.\n-o\n4. aaota aaab 897\naESO\nagnogn Hodoeaaesdo.\n3\n5. asaioed wodood howsoade Soeet.\nA\n6. wand Oon apeg ooa 000,0080e3e8.\n7. NOC 33259 35250 a7 Aonea .\nao2c0.\n8. waaag wo0ne eeg Hoepoento awosad. 0 Q\n9. aosaodes dora baoeaa 320w0, 0o0n.\nd\n10.\nsagocn werde\ng0aa, waowzod.\n-o\n11. 200 BOCADA baa 2083 wabenen - aowswo -o Q d.\n12.\ndejaoas\nwtonee aones 880 oowon 23800030.\n-\no\n0\n13. WODOFTSD 20808000 wotot 200 300d.\n14. woaed 23830 3300000\nes\nC\naboegdas.\n15. eonsoone\n3 arioad\ngocoof noe 2007030.\no\n44",
+      "text_nfc": "8. egpeT-10/16\nc. weneOda\n3\n3\nQooren C3\n7032 eend coot 28008.\navodo : aa ergas eanano tos2 Wo2 docadosoood.\neeneno\n1. socwaw aman totoao Cnoe3 avasds.\n2. Begns Rocdabo asade wewen e5rg 2owa.\n3. word enodod W3 BeEFAREN ooaad.\n-o\n4. aaota aaab 897\naESO\nagnogn Hodoeaaesdo.\n3\n5. asaioed wodood howsoade Soeet.\nA\n6. wand Oon apeg ooa 000,0080e3e8.\n7. NOC 33259 35250 a7 Aonea .\nao2c0.\n8. waaag wo0ne eeg Hoepoento awosad. 0 Q\n9. aosaodes dora baoeaa 320w0, 0o0n.\nd\n10.\nsagocn werde\ng0aa, waowzod.\n-o\n11. 200 BOCADA baa 2083 wabenen - aowswo -o Q d.\n12.\ndejaoas\nwtonee aones 880 oowon 23800030.\n-\no\n0\n13. WODOFTSD 20808000 wotot 200 300d.\n14. woaed 23830 3300000\nes\nC\naboegdas.\n15. eonsoone\n3 arioad\ngocoof noe 2007030.\no\n44",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

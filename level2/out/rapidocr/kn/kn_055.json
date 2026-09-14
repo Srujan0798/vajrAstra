@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_055",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 521.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        521.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಂಶೃಕವೃಡೈ\n೫\nಬಾ\nಷಟ್ನಆದ\n೯೨೨೬\nಹೆಚಗೆ\n೬೦೮೭\nವಚನರಳೊಂಐರು\nಬಸವನಾಳ\nಶವಅಂರಪನವರು\nಏಶಕನೃಡ\nಎ್\nನಮೃಳನ\n೪\nಪಾಹತೃಮಾಲ",
+      "text_nfc": "ಂಶೃಕವೃಡೈ\n೫\nಬಾ\nಷಟ್ನಆದ\n೯೨೨೬\nಹೆಚಗೆ\n೬೦೮೭\nವಚನರಳೊಂಐರು\nಬಸವನಾಳ\nಶವಅಂರಪನವರು\nಏಶಕನೃಡ\nಎ್\nನಮೃಳನ\n೪\nಪಾಹತೃಮಾಲ",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

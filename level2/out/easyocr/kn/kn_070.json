@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_070",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1NG1\nన సృగారి\nలాలా లిర్షణ మత్తు నార్షంఠా ఇలాఖి\nDepartment of School Education & Literacy\nసి8 శిక్ణణ,\nమోనెసిక మర్తు నామోజిక మౌల్య శిజ్ణణ న్ాస్థ్య ఒళగూండె LISHED Physical Education, VALUE Mental and Social wellbeing Including RE ~EDUCATION 6 ? 6ని శెరెగళి విద్యాథిణగెళ జటువటిశా మెస్తః Activity Book for Class 6 Students 2026 2027 రాజ్య రీర్షణ నెంలూ(ధని మప్తు తెరెబి.తి ఇలాఖి బనెలంశరి 3ెని ఐంఠ, బింగళూరు 560 085.\nశనా టః",
+      "text_nfc": "1NG1\nన సృగారి\nలాలా లిర్షణ మత్తు నార్షంఠా ఇలాఖి\nDepartment of School Education & Literacy\nసి8 శిక్ణణ,\nమోనెసిక మర్తు నామోజిక మౌల్య శిజ్ణణ న్ాస్థ్య ఒళగూండె LISHED Physical Education, VALUE Mental and Social wellbeing Including RE ~EDUCATION 6 ? 6ని శెరెగళి విద్యాథిణగెళ జటువటిశా మెస్తః Activity Book for Class 6 Students 2026 2027 రాజ్య రీర్షణ నెంలూ(ధని మప్తు తెరెబి.తి ఇలాఖి బనెలంశరి 3ెని ఐంఠ, బింగళూరు 560 085.\nశనా టః",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

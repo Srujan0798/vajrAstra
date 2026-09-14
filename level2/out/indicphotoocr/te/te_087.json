@@ -1,0 +1,41 @@
+{
+  "page_id": "te_087",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0003pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "పర్యావరణలకు మూలక౦ద౦ అనదగినవి ১৩ ૨\na ప్రకృతివనరులు\nb మానసిక ఆందోళన\nଓ పరిశుద్రజలాలతో ని౦డిననదులు\ndac\nమానవుని అకృత్యాలకు ఫలిత౦ তঃ১নং ૨\na భూమి సమస్త పైర নুংসং ঠি  నిండడ౦\nb  ১১১৩০ ০৪১৪০ম৩  సమతుల్యత\nଓ సమతుల్యతలోపించడం\nd పరిశుదజలాలు\niv భూమి సమస్తం పైర তাং সং ঠ  ఎ౦డిపోకు౦డా\nఉ౦డే౦దుకు అవసరమయ్యేవి\na మా౦సాహార జ౦తువులు\nb ఉభయచరాలు\nଓ సరీసృపాలు\nd নংজ্ঞঃ    జ౦తువులు\nమూలకంద౦ ਪਵਾਂ সৃষ্ট০           అర్థ౦ రాయ౦డి\na ప్రధానలోప౦\nb ప్రధాన ఆధార౦\nଓ ప్రముఖదిన౦\nd ప్రాముఖ్యతలోపి౦చడ౦\nਹੰਨਾ or\n11s page 5 of 19 pto",
+      "text_nfc": "పర్యావరణలకు మూలక౦ద౦ అనదగినవి ১৩ ૨\na ప్రకృతివనరులు\nb మానసిక ఆందోళన\nଓ పరిశుద్రజలాలతో ని౦డిననదులు\ndac\nమానవుని అకృత్యాలకు ఫలిత౦ তঃ১নং ૨\na భూమి సమస్త పైర নুংসং ঠি  నిండడ౦\nb  ১১১৩০ ০৪১৪০ম৩  సమతుల్యత\nଓ సమతుల్యతలోపించడం\nd పరిశుదజలాలు\niv భూమి సమస్తం పైర তাং সং ঠ  ఎ౦డిపోకు౦డా\nఉ౦డే౦దుకు అవసరమయ్యేవి\na మా౦సాహార జ౦తువులు\nb ఉభయచరాలు\nଓ సరీసృపాలు\nd নংজ্ঞঃ    జ౦తువులు\nమూలకంద౦ ਪਵਾਂ সৃষ্ট০           అర్థ౦ రాయ౦డి\na ప్రధానలోప౦\nb ప్రధాన ఆధార౦\nଓ ప్రముఖదిన౦\nd ప్రాముఖ్యతలోపి౦చడ౦\nਹੰਨਾ or\n11s page 5 of 19 pto",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

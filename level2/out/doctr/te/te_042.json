@@ -1,0 +1,41 @@
+{
+  "page_id": "te_042",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0042pro_raw.pdf",
+    "page_index": 12,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8. yordet 9t2\ntehl. aal.\nYooyos dd SRT\nBBFPAB\nTa YIoA a fatos\nzier dled ToT d3h\nfHOSHR frlos Uo TI8I1\nacellos ART dledladt\ndh disft EaT\nchobellyelle yrTer ET\nio aladt TOT IRII\nupf aae fyad Yor\nyquRrAt 37\nfref TIICT frtas TITUT\ncod MOGsit EF 11311\nzhuft faichceft 3727 Facedt\nAT HRRIT gdiHl ?\nfrerf SeTl Trn TeIaT\nfeenl 418 Hait TIXII\nfarel Tocodt fre cadi\na 31147 sia\nufiet fa4os, yReR falos\ndu 314-1 fica 11411\n= favier as\nVioctef : fios - Fots, yfaa. Gello I- gischt. yourit - HRIzeT TTNHTUT, achlchuTit.\na - fRiy fchal Gideft HNUIRT. U18 - EIST, fichqUT.\ntatearr\nT. P. Uchl aceld 3rdr fral.\nT. P. vilsal Jodl.\n(37) SRT ChHT dlad 312 ?\n'37' TC\n' TTC\n(311) frrf ChIUTEIT Trn STedeTl 3112 ?\n(8) qruft\n(37) ccello\n(3) Yrllzen HHId chlurft fica 3112 ?\n(R) CIRT\n(311) yqufrt\n(3) 37\n(3) frlos\nforerchietdt : ehfedl dieyid, HIfTRI FEUFT aredich. facerezihst Teid, da dufrdehteen chiadt\ndieiiyid, HIfT-RI FEUF Ellot.\n8",
+      "text_nfc": "8. yordet 9t2\ntehl. aal.\nYooyos dd SRT\nBBFPAB\nTa YIoA a fatos\nzier dled ToT d3h\nfHOSHR frlos Uo TI8I1\nacellos ART dledladt\ndh disft EaT\nchobellyelle yrTer ET\nio aladt TOT IRII\nupf aae fyad Yor\nyquRrAt 37\nfref TIICT frtas TITUT\ncod MOGsit EF 11311\nzhuft faichceft 3727 Facedt\nAT HRRIT gdiHl ?\nfrerf SeTl Trn TeIaT\nfeenl 418 Hait TIXII\nfarel Tocodt fre cadi\na 31147 sia\nufiet fa4os, yReR falos\ndu 314-1 fica 11411\n= favier as\nVioctef : fios - Fots, yfaa. Gello I- gischt. yourit - HRIzeT TTNHTUT, achlchuTit.\na - fRiy fchal Gideft HNUIRT. U18 - EIST, fichqUT.\ntatearr\nT. P. Uchl aceld 3rdr fral.\nT. P. vilsal Jodl.\n(37) SRT ChHT dlad 312 ?\n'37' TC\n' TTC\n(311) frrf ChIUTEIT Trn STedeTl 3112 ?\n(8) qruft\n(37) ccello\n(3) Yrllzen HHId chlurft fica 3112 ?\n(R) CIRT\n(311) yqufrt\n(3) 37\n(3) frlos\nforerchietdt : ehfedl dieyid, HIfTRI FEUFT aredich. facerezihst Teid, da dufrdehteen chiadt\ndieiiyid, HIfT-RI FEUF Ellot.\n8",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

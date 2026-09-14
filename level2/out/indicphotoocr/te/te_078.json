@@ -1,0 +1,41 @@
+{
+  "page_id": "te_078",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0078pro_raw.pdf",
+    "page_index": 74,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "స౦యోగ నియమ౦ componendo ఒకవేళ అయినచో అవుతు౦ది\nਸਿਖਾਇਆ ఇరువైపుల 19 కలుపగా\nab cd\nఒకవేళ అయిన అవు తు౦ది ఈ ధర్మమును స౦యోగ నియమ౦ అ౦టారు\nad ab cd\nవియోగ నియమ౦ dividendo ఒకవేళ అయిన అవుతు౦ది\nb1d1 ఇరువైపుల 12 తీసివేయగా\nఒకవేళ అయిన అవుతు౦ది౹౹ ఈ్ర ధర్మమును వియోగ నియమ౦ అ౦టారు\nab cd\nkoo3xjotjpx నియమ౦ componendodividendo ੴਤਤੰ అయిన abc\nab cd\nఅవుతు౦ది\nab cd స౦యోగ నియమ౦ ప్రకార౦\nਪਤਤੰ అయిన\nabocd వియోగ నియమ౦ ప్రకార౦\nab cd 2\nమరియు లను ಬಟ್ಟಿ\ncd\nab cd\nఒకవేళ అయిన అవుతు౦ది ఈ్ర ధర్మమును స౦యోగ౯వియోగ నియమ౦ అ౦టారు\nવ ab cd\nస౦యోగ నియమ౦ మరియు వియోగ నియమాల సాధారణ రూప౦\nఅయినచో ab cd ప్రకార౦\nఒకవేళ ও র্জি   స౦యోగ నియమ౦\na2b c2d\nరె౦డుసార్లు౦ సంయోగ నియమ౦ ప్రకార౦\nવ\namb cmd\nసాధారణ౦గా m సార్లు స౦యోగ నియమ౦ ప్రకార౦ ૧૧\nac amb cmd\n9 విధ౦గా 838 అయనచో m ਹੇੴ వియోగ నియమ౦ ప్రకార౦\nమరియు ఒకవేళ ac అయనచో amb cmd 1 మరియు 2 లను 8945 భాగి౦చగా\namb cmd\n65",
+      "text_nfc": "స౦యోగ నియమ౦ componendo ఒకవేళ అయినచో అవుతు౦ది\nਸਿਖਾਇਆ ఇరువైపుల 19 కలుపగా\nab cd\nఒకవేళ అయిన అవు తు౦ది ఈ ధర్మమును స౦యోగ నియమ౦ అ౦టారు\nad ab cd\nవియోగ నియమ౦ dividendo ఒకవేళ అయిన అవుతు౦ది\nb1d1 ఇరువైపుల 12 తీసివేయగా\nఒకవేళ అయిన అవుతు౦ది౹౹ ఈ్ర ధర్మమును వియోగ నియమ౦ అ౦టారు\nab cd\nkoo3xjotjpx నియమ౦ componendodividendo ੴਤਤੰ అయిన abc\nab cd\nఅవుతు౦ది\nab cd స౦యోగ నియమ౦ ప్రకార౦\nਪਤਤੰ అయిన\nabocd వియోగ నియమ౦ ప్రకార౦\nab cd 2\nమరియు లను ಬಟ್ಟಿ\ncd\nab cd\nఒకవేళ అయిన అవుతు౦ది ఈ్ర ధర్మమును స౦యోగ౯వియోగ నియమ౦ అ౦టారు\nવ ab cd\nస౦యోగ నియమ౦ మరియు వియోగ నియమాల సాధారణ రూప౦\nఅయినచో ab cd ప్రకార౦\nఒకవేళ ও র্জি   స౦యోగ నియమ౦\na2b c2d\nరె౦డుసార్లు౦ సంయోగ నియమ౦ ప్రకార౦\nવ\namb cmd\nసాధారణ౦గా m సార్లు స౦యోగ నియమ౦ ప్రకార౦ ૧૧\nac amb cmd\n9 విధ౦గా 838 అయనచో m ਹੇੴ వియోగ నియమ౦ ప్రకార౦\nమరియు ఒకవేళ ac అయనచో amb cmd 1 మరియు 2 లను 8945 భాగి౦చగా\namb cmd\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_010",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0011pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 586
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        586
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Tsdrole oloo Ime Llium!e7\n\"\"199 00\"'011733 01-31@39~09 op!p42 mmd changmmian aaco nrelcial m3e<am Boololaa   CSLSOTLanegchon \"<0|\"1@ &slopnla 7*=0:8 ilepo7-630L5 #la-93m]a nilae ra gnlcguolocomla IeILvo aEWY I7u 9:0 miaica Tln wruplnd Banpleudas oowl Jo२,ढाष तlalal Aaapldaut BlrllotlaoJe +ोडlmoria 6 fifue alna IL IOIITLI6 [1)5@7- तloarं D5miट mla comautanie   OLtdnDaaliea mmaiene २boloub- iLa onep tnmmlnula ali entod nlbaam msTanirao ClSlDIEDCकlas msaJl elpl eorenui PRSautaneय क ०g२E nlap = tmopl - 2534*20ा cboolool# Flrp S2 dismes   mshonun Polanuolaoannaniogsm purlrnmuanhmmizs ऐ olmloni IJ!DiNUNPu CBmo3ma5ouio Diuta5n _ooonl2  as a२  efgi meslmozmawle CgoLLDJO-Triob menaonpiomaoem ollmlem fl५l * enipl -olea Osotnleola mlat daami munzh Dltod moseaentm moad Dmmin ! COLSEiJ!ap2153 Cssooloomoono ठTL TuOrJE PFonctbo + Slm zala, &lslal=] -59\" CIUZजmळ २m Ojor IED Jcul gPrInoiealmn BRSLOO ompaoen   Pघानए+ olणma monor 2roooutermol. I2 380 71.61.0970 9!8078 oudutoolet mlostt Jannedlolleaian ows )?(1) clec = Oracaal Zatoosr ca9भ0ा eiononL T:04-\"0\"00 mBe] +islmona 2200<7 Amboamो   mudshaleapom mtocaloei OL(SहmILPIIDd (n ltoDoa 7r04-500- \"!2\"p011: षlu-0 clalaa nualri (!^) ltemanllpul ctjslpind matd ttrtele 183#0 TrJzud aoloam aolait २६ EfLvoDjee फ़upomolcel Ortr212)ग Da+aim &]gTmaen tbZ sillo coiaTiun5o C]Stolmm) E Islaoia laralilolto nnan ErTmtsor Pnd ट erno ँld Jtoa mildoyl=h 31^777]* Tounle Tinal DioJloBlo clpmouomomiolon PensJo polai LEITn| Pla QनRO Casmpozale! 01.04 196+ Qtmnibo rathelo Trnlns  oonurioin alntc nngglce lslomौa mie Crg DsणEl<- Cnueele 7\"777 cो5lmiralz OUSUE Tal aidnaja Olaal] T:(\") tlEzoo 01 0A १३b4४ alrrelalca motu mouot aloni [[1?0 mulrHshlrioi \"DslDoolaclmood mistoooiomnes DiulR Ji mlncnlorooll 00940 'olmlmo umlan mlamg eolanwe]",
+      "text_nfc": "Tsdrole oloo Ime Llium!e7\n\"\"199 00\"'011733 01-31@39~09 op!p42 mmd changmmian aaco nrelcial m3e<am Boololaa   CSLSOTLanegchon \"<0|\"1@ &slopnla 7*=0:8 ilepo7-630L5 #la-93m]a nilae ra gnlcguolocomla IeILvo aEWY I7u 9:0 miaica Tln wruplnd Banpleudas oowl Jo२,ढाष तlalal Aaapldaut BlrllotlaoJe +ोडlmoria 6 fifue alna IL IOIITLI6 [1)5@7- तloarं D5miट mla comautanie   OLtdnDaaliea mmaiene २boloub- iLa onep tnmmlnula ali entod nlbaam msTanirao ClSlDIEDCकlas msaJl elpl eorenui PRSautaneय क ०g२E nlap = tmopl - 2534*20ा cboolool# Flrp S2 dismes   mshonun Polanuolaoannaniogsm purlrnmuanhmmizs ऐ olmloni IJ!DiNUNPu CBmo3ma5ouio Diuta5n _ooonl2  as a२  efgi meslmozmawle CgoLLDJO-Triob menaonpiomaoem ollmlem fl५l * enipl -olea Osotnleola mlat daami munzh Dltod moseaentm moad Dmmin ! COLSEiJ!ap2153 Cssooloomoono ठTL TuOrJE PFonctbo + Slm zala, &lslal=] -59\" CIUZजmळ २m Ojor IED Jcul gPrInoiealmn BRSLOO ompaoen   Pघानए+ olणma monor 2roooutermol. I2 380 71.61.0970 9!8078 oudutoolet mlostt Jannedlolleaian ows )?(1) clec = Oracaal Zatoosr ca9भ0ा eiononL T:04-\"0\"00 mBe] +islmona 2200<7 Amboamो   mudshaleapom mtocaloei OL(SहmILPIIDd (n ltoDoa 7r04-500- \"!2\"p011: षlu-0 clalaa nualri (!^) ltemanllpul ctjslpind matd ttrtele 183#0 TrJzud aoloam aolait २६ EfLvoDjee फ़upomolcel Ortr212)ग Da+aim &]gTmaen tbZ sillo coiaTiun5o C]Stolmm) E Islaoia laralilolto nnan ErTmtsor Pnd ट erno ँld Jtoa mildoyl=h 31^777]* Tounle Tinal DioJloBlo clpmouomomiolon PensJo polai LEITn| Pla QनRO Casmpozale! 01.04 196+ Qtmnibo rathelo Trnlns  oonurioin alntc nngglce lslomौa mie Crg DsणEl<- Cnueele 7\"777 cो5lmiralz OUSUE Tal aidnaja Olaal] T:(\") tlEzoo 01 0A १३b4४ alrrelalca motu mouot aloni [[1?0 mulrHshlrioi \"DslDoolaclmood mistoooiomnes DiulR Ji mlncnlorooll 00940 'olmlmo umlan mlamg eolanwe]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

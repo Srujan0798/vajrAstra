@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_002",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0002pro_raw.png",
+    "page_index": 0,
+    "width": 521,
+    "height": 468
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        521,
+        468
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "६०) 600ा UIनIौD giltpnG plouLl LgI Gol कlB6T JlooौLiLloo @BBuI 9ILDम IlB6ा Orp QmUBEID. Zblyov ORUBLUTEC BnD ३ta२ Bonezmp ढाeीटाए छio CumBila LlocoiD SIठडISSोधा @IOSIDElDgl ड।डव्स IDlS @aseluJoneा Slt5ils6 0051:\nफloopGoIppLILILL LLLIBB६D६ाT २००I७फ६ IeIUL;2mit5a7| cफlDLTL Ew Qamue LLLnecoaLl LIni BcsaiD, enlLnriecori Dppii LAlcpitt Oauiumunto, CsiGenG Iorsoui Bmios5eoाऊँडया स topiio शyuan5 Ba5 STछा LLIISSOT LIslal OriuLILDElopDen, GDguii Z।euppla GL UBLDLITaUT eneoel २eIrUIIE BlopGsDDiwDElल0आn - Ors elbet Cru= र<२QIEREOीका LIaroflet aomut @mpLLCuD शषflunalflu En6ucronuceDa -छ। cuuest GloulooopopeuuiiD cloneOssclrs\n२. फ़नoLuIpp फITooflUII5IG #Oglionpoi Or Qmmuzenb GlmaLखdlaien Czmolltilaupl Jaluएd LLLI UnDDa२ऊर LILDTECElaE AaाEEI LElal OELILLILLLSUL=ा, filaio <yenlno TncW7E IDTDpLILOOlpgl Gogi Ops WrppD erlgcl cnr4 (-L apce caio Gleuie (SMS atat SlelEELILOi Q5झ# Grereu, esopoop GFUIaTEEEफIढD नp२DDD ETIEIEaDaाE EDESl 03 0+|",
+      "text_nfc": "६०) 600ा UIनIौD giltpnG plouLl LgI Gol कlB6T JlooौLiLloo @BBuI 9ILDम IlB6ा Orp QmUBEID. Zblyov ORUBLUTEC BnD ३ta२ Bonezmp ढाeीटाए छio CumBila LlocoiD SIठडISSोधा @IOSIDElDgl ड।डव्स IDlS @aseluJoneा Slt5ils6 0051:\nफloopGoIppLILILL LLLIBB६D६ाT २००I७फ६ IeIUL;2mit5a7| cफlDLTL Ew Qamue LLLnecoaLl LIni BcsaiD, enlLnriecori Dppii LAlcpitt Oauiumunto, CsiGenG Iorsoui Bmios5eoाऊँडया स topiio शyuan5 Ba5 STछा LLIISSOT LIslal OriuLILDElopDen, GDguii Z।euppla GL UBLDLITaUT eneoel २eIrUIIE BlopGsDDiwDElल0आn - Ors elbet Cru= र<२QIEREOीका LIaroflet aomut @mpLLCuD शषflunalflu En6ucronuceDa -छ। cuuest GloulooopopeuuiiD cloneOssclrs\n२. फ़नoLuIpp फITooflUII5IG #Oglionpoi Or Qmmuzenb GlmaLखdlaien Czmolltilaupl Jaluएd LLLI UnDDa२ऊर LILDTECElaE AaाEEI LElal OELILLILLLSUL=ा, filaio <yenlno TncW7E IDTDpLILOOlpgl Gogi Ops WrppD erlgcl cnr4 (-L apce caio Gleuie (SMS atat SlelEELILOi Q5झ# Grereu, esopoop GFUIaTEEEफIढD नp२DDD ETIEIEaDaाE EDESl 03 0+|",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

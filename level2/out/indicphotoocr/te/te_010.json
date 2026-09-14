@@ -1,0 +1,41 @@
+{
+  "page_id": "te_010",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0010pro_raw.pdf",
+    "page_index": 63,
+    "width": 1659,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1659,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "विद्यो  भ\nमहाराष्‍ट्र राज्य पाठ्यपुस्क निर्मिती ਕ अभ्यासकम संशोधन मंडळ पुणे\nमहाराष्ट्र अभ्यासक्रम राज्य पाठ्यपुरतक मिर्मिती संशोधन मंडळ\nमराठी आंतरभारती इयत्ता दहावी मराठी भाषा ੨ ४२००\nকনলু \nगुजराती",
+      "text_nfc": "विद्यो  भ\nमहाराष्‍ट्र राज्य पाठ्यपुस्क निर्मिती ਕ अभ्यासकम संशोधन मंडळ पुणे\nमहाराष्ट्र अभ्यासक्रम राज्य पाठ्यपुरतक मिर्मिती संशोधन मंडळ\nमराठी आंतरभारती इयत्ता दहावी मराठी भाषा ੨ ४२००\nকনলু \nगुजराती",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

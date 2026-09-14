@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-------ವಇಚಾಣಕ್ಯನೀತತೀ\n\nವ್ಯಾಲಾಶ್ರಯಾವಿ ವಿಫಲಾಪಿ ಸಕಂಟಕಾಪಿ\n\nವಕ್ರಾಪಿ ಪಂಕಿಲಭವಾಪಿ ದುರಾಸದಾಪಿ .\n\nಗಂಥೇನ ಬಂಧುರಸಿ Sess ಸರ್ವಜಂತೋ\n\nರೀಕೋ ಗುಣಃ ಖಲು ನಿಹಂತಿ ಸಮಸ್ತದೋಷಾನ್ .. 17-21\nQS ಚಾಣಕ್ಯನೀತಿದರ್ಪಣಃ ಸಂಪೂರ್ಣಃ .\n\nProcessed and proofread by Sunder Hattangadi\n\nqxe@mC2Z0—>—+$&{ <_<\n\nChanakya Niti\npdf was typeset on July 11, 2024\n\ni \\\n\nPlease send corrections to sanskrit@cheerful.com\n\nchANakyanltisort.pdf\n\n27\n",
+      "text_nfc": "-------ವಇಚಾಣಕ್ಯನೀತತೀ\n\nವ್ಯಾಲಾಶ್ರಯಾವಿ ವಿಫಲಾಪಿ ಸಕಂಟಕಾಪಿ\n\nವಕ್ರಾಪಿ ಪಂಕಿಲಭವಾಪಿ ದುರಾಸದಾಪಿ .\n\nಗಂಥೇನ ಬಂಧುರಸಿ Sess ಸರ್ವಜಂತೋ\n\nರೀಕೋ ಗುಣಃ ಖಲು ನಿಹಂತಿ ಸಮಸ್ತದೋಷಾನ್ .. 17-21\nQS ಚಾಣಕ್ಯನೀತಿದರ್ಪಣಃ ಸಂಪೂರ್ಣಃ .\n\nProcessed and proofread by Sunder Hattangadi\n\nqxe@mC2Z0—>—+$&{ <_<\n\nChanakya Niti\npdf was typeset on July 11, 2024\n\ni \\\n\nPlease send corrections to sanskrit@cheerful.com\n\nchANakyanltisort.pdf\n\n27\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

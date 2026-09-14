@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_028",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 3,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(i?\n(A) ②ω)+23000\n(B) 2ω∂0+23000\n(C) 2W}0+B03000\n(D) 2ω)C00+2β000\n(ix)\n?\n(A) \n(B) mlono\n(C) L\n(D) \n(x)\nOOS136BSOS.\n(A) BβBU)OO\n(B) 3β3100\n(C) ββωoo\n(D) 3βMD)Oo\n4.\no\n6OMS6M.\n[9x2=18]\n(a)(i)3136S6M3l0M 266  3M MM?\nA)SS\n(B) MlmmlOooSololOgpe\n(C) N2JM\n(D)oo\n(ii)\n?\n(A) \n(B) 60) GM50\n(C) \n(D\n(b)(i)S?\n(A) CLOWO\n(B) 0020\n(C) Geloßo\n(D) C20Oo\n(ii)\n260mo\nm\nCCSo\n01\n\nS.\nmlmom 3 eoSo sgog?\n(A))\n(B) CUJOOW\n(C) o\n(D) 11o\n(C)()\nLl?\n(A) 22\n(B)  2\n(C) \n(D) M OgISo\n(ii)\n3S B3 Sm?\n(A) \nB)\n(C) Sl021\n(D) \n(d)(i) 11. )\n1?\n(A)BOMM)\n(B) BOMGOSIS\n(C) \n(D)\n(ii)\n\"?\n(A)GSoG)\n(B)6oIeeLSlWoe2eMoog\n(C)\n(D) \n4",
+      "text_nfc": "(i?\n(A) ②ω)+23000\n(B) 2ω∂0+23000\n(C) 2W}0+B03000\n(D) 2ω)C00+2β000\n(ix)\n?\n(A) \n(B) mlono\n(C) L\n(D) \n(x)\nOOS136BSOS.\n(A) BβBU)OO\n(B) 3β3100\n(C) ββωoo\n(D) 3βMD)Oo\n4.\no\n6OMS6M.\n[9x2=18]\n(a)(i)3136S6M3l0M 266  3M MM?\nA)SS\n(B) MlmmlOooSololOgpe\n(C) N2JM\n(D)oo\n(ii)\n?\n(A) \n(B) 60) GM50\n(C) \n(D\n(b)(i)S?\n(A) CLOWO\n(B) 0020\n(C) Geloßo\n(D) C20Oo\n(ii)\n260mo\nm\nCCSo\n01\n\nS.\nmlmom 3 eoSo sgog?\n(A))\n(B) CUJOOW\n(C) o\n(D) 11o\n(C)()\nLl?\n(A) 22\n(B)  2\n(C) \n(D) M OgISo\n(ii)\n3S B3 Sm?\n(A) \nB)\n(C) Sl021\n(D) \n(d)(i) 11. )\n1?\n(A)BOMM)\n(B) BOMGOSIS\n(C) \n(D)\n(ii)\n\"?\n(A)GSoG)\n(B)6oIeeLSlWoe2eMoog\n(C)\n(D) \n4",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

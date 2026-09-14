@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_064",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0025pro_raw.pdf",
+    "page_index": 87,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕಮಗಳು\nಟ\n20೬peep\nಮದೃಪಾನದಂದ\nಒತಡವನು\nಕಡವು\nagpeme 6'ppopee.\nದೂರಎರುವುದು\nದೂರಎರುವುದು\nಣpeg\ngpep, 6e?\nAl-geog pe Po na\ngea a0p\nಕೆಲಸಮತುದೈಂಕ\nಆರೋಗೃಕರ\nಸೇವನೆಯನು.ಕಡವು-ಮಾಡುವುದು\n2೩peag.\nವಾಯಾಮಿ\n peme\nNOT\n೨೭0g p1-pg os\n3ಂಿವಷ೯ಗಳನಂತರನಯಎುತ\nನಯಎತಿರಕೃದೊತಡಪಂಕೆ\nಸಕೃರಿಪೆ\nAog eep\nI\n೫೦",
+      "text_nfc": "ಕಮಗಳು\nಟ\n20೬peep\nಮದೃಪಾನದಂದ\nಒತಡವನು\nಕಡವು\nagpeme 6'ppopee.\nದೂರಎರುವುದು\nದೂರಎರುವುದು\nಣpeg\ngpep, 6e?\nAl-geog pe Po na\ngea a0p\nಕೆಲಸಮತುದೈಂಕ\nಆರೋಗೃಕರ\nಸೇವನೆಯನು.ಕಡವು-ಮಾಡುವುದು\n2೩peag.\nವಾಯಾಮಿ\n peme\nNOT\n೨೭0g p1-pg os\n3ಂಿವಷ೯ಗಳನಂತರನಯಎುತ\nನಯಎತಿರಕೃದೊತಡಪಂಕೆ\nಸಕೃರಿಪೆ\nAog eep\nI\n೫೦",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

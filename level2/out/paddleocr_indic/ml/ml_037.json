@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_037",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0019pro_raw.pdf",
+    "page_index": 47,
+    "width": 984,
+    "height": 1612
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        984,
+        1612
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "A2-\n, .\nemázmo, mg, me.  eg.\n\neoeomom.\n.\nalee, m   msm e moaa\n\n\n,\ndeamg\n\"\n \nsw\n\n?\n\"  e.\n\n,\nav.m e?\n \n. \"  \nammemmmmnmmo\n\n\n\ne200\n\" mym ae mem ?\" a\nmom am mmjngas c o. aa  uazoemo zaloo\n  \ne a a \na",
+      "text_nfc": "A2-\n, .\nemázmo, mg, me.  eg.\n\neoeomom.\n.\nalee, m   msm e moaa\n\n\n,\ndeamg\n\"\n \nsw\n\n?\n\"  e.\n\n,\nav.m e?\n \n. \"  \nammemmmmnmmo\n\n\n\ne200\n\" mym ae mem ?\" a\nmom am mmjngas c o. aa  uazoemo zaloo\n  \ne a a \na",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

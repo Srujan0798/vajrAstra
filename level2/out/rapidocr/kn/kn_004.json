@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_004",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0004pro_raw.pdf",
+    "page_index": 18,
+    "width": 612.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        612.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n19\nEl\n1$.- ೭ಾm-ಸಾನಕೆಸoಶಎರುವಒಂದು-ಕಣದ-ಮಲೆ\n14. ಒ೦ದ 10 uF ಧಾರಕವನು, 200 /, 50 H2 ಪಯಾ೯ಯ\nJaope g0pogoog yepto.g 1?'pep Ge'pe\nOor 3eg gor N I8 a0eg geqocoerg\nಪವಾಹದmಃಬೆಲೆಯುಸಮಪತು\nಅದರಿಭಾಮಕವನುಕಂಡುಒಡಯಂ.\nIA\n6 Nm\n2.05 A\n6 Nm\n2.5A\n25.1 A\n-61 N'm\n1ನ.-ಆಣಿಕವಾಸಇ ಮತುಸಂಖಾಸಾಂದತಿ# ಇರುವಒಂದು\n6k Nm.\nಅನಲದಿಸರಾಸರಿಮುಕೃಪಥದಿಗಣೆತೋಕಿಯು\n1ಂ.-.2.mೆ-.ಮಲೈ.ಕೀತಎರುವಪತಿಫಲನೆ.ಹೊಂದದ\n1\nಮಲೈ ಮೇಲಿಲಂಬವಾಗಿಸರಾಸರ 6 Wlemೆಫಕ್ನ\nJ2 nrd\nಬೆಳಕನುೈಆಪಾತಗೊಳಸದರಿ ಒಂದುನವುಷಕಾಲಾವಕಾಶದಲಿ\nI\nಮೇಲೈಪಡೆದೃಶಕೆಯು\n೮\n2 nud?\n0x10 J\nJ2ಐd?\nI\n12x10J\n1\n2x103J\n2--a?\n48x10J\n1ಕ.-ಟಾನಸರ್-ಪಕಿಯಯಲ್ಈೆಕೆಳಗನ-ಯಾವಹೇಳಕ\n11. I m ತಜೃಎರುವ ಒಂದುಗೋಳೀಯ ವಾಹಕವು\nಸಂಯಾಗದಿ\noags.ge O -OI 7s gopopog Ogpeoac\nAgou qupoog opa pg a3pgo. pece.\nಹೊಂದದೆ.--ಗೋಳದಿಕೇಂದದಂದ#ಂm-ದೂರದ\nಡೋಪಂಗ್ ಸಾಂದತೆಯನುಹೊಂದರಬೇಕು.\nಬಂದುಏನಲನಿಎದುೃತ್ಕೇತೃಪಂಮಾಣಿಎಷು\n೮\nಆಧಾರ, ಉತಜ೯ಕಮತುಗಾಹಕವಲಯಗಳುಒಂದೇ\n--9x10 Nmic\nಗಾತೃಹೊಂದರಬೇಕು.\nAreo\nಉತೃಜ೯ಕ-ಜಂಕನ್-ಅದರಂತೆಯಗಾಹಕ\n128x10 NIC\nಜಂಕನ್ಗಳೆರಡೂ-ಫಾರ್ವಡ್೯ಬಯಾಸಆಗರಬೇಕು.\n128 x10 NIC\nಆಧಾರ-ವಲಯಮಾತೃತುಂಬಿತಿಳುವಾಗರಬೇಕು\n128 x10 NIC\nಮತುಅಲ ಡೋಪ್ಆಗರಬೇಕು.\n128 x 107 NIC\n1.-ಝೃತಿಸಂವೀದಿವಸುಎನಮಲಿI ರಮುೃಹೊಸಲ ಆವೃತಿಯ\n12 ಒಂದು- ನದ೯ಷ ವಲಯದಲೈನ ಜಾಗದ ಗಾತವು\nagof go, guecgecygamo oop? go geeg?\nಗ.ಒ-ಅದರಎಲೆಡಿಏದುೃತ್-ಎಭವವೊಳಿಎಂದು\nಅಧ೯ಗೊಳಸಿಮತು--ತೀವತೆಯನು--ಇಮೃಡಗೊಳಸದಾಗ\nಕಂಡುಕೊಳಲಾಗದೆಯಾದರಿ ಆ ವಲಯದಲನಿಎದುೃತ್ಕೇತದ\n: eganp a'opee'g gqenou.\n: geeagog\nಇಮಡಗೊಳುತದ\n-ಶೂನೈ\nನಾಲುಪಟಾಗುತದ\n0.5 NC\nPalapoe -- gpor?.\n1NIC\n5NIC.\n1ಃ.-ಯುರನಯಂ ಸಮಸಾನ\n18.P--ಜಂಕನ್ಡಯೋಡ್ನಲಿಡೆಇಷನ್ವಲಯದಅಗಲ\nYeo pex\nI geaeeg googe.\nಹೊರಹೊಮುತವಿ.\nಫಾರ್ವಡ್೯ಬಯಾಸ್ಮಾತದಂದ\nRBa\nಂವಸ್೯ಬಯಾಸ್ಮಾತದಂದ\nಫಾರ್ವಡ್೯ಬಯಾಸ್ಮತುಂವಸ್೯ಿಬಯಾಸ್\nಎರಡಂಂದ\nIgikr\n$o0ggaeag gaeg aipc S.pg oad",
+      "text_nfc": "KANNADA\n19\nEl\n1$.- ೭ಾm-ಸಾನಕೆಸoಶಎರುವಒಂದು-ಕಣದ-ಮಲೆ\n14. ಒ೦ದ 10 uF ಧಾರಕವನು, 200 /, 50 H2 ಪಯಾ೯ಯ\nJaope g0pogoog yepto.g 1?'pep Ge'pe\nOor 3eg gor N I8 a0eg geqocoerg\nಪವಾಹದmಃಬೆಲೆಯುಸಮಪತು\nಅದರಿಭಾಮಕವನುಕಂಡುಒಡಯಂ.\nIA\n6 Nm\n2.05 A\n6 Nm\n2.5A\n25.1 A\n-61 N'm\n1ನ.-ಆಣಿಕವಾಸಇ ಮತುಸಂಖಾಸಾಂದತಿ# ಇರುವಒಂದು\n6k Nm.\nಅನಲದಿಸರಾಸರಿಮುಕೃಪಥದಿಗಣೆತೋಕಿಯು\n1ಂ.-.2.mೆ-.ಮಲೈ.ಕೀತಎರುವಪತಿಫಲನೆ.ಹೊಂದದ\n1\nಮಲೈ ಮೇಲಿಲಂಬವಾಗಿಸರಾಸರ 6 Wlemೆಫಕ್ನ\nJ2 nrd\nಬೆಳಕನುೈಆಪಾತಗೊಳಸದರಿ ಒಂದುನವುಷಕಾಲಾವಕಾಶದಲಿ\nI\nಮೇಲೈಪಡೆದೃಶಕೆಯು\n೮\n2 nud?\n0x10 J\nJ2ಐd?\nI\n12x10J\n1\n2x103J\n2--a?\n48x10J\n1ಕ.-ಟಾನಸರ್-ಪಕಿಯಯಲ್ಈೆಕೆಳಗನ-ಯಾವಹೇಳಕ\n11. I m ತಜೃಎರುವ ಒಂದುಗೋಳೀಯ ವಾಹಕವು\nಸಂಯಾಗದಿ\noags.ge O -OI 7s gopopog Ogpeoac\nAgou qupoog opa pg a3pgo. pece.\nಹೊಂದದೆ.--ಗೋಳದಿಕೇಂದದಂದ#ಂm-ದೂರದ\nಡೋಪಂಗ್ ಸಾಂದತೆಯನುಹೊಂದರಬೇಕು.\nಬಂದುಏನಲನಿಎದುೃತ್ಕೇತೃಪಂಮಾಣಿಎಷು\n೮\nಆಧಾರ, ಉತಜ೯ಕಮತುಗಾಹಕವಲಯಗಳುಒಂದೇ\n--9x10 Nmic\nಗಾತೃಹೊಂದರಬೇಕು.\nAreo\nಉತೃಜ೯ಕ-ಜಂಕನ್-ಅದರಂತೆಯಗಾಹಕ\n128x10 NIC\nಜಂಕನ್ಗಳೆರಡೂ-ಫಾರ್ವಡ್೯ಬಯಾಸಆಗರಬೇಕು.\n128 x10 NIC\nಆಧಾರ-ವಲಯಮಾತೃತುಂಬಿತಿಳುವಾಗರಬೇಕು\n128 x10 NIC\nಮತುಅಲ ಡೋಪ್ಆಗರಬೇಕು.\n128 x 107 NIC\n1.-ಝೃತಿಸಂವೀದಿವಸುಎನಮಲಿI ರಮುೃಹೊಸಲ ಆವೃತಿಯ\n12 ಒಂದು- ನದ೯ಷ ವಲಯದಲೈನ ಜಾಗದ ಗಾತವು\nagof go, guecgecygamo oop? go geeg?\nಗ.ಒ-ಅದರಎಲೆಡಿಏದುೃತ್-ಎಭವವೊಳಿಎಂದು\nಅಧ೯ಗೊಳಸಿಮತು--ತೀವತೆಯನು--ಇಮೃಡಗೊಳಸದಾಗ\nಕಂಡುಕೊಳಲಾಗದೆಯಾದರಿ ಆ ವಲಯದಲನಿಎದುೃತ್ಕೇತದ\n: eganp a'opee'g gqenou.\n: geeagog\nಇಮಡಗೊಳುತದ\n-ಶೂನೈ\nನಾಲುಪಟಾಗುತದ\n0.5 NC\nPalapoe -- gpor?.\n1NIC\n5NIC.\n1ಃ.-ಯುರನಯಂ ಸಮಸಾನ\n18.P--ಜಂಕನ್ಡಯೋಡ್ನಲಿಡೆಇಷನ್ವಲಯದಅಗಲ\nYeo pex\nI geaeeg googe.\nಹೊರಹೊಮುತವಿ.\nಫಾರ್ವಡ್೯ಬಯಾಸ್ಮಾತದಂದ\nRBa\nಂವಸ್೯ಬಯಾಸ್ಮಾತದಂದ\nಫಾರ್ವಡ್೯ಬಯಾಸ್ಮತುಂವಸ್೯ಿಬಯಾಸ್\nಎರಡಂಂದ\nIgikr\n$o0ggaeag gaeg aipc S.pg oad",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

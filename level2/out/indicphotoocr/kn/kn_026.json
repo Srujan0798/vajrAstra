@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_026",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾ ౯టం\nಸರ್ಕಾರ\nಶಾಲಾ ಶಿಕ ଉର ಮತು ১১৮ ರತಾ ಇಲಾಖೆ\nન્ગ ન્ગ\ndepartment of school education 8 literacy\nಮೌಲ್ಯ శిరణ ౦౯\nvalue education\n206\n੩੬\n2ನೇ ತರಗತಿ ವಿದ್ಯಾರ್ಥಿಗಳ ಚಟುವಟಿಕಾ ಪುಸ್ತಕ\nactivity book for class 2 students\n2026 2027\nರಾಜ್ಯ ಶಿಕಣ ಸ೦ಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಇಲಾಖೆ\nન્ગ\nಬನಶ೦ಕರಿ 3ನೇ ಹ೦ತ್ಯ ಬೆ೦ಗಳೂರು 560 085",
+      "text_nfc": "ಕನಾ ౯టం\nಸರ್ಕಾರ\nಶಾಲಾ ಶಿಕ ଉର ಮತು ১১৮ ರತಾ ಇಲಾಖೆ\nન્ગ ન્ગ\ndepartment of school education 8 literacy\nಮೌಲ್ಯ శిరణ ౦౯\nvalue education\n206\n੩੬\n2ನೇ ತರಗತಿ ವಿದ್ಯಾರ್ಥಿಗಳ ಚಟುವಟಿಕಾ ಪುಸ್ತಕ\nactivity book for class 2 students\n2026 2027\nರಾಜ್ಯ ಶಿಕಣ ಸ೦ಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಇಲಾಖೆ\nન્ગ\nಬನಶ೦ಕರಿ 3ನೇ ಹ೦ತ್ಯ ಬೆ೦ಗಳೂರು 560 085",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

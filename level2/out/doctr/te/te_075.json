@@ -1,0 +1,41 @@
+{
+  "page_id": "te_075",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0075pro_raw.pdf",
+    "page_index": 65,
+    "width": 1658,
+    "height": 2212
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2212
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HERIZ TIVA Hoelyedch faffat a 37214ghH TisTTerT Hsos, yut.\nsaTTe\nFRERET\nTIEERTHE HRIST ariaerdt sardt 8 a\nGEMRÉ\nR 36.00",
+      "text_nfc": "HERIZ TIVA Hoelyedch faffat a 37214ghH TisTTerT Hsos, yut.\nsaTTe\nFRERET\nTIEERTHE HRIST ariaerdt sardt 8 a\nGEMRÉ\nR 36.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

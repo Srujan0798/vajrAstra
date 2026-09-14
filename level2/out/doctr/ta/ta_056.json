@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_056",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0023pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT A\nN DREe\n5LLDBTG JIJS\nBLDOUODOU OJGOTLITLD - of\n6\n600T\n6\nOu91 GolSulud\n5LLDBTG JIT aMoGulGamt LITLEITG OILDI15LD SLL3SOT B1p GaiofuLtutL5\nLI6erfla 500055160m\nSGOOTLITGOLD LDoo3GBUILDDD OFWQIID GLGI5DDGPLD 951\nIntroduction Pages.indd 1\n4/21/2020 4:01:21 PM",
+      "text_nfc": "IT A\nN DREe\n5LLDBTG JIJS\nBLDOUODOU OJGOTLITLD - of\n6\n600T\n6\nOu91 GolSulud\n5LLDBTG JIT aMoGulGamt LITLEITG OILDI15LD SLL3SOT B1p GaiofuLtutL5\nLI6erfla 500055160m\nSGOOTLITGOLD LDoo3GBUILDDD OFWQIID GLGI5DDGPLD 951\nIntroduction Pages.indd 1\n4/21/2020 4:01:21 PM",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

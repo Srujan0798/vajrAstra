@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_097",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 90,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6.2.4.1 break கூற்று\nbreak் கூற்று அதை உள்ளடக்கிய மடக்கை விட்டு வெளியேறச் செய்கிறது. நிரலின் கட்டுப்பாடானது,\nமடக்கின் உடற்பகுதிக்கு வெளியே இருக்கும் கூற்றுக்கு பாய்கிறது.\nநிபந்தனையின் மதிப்பு தவறு என்று வரும் வரைwh்le அல்லது foுr மடக்கு செயல்படுத்தப்படும்.\nஆனால், brea் கூற்றைப் பயன்படுத்தி கட்டுப்பாட்டை மடக்கை விட்டு நிறுத்தி வெளியேறச் செய்யமுடியும்.\n  ா  ்ா க\nஅமைப்பின் இறுதிக்கு அடுத்து உள்ள குறி முறை பகுதியில் இருந்து இயங்க தொடங்கும்.\nbreak பின்னலான மடக்கின் உள்ளே இருந்தால், break கூற்று மிக உட்புறமாக (Inner most)\nஅமைந்துள்ள மடக்கை விட்டு வெளியேறும்.\nதொடரியல்:\nbreak\nEnter loop\nfalse\nCondition\ntrue\n©\nO\nbreak?\nyes\nExit loop\nno\nRemaining body of loop\nபடம் 6.7 break் கூஉற்றின்சயல்பாடு\nfor மடக்கு மற்றும் whi்le மடக்கினுள் break கூற்றின் செயல்பாடு கீழே கொடுக்கப்பட்டுள்ளது.\nfor var in sequence:\nif condition:\nbreak\n#code inside for loop\n#code outside for loop\nwhile test expression:\n#code inside while loop\nif condition:\nbreak\n#code inside while loop\n#code outside while loop\n85\nகட்டுப்பாட்டு கட்டமைப்புகள்\n12th Computer Science_TM Chapter 6.indd 85\n11-01-2023 12:38:17\nO",
+      "text_nfc": "6.2.4.1 break கூற்று\nbreak் கூற்று அதை உள்ளடக்கிய மடக்கை விட்டு வெளியேறச் செய்கிறது. நிரலின் கட்டுப்பாடானது,\nமடக்கின் உடற்பகுதிக்கு வெளியே இருக்கும் கூற்றுக்கு பாய்கிறது.\nநிபந்தனையின் மதிப்பு தவறு என்று வரும் வரைwh்le அல்லது foுr மடக்கு செயல்படுத்தப்படும்.\nஆனால், brea் கூற்றைப் பயன்படுத்தி கட்டுப்பாட்டை மடக்கை விட்டு நிறுத்தி வெளியேறச் செய்யமுடியும்.\n  ா  ்ா க\nஅமைப்பின் இறுதிக்கு அடுத்து உள்ள குறி முறை பகுதியில் இருந்து இயங்க தொடங்கும்.\nbreak பின்னலான மடக்கின் உள்ளே இருந்தால், break கூற்று மிக உட்புறமாக (Inner most)\nஅமைந்துள்ள மடக்கை விட்டு வெளியேறும்.\nதொடரியல்:\nbreak\nEnter loop\nfalse\nCondition\ntrue\n©\nO\nbreak?\nyes\nExit loop\nno\nRemaining body of loop\nபடம் 6.7 break் கூஉற்றின்சயல்பாடு\nfor மடக்கு மற்றும் whi்le மடக்கினுள் break கூற்றின் செயல்பாடு கீழே கொடுக்கப்பட்டுள்ளது.\nfor var in sequence:\nif condition:\nbreak\n#code inside for loop\n#code outside for loop\nwhile test expression:\n#code inside while loop\nif condition:\nbreak\n#code inside while loop\n#code outside while loop\n85\nகட்டுப்பாட்டு கட்டமைப்புகள்\n12th Computer Science_TM Chapter 6.indd 85\n11-01-2023 12:38:17\nO",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

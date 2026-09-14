@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_047",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 1,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "alooomoom DLOO)o oolgy0. (oompjuDeolajos 3J0000021603603090/gl0139\n(al0la10060306036,900.00 Oo 00160002100 00)0 m00000-80l80)0 010108\nmhabigusaoolagpal allomlsoom coawlcoo GOS9010 o0 lalolsomo GOOJNOO\neoomanoom ogm 01.00000. WIGOMl00-235, W)co0loo-238 00m9\n0e1660390S mndwoom O1OLODO 713-20 415-20 audeasomagooomamor\nogmglylaogomeogam. 2elalla.d06a9gj0s slolooolm 200 BU0E10910 Q100946038)0S\n019.806200139) ogmo 2G000S0aJo 60d001m0 amowlol.eojo.\nGal03360308\n(i)\n'coauleos @00Sl010 00 laloleono G0OJNOO Goom800om o0m\nQ1000000 00Ga/09060?\n(i) coomoamgple.ud 0B0 epoyopleioon goia.mooayeinoauo?\n(ii) 1908-08 cavoawl 009010 aaoesonlong Gold 000006m?\n(iv) @Ogo0long mcola00m00-8x01 630) (alaiDalehomanypoei ololajolorn)21olo3\nlalwoml (0006M?\n(v) \"(@nGgooles COD10060Y\" oom mUo2610 00BJ2001 (a101e9og/so 00G2/09060?\n(vi) coawleoo mysishaip'onn.soypolal OGQI0916m0 msoolo voomoRon (0000gJ00?\n(vii) coaleoo (0 S10100133 a18000060300.80 aiadcopole1)99 200020\n200103lafego0d oglogmo ag0 (ajardormoolenosooom?\n(vii) 1903-08 laoawold cavoawl 0008 Gelaimonlenos 000006m 0090100?\n2. omlolooym o1mawl Qn0l 21101050139 Gal06360300.00 20000091016.\n(GoGoomlajo 60600 00006 oloo)\n[7x1=7]\nooseugol GODO1a8 mO00os 630006010) boajnu20a.000000000100 006m 630)\n000100l0gisjo Dol08 200015 03006NS n0g0 oololeno 636166000 00gl660000\nalolninnjoloo@m ofBowaoo moaon.yaulooom. 00006m ODO Wplealoos\nQjeolo1oxon) QIJQIGaBlO @Gga00lm monolojceioGeibovlen0e.0nle189 munomo\naloomol.es)om 2alowlosololooololes)e. momonneulolenws0om celbonoloer\n2106 0001030j6B00.80)0 boosmoamjo (0010008 majeo000la3 (10)\naigdomjalomoom monowomesooallesud a10l(00010.800500mjXp)o al00and0od\nmslal00o/si)ogisiomions. Onooonocomulo.daoonwlowcgooel 8la1o00lo8 636S00\nbolmom)e0160366 26180019139 aleroo rui@lafloxoplon 0.6404-0jo1ago\napuolpnUalsDNapo 063130)6S md22in.jaul.esl.oo0oomam) muja.lla/loogom). (G10G2/008\nalaloomlomg\n(GYO onogi d domocloolo16.0003\noonolo8\n(00lo08\n(NJ000BR0O01000 GOGeIDallajollayolooocejo. ODO mom oneuloos oooyonlo8\nB00000 GGIOLO 30l(300oamjagl mODOS monologonlengo coolm me munomo\neislafsions. 630) 6a100008 0010002)0S mdannallaioolojam coselbon, aIm\n(alon.60000200000010m mmololzod, enjon.ndomijod, 0016010361 mo0006mad\nmmnolol 0om alo0mIO 019106 mOe0 0000000 6302 apomumonoloy Gomawooo\n00m 000B0imlsjons. G1OO oDmjo @oelay@ulogysja.10ld-000mmjonomjo. 016091,\nGOQI 0190100 0gmoom 010000, mdamon@ulojos 630) 019100)36 lolosmo\nQOLOGO (100100)33). allo Galnaioomjesooms50070603090.00007Ej0 G0n400Dles0om\n60B090.8000TE)0 0000JGOQlo al0001m al0bjo01os, 9al0005)600000\nmdanlaue-ocomaoom) @0Q/01e1)320.\n2",
+      "text_nfc": "alooomoom DLOO)o oolgy0. (oompjuDeolajos 3J0000021603603090/gl0139\n(al0la10060306036,900.00 Oo 00160002100 00)0 m00000-80l80)0 010108\nmhabigusaoolagpal allomlsoom coawlcoo GOS9010 o0 lalolsomo GOOJNOO\neoomanoom ogm 01.00000. WIGOMl00-235, W)co0loo-238 00m9\n0e1660390S mndwoom O1OLODO 713-20 415-20 audeasomagooomamor\nogmglylaogomeogam. 2elalla.d06a9gj0s slolooolm 200 BU0E10910 Q100946038)0S\n019.806200139) ogmo 2G000S0aJo 60d001m0 amowlol.eojo.\nGal03360308\n(i)\n'coauleos @00Sl010 00 laloleono G0OJNOO Goom800om o0m\nQ1000000 00Ga/09060?\n(i) coomoamgple.ud 0B0 epoyopleioon goia.mooayeinoauo?\n(ii) 1908-08 cavoawl 009010 aaoesonlong Gold 000006m?\n(iv) @Ogo0long mcola00m00-8x01 630) (alaiDalehomanypoei ololajolorn)21olo3\nlalwoml (0006M?\n(v) \"(@nGgooles COD10060Y\" oom mUo2610 00BJ2001 (a101e9og/so 00G2/09060?\n(vi) coawleoo mysishaip'onn.soypolal OGQI0916m0 msoolo voomoRon (0000gJ00?\n(vii) coaleoo (0 S10100133 a18000060300.80 aiadcopole1)99 200020\n200103lafego0d oglogmo ag0 (ajardormoolenosooom?\n(vii) 1903-08 laoawold cavoawl 0008 Gelaimonlenos 000006m 0090100?\n2. omlolooym o1mawl Qn0l 21101050139 Gal06360300.00 20000091016.\n(GoGoomlajo 60600 00006 oloo)\n[7x1=7]\nooseugol GODO1a8 mO00os 630006010) boajnu20a.000000000100 006m 630)\n000100l0gisjo Dol08 200015 03006NS n0g0 oololeno 636166000 00gl660000\nalolninnjoloo@m ofBowaoo moaon.yaulooom. 00006m ODO Wplealoos\nQjeolo1oxon) QIJQIGaBlO @Gga00lm monolojceioGeibovlen0e.0nle189 munomo\naloomol.es)om 2alowlosololooololes)e. momonneulolenws0om celbonoloer\n2106 0001030j6B00.80)0 boosmoamjo (0010008 majeo000la3 (10)\naigdomjalomoom monowomesooallesud a10l(00010.800500mjXp)o al00and0od\nmslal00o/si)ogisiomions. Onooonocomulo.daoonwlowcgooel 8la1o00lo8 636S00\nbolmom)e0160366 26180019139 aleroo rui@lafloxoplon 0.6404-0jo1ago\napuolpnUalsDNapo 063130)6S md22in.jaul.esl.oo0oomam) muja.lla/loogom). (G10G2/008\nalaloomlomg\n(GYO onogi d domocloolo16.0003\noonolo8\n(00lo08\n(NJ000BR0O01000 GOGeIDallajollayolooocejo. ODO mom oneuloos oooyonlo8\nB00000 GGIOLO 30l(300oamjagl mODOS monologonlengo coolm me munomo\neislafsions. 630) 6a100008 0010002)0S mdannallaioolojam coselbon, aIm\n(alon.60000200000010m mmololzod, enjon.ndomijod, 0016010361 mo0006mad\nmmnolol 0om alo0mIO 019106 mOe0 0000000 6302 apomumonoloy Gomawooo\n00m 000B0imlsjons. G1OO oDmjo @oelay@ulogysja.10ld-000mmjonomjo. 016091,\nGOQI 0190100 0gmoom 010000, mdamon@ulojos 630) 019100)36 lolosmo\nQOLOGO (100100)33). allo Galnaioomjesooms50070603090.00007Ej0 G0n400Dles0om\n60B090.8000TE)0 0000JGOQlo al0001m al0bjo01os, 9al0005)600000\nmdanlaue-ocomaoom) @0Q/01e1)320.\n2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

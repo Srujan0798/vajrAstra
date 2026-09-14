@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_043",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0003pro_raw.pdf",
+    "page_index": 18,
+    "width": 612.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        612.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n19\nHi\nಅT.-ಈ ಕಳಗನ ಯಾವ ನಕೆಯುತಾಮಕೈ. ಉಷತೆಇಯೊಂದಗೆ-1ಂ.-I- ಮತು--I.ಆರ 9ಜೃಗಳರುವಎರಡುತಾವುದ\nI gaooee ppod ag.og pesg'ag\nಘನಗೋಳಗಳ ಉಪತೆಯನುIk ಿನಷುಹೆಚಿಸಲುಬೇಕಾಗುವ\n Ggamgo slgeg pcas\nI Im\nP\n2\nI\n೩\n೨\n೫\nP\nT\n1ಒಂದುರೋಧದವಣ೯ಸಂಕೇತವನುೃಕಳಗಿನಡದ\nT\nಹಳದ--ನೀರಳೆ--ಕಂದು--ಚನು\nಖ\nಕಮವಾಗಿರೋಧಮತುಸಹನಶಕೆಗಳಿಬೆಲೆಗಳು\nT\n470 0 60\n470 k2 50\n೪ಃ.-ಸಮಸಾವುಥೈ-ಏರುವಿAಮತು5ಿ.ಎಂಬಎರಡು\nA7 k2 108\nಸಲಂಡರ್ಗಳನು.ನಲುವಬರುಟಿಮೂಲಕ ಒಂದಕೊಂದನು\nA.7 k0 50\nಸೇಂಸಲಾಗದೆ--ಪಮಾಣಕಉಷತಿಮತುಒತಡದಲಿ\nಆದಶ೯-ಅನಲವನು-ಹೊಂದದ.-I ಯುಸಂಪೂಣ\n1೭-ರೋಧದಋಣ-ಉಷೃತಾಿಗುಣಾಂಕವನುೃ-ಹೊಂದರುವ\nನವಾ-ತವಾಗದೆ-ಒಟುವೃವಸೈಯನುಉಷತಾನವಾ೯ಹಕತ-\nಘನಗಳುಯಾವೆಂದರಿ\nಯಲಂಸ, ನಲುವಿಬರುಟಿಯನುತಕಣಿತಿರದಾಗಿಆಗುವ\n cooogog'g\nSyagecege eg suapace D\nPpeo?\nಲೋಹಗಳು\nಸವೋಷೃತಿ\nFeog oyageme.\nAeseg?\nಅರೆವಾಹಕಗಳುಮಾತೃ\ngeug?\n168.\nಟಾದಸರ್-ಪಕಿಯಯಲಿಈಿಕೆಳಗನಿಯಾವೆಹೇಳಕ\nಸಂಯಾಗದಿ\nM೨ಿ.-ಎುಟರ್.ಬಡ್ನಎಡಗಡಿಜಾಗದಲೈನಿರೋಧ ತಂತಿಯು\nಬಲಗಡೆಯಲನಿಜಾಗದಲನ 1ಗ ರೋಧದೊಂದಗಿಬಡ್\nAigoueeosg gog Peg goog pebo. D\nತಂತಿಯನುೃಋ೭ಅನುಪಾತದಲಿಎಭಾಗಸಿಸಮತೋಲನಸದ.\nಮತುಅಲ ಡೋಪ್ಆಗರಬೇಕು.\nMofog gieg ogo u g I gpu. gofog g.og.\n೮\nAgou oymoog apa wg aemp pece.\nIರೋಧದಉದವೆಿಷು\nಡೋಪಂಗ್ಿಸಾಂದತೆಯನುಹೊಂದರಬೇಕು.\n15x 10-m\nAgou qumoog gma wg a3ppp pebe.\n10x10-m\nಗಾತೃಹೊಂದರಬೇಕು.\n10x 10-'m\nಉತೃಜ೯ಕ-ಜಂಕನ್-ಅದರಂತೆಯ--ಗಾಹಕ\n15x10-'m\nಜಂಕನ್ಗಳರಡೂ-ಫಾರ್ವಡ್Fಬಯಾಸೈಆಗರಬೇಕು.",
+      "text_nfc": "KANNADA\n19\nHi\nಅT.-ಈ ಕಳಗನ ಯಾವ ನಕೆಯುತಾಮಕೈ. ಉಷತೆಇಯೊಂದಗೆ-1ಂ.-I- ಮತು--I.ಆರ 9ಜೃಗಳರುವಎರಡುತಾವುದ\nI gaooee ppod ag.og pesg'ag\nಘನಗೋಳಗಳ ಉಪತೆಯನುIk ಿನಷುಹೆಚಿಸಲುಬೇಕಾಗುವ\n Ggamgo slgeg pcas\nI Im\nP\n2\nI\n೩\n೨\n೫\nP\nT\n1ಒಂದುರೋಧದವಣ೯ಸಂಕೇತವನುೃಕಳಗಿನಡದ\nT\nಹಳದ--ನೀರಳೆ--ಕಂದು--ಚನು\nಖ\nಕಮವಾಗಿರೋಧಮತುಸಹನಶಕೆಗಳಿಬೆಲೆಗಳು\nT\n470 0 60\n470 k2 50\n೪ಃ.-ಸಮಸಾವುಥೈ-ಏರುವಿAಮತು5ಿ.ಎಂಬಎರಡು\nA7 k2 108\nಸಲಂಡರ್ಗಳನು.ನಲುವಬರುಟಿಮೂಲಕ ಒಂದಕೊಂದನು\nA.7 k0 50\nಸೇಂಸಲಾಗದೆ--ಪಮಾಣಕಉಷತಿಮತುಒತಡದಲಿ\nಆದಶ೯-ಅನಲವನು-ಹೊಂದದ.-I ಯುಸಂಪೂಣ\n1೭-ರೋಧದಋಣ-ಉಷೃತಾಿಗುಣಾಂಕವನುೃ-ಹೊಂದರುವ\nನವಾ-ತವಾಗದೆ-ಒಟುವೃವಸೈಯನುಉಷತಾನವಾ೯ಹಕತ-\nಘನಗಳುಯಾವೆಂದರಿ\nಯಲಂಸ, ನಲುವಿಬರುಟಿಯನುತಕಣಿತಿರದಾಗಿಆಗುವ\n cooogog'g\nSyagecege eg suapace D\nPpeo?\nಲೋಹಗಳು\nಸವೋಷೃತಿ\nFeog oyageme.\nAeseg?\nಅರೆವಾಹಕಗಳುಮಾತೃ\ngeug?\n168.\nಟಾದಸರ್-ಪಕಿಯಯಲಿಈಿಕೆಳಗನಿಯಾವೆಹೇಳಕ\nಸಂಯಾಗದಿ\nM೨ಿ.-ಎುಟರ್.ಬಡ್ನಎಡಗಡಿಜಾಗದಲೈನಿರೋಧ ತಂತಿಯು\nಬಲಗಡೆಯಲನಿಜಾಗದಲನ 1ಗ ರೋಧದೊಂದಗಿಬಡ್\nAigoueeosg gog Peg goog pebo. D\nತಂತಿಯನುೃಋ೭ಅನುಪಾತದಲಿಎಭಾಗಸಿಸಮತೋಲನಸದ.\nಮತುಅಲ ಡೋಪ್ಆಗರಬೇಕು.\nMofog gieg ogo u g I gpu. gofog g.og.\n೮\nAgou oymoog apa wg aemp pece.\nIರೋಧದಉದವೆಿಷು\nಡೋಪಂಗ್ಿಸಾಂದತೆಯನುಹೊಂದರಬೇಕು.\n15x 10-m\nAgou qumoog gma wg a3ppp pebe.\n10x10-m\nಗಾತೃಹೊಂದರಬೇಕು.\n10x 10-'m\nಉತೃಜ೯ಕ-ಜಂಕನ್-ಅದರಂತೆಯ--ಗಾಹಕ\n15x10-'m\nಜಂಕನ್ಗಳರಡೂ-ಫಾರ್ವಡ್Fಬಯಾಸೈಆಗರಬೇಕು.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

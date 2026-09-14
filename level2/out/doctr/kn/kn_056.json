@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_056",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 16,
+    "width": 1056,
+    "height": 1689
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1056,
+        1689
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "woait sntorat\n3eo\n7378\n5\n3OFS TSE\n363000030\nS0WL5 desdorlo ceorices asrotr Wowo sana 2083r Jaz\neonf St deoswgad 9 388 evozat acsor. EOEOC\nus\n8200\nAFat' 30S wedagia HOSTUSO wdo. a023 Batedds\nSoaa av8 ato wiedes Honeevg. woneed Haezed'\n-\nESET ao sorseciet 52g Scos Todz age. attr dtrs Cs\nast Et saeder ase EPaO. sou wo sercwson,\nC\nEntat.cri.cos aoae EA 3350 daredor aboneo -\nwedd 23e03 edn Toa aWOT sCE enooy eogo. BOUCE\nEE nod JoudF 930z 2J83 aiod CEl S. WI. 520 oTono\ni\nbders\naotoet moa gesrow accato. 808 et 20E eon\nis\narioa 230033..\ni\ndasodo aro\n33\n194483 aowood Jaweas\nti\naneesm ary E\new\nael\noccws\nsaledo waboo awa aioF eege 20do. aadeawry\nw\ni\nU\ncar\nadcootode avoro ewcr atiode Wowo. dat\nE\nt\n-\naict Hon\n6\nte) do\nOHWOD deoas aorS edoo. eo escoom Bo wdgo. bedre,\nE\nin\nenodoas 0do0 Xor woato 2003w0o3 beyoo\nUo)\n1\netre\n2ce3\n3gtee\nwros e02s.\n3\nesgg\nHoZ dom 2303\nwoadd, Seade scwn\ndy\n82 edretot. soteefts Saeeas ahoe esowod EE 200\n2005 abrye &oaogn 208300 datedos\n-\nt\ngatdser agour.\nsot WE noun FS Ddwdn daso souo\nC\nsatedo\ndOBFTD\ndoze SREW Jo aaiorod weedoe naba\ndodoobdo.\nE\naion asieret zecitr aoer aoojoobso. eds E3 EUSF 2ota\nE\naetgisen TO decztom. eoep doi-dr E\n6 ast argd d020820. n\ndotoony srog o80b0 Fedoodo sravdcis 3d3F AOT &\nUe)\nHot wo2s aowode ROSSE mato. SE awtos WHOFEE WROE\naetwr sersobdd. aco az ag Dweofot a\ngearae asEOs,\nJodess DWEFI aers, oegte soude etic noweoa 20288\nsad cooffies 3632000d0. davedor ao2ss taigeta\nWES aaicon oNIre ae auad evatel dodcondo.\n1\n2d 283 Daaiest Kej, 225eFiei. sirierey. 02500 Hoddroc\n16",
+      "text_nfc": "woait sntorat\n3eo\n7378\n5\n3OFS TSE\n363000030\nS0WL5 desdorlo ceorices asrotr Wowo sana 2083r Jaz\neonf St deoswgad 9 388 evozat acsor. EOEOC\nus\n8200\nAFat' 30S wedagia HOSTUSO wdo. a023 Batedds\nSoaa av8 ato wiedes Honeevg. woneed Haezed'\n-\nESET ao sorseciet 52g Scos Todz age. attr dtrs Cs\nast Et saeder ase EPaO. sou wo sercwson,\nC\nEntat.cri.cos aoae EA 3350 daredor aboneo -\nwedd 23e03 edn Toa aWOT sCE enooy eogo. BOUCE\nEE nod JoudF 930z 2J83 aiod CEl S. WI. 520 oTono\ni\nbders\naotoet moa gesrow accato. 808 et 20E eon\nis\narioa 230033..\ni\ndasodo aro\n33\n194483 aowood Jaweas\nti\naneesm ary E\new\nael\noccws\nsaledo waboo awa aioF eege 20do. aadeawry\nw\ni\nU\ncar\nadcootode avoro ewcr atiode Wowo. dat\nE\nt\n-\naict Hon\n6\nte) do\nOHWOD deoas aorS edoo. eo escoom Bo wdgo. bedre,\nE\nin\nenodoas 0do0 Xor woato 2003w0o3 beyoo\nUo)\n1\netre\n2ce3\n3gtee\nwros e02s.\n3\nesgg\nHoZ dom 2303\nwoadd, Seade scwn\ndy\n82 edretot. soteefts Saeeas ahoe esowod EE 200\n2005 abrye &oaogn 208300 datedos\n-\nt\ngatdser agour.\nsot WE noun FS Ddwdn daso souo\nC\nsatedo\ndOBFTD\ndoze SREW Jo aaiorod weedoe naba\ndodoobdo.\nE\naion asieret zecitr aoer aoojoobso. eds E3 EUSF 2ota\nE\naetgisen TO decztom. eoep doi-dr E\n6 ast argd d020820. n\ndotoony srog o80b0 Fedoodo sravdcis 3d3F AOT &\nUe)\nHot wo2s aowode ROSSE mato. SE awtos WHOFEE WROE\naetwr sersobdd. aco az ag Dweofot a\ngearae asEOs,\nJodess DWEFI aers, oegte soude etic noweoa 20288\nsad cooffies 3632000d0. davedor ao2ss taigeta\nWES aaicon oNIre ae auad evatel dodcondo.\n1\n2d 283 Daaiest Kej, 225eFiei. sirierey. 02500 Hoddroc\n16",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

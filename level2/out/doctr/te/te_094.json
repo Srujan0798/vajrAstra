@@ -1,0 +1,41 @@
+{
+  "page_id": "te_094",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0010pro_raw.pdf",
+    "page_index": 48,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(?) aiehiciel quf CI.\n(37)\nHIRPTH dear ardoa chtol Toa (3TT)\nHIRYTH deICR aleeet\nfarag apridiet mich\nJIUIRT STRrfra STT9T\nO\nO\nO\n(3) 3rd foal.\n(37) HRde cleh 721 3diet a ER -\n(31T) STRde allceT cichia HIRRRHEACT THIUT -\n(E) ERICIT ARdera CUIRT T71OZ -\n($) HIRRTHEA TTETAt -\n(3) HIRRTHYEZ 3THe11 ET2 de -\n(3) HIRRTHCET ERIEIT 31ChR -\n(8) aeid dcrdl quf CRI.\n(4) ceid Hocia feiT a1oo1 a dorl qui CRI.\n31. sh.\nUchat\narichdu\n31. sh.\nToG\nfeit\n(8) TT67\n(8) HieRdE\n(R) HGT\n(R) aist\n(3) 413107\n(3) JHE\n(8) STR\n(8) yecft\n(E) dria HHIRCh Vocial faure CRI.\nHHHIfIch VoG\nfaur\n(8) ufdica\n(R) Fhyny\n(3) TeTRIRAt\n(8) TisAYeIT\n(4) Yryyue\n((9) taud.\nAS4HGG\n(37) HIRRTHIT agiht frerfeice CITATCT 3118, afageia gua faaR tYoC CRT.\n(3T) ZT TaTdiet galeil 3aSree chlurellel Uchl mocla quiT CRT.\nJuchH : 3Rulleilcen HIEREIN HiRgrefagef 37f8ch Hifadt fMEl.\n***\n38",
+      "text_nfc": "(?) aiehiciel quf CI.\n(37)\nHIRPTH dear ardoa chtol Toa (3TT)\nHIRYTH deICR aleeet\nfarag apridiet mich\nJIUIRT STRrfra STT9T\nO\nO\nO\n(3) 3rd foal.\n(37) HRde cleh 721 3diet a ER -\n(31T) STRde allceT cichia HIRRRHEACT THIUT -\n(E) ERICIT ARdera CUIRT T71OZ -\n($) HIRRTHEA TTETAt -\n(3) HIRRTHYEZ 3THe11 ET2 de -\n(3) HIRRTHCET ERIEIT 31ChR -\n(8) aeid dcrdl quf CRI.\n(4) ceid Hocia feiT a1oo1 a dorl qui CRI.\n31. sh.\nUchat\narichdu\n31. sh.\nToG\nfeit\n(8) TT67\n(8) HieRdE\n(R) HGT\n(R) aist\n(3) 413107\n(3) JHE\n(8) STR\n(8) yecft\n(E) dria HHIRCh Vocial faure CRI.\nHHHIfIch VoG\nfaur\n(8) ufdica\n(R) Fhyny\n(3) TeTRIRAt\n(8) TisAYeIT\n(4) Yryyue\n((9) taud.\nAS4HGG\n(37) HIRRTHIT agiht frerfeice CITATCT 3118, afageia gua faaR tYoC CRT.\n(3T) ZT TaTdiet galeil 3aSree chlurellel Uchl mocla quiT CRT.\nJuchH : 3Rulleilcen HIEREIN HiRgrefagef 37f8ch Hifadt fMEl.\n***\n38",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

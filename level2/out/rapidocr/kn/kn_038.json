@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_038",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 258,
+    "width": 404.0,
+    "height": 595.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        404.0,
+        595.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಟಪಣಿಗಳು\n೨೪೭\nಕನೃಡನುಡಯ-ಜಾಯಮಾನವನು-ಗಮನಸದಿಅದರ-ವಾೃಕರಣ\nಪಠಿಯಗಳನುಸಂಸೃತಿವಾಕರಣದಚೌಕಟಗಿಅಳವಡಸರುವದೇ\nಇಂಥಗೊಂದಲಗಳಗಿಕಾರಣವಾಗದೆ. ಪಕೃತದಲ, ಮಾಗ೯ಕಾರನು\nಸಂಸೃತವಾಕರಣದಕಾರಕವೃವಸೈಯನು--ಅನುಸಂಸರುವದಂದ\n೪ಲ\nಅವನುಕತಸೃವನು-ಕಾರಕಾನುಕಮುದಲಿಸೇಂಸಲವೆಂದುಶ-ಕ.ಟ.\nಪಾಂಡುರಂಗಯವರುಅಭಪಾಯಪಟದಾರೆ. ಅವರು೨ಿಳಸುವಂತ,\nಸಂಸೃತ ವಾೈಕರಣದಪಕಾರ-ಪಥಮಾ-ಎಭಕಿಕಾರಕಾಧೀನವಲ\nEo?gc agoe'a 109y.egog g$0ga 0yea\nಕರಣೆಕಾರಕವೇಕತಹೃಕಾರಕತವನೂ.ಒಳಗೊಳುತದೆ. ಮಾಗ೯ಕಾರನ\nಉಕಿಯನು--ಅವನು--ಈೋತಿಸಮಥಸರುವದು-ಗಾಹೃವಾಗ\nಕಂಡುಬಂದರೂ, ಮಾಗ೯ಕಾರನುಹೇಳುವೆಕತತೃಕಾರಕ ರಒತವಾದ\nಆರು.ಕಾರಕಗಳಲಿಷಣಯೂಸೇರುವದೇಇಲವೆಎಂಬಸಮಸೈಗೆ\n,Oueಣgಣeg paeg goege\nFಲ\nಕೇಶಿರಾಜನೂತೃತೀಯಗಿಕತಸೃಕಾರಕತವನುಹೇಳದಾನೆ.Iತೃತೀಯಪೇಬಲ್\nಪಡೆಗುಂಕತಸೃಕರಣ ಹೀತುಸತಯೊಳ್-ಸೂ. ಂ೨ಲ. ಉದಾ. ಕಾವೃಮನಂ\nಪೇಟಿಪಟುದು.\nಆಧುನಕೆಭಾಷಾ-ಶಾಸೃಜರ ಪಕಾರ, ಕನೃಡದಲಿ ಪಥಮಾ-ಎಭಕಯದರೂ\nm: Mge goop gapgoe meg ga ggeogo uge.\nಪಥಮಯಅಥಃದಲಿಪಯೋಗವಾಗುತದ. ಮಾಗಕಾರನಲಕೃಪದೃದಲಯೇ\n--ನರಪತಿಬಂದರ--ಎಂಬ ಪಯೋಗ ಇದಕೈ ನದಶ೯ನ. ಅಲದ, ವಾಕೃದ\nO9. In Kavirajamarga Nrpatunga enumerates six Karakas and seven\nVibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit\ngrammarians, the first case termination does not convey any Karaka. The second\nconveys Karma, the Karana and Karta and so on. The verbal termination con-\nveys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons.... a plan of reference to Karma on this basis \ncannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot \nalso be applied mutatis mutandis to Kannada. - Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' : Paper by Sri K.T. Pandurangi, M.A. Vide\nproceedings of the Seminar on Grammatical Theories in Kannada October\n1965, Annamalai University, Annamalainagar.",
+      "text_nfc": "ಟಪಣಿಗಳು\n೨೪೭\nಕನೃಡನುಡಯ-ಜಾಯಮಾನವನು-ಗಮನಸದಿಅದರ-ವಾೃಕರಣ\nಪಠಿಯಗಳನುಸಂಸೃತಿವಾಕರಣದಚೌಕಟಗಿಅಳವಡಸರುವದೇ\nಇಂಥಗೊಂದಲಗಳಗಿಕಾರಣವಾಗದೆ. ಪಕೃತದಲ, ಮಾಗ೯ಕಾರನು\nಸಂಸೃತವಾಕರಣದಕಾರಕವೃವಸೈಯನು--ಅನುಸಂಸರುವದಂದ\n೪ಲ\nಅವನುಕತಸೃವನು-ಕಾರಕಾನುಕಮುದಲಿಸೇಂಸಲವೆಂದುಶ-ಕ.ಟ.\nಪಾಂಡುರಂಗಯವರುಅಭಪಾಯಪಟದಾರೆ. ಅವರು೨ಿಳಸುವಂತ,\nಸಂಸೃತ ವಾೈಕರಣದಪಕಾರ-ಪಥಮಾ-ಎಭಕಿಕಾರಕಾಧೀನವಲ\nEo?gc agoe'a 109y.egog g$0ga 0yea\nಕರಣೆಕಾರಕವೇಕತಹೃಕಾರಕತವನೂ.ಒಳಗೊಳುತದೆ. ಮಾಗ೯ಕಾರನ\nಉಕಿಯನು--ಅವನು--ಈೋತಿಸಮಥಸರುವದು-ಗಾಹೃವಾಗ\nಕಂಡುಬಂದರೂ, ಮಾಗ೯ಕಾರನುಹೇಳುವೆಕತತೃಕಾರಕ ರಒತವಾದ\nಆರು.ಕಾರಕಗಳಲಿಷಣಯೂಸೇರುವದೇಇಲವೆಎಂಬಸಮಸೈಗೆ\n,Oueಣgಣeg paeg goege\nFಲ\nಕೇಶಿರಾಜನೂತೃತೀಯಗಿಕತಸೃಕಾರಕತವನುಹೇಳದಾನೆ.Iತೃತೀಯಪೇಬಲ್\nಪಡೆಗುಂಕತಸೃಕರಣ ಹೀತುಸತಯೊಳ್-ಸೂ. ಂ೨ಲ. ಉದಾ. ಕಾವೃಮನಂ\nಪೇಟಿಪಟುದು.\nಆಧುನಕೆಭಾಷಾ-ಶಾಸೃಜರ ಪಕಾರ, ಕನೃಡದಲಿ ಪಥಮಾ-ಎಭಕಯದರೂ\nm: Mge goop gapgoe meg ga ggeogo uge.\nಪಥಮಯಅಥಃದಲಿಪಯೋಗವಾಗುತದ. ಮಾಗಕಾರನಲಕೃಪದೃದಲಯೇ\n--ನರಪತಿಬಂದರ--ಎಂಬ ಪಯೋಗ ಇದಕೈ ನದಶ೯ನ. ಅಲದ, ವಾಕೃದ\nO9. In Kavirajamarga Nrpatunga enumerates six Karakas and seven\nVibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit\ngrammarians, the first case termination does not convey any Karaka. The second\nconveys Karma, the Karana and Karta and so on. The verbal termination con-\nveys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons.... a plan of reference to Karma on this basis \ncannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot \nalso be applied mutatis mutandis to Kannada. - Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' : Paper by Sri K.T. Pandurangi, M.A. Vide\nproceedings of the Seminar on Grammatical Theories in Kannada October\n1965, Annamalai University, Annamalainagar.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

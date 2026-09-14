@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_006",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0007pro_raw.png",
+    "page_index": 0,
+    "width": 368,
+    "height": 527
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        368,
+        527
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "लिन नि\nसाया न्याय नव snot\nहिना राय nes meme compsnewe न\nलय पर one\nउदय agertserncemye ome ot en\nअदा दान son\nor emer enya या ge gee गान\nलिन न eames\nपडा दा दिनो  ***\nपान सा दि ostawneent He\nCade अन्य aye seene नानयपागथरमम्र\nपा. canine ogi] so\nसमन दीन nfs SEH\n****\nള്്്ള്കെ?\nപളപക്ക്്ക്-*\nളളളളളളളള്്്്്്പ്്്പക്‍’6*\nട്കുനന कराई മുകംകണ acre സവസം eras &\nGuetta nyo oon mar sangeet syste neva)\nuni (9 aes (natn vod A oan\n“ee ote peo yk OLLIE ta noo\nलिन aoneney «ies mylteeim vaeeon\nउस उ घन Shaman नाम्यपोन\nyshycceyT “ajtande (बलर.बलाकथूदकली aaeoeemveont\neee meee मचा aytendenyeel जन «मम\nConeon ersanaamess pene\nलिप sand () (unate eons ity owe ल\naso get tense  ാ്\nउदय seoren evenmn ayia gaye cforesenad\nप्र eens serosa]\n‘Somes eas हर ange BPA;\nएल कर ae) aferageonnsaas edad\necdumjjernnta Guay] og! m caeenae cunjel yr curio\n",
+      "text_nfc": "लिन नि\nसाया न्याय नव snot\nहिना राय nes meme compsnewe न\nलय पर one\nउदय agertserncemye ome ot en\nअदा दान son\nor emer enya या ge gee गान\nलिन न eames\nपडा दा दिनो  ***\nपान सा दि ostawneent He\nCade अन्य aye seene नानयपागथरमम्र\nपा. canine ogi] so\nसमन दीन nfs SEH\n****\nള്്്ള്കെ?\nപളപക്ക്്ക്-*\nളളളളളളളള്്്്്്പ്്്പക്‍’6*\nട്കുനന कराई മുകംകണ acre സവസം eras &\nGuetta nyo oon mar sangeet syste neva)\nuni (9 aes (natn vod A oan\n“ee ote peo yk OLLIE ta noo\nलिन aoneney «ies mylteeim vaeeon\nउस उ घन Shaman नाम्यपोन\nyshycceyT “ajtande (बलर.बलाकथूदकली aaeoeemveont\neee meee मचा aytendenyeel जन «मम\nConeon ersanaamess pene\nलिप sand () (unate eons ity owe ल\naso get tense  ാ്\nउदय seoren evenmn ayia gaye cforesenad\nप्र eens serosa]\n‘Somes eas हर ange BPA;\nएल कर ae) aferageonnsaas edad\necdumjjernnta Guay] og! m caeenae cunjel yr curio\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

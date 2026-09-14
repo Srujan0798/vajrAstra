@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_007",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0008pro_raw.png",
+    "page_index": 0,
+    "width": 371,
+    "height": 520
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        371,
+        520
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "owe  asm\n.3\n(eaa\n  me    m  mam\n\n 18 (1) 8 (m\n(d Gd\ntag,e\nrespect of holding held by cultivating tenarts (including holders of Kudiyirippus and holders\nof Karamas) entied to xi ee unde secon 13 and in respe of whc cec o\npurchase under sub section (2) of section 59 have not been issued shall, subject to the\nprse\nlad we aemed  u  n  sa dae - \n( xity of tene (2) (\nleg wgm e aeme me \ngm a am e e \nazot mudecolet meahmeom. go ealglacate esactecgo\n\nslsemiges mo emoa ceneans mzomn\nmmomc m\non\nCe\ne mme na m e \ng\n\nead  m \nmadeangogmeg emmeo askoao meoeemmzo skoa eza\ngmoeemmo ei, cdeen memo eouto meo\nm  (\n72 ((\nmeeg mma go aa, ms askon wdaym ughdleeg\n\nmodae mm 7z(1)  neang mcot\nmmoome em ee eamd.",
+      "text_nfc": "owe  asm\n.3\n(eaa\n  me    m  mam\n\n 18 (1) 8 (m\n(d Gd\ntag,e\nrespect of holding held by cultivating tenarts (including holders of Kudiyirippus and holders\nof Karamas) entied to xi ee unde secon 13 and in respe of whc cec o\npurchase under sub section (2) of section 59 have not been issued shall, subject to the\nprse\nlad we aemed  u  n  sa dae - \n( xity of tene (2) (\nleg wgm e aeme me \ngm a am e e \nazot mudecolet meahmeom. go ealglacate esactecgo\n\nslsemiges mo emoa ceneans mzomn\nmmomc m\non\nCe\ne mme na m e \ng\n\nead  m \nmadeangogmeg emmeo askoao meoeemmzo skoa eza\ngmoeemmo ei, cdeen memo eouto meo\nm  (\n72 ((\nmeeg mma go aa, ms askon wdaym ughdleeg\n\nmodae mm 7z(1)  neang mcot\nmmoome em ee eamd.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

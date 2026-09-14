@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_019",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 6,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "7\n\n,\nnom.\n,\n .\n\n    . ,   6\n .\n,S).\n.\n -\n\n\n.\n2,    -\n\"6OG, ?\"\n\n\"31  60 60m. 316m 1m  6010m?\"\n S -\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "text_nfc": "7\n\n,\nnom.\n,\n .\n\n    . ,   6\n .\n,S).\n.\n -\n\n\n.\n2,    -\n\"6OG, ?\"\n\n\"31  60 60m. 316m 1m  6010m?\"\n S -\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

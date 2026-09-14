@@ -1,0 +1,41 @@
+{
+  "page_id": "te_068",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0068pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ERGATA > =\". GR\n€\n\nigm फंड Wes. (6) (kam\n\n525 బ్రమిత | నే yore 5 S59 (1 =) p తాల్‌ పోయు (0 “Pl 5१२ ట్ల పటట CES (|\n9౨37 Sly oY Lg కట్ల (ఏ 2 pre gh Ble एकल) (5\n\ntlle gue BAIS” les గ్రాస్‌ క 5S gall జ की clas yal ym\ntea) Ss? है, के Chal, Ba) © OS? (aro\nక్‌ ఆల\n\nडक మమ कद कई नि नी 5 lS gel fl ge\n( छा 25 gah ga Ga के है Shy\n\nपड एफ op LES ly భయద लि pol st REY దాత! के yal yy nerd le pol sao bd) pl\n“ge ye ye’\nigam ge yo C5 yn ok gies Othe?\nनी gle iyo DIS Gomory (Fg) Ugly (go Fecd poor ¢ पा 2! Qmis ym (1\nपर paleo gunk कि नि p SgSou! rile) (IF wel sy st) ody Wy ఇంది mimic (I\nwhy se or) (౬౬... Gow aw (ఏ\n\n—— न,\n\nఎమ) య యోని ౮ डी bal ees (करे pS R कि 6 కట్ల 625 sun.\n\nచా\n\nनरक ఇమ త్‌ ల [ం कस el ర్రి 99/29 R cole cooly lw \"=, Sing.\n\n+\n\n+9 bA cus US ye el 552 09 जे కల 2 sey st pl obese Ji ట్ల थि 1...\nఎమ) Lad et bys 39° why క 1-౨ |) ఆతము\n\nయ్‌ es री\n\n- 199/5. శో 5(51 ల weg ye eer)\n\nपड st? Sp\n\nकण grb PUT gle yi పరే.\n\n₹............. woes fant R sine శార్‌ 93 fan bw st पल के lag ० >) py\n\n\"రిట్లు Use GS ०४\n2190 gr 867 le छुक ने\nJ గా CASS = forks ర్‌ lie > pl - sjhb - posts - Glic - ost? 2\n\nकी कमर RR అల of ols By cs pale R op!\n\nwg) कि RRS far दि బ్రతి బ్రజ 1 sy శా క్‌ ఆ\n\nag) की RPO 2 fh के किस न\n\n",
+      "text_nfc": "ERGATA > =\". GR\n€\n\nigm फंड Wes. (6) (kam\n\n525 బ్రమిత | నే yore 5 S59 (1 =) p తాల్‌ పోయు (0 “Pl 5१२ ట్ల పటట CES (|\n9౨37 Sly oY Lg కట్ల (ఏ 2 pre gh Ble एकल) (5\n\ntlle gue BAIS” les గ్రాస్‌ క 5S gall జ की clas yal ym\ntea) Ss? है, के Chal, Ba) © OS? (aro\nక్‌ ఆల\n\nडक మమ कद कई नि नी 5 lS gel fl ge\n( छा 25 gah ga Ga के है Shy\n\nपड एफ op LES ly భయద लि pol st REY దాత! के yal yy nerd le pol sao bd) pl\n“ge ye ye’\nigam ge yo C5 yn ok gies Othe?\nनी gle iyo DIS Gomory (Fg) Ugly (go Fecd poor ¢ पा 2! Qmis ym (1\nपर paleo gunk कि नि p SgSou! rile) (IF wel sy st) ody Wy ఇంది mimic (I\nwhy se or) (౬౬... Gow aw (ఏ\n\n—— न,\n\nఎమ) య యోని ౮ डी bal ees (करे pS R कि 6 కట్ల 625 sun.\n\nచా\n\nनरक ఇమ త్‌ ల [ం कस el ర్రి 99/29 R cole cooly lw \"=, Sing.\n\n+\n\n+9 bA cus US ye el 552 09 जे కల 2 sey st pl obese Ji ట్ల थि 1...\nఎమ) Lad et bys 39° why క 1-౨ |) ఆతము\n\nయ్‌ es री\n\n- 199/5. శో 5(51 ల weg ye eer)\n\nपड st? Sp\n\nकण grb PUT gle yi పరే.\n\n₹............. woes fant R sine శార్‌ 93 fan bw st पल के lag ० >) py\n\n\"రిట్లు Use GS ०४\n2190 gr 867 le छुक ने\nJ గా CASS = forks ర్‌ lie > pl - sjhb - posts - Glic - ost? 2\n\nकी कमर RR అల of ols By cs pale R op!\n\nwg) कि RRS far दि బ్రతి బ్రజ 1 sy శా క్‌ ఆ\n\nag) की RPO 2 fh के किस न\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

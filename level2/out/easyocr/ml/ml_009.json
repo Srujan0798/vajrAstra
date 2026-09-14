@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_009",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0010pro_raw.png",
+    "page_index": 0,
+    "width": 389,
+    "height": 526
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        389,
+        526
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-aveny VnVLo {udun.cinig; ಖllmll Ir..r uslm frubu' (೧೩ Lmris \nnoduuuiplcmg ಗ4Afu GLu 1 ೊOಮacco11 O4kಂJ t 013,8 (<r<l Lu gul-oimni / 0-  u ೧ಣಿ m*ವ೧ ೧೭1೦   m3r[s14ud Crk xpaimm nlas (~sux   \"uus  ೧೫ಣಗ್ Tecsen {Inu4 24< nnlistniT DJJ1ADf ncs < 154nx ಹulo ಗlynnimL s 0034  n<1 LUml' 05 ೊldmurunbuso 4\"a0t mlದi I2AIUI 1  Unkf\"y niruulnucsmsm mauin-in1 ಊarll Dಸrmy 9೬05j <oymci Decot C1om =Jsluuaaic \"r*9tsearu ೊr n Oonಳl_am 3. MlpkIsn೨sn / m154, \"04 ಖUouryo muritmun ಖs1ಖcmi  VIcoii Ninm ಬleಖ3 ninubemo mr ren luaaad Imic mLಞllm] @೬sd A3el3s m5ಜ~   ~Jsroamaommj\" Cleteo್ in ಖnಊlAmmls _01ಂL1u oಡm innal   ಡeಂeeT ಟ,es m' ಭrsnrsmmln' aVtaಖ? ICL1e3 Ormna-t ಗsm]0 ಖl5uamia qಖulFs Lrnmn00೨ 'unusr Sಊoalo.as[ aeymne್ mba ನ1@]@ಬaಿg@ (~ಗಸಿaಗಿಗಪಸsಗೆ . 3l21Jce'u1 1 ಚu yeAPim psain Donl-auta Dhmin ೊInulnsmu Jaauibrzteu   0r3om 5| ruana d4fn] \" ಅ1ಖ Vaqrrus ಚclt  \"1r mlrsa೧co7 mdc -mlcrt mT.nu < oml;mt Ln muuisn in | 0194. 1951 0I  (uಐlರuanlel n4 }Jnua mr_mlsle ಖ74] prn-Jrajit ಟIm;   Masuimsos 60 , CIuOu 4rslusxtn FImsms 19Jic obrusm; ~sbussul ] O4su wuurಧ ಞiDnL Ooly mಮ e rjdma  ಹelesonnm +೨cr . Teou olIm] nns 5bl xlu ೧೬೦= 17 OLamt man om leಪyjo   ru4]ಸ1 0104 1964 OLdr . Ore2lralsa NleoJupa Lr `-2- -೫೫? <15mpra 4217656jo (1) (4೨೧೦  801 \"10 30ಲ114 7c-nbv1ವy H7 Oಖ n utLy1o Alun mrusನsan lna nuuಹjnniamoal unlebeomಗ ol JU Juನs ms3 <1smuanf Frau 4/ 12 Dinimlz) Dutamsircm1 m .s  :ಇe೨ 4ೀ1 1b] enxrn gitamumlut mal ler 9೯ mnpc ]s)aom; ಚೂlt 4limmsು ~henc1ಐ34+1 LTn'ny $ (1) tlshaslymm 406 ಎಿಂ್ಸ [S[Ibml ೧೫೫3 LT1/4. [ಗಹಸಬೀ eನ4ruuesjstuum m]sjce1   ms wconuommyao4 ~ೋo೪೧ 1೫ OaVI i s mo mml-mlc FIsಖJ0 ಖ4 34 AuuaUr Tleal 1hJ  ಝlns nಐL CRXu^ OElcram N1CTt= ಫLm ಝull  (E2iunm-lbiy ! OmTlu rnಐt mad,rqo   nt3al wue   mit-hn Aeam ಉonwEtidc 1F47 In 1Ci1",
+      "text_nfc": "-aveny VnVLo {udun.cinig; ಖllmll Ir..r uslm frubu' (೧೩ Lmris \nnoduuuiplcmg ಗ4Afu GLu 1 ೊOಮacco11 O4kಂJ t 013,8 (<r<l Lu gul-oimni / 0-  u ೧ಣಿ m*ವ೧ ೧೭1೦   m3r[s14ud Crk xpaimm nlas (~sux   \"uus  ೧೫ಣಗ್ Tecsen {Inu4 24< nnlistniT DJJ1ADf ncs < 154nx ಹulo ಗlynnimL s 0034  n<1 LUml' 05 ೊldmurunbuso 4\"a0t mlದi I2AIUI 1  Unkf\"y niruulnucsmsm mauin-in1 ಊarll Dಸrmy 9೬05j <oymci Decot C1om =Jsluuaaic \"r*9tsearu ೊr n Oonಳl_am 3. MlpkIsn೨sn / m154, \"04 ಖUouryo muritmun ಖs1ಖcmi  VIcoii Ninm ಬleಖ3 ninubemo mr ren luaaad Imic mLಞllm] @೬sd A3el3s m5ಜ~   ~Jsroamaommj\" Cleteo್ in ಖnಊlAmmls _01ಂL1u oಡm innal   ಡeಂeeT ಟ,es m' ಭrsnrsmmln' aVtaಖ? ICL1e3 Ormna-t ಗsm]0 ಖl5uamia qಖulFs Lrnmn00೨ 'unusr Sಊoalo.as[ aeymne್ mba ನ1@]@ಬaಿg@ (~ಗಸಿaಗಿಗಪಸsಗೆ . 3l21Jce'u1 1 ಚu yeAPim psain Donl-auta Dhmin ೊInulnsmu Jaauibrzteu   0r3om 5| ruana d4fn] \" ಅ1ಖ Vaqrrus ಚclt  \"1r mlrsa೧co7 mdc -mlcrt mT.nu < oml;mt Ln muuisn in | 0194. 1951 0I  (uಐlರuanlel n4 }Jnua mr_mlsle ಖ74] prn-Jrajit ಟIm;   Masuimsos 60 , CIuOu 4rslusxtn FImsms 19Jic obrusm; ~sbussul ] O4su wuurಧ ಞiDnL Ooly mಮ e rjdma  ಹelesonnm +೨cr . Teou olIm] nns 5bl xlu ೧೬೦= 17 OLamt man om leಪyjo   ru4]ಸ1 0104 1964 OLdr . Ore2lralsa NleoJupa Lr `-2- -೫೫? <15mpra 4217656jo (1) (4೨೧೦  801 \"10 30ಲ114 7c-nbv1ವy H7 Oಖ n utLy1o Alun mrusನsan lna nuuಹjnniamoal unlebeomಗ ol JU Juನs ms3 <1smuanf Frau 4/ 12 Dinimlz) Dutamsircm1 m .s  :ಇe೨ 4ೀ1 1b] enxrn gitamumlut mal ler 9೯ mnpc ]s)aom; ಚೂlt 4limmsು ~henc1ಐ34+1 LTn'ny $ (1) tlshaslymm 406 ಎಿಂ್ಸ [S[Ibml ೧೫೫3 LT1/4. [ಗಹಸಬೀ eನ4ruuesjstuum m]sjce1   ms wconuommyao4 ~ೋo೪೧ 1೫ OaVI i s mo mml-mlc FIsಖJ0 ಖ4 34 AuuaUr Tleal 1hJ  ಝlns nಐL CRXu^ OElcram N1CTt= ಫLm ಝull  (E2iunm-lbiy ! OmTlu rnಐt mad,rqo   nt3al wue   mit-hn Aeam ಉonwEtidc 1F47 In 1Ci1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

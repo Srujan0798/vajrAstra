@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_048",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಜಣ\nmee\n(vii) ಷಷ್ಠಿ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯವಿರುವ ಪದವಿದು\n(ಹ) ಸಾವಿತ್ರಿಯು\n(B) ಸಾವಿತ್ರಿಯನ್ನು\n(C) ಸಾವಿತ್ರೆಗೆ\n(2) ಸಾವಿತ್ರಿಯಿಂದ\n\n(viii) ವಿಜ್ಞಾನಿಗಳು ತಮ್ಮ ಅಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ಸಂಶೋಧನೆಯಲ್ಲಿ ಕಳೆಯುತ್ತಾರೆ\n- ಇಲ್ಲಿರುವ ಅನ್ವರ್ಥಕ ನಾಮ\n\n(A) ಸಮಯ\n\n(8) ಸಂಶೋಧನೆ\n(C) ಕಳೆ\n\n(D) ವಿಜ್ಞಾನಿ\n\n(ix) ಕ್ರಿಕೆಟ್‌ ಆಟದಲ್ಲಿ ನೂರನೆಯ ಪಂದ್ಯದಲ್ಲಿ ನೂರು ರನ್‌ ಹೊಡೆದವರು ಅತಿ ವಿರಳ -\n\nಇಲ್ಲಿ ಇರುವ ಸಂಖ್ಯಾವಾಚಕ\n\n(ಗಿ) ನೂರನೆಯ\n(3) ಪಂದ್ಯ\n(C) ಕ್ರಿಕೆಟ್‌\n(D) ನೂರು\n(xy) ಇದು ಸರ್ವನಾಮ ಪದಕ್ಕೆ ಉದಾಹರಣೆ.\n(A) ರಮೇಶ\n(8) ನದಿ\n(೮) ಯಾರು\n(2) ಕೃಷಿಕ\n\n13/5 15 P.T.O.\n",
+      "text_nfc": "ಜಣ\nmee\n(vii) ಷಷ್ಠಿ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯವಿರುವ ಪದವಿದು\n(ಹ) ಸಾವಿತ್ರಿಯು\n(B) ಸಾವಿತ್ರಿಯನ್ನು\n(C) ಸಾವಿತ್ರೆಗೆ\n(2) ಸಾವಿತ್ರಿಯಿಂದ\n\n(viii) ವಿಜ್ಞಾನಿಗಳು ತಮ್ಮ ಅಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ಸಂಶೋಧನೆಯಲ್ಲಿ ಕಳೆಯುತ್ತಾರೆ\n- ಇಲ್ಲಿರುವ ಅನ್ವರ್ಥಕ ನಾಮ\n\n(A) ಸಮಯ\n\n(8) ಸಂಶೋಧನೆ\n(C) ಕಳೆ\n\n(D) ವಿಜ್ಞಾನಿ\n\n(ix) ಕ್ರಿಕೆಟ್‌ ಆಟದಲ್ಲಿ ನೂರನೆಯ ಪಂದ್ಯದಲ್ಲಿ ನೂರು ರನ್‌ ಹೊಡೆದವರು ಅತಿ ವಿರಳ -\n\nಇಲ್ಲಿ ಇರುವ ಸಂಖ್ಯಾವಾಚಕ\n\n(ಗಿ) ನೂರನೆಯ\n(3) ಪಂದ್ಯ\n(C) ಕ್ರಿಕೆಟ್‌\n(D) ನೂರು\n(xy) ಇದು ಸರ್ವನಾಮ ಪದಕ್ಕೆ ಉದಾಹರಣೆ.\n(A) ರಮೇಶ\n(8) ನದಿ\n(೮) ಯಾರು\n(2) ಕೃಷಿಕ\n\n13/5 15 P.T.O.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

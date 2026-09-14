@@ -1,0 +1,41 @@
+{
+  "page_id": "te_009",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+    "page_index": 27,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "112.\n\n113.\n\n114.\n\n115.\n\n(28)\n\nThe cost of depreciation generation funds is\nequal to\n\n(1) Cost of equity\n\n(2) Cost of debt\n\n(3) Overall cost of capital\n\n(4) Cost of retained earnings\n\nThe interest rate that equates the present\nvalue of the expected future cash flows to the\ninitial cost outlay is\n\n(1 ARR\n(2) NPV\n(3) IRR\n(4) Payback\nThe most important variable while\ncalculating the cost of debt is\n(1) Earnings\n(2) Dividends\n\" (3) Investment\n(4) Tax rate\n\nWhich one of the following will take place\nwhen a fair return is not realized as\n\ncapitalization ?\n\n(1) Under capitalization\n(2) Moderate capitalization\n(3) . Over capitalization\n\n(4) No capitalization\n\nThe ratio that indicates a firm’s commitment\nto meet short-term liabilities is called\n\n(1) . Proprietory ratio\n(2) ‘Turnover ratio\n(3) ROI\n\n(4)\n\nCurrent ratio\n\n116.\n\n118.\n\nary\n\n19.\n\n120.\n\nLJ/806\n\nSales value variance is the difference between\n(1)\n(2)\n(3) Standard sales and Budgeted sales\n(4) |\n\nStandard sales and Actual sales\n\nBudgeted sales and Actual sales\n\nIndustry sales and Firm’s sales\n\nWhen margin of safety is 20 percent and P/V\nratio is 60 percent, the profit will be\n\n(1) 30 percent\n\n(2) a3 percent\n(3) 12 percent\n(4) 16 percent\n\nThe difference between fixed and variable\ncost has a significance the\npreparation of\n\nspecial in\n\n‘Master budget\n\n(1)\n\n(2) Flexible budget\n(3) Cash budget\n\n(4) Functional budget\n\nThe time normally taken in replenishing\ninventory after the order has been placed is\n\n(1)\n(2)\n(3)\n\nGestation time\nOperating time\nLead time\n\n(4) Replenishing time\n\nMarket risk is measured by\n\n(1) Beta co-efficiertt\n(2) EBIT\n\n(3) Degree of leverage\n(4) Degree of freedom\n",
+      "text_nfc": "112.\n\n113.\n\n114.\n\n115.\n\n(28)\n\nThe cost of depreciation generation funds is\nequal to\n\n(1) Cost of equity\n\n(2) Cost of debt\n\n(3) Overall cost of capital\n\n(4) Cost of retained earnings\n\nThe interest rate that equates the present\nvalue of the expected future cash flows to the\ninitial cost outlay is\n\n(1 ARR\n(2) NPV\n(3) IRR\n(4) Payback\nThe most important variable while\ncalculating the cost of debt is\n(1) Earnings\n(2) Dividends\n\" (3) Investment\n(4) Tax rate\n\nWhich one of the following will take place\nwhen a fair return is not realized as\n\ncapitalization ?\n\n(1) Under capitalization\n(2) Moderate capitalization\n(3) . Over capitalization\n\n(4) No capitalization\n\nThe ratio that indicates a firm’s commitment\nto meet short-term liabilities is called\n\n(1) . Proprietory ratio\n(2) ‘Turnover ratio\n(3) ROI\n\n(4)\n\nCurrent ratio\n\n116.\n\n118.\n\nary\n\n19.\n\n120.\n\nLJ/806\n\nSales value variance is the difference between\n(1)\n(2)\n(3) Standard sales and Budgeted sales\n(4) |\n\nStandard sales and Actual sales\n\nBudgeted sales and Actual sales\n\nIndustry sales and Firm’s sales\n\nWhen margin of safety is 20 percent and P/V\nratio is 60 percent, the profit will be\n\n(1) 30 percent\n\n(2) a3 percent\n(3) 12 percent\n(4) 16 percent\n\nThe difference between fixed and variable\ncost has a significance the\npreparation of\n\nspecial in\n\n‘Master budget\n\n(1)\n\n(2) Flexible budget\n(3) Cash budget\n\n(4) Functional budget\n\nThe time normally taken in replenishing\ninventory after the order has been placed is\n\n(1)\n(2)\n(3)\n\nGestation time\nOperating time\nLead time\n\n(4) Replenishing time\n\nMarket risk is measured by\n\n(1) Beta co-efficiertt\n(2) EBIT\n\n(3) Degree of leverage\n(4) Degree of freedom\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

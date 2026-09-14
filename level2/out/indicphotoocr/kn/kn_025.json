@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_025",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0026pro_raw.pdf",
+    "page_index": 63,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "activity work sheet ਰਾਂ ಅಭ್ಯಾಸ ಹಾಳೆಗಳು\n৯৮ മുതൽ‌\n36\n1૦\n૫૦\n56",
+      "text_nfc": "activity work sheet ਰਾਂ ಅಭ್ಯಾಸ ಹಾಳೆಗಳು\n৯৮ മുതൽ‌\n36\n1૦\n૫૦\n56",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

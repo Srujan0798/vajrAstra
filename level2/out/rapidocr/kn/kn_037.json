@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_037",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0038pro_raw.pdf",
+    "page_index": 108,
+    "width": 842.0,
+    "height": 595.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        842.0,
+        595.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೧೨೦\nO--sg ೫0e a8\nಜಾನಭಕಿವೈರಾಗೃ\n೨೨೦\nಅಥ--ಕಾಯ--ಶೋರ, ಅಚೃತ--ಎಷು\n೪a - gog 0\n೬೯\nನಳನನಾಭ --ಹೊಕುಳಲಿಕಮಲವಳವನು--ಎಷು\n೫ರಾಗ--ಅಟತಾಳ\n೨.ಕೊಂಡಾಡು--ಹೊಗಳು\nಕೂಳು--ಅನೃ\nಧವಃಂದಯಕೆದಟಡಯನಡಲೊಳಿದು\n೩ಮಾನಸ --ಮನಸು\nಪೃಮಃೀಂದಯಕೆಕಾಲೈರಗುತಲಹಿಮರುಳ\nIಪl\n++ \nOsyEee eeCe Eac gaEg\nApog epeeop goog boEc\nಸಸೃದಂಕುಳದು--ಕೇಳೆಂಬಠಾಎನಲ\n&pg .o Egogg pogg a\no pyopfg Eg eg oog\nಕುಸಂಸಿಬನುಗುಚಾಂತೃವಂಲಾಲಸುತ\nದುಸರದಲೆತ ಚದುರಂಗ ಪಗಡೆಯನುಉದ\nಯಾಸದವರೆಗಾಡುತಮಲೇಳದಹಿಮರುಳಿ\nIO1l \nಸುರಭಿಸೇವಂತಿಮಲಗಿವೊಳಿಬಕುಳಪಾ\nog . coyg gop eapog og\nಪಂಮಳದಪಭೆತೆನಿಹಂಪಾದಕಪ೯ಸುತ\nO ggeeagpgep oeappe\nಬಂದಕೆಂಜಾಜಿಪಷಂಗಳಂವನತೆಯರ\nಸಂಿಮುಡಗಿಮುಡಸಿಕುಂತಳಿಸೌರಭವಕಂಡು\nಹರುಷದಂರೋವುಪುಳಕಿತನಾಗುತಡಗಡಗಿ\nಪರಮ ಸಂತೋಷಮಂನ ಪಡೆಯುತಹಿಮರುಳೆ--1೨ಗ\nಶತಲಕ ಕೋಟ ಪಣತೆಗಳಲಿಬೆಳಗಗೋ\nಘೃತೃತೈಲ ದೀಪವಚೃತನಲಯದಲಿಭಾಗ\nವತನೃತೃವಂ-ನೋಡುತತಶಯದಹಂದನ",
+      "text_nfc": "೧೨೦\nO--sg ೫0e a8\nಜಾನಭಕಿವೈರಾಗೃ\n೨೨೦\nಅಥ--ಕಾಯ--ಶೋರ, ಅಚೃತ--ಎಷು\n೪a - gog 0\n೬೯\nನಳನನಾಭ --ಹೊಕುಳಲಿಕಮಲವಳವನು--ಎಷು\n೫ರಾಗ--ಅಟತಾಳ\n೨.ಕೊಂಡಾಡು--ಹೊಗಳು\nಕೂಳು--ಅನೃ\nಧವಃಂದಯಕೆದಟಡಯನಡಲೊಳಿದು\n೩ಮಾನಸ --ಮನಸು\nಪೃಮಃೀಂದಯಕೆಕಾಲೈರಗುತಲಹಿಮರುಳ\nIಪl\n++ \nOsyEee eeCe Eac gaEg\nApog epeeop goog boEc\nಸಸೃದಂಕುಳದು--ಕೇಳೆಂಬಠಾಎನಲ\n&pg .o Egogg pogg a\no pyopfg Eg eg oog\nಕುಸಂಸಿಬನುಗುಚಾಂತೃವಂಲಾಲಸುತ\nದುಸರದಲೆತ ಚದುರಂಗ ಪಗಡೆಯನುಉದ\nಯಾಸದವರೆಗಾಡುತಮಲೇಳದಹಿಮರುಳಿ\nIO1l \nಸುರಭಿಸೇವಂತಿಮಲಗಿವೊಳಿಬಕುಳಪಾ\nog . coyg gop eapog og\nಪಂಮಳದಪಭೆತೆನಿಹಂಪಾದಕಪ೯ಸುತ\nO ggeeagpgep oeappe\nಬಂದಕೆಂಜಾಜಿಪಷಂಗಳಂವನತೆಯರ\nಸಂಿಮುಡಗಿಮುಡಸಿಕುಂತಳಿಸೌರಭವಕಂಡು\nಹರುಷದಂರೋವುಪುಳಕಿತನಾಗುತಡಗಡಗಿ\nಪರಮ ಸಂತೋಷಮಂನ ಪಡೆಯುತಹಿಮರುಳೆ--1೨ಗ\nಶತಲಕ ಕೋಟ ಪಣತೆಗಳಲಿಬೆಳಗಗೋ\nಘೃತೃತೈಲ ದೀಪವಚೃತನಲಯದಲಿಭಾಗ\nವತನೃತೃವಂ-ನೋಡುತತಶಯದಹಂದನ",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

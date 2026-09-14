@@ -1,0 +1,41 @@
+{
+  "page_id": "te_015",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0015pro_raw.pdf",
+    "page_index": 155,
+    "width": 1644,
+    "height": 2212
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        2212
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "GD) మహారాష్ట్ర రాష్ట్ర PEGI నిర్మితి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, పుణె\nశ్‌\n\nmegs विज्ञान आणि तंत्रज्ञान इयत्ता दहावी भाग -१ (तेलुगु माध्यम)\n\nసత్ర వ కో నై |\n\nగా\n",
+      "text_nfc": "GD) మహారాష్ట్ర రాష్ట్ర PEGI నిర్మితి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, పుణె\nశ్‌\n\nmegs विज्ञान आणि तंत्रज्ञान इयत्ता दहावी भाग -१ (तेलुगु माध्यम)\n\nసత్ర వ కో నై |\n\nగా\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_048",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+    "page_index": 65,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "TIVIT, font 3it TR\n51\nchlcd TCT 2\naTfITEPTRE d RT N Horayuf gifa\n3TgR6ct Fidlcet\n1784\nqHT ufrifech HHISET chT T87\n3-itat FTdlcet\n1810 chl TRICh\nchifett Hchuit * titend 3it afieT STTTT 4 8,000 afiria Ucha feht\n1838\nTH fyrty ERT 3741h t sleit afurtal shl 37ef CTIFT\n1877\nSTIRIST chffeH * aTch t 37fTetal t Uoh 3777 chi Yohlfd fohel\n1886\nEFETUT STRA * 37fTeiat t 77e14 ufyumfyaT chiffechl chT TeTH 31ch\n1888\nvfyumfhaT sisghl ChT TeTH 370h\nairtait Fidlost\n1965-66\nst.et. HChR * sise7 ufqureht iis sTs47 giyurhche TeiReRT\nYohlferd chl\n3TR AIGT ( GRTATT 100 a 150 Toat 1)\n1. STRITCh ifderfueh TRI N fleycheil 4 374147 t YHTOTT chl\nzaf chifgigi EEUT t TRI t YHIUT # 7 YHIUT fahdt\nfeTT #?\n2. H611477 4 TarTe 3TFTCTRTUTT chl qu7 chifgigi\n3. HIHRI CrTT 4 vilar chT TIfTHTOT sfdENtChR dt chrd #?\n4. visa HRGR (ad 3) chi F7 Tt aleit aRegant cht goil TT\nTITa (ud 8) cht aeganl 7 chifggi 3714ch1 CRII HHFdIY 3ik\n3THH fals tot à?\n5. afuctaRnfEret cht ghe THRT3TT chl yeit GHIETI",
+      "text_nfc": "TIVIT, font 3it TR\n51\nchlcd TCT 2\naTfITEPTRE d RT N Horayuf gifa\n3TgR6ct Fidlcet\n1784\nqHT ufrifech HHISET chT T87\n3-itat FTdlcet\n1810 chl TRICh\nchifett Hchuit * titend 3it afieT STTTT 4 8,000 afiria Ucha feht\n1838\nTH fyrty ERT 3741h t sleit afurtal shl 37ef CTIFT\n1877\nSTIRIST chffeH * aTch t 37fTetal t Uoh 3777 chi Yohlfd fohel\n1886\nEFETUT STRA * 37fTeiat t 77e14 ufyumfyaT chiffechl chT TeTH 31ch\n1888\nvfyumfhaT sisghl ChT TeTH 370h\nairtait Fidlost\n1965-66\nst.et. HChR * sise7 ufqureht iis sTs47 giyurhche TeiReRT\nYohlferd chl\n3TR AIGT ( GRTATT 100 a 150 Toat 1)\n1. STRITCh ifderfueh TRI N fleycheil 4 374147 t YHTOTT chl\nzaf chifgigi EEUT t TRI t YHIUT # 7 YHIUT fahdt\nfeTT #?\n2. H611477 4 TarTe 3TFTCTRTUTT chl qu7 chifgigi\n3. HIHRI CrTT 4 vilar chT TIfTHTOT sfdENtChR dt chrd #?\n4. visa HRGR (ad 3) chi F7 Tt aleit aRegant cht goil TT\nTITa (ud 8) cht aeganl 7 chifggi 3714ch1 CRII HHFdIY 3ik\n3THH fals tot à?\n5. afuctaRnfEret cht ghe THRT3TT chl yeit GHIETI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

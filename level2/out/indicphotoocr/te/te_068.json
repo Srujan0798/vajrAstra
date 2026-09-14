@@ -1,0 +1,41 @@
+{
+  "page_id": "te_068",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0068pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "050\nਨੇ અમર\nகஙைக் llas అక్షియ\n੭੯੭ ளுஆம் ૩ ઁ૧   ਤਾਪਨ gge ശ്രീ ੧੨੪ ૐ નમ શિવાય પ્લાસ uks\np\n૭૦૩ lay ક ખ્ય ૬ সৎ ૐ નમ શિવાય શ jusal\nકરી h smas bel slas ੦੯ 53 ૭૨ ૭૨૯૫ ৩য় uks fi પ્રણ lael ૐ નમ શિવાય 1144 ੦੬ ਦੀ\np ਸ ਸ\nbel શ ਸ তৎঁরকা  bel 2પ h ੩੩੧ bel ளுஆம் 0 ਤੇ ਤੇ કુશ 93 ૭૨ ૭૨૯૪ ৩য়\ng   વડે 901511 ੭ પ્પ h fl\nகுணம் જી ৃ১ ન ਮਾਰਾਈ ૬ ૭૨૬૫ ওয়াও h তৎপ  નવા   ਮਾਨਾਈ ૬ ਚਾਂ ਦੀ bil ൧൯൯൪\n  23 உந்தவ\n૭૦૦૦ ਮ ન ਕਾਰਿਕ மும்பூத\n૭રી ન ਸਿੰਘ   ਸਿੰਘ সংগরী   ક ਨੇ ૧૭૨૦૦ ੧ કર ક முட்\n੭੯੭ പം gml தம்பு r ਗਿਆ gsuw 3 વાખર ૬ ૭ ૬ நோகப்படியை\n੩ ૐ তরু   154 1398 ਦੀ\n౮౯ 59 ૭૨૦ blu\nlas\nશ્રી bs ਤਪਰੁੱ 091319 ૬ bai ૭૨૦૩ তেতয় ম্পন্ন r ulsvis ਵੀ 5943 griais\nਮ੝ bs ਨੂੰ lo ਸੀ ક big jd omls ભાગ ૬ jgswl ussuis\nr\nશ્રી bs 5ਘ 05 ਮਾਰਾ ક bils ੭੬ bog r ટ્ર ૯૨૧ striais ૐ 5 jlas jnbw ੭ டயப்பட்டி\nશ્રી bs ક 05 ૭૭ oti ૬ ਦੇ ૬ 219 ਸਾਈਆ\nssist\n੧੪ ફઝર ssist ન ੧੧ ঞ১\nఒమి r ਕਾਰਾ   பசு ભ ਦੀ la ਸੀ 14449 ൣ ਨੰਃ ૬ யில் ਤੇ\nશ્રી ૬ ઉ assist ન கும்ங்  \nbj ম 992 ਮੰਤ ৩৹\n  ન કુલ ન ભય\n੭੭ 95000 ૭૬૭ કાર ভৱ jails કાંક 2432 કુલમ ૭૭૭૭\n੧੫\nશ્રી 53335 ਸਭੇ குரம் lms ઝ્ર uj19 05 மீரச் lino r ੪੪\nશ્રી 55335   ਨੇ பர்ம ભ ૬ ਨਾਂਘ ૦૨ ક তৃণমূল ન કારણ\nશ્રી 5335   ૬ ਸੀ\n21",
+      "text_nfc": "050\nਨੇ અમર\nகஙைக் llas అక్షియ\n੭੯੭ ளுஆம் ૩ ઁ૧   ਤਾਪਨ gge ശ്രീ ੧੨੪ ૐ નમ શિવાય પ્લાસ uks\np\n૭૦૩ lay ક ખ્ય ૬ সৎ ૐ નમ શિવાય શ jusal\nકરી h smas bel slas ੦੯ 53 ૭૨ ૭૨૯૫ ৩য় uks fi પ્રણ lael ૐ નમ શિવાય 1144 ੦੬ ਦੀ\np ਸ ਸ\nbel શ ਸ তৎঁরকা  bel 2પ h ੩੩੧ bel ளுஆம் 0 ਤੇ ਤੇ કુશ 93 ૭૨ ૭૨૯૪ ৩য়\ng   વડે 901511 ੭ પ્પ h fl\nகுணம் જી ৃ১ ન ਮਾਰਾਈ ૬ ૭૨૬૫ ওয়াও h তৎপ  નવા   ਮਾਨਾਈ ૬ ਚਾਂ ਦੀ bil ൧൯൯൪\n  23 உந்தவ\n૭૦૦૦ ਮ ન ਕਾਰਿਕ மும்பூத\n૭રી ન ਸਿੰਘ   ਸਿੰਘ সংগরী   ક ਨੇ ૧૭૨૦૦ ੧ કર ક முட்\n੭੯੭ പം gml தம்பு r ਗਿਆ gsuw 3 વાખર ૬ ૭ ૬ நோகப்படியை\n੩ ૐ তরু   154 1398 ਦੀ\n౮౯ 59 ૭૨૦ blu\nlas\nશ્રી bs ਤਪਰੁੱ 091319 ૬ bai ૭૨૦૩ তেতয় ম্পন্ন r ulsvis ਵੀ 5943 griais\nਮ੝ bs ਨੂੰ lo ਸੀ ક big jd omls ભાગ ૬ jgswl ussuis\nr\nશ્રી bs 5ਘ 05 ਮਾਰਾ ક bils ੭੬ bog r ટ્ર ૯૨૧ striais ૐ 5 jlas jnbw ੭ டயப்பட்டி\nશ્રી bs ક 05 ૭૭ oti ૬ ਦੇ ૬ 219 ਸਾਈਆ\nssist\n੧੪ ફઝર ssist ન ੧੧ ঞ১\nఒమి r ਕਾਰਾ   பசு ભ ਦੀ la ਸੀ 14449 ൣ ਨੰਃ ૬ யில் ਤੇ\nશ્રી ૬ ઉ assist ન கும்ங்  \nbj ম 992 ਮੰਤ ৩৹\n  ન કુલ ન ભય\n੭੭ 95000 ૭૬૭ કાર ভৱ jails કાંક 2432 કુલમ ૭૭૭૭\n੧੫\nશ્રી 53335 ਸਭੇ குரம் lms ઝ્ર uj19 05 மீரச் lino r ੪੪\nશ્રી 55335   ਨੇ பர்ம ભ ૬ ਨਾਂਘ ૦૨ ક তৃণমূল ન કારણ\nશ્રી 5335   ૬ ਸੀ\n21",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

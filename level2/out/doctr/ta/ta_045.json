@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_045",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 11,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HisH HHEI\n3114 SeTHE AT feheft 3TRI HTEZH fT HORIdT à 3TRI Jari qfeTeIT i Cft N dach JHCRT Uohlad\nChIfTy 377 Jart yferIl TR da ferfayi\nRGIVCIT d fey\na\na a TTE SarTz chisent chT PRITT chrch 3714 vfia-oid i CR N 377 sft VIT-HHS Hohd d\nEHRT GRICRUT\nhttps://youtu.be/gKvAOGtZY11?si-379zHAXMzeosnm7L\ndf failse 477\nhttps://youtu.be/T93aUAljHkl?feature=shhared\nC\nCORO\nC\n2\n-\npe\nO\nno\nReprint 2026-27\nS\nE\n127\nM",
+      "text_nfc": "HisH HHEI\n3114 SeTHE AT feheft 3TRI HTEZH fT HORIdT à 3TRI Jari qfeTeIT i Cft N dach JHCRT Uohlad\nChIfTy 377 Jart yferIl TR da ferfayi\nRGIVCIT d fey\na\na a TTE SarTz chisent chT PRITT chrch 3714 vfia-oid i CR N 377 sft VIT-HHS Hohd d\nEHRT GRICRUT\nhttps://youtu.be/gKvAOGtZY11?si-379zHAXMzeosnm7L\ndf failse 477\nhttps://youtu.be/T93aUAljHkl?feature=shhared\nC\nCORO\nC\n2\n-\npe\nO\nno\nReprint 2026-27\nS\nE\n127\nM",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

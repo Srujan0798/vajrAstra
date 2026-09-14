@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_007",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0008pro_raw.png",
+    "page_index": 0,
+    "width": 371,
+    "height": 520
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        371,
+        520
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4 -- ്പാപപകക\n്ഡപാാപാാപപപ\nSo; camgim evan cose, eneciaaDye omiuafescr® पीना\nuy (0 a estos}\nune () ting nd adept Goverment on i be aii yh ort ie\nth etal he Gael igh te, rd inte of ea owes and सकी n\n\npe oolng ely eating tenn (incig ler of edi an les\nrain) eed क ee ner ton 3 din rest wih eine of\npoche wade ab लगा (2) of ection 5 नर oot en ined ta, sabe we\novis of is econ, ve 1० पर pce fe om a somes cen he\nind ower and irae nd sing ton oh te ad a, 26 Cony\nmaces fy of tue of emnasmqegers नेक कह (0) नी\noomtshaleny कक न कक कि मर\nपर caseeiahe exfealgameyo aystocie दूरी one\ncuect rutecst “clawiincomi go ailageact a, gsseiten\nSojetewtacteny eee nage कर न 8G\nunasmget नि catoasairneon\nGerood नजर oy eas ajstocale नीली  ്\nemananaty)\n\nGoong ajtowmst seaute cigelonym वचन semaine\nooutearpet masiiearaisieit Cooanjeea om «Scat meine\nडाक aigjuond stay cveghsleol flecant ump] सा. ea tote\nकिक eonaaies Emp omemsleel) बडी gemash 30)\nकि cuatgfcospe. most @iuaote mig aystonc नव\nसर eorocs ajstoorsd mpescenme aystoais at\ncqoscomme eereen\\, cuntoonfst efawinieane eine सफ़दर\nisoodt wes) neteeneant cay 72 (od) yan eaigien. एम्स\nBo लन्ड wind cootgpas come ob cua] 7 () wuasce\nonumtoadfid casininase  ന്  ് लि\nanemncigypen cvansiyomet “osqy epstecdh mmomacte weal\nwataacneye eatnie 741) unos eomartoanit merutorse\nchastseasactncteeyronisoe दर! og फालो eAonsiemeoes\n",
+      "text_nfc": "4 -- ്പാപപകക\n്ഡപാാപാാപപപ\nSo; camgim evan cose, eneciaaDye omiuafescr® पीना\nuy (0 a estos}\nune () ting nd adept Goverment on i be aii yh ort ie\nth etal he Gael igh te, rd inte of ea owes and सकी n\n\npe oolng ely eating tenn (incig ler of edi an les\nrain) eed क ee ner ton 3 din rest wih eine of\npoche wade ab लगा (2) of ection 5 नर oot en ined ta, sabe we\novis of is econ, ve 1० पर pce fe om a somes cen he\nind ower and irae nd sing ton oh te ad a, 26 Cony\nmaces fy of tue of emnasmqegers नेक कह (0) नी\noomtshaleny कक न कक कि मर\nपर caseeiahe exfealgameyo aystocie दूरी one\ncuect rutecst “clawiincomi go ailageact a, gsseiten\nSojetewtacteny eee nage कर न 8G\nunasmget नि catoasairneon\nGerood नजर oy eas ajstocale नीली  ്\nemananaty)\n\nGoong ajtowmst seaute cigelonym वचन semaine\nooutearpet masiiearaisieit Cooanjeea om «Scat meine\nडाक aigjuond stay cveghsleol flecant ump] सा. ea tote\nकिक eonaaies Emp omemsleel) बडी gemash 30)\nकि cuatgfcospe. most @iuaote mig aystonc नव\nसर eorocs ajstoorsd mpescenme aystoais at\ncqoscomme eereen\\, cuntoonfst efawinieane eine सफ़दर\nisoodt wes) neteeneant cay 72 (od) yan eaigien. एम्स\nBo लन्ड wind cootgpas come ob cua] 7 () wuasce\nonumtoadfid casininase  ന്  ് लि\nanemncigypen cvansiyomet “osqy epstecdh mmomacte weal\nwataacneye eatnie 741) unos eomartoanit merutorse\nchastseasactncteeyronisoe दर! og फालो eAonsiemeoes\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_091",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0025pro_raw.pdf",
+    "page_index": 0,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "©\nΓT\nG\n9\n6\nதமிழ்நாடு\nஅரசு\nமேல்நி\nn00\nஇரண்ட\nாம்\nஆண்டு\n@\nO\nதாவரவியல்\nதமிழ்நாடு\nஅரசு\nவிலையில்லாப் பாடநூால்\nவழங்கும் திட்டத்தின் \nகீழ்\n1$ாரிடுழுமு\nபள்ளிக்\nகல்வித்துறை\nதீண்டாமை மனிதநேயமற்ற\nசெயலும்\nபெருங்குற்றமும் \nஆகும்\nTN_GOVT_BOTANY_XII_Page I-VIIl Front.indd 1\n©\n31/12/2022\n13:59:34",
+      "text_nfc": "©\nΓT\nG\n9\n6\nதமிழ்நாடு\nஅரசு\nமேல்நி\nn00\nஇரண்ட\nாம்\nஆண்டு\n@\nO\nதாவரவியல்\nதமிழ்நாடு\nஅரசு\nவிலையில்லாப் பாடநூால்\nவழங்கும் திட்டத்தின் \nகீழ்\n1$ாரிடுழுமு\nபள்ளிக்\nகல்வித்துறை\nதீண்டாமை மனிதநேயமற்ற\nசெயலும்\nபெருங்குற்றமும் \nஆகும்\nTN_GOVT_BOTANY_XII_Page I-VIIl Front.indd 1\n©\n31/12/2022\n13:59:34",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

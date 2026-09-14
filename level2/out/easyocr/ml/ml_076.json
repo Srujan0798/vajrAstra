@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_076",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+    "page_index": 34,
+    "width": 881,
+    "height": 1340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        881,
+        1340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6J %. ೧0 .   @)ಟ0\n99\n(೦ 0ಿ351೨/19 QCU00   ದ,912J1eJo   ಣello 6) ೨I@y ವಿ@ 15BJm (31೧J15(@10) 6ಹ ೨ ೭ ಯ ೧/೧500ಠ . @೧) @೧೦@೧1೦ 610) JೀI0o 007 (0 0) ]. ೧UBJ೨೧Jo ೨ಇ೧ 1೨]101.om  1ಹ0 @eJ೧೨ ಣಣ ೮ಐ೫ 4310 $ 1೦ '1c3bm10 0 ೧೦ 1: -20 @೨m೨೯d ? 30D ೨)36n5 QJeJ1@)   ದಿgೂ |?೨೨೧೦ ೧i೧? m1೯. (306 ೧)೨೦}   001 .m36 5m ೧೦೧ (0 ೨mm೦ . ೧ J,ಖIm೨@ c0) ) (06೨ ೯ ?9Jo 0) 10 ಹಞm 63 @0 (n6J ೧ IJ: 1ಣo ೦೦ 17 (ಖ' ! 50 ೨.0: _೧೦೧3೦೦ ಖm1 ೧ %೫o   ೧Imಹ೨@   0S503 0 @ 0 ? ೧8 ೧೦೧ I19ಇ  :~(೧1೦G೧) @ ಝ೦೨೧೦m ! ಣm 1 ೧I1osQ 010) ? @e ಣ @QGQಯ1.o 3o . QUB )QJ 0o   ೧ I@೧y @o(m೨ಯ6 ] ೧Jಠ೦ ) 10 10 ವm10 ೧I8 ೧i೧ I12ಇ  :~೫೧I1os ೨೧೧೨ 0;0  18d58. @೧,ons 6oJ3 ೧೦ @'o   (305010 ಉJ8 ೧63೧೪ ೭೫೬ ೧G8J1. 6c 36 2 ಣ೦೨m 6೧೨೧ ೧ I@ 1.603೨ rb (G1 ? 1ಯ೨068 5)c 0 '@ 1, @m@ @@ ೧J೯೦೦   60I1. ೧Jm' ( m1. 63 m೨o ಃಂ೬ I@u 6.130 m@ 1 8೦ ] ೨) (೨೦]ಯ೧ಹ@ 89 ೩೯RJ\", ವಿ೧ (010) 5 0} Ql0Jಹ6 .010)DR ] 1ಯo 6೧ 13513 ಶಳ, 6 (0} 2/08 m(g1೧0 16 .ಊ೧೧ ಉ1(@ಠ 1q ೦ ೧J೨603 ? ೨1 ದ78J6no 6) ಊ J6 ೨|ಣ೦೨೧,೧ಚ  ೨6 ದ5 010m1m (30 m 3mu 100 ೧2J @6 m 6 (07 mJ೯m ೧. 15 ೧Js3Gಇo ೧J3503 1೨/1 S'1s ೫m | G೧@6{39 ೧ IO 1.b) bm6೦m೦ ? (19 ೦ಯ 6nಕ (31 6u 1m 1ceJ., ಊ1೨@ 1ಡel.: (31(D] ೧ ]cio @ 1ಡel೨, ಹe/1ಡ೧೧೨05m } @@ 1cela ೧೧J1o5@@೨ G೧Isoom   ೧) ಹಿ೨ 2] 603 .70  ೧ I೧3'.10 G1) ೫ ೧Sl %   ೧೧) 6013 5(7ಡ@? (310 6013 6m 6(0 @e3 s೧ೊo 8536(0) @ಯ ೨ ] IO19 J1ಯb 6mo ಖ ೧ 15 ೧೬ (B1o 0) 1೧0 ಝ೧೦೧ J೨ಯ } (೧0 ೧ J@) TT೨m ]@o @೦@@ ) / 6c ೨ 2{503 @ 010) G. I@ |0 o13m 1als 'Uಂ @?Ioo . DJel, ೧/9 7೨0 ], @10 ?/8 ೨70503 ೨3l )o ಖ೧J1 ೨mp@o m ೧ 2IQ)1 2 |೧ ಹ,೨೬c0 6m)o 6) ವಂ ೨] 503 mo ೧Jely o3 m೦, 1319 Cನು) 30030 6Im1 ( ವ೭03೦1 500 @2J0 ೧J(01೨, 6 > I5೧J5 6o ?Ia 2Jm೨ 3 / 2) 2 ೧) 1o 7(mo ಖ೧I1o$ 6 0 Gal )$ Lo ಯ೧೧Jo G೧ J0 ;@ Do ೧I 0 ಹೊಯ 1oBJm3 ೧-Iಟ) m೦ >/122 @  (310 . IIS6 010)  ೧Iely ?೫೨೨೧೧೦೦ @೧1D o . ಖ60 BJ3o  QJeyನbl;}",
+      "text_nfc": "6J %. ೧0 .   @)ಟ0\n99\n(೦ 0ಿ351೨/19 QCU00   ದ,912J1eJo   ಣello 6) ೨I@y ವಿ@ 15BJm (31೧J15(@10) 6ಹ ೨ ೭ ಯ ೧/೧500ಠ . @೧) @೧೦@೧1೦ 610) JೀI0o 007 (0 0) ]. ೧UBJ೨೧Jo ೨ಇ೧ 1೨]101.om  1ಹ0 @eJ೧೨ ಣಣ ೮ಐ೫ 4310 $ 1೦ '1c3bm10 0 ೧೦ 1: -20 @೨m೨೯d ? 30D ೨)36n5 QJeJ1@)   ದಿgೂ |?೨೨೧೦ ೧i೧? m1೯. (306 ೧)೨೦}   001 .m36 5m ೧೦೧ (0 ೨mm೦ . ೧ J,ಖIm೨@ c0) ) (06೨ ೯ ?9Jo 0) 10 ಹಞm 63 @0 (n6J ೧ IJ: 1ಣo ೦೦ 17 (ಖ' ! 50 ೨.0: _೧೦೧3೦೦ ಖm1 ೧ %೫o   ೧Imಹ೨@   0S503 0 @ 0 ? ೧8 ೧೦೧ I19ಇ  :~(೧1೦G೧) @ ಝ೦೨೧೦m ! ಣm 1 ೧I1osQ 010) ? @e ಣ @QGQಯ1.o 3o . QUB )QJ 0o   ೧ I@೧y @o(m೨ಯ6 ] ೧Jಠ೦ ) 10 10 ವm10 ೧I8 ೧i೧ I12ಇ  :~೫೧I1os ೨೧೧೨ 0;0  18d58. @೧,ons 6oJ3 ೧೦ @'o   (305010 ಉJ8 ೧63೧೪ ೭೫೬ ೧G8J1. 6c 36 2 ಣ೦೨m 6೧೨೧ ೧ I@ 1.603೨ rb (G1 ? 1ಯ೨068 5)c 0 '@ 1, @m@ @@ ೧J೯೦೦   60I1. ೧Jm' ( m1. 63 m೨o ಃಂ೬ I@u 6.130 m@ 1 8೦ ] ೨) (೨೦]ಯ೧ಹ@ 89 ೩೯RJ\", ವಿ೧ (010) 5 0} Ql0Jಹ6 .010)DR ] 1ಯo 6೧ 13513 ಶಳ, 6 (0} 2/08 m(g1೧0 16 .ಊ೧೧ ಉ1(@ಠ 1q ೦ ೧J೨603 ? ೨1 ದ78J6no 6) ಊ J6 ೨|ಣ೦೨೧,೧ಚ  ೨6 ದ5 010m1m (30 m 3mu 100 ೧2J @6 m 6 (07 mJ೯m ೧. 15 ೧Js3Gಇo ೧J3503 1೨/1 S'1s ೫m | G೧@6{39 ೧ IO 1.b) bm6೦m೦ ? (19 ೦ಯ 6nಕ (31 6u 1m 1ceJ., ಊ1೨@ 1ಡel.: (31(D] ೧ ]cio @ 1ಡel೨, ಹe/1ಡ೧೧೨05m } @@ 1cela ೧೧J1o5@@೨ G೧Isoom   ೧) ಹಿ೨ 2] 603 .70  ೧ I೧3'.10 G1) ೫ ೧Sl %   ೧೧) 6013 5(7ಡ@? (310 6013 6m 6(0 @e3 s೧ೊo 8536(0) @ಯ ೨ ] IO19 J1ಯb 6mo ಖ ೧ 15 ೧೬ (B1o 0) 1೧0 ಝ೧೦೧ J೨ಯ } (೧0 ೧ J@) TT೨m ]@o @೦@@ ) / 6c ೨ 2{503 @ 010) G. I@ |0 o13m 1als 'Uಂ @?Ioo . DJel, ೧/9 7೨0 ], @10 ?/8 ೨70503 ೨3l )o ಖ೧J1 ೨mp@o m ೧ 2IQ)1 2 |೧ ಹ,೨೬c0 6m)o 6) ವಂ ೨] 503 mo ೧Jely o3 m೦, 1319 Cನು) 30030 6Im1 ( ವ೭03೦1 500 @2J0 ೧J(01೨, 6 > I5೧J5 6o ?Ia 2Jm೨ 3 / 2) 2 ೧) 1o 7(mo ಖ೧I1o$ 6 0 Gal )$ Lo ಯ೧೧Jo G೧ J0 ;@ Do ೧I 0 ಹೊಯ 1oBJm3 ೧-Iಟ) m೦ >/122 @  (310 . IIS6 010)  ೧Iely ?೫೨೨೧೧೦೦ @೧1D o . ಖ60 BJ3o  QJeyನbl;}",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_045",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0045pro_raw.pdf",
+    "page_index": 147,
+    "width": 1658,
+    "height": 2209
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2209
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "=\n40%<\n>oॅfo% D%कु ळे॰osDलs १६je >०Boi ळे॰ ६5\" $ %8४४ॅ %op, २)e3-411 0०४. महाराष्ट्र 5 निर्मितीा गज्य पाटगपस्तरः तेलुगु परिसर अभ्यास ( भाग इयत्ता पाचवी र ५७.०० अभ्यासमरम ' संशाधन मंरन\n)))",
+      "text_nfc": "=\n40%<\n>oॅfo% D%कु ळे॰osDलs १६je >०Boi ळे॰ ६5\" $ %8४४ॅ %op, २)e3-411 0०४. महाराष्ट्र 5 निर्मितीा गज्य पाटगपस्तरः तेलुगु परिसर अभ्यास ( भाग इयत्ता पाचवी र ५७.०० अभ्यासमरम ' संशाधन मंरन\n)))",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

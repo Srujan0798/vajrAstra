@@ -1,0 +1,41 @@
+{
+  "page_id": "te_076",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0076pro_raw.pdf",
+    "page_index": 0,
+    "width": 1810,
+    "height": 2450
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1810,
+        2450
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "हिंदी\nलोकवाणी\nनौवीं कक्षा\n૦ ઠ\nഎല്ലാവർക്കും 00000\n  മതതശ്ശി മാവി ମଠ\n୦୭ photography মহাবজৃতি ৩১\n૭ ૮૮ ০০০০",
+      "text_nfc": "हिंदी\nलोकवाणी\nनौवीं कक्षा\n૦ ઠ\nഎല്ലാവർക്കും 00000\n  മതതശ്ശി മാവി ମଠ\n୦୭ photography মহাবজৃতি ৩১\n૭ ૮૮ ০০০০",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

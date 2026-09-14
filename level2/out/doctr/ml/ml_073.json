@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_073",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+    "page_index": 141,
+    "width": 984,
+    "height": 1612
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        984,
+        1612
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "138-\nmlb@scogejo\"a.joo'a.soowloaotoaue, molejes ogjaauessioi.09olagd\nBn m0o muadsoa.lnlcgjocol Quolepenano Oaogjoneg\",\nmycbesmaab mildsonaodio\n090800000303805 ogoleig\n8gfo00 muoablonjau/lasoelmanpl 8100@0061010 eo.0wopmolod\naolano caubasugadlop'. omaeo 82006880o080 goianal 00\nalleianslos 603 20J80009)a10 (STO Qaooflom 200 01092\no0gOolo 0l0o21o60.000.80) allsmolobai0o 000020007\n0006/000000 G0ORJOD cogsmobGeai0b 0l00102/500.\nm1\n6000 mococuvoa.0aie-mm.sabl01 mpo@loailudogpamagy 00mD\noleid B 03001.0920000.0900 20211.8000,9800 0@@@looaoal\n0las6200 soolcgiojont an0aejad moc.armmpos10lo.de, 00 a\n& 2006808100 aalaogmao.adoplsqgae aida.ot's@sengjod\naidjogeioalole 003000 anelojo soRJ. (106861600 GOGQ\nallgyossmalaoas 20020, 02jo00, mue0alo0o 00016390\nGogjpabldnggy/sm omg8ogej0o 0p02200sagoo ndom\nlaammosm\", 0J 3a8id50n.ag9 olbajapommolas QIC\nBam A1060 ag00 eloejojo muodopcDapojs, 0agio myonl\nplmojo m001olso. 60a0olo a15 Q98l0106000 08\n68910 600J0m 000000000 aoagismo ag (0091060008) 1\nBomomsm G02100380000 0008000/200 amol (0 0J80001\nhoogojomled Clmo alozoamo aapaoboango (GYC Glelatiom\n0003 mogjeomoe.\n0U05-66.22.90800 0010j000 €\n650lo\nnuoboneo mleb.asomlolaaalogim aooumlgy nueoaloo\nmupanlcdlrodonlamp ojjal.asall.89000 egasoible-desnag 22000\nQ65 ay@roploosm.\ncoa0l0olss muoealg goaumun@c.dsolgjaa agom\ncpesmco@edleoto 00e00m0b ealigmlasismisan. mamm\nGOG010 epalgy 608 mconst.Daim.msc, Ge10600J03JaJoeea\n0160101000001 maglasgsomg dmaDajjagjoom 63.080J0001620\n66m00, a0081000 mboucobolosolmnin eDo 0 QJO\nMamoloobo @00000.00.0010001 Tualco-armpoGd m00l80",
+      "text_nfc": "138-\nmlb@scogejo\"a.joo'a.soowloaotoaue, molejes ogjaauessioi.09olagd\nBn m0o muadsoa.lnlcgjocol Quolepenano Oaogjoneg\",\nmycbesmaab mildsonaodio\n090800000303805 ogoleig\n8gfo00 muoablonjau/lasoelmanpl 8100@0061010 eo.0wopmolod\naolano caubasugadlop'. omaeo 82006880o080 goianal 00\nalleianslos 603 20J80009)a10 (STO Qaooflom 200 01092\no0gOolo 0l0o21o60.000.80) allsmolobai0o 000020007\n0006/000000 G0ORJOD cogsmobGeai0b 0l00102/500.\nm1\n6000 mococuvoa.0aie-mm.sabl01 mpo@loailudogpamagy 00mD\noleid B 03001.0920000.0900 20211.8000,9800 0@@@looaoal\n0las6200 soolcgiojont an0aejad moc.armmpos10lo.de, 00 a\n& 2006808100 aalaogmao.adoplsqgae aida.ot's@sengjod\naidjogeioalole 003000 anelojo soRJ. (106861600 GOGQ\nallgyossmalaoas 20020, 02jo00, mue0alo0o 00016390\nGogjpabldnggy/sm omg8ogej0o 0p02200sagoo ndom\nlaammosm\", 0J 3a8id50n.ag9 olbajapommolas QIC\nBam A1060 ag00 eloejojo muodopcDapojs, 0agio myonl\nplmojo m001olso. 60a0olo a15 Q98l0106000 08\n68910 600J0m 000000000 aoagismo ag (0091060008) 1\nBomomsm G02100380000 0008000/200 amol (0 0J80001\nhoogojomled Clmo alozoamo aapaoboango (GYC Glelatiom\n0003 mogjeomoe.\n0U05-66.22.90800 0010j000 €\n650lo\nnuoboneo mleb.asomlolaaalogim aooumlgy nueoaloo\nmupanlcdlrodonlamp ojjal.asall.89000 egasoible-desnag 22000\nQ65 ay@roploosm.\ncoa0l0olss muoealg goaumun@c.dsolgjaa agom\ncpesmco@edleoto 00e00m0b ealigmlasismisan. mamm\nGOG010 epalgy 608 mconst.Daim.msc, Ge10600J03JaJoeea\n0160101000001 maglasgsomg dmaDajjagjoom 63.080J0001620\n66m00, a0081000 mboucobolosolmnin eDo 0 QJO\nMamoloobo @00000.00.0010001 Tualco-armpoGd m00l80",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

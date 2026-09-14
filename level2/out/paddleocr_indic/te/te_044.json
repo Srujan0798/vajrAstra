@@ -1,0 +1,41 @@
+{
+  "page_id": "te_044",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0044pro_raw.pdf",
+    "page_index": 37,
+    "width": 1770,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1770,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "udl, wusil ei alaren :\n80.301$11\nTH H f  -  f \nAod  T  S4er 34e\nHi  34 2 3s f T 2f (\n34\n(4 91919 4  314\na  o E\n4in d ేaి ef 4T\n4Sa   U  s T\ndod  i yo,, s f \n4ohd   ( a    314\nT  H క  మ  ?\"\n311 మ I'\" (H e I\nH,   T   \ni , a s 44\nసమో--ణ y4 Ad ే34 Td\n  I   మ yజn  n\nd aా మ   !  మ మ?\"\na314 H  M 311F 13-91\nf 4y3e\nS   , \nH ns,4a o\nfoha 3s  !\"m  3iei  gef\nem ?'4 ,T , \n 38 # 1 (41  42  4d \nMSR 3T TT\nHi a,  d 4o 3  eifh\nda H   ?\"\" di\n34o f g4  de  ge a\n  J 31 4s ?' Hi 31915\n'  3\n31121,y0201 4\n- Mm4 (d2\n()  () f 3  3  \n\n94si\n8. (4a$ f  42m ef I\n. 414 #  392r 7\n3. $  M \n8. 34 f ge  de  g  \n(\nK99UIS\nfacenfefai st he gay\n31k sh4*1: a1-a1\nifaei\ncidh\nGerany\n facanfi \nd\nqRaR\n∂\nHerrd\nq aaf\nc1\n\nIad4111, Ho11\n3it\nHfa0\nq1\n3GTERUN\nGOR\nRHST\nfacenfferi\nq1\ny,\n94a1\nrief\nshamai\ngా\n?8",
+      "text_nfc": "udl, wusil ei alaren :\n80.301$11\nTH H f  -  f \nAod  T  S4er 34e\nHi  34 2 3s f T 2f (\n34\n(4 91919 4  314\na  o E\n4in d ేaి ef 4T\n4Sa   U  s T\ndod  i yo,, s f \n4ohd   ( a    314\nT  H క  మ  ?\"\n311 మ I'\" (H e I\nH,   T   \ni , a s 44\nసమో--ణ y4 Ad ే34 Td\n  I   మ yజn  n\nd aా మ   !  మ మ?\"\na314 H  M 311F 13-91\nf 4y3e\nS   , \nH ns,4a o\nfoha 3s  !\"m  3iei  gef\nem ?'4 ,T , \n 38 # 1 (41  42  4d \nMSR 3T TT\nHi a,  d 4o 3  eifh\nda H   ?\"\" di\n34o f g4  de  ge a\n  J 31 4s ?' Hi 31915\n'  3\n31121,y0201 4\n- Mm4 (d2\n()  () f 3  3  \n\n94si\n8. (4a$ f  42m ef I\n. 414 #  392r 7\n3. $  M \n8. 34 f ge  de  g  \n(\nK99UIS\nfacenfefai st he gay\n31k sh4*1: a1-a1\nifaei\ncidh\nGerany\n facanfi \nd\nqRaR\n∂\nHerrd\nq aaf\nc1\n\nIad4111, Ho11\n3it\nHfa0\nq1\n3GTERUN\nGOR\nRHST\nfacenfferi\nq1\ny,\n94a1\nrief\nshamai\ngా\n?8",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

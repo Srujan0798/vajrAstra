@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_012",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+    "page_index": 2,
+    "width": 1654,
+    "height": 2338
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2338
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3. ooeya wez weoscas Noted NoTng 2083 awopid.\n4. Notod Howne wou awogia (sero w000n9 Depon), (toron dors), Noto None\naw00id dedeo, No.1, es exor oR, 2jonsodo-52.\n5. Totod Zowns 23088 awopto (2.2.8.2), Notod Nowne awopid gedeo, No.1, 90\nEXOF OX, aonsed-52\n6. 2do egeg eord, (Sated) toteo, 238n00\n7. zdo epad eQsod, (Notod) toteo, asried\nOD es 8. zdo eoee eord, (Noted) toto gowon\n9. Notod Hone 8083 awopid (20Nowre 3033) / B0OOFOSF /eua Jwopid, 20N0Wr\na |5033 / No0od 2N0Wto0 weoood, zonsod.\necdogdo\n10. looegas wez 2ene Notod Nowne e0BDRNOQ6O,\nomenshy\nBeogTpnE Nocabid, Notod Hone 2088 dwo0id sejeo, 2end w2oz, 238700.\n2to\n12.\nsoeya wez evaoeonne Notod Noons Nooabr Desoptdonen.\ngeTeN, da dedodaonen asoonon de5820 :\n1. NooFda apod BOOOFOSF, No0od 00083, woaaane degts, 6de aaa, 2onsod\n2. Notod Hone owogid, 8NOFE38 ootss do.1, eo exjor SA 25078000-52.\n3. oea wez 2ene edes epegtonen.\n4. aprpat 0der38d, BNOFE3E oply Notod aooaode Qabas, ders doerFON gonsod\naaoni awoos Notoo Wod agdade ayoestoas Newwon.\n5. No0d Hone 2088 owogid, deag 20033/209 2003/Nod egpae eawid, 2onslod.\n6. wobooda eQ0d / seyoo / dérso dast",
+      "text_nfc": "3. ooeya wez weoscas Noted NoTng 2083 awopid.\n4. Notod Howne wou awogia (sero w000n9 Depon), (toron dors), Noto None\naw00id dedeo, No.1, es exor oR, 2jonsodo-52.\n5. Totod Zowns 23088 awopto (2.2.8.2), Notod Nowne awopid gedeo, No.1, 90\nEXOF OX, aonsed-52\n6. 2do egeg eord, (Sated) toteo, 238n00\n7. zdo epad eQsod, (Notod) toteo, asried\nOD es 8. zdo eoee eord, (Noted) toto gowon\n9. Notod Hone 8083 awopid (20Nowre 3033) / B0OOFOSF /eua Jwopid, 20N0Wr\na |5033 / No0od 2N0Wto0 weoood, zonsod.\necdogdo\n10. looegas wez 2ene Notod Nowne e0BDRNOQ6O,\nomenshy\nBeogTpnE Nocabid, Notod Hone 2088 dwo0id sejeo, 2end w2oz, 238700.\n2to\n12.\nsoeya wez evaoeonne Notod Noons Nooabr Desoptdonen.\ngeTeN, da dedodaonen asoonon de5820 :\n1. NooFda apod BOOOFOSF, No0od 00083, woaaane degts, 6de aaa, 2onsod\n2. Notod Hone owogid, 8NOFE38 ootss do.1, eo exjor SA 25078000-52.\n3. oea wez 2ene edes epegtonen.\n4. aprpat 0der38d, BNOFE3E oply Notod aooaode Qabas, ders doerFON gonsod\naaoni awoos Notoo Wod agdade ayoestoas Newwon.\n5. No0d Hone 2088 owogid, deag 20033/209 2003/Nod egpae eawid, 2onslod.\n6. wobooda eQ0d / seyoo / dérso dast",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

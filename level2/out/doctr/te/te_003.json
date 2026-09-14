@@ -1,0 +1,41 @@
+{
+  "page_id": "te_003",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0003pro_raw.pdf",
+    "page_index": 9,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "D\nD\n2.\nS08\naaawdd\nDerono a (Section B)\n2381\nDle0s/20l/20600S\n09\n#\noobod:\n1x5=5\n(a)\nsoevso 585 aavooss Joroo 88s\n8on8 Wasoss) sga' 8s woros 2885\navoera aso)so 0o00 a381 DONOOs\nJJoav oyo 25Oso Joros wasos\n8s alesoen 'OOESS OSSEDT d9 00bo&.\ndo (OR)\n(b)\n50 odoe 8000 WaOO0s) 5e3 Sans\n0800 a381 31050 DOWOSUDS 09 00o&.\n3.\nS08 wocsos JON as 00302 0800 Noso 200\nso0s0 DOWSOG JSNO OOo&:\n1x8=8\n(i)\neoegoo\n(ii)\necge SOOSEO\n(iii) SSUSO)S Bosod\n(iv) 2N250 Sauns\n11/S\nPage 10 of 19",
+      "text_nfc": "D\nD\n2.\nS08\naaawdd\nDerono a (Section B)\n2381\nDle0s/20l/20600S\n09\n#\noobod:\n1x5=5\n(a)\nsoevso 585 aavooss Joroo 88s\n8on8 Wasoss) sga' 8s woros 2885\navoera aso)so 0o00 a381 DONOOs\nJJoav oyo 25Oso Joros wasos\n8s alesoen 'OOESS OSSEDT d9 00bo&.\ndo (OR)\n(b)\n50 odoe 8000 WaOO0s) 5e3 Sans\n0800 a381 31050 DOWOSUDS 09 00o&.\n3.\nS08 wocsos JON as 00302 0800 Noso 200\nso0s0 DOWSOG JSNO OOo&:\n1x8=8\n(i)\neoegoo\n(ii)\necge SOOSEO\n(iii) SSUSO)S Bosod\n(iv) 2N250 Sauns\n11/S\nPage 10 of 19",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_015",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+    "page_index": 129,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "114\nfasit dg sta\nfagar 1\nfar 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.8, 1.11, 1.12, 1.13, 1.14,\n1.15, 1.16, 1.20, 1.22, 1.23, 1.26, 1.28, 1.29, farl 1.30 37921R4\nchref\nSTRdry Ridifrash udeTuT TeTT TRdiy T16T4, Teit fereit\nfar 1.7, 1.9, 1.10, 1.17, 1.18, 1.19, 1.21, 1.24:\nIIHER TRT Ie7. 4RIC7\nfar 1.27:\nwitghfah ua gai HIPTETUT chs, Teit fereit\nfager 2\nfar 2.1: 374R0h7 steleye 37155 51s27 REEIT, TsTC\nfel 2.2, 2.6: TRdig Ridfrees HOeTUT\nfar 2.3, 2.5, 2.10:\nHitohlaeh ud tai YIRTRTUT chs, Teit fereit\nfar 2.4, 2.7, 2.9, 2.12, 2. 13: HTRdiey HH6T4, 7eit feeeit\nfar 2.8: alschigifsen\nfaga 3\nfe 3.1,3.10: TRdia Ridllrash HOeTUT\nfen 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9: TRdig HHGKT4, Teit fereit\nfaga 4\nfel 4. 1, 4.5, 4.8, 4.9, 4.12, 4.13, 4.14, 4.15, 4.16, 4.17,\n4.18, 4.19, 4.21, 4.22, 4.23, 4.24, 4.25, 4.26, 4.27, 4.29,\n4.31, fat 4.32 aik 33 3792114 chief 7\n3THR9h7 steleye 375 1347 TESIT, TETTA\nfe 4.2: alEchlyifse\nfar 4.3, 4.11, 4.28, 4.30:\nHieghfdeh ua gai JIRTETUT cha, Tet feceit\nfar 4.4, 4.6, 4.7, 4.20: TRdiy UH6TI, Teit faeeit",
+      "text_nfc": "114\nfasit dg sta\nfagar 1\nfar 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.8, 1.11, 1.12, 1.13, 1.14,\n1.15, 1.16, 1.20, 1.22, 1.23, 1.26, 1.28, 1.29, farl 1.30 37921R4\nchref\nSTRdry Ridifrash udeTuT TeTT TRdiy T16T4, Teit fereit\nfar 1.7, 1.9, 1.10, 1.17, 1.18, 1.19, 1.21, 1.24:\nIIHER TRT Ie7. 4RIC7\nfar 1.27:\nwitghfah ua gai HIPTETUT chs, Teit fereit\nfager 2\nfar 2.1: 374R0h7 steleye 37155 51s27 REEIT, TsTC\nfel 2.2, 2.6: TRdig Ridfrees HOeTUT\nfar 2.3, 2.5, 2.10:\nHitohlaeh ud tai YIRTRTUT chs, Teit fereit\nfar 2.4, 2.7, 2.9, 2.12, 2. 13: HTRdiey HH6T4, 7eit feeeit\nfar 2.8: alschigifsen\nfaga 3\nfe 3.1,3.10: TRdia Ridllrash HOeTUT\nfen 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9: TRdig HHGKT4, Teit fereit\nfaga 4\nfel 4. 1, 4.5, 4.8, 4.9, 4.12, 4.13, 4.14, 4.15, 4.16, 4.17,\n4.18, 4.19, 4.21, 4.22, 4.23, 4.24, 4.25, 4.26, 4.27, 4.29,\n4.31, fat 4.32 aik 33 3792114 chief 7\n3THR9h7 steleye 375 1347 TESIT, TETTA\nfe 4.2: alEchlyifse\nfar 4.3, 4.11, 4.28, 4.30:\nHieghfdeh ua gai JIRTETUT cha, Tet feceit\nfar 4.4, 4.6, 4.7, 4.20: TRdiy UH6TI, Teit faeeit",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_088",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 32,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "m.\n m2  md\no \n\ne\n\n \n\nm e e e aeemooe\nno  yn\nw\noo\n\n\n\nwe\n\n\nom\nl o 27 o\n\n  \n \n0\nm. oeu\n \no\n\n",
+      "text_nfc": "m.\n m2  md\no \n\ne\n\n \n\nm e e e aeemooe\nno  yn\nw\noo\n\n\n\nwe\n\n\nom\nl o 27 o\n\n  \n \n0\nm. oeu\n \no\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

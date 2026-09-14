@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_082",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 39,
+    "width": 595.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "139\n10.\nfar  Re  4r 37 i  fa chfy f\n fe:\n  3  \nll\n2006, 5s-f   f\n3h{, 1400-1800\nueutl chTei (chξ uch)\nhi erae , \nT T s FAETe ETTE\n11. 34A A  T3 ET (TAHA/ETET-TE TET\n2006, fs fo4t g214,\n-//ET ER Y T TCR\n3TeT   E      ()   \nB))\nwit ar,  37 f \n-TR 1656-1668 .,\n   3     \nT o, \n374   3i  foy  e  , a\na, ET, A, -RAT, R, 5I T\nE..T. fTI., 1993\nfa 2d0 374 5or 1\nT  RE r f\nFH HEC, \n2005\n fo9 3R 3  E 41 3 3\ndeds 13s: d0 34 fo\n370 Ad, 3S a\n3T   T 3 f1\n. (.), 1997\nf 5.14\n - er\nei dffere taffer, 1993, 2dm\n$\n3rer h  fy 3T\nfmfefe dase d Hohd\nwww.edumaritime.org",
+      "text_nfc": "139\n10.\nfar  Re  4r 37 i  fa chfy f\n fe:\n  3  \nll\n2006, 5s-f   f\n3h{, 1400-1800\nueutl chTei (chξ uch)\nhi erae , \nT T s FAETe ETTE\n11. 34A A  T3 ET (TAHA/ETET-TE TET\n2006, fs fo4t g214,\n-//ET ER Y T TCR\n3TeT   E      ()   \nB))\nwit ar,  37 f \n-TR 1656-1668 .,\n   3     \nT o, \n374   3i  foy  e  , a\na, ET, A, -RAT, R, 5I T\nE..T. fTI., 1993\nfa 2d0 374 5or 1\nT  RE r f\nFH HEC, \n2005\n fo9 3R 3  E 41 3 3\ndeds 13s: d0 34 fo\n370 Ad, 3S a\n3T   T 3 f1\n. (.), 1997\nf 5.14\n - er\nei dffere taffer, 1993, 2dm\n$\n3rer h  fy 3T\nfmfefe dase d Hohd\nwww.edumaritime.org",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

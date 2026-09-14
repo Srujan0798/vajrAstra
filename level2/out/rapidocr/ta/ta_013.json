@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_013",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 13,
+    "width": 594.239990234375,
+    "height": 785.0399780273438
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.239990234375,
+        785.0399780273438
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ம்\n.\nET TR\n$1he\nfrera # ss+ oft 3741\n    he\nT...\n!\n114 H\n#TER FAT\n37122 54 312 3\nTe$\nhd JTO TE fiKE IT\n   D \ni p\n k hky blh-blhe\n$   3\n12  \n24.\n1 14 \n$$\n#$\n34 TR P   E\nSOHT T ETCHT HTT fTI\n-1 \nTER\nERIAIE!\n2\n141\nReprint 2026-27",
+      "text_nfc": "ம்\n.\nET TR\n$1he\nfrera # ss+ oft 3741\n    he\nT...\n!\n114 H\n#TER FAT\n37122 54 312 3\nTe$\nhd JTO TE fiKE IT\n   D \ni p\n k hky blh-blhe\n$   3\n12  \n24.\n1 14 \n$$\n#$\n34 TR P   E\nSOHT T ETCHT HTT fTI\n-1 \nTER\nERIAIE!\n2\n141\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_078",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0078pro_raw.pdf",
+    "page_index": 74,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "α +b\nc+d\n() సంయోగ నియమం (Componendo) ఒకవేళ α=\n: అయినచో\nఅవుతుంది.\nb\nd\nb\nd\na\nC\nb\nd\na\nb\nd\na +b_c + d\nb\nd\nα +b\nc +d\nఒకవేళ \na\nC\nఅయిన\nఅవుతుంది. ఈ ధర్మమును సంయోగ నియమం' అంటారు.\nb\nd\nb\nd\na−b c−d\na\nC\n(IV) వియోగ నియమం (Dividendo) ఒకవేళ\nఅయిన\nఅవుతుంది.\nb\nd\nb\nd\na\nC\n:.\nb\nd\na\nC\n−1=\n−−1\n(ఇరువైపుల 1ని తీసివేయగా)\nb\nd\na −b\nc−d\nb\nd\na−b\nc−d\na\nC\nఒకవేళ\nఅయిన\nఅవుతుంది. ఈ ధర్మమును ‘వియోగ నియమం' అంటారు.\nb\nd\nb\nd\na\nC\na+b\nc+d\n(V) సంయోగ–వియోగ నియమo (Componendo–dividendo) ఒకవేళ\n–\nఅయిన\n,α ≠ b,c ≠ d\nb\nd\nα −b\nc−d\nఅవుతుంది.\na\nC\n∴.\nα +b\nc+d\n(సంయోగ నియమం (ప్రకారం) ..(1)\nఒకవేళ\nఅయిన\nb\nd\nb\nd\na −b\nc −d\n(వియోగ నియమం (ప్రకారం) ....(2)\nb\nd\nα +b\nc+d\n(1) మరియు (2) లను బట్టి\nα −b\nc−d\nట\na\nC\nα +\nc+d\nఒకవేళ\nఅయిన\nఅవుతుంది. ఈ ధర్మమును 'సంయోగ-వియోగ నియమం' అంటారు.\nb\nd\na−b\nc−d\nసంయోగ నియమం మరియు వియోగ నియమాల సాధారణ రూపం\nC\nα + \nc+d\nఒకవేళ\nఅయినచో\n(ఒకసారి సంయోగ నియమం (ప్రకారం)\nb\nd\nb\nd\nα +2b\nc + 2d\n(రెండుసార్లు సంయోగ నియమం (ప్రకారం)\nb\nd\nα + mb\nc + md\nసాధారణంగా\n(m సార్లు సంయోగ నియమం (ప్రకారం) ..(1)\nb\nd\na\nC\na −mb\nc −md\nఅదే విధంగా ఒకవేళ\nఅయనచో\n(m సార్ల వియోగ నియమం (పరకారం) ..(2)\nb\nd\nb\nd\na\nC\nα + mb\nc + md\nమరియు ఒకవేళ\nఅయనచో\n..(1) మరియు (2) లను బట్టి భాగించగా)\nb\nd\na −mb\nc −md\ne\n65",
+      "text_nfc": "α +b\nc+d\n() సంయోగ నియమం (Componendo) ఒకవేళ α=\n: అయినచో\nఅవుతుంది.\nb\nd\nb\nd\na\nC\nb\nd\na\nb\nd\na +b_c + d\nb\nd\nα +b\nc +d\nఒకవేళ \na\nC\nఅయిన\nఅవుతుంది. ఈ ధర్మమును సంయోగ నియమం' అంటారు.\nb\nd\nb\nd\na−b c−d\na\nC\n(IV) వియోగ నియమం (Dividendo) ఒకవేళ\nఅయిన\nఅవుతుంది.\nb\nd\nb\nd\na\nC\n:.\nb\nd\na\nC\n−1=\n−−1\n(ఇరువైపుల 1ని తీసివేయగా)\nb\nd\na −b\nc−d\nb\nd\na−b\nc−d\na\nC\nఒకవేళ\nఅయిన\nఅవుతుంది. ఈ ధర్మమును ‘వియోగ నియమం' అంటారు.\nb\nd\nb\nd\na\nC\na+b\nc+d\n(V) సంయోగ–వియోగ నియమo (Componendo–dividendo) ఒకవేళ\n–\nఅయిన\n,α ≠ b,c ≠ d\nb\nd\nα −b\nc−d\nఅవుతుంది.\na\nC\n∴.\nα +b\nc+d\n(సంయోగ నియమం (ప్రకారం) ..(1)\nఒకవేళ\nఅయిన\nb\nd\nb\nd\na −b\nc −d\n(వియోగ నియమం (ప్రకారం) ....(2)\nb\nd\nα +b\nc+d\n(1) మరియు (2) లను బట్టి\nα −b\nc−d\nట\na\nC\nα +\nc+d\nఒకవేళ\nఅయిన\nఅవుతుంది. ఈ ధర్మమును 'సంయోగ-వియోగ నియమం' అంటారు.\nb\nd\na−b\nc−d\nసంయోగ నియమం మరియు వియోగ నియమాల సాధారణ రూపం\nC\nα + \nc+d\nఒకవేళ\nఅయినచో\n(ఒకసారి సంయోగ నియమం (ప్రకారం)\nb\nd\nb\nd\nα +2b\nc + 2d\n(రెండుసార్లు సంయోగ నియమం (ప్రకారం)\nb\nd\nα + mb\nc + md\nసాధారణంగా\n(m సార్లు సంయోగ నియమం (ప్రకారం) ..(1)\nb\nd\na\nC\na −mb\nc −md\nఅదే విధంగా ఒకవేళ\nఅయనచో\n(m సార్ల వియోగ నియమం (పరకారం) ..(2)\nb\nd\nb\nd\na\nC\nα + mb\nc + md\nమరియు ఒకవేళ\nఅయనచో\n..(1) మరియు (2) లను బట్టి భాగించగా)\nb\nd\na −mb\nc −md\ne\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

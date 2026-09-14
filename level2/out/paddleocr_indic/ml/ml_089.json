@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_089",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0018pro_raw.pdf",
+    "page_index": 39,
+    "width": 827,
+    "height": 1331
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        827,
+        1331
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-32-\nC\n\nwellw.\n\na\n  \nO\ne\n.\no\n\n3olmes\nowce.\n\nfene e  n\n\n  \nQ\na oslmoeslcnl ea\nm\nc\nFe\nme e. eg\nree\n\n”\ndoea wool erao\ne\"\n e \nÉroeoosoe\na\"",
+      "text_nfc": "-32-\nC\n\nwellw.\n\na\n  \nO\ne\n.\no\n\n3olmes\nowce.\n\nfene e  n\n\n  \nQ\na oslmoeslcnl ea\nm\nc\nFe\nme e. eg\nree\n\n”\ndoea wool erao\ne\"\n e \nÉroeoosoe\na\"",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

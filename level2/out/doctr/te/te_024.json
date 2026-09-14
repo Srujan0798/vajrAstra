@@ -1,0 +1,41 @@
+{
+  "page_id": "te_024",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0024pro_raw.pdf",
+    "page_index": 36,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HISRIT Zieel Gell.\n3dl tt Zieen JIHT chat.\nHriT Tchla.\nHT vilat.\nTIET QUIR.\nP9",
+      "text_nfc": "HISRIT Zieel Gell.\n3dl tt Zieen JIHT chat.\nHriT Tchla.\nHT vilat.\nTIET QUIR.\nP9",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

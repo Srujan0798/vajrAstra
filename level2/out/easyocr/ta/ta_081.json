@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_081",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+    "page_index": 0,
+    "width": 730,
+    "height": 875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        730,
+        875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ऋभा L८के लिए\nइनिहास की पारचमस्नक\nभारतीय इतिहास के कुछ निषय #]|F[[-7",
+      "text_nfc": "ऋभा L८के लिए\nइनिहास की पारचमस्नक\nभारतीय इतिहास के कुछ निषय #]|F[[-7",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

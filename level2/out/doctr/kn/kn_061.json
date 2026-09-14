@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_061",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+    "page_index": 36,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "TOWFN w3 eno Hoawenes\n35\nH H\nH-C-C-H\n8o3 - 2\nI I\nH H\n283 4.6(b) ge TOWFIE aoasora abod adgeesr aasproonelcoor wor evotbuseacorgao\nEgerr cdmpgy 2508 dessaba, A 283 4.6(c)ode docorepnd.\ncade 808 CH esarios aoodda\naiecaesr dessawa Deay wdabwdoo?\nH\nH\nSOWFI aowaos WOz aeeoneb\n0\n\nX\nX\nWewopaon Nos.Eh.00aC0ECRD Deoy\naoctseo. 2030 SOWFI Noawonea\nH - X C\nX X\nC\nX o H\ndadora (saturated) Hoaweneoonaed.\n68\nNoawones\nwoaonwoh\naes\nX\nX\no\ngauobce endwde.\nH\nH\nTOWFN aa -o adgeans addooa\nToawa\no C,H,\newnes\nacodas, cgoa\n233 4.6(0)de\nadeger 2508\nd23:3\nBOeJ woao sdadernbsd. 68 ewaa, C\no\na\ngen 2837200? NOO ares aposan, bo3 boswon eNsoroere.\nSORF-SORFT aoarane wewopts ahoor eoadgods seodooad\n(003 1).\nC-C\n8o3 I 1\nae SOWF woaoa 2 adgees 30aan4a, atwdeoad\nH\nH\nC-C\n803 - 2\nH\nH\nae SOWFNT woa deeta esozawoh enpadaon, NOO aoctoscas.\nH\nH\nC=C\n8o3 - 3\nH\nH\nH\nH\no\noonon a38 aot TOWFN wowoone\nX\nx°\nJwa Qaop wasana ahoor aoz ca0ny\nC X X X X C\nNosarogres\n-\nNORE\n(003 3).\no X\nX o\n283 4.7 Spers d2ss\nBOCNT cdopgr 208 dessa0a 283\nH\nH\n4.702 dodoond.",
+      "text_nfc": "TOWFN w3 eno Hoawenes\n35\nH H\nH-C-C-H\n8o3 - 2\nI I\nH H\n283 4.6(b) ge TOWFIE aoasora abod adgeesr aasproonelcoor wor evotbuseacorgao\nEgerr cdmpgy 2508 dessaba, A 283 4.6(c)ode docorepnd.\ncade 808 CH esarios aoodda\naiecaesr dessawa Deay wdabwdoo?\nH\nH\nSOWFI aowaos WOz aeeoneb\n0\n\nX\nX\nWewopaon Nos.Eh.00aC0ECRD Deoy\naoctseo. 2030 SOWFI Noawonea\nH - X C\nX X\nC\nX o H\ndadora (saturated) Hoaweneoonaed.\n68\nNoawones\nwoaonwoh\naes\nX\nX\no\ngauobce endwde.\nH\nH\nTOWFN aa -o adgeans addooa\nToawa\no C,H,\newnes\nacodas, cgoa\n233 4.6(0)de\nadeger 2508\nd23:3\nBOeJ woao sdadernbsd. 68 ewaa, C\no\na\ngen 2837200? NOO ares aposan, bo3 boswon eNsoroere.\nSORF-SORFT aoarane wewopts ahoor eoadgods seodooad\n(003 1).\nC-C\n8o3 I 1\nae SOWF woaoa 2 adgees 30aan4a, atwdeoad\nH\nH\nC-C\n803 - 2\nH\nH\nae SOWFNT woa deeta esozawoh enpadaon, NOO aoctoscas.\nH\nH\nC=C\n8o3 - 3\nH\nH\nH\nH\no\noonon a38 aot TOWFN wowoone\nX\nx°\nJwa Qaop wasana ahoor aoz ca0ny\nC X X X X C\nNosarogres\n-\nNORE\n(003 3).\no X\nX o\n283 4.7 Spers d2ss\nBOCNT cdopgr 208 dessa0a 283\nH\nH\n4.702 dodoond.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

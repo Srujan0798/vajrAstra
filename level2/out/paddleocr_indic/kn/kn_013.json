@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_013",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 21,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "w wet?\nಕ ಕuಗಳನು -uವರ yeನವುಗರ?\nI.\nಮನy.ಬಿಂಕಳವ, ಟಕೃರ\n೧\nಕುರಿಂಗು\nಷ\nನelತಯ uವಚಂತ ಬೇoದ\n೧\n\no o neನaದ\nಬ. ಎo. ೯ೀyoರಯ\n7\n\nYೀ\nಕ\nW... In.\nಪ\nಆನಯ\nಮನ, ಬೇತಕಕ-ಅಯಂಗರ್\nH?\nಕೀನaಸ\n.\nಬ . ಣಳಾರವಯ\n\nಬನೀ\nಬಟಗೀಂ ತಳತನ\n\n\nಆನಂದಕಂದ\nರಯಸರ ಬಮನೀನ ಂವ\n0 #0e9t?\nಕ.\n೨\nSರooc ಥoಣಳ - d\n- ಕವrನಂದ\n\nಆರ್ ಬ.ಕುಲಕಣಣರಿ\nI\nಮಾರವ್್ಬಹದರ\nDo. ರೀer ಮುyಗ೪ytirt.toe\nI\n\nರನಿತರಂಗ\n೧?\nಗ ಎo. ರsoo\nನoತಿ\n\nಅನನೂಯ-ಶಂತರ\nನಆನೇ\n\nಇದರಂDಚಯ\nು\nTh.\nಶೀರಂಗ\n.\n\nIs\nಬಿತಿರ್ ತಟaಸ\nತ್ ೭ೀತಲe?\ntr.\nIi.\nಗಗಸುಬಯ ಾಗರಜೇಅರನ\nಮ ಚದುರಂಗ\n\nಜ...xಲ.\nಕಜಡಬರಳ\nI?\nಅರತಲಗುಡು.ನ೯ನಿಂತರಯ.ಕೃಷರಯ- -ಅನತೃತುಪವ\n\nತ o ನುುoಯs.\nಟರನು\n\nದೀವನಹಳಲ-ಬೆ.ಕಕರೆಮನ-.ಗುಂತರ\n\nಓeಜ.\nರ.\nಪಂಷಮಂಗೇತಗಯರು \nತಗಲssವಲ'ತತ\nಅರಗ ಂಕಣಂದ್\nಂಸಳ\nಆe ನo! ತeತo soಲuir.\n\nತt - re .ನo Iro\nಓ\nಎರ.ನ.seರಬಯ\nIthty+u oea oue iae\nಕಾದಳಳಲಲತಳ ಸರಯವಾರವಗ\n D.ಳ, he\nI.\nಗೆ.ವಿಂತಲತುವಯ್ಗಗರ.\nF ehಜe tt!\nಗ.\nಎp! eoಿaoanoವ್ತ ಟ ತ t ಬರಳಸತoirದyuದ\nದೀ-ಜವರೀsಡ -ತ.ತ.ಾa\n+as usel ae.s.\n\nಹಳಯnರು ತೀನಿಎಸಯjಂದರ.ತ.ತೃಷಟು.ದ. ಎಚಿನ.ತವy-ು\nಕುಳತುಂದ ತಿವರಯಿಗ.ತ\noರoಜನಗkt autu?\nIT\nಗೆದುಗನ ನರನತಳದಗ\nಕುಯರaಸಿ.ತ.\nಪtದದ ವುದs.?\nನಂದಳತೆ ುೀನರಾ.ತ\nತೈಯರ ಕೆಯಲ,ರಲ\ntrtto auದnasur\nಶಂಬಜಲx\n ತow\nl!\nI whule?\nScanned by CamScanner",
+      "text_nfc": "w wet?\nಕ ಕuಗಳನು -uವರ yeನವುಗರ?\nI.\nಮನy.ಬಿಂಕಳವ, ಟಕೃರ\n೧\nಕುರಿಂಗು\nಷ\nನelತಯ uವಚಂತ ಬೇoದ\n೧\n\no o neನaದ\nಬ. ಎo. ೯ೀyoರಯ\n7\n\nYೀ\nಕ\nW... In.\nಪ\nಆನಯ\nಮನ, ಬೇತಕಕ-ಅಯಂಗರ್\nH?\nಕೀನaಸ\n.\nಬ . ಣಳಾರವಯ\n\nಬನೀ\nಬಟಗೀಂ ತಳತನ\n\n\nಆನಂದಕಂದ\nರಯಸರ ಬಮನೀನ ಂವ\n0 #0e9t?\nಕ.\n೨\nSರooc ಥoಣಳ - d\n- ಕವrನಂದ\n\nಆರ್ ಬ.ಕುಲಕಣಣರಿ\nI\nಮಾರವ್್ಬಹದರ\nDo. ರೀer ಮುyಗ೪ytirt.toe\nI\n\nರನಿತರಂಗ\n೧?\nಗ ಎo. ರsoo\nನoತಿ\n\nಅನನೂಯ-ಶಂತರ\nನಆನೇ\n\nಇದರಂDಚಯ\nು\nTh.\nಶೀರಂಗ\n.\n\nIs\nಬಿತಿರ್ ತಟaಸ\nತ್ ೭ೀತಲe?\ntr.\nIi.\nಗಗಸುಬಯ ಾಗರಜೇಅರನ\nಮ ಚದುರಂಗ\n\nಜ...xಲ.\nಕಜಡಬರಳ\nI?\nಅರತಲಗುಡು.ನ೯ನಿಂತರಯ.ಕೃಷರಯ- -ಅನತೃತುಪವ\n\nತ o ನುುoಯs.\nಟರನು\n\nದೀವನಹಳಲ-ಬೆ.ಕಕರೆಮನ-.ಗುಂತರ\n\nಓeಜ.\nರ.\nಪಂಷಮಂಗೇತಗಯರು \nತಗಲssವಲ'ತತ\nಅರಗ ಂಕಣಂದ್\nಂಸಳ\nಆe ನo! ತeತo soಲuir.\n\nತt - re .ನo Iro\nಓ\nಎರ.ನ.seರಬಯ\nIthty+u oea oue iae\nಕಾದಳಳಲಲತಳ ಸರಯವಾರವಗ\n D.ಳ, he\nI.\nಗೆ.ವಿಂತಲತುವಯ್ಗಗರ.\nF ehಜe tt!\nಗ.\nಎp! eoಿaoanoವ್ತ ಟ ತ t ಬರಳಸತoirದyuದ\nದೀ-ಜವರೀsಡ -ತ.ತ.ಾa\n+as usel ae.s.\n\nಹಳಯnರು ತೀನಿಎಸಯjಂದರ.ತ.ತೃಷಟು.ದ. ಎಚಿನ.ತವy-ು\nಕುಳತುಂದ ತಿವರಯಿಗ.ತ\noರoಜನಗkt autu?\nIT\nಗೆದುಗನ ನರನತಳದಗ\nಕುಯರaಸಿ.ತ.\nಪtದದ ವುದs.?\nನಂದಳತೆ ುೀನರಾ.ತ\nತೈಯರ ಕೆಯಲ,ರಲ\ntrtto auದnasur\nಶಂಬಜಲx\n ತow\nl!\nI whule?\nScanned by CamScanner",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_036",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0036pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT\n6\nN DaRae\n5LLDBTG JIIJS\nOLDOUBOOU OUGOOTLITLD 260T 6\nLD60) 60TUUIo\n5LOLDITG SIJS aloeuldamt LIITL5TO OILDIISLD SLL3SOT sip GaigfuaLturL5\nLI6erfla 5006155100\nBGJOTLITGOLD LD0f5GBWLDDD OEWQJID GLG5DDULD 25I\nXIIS Std- Home Science' TM_Front Page.indd\n11-12-2021 10.25.12PM",
+      "text_nfc": "IT\n6\nN DaRae\n5LLDBTG JIIJS\nOLDOUBOOU OUGOOTLITLD 260T 6\nLD60) 60TUUIo\n5LOLDITG SIJS aloeuldamt LIITL5TO OILDIISLD SLL3SOT sip GaigfuaLturL5\nLI6erfla 5006155100\nBGJOTLITGOLD LD0f5GBWLDDD OEWQJID GLG5DDULD 25I\nXIIS Std- Home Science' TM_Front Page.indd\n11-12-2021 10.25.12PM",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

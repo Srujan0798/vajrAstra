@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_099",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+    "page_index": 108,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2388, gegen aas ageesas\n107\n0505530 012\nao0 Q7 anooan, Enadog 238300838 9.11 de 0W020o3 eno\neowors Tona dodwa, boto 88008.\nw00 ent aer abecs RaEOa cO\nJooawoon aroda Tonab\naodaae eozowa aoodda gavaoa aa Naboozo deanen\nW830008.\nanoown, - ahoda suolane 02. 008 d teona Toabon ats\ndes3ab aee wowod 02.\nabrioda aot woatoda aote deoineb gawon F aa 2F endo.\n-\newnen gawoh AOz etongoa J\n2F,, F, F, aas 2F,003 700032.\nwo0 ewoawsoa aberodesaba ate w0000, 2F, nos NOEEP\naodae 282. anoda aalood\n-\nwoa0e\nadoas tonaa wodab aec\nNE 307 aso woa oseowwa Wi008.\n0320w8 Repoa, AOR a0as wocseo 3 mEnA sabadee\n68 236303886000 aDwa 2F, nos\n1\nde\n&003,\nF,\nwa\n2F,\nne soa,\nF\nNo, Foono O ne swa 82 2ONODWSFA, Das Detronea Javooz\nas\noono docayowa AgBantog\nWWOS depr NONNOR\n208 a7 Nodooa evolsoa a32000 Nppows, NgR\nabzo Noaieg as nogne 083 Nota as - daoroawa, docat 2 9.4 d2 Detoond.\ndocage 9.4 WAON Depr soNnen\n203 aredaon ervos30 gwowa RRp0s, NOn 8\na3 sozee cas nos\nEnor NON 8\n332owa TOR\n332owts soziez 3 nog\ngsoowts ERUDES\nesoz dodae\napos sonas F, ezoz 280000, 2508\nN3 a0as 30tenoa\nNo\nmogoa\n2F,nos dedde Fzaa 2F, ne 28800\nN3 wa 30tenoa\nsta\n2F, 3o\n2F, 3o\nNaos mg\nN3 a0E 30t8n00\nF, WES 2F, ne 2F, no3\ndegood (WOFAO)\nN3 aas 30gen00\naa\ndodde\naypor Tonab F, esoz dedao\nenoaos dowtozee\nN3 aDEs 30tenoa\nNO\ndetas epwo e3o3\nas280 d.ocoed(3QFAC)\napos Tonab F, awoda\ndodood (WOFAO)\naOEE aE Jed\nazs de Beod\naroda epontde\nO Te awa",
+      "text_nfc": "2388, gegen aas ageesas\n107\n0505530 012\nao0 Q7 anooan, Enadog 238300838 9.11 de 0W020o3 eno\neowors Tona dodwa, boto 88008.\nw00 ent aer abecs RaEOa cO\nJooawoon aroda Tonab\naodaae eozowa aoodda gavaoa aa Naboozo deanen\nW830008.\nanoown, - ahoda suolane 02. 008 d teona Toabon ats\ndes3ab aee wowod 02.\nabrioda aot woatoda aote deoineb gawon F aa 2F endo.\n-\newnen gawoh AOz etongoa J\n2F,, F, F, aas 2F,003 700032.\nwo0 ewoawsoa aberodesaba ate w0000, 2F, nos NOEEP\naodae 282. anoda aalood\n-\nwoa0e\nadoas tonaa wodab aec\nNE 307 aso woa oseowwa Wi008.\n0320w8 Repoa, AOR a0as wocseo 3 mEnA sabadee\n68 236303886000 aDwa 2F, nos\n1\nde\n&003,\nF,\nwa\n2F,\nne soa,\nF\nNo, Foono O ne swa 82 2ONODWSFA, Das Detronea Javooz\nas\noono docayowa AgBantog\nWWOS depr NONNOR\n208 a7 Nodooa evolsoa a32000 Nppows, NgR\nabzo Noaieg as nogne 083 Nota as - daoroawa, docat 2 9.4 d2 Detoond.\ndocage 9.4 WAON Depr soNnen\n203 aredaon ervos30 gwowa RRp0s, NOn 8\na3 sozee cas nos\nEnor NON 8\n332owa TOR\n332owts soziez 3 nog\ngsoowts ERUDES\nesoz dodae\napos sonas F, ezoz 280000, 2508\nN3 a0as 30tenoa\nNo\nmogoa\n2F,nos dedde Fzaa 2F, ne 28800\nN3 wa 30tenoa\nsta\n2F, 3o\n2F, 3o\nNaos mg\nN3 a0E 30t8n00\nF, WES 2F, ne 2F, no3\ndegood (WOFAO)\nN3 aas 30gen00\naa\ndodde\naypor Tonab F, esoz dedao\nenoaos dowtozee\nN3 aDEs 30tenoa\nNO\ndetas epwo e3o3\nas280 d.ocoed(3QFAC)\napos Tonab F, awoda\ndodood (WOFAO)\naOEE aE Jed\nazs de Beod\naroda epontde\nO Te awa",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

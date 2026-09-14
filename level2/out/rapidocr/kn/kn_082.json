@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_082",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+    "page_index": 18,
+    "width": 612.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        612.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n19\nFi\n.ಕಳಗನಯಾವಅಮೈನ್, ಕಾಬfಲ್ಅಮೈನ್ಪರೇಕೆಯನು\n152.\nನಡುತೃದ\nಮತುಎಲೆಕಾೃನ್ಗಳಿಸಂಖೈಗಳುಕಮವಾಗ\nNCH92\n1, 71 ಮತು 14\n175, 104 ಮತ 71\n1, 104 ಮತು 71\n104, 11 ಮತು 1\n1$.-ವೊದಲ್ದಜೆ೯ರಸಾಯನಕಕಿಯಯವೇಗನಯತಾಂಕವು\nA.$00 10--- ಆದರ 20 ಗಾ0 ನಪು. ತಿಯಾಕಾoಯು\nNHC,Hg\n೧.೭ಗಾಂಿಗಿಇಳಯಲುಿಬೇಕಾಗುವಸಮಯವು\n500s\n1000s\n೫\n100s.\n200s\nNH.\nI--ಕಿಳಗನವಗಳಲಿಅಅತದಳಲದಅಣುವನು.ಕಂಡುಒಡಯುಂ.\nCೈ\n೮\n೦,\nಖ\nHe?\nLis\n1.-ಸುಕೋಸ್ನ-ಜಲಏಭಜನೆಯನು-ಕೆಳಗನಿಸಬುಕರಣದಲಿ\nNHCHG\nನಡಲಾಗದ.\nಸುಕೋಸ್-Hೈಂ-ಗುಕೋಸ್#ಫುಕೋಸ್\nSOI t Og Yoo: g C'u goeegoe gogog\nಆದರೆ.ಇ.Gನಮೌಲೈವಿಇದೇತಾಪದಲಿ\n8314J mol-'K-Ix 300 Kx h8x 1013\n1ಂ.-ಕಾಗದೆವಣ೯ರೇಖನವುಿಕಳಗನವುಗಳೆಒಂದು\n-8.34 Jmol 'K-  300 Kx In4  1013\nI gueaogogec.\n-8.314 Jmol /K1 x 300 KxIn2x1013\nತೆಳುಪದರವಣ೯ರೇಖನ\n8314J m01'K-1x 300 Kx 1n2x 1013\nಸಂಭಉದೃಸಾಲುವಣ೯ರೇಖನ\n16. 2clಅನ0 - c1,ಅನ0.\nಮಲೈಚೂಷಕಿವಣ-ರೇಖನ\nಈಿಕಿಯಗಿಸಂಯಾದಆಯಯುವೆ\nಏಭಜನವಣ೯ರೇಖನ\nOs'y ag oh'v\n11. N, ಪೈಟೋಜನ ಮತು. Ar ಆಗಾ೯ನ ಅನಲಗಳ\n೮\nAH0 ಮತು A.S0\nಎುಶಣದಲಿI ಗಾಂಿನಷು, ಮತು ಣಿಗಾಂ ನಷುA\nAೃH೦ ಮತು A.s೦\nJegac Oc. g0og.opog g0g O.g,opoo?\nಒಟುೃ.ಒತಡವೆ#ಿಬಾರ್ಆದರಿ--ನೈಟೋಜನ್ನ\nA.H0 ಮತು A.S/\nಆಂಶಿಕಒತಡವ\n11. NiOW,ನ ಅಯಾ?ಕ ಗುಣಲಬವ 2x1ರ-16 ಆದರ,\nಪರಮಾಣು--ಸಂಖೈಯನು--ಉಪಯೋಗಸ\nO.1 M NaOH ನo NOW, ನ ದಾವೃತಯನು\nPಾoವೋ್ಗಳo N-1, Ar-10 \nಕಂಡುಒಡಯಂ.\n15 ಬಾರ್\n1x10-3M\n18 ಬಾರ್\n1x 108M\n೧e6\n2x10-13M\n1೭ಬಾರ್\n2x10-8M",
+      "text_nfc": "KANNADA\n19\nFi\n.ಕಳಗನಯಾವಅಮೈನ್, ಕಾಬfಲ್ಅಮೈನ್ಪರೇಕೆಯನು\n152.\nನಡುತೃದ\nಮತುಎಲೆಕಾೃನ್ಗಳಿಸಂಖೈಗಳುಕಮವಾಗ\nNCH92\n1, 71 ಮತು 14\n175, 104 ಮತ 71\n1, 104 ಮತು 71\n104, 11 ಮತು 1\n1$.-ವೊದಲ್ದಜೆ೯ರಸಾಯನಕಕಿಯಯವೇಗನಯತಾಂಕವು\nA.$00 10--- ಆದರ 20 ಗಾ0 ನಪು. ತಿಯಾಕಾoಯು\nNHC,Hg\n೧.೭ಗಾಂಿಗಿಇಳಯಲುಿಬೇಕಾಗುವಸಮಯವು\n500s\n1000s\n೫\n100s.\n200s\nNH.\nI--ಕಿಳಗನವಗಳಲಿಅಅತದಳಲದಅಣುವನು.ಕಂಡುಒಡಯುಂ.\nCೈ\n೮\n೦,\nಖ\nHe?\nLis\n1.-ಸುಕೋಸ್ನ-ಜಲಏಭಜನೆಯನು-ಕೆಳಗನಿಸಬುಕರಣದಲಿ\nNHCHG\nನಡಲಾಗದ.\nಸುಕೋಸ್-Hೈಂ-ಗುಕೋಸ್#ಫುಕೋಸ್\nSOI t Og Yoo: g C'u goeegoe gogog\nಆದರೆ.ಇ.Gನಮೌಲೈವಿಇದೇತಾಪದಲಿ\n8314J mol-'K-Ix 300 Kx h8x 1013\n1ಂ.-ಕಾಗದೆವಣ೯ರೇಖನವುಿಕಳಗನವುಗಳೆಒಂದು\n-8.34 Jmol 'K-  300 Kx In4  1013\nI gueaogogec.\n-8.314 Jmol /K1 x 300 KxIn2x1013\nತೆಳುಪದರವಣ೯ರೇಖನ\n8314J m01'K-1x 300 Kx 1n2x 1013\nಸಂಭಉದೃಸಾಲುವಣ೯ರೇಖನ\n16. 2clಅನ0 - c1,ಅನ0.\nಮಲೈಚೂಷಕಿವಣ-ರೇಖನ\nಈಿಕಿಯಗಿಸಂಯಾದಆಯಯುವೆ\nಏಭಜನವಣ೯ರೇಖನ\nOs'y ag oh'v\n11. N, ಪೈಟೋಜನ ಮತು. Ar ಆಗಾ೯ನ ಅನಲಗಳ\n೮\nAH0 ಮತು A.S0\nಎುಶಣದಲಿI ಗಾಂಿನಷು, ಮತು ಣಿಗಾಂ ನಷುA\nAೃH೦ ಮತು A.s೦\nJegac Oc. g0og.opog g0g O.g,opoo?\nಒಟುೃ.ಒತಡವೆ#ಿಬಾರ್ಆದರಿ--ನೈಟೋಜನ್ನ\nA.H0 ಮತು A.S/\nಆಂಶಿಕಒತಡವ\n11. NiOW,ನ ಅಯಾ?ಕ ಗುಣಲಬವ 2x1ರ-16 ಆದರ,\nಪರಮಾಣು--ಸಂಖೈಯನು--ಉಪಯೋಗಸ\nO.1 M NaOH ನo NOW, ನ ದಾವೃತಯನು\nPಾoವೋ್ಗಳo N-1, Ar-10 \nಕಂಡುಒಡಯಂ.\n15 ಬಾರ್\n1x10-3M\n18 ಬಾರ್\n1x 108M\n೧e6\n2x10-13M\n1೭ಬಾರ್\n2x10-8M",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

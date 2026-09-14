@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_094",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 49,
+    "width": 1050,
+    "height": 1678
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1050,
+        1678
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "८30 - उप Bey est\n\nsoo”.\n\nGe oF oS BL Ga Grew way CV La\n\nCOLE ९९ CO VEL POS AUIS\n\nPURI Los” Oars GOVE Hw, ows\n+\n\nहम गुजर OFaieara bo,\nAOL KH 539, TIO + OF SAL CAGES\nDo oss Dee OF YOoW Loe टी\nDdtaCosy Frese ७४ 6 UT Owsaw Tf\n\noo) FRI By WILLS PO SCF Soe Seas\nNM OF. BOYS Oy SUSAN TD o\nSO CHT MK Bos, wen SEe’oor\nMa Géeck Oe HW Ge Wyo PSAs\n90 WN, ot S550\", AWG BEN\n\n¢ eM SE ots eae oo; Ay TEE\n\nChange sR? ० Rar’ acre\n\n“87\n\nसदा 61st\"\nbe\n\nre\n&F- de\n\n49\n",
+      "text_nfc": "८30 - उप Bey est\n\nsoo”.\n\nGe oF oS BL Ga Grew way CV La\n\nCOLE ९९ CO VEL POS AUIS\n\nPURI Los” Oars GOVE Hw, ows\n+\n\nहम गुजर OFaieara bo,\nAOL KH 539, TIO + OF SAL CAGES\nDo oss Dee OF YOoW Loe टी\nDdtaCosy Frese ७४ 6 UT Owsaw Tf\n\noo) FRI By WILLS PO SCF Soe Seas\nNM OF. BOYS Oy SUSAN TD o\nSO CHT MK Bos, wen SEe’oor\nMa Géeck Oe HW Ge Wyo PSAs\n90 WN, ot S550\", AWG BEN\n\n¢ eM SE ots eae oo; Ay TEE\n\nChange sR? ० Rar’ acre\n\n“87\n\nसदा 61st\"\nbe\n\nre\n&F- de\n\n49\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

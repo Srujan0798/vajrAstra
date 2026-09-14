@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_042",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+    "page_index": 12,
+    "width": 612.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        612.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n18\nFi\nuu loo gog op go.e g gopeyyadc os  60\nI-ಒಂದು-ಅಂತರ್ಮುಖದಮಲನೆಬೂಸೈರ್-ಕೋನ\nI a G,m.y b goooeg goo geca\nೈ ಯು\n0.5 mm\n0. .45 /u, 90\n10 mm\n.06 - 1/\nO.01 mm\n0 i, 30\n0.25 mm\n30 /, 45\n1ಂ.-ಸರಳಸಂಗತಿಚಲನೆಯಲನೆಕಣದಿಸಳಾಂತರಮತು\n: Goaog go? gar geog gupgsey.g\n1ಕ.-ಒಂದು-ಸಣ-ಕೋನಪಟಕದೆಒಂದು--ಮೇಲೈ-ಮಲೆ\nಒಂದುಕಿರಣವನುಆಪಾತಕೋನನಂದಆಪಾತಗೊಳಸದಾಗ\nI\nrad\n೭\nAog 3ue yencoo goad o.g poc ce.\nಶೂನೈ\nಹೊಂದುತದೆ-ಪಟಕವಸುಏನವಕೀಭವನಿಸೂಬಾೃಂಕಿ\nಎಂದಾದರಿಸಮುಪತಿಆಪಾತಕೋನವ-Aಯುಪಟಕದ\nIr rad.\nಕೋನವೆಂದುತಳದು\n3\n೭\nrad\n11. ೭.A ಎದುೃತ್ ಪವಾಹಎರುವ ಒಂದು 50m ಉದೃನೆಯ\n೫\n#A\n೭\nಸೊಲೆನಾಯ ಂಂಿಸುತುಗಳನುಹೊಂದದೆಯಾದರೆ. ಅದರ\nಕೇಂದದಲನಕಾಂತಕೇತವು\nA\n2\n,-4rx10-Tm A-?\n24\n6.28X 10-T\nI.\n314x10-5T\n6.28x 10-41\n16.-ಸಮಸಾವಥೃ-ಏರುವ--ಮತು.I- ಎಂಬ-ಎರಡು\n3.14x 10-1T\nJpoeggo g0egg goc gac gpy.opogt\nಸೇಂಸಲಾಗದೆ-ಪಮಾಣಕಉಷತಿಮತುಒತಡದಲಿ\n1೭. ಒಂದು ಗೋಪರದ ಮಲನಂದ 2 m೯ ವೇಗದಲ\nಆದಶ೯-ಅನಲವನು-ಹೊಂದದೆ.--I-ಯು-ಸಂಪೂಣಳ\nO&og gpoogg o pog mor gpae? ueeroo.\nನವಾ-ತವಾಗದೆ-ಒಟು.ವೃವಸೈಯನುಉಷತಾನವಾಹಕತೆ-\nರm--ವೇಗದೊಂದಗಿತಳ ಮುಟೈದರ, ಗೋಪರದ\nಯಲಂಸ, ನಲುವಿಬರುಟೆಯನುೃತಕಣಿತೆರದಾಗಆಗುವ\nಎತರವ -10ms\n copoogog\n320 m\n300 m\naeup?\n360 m.\n340 m\nಸವೋಷತ\n1ಃ.-ಒಂದುರೋಧದವಣ೯ಿಸಂಕೇತವನುಕಳಗಿನಡದ\nೈರೋಫತಿ\n1.-ಈೆಕೆಳಗನವಗಳಲಿ-ಯಾವಒಂದಕ್ಬೋರ್-ಮಾದರ\nಸಂಧುವಾಗುವುದಲ?ೆ\nಹಳದೆ--ನೀರಳ\nಕಿ-ಕಂದು--ಜಿನೈ\nಡೂಟರಾನ್-ಪರಮಾಣು\n elog plps gag Gog g.eg ueeagpa\n೮\nಒವು-ಅಯಾನಕರಣಗೊಂಡೆನಂಾನ್\nಪರಮಾಣುಲ\n4 k0 56\n470 2 58\nಜಲಜನಕಪರಮಾಣು\n470 k0 586\nಒಮ-ಅಯಾನಕರಣಗೊಂಡ ಹಲಿಯಂಪರಮಾಣು\n47 k2 109\nHe?",
+      "text_nfc": "KANNADA\n18\nFi\nuu loo gog op go.e g gopeyyadc os  60\nI-ಒಂದು-ಅಂತರ್ಮುಖದಮಲನೆಬೂಸೈರ್-ಕೋನ\nI a G,m.y b goooeg goo geca\nೈ ಯು\n0.5 mm\n0. .45 /u, 90\n10 mm\n.06 - 1/\nO.01 mm\n0 i, 30\n0.25 mm\n30 /, 45\n1ಂ.-ಸರಳಸಂಗತಿಚಲನೆಯಲನೆಕಣದಿಸಳಾಂತರಮತು\n: Goaog go? gar geog gupgsey.g\n1ಕ.-ಒಂದು-ಸಣ-ಕೋನಪಟಕದೆಒಂದು--ಮೇಲೈ-ಮಲೆ\nಒಂದುಕಿರಣವನುಆಪಾತಕೋನನಂದಆಪಾತಗೊಳಸದಾಗ\nI\nrad\n೭\nAog 3ue yencoo goad o.g poc ce.\nಶೂನೈ\nಹೊಂದುತದೆ-ಪಟಕವಸುಏನವಕೀಭವನಿಸೂಬಾೃಂಕಿ\nಎಂದಾದರಿಸಮುಪತಿಆಪಾತಕೋನವ-Aಯುಪಟಕದ\nIr rad.\nಕೋನವೆಂದುತಳದು\n3\n೭\nrad\n11. ೭.A ಎದುೃತ್ ಪವಾಹಎರುವ ಒಂದು 50m ಉದೃನೆಯ\n೫\n#A\n೭\nಸೊಲೆನಾಯ ಂಂಿಸುತುಗಳನುಹೊಂದದೆಯಾದರೆ. ಅದರ\nಕೇಂದದಲನಕಾಂತಕೇತವು\nA\n2\n,-4rx10-Tm A-?\n24\n6.28X 10-T\nI.\n314x10-5T\n6.28x 10-41\n16.-ಸಮಸಾವಥೃ-ಏರುವ--ಮತು.I- ಎಂಬ-ಎರಡು\n3.14x 10-1T\nJpoeggo g0egg goc gac gpy.opogt\nಸೇಂಸಲಾಗದೆ-ಪಮಾಣಕಉಷತಿಮತುಒತಡದಲಿ\n1೭. ಒಂದು ಗೋಪರದ ಮಲನಂದ 2 m೯ ವೇಗದಲ\nಆದಶ೯-ಅನಲವನು-ಹೊಂದದೆ.--I-ಯು-ಸಂಪೂಣಳ\nO&og gpoogg o pog mor gpae? ueeroo.\nನವಾ-ತವಾಗದೆ-ಒಟು.ವೃವಸೈಯನುಉಷತಾನವಾಹಕತೆ-\nರm--ವೇಗದೊಂದಗಿತಳ ಮುಟೈದರ, ಗೋಪರದ\nಯಲಂಸ, ನಲುವಿಬರುಟೆಯನುೃತಕಣಿತೆರದಾಗಆಗುವ\nಎತರವ -10ms\n copoogog\n320 m\n300 m\naeup?\n360 m.\n340 m\nಸವೋಷತ\n1ಃ.-ಒಂದುರೋಧದವಣ೯ಿಸಂಕೇತವನುಕಳಗಿನಡದ\nೈರೋಫತಿ\n1.-ಈೆಕೆಳಗನವಗಳಲಿ-ಯಾವಒಂದಕ್ಬೋರ್-ಮಾದರ\nಸಂಧುವಾಗುವುದಲ?ೆ\nಹಳದೆ--ನೀರಳ\nಕಿ-ಕಂದು--ಜಿನೈ\nಡೂಟರಾನ್-ಪರಮಾಣು\n elog plps gag Gog g.eg ueeagpa\n೮\nಒವು-ಅಯಾನಕರಣಗೊಂಡೆನಂಾನ್\nಪರಮಾಣುಲ\n4 k0 56\n470 2 58\nಜಲಜನಕಪರಮಾಣು\n470 k0 586\nಒಮ-ಅಯಾನಕರಣಗೊಂಡ ಹಲಿಯಂಪರಮಾಣು\n47 k2 109\nHe?",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

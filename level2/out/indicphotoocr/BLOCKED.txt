@@ -1,0 +1,9 @@
+IndicPhotoOCR BLOCKED for Level-2 400-page campaign (2026-09-11)
+
+Attempts:
+- Installed editable package at .deps/IndicPhotoOCR (v1.3.1) into .venv311
+- Fixed broken editable import via sys.path in level2/run_engine.py
+- Re-downloaded TextBPN_resnet50_300.pth (corrupt zip / incomplete download previously)
+- Smoke OCR on te_001 hung / impractical on full document pages (scene-text pipeline; multi-minute+ per page, process went zombie)
+
+Decision: keep folder for future, do not claim packs. Prefer replacement engine (surya/doctr) for distinct nonempty JSON packs.

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_055",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 1448,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1448,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಇನವದ\nCGI OARIGIO\n\n~ lf :\nलिन at eS pe cor\n\nay वि on\naes Mes) ८6011 Jew\nG)\n\nBad deeds ವಜನಗಲೊಂಡಿಗೆ)\n2\n\nae. . ಬಸವನಾಳ ಶಿವಅಂಗಪ್ಟನವರು\n\n",
+      "text_nfc": "ಇನವದ\nCGI OARIGIO\n\n~ lf :\nलिन at eS pe cor\n\nay वि on\naes Mes) ८6011 Jew\nG)\n\nBad deeds ವಜನಗಲೊಂಡಿಗೆ)\n2\n\nae. . ಬಸವನಾಳ ಶಿವಅಂಗಪ್ಟನವರು\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_032",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 8,
+    "width": 1537,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1537,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "I Qutclevtimenoyon!\n, a a b vommo roholanann\nruminnorencm\nbRemcdar-has-conrg mjyoms\nSoasa ang motim\nOmm\nSonemane mjoAnt\ncrprodma -\nmla Dimmaont\ndossadis Bongorl\nonyangation\niorgjoo Bhmg\nOm boms 22o\nae\nbydesdegn\nBhno\nJoblangan\ncopn*\nPevondlom - -\n2s-6an607-naAumyoos S\nedom Nir0 agioergmingen\nMd ambasiommsigsmomanloonan\n-\norojmp ommoo ameowg-srd\n- o-nDlegn 26mi00 N00B2 Nism-\nmom ammrntnind Bongsaims\n63 Slgmmags Bigss 6AYRR\naimmay B 2gmg Mesomm a7mah\nN2RB rmnb ( -\n22 2oun\n20\nmgoyap gyu\nandog",
+      "text_nfc": "I Qutclevtimenoyon!\n, a a b vommo roholanann\nruminnorencm\nbRemcdar-has-conrg mjyoms\nSoasa ang motim\nOmm\nSonemane mjoAnt\ncrprodma -\nmla Dimmaont\ndossadis Bongorl\nonyangation\niorgjoo Bhmg\nOm boms 22o\nae\nbydesdegn\nBhno\nJoblangan\ncopn*\nPevondlom - -\n2s-6an607-naAumyoos S\nedom Nir0 agioergmingen\nMd ambasiommsigsmomanloonan\n-\norojmp ommoo ameowg-srd\n- o-nDlegn 26mi00 N00B2 Nism-\nmom ammrntnind Bongsaims\n63 Slgmmags Bigss 6AYRR\naimmay B 2gmg Mesomm a7mah\nN2RB rmnb ( -\n22 2oun\n20\nmgoyap gyu\nandog",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_094",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 49,
+    "width": 1050,
+    "height": 1678
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1050,
+        1678
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "34 SC EuS SEU 3.30 2520frr,\nJO0 Ho.\nOc or -39685563600100 € So\ncOl Siges o 203 T i Ss S0 PLONS SALOWO\nXNCCi orss Oer(s 31 Sove s,awr\nDXI 95 L WITSe L 150 He AT CPOET.\nDetsuccho 3 susoyt 150. EAS S\nla sycuns 9 FW0 ( d wo 10 C5\nOo L9 R859 so ; QP SELAcEuS\nO0 ar OU 09i9 SR oi HOUSS Lo t\nCo Sosaaluosy SCNO vdowsow i1\nEcbar Eyo Sjauf ansien DS\n2! ae Xo 63. 55 55% 68t eeog\nfcs or 66 chctsn FG 950 SSM\n265 ne J75 Cesses3 aoz CSLSN 50\n86\nA S S2 WASY wrSor \"scogr fe\nV F5C.\nWU SAA S No Z\n2U chon Cf 30U, seach Se P woL\nà 5>\nSc Jecs Oc ODON oC FLA Y\nh.\n90 W,0 Sgo\n2 US\n& S\nOESEY dC a\nJT\neugs LUs\nS\n\nab5\n#\n49",
+      "text_nfc": "34 SC EuS SEU 3.30 2520frr,\nJO0 Ho.\nOc or -39685563600100 € So\ncOl Siges o 203 T i Ss S0 PLONS SALOWO\nXNCCi orss Oer(s 31 Sove s,awr\nDXI 95 L WITSe L 150 He AT CPOET.\nDetsuccho 3 susoyt 150. EAS S\nla sycuns 9 FW0 ( d wo 10 C5\nOo L9 R859 so ; QP SELAcEuS\nO0 ar OU 09i9 SR oi HOUSS Lo t\nCo Sosaaluosy SCNO vdowsow i1\nEcbar Eyo Sjauf ansien DS\n2! ae Xo 63. 55 55% 68t eeog\nfcs or 66 chctsn FG 950 SSM\n265 ne J75 Cesses3 aoz CSLSN 50\n86\nA S S2 WASY wrSor \"scogr fe\nV F5C.\nWU SAA S No Z\n2U chon Cf 30U, seach Se P woL\nà 5>\nSc Jecs Oc ODON oC FLA Y\nh.\n90 W,0 Sgo\n2 US\n& S\nOESEY dC a\nJT\neugs LUs\nS\n\nab5\n#\n49",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

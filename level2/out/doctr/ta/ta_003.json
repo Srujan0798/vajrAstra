@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_003",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0003pro_raw.png",
+    "page_index": 0,
+    "width": 263,
+    "height": 428
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        263,
+        428
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "uogaleosEen GmuC\nyen Eniynflenneu LINTLOL amidlle\nPRanauseITs\nGurmal?\nalmlsu dinglo, 6201110 a101s E\n-DUEL\n660H0D AGTIETIOTELTL\ndainumb GOOLEE\naflanufori\ndu dafloats nuiesal I612M07,\nCatbo\nLEEN desgizku alonpetiolps.\nuiglte -\nMERpEOT GUID Ak mE\n0u55\nBolmih 0015660005\ninmpor\nGETTOOTOTLONTONT -\ngilipuga)\naimlume\nmOEBLLEL\nmpmNBcTt Sknat E\nPAXTaTTLbGTON.OnE\n4L055\nGOTEml 4/QJ00 esniomleona LOITEIEODEDE\nAuEL mon0u5ONTe5 LITLOU 50111d\nBd\n2 a BeTOuTEs5UIpTIOL\n01b50580 mPL\nTELIL/BOIT cutonal?\n-\nEmomb\n0701565\nSunsiolEcutiou OGolot\nEipm,\nfal6inf5\nNE5ENTO) Oupal\ndIBEOTTOT\nEMTGOT doumO ODDAR QI\n9nl55\nHOTIKEOT\n7\nK\nHigal) Etald650001\nololal LOMO\nOHDSOTT\nHigfu1f6\ncfmfOT",
+      "text_nfc": "uogaleosEen GmuC\nyen Eniynflenneu LINTLOL amidlle\nPRanauseITs\nGurmal?\nalmlsu dinglo, 6201110 a101s E\n-DUEL\n660H0D AGTIETIOTELTL\ndainumb GOOLEE\naflanufori\ndu dafloats nuiesal I612M07,\nCatbo\nLEEN desgizku alonpetiolps.\nuiglte -\nMERpEOT GUID Ak mE\n0u55\nBolmih 0015660005\ninmpor\nGETTOOTOTLONTONT -\ngilipuga)\naimlume\nmOEBLLEL\nmpmNBcTt Sknat E\nPAXTaTTLbGTON.OnE\n4L055\nGOTEml 4/QJ00 esniomleona LOITEIEODEDE\nAuEL mon0u5ONTe5 LITLOU 50111d\nBd\n2 a BeTOuTEs5UIpTIOL\n01b50580 mPL\nTELIL/BOIT cutonal?\n-\nEmomb\n0701565\nSunsiolEcutiou OGolot\nEipm,\nfal6inf5\nNE5ENTO) Oupal\ndIBEOTTOT\nEMTGOT doumO ODDAR QI\n9nl55\nHOTIKEOT\n7\nK\nHigal) Etald650001\nololal LOMO\nOHDSOTT\nHigfu1f6\ncfmfOT",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

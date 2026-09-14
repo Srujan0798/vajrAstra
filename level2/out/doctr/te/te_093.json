@@ -1,0 +1,41 @@
+{
+  "page_id": "te_093",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+    "page_index": 18,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "LJ/806\n(19)\n65. 58008 (5088500) 2s 'sas 335 n 69. So3, E5 25y555) 30oses, B0osre\n(Bo8 wvesge Sowogaw SOA asya\n*83 s0sods doaihos 25)30 (Bo8\n(1) SX8\nagon deusods\n(2) asgobô\n(1) 2wEO - 618ge5 26)3\n(2) 058er2s 25)2\n(3) 2J0E50 Snpe) (eweolive)\n(3) 2WE 350 Sgasosy 236 Sass)e\n(4) 25O55 Deges\n(4): e2/s0svE (8./2.) 25)3\n66. SODS som s0aabs (JIT) 305, 70. sapods Dodo), 8500 soses 1308\n3agéoss, sose Bassw 1Bo8 wesss\n25)23 d503-Aos6o OSO sgao3s)\n25 ODEE Dobol805ad508\n(1) loges 25)3\n(1) 28825 dyssoaw\n(2) er2/500ves (P/V) 25)3\n(2) essos bo0 25825 SJSJOs\n(3) 5055 esos 253\ndodrs\n(4) eos aose 25)3\n(3) 30580 6353330\n71. W3.05.8.0 1Bo8 aes5s 25 OJS\n(4) esos dysssa\ndoocsor wso). Noowod\n(1) Sos\n67. 5 Sos eavë, anonaw lwe esesse\n(2) Joods\nabg2ds dee 3row JOOBoNs 8s\n(3) 30180\n2g) o5evedssy6o8, es Sos\n(4) Sao\napeoys\n63\nagon deusod\nSos\n(1) Që Joloaos 20g360 svegs 72. 1308 avdsest 2503 \"30E\" sosods\nDosaw\nsossaw 58. Noowod\n(1) DothoDs aweosaw\n(2) Jqodes DOgOPE0 Swegs Dpssw\n(2) ergaw\n(3) 31588 D8SNES svegs Dosaw\n(3) 58p50 Soas\n(4) 058 DogaEs swegsaw\n(4) Sos 20aA0Ds *3 awses\n68. essen, esye 38350855 8owy 73. 1Bo8 wesess 250Je5 (Seeg Jgigaw,\nagr) 1308 508 Bevno. No0Bod\nDaboléto, Jogaug agayoss aosdo,\nSDOS oscod docvod Moosod\n(1) 28 soloaos Dosaw\n(1) 325 8ox Sos\n(2) 31888 apsaw\n(2) DENgSS Sos\n(3) ee 31588 agsaw\n(3) 2oavoc5 3-5 5035\n(4) 55208/3883 (wgoh) Dpsaw\n(4) Sa508 Soss",
+      "text_nfc": "LJ/806\n(19)\n65. 58008 (5088500) 2s 'sas 335 n 69. So3, E5 25y555) 30oses, B0osre\n(Bo8 wvesge Sowogaw SOA asya\n*83 s0sods doaihos 25)30 (Bo8\n(1) SX8\nagon deusods\n(2) asgobô\n(1) 2wEO - 618ge5 26)3\n(2) 058er2s 25)2\n(3) 2J0E50 Snpe) (eweolive)\n(3) 2WE 350 Sgasosy 236 Sass)e\n(4) 25O55 Deges\n(4): e2/s0svE (8./2.) 25)3\n66. SODS som s0aabs (JIT) 305, 70. sapods Dodo), 8500 soses 1308\n3agéoss, sose Bassw 1Bo8 wesss\n25)23 d503-Aos6o OSO sgao3s)\n25 ODEE Dobol805ad508\n(1) loges 25)3\n(1) 28825 dyssoaw\n(2) er2/500ves (P/V) 25)3\n(2) essos bo0 25825 SJSJOs\n(3) 5055 esos 253\ndodrs\n(4) eos aose 25)3\n(3) 30580 6353330\n71. W3.05.8.0 1Bo8 aes5s 25 OJS\n(4) esos dysssa\ndoocsor wso). Noowod\n(1) Sos\n67. 5 Sos eavë, anonaw lwe esesse\n(2) Joods\nabg2ds dee 3row JOOBoNs 8s\n(3) 30180\n2g) o5evedssy6o8, es Sos\n(4) Sao\napeoys\n63\nagon deusod\nSos\n(1) Që Joloaos 20g360 svegs 72. 1308 avdsest 2503 \"30E\" sosods\nDosaw\nsossaw 58. Noowod\n(1) DothoDs aweosaw\n(2) Jqodes DOgOPE0 Swegs Dpssw\n(2) ergaw\n(3) 31588 D8SNES svegs Dosaw\n(3) 58p50 Soas\n(4) 058 DogaEs swegsaw\n(4) Sos 20aA0Ds *3 awses\n68. essen, esye 38350855 8owy 73. 1Bo8 wesess 250Je5 (Seeg Jgigaw,\nagr) 1308 508 Bevno. No0Bod\nDaboléto, Jogaug agayoss aosdo,\nSDOS oscod docvod Moosod\n(1) 28 soloaos Dosaw\n(1) 325 8ox Sos\n(2) 31888 apsaw\n(2) DENgSS Sos\n(3) ee 31588 agsaw\n(3) 2oavoc5 3-5 5035\n(4) 55208/3883 (wgoh) Dpsaw\n(4) Sa508 Soss",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

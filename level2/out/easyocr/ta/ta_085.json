@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_085",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+    "page_index": 279,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "GLo6DूBlनo६D @गनणगLID थJनठग( Uflrflu I६D छI@IOlluIGD LIITLIIT६D मछi\nGLDनDnU I@Inoागर ७७ (बD6णा @Iप् G.ofी. &ी(oiq6oणा%pjछंछी छlloppछ6o6D@!j (gulozl) छI@Iफ़@fU I6D, LInगSlठIFवणा LIGDB6O6DBBIBlb. (६Dनणा@Ij मIाT. LIYनOflUILILI6DT ७pobouj Qul6| शIप्रषl॰णाए B६D६D B६b@गी(eJLoup ) फibpooltD, न१म६णा ६०D६णा\nLITTLLIITOD 2 U@In कBLD Ipmio छIDlynकंकक ७७ LH. Bप 6ll0ठा BIOJनDT , @gIB६D६D ejelfup gn@up @fluIsD l.ep.GD.|l. LIनTनाfl , नBI (ol6ाngLILILI, Gऊनणfl. थJनणpछlIon6DNT , @glक६DD६D थ५मlट्रlनoul छI @up @flul६b 9I.LD G८ Bl. LनाT6ाfl, GunBFLDLIGा6fl, BUoosण्णा&ीf ढाib ol. @InBGg६२IनDT , @glक६DD६D e५flफ़luIj 5n6[[61|0_]60 OIफ़ीuILDN6ण छl.gp. GD l. L६ाTनाfl, छगwoLpp (६D6णा@Iप. @. I६णणfी , @glक६DबD e५fीfluIp BI@I[@uूD J.GD.l. LIनानाfl, पn. GaILOlmIgIDLILIq PUBioLff ७pgl ७glक६D६D थpषlpluaj छI @I @fluI६D थI.GD.l. LनाTनfl (e छी.), थJBBIUDLLIC, UDgl॰oग GBn. Bछफ़luIeग छंठ्ी, ७कlक६D६D थyठlफ़्luI छI@IofluI६D gl. 8D l. Llनiानाfl , olguLpD, SlGuuggni. छ्ी. ग्G७६q, @glक६D६D e५मlpluip छn@IoluI६b थl थp.GD.|6l. LI6ानाfl, GaILL @I६DUD, Blu६lनणणा 6णणIITLD 6DD६D ६म LDlDj @ीीफी, @कlक६D६D थjमlफ़lनoul छn@ip @fluIsD छl. GLD. pl. LIनाानाfl , Oम6णणILIBI ILDGDTLgIj , ऊन्ण न्णflu IIGLopl. GकI. LIITDBIUIGDL BlDl, @कIक६D६D थyषiplooul BI6प @lluIeD छl.lD. G.D l. LनाTनाfl, क६DBनणणLITLIगLD, GaoDi. &Goonग Glonj , ७gIछ६DD६D थpfpluI छI@Ip @flul६b छ१ GLD. l LनाT ठाfl, छLLLILII6Op. GIUIIgpib, Gol@ाग B.LII I७छ@I६DनDी, @glक६DD६D थ५षीफ्री॰oul छn@IoluI६b थ.GmD [l LनIGITl , RL GLप्री नlफ़lनl, @I६णOTLL @Tg , छIGमlLpio.\nLIITL @२l6b@lऊग्रं ७@ (६D६णा @Iप्र. ६१८. &ी. @गछछlनणाGlonख़ ७sobouख़ Qu l6२|, रूरफि GLipUo6ooflul BroInUDl छl&r क६D६DऊD६Dगी छी७pछनण्णfी , छी७ol6ireऊyj IonOILLI ८०D6णा @Iप्र छl. फ़y BlDDLDठणT ६DD६णणा GLIpn&lpluaj (oiloll) छI@IJOfUI६D gloop, न१८६णा ६०D६णा  &ी७pglol B६b@भग्री pniDLIptD, BIढGंमlLpi (६Dनणा @Ij . GBI.LI. Bीrl@Inम६णा ६०D६0ठा GLIpnflpluI , थIग्र flवणाjर फ६०६D Blbgnगl(eJLolख़ ) } फibpनolib, नl८६णा 6०६णा . (०D6णा @Iपं. Gl.६l. GlLILITL ६DD६णणा BLipnglrfluIj , LOITIloDD Bobgभnगl , ६lFठणा ६D६णा. (६o६णा @!j. Gग sool नाLL नf६णा 6DD६णणा GLIपIBlलl oU l LDIफ़blsDळ कनDनाप्री , न८६ठा ६०D६णा LIITL @UIIकlनOD६OOILILIIOाए्र छठाा कI. UDGbBroाTn ofक़flo2|6oIUIn6एj ठI@Iफ़ @fluI६D DIET, ठl७ol६DबDळGकनoणf , न८६णा ६DD६णा . 6g गरIgILD6णणfी olrfl6|DIUIn61j छI@Iप@fluI६D DIET BनflUInDLनणणL, कI७fLपL. Goi. GBIBीनn ७po१ ७glक६D६D थJमlफ़l6ou] छI@Iप @fUI६D थ१ BD l.LठiTofl, Broणणा 6णणINDLIDGono. SUन IठT 5j.\nOLDnTYOनLIUIjLILO६D 2 -5620 OLI. नमफ़pछl६D, छ६o६D6OLDULITBlpluaj छ१ GLD. l. LIनाTनाfl , थJoणाफ़gng , Bluoq6णणा&lrी &. Oम६D६DglनDगर , @कIककDबD eyमीr्lu्र छI@Ip @luI६b थl.थp.G1D.]6l.L6ाा6ाrl, LDL6INTGIILD, Gol@थTg\n+६DD६ Loppib @Ilq @I६ODLDLILD ७७ @२I6ODJLILIb OguLI& 6D६णा फ६D६D e५मीplup, थleJ.GL.!6l. LIठाानाfl, @mppIhlBODJ , &ीltoqनणणा &ीrl GBILI गIB G@I६D GBnL Bफjछn6णा Bी७oq6णठा6ठा\n@ी६oप्र@|छं GmluiG GLDनDI6ठणा 6ODLDछ ७@ @गn. नgBड़nछनणा 2६.@ J5.[6l.LIनTनाfl छG६णणमLIpU- GLIneog , छUOIनणण 6णणIITUD6OD६D IDIOILLID\n@२l.LIgIDn @Iछी , L.थb 92 Eliusitoाl,   oloupplug, थrflugृg.\n.Gऊol 6lgablipn, Ll.थb 9.2 फ़l.LनाTनाfl, ना 6णा.नाUD. GकIOl६D, Golgnग.\n6२ILQ 6२I6ODLDLILI Bफफ़luInछ 6i७leLIनणT P. LlnBnip 6i७leLI6णT fी. Lrमnip BफOpnoq Glnj LOछनणT , थILम६णा In  House QC BIIONLLfl LIITODनDT थbड़IBI गरnGgoq छIऊंIBLILIनDT Olgग़n6DG @ी६ंमठणा\nOjफ़nsb 8Ogl न 6ib नाiD. नाकीषनणंणLं GLLDIgOgI Bnढाfl६b DIBBILLLILGनilaाgl PJLOBL @बopuilsb शIB&lL GLng:\nJILLनDL @२ILQ @२I६ODIDLIL छफ़ीjरं थbफ़I७Bू @U५IIकीनOD६OOLILITनाग्र गGD६q (नoflषnळD\nBLLLBBr &lठगरn, SCERT Chennai\n272\nTIIGOTBIOLOGYBOTANY_XIITIPRACTICAL IANUAL.indal 272\n28/12/2022 16:23:29",
+      "text_nfc": "GLo6DूBlनo६D @गनणगLID थJनठग( Uflrflu I६D छI@IOlluIGD LIITLIIT६D मछi\nGLDनDnU I@Inoागर ७७ (बD6णा @Iप् G.ofी. &ी(oiq6oणा%pjछंछी छlloppछ6o6D@!j (gulozl) छI@Iफ़@fU I6D, LInगSlठIFवणा LIGDB6O6DBBIBlb. (६Dनणा@Ij मIाT. LIYनOflUILILI6DT ७pobouj Qul6| शIप्रषl॰णाए B६D६D B६b@गी(eJLoup ) फibpooltD, न१म६णा ६०D६णा\nLITTLLIITOD 2 U@In कBLD Ipmio छIDlynकंकक ७७ LH. Bप 6ll0ठा BIOJनDT , @gIB६D६D ejelfup gn@up @fluIsD l.ep.GD.|l. LIनTनाfl , नBI (ol6ाngLILILI, Gऊनणfl. थJनणpछlIon6DNT , @glक६DD६D थ५मlट्रlनoul छI @up @flul६b 9I.LD G८ Bl. LनाT6ाfl, GunBFLDLIGा6fl, BUoosण्णा&ीf ढाib ol. @InBGg६२IनDT , @glक६DD६D e५flफ़luIj 5n6[[61|0_]60 OIफ़ीuILDN6ण छl.gp. GD l. L६ाTनाfl, छगwoLpp (६D6णा@Iप. @. I६णणfी , @glक६DबD e५fीfluIp BI@I[@uूD J.GD.l. LIनानाfl, पn. GaILOlmIgIDLILIq PUBioLff ७pgl ७glक६D६D थpषlpluaj छI @I @fluI६D थI.GD.l. LनाTनfl (e छी.), थJBBIUDLLIC, UDgl॰oग GBn. Bछफ़luIeग छंठ्ी, ७कlक६D६D थyठlफ़्luI छI@IofluI६D gl. 8D l. Llनiानाfl , olguLpD, SlGuuggni. छ्ी. ग्G७६q, @glक६D६D e५मlpluip छn@IoluI६b थl थp.GD.|6l. LI6ानाfl, GaILL @I६DUD, Blu६lनणणा 6णणIITLD 6DD६D ६म LDlDj @ीीफी, @कlक६D६D थjमlफ़lनoul छn@ip @fluIsD छl. GLD. pl. LIनाानाfl , Oम6णणILIBI ILDGDTLgIj , ऊन्ण न्णflu IIGLopl. GकI. LIITDBIUIGDL BlDl, @कIक६D६D थyषiplooul BI6प @lluIeD छl.lD. G.D l. LनाTनाfl, क६DBनणणLITLIगLD, GaoDi. &Goonग Glonj , ७gIछ६DD६D थpfpluI छI@Ip @flul६b छ१ GLD. l LनाT ठाfl, छLLLILII6Op. GIUIIgpib, Gol@ाग B.LII I७छ@I६DनDी, @glक६DD६D थ५षीफ्री॰oul छn@IoluI६b थ.GmD [l LनIGITl , RL GLप्री नlफ़lनl, @I६णOTLL @Tg , छIGमlLpio.\nLIITL @२l6b@lऊग्रं ७@ (६D६णा @Iप्र. ६१८. &ी. @गछछlनणाGlonख़ ७sobouख़ Qu l6२|, रूरफि GLipUo6ooflul BroInUDl छl&r क६D६DऊD६Dगी छी७pछनण्णfी , छी७ol6ireऊyj IonOILLI ८०D6णा @Iप्र छl. फ़y BlDDLDठणT ६DD६णणा GLIpn&lpluaj (oiloll) छI@IJOfUI६D gloop, न१८६णा ६०D६णा  &ी७pglol B६b@भग्री pniDLIptD, BIढGंमlLpi (६Dनणा @Ij . GBI.LI. Bीrl@Inम६णा ६०D६0ठा GLIpnflpluI , थIग्र flवणाjर फ६०६D Blbgnगl(eJLolख़ ) } फibpनolib, नl८६णा 6०६णा . (०D6णा @Iपं. Gl.६l. GlLILITL ६DD६णणा BLipnglrfluIj , LOITIloDD Bobgभnगl , ६lFठणा ६D६णा. (६o६णा @!j. Gग sool नाLL नf६णा 6DD६णणा GLIपIBlलl oU l LDIफ़blsDळ कनDनाप्री , न८६ठा ६०D६णा LIITL @UIIकlनOD६OOILILIIOाए्र छठाा कI. UDGbBroाTn ofक़flo2|6oIUIn6एj ठI@Iफ़ @fluI६D DIET, ठl७ol६DबDळGकनoणf , न८६णा ६DD६णा . 6g गरIgILD6णणfी olrfl6|DIUIn61j छI@Iप@fluI६D DIET BनflUInDLनणणL, कI७fLपL. Goi. GBIBीनn ७po१ ७glक६D६D थJमlफ़l6ou] छI@Iप @fUI६D थ१ BD l.LठiTofl, Broणणा 6णणINDLIDGono. SUन IठT 5j.\nOLDnTYOनLIUIjLILO६D 2 -5620 OLI. नमफ़pछl६D, छ६o६D6OLDULITBlpluaj छ१ GLD. l. LIनाTनाfl , थJoणाफ़gng , Bluoq6णणा&lrी &. Oम६D६DglनDगर , @कIककDबD eyमीr्lu्र छI@Ip @luI६b थl.थp.G1D.]6l.L6ाा6ाrl, LDL6INTGIILD, Gol@थTg\n+६DD६ Loppib @Ilq @I६ODLDLILD ७७ @२I6ODJLILIb OguLI& 6D६णा फ६D६D e५मीplup, थleJ.GL.!6l. LIठाानाfl, @mppIhlBODJ , &ीltoqनणणा &ीrl GBILI गIB G@I६D GBnL Bफjछn6णा Bी७oq6णठा6ठा\n@ी६oप्र@|छं GmluiG GLDनDI6ठणा 6ODLDछ ७@ @गn. नgBड़nछनणा 2६.@ J5.[6l.LIनTनाfl छG६णणमLIpU- GLIneog , छUOIनणण 6णणIITUD6OD६D IDIOILLID\n@२l.LIgIDn @Iछी , L.थb 92 Eliusitoाl,   oloupplug, थrflugृg.\n.Gऊol 6lgablipn, Ll.थb 9.2 फ़l.LनाTनाfl, ना 6णा.नाUD. GकIOl६D, Golgnग.\n6२ILQ 6२I6ODLDLILI Bफफ़luInछ 6i७leLIनणT P. LlnBnip 6i७leLI6णT fी. Lrमnip BफOpnoq Glnj LOछनणT , थILम६णा In  House QC BIIONLLfl LIITODनDT थbड़IBI गरnGgoq छIऊंIBLILIनDT Olgग़n6DG @ी६ंमठणा\nOjफ़nsb 8Ogl न 6ib नाiD. नाकीषनणंणLं GLLDIgOgI Bnढाfl६b DIBBILLLILGनilaाgl PJLOBL @बopuilsb शIB&lL GLng:\nJILLनDL @२ILQ @२I६ODIDLIL छफ़ीjरं थbफ़I७Bू @U५IIकीनOD६OOLILITनाग्र गGD६q (नoflषnळD\nBLLLBBr &lठगरn, SCERT Chennai\n272\nTIIGOTBIOLOGYBOTANY_XIITIPRACTICAL IANUAL.indal 272\n28/12/2022 16:23:29",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

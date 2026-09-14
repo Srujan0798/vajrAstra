@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_011",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0012pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "B0oFE38 Hoord\nd0oFE3E oots\nxatod 2sveat esaloen\ndooa 3083;: 243, 23e\ne0370,\n3033; x6be/9.20-2/2013.\nopesrog. wel 20.080. esogdecor\nDel,\nsorsled), Osood: 22.04.2013\nepros\nDadas:\n10000 sornen 2500013 3dx008-Xa500\nsosonsos esmegneb\nevgea): 1. N00FOd eprezss:\nCO-20-CLM-2013. 23orslod),\nasood: 18.3.2013\nBonslod), Osood: 08.04.2013\n2. NOoFOd eQreess CO-21-CLM-2013. eoxosdrteoa Rabages Bocod.\n303\noaadg HORODAdOS eneea03 XooFOd eadoersaa d233 aoadas Dalad\nooesde xotod 230000t00\n8JDFE38 XOOFOW xoood Hoapne e3t393 ao39 oorio\naoopsone 2booardada\nsdteseacy: d00FE38\nsaoride Dari 390d.\nabedpsodrs, adeFos was Dabogrode TOodF x000 epsatas\nxotod 20000t00 esaioend 19598 aedro 390 corlO EDOFE38\nXoted Hoone epsabas\newtos Boreond.\n19978 gadro 268 de3es epsababdo 250003F300001 800F838 Notod Xompad eppatas\n1959,\nxoood Hotne edoz aoten ddsadoghcigd.\nagddeo 390 08325 808odo3 4 803790\n(Primary Societies) esde3 aoden\n1.\naodede Bosde aepad xooed Xoapre\n2000E3\n3E008. (30.09.20138 2u97)\nSRFO (Secondary Societies) xotod\nXoapre es9g aoden\n2. adtaie 2o3de asead (3110.20136 sen)\n250000E3 Sexto8\n2bapalrse 30a9a0,\nNotod Xoarien (Federal Socieites) 30 oaine Jo3d\n3. aodie ao3d2 3oawg Xopd 2500ar8ne0 aiororrood\nosead 37FO xotod (30.1.2013d 209n)\nspdocisarisspphcagd.\nNognen (Apex Societies) 25000t3\n3d39ad0, Xoatg\n4. coeyde ao3de eeat xotod aerornood 30 asane 3o3d sadogisarisdogncogd.\nxotod Hoane 20003378190\n(31.12.20130 2u97)\nesoad\n200ats statoas sowogaen aodogpe dodad doxneo 6 3one\n3otod 250003r00 eadoentss, edeo abodgad espats aonadas\nxated\naswodd aegadaa xated Xone spadogdemhcosd. 33 otabe XORJOOAE 20w0ats\ndosfde\n3aboorag agdaboa\nsognes / xotod\nme0sEDOrss moorssbondershoga\nded a023F eozg\nsores 2708 agosa\nasooarines abociodenhcy XOROQRd\nHoapnies ddtas aostedd\nXoesse 3etde 238882 x04000 odegrineemocid.o\nade, eda\nauyaba0s AGEON Xoaa ab30odd a4jada7a Acgarbojc.\nRaor, 3o3d 302008\n19598 ajadto (20) de son0 agne\n(Votes of\nBNof 438 xased Xone eppaba,\nosoxsehd. BROFEE xood\nXomre Dobaones 19603 dabas (RotooA\nbore Dobas 13-0 do 13 sonon\nMembers) n e093 abode sond 20000r3 eort\nxond 2500003 8030\n\"Dabas) 13 38\nosoxenhe. Dadass 14 d9 etdes aote D00F25600 Dabas 14(3)\nrodsi 23083 0301 er Daorennd. xatod Hoapas aas 5ody 45 Oaine 3002830A\nenxoxteaoci taba eun aeads 250203368 Sdawas Opodt Dabas 14(4) dos Xora\n9e3g 30270E saoedd ado Hosa X02300 gedde gauxaEC\n3osos3opnd. ab35\n33\nesariodog agoedd aegabsea 250003500\n0o0088 15 Datne\nTAA : 500",
+      "text_nfc": "B0oFE38 Hoord\nd0oFE3E oots\nxatod 2sveat esaloen\ndooa 3083;: 243, 23e\ne0370,\n3033; x6be/9.20-2/2013.\nopesrog. wel 20.080. esogdecor\nDel,\nsorsled), Osood: 22.04.2013\nepros\nDadas:\n10000 sornen 2500013 3dx008-Xa500\nsosonsos esmegneb\nevgea): 1. N00FOd eprezss:\nCO-20-CLM-2013. 23orslod),\nasood: 18.3.2013\nBonslod), Osood: 08.04.2013\n2. NOoFOd eQreess CO-21-CLM-2013. eoxosdrteoa Rabages Bocod.\n303\noaadg HORODAdOS eneea03 XooFOd eadoersaa d233 aoadas Dalad\nooesde xotod 230000t00\n8JDFE38 XOOFOW xoood Hoapne e3t393 ao39 oorio\naoopsone 2booardada\nsdteseacy: d00FE38\nsaoride Dari 390d.\nabedpsodrs, adeFos was Dabogrode TOodF x000 epsatas\nxotod 20000t00 esaioend 19598 aedro 390 corlO EDOFE38\nXoted Hoone epsabas\newtos Boreond.\n19978 gadro 268 de3es epsababdo 250003F300001 800F838 Notod Xompad eppatas\n1959,\nxoood Hotne edoz aoten ddsadoghcigd.\nagddeo 390 08325 808odo3 4 803790\n(Primary Societies) esde3 aoden\n1.\naodede Bosde aepad xooed Xoapre\n2000E3\n3E008. (30.09.20138 2u97)\nSRFO (Secondary Societies) xotod\nXoapre es9g aoden\n2. adtaie 2o3de asead (3110.20136 sen)\n250000E3 Sexto8\n2bapalrse 30a9a0,\nNotod Xoarien (Federal Socieites) 30 oaine Jo3d\n3. aodie ao3d2 3oawg Xopd 2500ar8ne0 aiororrood\nosead 37FO xotod (30.1.2013d 209n)\nspdocisarisspphcagd.\nNognen (Apex Societies) 25000t3\n3d39ad0, Xoatg\n4. coeyde ao3de eeat xotod aerornood 30 asane 3o3d sadogisarisdogncogd.\nxotod Hoane 20003378190\n(31.12.20130 2u97)\nesoad\n200ats statoas sowogaen aodogpe dodad doxneo 6 3one\n3otod 250003r00 eadoentss, edeo abodgad espats aonadas\nxated\naswodd aegadaa xated Xone spadogdemhcosd. 33 otabe XORJOOAE 20w0ats\ndosfde\n3aboorag agdaboa\nsognes / xotod\nme0sEDOrss moorssbondershoga\nded a023F eozg\nsores 2708 agosa\nasooarines abociodenhcy XOROQRd\nHoapnies ddtas aostedd\nXoesse 3etde 238882 x04000 odegrineemocid.o\nade, eda\nauyaba0s AGEON Xoaa ab30odd a4jada7a Acgarbojc.\nRaor, 3o3d 302008\n19598 ajadto (20) de son0 agne\n(Votes of\nBNof 438 xased Xone eppaba,\nosoxsehd. BROFEE xood\nXomre Dobaones 19603 dabas (RotooA\nbore Dobas 13-0 do 13 sonon\nMembers) n e093 abode sond 20000r3 eort\nxond 2500003 8030\n\"Dabas) 13 38\nosoxenhe. Dadass 14 d9 etdes aote D00F25600 Dabas 14(3)\nrodsi 23083 0301 er Daorennd. xatod Hoapas aas 5ody 45 Oaine 3002830A\nenxoxteaoci taba eun aeads 250203368 Sdawas Opodt Dabas 14(4) dos Xora\n9e3g 30270E saoedd ado Hosa X02300 gedde gauxaEC\n3osos3opnd. ab35\n33\nesariodog agoedd aegabsea 250003500\n0o0088 15 Datne\nTAA : 500",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

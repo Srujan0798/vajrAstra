@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_099",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+    "page_index": 93,
+    "width": 858,
+    "height": 1319
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        858,
+        1319
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "88\nalagga3iomad\n6068B6CD 60000 otolo gogoeiloolod\n0008150\n0000000 COdo 69160060 1o00 608l0Iao aJ0eJm00B\n0000 000000 Geoellmunejo) QImOons 603 000\n000g19\nGOO a.l@sp.o.z16oTuoD @plo.soyrolco\n603 csolg-focolosmo. (BYOGGQO0 600.80g00JgoaJgam@oco ailso\nan0go a\n(00oe) 603 @a.mupoolesupmoled 0000olde\nQJ000 2egcoldam 60J00, 200up00(g091ompab 00m 601083\noyjp.muoocogellagos 603 982J2100.g0.0g0 o0d0o0e\n2ajalasooooggo\nau.7lavol.8801000\ncolc@kolafliol.aam\n00000 (00l000, 0000 (olol010 610000 BYOGGQO\n600 boimcone otolo aaloooldd\nG2160300J001\n0ll82.00000006 0 0 alol60.\n031005000000\n@ogjaula@.molejo 0093J8ogJQ08\nmloe 00001000l0 m5015la0o Q100000D0\n3\n0832\ngelde oldagpdssajgimolejo 610000 0oo Deomlapcoo\noolej.\n206606n9 aogjerbcolmunoco.oplamp 0060008\nOcomlejss dQQo Qu@oplogale\n20 (one OOJ\n63800 610000 Goolojol moisinplagas.somp93310020000h\nGCD02.118o0p0DOLDGOD00310n00 aplo2n.1ola.doslejacocpme\n2lo0 CLDONUDOO 60000 01085000 Golomlasmo.\n606030CD oglom belOo 6001000.00 ol: GD0O1\naomot.Da.ponlaabo 608 OO ogmpl0s eelg. (038\nQ0600 60000 60000goleips <0100200007 00m\n800ogelod 60100 doomemooamosalame doploel\nQUO0o.\nGoollos 610000 boolod colegcolo Q0000\n060 ogonl.\n000001020la00 (alQjo eo 608\n00j6.01010 jool @nagagomla a0emost auoqvorolso\n0006n6000\n(B10.0lap000 @oa@an.ologbo\nagodlauloo\nG@Olej0.010)\n0020000 o001\n003906mp1d6 60000",
+      "text_nfc": "88\nalagga3iomad\n6068B6CD 60000 otolo gogoeiloolod\n0008150\n0000000 COdo 69160060 1o00 608l0Iao aJ0eJm00B\n0000 000000 Geoellmunejo) QImOons 603 000\n000g19\nGOO a.l@sp.o.z16oTuoD @plo.soyrolco\n603 csolg-focolosmo. (BYOGGQO0 600.80g00JgoaJgam@oco ailso\nan0go a\n(00oe) 603 @a.mupoolesupmoled 0000olde\nQJ000 2egcoldam 60J00, 200up00(g091ompab 00m 601083\noyjp.muoocogellagos 603 982J2100.g0.0g0 o0d0o0e\n2ajalasooooggo\nau.7lavol.8801000\ncolc@kolafliol.aam\n00000 (00l000, 0000 (olol010 610000 BYOGGQO\n600 boimcone otolo aaloooldd\nG2160300J001\n0ll82.00000006 0 0 alol60.\n031005000000\n@ogjaula@.molejo 0093J8ogJQ08\nmloe 00001000l0 m5015la0o Q100000D0\n3\n0832\ngelde oldagpdssajgimolejo 610000 0oo Deomlapcoo\noolej.\n206606n9 aogjerbcolmunoco.oplamp 0060008\nOcomlejss dQQo Qu@oplogale\n20 (one OOJ\n63800 610000 Goolojol moisinplagas.somp93310020000h\nGCD02.118o0p0DOLDGOD00310n00 aplo2n.1ola.doslejacocpme\n2lo0 CLDONUDOO 60000 01085000 Golomlasmo.\n606030CD oglom belOo 6001000.00 ol: GD0O1\naomot.Da.ponlaabo 608 OO ogmpl0s eelg. (038\nQ0600 60000 60000goleips <0100200007 00m\n800ogelod 60100 doomemooamosalame doploel\nQUO0o.\nGoollos 610000 boolod colegcolo Q0000\n060 ogonl.\n000001020la00 (alQjo eo 608\n00j6.01010 jool @nagagomla a0emost auoqvorolso\n0006n6000\n(B10.0lap000 @oa@an.ologbo\nagodlauloo\nG@Olej0.010)\n0020000 o001\n003906mp1d6 60000",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

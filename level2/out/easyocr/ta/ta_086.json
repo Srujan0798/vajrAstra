@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_086",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aच\nशाUIनoLDGu Ool6be %\nफ़lDीyूूnG श ष्\nGLDनUgblooo @,ooगLILb शुनठंग G\n+क००ा छं GLILIफ़loudb\nफ़UDीYpIG थJ ङ ७l७DmJUl नJनUILI LITTLLJI नD @lypऊlGio फ़ीLंL फ़ंफ़्लीन्ठ &yु OlolनfluaLLILILLLgI\nLlनाTनflळ Bobolggloop फँनठग LLITODLD LOनगfी मूOूuILopp Ol#ul@io OLIG IGpp(pio g७Lo\n१२th Accountancy Front indd\n12/11/2021 11:53:36 |P|1",
+      "text_nfc": "aच\nशाUIनoLDGu Ool6be %\nफ़lDीyूूnG श ष्\nGLDनUgblooo @,ooगLILb शुनठंग G\n+क००ा छं GLILIफ़loudb\nफ़UDीYpIG थJ ङ ७l७DmJUl नJनUILI LITTLLJI नD @lypऊlGio फ़ीLंL फ़ंफ़्लीन्ठ &yु OlolनfluaLLILILLLgI\nLlनाTनflळ Bobolggloop फँनठग LLITODLD LOनगfी मूOूuILopp Ol#ul@io OLIG IGpp(pio g७Lo\n१२th Accountancy Front indd\n12/11/2021 11:53:36 |P|1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

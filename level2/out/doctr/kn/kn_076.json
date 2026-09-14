@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_076",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0037pro_raw.pdf",
+    "page_index": 13,
+    "width": 1015,
+    "height": 1400
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1015,
+        1400
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "oa\ndewa JOROOSOA\n2\n10303,2100FO 3\ndeaa eao\nage toane0 anead\nwonga. desoodd ooaneb, abonaoz abooro, woa ooaneb,\n3\n303n00 38 aas a30 ooaneb, adasavooro awozoa doo\nNononed socoare aesnas onponaw. dewa soane\na\nen aoz ead deea avozone asseadwcnas : deaja\nwod waa\n+\ndonea\nwawon, et\nHodocade deaa\nAton eada, 3208000 deea aso3a; d0oFedde\n&\nagen\nwoawwad\nagaep\nwoas adoeesat.\nL\nDay\nwaab\n\ntorea d\ndot, arwO\n7 3 can\nNon 000300woh soodwaa woatood\ncadtoz 230d SER aod?\nwoas aode saasowed deaa wo8 age donea\naa &000 30abod aoa Hodoea 2oo3 agon dodaba\ndaja was DgPOFT Brepade NOOFO, oyoosod dewa\neao age onea a abds 03083208 aEOR esoa apabe\nsoad.\naboore votoworod\ndeajad woladeeg 3\nazsoh JAC aooadwa todowo\nbodoode. Seay woaboeo so0oWonYAD, NOOA bo0owonsae,\ndaaade, soooegaro', aooggos', aOWEF\n00d0003abr9os woootdt sodowosoddode SAGoohaod.\neado eo3oon, ae, Wo.Wetoe eog soabowt wosowonee\naaed, 2300, awosoa 230027 sodowonse NOAWAF,\nded do83 aog NOOA bowowonee do,a todowo T0&3\n2303a0e Babae eu Aonne2a. aODro todowo 0233a00\ne\naopd 3d0ad deajtd. 3.00.70. eog aegowos wodowdbodd\n2380 3o0 2J000 eog aODEd bodowonea, woaben\ndeaad ewooa aORFOSFS, HoF adowed.\n€\na\nBade eu\ne\n30,\ntodowo d233a\nendes\naesdoot\ne\nsodowones, d2320 Seayas ead edten 90 Waftoe",
+      "text_nfc": "oa\ndewa JOROOSOA\n2\n10303,2100FO 3\ndeaa eao\nage toane0 anead\nwonga. desoodd ooaneb, abonaoz abooro, woa ooaneb,\n3\n303n00 38 aas a30 ooaneb, adasavooro awozoa doo\nNononed socoare aesnas onponaw. dewa soane\na\nen aoz ead deea avozone asseadwcnas : deaja\nwod waa\n+\ndonea\nwawon, et\nHodocade deaa\nAton eada, 3208000 deea aso3a; d0oFedde\n&\nagen\nwoawwad\nagaep\nwoas adoeesat.\nL\nDay\nwaab\n\ntorea d\ndot, arwO\n7 3 can\nNon 000300woh soodwaa woatood\ncadtoz 230d SER aod?\nwoas aode saasowed deaa wo8 age donea\naa &000 30abod aoa Hodoea 2oo3 agon dodaba\ndaja was DgPOFT Brepade NOOFO, oyoosod dewa\neao age onea a abds 03083208 aEOR esoa apabe\nsoad.\naboore votoworod\ndeajad woladeeg 3\nazsoh JAC aooadwa todowo\nbodoode. Seay woaboeo so0oWonYAD, NOOA bo0owonsae,\ndaaade, soooegaro', aooggos', aOWEF\n00d0003abr9os woootdt sodowosoddode SAGoohaod.\neado eo3oon, ae, Wo.Wetoe eog soabowt wosowonee\naaed, 2300, awosoa 230027 sodowonse NOAWAF,\nded do83 aog NOOA bowowonee do,a todowo T0&3\n2303a0e Babae eu Aonne2a. aODro todowo 0233a00\ne\naopd 3d0ad deajtd. 3.00.70. eog aegowos wodowdbodd\n2380 3o0 2J000 eog aODEd bodowonea, woaben\ndeaad ewooa aORFOSFS, HoF adowed.\n€\na\nBade eu\ne\n30,\ntodowo d233a\nendes\naesdoot\ne\nsodowones, d2320 Seayas ead edten 90 Waftoe",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

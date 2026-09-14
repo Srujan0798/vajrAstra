@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_017",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 56,
+    "width": 1108,
+    "height": 1643
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1108,
+        1643
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಮಾಂತೆರ್ಲಾ ಒಂಜೇ\n\n ನಾರಾಯಣ ರೈ ಕುಕ್ಕುವಳ್ಳಿ,\n\nಪುತ್ತೂರು\nwore... wore... ಒಂಜೇ...\nನಮ ಮಾಂತೆರ್ಲಾ wove... Il\n\nಮಿತ್ತ ಬಾನೊಲ ಒಂಜೇ...\nತಿರ್ಶ ಬೂಮಿಲ ಒಂಜೇ ...\nWB OD ६०08८... ನಾಡ್‌ಲಾ ಒಂಜೇ... Il\n\nಪರಪ್ಪಿನ ನೀರ್‌ಲಾ wore...\nಬೀಜುನ ಗಾಳಿಲಾ ಒಂಜೇ ...\nತೂಲಾ worwe.... ಪೂಲಾ ಒಂಜೇ... Il\n\nಜಾತಿಮತೊಲಾ ६००४८...\nನೀತಿನಿಯಮೊಲಾ ಒಂಜೇ...\nAes, ಕುರಾನ್, ಬೈಬ್‌ಲ್ಲಾ ಒಂಜೇ... I\n\nನಮಡ ಪರಪ್ಪಿನ ನತ್ತೆರ್ ಒಂಜೇ...\nನಮಡ ಪುಟ್ಟುನ ಭಾವನೆ ಒಂಜೇ...\nತತ್ವೊಲಾ nove... DAO ಒಂಜೇ... II\n\nಬೇದೊ ಭಾವನೆ ಬುಡುಕೊ ....\nBein ಸೇವೆನೇ ಮಲ್ಪುಗೊ...\nಮಾಂತೆರ್ಲೊಂಜೇ ಎನ್ನುಗೊ... Il\n\nore... wore... wore...\nನಮ Avosop, ಒಂಜೇ... Il\n\nನೆಯಿ-ಪೇರ್ /42\n",
+      "text_nfc": "ಮಾಂತೆರ್ಲಾ ಒಂಜೇ\n\n ನಾರಾಯಣ ರೈ ಕುಕ್ಕುವಳ್ಳಿ,\n\nಪುತ್ತೂರು\nwore... wore... ಒಂಜೇ...\nನಮ ಮಾಂತೆರ್ಲಾ wove... Il\n\nಮಿತ್ತ ಬಾನೊಲ ಒಂಜೇ...\nತಿರ್ಶ ಬೂಮಿಲ ಒಂಜೇ ...\nWB OD ६०08८... ನಾಡ್‌ಲಾ ಒಂಜೇ... Il\n\nಪರಪ್ಪಿನ ನೀರ್‌ಲಾ wore...\nಬೀಜುನ ಗಾಳಿಲಾ ಒಂಜೇ ...\nತೂಲಾ worwe.... ಪೂಲಾ ಒಂಜೇ... Il\n\nಜಾತಿಮತೊಲಾ ६००४८...\nನೀತಿನಿಯಮೊಲಾ ಒಂಜೇ...\nAes, ಕುರಾನ್, ಬೈಬ್‌ಲ್ಲಾ ಒಂಜೇ... I\n\nನಮಡ ಪರಪ್ಪಿನ ನತ್ತೆರ್ ಒಂಜೇ...\nನಮಡ ಪುಟ್ಟುನ ಭಾವನೆ ಒಂಜೇ...\nತತ್ವೊಲಾ nove... DAO ಒಂಜೇ... II\n\nಬೇದೊ ಭಾವನೆ ಬುಡುಕೊ ....\nBein ಸೇವೆನೇ ಮಲ್ಪುಗೊ...\nಮಾಂತೆರ್ಲೊಂಜೇ ಎನ್ನುಗೊ... Il\n\nore... wore... wore...\nನಮ Avosop, ಒಂಜೇ... Il\n\nನೆಯಿ-ಪೇರ್ /42\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

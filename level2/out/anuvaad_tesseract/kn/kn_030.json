@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_030",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 79,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಅಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳು (ಎನ್‌ಸಿಡಿ)\nಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು\nಯದ ಕಾಯಿಲೆಗಳು, ಪಾರ್ಶ್ವವಾಯು)\n\nofl\na\n\neal\na oO\n\nGc\n\noS\n\na\n\nbat\n\n8L i\nL@\n\na\n\n1 22k OL\nago\n\n”4\n\n9\nre &\n\nDOB ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\n\nWY\n\nಬದಲಾಯಿಸಬಹುದಾದ ಕಾರಣಗಳು\n\nSs\nತಂಬಾಕು wes ಮದ್ಯಪಾನ Bens ಅನಾರೋಗ್ಯಕರ ಕೆಲಸ ಹಾಗೂ ವ್ಯಾಯಾಮ\nems BAS ಮಾಡದರುವ್ದು\n\nಬದಲಾಯಿಸಲಾಗದ ಕಾರಣಗಳು\n\n04 52 १85\n1 2228\n\n2\n\nವೃದ್ಧಾ ಕೌಟುಂಬಿಕ ಹಿನ್ನಲೆ ಲಿಂಗ\n\n",
+      "text_nfc": "ಅಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳು (ಎನ್‌ಸಿಡಿ)\nಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು\nಯದ ಕಾಯಿಲೆಗಳು, ಪಾರ್ಶ್ವವಾಯು)\n\nofl\na\n\neal\na oO\n\nGc\n\noS\n\na\n\nbat\n\n8L i\nL@\n\na\n\n1 22k OL\nago\n\n”4\n\n9\nre &\n\nDOB ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\n\nWY\n\nಬದಲಾಯಿಸಬಹುದಾದ ಕಾರಣಗಳು\n\nSs\nತಂಬಾಕು wes ಮದ್ಯಪಾನ Bens ಅನಾರೋಗ್ಯಕರ ಕೆಲಸ ಹಾಗೂ ವ್ಯಾಯಾಮ\nems BAS ಮಾಡದರುವ್ದು\n\nಬದಲಾಯಿಸಲಾಗದ ಕಾರಣಗಳು\n\n04 52 १85\n1 2228\n\n2\n\nವೃದ್ಧಾ ಕೌಟುಂಬಿಕ ಹಿನ್ನಲೆ ಲಿಂಗ\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

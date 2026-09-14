@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Say ‘a’ to ‘z’ in 10 seconds.\nTell 5 words that end with ‘e’.\nTell 5 words that begin with 'a'.\nTell 5 words that end with ‘r’.\n<img alt=\"A circular light green background with a yellow circle in the center. The text 'Frame a question that begins with 'What'' is written in a blue font ac\nDo what you like (in English).\nSing an English song.\n<img alt=\"A circular logo with a yellow background and a blue central rectangle. Inside the central rectangle, the words 'Frame a question that b\nFrame a question that begins with 'How'\nTell 5 words that begin with ‘n’.\nTell 4 words that begin with ‘th’.\n<img alt=\"A triangular pattern of three lines of text on a blue background. The top line is a solid blue line. The middle line is a solid blue li\n<img alt=\"A stylized diamond shape with a yellow background and a blue outer border. Inside the diamond, the words 'Tell 5 words that end with 'p\nTell 5 words that end with 'k'.\n<img alt=\"A circular page with a white border. Inside the circle, the text 'Tell 5 words that begin with 'c'.' is written in a small black font.\"\n<img alt=\"A circular logo with a blue border and a white central rectangle. Inside the rectangle, the text 'Speak fast in English for 10 seconds.'\nTell 4 words that begin with 'wh'.\nTell 5 words that begin with 'm'.\nTell 5 words that begin with ‘p’.\n<img alt=\"Logo of the Commission for the Construction of the Complex Construction of the Complex Construction of the Complex Construction of the Complex Co\n<img alt=\"A decorative diamond-shaped graphic with a blue background and a yellow central decorative border. Inside the diamond, the word 'Tell 5\n<img alt=\"A diamond-shaped decorative background with a blue background and yellow diamonds. The text 'Tell 5 words that begin with 'd'.' is centered\nFrame a question that begins with ‘Where’.\nFrame a question that begins with ‘When’.\nFrame a question that begins with 'Why'.\nTell 4 words that begin with ‘st’.\nTell 5 words that begin with 'f'.\nMAHARASHTRA STATE BUREAU OF TEXTBOOK PRODUCTION AND CURRICULUM RESEARCH, PUNE.\nमाय इंग्लिश बुक फाइव्ह (तेलुगु)\n₹ 40.00",
+      "text_nfc": "Say ‘a’ to ‘z’ in 10 seconds.\nTell 5 words that end with ‘e’.\nTell 5 words that begin with 'a'.\nTell 5 words that end with ‘r’.\n<img alt=\"A circular light green background with a yellow circle in the center. The text 'Frame a question that begins with 'What'' is written in a blue font ac\nDo what you like (in English).\nSing an English song.\n<img alt=\"A circular logo with a yellow background and a blue central rectangle. Inside the central rectangle, the words 'Frame a question that b\nFrame a question that begins with 'How'\nTell 5 words that begin with ‘n’.\nTell 4 words that begin with ‘th’.\n<img alt=\"A triangular pattern of three lines of text on a blue background. The top line is a solid blue line. The middle line is a solid blue li\n<img alt=\"A stylized diamond shape with a yellow background and a blue outer border. Inside the diamond, the words 'Tell 5 words that end with 'p\nTell 5 words that end with 'k'.\n<img alt=\"A circular page with a white border. Inside the circle, the text 'Tell 5 words that begin with 'c'.' is written in a small black font.\"\n<img alt=\"A circular logo with a blue border and a white central rectangle. Inside the rectangle, the text 'Speak fast in English for 10 seconds.'\nTell 4 words that begin with 'wh'.\nTell 5 words that begin with 'm'.\nTell 5 words that begin with ‘p’.\n<img alt=\"Logo of the Commission for the Construction of the Complex Construction of the Complex Construction of the Complex Construction of the Complex Co\n<img alt=\"A decorative diamond-shaped graphic with a blue background and a yellow central decorative border. Inside the diamond, the word 'Tell 5\n<img alt=\"A diamond-shaped decorative background with a blue background and yellow diamonds. The text 'Tell 5 words that begin with 'd'.' is centered\nFrame a question that begins with ‘Where’.\nFrame a question that begins with ‘When’.\nFrame a question that begins with 'Why'.\nTell 4 words that begin with ‘st’.\nTell 5 words that begin with 'f'.\nMAHARASHTRA STATE BUREAU OF TEXTBOOK PRODUCTION AND CURRICULUM RESEARCH, PUNE.\nमाय इंग्लिश बुक फाइव्ह (तेलुगु)\n₹ 40.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

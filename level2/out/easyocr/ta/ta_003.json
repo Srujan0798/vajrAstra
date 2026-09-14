@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_003",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0003pro_raw.png",
+    "page_index": 0,
+    "width": 263,
+    "height": 428
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        263,
+        428
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "tnucthil Luru ಯnx g ಯTmLlg Laww BmmncTrtumL m ಈ5Jd[ Eraku & Ti]cfr 17 ಞ{n3 42 C.p. Arlintu J0r _ಲnlss 4mtltNl Hl12 [ AtFuiwnn uurnmto _ dicmlnt mftuTtuuT MLu.tqಹ5 [ekl \"5 ಗದದbol ' ಸ6uro  ಡ2 LtAuಫi dE,FT Curn Buntel ihttp 4mutel falnt] t-tutllnD ೧unm[tLmT iflnn) BlnNunt LmtBll [rrrunt ಣlmmTtaEtli cxururuiicinrinlb CLt m(_llPtiquL uimrem 42ನ EmurntutnL !rtಹಯp Et CInLILL Imnpntttt L.Lo 5mlLtbt Tnt. ftmuommlity _ ಝttttEc_FDl೨I LIBLLLtir ucn_lo ErAtb (iibt srulaltlim nCiolnm L uತ ದomuindiಯsಔt tU5Buu[ ಗLrtu TEಫuptumtoT ಸlತnAmn0rt Bdiu Biutl_ tubtnT DdnLu l 4frtsor IDlN ಖuull[o citct",
+      "text_nfc": "tnucthil Luru ಯnx g ಯTmLlg Laww BmmncTrtumL m ಈ5Jd[ Eraku & Ti]cfr 17 ಞ{n3 42 C.p. Arlintu J0r _ಲnlss 4mtltNl Hl12 [ AtFuiwnn uurnmto _ dicmlnt mftuTtuuT MLu.tqಹ5 [ekl \"5 ಗದದbol ' ಸ6uro  ಡ2 LtAuಫi dE,FT Curn Buntel ihttp 4mutel falnt] t-tutllnD ೧unm[tLmT iflnn) BlnNunt LmtBll [rrrunt ಣlmmTtaEtli cxururuiicinrinlb CLt m(_llPtiquL uimrem 42ನ EmurntutnL !rtಹಯp Et CInLILL Imnpntttt L.Lo 5mlLtbt Tnt. ftmuommlity _ ಝttttEc_FDl೨I LIBLLLtir ucn_lo ErAtb (iibt srulaltlim nCiolnm L uತ ದomuindiಯsಔt tU5Buu[ ಗLrtu TEಫuptumtoT ಸlತnAmn0rt Bdiu Biutl_ tubtnT DdnLu l 4frtsor IDlN ಖuull[o citct",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_031",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0031pro_raw.pdf",
+    "page_index": 0,
+    "width": 1687,
+    "height": 2281
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1687,
+        2281
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "रलभा>्र\neem\nहीखकम्होल्सुव\n&ग७क००ख Oo५क eone",
+      "text_nfc": "रलभा>्र\neem\nहीखकम्होल्सुव\n&ग७क००ख Oo५क eone",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

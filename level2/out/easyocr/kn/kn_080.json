@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_080",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 1623,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1623,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ఠిల్బ సిదర్ధంకి త్రి సిద్ధలంగెస్ర్ామి\nశిల్చ సిద్ర్ధంతి శ్చిe సెద్ధిలింగన్చామి\nJNANA001771\nక్ణీ ః క్లీ డ్డ్\nరామెదాన అడ్యంతాయి\nతనాణటక లఅకెకెలా అకాడిమి Karnataka Lalithakala Academy",
+      "text_nfc": "ఠిల్బ సిదర్ధంకి త్రి సిద్ధలంగెస్ర్ామి\nశిల్చ సిద్ర్ధంతి శ్చిe సెద్ధిలింగన్చామి\nJNANA001771\nక్ణీ ః క్లీ డ్డ్\nరామెదాన అడ్యంతాయి\nతనాణటక లఅకెకెలా అకాడిమి Karnataka Lalithakala Academy",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

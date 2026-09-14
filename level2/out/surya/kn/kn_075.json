@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_075",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0036pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "மாமத்த\nಕಾ ತ ಚಿಕ್ಕಣ್ಣ\nಅಗಾಂತರ JNANA000634",
+      "text_nfc": "மாமத்த\nಕಾ ತ ಚಿಕ್ಕಣ್ಣ\nಅಗಾಂತರ JNANA000634",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

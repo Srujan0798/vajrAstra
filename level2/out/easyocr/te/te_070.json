@@ -1,0 +1,41 @@
+{
+  "page_id": "te_070",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0070pro_raw.pdf",
+    "page_index": 99,
+    "width": 1638,
+    "height": 2193
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1638,
+        2193
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sॅfo D%@ ळे॰o९ao@s २8je SBawb७ ळे॰o९ॅ६\"छs ॅ8ड ४> ४o४, २६. मरागाष्ट राज्य पाठगपस्तम. - निर्मिती वे अभ्यामकम  सशाधन मंदऊ इतिहास व नागरिकशास्त्र इ॰८ वी (तेलुगु  माध्यम ) र ४२.००\n>",
+      "text_nfc": "Sॅfo D%@ ळे॰o९ao@s २8je SBawb७ ळे॰o९ॅ६\"छs ॅ8ड ४> ४o४, २६. मरागाष्ट राज्य पाठगपस्तम. - निर्मिती वे अभ्यामकम  सशाधन मंदऊ इतिहास व नागरिकशास्त्र इ॰८ वी (तेलुगु  माध्यम ) र ४२.००\n>",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

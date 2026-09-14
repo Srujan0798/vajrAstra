@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_009",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0010pro_raw.png",
+    "page_index": 0,
+    "width": 389,
+    "height": 526
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        389,
+        526
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "edcuen\n219000.\noem\n-5.\nm a amn  me\nWems\ndam mudghaleg aeeommnezes amue ged.mpdo mswsed\n   \nog 2do aogmae moz aazes amon  maled\nmem sodmm coszeome aog awdeeom mamm mam\na m ac a sa m\nseomea demoo pe\nezad maze eaee m smomemmo aaao me\ndeemmem sgo  esya aogamgzes mo\n  \ngopeleeoszeozm ma aea (an.\nam\namzeeld psamzes a 2-o aogaee aosesamon aa\nwmonny uae magolemni a aoem\n  \nee\naopmes ceneer coece skoen aw wolaceow\nen omn\nmegmlad\n2.\n a a m \n ()     \nsdean meamaongao ead mdeled  deogen\nm km mme en mo\nmeshnasekaloleegm szat\ngm gmames godeysam\n \n\n(oeo eeecuseskwo mlejan mesecongmezzom. emegaled\nz\nd etee aeomge msaemo toweecm\neomzremo mnmee oma eoee ston ezekzes\neeoto metem ee agdmdgo ameed mleeon",
+      "text_nfc": "edcuen\n219000.\noem\n-5.\nm a amn  me\nWems\ndam mudghaleg aeeommnezes amue ged.mpdo mswsed\n   \nog 2do aogmae moz aazes amon  maled\nmem sodmm coszeome aog awdeeom mamm mam\na m ac a sa m\nseomea demoo pe\nezad maze eaee m smomemmo aaao me\ndeemmem sgo  esya aogamgzes mo\n  \ngopeleeoszeozm ma aea (an.\nam\namzeeld psamzes a 2-o aogaee aosesamon aa\nwmonny uae magolemni a aoem\n  \nee\naopmes ceneer coece skoen aw wolaceow\nen omn\nmegmlad\n2.\n a a m \n ()     \nsdean meamaongao ead mdeled  deogen\nm km mme en mo\nmeshnasekaloleegm szat\ngm gmames godeysam\n \n\n(oeo eeecuseskwo mlejan mesecongmezzom. emegaled\nz\nd etee aeomge msaemo toweecm\neomzremo mnmee oma eoee ston ezekzes\neeoto metem ee agdmdgo ameed mleeon",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

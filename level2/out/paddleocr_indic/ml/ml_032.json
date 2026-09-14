@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_032",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 8,
+    "width": 1537,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1537,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1 2160926010008018\nNin t, nom \n(ely2i08\nB2)a  2'0\nBBeank AmodCos7o6\n20\n0BJB)282210n\n08j20 83330 0 0237\na,byl83n  0  0.\n—vo.\n25-60~673121smm003eg)-\n08lom N, 6oB85oe, 0m1o8a7\n%) 02 2(02)0925,8 8m122(6.227\n2\n,~，\n, 1(2961 722 .26m, ~ ~01 2 2105820 ~,2m-\nM, mom B- 8NBJ B7AzJ \nG3 522 pomrmny 2781 1s18 8218 2e\nnilmm~y 33 21my eayan 9m226 2\n~2R0\n,82m2) yope\nam",
+      "text_nfc": "1 2160926010008018\nNin t, nom \n(ely2i08\nB2)a  2'0\nBBeank AmodCos7o6\n20\n0BJB)282210n\n08j20 83330 0 0237\na,byl83n  0  0.\n—vo.\n25-60~673121smm003eg)-\n08lom N, 6oB85oe, 0m1o8a7\n%) 02 2(02)0925,8 8m122(6.227\n2\n,~，\n, 1(2961 722 .26m, ~ ~01 2 2105820 ~,2m-\nM, mom B- 8NBJ B7AzJ \nG3 522 pomrmny 2781 1s18 8218 2e\nnilmm~y 33 21my eayan 9m226 2\n~2R0\n,82m2) yope\nam",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

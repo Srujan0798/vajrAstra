@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_030",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 79,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HEAL\nI.\nಸಕಾಣ್\nTgit fita fhatt\nಎನ್ನಡು\nಹೃದಯರಕನಾಳದ\nಕಾಯಲೆಗಳು\nಹೃದಯದ\nಕಾಯುಲೆಗಳು,\nಪಾಶಃವಾಯು\nರಕದೊತಡ\nಮಧುಮಹ\n೨೬೬\n೩೧೬೨ಇ.ಇ\nಕಾಯಲೆಗಳು\nಬದಲಾಂಖಸಬಹುದಾದ\nಕಾರಣಗಳು\nTB\nಇeಣ೦೬\nಬಳಕಿ\nಮದೃಪಾನ\nಅನಾರೋಗೃಕರ\nಕೆಲಸ\n೮yeಣ\nವಾೈಯಾವು\nಆಹಾರ\n೯೫ಣ\nI\n#gpppeg\nಧ\nಬದಲಾಂಖಸಲಾಗದ\nಕಾರಣಗಳು\n೦\n೦\nವೃದಾಪೃ\nಕೌಟುಂಬಕ\nಒನೈಲೆ\nಲಂಗ\n೮\nಧ\n72",
+      "text_nfc": "HEAL\nI.\nಸಕಾಣ್\nTgit fita fhatt\nಎನ್ನಡು\nಹೃದಯರಕನಾಳದ\nಕಾಯಲೆಗಳು\nಹೃದಯದ\nಕಾಯುಲೆಗಳು,\nಪಾಶಃವಾಯು\nರಕದೊತಡ\nಮಧುಮಹ\n೨೬೬\n೩೧೬೨ಇ.ಇ\nಕಾಯಲೆಗಳು\nಬದಲಾಂಖಸಬಹುದಾದ\nಕಾರಣಗಳು\nTB\nಇeಣ೦೬\nಬಳಕಿ\nಮದೃಪಾನ\nಅನಾರೋಗೃಕರ\nಕೆಲಸ\n೮yeಣ\nವಾೈಯಾವು\nಆಹಾರ\n೯೫ಣ\nI\n#gpppeg\nಧ\nಬದಲಾಂಖಸಲಾಗದ\nಕಾರಣಗಳು\n೦\n೦\nವೃದಾಪೃ\nಕೌಟುಂಬಕ\nಒನೈಲೆ\nಲಂಗ\n೮\nಧ\n72",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

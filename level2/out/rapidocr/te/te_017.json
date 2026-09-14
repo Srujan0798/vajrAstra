@@ -1,0 +1,41 @@
+{
+  "page_id": "te_017",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0017pro_raw.pdf",
+    "page_index": 47,
+    "width": 595.2760009765625,
+    "height": 841.8900146484375
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(X + 5)2 − (√23 )2= 0\n. (x + 5)2 = (√23 )2\n∴ X + 5 = √23 లేదా X + 5 = - √23\n∴ X = - 5 + √23 లేదా X = - 5 - √23\nB సాధించిన ఉదాహరణలు B\nఉదా. (1) సాధించండి : 5X2 - 4X - 3 = 0\nసాధన : సమీకరణములో వర్గసమాసము యొక్క రూపాంతరము రెండింటి వర్గాల యొక్క తీసివేత రూపములోకి\n    I\n5 చే భాగించగా,\n4\n3\nx2 −\nX -\n= 0\n5\n5\nఇప్పుడు ఒకవేళ x2 -\n4\nx +  = (x − α)2 అయన x2\n4\nx + k = x2 − 2αx + α2.\n5\n5\nx2 -\n4\nx ని x2 - 2ax తో పోల్చగా,\n0 =  + x q + zx c3qsx\n5\n4\nరూపములో ఉన్నచో, అప్పుడు\n- 2 ax = -\n5\nX\n1\n=\n2\nx2 + bx +\n(b\nb\n+ c = 0\n4\n2\n.∴.  = α \n25\nఈ రూపములో,\n4\n3\nb\nఇప్పుడు, X2\n5\nX\nIn\n= 0\nx\n+\n2\n2\nరూపములో\n4\n4\n4\n3\nరాయవచ్చు.\n.∴ x2\nx +\n5\n25\n25\n5\n4\n3\nX\n5\n5\n=\n0\n2\n)\nX\n= 0\n5\n2\n19\nX\n25\n∴. X\n2\n√19\nలేదా x\n2\n√19\n5\n5\n5\n5\n2\n√19\n2\n√19\n∴. X =\n5\n+\n5\nలేదా X =\n5\n5\n2+√19\n2-√/19\n∴. X =\n= X −\n5\n5\n2+√19\n2-√/19\n. వర్గసమీకరణము యొక్క మూలాలు\n5\n5\n38\n>>",
+      "text_nfc": "(X + 5)2 − (√23 )2= 0\n. (x + 5)2 = (√23 )2\n∴ X + 5 = √23 లేదా X + 5 = - √23\n∴ X = - 5 + √23 లేదా X = - 5 - √23\nB సాధించిన ఉదాహరణలు B\nఉదా. (1) సాధించండి : 5X2 - 4X - 3 = 0\nసాధన : సమీకరణములో వర్గసమాసము యొక్క రూపాంతరము రెండింటి వర్గాల యొక్క తీసివేత రూపములోకి\n    I\n5 చే భాగించగా,\n4\n3\nx2 −\nX -\n= 0\n5\n5\nఇప్పుడు ఒకవేళ x2 -\n4\nx +  = (x − α)2 అయన x2\n4\nx + k = x2 − 2αx + α2.\n5\n5\nx2 -\n4\nx ని x2 - 2ax తో పోల్చగా,\n0 =  + x q + zx c3qsx\n5\n4\nరూపములో ఉన్నచో, అప్పుడు\n- 2 ax = -\n5\nX\n1\n=\n2\nx2 + bx +\n(b\nb\n+ c = 0\n4\n2\n.∴.  = α \n25\nఈ రూపములో,\n4\n3\nb\nఇప్పుడు, X2\n5\nX\nIn\n= 0\nx\n+\n2\n2\nరూపములో\n4\n4\n4\n3\nరాయవచ్చు.\n.∴ x2\nx +\n5\n25\n25\n5\n4\n3\nX\n5\n5\n=\n0\n2\n)\nX\n= 0\n5\n2\n19\nX\n25\n∴. X\n2\n√19\nలేదా x\n2\n√19\n5\n5\n5\n5\n2\n√19\n2\n√19\n∴. X =\n5\n+\n5\nలేదా X =\n5\n5\n2+√19\n2-√/19\n∴. X =\n= X −\n5\n5\n2+√19\n2-√/19\n. వర్గసమీకరణము యొక్క మూలాలు\n5\n5\n38\n>>",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

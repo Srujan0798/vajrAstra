@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_085",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 31,
+    "width": 2200,
+    "height": 853
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        2200,
+        853
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ദമാന്ദ്യ ദേശായന് . അന്റ പദ്ധാ ട്രിനയിപ്പിന്ന\nال. المالكة المعلومة الأولى . المالكة المعلومة الأولى . المالكة المعلومة الأولى .\nಸಾಹಿತ್ಯ ಪ್ರಮುಖ ಪ್ರಮುಖ ಸಂಪರ್ಕ\nتسمى مجموعة العالمية / العالمية الرومانية\n[1] 10",
+      "text_nfc": "ദമാന്ദ്യ ദേശായന് . അന്റ പദ്ധാ ട്രിനയിപ്പിന്ന\nال. المالكة المعلومة الأولى . المالكة المعلومة الأولى . المالكة المعلومة الأولى .\nಸಾಹಿತ್ಯ ಪ್ರಮುಖ ಪ್ರಮುಖ ಸಂಪರ್ಕ\nتسمى مجموعة العالمية / العالمية الرومانية\n[1] 10",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

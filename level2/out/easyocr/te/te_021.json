@@ -1,0 +1,41 @@
+{
+  "page_id": "te_021",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1647,
+    "height": 2223
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1647,
+        2223
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಏರಿತಿ ಏುರಿಯು ರೌಜನಿತಿ ಕ್ಸ್ತ್ರಂ ಏದವ ತಕಗತಿ\n44 ೮೯ . .೩T೯zfaೆra\nತ್ತ್ಾಕ್ಾiಕೆ",
+      "text_nfc": "ಏರಿತಿ ಏುರಿಯು ರೌಜನಿತಿ ಕ್ಸ್ತ್ರಂ ಏದವ ತಕಗತಿ\n44 ೮೯ . .೩T೯zfaೆra\nತ್ತ್ಾಕ್ಾiಕೆ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

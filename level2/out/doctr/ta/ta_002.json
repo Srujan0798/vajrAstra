@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_002",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0002pro_raw.png",
+    "page_index": 0,
+    "width": 521,
+    "height": 468
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        521,
+        468
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "60)600TUJ6Lp 5LOBTG Ilouu\nUS661G56T 9460/LDLL160T (psslu\n9ILDF1156T\nObs Qeoemnusemb, sulys 361066(5515 Bou ugGaD Biraunsgeng crerisms/gib euensufleo\nLOGap SuubaTiseDen duprgelpsl S1561 Lls CASELLmeST TSLSTISET QGsm\n1. blomcoumUDDUULLULLIT856061\n600)1 (5560\nLwomiset SUppmTLigG @eeerucululLmeseDem umiessmib.fumessumib LoDDILD udledpssi\nGauusomb. ReuGlEum(s LOISpiD imp0is5 600T555I GT LOMMILD gulyssemesime 60T LLLITSSET ugeu\nGeinulu@alampem, Gugub SiGuppG Glu@ibLIeuTemeDGu 2L Gmms Sleopaeuppuu@dlemper.\nObs sibsib Gome Sigacusosiriuserlen U cofl6s-GLDGDILIS seopuuGsO. BBuredlu\n% GURTENS enem SIgCIEL Gsusgpenpenuub cdangeu-Oogepg\n2.560LWDD 5iooflumig FGISIDITDOLD\nObs Qeemnugemb, Sieneenut9iMeuser Ggencuulleg srefluma ULLIT umimsenge\nmsBusomérs@lipg GETSEIL udeu QsiululLQL_éT, fenu 4LEUENTLD PL UIs\nLompuu@amgl. Gugib Ops umpmu (506s Gumma(gLGUTsS ame@aud (SMS) eypsuub\nsipledlesiu@ib. Ois Geenau, enstpeop Gausésssme TILGU SILOSIES enems 5055.\nusugesouL\nBleusener pma Gaudlmsi",
+      "text_nfc": "60)600TUJ6Lp 5LOBTG Ilouu\nUS661G56T 9460/LDLL160T (psslu\n9ILDF1156T\nObs Qeoemnusemb, sulys 361066(5515 Bou ugGaD Biraunsgeng crerisms/gib euensufleo\nLOGap SuubaTiseDen duprgelpsl S1561 Lls CASELLmeST TSLSTISET QGsm\n1. blomcoumUDDUULLULLIT856061\n600)1 (5560\nLwomiset SUppmTLigG @eeerucululLmeseDem umiessmib.fumessumib LoDDILD udledpssi\nGauusomb. ReuGlEum(s LOISpiD imp0is5 600T555I GT LOMMILD gulyssemesime 60T LLLITSSET ugeu\nGeinulu@alampem, Gugub SiGuppG Glu@ibLIeuTemeDGu 2L Gmms Sleopaeuppuu@dlemper.\nObs sibsib Gome Sigacusosiriuserlen U cofl6s-GLDGDILIS seopuuGsO. BBuredlu\n% GURTENS enem SIgCIEL Gsusgpenpenuub cdangeu-Oogepg\n2.560LWDD 5iooflumig FGISIDITDOLD\nObs Qeemnugemb, Sieneenut9iMeuser Ggencuulleg srefluma ULLIT umimsenge\nmsBusomérs@lipg GETSEIL udeu QsiululLQL_éT, fenu 4LEUENTLD PL UIs\nLompuu@amgl. Gugib Ops umpmu (506s Gumma(gLGUTsS ame@aud (SMS) eypsuub\nsipledlesiu@ib. Ois Geenau, enstpeop Gausésssme TILGU SILOSIES enems 5055.\nusugesouL\nBleusener pma Gaudlmsi",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

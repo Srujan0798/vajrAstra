@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_014",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 13,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "saffasi,\nGila (Labiodental)\nsaffaar,\nsaft-uRadT ya\ndgE safeil 4 BIRUT # B4R 4t AiT Aa 4 ETOT ChT vyef crd à I grA\nEaft-ARH\nEaARIl sT Grla EGARIT ched àl A 377 5 EAARIT Grilga Eaft 4\nBGIERUT àl\n3n1032 (Bilabial)\n5T Eafei shT BURUT aini slot ihT fac q Eldt à I 579h BTORUT N ainf\nEo YRYYR ficid à 377 Hcah 77 31C1T Eld à I 7, $5, a, H, H 3114 371002\nsaf 4 BGIERUT dl\n4.7.2 yur e 3TER YR\nYemT 4 3TETR UR ajuiT Eafeii ShT qrfichrut AAET Yo foet UTT HohdT à\nruef (Stops or Plosive)\nvyef ShT 3T9f à EA-TITY 3rerfq ET Eafei 4 BURUT N Uoh BURUT 3g4A GHR\nBIRUT 3g4A chT ETT UT Fyef ChraT à fotich Yorahy byst 4 CIET 3117\naeft ary qURIT aiferd Ekft à ENICh JIG at 3g4A Uch ETR 77 31C1T ad\nà FT ary Hcoh # CIET fachelit à 378 ST YhR UTT Eaft Brym Eit b BTT\nvyef Eaft ched à c, Ra, TT, E, a a, 5, 6, d, J, a, ET, 4, $5, J H, TeTT t\nryef EOAeT d I\nvierff (Fricative)\nRiEreff Eameit 4 BIRUT N ET BTIRUT 3ggA Uch GHR a EaT fache 3TT\nvild à fop ani i TEZ a fichot dloft ary 3TRIH # TT ficheldr ETOFUT cxot\n5t CIET ficholdt à I ST YopR Brym E7 alof Eanet iT Hierof EaMeT ChET\nUldT à I $5, a, H, UT, T, Ra, TT, a 3TTf4 HiErAf ajuiT Eamel àl\nFuRf vieroff (Affricate)\nVERSITY\nryef TIETAT EaAeT 4 BIORUT # at fspeary Elt à : URAS TRUT vyef ChT\nEldt à TETT ENO YUA ShT ZRUT vierof chT I 5T Eamel 4 BECRRUT # foTEqT\nBIRUT FOTTT ihT ryef chedt à TOTT yrg-faar N ARy ETOUT a RHTPT Aoheidt\nàI 7, E, UT, UAT 3TTfa Fyef TiETof EOARIT d I\nyifeao (Lateral)\n5T Eafait 4 BIRUT # a BUIRUT 31gRA Uoh GHR 4 EdTT HAY 3TT vid\nà fo Bro HEZI 77 ary T8T fichel qit trf Refft N 3-G 77 3117 aloft ary\nfoteat 4 Uch ZT ait uRaf 77 CIET Acheii à I UNT AI\ngjfod (Trill)\ngilod Eaf ihT ChE fagi chynulld Eaft aft ched dl ST Eaft 4 BIRUT #\nAoEaT Tre chT 318 JE vllft à TOTT BHN ary 4 Hdle 4 chy dat ET à I\ngifor ihT mfsa AfT ChET UldT à I fea # T gilod ajun b\n74",
+      "text_nfc": "saffasi,\nGila (Labiodental)\nsaffaar,\nsaft-uRadT ya\ndgE safeil 4 BIRUT # B4R 4t AiT Aa 4 ETOT ChT vyef crd à I grA\nEaft-ARH\nEaARIl sT Grla EGARIT ched àl A 377 5 EAARIT Grilga Eaft 4\nBGIERUT àl\n3n1032 (Bilabial)\n5T Eafei shT BURUT aini slot ihT fac q Eldt à I 579h BTORUT N ainf\nEo YRYYR ficid à 377 Hcah 77 31C1T Eld à I 7, $5, a, H, H 3114 371002\nsaf 4 BGIERUT dl\n4.7.2 yur e 3TER YR\nYemT 4 3TETR UR ajuiT Eafeii ShT qrfichrut AAET Yo foet UTT HohdT à\nruef (Stops or Plosive)\nvyef ShT 3T9f à EA-TITY 3rerfq ET Eafei 4 BURUT N Uoh BURUT 3g4A GHR\nBIRUT 3g4A chT ETT UT Fyef ChraT à fotich Yorahy byst 4 CIET 3117\naeft ary qURIT aiferd Ekft à ENICh JIG at 3g4A Uch ETR 77 31C1T ad\nà FT ary Hcoh # CIET fachelit à 378 ST YhR UTT Eaft Brym Eit b BTT\nvyef Eaft ched à c, Ra, TT, E, a a, 5, 6, d, J, a, ET, 4, $5, J H, TeTT t\nryef EOAeT d I\nvierff (Fricative)\nRiEreff Eameit 4 BIRUT N ET BTIRUT 3ggA Uch GHR a EaT fache 3TT\nvild à fop ani i TEZ a fichot dloft ary 3TRIH # TT ficheldr ETOFUT cxot\n5t CIET ficholdt à I ST YopR Brym E7 alof Eanet iT Hierof EaMeT ChET\nUldT à I $5, a, H, UT, T, Ra, TT, a 3TTf4 HiErAf ajuiT Eamel àl\nFuRf vieroff (Affricate)\nVERSITY\nryef TIETAT EaAeT 4 BIORUT # at fspeary Elt à : URAS TRUT vyef ChT\nEldt à TETT ENO YUA ShT ZRUT vierof chT I 5T Eamel 4 BECRRUT # foTEqT\nBIRUT FOTTT ihT ryef chedt à TOTT yrg-faar N ARy ETOUT a RHTPT Aoheidt\nàI 7, E, UT, UAT 3TTfa Fyef TiETof EOARIT d I\nyifeao (Lateral)\n5T Eafait 4 BIRUT # a BUIRUT 31gRA Uoh GHR 4 EdTT HAY 3TT vid\nà fo Bro HEZI 77 ary T8T fichel qit trf Refft N 3-G 77 3117 aloft ary\nfoteat 4 Uch ZT ait uRaf 77 CIET Acheii à I UNT AI\ngjfod (Trill)\ngilod Eaf ihT ChE fagi chynulld Eaft aft ched dl ST Eaft 4 BIRUT #\nAoEaT Tre chT 318 JE vllft à TOTT BHN ary 4 Hdle 4 chy dat ET à I\ngifor ihT mfsa AfT ChET UldT à I fea # T gilod ajun b\n74",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

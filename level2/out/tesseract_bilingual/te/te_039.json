@@ -1,0 +1,41 @@
+{
+  "page_id": "te_039",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0039pro_raw.pdf",
+    "page_index": 75,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "©  భాషాక్రీడల ద్వారా పద సంపదను పెంపొందించుకోండి. ఖాలీగడులలో పదాల రాయండి.\n\nసృజనాత్మకత\n\nతి గేయంలోని ముఖ్య విషయం, ముగింపు మీ సొంత మాటల్లో చెప్పండి. రాయండి.\n\nఉపాధ్యాయ సూచన : గేయాన్ని రాగయుక్తంగా, లయబద్దంగా పాడించండి. -\n\nशा डा\n",
+      "text_nfc": "©  భాషాక్రీడల ద్వారా పద సంపదను పెంపొందించుకోండి. ఖాలీగడులలో పదాల రాయండి.\n\nసృజనాత్మకత\n\nతి గేయంలోని ముఖ్య విషయం, ముగింపు మీ సొంత మాటల్లో చెప్పండి. రాయండి.\n\nఉపాధ్యాయ సూచన : గేయాన్ని రాగయుక్తంగా, లయబద్దంగా పాడించండి. -\n\nशा डा\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

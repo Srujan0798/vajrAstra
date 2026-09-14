@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 340.79998779296875,
+    "height": 430.20001220703125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        340.79998779296875,
+        430.20001220703125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "←\n2bம்ம் காமி ஏள்சிடம் தாள்்\neuieing Iir Sstilaids Rie Motel ae\nRide Model aitin oit Ags Tos on sn y\nகதிய ற் ா் சதினள்று கரம்\nிடட், டிக எ்ூ்இப்்aடம்கா\naniet இogs Ratis in Ymg. Gsia\nRode Moded otong ni Soin Agcisorsi\nSu, bmg, S bi a\ns பூn a, i\naves Ahoi aiki G thonght o\n angase sgarrn agii i Sung\nperi Afsma inig selsare rep wnp h\nK\naderad w m  in  nd",
+      "text_nfc": "←\n2bம்ம் காமி ஏள்சிடம் தாள்்\neuieing Iir Sstilaids Rie Motel ae\nRide Model aitin oit Ags Tos on sn y\nகதிய ற் ா் சதினள்று கரம்\nிடட், டிக எ்ூ்இப்்aடம்கா\naniet இogs Ratis in Ymg. Gsia\nRode Moded otong ni Soin Agcisorsi\nSu, bmg, S bi a\ns பூn a, i\naves Ahoi aiki G thonght o\n angase sgarrn agii i Sung\nperi Afsma inig selsare rep wnp h\nK\naderad w m  in  nd",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

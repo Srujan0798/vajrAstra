@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_052",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+    "page_index": 70,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "61. 6T600T\nGUGDBULITLIQGOT\n80BLOTDD66l60 bodlu 660556T\nSIQULIGOL\nwodu LIGOOTL/GGT\n5cbrcufléeDBILITGOT\n65fluns 805L0mp65ATTCD B5106151\n1.\nG5mDDi\n5T60OTLUULL\n65lbg 80BLOTDD56TI16D Bl510o15\n2L60 GJIL1\nDond65661D6D6DT5\n6156056rfl6\n2.\n6156 6605\nB5100151\nO60T GJILfI\nDcorlouTssé 6156056fl60 Bl510o151\n6FU6 Oyiy (GeuerlGLDDi56\n(knockout), O60T60LD (null)\nQWI6LIT6OT OFLIGLITLIQE 6060T B656151\n5600 2160DLDLL Bl6060 (hypomorphic) QUIGOLITGOT\nGBILLObLImLiqeDeUTé\n3.\nLl600f1556rfl60T 1851 (686561)\n560mUL5\nLIBLy\nQWI6LIT6OT\nGIEILLOLITLIQGDGOT\nLD605 S160LDLL 16l6060 (hypermorphic)\n2185LL5\n61FL6D 6TD4 (OLLmum 6l6orfiu) 56IMIT60T\nODT556\n2106051\nGLITOSDDD 6156056l60 666rf0ub015\nDNA mfloypulé 2_6TT6I BU5 5IJ\nBlj barl@uIDLO u61680\n06060015BL LSlom5 LODOMTG SIT\n060600T O0uu5\nLugfleolég USomBL Lauprfloot (A->G)\n- 055 u51686 (transition)\n21606051 GourL010016g USloomai\n60ufLolQ 60T (T->C).\nLugfleolég UBOmBL 60DLIFfLD1960T (A\n4.\n916160160 CL060650DI LITDDID\nCOIMULL L6680 (transversion) >T) 21600051 coufu01as01os LSOmBL\nLuyprfloot (C->G).\nBGOTDI 21606051 91505 GLODULL\nQ6OLOELB0 (insertion)\nByp safl@LITODLG56T\n500b56015\nOULLSI\nBooTpI 91606051 91505 GDDULL\nBosib (deletion)\nBup ésarlGLITODLO56T\nO66DITLDOD\nO0uu5\nLOTYEOELE\n5.\nOLWJO16060T\nLIBLLISI\nTN_GOVT_BIOLOGY_BOTANY_XILTTM_CH 03.indd 63\n316DLDSWIT6OT (silent) (655) SILGGOTIT SILD6D ofloosulld LDIIDDLD\n(synonymous)\n0606060\n5010156D15L\nOLITLOITLIDID SILDIOGOTIT SILDlOD ofloosullo LOITDDID\n(missense) (@5gloom) (non\nsynonymous)\nO01u5\nGLUIIDGDc0OTjBSIS (nonsense) LOTeGlsiouujellcorméb (1464 Bl6060\n(LD1464)\nLDTLCN5DIUIGDGOT (UAA, UAG 21600051\nUGA) Gamoplondug\n6LL 1b5104 (frame shift)\naflumeor BLLidl6 2_6TT6IT CUDGOTIOI\nLOTLCSDIUIGDGOT (codon) B515510151\nSILLO16D600 3.7: sbflompDosleor badlu 660556T\n5Gpm@lonGamb BQULGDLURCOTTCOT umgibufflunb 63\n31/12/2022 13:03:28",
+      "text_nfc": "61. 6T600T\nGUGDBULITLIQGOT\n80BLOTDD66l60 bodlu 660556T\nSIQULIGOL\nwodu LIGOOTL/GGT\n5cbrcufléeDBILITGOT\n65fluns 805L0mp65ATTCD B5106151\n1.\nG5mDDi\n5T60OTLUULL\n65lbg 80BLOTDD56TI16D Bl510o15\n2L60 GJIL1\nDond65661D6D6DT5\n6156056rfl6\n2.\n6156 6605\nB5100151\nO60T GJILfI\nDcorlouTssé 6156056fl60 Bl510o151\n6FU6 Oyiy (GeuerlGLDDi56\n(knockout), O60T60LD (null)\nQWI6LIT6OT OFLIGLITLIQE 6060T B656151\n5600 2160DLDLL Bl6060 (hypomorphic) QUIGOLITGOT\nGBILLObLImLiqeDeUTé\n3.\nLl600f1556rfl60T 1851 (686561)\n560mUL5\nLIBLy\nQWI6LIT6OT\nGIEILLOLITLIQGDGOT\nLD605 S160LDLL 16l6060 (hypermorphic)\n2185LL5\n61FL6D 6TD4 (OLLmum 6l6orfiu) 56IMIT60T\nODT556\n2106051\nGLITOSDDD 6156056l60 666rf0ub015\nDNA mfloypulé 2_6TT6I BU5 5IJ\nBlj barl@uIDLO u61680\n06060015BL LSlom5 LODOMTG SIT\n060600T O0uu5\nLugfleolég USomBL Lauprfloot (A->G)\n- 055 u51686 (transition)\n21606051 GourL010016g USloomai\n60ufLolQ 60T (T->C).\nLugfleolég UBOmBL 60DLIFfLD1960T (A\n4.\n916160160 CL060650DI LITDDID\nCOIMULL L6680 (transversion) >T) 21600051 coufu01as01os LSOmBL\nLuyprfloot (C->G).\nBGOTDI 21606051 91505 GLODULL\nQ6OLOELB0 (insertion)\nByp safl@LITODLG56T\n500b56015\nOULLSI\nBooTpI 91606051 91505 GDDULL\nBosib (deletion)\nBup ésarlGLITODLO56T\nO66DITLDOD\nO0uu5\nLOTYEOELE\n5.\nOLWJO16060T\nLIBLLISI\nTN_GOVT_BIOLOGY_BOTANY_XILTTM_CH 03.indd 63\n316DLDSWIT6OT (silent) (655) SILGGOTIT SILD6D ofloosulld LDIIDDLD\n(synonymous)\n0606060\n5010156D15L\nOLITLOITLIDID SILDIOGOTIT SILDlOD ofloosullo LOITDDID\n(missense) (@5gloom) (non\nsynonymous)\nO01u5\nGLUIIDGDc0OTjBSIS (nonsense) LOTeGlsiouujellcorméb (1464 Bl6060\n(LD1464)\nLDTLCN5DIUIGDGOT (UAA, UAG 21600051\nUGA) Gamoplondug\n6LL 1b5104 (frame shift)\naflumeor BLLidl6 2_6TT6IT CUDGOTIOI\nLOTLCSDIUIGDGOT (codon) B515510151\nSILLO16D600 3.7: sbflompDosleor badlu 660556T\n5Gpm@lonGamb BQULGDLURCOTTCOT umgibufflunb 63\n31/12/2022 13:03:28",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

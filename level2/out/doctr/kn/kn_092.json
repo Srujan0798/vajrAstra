@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_092",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 7,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "230800Ne3 2\nNodans Q dyado 200003 C syate 2 0o238 : 05-05\naNOsDFEO0O wo@zo decses ewnoNo aboodnog\ndooonno deseroo nenono 23 dzenos : 05-06\neerioeainao Does adonnso Wno.\nesegedeaso o3o gego o3o anaonoaddo : 05-07\nesgpayrveapabrde dwes deo dee3er QoQbrde.\nrbeden g0abde 3000F8 doecioe Segeso nabde : 05-08\nOgen de de Waloer does Qloenen das 3e.\naano da de 2docs 23 No abo das de roo : 05-09\nenqo\nSewoono E3\nP\ngoncpoa3aon,go\neonqo 33do 30030 eloeoos 83,03 250235 o : 05-10\nwood,noono WoNo Beeo aRE3N03O.\nesponnodne agp 2J03no gaunodne : 05-11\nnon bardoe WOONOFS aocoondoe das.\nNOS doeanaoe aONDER gonogdo aUDo . 05-12\nanajdos O\n& abosedoe 2008 e28 agogzo.\n-pS\nSodea a33e8 odoe aboe CODO neo : 05-13\n3200 2y00ds anereso dodrs gedso.\n20037 3E00 Noôe Jerd de cors 3E00 2na6 : 05-14\nowes ago ajaorde 23 2J0OJDF 03o noead 23.\nwebano saudo 03o Waloer ago ajans 23 : 05-15\najqo aes saliead ajoo Jary goeano.\naoo wono Ragens ajoo decioe awod 23 : 05-16\nNON aeepsabo doeabo NOR 203nao w0o.\nNOR 23008rabo ca\nBezdoe NOR Qonnao dyado : 05-17\negno 0na23o3 a0230 23a3 230ayaos -\naboNaos 3re0d2jos aoegaegos Beaaog : 05-18\nNaer Woobrde dde naen dade d0s.\nnaens ao3 woavE 23 JaFO nae c3cdo : 05-19\n2300 e8 calt ezens woto0gede 28e03abo0de.\n230023e3e 23 NoNJde Gabr odoe & Dges . 05-20\nchANakyanltisort.pdf\n7",
+      "text_nfc": "230800Ne3 2\nNodans Q dyado 200003 C syate 2 0o238 : 05-05\naNOsDFEO0O wo@zo decses ewnoNo aboodnog\ndooonno deseroo nenono 23 dzenos : 05-06\neerioeainao Does adonnso Wno.\nesegedeaso o3o gego o3o anaonoaddo : 05-07\nesgpayrveapabrde dwes deo dee3er QoQbrde.\nrbeden g0abde 3000F8 doecioe Segeso nabde : 05-08\nOgen de de Waloer does Qloenen das 3e.\naano da de 2docs 23 No abo das de roo : 05-09\nenqo\nSewoono E3\nP\ngoncpoa3aon,go\neonqo 33do 30030 eloeoos 83,03 250235 o : 05-10\nwood,noono WoNo Beeo aRE3N03O.\nesponnodne agp 2J03no gaunodne : 05-11\nnon bardoe WOONOFS aocoondoe das.\nNOS doeanaoe aONDER gonogdo aUDo . 05-12\nanajdos O\n& abosedoe 2008 e28 agogzo.\n-pS\nSodea a33e8 odoe aboe CODO neo : 05-13\n3200 2y00ds anereso dodrs gedso.\n20037 3E00 Noôe Jerd de cors 3E00 2na6 : 05-14\nowes ago ajaorde 23 2J0OJDF 03o noead 23.\nwebano saudo 03o Waloer ago ajans 23 : 05-15\najqo aes saliead ajoo Jary goeano.\naoo wono Ragens ajoo decioe awod 23 : 05-16\nNON aeepsabo doeabo NOR 203nao w0o.\nNOR 23008rabo ca\nBezdoe NOR Qonnao dyado : 05-17\negno 0na23o3 a0230 23a3 230ayaos -\naboNaos 3re0d2jos aoegaegos Beaaog : 05-18\nNaer Woobrde dde naen dade d0s.\nnaens ao3 woavE 23 JaFO nae c3cdo : 05-19\n2300 e8 calt ezens woto0gede 28e03abo0de.\n230023e3e 23 NoNJde Gabr odoe & Dges . 05-20\nchANakyanltisort.pdf\n7",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

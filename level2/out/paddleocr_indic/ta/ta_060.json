@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_060",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 327,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "குறிப்பு\n©\n©\n318\nGlossary.indd 318\n18-12-2021 21:48:32",
+      "text_nfc": "குறிப்பு\n©\n©\n318\nGlossary.indd 318\n18-12-2021 21:48:32",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

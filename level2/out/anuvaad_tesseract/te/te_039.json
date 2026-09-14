@@ -1,0 +1,41 @@
+{
+  "page_id": "te_039",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0039pro_raw.pdf",
+    "page_index": 75,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "© apap sitio ద్వారా పద సంపదను పెంసాందించుకోండి . ఖాళీగడులలో sow రాయండి .\n\nSMS SS\n\n©@ గేయంలోని ముఖ్య విషయం, ముగింపు Do సాంత మాటల్లో చెప్పండి . రాయండి .\n\n. ఉపాధ్యాయ SPSS : గేయాన్ని రాగయుక్తంగా, లయబద్ధంగా పాడించండి . -\n\n. डा\n",
+      "text_nfc": "© apap sitio ద్వారా పద సంపదను పెంసాందించుకోండి . ఖాళీగడులలో sow రాయండి .\n\nSMS SS\n\n©@ గేయంలోని ముఖ్య విషయం, ముగింపు Do సాంత మాటల్లో చెప్పండి . రాయండి .\n\n. ఉపాధ్యాయ SPSS : గేయాన్ని రాగయుక్తంగా, లయబద్ధంగా పాడించండి . -\n\n. डा\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

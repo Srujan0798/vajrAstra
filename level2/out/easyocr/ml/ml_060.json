@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_060",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+    "page_index": 47,
+    "width": 882,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        882,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "'0\n_(\" ೨೬೬ ೩೬೩ !ತ ೩೦ ೮-cu ೬Xsh [ಏರಾ ಸ [W೪ ಸ ನ ೨ 3 q?{\n94 .'`'' ೆ' / Jಯ 2೮3 ಎಠ ೩೦೦೦ು `@ ಪlr dರ೯ ೬  2೧೨೫ e೫ )",
+      "text_nfc": "'0\n_(\" ೨೬೬ ೩೬೩ !ತ ೩೦ ೮-cu ೬Xsh [ಏರಾ ಸ [W೪ ಸ ನ ೨ 3 q?{\n94 .'`'' ೆ' / Jಯ 2೮3 ಎಠ ೩೦೦೦ು `@ ಪlr dರ೯ ೬  2೧೨೫ e೫ )",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

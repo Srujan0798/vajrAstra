@@ -1,0 +1,41 @@
+{
+  "page_id": "te_011",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0011pro_raw.pdf",
+    "page_index": 0,
+    "width": 1662,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1662,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1EGI\nGICCIUI\na\nGHal Ch&TT\nMH\nMm\nROD\nC\n\n0\n/\nEN\n0\n0 0\nM\nA CEITEE\nA\nA\nA\nASM\nE\n3 I\nA\n(\n-\nI\n4\nN N\n-\n0\nI\n-\na\nI\n0\n>\n-\nI\n-\nE\nU\nWWWWY\n)\nS\n-",
+      "text_nfc": "1EGI\nGICCIUI\na\nGHal Ch&TT\nMH\nMm\nROD\nC\n\n0\n/\nEN\n0\n0 0\nM\nA CEITEE\nA\nA\nA\nASM\nE\n3 I\nA\n(\n-\nI\n4\nN N\n-\n0\nI\n-\na\nI\n0\n>\n-\nI\n-\nE\nU\nWWWWY\n)\nS\n-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

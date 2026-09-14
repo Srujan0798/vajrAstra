@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_087",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 60,
+    "width": 945,
+    "height": 1496
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        945,
+        1496
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "mooreyowo\n37\ne o ee\nree\nwo zoe, beyoleyoolelejo zogo mey l\noema meule. gao mo\n    , \ncosollos.  rweool oewo\neeoeooolo omoolo o\n .\n2 \n \nolgr2\nosol ole aoeo\n \n\n\n l\ne\n\noDeoerdesgo eeeeo\n o oo le\ns n eoot,  o\nle\nol l \nsm eponyoe meßaoo, Taomalgldoemo\nesaoeeee",
+      "text_nfc": "mooreyowo\n37\ne o ee\nree\nwo zoe, beyoleyoolelejo zogo mey l\noema meule. gao mo\n    , \ncosollos.  rweool oewo\neeoeooolo omoolo o\n .\n2 \n \nolgr2\nosol ole aoeo\n \n\n\n l\ne\n\noDeoerdesgo eeeeo\n o oo le\ns n eoot,  o\nle\nol l \nsm eponyoe meßaoo, Taomalgldoemo\nesaoeeee",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

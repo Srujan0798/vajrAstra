@@ -1,0 +1,41 @@
+{
+  "page_id": "te_046",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0046pro_raw.pdf",
+    "page_index": 0,
+    "width": 1641,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1641,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మనం ఇలా రుువేరిందాం (పరిసరాల అధ్యయనం చ రెండవ భాగరం) ఐదరవ తరగతి",
+      "text_nfc": "మనం ఇలా రుువేరిందాం (పరిసరాల అధ్యయనం చ రెండవ భాగరం) ఐదరవ తరగతి",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

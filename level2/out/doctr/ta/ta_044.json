@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_044",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+    "page_index": 11,
+    "width": 1251,
+    "height": 1970
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1251,
+        1970
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Q.mGmD FITID\nH, ATTINITEN\n(ii). FGJILOE Anisi GTGOTIDI syompasiuQuain\n9. SILDIITET\nY. Oufumi\nQ-5153\nFF. Partaysnai\n(iii). F.@al.grenard 5maa GFJ 60) 013551 9/01(50LW\n9.50TGTQULD\n9. u509 GOILOs\n0.20L GOILOS\nFF. 451 Galos\n(iv). Qufumfot (5 600T 115 (G5 GiT Ap55551\n9/. LOITODITODJ GJimmmID (5 600T LD\n9. LDITDDITOJS sipmii (5 GOOTLD\nDITODITOJ ga1agib a 600T iD\nFF. LITDDITOJ D3E5i G60TLD\n(v). STALDIT GTGTD OEITaUalGT OuITGGT\n9f. Qf5530J\nY. Aisi\nQ. 4a)\nFF. HLITGDGST\n2.\nS1 QI5i ujJown uqasafib. Q50013 GEILIBSI QI5I\nudalL aleaaja ofu smurer\naoLoDW\n6TO55\nGTp50JI.\n(5)\ngal, gon GTGOTP GE050535 OoLuld OMDIOL O5U15\nGuraGor gjoummer Quallgni 9D0IoDS0r 20T OIT GOT. Amuurs OJorGi\nJoa goQWITs 9/005151\nLJa/Serper. gofi5\nQIoonGi Aa\nQuTGaTsaT palow GJGGTIT 50551 a1GSopeT. gal, gaf ummu 055\n2 60T OLDOU BoT5 2600155\nFIT356TTIT,\ninemfGuosmavenugib 25W\n-12-",
+      "text_nfc": "Q.mGmD FITID\nH, ATTINITEN\n(ii). FGJILOE Anisi GTGOTIDI syompasiuQuain\n9. SILDIITET\nY. Oufumi\nQ-5153\nFF. Partaysnai\n(iii). F.@al.grenard 5maa GFJ 60) 013551 9/01(50LW\n9.50TGTQULD\n9. u509 GOILOs\n0.20L GOILOS\nFF. 451 Galos\n(iv). Qufumfot (5 600T 115 (G5 GiT Ap55551\n9/. LOITODITODJ GJimmmID (5 600T LD\n9. LDITDDITOJS sipmii (5 GOOTLD\nDITODITOJ ga1agib a 600T iD\nFF. LITDDITOJ D3E5i G60TLD\n(v). STALDIT GTGTD OEITaUalGT OuITGGT\n9f. Qf5530J\nY. Aisi\nQ. 4a)\nFF. HLITGDGST\n2.\nS1 QI5i ujJown uqasafib. Q50013 GEILIBSI QI5I\nudalL aleaaja ofu smurer\naoLoDW\n6TO55\nGTp50JI.\n(5)\ngal, gon GTGOTP GE050535 OoLuld OMDIOL O5U15\nGuraGor gjoummer Quallgni 9D0IoDS0r 20T OIT GOT. Amuurs OJorGi\nJoa goQWITs 9/005151\nLJa/Serper. gofi5\nQIoonGi Aa\nQuTGaTsaT palow GJGGTIT 50551 a1GSopeT. gal, gaf ummu 055\n2 60T OLDOU BoT5 2600155\nFIT356TTIT,\ninemfGuosmavenugib 25W\n-12-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

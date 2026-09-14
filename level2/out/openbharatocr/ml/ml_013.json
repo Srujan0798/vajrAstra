@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_013",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 16,
+    "width": 1608,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1608,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ഞങ്ങ\n\n|\n|\n]\n\n||\n\nDeron Aime ട വത്തര 208\n\n‘Ao\nDia Ney ക്ല “3 ap a ae *\n\nre Gat Cat) ക\nPhp Sean ee ഉണ ച ae\nwearer a9 gy Aa ടക്‌ ചി\nകാഷ്യു പുശ്ചം red ചു കബ 73s न\n\nഗി ഞ്ഞ pore 7\nपक...\nപാരാ gna ളൂ ക്ലാരി ക്ക്കതുയ - ഫി\nglans ony Ler (mas On Kenge 4\nNene Maen ക 77൮ phen അത के വാമി ഒ eS\nmvc my oy ന്ത്‌\n\nBrave??? -\n\nbane OI കം ചിറ ത്മ\n\nate «गगा? ക്ക്‌ MS अं Be ഭട ലു ലി [ര തട\nഗ്‌\n\nക. ആ Boer യം _t\n\nF< I പ്‌ എക .\n\na 4) >| ട്‌... ക്‌ vl =\nTOA YM ൦ ത\n\n",
+      "text_nfc": "ഞങ്ങ\n\n|\n|\n]\n\n||\n\nDeron Aime ട വത്തര 208\n\n‘Ao\nDia Ney ക്ല “3 ap a ae *\n\nre Gat Cat) ക\nPhp Sean ee ഉണ ച ae\nwearer a9 gy Aa ടക്‌ ചി\nകാഷ്യു പുശ്ചം red ചു കബ 73s न\n\nഗി ഞ്ഞ pore 7\nपक...\nപാരാ gna ളൂ ക്ലാരി ക്ക്കതുയ - ഫി\nglans ony Ler (mas On Kenge 4\nNene Maen ക 77൮ phen അത के വാമി ഒ eS\nmvc my oy ന്ത്‌\n\nBrave??? -\n\nbane OI കം ചിറ ത്മ\n\nate «गगा? ക്ക്‌ MS अं Be ഭട ലു ലി [ര തട\nഗ്‌\n\nക. ആ Boer യം _t\n\nF< I പ്‌ എക .\n\na 4) >| ട്‌... ക്‌ vl =\nTOA YM ൦ ത\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

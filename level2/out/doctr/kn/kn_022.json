@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_022",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0023pro_raw.pdf",
+    "page_index": 261,
+    "width": 1117,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1117,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "980\nNE Aobo3 WEFN-O\ndroopfde cs\novoheoegas !\n\"gporo eono gesedtscodd docgssoo\ndona depo RD3 xos\n2018 W308 o\ndoFaer 183 A0\nehaa\ned 3037498 1\"\n(2-888)\naron 2002 2080718 dozdon wo0e0. dodocaa\ngpearto gsenade auoad. 2828 Beboaaer0o0 goba\nWen 2ss0A eppasbwond. enNO d dna 0vd 0O2 WEON 2\nooaa, ado 20co833d. w00\nA\no\n-\ne0e2\natDesoroneoa atodo\ndoconen, S8a dowafdo Ean aoFrowoA 208320 WOW\na)\ne\nboab\n2urprd\nsowan corabe aen 2007030. oobaoa\n-\n0\n(anoedr) WorRootas od80 WOwOn asabesed. awod\n0800 aooa bobss 630X0003000. noe aess Bo0\nmRopase (BOUWFN aTog-dtod wossodes) 08 oeoat\nsedbwocosod.\n\"axcadededas sroneood\ntxooadode Joaao I\nonaddots gRegdaoats 2\nsoresewood asoan\"\n(a-86)\nawga asonnes 300n20-092303 ootdo\nwanee C\nwoondo, -\nN8230300 sdave w00 aone wooadosd.\naoohrdadepad.es eas 83a0 wteo. BOWOOO ad,\nWOEOOTDON away, 00-000 awa\naso0. eg\nensoo\n2\naloowod Dedont xedap ewtosad. en8 taaw Boptoot\neJonn awwoh 38-3omonen 2ma 003\n2\nn\nAROns\neaaoon eajeno dh003t3 28320790\n\"waaer wroao NOAO done 0\n807838 a aoe",
+      "text_nfc": "980\nNE Aobo3 WEFN-O\ndroopfde cs\novoheoegas !\n\"gporo eono gesedtscodd docgssoo\ndona depo RD3 xos\n2018 W308 o\ndoFaer 183 A0\nehaa\ned 3037498 1\"\n(2-888)\naron 2002 2080718 dozdon wo0e0. dodocaa\ngpearto gsenade auoad. 2828 Beboaaer0o0 goba\nWen 2ss0A eppasbwond. enNO d dna 0vd 0O2 WEON 2\nooaa, ado 20co833d. w00\nA\no\n-\ne0e2\natDesoroneoa atodo\ndoconen, S8a dowafdo Ean aoFrowoA 208320 WOW\na)\ne\nboab\n2urprd\nsowan corabe aen 2007030. oobaoa\n-\n0\n(anoedr) WorRootas od80 WOwOn asabesed. awod\n0800 aooa bobss 630X0003000. noe aess Bo0\nmRopase (BOUWFN aTog-dtod wossodes) 08 oeoat\nsedbwocosod.\n\"axcadededas sroneood\ntxooadode Joaao I\nonaddots gRegdaoats 2\nsoresewood asoan\"\n(a-86)\nawga asonnes 300n20-092303 ootdo\nwanee C\nwoondo, -\nN8230300 sdave w00 aone wooadosd.\naoohrdadepad.es eas 83a0 wteo. BOWOOO ad,\nWOEOOTDON away, 00-000 awa\naso0. eg\nensoo\n2\naloowod Dedont xedap ewtosad. en8 taaw Boptoot\neJonn awwoh 38-3omonen 2ma 003\n2\nn\nAROns\neaaoon eajeno dh003t3 28320790\n\"waaer wroao NOAO done 0\n807838 a aoe",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

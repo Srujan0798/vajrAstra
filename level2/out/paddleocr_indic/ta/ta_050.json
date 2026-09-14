@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_050",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 17,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HTTOT\nTT\nc\nCT\nFCT\n37TchT2T\nH\ndGCT\nT\nT\nT\n3TTTG\nH\naof\n\nT\nda\nf\ns\n3ciedt\net\ne\n-\nH\nTET$\n\n2\nT\n\nHERT\nE\n$$\n$\nT0T\n37C51\n \n\nET\n 3\n, \n(\n37 To aT t ITTE\nThE C  E T , THE \nEI R Sid h CT\nER\nT$\n fd od 3\nE\nTT$ 31\nFhe     \n\n 4s  \nchIA\n\nA\n9TTe\n\nciud\nTRIT\n3747\nfaRTeT\nETOT\n3lchc\n1SISE2\nPad\nr\n3\nfd\ni\n\nங் \nTT\nTE\nfrchet\n3TTd\n\nTodl\nHCH\nT\nf f T T\nPifh 3 \n\nOSTTI 2TTR\nihnuhuimi\nReprint 2026-27",
+      "text_nfc": "HTTOT\nTT\nc\nCT\nFCT\n37TchT2T\nH\ndGCT\nT\nT\nT\n3TTTG\nH\naof\n\nT\nda\nf\ns\n3ciedt\net\ne\n-\nH\nTET$\n\n2\nT\n\nHERT\nE\n$$\n$\nT0T\n37C51\n \n\nET\n 3\n, \n(\n37 To aT t ITTE\nThE C  E T , THE \nEI R Sid h CT\nER\nT$\n fd od 3\nE\nTT$ 31\nFhe     \n\n 4s  \nchIA\n\nA\n9TTe\n\nciud\nTRIT\n3747\nfaRTeT\nETOT\n3lchc\n1SISE2\nPad\nr\n3\nfd\ni\n\nங் \nTT\nTE\nfrchet\n3TTd\n\nTodl\nHCH\nT\nf f T T\nPifh 3 \n\nOSTTI 2TTR\nihnuhuimi\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

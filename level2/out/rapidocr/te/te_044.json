@@ -1,0 +1,41 @@
+{
+  "page_id": "te_044",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0044pro_raw.pdf",
+    "page_index": 37,
+    "width": 637.2000122070312,
+    "height": 835.9199829101562
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        637.2000122070312,
+        835.9199829101562
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "udl, musit 3it agren :\n•\nLvx\nHI08\nhle1134\n2h\nthte\n  th\nH\n 2,  \nI\ni,\nTH\nl\nqa\nTG\nhlh 2  p,,\n134--134\n ఆ మ   !  మ మl ?\"\nUhke\n1\n| 3101\nfad  \nhBtE\nLl\nLhlbr4\np , \n[H1\n,\ni,\nTT3T\nl\n  t,\nhke  l\n?\"\n!h\n301 \n3712f\n,\no\n () a  () fa t 3t  3ai   fha    (4si :\n8. T41  f   1\n(\n. 414     T\n(\n)\n3. 3 $    \n(\n)\n(\n)\nK99UI5\nfacunfai  hr y 3it s: -a ifei    an Ifaqae  st qRa  Herd 4 Taf\n?8",
+      "text_nfc": "udl, musit 3it agren :\n•\nLvx\nHI08\nhle1134\n2h\nthte\n  th\nH\n 2,  \nI\ni,\nTH\nl\nqa\nTG\nhlh 2  p,,\n134--134\n ఆ మ   !  మ మl ?\"\nUhke\n1\n| 3101\nfad  \nhBtE\nLl\nLhlbr4\np , \n[H1\n,\ni,\nTT3T\nl\n  t,\nhke  l\n?\"\n!h\n301 \n3712f\n,\no\n () a  () fa t 3t  3ai   fha    (4si :\n8. T41  f   1\n(\n. 414     T\n(\n)\n3. 3 $    \n(\n)\n(\n)\nK99UI5\nfacunfai  hr y 3it s: -a ifei    an Ifaqae  st qRa  Herd 4 Taf\n?8",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

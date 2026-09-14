@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_091",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "books459thinmakal23\n  പ്രതികാരം\nauthor binoy thomas\nmalayalampluscom ebook series\nprice ਸਾਹਤਾ\nwwwmalayalampluscom books459thinmakal2",
+      "text_nfc": "books459thinmakal23\n  പ്രതികാരം\nauthor binoy thomas\nmalayalampluscom ebook series\nprice ਸਾਹਤਾ\nwwwmalayalampluscom books459thinmakal2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

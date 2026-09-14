@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಚಾಣಕ್ಯನೀತಿ\nವ್ಯಾಲಾಶ್ರ ಯಾಪಿ ವಿಫಲಾಪಿ నిర౦టర౦టి\nವಕ್ರಾಪಿ ಪಂಕಿಲಭವಾಪಿ ದುರಾಸದಾಪಿ\nಗಂಧೇನ ಬಂಧುರಸಿ ਠੰਠਭੇਠ ಸರ್ವಜಂತೋ\nರೇಕೋ ಗುಣಃ   ನಿಹಂತಿ ಸಮಸ್ತದೋಷಾನ್ 1721\n੨੭ 25ਮਰਾਰਹੈਹੈਮਰਿਹੀਨੀਕਰਮ ಸಂಪೂರ್ಣ\nprocessed and proofread by sunder hattangadi\nchanakya niti\npdf was typeset വാ july 11 2024\nplease send corrections to sanskritcheerfulcom\nchanakyanltisortpdf 27",
+      "text_nfc": "ಚಾಣಕ್ಯನೀತಿ\nವ್ಯಾಲಾಶ್ರ ಯಾಪಿ ವಿಫಲಾಪಿ నిర౦టర౦టి\nವಕ್ರಾಪಿ ಪಂಕಿಲಭವಾಪಿ ದುರಾಸದಾಪಿ\nಗಂಧೇನ ಬಂಧುರಸಿ ਠੰਠਭੇਠ ಸರ್ವಜಂತೋ\nರೇಕೋ ಗುಣಃ   ನಿಹಂತಿ ಸಮಸ್ತದೋಷಾನ್ 1721\n੨੭ 25ਮਰਾਰਹੈਹੈਮਰਿਹੀਨੀਕਰਮ ಸಂಪೂರ್ಣ\nprocessed and proofread by sunder hattangadi\nchanakya niti\npdf was typeset വാ july 11 2024\nplease send corrections to sanskritcheerfulcom\nchanakyanltisortpdf 27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_026",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0026pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Tफ\nणL0\nQTUJOLDGu 0@6= % फ़LDीYूBIG शJ8\nGLDनDूDl@बv @JनठगLILb श्रुनठंग G ७lनठगीछऊं oठगीgLo LopoJLb 4नrc नfluludb\nछIDीypnO शJङ ७ll७omJulनJनnLI LIITLLफI नD @lypIlGLo छीLLऊंफ़्ीन्ण &yु OlolनflufLLILILLLgI Llनirolfl& Bकbolpglबop फनठगLLITODLD LDनगfl pOpBuILopp Olमulgio OluG lGmp(pio थु७u\nXII Std Business Maths & Stat TM Preliminarr indd\n13-12-2022 15:42:50",
+      "text_nfc": "Tफ\nणL0\nQTUJOLDGu 0@6= % फ़LDीYूBIG शJ8\nGLDनDूDl@बv @JनठगLILb श्रुनठंग G ७lनठगीछऊं oठगीgLo LopoJLb 4नrc नfluludb\nछIDीypnO शJङ ७ll७omJulनJनnLI LIITLLफI नD @lypIlGLo छीLLऊंफ़्ीन्ण &yु OlolनflufLLILILLLgI Llनirolfl& Bकbolpglबop फनठगLLITODLD LDनगfl pOpBuILopp Olमulgio OluG lGmp(pio थु७u\nXII Std Business Maths & Stat TM Preliminarr indd\n13-12-2022 15:42:50",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

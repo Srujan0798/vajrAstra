@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_001",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0001pro_raw.png",
+    "page_index": 0,
+    "width": 546,
+    "height": 452
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        546,
+        452
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Gurgoum DD H@ums.guligpmisdn flaous USKEGU@sGDeT 918015GIED SLMmTUugILD U5 QLOgIGUITeT,\nAEESUmeT LODOLD 54,6ILDITGIT Geusapenpums dp5E Leofiset plaopeuen_GusDGs (POTL. flau\ne_flenouremiser aym emLomTe GOT eLOUGT Geuenguseoenes eOsSLUrTeIT Geuehme,gILo, Sigs\nign@ushonus(@s-Gu Laypeop Glasoa Geumm,usmbssl Oiss 5eL5eDems STOTGu5DSITE LDSSGT\nGlurbibuignib Qo ssusiisenen 5Mig,r, Re SITSHTOBLGUSLDNTS, Guras LompID popgissm 6T\nGUMLLILISGNeT Sgsn555\nausds, DBgu Sigdlet H8LLO Oigum Blaoi LAGOD meliempurméss ALL 5pet (DILRMP)\neupsoub SL05mO SU5 5DUAL 5555 148LLG Lomomsonss SEL E @s Lomflasen Bloi UgCaD\nGuosome reTenLD S1 coLDLenu LomppluienLDsss smas Siguu eLufleoreor EGUCOTU J eflserledlsiben\nQenenruaule Geusirgpamps(@-rs Lompluison eypouib, flais usCeu@sarlen Eidelub, Gsus@men\nwppLD Geuehuu@njgdnanp Guoibur-Gerengi de SulppmLseT fla 2fenu eBleumas enGT sterfigms\nGugmgGGgn@. - flo p_flenuburenis: GSSu LdCap Guyaisafss Lwemefladlmg\nLIG Oigu LomlaUrius(@I5LD, O efleumen Odu fla SI erreneu CuenqLs STeument L 6016nm eneu\nabpeGesrteir@enemem. Oougnb, SUMOITLIG60 Degonb Liemisegreblpsimem SiR0I50 @oeng.\nSLlEmO Blauii ugG@s@rssm G UMAETLmTeT 4 8\n60 56m5gle LweumLeù ufia@ameren\n250 cuplemis AGgm.\n5UDBITG BlwuusG16605655606\nQ0LL6U LDWJLDIT5556\nLDSSOT LLLIT LomILD ALLITeneu sfumiss6yub, SEI Glsmuitumet Gsenaus enem Qeneomueuplusion\nGlumayub GGIGUITS, . sups Se umplauiglebt Blai ugGe@senem Gretcremuolu@ss Bupemens flao\nS1 errenau wimb Boocufis, sicomudlot emh usdlums peen Oiss Gsonau, aiGoonpub smidmissib",
+      "text_nfc": "Gurgoum DD H@ums.guligpmisdn flaous USKEGU@sGDeT 918015GIED SLMmTUugILD U5 QLOgIGUITeT,\nAEESUmeT LODOLD 54,6ILDITGIT Geusapenpums dp5E Leofiset plaopeuen_GusDGs (POTL. flau\ne_flenouremiser aym emLomTe GOT eLOUGT Geuenguseoenes eOsSLUrTeIT Geuehme,gILo, Sigs\nign@ushonus(@s-Gu Laypeop Glasoa Geumm,usmbssl Oiss 5eL5eDems STOTGu5DSITE LDSSGT\nGlurbibuignib Qo ssusiisenen 5Mig,r, Re SITSHTOBLGUSLDNTS, Guras LompID popgissm 6T\nGUMLLILISGNeT Sgsn555\nausds, DBgu Sigdlet H8LLO Oigum Blaoi LAGOD meliempurméss ALL 5pet (DILRMP)\neupsoub SL05mO SU5 5DUAL 5555 148LLG Lomomsonss SEL E @s Lomflasen Bloi UgCaD\nGuosome reTenLD S1 coLDLenu LomppluienLDsss smas Siguu eLufleoreor EGUCOTU J eflserledlsiben\nQenenruaule Geusirgpamps(@-rs Lompluison eypouib, flais usCeu@sarlen Eidelub, Gsus@men\nwppLD Geuehuu@njgdnanp Guoibur-Gerengi de SulppmLseT fla 2fenu eBleumas enGT sterfigms\nGugmgGGgn@. - flo p_flenuburenis: GSSu LdCap Guyaisafss Lwemefladlmg\nLIG Oigu LomlaUrius(@I5LD, O efleumen Odu fla SI erreneu CuenqLs STeument L 6016nm eneu\nabpeGesrteir@enemem. Oougnb, SUMOITLIG60 Degonb Liemisegreblpsimem SiR0I50 @oeng.\nSLlEmO Blauii ugG@s@rssm G UMAETLmTeT 4 8\n60 56m5gle LweumLeù ufia@ameren\n250 cuplemis AGgm.\n5UDBITG BlwuusG16605655606\nQ0LL6U LDWJLDIT5556\nLDSSOT LLLIT LomILD ALLITeneu sfumiss6yub, SEI Glsmuitumet Gsenaus enem Qeneomueuplusion\nGlumayub GGIGUITS, . sups Se umplauiglebt Blai ugGe@senem Gretcremuolu@ss Bupemens flao\nS1 errenau wimb Boocufis, sicomudlot emh usdlums peen Oiss Gsonau, aiGoonpub smidmissib",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

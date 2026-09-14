@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_057",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 2,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ക്ടപ്പാട്ട്\n\n\"പ്രപഞ്ചത്തിലെ എപ്ലാ ചരാചരങ്ങളോടും.... ”\n\nബിനോയി തോമസ്\n\nകോട്ടയം ജില്ലയിലെ ഏറ്റുമാനൂർസ്വദേശി . സ്കൂൾ യോഗാ അധ്യാപകൻ.\nMSc. Medical Biochemistry (M.G. University)\n\nCertificate & Diploma in Yoga Science (M.G. University)\n\nPGDCA.\n\nwebsite: www.malayalamplus.com\n\nemail: binoylbn@gmail.com\n\nFacebook: facebook.com/binoy.thomas.9465 1\n\nwww.malayalamplus.com eBooks-459-thinmakal-23\n\n",
+      "text_nfc": "ക്ടപ്പാട്ട്\n\n\"പ്രപഞ്ചത്തിലെ എപ്ലാ ചരാചരങ്ങളോടും.... ”\n\nബിനോയി തോമസ്\n\nകോട്ടയം ജില്ലയിലെ ഏറ്റുമാനൂർസ്വദേശി . സ്കൂൾ യോഗാ അധ്യാപകൻ.\nMSc. Medical Biochemistry (M.G. University)\n\nCertificate & Diploma in Yoga Science (M.G. University)\n\nPGDCA.\n\nwebsite: www.malayalamplus.com\n\nemail: binoylbn@gmail.com\n\nFacebook: facebook.com/binoy.thomas.9465 1\n\nwww.malayalamplus.com eBooks-459-thinmakal-23\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

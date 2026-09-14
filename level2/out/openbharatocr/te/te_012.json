@@ -1,0 +1,41 @@
+{
+  "page_id": "te_012",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0012pro_raw.pdf",
+    "page_index": 47,
+    "width": 1771,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1771,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2. Find from the lesson the Homophones of the following.\n(A) Pick the Homophones from the text.\n\n1. see- 6. eye-\n2. wood- 7. peace -\n3. there - 8. threw -\n4. scene- 9. hence-\n5. won- 10. knot-\n(B) Explain how the underlined Homographs differ in meaning.\n\n(0) The woodcutter cut the weakened branch with his sharp 52%॥......................\n2. (a) The bird injured his wings\n\n(b) He lives in the ‘c’ wing of the building\n3. (a) The aeroplane will land at 9.00 pm. sharp. ..................................................\n\n(0) He owns 10 acres Of 1806. ........................................................................................................\n4. (a) The head of the institution was on leave.\n\n(b) He bent his head down with chin\n\n3. Read the following sentences carefully, underline the verbs and find out the\ntenses in the sentences\n\n(a) The sun was now ascending the sky.\n\n(b) Still they took no notice of him.\n\n(c) She is standing on a little high hump on the plateau.\n(d) He leaned out eagerly.\n\n(e) He just felt dizzy.\n\nAdverb\n\nAn adverb is a word that tells us something more about a Verb, an Adjective,\nor another Adverb.\n\nAbout a Verb : He runs fast.\n\nThe girls sang sweetly.\n\nSuddenly the baby started crying.\n\nAbout an Adjective : This chain is very sturdy.\n\nThe tea is too hot.\n\nAbout another Adverb : You should run very fast.\n\nAbout a Phrase or Sentence : Unfortunately, your answer is incorrect.\n\nAdverbs give us information about :\n\nPlace, for example, Go there, come in.\n\nTime, for example, I will do my homework tomorrow.\n\nI need a pencil now.\n\n36\n",
+      "text_nfc": "2. Find from the lesson the Homophones of the following.\n(A) Pick the Homophones from the text.\n\n1. see- 6. eye-\n2. wood- 7. peace -\n3. there - 8. threw -\n4. scene- 9. hence-\n5. won- 10. knot-\n(B) Explain how the underlined Homographs differ in meaning.\n\n(0) The woodcutter cut the weakened branch with his sharp 52%॥......................\n2. (a) The bird injured his wings\n\n(b) He lives in the ‘c’ wing of the building\n3. (a) The aeroplane will land at 9.00 pm. sharp. ..................................................\n\n(0) He owns 10 acres Of 1806. ........................................................................................................\n4. (a) The head of the institution was on leave.\n\n(b) He bent his head down with chin\n\n3. Read the following sentences carefully, underline the verbs and find out the\ntenses in the sentences\n\n(a) The sun was now ascending the sky.\n\n(b) Still they took no notice of him.\n\n(c) She is standing on a little high hump on the plateau.\n(d) He leaned out eagerly.\n\n(e) He just felt dizzy.\n\nAdverb\n\nAn adverb is a word that tells us something more about a Verb, an Adjective,\nor another Adverb.\n\nAbout a Verb : He runs fast.\n\nThe girls sang sweetly.\n\nSuddenly the baby started crying.\n\nAbout an Adjective : This chain is very sturdy.\n\nThe tea is too hot.\n\nAbout another Adverb : You should run very fast.\n\nAbout a Phrase or Sentence : Unfortunately, your answer is incorrect.\n\nAdverbs give us information about :\n\nPlace, for example, Go there, come in.\n\nTime, for example, I will do my homework tomorrow.\n\nI need a pencil now.\n\n36\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

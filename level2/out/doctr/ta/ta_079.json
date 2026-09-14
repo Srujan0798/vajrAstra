@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_079",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 20,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ZYT (ye]-gere, 4 chT Uoh T6HT\nAT 131-77, aa\nU\nHHHC 131-477 AT7 ChT HC\nRdidt - Tdifa, TITT, aTeT, Ef farale\nYof [y.e.] EaT, Ec1-ft, 4rt\na-ft [faei.] - 57T sfiat cAT ag thT q uoh, fatcht ER dgr do aT\n- JIARTRTUT [y] - fankit adHPI, cheil, ds 31fa th aldartch 74 N CIR ghes HH doh a JIT aleit\nARTRTT, ZAT\niS\nYIHISRT [E1.51.] - 3T157T 54 N 2he HITTT, 341EIT, ChIE EAT 3o7 ohl 3T5T, 3TIST\nyka [37.(37.)] - gid, 372ft, FCY\nGERAT [H.fsh.] - Eolch-IT, dschl CHT, ETT, SART, RsT aTfa Et N chschsloht Glet, Aichrt 3Tf4\nN SIIHT\nCHT lye.] - ati, 3TCRUT, Gohrl cht aeg, HarT\ndift [Et.] - aruft, EReadt, urefch Yloc, dar, SfreT, Far, FRIHT\nfag [fa.] - faje E3TT, EGT 53TT\nfatft [H.ish.] - FatRIIT, Yrl AHT\nast [Eit.] - GerT, hfeeit, GTefEIST 3T # Yiat 7 46-15 JTTT aleft cle cht VOR\ndet [Y]-EG, I 3Tf2 # faet E3TT EG, Hirot\ndaed [Y.(31.)]- GHIHET fehtt HHT, E4RIT\n9T\nHoddET [fa.] - Hod chl UR chrt aleT, Hod i yfa Heferd\nSTRTCh [fa.ti] - at dlei, ST&TUT chtt alcit\nTHoh [Ei.] - efeft, 3TY gaf, 35dt 5 Gor\nHICT Tge]-Afd, ChRUT, 3r4167, sa-geft, fad-, cho4-T, THRUT\nHTICSIFTHT [Eie.] - HT t fach cht Cod chitt aleit 317 TT UT fahet\n148\nReprint 2026-27",
+      "text_nfc": "ZYT (ye]-gere, 4 chT Uoh T6HT\nAT 131-77, aa\nU\nHHHC 131-477 AT7 ChT HC\nRdidt - Tdifa, TITT, aTeT, Ef farale\nYof [y.e.] EaT, Ec1-ft, 4rt\na-ft [faei.] - 57T sfiat cAT ag thT q uoh, fatcht ER dgr do aT\n- JIARTRTUT [y] - fankit adHPI, cheil, ds 31fa th aldartch 74 N CIR ghes HH doh a JIT aleit\nARTRTT, ZAT\niS\nYIHISRT [E1.51.] - 3T157T 54 N 2he HITTT, 341EIT, ChIE EAT 3o7 ohl 3T5T, 3TIST\nyka [37.(37.)] - gid, 372ft, FCY\nGERAT [H.fsh.] - Eolch-IT, dschl CHT, ETT, SART, RsT aTfa Et N chschsloht Glet, Aichrt 3Tf4\nN SIIHT\nCHT lye.] - ati, 3TCRUT, Gohrl cht aeg, HarT\ndift [Et.] - aruft, EReadt, urefch Yloc, dar, SfreT, Far, FRIHT\nfag [fa.] - faje E3TT, EGT 53TT\nfatft [H.ish.] - FatRIIT, Yrl AHT\nast [Eit.] - GerT, hfeeit, GTefEIST 3T # Yiat 7 46-15 JTTT aleft cle cht VOR\ndet [Y]-EG, I 3Tf2 # faet E3TT EG, Hirot\ndaed [Y.(31.)]- GHIHET fehtt HHT, E4RIT\n9T\nHoddET [fa.] - Hod chl UR chrt aleT, Hod i yfa Heferd\nSTRTCh [fa.ti] - at dlei, ST&TUT chtt alcit\nTHoh [Ei.] - efeft, 3TY gaf, 35dt 5 Gor\nHICT Tge]-Afd, ChRUT, 3r4167, sa-geft, fad-, cho4-T, THRUT\nHTICSIFTHT [Eie.] - HT t fach cht Cod chitt aleit 317 TT UT fahet\n148\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

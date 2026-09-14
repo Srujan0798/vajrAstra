@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_082",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 39,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "anfret i TIRT\nHITEE chref\n10. faval t EAHTRET HHfER VR 37 TRTT chl falad chiTy foricht\nZTIFIT 50f agal * cht 271 2h17-317 # HuRT chl 347 YR fohell\nEFT?\nGREIST chlef (as Uch )\n11. 3747 47 faheit ds Haeft (HRI/fUO/TRT-RT TeTT\nTHT-T-IPATI/ATET) chT HTChR chifsiy foralt 3714ch TR\n372C TITA t C6T ZIIFITY cht ai Ydl chifgy (5) a chal TT\n2t (E) 3-07 ZET dd cht (T) 308 fohdil HHY CTIT (EI)\n3r07 ZIFIT GRIT chl (5) CRIT 3-617 foheit ChTOTE chT HIHIT\nfohel tet THITI3T 3i7 fu-Ideni chT grids ahify 47 3-0\n3747 167 t TOTT 3it ZIFIT faht TT TOTTT 4 da Frei, farta\n74 # 9TT9IT, 461101, d14H, ifd-falsi, SHRdi, uschl TPTT\nyoi 37 Hf6CT37T chl viq7-wieft t urof 71 3747 ERT ETfHCT\nvichIReT VR Uch fryie duR chifgigi\n12. ET 3T82T 7 afeofad ZIFERTT 7 # Uch 4 viat TPTT Shfren\nt fauer 7 3i 37fech VITChRT Eifuet ChifsTgl 370h1 2AFTT3TT\nR Uoh Rryte deR chifgy farta 74 4 EH ad VR TR ad EU\nfoh 3-617 HHI chl ChHT faCRul fohel à TPTT Fiicht goiil\n37814 N fay TT BgTUTT # chifsigi\nfa 5.14\nEU far 7 STRIH chrd EU ZIfRIT chi FAGRT TAT à\n139\nafa 3T7 ait vilTchit aed\nà a so ufer:\nJoiH 31014 ts Hoa YOHUH\n2006, 557-4ff47 2acH 57 fa\nTu7 3714 Tercharivt, 1400-1800\nthfigu gfraftet ta, thfiga\nterit 3TRR Ts fuferyt Zrale\n2006, siseT fayt 2R7y,\nthfigo gfraftet da, thfiga\nhital gfER, 2aot 57 fa Yilt\nTIYRR 1656-1668 $,\n4t YISH yforichtit, RA fereit\nUETTR. flod (#YL.), 1993\nfa 2aot7 3714 5of agdr\nYiRIH HHlrciT, fereit\nFRiteet EHT (#YL.), 2005\ndeas dsS: 2aet 3714 fuurf\n3q arfea, 3TTRIYTS yfaffet\nda, 71 fereit\nUT. #. chie (#YL.), 1997\ndaeref sisel- T7 Telieilsit\n3TTRIYTE yfaftet da\n71 ferreit\nveit dfere daffer, 1993, 2doH\n57 siEeIT, TRIRIH Hieeie\nfereit\narferch vilichrt i fry 3TT7\nfrferfad daHIsE d Hohd à\nwww.edumaritime.org",
+      "text_nfc": "anfret i TIRT\nHITEE chref\n10. faval t EAHTRET HHfER VR 37 TRTT chl falad chiTy foricht\nZTIFIT 50f agal * cht 271 2h17-317 # HuRT chl 347 YR fohell\nEFT?\nGREIST chlef (as Uch )\n11. 3747 47 faheit ds Haeft (HRI/fUO/TRT-RT TeTT\nTHT-T-IPATI/ATET) chT HTChR chifsiy foralt 3714ch TR\n372C TITA t C6T ZIIFITY cht ai Ydl chifgy (5) a chal TT\n2t (E) 3-07 ZET dd cht (T) 308 fohdil HHY CTIT (EI)\n3r07 ZIFIT GRIT chl (5) CRIT 3-617 foheit ChTOTE chT HIHIT\nfohel tet THITI3T 3i7 fu-Ideni chT grids ahify 47 3-0\n3747 167 t TOTT 3it ZIFIT faht TT TOTTT 4 da Frei, farta\n74 # 9TT9IT, 461101, d14H, ifd-falsi, SHRdi, uschl TPTT\nyoi 37 Hf6CT37T chl viq7-wieft t urof 71 3747 ERT ETfHCT\nvichIReT VR Uch fryie duR chifgigi\n12. ET 3T82T 7 afeofad ZIFERTT 7 # Uch 4 viat TPTT Shfren\nt fauer 7 3i 37fech VITChRT Eifuet ChifsTgl 370h1 2AFTT3TT\nR Uoh Rryte deR chifgy farta 74 4 EH ad VR TR ad EU\nfoh 3-617 HHI chl ChHT faCRul fohel à TPTT Fiicht goiil\n37814 N fay TT BgTUTT # chifsigi\nfa 5.14\nEU far 7 STRIH chrd EU ZIfRIT chi FAGRT TAT à\n139\nafa 3T7 ait vilTchit aed\nà a so ufer:\nJoiH 31014 ts Hoa YOHUH\n2006, 557-4ff47 2acH 57 fa\nTu7 3714 Tercharivt, 1400-1800\nthfigu gfraftet ta, thfiga\nterit 3TRR Ts fuferyt Zrale\n2006, siseT fayt 2R7y,\nthfigo gfraftet da, thfiga\nhital gfER, 2aot 57 fa Yilt\nTIYRR 1656-1668 $,\n4t YISH yforichtit, RA fereit\nUETTR. flod (#YL.), 1993\nfa 2aot7 3714 5of agdr\nYiRIH HHlrciT, fereit\nFRiteet EHT (#YL.), 2005\ndeas dsS: 2aet 3714 fuurf\n3q arfea, 3TTRIYTS yfaffet\nda, 71 fereit\nUT. #. chie (#YL.), 1997\ndaeref sisel- T7 Telieilsit\n3TTRIYTE yfaftet da\n71 ferreit\nveit dfere daffer, 1993, 2doH\n57 siEeIT, TRIRIH Hieeie\nfereit\narferch vilichrt i fry 3TT7\nfrferfad daHIsE d Hohd à\nwww.edumaritime.org",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

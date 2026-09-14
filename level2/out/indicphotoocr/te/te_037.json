@@ -1,0 +1,41 @@
+{
+  "page_id": "te_037",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0037pro_raw.pdf",
+    "page_index": 27,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "listen and read aloud\nequality பெயரானாரா  போளிப்பி discrimination\nread the passage carefully and complete the பிப்பாப்டி\nfull name\nknown ૧8\ndate of birth\nbirth place\nਨਾ message to society\nadd ness to the word and make ટી new word\nfor example kind ness kindness\nsad\ndark\nweak\nfair\nread and observe underlined words\ngadge maharaj was ૧ saint in maharashtra his name was மலியும் he\nlived ૧ simple life he taught people to be kind\nਕਾਰਾ now fill ப்டி the blanks ப்பி the proper words from the box\nhe they his their she her\nmeera loves books rohan has ૧ bicycle the birds are in the nest\nreads every night rides it every day are பேடியுப்பி\nபிரமயப் book bicycle is nest is on the\nred branch\nfor the teacher\nencourage learners to collect information of different saints from maharashtra\nencourage them to read books about saints\nencourage them to talk about the key elementsevents ideas from this lesson\n18",
+      "text_nfc": "listen and read aloud\nequality பெயரானாரா  போளிப்பி discrimination\nread the passage carefully and complete the பிப்பாப்டி\nfull name\nknown ૧8\ndate of birth\nbirth place\nਨਾ message to society\nadd ness to the word and make ટી new word\nfor example kind ness kindness\nsad\ndark\nweak\nfair\nread and observe underlined words\ngadge maharaj was ૧ saint in maharashtra his name was மலியும் he\nlived ૧ simple life he taught people to be kind\nਕਾਰਾ now fill ப்டி the blanks ப்பி the proper words from the box\nhe they his their she her\nmeera loves books rohan has ૧ bicycle the birds are in the nest\nreads every night rides it every day are பேடியுப்பி\nபிரமயப் book bicycle is nest is on the\nred branch\nfor the teacher\nencourage learners to collect information of different saints from maharashtra\nencourage them to read books about saints\nencourage them to talk about the key elementsevents ideas from this lesson\n18",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

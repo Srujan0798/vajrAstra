@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_040",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 106,
+    "width": 1698,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1698,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕರ್ಣಾಟಕ OVGSerlo ಅಕಾಣೆನು\n\nmess ಕನ್ನಡ ಭವನ. ಜೆ.ಸಿ. ರಸ್ತೆ, ಬೆಂಗಳೂರು-560 002\n\nತ್ರಾ Res ಎಡ ಇಟ re a is\nOOF OD Karnataka Lalitkala Academy\n\nಸಷ Kannada Bhavan, J.C. Road, Bengaluru - 560 002\n\nPhone : 080 - 22480297\n\n",
+      "text_nfc": "ಕರ್ಣಾಟಕ OVGSerlo ಅಕಾಣೆನು\n\nmess ಕನ್ನಡ ಭವನ. ಜೆ.ಸಿ. ರಸ್ತೆ, ಬೆಂಗಳೂರು-560 002\n\nತ್ರಾ Res ಎಡ ಇಟ re a is\nOOF OD Karnataka Lalitkala Academy\n\nಸಷ Kannada Bhavan, J.C. Road, Bengaluru - 560 002\n\nPhone : 080 - 22480297\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

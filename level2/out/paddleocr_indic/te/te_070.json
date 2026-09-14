@@ -1,0 +1,41 @@
+{
+  "page_id": "te_070",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0070pro_raw.pdf",
+    "page_index": 99,
+    "width": 1638,
+    "height": 2193
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1638,
+        2193
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహారాష్ర\nరాష్ట్ర\nపాఠ్యపుస్తక\nనిర్మితి\nమరియు\nపాఠ్యపరణాళిక పరిశో ధన సంస్థ, పుణె.\n*\nSHCTO\nSAET\nTNRaSIRa\na\n(Au\n¤\n₹.\n4182TH\n₹ 42.00",
+      "text_nfc": "మహారాష్ర\nరాష్ట్ర\nపాఠ్యపుస్తక\nనిర్మితి\nమరియు\nపాఠ్యపరణాళిక పరిశో ధన సంస్థ, పుణె.\n*\nSHCTO\nSAET\nTNRaSIRa\na\n(Au\n¤\n₹.\n4182TH\n₹ 42.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

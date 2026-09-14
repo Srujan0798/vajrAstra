@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_065",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0026pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Y\nಇ.\n\n+e\nನಕಾ-ರ\nಬಾಲಾ\n೩ಕ್ಣನಿ\nಮತುಸಾಕರತಾಇಲಾಖ\nDepartment of School Education x Literacy\nಮೌಲೀ\n೨ಕ೯\nDಂ\nValue\nEducation\n\n\n೧\nನೇತರಗತ\nಏದಾ.ಢಗಳಚಟುವಟಕಾಪುಸಕ\nActivity Book for Class I Students\n೭೦26-2೦27\nರಾಜ\n೩ಕಣ\nಸಂಶೋಧನ\nವತು\nತರಬೇ೩\nಇಲಾಖ\n೭\nವ\nಬನಶಂಕರ3ನೇಹಂತ,ಬೆಂಗಳೋರು--ನೀ೧೧೯ನ",
+      "text_nfc": "Y\nಇ.\n\n+e\nನಕಾ-ರ\nಬಾಲಾ\n೩ಕ್ಣನಿ\nಮತುಸಾಕರತಾಇಲಾಖ\nDepartment of School Education x Literacy\nಮೌಲೀ\n೨ಕ೯\nDಂ\nValue\nEducation\n\n\n೧\nನೇತರಗತ\nಏದಾ.ಢಗಳಚಟುವಟಕಾಪುಸಕ\nActivity Book for Class I Students\n೭೦26-2೦27\nರಾಜ\n೩ಕಣ\nಸಂಶೋಧನ\nವತು\nತರಬೇ೩\nಇಲಾಖ\n೭\nವ\nಬನಶಂಕರ3ನೇಹಂತ,ಬೆಂಗಳೋರು--ನೀ೧೧೯ನ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

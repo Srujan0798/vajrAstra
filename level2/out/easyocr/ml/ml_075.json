@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_075",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 978,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        978,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KOTTAYAM RUBL'C LlsRARY Call No Mkड Acc. No .8क़१| :\ncplक़..m.!2.2! @ Author Title कlga!क़b . c? ?. 9e3",
+      "text_nfc": "KOTTAYAM RUBL'C LlsRARY Call No Mkड Acc. No .8क़१| :\ncplक़..m.!2.2! @ Author Title कlga!क़b . c? ?. 9e3",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

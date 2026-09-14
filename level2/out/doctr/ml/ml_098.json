@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_098",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 57,
+    "width": 923,
+    "height": 1356
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        923,
+        1356
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "50\nCodoad omoo0\n00mo 2000.\nolood, 0190000, 8.0101d60, DEglas\nGood ogimlalsqealepamo e0ej2oo1 gooofele\n69300 Dimlolgo\nOboglooejo O0 WOO0B\n2007 algom opeJas 01o000 meinlaelay2oom\nO0J0.\nBoolelo 3oglo 210-90060010003 Codonbomj\no00 Gehoalle1dsaeco\niomlolloflosoroalos (BTOO\nBoseldoo, ogomod OS6elo mose_ja@cosmeglo (B1O\nJo ajomlola-sognalolosmley myo.ioloquorlaogoionl\ncoolosoimalos 002 ongrsmando2oslmome (YOO1\nODO0 @ioagaooploabo G0Bdoo 00gJ00loabo MOSgO\n8 d1100os moslojablaoplaem a0m0 muotieoom\n6eJo.\n00 aenooleid.smoglob omjoo0o apsaglsqa a\na09mge) 02moldem oJolajgans0210O,\n090200000 0160101010x002 ooel C04:000/002100\na00 09f00onyo agdaglgwlasmp,\n081mlgmoolos\n(8106G000 o_Jomlo.isplaled 6880100\" 0ogld donsood\naD0 CD2060 0J6010.2080\ncoomylw2o O0lonbo\ngomdgo amloos 20S0 20810 doNsO0d OB0ld80\n000B00 BO0000.\n01603000J0 Géoaileldsmedo omlonsplaan.oob\n20000 6Y06G000 00200loel Q103200D0 oflelor 601\naloaomosg. mosoode egoloJaJo\n6m060jo2ss\n8881 068000, 205010000, Oomldo 6M\nJooelodo, Q10060o\n010418300 goeso1 cpd-801.86i0 O imlooldoQ 601",
+      "text_nfc": "50\nCodoad omoo0\n00mo 2000.\nolood, 0190000, 8.0101d60, DEglas\nGood ogimlalsqealepamo e0ej2oo1 gooofele\n69300 Dimlolgo\nOboglooejo O0 WOO0B\n2007 algom opeJas 01o000 meinlaelay2oom\nO0J0.\nBoolelo 3oglo 210-90060010003 Codonbomj\no00 Gehoalle1dsaeco\niomlolloflosoroalos (BTOO\nBoseldoo, ogomod OS6elo mose_ja@cosmeglo (B1O\nJo ajomlola-sognalolosmley myo.ioloquorlaogoionl\ncoolosoimalos 002 ongrsmando2oslmome (YOO1\nODO0 @ioagaooploabo G0Bdoo 00gJ00loabo MOSgO\n8 d1100os moslojablaoplaem a0m0 muotieoom\n6eJo.\n00 aenooleid.smoglob omjoo0o apsaglsqa a\na09mge) 02moldem oJolajgans0210O,\n090200000 0160101010x002 ooel C04:000/002100\na00 09f00onyo agdaglgwlasmp,\n081mlgmoolos\n(8106G000 o_Jomlo.isplaled 6880100\" 0ogld donsood\naD0 CD2060 0J6010.2080\ncoomylw2o O0lonbo\ngomdgo amloos 20S0 20810 doNsO0d OB0ld80\n000B00 BO0000.\n01603000J0 Géoaileldsmedo omlonsplaan.oob\n20000 6Y06G000 00200loel Q103200D0 oflelor 601\naloaomosg. mosoode egoloJaJo\n6m060jo2ss\n8881 068000, 205010000, Oomldo 6M\nJooelodo, Q10060o\n010418300 goeso1 cpd-801.86i0 O imlooldoQ 601",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

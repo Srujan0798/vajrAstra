@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_007",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+    "page_index": 1,
+    "width": 1124,
+    "height": 1856
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1124,
+        1856
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2. d8 aapponaa wa eto den dotgdoas aenen euso 20008.\nerode 206300 lon nos3tid\nQ\nBorot b0020a 23n10\ndotgas 30d000 dadoendd a\naooonsodees wao\naorgm a doobadaye BOWOd\nsodoesso ened\nBain e3edag docen 6239003\n2380 23080 5003\n2J0830 arpn la 300a0A00\n203a3 20ca0 dosn\ntotot 00063 250doasdads\ndates wobagdde &e7\nsordoey adas aoadsodd\neet an elyn x028\nsoddoegses 0oa0daJ000d\neeto ensoded &38\n0F.0.303003 C desez,\ngone:\nes) erode 208300 OJJDWOT enbaos?\nI\nes) dayes fen woayas?\n2\n) bad 3030700 wiead 2300)?\nI\n34) enoono 83 aspajodod?\n2\nPage 2",
+      "text_nfc": "2. d8 aapponaa wa eto den dotgdoas aenen euso 20008.\nerode 206300 lon nos3tid\nQ\nBorot b0020a 23n10\ndotgas 30d000 dadoendd a\naooonsodees wao\naorgm a doobadaye BOWOd\nsodoesso ened\nBain e3edag docen 6239003\n2380 23080 5003\n2J0830 arpn la 300a0A00\n203a3 20ca0 dosn\ntotot 00063 250doasdads\ndates wobagdde &e7\nsordoey adas aoadsodd\neet an elyn x028\nsoddoegses 0oa0daJ000d\neeto ensoded &38\n0F.0.303003 C desez,\ngone:\nes) erode 208300 OJJDWOT enbaos?\nI\nes) dayes fen woayas?\n2\n) bad 3030700 wiead 2300)?\nI\n34) enoono 83 aspajodod?\n2\nPage 2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

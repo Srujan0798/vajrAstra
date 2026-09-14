@@ -1,0 +1,41 @@
+{
+  "page_id": "te_012",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0012pro_raw.pdf",
+    "page_index": 47,
+    "width": 1771,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1771,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2 Rind [T01] the Iesson   the  [omophones 0[   the  [ollowins. (ಗ) Pick   the [[omophones  from the text. ] . See ೦. eJe  2 MOOd - 7. peace 3 . there - 8 threw  4 Sce]e 9. hence -\n5. MO]] -\n]0. knOt -\n(B) Explain   how  the underlined  [[omos]aphs differ  in meamins. ]. (೩) [e  Saw   his two   brothers. D ) The woodcutte]  cut   the  weakened  branch with   his shaTp saw 2 (೩) The  bird injued his   Mings. D [e ]ives   11 the C wins o[ the  buildins. 3 . (೩) The  ೩eroplane   MiI]  ]and at 9.00 pi. shap. D [e OಚI]S ]0 ೩cೊes 0[ ]and.\n4. (೩) The  head 0[ the   institution M೩3 O] ೊeave.\n(D) [e bent   his   head dow]] with chin. 3. Read the   [ollowins Sentences   carefully, underline the verbs ೩nd find 0ut the teses in the   sentences. (೩) The SU]] TT೩S ]OT] ೩scendins   the  sky. D) Stil]   they   took 110 [otice   0T him. She is standins 01 ೩ little hish   hump O1] the plateau. [e [eaned out easerly . [e just felt dizzy .\nAdverb A1   ೩dverb ]S ೩ wOTd   that te]]s US somethins ೊOೋe ೩bout ೩ Vetb, ೩1 Adjective, O[ ೩othe] Adve]b .\nAbout ೩ Teb\n[e TLTS [ast .\nThe 8irls   sans   sweetly. Suddely the   baby started  cTyins. [bout ೩n   Adjective This chain is veTy   sturdy. The ted jS   t00 hot. About  ೩nother Adverb [ou   should [U]] \"er ) [ast. About ಶ Phrase 0]` Sentence Unfortunately, yOur ೩iswer 1s   incozTect. Adverbs  8ive US jnormation ೩bout P]ace   [oT' example, G0   there,   come ill. ime, foT   cxample, [ M]]] d0 Ty homewo[k tOೊOTTOM . [ need ೩ penci] ]]OI _\n36",
+      "text_nfc": "2 Rind [T01] the Iesson   the  [omophones 0[   the  [ollowins. (ಗ) Pick   the [[omophones  from the text. ] . See ೦. eJe  2 MOOd - 7. peace 3 . there - 8 threw  4 Sce]e 9. hence -\n5. MO]] -\n]0. knOt -\n(B) Explain   how  the underlined  [[omos]aphs differ  in meamins. ]. (೩) [e  Saw   his two   brothers. D ) The woodcutte]  cut   the  weakened  branch with   his shaTp saw 2 (೩) The  bird injued his   Mings. D [e ]ives   11 the C wins o[ the  buildins. 3 . (೩) The  ೩eroplane   MiI]  ]and at 9.00 pi. shap. D [e OಚI]S ]0 ೩cೊes 0[ ]and.\n4. (೩) The  head 0[ the   institution M೩3 O] ೊeave.\n(D) [e bent   his   head dow]] with chin. 3. Read the   [ollowins Sentences   carefully, underline the verbs ೩nd find 0ut the teses in the   sentences. (೩) The SU]] TT೩S ]OT] ೩scendins   the  sky. D) Stil]   they   took 110 [otice   0T him. She is standins 01 ೩ little hish   hump O1] the plateau. [e [eaned out easerly . [e just felt dizzy .\nAdverb A1   ೩dverb ]S ೩ wOTd   that te]]s US somethins ೊOೋe ೩bout ೩ Vetb, ೩1 Adjective, O[ ೩othe] Adve]b .\nAbout ೩ Teb\n[e TLTS [ast .\nThe 8irls   sans   sweetly. Suddely the   baby started  cTyins. [bout ೩n   Adjective This chain is veTy   sturdy. The ted jS   t00 hot. About  ೩nother Adverb [ou   should [U]] \"er ) [ast. About ಶ Phrase 0]` Sentence Unfortunately, yOur ೩iswer 1s   incozTect. Adverbs  8ive US jnormation ೩bout P]ace   [oT' example, G0   there,   come ill. ime, foT   cxample, [ M]]] d0 Ty homewo[k tOೊOTTOM . [ need ೩ penci] ]]OI _\n36",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

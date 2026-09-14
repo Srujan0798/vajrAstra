@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_048",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(vii) AQ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯವಿರುವ ಪದವಿದು\n(A) ಸಾವಿತ್ರಿಯು\n(B) ಸಾವಿತ್ರಿಯನ್ನು\n(C) ಸಾವಿತ್ರೆಗೆ\n(D) ಸಾವಿತ್ರಿಯಿಂದ\n\n(viii) ವಿಜ್ಞಾನಿಗಳು Sad, ಲಅಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ಸಂಶೋಧನೆಯಲ್ಲಿ ಕಳೆಯುತ್ತಾರೆ\n- ಇಲ್ಲಿರುವ ಅನ್ವರ್ಥಕ ನಾಮ\n\n(A) ಸಮಯ\n\n(B) ಸಂಶೋಧನೆ\n(C) ಕಳೆ\n\n(D) Aegon)\n\n(ix) 388s ಆಟದಲ್ಲಿ ನೂರನೆಯ ಪಂದ್ಯದಲ್ಲಿ ನೂರು ರನ್ ಹೊಡೆದವರು ७8 ವಿರಳ -\n\nಇಲ್ಲಿ ಇರುವ ಸಂಖ್ಯಾ ವಾಚಕ\n\n(A) ನೂರನೆಯ\n(B) ಪಂದ್ಯ\n(C) ಕ್ರಿಕೆಟ್\n(D) ನೂರು\n(xy) -ಎಇದು ಸರ್ವನಾಮ ಪದಕ್ಕೆ ಉದಾಹರಕದೆ .\n(A) ರಮೇಶ\n(B) ನದಿ\n(C) ಯಾರು\n(D) Badd\n\n13/8 15 P.T.O.\n",
+      "text_nfc": "(vii) AQ ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯವಿರುವ ಪದವಿದು\n(A) ಸಾವಿತ್ರಿಯು\n(B) ಸಾವಿತ್ರಿಯನ್ನು\n(C) ಸಾವಿತ್ರೆಗೆ\n(D) ಸಾವಿತ್ರಿಯಿಂದ\n\n(viii) ವಿಜ್ಞಾನಿಗಳು Sad, ಲಅಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ಸಂಶೋಧನೆಯಲ್ಲಿ ಕಳೆಯುತ್ತಾರೆ\n- ಇಲ್ಲಿರುವ ಅನ್ವರ್ಥಕ ನಾಮ\n\n(A) ಸಮಯ\n\n(B) ಸಂಶೋಧನೆ\n(C) ಕಳೆ\n\n(D) Aegon)\n\n(ix) 388s ಆಟದಲ್ಲಿ ನೂರನೆಯ ಪಂದ್ಯದಲ್ಲಿ ನೂರು ರನ್ ಹೊಡೆದವರು ७8 ವಿರಳ -\n\nಇಲ್ಲಿ ಇರುವ ಸಂಖ್ಯಾ ವಾಚಕ\n\n(A) ನೂರನೆಯ\n(B) ಪಂದ್ಯ\n(C) ಕ್ರಿಕೆಟ್\n(D) ನೂರು\n(xy) -ಎಇದು ಸರ್ವನಾಮ ಪದಕ್ಕೆ ಉದಾಹರಕದೆ .\n(A) ರಮೇಶ\n(B) ನದಿ\n(C) ಯಾರು\n(D) Badd\n\n13/8 15 P.T.O.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_066",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 18,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "31 my world of feelings\nwe live surrounded by people other living beings and\nhot things keep in this sometimes cold\nnature happening world\nthe weather is hot sometimes its cold or rainy or windy\nrainy windy\nlike the outside weather our\nworld of feelings also keeps there is another world\nchanging it depends on what is inside us it is made up of\nhappening inside the body and feelings we feel happy\nwhats happening outside when sad upset irritated\nangry\nwe fall down and get hurt we feel sleepy tired bored the list\npain what 11ੰ there was no pain on\n8068\nwe would not even know we have ૬\nhurt ourselves pain draws our republ\nattention to the part that is hurt\n80 that we can take care of it\nmake groups of 4 of 3 feelings\ndiscuss what 1 there മുഴ how do they help you\nwere no feelings write below\nwhat would happen 10\nthen\n૫૦\nthink and do\nfeelings bring do think animals have\nyou\n૧ positive feelings why do you think so\nchange in me what about plants\n11",
+      "text_nfc": "31 my world of feelings\nwe live surrounded by people other living beings and\nhot things keep in this sometimes cold\nnature happening world\nthe weather is hot sometimes its cold or rainy or windy\nrainy windy\nlike the outside weather our\nworld of feelings also keeps there is another world\nchanging it depends on what is inside us it is made up of\nhappening inside the body and feelings we feel happy\nwhats happening outside when sad upset irritated\nangry\nwe fall down and get hurt we feel sleepy tired bored the list\npain what 11ੰ there was no pain on\n8068\nwe would not even know we have ૬\nhurt ourselves pain draws our republ\nattention to the part that is hurt\n80 that we can take care of it\nmake groups of 4 of 3 feelings\ndiscuss what 1 there മുഴ how do they help you\nwere no feelings write below\nwhat would happen 10\nthen\n૫૦\nthink and do\nfeelings bring do think animals have\nyou\n૧ positive feelings why do you think so\nchange in me what about plants\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

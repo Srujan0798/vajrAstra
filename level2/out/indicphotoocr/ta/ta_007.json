@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_007",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "புத்தம்புது நீரின் guijolita ച எவ்வாறு 851600t\na அடங்கி\nb கலங்கி\nଓ தெளிவாக\nதெள்ளத் தெளிவாக\nஆற்று வெள்ளம் பூமியில் outclold உயிர்களுக்குக்\nசெய்வது என்ன ૨\na கேடுகளைத் தடுக்கிறது\nb நன்மைகளைத் த௫கின் 05\nଓ கேடுகளைத் தருகின்றது\nவளங்களைத் தருகின்றது\nவெள்ளம் வடியும் த௫ணம் ਗਲੂ ભ\na ഥങ്ങ அதிகரிக்கும் clitsi\nb ഗത്യാധിത 5005 குறையும் போது\nଓ இருகரைகளைத் தாண் டும் clitsi\nd கரைபுரண் போது\nஆற்றில் வெள்ளம் qlic ਓ வ௫ம்போது என் 60t\nசெய்யும் ੧\na bmi ഥ ભય பூக்களைச்சுமந்து வ௫ம்\nமரக்கட்டையைச் சுமந்து வ௫ம்\nwwwugh கிடப்பவைகளை அடித்து வ௫ம்\nlianubmategellegater o வ௫ம்\n10s page 4of15",
+      "text_nfc": "புத்தம்புது நீரின் guijolita ച எவ்வாறு 851600t\na அடங்கி\nb கலங்கி\nଓ தெளிவாக\nதெள்ளத் தெளிவாக\nஆற்று வெள்ளம் பூமியில் outclold உயிர்களுக்குக்\nசெய்வது என்ன ૨\na கேடுகளைத் தடுக்கிறது\nb நன்மைகளைத் த௫கின் 05\nଓ கேடுகளைத் தருகின்றது\nவளங்களைத் தருகின்றது\nவெள்ளம் வடியும் த௫ணம் ਗਲੂ ભ\na ഥങ്ങ அதிகரிக்கும் clitsi\nb ഗത്യാധിത 5005 குறையும் போது\nଓ இருகரைகளைத் தாண் டும் clitsi\nd கரைபுரண் போது\nஆற்றில் வெள்ளம் qlic ਓ வ௫ம்போது என் 60t\nசெய்யும் ੧\na bmi ഥ ભય பூக்களைச்சுமந்து வ௫ம்\nமரக்கட்டையைச் சுமந்து வ௫ம்\nwwwugh கிடப்பவைகளை அடித்து வ௫ம்\nlianubmategellegater o வ௫ம்\n10s page 4of15",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

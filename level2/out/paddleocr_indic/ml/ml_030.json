@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_030",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 2,
+    "width": 1414,
+    "height": 2096
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1414,
+        2096
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "C)?\n(,,)\nd)(e?\n(2520,2023,0 07,0 2,\n036632°,2620)\neog?\n(,,,)\nf) “0323303233”- ?\n(,,,)\ng)OS3SGLS.\n(,2,2,)\nh)(?\n(,,,()\n2) 200062g3030.:\na)\nm..G?\n3\nb)S\n①Bのm?\n3\nc)?\n3\nd)2(?\n?\n3\n3) a.\nw?\n3\nb)S?\n3\nc)\n?\n3\nd)\"\n\n3\n4)22×12\na)\ne.\nb)(2?\nC)(2\nc?\n水\nh\n—3",
+      "text_nfc": "C)?\n(,,)\nd)(e?\n(2520,2023,0 07,0 2,\n036632°,2620)\neog?\n(,,,)\nf) “0323303233”- ?\n(,,,)\ng)OS3SGLS.\n(,2,2,)\nh)(?\n(,,,()\n2) 200062g3030.:\na)\nm..G?\n3\nb)S\n①Bのm?\n3\nc)?\n3\nd)2(?\n?\n3\n3) a.\nw?\n3\nb)S?\n3\nc)\n?\n3\nd)\"\n\n3\n4)22×12\na)\ne.\nb)(2?\nC)(2\nc?\n水\nh\n—3",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

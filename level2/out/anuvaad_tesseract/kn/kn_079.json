@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_079",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0040pro_raw.pdf",
+    "page_index": 949,
+    "width": 1353,
+    "height": 1901
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1353,
+        1901
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "जगा\n\nwees BSE  ೧೦-೧೬೫-೩ ; SRF.\n\nಹೋ ತಾ ಜನಿಸ್ಟ e338 3-2೫-೧\n\nಹೋತಾ Respe BMBrs ೩-೨೭-೭ ; Ads.\nn೪೭೭ 2 ane\n\n&-92-8\n\nBarsog, wor 0०3 0309 n-೧೬೨-೫ ; ao. 083.\n3೫.೨೮ ; 3, Ro. ೪-೬.೮-೨\n\nBars ನಿಸತ್ತೊ ९ ನುನೋರ ಪತ್ಯ n-೬೮-೭\n\nಹೋತಾಯುಸ್ಷದ್ವ adc n-n೧೩೯-೧೦\n\nಕೋತಾರ ಂ ABER ೧-೪೪-೭\n\nಗಝೋತಾರಂ ಸಸ್ವ wr, ९ IBS ० ೧-೫೮-೭\n\nso, edd\n\nBaesado ws dAdo ೧೦-೧-೫ 5 8 Wy. ೨-೪-\nak .\nBasso Ty ವ್ಯಣೀನುಹೇ m-20-a9\nಹೋತ್ರಾದೆಹಂ ವರುಣ Wy, wood. 00-श0-४\nಹ್ರದಂ ನ ಹಿ Sa8y Naa, ್ರ್ಮುಯಃ ೧.೫೨-೭\nಹ್ರೆ ದಾ ಇವ ಕುಕ್ಷಯಃ ಸೋನುಧಾನಾಃ ೩-೩೬-೮\nಹ್ಟೈ್ ಯಾ ಮುಸಿ Seow, cdJoro ೬-೪೧-೫ ५ ಶೈ . ಬ್ರಾ\n3-8-8-00\nBord. Bese ಅಯಾತು8 2-9-0\n\nಹ್ವೈ ಯಾಮೃಕ್ನಿ o Paro 4,5, oh¢ 0-9-0\n\nನಕಸೂಯ demmmodes,oe ake ZAgg रूस एस, 1913\n",
+      "text_nfc": "जगा\n\nwees BSE  ೧೦-೧೬೫-೩ ; SRF.\n\nಹೋ ತಾ ಜನಿಸ್ಟ e338 3-2೫-೧\n\nಹೋತಾ Respe BMBrs ೩-೨೭-೭ ; Ads.\nn೪೭೭ 2 ane\n\n&-92-8\n\nBarsog, wor 0०3 0309 n-೧೬೨-೫ ; ao. 083.\n3೫.೨೮ ; 3, Ro. ೪-೬.೮-೨\n\nBars ನಿಸತ್ತೊ ९ ನುನೋರ ಪತ್ಯ n-೬೮-೭\n\nಹೋತಾಯುಸ್ಷದ್ವ adc n-n೧೩೯-೧೦\n\nಕೋತಾರ ಂ ABER ೧-೪೪-೭\n\nಗಝೋತಾರಂ ಸಸ್ವ wr, ९ IBS ० ೧-೫೮-೭\n\nso, edd\n\nBaesado ws dAdo ೧೦-೧-೫ 5 8 Wy. ೨-೪-\nak .\nBasso Ty ವ್ಯಣೀನುಹೇ m-20-a9\nಹೋತ್ರಾದೆಹಂ ವರುಣ Wy, wood. 00-श0-४\nಹ್ರದಂ ನ ಹಿ Sa8y Naa, ್ರ್ಮುಯಃ ೧.೫೨-೭\nಹ್ರೆ ದಾ ಇವ ಕುಕ್ಷಯಃ ಸೋನುಧಾನಾಃ ೩-೩೬-೮\nಹ್ಟೈ್ ಯಾ ಮುಸಿ Seow, cdJoro ೬-೪೧-೫ ५ ಶೈ . ಬ್ರಾ\n3-8-8-00\nBord. Bese ಅಯಾತು8 2-9-0\n\nಹ್ವೈ ಯಾಮೃಕ್ನಿ o Paro 4,5, oh¢ 0-9-0\n\nನಕಸೂಯ demmmodes,oe ake ZAgg रूस एस, 1913\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

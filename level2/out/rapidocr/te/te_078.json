@@ -1,0 +1,41 @@
+{
+  "page_id": "te_078",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0078pro_raw.pdf",
+    "page_index": 74,
+    "width": 595.2760009765625,
+    "height": 841.8900146484375
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "a+b_c+d\n() సంయోగ నియమం (Componendo) ఒకవేళ  \nC\nఅయినచో\nఅవుతుంది.\nb\nd\nb\nd\nC\nbd\n1\n +1 =స +1 (ఇరువైపుల 1ని కలుపగా)\nb\na+b_c+d\nb\nd\nఒకవేళ\nC\nSMO\na+\nc+d\nఅవుతుంది. ఈ ధర్మమును 'సంయోగ నియమం' అంటారు.\nb\nd\nb\nd\np−→−q−p\n(IV) వియోగ నియమం (Dividendo) ఒకవేళ\n1\nC\nఅవుతుంది.\nb−d\nb\nd\n1\nC\np_ q\n1\n_−1\n(ఇరువైపుల 1ని తీసివేయగా)\nb\nd\na−b_c−d\nb\nd\na−b_c−d\nC\nఒకవేళ\nSO\nఅవుతుంది. ఈ ధర్మమును వియోగ నియమం' అంటారు.\nb\nb\nd\na+b_c +d\na\nC\n(V) సంయోగ-వియోస నియమం (Componendo–dividendo) ఒకవేళ\nb\nd\na−b =c−d α ≠b,c ≠ d\nఅవుతుంది.\nC\na+b_c +d\n(సంయోగ నియమం (పకారం) ….. (1)\nఒకవేళ\nSOG\np _ q\nb\nd\np−−q−p\n(వియోగ నియమం (ప్రకారం) …..(2)\nb\na+b_c +d\n(1) మరియు (2) లను బట్టి\na−bc−d\na+b_c +d\n1\nC\nఒకవేళ\nSOG\nఅవుతుంది. ఈ ధర్మును ‘సంయోగ–వియోగ నియమం అంటారు.\nb\nd\na−b−c−d\nఒకవేళ\n1\nC\nఅయినచో\na+b_c+d\n(ఒకసారి సంయోగ నియమం (ప్రకారం)\nb\nd\nb\nd\na +2b_ c +2d\n(రెండుసార్లు సంయోగ నియమం (పకారం)\nb\nd\nα + mb _ c + md\n(I) (  o  )\nb\nd\n1\nC\na −mb\nc −md\nఅదే విధంగా ఒకవేళ\nఅయనచో\n(Z) (O) C   u)\nb\nd\nb\nd\nమరియు ఒకవేళ\nC\nఅయనచో\na +mb\nc +md\n..(1) మరియు (2) లను బట్టి భాగించగా)\nd\na−mb\nc−md\n65",
+      "text_nfc": "a+b_c+d\n() సంయోగ నియమం (Componendo) ఒకవేళ  \nC\nఅయినచో\nఅవుతుంది.\nb\nd\nb\nd\nC\nbd\n1\n +1 =స +1 (ఇరువైపుల 1ని కలుపగా)\nb\na+b_c+d\nb\nd\nఒకవేళ\nC\nSMO\na+\nc+d\nఅవుతుంది. ఈ ధర్మమును 'సంయోగ నియమం' అంటారు.\nb\nd\nb\nd\np−→−q−p\n(IV) వియోగ నియమం (Dividendo) ఒకవేళ\n1\nC\nఅవుతుంది.\nb−d\nb\nd\n1\nC\np_ q\n1\n_−1\n(ఇరువైపుల 1ని తీసివేయగా)\nb\nd\na−b_c−d\nb\nd\na−b_c−d\nC\nఒకవేళ\nSO\nఅవుతుంది. ఈ ధర్మమును వియోగ నియమం' అంటారు.\nb\nb\nd\na+b_c +d\na\nC\n(V) సంయోగ-వియోస నియమం (Componendo–dividendo) ఒకవేళ\nb\nd\na−b =c−d α ≠b,c ≠ d\nఅవుతుంది.\nC\na+b_c +d\n(సంయోగ నియమం (పకారం) ….. (1)\nఒకవేళ\nSOG\np _ q\nb\nd\np−−q−p\n(వియోగ నియమం (ప్రకారం) …..(2)\nb\na+b_c +d\n(1) మరియు (2) లను బట్టి\na−bc−d\na+b_c +d\n1\nC\nఒకవేళ\nSOG\nఅవుతుంది. ఈ ధర్మును ‘సంయోగ–వియోగ నియమం అంటారు.\nb\nd\na−b−c−d\nఒకవేళ\n1\nC\nఅయినచో\na+b_c+d\n(ఒకసారి సంయోగ నియమం (ప్రకారం)\nb\nd\nb\nd\na +2b_ c +2d\n(రెండుసార్లు సంయోగ నియమం (పకారం)\nb\nd\nα + mb _ c + md\n(I) (  o  )\nb\nd\n1\nC\na −mb\nc −md\nఅదే విధంగా ఒకవేళ\nఅయనచో\n(Z) (O) C   u)\nb\nd\nb\nd\nమరియు ఒకవేళ\nC\nఅయనచో\na +mb\nc +md\n..(1) మరియు (2) లను బట్టి భాగించగా)\nd\na−mb\nc−md\n65",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

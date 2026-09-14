@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_015",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0015pro_raw.pdf",
+    "page_index": 129,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "114\nfa s\nfara 1\nf 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.8, 1.11, 1.12, 1.13, 1.14,\n1.15, 1.16, 1.20, 1.22, 1.23, 1.26, 1.28, 1.29, fc 1.30 379TT\nFr\nR GdC H TET dE HETcT, Te f\nfa 1.7, 1.9, 1.10, 1.17, 1.18, 1.19, 1.21, 1.24:\n   \nfa 1.27:\ni  d  , Te f\nfara 2\nfa 2.1: 3fh 3 3 3s 31, T5\nfa 2.2, 2.6: RA GTAfdC HdTOT\nfa 2.3, 2.5, 2.10:\nitfh d d  de, Te f\nfa3 2.4, 2.7, 2.9, 2.12, 2.13: RATA HiETCTA, Te faC\nfax 2.8: 115h14f3\nfarr 3\nfa 3.1, 3.10: MR GAd HdTT\nfa3 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9: RATA H்NETCT4, Te facct\nfar 4\nfx 4.1, 4.5, 4.8, 4.9, 4.12, 4.13, 4.14, 4.15, 4.16, 4.17,\n4.18, 4.19, 4.21, 4.22, 4.23, 4.24, 4.25, 4.26, 4.27, 4.29,\n4.31, fa3 4.32 3t 33 377TR FTf \n3TAC  3c s 3, TE\nfax 4.2: 015Cf3\nfax 4.3, 4.11, 4.28, 4.30:\nit d Td T s Te f\nfaN 4.4, 4.6, 4.7, 4.20: TRATA HETCTE, TeT fCC",
+      "text_nfc": "114\nfa s\nfara 1\nf 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.8, 1.11, 1.12, 1.13, 1.14,\n1.15, 1.16, 1.20, 1.22, 1.23, 1.26, 1.28, 1.29, fc 1.30 379TT\nFr\nR GdC H TET dE HETcT, Te f\nfa 1.7, 1.9, 1.10, 1.17, 1.18, 1.19, 1.21, 1.24:\n   \nfa 1.27:\ni  d  , Te f\nfara 2\nfa 2.1: 3fh 3 3 3s 31, T5\nfa 2.2, 2.6: RA GTAfdC HdTOT\nfa 2.3, 2.5, 2.10:\nitfh d d  de, Te f\nfa3 2.4, 2.7, 2.9, 2.12, 2.13: RATA HiETCTA, Te faC\nfax 2.8: 115h14f3\nfarr 3\nfa 3.1, 3.10: MR GAd HdTT\nfa3 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9: RATA H்NETCT4, Te facct\nfar 4\nfx 4.1, 4.5, 4.8, 4.9, 4.12, 4.13, 4.14, 4.15, 4.16, 4.17,\n4.18, 4.19, 4.21, 4.22, 4.23, 4.24, 4.25, 4.26, 4.27, 4.29,\n4.31, fa3 4.32 3t 33 377TR FTf \n3TAC  3c s 3, TE\nfax 4.2: 015Cf3\nfax 4.3, 4.11, 4.28, 4.30:\nit d Td T s Te f\nfaN 4.4, 4.6, 4.7, 4.20: TRATA HETCTE, TeT fCC",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

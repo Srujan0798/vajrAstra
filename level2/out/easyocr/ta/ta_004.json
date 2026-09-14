@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 341,
+    "height": 431
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        341,
+        431
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೨c೯೯L <J ೩L2 ಹ1.n Ciatnlt ಟ 3gt'- 4c ೪ವ 0*.3 J< 1 XTಸld_a E೩ & R.- 1LL1 545೭4ವಯ0L ೭೩  h೮y; . 71 l; 1 94 ಡ*5, h-ಖ1 -:Tx] Su.  ಖ1nrr.ua L~ಖ U [ rc 4ಜ < ಊul su , uೂ-u' - | r 1  484 8ಐ1 ೧4; ು V1l',' Ut-atcas`5a { Sn xalf4 9L LaflP teFsdntnd 4 ಊ5c ಖ -#ನ೬ 49141 ucಐ  c2 ೨z; . ^ೊ & dF; +  cu; LL r-x C'ಫ] 4142 ೨i೭ 9೨೬ t 9un31ss ,8i ~೯ ೭ನ೬ bು*7 f1.3*ಓ4 KCL0 93\"Ty  ೫DIJn\"! erfeec &,T ್ [d `;xli' 31 e1 ಯ191 12, C Lra hlrra ೯೬ Sಹnnir-t hu 1m.s [7 ,T 49 ೩4m A೫ಗ.Ad _1 _೪೦ F Spಫd 4೫*34 n5ri53r ; {S6s 2'-rt ೬5+3 SX  Cu _ಖehl,+i ?83 Sr7 [ <೨;1 ೧೭೫೦ '220or > ಖur ೨& ಖtಖಹmty 1fAಂu' LLL Lru-tu:] Oಊm r--3 0h- ಶ man2ಥಫa Frine  alradu | ನes s r3 'f2Aurು 3,ಖ 11 qn:rn( - 96 Dಖ-k _.e OL<r? LALLVTur ೨ಲ LL2LL. #೮4'ಗ226 IR ' u DUt,c' ೨: CAa\"ಯ C<  L7sr Ki!e' 'alnಬl LVIopo ? fir; a43ಅ ctdl4 -85 oೊ ಡಗnಹ Autc,cs Fr rಸtcu * 0atl u-2 l< 1 L- ೨೨೫ {ಓr - Lmp InYsuಮo-v LVim1 ~Hal; 63 1 36Lr,l +ಐo1ato \"1 ! Uir2nA]h ೧೫೨m೪೯ ೧< T್ iu ಲ 3m೪ LLdd H1drl_: Ln6e-c Ln .e Lanaಖ) euಗ .ia 'Slu ಗ CR- \" ಂ-/)ಯ 5  ಎe4s12*45  ಖ೯f n {uಗ. { ~ 41*143 371 ' 95ಓ ೨o CLr'",
+      "text_nfc": "೨c೯೯L <J ೩L2 ಹ1.n Ciatnlt ಟ 3gt'- 4c ೪ವ 0*.3 J< 1 XTಸld_a E೩ & R.- 1LL1 545೭4ವಯ0L ೭೩  h೮y; . 71 l; 1 94 ಡ*5, h-ಖ1 -:Tx] Su.  ಖ1nrr.ua L~ಖ U [ rc 4ಜ < ಊul su , uೂ-u' - | r 1  484 8ಐ1 ೧4; ು V1l',' Ut-atcas`5a { Sn xalf4 9L LaflP teFsdntnd 4 ಊ5c ಖ -#ನ೬ 49141 ucಐ  c2 ೨z; . ^ೊ & dF; +  cu; LL r-x C'ಫ] 4142 ೨i೭ 9೨೬ t 9un31ss ,8i ~೯ ೭ನ೬ bು*7 f1.3*ಓ4 KCL0 93\"Ty  ೫DIJn\"! erfeec &,T ್ [d `;xli' 31 e1 ಯ191 12, C Lra hlrra ೯೬ Sಹnnir-t hu 1m.s [7 ,T 49 ೩4m A೫ಗ.Ad _1 _೪೦ F Spಫd 4೫*34 n5ri53r ; {S6s 2'-rt ೬5+3 SX  Cu _ಖehl,+i ?83 Sr7 [ <೨;1 ೧೭೫೦ '220or > ಖur ೨& ಖtಖಹmty 1fAಂu' LLL Lru-tu:] Oಊm r--3 0h- ಶ man2ಥಫa Frine  alradu | ನes s r3 'f2Aurು 3,ಖ 11 qn:rn( - 96 Dಖ-k _.e OL<r? LALLVTur ೨ಲ LL2LL. #೮4'ಗ226 IR ' u DUt,c' ೨: CAa\"ಯ C<  L7sr Ki!e' 'alnಬl LVIopo ? fir; a43ಅ ctdl4 -85 oೊ ಡಗnಹ Autc,cs Fr rಸtcu * 0atl u-2 l< 1 L- ೨೨೫ {ಓr - Lmp InYsuಮo-v LVim1 ~Hal; 63 1 36Lr,l +ಐo1ato \"1 ! Uir2nA]h ೧೫೨m೪೯ ೧< T್ iu ಲ 3m೪ LLdd H1drl_: Ln6e-c Ln .e Lanaಖ) euಗ .ia 'Slu ಗ CR- \" ಂ-/)ಯ 5  ಎe4s12*45  ಖ೯f n {uಗ. { ~ 41*143 371 ' 95ಓ ೨o CLr'",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_003",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0003pro_raw.pdf",
+    "page_index": 12,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n13\nH1\n95. dos2s Deoa Hoxdrsad awood aosde d8 100. 208ab 3eat sowode, ea soosne 338\nsehacned ateson ewoaot deet 2EOFOg\noodorrbad ?\n(1) gabrioot doet\n(2) aopaos doety\n(3) deeva daneb\n(4) wopae Hoxdrsad oas 3ey\n96. con dega 2387 Aodarcon, toota enga\neparicot, eud about degad 238a as0a8\neptwohtba Xaeeron saboged axd :\n(1) e2gae ea\n(2) gedoegpr\n(3) seydOr\n(4) apoenr\n97. toota Eegpondod Hesra aedonsodd :\n(1) 2O3F 23edoreb\n(2) 3ozo e3edorieb\n(3) wepaot e3edoreb\n(4) 20900 23edorieb\n98. EcoRI don nodosreba DOFO aoone\nentardoneb :\n(1) 5'- GGATCC-3'\n3'- CCTAGG-5'\n(2) 5'- GAATTC-3'\n3'- CTTAAG -5'\n(3) 5'-GGAACC-3\n3'- CCTTGG - 5'\n(4) 5'- CTTAAG - 3'\n3'- GAATTC - 5'\n99. dend soeonea a0002 Xoojoa aefabs\neaty aa.\nt0o -I\n(a) 3eev\nageveneb\ntoeo -II\n(i) wotie abas\nw#ze\naeevante\nswase\ndeatohd\n(b) edgewader (ii) aeadr 30ad\nabees\n(c) PPyEDOD\n(iii) soodes\nwosdsd wdo0o :\n(1) 30o aowead 1/3 dasy eponaa\nbaddooad euea gportay dead Eag\nporicogde adad.\n(2) 208a Moag-adaghabor adawaaw\neepaoaas aoejadad adoad.\nl-\n(3) 2deade sowea aowoe.\n(4) aoead Ropporias 3dabgag evea gontay\ndead ahotjad eponas engag adad.\n101. Bend socwene doin eanen sodroworbas\ngeonea a000x\naboa.\naas\nxoobod\ncaejaba eaty\ntoeo -I\ntO0o-II\n(a) oaabdes ayd @) Jasdeoato\n(b) aaloesad\n(c) SdOadDAr\n(d) abeedad\n(ii) aprigeaato\n(iii) veciedep\n(iv) bralocger\n(a) (b) (c) (d)\n(1) (iv) (i) (ii) (iii)\n(2) (i) (iii) (ii) (iv)\n(3) (iii) (iv) (i) (ii)\n(4) (ii) (i) (iii) (iv)\n102. oJoe o,0odeeta\nBe380e5nvo\nAdoccigeserbrie abas Adocoacre daboodad\nwanaws, 23071 adoaao ?\n(1) ao@keeaboreb\n(2) wotdoeaode dadoa\n(3) dootrceaoorieb\n(4) me 20ansb\n103. E8 densanee OJJoWOs geoNodddas\nTorode ?\n(1) aedets e03ofa2p0a83\n(2) Ooreabwog\n(3) 23330\n(4) abdrodd\n(d) henocote bad (iv) ApFa 2037 104. 263 eas 2300 200 Dane erba gadodd\ndoedrdasohe\nbosa apexpodeddrente Nosi wajodd :\n(a) (b) (c) (d)\n(1) (iv) (iii) () (ii)\n2) (ii) (iv) () (iii)\n3)\n(iii)\n(iv)\n(iii)\n(iv)\n(1) avod\n(2) Kor\n(3) aod\n(4) adtd",
+      "text_nfc": "KANNADA\n13\nH1\n95. dos2s Deoa Hoxdrsad awood aosde d8 100. 208ab 3eat sowode, ea soosne 338\nsehacned ateson ewoaot deet 2EOFOg\noodorrbad ?\n(1) gabrioot doet\n(2) aopaos doety\n(3) deeva daneb\n(4) wopae Hoxdrsad oas 3ey\n96. con dega 2387 Aodarcon, toota enga\neparicot, eud about degad 238a as0a8\neptwohtba Xaeeron saboged axd :\n(1) e2gae ea\n(2) gedoegpr\n(3) seydOr\n(4) apoenr\n97. toota Eegpondod Hesra aedonsodd :\n(1) 2O3F 23edoreb\n(2) 3ozo e3edorieb\n(3) wepaot e3edoreb\n(4) 20900 23edorieb\n98. EcoRI don nodosreba DOFO aoone\nentardoneb :\n(1) 5'- GGATCC-3'\n3'- CCTAGG-5'\n(2) 5'- GAATTC-3'\n3'- CTTAAG -5'\n(3) 5'-GGAACC-3\n3'- CCTTGG - 5'\n(4) 5'- CTTAAG - 3'\n3'- GAATTC - 5'\n99. dend soeonea a0002 Xoojoa aefabs\neaty aa.\nt0o -I\n(a) 3eev\nageveneb\ntoeo -II\n(i) wotie abas\nw#ze\naeevante\nswase\ndeatohd\n(b) edgewader (ii) aeadr 30ad\nabees\n(c) PPyEDOD\n(iii) soodes\nwosdsd wdo0o :\n(1) 30o aowead 1/3 dasy eponaa\nbaddooad euea gportay dead Eag\nporicogde adad.\n(2) 208a Moag-adaghabor adawaaw\neepaoaas aoejadad adoad.\nl-\n(3) 2deade sowea aowoe.\n(4) aoead Ropporias 3dabgag evea gontay\ndead ahotjad eponas engag adad.\n101. Bend socwene doin eanen sodroworbas\ngeonea a000x\naboa.\naas\nxoobod\ncaejaba eaty\ntoeo -I\ntO0o-II\n(a) oaabdes ayd @) Jasdeoato\n(b) aaloesad\n(c) SdOadDAr\n(d) abeedad\n(ii) aprigeaato\n(iii) veciedep\n(iv) bralocger\n(a) (b) (c) (d)\n(1) (iv) (i) (ii) (iii)\n(2) (i) (iii) (ii) (iv)\n(3) (iii) (iv) (i) (ii)\n(4) (ii) (i) (iii) (iv)\n102. oJoe o,0odeeta\nBe380e5nvo\nAdoccigeserbrie abas Adocoacre daboodad\nwanaws, 23071 adoaao ?\n(1) ao@keeaboreb\n(2) wotdoeaode dadoa\n(3) dootrceaoorieb\n(4) me 20ansb\n103. E8 densanee OJJoWOs geoNodddas\nTorode ?\n(1) aedets e03ofa2p0a83\n(2) Ooreabwog\n(3) 23330\n(4) abdrodd\n(d) henocote bad (iv) ApFa 2037 104. 263 eas 2300 200 Dane erba gadodd\ndoedrdasohe\nbosa apexpodeddrente Nosi wajodd :\n(a) (b) (c) (d)\n(1) (iv) (iii) () (ii)\n2) (ii) (iv) () (iii)\n3)\n(iii)\n(iv)\n(iii)\n(iv)\n(1) avod\n(2) Kor\n(3) aod\n(4) adtd",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

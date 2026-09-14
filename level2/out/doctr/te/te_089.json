@@ -1,0 +1,41 @@
+{
+  "page_id": "te_089",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0005pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "DO - a\nDie\nesnv8\nsoonoc\nNONOwOS\naasas\nJehoganeplesvesrossoeso0\nWebooeds alsosOn ausr Nezdownd\nNg5 asO Joa SDd abn eduo 25\nawéawde eows 000 Swjan \"ababe 6810\"SD\nSye 20oba es Sssawr d0ods 8N200es\nBennds NezO00od. 00s adarain eseyer\nada RWZED 238 Sosd.\nB8200: :\n(i) edos Nordo sa Olons 535a8?\n(A) 80s SOSOE5-arsSO\n(B) SAUWOl\n(C) Onwole\n(D) eawsavegd\n(ii) egos Noroo sa 000 d0ods SJSD) 0388\neoseawd ?\n(A) 3sogasoabes\n(B) a000 S0025 a\n(C) OBOENOOLDNS\n(D) aNanos\n(iii) awgawdes ewJon Sw)aw\n(A) anwoleaw\n(B) Swwdleaw\n(C) sawoarsuoolé\n(D) abobe Wole\n57/S\nPage 15 of 19\n#\nP.T.O.",
+      "text_nfc": "DO - a\nDie\nesnv8\nsoonoc\nNONOwOS\naasas\nJehoganeplesvesrossoeso0\nWebooeds alsosOn ausr Nezdownd\nNg5 asO Joa SDd abn eduo 25\nawéawde eows 000 Swjan \"ababe 6810\"SD\nSye 20oba es Sssawr d0ods 8N200es\nBennds NezO00od. 00s adarain eseyer\nada RWZED 238 Sosd.\nB8200: :\n(i) edos Nordo sa Olons 535a8?\n(A) 80s SOSOE5-arsSO\n(B) SAUWOl\n(C) Onwole\n(D) eawsavegd\n(ii) egos Noroo sa 000 d0ods SJSD) 0388\neoseawd ?\n(A) 3sogasoabes\n(B) a000 S0025 a\n(C) OBOENOOLDNS\n(D) aNanos\n(iii) awgawdes ewJon Sw)aw\n(A) anwoleaw\n(B) Swwdleaw\n(C) sawoarsuoolé\n(D) abobe Wole\n57/S\nPage 15 of 19\n#\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

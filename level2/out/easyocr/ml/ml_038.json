@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_038",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 4,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "5\nGDDo8ॅs38o6@ 0il2lal8 @I@200im @2$@00.. \"lelodo GOJU६3३८ठ @looom @llaloozd soomnड0ilalal coelo Dalलॉoीsi० Ojo / o@Dsp0ठॅ @oतlo@ G@ ID@७Jत l॰ ]eopm @3(00)0630. 26003606 mी६उ३८0   malo2ool क36m8m mJouocकo2oolomठ  ठीली 0600 नo७mठ @loळom तlmo @lomonioloo, Doq२@३ @oojpzmm. @golszon० (198 क2४० Gn0ommीoo QJJo|@@3@l@loo88mIJ८0  ngomठ ०golomछठloo @oloopm @n२lीलp० @80|30I8o 03[00)0 GoDomnठ   २leozolooamleJ! GoqId क2l038600 @oogJel@ठ Bmiolक८ @o@ी@ी0630. @80!0ी@86$ क08010) 2|3@ी3308@|36e1, 2ommी0028= 0262|001080 क0800) Ood82nel6333८0 mीoaooीopmp. @poionॉ 00)600)386)8@)3 G1o0IeaoS bal0i@ीoo @lloalo8oopmponडॅ. तI80%, तildoopoosl@   DJo२loopmीmpo DOBoISloQomjo २oझ!m8 03(00)0. GoGOmDQo, 603त0 @o(0@ीठ QID633ी@ 2omvlo@० Qioळlx mDQo Golo@o0lनoolg: 860$06  (310$206303@)8@_|300, @o @80Iी@6$ 6@lo$leo02]00   8OSommॅ (1OG६3३७$ Qilmnspo   ८or७lxॉ. (1o@D८0 Qilonsio   mUJकooj२zळl 09)600)3068@)3  (31oतIGgDड   Dtolaloeomnडीopmp. ots@lm GQI(० 0202|86]900-\n8@|9$ड1...m0202ी8!...60)36m308 O0DU०@06..\nngmlsउ3om   @oतim mlo@pmO8 80$8.  @ooीm३ \"lकo२z@i   @oतi८0 (06& O0600ठ @l०6o0@ @( 0J(0)०-\n@o GnDo९S२ omठloठ n९८० Gल]@ &ons8कJmmp० '\n@o(08@30 @le10p० oतlo@ (orleopm eonsoe ]२८ठ @n२ioतॉ @IgJJ@@ @ilgoी. 2sत0oom, GODS@@ठॅ 6o७तठ @०६33l@mीmz@ठ nllomतop mUosoilaloqim Goतीलीel. @lO६3 3om, @lelojo २२७० J७८ठ हgonठ allnoळlseles eoolnioleo zmm \nDmpnqjonठ elnio० mopo22zooam Olgoo@८l&o mo88ol& @inक८ठ 630 QIUoOO Qlomla loopemIo८ठ DopQIUoooॉ , 00)63136m6@3606 3208~|8@3000 OalQooDm eonspo llडी॰ elni६3३६@ Blotde lloopmp. Gelze0olonठ डoतi @mील० @luomso3glcele6 028_|302010)3त0 o0imI@0 6008880@)36m. mv2Olo OUDo Gomv2Oolo n0)6m303 oomvmv20ID0|० oimols Omimकu00I60 2nszemी\nWWw malayalamplus com\neBooks 459-thinmakal-23",
+      "text_nfc": "5\nGDDo8ॅs38o6@ 0il2lal8 @I@200im @2$@00.. \"lelodo GOJU६3३८ठ @looom @llaloozd soomnड0ilalal coelo Dalलॉoीsi० Ojo / o@Dsp0ठॅ @oतlo@ G@ ID@७Jत l॰ ]eopm @3(00)0630. 26003606 mी६उ३८0   malo2ool क36m8m mJouocकo2oolomठ  ठीली 0600 नo७mठ @loळom तlmo @lomonioloo, Doq२@३ @oojpzmm. @golszon० (198 क2४० Gn0ommीoo QJJo|@@3@l@loo88mIJ८0  ngomठ ०golomछठloo @oloopm @n२lीलp० @80|30I8o 03[00)0 GoDomnठ   २leozolooamleJ! GoqId क2l038600 @oogJel@ठ Bmiolक८ @o@ी@ी0630. @80!0ी@86$ क08010) 2|3@ी3308@|36e1, 2ommी0028= 0262|001080 क0800) Ood82nel6333८0 mीoaooीopmp. @poionॉ 00)600)386)8@)3 G1o0IeaoS bal0i@ीoo @lloalo8oopmponडॅ. तI80%, तildoopoosl@   DJo२loopmीmpo DOBoISloQomjo २oझ!m8 03(00)0. GoGOmDQo, 603त0 @o(0@ीठ QID633ी@ 2omvlo@० Qioळlx mDQo Golo@o0lनoolg: 860$06  (310$206303@)8@_|300, @o @80Iी@6$ 6@lo$leo02]00   8OSommॅ (1OG६3३७$ Qilmnspo   ८or७lxॉ. (1o@D८0 Qilonsio   mUJकooj२zळl 09)600)3068@)3  (31oतIGgDड   Dtolaloeomnडीopmp. ots@lm GQI(० 0202|86]900-\n8@|9$ड1...m0202ी8!...60)36m308 O0DU०@06..\nngmlsउ3om   @oतim mlo@pmO8 80$8.  @ooीm३ \"lकo२z@i   @oतi८0 (06& O0600ठ @l०6o0@ @( 0J(0)०-\n@o GnDo९S२ omठloठ n९८० Gल]@ &ons8कJmmp० '\n@o(08@30 @le10p० oतlo@ (orleopm eonsoe ]२८ठ @n२ioतॉ @IgJJ@@ @ilgoी. 2sत0oom, GODS@@ठॅ 6o७तठ @०६33l@mीmz@ठ nllomतop mUosoilaloqim Goतीलीel. @lO६3 3om, @lelojo २२७० J७८ठ हgonठ allnoळlseles eoolnioleo zmm \nDmpnqjonठ elnio० mopo22zooam Olgoo@८l&o mo88ol& @inक८ठ 630 QIUoOO Qlomla loopemIo८ठ DopQIUoooॉ , 00)63136m6@3606 3208~|8@3000 OalQooDm eonspo llडी॰ elni६3३६@ Blotde lloopmp. Gelze0olonठ डoतi @mील० @luomso3glcele6 028_|302010)3त0 o0imI@0 6008880@)36m. mv2Olo OUDo Gomv2Oolo n0)6m303 oomvmv20ID0|० oimols Omimकu00I60 2nszemी\nWWw malayalamplus com\neBooks 459-thinmakal-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

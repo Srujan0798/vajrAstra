@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_054",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 48,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ലക്രമകൊണ്ട്ട് കനക്കവുത്തോന്നി\nमानस 0:90०.21 പേണ്ടത്തക്ക ൽാഷങ്ങ്കടുകൂടി त95\nത്തുവ്വാൻ ദിവസും 'तड़ीएडाप्फी 31... സാമന്തരാജാക്കന്മർ, ee\n«90290. മുതലായവരെല്ലം #नएकत०ताएए पिया . ആവരവ\n\nलि. ിഞ്ചിട്ട്നത്തിൽ aimeemare, aide\n230,67 1508 വട്ടങ്ങളെല്ലം aces). caemvamarnegyds EG\n~~ cn 98.010 '@o ഉകാത്തിയുങ്ടാക്കട്ടള്ള ഒരുവലിയ asioad lend\nമസാരാജാവു agyeaman lola. alyeeo eto a!\nSamoageawaganss lebad lane @OWp..9GBIAD0) 21039,\nage . as laanengainn aanctassne lo o}o.23 सम\n21528 തീതങ്ങളളെടുതുത് പുിതന്നമ aacopomoail\nൻവുശിസ്സിൽമുന പ്ലാപ്മയി രഭിേകചെയ്കക\n1 052१2) goanw വട്ടങ്ങളുട ്ോഷവുരള\nOS SIO gga oaooaskaan. ിന്നെ ്്്ീ\n८००५6)2 15 4സ്്ര്ണ്ണളണിഞ്ഞിതന്നും\nി്് പതിച്ചതും o.oo ക്യ്രിയ\nLIND ശത്തിമ്വീപിൽ കൊണ്ടുപോയിസ്പു്ച്ചിര്\n\n०९202: ധരിച്മപരുനനതും १08 ിതിലകെന്നു oon\nമുടിന്നു പേരുള്ളതുമായ dloijelo Sonncinl അസ്ു\nलि SAIODIed Aviennsboonvmmao laa afyanea)\n\n; te 2 GBB 0 GID} ci os 2 दे\nleven, छठ त26- 157 a 1०४45 മുതലാ . ടെസയ്കങ്ങളള്ലാറു\n്പട Dlaoveng ീള്കാപ്ജകടി പട്ട്പ്രടികണം ash\nHola coxa 0808 ്ത്തി, സാർതതരജാക്കുന്നാക്കു\nശൃതപോലെ a1) TLAMIMORZe HAIGOD QIOW\naN gay oi) org )eosrr0 (फट 6060 con\n\n",
+      "text_nfc": "ലക്രമകൊണ്ട്ട് കനക്കവുത്തോന്നി\nमानस 0:90०.21 പേണ്ടത്തക്ക ൽാഷങ്ങ്കടുകൂടി त95\nത്തുവ്വാൻ ദിവസും 'तड़ीएडाप्फी 31... സാമന്തരാജാക്കന്മർ, ee\n«90290. മുതലായവരെല്ലം #नएकत०ताएए पिया . ആവരവ\n\nलि. ിഞ്ചിട്ട്നത്തിൽ aimeemare, aide\n230,67 1508 വട്ടങ്ങളെല്ലം aces). caemvamarnegyds EG\n~~ cn 98.010 '@o ഉകാത്തിയുങ്ടാക്കട്ടള്ള ഒരുവലിയ asioad lend\nമസാരാജാവു agyeaman lola. alyeeo eto a!\nSamoageawaganss lebad lane @OWp..9GBIAD0) 21039,\nage . as laanengainn aanctassne lo o}o.23 सम\n21528 തീതങ്ങളളെടുതുത് പുിതന്നമ aacopomoail\nൻവുശിസ്സിൽമുന പ്ലാപ്മയി രഭിേകചെയ്കക\n1 052१2) goanw വട്ടങ്ങളുട ്ോഷവുരള\nOS SIO gga oaooaskaan. ിന്നെ ്്്ീ\n८००५6)2 15 4സ്്ര്ണ്ണളണിഞ്ഞിതന്നും\nി്് പതിച്ചതും o.oo ക്യ്രിയ\nLIND ശത്തിമ്വീപിൽ കൊണ്ടുപോയിസ്പു്ച്ചിര്\n\n०९202: ധരിച്മപരുനനതും १08 ിതിലകെന്നു oon\nമുടിന്നു പേരുള്ളതുമായ dloijelo Sonncinl അസ്ു\nलि SAIODIed Aviennsboonvmmao laa afyanea)\n\n; te 2 GBB 0 GID} ci os 2 दे\nleven, छठ त26- 157 a 1०४45 മുതലാ . ടെസയ്കങ്ങളള്ലാറു\n്പട Dlaoveng ീള്കാപ്ജകടി പട്ട്പ്രടികണം ash\nHola coxa 0808 ്ത്തി, സാർതതരജാക്കുന്നാക്കു\nശൃതപോലെ a1) TLAMIMORZe HAIGOD QIOW\naN gay oi) org )eosrr0 (फट 6060 con\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

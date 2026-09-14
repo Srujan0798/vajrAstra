@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_065",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0032pro_raw.pdf",
+    "page_index": 335,
+    "width": 1785,
+    "height": 2415
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1785,
+        2415
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "12-9b 0604 Qlur(borlwoo\nIITOD aofujsgi Gocomisonrarinsesib\nGuocomisaumranjesoir\nCODGOTOJT L. GlomiSLITFODiD\nCpmarcasi-suntd.V..adboorbasdo\nCODGOTOJT. .S.. Sutuib@loironar\nBumafluij, 61560T6060T Dcbroiuglae syu\nUPGOTGOTTEÉT 516DD3 560606J, Glur@barfluré) 5160D,\nLDGOTGOTTIGIT Gurmafluj, GILITEDGrfILIé 5160D\nOLGJEDLGLDGOTILOD GTULICGTO, GECT6D6OT\nCMS Esébgro, GETLLWLD, GEJGIIT\nLITTSISTESOT TLODES6DODS alpaib, Bodd\nUILOJOOgIDI UU\nCODGOTE raut.R.GutcormLagr\nCODGOTE rouj.S.Boor TSLITOITOOT\nUOSOTGOTTIET Gurmetfluij, GlLrTEbarfiuiob 516DD, NMSSVN\nGluI@Sarluiéo 5160D3 560606J, LDSITT Bebgurrfl, LDSI6OJ\nasegarf, LTESLD6D60, LD5160J\nUITL Suyis@laenriumani\nJ.Gemjcooroogi\nU5156D6D eyelfloou, SITO Lonesib GioolGoDsDll Lioirerfl, Gacdhe.07-600002\nBITO0 Ooflujsoir\nooocoraut J.amdileoio\n(paeaxaws.K.egmndlawb\nGLurT@ESGrfluléD 5160D3 56D6DGj,\nO60600TL Gurmefluij, GlLIEbarluie) 5160D\nLDGeatrean.oevofluabe awbseonj LéDEsD8Db alpaib, BoobéGeue)\nLD516DJ asmLorgi LéDEeDeDb a1pasib, LD5160J-21\nCpmnoraus.R.ocoutit. aploin@LIUi 5IoiD\nCpaocorass.M.8bum\n260600TL Gummdlfluij, GluITGarlLlD 516DD,\n516D600T Gumafluj, GLITEGrluIGD 5160D\n316LDF15E60T ssoogurfi, LD516DJ\nLD516DJ EmLDgg LI60560608 ssipasib, LD516DJ-21\nCpaocxrcaut-R.ougad)om UITOOI\n@ovcorasj.K.sodlurepijs\n516D600IL Gumatfuij, GLITGarIuIoD 5160D, MSS -6164 GImflus segrf, LD516DJ\nGlur@afluio) 5I6DDS 56D8DGuj, 20 5G0TGULERD asobgarrf, Sbed\n(poocorouf:Sauibol G6LA\nKajjooor Toor\nGLITGerflulé 5l60m3 560606Jj, Loquaruy obgarr, Saéd\nU5156D6D ayorflui, SIJO LDEbarflj GLDODIGDGDL LIGTGrf, BOLT5GDL0, LD516DJ\nGIDIQUGOT SariGSTOJOÔT\nK.@bouoi@ardbaichr\nU5156D6D sydfluj, TVS OLDLflés GLDODBLODGDLL LiGirorf, LD516DJ\nU5156D6D ayorflui, SIJOt 256001E5OT BLDOUBLGOGUL LI6iTGrfl, L6160T61, ELgIT\nB.rodor (EiD\nICT- SGsis@loneuriumant\nU5156060 eydflwj, BLimgedr suowibsl GLDODIIGDGDL LI6iTGrfl, BTEUuLiqGOTLD\nD. QIITOT mTge,\nU5156D6D 85600f13 syofug LoDpIb 5160D 560006j,\nG6. esi. GTLD GLITSIUL LI6iT6rfl, GlaibLluib, 6860T6D6OT.\nGaomglaunugisumemiadir\nUITL aa.ijs-stioaitcarjsoir\nUpopcrasj-R.Syn@ssis-Slrobor,\nCODOoTe rauj.A.ugo@lascor,\n260600TL Bugmafluj, GlumEbarflué) 516DD,\nGugmédflui@guin). 1D.61.51 Oigi sébgrrf, B005606160\naulumi FT.66LJT sobgorf (5GOTGOTIL8), Bada\nauflump F.O6LJI Bébgrf (5SOTGOTTILA), Bued\nUpopcrasi.A.milsusgicoco,\nComoesras@.A.onfluciuch.\nDeDGDOTL Gummetfluij, GluTEbafluié) 516DD, ggLDITD UEDLDgI aoogrfl, oedl\n516D600I DOGLITGOT Gurmetfluij, sebgarrf, GLE6OT6D6OT. GLITEboffuieD 5160D,\n85c0ofloof 5LLési\nM.igan SCERT.\n66000 DDDID QlqOJGOLDULes UU\nEMIS OsmlOILLe EL\nOJIQ LOJGOLDUL\nOmIDI.EBOn\n612 gGean@G.EedTGiv, GEITLITGOLITLO, 6156076060T.\nLDITfleD 856061 GLDGDTTGOOTGDLD Busrisehcpconriument 5560 Osmploiluib, UPEDDEDID,\nIn-House QC\n90m6606001h5 Letrerldasooanl Qubssib.\n61gT1606 6160560T\nOgm S105600T LOI5S 615606J160T,\nLDBOOTITR\nLigemibs\nErd 550160 agGeoreaj, UDGDDGDLD,\n90m6606001h5 Ledtarlds56bon Qub65i0.\ngmGgog STIBLLIGOT\n5. L. abSubgTILIGDOTT,\nSILGOL 611Q 6160LDL\n556160 Gsmplopilu eyGoEsj,\nE5dli ESDIDBLD\n856061 GLDGDITEOTGDLD 55016 UPGDDGDID,\nB0r6l60600rh5 Leitafleasobon gubsasib.\nguyisdeDconumen)\nSbETé 80gl.6r6iv.stib. 6T60145600TL GLoLie0bG5 5rtarfléb sxALiuLGdaTgL\nTCLDGIQ (p6oflamLo\nayudaL (oomulé SIALGLIT:\n330\n12th_Economics-Tamil_Authors.indd 330\n11-01-2023 18:36:10",
+      "text_nfc": "12-9b 0604 Qlur(borlwoo\nIITOD aofujsgi Gocomisonrarinsesib\nGuocomisaumranjesoir\nCODGOTOJT L. GlomiSLITFODiD\nCpmarcasi-suntd.V..adboorbasdo\nCODGOTOJT. .S.. Sutuib@loironar\nBumafluij, 61560T6060T Dcbroiuglae syu\nUPGOTGOTTEÉT 516DD3 560606J, Glur@barfluré) 5160D,\nLDGOTGOTTIGIT Gurmafluj, GILITEDGrfILIé 5160D\nOLGJEDLGLDGOTILOD GTULICGTO, GECT6D6OT\nCMS Esébgro, GETLLWLD, GEJGIIT\nLITTSISTESOT TLODES6DODS alpaib, Bodd\nUILOJOOgIDI UU\nCODGOTE raut.R.GutcormLagr\nCODGOTE rouj.S.Boor TSLITOITOOT\nUOSOTGOTTIET Gurmetfluij, GlLrTEbarfiuiob 516DD, NMSSVN\nGluI@Sarluiéo 5160D3 560606J, LDSITT Bebgurrfl, LDSI6OJ\nasegarf, LTESLD6D60, LD5160J\nUITL Suyis@laenriumani\nJ.Gemjcooroogi\nU5156D6D eyelfloou, SITO Lonesib GioolGoDsDll Lioirerfl, Gacdhe.07-600002\nBITO0 Ooflujsoir\nooocoraut J.amdileoio\n(paeaxaws.K.egmndlawb\nGLurT@ESGrfluléD 5160D3 56D6DGj,\nO60600TL Gurmefluij, GlLIEbarluie) 5160D\nLDGeatrean.oevofluabe awbseonj LéDEsD8Db alpaib, BoobéGeue)\nLD516DJ asmLorgi LéDEeDeDb a1pasib, LD5160J-21\nCpmnoraus.R.ocoutit. aploin@LIUi 5IoiD\nCpaocorass.M.8bum\n260600TL Gummdlfluij, GluITGarlLlD 516DD,\n516D600T Gumafluj, GLITEGrluIGD 5160D\n316LDF15E60T ssoogurfi, LD516DJ\nLD516DJ EmLDgg LI60560608 ssipasib, LD516DJ-21\nCpaocxrcaut-R.ougad)om UITOOI\n@ovcorasj.K.sodlurepijs\n516D600IL Gumatfuij, GLITGarIuIoD 5160D, MSS -6164 GImflus segrf, LD516DJ\nGlur@afluio) 5I6DDS 56D8DGuj, 20 5G0TGULERD asobgarrf, Sbed\n(poocorouf:Sauibol G6LA\nKajjooor Toor\nGLITGerflulé 5l60m3 560606Jj, Loquaruy obgarr, Saéd\nU5156D6D ayorflui, SIJO LDEbarflj GLDODIGDGDL LIGTGrf, BOLT5GDL0, LD516DJ\nGIDIQUGOT SariGSTOJOÔT\nK.@bouoi@ardbaichr\nU5156D6D sydfluj, TVS OLDLflés GLDODBLODGDLL LiGirorf, LD516DJ\nU5156D6D ayorflui, SIJOt 256001E5OT BLDOUBLGOGUL LI6iTGrfl, L6160T61, ELgIT\nB.rodor (EiD\nICT- SGsis@loneuriumant\nU5156060 eydflwj, BLimgedr suowibsl GLDODIIGDGDL LI6iTGrfl, BTEUuLiqGOTLD\nD. QIITOT mTge,\nU5156D6D 85600f13 syofug LoDpIb 5160D 560006j,\nG6. esi. GTLD GLITSIUL LI6iT6rfl, GlaibLluib, 6860T6D6OT.\nGaomglaunugisumemiadir\nUITL aa.ijs-stioaitcarjsoir\nUpopcrasj-R.Syn@ssis-Slrobor,\nCODOoTe rauj.A.ugo@lascor,\n260600TL Bugmafluj, GlumEbarflué) 516DD,\nGugmédflui@guin). 1D.61.51 Oigi sébgrrf, B005606160\naulumi FT.66LJT sobgorf (5GOTGOTIL8), Bada\nauflump F.O6LJI Bébgrf (5SOTGOTTILA), Bued\nUpopcrasi.A.milsusgicoco,\nComoesras@.A.onfluciuch.\nDeDGDOTL Gummetfluij, GluTEbafluié) 516DD, ggLDITD UEDLDgI aoogrfl, oedl\n516D600I DOGLITGOT Gurmetfluij, sebgarrf, GLE6OT6D6OT. GLITEboffuieD 5160D,\n85c0ofloof 5LLési\nM.igan SCERT.\n66000 DDDID QlqOJGOLDULes UU\nEMIS OsmlOILLe EL\nOJIQ LOJGOLDUL\nOmIDI.EBOn\n612 gGean@G.EedTGiv, GEITLITGOLITLO, 6156076060T.\nLDITfleD 856061 GLDGDTTGOOTGDLD Busrisehcpconriument 5560 Osmploiluib, UPEDDEDID,\nIn-House QC\n90m6606001h5 Letrerldasooanl Qubssib.\n61gT1606 6160560T\nOgm S105600T LOI5S 615606J160T,\nLDBOOTITR\nLigemibs\nErd 550160 agGeoreaj, UDGDDGDLD,\n90m6606001h5 Ledtarlds56bon Qub65i0.\ngmGgog STIBLLIGOT\n5. L. abSubgTILIGDOTT,\nSILGOL 611Q 6160LDL\n556160 Gsmplopilu eyGoEsj,\nE5dli ESDIDBLD\n856061 GLDGDITEOTGDLD 55016 UPGDDGDID,\nB0r6l60600rh5 Leitafleasobon gubsasib.\nguyisdeDconumen)\nSbETé 80gl.6r6iv.stib. 6T60145600TL GLoLie0bG5 5rtarfléb sxALiuLGdaTgL\nTCLDGIQ (p6oflamLo\nayudaL (oomulé SIALGLIT:\n330\n12th_Economics-Tamil_Authors.indd 330\n11-01-2023 18:36:10",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

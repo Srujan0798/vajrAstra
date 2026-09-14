@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_096",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ\nಗಣಿತ\nಹತ್ತನೆಯ ತರಗತಿ\nಭಾಗ - ೧\nರಾಷ್ಟ್ರೀಯ ಶೈಕ್ಷಣಿಕ ಸಂಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಸಂಸ್ಥೆ ಶ್ರೀ ಅರಬಂದೋ ಮಾರ್ಗ ನವದೆಹಲ 110016\nಕರ್ನಾಟಕ ಪಠ್ಯಮನ್ತಕ ಸಂಘ (ಲ)\n6ನೇ ಅಡ್ಡರಸ್ತೆ, ಮಲ್ಲೇಶ್ವರಂ\nಬೆಂಗಳೂರು-560 003.",
+      "text_nfc": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ\nಗಣಿತ\nಹತ್ತನೆಯ ತರಗತಿ\nಭಾಗ - ೧\nರಾಷ್ಟ್ರೀಯ ಶೈಕ್ಷಣಿಕ ಸಂಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಸಂಸ್ಥೆ ಶ್ರೀ ಅರಬಂದೋ ಮಾರ್ಗ ನವದೆಹಲ 110016\nಕರ್ನಾಟಕ ಪಠ್ಯಮನ್ತಕ ಸಂಘ (ಲ)\n6ನೇ ಅಡ್ಡರಸ್ತೆ, ಮಲ್ಲೇಶ್ವರಂ\nಬೆಂಗಳೂರು-560 003.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

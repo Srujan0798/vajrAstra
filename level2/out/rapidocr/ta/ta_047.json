@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 595.3200073242188,
+    "height": 841.9199829101562
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "10\n11\n12-\n13\n14-\n8\n15-\n16\n17\n6\n18\n19\n20\n5\n3\n4\n2\nEfi\n(s C dT,  aS   T, G 128)\nfdxqRaR :\nTHE PEOPLE'S\n1.\n(Wind Pipe)\n2.\n(Gullet/Food Pipe)\n3.\n(Larynx)\nUNIVERSITY\n4.\n(Vocal Cord)\n5.\n(Glottis)\n6.\n(Epiglottis)\n7.\n(Pharynx)\n8.\n(Uvula)\n9.\n(Nasal Cavity)\n10.c 1\n(Soft Palate)\n11. Fer\n(Cerebrum)\n12.C \n(Hard Palate)\n13. rf\n(Alveolus)\n14.\n(Teeth)\n15.3\n(Lips)\n16. fuET Ch\n(Tip of the Tongue)\n65",
+      "text_nfc": "10\n11\n12-\n13\n14-\n8\n15-\n16\n17\n6\n18\n19\n20\n5\n3\n4\n2\nEfi\n(s C dT,  aS   T, G 128)\nfdxqRaR :\nTHE PEOPLE'S\n1.\n(Wind Pipe)\n2.\n(Gullet/Food Pipe)\n3.\n(Larynx)\nUNIVERSITY\n4.\n(Vocal Cord)\n5.\n(Glottis)\n6.\n(Epiglottis)\n7.\n(Pharynx)\n8.\n(Uvula)\n9.\n(Nasal Cavity)\n10.c 1\n(Soft Palate)\n11. Fer\n(Cerebrum)\n12.C \n(Hard Palate)\n13. rf\n(Alveolus)\n14.\n(Teeth)\n15.3\n(Lips)\n16. fuET Ch\n(Tip of the Tongue)\n65",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

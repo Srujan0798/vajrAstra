@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_043",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 7,
+    "width": 1230,
+    "height": 2003
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1230,
+        2003
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "9J. Gammoi 4613\n2. Garmmious 05105\nQ. ( GammmoL off\nF. goarou 460r3\n3.\nEmluaimg Osus.\n(srena/Gugiib epermi DLQU)\n(3)\n(i) U1551GT (usmuusioThGa)\n9. LLUUITGT\n9. u453i\nQ.L4\nF. uqGud\n(ii) QOUIWGT (5muyu QuwOgasu LGU5LT6G5)\n9-5aa GOLIWGT\n9.94\" OOLIWGT\nQ.GWBW OOLIWOT\nF. u455 GOLIWGT\n(iii) 656f (9GJ Ourat 501 Oaia 6T(0515)\n9.FITOA\n9.DGOG\nQ.80n\nFF. oi GoormI\n(iv) BTO(OLU Guwi UGU5IT6GS)\n9. BITLOT\n2.! BITLIGGITGT\nO-1 BILO65IJGT\nF. BITLITGT\n(V) us (3058 OETOaTOGs)\n9. ROITODOT\n9. MGITODOT\nQ. Oummi\n2.\n4. Qwasos 5puy 505. (eypermi DLOI)\n(3)\n(i) 9/1155IGT\n- 71 1",
+      "text_nfc": "9J. Gammoi 4613\n2. Garmmious 05105\nQ. ( GammmoL off\nF. goarou 460r3\n3.\nEmluaimg Osus.\n(srena/Gugiib epermi DLQU)\n(3)\n(i) U1551GT (usmuusioThGa)\n9. LLUUITGT\n9. u453i\nQ.L4\nF. uqGud\n(ii) QOUIWGT (5muyu QuwOgasu LGU5LT6G5)\n9-5aa GOLIWGT\n9.94\" OOLIWGT\nQ.GWBW OOLIWOT\nF. u455 GOLIWGT\n(iii) 656f (9GJ Ourat 501 Oaia 6T(0515)\n9.FITOA\n9.DGOG\nQ.80n\nFF. oi GoormI\n(iv) BTO(OLU Guwi UGU5IT6GS)\n9. BITLOT\n2.! BITLIGGITGT\nO-1 BILO65IJGT\nF. BITLITGT\n(V) us (3058 OETOaTOGs)\n9. ROITODOT\n9. MGITODOT\nQ. Oummi\n2.\n4. Qwasos 5puy 505. (eypermi DLOI)\n(3)\n(i) 9/1155IGT\n- 71 1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

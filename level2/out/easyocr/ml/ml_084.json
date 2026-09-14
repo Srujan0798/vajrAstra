@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_084",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 11,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8\n(1)\n9363 (43@0 ५Doo13lom 082l00m (0_00(0)8(400600 oonolemosJom @zo0Djom |Sp0oीलीoldojmo ? (4) olojoplonos comni3G@ozड (3) Ojnooloo mीmॅ @ooq Sam ozplom somiellemzs (0) QI3U m[0ीक2)6S 206)60@]283 &02]e18m3$ (D) o2[03o@ molooo comi3eozड (ii ) ५J०3 @ID00 ५D633lom भ039l00 @gno3ळlopmp ? (4) O४n%;om (B) 0630604$ (0) Oomodo9p0ठॉ DOoomS (1) OLlonड (lnloz2no 6)ड1m288|00 6(42| Obolonडoolo (0(016)000 6)S!0-|00006n1ड moक Oa0ooloo @o0Jकmmॅ ? (A) oकi 80zm0o8तm80 (B) Djoogloz@ Goo0001 80|3|600 (D) 6)6)3(40 (ii) @Jo9 qo@jm0ळloo @oepolom %,0ी ng (A) nomlco Dommoles (B) min3loogm GlomunlDoSo (0) @loSm @lcozai (D) Dommo3o (1) @J५eozsol@)॰ @ le JsQlo 0m30I0]80]0D0@)603@ 800)66))0 omloldojm piologloo @ losoJojm m|00=!02006$ 08m3@)(_|0 ramo (4) 63061) mU8OOrIB0oDSjo 2almzs तbom )0G010)S)22238 @lo80I000|p० 3loबl2om0o (3) moslsoq ]S४ DीDonsloldoim m38s)ड1 तbomboJolलleljo mIomlogoolelDpee @Og3OBOI3m (C) mzo0l&080)S)0 m-0ln110)03010)$)0283 31o0!e8260) (D) 6326m0008(006_|631382)$)0 m]30m40!800)$,0 L0D0 m02662)$]0 288 ^-8360 mloooo 28m3@20|0. 1२\n(h)\n(1)\n1२",
+      "text_nfc": "8\n(1)\n9363 (43@0 ५Doo13lom 082l00m (0_00(0)8(400600 oonolemosJom @zo0Djom |Sp0oीलीoldojmo ? (4) olojoplonos comni3G@ozड (3) Ojnooloo mीmॅ @ooq Sam ozplom somiellemzs (0) QI3U m[0ीक2)6S 206)60@]283 &02]e18m3$ (D) o2[03o@ molooo comi3eozड (ii ) ५J०3 @ID00 ५D633lom भ039l00 @gno3ळlopmp ? (4) O४n%;om (B) 0630604$ (0) Oomodo9p0ठॉ DOoomS (1) OLlonड (lnloz2no 6)ड1m288|00 6(42| Obolonडoolo (0(016)000 6)S!0-|00006n1ड moक Oa0ooloo @o0Jकmmॅ ? (A) oकi 80zm0o8तm80 (B) Djoogloz@ Goo0001 80|3|600 (D) 6)6)3(40 (ii) @Jo9 qo@jm0ळloo @oepolom %,0ी ng (A) nomlco Dommoles (B) min3loogm GlomunlDoSo (0) @loSm @lcozai (D) Dommo3o (1) @J५eozsol@)॰ @ le JsQlo 0m30I0]80]0D0@)603@ 800)66))0 omloldojm piologloo @ losoJojm m|00=!02006$ 08m3@)(_|0 ramo (4) 63061) mU8OOrIB0oDSjo 2almzs तbom )0G010)S)22238 @lo80I000|p० 3loबl2om0o (3) moslsoq ]S४ DीDonsloldoim m38s)ड1 तbomboJolलleljo mIomlogoolelDpee @Og3OBOI3m (C) mzo0l&080)S)0 m-0ln110)03010)$)0283 31o0!e8260) (D) 6326m0008(006_|631382)$)0 m]30m40!800)$,0 L0D0 m02662)$]0 288 ^-8360 mloooo 28m3@20|0. 1२\n(h)\n(1)\n1२",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

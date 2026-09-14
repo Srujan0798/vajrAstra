@@ -1,0 +1,41 @@
+{
+  "page_id": "te_030",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0030pro_raw.pdf",
+    "page_index": 91,
+    "width": 1652,
+    "height": 2276
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2276
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "38\n3\n39\n40\nHand\nName\nof\nthe\nwashing\nsteps\nnational\nanimal\n35\n33\n3\n3\n30\nFive\nRhyming\nmusical\ninstruments\nword\nfor\nWord\nwith\nnest\nsound\nee'\n2\n25\n26\n28\n29\nWord\nstarts\nwith\n'br'\n23\n21\n20\n19\n18\nWord\nstarts\nwith\n'cl'\n(12\n13\n15\n16\n17\nWords\nwith\n5 letter\nDays\nof\n00'\nsound\nwords\nthe\nweek\n11\n10\n8\n7\n6\nWords\nend\n2 letter\nwith\nt\nsound\nwords\n1\n3\nn\nStart\nWord starts\n3\nletter\nwith\n\nwords\nMAHARASHTRA STATE BUREAU OF\ni\nTEXTBOOK PRODUCTION AND\nRHO\nt te(2\nCURRICULUM RESEARCH, PUNE.\n.!!!\nSamagra Shiksha\nHe $ goh s\n(For free distribution)",
+      "text_nfc": "38\n3\n39\n40\nHand\nName\nof\nthe\nwashing\nsteps\nnational\nanimal\n35\n33\n3\n3\n30\nFive\nRhyming\nmusical\ninstruments\nword\nfor\nWord\nwith\nnest\nsound\nee'\n2\n25\n26\n28\n29\nWord\nstarts\nwith\n'br'\n23\n21\n20\n19\n18\nWord\nstarts\nwith\n'cl'\n(12\n13\n15\n16\n17\nWords\nwith\n5 letter\nDays\nof\n00'\nsound\nwords\nthe\nweek\n11\n10\n8\n7\n6\nWords\nend\n2 letter\nwith\nt\nsound\nwords\n1\n3\nn\nStart\nWord starts\n3\nletter\nwith\n\nwords\nMAHARASHTRA STATE BUREAU OF\ni\nTEXTBOOK PRODUCTION AND\nRHO\nt te(2\nCURRICULUM RESEARCH, PUNE.\n.!!!\nSamagra Shiksha\nHe $ goh s\n(For free distribution)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

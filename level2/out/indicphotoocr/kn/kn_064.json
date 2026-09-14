@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_064",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0025pro_raw.pdf",
+    "page_index": 87,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ತಡೆಗಟ್ಟುವ ಕ್ರಮಗಳು\nಧೂಮಪಾನದಿ೦ದ ಮದ್ಯಪಾನದಿ೦ದ ಒತ್ತಡವನ್ನು ಕಡಿಮೆ 46 ಅನಾರೋಗ್ಯಕರ ಆಹಾರವನ್ನು\nದೂರವಿರುವುದು ದೂರವಿರುವುದು ಮಾಡುವುದು ಕಡಿಮೆ ಮಾಡುವುದು\n85\nಸಕ್ಕರೆ ಮತ್ತು ಸಕ್ಕರೆ ಪದಾರ್ಥಗಳ ತೂಕ ಕಡಿಮೆ ಕೆಲಸ ವ್ಯಾಯಾಮ ಮತು ಆರೋಗ್ಯಕರ\nಸೇವನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುವುದು   ಮಾಡುವುದು ಆಹಾರ\n30 ವರ್ಷಗಳ ನ೦ತರ 30 ವರ್ಷಗಳ ನ೦ತರ ನಿಯಮಿತ\nನಿಯಮಿತ ರಕ್ತದೊತ್ತಡ ಪರೀಕ್ಷೆ ಸಕ್ಕರೆ ಪ್ರಮಾಣ ಪರೀಕ್ಷೆ\n80",
+      "text_nfc": "ತಡೆಗಟ್ಟುವ ಕ್ರಮಗಳು\nಧೂಮಪಾನದಿ೦ದ ಮದ್ಯಪಾನದಿ೦ದ ಒತ್ತಡವನ್ನು ಕಡಿಮೆ 46 ಅನಾರೋಗ್ಯಕರ ಆಹಾರವನ್ನು\nದೂರವಿರುವುದು ದೂರವಿರುವುದು ಮಾಡುವುದು ಕಡಿಮೆ ಮಾಡುವುದು\n85\nಸಕ್ಕರೆ ಮತ್ತು ಸಕ್ಕರೆ ಪದಾರ್ಥಗಳ ತೂಕ ಕಡಿಮೆ ಕೆಲಸ ವ್ಯಾಯಾಮ ಮತು ಆರೋಗ್ಯಕರ\nಸೇವನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುವುದು   ಮಾಡುವುದು ಆಹಾರ\n30 ವರ್ಷಗಳ ನ೦ತರ 30 ವರ್ಷಗಳ ನ೦ತರ ನಿಯಮಿತ\nನಿಯಮಿತ ರಕ್ತದೊತ್ತಡ ಪರೀಕ್ಷೆ ಸಕ್ಕರೆ ಪ್ರಮಾಣ ಪರೀಕ್ಷೆ\n80",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_021",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+    "page_index": 0,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ\n\nCSO\n\nಹತ್ತನೇ ತರಗತಿ\n\neats - 2\n\nfama 5 मृतमइनुते\n\nएनसी हैँ आर टी\nNCERT\n\nರಾಷ್ಟ್ರೀಯ Bede ಸಂಶೋಧನೆ ws ತರಬೇತಿ ಸಂಸ್ಥೆ\nಶ್ರೀ ಅರಬಿಂದೋ ಮಾರ್ಗ ನವದೆಹಲಿ 10016\n\nಕರ್ನಾಟಕ ಪಠ್ಯಪುಸ್ತಕ tow (ರಿ.)\n6ನೇ ಅಡ್ಚರಸ್ತೆ, ಮಲ್ಲೇಶ್ವರಂ, ಬೆಂಗಳೂರು - 560003\n\n",
+      "text_nfc": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ\n\nCSO\n\nಹತ್ತನೇ ತರಗತಿ\n\neats - 2\n\nfama 5 मृतमइनुते\n\nएनसी हैँ आर टी\nNCERT\n\nರಾಷ್ಟ್ರೀಯ Bede ಸಂಶೋಧನೆ ws ತರಬೇತಿ ಸಂಸ್ಥೆ\nಶ್ರೀ ಅರಬಿಂದೋ ಮಾರ್ಗ ನವದೆಹಲಿ 10016\n\nಕರ್ನಾಟಕ ಪಠ್ಯಪುಸ್ತಕ tow (ರಿ.)\n6ನೇ ಅಡ್ಚರಸ್ತೆ, ಮಲ್ಲೇಶ್ವರಂ, ಬೆಂಗಳೂರು - 560003\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

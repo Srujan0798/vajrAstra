@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_071",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0032pro_raw.pdf",
+    "page_index": 20,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.\nW82) cresot\n0\nwoasedo esez ppownnea esgorodes, ewnee boa amo azo Nodocauto ensao\ncacy dow asan godwoh Roodetd eaD3d. eog gowsnee asDao woa. aoay\noooado awwoton dewdooton, Napos avoooado BOTEOROOT, asooodde Naopss\ndocooawon azo edo of woas Jaori 3900007 Noay CDEDBORIJEOCD. sewoas\nWaaworbat Tot. edodF savon odoe Saohd wodes. asDa sefeae - ea\nw00 Todes - wrioe No00e QOW Todes.\n232353:\n- nere airs ?\nsay ecoesined\na82\ndeni\n5OrdAd0003d?\n(enwoadron, \"abodo do 2un 1o82 aoxwde.\")\nSay deadg a82) den 0008A609030? (eNwoodrn\ndedbdwa, atoten enadwa, GAweOooa.)\nsas sowgtabe a82 den 0OE3A000030? evwoodron,\narandoajao, 2600830790 gonatn00aas.\nBER docess Jrode Beon 80305 ROaETOR tes gagobnen w8008.\na8aa dewe a00 gowsave, woa Rodes. eas Jani\n05003, NOEN, Nooad atabes, aoonodes oone aoca\nBorstogeo adoooddo aeooneaa WOOo deebat.\nDay doces orodo eoa aoos 2333801 w0008. aowd aode, \"NS 2jowe\naeat\" woao 28000. aoos denso, deay Jowas wnd axdnen w0008:\nAebogd, 20080a0, ayocato, eey egaod, Be800, Tocao Towoonso, 0se0.\naood toota adees, \"soas 0830300Won eao son wen Tooab avotoood\"\nwoas Wo000.00000ro7, ewo NOR dega beebsod, soaDs 3gdoebgod, Nos\nDewzod, Jon a82 aoware 2_0\newtos Detosod.\necocesa\nasoa:\nQWOOFRE\narave wo0 aenada, 2aan,\na82 aeebad:\nDaotopcendep a82) Bo0\n-\nxnaes\nnas doa.\naa esooa aodwdes Eneot\nNooab gee.\n238308367900 aoas oozoo aee.\n2jowe wd0w8.\nwodtgay, QODOFRED eanen 30X0\nEv8 Nooad aoawawa\n13",
+      "text_nfc": "3.1.\nW82) cresot\n0\nwoasedo esez ppownnea esgorodes, ewnee boa amo azo Nodocauto ensao\ncacy dow asan godwoh Roodetd eaD3d. eog gowsnee asDao woa. aoay\noooado awwoton dewdooton, Napos avoooado BOTEOROOT, asooodde Naopss\ndocooawon azo edo of woas Jaori 3900007 Noay CDEDBORIJEOCD. sewoas\nWaaworbat Tot. edodF savon odoe Saohd wodes. asDa sefeae - ea\nw00 Todes - wrioe No00e QOW Todes.\n232353:\n- nere airs ?\nsay ecoesined\na82\ndeni\n5OrdAd0003d?\n(enwoadron, \"abodo do 2un 1o82 aoxwde.\")\nSay deadg a82) den 0008A609030? (eNwoodrn\ndedbdwa, atoten enadwa, GAweOooa.)\nsas sowgtabe a82 den 0OE3A000030? evwoodron,\narandoajao, 2600830790 gonatn00aas.\nBER docess Jrode Beon 80305 ROaETOR tes gagobnen w8008.\na8aa dewe a00 gowsave, woa Rodes. eas Jani\n05003, NOEN, Nooad atabes, aoonodes oone aoca\nBorstogeo adoooddo aeooneaa WOOo deebat.\nDay doces orodo eoa aoos 2333801 w0008. aowd aode, \"NS 2jowe\naeat\" woao 28000. aoos denso, deay Jowas wnd axdnen w0008:\nAebogd, 20080a0, ayocato, eey egaod, Be800, Tocao Towoonso, 0se0.\naood toota adees, \"soas 0830300Won eao son wen Tooab avotoood\"\nwoas Wo000.00000ro7, ewo NOR dega beebsod, soaDs 3gdoebgod, Nos\nDewzod, Jon a82 aoware 2_0\newtos Detosod.\necocesa\nasoa:\nQWOOFRE\narave wo0 aenada, 2aan,\na82 aeebad:\nDaotopcendep a82) Bo0\n-\nxnaes\nnas doa.\naa esooa aodwdes Eneot\nNooab gee.\n238308367900 aoas oozoo aee.\n2jowe wd0w8.\nwodtgay, QODOFRED eanen 30X0\nEv8 Nooad aoawawa\n13",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

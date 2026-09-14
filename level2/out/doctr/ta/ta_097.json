@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_097",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 90,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6.2.4.1 break 86.DmI\nbreak E0_mp 9605 R.ditoné-QutoLéms 6L6 6lo16rfume Olmiemsl BToloot E5LGULITLITGT5\nLOLSE60T OL0UGS6G 6l016fl0 Obsgi 50_m9155 umielmg1\nBluib56Doorulloor LDBLL 500 GToOTII GITLD 6160J while 91600051 for LDLEG OBILL6L(6655L6,\n2b60TI60, break 50_moomu LILLGOTLG5S ELGULITLOOL LOLE56055 G1L6 Bmes 6l016rfBume Olaingpiquib.\nbreak 5o_mp Boop@aupmoubib BLITg1, BITGOGÔT 5L6U LITLGLIMTOI, LDL66055 GAL6 6l016rf1um, LOLEG\nSOLDULAGOT Ops65 916551 2_61T6T Gm (L60m UGBulo O0b5I Burs O5ILIIEL.\nbreak L160T60T6DIT60T LOLE5860T 26TTCB6T B015m, break 50_mp LDl5 214MD15 (Inner most)\n916DLD516TOT LDL5605 GALO 6lolorfl@umb,\n65MLfu:\nbreak\nEnter loop\nfalse\nCondition\ntrue\nbreak?\nyes\nExit loop\nno\nRemaining body ofloop\nLILID 6.7 break da.Dpl6TO-LI6DLITG\nfor LOLEG LompLo while LOLEDEGOl6IT break 5o_mmoor OFLIGULITG E6L GsarGdsiul_GoTamsL\nfor var in sequence:\nif condition:\nbreak\n#code inside for loop\n#code outside for loop\nwhile test expression:\n#code inside while loop\nif condition:\nbreak\n#code inside while loop\n#code outside while loop\n85\nELGULITLG 6LLODLDULJE5OIT\n12th Computer Science_TM Chapter 6.indd 85\n11-01-2023 12:38:17",
+      "text_nfc": "6.2.4.1 break 86.DmI\nbreak E0_mp 9605 R.ditoné-QutoLéms 6L6 6lo16rfume Olmiemsl BToloot E5LGULITLITGT5\nLOLSE60T OL0UGS6G 6l016fl0 Obsgi 50_m9155 umielmg1\nBluib56Doorulloor LDBLL 500 GToOTII GITLD 6160J while 91600051 for LDLEG OBILL6L(6655L6,\n2b60TI60, break 50_moomu LILLGOTLG5S ELGULITLOOL LOLE56055 G1L6 Bmes 6l016rfBume Olaingpiquib.\nbreak 5o_mp Boop@aupmoubib BLITg1, BITGOGÔT 5L6U LITLGLIMTOI, LDL66055 GAL6 6l016rf1um, LOLEG\nSOLDULAGOT Ops65 916551 2_61T6T Gm (L60m UGBulo O0b5I Burs O5ILIIEL.\nbreak L160T60T6DIT60T LOLE5860T 26TTCB6T B015m, break 50_mp LDl5 214MD15 (Inner most)\n916DLD516TOT LDL5605 GALO 6lolorfl@umb,\n65MLfu:\nbreak\nEnter loop\nfalse\nCondition\ntrue\nbreak?\nyes\nExit loop\nno\nRemaining body ofloop\nLILID 6.7 break da.Dpl6TO-LI6DLITG\nfor LOLEG LompLo while LOLEDEGOl6IT break 5o_mmoor OFLIGULITG E6L GsarGdsiul_GoTamsL\nfor var in sequence:\nif condition:\nbreak\n#code inside for loop\n#code outside for loop\nwhile test expression:\n#code inside while loop\nif condition:\nbreak\n#code inside while loop\n#code outside while loop\n85\nELGULITLG 6LLODLDULJE5OIT\n12th Computer Science_TM Chapter 6.indd 85\n11-01-2023 12:38:17",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

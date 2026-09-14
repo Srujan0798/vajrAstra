@@ -1,0 +1,41 @@
+{
+  "page_id": "te_055",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0055pro_raw.pdf",
+    "page_index": 171,
+    "width": 1658,
+    "height": 2243
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2243
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\nT\n+\n1\nమహారాష్ట్ర\nరాష్ట్ర\nపాఠ్య\n; పుస్తక ిర్మితి మరియు పాఠ్య ప్రణాళిక పరిశోధన సంస్థ, పుణె\nH\nశరి\nT\nHET\n(d\n$T\nH182H)\n₹ 105.00",
+      "text_nfc": "\nT\n+\n1\nమహారాష్ట్ర\nరాష్ట్ర\nపాఠ్య\n; పుస్తక ిర్మితి మరియు పాఠ్య ప్రణాళిక పరిశోధన సంస్థ, పుణె\nH\nశరి\nT\nHET\n(d\n$T\nH182H)\n₹ 105.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

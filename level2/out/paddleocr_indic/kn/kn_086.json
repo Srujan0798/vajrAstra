@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_086",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0006pro_raw.pdf",
+    "page_index": 2,
+    "width": 1899,
+    "height": 1268
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1899,
+        1268
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3ಣ೮p cಇ9 5೦gೀ:#c 18ೀc೯ #೯c09೯cಇ 9೯2 4ೀ geಇcಇ 5 2 0009-7-90 9೦cೀc ll\nc9೫ಇೀಜಣ'7 'c7೦c೯೪50೫ೀ cೀ೫c೯೪ೀ52 1೫೫೫0೯೦೫ ೫೫2 20೫c೯cಜ, ೫ಇೀಇ೯೦:೯ c0೯\n9 6:9gc 50ಇc 20ggecc ya1ಣg oೀ0 c2ec೯ 4ಣc9ve cಇ0m c9ಣcಣpc:g gu58 l?\n\n\n\nಗ\nI\nI\nI\nಗ\n\nI6ೀ9೯x 5g 5:G0ಞ09 r c0೯0cx 209p0ಇ07 ಣc9ಟ y610 cp9:gc 5\n#೫cgcgg cgom ಇ0ಣe?\n'9ೀ ೧೬ -ಇ೯ ೫5೯\nIcsu500 tI : 1o:c, y:ggc a-yecc.\n'c5ೀgcಇc೯9ೀಇ೮ ೫'ಜ೧cೀ೯ ೫೫೦೯ ೯\nIcsu20ಟ tt :le9೯'ec 5-yeric?\n'9c೯೯೯ 2g c೫0cy0೫ಟ\nYnuhle.\nI\nೀೀ೫-\n24c೫ #72 ಇc9ಟ ೧ೀೀ೯ 2ಟc9೮x ಇ cಇ೯c\n+ sy :i acmccc5- geಣce + gsy 'G\n೯68೬\n9:9ಇ 22 a೦೦9೯೯ೀ7 96157 ೫u5೯ 2 A\n೫ೀ೯೫ೀ೯ \n'99೯ಇ ೫ಇ ೫35ccಇy ೫69೫೯ 4U52 ೯\nಇ0x೯ 'gcgc09 ೯ಇc c959gg gu5: 'T?\nಆಇಣ೯\n-Be230c 1: ೀ೧ 1 cc೯gcಇ '0\n೯93ಇ೯\nಛ ycಇ\n2cಇgc೯ y6cಇ a7ಇ ಇccಣy\n೧\n೫೯೫೯್\n೯9ೀY 4h೫ rg '0\nCgoಜೀಣ\n೯೧೫\n೯೯\nಇ೩ಇ೫1೦\n೫೧೫೫೯\nಇcಇ೦ccp\nಟಣೀ೯\n೦ಲಇco\n4ccy\n'೮gccg?\n೯೦ಇ\nಗ\n",
+      "text_nfc": "3ಣ೮p cಇ9 5೦gೀ:#c 18ೀc೯ #೯c09೯cಇ 9೯2 4ೀ geಇcಇ 5 2 0009-7-90 9೦cೀc ll\nc9೫ಇೀಜಣ'7 'c7೦c೯೪50೫ೀ cೀ೫c೯೪ೀ52 1೫೫೫0೯೦೫ ೫೫2 20೫c೯cಜ, ೫ಇೀಇ೯೦:೯ c0೯\n9 6:9gc 50ಇc 20ggecc ya1ಣg oೀ0 c2ec೯ 4ಣc9ve cಇ0m c9ಣcಣpc:g gu58 l?\n\n\n\nಗ\nI\nI\nI\nಗ\n\nI6ೀ9೯x 5g 5:G0ಞ09 r c0೯0cx 209p0ಇ07 ಣc9ಟ y610 cp9:gc 5\n#೫cgcgg cgom ಇ0ಣe?\n'9ೀ ೧೬ -ಇ೯ ೫5೯\nIcsu500 tI : 1o:c, y:ggc a-yecc.\n'c5ೀgcಇc೯9ೀಇ೮ ೫'ಜ೧cೀ೯ ೫೫೦೯ ೯\nIcsu20ಟ tt :le9೯'ec 5-yeric?\n'9c೯೯೯ 2g c೫0cy0೫ಟ\nYnuhle.\nI\nೀೀ೫-\n24c೫ #72 ಇc9ಟ ೧ೀೀ೯ 2ಟc9೮x ಇ cಇ೯c\n+ sy :i acmccc5- geಣce + gsy 'G\n೯68೬\n9:9ಇ 22 a೦೦9೯೯ೀ7 96157 ೫u5೯ 2 A\n೫ೀ೯೫ೀ೯ \n'99೯ಇ ೫ಇ ೫35ccಇy ೫69೫೯ 4U52 ೯\nಇ0x೯ 'gcgc09 ೯ಇc c959gg gu5: 'T?\nಆಇಣ೯\n-Be230c 1: ೀ೧ 1 cc೯gcಇ '0\n೯93ಇ೯\nಛ ycಇ\n2cಇgc೯ y6cಇ a7ಇ ಇccಣy\n೧\n೫೯೫೯್\n೯9ೀY 4h೫ rg '0\nCgoಜೀಣ\n೯೧೫\n೯೯\nಇ೩ಇ೫1೦\n೫೧೫೫೯\nಇcಇ೦ccp\nಟಣೀ೯\n೦ಲಇco\n4ccy\n'೮gccg?\n೯೦ಇ\nಗ\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

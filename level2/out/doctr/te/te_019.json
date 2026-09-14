@@ -1,0 +1,41 @@
+{
+  "page_id": "te_019",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0019pro_raw.pdf",
+    "page_index": 93,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Wegve)s\n3015 SaWJ (500 WEDOSNS\n80 esse Josrev ooto eawod. ooSO Se3sood\n808 Saivesss Jobposs\n50 wods boévoss OO WEDOSA 808 Sosio essoo.\nNaoso Sasoë.\n300005 SaNJo 3e35 (5080 8088560 8 WEDOSA\n(35 J058 aws OSS 203 Jô\nSassay.\n(3es0556 2go\ndocsiyos\nNoowsOd.\n88 sg 535,600755?\nNS 600306/5058,606 a5as\naeaens boewod?\nODE S50 5as Sassen boewos?\n08 823 JOS 60 3o80 aoyew\nJOSS 38580n0 365056 5650 70\neprois SSOTS Dowses\nepnnaw.\ngo90 oyes soJdowes cod.\ncoewod.\negord asaros 35\nangovers ecn esgo\nSsstsos boewod.\nJSOSS5 osys soye\nssnaw. oowess eRTnO\nSasses boewod..\n3ssob 6egOS\n\"38 35033 2s seoss 24 Xoed boesaw. c08o56\nwdas Savesa aga0osssd woawsy 30 89p80\nwesy 200005000000.\"\n5 2g0i0s 283000 Sarss dos\n385 68X856 3vg10 Jore was, eeprrssogev\nans 80F6 28 egosstos\nawoosJes O\nJ920 STB aopCs OsS SDOOS S88\nJosboss\n5\nsaOsO\nboevoosa Qeo. ONO sOSS 05323 eodssJooes\ne5s05030008.\nSSOUDETOS SOU8 Siosesto escgroe avgso. So8\neerr bas SEons 3e3 SSO\nASONDETOS 000 Sowvess as 3g0 asetod.\nSROBODS n\ngeo Weaas sores\ngero ess S000000s).\n530 bolsowsa\ne35005055\nDorboss sasoio Sosod.\n62956 a8 0os0 swoi 388, aonego ssa\neg-eonoes Ssps eyToes Sowol.\nQ\n80\nQ\nO",
+      "text_nfc": "Wegve)s\n3015 SaWJ (500 WEDOSNS\n80 esse Josrev ooto eawod. ooSO Se3sood\n808 Saivesss Jobposs\n50 wods boévoss OO WEDOSA 808 Sosio essoo.\nNaoso Sasoë.\n300005 SaNJo 3e35 (5080 8088560 8 WEDOSA\n(35 J058 aws OSS 203 Jô\nSassay.\n(3es0556 2go\ndocsiyos\nNoowsOd.\n88 sg 535,600755?\nNS 600306/5058,606 a5as\naeaens boewod?\nODE S50 5as Sassen boewos?\n08 823 JOS 60 3o80 aoyew\nJOSS 38580n0 365056 5650 70\neprois SSOTS Dowses\nepnnaw.\ngo90 oyes soJdowes cod.\ncoewod.\negord asaros 35\nangovers ecn esgo\nSsstsos boewod.\nJSOSS5 osys soye\nssnaw. oowess eRTnO\nSasses boewod..\n3ssob 6egOS\n\"38 35033 2s seoss 24 Xoed boesaw. c08o56\nwdas Savesa aga0osssd woawsy 30 89p80\nwesy 200005000000.\"\n5 2g0i0s 283000 Sarss dos\n385 68X856 3vg10 Jore was, eeprrssogev\nans 80F6 28 egosstos\nawoosJes O\nJ920 STB aopCs OsS SDOOS S88\nJosboss\n5\nsaOsO\nboevoosa Qeo. ONO sOSS 05323 eodssJooes\ne5s05030008.\nSSOUDETOS SOU8 Siosesto escgroe avgso. So8\neerr bas SEons 3e3 SSO\nASONDETOS 000 Sowvess as 3g0 asetod.\nSROBODS n\ngeo Weaas sores\ngero ess S000000s).\n530 bolsowsa\ne35005055\nDorboss sasoio Sosod.\n62956 a8 0os0 swoi 388, aonego ssa\neg-eonoes Ssps eyToes Sowol.\nQ\n80\nQ\nO",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

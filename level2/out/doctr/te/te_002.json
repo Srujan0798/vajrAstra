@@ -1,0 +1,41 @@
+{
+  "page_id": "te_002",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n11\n(B) Joas 25a55 eJes 200560000) 300238 BRoWs SSOoX\nJeO5 O20 O3TSS oo5 5o ssO seso doons Gocs - 2s8\n00353 Sassor eyogns S5tO 85SO 35 Sê SonsO es OODOD\nSsom podowts. Bosere, erorooes, esoevoresso Jary ess\nJasom Wwdo Soto.\n3 8 205 essoon woowt. aeoes Oayesno 5aots. Boss es3,\naosEs sse sots. 88005 (sovoss J63 K38,6 2585 08000\n306305 DeDesso 182956 BONSKSO, SODOS 88 srerorss\n0880008. 0355 005 a5s SSSES (Sespowts. Se Sroggns\nBosdows. gy8@0we5 eoeoJesiso, eerogasso, eswad\n367s. 355085 edos eoégdas sagesons o5 WSIT esgo\nSsongs. robowe ensresss a\naWOsOro Sesgans boesows.\nesox 2ogas (ESOSODS Sose5t assNIS 80E 55 es soerot\nXoooo Jra-8 1817 56 WOd sodess aOWES. egesio oos\nROTOWCS. esoaes e8 naoes Sgoron 8ô08.\nO20 0355 sas 2352300 3ors 565 ogo SX80. das goday\nS03556 Soësvoo dosArp Sots. 3n3, 3-0, 238 25 a Wes Kopoe sa0\nW63 JOoros ego WSaCs. aSao eoego anos Sewogo.\nWeeoddy B3 Sewogo wogpe es, e2 dzo doye Jogass\n* Page 5of 16 *\nP.T.O.\n11",
+      "text_nfc": "\n11\n(B) Joas 25a55 eJes 200560000) 300238 BRoWs SSOoX\nJeO5 O20 O3TSS oo5 5o ssO seso doons Gocs - 2s8\n00353 Sassor eyogns S5tO 85SO 35 Sê SonsO es OODOD\nSsom podowts. Bosere, erorooes, esoevoresso Jary ess\nJasom Wwdo Soto.\n3 8 205 essoon woowt. aeoes Oayesno 5aots. Boss es3,\naosEs sse sots. 88005 (sovoss J63 K38,6 2585 08000\n306305 DeDesso 182956 BONSKSO, SODOS 88 srerorss\n0880008. 0355 005 a5s SSSES (Sespowts. Se Sroggns\nBosdows. gy8@0we5 eoeoJesiso, eerogasso, eswad\n367s. 355085 edos eoégdas sagesons o5 WSIT esgo\nSsongs. robowe ensresss a\naWOsOro Sesgans boesows.\nesox 2ogas (ESOSODS Sose5t assNIS 80E 55 es soerot\nXoooo Jra-8 1817 56 WOd sodess aOWES. egesio oos\nROTOWCS. esoaes e8 naoes Sgoron 8ô08.\nO20 0355 sas 2352300 3ors 565 ogo SX80. das goday\nS03556 Soësvoo dosArp Sots. 3n3, 3-0, 238 25 a Wes Kopoe sa0\nW63 JOoros ego WSaCs. aSao eoego anos Sewogo.\nWeeoddy B3 Sewogo wogpe es, e2 dzo doye Jogass\n* Page 5of 16 *\nP.T.O.\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

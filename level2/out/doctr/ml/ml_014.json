@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_014",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+    "page_index": 89,
+    "width": 894,
+    "height": 1363
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        894,
+        1363
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "82\n(10016m (O maalgfleyonam\" aomlee 606000J00D 6976010).\nGOQJOd BlaumuaJo ddojomg GoJolam. (0S0030 damds\n2108 280000000 Gn106600 (100RJ8100 6060386S OSo6nJ\naopaolomoo 6303 GWOS'SO0 munsibuoles.e GO 61060330S\n0J0l0no1. GQDB'seaso der 6slagoneol0/1.asmmp. (B10 0u9s103\n0U1060386S 000 0000000 QRJOT: Go0bgos 0000 mlone\naSla: 'ogawlomo 00000917, olojodawo, 0101, (000Onw,\nCOO1 ejolmuo\n000000 (oonJGbOeJOn0e16000e160390, poowl6o (0 80g0 280\n9901100 6060300060 Jolalongyolasmp (310068060g0o0m\n(1000 610)601300080 0800 (309008000001. mUDQo OSmOGaJO\n07. neimanoloo 0030G0m0)S 0001los mlmo a0J0Q0Jo00\n6060300 mldonymwlooool. onwmos 660Jd Boo 610160300\nd8° Quloom20lo3 OS50slo0GrG060slo01am0.\n00J000g. apocomulmo 603 GaJogB.esodnwo 61s1. (50\nmUOo GwO. ONJOO0TOo0Uuolono (010.00007.0smp (0 (BYO aoou\n6000 GoJ0) aglagocomalad\" GOQIOO nJO00 mlo08se00\nolam. 600m0 6000.0.106037,6100300um00a0se801000. 87260000\n(0S.0000 097000600, 01970800J0 6000 Qolet.\nd'00ondo (lQoAs G0000,\nQo0n0000 m0s1.\nopmleaw 08000000000 bodawlm 003\n€ GOO 001 P gao pegyolodo 00020000\nmUODo B001007 moulaplajoejs. aulaxmoco'laeig) OS603101\n(O 0000O (810 60001 GOOSSQ00TD 60000 ajolealeam\n0o 00m0 (B100603.06 200010001000 GnoeJo 6.91080p1e,\n006080002J001 000006m0 00G2090 000000 Oulajoro. (61060130\napomgjool allaoleamosaima\" n0m1 01dg/Qns\", 0001\ncGRy?\nQlongo mOo dhongasmpa.io/o\n(0603 Q6S emgan0gg\n0021\n0021\" (00000000101080?\n00ond0 omgylad 6(0B no(0Qsled.\na000d0uo GODs00l0 mlodeamg 610000 donG. 63(03 090\n0050000700 moasoslunompoeln1lolajoasoolajoaoong\" 0000\n005\n26TE00lasm0J60 (BTOOIC comolg/legesoo000/1a3m0. QJOSO (BOOI",
+      "text_nfc": "82\n(10016m (O maalgfleyonam\" aomlee 606000J00D 6976010).\nGOQJOd BlaumuaJo ddojomg GoJolam. (0S0030 damds\n2108 280000000 Gn106600 (100RJ8100 6060386S OSo6nJ\naopaolomoo 6303 GWOS'SO0 munsibuoles.e GO 61060330S\n0J0l0no1. GQDB'seaso der 6slagoneol0/1.asmmp. (B10 0u9s103\n0U1060386S 000 0000000 QRJOT: Go0bgos 0000 mlone\naSla: 'ogawlomo 00000917, olojodawo, 0101, (000Onw,\nCOO1 ejolmuo\n000000 (oonJGbOeJOn0e16000e160390, poowl6o (0 80g0 280\n9901100 6060300060 Jolalongyolasmp (310068060g0o0m\n(1000 610)601300080 0800 (309008000001. mUDQo OSmOGaJO\n07. neimanoloo 0030G0m0)S 0001los mlmo a0J0Q0Jo00\n6060300 mldonymwlooool. onwmos 660Jd Boo 610160300\nd8° Quloom20lo3 OS50slo0GrG060slo01am0.\n00J000g. apocomulmo 603 GaJogB.esodnwo 61s1. (50\nmUOo GwO. ONJOO0TOo0Uuolono (010.00007.0smp (0 (BYO aoou\n6000 GoJ0) aglagocomalad\" GOQIOO nJO00 mlo08se00\nolam. 600m0 6000.0.106037,6100300um00a0se801000. 87260000\n(0S.0000 097000600, 01970800J0 6000 Qolet.\nd'00ondo (lQoAs G0000,\nQo0n0000 m0s1.\nopmleaw 08000000000 bodawlm 003\n€ GOO 001 P gao pegyolodo 00020000\nmUODo B001007 moulaplajoejs. aulaxmoco'laeig) OS603101\n(O 0000O (810 60001 GOOSSQ00TD 60000 ajolealeam\n0o 00m0 (B100603.06 200010001000 GnoeJo 6.91080p1e,\n006080002J001 000006m0 00G2090 000000 Oulajoro. (61060130\napomgjool allaoleamosaima\" n0m1 01dg/Qns\", 0001\ncGRy?\nQlongo mOo dhongasmpa.io/o\n(0603 Q6S emgan0gg\n0021\n0021\" (00000000101080?\n00ond0 omgylad 6(0B no(0Qsled.\na000d0uo GODs00l0 mlodeamg 610000 donG. 63(03 090\n0050000700 moasoslunompoeln1lolajoasoolajoaoong\" 0000\n005\n26TE00lasm0J60 (BTOOIC comolg/legesoo000/1a3m0. QJOSO (BOOI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

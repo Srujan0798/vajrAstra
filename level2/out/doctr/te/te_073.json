@@ -1,0 +1,41 @@
+{
+  "page_id": "te_073",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0073pro_raw.pdf",
+    "page_index": 44,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6. 2Os 6OYO\noG 52 wCod.\n> 5080 (30,520s posy 25955008 50232e3?\n> 5080 J5S EUOD Jero ESOADSE asjod.\n80 goes dDES Robol. e davDIO5s So8\n> 25 essoew 8d0 ado bsaXO sonnyo\nSrorew Dob 88056 énaie sod.\nsowog isod.\nSoes Ka, Jena, N5S X8, J30, Svesof 365,\n22 6ooo:\nScs X8 awdonss.\n2F608 1Soes\ndOo eawos Sores So8 eozoons wojowod\n(es) (38 eowos gor2) agawod aso 2oe33\ng 6sOXO esro as (880560 gUD\nJOSOsO. OOS sdeadoes? (es) 88 agore aS Joso. gD 6aOXO essa 2395695 eoto\ngoo agavosecs Bavsse 55050?\n880 SJNOD eodosos OSO bosesod.\nde 650XO56 selsaom aTOy 80n6000008.\n2397505 52580a 03\nSSSD essooev 3000550 000 essoe seso\ngd JOso 2ones Javod. poerevre Sess noe\n300356 We as Sns DSLCS Der5e agawos\netweso8s 5 05238 S9 boewod. asss 28\n(EssSo Sasecsesod. N8so03s, saege 3o56\n3gaso5eds3 gey eragor enanod. 30e356\nspnabo Sasestsebod awooss.\n28NNW 3eyod sevrewod.\n2D0 6osoXO dsven:\n88 agarge 500 osSess SO sesosés S5S\nmboes ED 6003XO: (TDES WOëO56 SpsNOo\nXo88n680 esewod. as 300356 OPpaUs 2N2 g0on\nbawgp 32. sganas eseog Sesper STCS TdOED\naso a00 agore siso ESOANO.\nDoë056 snanaw. Jes Ses (TDE3 0os JNO2S\n00\n388050 20hses snoryod. eodos 08 OoNoes\n53 Scod.\nSgsna Eon esso, estod WO essso\n88 Syeggalwiss 88X056 eo8o 502 Says.\nsnoNaw. nove (Ss5O fon esso no\n3250305\n205 es0\n3T0S goo 5500850\n58500 QoJev so3as. 88 WOëo56 ana8\nOoes saowaw. (TDED D0ë056 se easom\n30to3e0 OJE SsSiavo Sorges 820 201030 esano\nepgasesod, 23J0270 esyor boewod. eodses\n2 56 posons dOvo Sobod. Jeso 83500\n23NgJO Jevir boewod. (TDED Oë056 Qos Ees0\nDorogev Sengooor Deacend.\n2582056 estor boewod. (TSES Woeosto se\naopcs So8 300 Xe Degesss CO5O 32 as 6aaXO awsy 365800 So8 aOor Jasss).\nCeTISC Sabols.\nsrarrass Se: Wesom aanaso So8 Xo Ée50.\nOSEO, dONSNO, eTgos, Jese SOTOO,\n88 Ele50 093015085855 Ssanes avassso 888\nJore, 230X87, 0oy eposso, 35, 30g boevod. Je avasNs JSL 8d0 Spsnos\nJoso, 2555 365, agyess, 2050E, E6ds),\n85 2003 88 E0 gosa 385083 Sassagy.\nJasNtaso, Besos, ETSÉE 2005 sg,\nbas Je: eoyosor ESaROBSO dass aanas\nOerderger,\n3e dse bocwod. Je J8 Dosoos ases, dota\n(E 2058 as De3 ONSO gosops 3015 EUD\nSOOOs SsarOs Sos6o Soës RPTPA ges\nBWOX 852ee3 poso Seyss) Nowopes 2058\ndSOROSCs). geroes Sess dcs Je es eoero.\n6X650 32 Deecend. 2 Seggai 38 eaws\nSorres So8 eoge epoor sojowol.\n35",
+      "text_nfc": "6. 2Os 6OYO\noG 52 wCod.\n> 5080 (30,520s posy 25955008 50232e3?\n> 5080 J5S EUOD Jero ESOADSE asjod.\n80 goes dDES Robol. e davDIO5s So8\n> 25 essoew 8d0 ado bsaXO sonnyo\nSrorew Dob 88056 énaie sod.\nsowog isod.\nSoes Ka, Jena, N5S X8, J30, Svesof 365,\n22 6ooo:\nScs X8 awdonss.\n2F608 1Soes\ndOo eawos Sores So8 eozoons wojowod\n(es) (38 eowos gor2) agawod aso 2oe33\ng 6sOXO esro as (880560 gUD\nJOSOsO. OOS sdeadoes? (es) 88 agore aS Joso. gD 6aOXO essa 2395695 eoto\ngoo agavosecs Bavsse 55050?\n880 SJNOD eodosos OSO bosesod.\nde 650XO56 selsaom aTOy 80n6000008.\n2397505 52580a 03\nSSSD essooev 3000550 000 essoe seso\ngd JOso 2ones Javod. poerevre Sess noe\n300356 We as Sns DSLCS Der5e agawos\netweso8s 5 05238 S9 boewod. asss 28\n(EssSo Sasecsesod. N8so03s, saege 3o56\n3gaso5eds3 gey eragor enanod. 30e356\nspnabo Sasestsebod awooss.\n28NNW 3eyod sevrewod.\n2D0 6osoXO dsven:\n88 agarge 500 osSess SO sesosés S5S\nmboes ED 6003XO: (TDES WOëO56 SpsNOo\nXo88n680 esewod. as 300356 OPpaUs 2N2 g0on\nbawgp 32. sganas eseog Sesper STCS TdOED\naso a00 agore siso ESOANO.\nDoë056 snanaw. Jes Ses (TDE3 0os JNO2S\n00\n388050 20hses snoryod. eodos 08 OoNoes\n53 Scod.\nSgsna Eon esso, estod WO essso\n88 Syeggalwiss 88X056 eo8o 502 Says.\nsnoNaw. nove (Ss5O fon esso no\n3250305\n205 es0\n3T0S goo 5500850\n58500 QoJev so3as. 88 WOëo56 ana8\nOoes saowaw. (TDED D0ë056 se easom\n30to3e0 OJE SsSiavo Sorges 820 201030 esano\nepgasesod, 23J0270 esyor boewod. eodses\n2 56 posons dOvo Sobod. Jeso 83500\n23NgJO Jevir boewod. (TDED Oë056 Qos Ees0\nDorogev Sengooor Deacend.\n2582056 estor boewod. (TSES Woeosto se\naopcs So8 300 Xe Degesss CO5O 32 as 6aaXO awsy 365800 So8 aOor Jasss).\nCeTISC Sabols.\nsrarrass Se: Wesom aanaso So8 Xo Ée50.\nOSEO, dONSNO, eTgos, Jese SOTOO,\n88 Ele50 093015085855 Ssanes avassso 888\nJore, 230X87, 0oy eposso, 35, 30g boevod. Je avasNs JSL 8d0 Spsnos\nJoso, 2555 365, agyess, 2050E, E6ds),\n85 2003 88 E0 gosa 385083 Sassagy.\nJasNtaso, Besos, ETSÉE 2005 sg,\nbas Je: eoyosor ESaROBSO dass aanas\nOerderger,\n3e dse bocwod. Je J8 Dosoos ases, dota\n(E 2058 as De3 ONSO gosops 3015 EUD\nSOOOs SsarOs Sos6o Soës RPTPA ges\nBWOX 852ee3 poso Seyss) Nowopes 2058\ndSOROSCs). geroes Sess dcs Je es eoero.\n6X650 32 Deecend. 2 Seggai 38 eaws\nSorres So8 eoge epoor sojowol.\n35",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

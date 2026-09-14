@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_030",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 79,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಅಸಾ೦ಕ್ರಾಮಿಕ ರೋಗಗಳು (ಐಎನ್‌ಸಿಡಿ)\nಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು\nಯದ ಕಾಯಿಲೆಗಳು, ಪಾರ್ಶ್ವವಾಯು)\n\nofl\na\n\neal\na oO\n\n೧\n\noS\n\na\n\nbat\n\n೩ i\nL@\n\na\n\n1 2೭ OL\nago\n\n|]\n\n9\nre &\n\nಕಾಲದ ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\n\nWY\n\nಖಬದಲಾಯಂಖಸಬಹುದಾದ ಕಾರಣಗಳು\n\nಆಶಿ\nತಂಬಾಕು ಬಳಕೆ ಮದ್ಯಪಾನ ಸೇವನೆ ಅನಾರೋಗ್ಯಕರ ಕೆಲಸ ಹಾಗೂ ವ್ನಾಯಾಮ\nಆಹಾರ ಪಶ್ಫಿತಿ ಮಾಡದಿರುವುದು\n\nಖಬದಲಾಯಂಖಸಲಾಗದ ಕಾರಣಗಳು\n\nಕ್ರ 52 9:\n(ಆ\n\nಗ್ಗ ೩೭.೧\n\n\" ೩\n\nವೃದ್ಧಾ ಕೌಟುಂಬಿಕ ಹಿನ್ನಲೆ ಲಿಂಗ\n\n",
+      "text_nfc": "ಅಸಾ೦ಕ್ರಾಮಿಕ ರೋಗಗಳು (ಐಎನ್‌ಸಿಡಿ)\nಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು\nಯದ ಕಾಯಿಲೆಗಳು, ಪಾರ್ಶ್ವವಾಯು)\n\nofl\na\n\neal\na oO\n\n೧\n\noS\n\na\n\nbat\n\n೩ i\nL@\n\na\n\n1 2೭ OL\nago\n\n|]\n\n9\nre &\n\nಕಾಲದ ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\n\nWY\n\nಖಬದಲಾಯಂಖಸಬಹುದಾದ ಕಾರಣಗಳು\n\nಆಶಿ\nತಂಬಾಕು ಬಳಕೆ ಮದ್ಯಪಾನ ಸೇವನೆ ಅನಾರೋಗ್ಯಕರ ಕೆಲಸ ಹಾಗೂ ವ್ನಾಯಾಮ\nಆಹಾರ ಪಶ್ಫಿತಿ ಮಾಡದಿರುವುದು\n\nಖಬದಲಾಯಂಖಸಲಾಗದ ಕಾರಣಗಳು\n\nಕ್ರ 52 9:\n(ಆ\n\nಗ್ಗ ೩೭.೧\n\n\" ೩\n\nವೃದ್ಧಾ ಕೌಟುಂಬಿಕ ಹಿನ್ನಲೆ ಲಿಂಗ\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

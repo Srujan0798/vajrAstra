@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_031",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "०घ \" UL\nQाUIoLDGu 0@6b= @pju फ़IDीypIG शाष्\nGw6७pl७oूv &गळठाLI७ थव््ग 6\nरवगीळीी थक़ी॰षीu6७\nछUDीyJऊIO शJङ ७ll७Dmृul नJनonLl LILLJI ७D @lyprlGio फ़ीLंL फंफ़ीन्ण &yु Ol७lनfluOLLILILLLछI Llनirनfl& Bbolsglनop फनdणLLITODLD LDनगflम GppuILopp Olमu@to OuG lGppooto श७L\nXII Std - Computer Science TM Introduction indd\n11-01-2023 12:40:48",
+      "text_nfc": "०घ \" UL\nQाUIoLDGu 0@6b= @pju फ़IDीypIG शाष्\nGw6७pl७oूv &गळठाLI७ थव््ग 6\nरवगीळीी थक़ी॰षीu6७\nछUDीyJऊIO शJङ ७ll७Dmृul नJनonLl LILLJI ७D @lyprlGio फ़ीLंL फंफ़ीन्ण &yु Ol७lनfluOLLILILLLछI Llनirनfl& Bbolsglनop फनdणLLITODLD LDनगflम GppuILopp Olमu@to OuG lGppooto श७L\nXII Std - Computer Science TM Introduction indd\n11-01-2023 12:40:48",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

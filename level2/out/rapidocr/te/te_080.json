@@ -1,0 +1,41 @@
+{
+  "page_id": "te_080",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0080pro_raw.pdf",
+    "page_index": 127,
+    "width": 603.6089477539062,
+    "height": 807.1407470703125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        603.6089477539062,
+        807.1407470703125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(\nt- O  Sఈఆ S  C sS  \nFa-fach14 a chRaG $4ml Tacl (dc)\n₹ 64.00",
+      "text_nfc": "(\nt- O  Sఈఆ S  C sS  \nFa-fach14 a chRaG $4ml Tacl (dc)\n₹ 64.00",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

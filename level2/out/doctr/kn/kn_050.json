@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_050",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0011pro_raw.pdf",
+    "page_index": 0,
+    "width": 1695,
+    "height": 2198
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1695,
+        2198
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1\nSJeEBE JoeEd\nENEBE Ooesg Nobed e3Nostee esafeed,\nJoass 2606/0.21e-1/2013.\nBooe Joas: 243, 2e eobrb\nawers Jor3, 62.8.4850.000ergo dea,\ne3odeled, apooo: 18.04.2013.\nesogdoess\nDagab:\nNo80 dorjdy e9t383 abone ooddo 300050008 83ONO3E3\nNobod e3Noto esaloedts des3.\nervefea): (1) Nootoi eprioess Roats: NR:20:wW0:2013, eodged,\naNoo: 18.03.2013.\n(2) No0Ed eprioes CO-21-CLM-2013, ejodged aNos:\n08:04.2013.\nBNOE 838 Doeygtsegs Nobod Jogde est3e3 aboned ee &03 eopessdain\nJobed Nogoy Dwongo abeegeseded,\nowergy az pabogng eo8es\n30,3e00 WOR ogab Nozod 2eoao epsooded oboddo Nobed orde est383\nabowed dosoa o\noagabwe esa3.\n30500 dorjde e9t3833 Jasaiv R3NOWECO\nONOB p00 saroa epood ceoat.\nsesajat Nob0d Nogde Dooggd\ntope-dnDsaociefata Nearosga oboddo es : Oes Neageson SNOEdeDobboba\nBORORNW Nozias esONONtD 3ego Segain 38t99, eswdod Ropasdain Nto,\nest3e3 3a30 Norptrt RANOOUNONS 303abo03).\n3050d Noride e9t3e3 abowed eopesdadr avg, Negaloees obapie\n2eddarasoaJos Noroa eogegoon SNOE 838 N50E0 BNE8E Nobed 3ogd8\n(30e) eppadab, 2012000 3edeo 39 \"' 8 saaeabrt (3N0EB8 eppabab -\nJoars 3/2013) Bo0d. egegae, BNDEBE Noobeise Nobo0 espppabab 2012003 aodee\nJoas: 26% Bagae 3000. sodte 26 \"'\naorswol) Resedajond.\n(20130\n6ppers3d-oppabe0-pdoage -4) : de woie eppabaoded Bow Bagaded BJEBE\noopigts 33333 voegseed epdsteensabry Readoed. Be 3030d8) aN0oB:\n11.02.2013 O00 830003 w03oo ONDEE3O NOrda eprieesain dedapdoat.\nSagseabers BNOEBSE Nabod Jogo8 eppabab 1959 d aodee 39- a' deg\neabosdoo 22012 awow 33 Nobod Nogts estsg3 abonwado.NJenberg e3NOtd aodio\nawopgelde eaponda Nobo0 23NOt0 esaloeda aveegesoded. Dwergy ao\npabogns eo8ais daradapndogd. doswol) Ressecocieots eapabal 39 We'\ndoo Oo0s NE0E03 Joood e3Noto0 esatoeda de33 abowes epood a000000.\n-\nBNDEE 838 NOOE 033 evezeas B01003J00o3 3o8o0 23NWEO esalugd oorde\nosobrd@rabrsiquiciaoas Nobed e3Neitoo eateedsr aNoob: 18.03.2013 doab\negprioes doderoa aboeg Beoodese 8233 aboedod eveseas (2) d Nor0\neonioess Debes BN0E83E 333Wg Oobpaed, 2\n3e. WIJS 2: aupaba. 8.0.WAS.,\ndadny Joboo E3NOWEJO esaiogoref) Seabg aleedogd. ewood,\n3e. WJE 2.",
+      "text_nfc": "1\nSJeEBE JoeEd\nENEBE Ooesg Nobed e3Nostee esafeed,\nJoass 2606/0.21e-1/2013.\nBooe Joas: 243, 2e eobrb\nawers Jor3, 62.8.4850.000ergo dea,\ne3odeled, apooo: 18.04.2013.\nesogdoess\nDagab:\nNo80 dorjdy e9t383 abone ooddo 300050008 83ONO3E3\nNobod e3Noto esaloedts des3.\nervefea): (1) Nootoi eprioess Roats: NR:20:wW0:2013, eodged,\naNoo: 18.03.2013.\n(2) No0Ed eprioes CO-21-CLM-2013, ejodged aNos:\n08:04.2013.\nBNOE 838 Doeygtsegs Nobod Jogde est3e3 aboned ee &03 eopessdain\nJobed Nogoy Dwongo abeegeseded,\nowergy az pabogng eo8es\n30,3e00 WOR ogab Nozod 2eoao epsooded oboddo Nobed orde est383\nabowed dosoa o\noagabwe esa3.\n30500 dorjde e9t3833 Jasaiv R3NOWECO\nONOB p00 saroa epood ceoat.\nsesajat Nob0d Nogde Dooggd\ntope-dnDsaociefata Nearosga oboddo es : Oes Neageson SNOEdeDobboba\nBORORNW Nozias esONONtD 3ego Segain 38t99, eswdod Ropasdain Nto,\nest3e3 3a30 Norptrt RANOOUNONS 303abo03).\n3050d Noride e9t3e3 abowed eopesdadr avg, Negaloees obapie\n2eddarasoaJos Noroa eogegoon SNOE 838 N50E0 BNE8E Nobed 3ogd8\n(30e) eppadab, 2012000 3edeo 39 \"' 8 saaeabrt (3N0EB8 eppabab -\nJoars 3/2013) Bo0d. egegae, BNDEBE Noobeise Nobo0 espppabab 2012003 aodee\nJoas: 26% Bagae 3000. sodte 26 \"'\naorswol) Resedajond.\n(20130\n6ppers3d-oppabe0-pdoage -4) : de woie eppabaoded Bow Bagaded BJEBE\noopigts 33333 voegseed epdsteensabry Readoed. Be 3030d8) aN0oB:\n11.02.2013 O00 830003 w03oo ONDEE3O NOrda eprieesain dedapdoat.\nSagseabers BNOEBSE Nabod Jogo8 eppabab 1959 d aodee 39- a' deg\neabosdoo 22012 awow 33 Nobod Nogts estsg3 abonwado.NJenberg e3NOtd aodio\nawopgelde eaponda Nobo0 23NOt0 esaloeda aveegesoded. Dwergy ao\npabogns eo8ais daradapndogd. doswol) Ressecocieots eapabal 39 We'\ndoo Oo0s NE0E03 Joood e3Noto0 esatoeda de33 abowes epood a000000.\n-\nBNDEE 838 NOOE 033 evezeas B01003J00o3 3o8o0 23NWEO esalugd oorde\nosobrd@rabrsiquiciaoas Nobed e3Neitoo eateedsr aNoob: 18.03.2013 doab\negprioes doderoa aboeg Beoodese 8233 aboedod eveseas (2) d Nor0\neonioess Debes BN0E83E 333Wg Oobpaed, 2\n3e. WIJS 2: aupaba. 8.0.WAS.,\ndadny Joboo E3NOWEJO esaiogoref) Seabg aleedogd. ewood,\n3e. WJE 2.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

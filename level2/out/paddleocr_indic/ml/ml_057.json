@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_057",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 2,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3\nθSnJOS....\n\"\nmemoo com\n. S.\nMSc. Medical Biochemistry (M.G. University)\nCertificate & Diploma in Yoga Science (M.G. University)\nPGDCA.\nwebsite: www.malayalamplus.com\nemail: binoylbn@gmail.com\nFacebook: facebook.com/binoy.thomas.94651\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "text_nfc": "3\nθSnJOS....\n\"\nmemoo com\n. S.\nMSc. Medical Biochemistry (M.G. University)\nCertificate & Diploma in Yoga Science (M.G. University)\nPGDCA.\nwebsite: www.malayalamplus.com\nemail: binoylbn@gmail.com\nFacebook: facebook.com/binoy.thomas.94651\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_071",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0038pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "QTUIनoLDGU 0@!6b@)| फ़IDltpूTG थJण\nGLo6Dूl६o@ @प्र नठगLILb थJनणगG\nBoमfफ़ofu I6 ७फnछफ़ी- II\nफ़IDीफpIO थप्र & @ीीl॰om७ull६boonLi LIITLLII 6D @lyorlGi फ़्ीLLफ़ंफ़्लीन्ं &yु न@lनfluLLILILLgI LIoiroflकं BoDolggloop फँनठगLLITODLD LOनगfl pOूpuILopp Olमuliio OluG lGmptoii श७i\n१२th _Naths ol 2_TI_FP indd\n16-12-2022 18:06:16",
+      "text_nfc": "QTUIनoLDGU 0@!6b@)| फ़IDltpूTG थJण\nGLo6Dूl६o@ @प्र नठगLILb थJनणगG\nBoमfफ़ofu I6 ७फnछफ़ी- II\nफ़IDीफpIO थप्र & @ीीl॰om७ull६boonLi LIITLLII 6D @lyorlGi फ़्ीLLफ़ंफ़्लीन्ं &yु न@lनfluLLILILLgI LIoiroflकं BoDolggloop फँनठगLLITODLD LOनगfl pOूpuILopp Olमuliio OluG lGmptoii श७i\n१२th _Naths ol 2_TI_FP indd\n16-12-2022 18:06:16",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

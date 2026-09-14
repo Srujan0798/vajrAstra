@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_048",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+    "page_index": 65,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "51\nTT, FC 3iR TTR\n\ncio\n2\n\n3R\n\n\nH\nHErauu \n3RE\n1784\nl  E  \n3-aTTT\nT h  H 3 H H9  8,000 3T Th fh\n1810 T F2Th\n1838\n f ET 3Th  TE 3TR T 37ef CT\n1877\n37TS iETH 7 3T f 37T f Th 372T 1 YhT fh91\n1886\nET8T HR  3T  2TET4 37 CT T YETH 37ch\n1888\n4.5371 33c7 1 92T4 3ich\naa TT\n1965-66\n. T  T  S S  T\nCT \n3TR TY (CTTTT 100  150 QTO)\n1.\n3 E    3  \na c\\f\nS\n2  40   410 \n?\n2.\nHE   3  A \n3.\nA C   AH SET  d \nTiS RER (H 3  A T TE R S TT \n4.\nM  8       3\n3THAS?\n5.\n37  8 3 1  154",
+      "text_nfc": "51\nTT, FC 3iR TTR\n\ncio\n2\n\n3R\n\n\nH\nHErauu \n3RE\n1784\nl  E  \n3-aTTT\nT h  H 3 H H9  8,000 3T Th fh\n1810 T F2Th\n1838\n f ET 3Th  TE 3TR T 37ef CT\n1877\n37TS iETH 7 3T f 37T f Th 372T 1 YhT fh91\n1886\nET8T HR  3T  2TET4 37 CT T YETH 37ch\n1888\n4.5371 33c7 1 92T4 3ich\naa TT\n1965-66\n. T  T  S S  T\nCT \n3TR TY (CTTTT 100  150 QTO)\n1.\n3 E    3  \na c\\f\nS\n2  40   410 \n?\n2.\nHE   3  A \n3.\nA C   AH SET  d \nTiS RER (H 3  A T TE R S TT \n4.\nM  8       3\n3THAS?\n5.\n37  8 3 1  154",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

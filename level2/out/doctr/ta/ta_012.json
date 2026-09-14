@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_012",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 3,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.\na chod à HIHA! Eirat, JH E477 VAHT UAT 77 chladl N yaft HTjey à AHT vfal 5ft\nof IMy chod d?\n3T1Ch13T 7 35d TOHT\nGETT N 16HT\nTOTEG T6HT\nHART ChHT\n(G) 370 3744 fuaii t HTT ficicht daf ChITT 377 CHRUT adist foh 37197 7 3TR 61 CRIT -\nfHciopr Ghri fHci\nchladt 7 à Jicht 3h85 tiaof Aa fay TR à 3747 HHF N ST VR aideia CAISTT 377 Fro SHoh Hot\nHTTal a fucTsyi 54 fay 3719 HoGchET, sarHe ZT 3707 uRo-Tt 377 FeTeTchT f HoRdT 4 Hohd à\ntiauf\nHa\n1. farse cft aleft\n1. GerT 377 dieia\n2. Et th chiset\n2. TH 377 tidiy\n3. frfa FOERUT\n3. GETT a TarT\n4. HierT-HT\n4. tadadt 377 frafer vfiat\n\n-\n5. faTT hH\n5. 34 377 tadadl chT TIART\nYoRei UR dar\nchladt # à Fieht 3hE gfeitand S 0,\nE7 4 16L 3R FHRIAER ChITgI 37140h1 S7chT\nCRIT 379f HHT N 3TRIT? 3747 far Ch&TT N 3747 HE N HIST ChISTT 377 fertayi\n(h) \"ferfse adt 34-a cht\nAf E4 fargeidt à!\"\n(E) 3-ch HT N CITT Tei à\n914 Hol, Ras Ta\n(T) EAHT-ET TT N 35d,\nfrafer faERUr shd b\nReprint 2026-27",
+      "text_nfc": "3.\na chod à HIHA! Eirat, JH E477 VAHT UAT 77 chladl N yaft HTjey à AHT vfal 5ft\nof IMy chod d?\n3T1Ch13T 7 35d TOHT\nGETT N 16HT\nTOTEG T6HT\nHART ChHT\n(G) 370 3744 fuaii t HTT ficicht daf ChITT 377 CHRUT adist foh 37197 7 3TR 61 CRIT -\nfHciopr Ghri fHci\nchladt 7 à Jicht 3h85 tiaof Aa fay TR à 3747 HHF N ST VR aideia CAISTT 377 Fro SHoh Hot\nHTTal a fucTsyi 54 fay 3719 HoGchET, sarHe ZT 3707 uRo-Tt 377 FeTeTchT f HoRdT 4 Hohd à\ntiauf\nHa\n1. farse cft aleft\n1. GerT 377 dieia\n2. Et th chiset\n2. TH 377 tidiy\n3. frfa FOERUT\n3. GETT a TarT\n4. HierT-HT\n4. tadadt 377 frafer vfiat\n\n-\n5. faTT hH\n5. 34 377 tadadl chT TIART\nYoRei UR dar\nchladt # à Fieht 3hE gfeitand S 0,\nE7 4 16L 3R FHRIAER ChITgI 37140h1 S7chT\nCRIT 379f HHT N 3TRIT? 3747 far Ch&TT N 3747 HE N HIST ChISTT 377 fertayi\n(h) \"ferfse adt 34-a cht\nAf E4 fargeidt à!\"\n(E) 3-ch HT N CITT Tei à\n914 Hol, Ras Ta\n(T) EAHT-ET TT N 35d,\nfrafer faERUr shd b\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

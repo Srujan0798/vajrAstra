@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_050",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8\nomlolcom ngooeleljo Qgm 8>|23!63130066) 20000 00920)@.\n3/3=9\n(a )\n2ld%/]:(000|6m0)8m0236 303,0० ड+\"4 Iomoolmeo loslooimoj Go IDoel ODelonolmJ @oltoom02J० 8e!3&0|- 0D8a!)2| 8>]0m03 8@)00)6313(0 80S]m: mom3Oडo, Oooo@lo ngmlol @iloo32Jdojc ?\n(b)\nGoozom Dpmloo @I3OOdo(oDतom3- ळीoozoत &Jopomp 6&)p33mी06313|(8@)3\" moत3Oड० @llco3lक0l>ॉ Qologloel   moz2joolo @iloocomo Qilcodelmo balलo @g५pojक ?\nt loglsलzड  Galom ozmol eतi0० 6३Jomooq om QIOGOIOOdo]mo0)633omo@m ' a3Jom2p@o' ngm @Qioळीoo mीmॅ &oonaoठी moanoo QIJकpJooloी @09p0). (d) (1080)S|6620ी06@ 01l6)613$)- oomomaoop @jOD3३८0 Oत Oooo\" (100010-)30860)030 oo@le0 @ooloo mlomJodo@Jmm modo८oकolल Jdpm ीpoloo@ @iloonaSp0oठॉ ?\n1२\n1५",
+      "text_nfc": "8\nomlolcom ngooeleljo Qgm 8>|23!63130066) 20000 00920)@.\n3/3=9\n(a )\n2ld%/]:(000|6m0)8m0236 303,0० ड+\"4 Iomoolmeo loslooimoj Go IDoel ODelonolmJ @oltoom02J० 8e!3&0|- 0D8a!)2| 8>]0m03 8@)00)6313(0 80S]m: mom3Oडo, Oooo@lo ngmlol @iloo32Jdojc ?\n(b)\nGoozom Dpmloo @I3OOdo(oDतom3- ळीoozoत &Jopomp 6&)p33mी06313|(8@)3\" moत3Oड० @llco3lक0l>ॉ Qologloel   moz2joolo @iloocomo Qilcodelmo balलo @g५pojक ?\nt loglsलzड  Galom ozmol eतi0० 6३Jomooq om QIOGOIOOdo]mo0)633omo@m ' a3Jom2p@o' ngm @Qioळीoo mीmॅ &oonaoठी moanoo QIJकpJooloी @09p0). (d) (1080)S|6620ी06@ 01l6)613$)- oomomaoop @jOD3३८0 Oत Oooo\" (100010-)30860)030 oo@le0 @ooloo mlomJodo@Jmm modo८oकolल Jdpm ीpoloo@ @iloonaSp0oठॉ ?\n1२\n1५",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

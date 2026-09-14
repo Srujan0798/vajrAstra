@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_033",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 52,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "72 what helps மேலைப்பப்\nhave you ever made up ૧ new game cooked something by mixing things in ੧ new way\nthats creativity it doesn only belong to artists or scientists it belongs to all of us\nbeavers build dams birds build nests but they do it the same way every time we on the\nother hand can invent new music change the way we dress even make machines that\ntalk like humans but what helps us become more creative and what blocks us\nstory time\nsana lived in ૧ small town her father\nwas ૧ rickshaw puller and they had മഹാകവി പി. entertaining\nonly one room with no 8ਥ8 connection talking to different ideas\nshe noticed that the heated the people experimenting\nsun with diverse exploring\ntin roof of their house ১০ much that backgrounds\nit could burn her fingers one day\nshe saw an old shiny plate and some\nbroken glass pieces that gave her\nan idea what 11ੰ she could use the\nsun 5 heat to cook she tried different\nsetups using an old shoebox black\npaint foil wrappers and glass failing\nmany times but she didnt give up reading\nfixing feeling about lot\nafter two weeks of testing and inspired making unusual of different\nsana made ૧ solar cooker that could connections topics\nheat water and cook rice her teachers between two things\nlateral thinking\nwere amazed today her design is\nbeing improved by an ngo to use\nvillages with no access to fuel\ntaking\nchoose what helps be inspiration\nyou from others\ncreative designs\nallowing ideas applying thoughts\nto arise by ideas from\nthemselves one field to\nnot force them another\nbeing being angry being\npeaceful upset or irritated stressed\n45",
+      "text_nfc": "72 what helps மேலைப்பப்\nhave you ever made up ૧ new game cooked something by mixing things in ੧ new way\nthats creativity it doesn only belong to artists or scientists it belongs to all of us\nbeavers build dams birds build nests but they do it the same way every time we on the\nother hand can invent new music change the way we dress even make machines that\ntalk like humans but what helps us become more creative and what blocks us\nstory time\nsana lived in ૧ small town her father\nwas ૧ rickshaw puller and they had മഹാകവി പി. entertaining\nonly one room with no 8ਥ8 connection talking to different ideas\nshe noticed that the heated the people experimenting\nsun with diverse exploring\ntin roof of their house ১০ much that backgrounds\nit could burn her fingers one day\nshe saw an old shiny plate and some\nbroken glass pieces that gave her\nan idea what 11ੰ she could use the\nsun 5 heat to cook she tried different\nsetups using an old shoebox black\npaint foil wrappers and glass failing\nmany times but she didnt give up reading\nfixing feeling about lot\nafter two weeks of testing and inspired making unusual of different\nsana made ૧ solar cooker that could connections topics\nheat water and cook rice her teachers between two things\nlateral thinking\nwere amazed today her design is\nbeing improved by an ngo to use\nvillages with no access to fuel\ntaking\nchoose what helps be inspiration\nyou from others\ncreative designs\nallowing ideas applying thoughts\nto arise by ideas from\nthemselves one field to\nnot force them another\nbeing being angry being\npeaceful upset or irritated stressed\n45",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

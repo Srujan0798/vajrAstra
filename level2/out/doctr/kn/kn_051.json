@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_051",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0012pro_raw.pdf",
+    "page_index": 1,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "008333011 geuxdrochoogd. aatav 14(5) 003. Noopg WAWOOODD HOMOn 1e0300)\nadore 20(2)) D3UN aa awgbe soya wEsA B0o0WToW dawts ar eosaba\ngedre 21 do wworoond.\nNotod Hoapne Sabanen Xot sdaa avotoa Nowod\nNoFd tas Rocad.\nNotod Nooa eteg Navd sond aooQsone 2NoWEon NOWOQRGOS aloade\nawoa evodode 68 &00 180 osednea 25J03r gozcos aosaa anootoon 30\nawine 2y7i 2OBOO aen90 Noted Hone DERRO dad awwvod wosoragds. e3d,\nBNOFE38 Nated Xomne (Saat) eprabas 2012 Onad, sppaba ayadro 708 Sdaa\nasolads, eddos acoA awod edez aote TOnd dwooone 2Nowton HOWOORO aaod\n/ mnVoa sedad Aeer weaseaode msoxagogncogd.\nER brejade Totod\nHoane 2000ri0a aataoswon atnl\nsodeon enrrowoh Jona aiotonoot Notod\naceaTQonso beno Notod Hornyaphoad.\ns\nToto ToTe edoo avode 2000t Nowow epaaas ayodro 39-2 3o B3ES\negoroneb (Corrupt Practices) en awoad bono 39-w ao0 39-8 won 2owowre Nowog\n00-poate 883 daonephd. epaaba gadro 109 de eaoogne wn aaorap, ayoto\n111 00 esoopre Hoesppa (Cognizance of offences) aad eadad.\ndNFE33 Notod Noopre (Sdata) epaala 2012 deses ayddro 1098 dea\nReafdaleoon saaaaoa Edoond. epsabas 1090 eva gadte (20)d abeon edeg\naodeat asooyde sond aas awa BO0DFRO0Fa600 20N0aEsaDa Jana Xowog,\n0n03 eapaloen eny coronet, wodoneb avas avosaba Noto 20N0WE00 esadoenes\noadre 39-we dos Rosaarond eapaiosn Tores oglewodde 6 Sons boooWor epao\n03 AO0O dowoadaon oxorwawed eepNOwod Boprobsprisgonghd epao\neadadooero Bonironsphesphd.\neede (21) eva aodeoddd daosdsod avoojde a8. 2NoWEon awozs, 20N0Wr00\nsasadde epwo edeg abode sord 23000t Jo3d epsabas gadto 39-2 de\n0a8sso 23ay 3033 essardoodo enao Esowron HOWOQAGOS ayddro 39-8 Ne\nauoeado aboode edoogaskndo 6 Soneaon ororwawOd tooowor epwo a3 AOOd\ndowoowaon ororwawod es0pN0wo3 epao eaddoodere Hotbrabsprissorghd.\n3ard ab3wodd 283, eteg abode 82333, awoQsoone aasd caseo daaba er\nHoapa evaadaored awones cadost. Notod Noones epsababt / dabag\nasesswdris enda saaaren Masddoud.cod), Aotwon\n3 3\nerapabaorien saaa\naopadogdesonduaci. Notod Hoapts edeg abode 200000t0 a0Eo awoptoore 2sowton\nHowopado ce0asQsoones epsala, dabas, evasabane eatosne wn Nabafo\n3e00od00 dcooddesorbad. 2D000r waabwon 0000FRSF6XD3 epooones / wzod,\nNoto8 epaatat / dabaores oono Nots evaDaaonya navsagut.cod edt\nesrrowoh Ee0DFRSFLax3dRhd. sado, epsadas ayedro 39-2 doa 39-8 bono ayodro\n1090 eaate 2os0wro edood / 938 edoogarndo dowin rboatortedesorbad.\n58\ndddavg 2oN0Wr0 Qaawoh tQOF OaFOa eproneb bodonncbrbrosuen ooro Notod\n2NDWro0 eadoena err Dcda aderaoregas Bay derres saaFowoh DaFONWOS\n3080.\nN8/-\n(WN.2. awdaba)\nNotod 23N00ro0 eawwado,\nBNOFEE ootss 2onetodo",
+      "text_nfc": "008333011 geuxdrochoogd. aatav 14(5) 003. Noopg WAWOOODD HOMOn 1e0300)\nadore 20(2)) D3UN aa awgbe soya wEsA B0o0WToW dawts ar eosaba\ngedre 21 do wworoond.\nNotod Hoapne Sabanen Xot sdaa avotoa Nowod\nNoFd tas Rocad.\nNotod Nooa eteg Navd sond aooQsone 2NoWEon NOWOQRGOS aloade\nawoa evodode 68 &00 180 osednea 25J03r gozcos aosaa anootoon 30\nawine 2y7i 2OBOO aen90 Noted Hone DERRO dad awwvod wosoragds. e3d,\nBNOFE38 Nated Xomne (Saat) eprabas 2012 Onad, sppaba ayadro 708 Sdaa\nasolads, eddos acoA awod edez aote TOnd dwooone 2Nowton HOWOORO aaod\n/ mnVoa sedad Aeer weaseaode msoxagogncogd.\nER brejade Totod\nHoane 2000ri0a aataoswon atnl\nsodeon enrrowoh Jona aiotonoot Notod\naceaTQonso beno Notod Hornyaphoad.\ns\nToto ToTe edoo avode 2000t Nowow epaaas ayodro 39-2 3o B3ES\negoroneb (Corrupt Practices) en awoad bono 39-w ao0 39-8 won 2owowre Nowog\n00-poate 883 daonephd. epaaba gadro 109 de eaoogne wn aaorap, ayoto\n111 00 esoopre Hoesppa (Cognizance of offences) aad eadad.\ndNFE33 Notod Noopre (Sdata) epaala 2012 deses ayddro 1098 dea\nReafdaleoon saaaaoa Edoond. epsabas 1090 eva gadte (20)d abeon edeg\naodeat asooyde sond aas awa BO0DFRO0Fa600 20N0aEsaDa Jana Xowog,\n0n03 eapaloen eny coronet, wodoneb avas avosaba Noto 20N0WE00 esadoenes\noadre 39-we dos Rosaarond eapaiosn Tores oglewodde 6 Sons boooWor epao\n03 AO0O dowoadaon oxorwawed eepNOwod Boprobsprisgonghd epao\neadadooero Bonironsphesphd.\neede (21) eva aodeoddd daosdsod avoojde a8. 2NoWEon awozs, 20N0Wr00\nsasadde epwo edeg abode sord 23000t Jo3d epsabas gadto 39-2 de\n0a8sso 23ay 3033 essardoodo enao Esowron HOWOQAGOS ayddro 39-8 Ne\nauoeado aboode edoogaskndo 6 Soneaon ororwawOd tooowor epwo a3 AOOd\ndowoowaon ororwawod es0pN0wo3 epao eaddoodere Hotbrabsprissorghd.\n3ard ab3wodd 283, eteg abode 82333, awoQsoone aasd caseo daaba er\nHoapa evaadaored awones cadost. Notod Noones epsababt / dabag\nasesswdris enda saaaren Masddoud.cod), Aotwon\n3 3\nerapabaorien saaa\naopadogdesonduaci. Notod Hoapts edeg abode 200000t0 a0Eo awoptoore 2sowton\nHowopado ce0asQsoones epsala, dabas, evasabane eatosne wn Nabafo\n3e00od00 dcooddesorbad. 2D000r waabwon 0000FRSF6XD3 epooones / wzod,\nNoto8 epaatat / dabaores oono Nots evaDaaonya navsagut.cod edt\nesrrowoh Ee0DFRSFLax3dRhd. sado, epsadas ayedro 39-2 doa 39-8 bono ayodro\n1090 eaate 2os0wro edood / 938 edoogarndo dowin rboatortedesorbad.\n58\ndddavg 2oN0Wr0 Qaawoh tQOF OaFOa eproneb bodonncbrbrosuen ooro Notod\n2NDWro0 eadoena err Dcda aderaoregas Bay derres saaFowoh DaFONWOS\n3080.\nN8/-\n(WN.2. awdaba)\nNotod 23N00ro0 eawwado,\nBNOFEE ootss 2onetodo",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "ml_055",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [
+    "L2"
+  ],
+  "unreadable_reason": "ocr_empty",
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+    "page_index": 51,
+    "width": 866,
+    "height": 1370
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        866,
+        1370
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "",
+      "text_nfc": "",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

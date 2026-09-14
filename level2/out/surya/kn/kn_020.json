@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_020",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 151,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "140\nవిజ్ఞాన\nChildren be cautious !!! Be alert\nYour body belongs only to you, You have all the rights to keep safe and protect it always. Safe and Unsafe touches on your body\nSee the picture and understand\nthis cautious is for Boys and Girls\nUnsafe Touch (BAD TOUCH) - parts of your body where nobody should touch (except parents and in their presence only doctors can touch)\nSafe touch (GOOD TOUCH) -can touch only when required\nWhen you feel Unsafe Touch or any other mischief,please Say loudly NO.. Don't.. Stop it..and Scream, push the person aside and move to a safer place, be brave and inform about it, to your parents &amp; Trusted adult and register a complaint\nPublished by :Distict Administration -08532-229011, Zilla Panchyat-228448\nDepartment of Women and Child Development-226292, Unicef Child Protection Project -230610. Raichur\nBe Smart, Be Safe, Be Happy\nPicture courtesy : Prajavani, Bhoomika 26-07-2014",
+      "text_nfc": "140\nవిజ్ఞాన\nChildren be cautious !!! Be alert\nYour body belongs only to you, You have all the rights to keep safe and protect it always. Safe and Unsafe touches on your body\nSee the picture and understand\nthis cautious is for Boys and Girls\nUnsafe Touch (BAD TOUCH) - parts of your body where nobody should touch (except parents and in their presence only doctors can touch)\nSafe touch (GOOD TOUCH) -can touch only when required\nWhen you feel Unsafe Touch or any other mischief,please Say loudly NO.. Don't.. Stop it..and Scream, push the person aside and move to a safer place, be brave and inform about it, to your parents &amp; Trusted adult and register a complaint\nPublished by :Distict Administration -08532-229011, Zilla Panchyat-228448\nDepartment of Women and Child Development-226292, Unicef Child Protection Project -230610. Raichur\nBe Smart, Be Safe, Be Happy\nPicture courtesy : Prajavani, Bhoomika 26-07-2014",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

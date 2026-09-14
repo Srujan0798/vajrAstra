@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_031",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series G7DEF\nSET-4\n12\nQ.P. Code\nCandidates must write the Q.P. Code\nRoll No.\non the title page of the answer-book.\nm1aeBo6B\nNOTE\n[]\n1\n(I)\nPlease check that this question paper\n.\ncontains 15 printed pages.\n(II)\nlar\n(II)\nQ.P. Code given on the right hand\n\nside of the question paper should be\nBoerg\nwritten on the title page of the answer-\nbook by the candidate.\n.\n(III)\n8\n(III) Please check that this question paper\n.\ncontains 8 questions.\n(IVc2crmog)\n(IV) Please write down the Serial Number\nImISI\nof the question in the answer-book at\nthe given place before attempting it.\n\n(V)\n1\n(V)\n15 minute time has been allotted to\nBMLS. ONE10.15 M\nread this question paper. The question\npaper will be distributed at 10.15\n\na.m. From 10.15 a.m. to 10.30 a.m.,\n 10.15 d 10.300\nthe candidates will read the question\n\npaper only and will not write any\nGC\nanswer on the answer-book during\n\nthis period.\n.\nDPWUGo\nMALAYALAM\nMNo:3 DMIA\n060°:80\nTime allowed : 3 hours\nMaximum Marks : 80\n12\n1\nP.T.O.",
+      "text_nfc": "Series G7DEF\nSET-4\n12\nQ.P. Code\nCandidates must write the Q.P. Code\nRoll No.\non the title page of the answer-book.\nm1aeBo6B\nNOTE\n[]\n1\n(I)\nPlease check that this question paper\n.\ncontains 15 printed pages.\n(II)\nlar\n(II)\nQ.P. Code given on the right hand\n\nside of the question paper should be\nBoerg\nwritten on the title page of the answer-\nbook by the candidate.\n.\n(III)\n8\n(III) Please check that this question paper\n.\ncontains 8 questions.\n(IVc2crmog)\n(IV) Please write down the Serial Number\nImISI\nof the question in the answer-book at\nthe given place before attempting it.\n\n(V)\n1\n(V)\n15 minute time has been allotted to\nBMLS. ONE10.15 M\nread this question paper. The question\npaper will be distributed at 10.15\n\na.m. From 10.15 a.m. to 10.30 a.m.,\n 10.15 d 10.300\nthe candidates will read the question\n\npaper only and will not write any\nGC\nanswer on the answer-book during\n\nthis period.\n.\nDPWUGo\nMALAYALAM\nMNo:3 DMIA\n060°:80\nTime allowed : 3 hours\nMaximum Marks : 80\n12\n1\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

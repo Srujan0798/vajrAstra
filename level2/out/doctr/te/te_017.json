@@ -1,0 +1,41 @@
+{
+  "page_id": "te_017",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0017pro_raw.pdf",
+    "page_index": 47,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "555 : 35, 800 Joos 385 3ge JS 6008\n(X +5)-(/23)-0\n(X + 5)2=(/23)2\nX+5=. V23 d0X+5=-V23\n- X=-5+ V23 do X =-5- V23\nSobss JAODS dososoes Ssoss\ndo. (1) JoosOd : 5x2 - 4X-3=0\nJos : 55058805056 SONSSSO asy OJo8so d0&063 Sore awsy Sades 8550568\n3N505608, x2 awsy DEOSSWI 1m Sawes Seoro boévod. 5SN 303 350580030\n5 3 EROWT,\n4\n5\n3\n5\nx2\nX\n= 0\n3Spcs 2535x2\n4\n5\n4\n4\n5\n+ K = (x a)? eaws x2\nX + k = x2 I 2ax + a.\nx2\nxox - 2ax E dOyT,\n4\n4\n2\n5\n550580050 x2 + b X + C = 0\n83s05 cossyas espes\nx2 + bx +\n+ C = 0\n- 2 ax =\nk=a=\na3pco, X\n2\n5\nX\n2\n5\n4\n3\nI\nb\nb\n4\n25\n88 85505\nb\n2\n2\n2,\nb\nX\n25\n25\n19\nV19\nesT X+\n2\nC 855056\nX\n0\noabsi).\n25 5\n5 )=0\n2\n5 do X <\nV19\n5\nV19\n5\n2 V19\n5\n5\nX\nX =\n+\n2+/19\n5\ndo X =\ndo X =\n2-V19\n5\n.58550580030 awsy Swge\n8o0\n2+/19\n5\n2-V19\n5\n-\nS\n-\nI I\n38",
+      "text_nfc": "555 : 35, 800 Joos 385 3ge JS 6008\n(X +5)-(/23)-0\n(X + 5)2=(/23)2\nX+5=. V23 d0X+5=-V23\n- X=-5+ V23 do X =-5- V23\nSobss JAODS dososoes Ssoss\ndo. (1) JoosOd : 5x2 - 4X-3=0\nJos : 55058805056 SONSSSO asy OJo8so d0&063 Sore awsy Sades 8550568\n3N505608, x2 awsy DEOSSWI 1m Sawes Seoro boévod. 5SN 303 350580030\n5 3 EROWT,\n4\n5\n3\n5\nx2\nX\n= 0\n3Spcs 2535x2\n4\n5\n4\n4\n5\n+ K = (x a)? eaws x2\nX + k = x2 I 2ax + a.\nx2\nxox - 2ax E dOyT,\n4\n4\n2\n5\n550580050 x2 + b X + C = 0\n83s05 cossyas espes\nx2 + bx +\n+ C = 0\n- 2 ax =\nk=a=\na3pco, X\n2\n5\nX\n2\n5\n4\n3\nI\nb\nb\n4\n25\n88 85505\nb\n2\n2\n2,\nb\nX\n25\n25\n19\nV19\nesT X+\n2\nC 855056\nX\n0\noabsi).\n25 5\n5 )=0\n2\n5 do X <\nV19\n5\nV19\n5\n2 V19\n5\n5\nX\nX =\n+\n2+/19\n5\ndo X =\ndo X =\n2-V19\n5\n.58550580030 awsy Swge\n8o0\n2+/19\n5\n2-V19\n5\n-\nS\n-\nI I\n38",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

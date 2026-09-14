@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_001",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 612.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        612.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "No..\nKANHA\nTest Booklet Code\nThis Booklet contains 2444 pages.\np.e gag a\nಈಪುಸಕದಲಿಬ-ಪುಟಗಳವ.\nG1\nDo not open this Test Booklet until you are asked to do so.\nಈಪತ-ಪುಸಕವನುತವುಗಿತೆರಿಯಲುಸೂಚನಿನಡುವವರೆಗಿತರೆಯಬಾರದು.\nKANNADA\nRead carefully the Instructions on the Back Cover of this Test Booklet.\nಈಪಶೈಪುಸಕದ ಒಂಬದಯಲರುವಸೂಚನೆಗಳನುಜಾಗರೂಕತೆಯಂದಓದಂ.\nImportant Instructions \nಎಶೇಷಸೂಚನೆಗಳು\nI. The Answer Sheet is inside this Test Booklet. When \nಪಶೈ ಪುಸಕದಒಳಗಡಿಉತರಹಾಳೆಯನುಇಡಲಾಗದೆ. ತವುಗಿಈ\nyou are directed to open the Test Booklet, take out \nಪಶೈಪುಸಕವನು--ತರೆಯಲಿಹೇಳದಿನಂತರಉತರಿಹಾಳೆಯನು\nthe Answer Sheet and fill in the particulars on \nತೆಗೆದು,-ಬದ-I ಮತು-ಬದ-ಒನು--ಕೇವಲ-ನಲಕಪುಬಾಲ್\nside-I and side-2 carefully with bluelblack ball point\nಪಾಯಂಟ್-ಪನೃನಂದೆಎವರಗಳನು-ಜಾಗರೂಕತೆಯಂದಿಭತಿನ\npen only.\nಮಾಡಬೇಕು.\n2. The test is of 3 hours duration and Test Booklet \ncontains 180 questions. Each question carries \n೭\nಪರಕೆಯ-ಅವಧಿಳಿಗಂಟೆಗಳು-ಮತುಪಶಿ-ಪುಸಕದಲಿ1\nmarks. For each correct response, the candidate will \nಪಶೈಗಳವೆ--ಪತಿಯೊಂದು-ಪಶೈಗೆ--ಅಂಕಗಳವೆ-ಪತಿಯೊಂದು\nget A m arks. For each incorrect response, one mark\nಸಂಿಉತರಕೆಅಭೃಥ೯ಗಳಗಿ--ಅಂಕಗಳನು-ನೀಡಲಾಗುತದಿಮತು\nWill be deducted from the total scores. The maximum\nಪತಿಯೊಂದುತಪುಉತರಕಿಒಟುಅಂಕಗಳಂದಒಂದುಅಂಕವನು\nmarks are 720.\n8..\nUse BluelBlack Ball Point Pen only for writing\nಕಳೆಯಲಾಗುತದ. ಗಂಷಿಅಂಕಗಳು720.\nparticulars on this pagelmarking responses.\n8.\nಈಪುಟದಲನಿಎವರಗಳನು--ತುಂಬಲು-ವುತು-ಉತರಿಹಾಳೆಯ\nA.\nRough work is to be done on the space provided for \nಮಲಿಗುರುತುಗಳನು-ಮಾಡಲು-ಕೇವಲ್ನಲಿಕಪು-ಬಾಲ್\nthis purpose in the Test Booklet only.\nಪಾಯಂಟ್-ಪೆನೃನು--ಉಪಯೋಗಸಬೇಕು.\n5.\nOn completion of the test, the candidate must\nA.\nಪಶೈಪುಸಕದಲಿಒದಗಸದಿಸಳದಲೇರಘ್-ವಕ್--ಮಾಡಬೇಕು.\nhand over the Answer Sheet to the invigilator\n5.\nಪರಕಿಮುಗದನಂತರ, ಅಭೃ$೯ಿಯುಪೋಕಾ ಕೋಣೆಸಸಬಾಂಗಣವನು\nbefore leaving the Room Hall. The candidates.\nಬಡುವಿಮುನು-ಉತರ-ಹಾಳೆಯನು-ಪೋಕಾ-ಮಲೈಚಾರಕಂಗಿ\nare allowed to take away this Test Booklet with\nಒಡಸಬೇಕು. -ಅಭೃಥ೯ಯುಪತಿಪುಸಕವನುೃತಮೃಚೊತೆಗಿತೆಗೆದುಕೊಂಡು\nthem.\n6.\nThe CopE for this Booklet is G1. Make sure that \nಹೋಗಲುಿಅನುಮತಿಸಲಾಗದೆ.\n.ಈಪುಸಕದಿಕೋಡ್G.ಈಿಪುಸಕದಕೋಡ್ಮತುಉತರ\nthe coDE printed on Side-2 of the Answer Sheet is \nthe same as that on this Test Booklet. In case of \nಹಾಳೆಯಿಬದ-ಒರಲಿಮುದಸದಿಕೋಡ್--ಒಂದೇ-ಆಗದಿಎಂದು\ndiscrepancy, the candidate should immediately report \nದೃಢಕಂಸಕೊಳ-ಒಂದುವೇಳಿಬೇರೆಯಾಗದಲಿಕೂಡಲೇಅಭಥ್ಯು\nthe matter to the Invigilator for replacement of both\nಪಯಾ೯ಯ-ಪಶಿ-ಪುಸಕ-ಮತು-ಉತರಿಹಾಳೆಯನು--ಕೊಡಲು\nthe Test Booklet and the Ans wer Sheet.\nಮಲಿಬಾರಕಂಗಿತಿಳಸಬೇಕು.\n. The candidates should ensure that the Answer Sheet \n7.\nಅಭೃಥಿಯುಉತರಹಾಳೆಯುವಡಚರಬಾರದೆಂದುದೃಢಕಂಸಕೊಳೈ\nis not folded. Do not make any stray marks on the\nಉತರಿಹಾಳೆಯೆಮಲಿಯಾವದೇತರಹದಿಚಹೈಗಳನುೃಗುರುತು\nAnswer Sheet. Do not write your Roll No. anywhere\nಮಾಡಬೇಡ. ಅಭಥ್ಯುಪಶೈಪುಸಕಉತರಹಾಳೆಯಲಿನಮೂದಸದ\nelse except in the specified space in the Test Book let\nಸಾನದಹೊರತುಿಬೇರಿಕಡಿರೂಲ್-ನಂಬರನು-ಬರೆಯಬಾರದು.\nAnswer Sheet.\n8. Use of white fluid for correction is NOT permissible\n8.\nಉತರಹಾಳೆಯಿಮಲಿಯಾವುದೇತರಹದಿತಿದುಪಡಗಿವಾಯಟ್\non the Ans wer Sheet.\nIn case of any ambiguity in translation of any question, English version shall be treated as final.\nBaquee erg apof ge nelog ueegeeog Opaogpe epgeae Ogpeqg g'ep\nName of the Candidate Gin Capitals i\nಅಭೃಢ೯ಯ-ಹೆಸರು--ದಪಅಕರಗಳಲು\nRoil Number.\nFin figures.\nರೂಲ್ನಂಬರ್\nಅಂಕಿಗಳಲಿ\nFin words.\nಅಕರಗಳಲ\nCentre of Examination Gn Capitals \nಪರೋಕಿಕೀಂದದಪಅಕರಗಳಲ\nCandidate's Signature -\nInvigilator's Signature i\nI og goso ge.\nFacsimile signature stamp of \nCentre Superintendent -",
+      "text_nfc": "No..\nKANHA\nTest Booklet Code\nThis Booklet contains 2444 pages.\np.e gag a\nಈಪುಸಕದಲಿಬ-ಪುಟಗಳವ.\nG1\nDo not open this Test Booklet until you are asked to do so.\nಈಪತ-ಪುಸಕವನುತವುಗಿತೆರಿಯಲುಸೂಚನಿನಡುವವರೆಗಿತರೆಯಬಾರದು.\nKANNADA\nRead carefully the Instructions on the Back Cover of this Test Booklet.\nಈಪಶೈಪುಸಕದ ಒಂಬದಯಲರುವಸೂಚನೆಗಳನುಜಾಗರೂಕತೆಯಂದಓದಂ.\nImportant Instructions \nಎಶೇಷಸೂಚನೆಗಳು\nI. The Answer Sheet is inside this Test Booklet. When \nಪಶೈ ಪುಸಕದಒಳಗಡಿಉತರಹಾಳೆಯನುಇಡಲಾಗದೆ. ತವುಗಿಈ\nyou are directed to open the Test Booklet, take out \nಪಶೈಪುಸಕವನು--ತರೆಯಲಿಹೇಳದಿನಂತರಉತರಿಹಾಳೆಯನು\nthe Answer Sheet and fill in the particulars on \nತೆಗೆದು,-ಬದ-I ಮತು-ಬದ-ಒನು--ಕೇವಲ-ನಲಕಪುಬಾಲ್\nside-I and side-2 carefully with bluelblack ball point\nಪಾಯಂಟ್-ಪನೃನಂದೆಎವರಗಳನು-ಜಾಗರೂಕತೆಯಂದಿಭತಿನ\npen only.\nಮಾಡಬೇಕು.\n2. The test is of 3 hours duration and Test Booklet \ncontains 180 questions. Each question carries \n೭\nಪರಕೆಯ-ಅವಧಿಳಿಗಂಟೆಗಳು-ಮತುಪಶಿ-ಪುಸಕದಲಿ1\nmarks. For each correct response, the candidate will \nಪಶೈಗಳವೆ--ಪತಿಯೊಂದು-ಪಶೈಗೆ--ಅಂಕಗಳವೆ-ಪತಿಯೊಂದು\nget A m arks. For each incorrect response, one mark\nಸಂಿಉತರಕೆಅಭೃಥ೯ಗಳಗಿ--ಅಂಕಗಳನು-ನೀಡಲಾಗುತದಿಮತು\nWill be deducted from the total scores. The maximum\nಪತಿಯೊಂದುತಪುಉತರಕಿಒಟುಅಂಕಗಳಂದಒಂದುಅಂಕವನು\nmarks are 720.\n8..\nUse BluelBlack Ball Point Pen only for writing\nಕಳೆಯಲಾಗುತದ. ಗಂಷಿಅಂಕಗಳು720.\nparticulars on this pagelmarking responses.\n8.\nಈಪುಟದಲನಿಎವರಗಳನು--ತುಂಬಲು-ವುತು-ಉತರಿಹಾಳೆಯ\nA.\nRough work is to be done on the space provided for \nಮಲಿಗುರುತುಗಳನು-ಮಾಡಲು-ಕೇವಲ್ನಲಿಕಪು-ಬಾಲ್\nthis purpose in the Test Booklet only.\nಪಾಯಂಟ್-ಪೆನೃನು--ಉಪಯೋಗಸಬೇಕು.\n5.\nOn completion of the test, the candidate must\nA.\nಪಶೈಪುಸಕದಲಿಒದಗಸದಿಸಳದಲೇರಘ್-ವಕ್--ಮಾಡಬೇಕು.\nhand over the Answer Sheet to the invigilator\n5.\nಪರಕಿಮುಗದನಂತರ, ಅಭೃ$೯ಿಯುಪೋಕಾ ಕೋಣೆಸಸಬಾಂಗಣವನು\nbefore leaving the Room Hall. The candidates.\nಬಡುವಿಮುನು-ಉತರ-ಹಾಳೆಯನು-ಪೋಕಾ-ಮಲೈಚಾರಕಂಗಿ\nare allowed to take away this Test Booklet with\nಒಡಸಬೇಕು. -ಅಭೃಥ೯ಯುಪತಿಪುಸಕವನುೃತಮೃಚೊತೆಗಿತೆಗೆದುಕೊಂಡು\nthem.\n6.\nThe CopE for this Booklet is G1. Make sure that \nಹೋಗಲುಿಅನುಮತಿಸಲಾಗದೆ.\n.ಈಪುಸಕದಿಕೋಡ್G.ಈಿಪುಸಕದಕೋಡ್ಮತುಉತರ\nthe coDE printed on Side-2 of the Answer Sheet is \nthe same as that on this Test Booklet. In case of \nಹಾಳೆಯಿಬದ-ಒರಲಿಮುದಸದಿಕೋಡ್--ಒಂದೇ-ಆಗದಿಎಂದು\ndiscrepancy, the candidate should immediately report \nದೃಢಕಂಸಕೊಳ-ಒಂದುವೇಳಿಬೇರೆಯಾಗದಲಿಕೂಡಲೇಅಭಥ್ಯು\nthe matter to the Invigilator for replacement of both\nಪಯಾ೯ಯ-ಪಶಿ-ಪುಸಕ-ಮತು-ಉತರಿಹಾಳೆಯನು--ಕೊಡಲು\nthe Test Booklet and the Ans wer Sheet.\nಮಲಿಬಾರಕಂಗಿತಿಳಸಬೇಕು.\n. The candidates should ensure that the Answer Sheet \n7.\nಅಭೃಥಿಯುಉತರಹಾಳೆಯುವಡಚರಬಾರದೆಂದುದೃಢಕಂಸಕೊಳೈ\nis not folded. Do not make any stray marks on the\nಉತರಿಹಾಳೆಯೆಮಲಿಯಾವದೇತರಹದಿಚಹೈಗಳನುೃಗುರುತು\nAnswer Sheet. Do not write your Roll No. anywhere\nಮಾಡಬೇಡ. ಅಭಥ್ಯುಪಶೈಪುಸಕಉತರಹಾಳೆಯಲಿನಮೂದಸದ\nelse except in the specified space in the Test Book let\nಸಾನದಹೊರತುಿಬೇರಿಕಡಿರೂಲ್-ನಂಬರನು-ಬರೆಯಬಾರದು.\nAnswer Sheet.\n8. Use of white fluid for correction is NOT permissible\n8.\nಉತರಹಾಳೆಯಿಮಲಿಯಾವುದೇತರಹದಿತಿದುಪಡಗಿವಾಯಟ್\non the Ans wer Sheet.\nIn case of any ambiguity in translation of any question, English version shall be treated as final.\nBaquee erg apof ge nelog ueegeeog Opaogpe epgeae Ogpeqg g'ep\nName of the Candidate Gin Capitals i\nಅಭೃಢ೯ಯ-ಹೆಸರು--ದಪಅಕರಗಳಲು\nRoil Number.\nFin figures.\nರೂಲ್ನಂಬರ್\nಅಂಕಿಗಳಲಿ\nFin words.\nಅಕರಗಳಲ\nCentre of Examination Gn Capitals \nಪರೋಕಿಕೀಂದದಪಅಕರಗಳಲ\nCandidate's Signature -\nInvigilator's Signature i\nI og goso ge.\nFacsimile signature stamp of \nCentre Superintendent -",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

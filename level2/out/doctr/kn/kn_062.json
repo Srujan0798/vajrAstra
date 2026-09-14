@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_062",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0023pro_raw.pdf",
+    "page_index": 523,
+    "width": 1123,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1123,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8800\n2o N083 WEFN-O\nogabo Adewroa enatorbode. eg Aosawa yNtoo\nWOdFRen wodes deea agoon, 3,300000000\nasaeBsoson oeessod. or 3t8 caeyas adowto\nadwadod aboa aoaa abod aboon doedd Woaan,\nd\nsgawaa\nday\naocos Sdonsae wda Noda Nogaga\n-\npe3sad 8000 apaba, deebsone dods, boabod Nar\n3gad R0036r0000 wwaade degeab epocve WO0\ncOAD aoton odad.\no\nMary b3003t000 dodtave.\nQAOOWOB boab deoren0a0o0 Wea 83\ne\nsoas\ndeae\npaFTowOD 025000970, owoond, NOWFOO weas\navenen 08 800d. E3\n2\nwadg\nWPonooada wawoa,\ngn CJOEOF WobTdEe, SEOFTOONS OpFoJOsoF evwane\n2088 caseo 22500n 083 Nob3woh goavezowoh\nBogooas rowene ot E8\n3e\nedebavotoat. E8 c0osa\n-\nwodn -\nwez eosnen\nR8RaJOOd@d000 2323FTOD\nregaerbade se abas wo0a aayoood w00 waan,\noeni agearwad\nWOW eon tow Auge 3030 C 232Fea a\navoz 63 eeosae - aodoond.",
+      "text_nfc": "8800\n2o N083 WEFN-O\nogabo Adewroa enatorbode. eg Aosawa yNtoo\nWOdFRen wodes deea agoon, 3,300000000\nasaeBsoson oeessod. or 3t8 caeyas adowto\nadwadod aboa aoaa abod aboon doedd Woaan,\nd\nsgawaa\nday\naocos Sdonsae wda Noda Nogaga\n-\npe3sad 8000 apaba, deebsone dods, boabod Nar\n3gad R0036r0000 wwaade degeab epocve WO0\ncOAD aoton odad.\no\nMary b3003t000 dodtave.\nQAOOWOB boab deoren0a0o0 Wea 83\ne\nsoas\ndeae\npaFTowOD 025000970, owoond, NOWFOO weas\navenen 08 800d. E3\n2\nwadg\nWPonooada wawoa,\ngn CJOEOF WobTdEe, SEOFTOONS OpFoJOsoF evwane\n2088 caseo 22500n 083 Nob3woh goavezowoh\nBogooas rowene ot E8\n3e\nedebavotoat. E8 c0osa\n-\nwodn -\nwez eosnen\nR8RaJOOd@d000 2323FTOD\nregaerbade se abas wo0a aayoood w00 waan,\noeni agearwad\nWOW eon tow Auge 3030 C 232Fea a\navoz 63 eeosae - aodoond.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

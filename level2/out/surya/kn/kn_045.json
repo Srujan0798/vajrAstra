@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series G7DEF\nSet – 4\nಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಕೋಡ್‌- ೧೩\nQ.P. Code\n13\nಹಾಜರಿ ಸಂಖ್ಯೆ\nRoll No.\nಅಭ್ಯರ್ಥಿಯು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಕೋಡ್ ಅನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆ ಮುಖಪುಟದಲ್ಲಿ ಅವಶ್ಯವಾಗಿ ಬರೆಯಿರಿ.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಲ್ಲಿ 15 ಮುದ್ರಿತ ಪುಟಗಳಿವೆಯೆಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ. ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯ ಬಲಭಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಕೋಡ್ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಮುಖ ಪುಟದಲ್ಲಿ ಅಭ್ಯರ್ಥಿಯು ಬರೆಯಬೇಕು. ಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಲ್ಲಿ 15 ಪ್ರಶ್ನೆಗಳಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಉತ್ತರಿಸುವುದಕ್ಕೆ ಮೊದಲು ಪ್ರಶ್ನೆಯ ಕ್ರಮ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಯಥಾಸ್ಥಾನದಲ್ಲಿ ಬರೆಯಿರಿ. ಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಲು 15 ನಿಮಿಷಗಳನ್ನು ಕೊಡಲಾಗಿದೆ. ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು 10.15 a.m. ಗೆ ವಿತರಿಸಲಾಗುವುದು. 10.15 a.m. ನಿಂದ 10.30 a.m. ರ ತನಕ ವಿದ್ಯಾರ್ಥಿಗಳು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಬೇಕು ಮತ್ತು ಈ ಅವಧಿಯಲ್ಲಿ ಯಾವುದೇ ಉತ್ತರವನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯಲ್ಲಿ ಬರೆಯಬಾರದು. Please check that this question paper contains 15 printed pages. Q.P. Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate. Please check that this question paper contains 15 questions. Please write down the serial number of the question in the answer-book at the given place before attempting it. 15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period.\nಕನ್ನಡ KANNADA\nಅನುಮತಿಸಲಾದ ಸಮಯ : 3 ಗಂಟೆ\nTime allowed : 3 hours\n13\n5111\n* Page 1 of 16 *\n11\nಗರಿಷ್ಠ ಅಂಕಗಳು : 80\nMaximum Marks : 80\nP.T.O.",
+      "text_nfc": "Series G7DEF\nSet – 4\nಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಕೋಡ್‌- ೧೩\nQ.P. Code\n13\nಹಾಜರಿ ಸಂಖ್ಯೆ\nRoll No.\nಅಭ್ಯರ್ಥಿಯು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಕೋಡ್ ಅನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆ ಮುಖಪುಟದಲ್ಲಿ ಅವಶ್ಯವಾಗಿ ಬರೆಯಿರಿ.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಲ್ಲಿ 15 ಮುದ್ರಿತ ಪುಟಗಳಿವೆಯೆಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ. ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯ ಬಲಭಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಕೋಡ್ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಮುಖ ಪುಟದಲ್ಲಿ ಅಭ್ಯರ್ಥಿಯು ಬರೆಯಬೇಕು. ಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಲ್ಲಿ 15 ಪ್ರಶ್ನೆಗಳಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಉತ್ತರಿಸುವುದಕ್ಕೆ ಮೊದಲು ಪ್ರಶ್ನೆಯ ಕ್ರಮ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಯಥಾಸ್ಥಾನದಲ್ಲಿ ಬರೆಯಿರಿ. ಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಲು 15 ನಿಮಿಷಗಳನ್ನು ಕೊಡಲಾಗಿದೆ. ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು 10.15 a.m. ಗೆ ವಿತರಿಸಲಾಗುವುದು. 10.15 a.m. ನಿಂದ 10.30 a.m. ರ ತನಕ ವಿದ್ಯಾರ್ಥಿಗಳು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಬೇಕು ಮತ್ತು ಈ ಅವಧಿಯಲ್ಲಿ ಯಾವುದೇ ಉತ್ತರವನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯಲ್ಲಿ ಬರೆಯಬಾರದು. Please check that this question paper contains 15 printed pages. Q.P. Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate. Please check that this question paper contains 15 questions. Please write down the serial number of the question in the answer-book at the given place before attempting it. 15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period.\nಕನ್ನಡ KANNADA\nಅನುಮತಿಸಲಾದ ಸಮಯ : 3 ಗಂಟೆ\nTime allowed : 3 hours\n13\n5111\n* Page 1 of 16 *\n11\nಗರಿಷ್ಠ ಅಂಕಗಳು : 80\nMaximum Marks : 80\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

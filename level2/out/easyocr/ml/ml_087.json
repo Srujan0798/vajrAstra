@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_087",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 60,
+    "width": 945,
+    "height": 1496
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        945,
+        1496
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "@ ೧೦೦  (ಝು)೨೦೦ 87 ೨Iಔmಾ . ಹಿಟ೧೦ (ಉUುಹoo]ಣo$ ೧ಂಹ ( ೧೫G೦0$  8ಿSಯ (2a (mJoMomo ಹo6೦ ೨goo lma  ೭ @೧೦೦ಂ3@6pJo Uಂ ೩@೭೯; ಹಿಡ೨Joಲಃoolo elo ಚ೧೧೦ ೧೪ %01 `್} 1 cle moJo   m1ಖು1 ೨ 1ೀmೂ . Q೨೨ಂ1lo೧೦೧ (o6Jmಂ ಹ 9|orod 0<  3@ ೧ ಹಂ೯o   ಹg1o mmoIm3 ಇ೧2 J0ಯ1, ಆGಚqo (@೨೦೦ QJls]oo S* ಟಿಹ೧ (8೦೦| ೨೦}   ಹಿಂrಲಂo (C೨ 81ಂJ @೩)೦b G00Ga01ಹ   @೦ ೧೦೦೧0ಣ Iಯ ಹಿಯ೧ ೦೨೧o 8e ೧0೯೦ @@೨ @ಹ೫೦ ~ noo m 6r3oವ ]ಔm3 .\n೧ I ಉo೦J(r೬ಯ೦೦ಇ೦ ೨೧೦೦ಣ ೭೦೧೧೦೦   ಇ೦೦ mಇ220o   ೈಚm @ ಉolo 8೦೧G೦1 % ೦ 16 ಯ೫1 ಖ% ೧ ೦6 00) ೦J@ತ!ಗ್ Q೨- ೦೧೦ 300 m೧@ IGo Joelo (80 .53 [)6o3೦೦c೩ 89| ( @ (810069 6೧3೦೦ 1ಖ . @Booa ಯ 6o33 ಇ1ರ oJg lo-oso @೦ಊ೧೦' o ೧೦೦೧೦ @೦ ಹ 91೨] o o೧೦೧   ೧೦ eಇ3ma53 ನ೦m @@೦maQ೦೧ mಂ62I೧ಂ ಯ 9|6oಥ 9401೧೧೧೩೦೧೦೦೧ @@ ಉo೩ @೦(ಗ ]ೀದು (7] 6 ಇಉ 0 482 Q @ 6೧ J6n0 . 1sooilom   ೦೦೦ (81002 @mಂಗಿವಿ' @೦೨ Qವlo6o Golooಂಯ @ಉಂ) 9 @೧೦೦   Blolmuo (೦ಯJ೦ Q೦1 ದ8ಬ ಣ೦   ೧೨@್ . ೧೦ನooldmSಣo   @Cಚಡ ಣ೧೧೨೦  ೧೦೦ (ಊ೦೦2೦6s 006i೦ (610 ಟಿSo62Joo1e 99 O6@೦ 8506 ಹ G೮೦ಹ mಂಊ@Iಯ 0c6 |. ೨೧೦  @ಣಚ೦ ೧೧೦   @೦೧೦೧ ೨m೧ 6 @10   @@m೩ಯ೨೧o @6 soilo   (@ಂಹ ೧೨೦೦ | . @೦]ಹa 6(0 ಉ೧೦೧೦ ೭ 6ns೦೦ @ಃ 1೨೦೦@೦ 6Cm @ಇಂ@ಗ್ ೧೦೦ (*3ಚ೦o೨ @oomಚl@ ಡಿ೦bಡ೧೦ .6] 2ಹಜ೯s (81020 ಹಿಂe @೧೨ಚmoಣ Sಚo@ ಪಂeloogo",
+      "text_nfc": "@ ೧೦೦  (ಝು)೨೦೦ 87 ೨Iಔmಾ . ಹಿಟ೧೦ (ಉUುಹoo]ಣo$ ೧ಂಹ ( ೧೫G೦0$  8ಿSಯ (2a (mJoMomo ಹo6೦ ೨goo lma  ೭ @೧೦೦ಂ3@6pJo Uಂ ೩@೭೯; ಹಿಡ೨Joಲಃoolo elo ಚ೧೧೦ ೧೪ %01 `್} 1 cle moJo   m1ಖು1 ೨ 1ೀmೂ . Q೨೨ಂ1lo೧೦೧ (o6Jmಂ ಹ 9|orod 0<  3@ ೧ ಹಂ೯o   ಹg1o mmoIm3 ಇ೧2 J0ಯ1, ಆGಚqo (@೨೦೦ QJls]oo S* ಟಿಹ೧ (8೦೦| ೨೦}   ಹಿಂrಲಂo (C೨ 81ಂJ @೩)೦b G00Ga01ಹ   @೦ ೧೦೦೧0ಣ Iಯ ಹಿಯ೧ ೦೨೧o 8e ೧0೯೦ @@೨ @ಹ೫೦ ~ noo m 6r3oವ ]ಔm3 .\n೧ I ಉo೦J(r೬ಯ೦೦ಇ೦ ೨೧೦೦ಣ ೭೦೧೧೦೦   ಇ೦೦ mಇ220o   ೈಚm @ ಉolo 8೦೧G೦1 % ೦ 16 ಯ೫1 ಖ% ೧ ೦6 00) ೦J@ತ!ಗ್ Q೨- ೦೧೦ 300 m೧@ IGo Joelo (80 .53 [)6o3೦೦c೩ 89| ( @ (810069 6೧3೦೦ 1ಖ . @Booa ಯ 6o33 ಇ1ರ oJg lo-oso @೦ಊ೧೦' o ೧೦೦೧೦ @೦ ಹ 91೨] o o೧೦೧   ೧೦ eಇ3ma53 ನ೦m @@೦maQ೦೧ mಂ62I೧ಂ ಯ 9|6oಥ 9401೧೧೧೩೦೧೦೦೧ @@ ಉo೩ @೦(ಗ ]ೀದು (7] 6 ಇಉ 0 482 Q @ 6೧ J6n0 . 1sooilom   ೦೦೦ (81002 @mಂಗಿವಿ' @೦೨ Qವlo6o Golooಂಯ @ಉಂ) 9 @೧೦೦   Blolmuo (೦ಯJ೦ Q೦1 ದ8ಬ ಣ೦   ೧೨@್ . ೧೦ನooldmSಣo   @Cಚಡ ಣ೧೧೨೦  ೧೦೦ (ಊ೦೦2೦6s 006i೦ (610 ಟಿSo62Joo1e 99 O6@೦ 8506 ಹ G೮೦ಹ mಂಊ@Iಯ 0c6 |. ೨೧೦  @ಣಚ೦ ೧೧೦   @೦೧೦೧ ೨m೧ 6 @10   @@m೩ಯ೨೧o @6 soilo   (@ಂಹ ೧೨೦೦ | . @೦]ಹa 6(0 ಉ೧೦೧೦ ೭ 6ns೦೦ @ಃ 1೨೦೦@೦ 6Cm @ಇಂ@ಗ್ ೧೦೦ (*3ಚ೦o೨ @oomಚl@ ಡಿ೦bಡ೧೦ .6] 2ಹಜ೯s (81020 ಹಿಂe @೧೨ಚmoಣ Sಚo@ ಪಂeloogo",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

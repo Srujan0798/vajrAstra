@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_015",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 499,
+    "width": 1462,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1462,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೪೪2\n\nके\n\n92೬\n09:52.\n\n036\nODF\nO20\n\n(9.0\n\n9.9 9\nABE\n\nARE\naL 5D\n229\nary\nALE\na20\na295\n\n೩ ೭೩\n೩೭೫\n\n?\n8\n\n6\n\n(939\ner\nOR\nOF\n50\n\n25\n2?\n\nಒಕ್ಕುದು\n\nಬಸವಣ್ಣನವರ ಹೆಚ್ಚಿಗೆ ದೊರೆತವಚನಗಳು\n\nಹೆಚ್ಚಾದುದು, ರಾಶಿಯಾದುದು\n\nಕೊಳುವೋದ ಲಿಂಗ ಕೊಳ್ಳಲು ಹೋದ ಲಿಂಗ\n\nತವಕ\n\nಒಪ್ಪವ ಮಾಡು\nದಂದುಗ\nಮರುಜೀವಣಿ\nಪುಟವಿಡು\nಕಿಂಕಲ\n\nಭೇತಾಳ\nನೇತಾಳ\nತಾರಣ\n\nकट\n\nದೃಷ್ಟಾಣ, ಪ್ರತ್ಯಕ್ಷ ಉದಾಹರಣೆ\nಆತುರ\n\nAO ಮಾಡು, ಹೊಂದಿಸಿಕೋ\nहम\n\nಸಂಜೀವಿನಿ\n\nಕಾಂತಿ\n\nಕಿಂಕರ\n\nಭೂತ\n\nತಂಪು\n\nಪ್ರತ್ಯಕ್ಷ ಇದಿರು\n\nಆರಂಭಿಸಿ\n",
+      "text_nfc": "೪೪2\n\nके\n\n92೬\n09:52.\n\n036\nODF\nO20\n\n(9.0\n\n9.9 9\nABE\n\nARE\naL 5D\n229\nary\nALE\na20\na295\n\n೩ ೭೩\n೩೭೫\n\n?\n8\n\n6\n\n(939\ner\nOR\nOF\n50\n\n25\n2?\n\nಒಕ್ಕುದು\n\nಬಸವಣ್ಣನವರ ಹೆಚ್ಚಿಗೆ ದೊರೆತವಚನಗಳು\n\nಹೆಚ್ಚಾದುದು, ರಾಶಿಯಾದುದು\n\nಕೊಳುವೋದ ಲಿಂಗ ಕೊಳ್ಳಲು ಹೋದ ಲಿಂಗ\n\nತವಕ\n\nಒಪ್ಪವ ಮಾಡು\nದಂದುಗ\nಮರುಜೀವಣಿ\nಪುಟವಿಡು\nಕಿಂಕಲ\n\nಭೇತಾಳ\nನೇತಾಳ\nತಾರಣ\n\nकट\n\nದೃಷ್ಟಾಣ, ಪ್ರತ್ಯಕ್ಷ ಉದಾಹರಣೆ\nಆತುರ\n\nAO ಮಾಡು, ಹೊಂದಿಸಿಕೋ\nहम\n\nಸಂಜೀವಿನಿ\n\nಕಾಂತಿ\n\nಕಿಂಕರ\n\nಭೂತ\n\nತಂಪು\n\nಪ್ರತ್ಯಕ್ಷ ಇದಿರು\n\nಆರಂಭಿಸಿ\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

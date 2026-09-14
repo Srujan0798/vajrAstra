@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_091",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0025pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT 6\nN Doee\n5LLDITG SIT\nGLDOUBODOU OIGOOTLITLD 2L6T 6\nSIGIJOUd\n5LDLD5TO JIT aMOQUGOTT LIITLITOU QILDISLD SLLBSGT Bip GaiofluBLDulL5\nLI6erfla 500055160m\nBOOTLITGOLD LDoofl35GBWILDDD OFUQIID Qu5hi5DDgpiD 25L\nTN_GOVT_BOTANY_XIL_Page I-VIII Front.indd 1\n31/12/2022 13:59:34",
+      "text_nfc": "IT 6\nN Doee\n5LLDITG SIT\nGLDOUBODOU OIGOOTLITLD 2L6T 6\nSIGIJOUd\n5LDLD5TO JIT aMOQUGOTT LIITLITOU QILDISLD SLLBSGT Bip GaiofluBLDulL5\nLI6erfla 500055160m\nBOOTLITGOLD LDoofl35GBWILDDD OFUQIID Qu5hi5DDgpiD 25L\nTN_GOVT_BOTANY_XIL_Page I-VIII Front.indd 1\n31/12/2022 13:59:34",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

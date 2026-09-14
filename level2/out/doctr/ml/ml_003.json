@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_003",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 7,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "5.\nomloleojm NIOT C GaDB6839100 0Bo08leno 08696morolm ST\n0001010000 6X00060610105J010) n090)d.\n7x1=7\n(i)\n'and' nom ABOOlo03 NopQnso (ogpOOnlBo n8006m ?\n(A) GOmOl\n(B) OIQW00\n(C) oinD6mo\n(D) GGTO83\n(ii)\n000008 nom IBOOlon ngoldelo0o nBO ?\n(A) oOol\n(B) solom\n(C) oolod\n(D) oolo\n(iii) 'censo nom AIBOOlona 0odoso Gdono 00010108 n8006m ?\n(A) B1006\n(B) GOOPIOnDo\n(C) BO\n(D) ODOo\n(iv) Gosl-00)s1 nom QD00)b3)0S 0odopo @doajopmro\ncomploleo)ma.colde 0B006m ?\n(A) 0le20o-69a1\n(B) 630) MobnODes\n(C) 00001-06m\nDID\n(D)\n6nJ20l-GBn9\n(v)\ndennol' nom ABOolo0 codoo 0l0n0l0.191010 OoJo\n0B0?\n(A) de/nasy@m GOnO\n(B) oerorolond GOnO\n(C) Oelano G1O00lo)0\n(D) oelo 600603)33 GOnO\n(vi) OlOo nom BOo0 mompdon OBo GOEDOYO nBo nBO ?\n(A) onel\n(B) Qudoro@ma/(Oo\n(C) ml908\n(D) alods\n(vii) 'BO Dep60 nom (ndonorlod (JGOD0l.o)am 6382130 nBO ?\n(A) UBOo\n(B) UDBOO\n(C) mlôsoo\n(D) Boen\n12\n8\n[]",
+      "text_nfc": "5.\nomloleojm NIOT C GaDB6839100 0Bo08leno 08696morolm ST\n0001010000 6X00060610105J010) n090)d.\n7x1=7\n(i)\n'and' nom ABOOlo03 NopQnso (ogpOOnlBo n8006m ?\n(A) GOmOl\n(B) OIQW00\n(C) oinD6mo\n(D) GGTO83\n(ii)\n000008 nom IBOOlon ngoldelo0o nBO ?\n(A) oOol\n(B) solom\n(C) oolod\n(D) oolo\n(iii) 'censo nom AIBOOlona 0odoso Gdono 00010108 n8006m ?\n(A) B1006\n(B) GOOPIOnDo\n(C) BO\n(D) ODOo\n(iv) Gosl-00)s1 nom QD00)b3)0S 0odopo @doajopmro\ncomploleo)ma.colde 0B006m ?\n(A) 0le20o-69a1\n(B) 630) MobnODes\n(C) 00001-06m\nDID\n(D)\n6nJ20l-GBn9\n(v)\ndennol' nom ABOolo0 codoo 0l0n0l0.191010 OoJo\n0B0?\n(A) de/nasy@m GOnO\n(B) oerorolond GOnO\n(C) Oelano G1O00lo)0\n(D) oelo 600603)33 GOnO\n(vi) OlOo nom BOo0 mompdon OBo GOEDOYO nBo nBO ?\n(A) onel\n(B) Qudoro@ma/(Oo\n(C) ml908\n(D) alods\n(vii) 'BO Dep60 nom (ndonorlod (JGOD0l.o)am 6382130 nBO ?\n(A) UBOo\n(B) UDBOO\n(C) mlôsoo\n(D) Boen\n12\n8\n[]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

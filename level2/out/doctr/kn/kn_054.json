@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "230800Ne3\n2\naosengadod daesd N00E3o0d\naogd codegswod aoonwod.\nnoders 200OR 8e38 NaFoodoe-\ndedoe TbEds ae Jo03 Santolrs : 17-21\n23 230E06,0e3003FE08 NOCJOEDF8.\nProcessed and proofread by Sunder Hattangadi\nO\nO\nChanakya Niti\npdf was typeset on July 11, 2024\nchANakyanltisort.pdf\n27\nPlease send corrections to sanskrit@cheerful.com",
+      "text_nfc": "230800Ne3\n2\naosengadod daesd N00E3o0d\naogd codegswod aoonwod.\nnoders 200OR 8e38 NaFoodoe-\ndedoe TbEds ae Jo03 Santolrs : 17-21\n23 230E06,0e3003FE08 NOCJOEDF8.\nProcessed and proofread by Sunder Hattangadi\nO\nO\nChanakya Niti\npdf was typeset on July 11, 2024\nchANakyanltisort.pdf\n27\nPlease send corrections to sanskrit@cheerful.com",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

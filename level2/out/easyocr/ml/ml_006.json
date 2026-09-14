@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_006",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0007pro_raw.png",
+    "page_index": 0,
+    "width": 368,
+    "height": 527
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        368,
+        527
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "I7`7u\"09401.1\now=liruovnle5। mttolaoम॰ Ttallatn Pwrw c =anep DUmU 0810!25~0 \"92+@ी mwinlaian \"mompae ~7\"51 aी + GTxDn Iumocwnim ftyaucaamammla mutaulo n-e २१ D I9@0 7|'40918\" 7+176110 ऋwr-p\"t13=! Ziluxsrie2 I-omlPm - Anvoman <Jim *40030++* 0!2071`9 -.\"517|010 mrJcEu Wyuc tearrila oad rOimnu   oznha multumnacare muoeal rTun ZEo 3737\"20M-0101-\"0 tallTa UInwa२ br oinudwn P-hm4 r7293\"00- mooo tm-lnl ? \"+\"\" =%po\" t0975 Cxaie taleje 2lod LClTurul-5 Iम Disllitom Tummwkl t Dnerc* - 0037-7-2+-9)01 (\"@]=/9014-||5|<~1!0[1 Lwuorievaca Claavialolcam ctoib tt rllic: mloanu5sTitd madopuwm TIDCDu mchnolremnrln Cफruw yaze B9 0u mU tium7=0\"0 700/+205 Ele tpl=50\"- माड ALELS Smmjaualal mlr mislan Denuo @u 7य२ +-LL2=\"10-3 op8 Ern-u tJwlat2wilamट 7[7-497]635] 8\"4m74!57:5 }0\"3 7)0%10( dmaitnwloryJs ा७Jt/Raloltla\nDaawn  ^ aa7l7l -d\"1100.^\n9 8\"\nTlile2\nn + r] c ogtwlepamocloim 70070] c ]६lowJltooaa Tw फlslघ3o3op@ +inllla @ n \"Dx azoctmn ew valla* d Arाla4apl-711011] RफhthIaalenl+ Q mooioil रा pounraodtolal Inlalae-w2॰m 87*4175 d~U!T1?7- nTmlu 010= *364 -*0063 णeml ail tElw-o- बशत mrvaralflslgyeral oracihilion OL Tutare lenIntice l Allcr CDm nle DDEITnllatetlit +Cl iucl () 17!<+9*0 Icrun- EreDted +ep\"+ 0104 ]964 Outro watnaगel clslvaव[or1e 2+=77]{76 7-575]00\"7= mlnnits Tojralg loo 7020201 nl=wगw&2'0 otsruatumnoa mDooasin 01041900 Juorna-r Cा\"zro4an8]@ cr ]Slazo- 67\"07 Torua Jltuगt l रशा cre८7 ८० ३र००श mukraislalelcsmn du7am\"7 Tt ULDYFOYallmt Ral5 एoचloono२tl alumtenl T-GL]-- am।00+7 aणino1 mtnte Dubsunaie फ़wleoololzamस२ IrweoJDo Clslola30e4 firit ICItt nla 3ooleTi futlra 0rr2\"[0*  { miwoloulem Bd\" (41054]10+: Qkalnhe2led nurmo २फmlpl inn 7*-8  शaaama८ oo2mzon easloocio १ie[m]9 Duflsenea leaond olz5iRaia wa+]mp ca lडi२pm Pad Bia eled mut0w027\"+~3!29 7lol ] 01320 <59001710 taDlco2ue २ग nlalleu puran tloolnoy &'5l%3%8 zez raशide॰॰ oflases1e3amsar6 फण४+ aBat oyonamzihal @ulai Elolira Tua boy :ञl nieinltटlउर numumuc aATEO",
+      "text_nfc": "I7`7u\"09401.1\now=liruovnle5। mttolaoम॰ Ttallatn Pwrw c =anep DUmU 0810!25~0 \"92+@ी mwinlaian \"mompae ~7\"51 aी + GTxDn Iumocwnim ftyaucaamammla mutaulo n-e २१ D I9@0 7|'40918\" 7+176110 ऋwr-p\"t13=! Ziluxsrie2 I-omlPm - Anvoman <Jim *40030++* 0!2071`9 -.\"517|010 mrJcEu Wyuc tearrila oad rOimnu   oznha multumnacare muoeal rTun ZEo 3737\"20M-0101-\"0 tallTa UInwa२ br oinudwn P-hm4 r7293\"00- mooo tm-lnl ? \"+\"\" =%po\" t0975 Cxaie taleje 2lod LClTurul-5 Iम Disllitom Tummwkl t Dnerc* - 0037-7-2+-9)01 (\"@]=/9014-||5|<~1!0[1 Lwuorievaca Claavialolcam ctoib tt rllic: mloanu5sTitd madopuwm TIDCDu mchnolremnrln Cफruw yaze B9 0u mU tium7=0\"0 700/+205 Ele tpl=50\"- माड ALELS Smmjaualal mlr mislan Denuo @u 7य२ +-LL2=\"10-3 op8 Ern-u tJwlat2wilamट 7[7-497]635] 8\"4m74!57:5 }0\"3 7)0%10( dmaitnwloryJs ा७Jt/Raloltla\nDaawn  ^ aa7l7l -d\"1100.^\n9 8\"\nTlile2\nn + r] c ogtwlepamocloim 70070] c ]६lowJltooaa Tw फlslघ3o3op@ +inllla @ n \"Dx azoctmn ew valla* d Arाla4apl-711011] RफhthIaalenl+ Q mooioil रा pounraodtolal Inlalae-w2॰m 87*4175 d~U!T1?7- nTmlu 010= *364 -*0063 णeml ail tElw-o- बशत mrvaralflslgyeral oracihilion OL Tutare lenIntice l Allcr CDm nle DDEITnllatetlit +Cl iucl () 17!<+9*0 Icrun- EreDted +ep\"+ 0104 ]964 Outro watnaगel clslvaव[or1e 2+=77]{76 7-575]00\"7= mlnnits Tojralg loo 7020201 nl=wगw&2'0 otsruatumnoa mDooasin 01041900 Juorna-r Cा\"zro4an8]@ cr ]Slazo- 67\"07 Torua Jltuगt l रशा cre८7 ८० ३र००श mukraislalelcsmn du7am\"7 Tt ULDYFOYallmt Ral5 एoचloono२tl alumtenl T-GL]-- am।00+7 aणino1 mtnte Dubsunaie फ़wleoololzamस२ IrweoJDo Clslola30e4 firit ICItt nla 3ooleTi futlra 0rr2\"[0*  { miwoloulem Bd\" (41054]10+: Qkalnhe2led nurmo २फmlpl inn 7*-8  शaaama८ oo2mzon easloocio १ie[m]9 Duflsenea leaond olz5iRaia wa+]mp ca lडi२pm Pad Bia eled mut0w027\"+~3!29 7lol ] 01320 <59001710 taDlco2ue २ग nlalleu puran tloolnoy &'5l%3%8 zez raशide॰॰ oflases1e3amsar6 फण४+ aBat oyonamzihal @ulai Elolira Tua boy :ञl nieinltटlउर numumuc aATEO",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

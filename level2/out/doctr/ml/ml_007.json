@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_007",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0008pro_raw.png",
+    "page_index": 0,
+    "width": 371,
+    "height": 520
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        371,
+        520
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "indabnaa\nmuouleeja)\nainleoto syen n.nceresyncemeaelot\nL miono mlanhes numi 1 cudnasmolmeo Rri maniele genuouls/lesemeamo\no0) enogymlm auondto coomon) aaninao aeoulflesont noslegyms\nna 18 () ab (niminsonleaym),\nand 72 () vesting land lords right to Government on a date to be notified by the Govt. in\nthis behalf in the Gazette, all right, tittle, ard interest of the land owners and intermediaries in\nrespect of holding held by cultivating tenants ( including holders of Kudiyirippus and holders\nof Karaimas) entitled to fixingof lenure under section 13 and in respect of which certificate of\npurchase under sub section (2) of section 59 have not been issued shall, subject to the\nprovisions of this section, vest in the government free from all encumbrances created by the\nland owners and intermediaries and subsisting theteon on the said date. 13-00 Cumnd\nIndeoto fixity of tenure a mruaounajgeejo ruen 50 (2) luaote\nLe-mrudghdleeg auslalogommao ayal afeerssjesomse mmloges eanuead\nngemalago caosmloles Gnunglourlaligonlallgommmjaoa ajslmodia ealeub 0101.1370\najmat mudeconlet mlashimeoan. € sjalaglamot 6) gsaautesjo\naujaubemolecbenjo eee noRp macuedubngo mquaovoenarunge nep\ndjslassmigled\nmime\najemaodl unuenteanglos\nmlaaf.imasaymeoam.\n(momomed 01011970 my acorato ajsloodla ayalaglat mrled moomp0\nmnuaouoajang)\nGnsas\najslaocod\ne0dcuubo\ncuafloleayom\ngalajes\naacumouDo\nencuemteangled maan-Jmesaleleogem muonnasbyalob € sjalohot smonubouto\nnumlaj alsjnuont ulaaym mudgholeng callecons qaa 72 onf tnithote\najsinon macueau0o gon cuejenololioloeyemy/ ajsisions palmooh a0)\nmaanitts muado/len6g0. ngmons Dlleono msop aisimont\nman\nmobelalglagmlage eomato djsimorod agnoeemje djstmouia eal\nagmosememnjo toeson, erumteangios mlaalimaom Genaouto myaawmo\najsimons numlaj med.temeam nt) 72 (mul) auyumuo Oagm) (nmuenaoo\nE nniapaud Gaudond noolaypes 0L0L1970 ad Qn 72 (1) labobo\noncumbaangles meahimaso go.sal, msn ajsluond nubaaym mudghdleeg\ncuoemslolgigonm auonnalmjmolios \"magn ajsimom sarmonushoute aela]\nmotacensmjo\nmoaimoml\n72(1)\n(noobo\nencuenteanglad\nmrueoute\nmlaainlmadeslnloleolecymmjaolesymmjaom sjal\" nem gmemlepent gutengsjammened",
+      "text_nfc": "indabnaa\nmuouleeja)\nainleoto syen n.nceresyncemeaelot\nL miono mlanhes numi 1 cudnasmolmeo Rri maniele genuouls/lesemeamo\no0) enogymlm auondto coomon) aaninao aeoulflesont noslegyms\nna 18 () ab (niminsonleaym),\nand 72 () vesting land lords right to Government on a date to be notified by the Govt. in\nthis behalf in the Gazette, all right, tittle, ard interest of the land owners and intermediaries in\nrespect of holding held by cultivating tenants ( including holders of Kudiyirippus and holders\nof Karaimas) entitled to fixingof lenure under section 13 and in respect of which certificate of\npurchase under sub section (2) of section 59 have not been issued shall, subject to the\nprovisions of this section, vest in the government free from all encumbrances created by the\nland owners and intermediaries and subsisting theteon on the said date. 13-00 Cumnd\nIndeoto fixity of tenure a mruaounajgeejo ruen 50 (2) luaote\nLe-mrudghdleeg auslalogommao ayal afeerssjesomse mmloges eanuead\nngemalago caosmloles Gnunglourlaligonlallgommmjaoa ajslmodia ealeub 0101.1370\najmat mudeconlet mlashimeoan. € sjalaglamot 6) gsaautesjo\naujaubemolecbenjo eee noRp macuedubngo mquaovoenarunge nep\ndjslassmigled\nmime\najemaodl unuenteanglos\nmlaaf.imasaymeoam.\n(momomed 01011970 my acorato ajsloodla ayalaglat mrled moomp0\nmnuaouoajang)\nGnsas\najslaocod\ne0dcuubo\ncuafloleayom\ngalajes\naacumouDo\nencuemteangled maan-Jmesaleleogem muonnasbyalob € sjalohot smonubouto\nnumlaj alsjnuont ulaaym mudgholeng callecons qaa 72 onf tnithote\najsinon macueau0o gon cuejenololioloeyemy/ ajsisions palmooh a0)\nmaanitts muado/len6g0. ngmons Dlleono msop aisimont\nman\nmobelalglagmlage eomato djsimorod agnoeemje djstmouia eal\nagmosememnjo toeson, erumteangios mlaalimaom Genaouto myaawmo\najsimons numlaj med.temeam nt) 72 (mul) auyumuo Oagm) (nmuenaoo\nE nniapaud Gaudond noolaypes 0L0L1970 ad Qn 72 (1) labobo\noncumbaangles meahimaso go.sal, msn ajsluond nubaaym mudghdleeg\ncuoemslolgigonm auonnalmjmolios \"magn ajsimom sarmonushoute aela]\nmotacensmjo\nmoaimoml\n72(1)\n(noobo\nencuenteanglad\nmrueoute\nmlaainlmadeslnloleolecymmjaolesymmjaom sjal\" nem gmemlepent gutengsjammened",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

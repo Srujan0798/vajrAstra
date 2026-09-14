@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_032",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 8,
+    "width": 1537,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1537,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "wwwmontarhotography ৮0 જાડી\n  বিদ্য  wwwborom\nব্যাপন\nwicmehan241 சிலனவா ੧੧੧੧\nટી૧૧ શ્રી ਕਾਰਾ ਰੀਆ\nਸਾਰਾ ੭੦\nૐ  পাাালৈ 00 ૧૧૦૦૦ી\n११९०\nਸੀਆਈ ਸਾਈ વર્ઝવન્ડીના ભયમ 49\nedidion  \n  २१२४ ਚੀ ૪\nਪਾਈ ર૩તી ਹੈਅ 6229 પીનટી ਹਰਾਹੁ  \n०३८\nસ્ટીન્ટીજી\n੧੫ કોમ્વતીકીતા ੭੦ ਤੇ ਦੀਅਰ\nકરીન્ત્ન ৯৮৯ क४४१० শ্রীস্প৷ જી\nજાવીમ ambrareans ਕਾਰ અમીનારી\nবেদ্য  সমিতি મખખાપુરામની\nઆતારીતાવાય 262 ४८७२ niob 22\n৮ ਰਾਂ 1੦ ১ে০ ২০৫১ 221\n৩৫ শ্রীম প্রতি wryo 41 ਤਰ ਸਮਾਇ ੧੧\n2764 10 ੦2 সম্পী નીર્થન્ન দল હરીજીતા ભીમ\nএ  quica ઉભળ 2੦ २४ ਸਾਈ ੭੪   મરી\nheper",
+      "text_nfc": "wwwmontarhotography ৮0 જાડી\n  বিদ্য  wwwborom\nব্যাপন\nwicmehan241 சிலனவா ੧੧੧੧\nટી૧૧ શ્રી ਕਾਰਾ ਰੀਆ\nਸਾਰਾ ੭੦\nૐ  পাাালৈ 00 ૧૧૦૦૦ી\n११९०\nਸੀਆਈ ਸਾਈ વર્ઝવન્ડીના ભયમ 49\nedidion  \n  २१२४ ਚੀ ૪\nਪਾਈ ર૩તી ਹੈਅ 6229 પીનટી ਹਰਾਹੁ  \n०३८\nસ્ટીન્ટીજી\n੧੫ કોમ્વતીકીતા ੭੦ ਤੇ ਦੀਅਰ\nકરીન્ત્ન ৯৮৯ क४४१० শ্রীস্প৷ જી\nજાવીમ ambrareans ਕਾਰ અમીનારી\nবেদ্য  সমিতি મખખાપુરામની\nઆતારીતાવાય 262 ४८७२ niob 22\n৮ ਰਾਂ 1੦ ১ে০ ২০৫১ 221\n৩৫ শ্রীম প্রতি wryo 41 ਤਰ ਸਮਾਇ ੧੧\n2764 10 ੦2 সম্পী નીર્થન્ન দল હરીજીતા ભીમ\nএ  quica ઉભળ 2੦ २४ ਸਾਈ ੭੪   મરી\nheper",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

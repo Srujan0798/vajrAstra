@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_041",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series EFGHS\nSet\n4\nQ.P. Code\n10/$\nRoll No.\nCandidates must write the Q.P. Code on the title page of the answer book.\nsiy TAMIL\nफI६) 9ना64 ३ LO६oगrl Time allowed ३ hours\noDDn DSILIOLIooगT Bठ 80 Masimum Marks 80\n8pफ्ू o४ornछूंछ्लानी॰ ख।म्षlLtiouipp १५ LऊफIऊIफ ना ४ 6ToTop# FfflLITTi BमoD. ollooाnछंछIofloठr 64|60&| LIऊऊछंछी॰ं ७lBI G ऊBLILIL Gsाo Gक६iाo2 Llफ़lso   GलlUiLooL. Gpror  ollooLLऊछIofloat  BoomuLiLLi LIBBऊSl६o aफs   Goloषग Gu 8pंफू olornछंफाofl@ १४ ढllooाnऊंऊनाा २ ढToT GOTGIIT ढाooा# FfflITiऊंBot. ना(७pp OlछTILII Bolpn ७६ठ 6il ६OLL छूँंछएनll६o 6] 6ठा| 62il6ठा 6 flooष ठा६ठठा६०) ६ठठा छ GलliiLl _ojio. Olloणnछूँफ्लIoDनTLi   LIlLILIgDG 1५ फlUOlLIBIBOT   sglऊBLILILLGOTOTOण.   @fनणn छलंक्लIor १०.१५   ऊंछऊं   ७मI GऊमLILG. 10.15 6४ ७pछ 10.30 6_60| @lी6णnछूंक्ला७०ना DLGi Ubऊt Golooor bit. फंफ्ू   ७फफl॰ 621]| I@DL छूंफ्लIoflob नाpफ़Ll LIgloooJuJto ढा(LछऊBLLITgl. Please check that this question paper contains १५ printed pages. Q.P. Code given on the right hand side of the question paper should be written on the title page of the answer book by the candidate. Please check that this question paper contains 1४ questions. Please write down the Serial Number of the question in the answer book at the given place before attempting it. १५ minute time has been allotted to read this question paper. The question paper will be distributed at 1० l5 a.m. From 1O.l5 a.m. to lO.३० a.m. the candidates will read the question paper only and will not write any answer on the answer book during this period. #\n10/$\nPage 1 of १५\nP.T.0",
+      "text_nfc": "Series EFGHS\nSet\n4\nQ.P. Code\n10/$\nRoll No.\nCandidates must write the Q.P. Code on the title page of the answer book.\nsiy TAMIL\nफI६) 9ना64 ३ LO६oगrl Time allowed ३ hours\noDDn DSILIOLIooगT Bठ 80 Masimum Marks 80\n8pफ्ू o४ornछूंछ्लानी॰ ख।म्षlLtiouipp १५ LऊफIऊIफ ना ४ 6ToTop# FfflLITTi BमoD. ollooाnछंछIofloठr 64|60&| LIऊऊछंछी॰ं ७lBI G ऊBLILIL Gsाo Gक६iाo2 Llफ़lso   GलlUiLooL. Gpror  ollooLLऊछIofloat  BoomuLiLLi LIBBऊSl६o aफs   Goloषग Gu 8pंफू olornछंफाofl@ १४ ढllooाnऊंऊनाा २ ढToT GOTGIIT ढाooा# FfflITiऊंBot. ना(७pp OlछTILII Bolpn ७६ठ 6il ६OLL छूँंछएनll६o 6] 6ठा| 62il6ठा 6 flooष ठा६ठठा६०) ६ठठा छ GलliiLl _ojio. Olloणnछूँफ्लIoDनTLi   LIlLILIgDG 1५ फlUOlLIBIBOT   sglऊBLILILLGOTOTOण.   @fनणn छलंक्लIor १०.१५   ऊंछऊं   ७मI GऊमLILG. 10.15 6४ ७pछ 10.30 6_60| @lी6णnछूंक्ला७०ना DLGi Ubऊt Golooor bit. फंफ्ू   ७फफl॰ 621]| I@DL छूंफ्लIoflob नाpफ़Ll LIgloooJuJto ढा(LछऊBLLITgl. Please check that this question paper contains १५ printed pages. Q.P. Code given on the right hand side of the question paper should be written on the title page of the answer book by the candidate. Please check that this question paper contains 1४ questions. Please write down the Serial Number of the question in the answer book at the given place before attempting it. १५ minute time has been allotted to read this question paper. The question paper will be distributed at 1० l5 a.m. From 1O.l5 a.m. to lO.३० a.m. the candidates will read the question paper only and will not write any answer on the answer book during this period. #\n10/$\nPage 1 of १५\nP.T.0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

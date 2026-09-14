@@ -1,0 +1,41 @@
+{
+  "page_id": "te_021",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1647,
+    "height": 2223
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1647,
+        2223
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "చరిత్ర మరియు రాజనీతి శాస్త్ర౦\nపదవ తరగతి\nਸਲਵਾ মহী মহাদৌজাজায়\nपुस्तकांचं\nगाव",
+      "text_nfc": "చరిత్ర మరియు రాజనీతి శాస్త్ర౦\nపదవ తరగతి\nਸਲਵਾ মহী মহাদৌজাজায়\nपुस्तकांचं\nगाव",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

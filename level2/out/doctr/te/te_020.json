@@ -1,0 +1,41 @@
+{
+  "page_id": "te_020",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0020pro_raw.pdf",
+    "page_index": 85,
+    "width": 1644,
+    "height": 2212
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        2212
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "awtos 8 DOOsS 280 8800 DoseDOs 3a55 Sorg, 0E-411 004.\nRISNT E agerd\nvietyren seril Falct (dg HTEZIH)\n7 82.00",
+      "text_nfc": "awtos 8 DOOsS 280 8800 DoseDOs 3a55 Sorg, 0E-411 004.\nRISNT E agerd\nvietyren seril Falct (dg HTEZIH)\n7 82.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

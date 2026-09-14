@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.6 நைட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\n\nR்ப 08மஒே ம்முலர் 7ஏம\n\nI099ஓடு\n. कि ctl . aA प09009क171109109\n0तट+ 0 + €- 0 त+ ONHZ|\" 2 FF OMe 9 s+ ON कफ @o3G @\nठाण009[फु GGagigi ही ,\ni}\n. . 1ம20 कट Measeulinng\nON ONZ | गण @ 19 & F 09 IM Ie 9 a ON ம ஐ8 | - ஏ a\nஎமடு agaaigi j ‘\nI099ஓடு\n2 g GG 1 009 mEgEFopiie 3 aie\nO+Oddc+ ‘ONF <‘(‘oN)ddc ४५०७७ ४ bt ON [ras மூலர)சல\nture GgihnAn 73\n18 Deasefengass9\nL\n€ 7 FC nat € 7 igo8@ Ir 1dias (७)\nONC <-'O‘N + ONC WEF 0० MIE 9 e+ ON 9ஒல Jo\nGol Faigioag! 109%. 1G nc\nI099ஓடு\n; दर ८७. ८ , ८, ८ ONT + Tia@s109G  GoscsgiNarg (bin ON Deasete afi ntas\nO HZ + OSH®NZ + (OS) ed < OS HE+ OS2A7+ “ONPNZ bane GGaggi\n[G7 1o09219\nO'HZ + ON ‘ON'HN | \"0919E — ஏூுy@t I+ OM மெவஒகேழுட்வம\n09 Gdaggi\nCSE ius usehioosn Gime comets யா.n.mune mne\nGing Bquoete\n\n21-12-2022 12:90:04 | |\n\nXII U3-P-block.indd 73\n",
+      "text_nfc": "3.1.6 நைட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\n\nR்ப 08மஒே ம்முலர் 7ஏம\n\nI099ஓடு\n. कि ctl . aA प09009क171109109\n0तट+ 0 + €- 0 त+ ONHZ|\" 2 FF OMe 9 s+ ON कफ @o3G @\nठाण009[फु GGagigi ही ,\ni}\n. . 1ம20 कट Measeulinng\nON ONZ | गण @ 19 & F 09 IM Ie 9 a ON ம ஐ8 | - ஏ a\nஎமடு agaaigi j ‘\nI099ஓடு\n2 g GG 1 009 mEgEFopiie 3 aie\nO+Oddc+ ‘ONF <‘(‘oN)ddc ४५०७७ ४ bt ON [ras மூலர)சல\nture GgihnAn 73\n18 Deasefengass9\nL\n€ 7 FC nat € 7 igo8@ Ir 1dias (७)\nONC <-'O‘N + ONC WEF 0० MIE 9 e+ ON 9ஒல Jo\nGol Faigioag! 109%. 1G nc\nI099ஓடு\n; दर ८७. ८ , ८, ८ ONT + Tia@s109G  GoscsgiNarg (bin ON Deasete afi ntas\nO HZ + OSH®NZ + (OS) ed < OS HE+ OS2A7+ “ONPNZ bane GGaggi\n[G7 1o09219\nO'HZ + ON ‘ON'HN | \"0919E — ஏூுy@t I+ OM மெவஒகேழுட்வம\n09 Gdaggi\nCSE ius usehioosn Gime comets யா.n.mune mne\nGing Bquoete\n\n21-12-2022 12:90:04 | |\n\nXII U3-P-block.indd 73\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

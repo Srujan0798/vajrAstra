@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_016",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 0,
+    "width": 1077,
+    "height": 1699
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1077,
+        1699
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మెదిక్టియిరాచేంది కులుచిరా మోఆకి 52 ఐంఐు ప్రలస్తిఐడియిన శయ్యం కిఇ్యాణ్ణ రసి\nయసోలా ఆళ్ట\nశెనాsటక కెలు నాపిక్యె అరాడిమి శుళు భవన; లువఃస్కరా , మెంగిళుూరు 6",
+      "text_nfc": "మెదిక్టియిరాచేంది కులుచిరా మోఆకి 52 ఐంఐు ప్రలస్తిఐడియిన శయ్యం కిఇ్యాణ్ణ రసి\nయసోలా ఆళ్ట\nశెనాsటక కెలు నాపిక్యె అరాడిమి శుళు భవన; లువఃస్కరా , మెంగిళుూరు 6",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

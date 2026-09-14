@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "series g7def set\nಪ್ರಶ್ನ ಪತ್ರಿಕೆ ১১৩০ তে ୦୨ 13\nqp code\nಹಾಜರಿ ಸ೦ಖ್ಯೆ ಅಭ್ಯ ರ್ಥಿಯು ಪ್ರಶ್ನ ಪತ್ರಿಕೆ ಕೋಡ್ ಅನ್ನು ಉತರ\nroll no ಪತ್ರಿಕೆ ಮುಖಪುಟದಲ್ಲಿ ಅವಶ್ಯ  ৩১ யஸ்\ncandidates must write the qp code on\nthe title page of the answerbook\nਦੇ ಪ್ರಶ್ನ ಪತ್ರಿ ಕೆಯಲ್ಲಿ 15 ಮುದ್ರಿತ ಪುಟಗಳಿವೆಯೆ೦ಬುದನ್ನು ಪರಿಶೀಲಿಸಿ\nಪ್ರಶ್ನ ಪತ್ರಿ சிலி ಬಲಭಾಗದಲ್ಲಿ ಕೊಟಿರುವ ਠੰਠਞਠਤਾ ಸ೦ಖ್ಯೆ ಯನ್ನು ಉತರ ಪತ್ರಿ ಕೆಯ ಮುಖ ಪುಟದಲ್ಲಿ\n૭3\nಅಭ್ಯ ರ್ಥಿಯು ಬರೆಯಬೇಕು\nಪ್ರಶ್ನ ಪತ್ರಿ ಕೆಯಲ್ಲಿ 15 ಪ್ರಶ್ನೆಗಳಿವೆ ಎ೦ಬುದನ್ನು ಗಮನಿಸಿ\nಉತ್ತರಿಸುವುದಕ್ಕೆ ಮೊದಲು স্ত ಶ್ನೆಯ ಕ್ರಮ ಸ೦ಖ್ಯೆ ಯನ್ನು ಉತ್ತರ ಪತ್ರಿ ಕೆಯ ಯಥಾಸ್ಥಾನದಲ್ಲಿ ಬರೆಯಿರಿ\nতত ಪತ್ರಿ ಕೆಯನ್ನು கலக்கில 15 ನಿಮಿಷಗಳನ್ನು ಕೊಡಲಾಗಿದೆ ಪ್ಯಶ್ನ ಪತ್ರಿ ಕೆಯನ್ನು 1015 am\nਨੰ ವಿತರಿಸಲಾಗುವುದು 1015 am ನಿ೦ದ 1030 am ੦ ਭੰਨਠ ৪১তে  oftso ಪ್ರಶ್ನ ಪತ್ರಿ ಕೆಯನ್ನು\nಓದಿಕೊಳ್ಳಬೇಕು ಮತು ਦੇ ಅವಧಿಯಲ್ಲಿ ಯಾವುದೇ ಉತ್ತರವನ್ನು ಉತ್ತರ ಪತ್ರಿ ಕೆಯಲ್ಲಿ ಬರೆಯಬಾರದು\nplease check that this question paper contains 15 printed pages\nqp code given ണ്ണ the right hand side of the question paper should be\nwritten on the title page of the answerbook by the candidate\nplease check that this question paper contains 15 questions\nplease write down the serial number of the question the answer\nbook at the given place before attempting it\n15 minute time has been allotted to read this question paper the question\npaper will be distributed at 1015 am from 1015 am to 1030 am the\ncandidates will read the question paper only and will not write any answer\nഠവ the answerbook during this period\nkannada\nಅನುಮತಿಸಲಾದ ಸಮಯ ૧ ಗ೦ಟೆ ਠੱਠਕ ಅಂಕಗಳು 80\ntime allowed ૧ hours maximum marks 80\n13 5111 ਨੇ page 1of 16 pto",
+      "text_nfc": "series g7def set\nಪ್ರಶ್ನ ಪತ್ರಿಕೆ ১১৩০ তে ୦୨ 13\nqp code\nಹಾಜರಿ ಸ೦ಖ್ಯೆ ಅಭ್ಯ ರ್ಥಿಯು ಪ್ರಶ್ನ ಪತ್ರಿಕೆ ಕೋಡ್ ಅನ್ನು ಉತರ\nroll no ಪತ್ರಿಕೆ ಮುಖಪುಟದಲ್ಲಿ ಅವಶ್ಯ  ৩১ யஸ்\ncandidates must write the qp code on\nthe title page of the answerbook\nਦੇ ಪ್ರಶ್ನ ಪತ್ರಿ ಕೆಯಲ್ಲಿ 15 ಮುದ್ರಿತ ಪುಟಗಳಿವೆಯೆ೦ಬುದನ್ನು ಪರಿಶೀಲಿಸಿ\nಪ್ರಶ್ನ ಪತ್ರಿ சிலி ಬಲಭಾಗದಲ್ಲಿ ಕೊಟಿರುವ ਠੰਠਞਠਤਾ ಸ೦ಖ್ಯೆ ಯನ್ನು ಉತರ ಪತ್ರಿ ಕೆಯ ಮುಖ ಪುಟದಲ್ಲಿ\n૭3\nಅಭ್ಯ ರ್ಥಿಯು ಬರೆಯಬೇಕು\nಪ್ರಶ್ನ ಪತ್ರಿ ಕೆಯಲ್ಲಿ 15 ಪ್ರಶ್ನೆಗಳಿವೆ ಎ೦ಬುದನ್ನು ಗಮನಿಸಿ\nಉತ್ತರಿಸುವುದಕ್ಕೆ ಮೊದಲು স্ত ಶ್ನೆಯ ಕ್ರಮ ಸ೦ಖ್ಯೆ ಯನ್ನು ಉತ್ತರ ಪತ್ರಿ ಕೆಯ ಯಥಾಸ್ಥಾನದಲ್ಲಿ ಬರೆಯಿರಿ\nতত ಪತ್ರಿ ಕೆಯನ್ನು கலக்கில 15 ನಿಮಿಷಗಳನ್ನು ಕೊಡಲಾಗಿದೆ ಪ್ಯಶ್ನ ಪತ್ರಿ ಕೆಯನ್ನು 1015 am\nਨੰ ವಿತರಿಸಲಾಗುವುದು 1015 am ನಿ೦ದ 1030 am ੦ ਭੰਨਠ ৪১তে  oftso ಪ್ರಶ್ನ ಪತ್ರಿ ಕೆಯನ್ನು\nಓದಿಕೊಳ್ಳಬೇಕು ಮತು ਦੇ ಅವಧಿಯಲ್ಲಿ ಯಾವುದೇ ಉತ್ತರವನ್ನು ಉತ್ತರ ಪತ್ರಿ ಕೆಯಲ್ಲಿ ಬರೆಯಬಾರದು\nplease check that this question paper contains 15 printed pages\nqp code given ണ്ണ the right hand side of the question paper should be\nwritten on the title page of the answerbook by the candidate\nplease check that this question paper contains 15 questions\nplease write down the serial number of the question the answer\nbook at the given place before attempting it\n15 minute time has been allotted to read this question paper the question\npaper will be distributed at 1015 am from 1015 am to 1030 am the\ncandidates will read the question paper only and will not write any answer\nഠവ the answerbook during this period\nkannada\nಅನುಮತಿಸಲಾದ ಸಮಯ ૧ ಗ೦ಟೆ ਠੱਠਕ ಅಂಕಗಳು 80\ntime allowed ૧ hours maximum marks 80\n13 5111 ਨੇ page 1of 16 pto",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

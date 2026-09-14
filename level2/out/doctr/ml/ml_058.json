@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_058",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+    "page_index": 231,
+    "width": 932,
+    "height": 1415
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        932,
+        1415
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "228\nolgoiad Gopoolcog\n00000 Delaosogmgda.106el Qalm Gooml. ojeuno\nQOO ejo16805000000910 09900100 00080001 0000000\nnyocom.aolospel.\n(80601090 (B1O agla..890121 00010o\nBmOo 0001600 So; eo0jo0lomo olologlerlob, 00160\n0lad eo mwmo.\nGG 0 O6 60B60 691600.\nmo01 6O1O1 000m 0021os\n6 30080gGa30.8r0?\"\n000ld (910 S 51O1O) 2560 (on100 601081\na\nDoadcmslo ag900100 00080 moound 000158 soomle\n@00J0o 00J0sm 00100 egeiloo0o 0010\nn0\nood 0 mellooomomlob 000100 000000 olam\"amoqo\na menjogisle\n\"moBogom 009104\"\n6000000\n000180S asgne aglodmlmo (O 8000 0069 aJolo\ncngondo em2oloo, 60000 mo@agoosg0o 0100000\n6008m0, m160B00 a0m0 006000 amnolamomowlolago,\n900033 60000 Qleloo wmla000mm0 m1603 Co ooom.\nOnplaemomn 040108 e1sl0860 mo 163 Dode G0\noo.\n0602200, 660000 Gomlannejo 60800010 601\nQo0d 006000 G 00001° 000018lagmlogimogamoom Q10\n000n0.\nalgoajeinje08gp0 B0G@00o amols OS000.\n000n00 Q1o03lqasQ olaooooloer GoJodb lomboQo O01\ne10jogo 00GB000 060 0010m0.\nogmls 2521000\nDm14000p0n100j0001 0100 a10moGa-10ejo O 000091100\nnolacole. o0:n10o 81008000 200m eool@gonldeid00\n80 d 00. Goimoaalamosooomelejo 00.01180000 000000\neneloo0o mumol.agacolg\nGo10elasm osle1080900\nGO QJ6MO muulaolayorb, 60000 0000010 mujooloomla\nB0Q mylag1ae000g000101840.\nnuJn00001 089ea1o\ne00 00J0022 603 my1 nonolmo 060800 210916m0 009\n0015o0d mumoleem 00)m0 m160300 0.20816018000.\ndo0",
+      "text_nfc": "228\nolgoiad Gopoolcog\n00000 Delaosogmgda.106el Qalm Gooml. ojeuno\nQOO ejo16805000000910 09900100 00080001 0000000\nnyocom.aolospel.\n(80601090 (B1O agla..890121 00010o\nBmOo 0001600 So; eo0jo0lomo olologlerlob, 00160\n0lad eo mwmo.\nGG 0 O6 60B60 691600.\nmo01 6O1O1 000m 0021os\n6 30080gGa30.8r0?\"\n000ld (910 S 51O1O) 2560 (on100 601081\na\nDoadcmslo ag900100 00080 moound 000158 soomle\n@00J0o 00J0sm 00100 egeiloo0o 0010\nn0\nood 0 mellooomomlob 000100 000000 olam\"amoqo\na menjogisle\n\"moBogom 009104\"\n6000000\n000180S asgne aglodmlmo (O 8000 0069 aJolo\ncngondo em2oloo, 60000 mo@agoosg0o 0100000\n6008m0, m160B00 a0m0 006000 amnolamomowlolago,\n900033 60000 Qleloo wmla000mm0 m1603 Co ooom.\nOnplaemomn 040108 e1sl0860 mo 163 Dode G0\noo.\n0602200, 660000 Gomlannejo 60800010 601\nQo0d 006000 G 00001° 000018lagmlogimogamoom Q10\n000n0.\nalgoajeinje08gp0 B0G@00o amols OS000.\n000n00 Q1o03lqasQ olaooooloer GoJodb lomboQo O01\ne10jogo 00GB000 060 0010m0.\nogmls 2521000\nDm14000p0n100j0001 0100 a10moGa-10ejo O 000091100\nnolacole. o0:n10o 81008000 200m eool@gonldeid00\n80 d 00. Goimoaalamosooomelejo 00.01180000 000000\neneloo0o mumol.agacolg\nGo10elasm osle1080900\nGO QJ6MO muulaolayorb, 60000 0000010 mujooloomla\nB0Q mylag1ae000g000101840.\nnuJn00001 089ea1o\ne00 00J0022 603 my1 nonolmo 060800 210916m0 009\n0015o0d mumoleem 00)m0 m160300 0.20816018000.\ndo0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

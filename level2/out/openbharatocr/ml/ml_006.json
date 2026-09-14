@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_006",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0007pro_raw.png",
+    "page_index": 0,
+    "width": 368,
+    "height": 527
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        368,
+        527
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ഒക. വിലകള്‍? മിഡി ബദ ഷി\nसाया വനില cement ഈ നാഫി som snot\nക വ ന nes meme വിടൂല അ\nയ ക വം tn കല സങ്ക\nണ്‌ ക്യ mary agertserncemye ലാ ല്‍ സബ\nശി ക്‌ പക്ഷം दान son\nകി\nTT തഫ്‌ न കം\nന दा दिनो പരിയങ്ങൾ\nपान ആവെ दि രമണന്‌ ബിബ\nവടു ഫലി ബൂം കളും. അവയവ ഈ\nपा. canine ना so\nसमन दीन जल പുന\nnae അനസ്‌ കൊന്നു\nഴ്‌ മുഷി നിയമം വയ വച 2 ch, കേളത്തിലുണ്യിലുന്\nmn ര കമായ റിച്ം വച മുടി ന വരെ കൂടിയായി\nകുള या അത്തിൽ കത്തില്‍\nഉണ്ടായിുന്ന രണ്ട്‌ കൂടിയായികേളാണ്‌ കാണം വേറുമ്പാട്ടം എന്നിവ. എ\nകൊ nyo ബടെ sangeet syste അവസാന ചല\nuni (9 aes (natn vod A oan\nവി ote peo yk OLLIE ശേഷം noo\nഴിാജ്ടും ബൃഷ്റ്ാന്‍ പാലു പിന്ന സൃഷ എടു\nउस അറു meved ഡല ശേഷു ആധി\nഒൃഷ്ല്ുു “ചൂടായി ലോ അസലുവയി കമ്പലക്കണമാണ്‌.\nബാത്‌ meee ആധാലങ്ങളല്‍ കൂടിടയിയാധ जन പിക്‌\nങു ജവകാശങ്ങു pene\nങ്ങു വച () പക്ഷം കൂടാര हक ഗല ര്‌\naso get നലകി 1 gant 2 വരയുള്ള caida വ്യാസ\nഷ്ടി nace മില യാതൊരു ayia മയും വിണ്ടു\nप्र യില്‍ serosa]\nബല അവാം ഈ വച്ചു (ഡു\nകിക്കും ae) വീടന്ദുകമന്‌ തിഷ്‌\nഭഖഷ്ുമുണ്ടെമി വച്ച്‌ og! 2 വരയുള്ള വച്പ്ചകളില്‍ yr ചെയിത\n",
+      "text_nfc": "ഒക. വിലകള്‍? മിഡി ബദ ഷി\nसाया വനില cement ഈ നാഫി som snot\nക വ ന nes meme വിടൂല അ\nയ ക വം tn കല സങ്ക\nണ്‌ ക്യ mary agertserncemye ലാ ല്‍ സബ\nശി ക്‌ പക്ഷം दान son\nകി\nTT തഫ്‌ न കം\nന दा दिनो പരിയങ്ങൾ\nपान ആവെ दि രമണന്‌ ബിബ\nവടു ഫലി ബൂം കളും. അവയവ ഈ\nपा. canine ना so\nसमन दीन जल പുന\nnae അനസ്‌ കൊന്നു\nഴ്‌ മുഷി നിയമം വയ വച 2 ch, കേളത്തിലുണ്യിലുന്\nmn ര കമായ റിച്ം വച മുടി ന വരെ കൂടിയായി\nകുള या അത്തിൽ കത്തില്‍\nഉണ്ടായിുന്ന രണ്ട്‌ കൂടിയായികേളാണ്‌ കാണം വേറുമ്പാട്ടം എന്നിവ. എ\nകൊ nyo ബടെ sangeet syste അവസാന ചല\nuni (9 aes (natn vod A oan\nവി ote peo yk OLLIE ശേഷം noo\nഴിാജ്ടും ബൃഷ്റ്ാന്‍ പാലു പിന്ന സൃഷ എടു\nउस അറു meved ഡല ശേഷു ആധി\nഒൃഷ്ല്ുു “ചൂടായി ലോ അസലുവയി കമ്പലക്കണമാണ്‌.\nബാത്‌ meee ആധാലങ്ങളല്‍ കൂടിടയിയാധ जन പിക്‌\nങു ജവകാശങ്ങു pene\nങ്ങു വച () പക്ഷം കൂടാര हक ഗല ര്‌\naso get നലകി 1 gant 2 വരയുള്ള caida വ്യാസ\nഷ്ടി nace മില യാതൊരു ayia മയും വിണ്ടു\nप्र യില്‍ serosa]\nബല അവാം ഈ വച്ചു (ഡു\nകിക്കും ae) വീടന്ദുകമന്‌ തിഷ്‌\nഭഖഷ്ുമുണ്ടെമി വച്ച്‌ og! 2 വരയുള്ള വച്പ്ചകളില്‍ yr ചെയിത\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

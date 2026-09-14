@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_040",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+    "page_index": 137,
+    "width": 973,
+    "height": 1414
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        973,
+        1414
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "हठा\nભય വോപ്പം भोजा વાખાનું\nकर பாட்டி પ્લાસ\nપ્લાશિવાય निं કુલાઈડ ॲग\nશ્રી મેટીર વિજયન\nભય 152 മുണ്ടൂർ સરાવર  \nપ્રણાલી મધુર देवा\nगिर প্রতি ૭૨૦૦ ભય\nશ્રી എല്ലാവർക്കും 162\nதிரும் 132\nહાથસ കാളജ് डिश्वारी\nલોકા ક\nસ",
+      "text_nfc": "हठा\nભય വോപ്പം भोजा વાખાનું\nकर பாட்டி પ્લાસ\nપ્લાશિવાય निं કુલાઈડ ॲग\nશ્રી મેટીર વિજયન\nભય 152 മുണ്ടൂർ સરાવર  \nપ્રણાલી મધુર देवा\nगिर প্রতি ૭૨૦૦ ભય\nશ્રી എല്ലാവർക്കും 162\nதிரும் 132\nહાથસ കാളജ് डिश्वारी\nલોકા ક\nસ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

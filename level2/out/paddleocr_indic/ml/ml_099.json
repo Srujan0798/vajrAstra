@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_099",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
+    "page_index": 93,
+    "width": 858,
+    "height": 1319
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        858,
+        1319
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "88\na1m\noolo\n\ng\nl\noll.oeeooeoe\nleloe\n,\nlacoorro\ne\nmo glm,m oolol mom ren\n\nGGsaor\n.\nge\no\n2\ncwwesrg\noltegel\n  e.  \nfeeeoo aaia l l eae,\neease\nm.\no\nBwe\nm  los m\nommmloe\n\nmam ol. seol  g \nc\n   l\ne",
+      "text_nfc": "88\na1m\noolo\n\ng\nl\noll.oeeooeoe\nleloe\n,\nlacoorro\ne\nmo glm,m oolol mom ren\n\nGGsaor\n.\nge\no\n2\ncwwesrg\noltegel\n  e.  \nfeeeoo aaia l l eae,\neease\nm.\no\nBwe\nm  los m\nommmloe\n\nmam ol. seol  g \nc\n   l\ne",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

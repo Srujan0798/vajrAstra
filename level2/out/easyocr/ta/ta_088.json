@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_088",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0022pro_raw.pdf",
+    "page_index": 136,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "5 @@U [bouo 56ಾ 1 5605 ಖm೫ಯಹ L 9160ToJ(ULD ಶತತಿಹಂಿದ < @59DIL0 @60 6om GILI[Dm](Doಹ (9@J600(Lb. ೨) [Blrjon ಹತm ತ vrflu[67  @[ ] m6 ತಿwಹL IL೨ [j oJLDT 6UT ಖ[1oo ] ಹ66T @uprils GoJ6o7Cub. (6[ಹಂGT ಈL'I8 ಹmL 'L೫ ಊLlgl . ೨  600T 60 LD 5 ಹ 6J ಯ ಹ ಊ0 6/T ಖLLILJGLU[ಹ @13/16007C  16LDlUJ೫ ಊRLೊgl. F) @ @ L L [ o @ ( 01 LI L1 607 ೨IquILJGDLI1ಕ @ೀJ೫ಹ೫ 8 L_ೊ9l . ೦ . (5 @[] UJDI  ಹLILL' L [5೨l L0 5 6ು & L L @ [ @ 8 60ಾ71 ೫ @  & L [T GT @ [] [luJuDssl ILIGub GILITgDILIL un(UooLuIs ? ೨ ) [1gIl05m16ur @uw(ತbij [BgIL0ತSl6ul 9 DILILgoij m6i L0ಕSluJ ೨[೫ Lnl(smij s6iT 56ಾ11೫; @501607 5607 6 LDGOLI LTm೫(ತub ಖl 6T 61 ಯ @I I 4 m @ ಹuT oTT [ 8 @ ಹL' ( LT U ಹ 6 @T 61 51 5 ( Lb@ LT ೨l , 56 1 ೫;60ಹUITTGT [j 67 556ಹu| ಹ(56ಹ @Lplil oumln?  ) 9ತS  un6] ಹ(೨ಐ| LDUI5ಖLJL ಹ0U95l 6751 jLDoom ಹ(r5ತ| ಹ059/5566]   @JಖluuDIಪ9llb Lsm ಖLiIಹu | 6J6D]uLI6DmuIDD 5(555l\n9. # T ೮ T [ 6007 L I5l @ $ 6iT 6/ 001 ಅ೦Lಚ೫ಹl'ILIUolಪl ೨ ) @I5ijo l0 LIlil(ಹ6ir @s/0೨ @JtJLJroi Lll(ತಹoT L16ur9Ol[fo L0 LIl5l(ಹ6ir @ou@orjlolD Lll5l(ಹ6il\n[0. GLngl L0ಪ ಹ (5ಹ (ಅ @J U0ಊhl ಹ L`ILJG Lb Lil(ತಪofil6ul 61160076007L ILIತ9IL_607 607 [5ಯo 660075ಹl ' ILIL (9oJGooTGub. ೨ ) ಈ6LDLIL (CDoopಯu 6 5ಹ6l6U ಖm೫೦3 @I8uLJou(ೊ0or @151ಹ6i] F CLD[mn ಣ1u 91665glLb\n] ] . Lril (ಹ60GT I@Jofltಸ o5 6ು   @DLGLD L [ L T 6 ಹ 6IT ಗಿ LI @J [ & GiT ಅ6L೨೫ಹl ILIGULb 61ಹLb ೨1 ಖuJs(5ijಹ6r @9/0DJ@JL'JLJroTTij ಹ6ir L5lತslrjij ಹoiT F) 67(ೊ9ಶಪl[ISluuroij ಹ6T 12. Lll(ಯ6il6ul )JIಯD6U60LL [BrjoTuೂL' IL Im1 ಯ L36uT @J(Uo/607omm]ou LSI6DLDUII6ಚ7 (oom 6791? [1ooo uJTTG0T @16 ಯ(೬Doom 8[oo೨6 lll @55616 6ು L೫ LJcuLqiil @Doom I @L[mn [lul 679I6JL0 6U606 13. L36uo(Uoouopmlou ೨ [jI6 L0 Llhl(9ಹ6ifl6t] [6uT oDLD 679/? ಖ ) 6] [1367(o 9_6iT677 LJril(ತs/[jij soflL_ub ೨_GiT OIT mL'UL'ILITTG @oomiis @16೦ 6][5607C96/ ೨_GiT677 LI[5lಯl6ur L0SIu'ILI6 G7iis LDnp_(ತgub 9 6Uಯಕ F (LDmmn 0u 916 6  gllb\n8 . 56/ 56ತ ಖm೫೦ಹlಸ6ು  567l56 5uITTGIT LDI5ouIL   ಹ0059| @ Lplil(LbGLTಕl , @JooruJoomuIpp 56/15,60ಹ ೨m೫೦ಹl1ಯು [ 60T @ @ @J 607 @ [ 0] @U 67 [55 Lsm LDTpDluuJo l Doಹl' ILIL  (6J60TGLಸ?  ) @Ipl೫ಹl 0 Lpmlu l L mm ಹ(ಪ59l LIDmluu Lsm Gi5/T೫ಹl0 LDpmlub ಹ(ಸ9ತl L ಶml F (0our @0l6[], @I5lTmಹlb LD[DILb ಹ(ೂ59l L9m)\n[Blngllpಕ 5600 lಹ60ಹ   ([Blgll 8LLlb, 2013 618ಹ6fl6lulq )\n129",
+      "text_nfc": "5 @@U [bouo 56ಾ 1 5605 ಖm೫ಯಹ L 9160ToJ(ULD ಶತತಿಹಂಿದ < @59DIL0 @60 6om GILI[Dm](Doಹ (9@J600(Lb. ೨) [Blrjon ಹತm ತ vrflu[67  @[ ] m6 ತಿwಹL IL೨ [j oJLDT 6UT ಖ[1oo ] ಹ66T @uprils GoJ6o7Cub. (6[ಹಂGT ಈL'I8 ಹmL 'L೫ ಊLlgl . ೨  600T 60 LD 5 ಹ 6J ಯ ಹ ಊ0 6/T ಖLLILJGLU[ಹ @13/16007C  16LDlUJ೫ ಊRLೊgl. F) @ @ L L [ o @ ( 01 LI L1 607 ೨IquILJGDLI1ಕ @ೀJ೫ಹ೫ 8 L_ೊ9l . ೦ . (5 @[] UJDI  ಹLILL' L [5೨l L0 5 6ು & L L @ [ @ 8 60ಾ71 ೫ @  & L [T GT @ [] [luJuDssl ILIGub GILITgDILIL un(UooLuIs ? ೨ ) [1gIl05m16ur @uw(ತbij [BgIL0ತSl6ul 9 DILILgoij m6i L0ಕSluJ ೨[೫ Lnl(smij s6iT 56ಾ11೫; @501607 5607 6 LDGOLI LTm೫(ತub ಖl 6T 61 ಯ @I I 4 m @ ಹuT oTT [ 8 @ ಹL' ( LT U ಹ 6 @T 61 51 5 ( Lb@ LT ೨l , 56 1 ೫;60ಹUITTGT [j 67 556ಹu| ಹ(56ಹ @Lplil oumln?  ) 9ತS  un6] ಹ(೨ಐ| LDUI5ಖLJL ಹ0U95l 6751 jLDoom ಹ(r5ತ| ಹ059/5566]   @JಖluuDIಪ9llb Lsm ಖLiIಹu | 6J6D]uLI6DmuIDD 5(555l\n9. # T ೮ T [ 6007 L I5l @ $ 6iT 6/ 001 ಅ೦Lಚ೫ಹl'ILIUolಪl ೨ ) @I5ijo l0 LIlil(ಹ6ir @s/0೨ @JtJLJroi Lll(ತಹoT L16ur9Ol[fo L0 LIl5l(ಹ6ir @ou@orjlolD Lll5l(ಹ6il\n[0. GLngl L0ಪ ಹ (5ಹ (ಅ @J U0ಊhl ಹ L`ILJG Lb Lil(ತಪofil6ul 61160076007L ILIತ9IL_607 607 [5ಯo 660075ಹl ' ILIL (9oJGooTGub. ೨ ) ಈ6LDLIL (CDoopಯu 6 5ಹ6l6U ಖm೫೦3 @I8uLJou(ೊ0or @151ಹ6i] F CLD[mn ಣ1u 91665glLb\n] ] . Lril (ಹ60GT I@Jofltಸ o5 6ು   @DLGLD L [ L T 6 ಹ 6IT ಗಿ LI @J [ & GiT ಅ6L೨೫ಹl ILIGULb 61ಹLb ೨1 ಖuJs(5ijಹ6r @9/0DJ@JL'JLJroTTij ಹ6ir L5lತslrjij ಹoiT F) 67(ೊ9ಶಪl[ISluuroij ಹ6T 12. Lll(ಯ6il6ul )JIಯD6U60LL [BrjoTuೂL' IL Im1 ಯ L36uT @J(Uo/607omm]ou LSI6DLDUII6ಚ7 (oom 6791? [1ooo uJTTG0T @16 ಯ(೬Doom 8[oo೨6 lll @55616 6ು L೫ LJcuLqiil @Doom I @L[mn [lul 679I6JL0 6U606 13. L36uo(Uoouopmlou ೨ [jI6 L0 Llhl(9ಹ6ifl6t] [6uT oDLD 679/? ಖ ) 6] [1367(o 9_6iT677 LJril(ತs/[jij soflL_ub ೨_GiT OIT mL'UL'ILITTG @oomiis @16೦ 6][5607C96/ ೨_GiT677 LI[5lಯl6ur L0SIu'ILI6 G7iis LDnp_(ತgub 9 6Uಯಕ F (LDmmn 0u 916 6  gllb\n8 . 56/ 56ತ ಖm೫೦ಹlಸ6ು  567l56 5uITTGIT LDI5ouIL   ಹ0059| @ Lplil(LbGLTಕl , @JooruJoomuIpp 56/15,60ಹ ೨m೫೦ಹl1ಯು [ 60T @ @ @J 607 @ [ 0] @U 67 [55 Lsm LDTpDluuJo l Doಹl' ILIL  (6J60TGLಸ?  ) @Ipl೫ಹl 0 Lpmlu l L mm ಹ(ಪ59l LIDmluu Lsm Gi5/T೫ಹl0 LDpmlub ಹ(ಸ9ತl L ಶml F (0our @0l6[], @I5lTmಹlb LD[DILb ಹ(ೂ59l L9m)\n[Blngllpಕ 5600 lಹ60ಹ   ([Blgll 8LLlb, 2013 618ಹ6fl6lulq )\n129",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_021",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT\n6\nN Gavae\n5LLDBTG JIIJS\nGLDOUBOOGU OIGOOTLITLD 260T 6\nADLILS\n5LDL\n5LLDBTG SIJE aGGUlGGmL LIITLEIG OLpLIGID SLLSST Télp GaldflaLUuLL5\nLI6TTorfla 8006165160D\nSGOOTLITGOLD LDG0715 GBWLDDD OFUIQIID QLGMSDDULD 25I\nXII Std- Advance Tamil Introduction Pages.indd 1\n11-12-2021 22:24:04",
+      "text_nfc": "IT\n6\nN Gavae\n5LLDBTG JIIJS\nGLDOUBOOGU OIGOOTLITLD 260T 6\nADLILS\n5LDL\n5LLDBTG SIJE aGGUlGGmL LIITLEIG OLpLIGID SLLSST Télp GaldflaLUuLL5\nLI6TTorfla 8006165160D\nSGOOTLITGOLD LDG0715 GBWLDDD OFUIQIID QLGMSDDULD 25I\nXII Std- Advance Tamil Introduction Pages.indd 1\n11-12-2021 22:24:04",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

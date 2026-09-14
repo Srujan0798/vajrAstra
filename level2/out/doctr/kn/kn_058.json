@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_058",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 126,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "00FDDO dea07803\n117\nBC = BT - CT = BT - PS = Y2 - y\n28 230n82\n(1) d2\nedesawon,\nm,\nX-X = y-y,\nm2\nX2 - X\ny2-y\nm,\nI\nX-X\nm + m,\nX =\nm2\nX2 - X\n+\nDowonDEd.\nm, m2\nm,\nede d03,\n= y-y, y=\nm,y2 + my,\nm2\ny2-y\n+\nWowonEd.\nm, mz\n-\newoon Q\nA (x,y) aO B (x,,y) 20078 d Reora deaosodan eozoowoh,\nm, : mz ewwosae oepohta P (x, y) 2000s 20eF3008790.\nm,x + my my2 + my,\n(2)\nm, + m2\nm, + m2\nawa gon aawors Kog wa,deas.\nC\nA,Paa B neo0 y I e E 0OWTBN . Ba 83 W9E 63 aeosod awowwond\ndoto Rogan 323 aobwan.\nP a AB aoa oeona ewao k:1 e0o P 2000s 00F5008795\nkx + X\nky, + y1\nk + 1\nk + 1\nazea ayadro: wo0 de302000 aaeowa e deasotaa, 1 : 1 ewwosae\nDepontsa, ebooa A (x,,\nQ\nyas\nB\n(x,, Y2)\n2o0nen, Teora deaodona\n&\nagesoa P 8 adeF5008750,\n1.x + 1.x,\n1.y, + 1.y2) = X T 12 y1 +y2\nI\n1+1\n1+1\n2\n2\ngon aaeto Aogaa epoz towoon enapadrinya, 20870080.\neuwooors 6: (4, -3) aas (8, 5) 200n80 Neora desodotan A e030owon\n3 : 1 ewwosae oepohta 2000s a0eFDRO8nYa d0088000.\nwo000: P(x, y)aw edeto 20wwhd0. gon ayauoto\n3\nnogaa A\newaaleenawon\n3(8) +1(4)\n3(5) + 1(-3)\nX =\n3+1\nI 7, y -\n3+1\n= 3 DOWOTD3d. o\netood Q\nesego a) 2000 (7, 3).\newwodors 7: A (-6, 10) aas B (3, -8) 200nea deoroa desoaoda\n(-4, 6) 2000 aboa ewwosae - 02017030? .",
+      "text_nfc": "00FDDO dea07803\n117\nBC = BT - CT = BT - PS = Y2 - y\n28 230n82\n(1) d2\nedesawon,\nm,\nX-X = y-y,\nm2\nX2 - X\ny2-y\nm,\nI\nX-X\nm + m,\nX =\nm2\nX2 - X\n+\nDowonDEd.\nm, m2\nm,\nede d03,\n= y-y, y=\nm,y2 + my,\nm2\ny2-y\n+\nWowonEd.\nm, mz\n-\newoon Q\nA (x,y) aO B (x,,y) 20078 d Reora deaosodan eozoowoh,\nm, : mz ewwosae oepohta P (x, y) 2000s 20eF3008790.\nm,x + my my2 + my,\n(2)\nm, + m2\nm, + m2\nawa gon aawors Kog wa,deas.\nC\nA,Paa B neo0 y I e E 0OWTBN . Ba 83 W9E 63 aeosod awowwond\ndoto Rogan 323 aobwan.\nP a AB aoa oeona ewao k:1 e0o P 2000s 00F5008795\nkx + X\nky, + y1\nk + 1\nk + 1\nazea ayadro: wo0 de302000 aaeowa e deasotaa, 1 : 1 ewwosae\nDepontsa, ebooa A (x,,\nQ\nyas\nB\n(x,, Y2)\n2o0nen, Teora deaodona\n&\nagesoa P 8 adeF5008750,\n1.x + 1.x,\n1.y, + 1.y2) = X T 12 y1 +y2\nI\n1+1\n1+1\n2\n2\ngon aaeto Aogaa epoz towoon enapadrinya, 20870080.\neuwooors 6: (4, -3) aas (8, 5) 200n80 Neora desodotan A e030owon\n3 : 1 ewwosae oepohta 2000s a0eFDRO8nYa d0088000.\nwo000: P(x, y)aw edeto 20wwhd0. gon ayauoto\n3\nnogaa A\newaaleenawon\n3(8) +1(4)\n3(5) + 1(-3)\nX =\n3+1\nI 7, y -\n3+1\n= 3 DOWOTD3d. o\netood Q\nesego a) 2000 (7, 3).\newwodors 7: A (-6, 10) aas B (3, -8) 200nea deoroa desoaoda\n(-4, 6) 2000 aboa ewwosae - 02017030? .",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

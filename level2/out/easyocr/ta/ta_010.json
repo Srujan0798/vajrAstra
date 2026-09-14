@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_010",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 13,
+    "width": 1210,
+    "height": 1983
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1210,
+        1983
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "४. @l॰ाuनlमम. (smााpञlऊंछ JoLGi ) (5) (थ). Gष9 ७Dढ०ा ढठा rं ७१ @ऊछ फl७@०फछड़l@Jl ढirना OlBugloou ढllolflऊछ. (s). छनष्गी Wढंष   gBIGppढणni १Dढठी छू Gpui ळीऊsour ना ढ७९l Ba @l@i७छूढ्ं . (@). फी@छफ॰ फooग# GFiuuफ़ ढण GpnऊँBIl BढiT WIITढo@i ?\n5० फछ।% @षा pीछ।फंछ MlळाLuनी ऊंऊ. (थ). @ऊऊंBl \"Tg७ फ ७JI ६D ऊ। ठठण ढाGiioun@l? नधीना छंछम. (a)फ़wly ढu 6 छाछ्l शु JIflwi झtlyliLio ना@ऊंglबJऊंछ%ं ७ी न्गंग नष्ण Liuऊ छ्िन्  ढगा oll नाIDLB .\n(5)\n6. )6%@! D %बाpञlऊंछ २ीळाuनfीऊफ. (थ).01o\"gीधीढठा  LIUIनDढठा8ं   Bgiछ॰ (2). wowDb ७क॰ छion @/@o ) @७८ श9Iमढाा WIT७o७ ? (७ ). Ounil७oBWTTT GषITYpबo 6णम ढाढl@lTT@I @lTysड़ि नणाir ?\n(2)\n७. @flolna @llळोLuoilऊम ( sesgl IoLLOi ) (6) थ २७७| फढषण @ UTबo गu७ 2un ७ फल\"yolnB क़Lऊफ़ऊं BaLLIछl. ना ढठा 0 ऊ७कं॰फ़्र ` ७फ७lळफ़ ' Tlmisळछ ७१फ़ी 5l@l७ऊ. थः uIgIबDङ छबoफ़॰ou# +७ऊ&) @lबDगभ?\n8. J७ऊंऊIOIछ @ीळाLuनfीऊंऊ 9|. थjढषLJ Flwीढठ LIनषT 4 फ॰Jढषा Bबoना ढा(छIऊ. शु॰ ७फ७i७छ\"ी ढषा LIनणण 4 फ॰ढषा BODना ना@छIम.\n(3)",
+      "text_nfc": "४. @l॰ाuनlमम. (smााpञlऊंछ JoLGi ) (5) (थ). Gष9 ७Dढ०ा ढठा rं ७१ @ऊछ फl७@०फछड़l@Jl ढirना OlBugloou ढllolflऊछ. (s). छनष्गी Wढंष   gBIGppढणni १Dढठी छू Gpui ळीऊsour ना ढ७९l Ba @l@i७छूढ्ं . (@). फी@छफ॰ फooग# GFiuuफ़ ढण GpnऊँBIl BढiT WIITढo@i ?\n5० फछ।% @षा pीछ।फंछ MlळाLuनी ऊंऊ. (थ). @ऊऊंBl \"Tg७ फ ७JI ६D ऊ। ठठण ढाGiioun@l? नधीना छंछम. (a)फ़wly ढu 6 छाछ्l शु JIflwi झtlyliLio ना@ऊंglबJऊंछ%ं ७ी न्गंग नष्ण Liuऊ छ्िन्  ढगा oll नाIDLB .\n(5)\n6. )6%@! D %बाpञlऊंछ २ीळाuनfीऊफ. (थ).01o\"gीधीढठा  LIUIनDढठा8ं   Bgiछ॰ (2). wowDb ७क॰ छion @/@o ) @७८ श9Iमढाा WIT७o७ ? (७ ). Ounil७oBWTTT GषITYpबo 6णम ढाढl@lTT@I @lTysड़ि नणाir ?\n(2)\n७. @flolna @llळोLuoilऊम ( sesgl IoLLOi ) (6) थ २७७| फढषण @ UTबo गu७ 2un ७ फल\"yolnB क़Lऊफ़ऊं BaLLIछl. ना ढठा 0 ऊ७कं॰फ़्र ` ७फ७lळफ़ ' Tlmisळछ ७१फ़ी 5l@l७ऊ. थः uIgIबDङ छबoफ़॰ou# +७ऊ&) @lबDगभ?\n8. J७ऊंऊIOIछ @ीळाLuनfीऊंऊ 9|. थjढषLJ Flwीढठ LIनषT 4 फ॰Jढषा Bबoना ढा(छIऊ. शु॰ ७फ७i७छ\"ी ढषा LIनणण 4 फ॰ढषा BODना ना@छIम.\n(3)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

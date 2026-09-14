@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4.2 Step into My Story\nEnl?\nEvery day in school, your friends feel different feelings: happy, sad, left out,\nProud or even embarrassed. Sometimes, we do not notice or we do not know\nwhat to say. But when we take a moment to think about how they might be\nfeeling, we start building empathy.\nThese are some ways in which you know you have empathy \nI helped a friend who was hurt\nI gave my time and support\nor sad.\nWhen someone was upset.\nI  shared  something because\nI  said\nsorrywhen  I  hurt\nSomeone did not have it.\nSomeone's feelings.\nI noticed someone sitting alone\nI listened to a friend when they\nand sat with them.\nWanted to talk.\nActivity \nIn groups of 4 ? Discuss and share what you would do in each of\nthese situations\nYour friend is sitting\nA classmate painted\nWith some other friend\nSomething really\nduring lunch. They did\nWell and the teacher\nnot ask if you wanted\nPraised them. You\nTo join them and\nalso painted well!\nignored you.\nbut no one noticed.\nRole play\nMake small\nYou fall down\nYou made a\ngroups. Act it out\nWhile playing and\nmistake while\nin front of the\nhurt your knee.\nreading in front of\nClass. Show how\nYour friends\nThe class and a few\nyou can care for\nnoticed and did\nChildren laughed.\nothers and what\nnot help you.\nkind thing can be\ndone.\nEmpathy helps\nme care, listen\nWhen we try to understand what someone else is\nand support\nfeeling, we become kinder.\nOthers in smal\nbut important\nThink and  Do: Connect  with  your family.\nmembers. Try to understand how they are feeling\nWays\nTalk to them about it.\n25",
+      "text_nfc": "4.2 Step into My Story\nEnl?\nEvery day in school, your friends feel different feelings: happy, sad, left out,\nProud or even embarrassed. Sometimes, we do not notice or we do not know\nwhat to say. But when we take a moment to think about how they might be\nfeeling, we start building empathy.\nThese are some ways in which you know you have empathy \nI helped a friend who was hurt\nI gave my time and support\nor sad.\nWhen someone was upset.\nI  shared  something because\nI  said\nsorrywhen  I  hurt\nSomeone did not have it.\nSomeone's feelings.\nI noticed someone sitting alone\nI listened to a friend when they\nand sat with them.\nWanted to talk.\nActivity \nIn groups of 4 ? Discuss and share what you would do in each of\nthese situations\nYour friend is sitting\nA classmate painted\nWith some other friend\nSomething really\nduring lunch. They did\nWell and the teacher\nnot ask if you wanted\nPraised them. You\nTo join them and\nalso painted well!\nignored you.\nbut no one noticed.\nRole play\nMake small\nYou fall down\nYou made a\ngroups. Act it out\nWhile playing and\nmistake while\nin front of the\nhurt your knee.\nreading in front of\nClass. Show how\nYour friends\nThe class and a few\nyou can care for\nnoticed and did\nChildren laughed.\nothers and what\nnot help you.\nkind thing can be\ndone.\nEmpathy helps\nme care, listen\nWhen we try to understand what someone else is\nand support\nfeeling, we become kinder.\nOthers in smal\nbut important\nThink and  Do: Connect  with  your family.\nmembers. Try to understand how they are feeling\nWays\nTalk to them about it.\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

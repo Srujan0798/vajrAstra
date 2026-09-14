@@ -1,0 +1,41 @@
+{
+  "page_id": "te_014",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0014pro_raw.pdf",
+    "page_index": 49,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3. TTE UT ad\nSTE Hogr mdiys (PACR-8194? $.) frreftar uit aryity 9TI55 4 ghat 4 FE PTstA, VIRIar, El4R,\nfurea i chlrigra Tt HE Hirit ast ent. E fag- fag T furers anz' 4 HIrT ai H9TR5 3Tr2. SIE 4 cheH UTT\naut taylt STIE uit frereit' # fs-g 3T72.\n:.\nfaft fauft farft de 5H5 ast 3g,\nHYT Hgr yg 4 HaTRet ! Hyeft\nR.\nfau fguaht afeen, ERRIT ash,\nFRGeit TT daGh, E 477 H13 Hgr 7T.\n3.\nRs! gleut vilfa, qifseri di T foriat tfi\nHET N ufa, HgY fag EfeRT.\n8.\n3JUT FaCh H 123, TaCA FRIT faurt,\n3185 467 3G0 efi, 4R FalE qTf,\nYRIT YE 4HH i, Thad HIT TyTTR\ngort HTy faaif, a chlyf' CHRIRT 7 fert.\na\nTaT C747\ne\n-\nSHF = Tel\nfau = Hgt, sftg\nas = 83\nH13 = Halg, yiisch\ngifsei = 12 chRei\nfadi = HgY\nTad = Tricit\nJodt = Tg\nTA= TISA\n3TET = TRTg\nCHRIRT = Yedig\nfag = HGTE\nHTERT = Tfrft\nCOQQQQ000000\n3722119\n0000000000000000000)\nyald :: douft yarft UT Jald fech fgft TfueTft N feial :\n8.\nfar gheIT N chle sfeeit 3112 ?\nR.\nSTE Hifag d5 MS ET 977 da ?\n..\nshlyfta7' a7fgi chle a CHRIRT T fepjuit yd 971 ?\n40",
+      "text_nfc": "3. TTE UT ad\nSTE Hogr mdiys (PACR-8194? $.) frreftar uit aryity 9TI55 4 ghat 4 FE PTstA, VIRIar, El4R,\nfurea i chlrigra Tt HE Hirit ast ent. E fag- fag T furers anz' 4 HIrT ai H9TR5 3Tr2. SIE 4 cheH UTT\naut taylt STIE uit frereit' # fs-g 3T72.\n:.\nfaft fauft farft de 5H5 ast 3g,\nHYT Hgr yg 4 HaTRet ! Hyeft\nR.\nfau fguaht afeen, ERRIT ash,\nFRGeit TT daGh, E 477 H13 Hgr 7T.\n3.\nRs! gleut vilfa, qifseri di T foriat tfi\nHET N ufa, HgY fag EfeRT.\n8.\n3JUT FaCh H 123, TaCA FRIT faurt,\n3185 467 3G0 efi, 4R FalE qTf,\nYRIT YE 4HH i, Thad HIT TyTTR\ngort HTy faaif, a chlyf' CHRIRT 7 fert.\na\nTaT C747\ne\n-\nSHF = Tel\nfau = Hgt, sftg\nas = 83\nH13 = Halg, yiisch\ngifsei = 12 chRei\nfadi = HgY\nTad = Tricit\nJodt = Tg\nTA= TISA\n3TET = TRTg\nCHRIRT = Yedig\nfag = HGTE\nHTERT = Tfrft\nCOQQQQ000000\n3722119\n0000000000000000000)\nyald :: douft yarft UT Jald fech fgft TfueTft N feial :\n8.\nfar gheIT N chle sfeeit 3112 ?\nR.\nSTE Hifag d5 MS ET 977 da ?\n..\nshlyfta7' a7fgi chle a CHRIRT T fepjuit yd 971 ?\n40",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

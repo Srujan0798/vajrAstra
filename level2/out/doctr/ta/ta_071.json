@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_071",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0038pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT\nO0EsS\n5LDLDBTO 9JT\nBLD601l606U OT6OOTLILD 21600TG\n3500015oua\n05153- II\n5LDBTG SITO ollepauleboomu LITLIITO 6pT15LD SILL5S60T 8io GlouerlugLOuLL51\nLIoTofs 3500015,3160p\nBOOTL ITOOLD LD6015GBWILDDD OFUQII QuGi5DDCpLD 95\n12n.Mam.ved2-TM.Findd 1\n16-12-2022 18:06:16",
+      "text_nfc": "IT\nO0EsS\n5LDLDBTO 9JT\nBLD601l606U OT6OOTLILD 21600TG\n3500015oua\n05153- II\n5LDBTG SITO ollepauleboomu LITLIITO 6pT15LD SILL5S60T 8io GlouerlugLOuLL51\nLIoTofs 3500015,3160p\nBOOTL ITOOLD LD6015GBWILDDD OFUQII QuGi5DDCpLD 95\n12n.Mam.ved2-TM.Findd 1\n16-12-2022 18:06:16",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_024",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 154,
+    "width": 1031,
+    "height": 1651
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1031,
+        1651
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "oo  yere\n189\n\"\"\ns\n\nslarre\noorco\n6m\nS60B\n?0  r?o\ns aoco\n6m\nws6eoee o\noeoaoe\n\n   \nw o\ne\n?coammo?\nr ge\n206g\nCdno\n6m\nre?\ne\n\ne .\ndaeeoa \nec\noo\no\n3\neeo  \n\n\n19*",
+      "text_nfc": "oo  yere\n189\n\"\"\ns\n\nslarre\noorco\n6m\nS60B\n?0  r?o\ns aoco\n6m\nws6eoee o\noeoaoe\n\n   \nw o\ne\n?coammo?\nr ge\n206g\nCdno\n6m\nre?\ne\n\ne .\ndaeeoa \nec\noo\no\n3\neeo  \n\n\n19*",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

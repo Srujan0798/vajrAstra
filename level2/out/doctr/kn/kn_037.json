@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_037",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0038pro_raw.pdf",
+    "page_index": 108,
+    "width": 2339,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        2339,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "OFES\nonE motoz OEFNO\n2s07 238 aoor\nOEE\nOOF- soab = 3ocd, eae = Dap\nQ. a83 I aoas\nLE\nsoNoOeS = aobse wewgan (dap)\nSeoon - e83308\n2. dootot = aones\ndoso = en\npabreogasg aagaoooacied B\na. aONA = aNAO\n\ngabreodase vogonogoa\nade\nlla3ll\n2g63 2003 aooto soxneo\nOXOA aoos Bero,fOTDrO egooas\n1700 BoPEoF Beeoe OONO\nEDXEE adabons morosg de Nt8:3\n3x00 ato 23 aetone Eots\nEOXOA 20707 23003,030 SODE\naoroa 33 esaodon andaba enas\naseraseredts seeceaa ade\nHIOII\nTod2p Xcaod WOR adoes 2Ebe ao\n38 23o0to dots drones se 382\ngowet 20838 2020082F703\nsoases aombeosoapgrds 2e3\n2000 Bozsoes agoneo aodosd\n28 aven abez B002e Todeas Botas\naoado docas 3e8averbsanon\naoas Nodocawo de adoba ade ILOII\n330E doces groinee 23en Roe\n72 ge Deaadese suoode 2on\naargdo Rect333obe aoas",
+      "text_nfc": "OFES\nonE motoz OEFNO\n2s07 238 aoor\nOEE\nOOF- soab = 3ocd, eae = Dap\nQ. a83 I aoas\nLE\nsoNoOeS = aobse wewgan (dap)\nSeoon - e83308\n2. dootot = aones\ndoso = en\npabreogasg aagaoooacied B\na. aONA = aNAO\n\ngabreodase vogonogoa\nade\nlla3ll\n2g63 2003 aooto soxneo\nOXOA aoos Bero,fOTDrO egooas\n1700 BoPEoF Beeoe OONO\nEDXEE adabons morosg de Nt8:3\n3x00 ato 23 aetone Eots\nEOXOA 20707 23003,030 SODE\naoroa 33 esaodon andaba enas\naseraseredts seeceaa ade\nHIOII\nTod2p Xcaod WOR adoes 2Ebe ao\n38 23o0to dots drones se 382\ngowet 20838 2020082F703\nsoases aombeosoapgrds 2e3\n2000 Bozsoes agoneo aodosd\n28 aven abez B002e Todeas Botas\naoado docas 3e8averbsanon\naoas Nodocawo de adoba ade ILOII\n330E doces groinee 23en Roe\n72 ge Deaadese suoode 2on\naargdo Rect333obe aoas",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

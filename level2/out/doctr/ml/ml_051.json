@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_051",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1529,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1529,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Pape\nT\nFull Test\nSnogob 2\nSection A\na\nC3 6.36-d0mhowgones Arosed\nvisomnb Mesdlegons\namoempoine,\nas\nonoro,\ngutAhaslindido omaaions 6325\n(-goaa 2,823, 1 - io 216\nopoard gerawalin\n2s\n20386\n-oSiurocasiet\nOor orgo\nbmas,oymys, SUN3o 0 30605 Omi 22 a\nG308 goboe 382o\n-B\nCrdpn\ngebshn 0m 2-lgmo nomgeio 3\nry ad-\nVBo matmdangond gemman man\nOm smont 202N0\n29341 HodaRampnns\nmab Om\n- 7 mo o\nat\nDai 2rgmalgwmmmi caTrooni 2283-\nwabnrlogon\nmait 2012 - napz-adss\n(aa - ora\nomomoo 1\nGane\nOmn G68-0 249018-10\ngels Dw8B\nmamdae) 904 C\n\nwon Nonsom\nmnasb Condisrgo\n-o-glernmaof xsn\n22800 Dos oongms",
+      "text_nfc": "Pape\nT\nFull Test\nSnogob 2\nSection A\na\nC3 6.36-d0mhowgones Arosed\nvisomnb Mesdlegons\namoempoine,\nas\nonoro,\ngutAhaslindido omaaions 6325\n(-goaa 2,823, 1 - io 216\nopoard gerawalin\n2s\n20386\n-oSiurocasiet\nOor orgo\nbmas,oymys, SUN3o 0 30605 Omi 22 a\nG308 goboe 382o\n-B\nCrdpn\ngebshn 0m 2-lgmo nomgeio 3\nry ad-\nVBo matmdangond gemman man\nOm smont 202N0\n29341 HodaRampnns\nmab Om\n- 7 mo o\nat\nDai 2rgmalgwmmmi caTrooni 2283-\nwabnrlogon\nmait 2012 - napz-adss\n(aa - ora\nomomoo 1\nGane\nOmn G68-0 249018-10\ngels Dw8B\nmamdae) 904 C\n\nwon Nonsom\nmnasb Condisrgo\n-o-glernmaof xsn\n22800 Dos oongms",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

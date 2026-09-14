@@ -1,0 +1,41 @@
+{
+  "page_id": "te_066",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0066pro_raw.pdf",
+    "page_index": 0,
+    "width": 1800,
+    "height": 2400
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1800,
+        2400
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "****\nwe\nf\ngHuRa\n3t1odi\nG&Tl\nW\nC\nJ\n\n***.",
+      "text_nfc": "****\nwe\nf\ngHuRa\n3t1odi\nG&Tl\nW\nC\nJ\n\n***.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

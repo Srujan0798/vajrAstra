@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_058",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 126,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ನದೇ-ಶಾಂಕರೇಖಾಗಣಿತ\n117\nBC - BT- CT - BT - PS -Y, - y\nಈಬೆಲೆಗಳನುಲೆರಲಿಆದೇಶಿಸದಾಗ,\nm.\nx-x - y-y.\nm,\nX, - x\ny,-y\nm\nx-x_\nm,x, t m,x\nm.\nx, - x\nx -\nm, + m?\nಎಂದಾಗುತದೆ.\nm.\ny-y.,\nm,y, t my.\nಅದೇೋ೨,\ny -\nm + m?\nm\ny,-y\nಆದೃಂಂದA,y,ಮತು.-,y,ಬಂದುಗಳನು. ಸೇಂಸುವರೇಖಾಖಂಡವನು.ಆಂತಂಕವಾಗ,\ne&goeg3ge gcpoc O  I g0uecac Oggegg u : 'u \nM,x, tmx, my, tmy.\nm + m.\nm, + m?\nಇದನು- ಭಾಗ ಪಮಾಣಿಸೂತಎನುೃತೇವೆ.\nSHED\nಕೂಡಾಸೂತವನು-ವೃತತಿಮಾಡಬಹುದು.\n&&goea.ge gcaoc I 98$ I I gagg g$uedc Op aV uo I\nkx, + 0ky,t y.\nk+1\nk+1\nಎಶೇಷಪಕರಣಃ ಒಂದುರೇಖಾಖಂಡದಮಧೃಬಂದುವುಆರೇಖಾಖಂಡವನುI I ಅನುಪಾತದಲ\nಎಭಾಗಸುತೃದ, ಆದಂಂದA-, yೂಮತು., y,ಬಂದುಗಳನು.ಸೇಂಸುವರೇಖಾಖಂಡದ\nಮಧೃಬಂದುPಯನದೇ-ಶಾಂಕಗಳು,\n1.x, + 1.x,\n1.y, +1.y.\n1t1\n1+1\n೭\n೭\nಭಾಗ ಪಮಾಣಸೂತವನು-ಆಧಂಸಿಕೆಲವೊಂದು-ಉದಾಹರಹೆಗಳನು--ಬಡಸೋಣ.\nಉದಾಹರಹಿ: 4, -1ಮತು.೩, 5-ಬಂದುಗಳನು.ಸೇಂಸುವ ರೇಖಾಖಂಡವನು.ಆಂತಂಕವಾಗ\n. I ಅನುಪಾತದಲಿಎಭಾಗಸುವಬಂದುಎನ ನದೇ೯ಶಾಂಕಗಳನು. ಕಂಡುಒಡಯಂ.\nಪಂಹಾರ: P, yುಯು ಅಪೇಕಿತಬಂದುವಾಗರಲ. ಭಾಗ ಪಮಾಣಿಸೂತವನು ಉಪಯೋಗಸದಾಗ\n38 +14\n35 +1-3\n- 1, y-\n'9೩qepog s -\nx -\n3+1\n3+1\nಆದೃಂಂದಅಪೇಕತಿಬಂದು೫.\nಉದಾಹರಣಿ7 A-6, 10 ಮತು, --೩-ಬಂದುಗಳನು.-ಸೇಂಸುವರೇಖಾಖಂಡವನು\n1g$uedg O9gagg gea g2og 9 t-",
+      "text_nfc": "ನದೇ-ಶಾಂಕರೇಖಾಗಣಿತ\n117\nBC - BT- CT - BT - PS -Y, - y\nಈಬೆಲೆಗಳನುಲೆರಲಿಆದೇಶಿಸದಾಗ,\nm.\nx-x - y-y.\nm,\nX, - x\ny,-y\nm\nx-x_\nm,x, t m,x\nm.\nx, - x\nx -\nm, + m?\nಎಂದಾಗುತದೆ.\nm.\ny-y.,\nm,y, t my.\nಅದೇೋ೨,\ny -\nm + m?\nm\ny,-y\nಆದೃಂಂದA,y,ಮತು.-,y,ಬಂದುಗಳನು. ಸೇಂಸುವರೇಖಾಖಂಡವನು.ಆಂತಂಕವಾಗ,\ne&goeg3ge gcpoc O  I g0uecac Oggegg u : 'u \nM,x, tmx, my, tmy.\nm + m.\nm, + m?\nಇದನು- ಭಾಗ ಪಮಾಣಿಸೂತಎನುೃತೇವೆ.\nSHED\nಕೂಡಾಸೂತವನು-ವೃತತಿಮಾಡಬಹುದು.\n&&goea.ge gcaoc I 98$ I I gagg g$uedc Op aV uo I\nkx, + 0ky,t y.\nk+1\nk+1\nಎಶೇಷಪಕರಣಃ ಒಂದುರೇಖಾಖಂಡದಮಧೃಬಂದುವುಆರೇಖಾಖಂಡವನುI I ಅನುಪಾತದಲ\nಎಭಾಗಸುತೃದ, ಆದಂಂದA-, yೂಮತು., y,ಬಂದುಗಳನು.ಸೇಂಸುವರೇಖಾಖಂಡದ\nಮಧೃಬಂದುPಯನದೇ-ಶಾಂಕಗಳು,\n1.x, + 1.x,\n1.y, +1.y.\n1t1\n1+1\n೭\n೭\nಭಾಗ ಪಮಾಣಸೂತವನು-ಆಧಂಸಿಕೆಲವೊಂದು-ಉದಾಹರಹೆಗಳನು--ಬಡಸೋಣ.\nಉದಾಹರಹಿ: 4, -1ಮತು.೩, 5-ಬಂದುಗಳನು.ಸೇಂಸುವ ರೇಖಾಖಂಡವನು.ಆಂತಂಕವಾಗ\n. I ಅನುಪಾತದಲಿಎಭಾಗಸುವಬಂದುಎನ ನದೇ೯ಶಾಂಕಗಳನು. ಕಂಡುಒಡಯಂ.\nಪಂಹಾರ: P, yುಯು ಅಪೇಕಿತಬಂದುವಾಗರಲ. ಭಾಗ ಪಮಾಣಿಸೂತವನು ಉಪಯೋಗಸದಾಗ\n38 +14\n35 +1-3\n- 1, y-\n'9೩qepog s -\nx -\n3+1\n3+1\nಆದೃಂಂದಅಪೇಕತಿಬಂದು೫.\nಉದಾಹರಣಿ7 A-6, 10 ಮತು, --೩-ಬಂದುಗಳನು.-ಸೇಂಸುವರೇಖಾಖಂಡವನು\n1g$uedg O9gagg gea g2og 9 t-",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_006",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 595.3200073242188,
+    "height": 841.9199829101562
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series :2LKNM\nSET ~ 4\n(హశ్నా పతం కోడ్\n57\nQ.P. Code\nరోల్ నం.\nm   s  $ S\nRoll No.\nశ్రహషిక పుటలో రాయాలి.\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nనోe్ / NOTE :\n(I)\n      ) \nPlease check that this question paper contains 15 printed pages.\n(I)\n  C         \nఉండాలి.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III) 18 (పశ్నలు ఉన్నది లేనిది పరిశీలించండి.\nPlease check that this question paper contains 18 questions.\nm S  C O x O 8C  I)\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n(V)\nఈ పశ్న ప(తాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. (ప్న ప(తం ఉదయం 10.15\nని.లకు ఇవ్వబడుతుంది. 10.15 నుండి 10.30 వరకు విద్యార్థులు (పశ్న ప(తాన్ని చదవాలి. ఈ కాలంలో\nసమాధాన ప(తంలో ఏమీ రాయకూడదు.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n{}\nతెలుగు —తెలంగాణ\nTELUGU - TELANGANA\nసమయం : 3 గంటలు\nమొత్తం మార్కులు : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n57\n1127\nPage 1 of 16\nP.T.O.",
+      "text_nfc": "Series :2LKNM\nSET ~ 4\n(హశ్నా పతం కోడ్\n57\nQ.P. Code\nరోల్ నం.\nm   s  $ S\nRoll No.\nశ్రహషిక పుటలో రాయాలి.\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nనోe్ / NOTE :\n(I)\n      ) \nPlease check that this question paper contains 15 printed pages.\n(I)\n  C         \nఉండాలి.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III) 18 (పశ్నలు ఉన్నది లేనిది పరిశీలించండి.\nPlease check that this question paper contains 18 questions.\nm S  C O x O 8C  I)\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n(V)\nఈ పశ్న ప(తాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. (ప్న ప(తం ఉదయం 10.15\nని.లకు ఇవ్వబడుతుంది. 10.15 నుండి 10.30 వరకు విద్యార్థులు (పశ్న ప(తాన్ని చదవాలి. ఈ కాలంలో\nసమాధాన ప(తంలో ఏమీ రాయకూడదు.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n{}\nతెలుగు —తెలంగాణ\nTELUGU - TELANGANA\nసమయం : 3 గంటలు\nమొత్తం మార్కులు : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n57\n1127\nPage 1 of 16\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

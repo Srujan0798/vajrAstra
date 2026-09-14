@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_045",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 113,
+    "width": 955,
+    "height": 1387
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        955,
+        1387
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "elele\n2 -\nteoDe\nDOPPOPUcepe\nOedPeeteee\neeeede\nnepep00Peeee\nBegePePEE\nDE0epeepee\npepegeepe A\npeeeete a\neeeee F\neegeedpr -\needebode\nepeee e\n4 a\neeebepe\nR\ndepee\n# -",
+      "text_nfc": "elele\n2 -\nteoDe\nDOPPOPUcepe\nOedPeeteee\neeeede\nnepep00Peeee\nBegePePEE\nDE0epeepee\npepegeepe A\npeeeete a\neeeee F\neegeedpr -\needebode\nepeee e\n4 a\neeebepe\nR\ndepee\n# -",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

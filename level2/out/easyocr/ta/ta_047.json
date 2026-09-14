@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ध्वनिविज्ञान\n१०\n11 १२ 1३ 14\n१५\n१६ 17 18 १९ २० 3\n6\n5\n२\nध्वनि यंत्र\nonou डॉ कपिलदेव द्विवेदी, भाषा विज्ञान एवं भाषा शास्त्र पृष्ठ संख्या १२८) चित्र परिचय 1 श्वास नला (Wind Pipe) THE PEOPLE S २ भोजन नली (Gullet Food Pipe) 3 स्वर यंत्र (Larynx ) UNIVERSITY 4 स्वर तंत्री (Vocal Cord) 5 काकल (Glottis) 6 अभेकाकल IEpiglottis) 7. गलबिल उपालिजिह्वा Pharynx ) 8 अलिजिह्वा कोवा (Uvula) 9 नासाववर Nasal Cavity 10. कोमल तालु (Soft Palate ) 11. मूर्धा (Cerebrum ) 12. कठार तालु IHard Palate ) 13. वत् Alveolus ) 14. दंत Teeth) 15. ओष्ठ (Lips) 16. जिह्वा नोक (Tip of the Tongue) 6५",
+      "text_nfc": "ध्वनिविज्ञान\n१०\n11 १२ 1३ 14\n१५\n१६ 17 18 १९ २० 3\n6\n5\n२\nध्वनि यंत्र\nonou डॉ कपिलदेव द्विवेदी, भाषा विज्ञान एवं भाषा शास्त्र पृष्ठ संख्या १२८) चित्र परिचय 1 श्वास नला (Wind Pipe) THE PEOPLE S २ भोजन नली (Gullet Food Pipe) 3 स्वर यंत्र (Larynx ) UNIVERSITY 4 स्वर तंत्री (Vocal Cord) 5 काकल (Glottis) 6 अभेकाकल IEpiglottis) 7. गलबिल उपालिजिह्वा Pharynx ) 8 अलिजिह्वा कोवा (Uvula) 9 नासाववर Nasal Cavity 10. कोमल तालु (Soft Palate ) 11. मूर्धा (Cerebrum ) 12. कठार तालु IHard Palate ) 13. वत् Alveolus ) 14. दंत Teeth) 15. ओष्ठ (Lips) 16. जिह्वा नोक (Tip of the Tongue) 6५",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

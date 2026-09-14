@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_046",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 0,
+    "width": 594.239990234375,
+    "height": 785.0399780273438
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.239990234375,
+        785.0399780273438
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Ph'ceh\n10\n0771CH10\n*\n**\n(1)\n    a\n3 E  , 3i l\n E  ,  o \n(2)\nM   , M  HA \nHRT\nReprint 2026-2",
+      "text_nfc": "Ph'ceh\n10\n0771CH10\n*\n**\n(1)\n    a\n3 E  , 3i l\n E  ,  o \n(2)\nM   , M  HA \nHRT\nReprint 2026-2",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

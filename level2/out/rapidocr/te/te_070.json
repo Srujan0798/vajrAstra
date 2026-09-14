@@ -1,0 +1,41 @@
+{
+  "page_id": "te_070",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0070pro_raw.pdf",
+    "page_index": 99,
+    "width": 589.6414184570312,
+    "height": 789.181396484375
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        589.6414184570312,
+        789.181396484375
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహరాష్థ రష్ణ పా్యపస్రకనిర్మి మరియు పార్యప్రాళిక పిశోధన సంస్, పుడె.\n₹ 42.00",
+      "text_nfc": "మహరాష్థ రష్ణ పా్యపస్రకనిర్మి మరియు పార్యప్రాళిక పిశోధన సంస్, పుడె.\n₹ 42.00",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

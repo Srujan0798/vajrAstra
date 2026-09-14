@@ -1,0 +1,41 @@
+{
+  "page_id": "te_079",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0079pro_raw.pdf",
+    "page_index": 105,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "sa Moo5sooro.\n(1)X-e503 (8 Dodsaisy y aosSA 0 esewod a0s 200or 5 doss Owst y D8JJSO\n0 boewoss e3 dods X-essw 3 boéwod, 5SS X esswdosy 52058ca50 y = 0 T ONO.\n(2) Y-esw3 WE dods ausy X 08SSS 0 egevod 608 200or 5 dods 0305,0365353\n0 boéwos es do0os Y-ess 2 boewod, SDS Y esiw OwS Mbos8ess X = 0 TO ONO.\nBeososooro.\ndDas 55058es0 awsy TPS (Graph of linear equations)\nY\ndo. X=2: 300y=-36 Mosoessve (T5 Roiviw.\nJos (i) (T5 shega 2 X esaw 8o0 Y esaw\n3\nRobod.\n(ii) X = 2 es aopesdod 5SIS Y esswiss\n2\n2 II\nS03gs 2 aises 8585056 Y esawss\n1\nX\n355088 dpss Rowod.\n(ii)y = -3 es aogescod, SNS X esawss - 3\nX\n-2\n1\n0 1\n3\nB083315 3 aides 88056 X essusss\n-1+\n-24\nSaroëo dapss Rowod.\n(iv)esswoss SOddsW A25 08 depev esro es\nSaosoesve (T5.\ny=-3\nP\n(v) 88 dots dgpeu asonsses aSLC podowsss\nes dody Pawsy Q8JSSW wowaw.\nBeso 7.9\nBeso 7.10\n(vi) P Ousy 08SSSW (2,-3) esds 800 3850Da6od.\nDSSCrSOSs dpasssosoeno aws TP5\nSegga: (T5 Shosd (0,1) (1,3) (2,5) 08\nYA\n51\n(2, 5)\ndodsess Noowaw. es SdDasaive\n4t\n383osaw, as Je 580055300055\n3t (1,3)\nOO Nod 35 dpss Robod.\n2t\n88 dep bai Jossenod JES acod.\n1 (0, 1)\n1 0\n2 3\n88 dep Y esawns OSLCS polonss eg\ndodss awsy DosSawn oobod.\n-2\n-3\ne dopz Swtos D8SW5 580 as dodssss\n-4+\nBOD OO 08ISS oood.\n-54\n- OS< ( - < <\n96\n-\n> O DOO",
+      "text_nfc": "sa Moo5sooro.\n(1)X-e503 (8 Dodsaisy y aosSA 0 esewod a0s 200or 5 doss Owst y D8JJSO\n0 boewoss e3 dods X-essw 3 boéwod, 5SS X esswdosy 52058ca50 y = 0 T ONO.\n(2) Y-esw3 WE dods ausy X 08SSS 0 egevod 608 200or 5 dods 0305,0365353\n0 boéwos es do0os Y-ess 2 boewod, SDS Y esiw OwS Mbos8ess X = 0 TO ONO.\nBeososooro.\ndDas 55058es0 awsy TPS (Graph of linear equations)\nY\ndo. X=2: 300y=-36 Mosoessve (T5 Roiviw.\nJos (i) (T5 shega 2 X esaw 8o0 Y esaw\n3\nRobod.\n(ii) X = 2 es aopesdod 5SIS Y esswiss\n2\n2 II\nS03gs 2 aises 8585056 Y esawss\n1\nX\n355088 dpss Rowod.\n(ii)y = -3 es aogescod, SNS X esawss - 3\nX\n-2\n1\n0 1\n3\nB083315 3 aides 88056 X essusss\n-1+\n-24\nSaroëo dapss Rowod.\n(iv)esswoss SOddsW A25 08 depev esro es\nSaosoesve (T5.\ny=-3\nP\n(v) 88 dots dgpeu asonsses aSLC podowsss\nes dody Pawsy Q8JSSW wowaw.\nBeso 7.9\nBeso 7.10\n(vi) P Ousy 08SSSW (2,-3) esds 800 3850Da6od.\nDSSCrSOSs dpasssosoeno aws TP5\nSegga: (T5 Shosd (0,1) (1,3) (2,5) 08\nYA\n51\n(2, 5)\ndodsess Noowaw. es SdDasaive\n4t\n383osaw, as Je 580055300055\n3t (1,3)\nOO Nod 35 dpss Robod.\n2t\n88 dep bai Jossenod JES acod.\n1 (0, 1)\n1 0\n2 3\n88 dep Y esawns OSLCS polonss eg\ndodss awsy DosSawn oobod.\n-2\n-3\ne dopz Swtos D8SW5 580 as dodssss\n-4+\nBOD OO 08ISS oood.\n-54\n- OS< ( - < <\n96\n-\n> O DOO",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

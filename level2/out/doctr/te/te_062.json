@@ -1,0 +1,41 @@
+{
+  "page_id": "te_062",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0062pro_raw.pdf",
+    "page_index": 38,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "28855 3o5es (Heterotrophic plants)\n388525 3w5o05 sewdéo tocos. 0o8as awses Jer\nwessoesaw? eo Dise3 So0 essor) 302>-8060508700?\nas 28 3ep2 w8n WNO 583, essses do 8Doso dot\nan awss 5080 WO? e an 38 02003?\n532 awses 2e8 sasse 8880056 do 88602 aobea.\nWE3 NO0 8s0 essor) woweaw. esg awson wosyass\n(parasitic) awser eodro. dwwOES 265 (mistle toe/\naisya ), 05530 awdensa.\nwewde dewgen 85005 esos0 awsz sosoom esjas\nausos ewone todwod. 55S a0s NOsTg 505) 250 awsz\neoéro.\n362 won edynss a000 153 bodro.\n4.6 265\n1. 265 J05y6t 80c02ss soangas do OSO 20De0d?\n3805 aë 3épod. 2. OJS 58 580 Osees Dise8 Sow eoNo?\n3. 265 eoss awsyn esg 505)53 aSIT Jos5 18JO?\nSbos es55 Jwses (Insectivorous plants)\n522 awses Bosess 2800 J83 88800500 estor)\ndodeobss 2aa) aso Ké eonge5ts eessrowo.\n68 Jwses awpsor sean saerve dore Joos do 58656\naonoaw. GRO 20015 ess Boos 2355 aosy DOgEso as JS 83\ntocsod. 28 Sos eodsa aoneod. 60 esses essoedabas\na\na\nberô, 200 domos boaw. 583 eowos 55)2 asbeo bocraw.\n583 Bosesss essoo3 a\n208 S003 6s Dobssevoeras. E.8. 1737\no56 geose 25tF5) 20025 ess sass 68 awsyss SNnT. 5Ds\neeo roagor 808 20025 en 58 Dero.\n3805 dé 3608.\n4.7 GRO 2025\nquda8 (Pitcher) Jwses Boeo2ng soairngas 20050)88\nesd Bos0ss Joos 238nyod?\n33558 Joses (Saprophytic plants)\nSoaas Jasge sjeseeren egwowt awson JO5W0\nawses es eocro.\n208 850 Sortonen, avaer, adoges 0da 6n5\n(ODOG) avdenso syjes s0000d2838 awses. sjeseared\naay 200N Joo0 eodosto 5035 sogess aqUGso aiyow.\neodson eavoas gsE) SQOS5O aas Sorgess soderaw.\n4.8 wre538 3wsges\n29",
+      "text_nfc": "28855 3o5es (Heterotrophic plants)\n388525 3w5o05 sewdéo tocos. 0o8as awses Jer\nwessoesaw? eo Dise3 So0 essor) 302>-8060508700?\nas 28 3ep2 w8n WNO 583, essses do 8Doso dot\nan awss 5080 WO? e an 38 02003?\n532 awses 2e8 sasse 8880056 do 88602 aobea.\nWE3 NO0 8s0 essor) woweaw. esg awson wosyass\n(parasitic) awser eodro. dwwOES 265 (mistle toe/\naisya ), 05530 awdensa.\nwewde dewgen 85005 esos0 awsz sosoom esjas\nausos ewone todwod. 55S a0s NOsTg 505) 250 awsz\neoéro.\n362 won edynss a000 153 bodro.\n4.6 265\n1. 265 J05y6t 80c02ss soangas do OSO 20De0d?\n3805 aë 3épod. 2. OJS 58 580 Osees Dise8 Sow eoNo?\n3. 265 eoss awsyn esg 505)53 aSIT Jos5 18JO?\nSbos es55 Jwses (Insectivorous plants)\n522 awses Bosess 2800 J83 88800500 estor)\ndodeobss 2aa) aso Ké eonge5ts eessrowo.\n68 Jwses awpsor sean saerve dore Joos do 58656\naonoaw. GRO 20015 ess Boos 2355 aosy DOgEso as JS 83\ntocsod. 28 Sos eodsa aoneod. 60 esses essoedabas\na\na\nberô, 200 domos boaw. 583 eowos 55)2 asbeo bocraw.\n583 Bosesss essoo3 a\n208 S003 6s Dobssevoeras. E.8. 1737\no56 geose 25tF5) 20025 ess sass 68 awsyss SNnT. 5Ds\neeo roagor 808 20025 en 58 Dero.\n3805 dé 3608.\n4.7 GRO 2025\nquda8 (Pitcher) Jwses Boeo2ng soairngas 20050)88\nesd Bos0ss Joos 238nyod?\n33558 Joses (Saprophytic plants)\nSoaas Jasge sjeseeren egwowt awson JO5W0\nawses es eocro.\n208 850 Sortonen, avaer, adoges 0da 6n5\n(ODOG) avdenso syjes s0000d2838 awses. sjeseared\naay 200N Joo0 eodosto 5035 sogess aqUGso aiyow.\neodson eavoas gsE) SQOS5O aas Sorgess soderaw.\n4.8 wre538 3wsges\n29",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

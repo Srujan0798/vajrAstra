@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_008",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0009pro_raw.png",
+    "page_index": 0,
+    "width": 378,
+    "height": 534
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        378,
+        534
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "cueni 72 s ()) \"Notwishstanding anything\ncontained in the Kerala Land Tax Act, 1961\nor in any olher law for the time being in force, or in any contract, where the right tittle ahd\ninterest of the land owner and the intermediaries, if any in respect of holding have vested in\nthe Government Uls 72, the cultivating ienant of that holding shall be liable to pay the basic\nlax payable in respect of that holding under the said Act and other taxes and Cesses. due in\nrespect of that holding.\" * pmi auyaumuo Qandaneleeym).\nmemoodi 72-00 nuoni Inthboo conumnbeangled mlaalaimaom syaloges\nmeskmuoom mlajalay ag majaleg alago mscuoaesgrad lnmlm\nspaloges msa ayslaomoesmen nend 72 S (1) taumlaoglesymy\ndebe sjublaieotem mimamalos (nmlnsonleajm ongomeanelageies\nayslusdlaaubeejo moweae ahusengoemiales (ruplonlajor\nJoBOGOs sigmlet ahoeme onuoymuogo aonuthoubaoal cueym 35428\ncarujeso mygd stgyolet 60569 semujegp pomaimjo an0g mimarueajes\n5069 mmud Galoayaolm aogaisl matalulgemoaleymy gnubed cemnxe\nspalulos\nagdemocueouo\nmebalalglegmye\ngouted\nmogel\nmsal\nmabajmlagimje olmubagy eonolmujangles mlempo grunjes mueanulnfiaans\ngouaclecoom\naseminanjermemje\nnocageus\nmlojaomeasjesooa\ncaglalsaeymyenume mujamambes0005309189 amojaglod lauminsonleajm,\nGang sjuolaleobem mlwarmalent gagues aaayemutes nfejaaom\nololajo maoomlen merTOarTumeds daoajo Bargm (aurudasmengo\nnujonujomajaoent polsesgles mseaymemmt auyemeoe. menimomt oruma\namuodni (mudagy) ong 31.10.1989 ee mudogi en.h-31609/89 om mudenjexdlencujo\nemgoml ruypaujoma? ajsinlelafeledyemy dae ejuehaleensm mimamalees\nnangauted ajaglot wo mutecjexins moemon) mule Insocunnaler to\nmlaomaleng cangeuted n.eyauaoalgoauojaf rudeojelem aujonyailesiond,\naemii avhaymlegmled m mudenjerd mngomoajeaus auohudamalalanjedo\ngaugonuyommosm.\n(\"nydemaoa\ngsamuconje.ouno\ngeerami\nabrjaud\nnuelauboufa\naoruowj@nysiom\ndamujegles\naouno\naygszagyes/mciujes\nGnub\n22-00\nanogmelego nidemaoo gsamunoqeoute mlaulaymomiee aonueud gajune\naslesomm aquonemmonjes anad aluto 23-00 anogolego Gautaeomamoent.\n23-00 anogmalat oual Gruejaoneng mecuibousamlent mUAROTUO amientemo,",
+      "text_nfc": "cueni 72 s ()) \"Notwishstanding anything\ncontained in the Kerala Land Tax Act, 1961\nor in any olher law for the time being in force, or in any contract, where the right tittle ahd\ninterest of the land owner and the intermediaries, if any in respect of holding have vested in\nthe Government Uls 72, the cultivating ienant of that holding shall be liable to pay the basic\nlax payable in respect of that holding under the said Act and other taxes and Cesses. due in\nrespect of that holding.\" * pmi auyaumuo Qandaneleeym).\nmemoodi 72-00 nuoni Inthboo conumnbeangled mlaalaimaom syaloges\nmeskmuoom mlajalay ag majaleg alago mscuoaesgrad lnmlm\nspaloges msa ayslaomoesmen nend 72 S (1) taumlaoglesymy\ndebe sjublaieotem mimamalos (nmlnsonleajm ongomeanelageies\nayslusdlaaubeejo moweae ahusengoemiales (ruplonlajor\nJoBOGOs sigmlet ahoeme onuoymuogo aonuthoubaoal cueym 35428\ncarujeso mygd stgyolet 60569 semujegp pomaimjo an0g mimarueajes\n5069 mmud Galoayaolm aogaisl matalulgemoaleymy gnubed cemnxe\nspalulos\nagdemocueouo\nmebalalglegmye\ngouted\nmogel\nmsal\nmabajmlagimje olmubagy eonolmujangles mlempo grunjes mueanulnfiaans\ngouaclecoom\naseminanjermemje\nnocageus\nmlojaomeasjesooa\ncaglalsaeymyenume mujamambes0005309189 amojaglod lauminsonleajm,\nGang sjuolaleobem mlwarmalent gagues aaayemutes nfejaaom\nololajo maoomlen merTOarTumeds daoajo Bargm (aurudasmengo\nnujonujomajaoent polsesgles mseaymemmt auyemeoe. menimomt oruma\namuodni (mudagy) ong 31.10.1989 ee mudogi en.h-31609/89 om mudenjexdlencujo\nemgoml ruypaujoma? ajsinlelafeledyemy dae ejuehaleensm mimamalees\nnangauted ajaglot wo mutecjexins moemon) mule Insocunnaler to\nmlaomaleng cangeuted n.eyauaoalgoauojaf rudeojelem aujonyailesiond,\naemii avhaymlegmled m mudenjerd mngomoajeaus auohudamalalanjedo\ngaugonuyommosm.\n(\"nydemaoa\ngsamuconje.ouno\ngeerami\nabrjaud\nnuelauboufa\naoruowj@nysiom\ndamujegles\naouno\naygszagyes/mciujes\nGnub\n22-00\nanogmelego nidemaoo gsamunoqeoute mlaulaymomiee aonueud gajune\naslesomm aquonemmonjes anad aluto 23-00 anogolego Gautaeomamoent.\n23-00 anogmalat oual Gruejaoneng mecuibousamlent mUAROTUO amientemo,",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

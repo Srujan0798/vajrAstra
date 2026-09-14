@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_016",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 0,
+    "width": 387.4928894042969,
+    "height": 611.34814453125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        387.4928894042969,
+        611.34814453125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಮದಭಯರಾವಂಣಿತುಳುವರ್\nಮಾಅಕೆ--\nಇ೦೨\nಪಶಸಪಡೆಯನ\nಕಯಾೈರ\nಈಇಣ\nರೂಪಕಲಾ\nಅಳ\nಕನಾ೯ಟಕ\nತುಳು\n'೯ಇ\nತುಳು\nಭವನ,\nಉವ೯ಸೋರ್, ವಿ\n೨ - p0ggog.",
+      "text_nfc": "ಮದಭಯರಾವಂಣಿತುಳುವರ್\nಮಾಅಕೆ--\nಇ೦೨\nಪಶಸಪಡೆಯನ\nಕಯಾೈರ\nಈಇಣ\nರೂಪಕಲಾ\nಅಳ\nಕನಾ೯ಟಕ\nತುಳು\n'೯ಇ\nತುಳು\nಭವನ,\nಉವ೯ಸೋರ್, ವಿ\n೨ - p0ggog.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

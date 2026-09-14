@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_073",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 78,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "9.3 Investment: Grow Your Money\nEvery day, people make choices about what to do with their money. Sometimes money is saved to keep it safe and sometimes it is invested to grow over time. Investment means using money today to build wealth in the future, but it also involves risk. Different investment choices can give different results, depending on time and decisions. In this activity, you will explore how money can grow and learn to make smart investment choices on your own.\nDirect Equity (Shares): Direct equity means buying shares of a company in the stock market. When the company does well, the value of the shares can increase and you may also get dividends. Mutual Funds: Mutual funds collect money from many people and invest it in different companies. These funds are managed by experts, so your money is spread across many businesses. Insurance: Insurance helps protect you and your family in the future. Some insurance plans also help you save or grow money while giving financial protection. Gold: Gold is a popular investment that people buy to keep for a long time. Its value often increases over time and it is considered a safe option. Fixed Deposit (FD): A fixed deposit is a safe way to invest money in a bank. You know how much money you will get back and when you will get it. Bonds: Bonds are when you lend money to the government or a company. In return, you get interest on your money after a fixed period. Property Investment: It means buying land or buildings. It can give regular income through rent and may increase in value over time.\nYou have some money that you do not need immediately. You can keep it safe or you can try to grow it over time.\nInvestment means using money today so it can become more in the future. Different choices grow money in different ways.\n71",
+      "text_nfc": "9.3 Investment: Grow Your Money\nEvery day, people make choices about what to do with their money. Sometimes money is saved to keep it safe and sometimes it is invested to grow over time. Investment means using money today to build wealth in the future, but it also involves risk. Different investment choices can give different results, depending on time and decisions. In this activity, you will explore how money can grow and learn to make smart investment choices on your own.\nDirect Equity (Shares): Direct equity means buying shares of a company in the stock market. When the company does well, the value of the shares can increase and you may also get dividends. Mutual Funds: Mutual funds collect money from many people and invest it in different companies. These funds are managed by experts, so your money is spread across many businesses. Insurance: Insurance helps protect you and your family in the future. Some insurance plans also help you save or grow money while giving financial protection. Gold: Gold is a popular investment that people buy to keep for a long time. Its value often increases over time and it is considered a safe option. Fixed Deposit (FD): A fixed deposit is a safe way to invest money in a bank. You know how much money you will get back and when you will get it. Bonds: Bonds are when you lend money to the government or a company. In return, you get interest on your money after a fixed period. Property Investment: It means buying land or buildings. It can give regular income through rent and may increase in value over time.\nYou have some money that you do not need immediately. You can keep it safe or you can try to grow it over time.\nInvestment means using money today so it can become more in the future. Different choices grow money in different ways.\n71",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

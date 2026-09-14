@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_004",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0005pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 579
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        579
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ਗੁਣਾਹਾਰੇਖਾਤਮਿਲੇ cleisengsiredmaniquarduk\nਸਰਕਾਰ നിർദ്ദേശങ്ങളുടെ\nഅറിയിച്ചിട്ടുണ്ട് 995 കെട്ടികിടക്കുന്ന ഇത്തരം\nസംബന്ധിച്ച് അടിയന്തിരമായിനടപതി സ്വീകരിക്കേണ്ടതു\nറയലുകളുടെ തീർപ്പാക്കൽ ഉറപ്പുവരുത്തേണ്ടതാണ്\nભય\nജില്ലാ\nబయిలన్మకో കളക്ടർ എൻ..ആർ.\nஸஃபங்கமகணமல\nജൂനിയർ myloknir\nനമ്പർ 13201864229500 സർവെൽ\nഹെഡ്‌സർവേഷൻ താലൂക്ക് sdomb\n46 മടക്കം അതിയിൽ\n2080\nതഹസിൽദാർ\nsccerracro",
+      "text_nfc": "ਗੁਣਾਹਾਰੇਖਾਤਮਿਲੇ cleisengsiredmaniquarduk\nਸਰਕਾਰ നിർദ്ദേശങ്ങളുടെ\nഅറിയിച്ചിട്ടുണ്ട് 995 കെട്ടികിടക്കുന്ന ഇത്തരം\nസംബന്ധിച്ച് അടിയന്തിരമായിനടപതി സ്വീകരിക്കേണ്ടതു\nറയലുകളുടെ തീർപ്പാക്കൽ ഉറപ്പുവരുത്തേണ്ടതാണ്\nભય\nജില്ലാ\nబయిలన్మకో കളക്ടർ എൻ..ആർ.\nஸஃபங்கமகணமல\nജൂനിയർ myloknir\nനമ്പർ 13201864229500 സർവെൽ\nഹെഡ്‌സർവേഷൻ താലൂക്ക് sdomb\n46 മടക്കം അതിയിൽ\n2080\nതഹസിൽദാർ\nsccerracro",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_071",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0038pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "த்‌\n\nறு\n\nT exten = 7\n்‌\n\ncea दर\n\nதமிழ்நாடு அரசு\n\nமேல்நிலை இரண்டாம்‌ ஆண்டு\n\nகணிதவியல்‌\n\nதொகுதி- 11\n\nதமிழ்நாடு அரசு விலையில்லாப்‌ பாடநூல்‌ வழங்கும்‌ திட்டத்தின்‌ கீழ்‌ வளியிடப்பட்டது\nபன்னிக்‌ கல்வித்துறை\n\nதீண்டாமை மனிதநேயமற்ற செயலும்‌ பெருங்குற்றமும்‌ ஆகும்‌\n\n| | 12th_Maths_Vol 2_TM_FP.indd 1 ® 16-12-2022 18:06:16 | |\n",
+      "text_nfc": "த்‌\n\nறு\n\nT exten = 7\n்‌\n\ncea दर\n\nதமிழ்நாடு அரசு\n\nமேல்நிலை இரண்டாம்‌ ஆண்டு\n\nகணிதவியல்‌\n\nதொகுதி- 11\n\nதமிழ்நாடு அரசு விலையில்லாப்‌ பாடநூல்‌ வழங்கும்‌ திட்டத்தின்‌ கீழ்‌ வளியிடப்பட்டது\nபன்னிக்‌ கல்வித்துறை\n\nதீண்டாமை மனிதநேயமற்ற செயலும்‌ பெருங்குற்றமும்‌ ஆகும்‌\n\n| | 12th_Maths_Vol 2_TM_FP.indd 1 ® 16-12-2022 18:06:16 | |\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

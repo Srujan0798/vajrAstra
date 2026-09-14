@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_021",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+    "page_index": 0,
+    "width": 973,
+    "height": 1414
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        973,
+        1414
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "“KOTTAYAM PUBLIC LIBRAR\n\nCall No.MFS.. Ace. No. BSS\n\nAuthor. Sc 5.൭൭.\n\n",
+      "text_nfc": "“KOTTAYAM PUBLIC LIBRAR\n\nCall No.MFS.. Ace. No. BSS\n\nAuthor. Sc 5.൭൭.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

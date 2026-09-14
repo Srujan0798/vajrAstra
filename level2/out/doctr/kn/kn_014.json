@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_014",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 21,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "230800Ne3 2\n200N00 2ga No NOO naaodioe Ocjoaabs\n2c3\nDapDEQDooadee aeaorrgdë Jaoabrde . 14-04\nwe3e 3eo 2e3e rbao coge WoNo abnona.\nwoge 2030 nabo aboe Orodo an03838 a\n: 14-05\ngaorane 3203e 23 doeheoso abo a3gFgezs\nNO RasFdes aageegedoge a avaseg 2000036 : 14-06\ne03n032,30 23 ars 202F33 abodde.\n30cde aja CJOSFO resars a Rnddeedabs : 14-07\nwode 3a32 Bobbes CO Oaoide Oiode Jode.\nariadoe 38 83F0e w0do anodoo : 14-08\ndodnioesd a dodiise Qloe\n@\n@\naurs\nabns 238.\n@\naioe adrs adode NOR Nobeasripesc dodds : 14-09\narees gyaJddzea drs agaogae ayado.\naestloe anado 8OFO Aedo noabe aurdo : 14-10\nesgoonne Onoo0a dodre a geaao.\nSea,eoo adgodsen O0230 aoneds 2 abs . 14-11\nenooas 2 oioe aboaoFs NCJOF Ooadeod 23.\n230 abders Reasern nt,8 COEOOOODES cWE36 : 14-12\n20 2ea3 rbEos adrs adrs Wabrs a 2ea8.\nrbeagadEdberX, 2e030 Dasaloeano 3\n: 14-13\nabaezgs a8eBOFO andeders dabreos. .\ncjoo doesdoorgeg3ege mO 23003e Jaodob . 14-14\nanantjdo aOB,o cgoanti3o dyado.\nes3ggnao doeao Qloe 230003 20 woads : 14-15\n28 oa aaogen gp0 23233 Jegdg.\nDEWo bodde absoro aloenzs bodzs 328 : 14-16\nRaGasago Wabro 1o230o 23 aano.\ndabzo da3o 23e3 absabon A ajoododezs : 14-17\nDanorsen Jeabode d0e8e38 a WONOJS.\n2303\na03AFENONOWwase WoB adrde : 14-18\nWabro gso 23 ponso 23 rodoeaf23n23Nacgcido.\naurjoedo 23 83F0an.ge 3 a 2ea3 : 14-19\nchANakyanltisort.pdf\n21",
+      "text_nfc": "230800Ne3 2\n200N00 2ga No NOO naaodioe Ocjoaabs\n2c3\nDapDEQDooadee aeaorrgdë Jaoabrde . 14-04\nwe3e 3eo 2e3e rbao coge WoNo abnona.\nwoge 2030 nabo aboe Orodo an03838 a\n: 14-05\ngaorane 3203e 23 doeheoso abo a3gFgezs\nNO RasFdes aageegedoge a avaseg 2000036 : 14-06\ne03n032,30 23 ars 202F33 abodde.\n30cde aja CJOSFO resars a Rnddeedabs : 14-07\nwode 3a32 Bobbes CO Oaoide Oiode Jode.\nariadoe 38 83F0e w0do anodoo : 14-08\ndodnioesd a dodiise Qloe\n@\n@\naurs\nabns 238.\n@\naioe adrs adode NOR Nobeasripesc dodds : 14-09\narees gyaJddzea drs agaogae ayado.\naestloe anado 8OFO Aedo noabe aurdo : 14-10\nesgoonne Onoo0a dodre a geaao.\nSea,eoo adgodsen O0230 aoneds 2 abs . 14-11\nenooas 2 oioe aboaoFs NCJOF Ooadeod 23.\n230 abders Reasern nt,8 COEOOOODES cWE36 : 14-12\n20 2ea3 rbEos adrs adrs Wabrs a 2ea8.\nrbeagadEdberX, 2e030 Dasaloeano 3\n: 14-13\nabaezgs a8eBOFO andeders dabreos. .\ncjoo doesdoorgeg3ege mO 23003e Jaodob . 14-14\nanantjdo aOB,o cgoanti3o dyado.\nes3ggnao doeao Qloe 230003 20 woads : 14-15\n28 oa aaogen gp0 23233 Jegdg.\nDEWo bodde absoro aloenzs bodzs 328 : 14-16\nRaGasago Wabro 1o230o 23 aano.\ndabzo da3o 23e3 absabon A ajoododezs : 14-17\nDanorsen Jeabode d0e8e38 a WONOJS.\n2303\na03AFENONOWwase WoB adrde : 14-18\nWabro gso 23 ponso 23 rodoeaf23n23Nacgcido.\naurjoedo 23 83F0an.ge 3 a 2ea3 : 14-19\nchANakyanltisort.pdf\n21",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

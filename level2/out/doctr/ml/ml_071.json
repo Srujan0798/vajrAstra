@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_071",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 16,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "000300 Groegpoo\n00\n60000008 (O 00000106000 aleasacamemney\nGOJ80 6510B 600 lojo oumopsl,\n8000000j0900 0100lo) 200 Brao.taSQ0ogalo Blai\nOo d9 10060900 (62500 019 l6o100 lopodd dJA020\n6000609 0009010036)5 22210 Goolaanea) lam 6000001010\ngo00 030600 O56031.\n810603600 (06n6 gm0 QUoQIorv0o d\n$6r00100-1059480 eos@.asenodaclaasocl 2018000/10.1030p 63\nCOOCOJ Gocpym.e.ogggoolugpso 0,021 aSm BIO mOG\n3\n060001 joo 3060000000010179 Adeica.000 o.\n0006\nOS\nGaioldd co0mo laop\n00100000000 laco (tdol\n030600 (erO0Jdo c0uclay180032,99 60 cogje,7 agon ml\nellod 0002001\n(000060) lgosam0 a lao 0000600 dolo\nonenlrsom eloled 301219-080083019 00:06)0.10000 aI\n06J83 lejo moloyaJol.01t00 olooo (BIO dcpja.00:30000\nG01620106 CO00I0500 G00.30000000j0 63300 00m0 Q101\nogm eunloloool.\n00m00 BO moGQio d9 6000 lo8\n01om 0090032.0.0000 0000000 02010 06ns0om m00\n60139 loejej0o, codsado 210160 00d0s9i o 6010011602\n0\n00m00o\n000000002j0 20000 00200:2000000 200100 ofoado OU\n0.0900006183019 000910015 à\n(miooad 0ganga BIOG 12000010\n02000 0000005 200 lejo 0010120012-100oolasme)auplsm-\n00)\nmoomoe 6100100 ep001o 610C0D.2100000aipocodoloo dslor\nB000000 200 ailanosoedddao Codol eslaioploao.\n(BYO\n605600 0100000 6661EOYO GODJ00o 0000 000 loo coomol\nC00 (BO CO0o 3\n020m Q1901o1 cacO 09 lor00Gg10do 0\np0l00 08505000010 0U006080 lejo GOQ10OS\n008000 loo 60\nglx0 Q8OCO 0 160906060 lome.\n602/02300000c000m0) lmo 902100m 6302.0001002100\n0o mdepilsjag lejo B1OQ,000EJ0MTU00 eto 6/00U02000j2000",
+      "text_nfc": "000300 Groegpoo\n00\n60000008 (O 00000106000 aleasacamemney\nGOJ80 6510B 600 lojo oumopsl,\n8000000j0900 0100lo) 200 Brao.taSQ0ogalo Blai\nOo d9 10060900 (62500 019 l6o100 lopodd dJA020\n6000609 0009010036)5 22210 Goolaanea) lam 6000001010\ngo00 030600 O56031.\n810603600 (06n6 gm0 QUoQIorv0o d\n$6r00100-1059480 eos@.asenodaclaasocl 2018000/10.1030p 63\nCOOCOJ Gocpym.e.ogggoolugpso 0,021 aSm BIO mOG\n3\n060001 joo 3060000000010179 Adeica.000 o.\n0006\nOS\nGaioldd co0mo laop\n00100000000 laco (tdol\n030600 (erO0Jdo c0uclay180032,99 60 cogje,7 agon ml\nellod 0002001\n(000060) lgosam0 a lao 0000600 dolo\nonenlrsom eloled 301219-080083019 00:06)0.10000 aI\n06J83 lejo moloyaJol.01t00 olooo (BIO dcpja.00:30000\nG01620106 CO00I0500 G00.30000000j0 63300 00m0 Q101\nogm eunloloool.\n00m00 BO moGQio d9 6000 lo8\n01om 0090032.0.0000 0000000 02010 06ns0om m00\n60139 loejej0o, codsado 210160 00d0s9i o 6010011602\n0\n00m00o\n000000002j0 20000 00200:2000000 200100 ofoado OU\n0.0900006183019 000910015 à\n(miooad 0ganga BIOG 12000010\n02000 0000005 200 lejo 0010120012-100oolasme)auplsm-\n00)\nmoomoe 6100100 ep001o 610C0D.2100000aipocodoloo dslor\nB000000 200 ailanosoedddao Codol eslaioploao.\n(BYO\n605600 0100000 6661EOYO GODJ00o 0000 000 loo coomol\nC00 (BO CO0o 3\n020m Q1901o1 cacO 09 lor00Gg10do 0\np0l00 08505000010 0U006080 lejo GOQ10OS\n008000 loo 60\nglx0 Q8OCO 0 160906060 lome.\n602/02300000c000m0) lmo 902100m 6302.0001002100\n0o mdepilsjag lejo B1OQ,000EJ0MTU00 eto 6/00U02000j2000",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

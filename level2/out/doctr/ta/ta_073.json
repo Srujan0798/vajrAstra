@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_073",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 6,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ER9\nD\n(iv) LISOPGT 514\n(A) LDJY OICLD\n(B)\n160600T QICLD\n(C) OL OICL\n(D) SIOU OICLD\n(v) G360010350, 3110151(5 9151050\n(A) (50659 Bajosmla\n(B) (DOUGOO Basosmlo\n(C) LD(5 Bas Osmploi\n(D) Obuso Bas Osmplo\n6. opluoimm OFuls : (GIGDOUGWGOJLD eoupo0135 LDLOLD)\n3x1=3\n(i) 09000008 - 616101605 YOTOLIGOL 616015556015.\n(A) Olsuanos YOTOLIGOL (B)\n6OT60f60 JOTOLIOOL\n(C) OETOUOOE VGTOLIGOL (D) RDDOTOLIGOL\n(ii) 56foIm -20Gousosd Joml.\n(A) 560f\n(B) OIITUI\n(C) 560f GLIITGTO OIITU\n(D) OIITU GLITGOTO 56f\n(iii) 5600U QUIOOOTIE1GOTTOT - GOIDMIGOLD Q60560W Joml.\n(A) OJOOOTL ITLD GoupDGoLDgG511605\n(B) eLDOOTDITLD GauppisnunsOgstens\n(C) 5IT6OT5ILD GoupmoLDs 6151605\n(D) OB3ITLD GoupDIGOLD3G517605\n(iv) 051 OFIQIITLIT? - O9GOTIT G1B1 0900TT50 00LWITS LDITDOI5.\n(A) OFuGOIGOT\n(B) Osuu LDITLOLOOT\n(C) OEMUITLDOGGLIGLIGITIT2 (D) BGu Osu\n(v) O5u150 Ami QLITLSGOGOTS 5o015.\n(A) GTMLITG\n(B) 60015600\n(C) LDITOOOU\n(D) WIITLDLD\n10\n8\nPage 7 of 12\nP.T.O.",
+      "text_nfc": "ER9\nD\n(iv) LISOPGT 514\n(A) LDJY OICLD\n(B)\n160600T QICLD\n(C) OL OICL\n(D) SIOU OICLD\n(v) G360010350, 3110151(5 9151050\n(A) (50659 Bajosmla\n(B) (DOUGOO Basosmlo\n(C) LD(5 Bas Osmploi\n(D) Obuso Bas Osmplo\n6. opluoimm OFuls : (GIGDOUGWGOJLD eoupo0135 LDLOLD)\n3x1=3\n(i) 09000008 - 616101605 YOTOLIGOL 616015556015.\n(A) Olsuanos YOTOLIGOL (B)\n6OT60f60 JOTOLIOOL\n(C) OETOUOOE VGTOLIGOL (D) RDDOTOLIGOL\n(ii) 56foIm -20Gousosd Joml.\n(A) 560f\n(B) OIITUI\n(C) 560f GLIITGTO OIITU\n(D) OIITU GLITGOTO 56f\n(iii) 5600U QUIOOOTIE1GOTTOT - GOIDMIGOLD Q60560W Joml.\n(A) OJOOOTL ITLD GoupDGoLDgG511605\n(B) eLDOOTDITLD GauppisnunsOgstens\n(C) 5IT6OT5ILD GoupmoLDs 6151605\n(D) OB3ITLD GoupDIGOLD3G517605\n(iv) 051 OFIQIITLIT? - O9GOTIT G1B1 0900TT50 00LWITS LDITDOI5.\n(A) OFuGOIGOT\n(B) Osuu LDITLOLOOT\n(C) OEMUITLDOGGLIGLIGITIT2 (D) BGu Osu\n(v) O5u150 Ami QLITLSGOGOTS 5o015.\n(A) GTMLITG\n(B) 60015600\n(C) LDITOOOU\n(D) WIITLDLD\n10\n8\nPage 7 of 12\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_020",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0020pro_raw.pdf",
+    "page_index": 85,
+    "width": 1644,
+    "height": 2212
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        2212
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\nరాష్ట్ర\nపాఠ్యపుస్తక\nనిర్మితి\n₹ 82.00\nGmg&n\n$rl\nGEra\n(A\nH182H",
+      "text_nfc": "\nరాష్ట్ర\nపాఠ్యపుస్తక\nనిర్మితి\n₹ 82.00\nGmg&n\n$rl\nGEra\n(A\nH182H",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

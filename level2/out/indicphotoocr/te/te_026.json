@@ -1,0 +1,41 @@
+{
+  "page_id": "te_026",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0026pro_raw.pdf",
+    "page_index": 0,
+    "width": 1647,
+    "height": 2215
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1647,
+        2215
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "తెలుగు\nబాలభారతి\nఒకటవ తరగతి\nਰੀ\nਮਾਰਾ ਦੀ",
+      "text_nfc": "తెలుగు\nబాలభారతి\nఒకటవ తరగతి\nਰੀ\nਮਾਰਾ ਦੀ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

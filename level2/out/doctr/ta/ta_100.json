@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_100",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0034pro_raw.pdf",
+    "page_index": 231,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "12-i ougtuyollidluco\nBIoD Ooiflujsoit DDDID Guoomisaurarjesoir\nLILISTTO QLGUQUIISIT\nEpaDsurauij. B6. GDIIFITLI,\nUGC BSR ungiupi Gugna@lud.tyaitdudy 510I,\nLIm5T500T L60500003 aspain.Sustdgmduchtonl\nCpaDoraurj. Dflw S1oofgi Booridl,\nSenom/@upna@upiia).4pihdudgonn\nBijLoGUIT LDs5aflj 5oUgUr, GaTuLDLSSI\nan.5tbhpTFGoT,\nSamawoOuomp@us.pohdud, 516DD, SIJF 50D0US 5o0gurrA (5ObTGIITLO), ER5j\n6. Srofloiomi,\naasuh/Oam@fub.inihdud, 510I, LOTBauds SoUgurn (5ObTGIITL8), OFOTODGOT\nGLDQUTLIGITOTIjSOT\narcar.Jesarcior.cor,\nBonowmlGuynafuj (guay).4ofuludb 5160D, Qufumy F-GOLJIT. 560gUTn,\nBudOgmiudrofh\nori.axidhgtocnsfhuchr,\nGsoHBoDa alfayngumandi(puia)l.4ahaud, 51D, Qurflumriy F.GOl.JIT.\nsedguroh-Ju-Bpmiuaren\nLIIL -UULOJITGTS5OT\nGl.omaG50Jor,\naash/@aug@fub.ipohdud, 510DID, LOIbOUS sdigurf(ssaraumc.s), QEOTODGOT\nCpmsanarj.dl.ggm.si,\naash/@augmAhub.inihdud, 510D, uma LD5oflij 5oUgUIh, QEFObTGDGOT\n9XhuBapsmuriumen)\nam8. BEILDS,\nLDITOILL 2yffuy 50009 Lobpitb DLUADA BpasmnhSugyh.Buaidrasj.\n56060 LOIMID GI1Q66OLDLL 5U\nOQOLGOLUL\nLD.O1 LDITeCoflas Jme Ligumenj\nuimouaklmiosoflucor\nebBums GTDIELIGOT\nQJGOTULID\nsyi. U55I5LDI\nIn-House QC\ngm@goig ST16LIIGÔT\nSILOOL OJIQ LQJGOLDUL\n8551 eyprpasio\nTGosig Susis@locmriumant Ucoflemol\nTamil_12th Geography_Acknowledgement: 329-336.indd 224\nLITLITO gffuiso\nei. aru@lpuncolucor,\nC315DGU afuj.tofufluci, enTaloay GLoGUBloDGuiT JLIGTOMD,555OUL0, GEFOOTODGUT\noroor. .Blogm,\n(L5150DG afuj.tofuflucis QEFObTODGT OILIGOOT56IT GLodloDoul LIGiTaf, YGUOUIT\nJ1Galohry, Goyommu.sasi.Gadhrangy\n91. Bljpooir,\nC31500 gffud.yahdud, FGymeloof QITSULIGÔT QL60T50T GLDGUBlODGULS\nLicitof, ghauodo@.Agasdreas)\n28. oflequsmom_a,\n(515D0 a/Afud.spalduch.goiot LITGi OLI60T50T Guodu@Bapouludéiran,\nLOUAGUTTGSIODD\nB6. S100or TGOOTITLDODOD,\nCsobauj,ngouITe sijalss Lidrofl.Gsnusihuybsnh\n6. FooorcpesiD,\n(5150D0 guAflud.tyofuluci, SITFlGorij GuoGUBoDauiT LIGTG, EmhGauiD,\nBudyt\noi.d. Sboorlovoon G8Ti Tefloof,\n(51500 aAfud.yahufud, CSI Northwick OLIGOOT5GT GLDGUBGDGUL LGiTaI,\nGerotraDgal\n6. OLUITOOTLDGN Gauppla@ardbaichr,\nC51500 gAfluid.yohtdlud, SNTAGOTIT -20750IT GLDoODGUET LIdTaf,GLDGarf,\nGEGULD\n1Q.5TODOIS,\nPCKG SIJSF -25007-50T GLDOUBODGULT ucitaf, GarLibumdsto, OFOOT6DGT\n1q.9i. SILDITLA\n(gia).0515000 gAflud.yoitluds QLOTTEGOUL O05u LDITSIT OLI60T50IT\nGuoduBanaubuditaf, egouiq, GESbTGDGOT\n6. elumbdluib,\nULLSTA Afuj, DTTILA gdhrpu.p@oauudron_SudsomfSuaidras)\nLOITALL'LID.\nICT 9XhSapsmnuman)\n6. entlumbdluib,\nULLSTA -2alfurj, magmtAgdrplus@Basaududnofl.Jushs-nd\nBQIGTeGhS LOITGILLID.\nSLLEEIOIT\nU.505,\nLDITBOU So0ouud eymud@Lobpiib LulibBpialomi, OFGOTODGOT.\nEMIS O5mpl6hILLs BL\nOmmiomagor,\nLDTIlOU Susrfaélcncoriumant Osmplopiluib,\n56061 GLDGUTTGOOTGDLD 556160 UGDDODID,\nB05106D600T55 Lieitarlbs6bon Qubosi0.\nOrm. S1(5600T LOTS OF666OT\nO5mpOTILu SILLLIGOOfI eyGouresj,\n50o1 GIDGUTTGOOTGDLD 556160 UGDDODID,\nB0mdeDc00rihs Leitarlbscbon Qubs5i.\n5. L. BbSLDTITTILLODOIT,\n556160 65mAGILu eyGonesj,\nao0o1 GLDGJITGOOTGOLD 566160 (L6ODGOLD,\nB0radl6D600T5s Leitarlbscbon Qubssib.\nOb5To 80 83.6T610.6TLD 6T69165600TL BUL0565m 5orflé SIC@LOULGeTeTEI\nSYLOEL (oomulé SIALGLITT:\n224\n12/6/2022 6:48:15PM",
+      "text_nfc": "12-i ougtuyollidluco\nBIoD Ooiflujsoit DDDID Guoomisaurarjesoir\nLILISTTO QLGUQUIISIT\nEpaDsurauij. B6. GDIIFITLI,\nUGC BSR ungiupi Gugna@lud.tyaitdudy 510I,\nLIm5T500T L60500003 aspain.Sustdgmduchtonl\nCpaDoraurj. Dflw S1oofgi Booridl,\nSenom/@upna@upiia).4pihdudgonn\nBijLoGUIT LDs5aflj 5oUgUr, GaTuLDLSSI\nan.5tbhpTFGoT,\nSamawoOuomp@us.pohdud, 516DD, SIJF 50D0US 5o0gurrA (5ObTGIITLO), ER5j\n6. Srofloiomi,\naasuh/Oam@fub.inihdud, 510I, LOTBauds SoUgurn (5ObTGIITL8), OFOTODGOT\nGLDQUTLIGITOTIjSOT\narcar.Jesarcior.cor,\nBonowmlGuynafuj (guay).4ofuludb 5160D, Qufumy F-GOLJIT. 560gUTn,\nBudOgmiudrofh\nori.axidhgtocnsfhuchr,\nGsoHBoDa alfayngumandi(puia)l.4ahaud, 51D, Qurflumriy F.GOl.JIT.\nsedguroh-Ju-Bpmiuaren\nLIIL -UULOJITGTS5OT\nGl.omaG50Jor,\naash/@aug@fub.ipohdud, 510DID, LOIbOUS sdigurf(ssaraumc.s), QEOTODGOT\nCpmsanarj.dl.ggm.si,\naash/@augmAhub.inihdud, 510D, uma LD5oflij 5oUgUIh, QEFObTGDGOT\n9XhuBapsmuriumen)\nam8. BEILDS,\nLDITOILL 2yffuy 50009 Lobpitb DLUADA BpasmnhSugyh.Buaidrasj.\n56060 LOIMID GI1Q66OLDLL 5U\nOQOLGOLUL\nLD.O1 LDITeCoflas Jme Ligumenj\nuimouaklmiosoflucor\nebBums GTDIELIGOT\nQJGOTULID\nsyi. U55I5LDI\nIn-House QC\ngm@goig ST16LIIGÔT\nSILOOL OJIQ LQJGOLDUL\n8551 eyprpasio\nTGosig Susis@locmriumant Ucoflemol\nTamil_12th Geography_Acknowledgement: 329-336.indd 224\nLITLITO gffuiso\nei. aru@lpuncolucor,\nC315DGU afuj.tofufluci, enTaloay GLoGUBloDGuiT JLIGTOMD,555OUL0, GEFOOTODGUT\noroor. .Blogm,\n(L5150DG afuj.tofuflucis QEFObTODGT OILIGOOT56IT GLodloDoul LIGiTaf, YGUOUIT\nJ1Galohry, Goyommu.sasi.Gadhrangy\n91. Bljpooir,\nC31500 gffud.yahdud, FGymeloof QITSULIGÔT QL60T50T GLDGUBlODGULS\nLicitof, ghauodo@.Agasdreas)\n28. oflequsmom_a,\n(515D0 a/Afud.spalduch.goiot LITGi OLI60T50T Guodu@Bapouludéiran,\nLOUAGUTTGSIODD\nB6. S100or TGOOTITLDODOD,\nCsobauj,ngouITe sijalss Lidrofl.Gsnusihuybsnh\n6. FooorcpesiD,\n(5150D0 guAflud.tyofuluci, SITFlGorij GuoGUBoDauiT LIGTG, EmhGauiD,\nBudyt\noi.d. Sboorlovoon G8Ti Tefloof,\n(51500 aAfud.yahufud, CSI Northwick OLIGOOT5GT GLDGUBGDGUL LGiTaI,\nGerotraDgal\n6. OLUITOOTLDGN Gauppla@ardbaichr,\nC51500 gAfluid.yohtdlud, SNTAGOTIT -20750IT GLDoODGUET LIdTaf,GLDGarf,\nGEGULD\n1Q.5TODOIS,\nPCKG SIJSF -25007-50T GLDOUBODGULT ucitaf, GarLibumdsto, OFOOT6DGT\n1q.9i. SILDITLA\n(gia).0515000 gAflud.yoitluds QLOTTEGOUL O05u LDITSIT OLI60T50IT\nGuoduBanaubuditaf, egouiq, GESbTGDGOT\n6. elumbdluib,\nULLSTA Afuj, DTTILA gdhrpu.p@oauudron_SudsomfSuaidras)\nLOITALL'LID.\nICT 9XhSapsmnuman)\n6. entlumbdluib,\nULLSTA -2alfurj, magmtAgdrplus@Basaududnofl.Jushs-nd\nBQIGTeGhS LOITGILLID.\nSLLEEIOIT\nU.505,\nLDITBOU So0ouud eymud@Lobpiib LulibBpialomi, OFGOTODGOT.\nEMIS O5mpl6hILLs BL\nOmmiomagor,\nLDTIlOU Susrfaélcncoriumant Osmplopiluib,\n56061 GLDGUTTGOOTGDLD 556160 UGDDODID,\nB05106D600T55 Lieitarlbs6bon Qubosi0.\nOrm. S1(5600T LOTS OF666OT\nO5mpOTILu SILLLIGOOfI eyGouresj,\n50o1 GIDGUTTGOOTGDLD 556160 UGDDODID,\nB0mdeDc00rihs Leitarlbscbon Qubs5i.\n5. L. BbSLDTITTILLODOIT,\n556160 65mAGILu eyGonesj,\nao0o1 GLDGJITGOOTGOLD 566160 (L6ODGOLD,\nB0radl6D600T5s Leitarlbscbon Qubssib.\nOb5To 80 83.6T610.6TLD 6T69165600TL BUL0565m 5orflé SIC@LOULGeTeTEI\nSYLOEL (oomulé SIALGLITT:\n224\n12/6/2022 6:48:15PM",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

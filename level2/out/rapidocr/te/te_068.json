@@ -1,0 +1,41 @@
+{
+  "page_id": "te_068",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0068pro_raw.pdf",
+    "page_index": 29,
+    "width": 595.0001220703125,
+    "height": 841.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.0001220703125,
+        841.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "g  i\n) 6 or Sl 66.\n)   \n(\n(@\n (\no\n (\n)         s.\n vn o 6is.\nj(\n 84 - 4= b4\n7\n r   q= q  sq  T (\n357\n\"sP 6m o s s =:-\n-90 T\no - ns-  - rs - +ns sq -  - w6\n.\n21",
+      "text_nfc": "g  i\n) 6 or Sl 66.\n)   \n(\n(@\n (\no\n (\n)         s.\n vn o 6is.\nj(\n 84 - 4= b4\n7\n r   q= q  sq  T (\n357\n\"sP 6m o s s =:-\n-90 T\no - ns-  - rs - +ns sq -  - w6\n.\n21",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

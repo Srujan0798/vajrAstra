@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_082",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0002pro_raw.pdf",
+    "page_index": 18,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Kannada\n1?\nFi\nಿ.ಕೆಳಗನಯಾವಅಮೃನ್.ಕಾಬಲ್ಅಮೃನ್ಪರೀಕೆಯನು\n152.\nನಲಿ-ಇರುವಪೋಟಾನ್ಗಳು.-ನೂಟಾನ್ಗಳು\nನೀಡುತದಿ\nಮತು\nಎಲೆಕಾನ್ಗಳಸಂಖಿಗಳು-ಕಮವಾಗ\n\nNICHD?\n.\nTL, iL ಮeು iO\n೭\nIi5. iOI aತು T\n೬\nTL. iOLag TL\n\n೬\n1OI.TLaಮs T\n158.\nವೊದಲದಚ-ರಸಾಯನಕಕಿಯೆಯವೀಗನಯತಾಂಕವ\nಒ.೯೦9x10ನI ಆದರ 2೦ ಗಾ೦ ನಷು ರಯಾಕಾoಯು\nNHC,H.\nಂ.ಒಗಾಂಿಗಿಇಳಯಲುಬೇಕಾಗುವಸಮಯವ\n\n5೦೦s\n\n೭\n1ooO s\n೬\n1o0 s\nಇ\n20೦ s\nNH?\n15i.\nಕೆಳಗನವಗಳಲಿಅಃತದಲಿಲದಿಅಣುವನುಕಂಡುೀಡಯರ\nು\nC,\n\n೦?\n೬\n೬\nHez?\n೪\nLi,\n155..\nಸುಕೋಸ್ನಿಜಲವಭಜನೆಯನು-ಕೆಳಗನಿಸಮುೀಕರಣದಲೆ\nNHCH\nನೀಡಲಾಗದ\nಸುಕೋಸ್-ಂಗುಕೋಸ್ಫುಕೋಸ್\nಇ\nಸಂತುಲನ5ಯತಾಂಕವ ಈವ ೨೦೦K ನಲ 2x10\nಆದರೆ--ಇಂನಮೌಲೃವಿಇದೇತಾಪದಲ\nು\nS.314 J mol- IK- Ix 30O K X InBX 10l?\nಕಾಗದವಣರೇಖನವು-ಕಳಗನವುಗಳ-ಜಂದು\n\n- g.Bl Jmol-IKI x 3OO KX Ine X lol\n150.\nಉದಾಹರಣಹೆಯಾಗದಿ\n೬\n-- $.31M JmolIK Ix 3OOKxIn2 X1ol\nD\nತೆಳುಪದರವಣ--ರೇಖನ\n೬\nG.31MJ'mol IK -Ix 3OOK XIn2x 10l.\n೭\nಸಂಭಉದಸಾಲುವಣಃರೇಖನ\n1565.\n೭೦ಅನಲ-ೀ,ಅಲ\n೬\nಮಲೆ--ಚೂಷಕಿವಣ-ರೇಖನ\nಈಕಿಯಿಗಿಸಂಯಾದಆಯಯು ೆ\nಇ\nಎಭಜನವಣ--ರೇಖನ\nು\nAHO ಮತು. ASO\nIil.\nನನೈಟೋಜನ್ಿಮತುಜಗ ಆಗಾ-ನ್ಅನಲಗಳ\n\nAHO ಮತು ASO\nಮಶಣದಳಿಗಗಾರನಷುn,ಮತು.೯ಗಾಂ ನಷು Aಗ\n೬\nAHo ಮತು. ASo\nಸಿಲಂಡರ್ನಲೂಇದರ.ಸಲಂಡರ್ನಲಿರುವಅನಲಮಶಣದ\nಒಟು.ಒತಡವ.2ಗಬಾರ್ಆದರಿನ-ನೈಟೋಜನ್ನ\nಬ\nAHo ಮತು. Aso\nಆಂಶಿಕಒತಡವ\n151. NiO.ನ ಅಯಾ5ಕ ಗುಣಲಬವ 2x105 ಆದರ.\nಪರವಾಣು-ಸಂಖೈಯನುೃ\nಉಪಯೋಗ\nO.I M NaOH ನg? NiOH, ನ ದಾವೃತಯನು?\nಗolaೋe್ಗಳ? .N--M, Ar--o \nಕಂಡುಹಡಯುರ\nD\n15ಬಾರ್\nು\n1x10n13 M\n೭\n1೯ಬಾರ್\n೭\nI x io' M\n೬\n೨ಬಾರ್\n೬\n2x10-1M\nಇ\n12 ಬಾ0\n೪\n2X 10r 8M",
+      "text_nfc": "Kannada\n1?\nFi\nಿ.ಕೆಳಗನಯಾವಅಮೃನ್.ಕಾಬಲ್ಅಮೃನ್ಪರೀಕೆಯನು\n152.\nನಲಿ-ಇರುವಪೋಟಾನ್ಗಳು.-ನೂಟಾನ್ಗಳು\nನೀಡುತದಿ\nಮತು\nಎಲೆಕಾನ್ಗಳಸಂಖಿಗಳು-ಕಮವಾಗ\n\nNICHD?\n.\nTL, iL ಮeು iO\n೭\nIi5. iOI aತು T\n೬\nTL. iOLag TL\n\n೬\n1OI.TLaಮs T\n158.\nವೊದಲದಚ-ರಸಾಯನಕಕಿಯೆಯವೀಗನಯತಾಂಕವ\nಒ.೯೦9x10ನI ಆದರ 2೦ ಗಾ೦ ನಷು ರಯಾಕಾoಯು\nNHC,H.\nಂ.ಒಗಾಂಿಗಿಇಳಯಲುಬೇಕಾಗುವಸಮಯವ\n\n5೦೦s\n\n೭\n1ooO s\n೬\n1o0 s\nಇ\n20೦ s\nNH?\n15i.\nಕೆಳಗನವಗಳಲಿಅಃತದಲಿಲದಿಅಣುವನುಕಂಡುೀಡಯರ\nು\nC,\n\n೦?\n೬\n೬\nHez?\n೪\nLi,\n155..\nಸುಕೋಸ್ನಿಜಲವಭಜನೆಯನು-ಕೆಳಗನಿಸಮುೀಕರಣದಲೆ\nNHCH\nನೀಡಲಾಗದ\nಸುಕೋಸ್-ಂಗುಕೋಸ್ಫುಕೋಸ್\nಇ\nಸಂತುಲನ5ಯತಾಂಕವ ಈವ ೨೦೦K ನಲ 2x10\nಆದರೆ--ಇಂನಮೌಲೃವಿಇದೇತಾಪದಲ\nು\nS.314 J mol- IK- Ix 30O K X InBX 10l?\nಕಾಗದವಣರೇಖನವು-ಕಳಗನವುಗಳ-ಜಂದು\n\n- g.Bl Jmol-IKI x 3OO KX Ine X lol\n150.\nಉದಾಹರಣಹೆಯಾಗದಿ\n೬\n-- $.31M JmolIK Ix 3OOKxIn2 X1ol\nD\nತೆಳುಪದರವಣ--ರೇಖನ\n೬\nG.31MJ'mol IK -Ix 3OOK XIn2x 10l.\n೭\nಸಂಭಉದಸಾಲುವಣಃರೇಖನ\n1565.\n೭೦ಅನಲ-ೀ,ಅಲ\n೬\nಮಲೆ--ಚೂಷಕಿವಣ-ರೇಖನ\nಈಕಿಯಿಗಿಸಂಯಾದಆಯಯು ೆ\nಇ\nಎಭಜನವಣ--ರೇಖನ\nು\nAHO ಮತು. ASO\nIil.\nನನೈಟೋಜನ್ಿಮತುಜಗ ಆಗಾ-ನ್ಅನಲಗಳ\n\nAHO ಮತು ASO\nಮಶಣದಳಿಗಗಾರನಷುn,ಮತು.೯ಗಾಂ ನಷು Aಗ\n೬\nAHo ಮತು. ASo\nಸಿಲಂಡರ್ನಲೂಇದರ.ಸಲಂಡರ್ನಲಿರುವಅನಲಮಶಣದ\nಒಟು.ಒತಡವ.2ಗಬಾರ್ಆದರಿನ-ನೈಟೋಜನ್ನ\nಬ\nAHo ಮತು. Aso\nಆಂಶಿಕಒತಡವ\n151. NiO.ನ ಅಯಾ5ಕ ಗುಣಲಬವ 2x105 ಆದರ.\nಪರವಾಣು-ಸಂಖೈಯನುೃ\nಉಪಯೋಗ\nO.I M NaOH ನg? NiOH, ನ ದಾವೃತಯನು?\nಗolaೋe್ಗಳ? .N--M, Ar--o \nಕಂಡುಹಡಯುರ\nD\n15ಬಾರ್\nು\n1x10n13 M\n೭\n1೯ಬಾರ್\n೭\nI x io' M\n೬\n೨ಬಾರ್\n೬\n2x10-1M\nಇ\n12 ಬಾ0\n೪\n2X 10r 8M",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

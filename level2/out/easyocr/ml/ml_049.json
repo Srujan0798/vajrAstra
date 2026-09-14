@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_049",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1640,
+    "height": 2324
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1640,
+        2324
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SAMPLE QUESTION PAPER FOR SUMMATIVE ASSESSMENT SecondTerm 2010 2011\nMALAYALAM\nClass : X Code 012\nTime : 3 Hrs. Marks 8०\n-+}\nSECTION - A / A Qll@o000\n8 Marks [. 0969 689s3010ी6क)3m 6lomूole 0i७@ी>* 9]32163@382 89]9($631300@) 201006293038..\n@ाg OoृiD@@ mJomez@० २pल षeleoolm molelळ ०gठ२l३० Qाellलl mJoso0Im@Dmm 8013633300. 8800]30, @g23080130, @9980]30, GOIOOत]GOI3०   २oiळommeg]o mDe]र80I3633cठ. 639809 8oi30olm३० तUoalo ogmzo foniJodomo egma० 8]038@  633803  BOO)6330ी   @ons (02]0@06!1363139363  310m3621त`631360   @|906m[6631300 ogm Balolele 2olmloaooaoio egm 8el6l213० @O 0ी@68$3m3: @0i6@g9० 80136313886$ 0][962][90)63360 06m0J6m Qaml॰ृ@o8कw= 80I3Dत0)० ०gm8० @I0@D036nड : Ooommo, @loतi OomलDmm 8QI3@0;o@ @oत०० 9(00)6333@8० ConiDn2mm 631323० 408:_ 0 al@@og m३० 2m8श,09601@36$ 00]803m26123@)  @]38030018380]6nड1  2oco]om 60]gl6613200ी@ी33220)36)6mm3० डDO@lल@   Oollco]mbleam3\n1 mbel३   80]3631360 @9301 २ 80I363323@S  (om3mnImw2D@ १ठँ ComOs3i3ce ०g०१ 3 2olmlna003&6= 80139त0)०  gm3 Qlgleom 0906m6900 ४ . 80]363136)8- (9तँ@323810282  3300101026$  0ilco]om0o200ँ\n} 2\nSECTION - B/ B- Qlllod०\n१४ Marks I. 1) ego0ele३०   ६३@३ Qli॰श@ooo@१ठीsf @६n३३ ० ३०0ाठी७३ &तl@ow@ 2॰lmsm!@8e. 7 a) 0fi3ro@@0ी॰23० 109|$&0130. b) mँी Oooo mmoolom   @g0ico$@@ C ) 00 moo&श6mo\n२) @l(0)6313236S  gomemooim  @Qooom633og ८ाठ @3829319|36कD6nडँ  @lroDtloloe 6303  &601093038..\nSECTION - C/ C- QllodDo १८ Marks IIL. 1) @le@o0०   2983e. 9(00303@)0230 @]296m23@)3m (om063!38|00 @02 @0330230 2@]8(360631360 @]o200l0l@)3त m3eशl8क)ons0Dmm २) onodooojojom७० 00960 तcoloioकo@ाo  @ीष॰शc 0198[23&ी 2983@ ८9 0]93(1010]93:  6)@]6m063$1@36$  (oRU@@1  3ष@02l॰|3. ३) looo01२8jo  ाooobी012कj० 201 80100ी6@169]93038 OID@0m633gl03m1m3०  6gl66oooglao0ा G0 @odo  0l8u03०6&Jons 639$8@3.",
+      "text_nfc": "SAMPLE QUESTION PAPER FOR SUMMATIVE ASSESSMENT SecondTerm 2010 2011\nMALAYALAM\nClass : X Code 012\nTime : 3 Hrs. Marks 8०\n-+}\nSECTION - A / A Qll@o000\n8 Marks [. 0969 689s3010ी6क)3m 6lomूole 0i७@ी>* 9]32163@382 89]9($631300@) 201006293038..\n@ाg OoृiD@@ mJomez@० २pल षeleoolm molelळ ०gठ२l३० Qाellलl mJoso0Im@Dmm 8013633300. 8800]30, @g23080130, @9980]30, GOIOOत]GOI3०   २oiळommeg]o mDe]र80I3633cठ. 639809 8oi30olm३० तUoalo ogmzo foniJodomo egma० 8]038@  633803  BOO)6330ी   @ons (02]0@06!1363139363  310m3621त`631360   @|906m[6631300 ogm Balolele 2olmloaooaoio egm 8el6l213० @O 0ी@68$3m3: @0i6@g9० 80136313886$ 0][962][90)63360 06m0J6m Qaml॰ृ@o8कw= 80I3Dत0)० ०gm8० @I0@D036nड : Ooommo, @loतi OomलDmm 8QI3@0;o@ @oत०० 9(00)6333@8० ConiDn2mm 631323० 408:_ 0 al@@og m३० 2m8श,09601@36$ 00]803m26123@)  @]38030018380]6nड1  2oco]om 60]gl6613200ी@ी33220)36)6mm3० डDO@lल@   Oollco]mbleam3\n1 mbel३   80]3631360 @9301 २ 80I363323@S  (om3mnImw2D@ १ठँ ComOs3i3ce ०g०१ 3 2olmlna003&6= 80139त0)०  gm3 Qlgleom 0906m6900 ४ . 80]363136)8- (9तँ@323810282  3300101026$  0ilco]om0o200ँ\n} 2\nSECTION - B/ B- Qlllod०\n१४ Marks I. 1) ego0ele३०   ६३@३ Qli॰श@ooo@१ठीsf @६n३३ ० ३०0ाठी७३ &तl@ow@ 2॰lmsm!@8e. 7 a) 0fi3ro@@0ी॰23० 109|$&0130. b) mँी Oooo mmoolom   @g0ico$@@ C ) 00 moo&श6mo\n२) @l(0)6313236S  gomemooim  @Qooom633og ८ाठ @3829319|36कD6nडँ  @lroDtloloe 6303  &601093038..\nSECTION - C/ C- QllodDo १८ Marks IIL. 1) @le@o0०   2983e. 9(00303@)0230 @]296m23@)3m (om063!38|00 @02 @0330230 2@]8(360631360 @]o200l0l@)3त m3eशl8क)ons0Dmm २) onodooojojom७० 00960 तcoloioकo@ाo  @ीष॰शc 0198[23&ी 2983@ ८9 0]93(1010]93:  6)@]6m063$1@36$  (oRU@@1  3ष@02l॰|3. ३) looo01२8jo  ाooobी012कj० 201 80100ी6@169]93038 OID@0m633gl03m1m3०  6gl66oooglao0ा G0 @odo  0l8u03०6&Jons 639$8@3.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

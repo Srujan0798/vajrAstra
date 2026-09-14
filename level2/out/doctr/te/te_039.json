@@ -1,0 +1,41 @@
+{
+  "page_id": "te_039",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0039pro_raw.pdf",
+    "page_index": 75,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "paece DSO 88 30385 3o0o0ossod. aoncoest soe bobod.\nW000)\n88\n2000\n300\n800\nJ8\n38856 Sso 535 OS weae DgeNs A2 dones Sio.\nwe3 580 283 we3s X803 pob DPSOOSS OJ.\ne\nSevose\nRososto awaps ag0so, ahos as Jod Ses5s 3 aisoë. oobod.\nle\nro\ndoprass MSS : Ros orawsor, easegor Jobod.\nDordoss SSS : 8055 20000 soen S350 Sosod. aqolvs SODOS 388 ONSOE.\n66",
+      "text_nfc": "paece DSO 88 30385 3o0o0ossod. aoncoest soe bobod.\nW000)\n88\n2000\n300\n800\nJ8\n38856 Sso 535 OS weae DgeNs A2 dones Sio.\nwe3 580 283 we3s X803 pob DPSOOSS OJ.\ne\nSevose\nRososto awaps ag0so, ahos as Jod Ses5s 3 aisoë. oobod.\nle\nro\ndoprass MSS : Ros orawsor, easegor Jobod.\nDordoss SSS : 8055 20000 soen S350 Sosod. aqolvs SODOS 388 ONSOE.\n66",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

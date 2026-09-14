@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_031",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series G7DEF SET-4\n\nQ.P. Code 1 2\n\nCandidates must write the Q.P. Code\nRoll No. 1\non the title page of the answer-book.\n\nനിർദേശങ്ങൾ NOTE []\n\n(TD) ചോദ്യപേപ്പറിൽ അച്ചടിച്ച 15 പുറങ്ങള്യണ്ടെന്ന് D) Please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവര്യത്തുക. contains 15 printed pages.\n\n(ID) പരീക്ഷാർത്ഥി ചോദ്യപേപ്പറിന്റെ (I) Q.P. Code given on the right hand\nവലത്യുമുകൾഭാഗത്ത് കൊടുത്തിരിക്കുന്ന side of the question paper should be\nചോദ്യപേപ്പർ കോഡ് ഉത്തരക്കടലാസ്റ്റിന്റെ written on the title page of the answer-\nടൈറ്റിൽ പേജിൽ എഴുതേണ്ടതാണ്. book by the candidate.\n\n(II]) ചോദ്യപേപ്പറിൽ ചോദ്യങ്ങൾ ഉള്ടെന്ന് (III) Please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവരുത്തുക . contains 8 questions.\n\n(IV) ഉത്തരം എഴുതുന്നതിനു മുമ്പായി (IV) Please write down the Serial Number\nഉത്തരക്കടലാസ്തിൽ തന്നിട്ടുള്ള ഇടങ്ങളിൽ of the question in the answer-book at\nചോദ്യത്തിന്റെ ക്രമനമ്പർ എഴുതുക. the given place before attempting it.\n\n(V) ചോദ്യപേപ്പർ വായിക്കാൻ 15 മിനിട്ടാണ് (V) 15 minute time has been allotted to\nഅനുവദിച്ചിട്ടുള്ളത് . രാവിലെ 10.15 നു read this question paper. The question\nചോദ്യപേപ്പർ വിതരണം ചെയ്യുന്നതാണ്. paper % will be distributed at 10.15\nരാവിലെ 10.15 03008 10.30 0വരെ a.m. From 10.15 a.m. to 10.30 a.m.,\noNevoeanctencho6\" a the candidates will read the question\n\nവാർത്ഥകൾക്ക ചോദ്യങ്ങ . paper only and will not write any\nവായിച്ചുനോക്കാനുള്ള തമയമാണ്. ഈ answer on the answer-book during\nസമയം ഉത്തരക്കടലാസ്തിൽ BO} ഉത്തരവും this period.\nഎഴുതാൻ ശ്രമിക്കരുൃത് .\nമലയാളം\nMALAYALAM\nCOMAIG 2] MAM : 3 മണിക്കൂർ ആകെ മാർക്ക് : 80\nTime allowed : 3 hours Maximum Marks : 80\n\n12 1 P.T.O.\n",
+      "text_nfc": "Series G7DEF SET-4\n\nQ.P. Code 1 2\n\nCandidates must write the Q.P. Code\nRoll No. 1\non the title page of the answer-book.\n\nനിർദേശങ്ങൾ NOTE []\n\n(TD) ചോദ്യപേപ്പറിൽ അച്ചടിച്ച 15 പുറങ്ങള്യണ്ടെന്ന് D) Please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവര്യത്തുക. contains 15 printed pages.\n\n(ID) പരീക്ഷാർത്ഥി ചോദ്യപേപ്പറിന്റെ (I) Q.P. Code given on the right hand\nവലത്യുമുകൾഭാഗത്ത് കൊടുത്തിരിക്കുന്ന side of the question paper should be\nചോദ്യപേപ്പർ കോഡ് ഉത്തരക്കടലാസ്റ്റിന്റെ written on the title page of the answer-\nടൈറ്റിൽ പേജിൽ എഴുതേണ്ടതാണ്. book by the candidate.\n\n(II]) ചോദ്യപേപ്പറിൽ ചോദ്യങ്ങൾ ഉള്ടെന്ന് (III) Please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവരുത്തുക . contains 8 questions.\n\n(IV) ഉത്തരം എഴുതുന്നതിനു മുമ്പായി (IV) Please write down the Serial Number\nഉത്തരക്കടലാസ്തിൽ തന്നിട്ടുള്ള ഇടങ്ങളിൽ of the question in the answer-book at\nചോദ്യത്തിന്റെ ക്രമനമ്പർ എഴുതുക. the given place before attempting it.\n\n(V) ചോദ്യപേപ്പർ വായിക്കാൻ 15 മിനിട്ടാണ് (V) 15 minute time has been allotted to\nഅനുവദിച്ചിട്ടുള്ളത് . രാവിലെ 10.15 നു read this question paper. The question\nചോദ്യപേപ്പർ വിതരണം ചെയ്യുന്നതാണ്. paper % will be distributed at 10.15\nരാവിലെ 10.15 03008 10.30 0വരെ a.m. From 10.15 a.m. to 10.30 a.m.,\noNevoeanctencho6\" a the candidates will read the question\n\nവാർത്ഥകൾക്ക ചോദ്യങ്ങ . paper only and will not write any\nവായിച്ചുനോക്കാനുള്ള തമയമാണ്. ഈ answer on the answer-book during\nസമയം ഉത്തരക്കടലാസ്തിൽ BO} ഉത്തരവും this period.\nഎഴുതാൻ ശ്രമിക്കരുൃത് .\nമലയാളം\nMALAYALAM\nCOMAIG 2] MAM : 3 മണിക്കൂർ ആകെ മാർക്ക് : 80\nTime allowed : 3 hours Maximum Marks : 80\n\n12 1 P.T.O.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

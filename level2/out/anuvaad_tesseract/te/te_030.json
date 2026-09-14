@@ -1,0 +1,41 @@
+{
+  "page_id": "te_030",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0030pro_raw.pdf",
+    "page_index": 91,
+    "width": 1652,
+    "height": 2276
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2276
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "39 =>\nशा Hand (30 जा 5 BY\n\nName of th\nwashing steps : S national\n; animal\n\nWord with\nsound ‘ee’\n\nWord starts\nwith ‘br’\n\nWords with\n‘00’ sound\n\n| letter\nwords\n\nWord starts 3 letter\nहे words\n\nMAHARASHTRA STATE BUREAU OF 5 —_\n\nTEXTBOOK PRODUCTION AND il=-, समग्र शिक्षा 3\nCURRICULUM RESEARCH, PUNE. — | Samagra Shiksha .\nमाय इंग्लिश बुक ग्रेड टू... (For free distribution) °° -\na |. V\n\\ ~~ +\n\n",
+      "text_nfc": "39 =>\nशा Hand (30 जा 5 BY\n\nName of th\nwashing steps : S national\n; animal\n\nWord with\nsound ‘ee’\n\nWord starts\nwith ‘br’\n\nWords with\n‘00’ sound\n\n| letter\nwords\n\nWord starts 3 letter\nहे words\n\nMAHARASHTRA STATE BUREAU OF 5 —_\n\nTEXTBOOK PRODUCTION AND il=-, समग्र शिक्षा 3\nCURRICULUM RESEARCH, PUNE. — | Samagra Shiksha .\nमाय इंग्लिश बुक ग्रेड टू... (For free distribution) °° -\na |. V\n\\ ~~ +\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

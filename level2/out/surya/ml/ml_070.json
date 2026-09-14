@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_070",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 970,
+    "height": 1536
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        970,
+        1536
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "<img alt=\"A black and white photograph of a person sitting on a stone surface, looking down at the camera. The pers\nL-1-2-1",
+      "text_nfc": "<img alt=\"A black and white photograph of a person sitting on a stone surface, looking down at the camera. The pers\nL-1-2-1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_062",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 51,
+    "width": 1031,
+    "height": 1651
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1031,
+        1651
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "= ഇക്കാലത്തെ പ്പോലെ കൊക്കയും കസ്കതിയും അന്നുമുണ്ടാ\nയിരുന്നു വൊ? ടുഷിയും ഭൂഷണവും നമുക്ക പൃവ്വസ്വത്താണൊ?\n_ ലത്യഭീരോഗംപോലെതന്നെ വാരോലയും പങ്ടചണ്ടെ ഉള്ള\nൽ താണൊ$? ഇതൊക്കെ ആലോചിച്ചാലും അന്വേഷിച്ചാലും അ\n\nമൂന്നുപേരും വൃദ്ധന്മാരാണൊന്ന്‌ അല\nഅതിൽ ഏറം:മും ഇളയ\nക _ഞ്തിരി കടന്നു. BOLO | Ds ളയ >\n: രിച്ചിട്ടു ണ്ടങ്കിലും Dao m0 ar\nത്രമെ ഉള്ളൂ\n\nഗൃഫസ്ഥ്ന്‍െറ പേർ കണ്ണന്‍ മേനോന്‍ ag\n\nതലായ ഉയനിാജാതിക്കാര്‍ ഇയാ൭ 584\n376 കണ്ണ ൯? എനാണ്‌\nyas 9\n\nനാശന?മായ asin\n\nay\n\n2\n",
+      "text_nfc": "= ഇക്കാലത്തെ പ്പോലെ കൊക്കയും കസ്കതിയും അന്നുമുണ്ടാ\nയിരുന്നു വൊ? ടുഷിയും ഭൂഷണവും നമുക്ക പൃവ്വസ്വത്താണൊ?\n_ ലത്യഭീരോഗംപോലെതന്നെ വാരോലയും പങ്ടചണ്ടെ ഉള്ള\nൽ താണൊ$? ഇതൊക്കെ ആലോചിച്ചാലും അന്വേഷിച്ചാലും അ\n\nമൂന്നുപേരും വൃദ്ധന്മാരാണൊന്ന്‌ അല\nഅതിൽ ഏറം:മും ഇളയ\nക _ഞ്തിരി കടന്നു. BOLO | Ds ളയ >\n: രിച്ചിട്ടു ണ്ടങ്കിലും Dao m0 ar\nത്രമെ ഉള്ളൂ\n\nഗൃഫസ്ഥ്ന്‍െറ പേർ കണ്ണന്‍ മേനോന്‍ ag\n\nതലായ ഉയനിാജാതിക്കാര്‍ ഇയാ൭ 584\n376 കണ്ണ ൯? എനാണ്‌\nyas 9\n\nനാശന?മായ asin\n\nay\n\n2\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

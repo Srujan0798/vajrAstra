@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "BS ಪತ್ರಿಕೆ ಕೋಡ್‌- ೧೩\nಅ\nUA OP core 13\nಕ] eee eee eee eee eee eee\nಹಾಜರಿ ಸಂಖ್ಯೆ ಅಭ್ಯ ರ್ಥಿಯು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಕೋಡ್‌ ಅನ್ನು ಉತ್ತರ\nRoll No\n\nಪತ್ರಿಕೆ ಮುಖಪುಟದಲ್ಲಿ ಅವಶ್ಯವಾಗಿ ಬರೆಯಿರಿ.\n\n|\n\n|\n\n।\nಹ ದದ ಛಂ ಇಂ\n| | | | | | | ! ! Candidates must write the Q.P. Code on\ni---L--J__-L_-_J_--L__J__--L_ a ' the title page of the answer-book.\n\na\na\n\nಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಲ್ಲಿ18 ಮುದ್ರಿತ ಪುಟಗಳಿವೆಯೆಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ\nಶ್ನೆ ಪತ್ರಿಕೆಯ ಬಲಭಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಕೋಡ್‌ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಮುಖ ಪುಟದಲ್ಲಿ\nDF CoD ಬರೆಯಬೇಕು.\n\n3 ಪತ್ರಿಕೆಯಲ್ಲಿ15 ಪ್ರಶ್ನೆಗಳಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ\n\nದ\n\nಉತ್ತರಿಸುವುದಕ್ಕೆ ಮೊದಲು ಪ್ರಶ್ನೆಯ ಕ್ರಮ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಯಥಾಸ್ಥಾನದಲ್ಲಿ ಬರೆಯಿರಿ\nಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಲು 15 ನಿಮಿಷಗಳನ್ನು ಕೊಡಲಾಗಿದೆ. ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು 10.15 a.m.\nಗೆ ವಿತರಿಸಲಾಗುವುದು. 10.15 a.m. ನಿಂದ 10.80 a.m. ರತನಕ ವಿದ್ಯಾರ್ಥಿಗಳು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು\nಓದಿಕೊಳ್ಳಬೇಕು ಮತ್ತು ಈ ಅವಧಿಯಲ್ಲಿಯಾವುದೇ ಉತ್ತರವನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯಲ್ಲಿ ಬರೆಯಬಾರದು.\n\nG el\n\nw\nal &\n\nPlease check that this question paper contains 15 printed pages.\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\nPlease check that this question paper contains 15 questions.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n\nಅನುಮತಿಸಲಾದ ಸಮಯ : 8 ಗಂಟೆ\n\nTime allowed : 3 hours\n\nWt ಕನ ಡ\nಸ न ಸ್ದಾ\nKANNADA ae\n\nMOR ಅಂಕಗಳು : 80\n\nMaximum Marks : 80\n\n* Page 10/ 16 * P.T.O.\n\nದ\n\n",
+      "text_nfc": "BS ಪತ್ರಿಕೆ ಕೋಡ್‌- ೧೩\nಅ\nUA OP core 13\nಕ] eee eee eee eee eee eee\nಹಾಜರಿ ಸಂಖ್ಯೆ ಅಭ್ಯ ರ್ಥಿಯು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಕೋಡ್‌ ಅನ್ನು ಉತ್ತರ\nRoll No\n\nಪತ್ರಿಕೆ ಮುಖಪುಟದಲ್ಲಿ ಅವಶ್ಯವಾಗಿ ಬರೆಯಿರಿ.\n\n|\n\n|\n\n।\nಹ ದದ ಛಂ ಇಂ\n| | | | | | | ! ! Candidates must write the Q.P. Code on\ni---L--J__-L_-_J_--L__J__--L_ a ' the title page of the answer-book.\n\na\na\n\nಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಲ್ಲಿ18 ಮುದ್ರಿತ ಪುಟಗಳಿವೆಯೆಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ\nಶ್ನೆ ಪತ್ರಿಕೆಯ ಬಲಭಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಕೋಡ್‌ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಮುಖ ಪುಟದಲ್ಲಿ\nDF CoD ಬರೆಯಬೇಕು.\n\n3 ಪತ್ರಿಕೆಯಲ್ಲಿ15 ಪ್ರಶ್ನೆಗಳಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ\n\nದ\n\nಉತ್ತರಿಸುವುದಕ್ಕೆ ಮೊದಲು ಪ್ರಶ್ನೆಯ ಕ್ರಮ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯ ಯಥಾಸ್ಥಾನದಲ್ಲಿ ಬರೆಯಿರಿ\nಈ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಲು 15 ನಿಮಿಷಗಳನ್ನು ಕೊಡಲಾಗಿದೆ. ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು 10.15 a.m.\nಗೆ ವಿತರಿಸಲಾಗುವುದು. 10.15 a.m. ನಿಂದ 10.80 a.m. ರತನಕ ವಿದ್ಯಾರ್ಥಿಗಳು ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯನ್ನು\nಓದಿಕೊಳ್ಳಬೇಕು ಮತ್ತು ಈ ಅವಧಿಯಲ್ಲಿಯಾವುದೇ ಉತ್ತರವನ್ನು ಉತ್ತರ ಪತ್ರಿಕೆಯಲ್ಲಿ ಬರೆಯಬಾರದು.\n\nG el\n\nw\nal &\n\nPlease check that this question paper contains 15 printed pages.\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\nPlease check that this question paper contains 15 questions.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n\nಅನುಮತಿಸಲಾದ ಸಮಯ : 8 ಗಂಟೆ\n\nTime allowed : 3 hours\n\nWt ಕನ ಡ\nಸ न ಸ್ದಾ\nKANNADA ae\n\nMOR ಅಂಕಗಳು : 80\n\nMaximum Marks : 80\n\n* Page 10/ 16 * P.T.O.\n\nದ\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

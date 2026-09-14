@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_009",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+    "page_index": 2,
+    "width": 1695,
+    "height": 2198
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1695,
+        2198
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "लहर\n\n9 MNO AN\n\n|\n\nDSS BOBO OHS ನಿಬಂಧಕರು ( } Seow Bese, ಬೆಂಗಳೂರು\nVHSB ಸಂಘಗಳ Wow OWOMSO, . . . .. . .......... QB, . ..-- ८. -----\n\nNUE ಜಿಲ್ಡೆಗಳ ಸಹಕಾರ ಸಂಘಫಗಳ ಉಪ ನಿಬಂಧಕರುಗಳಿಗೆ Bos Swag\n\nವ್ಯವನ್ಥಾಪಕ ನಿರ್ದೇಶಕರು , ರಾಜ್ಯ wes NOG ಸಹಕಾರ BOGOR\n\nವ್ಯವಸ್ಥಾಪಕ ನಿದೆರ್ಜಶಕರು , wey Beow, ಸಹಕಾರ BROS ©.\n\nವ್ಯವನ್ಥಾಪಕ ನಿರ್ದೇಶಕರು, BGs Sood ಉತ್ಪಾದಕರ ಸಹಕಾರ ಸಂಘಗಳ ಒಕ್ತೂಟ ನಿಯಮಿತ\nನಿರ್ದೇಶಕರು , DHSS ಲೆಕ್ತಪರಿಶೋಧನಾ ಬಲಾಖೆ, ಬೆಂಗಳೂರು\n\nಆಯುಕ್ತರು, BAY ಅಭಿವ್ದ್ಧಿ ಕಹಾಗೂ ved Odersso, ಬೆಂಗಳೂರು\n\n- ಜವಳಿ SVT ಆಯುಕ್ತರು ಹಾಗೂ ಕೈಮದ್ಗ Rie ನಿರ್ದೇಶಕರು , ಬೆಂಗಳೂರು\n, ನಿರ್ದೇಶಕರು , ಮೀನುಗಾರಿಕೆ ನಿದ್ದಶವಾಲಯ , ಬೆಂಗಳೂಠು\n\n. ನಿದ್ದೇಶಕರು, Gea ಇಲಾಖೆ, ಬೆಂಗಳೂರು\n\n- ಭೂ ಅಭನವೃದ್ಧಿ ಅಧಿಕಾರಿ (ಸಹಕಾರ), ಕಾಡಾ, . . . ................--\n\nಸರ್ಕಾರದ ಪ್ರಧಾನ ಕಾರ್ಯದರ್ಶಿ, ಸಹಕಾರ ಇಲಾಖೆ, ಬಹುಮಹಡಿ BHO. ಭೆಂಗಳೂರು-01\n",
+      "text_nfc": "लहर\n\n9 MNO AN\n\n|\n\nDSS BOBO OHS ನಿಬಂಧಕರು ( } Seow Bese, ಬೆಂಗಳೂರು\nVHSB ಸಂಘಗಳ Wow OWOMSO, . . . .. . .......... QB, . ..-- ८. -----\n\nNUE ಜಿಲ್ಡೆಗಳ ಸಹಕಾರ ಸಂಘಫಗಳ ಉಪ ನಿಬಂಧಕರುಗಳಿಗೆ Bos Swag\n\nವ್ಯವನ್ಥಾಪಕ ನಿರ್ದೇಶಕರು , ರಾಜ್ಯ wes NOG ಸಹಕಾರ BOGOR\n\nವ್ಯವಸ್ಥಾಪಕ ನಿದೆರ್ಜಶಕರು , wey Beow, ಸಹಕಾರ BROS ©.\n\nವ್ಯವನ್ಥಾಪಕ ನಿರ್ದೇಶಕರು, BGs Sood ಉತ್ಪಾದಕರ ಸಹಕಾರ ಸಂಘಗಳ ಒಕ್ತೂಟ ನಿಯಮಿತ\nನಿರ್ದೇಶಕರು , DHSS ಲೆಕ್ತಪರಿಶೋಧನಾ ಬಲಾಖೆ, ಬೆಂಗಳೂರು\n\nಆಯುಕ್ತರು, BAY ಅಭಿವ್ದ್ಧಿ ಕಹಾಗೂ ved Odersso, ಬೆಂಗಳೂರು\n\n- ಜವಳಿ SVT ಆಯುಕ್ತರು ಹಾಗೂ ಕೈಮದ್ಗ Rie ನಿರ್ದೇಶಕರು , ಬೆಂಗಳೂರು\n, ನಿರ್ದೇಶಕರು , ಮೀನುಗಾರಿಕೆ ನಿದ್ದಶವಾಲಯ , ಬೆಂಗಳೂಠು\n\n. ನಿದ್ದೇಶಕರು, Gea ಇಲಾಖೆ, ಬೆಂಗಳೂರು\n\n- ಭೂ ಅಭನವೃದ್ಧಿ ಅಧಿಕಾರಿ (ಸಹಕಾರ), ಕಾಡಾ, . . . ................--\n\nಸರ್ಕಾರದ ಪ್ರಧಾನ ಕಾರ್ಯದರ್ಶಿ, ಸಹಕಾರ ಇಲಾಖೆ, ಬಹುಮಹಡಿ BHO. ಭೆಂಗಳೂರು-01\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

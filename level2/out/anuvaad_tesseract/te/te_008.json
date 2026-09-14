@@ -1,0 +1,41 @@
+{
+  "page_id": "te_008",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0008pro_raw.pdf",
+    "page_index": 3,
+    "width": 1312,
+    "height": 2068
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1312,
+        2068
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "భాగం-“ है\n\n>\n\n4. Se Sop POs గణ విభజన 3d GMS నీయబడిన ప్రశ్నల $06 జవాబులలో\nDOS GAD ఎన్నుకొని రాయండి .\n\n4x1=4\n\n\"స్వామి Bordo 3d, STS ని Fos SAS కాకనే\"\n\nప్రశ్నలు:-\n\ni. పద్యపాదం ఏ వుత్త పద్యానికి 3०666?\nఅ) మత్తేభం\nఇ) శార్వూలం\n\nii. ఇందులో Ko గణములు\n\nఅ) మ స జసతత గ\nఇ) న జ భ జ జ జర\n\niii. యతి మైత్తి ఎన్నో అక్షరం\nछ) 11 వ అక్షరం ఆ) 13 వ ఆక్షరం\niv. ठ పద్య పాదంలో ఎన్ని అక్షరాలున్నాయి ?\n&) 20\n\nes) 21 ఇ) 22\n\n5. 5०6 ప్రశ్నలకు సమాధానాలు రాయండి .\n\nఆ) ఉత్పలమాల\n$2) చంపక మాల\n\nay స భర న మయ వ\nఈ) భ ర న భ భర ऊ.\n\nथे) 12 వ అక్షరం\n\nSs) 14 వ ఆక్షరం\n\nSs) 19\n\n4x1=4\n\ni. ఉన్నదాని కంటె ఎక్కువ చేపి days — — - -\n\nఅ) ఉపమాలంకారం\nवे) క్రమాలంకారం\n\nii, క్రమాలంకారానికి BH 56० _ _ _.\n\n@) యధా సంఖ్య ము\n3) అతిశయోక్తి అలంకారం\n\nఆ) అతిశయోక్తి అలంకారం\nSa) SOLS IGS ఆలంకారం .\n\nఆ) ఉపమాలంకారం\nఈ) D మూడూకాదు .\n",
+      "text_nfc": "భాగం-“ है\n\n>\n\n4. Se Sop POs గణ విభజన 3d GMS నీయబడిన ప్రశ్నల $06 జవాబులలో\nDOS GAD ఎన్నుకొని రాయండి .\n\n4x1=4\n\n\"స్వామి Bordo 3d, STS ని Fos SAS కాకనే\"\n\nప్రశ్నలు:-\n\ni. పద్యపాదం ఏ వుత్త పద్యానికి 3०666?\nఅ) మత్తేభం\nఇ) శార్వూలం\n\nii. ఇందులో Ko గణములు\n\nఅ) మ స జసతత గ\nఇ) న జ భ జ జ జర\n\niii. యతి మైత్తి ఎన్నో అక్షరం\nछ) 11 వ అక్షరం ఆ) 13 వ ఆక్షరం\niv. ठ పద్య పాదంలో ఎన్ని అక్షరాలున్నాయి ?\n&) 20\n\nes) 21 ఇ) 22\n\n5. 5०6 ప్రశ్నలకు సమాధానాలు రాయండి .\n\nఆ) ఉత్పలమాల\n$2) చంపక మాల\n\nay స భర న మయ వ\nఈ) భ ర న భ భర ऊ.\n\nथे) 12 వ అక్షరం\n\nSs) 14 వ ఆక్షరం\n\nSs) 19\n\n4x1=4\n\ni. ఉన్నదాని కంటె ఎక్కువ చేపి days — — - -\n\nఅ) ఉపమాలంకారం\nवे) క్రమాలంకారం\n\nii, క్రమాలంకారానికి BH 56० _ _ _.\n\n@) యధా సంఖ్య ము\n3) అతిశయోక్తి అలంకారం\n\nఆ) అతిశయోక్తి అలంకారం\nSa) SOLS IGS ఆలంకారం .\n\nఆ) ఉపమాలంకారం\nఈ) D మూడూకాదు .\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

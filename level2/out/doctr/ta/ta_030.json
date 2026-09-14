@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_030",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 327,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6600floof LWIGTUITOEGT - BLD6D606D OJOOOTLITLD 25600T6\nBieomdiflujser DDPILD GIDGOTILGLITGTITEST\n50001 2yGomEB\nUpeDGIGuT\nOILIT6OT.\nELDII\n060600T guasenj (UTLBSILLiD)\nLOTIBleDS boboluflutb espued LoDpID Lulpa Bplolconib,\n61560T6060T 600 006\nLITL guyisdleeconlumenj\n2 2155\nULLEmf eyohfloou,\nSija LDaorflj Giod@apsoludter,\n1D51Tm55510, Emesehumib.\n4656 61196 616OLDLLITGTF\ney@mmedlunb 6ILI60165610\nLiorebGjL 6114610 Lobpib LiffedonLoro,\nG166OT6D6OT.\n5T BLOLLITG\nSIG6OOT ETLDIITER upooflamo\nGLoofluo\nBumeaog L.\nSLLàai\nOrm. GLDmTESTCaTmIibUITeT\nGoletéGed, 61560T6060T.\nSILGOL GIOGIGDIDLLITAIT\nE58l1 SSDIUDEiD\n61560T6060T.\nOMDTGLé 5mUSLo GLDGDITGOOTGDLDES EL\nOTm. 01965515601, Beo-Boooggadud,\nmemege-@unadimeiudent E5G600T6LIT10, Gureani,\nBlasouchrcommpeoso.\n25.6501 0186r01551, ulL.smfhlay-Afuj,\nLITLEITO 61600IBTE6IT\nBGLDS. LITSBLIGULEID\n2561 Gumédluj Loppib 516DD556D6DGJT\n85600fleofl TLILLSOTLITOSOT 5160D,\nEuloor Giorfloio Eobgf, OLEGOTGDGT,\nB0. SILD56T\n2501 Gummafuj LoDpID 060600T 460 USooj\nLiTedOTiqéGar Glumpludueo sdbgrrh, LeTGDGmeeITeuIG,\nLiTeoonigéGerfl.\nLITL Guosomiaurrenjessir\nS0. S. ETGL6OOTGOT\n51606001 U560uj,\nSILLG6DIT 56060 LoipID aiplofud séugf, 6156076060T.\nBu. 6TLD. UTGrf\nOsmplopiLu eyGeoneasj,\nE5Té0flaSBOTL GLCGOTITGDED,\n5loopiumbsio, 61560T6060T.\nGuompauugtaumemjsdn\nOgmecofl GoLemrhecoTeof\nOgiGamLé aGymqum\nSITo OILI600T56IT GuodBopepiudtef\nBrha5-bobgri, GE6OTGIDGOT.\nC. ufG501\nSITo UOGOT LomSif GuodyBlepeoituéirer\nBucuébslaGaco, G16TT6ÔTGDGOT 5.\nK.V. LDIESEHGITIT\n61560T6060T GiodBopepiluéiter,\ngeenGuO, 61560T6060T.\nA. G. 6606D6I600f\n61560T60D60T OILIGOOTE5GIT Gupdplepepiludterl,\nagdmnje.uisuaoduetan. crebr.smib.Gasrralléb, Gougri. Glumbyi, 61860T60D60T 11.\nLD.BJCL600TGOT, ULLsmpleyafui,\ncoknbosut@Oowhineiedent\nsumpuumg, BEGDLD.\ngUmdGDGOOIUL\nBGLDoig (pooflamo\n12th_Computer_Application_Tamil version Practicals.indd 318\neyriidlooLp LITL 5é aoflujsoit\nSGUE. ErITo4loofl\nGummafloos & 5ioDDb5DeDGuj,\n556160 smplogiLus 516DD,\nEBLILITLDIT Siplonué) & osmplopilu BpiGuGoTib,\nG166OTGD6OT.\nBGDG. A. 2yt5d\n060600T Gummafloou,\n566160 Osmplobplus 516DD,\nRMK Gumplulud séogrr,\nBGJEDTUGULODL, BoGuoteIs.\nSG16. abolum SEjEILO\n51606001 Gumafloou,\n556160 Osmplopilus 516DD,\nGgilumg SRR Glumpluduléb sobguTr,\nG1E6OTGD6OT.\nB0. R. BE5ITILDGOT\n51606001 Gummadwi,\n55600floofl lamloiiuob&e Glumpluluuéb 516DD,\nBBLILITLOIT eiplofué) & 05mJILU Bipioueonb,\nG1E6bTODGOT.\nB0. (. AOIELDIj\nU5150D00 eyflfuj,\nBija Guodplepepiuéref, Apismiby. Blbed.\nBo. E. Gaurisal.roeuauugsonér\nU515600 SiTar Guodplepepiuéref, eyflfuj, LoTgTi. B00b6GOL60.\nB0. 651. EGTo4ELIj\nUS156D8 sjofuj,\nSIJd ejeooressir Gaodyfcpapiudtefl, BGLTA5DiD, LD5160J.\nB0. LDIT.566001614\nU51500 syelflui,\nSIJS Lossarlj Guodpepeolueref, lobani, dAoigsoordlgh.\nB0. 0g.0rib5i\nU515000 sjofuj,\nSGR eNTer Gunéb@lepeouudherf, G1E5TTEGLOTLSTO, Gougi.\n318\n19-01-2023 17:57:12\nT. LGEMDLITGIT\nU5156060 sydfloou,\nBiTa GuodyBepepiudter,\nGemognaekir@ul.sDL., Sbéd.\n9. a63I\nU515000 Bija Guoé@lepsoluéterl, aydfloow Emgcbnstriasé),\nSugscuehtrecoumoenso.\nObpTé 80 23.6T6T0.6TLb. 676018600TL GLOLI6OBGEm 5iaflé\nSIdGLULLGGTSTEL SyUOEL Upoopulé SIALGLI:",
+      "text_nfc": "6600floof LWIGTUITOEGT - BLD6D606D OJOOOTLITLD 25600T6\nBieomdiflujser DDPILD GIDGOTILGLITGTITEST\n50001 2yGomEB\nUpeDGIGuT\nOILIT6OT.\nELDII\n060600T guasenj (UTLBSILLiD)\nLOTIBleDS boboluflutb espued LoDpID Lulpa Bplolconib,\n61560T6060T 600 006\nLITL guyisdleeconlumenj\n2 2155\nULLEmf eyohfloou,\nSija LDaorflj Giod@apsoludter,\n1D51Tm55510, Emesehumib.\n4656 61196 616OLDLLITGTF\ney@mmedlunb 6ILI60165610\nLiorebGjL 6114610 Lobpib LiffedonLoro,\nG166OT6D6OT.\n5T BLOLLITG\nSIG6OOT ETLDIITER upooflamo\nGLoofluo\nBumeaog L.\nSLLàai\nOrm. GLDmTESTCaTmIibUITeT\nGoletéGed, 61560T6060T.\nSILGOL GIOGIGDIDLLITAIT\nE58l1 SSDIUDEiD\n61560T6060T.\nOMDTGLé 5mUSLo GLDGDITGOOTGDLDES EL\nOTm. 01965515601, Beo-Boooggadud,\nmemege-@unadimeiudent E5G600T6LIT10, Gureani,\nBlasouchrcommpeoso.\n25.6501 0186r01551, ulL.smfhlay-Afuj,\nLITLEITO 61600IBTE6IT\nBGLDS. LITSBLIGULEID\n2561 Gumédluj Loppib 516DD556D6DGJT\n85600fleofl TLILLSOTLITOSOT 5160D,\nEuloor Giorfloio Eobgf, OLEGOTGDGT,\nB0. SILD56T\n2501 Gummafuj LoDpID 060600T 460 USooj\nLiTedOTiqéGar Glumpludueo sdbgrrh, LeTGDGmeeITeuIG,\nLiTeoonigéGerfl.\nLITL Guosomiaurrenjessir\nS0. S. ETGL6OOTGOT\n51606001 U560uj,\nSILLG6DIT 56060 LoipID aiplofud séugf, 6156076060T.\nBu. 6TLD. UTGrf\nOsmplopiLu eyGeoneasj,\nE5Té0flaSBOTL GLCGOTITGDED,\n5loopiumbsio, 61560T6060T.\nGuompauugtaumemjsdn\nOgmecofl GoLemrhecoTeof\nOgiGamLé aGymqum\nSITo OILI600T56IT GuodBopepiudtef\nBrha5-bobgri, GE6OTGIDGOT.\nC. ufG501\nSITo UOGOT LomSif GuodyBlepeoituéirer\nBucuébslaGaco, G16TT6ÔTGDGOT 5.\nK.V. LDIESEHGITIT\n61560T6060T GiodBopepiluéiter,\ngeenGuO, 61560T6060T.\nA. G. 6606D6I600f\n61560T60D60T OILIGOOTE5GIT Gupdplepepiludterl,\nagdmnje.uisuaoduetan. crebr.smib.Gasrralléb, Gougri. Glumbyi, 61860T60D60T 11.\nLD.BJCL600TGOT, ULLsmpleyafui,\ncoknbosut@Oowhineiedent\nsumpuumg, BEGDLD.\ngUmdGDGOOIUL\nBGLDoig (pooflamo\n12th_Computer_Application_Tamil version Practicals.indd 318\neyriidlooLp LITL 5é aoflujsoit\nSGUE. ErITo4loofl\nGummafloos & 5ioDDb5DeDGuj,\n556160 smplogiLus 516DD,\nEBLILITLDIT Siplonué) & osmplopilu BpiGuGoTib,\nG166OTGD6OT.\nBGDG. A. 2yt5d\n060600T Gummafloou,\n566160 Osmplobplus 516DD,\nRMK Gumplulud séogrr,\nBGJEDTUGULODL, BoGuoteIs.\nSG16. abolum SEjEILO\n51606001 Gumafloou,\n556160 Osmplopilus 516DD,\nGgilumg SRR Glumpluduléb sobguTr,\nG1E6OTGD6OT.\nB0. R. BE5ITILDGOT\n51606001 Gummadwi,\n55600floofl lamloiiuob&e Glumpluluuéb 516DD,\nBBLILITLOIT eiplofué) & 05mJILU Bipioueonb,\nG1E6bTODGOT.\nB0. (. AOIELDIj\nU5150D00 eyflfuj,\nBija Guodplepepiuéref, Apismiby. Blbed.\nBo. E. Gaurisal.roeuauugsonér\nU515600 SiTar Guodplepepiuéref, eyflfuj, LoTgTi. B00b6GOL60.\nB0. 651. EGTo4ELIj\nUS156D8 sjofuj,\nSIJd ejeooressir Gaodyfcpapiudtefl, BGLTA5DiD, LD5160J.\nB0. LDIT.566001614\nU51500 syelflui,\nSIJS Lossarlj Guodpepeolueref, lobani, dAoigsoordlgh.\nB0. 0g.0rib5i\nU515000 sjofuj,\nSGR eNTer Gunéb@lepeouudherf, G1E5TTEGLOTLSTO, Gougi.\n318\n19-01-2023 17:57:12\nT. LGEMDLITGIT\nU5156060 sydfloou,\nBiTa GuodyBepepiudter,\nGemognaekir@ul.sDL., Sbéd.\n9. a63I\nU515000 Bija Guoé@lepsoluéterl, aydfloow Emgcbnstriasé),\nSugscuehtrecoumoenso.\nObpTé 80 23.6T6T0.6TLb. 676018600TL GLOLI6OBGEm 5iaflé\nSIdGLULLGGTSTEL SyUOEL Upoopulé SIALGLI:",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

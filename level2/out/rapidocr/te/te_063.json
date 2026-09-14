@@ -1,0 +1,41 @@
+{
+  "page_id": "te_063",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0063pro_raw.pdf",
+    "page_index": 33,
+    "width": 595.2760009765625,
+    "height": 793.7009887695312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "•\nIPSPIIE\nfaARiaR\n132\ndodd.\ndord\nMCUTR 3T1G\ngde.\niUPSPItE\naal.\n3π4a1d.\na d, G\n c14 qof\nFai  d,\n 3nod  d. de $\n 315q fha q hd \nTE\nllh plh 2\n1p1412\nA ad;  π 3 H , yc\n hlte\nWhle thl4\n3114 \nnk\n 311024 314d.\nhLk\nbblb\n341024\n3112. 1\nlhahlke\n311 3 314e H1 ac\n374\nbybt\ni\n3114041\nL-l Urte\n Hat,\n2$1b\nFao 3  Teld.\nlk\nfaarie 4ar mact,\n, T A o $ aaie ia \nade.\n3G1.\n,\nVUnkltkt\nnd,\n3T4uTR\n3(\nHEHTN\nIke\n daaand\nIpHIhlte\n       ,\n  y\nPOYNP3",
+      "text_nfc": "•\nIPSPIIE\nfaARiaR\n132\ndodd.\ndord\nMCUTR 3T1G\ngde.\niUPSPItE\naal.\n3π4a1d.\na d, G\n c14 qof\nFai  d,\n 3nod  d. de $\n 315q fha q hd \nTE\nllh plh 2\n1p1412\nA ad;  π 3 H , yc\n hlte\nWhle thl4\n3114 \nnk\n 311024 314d.\nhLk\nbblb\n341024\n3112. 1\nlhahlke\n311 3 314e H1 ac\n374\nbybt\ni\n3114041\nL-l Urte\n Hat,\n2$1b\nFao 3  Teld.\nlk\nfaarie 4ar mact,\n, T A o $ aaie ia \nade.\n3G1.\n,\nVUnkltkt\nnd,\n3T4uTR\n3(\nHEHTN\nIke\n daaand\nIpHIhlte\n       ,\n  y\nPOYNP3",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_049",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1640,
+    "height": 2324
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1640,
+        2324
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SAMPLE QUESTION PAPER FOR\nSUMMATIVE ASSESSMENT\nSecondTerm - 2010 - 2011\nMALAYALAM\nClass : X\nTime : 3 Hrs.\nSe\n2\n2\nCode : 012\nMarks : 80\nSECTION a Al A afsooo\n8 Marks\nI.\n0069 o.@osgarolldlang@m 01male Qog 3801050839 Galogj68BCdes 2001000298086.\n(3080913000 NomueD0o ODO geioeorolm moolo a8g013o aielo Nosoaimasam\n8013661308. 888001B0, 0993080130, 000280130, (GOLDO0J8018O 2D01006ms moe138011863306.\n630800 BQIBO0lmg0 Mondlo 00g0 (6010a06mo 00ago 8010280 630800 60063308 26ns.\n(6010006113681363390S (GYOCD36DITU65306 @gemge603d8 a0m Baldlego 2a106901036.00 a0m\nBalolego madlwossama-\non Q160g0 8018653936S 04506L500D65B00 0omoom.\n2a106810086008 BQIBOOOO 00m30 al0000g01s. 0006mo, GGIOQI Oomopon B0IB00l008\nGOCOo.\n2(00 6613 280 (6D10aD 6m 6313 280 903095 @aimwogamgo 2003e8000610305\naudale.mocogougom algeaopalapgsalemd) 0000l0a8 ocigloasgarol0010153990066TD0D80\nB00008 aflcajmlengamg.\n1. moe1? 8013661308 aBQI ?\n2\n2. 80136313930S (G1OdD36DICTD9D0 2g (COM0661308 aBQI ?\n2\n3. 2al069/01036008 8QIBO0O0 a03 oflglessa8 8.006m0200 ?\n2\n4. 8018631309 m@dalsgoeslogeg B0001000S aflaajoaoano\" ?\n2\nSECTION - B/ B- alsooo\n14 Marks\nII. 1) ago0aleo 6303 alla9000010.5g01al (6n33 al3000ld3 00l0060 2alaaolenge. : 7\na) afiayodadleggo (3109/Se00130.\nb) mU(O7 oc.@sm.auloag B0IA00\nc) QID No0096mo\n2) al(06013230S ggmenoaim (J01d0r.06030g G10282001g91306.0603 aloowlaldes\n63003 600093036\n7\nSECTION- C/ C- ofeooo\n18 Marks\nIII. 1) (180000 20080. :\n1\n20000303600000 (1206m906080TD (06338108 wôo Qfognu200 2018100661308 Q1O00ldlesond\naugeelle@DeTEmOSTO.\n2) admnaroyoamo Q10060 alalai@joor aleau QIDOSaDes) 20080 :\n1\nGGIO Q1OB(101010B0 Oalordegslagos (CORDO0 (31000091913\n3) (o0O1D0so (Hocloipeso DOI aauddldio.glggmge :\n1\nQ10a006632l00allamgo 6gloeroroogloror G100008 0la8/0800.60015 630S3002.\n-1",
+      "text_nfc": "SAMPLE QUESTION PAPER FOR\nSUMMATIVE ASSESSMENT\nSecondTerm - 2010 - 2011\nMALAYALAM\nClass : X\nTime : 3 Hrs.\nSe\n2\n2\nCode : 012\nMarks : 80\nSECTION a Al A afsooo\n8 Marks\nI.\n0069 o.@osgarolldlang@m 01male Qog 3801050839 Galogj68BCdes 2001000298086.\n(3080913000 NomueD0o ODO geioeorolm moolo a8g013o aielo Nosoaimasam\n8013661308. 888001B0, 0993080130, 000280130, (GOLDO0J8018O 2D01006ms moe138011863306.\n630800 BQIBO0lmg0 Mondlo 00g0 (6010a06mo 00ago 8010280 630800 60063308 26ns.\n(6010006113681363390S (GYOCD36DITU65306 @gemge603d8 a0m Baldlego 2a106901036.00 a0m\nBalolego madlwossama-\non Q160g0 8018653936S 04506L500D65B00 0omoom.\n2a106810086008 BQIBOOOO 00m30 al0000g01s. 0006mo, GGIOQI Oomopon B0IB00l008\nGOCOo.\n2(00 6613 280 (6D10aD 6m 6313 280 903095 @aimwogamgo 2003e8000610305\naudale.mocogougom algeaopalapgsalemd) 0000l0a8 ocigloasgarol0010153990066TD0D80\nB00008 aflcajmlengamg.\n1. moe1? 8013661308 aBQI ?\n2\n2. 80136313930S (G1OdD36DICTD9D0 2g (COM0661308 aBQI ?\n2\n3. 2al069/01036008 8QIBO0O0 a03 oflglessa8 8.006m0200 ?\n2\n4. 8018631309 m@dalsgoeslogeg B0001000S aflaajoaoano\" ?\n2\nSECTION - B/ B- alsooo\n14 Marks\nII. 1) ago0aleo 6303 alla9000010.5g01al (6n33 al3000ld3 00l0060 2alaaolenge. : 7\na) afiayodadleggo (3109/Se00130.\nb) mU(O7 oc.@sm.auloag B0IA00\nc) QID No0096mo\n2) al(06013230S ggmenoaim (J01d0r.06030g G10282001g91306.0603 aloowlaldes\n63003 600093036\n7\nSECTION- C/ C- ofeooo\n18 Marks\nIII. 1) (180000 20080. :\n1\n20000303600000 (1206m906080TD (06338108 wôo Qfognu200 2018100661308 Q1O00ldlesond\naugeelle@DeTEmOSTO.\n2) admnaroyoamo Q10060 alalai@joor aleau QIDOSaDes) 20080 :\n1\nGGIO Q1OB(101010B0 Oalordegslagos (CORDO0 (31000091913\n3) (o0O1D0so (Hocloipeso DOI aauddldio.glggmge :\n1\nQ10a006632l00allamgo 6gloeroroogloror G100008 0la8/0800.60015 630S3002.\n-1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

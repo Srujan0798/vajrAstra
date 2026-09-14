@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_064",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 270,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "158-0\n916060T 551 Glle0TT65(6T565b 6160LUIGr (3 LDSILOILIGOOT)\n1. GDLI5-5T6f1gI6ITOT open0 Glaumen.pmpupl EML60515, BLDQU1D0500T Birmeiri-oupugmppsatheir\nBoimumGEoT 6T60T60T?\n2. 6TM5560T861 26IT6IT C5ITULA6D Loimmi Olminyio, 60LI55160T BT6060 6TC515.\n3. SIOL6TOIl6ow () 5160T60LD64 LILLITGOTITE5 6165IT600TOITOIT CSV CEITLL16060T LIqULI5DE5TGOT 60LI55IT60T\nBT6060 6T515.\n4. write LompLo append mode (o,p6DiDe5orloor BoumG 6T60T60T?\n5. reader0 Lompio DictReader() OGDLOLILITGOT BOIOILITG WITgl?\nL58-\n916060T 1551 allcorrbsGbesib 6160LWLGf (5 LDBLIOLIGOOT)\n1. 6T656lorvoj LomOLo CSV BETTLILAGOT BomG 6T60T60T?\n2. Liobloig BBETUY (paD,IGDLDE56floor OLLITG6TE56D6T LLiqu6lGE.\n3. 6DL556ofl 615 B5ITLIGOLI LIqULI5MET6OT LioDBoug GULLD6D156DT 6TL515,\n4. Ssofluiliorrésesib LIALLITGOILOOT So1qu CSV BEITLI6OL 6TCD51015TE5TGT 6DLI5TGOT BT6060 6T(515,\n5. CSV BEmULlQoiTon 516001 OULQOL6DLDLL5TC Loorump@aloonqu alldypon,m56D6T 6TC0515.\nBLDDUITT6DOL IT6UE56T\n1. Python for Data Analysis, Data Wrangling with Pandas, NumPy, and IPython By William\nMcKinney\n2. CSV File Reading and Writing Python 3.7.0 documentation\n3. https://docs.python.org\n265\n60LI55I6T LmOILD CSV CBE5ITLL/556IT\n12th Computer Science_TM Chapter 13.indd 265\n11-01-2023 12:39:57",
+      "text_nfc": "158-0\n916060T 551 Glle0TT65(6T565b 6160LUIGr (3 LDSILOILIGOOT)\n1. GDLI5-5T6f1gI6ITOT open0 Glaumen.pmpupl EML60515, BLDQU1D0500T Birmeiri-oupugmppsatheir\nBoimumGEoT 6T60T60T?\n2. 6TM5560T861 26IT6IT C5ITULA6D Loimmi Olminyio, 60LI55160T BT6060 6TC515.\n3. SIOL6TOIl6ow () 5160T60LD64 LILLITGOTITE5 6165IT600TOITOIT CSV CEITLL16060T LIqULI5DE5TGOT 60LI55IT60T\nBT6060 6T515.\n4. write LompLo append mode (o,p6DiDe5orloor BoumG 6T60T60T?\n5. reader0 Lompio DictReader() OGDLOLILITGOT BOIOILITG WITgl?\nL58-\n916060T 1551 allcorrbsGbesib 6160LWLGf (5 LDBLIOLIGOOT)\n1. 6T656lorvoj LomOLo CSV BETTLILAGOT BomG 6T60T60T?\n2. Liobloig BBETUY (paD,IGDLDE56floor OLLITG6TE56D6T LLiqu6lGE.\n3. 6DL556ofl 615 B5ITLIGOLI LIqULI5MET6OT LioDBoug GULLD6D156DT 6TL515,\n4. Ssofluiliorrésesib LIALLITGOILOOT So1qu CSV BEITLI6OL 6TCD51015TE5TGT 6DLI5TGOT BT6060 6T(515,\n5. CSV BEmULlQoiTon 516001 OULQOL6DLDLL5TC Loorump@aloonqu alldypon,m56D6T 6TC0515.\nBLDDUITT6DOL IT6UE56T\n1. Python for Data Analysis, Data Wrangling with Pandas, NumPy, and IPython By William\nMcKinney\n2. CSV File Reading and Writing Python 3.7.0 documentation\n3. https://docs.python.org\n265\n60LI55I6T LmOILD CSV CBE5ITLL/556IT\n12th Computer Science_TM Chapter 13.indd 265\n11-01-2023 12:39:57",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

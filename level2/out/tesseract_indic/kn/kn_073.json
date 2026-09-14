@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_073",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 78,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Every day, people make choices about what to do with their money. Sometimes\nmoney is saved to keep it safe and sometimes it is invested to grow over time.\nInvestment means using money today to build wealth in the future, but it also\ninvolves risk. Different investment choices can give different results, depending\non time and decisions. In this activity, you will explore how money can grow and\nlearn to make smart investment choices on your own.\n\nof Imiuro\n\nತಾನಾದ\n\n1001201 Funds\n\nReal Estate\n\nla\n\nDirect Equity (Shares): Direct equity means buying shares of a company in the\nstock market. When the company does well, the value of the shares can increase and\nyou may also get dividends.\n\nMutual Funds: Mutual funds collect money from many people and invest it in\ndifferent companies. These funds are managed by experts, so your money is spread\nacross many businesses.\n\nInsurance: Insurance helps protect you and your family in the future. Some insurance\nplans also help you save or grow money while giving financial protection.\n\nGold: Gold is a popular investment that people buy to keep for a long time. Its value\noften increases over time and it is considered a safe option.\n\nFixed Deposit (FD): A fixed deposit is a safe way to invest money in a bank. You\nknow how much money you will get back and when you will get it.\n\nBonds: Bonds are when you lend money to the government or a company. In return,\nyou get interest on your money after a fixed period.\n\nProperty Investment: It means buying land or buildings. It can give regular income\nthrough rent and may increase in value over time.\n\nYou have some money that you do not need\n\nimmediately. You can keep it safe or you\n\ncan try to grow it over time. Investment means using money\ntoday so it can become more in\nthe future. Different choices grow\nmoney in different ways.\n\n",
+      "text_nfc": "Every day, people make choices about what to do with their money. Sometimes\nmoney is saved to keep it safe and sometimes it is invested to grow over time.\nInvestment means using money today to build wealth in the future, but it also\ninvolves risk. Different investment choices can give different results, depending\non time and decisions. In this activity, you will explore how money can grow and\nlearn to make smart investment choices on your own.\n\nof Imiuro\n\nತಾನಾದ\n\n1001201 Funds\n\nReal Estate\n\nla\n\nDirect Equity (Shares): Direct equity means buying shares of a company in the\nstock market. When the company does well, the value of the shares can increase and\nyou may also get dividends.\n\nMutual Funds: Mutual funds collect money from many people and invest it in\ndifferent companies. These funds are managed by experts, so your money is spread\nacross many businesses.\n\nInsurance: Insurance helps protect you and your family in the future. Some insurance\nplans also help you save or grow money while giving financial protection.\n\nGold: Gold is a popular investment that people buy to keep for a long time. Its value\noften increases over time and it is considered a safe option.\n\nFixed Deposit (FD): A fixed deposit is a safe way to invest money in a bank. You\nknow how much money you will get back and when you will get it.\n\nBonds: Bonds are when you lend money to the government or a company. In return,\nyou get interest on your money after a fixed period.\n\nProperty Investment: It means buying land or buildings. It can give regular income\nthrough rent and may increase in value over time.\n\nYou have some money that you do not need\n\nimmediately. You can keep it safe or you\n\ncan try to grow it over time. Investment means using money\ntoday so it can become more in\nthe future. Different choices grow\nmoney in different ways.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

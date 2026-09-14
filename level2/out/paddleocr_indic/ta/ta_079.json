@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_079",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 20,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "T [..] - ,  T TTEH\nAT [T. , \nT\nTHTEE [I.] - TTT HTRA CHT ETTZ\nTRA-TfA, STTH, OTET,E, faY\nTTH [Y.i.] - ETI, ECTT, TTT\nTAt [fa.F.] - it HTAR AT aRg at dd Hh, FTchT ETT oTET dT ET\nTETT [I. OT, TT,  T  ERY  TR  Y T TTT\nFRTETT, iT\nT\nTRT [37.(37.)] - Tid1, 37+T, 31242\na\nTERAT [T..] - CTT, 75CT ,\nT\nJRT,\nSTCTT\nTHTA [T.i.] - T,\n3TCRUT,\nTo\nf\nTC,\nTT\n[.] −\nauft,\nmtar\nrrefch\nod.\ndaH,\nST,\nFOTR, SRTRT\nO\n[fa.] −\nfoETT\n3GT\nfoo\nJ3T\nT3\nfoRTR\n[.sh.]\nFORRTT,\ne\n−\naT\nsT\n[tft.]\nTETH,\nhfar\nEefS\n3TE  TTA TETTS T TT E  iR\n–\nTET\n[↑.] -\n\n\n3TT\n$f}\nF3\n\nA\n−\nddd\n[.(3.)]−\nCT\nfchrt\nTHT,\nRT\nHT\nHddEMT\n[Ta.] - H T TR HA TTTl, HH  S FETT\nH&TC [fA.Fi.] - TA TTCTT, HETT CTA TTTT\nHTC\n[tt.] −\nEfTT,\n3TFYOE 8\n EafH, 35 o$ GoT\n[.i.]\nfAfH,\nHTOT\nFRUT,\n3r4TGT,\nfET-TETA, FEITH, CCYHT, FHRUT\n−\n3\nHT\nifTHT\n[t.+i.] -\n$\n&\nfaCT\nFt\nQCT\n  3 T  \n−\n148\nReprint 2026-27",
+      "text_nfc": "T [..] - ,  T TTEH\nAT [T. , \nT\nTHTEE [I.] - TTT HTRA CHT ETTZ\nTRA-TfA, STTH, OTET,E, faY\nTTH [Y.i.] - ETI, ECTT, TTT\nTAt [fa.F.] - it HTAR AT aRg at dd Hh, FTchT ETT oTET dT ET\nTETT [I. OT, TT,  T  ERY  TR  Y T TTT\nFRTETT, iT\nT\nTRT [37.(37.)] - Tid1, 37+T, 31242\na\nTERAT [T..] - CTT, 75CT ,\nT\nJRT,\nSTCTT\nTHTA [T.i.] - T,\n3TCRUT,\nTo\nf\nTC,\nTT\n[.] −\nauft,\nmtar\nrrefch\nod.\ndaH,\nST,\nFOTR, SRTRT\nO\n[fa.] −\nfoETT\n3GT\nfoo\nJ3T\nT3\nfoRTR\n[.sh.]\nFORRTT,\ne\n−\naT\nsT\n[tft.]\nTETH,\nhfar\nEefS\n3TE  TTA TETTS T TT E  iR\n–\nTET\n[↑.] -\n\n\n3TT\n$f}\nF3\n\nA\n−\nddd\n[.(3.)]−\nCT\nfchrt\nTHT,\nRT\nHT\nHddEMT\n[Ta.] - H T TR HA TTTl, HH  S FETT\nH&TC [fA.Fi.] - TA TTCTT, HETT CTA TTTT\nHTC\n[tt.] −\nEfTT,\n3TFYOE 8\n EafH, 35 o$ GoT\n[.i.]\nfAfH,\nHTOT\nFRUT,\n3r4TGT,\nfET-TETA, FEITH, CCYHT, FHRUT\n−\n3\nHT\nifTHT\n[t.+i.] -\n$\n&\nfaCT\nFt\nQCT\n  3 T  \n−\n148\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

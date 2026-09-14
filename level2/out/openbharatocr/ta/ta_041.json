@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_041",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Evel\nய்‌\nப]\n\nSeries : EFGH/S | | Set - 4 | - 4\nQ.P. Code | 10/S\n\nந்‌ வையை வை வடை வடி வயு : Candidates must write the Q.P. Code\ni j j | i i i i i on the title page of the answer-book.\n\nப்ள வண ணன ணன ணன ணன ன்‌ ன\n\nதமிழ்‌\nTAMIL\n\nகால BOTY : 3 மண மொ மதிப்பெண்கள்‌ : 80\nTime allowed : 8 hours IMI IN Maximum Marks : 80\n\nஇந்த வினாத்தாளில்‌ அச்சிடப்பெற்ற 15 பக்கங்கள்‌ உள்ளதைச்‌ சரிபார்க்கவும்‌.\n\nவினாத்தாளின்‌ வலது பக்கத்தில்‌ கொடுக்கப்பட்டுள்ள கேள்வி பதில்‌ குறியீட்டை,\nதேர்வர்‌ விடைத்தாளின்‌ தலைப்புப்‌ பக்கத்தில்‌ எழுத வேண்டும்‌.\nஇந்த வினாத்தாளில்‌ 14 வினாக்கள்‌ உள்ளனவா எனச்‌ சரிபார்க்கவும்‌.\n\nஎழுதத்‌ தொடங்குவதற்கு முன்‌ விடைத்தாளில்‌ வினாவின்‌ வரிசை\n\nஎண்ணைக்‌ குறிப்பிடவும்‌.\n\nவினாத்தாளைப்‌ படிப்பதற்கு 15 நிமிடங்கள்‌ ஒதுக்கப்பட்டுள்ளன. வினாத்தாள்‌\n10.15 க்குக்‌ கொடுக்கப்படும்‌. 10.15 இல்‌ இருந்து 10.30 வரை வினாத்தாளை\nமட்டும்‌ படிக்க வேண்டும்‌. இந்த நேரத்தில்‌ விடைத்தாளில்‌ எந்தப்‌ பதிலையும்‌\nஎழுதக்கூடாது.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 14 questions.\nPlease write down the Serial Number of the question in the answer-book\nat the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period. #\n\n10/S Page 1 of 15 P.T.O.\n\n",
+      "text_nfc": "Evel\nய்‌\nப]\n\nSeries : EFGH/S | | Set - 4 | - 4\nQ.P. Code | 10/S\n\nந்‌ வையை வை வடை வடி வயு : Candidates must write the Q.P. Code\ni j j | i i i i i on the title page of the answer-book.\n\nப்ள வண ணன ணன ணன ணன ன்‌ ன\n\nதமிழ்‌\nTAMIL\n\nகால BOTY : 3 மண மொ மதிப்பெண்கள்‌ : 80\nTime allowed : 8 hours IMI IN Maximum Marks : 80\n\nஇந்த வினாத்தாளில்‌ அச்சிடப்பெற்ற 15 பக்கங்கள்‌ உள்ளதைச்‌ சரிபார்க்கவும்‌.\n\nவினாத்தாளின்‌ வலது பக்கத்தில்‌ கொடுக்கப்பட்டுள்ள கேள்வி பதில்‌ குறியீட்டை,\nதேர்வர்‌ விடைத்தாளின்‌ தலைப்புப்‌ பக்கத்தில்‌ எழுத வேண்டும்‌.\nஇந்த வினாத்தாளில்‌ 14 வினாக்கள்‌ உள்ளனவா எனச்‌ சரிபார்க்கவும்‌.\n\nஎழுதத்‌ தொடங்குவதற்கு முன்‌ விடைத்தாளில்‌ வினாவின்‌ வரிசை\n\nஎண்ணைக்‌ குறிப்பிடவும்‌.\n\nவினாத்தாளைப்‌ படிப்பதற்கு 15 நிமிடங்கள்‌ ஒதுக்கப்பட்டுள்ளன. வினாத்தாள்‌\n10.15 க்குக்‌ கொடுக்கப்படும்‌. 10.15 இல்‌ இருந்து 10.30 வரை வினாத்தாளை\nமட்டும்‌ படிக்க வேண்டும்‌. இந்த நேரத்தில்‌ விடைத்தாளில்‌ எந்தப்‌ பதிலையும்‌\nஎழுதக்கூடாது.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 14 questions.\nPlease write down the Serial Number of the question in the answer-book\nat the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period. #\n\n10/S Page 1 of 15 P.T.O.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

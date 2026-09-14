@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_080",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 1623,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1623,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "de 00008\nC\n@\ndey 20po3 Se Rdoortrugd\nJNANA001771\n-\n6s\n-\n-\nde\n0009000080\n@\nooaoos etjosead\net\nBQDE833 0e933e0 esotas\nKarnataka Lalithakala Academy",
+      "text_nfc": "de 00008\nC\n@\ndey 20po3 Se Rdoortrugd\nJNANA001771\n-\n6s\n-\n-\nde\n0009000080\n@\nooaoos etjosead\net\nBQDE833 0e933e0 esotas\nKarnataka Lalithakala Academy",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

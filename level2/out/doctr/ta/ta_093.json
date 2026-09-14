@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_093",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 164,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SILLIQOW LILlcoTLbissuubelbrDour. 2J60TIOD 6TSgui6of 316D600T64/5arleb 5cofluorhldorflcor\nOLILCTTC ate 6T60TD L160T6160TITILO Gaj65 a@siubdcbTDSl 2 6601T5 9460010160 GLIfl606013\n65ILID5 SHGDLUL/E5T6E56T 91560T syidgGGTDD 6T600T GTILD 6T600T60015oll6 6T(@5Lu0b6051\n2_Geom5p5l GLj\n560fILDLD\nCBTWIGOf S16D600T6/5arlé\n6ragusofla160600161656rleb\nCr\n5Ggmoluib\n5GITODL\nZn\n5155Bm5i(Zinc)\n2m0EL\nAl\nSIQILlooflutb\nSIGULDIGGOTL\nFe\nOULDL (SILLIJ6OT)\nCOOLIOIL\nCu\n5TLOL (Emuuif)\nGLGIL\nCo\nBEITLITOUL\nCOIUITDBLL\nPb\nEmfuID (66DL)\nLOITDOBLIL\nAg\n6161616rfl (Al6U6T)\n91j096OTGLL\nSn\n1460T\nODOLOGOTL\nAu\nBEToUb\nYGTL\nPt\nLOTTLIQ6OTLD\nLOTITLIQGGOTL\nIUPAC GMLplUpGDDE56IDBTL LA6OTLIMM 21606001618 Gajuomh1665661 6uuf1050.\n6T655168ILO 1\n2160D6001648 BEILOLD K,[Fe(CN)\nGibjeiLLl6of (6rerflu SILIGOfI)\nK+\nOLILLIAWLD\n6T51j SILL60f(316D600T64 SILIGOfI)\n[Fe(CN)6J\nF6of\nCN\n6 FF60fla5ai/L060T6l6OTTL6 616m560m\nFooflu16ot OLILT\n6TBlj FT60f FLI6OfIGLIT KC\n616m560I\n(UPGOT6lGOTmILbeit\nCN-6 F56 865UL16D6DOILI6DLL\nELIGOfI@LIT-KC\nGTDLbBSILD 916001 C)\n6OLDUI 206015D\nFe (6TBlj 3160600161l6)\nOLIOIL\n155\nXIIUS Coordinationj jagan.indd 155\n22-12-2022 12:45:58",
+      "text_nfc": "SILLIQOW LILlcoTLbissuubelbrDour. 2J60TIOD 6TSgui6of 316D600T64/5arleb 5cofluorhldorflcor\nOLILCTTC ate 6T60TD L160T6160TITILO Gaj65 a@siubdcbTDSl 2 6601T5 9460010160 GLIfl606013\n65ILID5 SHGDLUL/E5T6E56T 91560T syidgGGTDD 6T600T GTILD 6T600T60015oll6 6T(@5Lu0b6051\n2_Geom5p5l GLj\n560fILDLD\nCBTWIGOf S16D600T6/5arlé\n6ragusofla160600161656rleb\nCr\n5Ggmoluib\n5GITODL\nZn\n5155Bm5i(Zinc)\n2m0EL\nAl\nSIQILlooflutb\nSIGULDIGGOTL\nFe\nOULDL (SILLIJ6OT)\nCOOLIOIL\nCu\n5TLOL (Emuuif)\nGLGIL\nCo\nBEITLITOUL\nCOIUITDBLL\nPb\nEmfuID (66DL)\nLOITDOBLIL\nAg\n6161616rfl (Al6U6T)\n91j096OTGLL\nSn\n1460T\nODOLOGOTL\nAu\nBEToUb\nYGTL\nPt\nLOTTLIQ6OTLD\nLOTITLIQGGOTL\nIUPAC GMLplUpGDDE56IDBTL LA6OTLIMM 21606001618 Gajuomh1665661 6uuf1050.\n6T655168ILO 1\n2160D6001648 BEILOLD K,[Fe(CN)\nGibjeiLLl6of (6rerflu SILIGOfI)\nK+\nOLILLIAWLD\n6T51j SILL60f(316D600T64 SILIGOfI)\n[Fe(CN)6J\nF6of\nCN\n6 FF60fla5ai/L060T6l6OTTL6 616m560m\nFooflu16ot OLILT\n6TBlj FT60f FLI6OfIGLIT KC\n616m560I\n(UPGOT6lGOTmILbeit\nCN-6 F56 865UL16D6DOILI6DLL\nELIGOfI@LIT-KC\nGTDLbBSILD 916001 C)\n6OLDUI 206015D\nFe (6TBlj 3160600161l6)\nOLIOIL\n155\nXIIUS Coordinationj jagan.indd 155\n22-12-2022 12:45:58",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

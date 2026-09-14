@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_080",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 17,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "saffasi,\n3TETR CRIT à 3Tfa 4 4RIaT CORRIT TRT à ENo HTPT E ENT SOhTÉ 4\nsaffaar,\nainf7 3TEfrAR, viyort FOR TeTT HITNOR 3Tf4 i UloRt aT TRA à I ST\nsaft-uRadT ya\nEaft-ARH\nSOhTE a 3T247 is Yad faereff N HIAT i EanRiT, Bioh BIRUT yiaheIT,\nBichl ArChYUT 3T1f4 a fager N farrd THST facrid ET Horft foTT HT9T\nHigeft UNO aiyt chl AAARUT ChrH A BUORUT Higent gfeut shT FT sra HT9T\n4T dEe HHST fachRid shT UTT Hchrt àl\n4.9 g8 B4RTA Yrro\nET ofycida feaat (2012), HATdSIT yo HIAT IR, fa.fa. YohRIT,\nARIURA\nET HICIFITT faart (2013), HaTdSIT fodid Had, TE fecoft\nGCRIH RIORITT (1999) RIHIRI HTATfASTT, fgra HIfBR THCT PRINT\nET farartet URIIG (1968) 2IAT (coHulog i trdur sT 3rjgg),\nHidd CHRVAGNT\nET aryaq TGT YRIIC, (2010) 3tefch fea CiCYUT 377 PanT, HTRot\nHor (yfTERf JUE ferflecrf), TE feroft\nST RTH Yor GTRT (1995), HTAT fasif, YRIT HreTri, TE fecoft\nBernard Bloch and George L. Trager (1972), Outlines of Linguistic\nAnalysis, Munshiram Manoharlal Publishers Pvt Ltd .\nGeorge Yule (1985), The Study of Language An Introduction,\nCambridge University Press, Cambridge, UK.\nJ. Sethi & P.V. Dhamija (1999), A Course in Phonetics and Spoken\nEnglish, Prentice Hall of India Private Limited, New Delhi.\n4.10 3IN Ye7\n1. sanasf 77 CRIT 31 %? ENIOh fafto FTRGT3IT VR YChTRT SIORI I\n2. samasn i ByeifTal adisal\n3. area fort ced #? fopral 417 ST aaf GTg I\n4. FAR Eafei ihT 4RHTAT crd Ey FNG auffeDruT 4 3TETR fargt I\n5. QjUT EaneT CRIT #? TeTT TeTT ReT 4 3TTETTR VR qrfichYUT CIfOI I\n6. HITHOR T CRIT 3TYRI #? PYCC sifoe I\n78",
+      "text_nfc": "saffasi,\n3TETR CRIT à 3Tfa 4 4RIaT CORRIT TRT à ENo HTPT E ENT SOhTÉ 4\nsaffaar,\nainf7 3TEfrAR, viyort FOR TeTT HITNOR 3Tf4 i UloRt aT TRA à I ST\nsaft-uRadT ya\nEaft-ARH\nSOhTE a 3T247 is Yad faereff N HIAT i EanRiT, Bioh BIRUT yiaheIT,\nBichl ArChYUT 3T1f4 a fager N farrd THST facrid ET Horft foTT HT9T\nHigeft UNO aiyt chl AAARUT ChrH A BUORUT Higent gfeut shT FT sra HT9T\n4T dEe HHST fachRid shT UTT Hchrt àl\n4.9 g8 B4RTA Yrro\nET ofycida feaat (2012), HATdSIT yo HIAT IR, fa.fa. YohRIT,\nARIURA\nET HICIFITT faart (2013), HaTdSIT fodid Had, TE fecoft\nGCRIH RIORITT (1999) RIHIRI HTATfASTT, fgra HIfBR THCT PRINT\nET farartet URIIG (1968) 2IAT (coHulog i trdur sT 3rjgg),\nHidd CHRVAGNT\nET aryaq TGT YRIIC, (2010) 3tefch fea CiCYUT 377 PanT, HTRot\nHor (yfTERf JUE ferflecrf), TE feroft\nST RTH Yor GTRT (1995), HTAT fasif, YRIT HreTri, TE fecoft\nBernard Bloch and George L. Trager (1972), Outlines of Linguistic\nAnalysis, Munshiram Manoharlal Publishers Pvt Ltd .\nGeorge Yule (1985), The Study of Language An Introduction,\nCambridge University Press, Cambridge, UK.\nJ. Sethi & P.V. Dhamija (1999), A Course in Phonetics and Spoken\nEnglish, Prentice Hall of India Private Limited, New Delhi.\n4.10 3IN Ye7\n1. sanasf 77 CRIT 31 %? ENIOh fafto FTRGT3IT VR YChTRT SIORI I\n2. samasn i ByeifTal adisal\n3. area fort ced #? fopral 417 ST aaf GTg I\n4. FAR Eafei ihT 4RHTAT crd Ey FNG auffeDruT 4 3TETR fargt I\n5. QjUT EaneT CRIT #? TeTT TeTT ReT 4 3TTETTR VR qrfichYUT CIfOI I\n6. HITHOR T CRIT 3TYRI #? PYCC sifoe I\n78",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

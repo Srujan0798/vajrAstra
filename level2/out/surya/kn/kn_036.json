@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_036",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0037pro_raw.pdf",
+    "page_index": 0,
+    "width": 1040,
+    "height": 1412
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1040,
+        1412
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ದೇವ್ರಡು ನರಸಿಂಹಶಾಸ್ತ್ರಿ\nಮೈ. ಅಶ್ವತ್ಥನಾರಾಯಣ\nಕರ್ನಾಟಕ ವಿದ್ಯಾವರ್ಧಕ ಸಂಘ, ಧಾರವಾಡ",
+      "text_nfc": "ದೇವ್ರಡು ನರಸಿಂಹಶಾಸ್ತ್ರಿ\nಮೈ. ಅಶ್ವತ್ಥನಾರಾಯಣ\nಕರ್ನಾಟಕ ವಿದ್ಯಾವರ್ಧಕ ಸಂಘ, ಧಾರವಾಡ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

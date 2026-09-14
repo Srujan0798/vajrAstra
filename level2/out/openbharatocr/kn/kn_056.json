@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_056",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 16,
+    "width": 1056,
+    "height": 1689
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1056,
+        1689
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಲ\n\nR | fe} a\n\nದ\nio}\nray\nತ್ರಿಕ\nನ\n&\nತ್ರ\nಡ್‌\n\nmE ಜ್ರ RE BSF\nಜನ gP ons se 2 Mk Br\nDS (३ 3 हि कि शेप हिल wet हि\nB ge eB wo Ee ತೆ 8B B pts ಲ\n23 2 35,2 ABE 2p A 4\nಲೈ | 7 ಚ್ಚ್‌ B 9 नए ye fe डि 8 1%\nfl ೧1 GW 3s RB? छि ಇ ಸಷ ಜ @ Bir\nBr B 8836.\" B के Bo B28 x Bra\noR हे दी ९ Bal मेड कं SO 3 a3\nwo Bp bo vB pe. BBB 8\nare ga. wed BE Pp) ಯ್‌ ಟಿ ಯ 8 &\nಕ! ಸ ಬ ಭ್‌ ಲ: 26 ಶೈ 2B e\nಡಿ लो हि 2 ಇ BOD BE व ಭಓಫ್ಪೆ ಬ\nकु ke aD Big B D ಡಿ ८३ करे HDD\nಡೆ ಲ್ಪ Sb sn, t ಇ. ಡಗ್ಚ ಕಶಿ ಬಾ\nBo. ಇಡ E 3B ೪ಲ್ಲಿ ಬ EP 1 iP +3) f:\n3.3 ತ ठ 5 BBR ನಭ\nಇ h ने दि ಜು FS, ಜ.1\n& B सदन ಜಿ Bw» BW: 3 dy £ गे न\n= ಗ್ದ g ಸಷ 9 8 ಗ ಚ 3 Be 8 ಸ\nನ ಫ್‌ ಕ್‌ व wee ಡಿಕ 8 ने\nमिस Ln & ROK RR Be B g\n2% ? Fue Bare ತ 3% ಇಗ\nಇಷ್ಟು ಟ್ಟಿ = 7४89४ yn 5 ¢ ¥3 3\no 8 © ww ಶೌ ¢ O wW) $ HD b $5 8B\nBye Bab ಬ ee Be 8 Bee\ndDuLB 2p Ser EB = 6 YD es BS\nBD ಪ್ಪ BERR. Sg Bs ಈ a. 4\nDB exw 2B pS 2B 3 ° 483\neyku Base see Gp 8 perms\n3B, 5 २98 CE mek 2 Ba °\n3) 2 8 B उन ४ दिन ನ ಭ್ರ ಗ್ಗ 3 Bay\nBEB Cs & 28388 e D ee 2 Ib 13 Se\nS5BRSERPR BRB “BBS BB KB ಬ್ಬ ಬ\n೬... ಸಳ 858 8B 3 Bs) गूछ\nok 3B RA\n\n16\n",
+      "text_nfc": "ಲ\n\nR | fe} a\n\nದ\nio}\nray\nತ್ರಿಕ\nನ\n&\nತ್ರ\nಡ್‌\n\nmE ಜ್ರ RE BSF\nಜನ gP ons se 2 Mk Br\nDS (३ 3 हि कि शेप हिल wet हि\nB ge eB wo Ee ತೆ 8B B pts ಲ\n23 2 35,2 ABE 2p A 4\nಲೈ | 7 ಚ್ಚ್‌ B 9 नए ye fe डि 8 1%\nfl ೧1 GW 3s RB? छि ಇ ಸಷ ಜ @ Bir\nBr B 8836.\" B के Bo B28 x Bra\noR हे दी ९ Bal मेड कं SO 3 a3\nwo Bp bo vB pe. BBB 8\nare ga. wed BE Pp) ಯ್‌ ಟಿ ಯ 8 &\nಕ! ಸ ಬ ಭ್‌ ಲ: 26 ಶೈ 2B e\nಡಿ लो हि 2 ಇ BOD BE व ಭಓಫ್ಪೆ ಬ\nकु ke aD Big B D ಡಿ ८३ करे HDD\nಡೆ ಲ್ಪ Sb sn, t ಇ. ಡಗ್ಚ ಕಶಿ ಬಾ\nBo. ಇಡ E 3B ೪ಲ್ಲಿ ಬ EP 1 iP +3) f:\n3.3 ತ ठ 5 BBR ನಭ\nಇ h ने दि ಜು FS, ಜ.1\n& B सदन ಜಿ Bw» BW: 3 dy £ गे न\n= ಗ್ದ g ಸಷ 9 8 ಗ ಚ 3 Be 8 ಸ\nನ ಫ್‌ ಕ್‌ व wee ಡಿಕ 8 ने\nमिस Ln & ROK RR Be B g\n2% ? Fue Bare ತ 3% ಇಗ\nಇಷ್ಟು ಟ್ಟಿ = 7४89४ yn 5 ¢ ¥3 3\no 8 © ww ಶೌ ¢ O wW) $ HD b $5 8B\nBye Bab ಬ ee Be 8 Bee\ndDuLB 2p Ser EB = 6 YD es BS\nBD ಪ್ಪ BERR. Sg Bs ಈ a. 4\nDB exw 2B pS 2B 3 ° 483\neyku Base see Gp 8 perms\n3B, 5 २98 CE mek 2 Ba °\n3) 2 8 B उन ४ दिन ನ ಭ್ರ ಗ್ಗ 3 Bay\nBEB Cs & 28388 e D ee 2 Ib 13 Se\nS5BRSERPR BRB “BBS BB KB ಬ್ಬ ಬ\n೬... ಸಳ 858 8B 3 Bs) गूछ\nok 3B RA\n\n16\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

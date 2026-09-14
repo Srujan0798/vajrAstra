@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_037",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+    "page_index": 84,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "27 z1z3 ਨੇ z122 கொள்கையின்படி 1141440\n222223\nചങ്ങ്ടി 152522\nஎடுத்துக்காட்டு 216\nஎன்ற சமன்பாட்டிற்கு நான்கு மூலங்கள் இ௫க்கும் 676তা நிறுவுக\nதீர்வு\nகொள்கை\n2222\n2210\nz0 அல்லது z1\nz0 z0 என்பது pu தீர்வு z etere\nகொள்கையிலி ௫ந்து ਘਾ\nஇதற்கு 3 பூஜ்ஜியமற்ற தீர்வுகள் இ௫க்கும் ஆகவே பூஜ்ஜியத்தையும் சேர்த்து இதற்கு நான்கு\nதீர்வுகள் இ௫க்கும்\n252 pu கலப்பெண்ணின் வர்க்கமூலம் square roots of ૧ complex number\naib டன் வர்க்கமூலம் xiy என்க\nஅதாவது latibxi இங்கு xyer\naib xiy ਡੀ i2xy\nமெய் மற்றும் கற்பனைப் பகுதிகளைச் சமப்படுத்த\nமற்றும் 2xyb\nxy22 10491\nനിങ്ങ ஆகையால்\nமற்றும் ર b2 ஆகியவற்றைத் தீர்க்க\nஎனப் பெறலாம்\n2xyb என்பதிலிருந்து b மிகை எண் எனில் ઞ மற்றும் ૩ ஆகியவை ஒரே குறிய டையவையாகவும்\nமற்றும் 16 குறை எனில் ગ மற்றும் ૩ ஆகியவை வெவ்வேறு 5diliugolwilit350illd இ௫க்கும்\nஆகவே vaib 224 ib 124 இங்கும் ௦ rezsz\npu கலப்பெண்ணின் வர்க்கமூலம் காண சூத்திரம்\n0411 24 ਜਿ 24 இங்கு zaib மற்றும் b ੬0\nகலப்பு எண்கள்\n12thmaths tm vol1ch 2 complex numbers indd 16122022 145807",
+      "text_nfc": "27 z1z3 ਨੇ z122 கொள்கையின்படி 1141440\n222223\nചങ്ങ്ടി 152522\nஎடுத்துக்காட்டு 216\nஎன்ற சமன்பாட்டிற்கு நான்கு மூலங்கள் இ௫க்கும் 676তা நிறுவுக\nதீர்வு\nகொள்கை\n2222\n2210\nz0 அல்லது z1\nz0 z0 என்பது pu தீர்வு z etere\nகொள்கையிலி ௫ந்து ਘਾ\nஇதற்கு 3 பூஜ்ஜியமற்ற தீர்வுகள் இ௫க்கும் ஆகவே பூஜ்ஜியத்தையும் சேர்த்து இதற்கு நான்கு\nதீர்வுகள் இ௫க்கும்\n252 pu கலப்பெண்ணின் வர்க்கமூலம் square roots of ૧ complex number\naib டன் வர்க்கமூலம் xiy என்க\nஅதாவது latibxi இங்கு xyer\naib xiy ਡੀ i2xy\nமெய் மற்றும் கற்பனைப் பகுதிகளைச் சமப்படுத்த\nமற்றும் 2xyb\nxy22 10491\nനിങ്ങ ஆகையால்\nமற்றும் ર b2 ஆகியவற்றைத் தீர்க்க\nஎனப் பெறலாம்\n2xyb என்பதிலிருந்து b மிகை எண் எனில் ઞ மற்றும் ૩ ஆகியவை ஒரே குறிய டையவையாகவும்\nமற்றும் 16 குறை எனில் ગ மற்றும் ૩ ஆகியவை வெவ்வேறு 5diliugolwilit350illd இ௫க்கும்\nஆகவே vaib 224 ib 124 இங்கும் ௦ rezsz\npu கலப்பெண்ணின் வர்க்கமூலம் காண சூத்திரம்\n0411 24 ਜਿ 24 இங்கு zaib மற்றும் b ੬0\nகலப்பு எண்கள்\n12thmaths tm vol1ch 2 complex numbers indd 16122022 145807",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

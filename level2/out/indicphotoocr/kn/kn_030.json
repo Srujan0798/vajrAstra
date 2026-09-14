@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_030",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 79,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "୪୦୪୮ଘର\nਠਾਠਾਰਃ  राष्ट्रीय स्वास्थ्य मिशन\nಅಸಾ೦ಕ್ರಾಮಿಕ ರೋಗಗಳು ಎನ್ಸಿಡಿ\nಹೃದಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು\n૬ ಹೃದಯದ ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ಕಾಯಿಲೆಗಳು ಪಾರ್ಶ್ವ ವಾಯು\nಮಧುಮೇಹ\nಕ್ಯಾನ್ಸರ್\nದೀರ್ಘಕಾಲದ ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\nಬದಲಾಯಿಸಬಹುದಾದ ಕಾರಣಗಳು\nತ೦ಬಾಕು ಬಳಕೆ ವುದ್ಯಪಾನ ಸೇವನ 36 ಅನಾರೋಗ್ತಕರ ಕೆಲಸ ಹಾಗೂ ১১১ ಯಾಮ\nಆಹಾರ ಪದ್ಧತಿ ಮಾಡದಿರು ವುದು\nಬದಲಾಯಿಸಲಾಗದ ಕಾರಣಗಳು\npos\nವೃ శాటు౦బళ ಹಿನ್ನಲೆ ಲಿ೦ಗ\n72",
+      "text_nfc": "୪୦୪୮ଘର\nਠਾਠਾਰਃ  राष्ट्रीय स्वास्थ्य मिशन\nಅಸಾ೦ಕ್ರಾಮಿಕ ರೋಗಗಳು ಎನ್ಸಿಡಿ\nಹೃದಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು\n૬ ಹೃದಯದ ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ಕಾಯಿಲೆಗಳು ಪಾರ್ಶ್ವ ವಾಯು\nಮಧುಮೇಹ\nಕ್ಯಾನ್ಸರ್\nದೀರ್ಘಕಾಲದ ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\nಬದಲಾಯಿಸಬಹುದಾದ ಕಾರಣಗಳು\nತ೦ಬಾಕು ಬಳಕೆ ವುದ್ಯಪಾನ ಸೇವನ 36 ಅನಾರೋಗ್ತಕರ ಕೆಲಸ ಹಾಗೂ ১১১ ಯಾಮ\nಆಹಾರ ಪದ್ಧತಿ ಮಾಡದಿರು ವುದು\nಬದಲಾಯಿಸಲಾಗದ ಕಾರಣಗಳು\npos\nವೃ శాటు౦బళ ಹಿನ್ನಲೆ ಲಿ೦ಗ\n72",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

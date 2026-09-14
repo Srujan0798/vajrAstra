@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಚಾಣಕ್ಯನೀತಿ\nವ್ಯಾಲಾಶ್ರಯಾಪಿ ವಿಫಲಾಪಿ ಸಕಂಟಕಾಪಿ ವಕ್ರಾಪಿ ಪಂಕಿಲಭವಾಪಿ ದುರಾಸದಾಪಿ . ಗಂಧೇನ ಬಂಧುರಸಿ ಕೇತಕಿ ಸರ್ವಜಂತೋ- ರೇಕೋ ಗುಣಃ ಖಲು ನಿಹಂತಿ ಸಮಸ್ತದೋಷಾನ್ .. 17-21 ಇತಿ ಚಾಣಕ್ಯನೀತಿದರ್ಪಣಃ ಸಂಪೂರ್ಣಃ .\nProcessed and proofread by Sunder Hattangadi\nChanakya Niti\npdf was typeset on July 11, 2024\nPlease send corrections to sanskrit@cheerful.com .\nchANakyanItisort.pdf\n27",
+      "text_nfc": "ಚಾಣಕ್ಯನೀತಿ\nವ್ಯಾಲಾಶ್ರಯಾಪಿ ವಿಫಲಾಪಿ ಸಕಂಟಕಾಪಿ ವಕ್ರಾಪಿ ಪಂಕಿಲಭವಾಪಿ ದುರಾಸದಾಪಿ . ಗಂಧೇನ ಬಂಧುರಸಿ ಕೇತಕಿ ಸರ್ವಜಂತೋ- ರೇಕೋ ಗುಣಃ ಖಲು ನಿಹಂತಿ ಸಮಸ್ತದೋಷಾನ್ .. 17-21 ಇತಿ ಚಾಣಕ್ಯನೀತಿದರ್ಪಣಃ ಸಂಪೂರ್ಣಃ .\nProcessed and proofread by Sunder Hattangadi\nChanakya Niti\npdf was typeset on July 11, 2024\nPlease send corrections to sanskrit@cheerful.com .\nchANakyanItisort.pdf\n27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

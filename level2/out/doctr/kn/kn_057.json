@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_057",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 113,
+    "width": 1108,
+    "height": 1643
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1108,
+        1643
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3ebwo ordo\ngoro 3 Bo8gase\nodood ordo 3ebaod cordo\nenodo ayed nabers a Resdespsoddes a\nII dos II\nAOU ADOS Wwfeer\ne83 Dobs Roweeze II\n3\nEve3 gocote Sag00\nasz abowE3 wern II ordo II O II\n275 23e73 soiFe\nn\ne283 riocso ayauczo Il\n2370 20023 aohaja\nexgoo 883 ewaajas II ordo Il 9II\nNon 2t3 30200\n203 w0 towe II\n20a 203 No3cde\n883d008 doceobe II ordo II a II\nes\nde302 saasado\ndowto wowdo II\n23328200 A\nSwonaw\nKoceF 2230D00 llodo II a II\n23\nenodo ajocotd Weoe3 eotr\nWO XO0 atocs ajocota II\naa aiod NO8 308\n2o 230 ae8 wot II ordo II e II\na a\nBav-deof /99",
+      "text_nfc": "3ebwo ordo\ngoro 3 Bo8gase\nodood ordo 3ebaod cordo\nenodo ayed nabers a Resdespsoddes a\nII dos II\nAOU ADOS Wwfeer\ne83 Dobs Roweeze II\n3\nEve3 gocote Sag00\nasz abowE3 wern II ordo II O II\n275 23e73 soiFe\nn\ne283 riocso ayauczo Il\n2370 20023 aohaja\nexgoo 883 ewaajas II ordo Il 9II\nNon 2t3 30200\n203 w0 towe II\n20a 203 No3cde\n883d008 doceobe II ordo II a II\nes\nde302 saasado\ndowto wowdo II\n23328200 A\nSwonaw\nKoceF 2230D00 llodo II a II\n23\nenodo ajocotd Weoe3 eotr\nWO XO0 atocs ajocota II\naa aiod NO8 308\n2o 230 ae8 wot II ordo II e II\na a\nBav-deof /99",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

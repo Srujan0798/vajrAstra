@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_029",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 1,
+    "width": 1491,
+    "height": 1954
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1491,
+        1954
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(c) 08608le1o 630) 6600e1 UJCTOO QOdjoroldd 00910)d.\n(1)\n1. (GIOBRCD8ROTO00\n2. Qje.rolesoldolcoweo)e\n(d) go08leno 630) aulnav000m0.4o)ola) (150 Q006l08 bal0060) Qalmjmuleole. (6)\n1. 3C0J00RDj06839)6S muowymo aullejodm.dlagloo\n2. osloage d91000\n3. ooold aulejo@joruomlong (O0J00J60\nSection - C (mul aleooo)\nMaies 3\n15)\nIII.\n(a) (601000gl0e mldaguosasgmj0rvolal QuodJaloloidonomo QOLOno\n1. GODJO8 afo Golool solmoo) 000go d9lororols)o olmo/na o0m)o GO (aJ000070.00G10\n2)60 630000)m0 0001000 060 (ajdeple-ag06o)a)\n(2)\n(b)\n1. Gaelowom emoella/laged bogjolororo).\n2. Gboslo)sjon QWO0 aejoamg/melldeiéd 2018 630) mULO? (omolan. (lal\nGOO0O 0001s)\n(2)\n(c) GOMo6jom Ola.(omoleio.eo)e\n(2)\nGOOaJoeund mo0d : (OaJo, (OOD)60)SoS Gnlosajoloo6m ; M068\n000a08 ald\n:\nGOQJCR OaJGOS OSsee GOOnJoero ; aonolmo DajG9 630)\nO0Josajol ? 6mMa6)o 600SG633J0 (GONO ?\n(d) 000106038108 olo00)\n(2x2=4)\n1. (GTO 20uJajomlod dSla08 0008 aoldmad Q60 (oonloeraujebo 2206832)0\n01683100)S1\n(e)\n2. ao0o0IW1 Ggoloo 0)0Q160 QOSe algoonm ofsoomlo.\n1. 0)51 nom asorolo GO08l800010 Gd000 ng0 ?\n(1)\n(aom, ololso, 60)0008, 00JO00)\n2. (31091 - G031 00m9 0136332)6S GOd000 005)0/000910),\n(1)\n(CO091, Qons, 0g1, GOJE1)\n3. (amJ00.800000 0o aBoolm aJOONUn3O3doolo0 alsimm (310000600 ?\n(1)\n(mjoosoos) laJoudoroleojmaun, mjooalôgo (al@doroles)mauns, d1g0u0gl,\n00001800008)\n4. 0om1 omolon ngoldeloo aBo ago ?\n(1).\n(oomyaa, 00m08, Q0m, oomlal)\n5. 2)006008 6m\n00 aBOolom nuaomodado Qogm 03631308 aBQ ?\n(1)\n(0O0G), 0000008, a001, dal)\nIV.\nSectun D (wl-nlonus\nMades:\n40)\n-\n(a) 0GMO moceo CoeJ6a3glod 2010000291006\n(4x3=12)\n1. GaJejwund alusebajosla 00s46ajsond 0lojoomlayo nonolm ?\n2",
+      "text_nfc": "(c) 08608le1o 630) 6600e1 UJCTOO QOdjoroldd 00910)d.\n(1)\n1. (GIOBRCD8ROTO00\n2. Qje.rolesoldolcoweo)e\n(d) go08leno 630) aulnav000m0.4o)ola) (150 Q006l08 bal0060) Qalmjmuleole. (6)\n1. 3C0J00RDj06839)6S muowymo aullejodm.dlagloo\n2. osloage d91000\n3. ooold aulejo@joruomlong (O0J00J60\nSection - C (mul aleooo)\nMaies 3\n15)\nIII.\n(a) (601000gl0e mldaguosasgmj0rvolal QuodJaloloidonomo QOLOno\n1. GODJO8 afo Golool solmoo) 000go d9lororols)o olmo/na o0m)o GO (aJ000070.00G10\n2)60 630000)m0 0001000 060 (ajdeple-ag06o)a)\n(2)\n(b)\n1. Gaelowom emoella/laged bogjolororo).\n2. Gboslo)sjon QWO0 aejoamg/melldeiéd 2018 630) mULO? (omolan. (lal\nGOO0O 0001s)\n(2)\n(c) GOMo6jom Ola.(omoleio.eo)e\n(2)\nGOOaJoeund mo0d : (OaJo, (OOD)60)SoS Gnlosajoloo6m ; M068\n000a08 ald\n:\nGOQJCR OaJGOS OSsee GOOnJoero ; aonolmo DajG9 630)\nO0Josajol ? 6mMa6)o 600SG633J0 (GONO ?\n(d) 000106038108 olo00)\n(2x2=4)\n1. (GTO 20uJajomlod dSla08 0008 aoldmad Q60 (oonloeraujebo 2206832)0\n01683100)S1\n(e)\n2. ao0o0IW1 Ggoloo 0)0Q160 QOSe algoonm ofsoomlo.\n1. 0)51 nom asorolo GO08l800010 Gd000 ng0 ?\n(1)\n(aom, ololso, 60)0008, 00JO00)\n2. (31091 - G031 00m9 0136332)6S GOd000 005)0/000910),\n(1)\n(CO091, Qons, 0g1, GOJE1)\n3. (amJ00.800000 0o aBoolm aJOONUn3O3doolo0 alsimm (310000600 ?\n(1)\n(mjoosoos) laJoudoroleojmaun, mjooalôgo (al@doroles)mauns, d1g0u0gl,\n00001800008)\n4. 0om1 omolon ngoldeloo aBo ago ?\n(1).\n(oomyaa, 00m08, Q0m, oomlal)\n5. 2)006008 6m\n00 aBOolom nuaomodado Qogm 03631308 aBQ ?\n(1)\n(0O0G), 0000008, a001, dal)\nIV.\nSectun D (wl-nlonus\nMades:\n40)\n-\n(a) 0GMO moceo CoeJ6a3glod 2010000291006\n(4x3=12)\n1. GaJejwund alusebajosla 00s46ajsond 0lojoomlayo nonolm ?\n2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

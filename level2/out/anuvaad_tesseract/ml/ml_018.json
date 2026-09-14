@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_018",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+    "page_index": 94,
+    "width": 984,
+    "height": 1612
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        984,
+        1612
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "അസിഖോാസൻ _ 86500 പുറ്പെട്ട. പക്കേ ഗണേേര\nസൂരരതയിരുന്നു Mails mlm ഭുഗ്നോ\nWau us സെന്ുസമേതനായ ഗിയാസ\n\nപിറെറദിവ്വസംരാവികല,; സുൽത്താൻൻറെ കല്ലനപ്രക\nMEgaowMmlacko ടുസന്കം കുടിണുെ നിരോയില്യ . elmo\n\nത്തായിരുന്ന പാളം oF Samp’. ഇങ്ളിനെ സു്ൽ\nBS G)m219245 േനു്ളരോടെതിരിട്ട നിൽക്കേണ്ടിവൺ .\n\n(0)\n\n.ഇുരുപത്തരണ്ടാംഅജ്യ്യായം\n\n*\n\nസുൽത്താൻറു പ്രധാനമന്ത്രയുടെ പിചപരരതരമായ ആര\nഫത്തിചായിരുന്നു ശ്ിരയിയുടെ വാസം. ronan\nGg {00s नए 010०56 62309 BGS का 93० പർ ട്രർവും ക്ഷമ\nനമറവശേഷഘായത്തീന്. * - തന്റ gedp gem.\n\nആരങ്ങളിൽ . അവപടേക്ക ്യായമായ അർകതയുണ്ടെന്നുല്ലേ\n= 2\n\n",
+      "text_nfc": "അസിഖോാസൻ _ 86500 പുറ്പെട്ട. പക്കേ ഗണേേര\nസൂരരതയിരുന്നു Mails mlm ഭുഗ്നോ\nWau us സെന്ുസമേതനായ ഗിയാസ\n\nപിറെറദിവ്വസംരാവികല,; സുൽത്താൻൻറെ കല്ലനപ്രക\nMEgaowMmlacko ടുസന്കം കുടിണുെ നിരോയില്യ . elmo\n\nത്തായിരുന്ന പാളം oF Samp’. ഇങ്ളിനെ സു്ൽ\nBS G)m219245 േനു്ളരോടെതിരിട്ട നിൽക്കേണ്ടിവൺ .\n\n(0)\n\n.ഇുരുപത്തരണ്ടാംഅജ്യ്യായം\n\n*\n\nസുൽത്താൻറു പ്രധാനമന്ത്രയുടെ പിചപരരതരമായ ആര\nഫത്തിചായിരുന്നു ശ്ിരയിയുടെ വാസം. ronan\nGg {00s नए 010०56 62309 BGS का 93० പർ ട്രർവും ക്ഷമ\nനമറവശേഷഘായത്തീന്. * - തന്റ gedp gem.\n\nആരങ്ങളിൽ . അവപടേക്ക ്യായമായ അർകതയുണ്ടെന്നുല്ലേ\n= 2\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

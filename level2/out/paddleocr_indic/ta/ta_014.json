@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_014",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 13,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Eaffa1,\n(Labiodental)\nEaffaar,\nEaf+-uad d\nc ea    3  i    c  c 1 \naf+-f\nEa  aO E chE a 3i  E a Ea C\nBERT \n(Bilabial\n E  B      E 1  T  \n 3 C 3T 1,,,  3 \nEBTERT\n4.7.2   3ER q\nRO C 3E 4R RiuT E C TifOT f YC f   \nrqzf (Stops or Plosive)\n4 c 3e  3T  E 3   3 3 \n3 3R    4 cA frC Y S  E 3\nCe ar R Er E 1 Ch   3R ch c  3eT \n ary CTEX fihC  3  YcR u Ea BrY i 3\n−ுf Eq CEτ  1 , q, T, 8, T, J, 3, , τ, 2, α, ET, 9, , J, H, T2Th\n42f E1\ny (Fricative)\nTiE Ef c3RT  at 3T 3TRd F E c Sat f 3T\nf i HET  fhT e ary 3R   fcTCh Eu c\n5 E F I S M BrY  T E Cn M Ea \n 1t,, ,U, T, , π,  E T E 1\nUNIVERSITY\nref rierf(Affricate)\ne ef eare  BrT   fe   : ich orT yet CT\nE    C ECT E 3  E\n3 eT   c eT e-faa  ar E  eT h\n1,,    i ar I\nf (Lateral)\n E BR   B R      3 \nfo rh HEr  ay TET    frer  3ra  3 Te Y\nfuET   r E hI-I\ncfdd (Trill)\nif Ea  c aET c Ea  hEd I  Ea  BT \nfoE      T  r aTE  Ch T \ncf c cfe  chE  I i o I\n74",
+      "text_nfc": "Eaffa1,\n(Labiodental)\nEaffaar,\nEaf+-uad d\nc ea    3  i    c  c 1 \naf+-f\nEa  aO E chE a 3i  E a Ea C\nBERT \n(Bilabial\n E  B      E 1  T  \n 3 C 3T 1,,,  3 \nEBTERT\n4.7.2   3ER q\nRO C 3E 4R RiuT E C TifOT f YC f   \nrqzf (Stops or Plosive)\n4 c 3e  3T  E 3   3 3 \n3 3R    4 cA frC Y S  E 3\nCe ar R Er E 1 Ch   3R ch c  3eT \n ary CTEX fihC  3  YcR u Ea BrY i 3\n−ுf Eq CEτ  1 , q, T, 8, T, J, 3, , τ, 2, α, ET, 9, , J, H, T2Th\n42f E1\ny (Fricative)\nTiE Ef c3RT  at 3T 3TRd F E c Sat f 3T\nf i HET  fhT e ary 3R   fcTCh Eu c\n5 E F I S M BrY  T E Cn M Ea \n 1t,, ,U, T, , π,  E T E 1\nUNIVERSITY\nref rierf(Affricate)\ne ef eare  BrT   fe   : ich orT yet CT\nE    C ECT E 3  E\n3 eT   c eT e-faa  ar E  eT h\n1,,    i ar I\nf (Lateral)\n E BR   B R      3 \nfo rh HEr  ay TET    frer  3ra  3 Te Y\nfuET   r E hI-I\ncfdd (Trill)\nif Ea  c aET c Ea  hEd I  Ea  BT \nfoE      T  r aTE  Ch T \ncf c cfe  chE  I i o I\n74",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

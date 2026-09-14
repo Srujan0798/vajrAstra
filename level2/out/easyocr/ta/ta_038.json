@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_038",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0038pro_raw.pdf",
+    "page_index": 144,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4 @ಹ/U ) = 2x + 5 LDಣDILb L[ToJ6DGTTLLILb J = +2 _ 21 9ಣuJopmrToು 9I6LLGub ೨[mlಹ55l6u LrILIGDLIu   5/1600755. 5. @J6DoToool]ಪ6ir y = Sin T  y = COs .] LD[Dlb @ಹ[1Uಹ6ir T = 0 Lppಔllb x = T ಖಹluJopಔlu( GDL_@LL ೨I6LLGub ೨[[5 3591607 L[LIGLI೫; 5/1600ವಹ. T 6. } = ta1 T  J = cot T LDDDLb  @ಹ/Uಹ6ir 1 = 0 ,  = } = 0 ಖಹuJoppnou   ಖ6LLGL 2 j[][5 ಹ55l6l L[LI6 L೫ ಹ/16007ಹ. 7. L[ToJ6DGTTUILb )2 = ೋ Lpgi.b @m/6 } = J - 2 ಅmuopmnou  ೨ಕLLGub ಖ[][il359l6u] Ur]LIGL೫; 3/1600/ಹ. 8 . @@ (Uubus 56oouij; ] = 0 , ೋ = 4 , ) = 4 LDpDILb  = 0 ಅಹuJolpDrToು 916LLGLb &5l[] [[1o 56o] U[LIG LJ J2 = 4x Lpmlub T? = 4J 67607m @J6 96/76/6/] ಪ6/1607 @J[TlS6rಹ 5607 @D| 6DLL L0606076ಚ, Lಯ6T LD[DILb L0ಯ60T ಖmcunrjs(@b-( CpouTgl &LDuTmi5IಹoT[ml | Lfmಹ @J(uublmprij .  ೊolomgl   Ir1೫ಹ @uJouLwm? Lrsಹ @uJub   66f16u   ಣoGIG/(Uo(U೫(Lb 83 6L_೫(ತಣb LlLIGDL೫; ಹ/16001ಹ. ೨. P 6T60TLJ9l ] = (T-2)? + ] G76op @cooJor  ಹತ ಊ@ uಔsslಐ UoToii. D G76op LoTofflun6uಪl; PO-6 8ruilo| 2 ಖ GiTG To[[l @J6DoT@J6 []u.1607 (BLD6U ಖ Gir6 7ಪl 6760i16 @J6DGT@J6[]5(`L0 [[TT6ud] PO-೫(ಾ0 6DLu16U ಖI6LUGub UILIGLI೫; 5/1600/5. ]0. 1? _ ]2 = ]೧ 676070 @L' Lಏm1(ತLb } 2 = 01 676070 Lr]oIGDGTu 55p(ub @ILTTglollTo7 ಖ[][5s5ml60T LI]LIಯLI೫; 5/1600785.\n9.9 ಣj ಖ1೫ 6J1 |   @LII(U೫೫l LIಖr IoDL I ೩r  glol lo  ೨IಯL_LI @IIDlio ೫I Ii@L I(Uoflವೆl 5ಐlಖImro| (Volume of a solid obtained by revolving area about an axis) ಊ@   [6ಖlu/167   ೨186೨3uj Gun(sಶl   3Lp0Dl5o ou   ೨ಣLILJLiGluDILD SLLiGlunOUoi 5616] ಯ607 96 6 ಹ6ol೫ 56007LDlul @J6[UUDಶ೨ GIS/6ಹL.1L6u LILJG ILGmsl. ೪( ೨ಕ6ಹL| #Lpauumo L2 _ J 2 = 02 [5oGULL I[60T GILn mಐl ಖ6LLLL GILDILD 8LLiGun(ಸoiT 676U7Lgl @I5/16mಹLILL'U6iT6T 5615916U ೨_61T GoIT 1 =  ಯ  = q ೨rmil(Liu(Slooll l ಣ(0 [ಗ16ouJ/6u7 91೫63L1 @ILT(US9|   56 155160 @@ ಊ[ಐ] ಊ[DloJ51oು SLLiGILn(ಸoir ಖor[l ೨ (Jo Tsl0sl 6760TL' | GILTT([boiTLGspsl . ೨S ooTLD 3 T-೨ಕ೫ತ   G106u 12 + } 2 = 0? 6T@OJLb @JL' L 55160] ೨ L'u(Su16ು ಖ6Loihs 6r]oJL' Lul U(ತS1 I1661೫; LLL. 9.34 5(U5/(;6JrTLb. ಪ/160078 LLLb 9.34. 1-ಕ 6೮ ೧ILn(Uಪಶl; @)Lu(Slou | ಣ( ((L 3 L08l೫( ೨ / 'LUS5l6/Tou (360 _5ಯ/1607 ೫ Lpr-] 2T ಖo TuJGurಹsir ಅ(u) ಖ (on(uo GLTGUoiT ಠಯ/1oITLDn(SL0 J = 0 ಖ0೮ @Gu[6 d 9]L0 LD2DILb h ಖ UIILb GIಹ/16 0TL 9( @5ijoL' L ಖ (oG T6llIL] J = ೧ GILD Ty-961 ಶ51ಣ ] = 0, ) = q T = 0   LDmgLb ೬ = h @5/6ಹ6T/16u (UDLILL' L 1 = ೧ 1 = h 0IoJIolಹl'| U(ತSಖlU ಹU9/(oLD.LLLD 9.35-6u ಹ/66015. @iu(mಖlJ J-೨ಕಊ೬u @Iun(ಪssl  9@ @@ ೫ಊ0೫೫ತ ಖLuGಶ96/16ು   (360' _೫5/1607   ೫u04l 2T LLlಸ 9.35 6D/]LJ6U7ಹ6ir ಅ(ತL೦) ೨ ([6067 676ILILGLb SLLGILT(UoiT 9 (or1sl0sl . ೫Lp08lu16ು 6DLOLಸ SLLiGlLn(ofl6tl 567 ೨1616166 T-೨I86೬L GILಖ(USಶl ೨16oಶ್ರ| ]-೨1u68Lj GILn(USಶl LDL' GCL @LunLLu(mlu]6ು 5600TLD1C;oJ Lb.\n141\n@ತ[16ಹ [5l600T ಹ600  555160T LILJG TLITOಹ6r\n12th_Maths_Vol 2_TM_CHg_Apps of Integration.indd 141\n16-12-2021 17.50.35",
+      "text_nfc": "4 @ಹ/U ) = 2x + 5 LDಣDILb L[ToJ6DGTTLLILb J = +2 _ 21 9ಣuJopmrToು 9I6LLGub ೨[mlಹ55l6u LrILIGDLIu   5/1600755. 5. @J6DoToool]ಪ6ir y = Sin T  y = COs .] LD[Dlb @ಹ[1Uಹ6ir T = 0 Lppಔllb x = T ಖಹluJopಔlu( GDL_@LL ೨I6LLGub ೨[[5 3591607 L[LIGLI೫; 5/1600ವಹ. T 6. } = ta1 T  J = cot T LDDDLb  @ಹ/Uಹ6ir 1 = 0 ,  = } = 0 ಖಹuJoppnou   ಖ6LLGL 2 j[][5 ಹ55l6l L[LI6 L೫ ಹ/16007ಹ. 7. L[ToJ6DGTTUILb )2 = ೋ Lpgi.b @m/6 } = J - 2 ಅmuopmnou  ೨ಕLLGub ಖ[][il359l6u] Ur]LIGL೫; 3/1600/ಹ. 8 . @@ (Uubus 56oouij; ] = 0 , ೋ = 4 , ) = 4 LDpDILb  = 0 ಅಹuJolpDrToು 916LLGLb &5l[] [[1o 56o] U[LIG LJ J2 = 4x Lpmlub T? = 4J 67607m @J6 96/76/6/] ಪ6/1607 @J[TlS6rಹ 5607 @D| 6DLL L0606076ಚ, Lಯ6T LD[DILb L0ಯ60T ಖmcunrjs(@b-( CpouTgl &LDuTmi5IಹoT[ml | Lfmಹ @J(uublmprij .  ೊolomgl   Ir1೫ಹ @uJouLwm? Lrsಹ @uJub   66f16u   ಣoGIG/(Uo(U೫(Lb 83 6L_೫(ತಣb LlLIGDL೫; ಹ/16001ಹ. ೨. P 6T60TLJ9l ] = (T-2)? + ] G76op @cooJor  ಹತ ಊ@ uಔsslಐ UoToii. D G76op LoTofflun6uಪl; PO-6 8ruilo| 2 ಖ GiTG To[[l @J6DoT@J6 []u.1607 (BLD6U ಖ Gir6 7ಪl 6760i16 @J6DGT@J6[]5(`L0 [[TT6ud] PO-೫(ಾ0 6DLu16U ಖI6LUGub UILIGLI೫; 5/1600/5. ]0. 1? _ ]2 = ]೧ 676070 @L' Lಏm1(ತLb } 2 = 01 676070 Lr]oIGDGTu 55p(ub @ILTTglollTo7 ಖ[][5s5ml60T LI]LIಯLI೫; 5/1600785.\n9.9 ಣj ಖ1೫ 6J1 |   @LII(U೫೫l LIಖr IoDL I ೩r  glol lo  ೨IಯL_LI @IIDlio ೫I Ii@L I(Uoflವೆl 5ಐlಖImro| (Volume of a solid obtained by revolving area about an axis) ಊ@   [6ಖlu/167   ೨186೨3uj Gun(sಶl   3Lp0Dl5o ou   ೨ಣLILJLiGluDILD SLLiGlunOUoi 5616] ಯ607 96 6 ಹ6ol೫ 56007LDlul @J6[UUDಶ೨ GIS/6ಹL.1L6u LILJG ILGmsl. ೪( ೨ಕ6ಹL| #Lpauumo L2 _ J 2 = 02 [5oGULL I[60T GILn mಐl ಖ6LLLL GILDILD 8LLiGun(ಸoiT 676U7Lgl @I5/16mಹLILL'U6iT6T 5615916U ೨_61T GoIT 1 =  ಯ  = q ೨rmil(Liu(Slooll l ಣ(0 [ಗ16ouJ/6u7 91೫63L1 @ILT(US9|   56 155160 @@ ಊ[ಐ] ಊ[DloJ51oು SLLiGILn(ಸoir ಖor[l ೨ (Jo Tsl0sl 6760TL' | GILTT([boiTLGspsl . ೨S ooTLD 3 T-೨ಕ೫ತ   G106u 12 + } 2 = 0? 6T@OJLb @JL' L 55160] ೨ L'u(Su16ು ಖ6Loihs 6r]oJL' Lul U(ತS1 I1661೫; LLL. 9.34 5(U5/(;6JrTLb. ಪ/160078 LLLb 9.34. 1-ಕ 6೮ ೧ILn(Uಪಶl; @)Lu(Slou | ಣ( ((L 3 L08l೫( ೨ / 'LUS5l6/Tou (360 _5ಯ/1607 ೫ Lpr-] 2T ಖo TuJGurಹsir ಅ(u) ಖ (on(uo GLTGUoiT ಠಯ/1oITLDn(SL0 J = 0 ಖ0೮ @Gu[6 d 9]L0 LD2DILb h ಖ UIILb GIಹ/16 0TL 9( @5ijoL' L ಖ (oG T6llIL] J = ೧ GILD Ty-961 ಶ51ಣ ] = 0, ) = q T = 0   LDmgLb ೬ = h @5/6ಹ6T/16u (UDLILL' L 1 = ೧ 1 = h 0IoJIolಹl'| U(ತSಖlU ಹU9/(oLD.LLLD 9.35-6u ಹ/66015. @iu(mಖlJ J-೨ಕಊ೬u @Iun(ಪssl  9@ @@ ೫ಊ0೫೫ತ ಖLuGಶ96/16ು   (360' _೫5/1607   ೫u04l 2T LLlಸ 9.35 6D/]LJ6U7ಹ6ir ಅ(ತL೦) ೨ ([6067 676ILILGLb SLLGILT(UoiT 9 (or1sl0sl . ೫Lp08lu16ು 6DLOLಸ SLLiGlLn(ofl6tl 567 ೨1616166 T-೨I86೬L GILಖ(USಶl ೨16oಶ್ರ| ]-೨1u68Lj GILn(USಶl LDL' GCL @LunLLu(mlu]6ು 5600TLD1C;oJ Lb.\n141\n@ತ[16ಹ [5l600T ಹ600  555160T LILJG TLITOಹ6r\n12th_Maths_Vol 2_TM_CHg_Apps of Integration.indd 141\n16-12-2021 17.50.35",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

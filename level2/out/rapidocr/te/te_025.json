@@ -1,0 +1,41 @@
+{
+  "page_id": "te_025",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0025pro_raw.pdf",
+    "page_index": 86,
+    "width": 603.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        603.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "d\nMAHARASHTRA STATE BUREAU OF\nTEXTBOOK PRODUCTION AND\nCURRICULUM RESEARCH, PUNE.\nSamagra Shiksha\n(For free distribution)",
+      "text_nfc": "d\nMAHARASHTRA STATE BUREAU OF\nTEXTBOOK PRODUCTION AND\nCURRICULUM RESEARCH, PUNE.\nSamagra Shiksha\n(For free distribution)",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

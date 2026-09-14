@@ -1,0 +1,41 @@
+{
+  "page_id": "te_063",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0063pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Md\n e.\nacia\n an fauar n i a  f fel.\nHgcaieen 3en\nRH$ 3asd d'\na hil Godd.\nHI$11 3aSrl do\nGOTd MOUTRT 3G\n \ng en. d\n31asal?\nhd\nai aaa?\naal.\namia\nar\nsdo\n3dRT\naan\na\nRT\nGl.\nrrih\nCr\nyag:ad\n4TUT\nt\n3od\n\n3T4dTd.\nG:G\n315u1\nri\n\nd\nfaay\nr\nFTHR\nFldld,\n→\nGighuee\n347\nET\naadd\nD14\nquf\nP{UH8\ntaitrut\nD14\naidld,\nλ\n311yod\n21\nModdd.\nHuda\nT$\nuRfed\nTc\n3150\nfha\nE\nTTE.\ndosin\ngeia\n2\nqad\nHa\n219h1d\nadd\nqig\nπ\n\nEril,\n3T1401\nT\nyor\nc1ef\nqof\nDiUe4181\n341401\nTRR\nమ3\n2od\nTTE.\n372TT\nqRfedd\n3714cd\n3714041\nfiau\nD124\nHCR\n37401\n3119246\n374d.\nfaTR\nCU4\neiaau\n311924c\n37T.\nFoRICHG\n371401\nFdd:Ml\nPaa\n31141\nH1el\naiml\nHoe\nMaua\n3119246\n31T.\n34141\naidi\nH9R\nMau\nno\ncotu\n374,\nH1Cl\n7\n3421G 417\nToha\nTE!\n3414m1\n3if\n374U1R1\naim\nHoeft,\nT$\nHaefa\nπ\n25\n2\nTEd.\nHel\naim\nfaaria\nH04\naddl,\nT\nA\nHO4\n$\nfariue\ngia\nT91\nT\ndder.\neaA\ngio\nch1El\ne\nM&Td\ndaor\nare.\n3G1.,\naind\n,\nailml\nMafun\nnd,\nRda\n\nccdisf\n3T4UTR\nMocod\n¤\n311y\nide\nsric.\ni\nG41\n:ETd\nAe\nHEHTN\n2\nPMd\nsara\nGRI\n37ef\nhoodl.\nHTRG\n3TTETT\n237,\nfaie\ndaaand\n311401\n[ohtchid\nErd\nG:T\nHEU\ndta\n2chal.\n37\ngg:and\nxπ\nYro 3d 4dd\n \nB4d  \n£fTt\naTR\nral,\na\nrarld\nTRT\nమl.\n* * *\n\nPOVNP3\n?3",
+      "text_nfc": "Md\n e.\nacia\n an fauar n i a  f fel.\nHgcaieen 3en\nRH$ 3asd d'\na hil Godd.\nHI$11 3aSrl do\nGOTd MOUTRT 3G\n \ng en. d\n31asal?\nhd\nai aaa?\naal.\namia\nar\nsdo\n3dRT\naan\na\nRT\nGl.\nrrih\nCr\nyag:ad\n4TUT\nt\n3od\n\n3T4dTd.\nG:G\n315u1\nri\n\nd\nfaay\nr\nFTHR\nFldld,\n→\nGighuee\n347\nET\naadd\nD14\nquf\nP{UH8\ntaitrut\nD14\naidld,\nλ\n311yod\n21\nModdd.\nHuda\nT$\nuRfed\nTc\n3150\nfha\nE\nTTE.\ndosin\ngeia\n2\nqad\nHa\n219h1d\nadd\nqig\nπ\n\nEril,\n3T1401\nT\nyor\nc1ef\nqof\nDiUe4181\n341401\nTRR\nమ3\n2od\nTTE.\n372TT\nqRfedd\n3714cd\n3714041\nfiau\nD124\nHCR\n37401\n3119246\n374d.\nfaTR\nCU4\neiaau\n311924c\n37T.\nFoRICHG\n371401\nFdd:Ml\nPaa\n31141\nH1el\naiml\nHoe\nMaua\n3119246\n31T.\n34141\naidi\nH9R\nMau\nno\ncotu\n374,\nH1Cl\n7\n3421G 417\nToha\nTE!\n3414m1\n3if\n374U1R1\naim\nHoeft,\nT$\nHaefa\nπ\n25\n2\nTEd.\nHel\naim\nfaaria\nH04\naddl,\nT\nA\nHO4\n$\nfariue\ngia\nT91\nT\ndder.\neaA\ngio\nch1El\ne\nM&Td\ndaor\nare.\n3G1.,\naind\n,\nailml\nMafun\nnd,\nRda\n\nccdisf\n3T4UTR\nMocod\n¤\n311y\nide\nsric.\ni\nG41\n:ETd\nAe\nHEHTN\n2\nPMd\nsara\nGRI\n37ef\nhoodl.\nHTRG\n3TTETT\n237,\nfaie\ndaaand\n311401\n[ohtchid\nErd\nG:T\nHEU\ndta\n2chal.\n37\ngg:and\nxπ\nYro 3d 4dd\n \nB4d  \n£fTt\naTR\nral,\na\nrarld\nTRT\nమl.\n* * *\n\nPOVNP3\n?3",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_026",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಶಾಲಾ ಶಿಕ್ಷಣ ಮತ್ತು ಸಾಕ್ಷರತಾ ಇಲಾಖೆ\nDepartment of School Education ಹಿ Literacy\n\nಮೌಲ್ಯ ಶಿಕ್ಷಣ\n\nValue Education\n\n2ನೇ ತರಗತಿ ವಿದ್ಯಾರ್ಥಿಗಳ ಚಟುವಟಿಕಾ ಪುಸ್ತಕ\nActivity Book for Class 2 Students\n\n2026 - 2027\n\nರಾಜ್ಯ ಶಿಕ್ಷಣ ಸಂಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಇಲಾಖೆ\nಬನಶಂಕರಿ 3ನೇ ಹಂತ, ಬೆ೦ಗಳೂರು - 560 085.\n\n",
+      "text_nfc": "ಶಾಲಾ ಶಿಕ್ಷಣ ಮತ್ತು ಸಾಕ್ಷರತಾ ಇಲಾಖೆ\nDepartment of School Education ಹಿ Literacy\n\nಮೌಲ್ಯ ಶಿಕ್ಷಣ\n\nValue Education\n\n2ನೇ ತರಗತಿ ವಿದ್ಯಾರ್ಥಿಗಳ ಚಟುವಟಿಕಾ ಪುಸ್ತಕ\nActivity Book for Class 2 Students\n\n2026 - 2027\n\nರಾಜ್ಯ ಶಿಕ್ಷಣ ಸಂಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಇಲಾಖೆ\nಬನಶಂಕರಿ 3ನೇ ಹಂತ, ಬೆ೦ಗಳೂರು - 560 085.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

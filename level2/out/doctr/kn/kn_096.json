@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_096",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-\nUN0F830 NtoFd\nne b\n10\n)\naanod Gone\nepen -\n0\n-\nO\nfauar sgawsa\nn7ns SIRET\nNCIERT\nsogeod Beds sossepn a3 3020s 7ong\nSe edesodisoe aone radaes 110016\nBNOEE35 aoresonge 75025 (e)\n630\nedos Eogegdo 3\n23078000-560 003.",
+      "text_nfc": "-\nUN0F830 NtoFd\nne b\n10\n)\naanod Gone\nepen -\n0\n-\nO\nfauar sgawsa\nn7ns SIRET\nNCIERT\nsogeod Beds sossepn a3 3020s 7ong\nSe edesodisoe aone radaes 110016\nBNOEE35 aoresonge 75025 (e)\n630\nedos Eogegdo 3\n23078000-560 003.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

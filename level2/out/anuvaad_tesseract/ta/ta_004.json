@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 341,
+    "height": 431
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        341,
+        431
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "«हज\nकिट 5 ८्य्जज\nकि न पक सका i ee Sag\nRabe bah cios open 6S Sa\n\nBeene he a\nदि setae\nte सर CE\n\nOpenness ogee ota\n\nलक 1G) Gorgas Bene\n\nBae CTs Re POP OEY उनका |\n\nATO GPR AS Ol\nTd net igh 2225...\n\nBio lancet कक meg कृपा OS\n\n",
+      "text_nfc": "«हज\nकिट 5 ८्य्जज\nकि न पक सका i ee Sag\nRabe bah cios open 6S Sa\n\nBeene he a\nदि setae\nte सर CE\n\nOpenness ogee ota\n\nलक 1G) Gorgas Bene\n\nBae CTs Re POP OEY उनका |\n\nATO GPR AS Ol\nTd net igh 2225...\n\nBio lancet कक meg कृपा OS\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

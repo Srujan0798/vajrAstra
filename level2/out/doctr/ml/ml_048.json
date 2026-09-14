@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_048",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 2,
+    "width": 1404,
+    "height": 2003
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1404,
+        2003
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2. eocrololaflom Q000001 allalto1eola/looleojmo 006636m ?\n3. NU6022008 D66D16440S)00)01Sjeo).ond cQUONSI ofslenggoud 00on0g00 00060S)\n2108060 msonloo ?\n(b) aCmO mocelo Q06-j603gl08 2010000/0910)6\n(4x3= 12)\n1. m0006m.010) lsOnon8 nom bolloolenos oon a)6ngleooomleo)m muoDlaold\nla100m0000 ?\n2. wdon)o M06000S) b)slewlogjamodar) QG0DL0BMS60slajod0r) - ogm\n0006m08 60gloleoj0)00606036B00 ?\n3. 00000.00m0m 00016mm dalo O6os)eomo ? - 00 aoonduooplenos 0O0I\n6memn00m mujalla/lesyma ?\n4. (06NS) oSle0d oom balowjos NUGOB000000 ?\n(c) 000l010000 160J000g100 mlom 005)6/000900)e.\n(6x1=6)\n1. 0U6022008 neloogorlaekes) n10ls0n900/sjjorolo djrol\n(0000)0090, 6L0GCJ0, 2000000a.10100, pelond)\n2. (Goma)ons 0)e000 - 080) agololaeimoam lamoo Qolcd\n(200 Gdb0g0, alloG0000, muonolojmle84o, baloowim)\n3. oan al000deomoool beiala1s1820000w08\n(mlerooi, (rand, (OON, omwoclemjes)\n4. GOJEIQWr al6oBelonJosla 06-8461g/5omo.am allojoolao\n(0na1son8 m000)6s colo9008 Maplasomo01000.01 aga.laso.eom-leno 009\nOo/sj01o08, (00D)60)5l00 (TOQJ0006l04i560/50010 alaioaoooldd mlom 0091d6)\nQo08, 0000000008 (09) 6b00TEOD)Jo00)\n5. GOO oalol 06m10g001 beialels1820\n(s0lo0, booonjelleog, Q1006010, cumj@g06asgJ0s 06010002)\n6. 2206000008 GO ?\n(mujoyna, (d2e2)m08, 000J6m00, 210303)\n(d) 00690605101sjonloleooym 08o08lejo (0603) Gal0816030000 6O 010010108 0010060\n(150 Q1000) 2010000910)6.\n(2x5= 10)\n1. Qonwlolon GmOLOLoolrd GOomceoo mooonloe mos.eca.glolod 00091590\nmosoo d06mj0io0d Bnl00 Gel6leDjensow GIOMGQO TOGGn.D010l60 oaslomlyg\nalmocalec0.ed OmOTO mnelooGaelnlay6068360 ?\n2. Ge6o 000608010 BOLOQdg MUorJeoncamos) coomlo GOBOOI 0608 al0\noloer mleonneuna UBO 060 Godanonysjoro)m) ogm GIOGGODO alaioleo)m\n00631360 ?\n3. eflabggnbgylmloo 06300 celod an000)@opld) BUO090 Qugdmmjaum QIJQI\nTUoo NU000G6030260001a1 alaroleo)e.\n4. MS0090)o Gaoogeloe 000200 cerwlojo Oonlenenso0 00.00000000lom) ?\n(O lnicomo nolaoolesoajso06a360 ?\n*808808",
+      "text_nfc": "2. eocrololaflom Q000001 allalto1eola/looleojmo 006636m ?\n3. NU6022008 D66D16440S)00)01Sjeo).ond cQUONSI ofslenggoud 00on0g00 00060S)\n2108060 msonloo ?\n(b) aCmO mocelo Q06-j603gl08 2010000/0910)6\n(4x3= 12)\n1. m0006m.010) lsOnon8 nom bolloolenos oon a)6ngleooomleo)m muoDlaold\nla100m0000 ?\n2. wdon)o M06000S) b)slewlogjamodar) QG0DL0BMS60slajod0r) - ogm\n0006m08 60gloleoj0)00606036B00 ?\n3. 00000.00m0m 00016mm dalo O6os)eomo ? - 00 aoonduooplenos 0O0I\n6memn00m mujalla/lesyma ?\n4. (06NS) oSle0d oom balowjos NUGOB000000 ?\n(c) 000l010000 160J000g100 mlom 005)6/000900)e.\n(6x1=6)\n1. 0U6022008 neloogorlaekes) n10ls0n900/sjjorolo djrol\n(0000)0090, 6L0GCJ0, 2000000a.10100, pelond)\n2. (Goma)ons 0)e000 - 080) agololaeimoam lamoo Qolcd\n(200 Gdb0g0, alloG0000, muonolojmle84o, baloowim)\n3. oan al000deomoool beiala1s1820000w08\n(mlerooi, (rand, (OON, omwoclemjes)\n4. GOJEIQWr al6oBelonJosla 06-8461g/5omo.am allojoolao\n(0na1son8 m000)6s colo9008 Maplasomo01000.01 aga.laso.eom-leno 009\nOo/sj01o08, (00D)60)5l00 (TOQJ0006l04i560/50010 alaioaoooldd mlom 0091d6)\nQo08, 0000000008 (09) 6b00TEOD)Jo00)\n5. GOO oalol 06m10g001 beialels1820\n(s0lo0, booonjelleog, Q1006010, cumj@g06asgJ0s 06010002)\n6. 2206000008 GO ?\n(mujoyna, (d2e2)m08, 000J6m00, 210303)\n(d) 00690605101sjonloleooym 08o08lejo (0603) Gal0816030000 6O 010010108 0010060\n(150 Q1000) 2010000910)6.\n(2x5= 10)\n1. Qonwlolon GmOLOLoolrd GOomceoo mooonloe mos.eca.glolod 00091590\nmosoo d06mj0io0d Bnl00 Gel6leDjensow GIOMGQO TOGGn.D010l60 oaslomlyg\nalmocalec0.ed OmOTO mnelooGaelnlay6068360 ?\n2. Ge6o 000608010 BOLOQdg MUorJeoncamos) coomlo GOBOOI 0608 al0\noloer mleonneuna UBO 060 Godanonysjoro)m) ogm GIOGGODO alaioleo)m\n00631360 ?\n3. eflabggnbgylmloo 06300 celod an000)@opld) BUO090 Qugdmmjaum QIJQI\nTUoo NU000G6030260001a1 alaroleo)e.\n4. MS0090)o Gaoogeloe 000200 cerwlojo Oonlenenso0 00.00000000lom) ?\n(O lnicomo nolaoolesoajso06a360 ?\n*808808",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

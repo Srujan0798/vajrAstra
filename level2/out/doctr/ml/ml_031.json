@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_031",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-\nSeries G7DEF\nRoll No.\nmldae00601300\nGo1o0jGa.lgjolo (02/5leg 15 0-906089J06n8m I\nGQ0O28 2008010000\n(II) adlegodonl Ga1o0j60.lg/olong\nQueiogaueaubeo.oo Ou@.osjooldl.eogom\n62106j601018 Bosoaw 20m0.0oseroglong\n6650108 B018108 00)91806T506m.\n(III) Golo@jGaJgjold 862100J60308 066ns\n6W01o21g 209B0000g.\n(IV) 20000 00gomolmg amiool\ngomo.soseloeglas omlgiss E0s603g108\ngaloejonlong (bommud 0090)0.\n(V) 62100J601010 Q100l80ond 15 almlgoom\n@omgo.idla/si990. oo0lel 10. 15 my\n62100J601010 alooomo Og1gyomooom.\noo0loel 10. 15 01008 10.30 Q60\nalleyodmdleacd.os) B2106J60308\nCoalajam0es0om188 moonoom. 600\nmUOQo g0m0.8oseroggiras\n0090008 coale600.\nSET-4\nQ.P. Code\n12\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nNOTE\n[]\nPlease check that this question paper\ncontains 15 printed pages.\n(II) Q.P. Code given on the right hand\nside of the question paper should be\nwritten on the title page of the answer-\nbook by the candidate.\n(III) Please check that this question paper\ncontains 8 questions.\n(IV) Please write down the Serial Number\nof the question in the answer-book at\nthe given place before attempting it.\n(V) 15 minute time has been allotted to\nread this question paper. The question\npaper will be distributed at 10.15\na.m. From 10.15 a.m. to 10.30 a.m.,\nthe candidates will read the question\npaper only and will not write any\nanswer on the answer-book during\n6303 0000010\ncomouele mUDQo : 3 06ml060\nTime allowed : 3 hours\nA\n12\nthis period.\nDe/03Bo\nMALAYALAM\n1\nGO0d 000006 : 80\nMaximum Marks : 80\nP.T.O.",
+      "text_nfc": "-\nSeries G7DEF\nRoll No.\nmldae00601300\nGo1o0jGa.lgjolo (02/5leg 15 0-906089J06n8m I\nGQ0O28 2008010000\n(II) adlegodonl Ga1o0j60.lg/olong\nQueiogaueaubeo.oo Ou@.osjooldl.eogom\n62106j601018 Bosoaw 20m0.0oseroglong\n6650108 B018108 00)91806T506m.\n(III) Golo@jGaJgjold 862100J60308 066ns\n6W01o21g 209B0000g.\n(IV) 20000 00gomolmg amiool\ngomo.soseloeglas omlgiss E0s603g108\ngaloejonlong (bommud 0090)0.\n(V) 62100J601010 Q100l80ond 15 almlgoom\n@omgo.idla/si990. oo0lel 10. 15 my\n62100J601010 alooomo Og1gyomooom.\noo0loel 10. 15 01008 10.30 Q60\nalleyodmdleacd.os) B2106J60308\nCoalajam0es0om188 moonoom. 600\nmUOQo g0m0.8oseroggiras\n0090008 coale600.\nSET-4\nQ.P. Code\n12\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nNOTE\n[]\nPlease check that this question paper\ncontains 15 printed pages.\n(II) Q.P. Code given on the right hand\nside of the question paper should be\nwritten on the title page of the answer-\nbook by the candidate.\n(III) Please check that this question paper\ncontains 8 questions.\n(IV) Please write down the Serial Number\nof the question in the answer-book at\nthe given place before attempting it.\n(V) 15 minute time has been allotted to\nread this question paper. The question\npaper will be distributed at 10.15\na.m. From 10.15 a.m. to 10.30 a.m.,\nthe candidates will read the question\npaper only and will not write any\nanswer on the answer-book during\n6303 0000010\ncomouele mUDQo : 3 06ml060\nTime allowed : 3 hours\nA\n12\nthis period.\nDe/03Bo\nMALAYALAM\n1\nGO0d 000006 : 80\nMaximum Marks : 80\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

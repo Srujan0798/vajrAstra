@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_030",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 2,
+    "width": 1414,
+    "height": 2096
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1414,
+        2096
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "C ) ८८ Go@Dg३०S  @lDel@lj@  8alo3० Dal9am@ @o@ocवe mJo0leoolam0g\" @७@? (gl3lm , elesaom , @l@lea$le , @I930ीm ) d) 60960](0)230.2m8:2[;0]001608 @]64]9=@230 00803008200 (23० 0f॰22zmm memoo2ommofleimoo239lळl@ठ 6303  goऔी, 63@2  9(0)0, 63@8  6630]0 om3eभm 20262],96!!9. 408:2]]02]0) ६ ) (olooam @aels{ Qflejlom 8o16000 (oDmm@loio , @lggal @lg , (O@omD1&० , 80936no ) f) -6 20383 ~]202]0383m3 (७@ (09l601S8m010 , oimollबlleco , 6२g , 6msaomsmo&)m) g) &D0s3mm  @0f@@36$ Gal0 6006)6010)$26@010)93038. (rतD)633300 २०५ , o2mmm QID@m) h) @g03oS Ollgjlomoommँ  tolozam @in3l= 9|@ ? (gmoत,   १eooollogoma   al(m3eco०@त ComloDaoo )\n2) 201006293@3&. a) golloooloel  B@mीळ)63ा3@o@)   0fl॰l@$D@)633296m mnipeLeoe1 mvollळloe१   (l@l॰ ID3 OImD 3o0Im 00)0. all.  Baloco   m200nl@3m6()6336@ ? 3 b) egea@ ml3cooतo@0lom Gooico९e@ (olmoooळmm क३@३ oQlgloesa0oam@ ^0633360 3\nc) lDeta mँomitomool mlm३ Balooo \"00086&96!3 ?\n3\nd) ८४ o३०   Ofioa2omm < 9 ogm mo8mco0olm ७g olooष2meळle pggmlemezcठ   Clm७e0ी aommble Bzmeiolenooomma elooom 090606900 3 3) a. (olozam @lga @3el>|861300  @20)6313.0@3०  83010)6mm633008)3०  2ons3@ डo0IQL@r9m62त02mm ? 3 b) el3o30gl ooISam0I@ ०९633omलommँ molleolकoesam@ ? 3 c) क0f 01Dळl॰l ६१l0३ el०ळीoo oioomळlgjoooळlgj e९om9a0ीलीol@am3 २७ @lmoooim8oos mlo3i3c0   8@9g8i@3m38on33 ? 3 d) ८४ e0gj92D2D3m@3 @ol@@Delz० १डlee)ons eejommal@३ १३el० 0Im3@3ड1s228gु9. m्9m306013० @0e1&26013०  0][802)@30- 3 4) @g3o@8ler3० 061!33 89]93_631300@ 63m@ olao0oीoo   &0i@o60   201006293036. २x 6=12 a) *aom७ao glomी ooतn colO aक० २ल elळe @@(22[0०  (!00)88@9825296m ogm @lol8co3८1@38. b) ooीtlल 906m00 @o@lgplofl,]6@)6333@@ C) C lGolलloel 6३ D०२CD633@३@S omतo mooc@&6gक30ीsँ २२00D२ @loa५30flm m0b&l@ 3o0ीm3क00  @g6nogj3०\n\" 5",
+      "text_nfc": "C ) ८८ Go@Dg३०S  @lDel@lj@  8alo3० Dal9am@ @o@ocवe mJo0leoolam0g\" @७@? (gl3lm , elesaom , @l@lea$le , @I930ीm ) d) 60960](0)230.2m8:2[;0]001608 @]64]9=@230 00803008200 (23० 0f॰22zmm memoo2ommofleimoo239lळl@ठ 6303  goऔी, 63@2  9(0)0, 63@8  6630]0 om3eभm 20262],96!!9. 408:2]]02]0) ६ ) (olooam @aels{ Qflejlom 8o16000 (oDmm@loio , @lggal @lg , (O@omD1&० , 80936no ) f) -6 20383 ~]202]0383m3 (७@ (09l601S8m010 , oimollबlleco , 6२g , 6msaomsmo&)m) g) &D0s3mm  @0f@@36$ Gal0 6006)6010)$26@010)93038. (rतD)633300 २०५ , o2mmm QID@m) h) @g03oS Ollgjlomoommँ  tolozam @in3l= 9|@ ? (gmoत,   १eooollogoma   al(m3eco०@त ComloDaoo )\n2) 201006293@3&. a) golloooloel  B@mीळ)63ा3@o@)   0fl॰l@$D@)633296m mnipeLeoe1 mvollळloe१   (l@l॰ ID3 OImD 3o0Im 00)0. all.  Baloco   m200nl@3m6()6336@ ? 3 b) egea@ ml3cooतo@0lom Gooico९e@ (olmoooळmm क३@३ oQlgloesa0oam@ ^0633360 3\nc) lDeta mँomitomool mlm३ Balooo \"00086&96!3 ?\n3\nd) ८४ o३०   Ofioa2omm < 9 ogm mo8mco0olm ७g olooष2meळle pggmlemezcठ   Clm७e0ी aommble Bzmeiolenooomma elooom 090606900 3 3) a. (olozam @lga @3el>|861300  @20)6313.0@3०  83010)6mm633008)3०  2ons3@ डo0IQL@r9m62त02mm ? 3 b) el3o30gl ooISam0I@ ०९633omलommँ molleolकoesam@ ? 3 c) क0f 01Dळl॰l ६१l0३ el०ळीoo oioomळlgjoooळlgj e९om9a0ीलीol@am3 २७ @lmoooim8oos mlo3i3c0   8@9g8i@3m38on33 ? 3 d) ८४ e0gj92D2D3m@3 @ol@@Delz० १डlee)ons eejommal@३ १३el० 0Im3@3ड1s228gु9. m्9m306013० @0e1&26013०  0][802)@30- 3 4) @g3o@8ler3० 061!33 89]93_631300@ 63m@ olao0oीoo   &0i@o60   201006293036. २x 6=12 a) *aom७ao glomी ooतn colO aक० २ल elळe @@(22[0०  (!00)88@9825296m ogm @lol8co3८1@38. b) ooीtlल 906m00 @o@lgplofl,]6@)6333@@ C) C lGolलloel 6३ D०२CD633@३@S omतo mooc@&6gक30ीsँ २२00D२ @loa५30flm m0b&l@ 3o0ीm3क00  @g6nogj3०\n\" 5",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

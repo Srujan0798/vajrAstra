@@ -1,0 +1,41 @@
+{
+  "page_id": "te_021",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 592.635986328125,
+    "height": 800.1560668945312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        592.635986328125,
+        800.1560668945312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": ") రాజనీతి శాస్రం\nచరిత :\nమరియు\nపదవ తరగతి\nK\nRaoia\nblle",
+      "text_nfc": ") రాజనీతి శాస్రం\nచరిత :\nమరియు\nపదవ తరగతి\nK\nRaoia\nblle",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

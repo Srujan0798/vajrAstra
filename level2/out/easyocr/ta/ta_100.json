@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_100",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0034pro_raw.pdf",
+    "page_index": 231,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "12-i w७iuqadluluoo\nछnळं थषlfluj Boir Wpgiio GनDniJQII ना j Boाr LIITLLIIOD @lGU@JBए LIILLIIGD श्ुक्ीnluljj फनiा CDDmoा@lj. Gक. GInप् मIIDl, थप्र. BU७lywव्षuवछT , UGC BSR Loफ़ILILDI GLIJTfIflUIJ, LollUflUIनD छloop, (glJकD७ <ुमIfluIj, LoflUflUIGD, छI flooा j GLDGDDD GDGULI LIनIT नf , pफफ़ooLD, OlJढठा ७D६ठा LIITJS ऊTJनग LनUBODनUऊं BLDBLD, SIGFTIJTLILनT नlाः ठाळ्छंा . ७. Bl॰शा , (Dबoolj. Loflu थन्छीछा थष्णाफ़ूंठी, UgIJODGL शुमlfuIj, LoflUOlULIGD, OlJ ढठT नDनठा OlLIनOग Bढir GLDनDDlGDनULI LIनTनfl , LGDनUT JनDबJOILIGLIJIfIfluaj( gpulol ), LoflufluIनD छl७op, ७७ी७lनषT!J, Ol@q6ठाTUI JJJ , ७lJठठ नD६ठा BlJLDनUT LOBनflj Boi@n Jl, GऊTUILDLDछI J थ. ड़ljwomDा , mी ptlyगमळछा  (g|86053 रfी Ifluj, LoflufluloD, मOJnषीनofl OlJgLILIनठT OlLIनOT BनT GLDनD GDबoLl नDनJOLIGLIJTfIfluIj , LofluflUIGD छloop, खIJङ्   BकDन७मं BनDgा Dी (नणढठTLL fl), छशऊगं LनTढfl, Lफफ़LDGD७७ , छ CJOIनT %ऊj ७ SpolऊGwon\", क्ी. 6lguBnUDIL fl, BOILIGLIJIO JUIJ , LolluluIनi छुlनDD, LOTG नUऊं Bनण@भा J   छन्ण नठाTLLE ), ७lJनण नDनठा UglJGDGL ZमIfluj, LollufluIनD, Loगflp LITOD OJLIनOग BनiT GLDGD  नDGULILIनTनf , LOUfनUTOgloop GLDOUIUIOIIनT I ऊना Q. थव््ंण व्ठा ITUDवDOD, नान्छा pG%वण्छाLव्छा , Cफ़obolj, 8(ooगाT #jolGp+ LIGiTof GBTULILDLDफTJ नDनJOLIGLIJTfIfluIj (oulol), LOflUfULIनD छlनop, OlLIflUInj न.Gol JIT. BनD@ा ्, ७. म्वछंछ @मD, छ७मflJTLILIनT नfि (gIकनDनU शुमIfUIJ , LolUIUIGD, शIJFloa y GLDनDD GDनLI LIनT नll , BऊIGBuILD, नाUD BrUUlएwव्षीuनDT , झGLILJ Gफ़ ojकlनDबL @धlfl@|@DJUIn6ा.)(guLl@|), LoflUflUIGD छloop, OLIflUIJ न.GolJn. थपर ७. थमंकीमन्Dा ७G,७ प्रक्ीळी , ऊनU@भा Z ,giaFiJTLILनT नाः (glककDनU <ुमIffluIj, LoflufluIoD, CSI Northwick OlLIनठग Boiाr GLDनUD @DनoLi LIनT नfl, DIJढठा ६D५ठा LIITL शुuIoInनाj ऊना ७. Gun वछंाUव््षी GoIppl#Gमdबाव्छा , UglJGDGL शुमlfluIj, LoflufluनD, छIगमlनo j २ुठठंग Bनir GLDODD @DनJLl LIनT नf ,GLDJ G# गl, G.ouJn8रठळIव्छंा , GaouLb BofLIGLIJTfIfIUIj , LOflUfIUIGD छlनDp, LOnDlनUऊं BOU@ा Dी ( ऊनठ नणाTLLf ), ७lJ६ठ ६D६ठा L मणबंomp, CDD6o@Ij.U.8शाछत , PCKG छIगण छjन्णंग Bनiा GLDनD GDGULI LIनiT ढfl, GफTl LDLITEELD Olमढठा ७Dउठा BofLIGLIJTfIfIUIj , LOflUflUIGD छlनDp, LITJफ़ LOBनflj BOU@n गी, ७lJठठा @Dनणा L थप. BIIOILL& ९(ऊ IकlनDकJOLILIIनाTj QuIo|) , (DgIBनDन २ुम fluIj , LoflufluIनo, OLTGGaL GJUI LDNST ७lLIGDंग BGiT GLDSUG नDनLLI LIनTनll , २०म , ०१J६ण ६D७णा BI मl. Ganwoफ़l, छी. 8णी UnऊंBlui, LDIOILL शुषlfluj Boiol LoDgito LUODE DglolooLD, Si(DoJJ , छi DolनT %ऊj LILLLछfl शुमटlffluIj, २sा JILLf syoorplul BObl@DनJLl LनTOfl , छी(ऊंफ़न्णी छ CoIनiT ९७ऊJ LDIOILLLD.\nICT @८ऊ Iकl७JOOLILITOTIj छी. छणी Un ऊंBlui, LILLgTf २ुf्lfluIj, २oा JITLLf Gooplul BO @DJJLl LIनTनf , छ Cऊंफ़॰ण्ी. झ (olनT %oऊj LOIOILLLD\nफ़LंLJमIOT ) U. ७७झI , LOIDIOU ऊनDollUIUIनD शJnUIB # Lopgio LUIDT 5iglolsoLD, ७।Jनठ नD७ठा\nक६D६ lopolo @ILq @२I६ODIDLLID ७८\n@lIq @JJDIDU4 D.JI. LOIT6OOflBछ पng LlpunBng LITGUBrLILD6oणflUIGणT मफफ़luInछ 6ibleLI६DT\nEMIS नgnफ़l६bफ़ILLIछ ७७ @गI.In.8छनiv, InllJ QUGIIBl DSणOILLITनाए OlpnylobgiLLio, B६bol GLmDn 6णणा 6ODLD ऊक@l६ंण CबDpवoLD QUIlbl6osooiis5 LloitsflBBobol @UIBGBD.\n@lवojuLi Jj. @5glGinj In House QC परnGgoq छांIBLILIनणT\ngपn. थI७नण्ठा IOIGञ नम६D६lनbा ठकnyl६bफ़ILL SlLLLI6oणfी थJGUnEछगं, B६bol GLmDn 6णणा 6ODLD ऊक@l६ंण CबDpवoLD QGIBlकl6o6oolis5 LlbitolBoobol @uIBBBD.\n9 वणा @IIq @IODUDU4 Bplr थbDIBD @GाIBीनoवooUUn नाग्र पGL६१ @६णflBIUD\nफ. L +छछluIBII ITULIनOOIIT , 5कन६ं ठlpntl6oniu ej BoUnEठj, B६D६fl GLD6Dn 6णणा 6ODLD छफ@I६ं CDवDID ६DLD QUIlbl6o6ooiis5 LlsirsllBBobol @uIB कti.\ngड़फ़आ6b 8८० क्ली.ना 6i७ नाi ना६bीBनणoLं GUOLlनDgGकn छnनfl६b शlषणlLLILILGaroाgl थJLIनEL @sopullsi शIBणILGLIj:\n224\nTamil_12th Geography Acknowledgement 3२९ 3३६ indd 224\n12/6/2022 6:48:15 Ph/",
+      "text_nfc": "12-i w७iuqadluluoo\nछnळं थषlfluj Boir Wpgiio GनDniJQII ना j Boाr LIITLLIIOD @lGU@JBए LIILLIIGD श्ुक्ीnluljj फनiा CDDmoा@lj. Gक. GInप् मIIDl, थप्र. BU७lywव्षuवछT , UGC BSR Loफ़ILILDI GLIJTfIflUIJ, LollUflUIनD छloop, (glJकD७ <ुमIfluIj, LoflUflUIGD, छI flooा j GLDGDDD GDGULI LIनIT नf , pफफ़ooLD, OlJढठा ७D६ठा LIITJS ऊTJनग LनUBODनUऊं BLDBLD, SIGFTIJTLILनT नlाः ठाळ्छंा . ७. Bl॰शा , (Dबoolj. Loflu थन्छीछा थष्णाफ़ूंठी, UgIJODGL शुमlfuIj, LoflUOlULIGD, OlJ ढठT नDनठा OlLIनOग Bढir GLDनDDlGDनULI LIनTनfl , LGDनUT JनDबJOILIGLIJIfIfluaj( gpulol ), LoflufluIनD छl७op, ७७ी७lनषT!J, Ol@q6ठाTUI JJJ , ७lJठठ नD६ठा BlJLDनUT LOBनflj Boi@n Jl, GऊTUILDLDछI J थ. ड़ljwomDा , mी ptlyगमळछा  (g|86053 रfी Ifluj, LoflufluloD, मOJnषीनofl OlJgLILIनठT OlLIनOT BनT GLDनD GDबoLl नDनJOLIGLIJTfIfluIj , LofluflUIGD छloop, खIJङ्   BकDन७मं BनDgा Dी (नणढठTLL fl), छशऊगं LनTढfl, Lफफ़LDGD७७ , छ CJOIनT %ऊj ७ SpolऊGwon\", क्ी. 6lguBnUDIL fl, BOILIGLIJIO JUIJ , LolluluIनi छुlनDD, LOTG नUऊं Bनण@भा J   छन्ण नठाTLLE ), ७lJनण नDनठा UglJGDGL ZमIfluj, LollufluIनD, Loगflp LITOD OJLIनOग BनiT GLDGD  नDGULILIनTनf , LOUfनUTOgloop GLDOUIUIOIIनT I ऊना Q. थव््ंण व्ठा ITUDवDOD, नान्छा pG%वण्छाLव्छा , Cफ़obolj, 8(ooगाT #jolGp+ LIGiTof GBTULILDLDफTJ नDनJOLIGLIJTfIfluIj (oulol), LOflUfULIनD छlनop, OlLIflUInj न.Gol JIT. BनD@ा ्, ७. म्वछंछ @मD, छ७मflJTLILIनT नfि (gIकनDनU शुमIfUIJ , LolUIUIGD, शIJFloa y GLDनDD GDनLI LIनT नll , BऊIGBuILD, नाUD BrUUlएwव्षीuनDT , झGLILJ Gफ़ ojकlनDबL @धlfl@|@DJUIn6ा.)(guLl@|), LoflUflUIGD छloop, OLIflUIJ न.GolJn. थपर ७. थमंकीमन्Dा ७G,७ प्रक्ीळी , ऊनU@भा Z ,giaFiJTLILनT नाः (glककDनU <ुमIffluIj, LoflufluIoD, CSI Northwick OlLIनठग Boiाr GLDनUD @DनoLi LIनT नfl, DIJढठा ६D५ठा LIITL शुuIoInनाj ऊना ७. Gun वछंाUव््षी GoIppl#Gमdबाव्छा , UglJGDGL शुमlfluIj, LoflufluनD, छIगमlनo j २ुठठंग Bनir GLDODD @DनJLl LIनT नf ,GLDJ G# गl, G.ouJn8रठळIव्छंा , GaouLb BofLIGLIJTfIfIUIj , LOflUfIUIGD छlनDp, LOnDlनUऊं BOU@ा Dी ( ऊनठ नणाTLLf ), ७lJ६ठ ६D६ठा L मणबंomp, CDD6o@Ij.U.8शाछत , PCKG छIगण छjन्णंग Bनiा GLDनD GDGULI LIनiT ढfl, GफTl LDLITEELD Olमढठा ७Dउठा BofLIGLIJTfIfIUIj , LOflUflUIGD छlनDp, LITJफ़ LOBनflj BOU@n गी, ७lJठठा @Dनणा L थप. BIIOILL& ९(ऊ IकlनDकJOLILIIनाTj QuIo|) , (DgIBनDन २ुम fluIj , LoflufluIनo, OLTGGaL GJUI LDNST ७lLIGDंग BGiT GLDSUG नDनLLI LIनTनll , २०म , ०१J६ण ६D७णा BI मl. Ganwoफ़l, छी. 8णी UnऊंBlui, LDIOILL शुषlfluj Boiol LoDgito LUODE DglolooLD, Si(DoJJ , छi DolनT %ऊj LILLLछfl शुमटlffluIj, २sा JILLf syoorplul BObl@DनJLl LनTOfl , छी(ऊंफ़न्णी छ CoIनiT ९७ऊJ LDIOILLLD.\nICT @८ऊ Iकl७JOOLILITOTIj छी. छणी Un ऊंBlui, LILLgTf २ुf्lfluIj, २oा JITLLf Gooplul BO @DJJLl LIनTनf , छ Cऊंफ़॰ण्ी. झ (olनT %oऊj LOIOILLLD\nफ़LंLJमIOT ) U. ७७झI , LOIDIOU ऊनDollUIUIनD शJnUIB # Lopgio LUIDT 5iglolsoLD, ७।Jनठ नD७ठा\nक६D६ lopolo @ILq @२I६ODIDLLID ७८\n@lIq @JJDIDU4 D.JI. LOIT6OOflBछ पng LlpunBng LITGUBrLILD6oणflUIGणT मफफ़luInछ 6ibleLI६DT\nEMIS नgnफ़l६bफ़ILLIछ ७७ @गI.In.8छनiv, InllJ QUGIIBl DSणOILLITनाए OlpnylobgiLLio, B६bol GLmDn 6णणा 6ODLD ऊक@l६ंण CबDpवoLD QUIlbl6osooiis5 LloitsflBBobol @UIBGBD.\n@lवojuLi Jj. @5glGinj In House QC परnGgoq छांIBLILIनणT\ngपn. थI७नण्ठा IOIGञ नम६D६lनbा ठकnyl६bफ़ILL SlLLLI6oणfी थJGUnEछगं, B६bol GLmDn 6णणा 6ODLD ऊक@l६ंण CबDpवoLD QGIBlकl6o6oolis5 LlbitolBoobol @uIBBBD.\n9 वणा @IIq @IODUDU4 Bplr थbDIBD @GाIBीनoवooUUn नाग्र पGL६१ @६णflBIUD\nफ. L +छछluIBII ITULIनOOIIT , 5कन६ं ठlpntl6oniu ej BoUnEठj, B६D६fl GLD6Dn 6णणा 6ODLD छफ@I६ं CDवDID ६DLD QUIlbl6o6ooiis5 LlsirsllBBobol @uIB कti.\ngड़फ़आ6b 8८० क्ली.ना 6i७ नाi ना६bीBनणoLं GUOLlनDgGकn छnनfl६b शlषणlLLILILGaroाgl थJLIनEL @sopullsi शIBणILGLIj:\n224\nTamil_12th Geography Acknowledgement 3२९ 3३६ indd 224\n12/6/2022 6:48:15 Ph/",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

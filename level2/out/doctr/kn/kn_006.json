@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_006",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1352,
+    "height": 2024
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1352,
+        2024
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SAMPLE PAPER FOR SUMMATIVE ASSESSMENT - II SET II\nSECOND TERM\nSUB : KANNADA\nCLASS -X\nM.MARKS: 80\nTIME: 3 Hrs\nwosanes: 1. 68 d2 33daw 0,2,2, J3 a WOW woey goninene srocadoad.\nDEJon-A (W02s a0a0 1o50 230)\n: 12 eoanet\nJgon-B (Woston 830)\n: 14 eoaneb\nDon-C (enave 22,d0ts)\n: 14 eoanet\nDwon-D (3one epats)\n: 40 eoanet\ne DeOn-A (30257 33 n &00 530) : (12 eoones)\n1. ds naeponasa 28 eao den Botsooa ganen evsa w0008.\neppaye aoae 30000003000003 oa paynee enwonoa 90038 Dgroa\nADSEeddes enswond. esdo engas -\nmoEoasegEs Sgreaa SeNe gpoad 333\nsorpuarieat.oyri.aods\nooewa\nJ532 desa 3,303000 new0o3d Edees\nwahawa e53,03 sayadoed boabswond.\newos d8 AEJROS 300008 evaraneongoad egroa odoenines enge0s\nDeaa. 030237 ogrotenabe arsah00as DSADE3D0eS evarlawn aEROJOR ad\n2000ond. mae desa WOp gonneno 30325000 abao3d 28500-005305 beno\nROR6ETeRaUr.aot SgroE aAed aa Xeasada adhaayas de b00DEa 3oay\nendiessond.goocon sooO0 mae\n9\ndezde Dgro apoda 52,030000 NODE\nwozjnes mesteas. eugas Dgods 38A800 30n300 WDOTT wer nasposd\nadesnes seodoz mac dezt ervainaneod aped aposoprbed. benon suona\newoo3 Bod Dgroo awosodt wo0 wowon 30000080.\naene :\nes) eppaje 3odo N07b3 doas 9o0sE aoajas ensaond ?\n1\nes) 20d3t 0oo sayedaots 5OOJE asoaas ?\n1\nm) otomts'soobordabd awa), endessea ?\n2\n33) evasra epoos dod Dgroa Dwatede aert wowon 3000002d ?\n2\nPage 1",
+      "text_nfc": "SAMPLE PAPER FOR SUMMATIVE ASSESSMENT - II SET II\nSECOND TERM\nSUB : KANNADA\nCLASS -X\nM.MARKS: 80\nTIME: 3 Hrs\nwosanes: 1. 68 d2 33daw 0,2,2, J3 a WOW woey goninene srocadoad.\nDEJon-A (W02s a0a0 1o50 230)\n: 12 eoanet\nJgon-B (Woston 830)\n: 14 eoaneb\nDon-C (enave 22,d0ts)\n: 14 eoanet\nDwon-D (3one epats)\n: 40 eoanet\ne DeOn-A (30257 33 n &00 530) : (12 eoones)\n1. ds naeponasa 28 eao den Botsooa ganen evsa w0008.\neppaye aoae 30000003000003 oa paynee enwonoa 90038 Dgroa\nADSEeddes enswond. esdo engas -\nmoEoasegEs Sgreaa SeNe gpoad 333\nsorpuarieat.oyri.aods\nooewa\nJ532 desa 3,303000 new0o3d Edees\nwahawa e53,03 sayadoed boabswond.\newos d8 AEJROS 300008 evaraneongoad egroa odoenines enge0s\nDeaa. 030237 ogrotenabe arsah00as DSADE3D0eS evarlawn aEROJOR ad\n2000ond. mae desa WOp gonneno 30325000 abao3d 28500-005305 beno\nROR6ETeRaUr.aot SgroE aAed aa Xeasada adhaayas de b00DEa 3oay\nendiessond.goocon sooO0 mae\n9\ndezde Dgro apoda 52,030000 NODE\nwozjnes mesteas. eugas Dgods 38A800 30n300 WDOTT wer nasposd\nadesnes seodoz mac dezt ervainaneod aped aposoprbed. benon suona\newoo3 Bod Dgroo awosodt wo0 wowon 30000080.\naene :\nes) eppaje 3odo N07b3 doas 9o0sE aoajas ensaond ?\n1\nes) 20d3t 0oo sayedaots 5OOJE asoaas ?\n1\nm) otomts'soobordabd awa), endessea ?\n2\n33) evasra epoos dod Dgroa Dwatede aert wowon 3000002d ?\n2\nPage 1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

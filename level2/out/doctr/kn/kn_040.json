@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_040",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 106,
+    "width": 1698,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1698,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ONDE3O Deddon eoole0\nBna 230r, a.2. dhs. asorisledo-560 002\naooaotd : 080-22480297\nKarnataka Lalitkala Academy\nKannada Bhavan, J.C. Road, Bengaluru - 560 002\nPhonel : 080 - 22480297",
+      "text_nfc": "ONDE3O Deddon eoole0\nBna 230r, a.2. dhs. asorisledo-560 002\naooaotd : 080-22480297\nKarnataka Lalitkala Academy\nKannada Bhavan, J.C. Road, Bengaluru - 560 002\nPhonel : 080 - 22480297",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

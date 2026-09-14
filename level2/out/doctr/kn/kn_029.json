@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_029",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0030pro_raw.pdf",
+    "page_index": 54,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "82 FeE BOFO DOW0 8OFO\nCo es\naoos wota aronea W8T3C. ao0 aO,t en 200 Jozo epao aopeaorgd 2083 3 DOd\nNo30, dae ye 30ey sona, EPAE etwo AES ewgawad. eual Aa aesabe 00808\nNode? Noay ensoona E7a oavosowa 80a aolwaode? edood\n3\nev0ttaebon\naotwade? NODeT ereautiocee.\najaorey WOW aoeyan 2egdoges &er aotdocro\nE7 80a asotdocro : Say 30n3 doda, JOOD Badro, Nas\n23027e0, sa e as, W3OS -\n807o aons\napypehayd.osugere. do3n BNOR taa aooa\neppasosasa soooFdede 3oa atoor Regcabon\naode araon NOa gorioceo.\n61\neadooan EXCE: nooa O7' WOW ao@Joz adwawg\n+\naone Nooabood Seap avoa, Henbeedoicoor\ngabogtweh say 3one dodanea eeotowa anoot\nasedbateri.oero.\nRoede BX0 cotoaad woes exore Roeye asotdocro:\nULE - Red -\nsodado, arjade 30n3 dodange waorweh NOCS\nSAY NO!\nwwuR\nOnaz enadadeehtoas wrOnPOd B7a euzoaa enzde\n-\nfoi PLASTIC B4cy\n3\nadgd. eos0 BAWA Roeyot Jeowoh cwa woes B\nA\nBAOR0A aontre avoa, 82 Bxaod sowaba Neeydars\nsaboorocro. Jooab aas adab etori doconson\noxnen sowaba Reeyo 3aboor, Bydoces aas\nGE \"unes Lur\nmim: 2\nenoonaoned W8iocEO.\nJIRNFD\nNEe 25o70 gabrey vode socsotdocro : 3oes, ar, aaa\nge, aona ge, WOFIO 7e3, 3o2500ad, d dosowa\n3Faoonesead. goasodee aots weas geneo soase # aotdas eodoest eawoad codocro.\nRe 88 wez 230778 soase desph weRDaaood eane\ngaredada wwtswa Nas aode\nb7a DOEE ZRABDOE soboriocre : ERAJE aoas 3ajo25auoe Baorda wo0 B7a asootasond. woestas\naoaBOU Babooaa SAOnYO aoz wewaa, e3o3 daab JPAS en wena, eonan, Noën\naocmwon asowodee woas weja gceaa Enadood aoerbajdood enny CUO AE wetowon awe\naoodeaoond.\nReosdooon Holt.opero.\nNOO eusoona B70\n1. weoddo 27 odwon boton Dea oa\naawotown 80a3\naoaa?\navotwad.\n2. aeos 283780 OJ7 aboa 283 Qaao00s)? W8?\n3. asowon aoon acootwon 230703083 3008,\neao two ena oa avotas?\n47",
+      "text_nfc": "82 FeE BOFO DOW0 8OFO\nCo es\naoos wota aronea W8T3C. ao0 aO,t en 200 Jozo epao aopeaorgd 2083 3 DOd\nNo30, dae ye 30ey sona, EPAE etwo AES ewgawad. eual Aa aesabe 00808\nNode? Noay ensoona E7a oavosowa 80a aolwaode? edood\n3\nev0ttaebon\naotwade? NODeT ereautiocee.\najaorey WOW aoeyan 2egdoges &er aotdocro\nE7 80a asotdocro : Say 30n3 doda, JOOD Badro, Nas\n23027e0, sa e as, W3OS -\n807o aons\napypehayd.osugere. do3n BNOR taa aooa\neppasosasa soooFdede 3oa atoor Regcabon\naode araon NOa gorioceo.\n61\neadooan EXCE: nooa O7' WOW ao@Joz adwawg\n+\naone Nooabood Seap avoa, Henbeedoicoor\ngabogtweh say 3one dodanea eeotowa anoot\nasedbateri.oero.\nRoede BX0 cotoaad woes exore Roeye asotdocro:\nULE - Red -\nsodado, arjade 30n3 dodange waorweh NOCS\nSAY NO!\nwwuR\nOnaz enadadeehtoas wrOnPOd B7a euzoaa enzde\n-\nfoi PLASTIC B4cy\n3\nadgd. eos0 BAWA Roeyot Jeowoh cwa woes B\nA\nBAOR0A aontre avoa, 82 Bxaod sowaba Neeydars\nsaboorocro. Jooab aas adab etori doconson\noxnen sowaba Reeyo 3aboor, Bydoces aas\nGE \"unes Lur\nmim: 2\nenoonaoned W8iocEO.\nJIRNFD\nNEe 25o70 gabrey vode socsotdocro : 3oes, ar, aaa\nge, aona ge, WOFIO 7e3, 3o2500ad, d dosowa\n3Faoonesead. goasodee aots weas geneo soase # aotdas eodoest eawoad codocro.\nRe 88 wez 230778 soase desph weRDaaood eane\ngaredada wwtswa Nas aode\nb7a DOEE ZRABDOE soboriocre : ERAJE aoas 3ajo25auoe Baorda wo0 B7a asootasond. woestas\naoaBOU Babooaa SAOnYO aoz wewaa, e3o3 daab JPAS en wena, eonan, Noën\naocmwon asowodee woas weja gceaa Enadood aoerbajdood enny CUO AE wetowon awe\naoodeaoond.\nReosdooon Holt.opero.\nNOO eusoona B70\n1. weoddo 27 odwon boton Dea oa\naawotown 80a3\naoaa?\navotwad.\n2. aeos 283780 OJ7 aboa 283 Qaao00s)? W8?\n3. asowon aoon acootwon 230703083 3008,\neao two ena oa avotas?\n47",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

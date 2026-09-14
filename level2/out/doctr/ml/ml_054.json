@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_054",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 48,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8000.D0310J000\na\n20a1@0001e.0ong d.00.0600/00g0mpl\ncsmpuamoompailsodo\n01000d OJ00001 GOJOne00.00 BIOGP01009160662.050 - à OS\n000100 Bloinuojo mlogioloi.\n000200100000.800200, QE\nd00200 900.0001b10@1p0\n6om2000u0\nBroQ./001036S\n0003002000560020S 0101 la SomO Ou 21006.0100.\nQodo\n210 GOJONS 019603526300 630360181.\n02,em200300g300 G\nC0009.01000 600010 106063.831992 6001e1 ailoooleog\n00 00000020001 gyomaalolom.\nde19.060 60000 a\nslooo.qam29m83 ladaplaa BOC0 000.80001 0108)C0010\n0scompSes 15).2006050.1000 00.10008555010 la mlogio.jal o\n62101522 05/01060299.9910 0160000100200 200000003011\n6000 Caloouladgamo egoa.cojaaol\nGIOG 160166506.0300. Co\na\n@\nGLI, 025037 olaes 20010 01810826S GODDO90jo 20000\n0001880 0052315000 99609 6.000003lc30. nom 2000\n6\n0092001 01800dto0s amgoamooegegom 600 lomoecdatto\n31060D-00 Blaj000s0ado a0l2100 D.100000000 01060\nGaoma.peigp cao.polla@.flailod 000oneG0 10 0 m.01 o\naopsamaor c50010n00010 00 60 0.0100000031000 aue0am\n1006)m000 0.1000100J0000 64.03004003.06020 daos\n0.100010000001 wolajaiamgo C elo2 Crc\nG00\na0sTadmo Go1039210.200) elojjalolso.nagcjol BOCODO\napzomuba.son.lod muginsloa.comocoapleaz00 angagal\n6M\nOsao acolaod toonge00p000 Bioomlooool B0Q@o01\n2joolmo. m.027000m3.000230 6000003010X000071 Qi00 OJAL\nd090g0 6010 00100000 Q0B121 GCQICO Gremlaploao.\n0ulom BOmOIS, 00l0ggS goep0 66.00000)5080221003IC\nam.50oplo.0008n) oggpospo@sloigemegelarteno a91\n2101060 00200000 loolad 00001 0400.000009200000200000\n200 60250210100.10901 Quej m023m60820 600500 0000\n0 as0o 0.0100, 00 909 6100 0092)C06P00 O5603 ko coom",
+      "text_nfc": "8000.D0310J000\na\n20a1@0001e.0ong d.00.0600/00g0mpl\ncsmpuamoompailsodo\n01000d OJ00001 GOJOne00.00 BIOGP01009160662.050 - à OS\n000100 Bloinuojo mlogioloi.\n000200100000.800200, QE\nd00200 900.0001b10@1p0\n6om2000u0\nBroQ./001036S\n0003002000560020S 0101 la SomO Ou 21006.0100.\nQodo\n210 GOJONS 019603526300 630360181.\n02,em200300g300 G\nC0009.01000 600010 106063.831992 6001e1 ailoooleog\n00 00000020001 gyomaalolom.\nde19.060 60000 a\nslooo.qam29m83 ladaplaa BOC0 000.80001 0108)C0010\n0scompSes 15).2006050.1000 00.10008555010 la mlogio.jal o\n62101522 05/01060299.9910 0160000100200 200000003011\n6000 Caloouladgamo egoa.cojaaol\nGIOG 160166506.0300. Co\na\n@\nGLI, 025037 olaes 20010 01810826S GODDO90jo 20000\n0001880 0052315000 99609 6.000003lc30. nom 2000\n6\n0092001 01800dto0s amgoamooegegom 600 lomoecdatto\n31060D-00 Blaj000s0ado a0l2100 D.100000000 01060\nGaoma.peigp cao.polla@.flailod 000oneG0 10 0 m.01 o\naopsamaor c50010n00010 00 60 0.0100000031000 aue0am\n1006)m000 0.1000100J0000 64.03004003.06020 daos\n0.100010000001 wolajaiamgo C elo2 Crc\nG00\na0sTadmo Go1039210.200) elojjalolso.nagcjol BOCODO\napzomuba.son.lod muginsloa.comocoapleaz00 angagal\n6M\nOsao acolaod toonge00p000 Bioomlooool B0Q@o01\n2joolmo. m.027000m3.000230 6000003010X000071 Qi00 OJAL\nd090g0 6010 00100000 Q0B121 GCQICO Gremlaploao.\n0ulom BOmOIS, 00l0ggS goep0 66.00000)5080221003IC\nam.50oplo.0008n) oggpospo@sloigemegelarteno a91\n2101060 00200000 loolad 00001 0400.000009200000200000\n200 60250210100.10901 Quej m023m60820 600500 0000\n0 as0o 0.0100, 00 909 6100 0092)C06P00 O5603 ko coom",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

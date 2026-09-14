@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_024",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0025pro_raw.pdf",
+    "page_index": 66,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "10.2 ens Das 380\n6\n3 3\nage aeos DEFA epwo 8008 cono 88000 abees w0900030 x00-300n9a aOay\nbasgee adogea. eede wasorwoh AOSFUDE genee 030283oo0 ena DEFIO eratao\ngeedogess. Daori doesaord aas Nowtawg aen9o0, Day wanegade DOESFE sdawadobe?\n-\nA\ndat 3abee -\nRaaoa, evgoowa a8\nxnaes: JoeE dgca\n16 aaFa aWeOFO APE alowonero 37 &800\nTocao Towog Tocabo 2o3 Tevnowon\ncadoape. ews aabro Towaod 20 WaF.\nw00 Noas, NOWODEO adab 23e83 No3d,\nTiocao 3nA sodaoa ewg asabaon\n20000 awowrbsos. wodae Kocavo, NDÉ\ndocte ae/hope woas aeebae e8300\naone w87ev aedogprosod. ewgn Sco0\n3300070a308, awod woas ewe docea\naesood. sogn gonavor eodo No, sode\na\nSapCs xoaewa erobradaaas woas goas\neaso\nWoaes deebagde. Bea oane Jo3d,\nTiocao eaga Eggtoges aaossOd. Deao\nEn dogavonaea 88 803 gpowned Not.\nDeao srjas cagadassaead e3\nwoa Jon 3000\nwoao acebsor. spor aen 3880000366000\n39000e\negas, noode\ne00830703d. 88 023000\n-\nwn\naboono cagy, aE atoodde con avadd,\net Woono day 3ade. 2ON8 ode a00, 3dn\naoro, DEFI avoan\n3dab\nweodadabe\n1\n238 doonon mooaboa adab aeee.\nmonee 232352:\nNoeono, 0830W0 sord, He83d epwo\neQoddoda ae dE0 aatt naaba\neveogaad, DEDO atowa goWSTSen?\nDapay dodtes 0abs208,\nap,pabees\naoand enwo 2300808 e70083 sowotaon\ndocod san on deewwa? as\nnasa: ages aas a0adasaad No,\n0300 ajabes Ranea mdonees. atado\nWES ensas\n3080000030000\nwoto Deowne Joa Nowogt doodo\nevobonwDas woa 2303208.\nDE 32 cas bdooan 232353:\nTiocab aadd er avoosodes AOÉ\nb0850a0000000 Dea 200RDSCOD?\nHocaa 2oë sedats Reaaidyongeb.\nBnda WOrER eaeo 2po738 todroae ?\nsodas DEOWO eata Roepedwon\naontorogd, ewss 3nn 30n0 dBadoges\nass Tooab woobes wa asetwawt?\n0\nasoonoade doodo enoedasoas 3088791\na3ts\ndecososTendco\nnanea\nepwe\nevgog-nesodas.\neao\naab8g\nsoalomonen\nevgogtas agen aoaooes ESAIT (ee aeas\n50000d) escooroad.\nJOuRNAl\necdoce3a aoe : aboodde\nDaopos soeado, assade eawo\neverne dooddr.ov3aros\notoooade say daode -\nnacoa aeoad, et Nay\n3ade. adocg a6an, Not\nwo00d dordotipero,\nasoayde KoweFa er ecdocesa).\noonwaa\n05250/0000000.\nWOwOO\n883\n59",
+      "text_nfc": "10.2 ens Das 380\n6\n3 3\nage aeos DEFA epwo 8008 cono 88000 abees w0900030 x00-300n9a aOay\nbasgee adogea. eede wasorwoh AOSFUDE genee 030283oo0 ena DEFIO eratao\ngeedogess. Daori doesaord aas Nowtawg aen9o0, Day wanegade DOESFE sdawadobe?\n-\nA\ndat 3abee -\nRaaoa, evgoowa a8\nxnaes: JoeE dgca\n16 aaFa aWeOFO APE alowonero 37 &800\nTocao Towog Tocabo 2o3 Tevnowon\ncadoape. ews aabro Towaod 20 WaF.\nw00 Noas, NOWODEO adab 23e83 No3d,\nTiocao 3nA sodaoa ewg asabaon\n20000 awowrbsos. wodae Kocavo, NDÉ\ndocte ae/hope woas aeebae e8300\naone w87ev aedogprosod. ewgn Sco0\n3300070a308, awod woas ewe docea\naesood. sogn gonavor eodo No, sode\na\nSapCs xoaewa erobradaaas woas goas\neaso\nWoaes deebagde. Bea oane Jo3d,\nTiocao eaga Eggtoges aaossOd. Deao\nEn dogavonaea 88 803 gpowned Not.\nDeao srjas cagadassaead e3\nwoa Jon 3000\nwoao acebsor. spor aen 3880000366000\n39000e\negas, noode\ne00830703d. 88 023000\n-\nwn\naboono cagy, aE atoodde con avadd,\net Woono day 3ade. 2ON8 ode a00, 3dn\naoro, DEFI avoan\n3dab\nweodadabe\n1\n238 doonon mooaboa adab aeee.\nmonee 232352:\nNoeono, 0830W0 sord, He83d epwo\neQoddoda ae dE0 aatt naaba\neveogaad, DEDO atowa goWSTSen?\nDapay dodtes 0abs208,\nap,pabees\naoand enwo 2300808 e70083 sowotaon\ndocod san on deewwa? as\nnasa: ages aas a0adasaad No,\n0300 ajabes Ranea mdonees. atado\nWES ensas\n3080000030000\nwoto Deowne Joa Nowogt doodo\nevobonwDas woa 2303208.\nDE 32 cas bdooan 232353:\nTiocab aadd er avoosodes AOÉ\nb0850a0000000 Dea 200RDSCOD?\nHocaa 2oë sedats Reaaidyongeb.\nBnda WOrER eaeo 2po738 todroae ?\nsodas DEOWO eata Roepedwon\naontorogd, ewss 3nn 30n0 dBadoges\nass Tooab woobes wa asetwawt?\n0\nasoonoade doodo enoedasoas 3088791\na3ts\ndecososTendco\nnanea\nepwe\nevgog-nesodas.\neao\naab8g\nsoalomonen\nevgogtas agen aoaooes ESAIT (ee aeas\n50000d) escooroad.\nJOuRNAl\necdoce3a aoe : aboodde\nDaopos soeado, assade eawo\neverne dooddr.ov3aros\notoooade say daode -\nnacoa aeoad, et Nay\n3ade. adocg a6an, Not\nwo00d dordotipero,\nasoayde KoweFa er ecdocesa).\noonwaa\n05250/0000000.\nWOwOO\n883\n59",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

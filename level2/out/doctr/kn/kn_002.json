@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_002",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+    "page_index": 6,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n7\nF1\n46. 88 densanee odsowas aoocbanen 51. deos aatohog aba Deos O0abe doornF\nNowoQAdo roabohd ?\n(1) eaneb a.0ro. 2037 aigeeser 8023\nacoodsa.\n(2) eaneb Ndogaod a.0.w. asoobdy\naigetser 6s325d2d30h0033.\n(3) eareb eowr. ... 2o3n aigetserr 8a23\naooddsa.\n(4) eaneb Aogaod eowow. asoobdy\naigetser 6a325d2d-3010033.\n47. dend socwene 2o3n ewnen sodroworbas\nseone a0002 aa xoosod aegaor, eady\naoa.\nt0o -I\ntoeo -II\n(a) oaabdes 2d ( gesdeoate\n(b) aasoesas\n(c) aeoadeA\n(d) abeledad\n(ii) aprigeaato\n(iml) vecignop\n(iv) bealoeger\n(a) (b) (c) (d)\n(1) (ii) (i) (iii) (iv)\n(2) (iv)\n(ii) (iii)\n(3) (i) (imi) (ii) (iv)\n(4) (iii) (iv)\n(ii)\n48. T Joswobad ABO d803 moodd dodogros\nHowoQado 320 acedoba no0b32.\n(1) IAaa IB atowon aeyr adgaadoe, en\nes aode Eosod Bono en 008FAD3S.\n(2) Teadedato adoade Bono en evz3\natoe.\n(3) I Joswoboss asods addoanya\naoood.\nevobsorbaja :\n(1) noe aas dedo\n(2) 80837sb aas dedo\n(3) 8et37eb eowo noeowo0\n(4) Deon aaoaongod aog\n52. roroaeaa adas Daye 233800 QRS HO8COF\nO 080070303 ?\n(1) aaane apoeabs\n(2) aapane adoroeads\n(3) agrorne adooeads\n(4) agoFre aooeads\n53. Xoabod secaada eaty aa.\n(1) socorieecpseda\n2ewtocs d8be33\n(2) pereaabe\n(3) basoegedas\n(4) ade-\ndeddoededado\ntoa 3OF303\ndwre eoto,\n2E0F3030-11\nX Noer\nNoer\nY\ntoab\nWEOFBOZ\naese\nedco\n54. 2638 ea 2300 wo0 D8nO erba gabodd\nBosa apexpodeddronte Noss, wajodd :\n(1) wot\n(2) abodo\n(3) Rode\n(4) 2o0\n(4) 2oey adads 310 atodo eodedneo 55. d3 densonen aoooz :\nwdon awg aoobdsod.\n49. OOWEF ae ajood, 2307188 adededs gogda\nxabodo wadwaododd :\n(1) 50 aOabr\n(2) 7 aoabr\n(3) 1.5 aoadr\n(4) 20 adabr\n50. d3 densanee OJJOWaS seorodidoss\nrorode ?\n(1) abdrodd\n(2) aesead e03oeead3\n(3) Oonenbao\n(4) 2030d\n(a) senaoft\ngabad DWFOD\n(b) aescor wop\naicoodot\n(c) sOcogneos\ndocsesg SXD\n(d) 0seade\nevaszsa\n(i) O2\n(ii) aciodes\n(iii) BAS\n(iv) dogodiyr\nes densaneod Xootoa eabaoa e82 :\n(a) (b) (c) (d)\n(1) (imi) (iv) (i) (ii)\n(2) (ii) (ii) (i) (iv)\n(3) (ii) (iv) (iii) (i)\n(4) (iii) (i) (iv) (ii)",
+      "text_nfc": "KANNADA\n7\nF1\n46. 88 densanee odsowas aoocbanen 51. deos aatohog aba Deos O0abe doornF\nNowoQAdo roabohd ?\n(1) eaneb a.0ro. 2037 aigeeser 8023\nacoodsa.\n(2) eaneb Ndogaod a.0.w. asoobdy\naigetser 6s325d2d30h0033.\n(3) eareb eowr. ... 2o3n aigetserr 8a23\naooddsa.\n(4) eaneb Aogaod eowow. asoobdy\naigetser 6a325d2d-3010033.\n47. dend socwene 2o3n ewnen sodroworbas\nseone a0002 aa xoosod aegaor, eady\naoa.\nt0o -I\ntoeo -II\n(a) oaabdes 2d ( gesdeoate\n(b) aasoesas\n(c) aeoadeA\n(d) abeledad\n(ii) aprigeaato\n(iml) vecignop\n(iv) bealoeger\n(a) (b) (c) (d)\n(1) (ii) (i) (iii) (iv)\n(2) (iv)\n(ii) (iii)\n(3) (i) (imi) (ii) (iv)\n(4) (iii) (iv)\n(ii)\n48. T Joswobad ABO d803 moodd dodogros\nHowoQado 320 acedoba no0b32.\n(1) IAaa IB atowon aeyr adgaadoe, en\nes aode Eosod Bono en 008FAD3S.\n(2) Teadedato adoade Bono en evz3\natoe.\n(3) I Joswoboss asods addoanya\naoood.\nevobsorbaja :\n(1) noe aas dedo\n(2) 80837sb aas dedo\n(3) 8et37eb eowo noeowo0\n(4) Deon aaoaongod aog\n52. roroaeaa adas Daye 233800 QRS HO8COF\nO 080070303 ?\n(1) aaane apoeabs\n(2) aapane adoroeads\n(3) agrorne adooeads\n(4) agoFre aooeads\n53. Xoabod secaada eaty aa.\n(1) socorieecpseda\n2ewtocs d8be33\n(2) pereaabe\n(3) basoegedas\n(4) ade-\ndeddoededado\ntoa 3OF303\ndwre eoto,\n2E0F3030-11\nX Noer\nNoer\nY\ntoab\nWEOFBOZ\naese\nedco\n54. 2638 ea 2300 wo0 D8nO erba gabodd\nBosa apexpodeddronte Noss, wajodd :\n(1) wot\n(2) abodo\n(3) Rode\n(4) 2o0\n(4) 2oey adads 310 atodo eodedneo 55. d3 densonen aoooz :\nwdon awg aoobdsod.\n49. OOWEF ae ajood, 2307188 adededs gogda\nxabodo wadwaododd :\n(1) 50 aOabr\n(2) 7 aoabr\n(3) 1.5 aoadr\n(4) 20 adabr\n50. d3 densanee OJJOWaS seorodidoss\nrorode ?\n(1) abdrodd\n(2) aesead e03oeead3\n(3) Oonenbao\n(4) 2030d\n(a) senaoft\ngabad DWFOD\n(b) aescor wop\naicoodot\n(c) sOcogneos\ndocsesg SXD\n(d) 0seade\nevaszsa\n(i) O2\n(ii) aciodes\n(iii) BAS\n(iv) dogodiyr\nes densaneod Xootoa eabaoa e82 :\n(a) (b) (c) (d)\n(1) (imi) (iv) (i) (ii)\n(2) (ii) (ii) (i) (iv)\n(3) (ii) (iv) (iii) (i)\n(4) (iii) (i) (iv) (ii)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

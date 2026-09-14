@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_008",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0009pro_raw.png",
+    "page_index": 0,
+    "width": 378,
+    "height": 534
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        378,
+        534
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-4.\n72s () Ntdng  conaned in the Kerala Land Tax Ac, 196\nff, rg\ninterest of the land owner and the intermediaries, if any in respect of holding have vested in\nGveUbl\ntax payable in respect of that holding under the said Act and other taxes and Cesses. due in\nrespect of that holding.\" m cucumuo eaeeleezm.\nm  \nmesmm mgmz eeo eeem\ne m moe e 72 s () (.\nse eedm mames weoem opoees\ne \n\na m  eoe a go ao mae\n\neza bemoceoceo meknegmzo d mzm ms\nmdemegemgmmze mnw\nmoselecoomesamlzemmzo\nwegmoomeem\n \n(aag swoleom maeeg gagcs wamd eawa\n memme o egm mamg\nee\na (e)  . e m -/  m\n\n\n.\ne zme eemmza wzao\nagommoon.)\neo\ngeensms\nawatowy\nmgee/e\n\ne e o em\n  m ",
+      "text_nfc": "-4.\n72s () Ntdng  conaned in the Kerala Land Tax Ac, 196\nff, rg\ninterest of the land owner and the intermediaries, if any in respect of holding have vested in\nGveUbl\ntax payable in respect of that holding under the said Act and other taxes and Cesses. due in\nrespect of that holding.\" m cucumuo eaeeleezm.\nm  \nmesmm mgmz eeo eeem\ne m moe e 72 s () (.\nse eedm mames weoem opoees\ne \n\na m  eoe a go ao mae\n\neza bemoceoceo meknegmzo d mzm ms\nmdemegemgmmze mnw\nmoselecoomesamlzemmzo\nwegmoomeem\n \n(aag swoleom maeeg gagcs wamd eawa\n memme o egm mamg\nee\na (e)  . e m -/  m\n\n\n.\ne zme eemmza wzao\nagommoon.)\neo\ngeensms\nawatowy\nmgee/e\n\ne e o em\n  m ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

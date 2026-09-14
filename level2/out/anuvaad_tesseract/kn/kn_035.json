@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_035",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0036pro_raw.pdf",
+    "page_index": 132,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "~~\n\n८0५\n3.\nने\n\nಡು\nnan\n3 ds\n\n3\n\n0n\n\nना,\n5\n\n&\nwo?\nAor)\nಸಂ\nರಗು\n\nಈ\na\n\na ne\n\nಕಾರರು .\n\nन\n\n8\n\nತ ಚಿಕ್ಕಣ್ಣನವರು ನ\nयदि]\n\nಕಾ\n2\n\nಅದ್ದುತ ಕಥ\n\nES]\n\n/\n\n",
+      "text_nfc": "~~\n\n८0५\n3.\nने\n\nಡು\nnan\n3 ds\n\n3\n\n0n\n\nना,\n5\n\n&\nwo?\nAor)\nಸಂ\nರಗು\n\nಈ\na\n\na ne\n\nಕಾರರು .\n\nन\n\n8\n\nತ ಚಿಕ್ಕಣ್ಣನವರು ನ\nयदि]\n\nಕಾ\n2\n\nಅದ್ದುತ ಕಥ\n\nES]\n\n/\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

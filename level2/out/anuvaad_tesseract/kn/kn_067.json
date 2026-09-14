@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_067",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0028pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Of course there are some differences in our bodies because of which some\nbiological functions like giving birth, producing milk etc can happen only\nin female bodies. We understand that other than that, there are no limits\nthat nature has set. Society makes these rules and we, as members of the\nsociety can change them!\n\nMake groups of 4 - Discuss which jobs you have been told not to do\nbecause of your gender. How does that make you feel?\n\nHousehold Home builder Doctor Carpenter\n\nmanagement\n\nTime with Teacher - List what each person in the class wants to do/\nlearn now - and what job or work they would like to do once they are an\nadult. Discuss how you can speak with the people who are forcing gender\nroles on you in a respectful and assertive manner.\n\nThink and Do: What would you say to someone who tells you\nthat you can’t do something because you're a girl or boy?\nWhat are some respectful and assertive ways to respond?\n\nAnyone can do any\njob. Gender does\nnot determine or\nlimit what we can\ndo or achieve.\n\n",
+      "text_nfc": "Of course there are some differences in our bodies because of which some\nbiological functions like giving birth, producing milk etc can happen only\nin female bodies. We understand that other than that, there are no limits\nthat nature has set. Society makes these rules and we, as members of the\nsociety can change them!\n\nMake groups of 4 - Discuss which jobs you have been told not to do\nbecause of your gender. How does that make you feel?\n\nHousehold Home builder Doctor Carpenter\n\nmanagement\n\nTime with Teacher - List what each person in the class wants to do/\nlearn now - and what job or work they would like to do once they are an\nadult. Discuss how you can speak with the people who are forcing gender\nroles on you in a respectful and assertive manner.\n\nThink and Do: What would you say to someone who tells you\nthat you can’t do something because you're a girl or boy?\nWhat are some respectful and assertive ways to respond?\n\nAnyone can do any\njob. Gender does\nnot determine or\nlimit what we can\ndo or achieve.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

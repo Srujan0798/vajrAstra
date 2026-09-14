@@ -1,0 +1,41 @@
+{
+  "page_id": "te_014",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0014pro_raw.pdf",
+    "page_index": 49,
+    "width": 612.0,
+    "height": 792.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        612.0,
+        792.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.TTE\n3\n(P&-}04? .)f\n  t\n5i ga  s ms,\nSRutR, ,\n.  fy- f \nTTE\ni faat'\nA faH \nfETt i, SH TsT SG,\n Hiaken\n! aysf\nfaH\nRarich\np  \n, ్ై  (13 Rా .\n₹.\nis!\n e  L\ni at  m,  \nH {3,\n$PLE\n[ 34G\n1 , q $T\n4  \n7\nlbk\n = \nfqH = 4g,\nfy\n = |\n913\n = HaG,\n1y 2t = 1$h\nff = 4]\nTod = md\n = \nT=nsA\nBE\n=\n1PJ =\n = (GTS\n =\nCCOOOOOOOOOOOCOOOOOOO\n37219\nDODODODODODODODODOD\n:8\nplb\nfh\nf\n3T\n8.\n?.\n2TTE\nip\n₹.\nE\ncien a feraui 4d e ?\n40",
+      "text_nfc": "3.TTE\n3\n(P&-}04? .)f\n  t\n5i ga  s ms,\nSRutR, ,\n.  fy- f \nTTE\ni faat'\nA faH \nfETt i, SH TsT SG,\n Hiaken\n! aysf\nfaH\nRarich\np  \n, ్ై  (13 Rా .\n₹.\nis!\n e  L\ni at  m,  \nH {3,\n$PLE\n[ 34G\n1 , q $T\n4  \n7\nlbk\n = \nfqH = 4g,\nfy\n = |\n913\n = HaG,\n1y 2t = 1$h\nff = 4]\nTod = md\n = \nT=nsA\nBE\n=\n1PJ =\n = (GTS\n =\nCCOOOOOOOOOOOCOOOOOOO\n37219\nDODODODODODODODODOD\n:8\nplb\nfh\nf\n3T\n8.\n?.\n2TTE\nip\n₹.\nE\ncien a feraui 4d e ?\n40",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

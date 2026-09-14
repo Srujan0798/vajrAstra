@@ -1,0 +1,41 @@
+{
+  "page_id": "te_045",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0045pro_raw.pdf",
+    "page_index": 147,
+    "width": 1658,
+    "height": 2209
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2209
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "૨\nఠిన ਮਾਈਕਰ\nટી\nl\nమహారాష్ట్ర ਰਾਜੂ పాఠ్యపుస్తక ನಿರ್ಮಿ మరియు పాఠ్యప్రణాళిక పరిశోధన ४०४ పుణె౬౪౧ 004\nমহারছ যাতা दअभ्यासक्रम একেমুলের দিনী संशोधन मंडळ तेलुगु परिसर अभ्यास भाग ੧੭ इयत्ता पाचवी ੨ 5700",
+      "text_nfc": "૨\nఠిన ਮਾਈਕਰ\nટી\nl\nమహారాష్ట్ర ਰਾਜੂ పాఠ్యపుస్తక ನಿರ್ಮಿ మరియు పాఠ్యప్రణాళిక పరిశోధన ४०४ పుణె౬౪౧ 004\nমহারছ যাতা दअभ्यासक्रम একেমুলের দিনী संशोधन मंडळ तेलुगु परिसर अभ्यास भाग ੧੭ इयत्ता पाचवी ੨ 5700",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

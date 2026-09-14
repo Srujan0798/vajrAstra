@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_008",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0009pro_raw.png",
+    "page_index": 0,
+    "width": 378,
+    "height": 534
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        378,
+        534
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": ". N ~\n\nलिन \"ced ne Ke Land Ts A\ntier ow orb ime being fy contac wre hp ile कोड\n\nth Cornmet U7 eaing nn fa ing al be abe pay te ae\nta peal met fh dig he id A wd thr ee and Cen d 0\nsips ft eng” gr gia eae\n\neco nv cua] yutate नकल easisoase mse\nmanson slajsione of ajslagye cWlegie eencaeomd लाल,\nन्यूड ng aystoomaonmet ay] 78 (0 eastern,\n\n०७ पलक, ere «ahaha -ocmnereeTeiet\nayteodeaitene aawaero cvsengoenntes weet\n\nees कर mmeaaseaos coy 68\nsanqanie agit Riyotet ese saryneyy हल्ला ance cRasmeEes\nton ond nayouis हवा atantgyenoteymm rte concn\nfate agteronnone catatnuyeme erated lays me\nomtaymogemie cmtag oouteyadted ohms rumen methulant\newwmasizcon —esarjernme  sopayedh _ stejsmensietion\ncasteteanymjscums myemmancessyaian हेल्थ weiner\n\nGoce siustslacem ohoswien| penny siauyenitad nteywaso\neatojp cheareon mmINRED  ്് ഞ്\ntypeysoaqece goleangiat neenjmennt ayeceart, msneah सन\nerat (outog) ef 28.0 न Totes eU-HGH/ warm motANIEHTEC®\ncopra पटरी ais tgicasimn, sane eyucllanesn cioomee\nnuajgedted adie हा rotscjacif eoeeon, mute monic कण\nchewed cusjgacted alojuaratgpacyd  പാ്\nairt avtoyringeiet > तेल pypoiejeon® asitoehjeneane\neugoumaont)\n\nraytanese  guamuooniaaies perma comet wefan]\namonjeygm samyagi care sigscaeyes/erinyss aul 1-00\n\n",
+      "text_nfc": ". N ~\n\nलिन \"ced ne Ke Land Ts A\ntier ow orb ime being fy contac wre hp ile कोड\n\nth Cornmet U7 eaing nn fa ing al be abe pay te ae\nta peal met fh dig he id A wd thr ee and Cen d 0\nsips ft eng” gr gia eae\n\neco nv cua] yutate नकल easisoase mse\nmanson slajsione of ajslagye cWlegie eencaeomd लाल,\nन्यूड ng aystoomaonmet ay] 78 (0 eastern,\n\n०७ पलक, ere «ahaha -ocmnereeTeiet\nayteodeaitene aawaero cvsengoenntes weet\n\nees कर mmeaaseaos coy 68\nsanqanie agit Riyotet ese saryneyy हल्ला ance cRasmeEes\nton ond nayouis हवा atantgyenoteymm rte concn\nfate agteronnone catatnuyeme erated lays me\nomtaymogemie cmtag oouteyadted ohms rumen methulant\newwmasizcon —esarjernme  sopayedh _ stejsmensietion\ncasteteanymjscums myemmancessyaian हेल्थ weiner\n\nGoce siustslacem ohoswien| penny siauyenitad nteywaso\neatojp cheareon mmINRED  ്് ഞ്\ntypeysoaqece goleangiat neenjmennt ayeceart, msneah सन\nerat (outog) ef 28.0 न Totes eU-HGH/ warm motANIEHTEC®\ncopra पटरी ais tgicasimn, sane eyucllanesn cioomee\nnuajgedted adie हा rotscjacif eoeeon, mute monic कण\nchewed cusjgacted alojuaratgpacyd  പാ്\nairt avtoyringeiet > तेल pypoiejeon® asitoehjeneane\neugoumaont)\n\nraytanese  guamuooniaaies perma comet wefan]\namonjeygm samyagi care sigscaeyes/erinyss aul 1-00\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

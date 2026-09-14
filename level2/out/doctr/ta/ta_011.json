@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_011",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+    "page_index": 0,
+    "width": 1232,
+    "height": 1842
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1232,
+        1842
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sample Question paper\n(Tamil)\nLDMBM alemSSIe\nU55ILD 01514 (Class - X)\n95GLITUT 2010 - wris 2011\nMax. Marks : 80\nII- Term (OCT 2010 - MARCH 2011)\nTime Allowed : 3 hours\nGIDT.IDSUGueNT 55 6T: 80\nBITGU YJOTO! : 3 LD6P\nThe question paper is diveded in to four sections:\n@5 G5ora15 51Or 5510(5 LAMo156 GTS OBTTGOOTL5I.\nSECTION: A\nReading comprehension\n- 15 Marks\nLmay\n: le\nu4550 (2mj5L0UG3)\n-15 1081Quessair\nSECTION:B\nWriting\n- 15 Marks\nLimay\n: a\n6T(D5150\n-15 1D81QLe5ar\nSECTION:C\nGrammar\n- 15 Marks\nLAmo\n: 6\n055 600T LD\n-15 IDB1Querser\nSECTION:D\nLiterature / Text Books\n- 35 Marks\nLAmai\n: FF\nQasBuib/5idipu LITL5T05 6T-35 IDSLOLIGTESGT\n* GTOOIT alenrasGto SLLIULD aloLwanaSLUL Gar6o@i.\n*\npoiGGITs\naleralngib\n2mu\nuBLQLGATGeT\n9156015007\nOLige\n5DMALOULUuLOarores.\nLAmal - 9)\nu4550 - 15 DBLGUG\n1.\nS1 ai5i ussouu u550f10. 050013 OSILIBS Q(5\nuQaloL aerrayas 2Au aurer\naOLOW\n6TO55\nGT(p50JID.\n(5)\nBii Bomis ofoowi UDO015 OiT BITQ GU(5GJ05 GuiormI LIGOTOOL3\n51015330 5ilyplor G6 O1 O 9065 LD GOTOTiTSODOITS G314 9pGi50T",
+      "text_nfc": "Sample Question paper\n(Tamil)\nLDMBM alemSSIe\nU55ILD 01514 (Class - X)\n95GLITUT 2010 - wris 2011\nMax. Marks : 80\nII- Term (OCT 2010 - MARCH 2011)\nTime Allowed : 3 hours\nGIDT.IDSUGueNT 55 6T: 80\nBITGU YJOTO! : 3 LD6P\nThe question paper is diveded in to four sections:\n@5 G5ora15 51Or 5510(5 LAMo156 GTS OBTTGOOTL5I.\nSECTION: A\nReading comprehension\n- 15 Marks\nLmay\n: le\nu4550 (2mj5L0UG3)\n-15 1081Quessair\nSECTION:B\nWriting\n- 15 Marks\nLimay\n: a\n6T(D5150\n-15 1D81QLe5ar\nSECTION:C\nGrammar\n- 15 Marks\nLAmo\n: 6\n055 600T LD\n-15 IDB1Querser\nSECTION:D\nLiterature / Text Books\n- 35 Marks\nLAmai\n: FF\nQasBuib/5idipu LITL5T05 6T-35 IDSLOLIGTESGT\n* GTOOIT alenrasGto SLLIULD aloLwanaSLUL Gar6o@i.\n*\npoiGGITs\naleralngib\n2mu\nuBLQLGATGeT\n9156015007\nOLige\n5DMALOULUuLOarores.\nLAmal - 9)\nu4550 - 15 DBLGUG\n1.\nS1 ai5i ussouu u550f10. 050013 OSILIBS Q(5\nuQaloL aerrayas 2Au aurer\naOLOW\n6TO55\nGT(p50JID.\n(5)\nBii Bomis ofoowi UDO015 OiT BITQ GU(5GJ05 GuiormI LIGOTOOL3\n51015330 5ilyplor G6 O1 O 9065 LD GOTOTiTSODOITS G314 9pGi50T",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

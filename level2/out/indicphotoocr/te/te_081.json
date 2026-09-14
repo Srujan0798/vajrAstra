@@ -1,0 +1,41 @@
+{
+  "page_id": "te_081",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0081pro_raw.pdf",
+    "page_index": 0,
+    "width": 1649,
+    "height": 2226
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1649,
+        2226
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "చరిత్ర మరియు రాజనీత శాస౦\n8 మ్మిదవ తరగతి\nविश्वचयक १९८३ विरूपण cancellations भा‍रत\nindia\n1000 जाल कूपर jal ୦୦୦୧୮୮\n1997\nफ्ट ftii\nনেঅ\nदूरदर्शन\nવાખાનું rupee 1970",
+      "text_nfc": "చరిత్ర మరియు రాజనీత శాస౦\n8 మ్మిదవ తరగతి\nविश्वचयक १९८३ विरूपण cancellations भा‍रत\nindia\n1000 जाल कूपर jal ୦୦୦୧୮୮\n1997\nफ्ट ftii\nনেঅ\nदूरदर्शन\nવાખાનું rupee 1970",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_064",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 85,
+    "width": 923,
+    "height": 1356
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        923,
+        1356
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "78\nqce\no\n0ooslol275s0\nmo lse.o\n和\n\n\nwee\nrderrece\naleeei wm ree\nG. ,o\n\n \nO\nr\n .  \nes \no\n,f   r\nwac o\nm\no\nmo!m\nd\nr oto\n \nsoeololec oror\ncr\ncoftwoeowon\n ",
+      "text_nfc": "78\nqce\no\n0ooslol275s0\nmo lse.o\n和\n\n\nwee\nrderrece\naleeei wm ree\nG. ,o\n\n \nO\nr\n .  \nes \no\n,f   r\nwac o\nm\no\nmo!m\nd\nr oto\n \nsoeololec oror\ncr\ncoftwoeowon\n ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

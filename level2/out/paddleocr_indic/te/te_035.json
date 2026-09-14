@@ -1,0 +1,41 @@
+{
+  "page_id": "te_035",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0035pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2254
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2254
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Rverild\nm\nGR\nGR\nHERIOE\nHISIT,\nHERIOE\nHISIT\nHERIOS\nTf\nGR\nT\nHISII,\nHERIE\nHISIT\n11811\nfad\nIsi\nyor\n3i1El\nజి\n1\nT3I3UI-\n791\nyodon\na\nG41\n3RHe1\nGad\nHeansla\nfiE\nial\nfTa\nT\nRGT\na\nRC\njvell\n7TG\nHERIOE\nHISHT\nHERIOE\nm\nGR\nGR\nHISII,\nHERIOE\nHISHT\n11811\nsrdai\nckeit,\n34\nduf\nchiorell\ntma\nH2\nTodl,\nto\naauf\naiRGace\nPGol\n3-a1d\nfoo1cell\na4t\nfavel\n\nikaia\n$oll\nfrld\nmfad,\naి\naed\nHERIOE\nHISHT\n\nGR\nGR\nHERIOE\nHISII,\nHERIOE\nHISIT\nGR\nG2\nHERIOE\nHISIT\nI1RII\nమహారాష్ట్ రాష్ట్ పాఠ్యపుస్తక నిర్మితి మరియు పాఠ్యపణాళిక పరిశోధన సంస్థ, పుణె\naa$ar\n f (d)\n₹ 68.00",
+      "text_nfc": "Rverild\nm\nGR\nGR\nHERIOE\nHISIT,\nHERIOE\nHISIT\nHERIOS\nTf\nGR\nT\nHISII,\nHERIE\nHISIT\n11811\nfad\nIsi\nyor\n3i1El\nజి\n1\nT3I3UI-\n791\nyodon\na\nG41\n3RHe1\nGad\nHeansla\nfiE\nial\nfTa\nT\nRGT\na\nRC\njvell\n7TG\nHERIOE\nHISHT\nHERIOE\nm\nGR\nGR\nHISII,\nHERIOE\nHISHT\n11811\nsrdai\nckeit,\n34\nduf\nchiorell\ntma\nH2\nTodl,\nto\naauf\naiRGace\nPGol\n3-a1d\nfoo1cell\na4t\nfavel\n\nikaia\n$oll\nfrld\nmfad,\naి\naed\nHERIOE\nHISHT\n\nGR\nGR\nHERIOE\nHISII,\nHERIOE\nHISIT\nGR\nG2\nHERIOE\nHISIT\nI1RII\nమహారాష్ట్ రాష్ట్ పాఠ్యపుస్తక నిర్మితి మరియు పాఠ్యపణాళిక పరిశోధన సంస్థ, పుణె\naa$ar\n f (d)\n₹ 68.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

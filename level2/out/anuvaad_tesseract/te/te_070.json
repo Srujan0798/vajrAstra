@@ -1,0 +1,41 @@
+{
+  "page_id": "te_070",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0070pro_raw.pdf",
+    "page_index": 99,
+    "width": 1638,
+    "height": 2193
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1638,
+        2193
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "DFO రాష్ట్ర పాఠ్యపుస్తక DOYS మరియు పారఠ్యప్రణాళిక పరిశోధన సంస్థ, YE.\n\nइतिहास व नागरिकशास्त्र इ. ८ वी (तेलुगु माध्यम ) = 42.00\n",
+      "text_nfc": "DFO రాష్ట్ర పాఠ్యపుస్తక DOYS మరియు పారఠ్యప్రణాళిక పరిశోధన సంస్థ, YE.\n\nइतिहास व नागरिकशास्त्र इ. ८ वी (तेलुगु माध्यम ) = 42.00\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

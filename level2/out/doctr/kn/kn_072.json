@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_072",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0033pro_raw.pdf",
+    "page_index": 40,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "&en 302303 woa deao wep geead cono oayavesa getodolaned 3308790D4 ngd. ewo 20100\nsoaTaos gecodotsde etowon asooyde 2d8 Rees powortde. woen aafa J030, 20140\nmage soaraor 8e00doe3 cono 20150 odocdaso Dagr gewodolsde dcao 2o23 aat ngd.\naasdooon aeotab abecs 0O00n docasrossari.claddo.\nagadwon et 77 aoine etsatohag, eade 67 2830 woinea wowa a3ca. 20160 doioe\nReodane 30 pgenea 2E8 docores 20o0ad. 83 AOFaE et woeyde AOT ata, deae\n0.15 eotne eozdde wat worstoodd. eao etab aasFa docadadede sesoneado. 23 Nop\nweone ROBFOJOC0ES.\n\n19930 eng 90oa ensFepde aea Oeao, aeodsre epodwa 030080 aodo a&80 BaRT\nenogd. dcao ewon 33cer 83 coro aage OEATED dea moosepnd.\n238300238: aeos aGooa, aa. 2pod3a 5 a880 decowtsne 3360000 aoa. NOFE dow a880\ndecoatoneas arorwaode?\nmoanee 232852:\n5698\naroavgeo, nowages cOnO 38 Oonaao Do0y Dea atoa dc8ab\n3daaa docades?\n88 dc8ab sod3a daoni 0e70703d? awa Towares Deay Wa asotesetod\nWa0nse0?\neec3oc232, 38 28830038380300 aoe:\nDongedded NOR aeono geni 2owe aetwawd?\n83 025000e aozauas Jogone B@00ra0o?\nOongseasepoasa HODr aa ea a3o abees 20eda Worooane eor ana seodoges\nNOn gen 3008,7RJO0ED?\nOon aoge ada wez aane\naowon Non dabFood\navoanotwe az ewon ens\n2jowe dedwe.\n33",
+      "text_nfc": "&en 302303 woa deao wep geead cono oayavesa getodolaned 3308790D4 ngd. ewo 20100\nsoaTaos gecodotsde etowon asooyde 2d8 Rees powortde. woen aafa J030, 20140\nmage soaraor 8e00doe3 cono 20150 odocdaso Dagr gewodolsde dcao 2o23 aat ngd.\naasdooon aeotab abecs 0O00n docasrossari.claddo.\nagadwon et 77 aoine etsatohag, eade 67 2830 woinea wowa a3ca. 20160 doioe\nReodane 30 pgenea 2E8 docores 20o0ad. 83 AOFaE et woeyde AOT ata, deae\n0.15 eotne eozdde wat worstoodd. eao etab aasFa docadadede sesoneado. 23 Nop\nweone ROBFOJOC0ES.\n\n19930 eng 90oa ensFepde aea Oeao, aeodsre epodwa 030080 aodo a&80 BaRT\nenogd. dcao ewon 33cer 83 coro aage OEATED dea moosepnd.\n238300238: aeos aGooa, aa. 2pod3a 5 a880 decowtsne 3360000 aoa. NOFE dow a880\ndecoatoneas arorwaode?\nmoanee 232852:\n5698\naroavgeo, nowages cOnO 38 Oonaao Do0y Dea atoa dc8ab\n3daaa docades?\n88 dc8ab sod3a daoni 0e70703d? awa Towares Deay Wa asotesetod\nWa0nse0?\neec3oc232, 38 28830038380300 aoe:\nDongedded NOR aeono geni 2owe aetwawd?\n83 025000e aozauas Jogone B@00ra0o?\nOongseasepoasa HODr aa ea a3o abees 20eda Worooane eor ana seodoges\nNOn gen 3008,7RJO0ED?\nOon aoge ada wez aane\naowon Non dabFood\navoanotwe az ewon ens\n2jowe dedwe.\n33",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

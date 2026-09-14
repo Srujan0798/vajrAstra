@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_080",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 1623,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1623,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "JNANA001771\n\nShilpa Siddhanthi Sri Siddh\n\n@ ರಾಮದಾಹ ಅಡ್ಯ೦ತಾಯ\n\nಸಾ Pes 3 ಲಾ\nಸಿ ಹರ್ಣಾಟಕ ಲಅತಹಲಾ ಅಕಾಡೆಮಿ\n<9 Karnataka Lalithakala Academy\n",
+      "text_nfc": "JNANA001771\n\nShilpa Siddhanthi Sri Siddh\n\n@ ರಾಮದಾಹ ಅಡ್ಯ೦ತಾಯ\n\nಸಾ Pes 3 ಲಾ\nಸಿ ಹರ್ಣಾಟಕ ಲಅತಹಲಾ ಅಕಾಡೆಮಿ\n<9 Karnataka Lalithakala Academy\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

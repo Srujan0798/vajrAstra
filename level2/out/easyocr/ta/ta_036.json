@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_036",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0036pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "pv १क \" ULd\nQTUIoLDGu OidbG ऩ्ै gIDीyूIG शाJ 8\nGLDनDूblooo yनठग LILD शुनठंग G\nLOOD6ठाUOUIGD\nफ़IीyूIG थJJ ७व७DJJU नJनUILI LITTLLII नD @lyoilGio फ़ीLंLफ़ंफ़्लीन्ं &yु OlolनflufLLILILLLgI LGiTafl& Bobolgglनop फँनगग LLITODLD LDनगfीl मूOूpUILDफ़p Ol#ulglio OLIG IGpp(oto @७L\nYII Std Home Science TM_ Front Page indd\n11-12-2021 10.25.12 PL/",
+      "text_nfc": "pv १क \" ULd\nQTUIoLDGu OidbG ऩ्ै gIDीyूIG शाJ 8\nGLDनDूblooo yनठग LILD शुनठंग G\nLOOD6ठाUOUIGD\nफ़IीyूIG थJJ ७व७DJJU नJनUILI LITTLLII नD @lyoilGio फ़ीLंLफ़ंफ़्लीन्ं &yु OlolनflufLLILILLLgI LGiTafl& Bobolgglनop फँनगग LLITODLD LDनगfीl मूOूpUILDफ़p Ol#ulglio OLIG IGpp(oto @७L\nYII Std Home Science TM_ Front Page indd\n11-12-2021 10.25.12 PL/",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

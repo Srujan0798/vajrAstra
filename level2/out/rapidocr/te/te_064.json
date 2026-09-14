@@ -1,0 +1,41 @@
+{
+  "page_id": "te_064",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0064pro_raw.pdf",
+    "page_index": 43,
+    "width": 595.2760009765625,
+    "height": 793.7009887695312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "•\n3l\nUnlg\n.G4 \n1 372f 441\nIHE\nrille p\nA  . aydl\n+\n311. 1 $rd\nFa:\nRIGOR BTETd.\nfaue\n•\n(&)\ngecen icu q.\n()\nHecltiqd\n.\n(₹)\nTEGrtiGe\n4.\n()\n•\nPIRIP\n(8)\narocid 374a.\n(R)\n d e oi,\na \n(₹)\n374dd.\n(8) xa d g 3ad.\n•\nwuhiheh\nHirtle\nch{l.\n8\nmyrao\nuuflyaol\nF\nfaGandaR,\nchoqved\ndd,  fqaaer 1\naida mafriean\nylk",
+      "text_nfc": "•\n3l\nUnlg\n.G4 \n1 372f 441\nIHE\nrille p\nA  . aydl\n+\n311. 1 $rd\nFa:\nRIGOR BTETd.\nfaue\n•\n(&)\ngecen icu q.\n()\nHecltiqd\n.\n(₹)\nTEGrtiGe\n4.\n()\n•\nPIRIP\n(8)\narocid 374a.\n(R)\n d e oi,\na \n(₹)\n374dd.\n(8) xa d g 3ad.\n•\nwuhiheh\nHirtle\nch{l.\n8\nmyrao\nuuflyaol\nF\nfaGandaR,\nchoqved\ndd,  fqaaer 1\naida mafriean\nylk",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_097",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+    "page_index": 16,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Jlga 9Jgow SA slyit a olgas Ilin gahel\n0lg2s wgg lin JTEl bojle jlma 551gm sl 3a\ns\n131, J'j\n-\nALEN Jss\nwl A\nM.Sc\nJ 0\nly A\nA UWSI st 131, .in\n54\ngDE\" bs Ph.d P\nJma 5544 las\n)\nsinit\nSI\nD3 EqD. .Lin LDISS Unjgs\n3i\nsalo 0lgs A\nSDIS) USANL\n2 31 sails 31 sl b-3\nCrisamigsl egl 4 RJGL9 a Djgs unis SS iuD\n\".on 6195 Un13 jlma 5lg0 536 l 304 yos cuilli jaisg Un1s Slg\"\nSYUWsw las UnSLHEyo - om U5 E s 59 F 5 Elo onlym 1gn37 3gi9\ngailn SX UL5 osini Uml3 Jl 59 SD 3gi9\nSI, SgSA > SD olo 045 5t unis UnSUL\nJmag! ULS UWSI say . go a 3gi9 Unslims hpylains Unslimas s Sj9agol\n5.929\nUD gADJSM9 59 9\nD gD gD Jlao baw s3oA9E E\" yulo Ugs 929 LS\nLT 55 bjsf P UnSI 55t\nonsle s ol92s 55194539 - sieg Slag yuo gsinis stim Jns 131,\nGobo bihu unis is 34 Sl .233 # 5 bA9 Um>\npyogdl gaisg\nmsle\n919\nS\nsalers ssuini s 54 usyne 5 sua\nslngron us\nSDA 131, ST\nYETEN\nLST ANL el y sin\ny à Sw a U9 5\nin pldeldyas gAJ4 .\n5 UDT W pudy Sga\nEU\nUADT uoje 5565 nis sini\nlwl\ng\nst.9 5 - prolms jmnj EU Ph.d 55 Sgi9 .L9 sjis Jlw\nSS djS gA CR ssyejh\ns vis bl a\n3gig 2 sip Wsm3l st b54 Ma SAL (l Lis\nuin sg: U5 boj la yo\nsaigh 3gago n\nssinig 131, q2 si E9x8\n: SA La &\n3091990L UDT13519 unlgumis Jis\nonsl\nA\nUD 3 331 -Dgo gyel E\nSDT 929 bm y lulo sag\nsiig!\n\"1g23 Eron S\nsmi 5\nD sliia 0lgas\ninio EU b3 ISgo 5 3gi9\ngn - CD e\ns inis a 5j\n5 Elo stini\n-\n5D 3lgs\nug\n9\nSA 5\nS 3\n4 A 9 933\n131\n31 S Sgi9 gin gAD\n6\n-l9 3 UDiS\nst mis3 Urus\n333 55jh4\n-\naolasy gel41 Ulng3\"\naisl umels J9Ms uniss\nsoTlusl\n55T 395 3ws gpl yaho olg olasy\nST g1ot 3,5 srol roncha Ulst sinig Ulgoin UDTULA onr wwis XLSW\nUELUSS J9- sinis\n0g\nsua f sDl g gone SAUMSH S04 1131)\"\nCw Xy\n0igEPA\nsies' USLul\n\"igalop uuroi sin busunis 41 UP 56559 googsrimis\nL5S5 oha ssins 93949 gA Sy\nsum R yos Ls39 s slyitsolgs\n:9346\nsssylas\nst UP Ursls ga -\nSA ys1 529 DESMENASE LSw\nUAPJOAE R lane 4st UD ebomiss los F 131, gjs gyims yulo 0lgs sygjns - LJ\ngas ba yaiivo So L55E4 sinis las unisn\nlogig Ry\"\nolmgiaw Jlo uml - gasl ASL\ngon\nA gt sylar st J> 1313\n- 5US - al do\nsja9 gsinis 13155\nLSDT gae 5,5341\n:9 ply\nU9\nI sg:\n-\nà 19A sAbssgig\n9",
+      "text_nfc": "Jlga 9Jgow SA slyit a olgas Ilin gahel\n0lg2s wgg lin JTEl bojle jlma 551gm sl 3a\ns\n131, J'j\n-\nALEN Jss\nwl A\nM.Sc\nJ 0\nly A\nA UWSI st 131, .in\n54\ngDE\" bs Ph.d P\nJma 5544 las\n)\nsinit\nSI\nD3 EqD. .Lin LDISS Unjgs\n3i\nsalo 0lgs A\nSDIS) USANL\n2 31 sails 31 sl b-3\nCrisamigsl egl 4 RJGL9 a Djgs unis SS iuD\n\".on 6195 Un13 jlma 5lg0 536 l 304 yos cuilli jaisg Un1s Slg\"\nSYUWsw las UnSLHEyo - om U5 E s 59 F 5 Elo onlym 1gn37 3gi9\ngailn SX UL5 osini Uml3 Jl 59 SD 3gi9\nSI, SgSA > SD olo 045 5t unis UnSUL\nJmag! ULS UWSI say . go a 3gi9 Unslims hpylains Unslimas s Sj9agol\n5.929\nUD gADJSM9 59 9\nD gD gD Jlao baw s3oA9E E\" yulo Ugs 929 LS\nLT 55 bjsf P UnSI 55t\nonsle s ol92s 55194539 - sieg Slag yuo gsinis stim Jns 131,\nGobo bihu unis is 34 Sl .233 # 5 bA9 Um>\npyogdl gaisg\nmsle\n919\nS\nsalers ssuini s 54 usyne 5 sua\nslngron us\nSDA 131, ST\nYETEN\nLST ANL el y sin\ny à Sw a U9 5\nin pldeldyas gAJ4 .\n5 UDT W pudy Sga\nEU\nUADT uoje 5565 nis sini\nlwl\ng\nst.9 5 - prolms jmnj EU Ph.d 55 Sgi9 .L9 sjis Jlw\nSS djS gA CR ssyejh\ns vis bl a\n3gig 2 sip Wsm3l st b54 Ma SAL (l Lis\nuin sg: U5 boj la yo\nsaigh 3gago n\nssinig 131, q2 si E9x8\n: SA La &\n3091990L UDT13519 unlgumis Jis\nonsl\nA\nUD 3 331 -Dgo gyel E\nSDT 929 bm y lulo sag\nsiig!\n\"1g23 Eron S\nsmi 5\nD sliia 0lgas\ninio EU b3 ISgo 5 3gi9\ngn - CD e\ns inis a 5j\n5 Elo stini\n-\n5D 3lgs\nug\n9\nSA 5\nS 3\n4 A 9 933\n131\n31 S Sgi9 gin gAD\n6\n-l9 3 UDiS\nst mis3 Urus\n333 55jh4\n-\naolasy gel41 Ulng3\"\naisl umels J9Ms uniss\nsoTlusl\n55T 395 3ws gpl yaho olg olasy\nST g1ot 3,5 srol roncha Ulst sinig Ulgoin UDTULA onr wwis XLSW\nUELUSS J9- sinis\n0g\nsua f sDl g gone SAUMSH S04 1131)\"\nCw Xy\n0igEPA\nsies' USLul\n\"igalop uuroi sin busunis 41 UP 56559 googsrimis\nL5S5 oha ssins 93949 gA Sy\nsum R yos Ls39 s slyitsolgs\n:9346\nsssylas\nst UP Ursls ga -\nSA ys1 529 DESMENASE LSw\nUAPJOAE R lane 4st UD ebomiss los F 131, gjs gyims yulo 0lgs sygjns - LJ\ngas ba yaiivo So L55E4 sinis las unisn\nlogig Ry\"\nolmgiaw Jlo uml - gasl ASL\ngon\nA gt sylar st J> 1313\n- 5US - al do\nsja9 gsinis 13155\nLSDT gae 5,5341\n:9 ply\nU9\nI sg:\n-\nà 19A sAbssgig\n9",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

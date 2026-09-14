@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_066",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 0,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "CENTRAL BOARD OF SECONDARY EDUCATION\nSAMPLE QUESTION PAPER FOR SSE :2024-25\nStd X\nTime Allowed : 3 Hrs\nMaximum Marks :80\nGIOMIQIBlO mUO0o : 3 26m10010\nGOd 00000 : 80\nMALAYALAM (CODE-012)\nThe question paper is divided into two sections :\nSection A\nReading Comprehension (V.S.A.Q)\nSection B\nVocabulary Building, Prose & Poetry (M.C.Q.)\n: 40 Marks\nGrammar, Composition\nLiterature (Prose, Poetry & Supplementary Reader :40 Marks\no0 ofleooo [Section :A]\n1. oxloleojam 01mald Q1001 al010s0188 Gal06360300.00 20000 0090)0\n(B0coomlajo 630000 00006 olloo)\n[8x1=8]\n1903. coawlcoo GDOSY0I0 donsjalslens 089 Qud-as2000/0)99) 0OOULOGEI06O\nOonl-yoelloagugo ao@odsyokojosojo OOGQJ0240mo0E1216039)0S pounme1633094g\nafaolal O80onslolo.00, Ound GaDodaloagojo Olaowoldsamronwlojosojo\n00m8eglo8 630) a10008 00000 250)015)e0j0) coauleoo @65510100)0s\n2001so al300106032)0s 200280 203.0lgl800m)39 e9la1oololeseo000m\nGOQI8O coomml. 1903-6el 600 p00000l08 Olanwoldsamonul 00901 : coalcoo\n@0Sl010 aJolaloleglejoan) 20dpeoolce100)39 aljonsJoJ@le-.coom. opmlea08\n01300100 O0100 eaawomo) DOLODEL GOO 20deeolong BeIQIO ojslooojoy.\n1908-08 0008 (al01J002000 \"coalornlong QJOOIJomo com amior.onlos\nemvoawl 630J0151 d)sl oyeamos@a.lool. 6 0130010000 Qyu.orpjoogysyomo oglogm\n630) moaoonlo allodaflenos (B10gl0 emesonsole GO0O0O moaoonla 630)\n001610100 alolardonmo 021000, (W01603gloe 0600)1010000, Ge106600)\n0000000108 60) a1 601o1o1m 08308 aJjGa0Ogjo.es) 00000\". 016091,\n@oomaa1odeed 001008\nquialosmeogoosonjo\nGovoawl.os)\n(0G02181\neloloyogensoullogm) 1903-6el celoim0nlo8 ervoawl 00901 : \"OD GC0OB0\nOalosloxooolesoaigm 01300106039)0S 630) mosoom.oeerooom. 00j0olange\nn0Gjo mGnDOSm68B0g d000)0 61a00001ol8900 GOOQI. 630) GQIB, GOQI 630)\n0102/00180001 6000)81s.es 0006ma)o Q1000\". amoowlaooosogjo ODO GOo\n018)0012 088 alelojo 2onsoologa). @08001008 comloononowoomeso\nacoles0omu0dxol 630) (nJQJOaleoGGafooel ololajoloonx2olos lalwom 630) 016091,\n002j.821.00108a GIO 0lol0000. The World Set Free' 00m @OG@a000long\nemoquelleioom GG000l CODIO06DY 00 No260 G0BJ20001 (a10J0a40/50\n0OJ061eIO lalordonmo Q197 Goawleoo O d s9010 0)30 013001060B00.00\n0udcop0le139 20de20 200a/061a/1.e000001oanoommo GIOO 6301\nOalogloonolol6elo16eles Qlomopjoamjo GOGG000 ooo1. aomcalodee\n00041810132 mulaimo eiogleojam109jo (D0DJ0780.8000)m 63000)683930S\n(a10Jo0e10.0603099100603099181 uponvloameplencd 200.000m000h3oajeroowlogm) nom",
+      "text_nfc": "CENTRAL BOARD OF SECONDARY EDUCATION\nSAMPLE QUESTION PAPER FOR SSE :2024-25\nStd X\nTime Allowed : 3 Hrs\nMaximum Marks :80\nGIOMIQIBlO mUO0o : 3 26m10010\nGOd 00000 : 80\nMALAYALAM (CODE-012)\nThe question paper is divided into two sections :\nSection A\nReading Comprehension (V.S.A.Q)\nSection B\nVocabulary Building, Prose & Poetry (M.C.Q.)\n: 40 Marks\nGrammar, Composition\nLiterature (Prose, Poetry & Supplementary Reader :40 Marks\no0 ofleooo [Section :A]\n1. oxloleojam 01mald Q1001 al010s0188 Gal06360300.00 20000 0090)0\n(B0coomlajo 630000 00006 olloo)\n[8x1=8]\n1903. coawlcoo GDOSY0I0 donsjalslens 089 Qud-as2000/0)99) 0OOULOGEI06O\nOonl-yoelloagugo ao@odsyokojosojo OOGQJ0240mo0E1216039)0S pounme1633094g\nafaolal O80onslolo.00, Ound GaDodaloagojo Olaowoldsamronwlojosojo\n00m8eglo8 630) a10008 00000 250)015)e0j0) coauleoo @65510100)0s\n2001so al300106032)0s 200280 203.0lgl800m)39 e9la1oololeseo000m\nGOQI8O coomml. 1903-6el 600 p00000l08 Olanwoldsamonul 00901 : coalcoo\n@0Sl010 aJolaloleglejoan) 20dpeoolce100)39 aljonsJoJ@le-.coom. opmlea08\n01300100 O0100 eaawomo) DOLODEL GOO 20deeolong BeIQIO ojslooojoy.\n1908-08 0008 (al01J002000 \"coalornlong QJOOIJomo com amior.onlos\nemvoawl 630J0151 d)sl oyeamos@a.lool. 6 0130010000 Qyu.orpjoogysyomo oglogm\n630) moaoonlo allodaflenos (B10gl0 emesonsole GO0O0O moaoonla 630)\n001610100 alolardonmo 021000, (W01603gloe 0600)1010000, Ge106600)\n0000000108 60) a1 601o1o1m 08308 aJjGa0Ogjo.es) 00000\". 016091,\n@oomaa1odeed 001008\nquialosmeogoosonjo\nGovoawl.os)\n(0G02181\neloloyogensoullogm) 1903-6el celoim0nlo8 ervoawl 00901 : \"OD GC0OB0\nOalosloxooolesoaigm 01300106039)0S 630) mosoom.oeerooom. 00j0olange\nn0Gjo mGnDOSm68B0g d000)0 61a00001ol8900 GOOQI. 630) GQIB, GOQI 630)\n0102/00180001 6000)81s.es 0006ma)o Q1000\". amoowlaooosogjo ODO GOo\n018)0012 088 alelojo 2onsoologa). @08001008 comloononowoomeso\nacoles0omu0dxol 630) (nJQJOaleoGGafooel ololajoloonx2olos lalwom 630) 016091,\n002j.821.00108a GIO 0lol0000. The World Set Free' 00m @OG@a000long\nemoquelleioom GG000l CODIO06DY 00 No260 G0BJ20001 (a10J0a40/50\n0OJ061eIO lalordonmo Q197 Goawleoo O d s9010 0)30 013001060B00.00\n0udcop0le139 20de20 200a/061a/1.e000001oanoommo GIOO 6301\nOalogloonolol6elo16eles Qlomopjoamjo GOGG000 ooo1. aomcalodee\n00041810132 mulaimo eiogleojam109jo (D0DJ0780.8000)m 63000)683930S\n(a10Jo0e10.0603099100603099181 uponvloameplencd 200.000m000h3oajeroowlogm) nom",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

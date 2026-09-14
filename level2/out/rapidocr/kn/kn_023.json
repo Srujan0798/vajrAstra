@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_023",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0024pro_raw.pdf",
+    "page_index": 32,
+    "width": 527.2440185546875,
+    "height": 697.322998046875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        527.2440185546875,
+        697.322998046875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6. ಅಭಾೃೈಸ-61\nಎ.ಎದೃಥಃಕ,ಸಂಭಾವನಾಥಃಕಹಾಗೂನಷೇಧಾಥಃಕತಿಯಾಪದಗಳನುಗುರುತಸ.\n:0$eg\nI--ನಮಗಿಎಂದೆಂದಗೂಶುಭವಾಗಲಿ.\nApeao? ap$c - oyecge\nಶೆ-ರಂಗಪಯಾಂಗೂಕೆಟದನುಬಯಸನು.\nApeo? ape0.ge - a2gog?\nಖ--ತಂದೆ-ತಾಯುಗಳುತಮೃಮಕಳು-ತಮಗಿಕೀತಿ-ಯನುತಂದಾರುಎಂದುಆಶಿಸುತಾರೆ.\nOpeao? ೫ಆpeageog - 8ee\nE9೯aoe ೬oಣ pe$o ೩g.c ೬ogog\n೦-\nಶರಾವುಬೇಗಬರಲಿಎಂದುಶಬಂಕಾದದಳು.\nನಾಟಕವುಆನಂದವನುತಂದೀತು.\nನಮೃದೇಶದಲಿಶಾಂತಿನೆಲೆಸಲ.\n-\nM.cog goe Yes Og$p cu$g go??\nಹುಲಿಯುಹುಲನು-ತಿನೃದು.\n-\nತಮೃನುಆಟಕೆ-ಬಾರನು.\nಕನೃಡಾಂಬೆಗೆಜಯವಾಗಲ.\nO BE RE\nನಮ ನಡೆನುಡಿನೀರವಾಗರಲಿ.\nಏ.-ಕಳಗನ ಮಾದಂಯನುಗಮನಸ.ಪೃತಿಪದದಕೊನೆಯಅಕರದಂದಮತೊಂದುಪದವನು ರಚಿಸ.\nH&-- 90geog - ogg - gaggog - peoggo -goeo-gg : epeg\nI.\n2.\n--\n-\n-\n-\n-\n3.\n--\n-\n--\n-\n4.\n--\n-\nಐ. 9ಿಯಾ-ಪದಗಳು--ಅಥರೂಪಕಿಯಾ-ಪದಗಳು\nಕೃಢನುಹಣನುತಂದಾನು.\n2",
+      "text_nfc": "6. ಅಭಾೃೈಸ-61\nಎ.ಎದೃಥಃಕ,ಸಂಭಾವನಾಥಃಕಹಾಗೂನಷೇಧಾಥಃಕತಿಯಾಪದಗಳನುಗುರುತಸ.\n:0$eg\nI--ನಮಗಿಎಂದೆಂದಗೂಶುಭವಾಗಲಿ.\nApeao? ap$c - oyecge\nಶೆ-ರಂಗಪಯಾಂಗೂಕೆಟದನುಬಯಸನು.\nApeo? ape0.ge - a2gog?\nಖ--ತಂದೆ-ತಾಯುಗಳುತಮೃಮಕಳು-ತಮಗಿಕೀತಿ-ಯನುತಂದಾರುಎಂದುಆಶಿಸುತಾರೆ.\nOpeao? ೫ಆpeageog - 8ee\nE9೯aoe ೬oಣ pe$o ೩g.c ೬ogog\n೦-\nಶರಾವುಬೇಗಬರಲಿಎಂದುಶಬಂಕಾದದಳು.\nನಾಟಕವುಆನಂದವನುತಂದೀತು.\nನಮೃದೇಶದಲಿಶಾಂತಿನೆಲೆಸಲ.\n-\nM.cog goe Yes Og$p cu$g go??\nಹುಲಿಯುಹುಲನು-ತಿನೃದು.\n-\nತಮೃನುಆಟಕೆ-ಬಾರನು.\nಕನೃಡಾಂಬೆಗೆಜಯವಾಗಲ.\nO BE RE\nನಮ ನಡೆನುಡಿನೀರವಾಗರಲಿ.\nಏ.-ಕಳಗನ ಮಾದಂಯನುಗಮನಸ.ಪೃತಿಪದದಕೊನೆಯಅಕರದಂದಮತೊಂದುಪದವನು ರಚಿಸ.\nH&-- 90geog - ogg - gaggog - peoggo -goeo-gg : epeg\nI.\n2.\n--\n-\n-\n-\n-\n3.\n--\n-\n--\n-\n4.\n--\n-\nಐ. 9ಿಯಾ-ಪದಗಳು--ಅಥರೂಪಕಿಯಾ-ಪದಗಳು\nಕೃಢನುಹಣನುತಂದಾನು.\n2",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

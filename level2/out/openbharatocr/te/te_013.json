@@ -1,0 +1,41 @@
+{
+  "page_id": "te_013",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+    "page_index": 32,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-iganG opie (a) -0: Slgw\n\nsyle: ole (age ph Ise ౮||\nos (౧)\n\nlets oe Us hy Ola ee ght!\n-: తడల మట ఇ BIE ae Bhs (7)\n\nALS) అర के | కా చా ९ का\n\nकिक की अं (1)\n\ngt pe yh Bu Behe se) శాళ్ల BR ఆలం 6 ప...) 6)\n« gle SB दानव ట్రం pS (GU)\n(Sm ఆతరు . 495)\n\nశో జో Ep ree తర ook లాడు. (చ)\n(ఆనయ? | యూ)\n\nఇర కక్‌ ద బ్రాల అ Ne किक GD\n\nతా 291 SS\n\nएव 950 Og | Caw యూ (iii)\nSoG oS oF OG डिक कि (WH!)\n\n952 Bag & OGG IG oe YIM Sgrls (౧)\n\n25\n",
+      "text_nfc": "-iganG opie (a) -0: Slgw\n\nsyle: ole (age ph Ise ౮||\nos (౧)\n\nlets oe Us hy Ola ee ght!\n-: తడల మట ఇ BIE ae Bhs (7)\n\nALS) అర के | కా చా ९ का\n\nकिक की अं (1)\n\ngt pe yh Bu Behe se) శాళ్ల BR ఆలం 6 ప...) 6)\n« gle SB दानव ట్రం pS (GU)\n(Sm ఆతరు . 495)\n\nశో జో Ep ree తర ook లాడు. (చ)\n(ఆనయ? | యూ)\n\nఇర కక్‌ ద బ్రాల అ Ne किक GD\n\nతా 291 SS\n\nएव 950 Og | Caw యూ (iii)\nSoG oS oF OG डिक कि (WH!)\n\n952 Bag & OGG IG oe YIM Sgrls (౧)\n\n25\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

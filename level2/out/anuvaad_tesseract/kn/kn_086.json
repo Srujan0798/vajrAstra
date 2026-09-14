@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_086",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+    "page_index": 2,
+    "width": 1899,
+    "height": 1268
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1899,
+        1268
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "_ - ६०8९० - जि\n\na aac = HO + का pepe + oak -¢\nrenga = 303238299 : : Gace 2 qsecroer2 *O\nI ‘ecogrs mee pycorox fame opooe somhomor cots YaUor mMOoaMers *\nae spe\nT “ecqoare MPF ashewerey Yauor ५68 '8\nYOUS(& = 0९०५९ (४ exer(e gees (0\n17 \"occoae: '६५०५/ 'कैशक०्यएशफानवाड Ae 868 ८\n2 “qeocge\nt ‘omar sere She/he vauPeuss ‘9\ncrogeege owceea\nI ‘amoar ६५०५८ tweno'e: eke epGaune suse '५\ncee &3829596\nI ccopm pre ashtnce yaune 8068 by\nT \"000०900 var Bafeee ack Regnum te - cere हि Giese, \"\nacposcege Geeszoceee\nz wore Swervecpey yogic Qwaumr ouse ‘7\n“eafuece ‘eoupese\nट wore Qeqodox ver wayne 2५68 पु\n\"000०५ p’aan goqopmew vau'e 2५68 He 0.\n\n(saugoa pl): (Goat) ठयफब्ठठ\n\nv \"६9९५४०४\n\nभर\n\nहै (J ry _\nSecrogar com woreee 2०४ ०0९ Memon momoace seme Doesnt Tee «pl\n\na\n\nहि\n\ncopn Be qnoeyeres .. झ्ट९6 119५2 &e ee&\n\nबद०2टिप० ‘mocrargore पन2थ४%९१५७8 Ywemesox wee goRcaee, arscpoPosgz'ca'e\n९०6\n‘ovOx are (लिफ्ट. axveman हि mca gear Ge cocw%ee ‘comagen\n\nBere Crem Moweacceer UDacEe 22६९०9५३४०४० KORE LO semen A ೦ಲ೦೦೯-೯-೯೦ 80९०0 ‘|||\n\n“poo aua@re “es “qaucpoemaergacee 20०५९ 2808 5... \"हट Shee \"ke -o\n9 “acopr2 Hoe gomarce Yum o~O cBOce \"ereccoRECe qmONe eTAMEMFeeNO LUA “II\n\n(auz0@ pT): (O@e UREA) q{—-UeAe\n\n",
+      "text_nfc": "_ - ६०8९० - जि\n\na aac = HO + का pepe + oak -¢\nrenga = 303238299 : : Gace 2 qsecroer2 *O\nI ‘ecogrs mee pycorox fame opooe somhomor cots YaUor mMOoaMers *\nae spe\nT “ecqoare MPF ashewerey Yauor ५68 '8\nYOUS(& = 0९०५९ (४ exer(e gees (0\n17 \"occoae: '६५०५/ 'कैशक०्यएशफानवाड Ae 868 ८\n2 “qeocge\nt ‘omar sere She/he vauPeuss ‘9\ncrogeege owceea\nI ‘amoar ६५०५८ tweno'e: eke epGaune suse '५\ncee &3829596\nI ccopm pre ashtnce yaune 8068 by\nT \"000०900 var Bafeee ack Regnum te - cere हि Giese, \"\nacposcege Geeszoceee\nz wore Swervecpey yogic Qwaumr ouse ‘7\n“eafuece ‘eoupese\nट wore Qeqodox ver wayne 2५68 पु\n\"000०५ p’aan goqopmew vau'e 2५68 He 0.\n\n(saugoa pl): (Goat) ठयफब्ठठ\n\nv \"६9९५४०४\n\nभर\n\nहै (J ry _\nSecrogar com woreee 2०४ ०0९ Memon momoace seme Doesnt Tee «pl\n\na\n\nहि\n\ncopn Be qnoeyeres .. झ्ट९6 119५2 &e ee&\n\nबद०2टिप० ‘mocrargore पन2थ४%९१५७8 Ywemesox wee goRcaee, arscpoPosgz'ca'e\n९०6\n‘ovOx are (लिफ्ट. axveman हि mca gear Ge cocw%ee ‘comagen\n\nBere Crem Moweacceer UDacEe 22६९०9५३४०४० KORE LO semen A ೦ಲ೦೦೯-೯-೯೦ 80९०0 ‘|||\n\n“poo aua@re “es “qaucpoemaergacee 20०५९ 2808 5... \"हट Shee \"ke -o\n9 “acopr2 Hoe gomarce Yum o~O cBOce \"ereccoRECe qmONe eTAMEMFeeNO LUA “II\n\n(auz0@ pT): (O@e UREA) q{—-UeAe\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_069",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+    "page_index": 118,
+    "width": 1644,
+    "height": 1980
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        1980
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "কোম ২০০\narchive ਸੰਘ\n੧ എല്ലാവർക്കും\nਦੀ\nਸੰਘ\nਸੰਘ ਸੰਘ\n੧\n੧\n161 २५४ സമരവും\nവിജയവും\nસરાવર\ncm ੦ 5 8 10 11 12 13 14\ngpuraorg\nਟ നിവാരണരം ଯ୍ୟ ૮ ੪ 6 10 म ਟਾ 8111 15 16 11 ੪",
+      "text_nfc": "কোম ২০০\narchive ਸੰਘ\n੧ എല്ലാവർക്കും\nਦੀ\nਸੰਘ\nਸੰਘ ਸੰਘ\n੧\n੧\n161 २५४ സമരവും\nവിജയവും\nસરાવર\ncm ੦ 5 8 10 11 12 13 14\ngpuraorg\nਟ നിവാരണരം ଯ୍ୟ ૮ ੪ 6 10 म ਟਾ 8111 15 16 11 ੪",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

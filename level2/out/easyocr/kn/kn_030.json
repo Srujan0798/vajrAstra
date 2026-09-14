@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_030",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 79,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾ ಟಕ್\nHEA L TH =\nMlti:lhumltifiiಝ-lizra ttallltl [18s DJtsle; Caitಖ Iಊt1s [untq :lll '\n~ಕಾ\n\nಅಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳು (ಎನ್ಸಿಡಿ) ಹೃದಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು (ಹೃದಯದ ಕಾಯಿಲೆಗಳು, ಪಾರ್ಶ್ವವಾಯು ) ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ವುಧುಮೇಹ\nದೀರ್ಘಕಾಲದ ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\nಕಾರಣಗಳು ಐದರಾಂಬಸಬಹುದಾದ @ ತಂಬಾಕು ಬಳಕೆ BE ವುದ್ಯಪಾನ ಅನಾರೋಕ್ಕರ ಕೆಲಸ ಹಾಗೂ ಲಹಾರ ಮಾಡದಿರುವುದು ಯಾವು ೃಡ ಬದಲಾಯಸಲಾಗದ ಕಾರಣಗಳು\nಕೌಟುಂಬಿಕ ಹಿನ್ನಲೆ\nಂಗ\n72",
+      "text_nfc": "ಕನಾ ಟಕ್\nHEA L TH =\nMlti:lhumltifiiಝ-lizra ttallltl [18s DJtsle; Caitಖ Iಊt1s [untq :lll '\n~ಕಾ\n\nಅಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳು (ಎನ್ಸಿಡಿ) ಹೃದಯರಕ್ತನಾಳದ ಕಾಯಿಲೆಗಳು (ಹೃದಯದ ಕಾಯಿಲೆಗಳು, ಪಾರ್ಶ್ವವಾಯು ) ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ವುಧುಮೇಹ\nದೀರ್ಘಕಾಲದ ಶ್ವಾಸಕೋಶದ ಕಾಯಿಲೆಗಳು\nಕಾರಣಗಳು ಐದರಾಂಬಸಬಹುದಾದ @ ತಂಬಾಕು ಬಳಕೆ BE ವುದ್ಯಪಾನ ಅನಾರೋಕ್ಕರ ಕೆಲಸ ಹಾಗೂ ಲಹಾರ ಮಾಡದಿರುವುದು ಯಾವು ೃಡ ಬದಲಾಯಸಲಾಗದ ಕಾರಣಗಳು\nಕೌಟುಂಬಿಕ ಹಿನ್ನಲೆ\nಂಗ\n72",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

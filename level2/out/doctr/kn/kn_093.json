@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_093",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 250,
+    "width": 1448,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1448,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "OEO\n37 a 825Nneb\n'exise dabie odopge I Xcasder sagoeede\nKoeddo3 aowsgoede I adle s:03s gaso\nQOW 33,303 'wrosto docdowas' dowds,\nEO\n'aa 2o05, do ngoriass dun 6opadof\nteaos' otdo aaadais, ayasgos.\n6.odocioog,dosdor, dote [ao3):\naiosos aodadod aoso3s a0t.\nXe3 4ee0ads aspotocdadiuo\nDasy auoon bo0ssets,\nWio, dosrds, boawwond\nA\n303 dor I Bode Honassdeas,\n1120911\n2\nta, deaso, aassastpods :\naay aodes ec3,2s sdodof\nBdgtondaddedsoode 0023 :\nbodoa aodes 2ydes sdodon\npoosotaJon.oode 0023;\nD\nes &eriods Nowajda, aosj: tamb Mad\n#a 38d badogh\nag\naododars\n& Xoteaced,\nbevdoces ason d0005, Bodes Honasoddew. R2021\n\nbgnadag, Rugsdospgs assosdedsd; 3\nagnod, loghadp, 65n3393603008;\nRughaip,s Zugalodorgs de aopodaws;\ntodo Horiaoddeaso, aspots, 2a3, cojasogloors !\n112081F\neaso 6 a- xaogrados; sende eAADS @ 03;",
+      "text_nfc": "OEO\n37 a 825Nneb\n'exise dabie odopge I Xcasder sagoeede\nKoeddo3 aowsgoede I adle s:03s gaso\nQOW 33,303 'wrosto docdowas' dowds,\nEO\n'aa 2o05, do ngoriass dun 6opadof\nteaos' otdo aaadais, ayasgos.\n6.odocioog,dosdor, dote [ao3):\naiosos aodadod aoso3s a0t.\nXe3 4ee0ads aspotocdadiuo\nDasy auoon bo0ssets,\nWio, dosrds, boawwond\nA\n303 dor I Bode Honassdeas,\n1120911\n2\nta, deaso, aassastpods :\naay aodes ec3,2s sdodof\nBdgtondaddedsoode 0023 :\nbodoa aodes 2ydes sdodon\npoosotaJon.oode 0023;\nD\nes &eriods Nowajda, aosj: tamb Mad\n#a 38d badogh\nag\naododars\n& Xoteaced,\nbevdoces ason d0005, Bodes Honasoddew. R2021\n\nbgnadag, Rugsdospgs assosdedsd; 3\nagnod, loghadp, 65n3393603008;\nRughaip,s Zugalodorgs de aopodaws;\ntodo Horiaoddeaso, aspots, 2a3, cojasogloors !\n112081F\neaso 6 a- xaogrados; sende eAADS @ 03;",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

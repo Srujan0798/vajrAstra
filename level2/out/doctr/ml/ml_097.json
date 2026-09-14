@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_097",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+    "page_index": 50,
+    "width": 992,
+    "height": 1583
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        992,
+        1583
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aaoogaiejl (oensoo GO0DO)\n43\nGOBUJOQo 33.\nGaoogaief 0600 auopllagamogio E giaaugjloeoosoco 98010\nmoaua.onslo.2oocolama. doloo a0800, ocpsoainujmoalloqa.og.gmp\nme ejnilaucpoalam dejaajejl, 00goj200 6.03 0.1000010000 209\n006015 06000 10Jg01600g0, GOROLDJOGOIo 0@ce18all690om (O\n60.1000.09l000 anynoley aumplama. mooloopololo.0g (00100 0\nemnomnlma 01002006/00 900010000 Roilajgsiboongag 68010\nagaciglos monolojoad aplaovolg. 6600g0101 cmoololse eAJO\n0 dlaiuo rooalloes do gocel 090lo00g-1000y 000000 aejoo\n60 0ono mosallajgda.10001092 000000n10 0\n6 gaaieflos Gooml.\n(eoma allamaa000 Pa1alolosajoaog Ganoley 01260 COD00000000\n0600 eroocldbaplma 01000 QO 0omolg\nGao2gauglqos G200 agjanig]l.d@smaocp mEJ enelepomol\nma enpjo d001 aoalejo, (raigos aniselejoror augng-agos al\n031900000 001010, modeioallaesnmone Gaoogaief 6000400lo0\ncomO, engjc0o, 0000 (000000 Qablejossual, GO0IDO B0 nolg-\ng0jo Oalomool omgleomsaimlejey dgjacigjlos O 0.0000r0lo0\nalgmalco M\n10m0 26n300l. eosmlajoiel 600 cosunloim.alobaoong\nma aloc/mpoanamleg De 900@00om0o0p mpclola8010902 00083. a0)\noporod (1008000 GO (On0mj20c01 0160603 000100j61230 603 U2\nQ0 006081600 aumporbotoom (100 aieflo 80 000000 aleoiaal\nGyo0ro gojonlocoma 00000 283, 0g000020 Rblabe0goog G01081\npjoro0 01000010 enoloooo 8000000ng 25000 0108910000 Qla0od\nOC ngm8 mlomioloy 8821008050 2500 aiaajomool 009000\n0009000 6 gojom oonulolaeiascvgde 00900 6609000A\n(oong oomlasd avlagoolma Q01 0002800161 8alabe0d apjagigiloos\nencamold agoul,\nbejacleg 9821008060 ogolsoo0nJasolafraool 9021lad80d db\ngaolelow Ga00.067 \"gealo.agpnoo mya1a.009agmocol Goomams\"\n00m0 0106000.\nGogmlee d00 m6IG005 6m. 0l0086g (000200909on.1001\n603 Onomyjaodo quomuoolajomosm> 6101000 0l6080g auaooloro.\nalosgesao Ga02gouglgasage motnmlagme 0.1000/0,0180008 dy\ngjacuefloo 6303 Gmdanolp dlsme.\n<aionvoupolooocol ajoalousloop aloamasamma 000C000lee0\n63. 00010g 00000 000000 mnoalabo anuaolegmaons. a\naulonogcaco\npoldboalg alaueDomanldo a.tolasog.gssnaamaey al0s00 almeocol",
+      "text_nfc": "aaoogaiejl (oensoo GO0DO)\n43\nGOBUJOQo 33.\nGaoogaief 0600 auopllagamogio E giaaugjloeoosoco 98010\nmoaua.onslo.2oocolama. doloo a0800, ocpsoainujmoalloqa.og.gmp\nme ejnilaucpoalam dejaajejl, 00goj200 6.03 0.1000010000 209\n006015 06000 10Jg01600g0, GOROLDJOGOIo 0@ce18all690om (O\n60.1000.09l000 anynoley aumplama. mooloopololo.0g (00100 0\nemnomnlma 01002006/00 900010000 Roilajgsiboongag 68010\nagaciglos monolojoad aplaovolg. 6600g0101 cmoololse eAJO\n0 dlaiuo rooalloes do gocel 090lo00g-1000y 000000 aejoo\n60 0ono mosallajgda.10001092 000000n10 0\n6 gaaieflos Gooml.\n(eoma allamaa000 Pa1alolosajoaog Ganoley 01260 COD00000000\n0600 eroocldbaplma 01000 QO 0omolg\nGao2gauglqos G200 agjanig]l.d@smaocp mEJ enelepomol\nma enpjo d001 aoalejo, (raigos aniselejoror augng-agos al\n031900000 001010, modeioallaesnmone Gaoogaief 6000400lo0\ncomO, engjc0o, 0000 (000000 Qablejossual, GO0IDO B0 nolg-\ng0jo Oalomool omgleomsaimlejey dgjacigjlos O 0.0000r0lo0\nalgmalco M\n10m0 26n300l. eosmlajoiel 600 cosunloim.alobaoong\nma aloc/mpoanamleg De 900@00om0o0p mpclola8010902 00083. a0)\noporod (1008000 GO (On0mj20c01 0160603 000100j61230 603 U2\nQ0 006081600 aumporbotoom (100 aieflo 80 000000 aleoiaal\nGyo0ro gojonlocoma 00000 283, 0g000020 Rblabe0goog G01081\npjoro0 01000010 enoloooo 8000000ng 25000 0108910000 Qla0od\nOC ngm8 mlomioloy 8821008050 2500 aiaajomool 009000\n0009000 6 gojom oonulolaeiascvgde 00900 6609000A\n(oong oomlasd avlagoolma Q01 0002800161 8alabe0d apjagigiloos\nencamold agoul,\nbejacleg 9821008060 ogolsoo0nJasolafraool 9021lad80d db\ngaolelow Ga00.067 \"gealo.agpnoo mya1a.009agmocol Goomams\"\n00m0 0106000.\nGogmlee d00 m6IG005 6m. 0l0086g (000200909on.1001\n603 Onomyjaodo quomuoolajomosm> 6101000 0l6080g auaooloro.\nalosgesao Ga02gouglgasage motnmlagme 0.1000/0,0180008 dy\ngjacuefloo 6303 Gmdanolp dlsme.\n<aionvoupolooocol ajoalousloop aloamasamma 000C000lee0\n63. 00010g 00000 000000 mnoalabo anuaolegmaons. a\naulonogcaco\npoldboalg alaueDomanldo a.tolasog.gssnaamaey al0s00 almeocol",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

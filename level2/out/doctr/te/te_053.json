@@ -1,0 +1,41 @@
+{
+  "page_id": "te_053",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0053pro_raw.pdf",
+    "page_index": 70,
+    "width": 1771,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1771,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(5) as 38550000056 Bots agen orjaw. as 3866 Mesovgg, 8808 3866 052 aojos sosges\ndosad carojaw. 3gen 883500 5 3866 Sovo8 808 Je Woyned?\n(6) 808 J03Es6 5 saogoe Saogses\n@\n88056\n(635 a\ndnjaio\n880008?\n(es) oO, 58, aX\n(es) aver, S3, 285\n(e2) mo, awsaw, 5ee908\n(7) S08 Ssgeess 28 20005050: noa aSZ 265 555, sewews 555, 00858e5, NOSOE 555,\nesawes 555? 20 a8S 280053N0? dots Sdyos adegons éatvg Sabod.\n(8) 000380833 3g5o0cvd,e6y5a@ba5 55650658009163 as 306565608 e8o P Sissereo.8og\ne9as8o asz 888 a20 Soaogo do8?\n(9) 3 20.8 UNSOSTEOO ne as (580 awsz 005008 7.5 paves esawe, WO Nolges Joë\ndoésod?\n(10) gesbe, so8rp 28005 porve 865005s s8rp 9525 850 mas 6o0AO. anesogoés\n20b83 wo& SPrS eg noay 8on egoer s08NOR. xa stge 65 owoes 20b83 5o& S0800s).\neave, X8 stie di) a88 ESO 8038 2abés S08NOD. 68 maso aso 200 weas?\na08685, ew8s5s, doo a8s a08085.\n(11) 5085 385055 beoso Seyes a855 088No8s. as Deon 300 20X5608?\n(es) noa 0800 a8soson aoeod.\n(es) noa eaboojsorp dod.\n(e2) noay ags 288osor dod.\n(12) 1 Besppow 38 ada 1 Bopsw awaw sOS dos 25525 9N0O30EOO doévod?\n(13) as EXDE560 dots sgrjeress 1 BePo 88 8d0 1 Berow ah8w doDd, 5 3310656\n20000 enesod?\n(14) 21066 soseë Joores dooo.\n6015500 -\n>\n9N0O3TEOO sos 3850000\n8800 (655008 soois 38500s dots\nSds6s Savibeor 02s2goso8.\n>\n68 DoNess 58 w8soson\ndossos? JO0S?\n508 eanosveg Sos 5) essers ao dobois). aod ssabon aswOs eavo S23, 50\nAgrebess aood, 0E Jeo eovoo 33056 W88 35j08.\n00\n57\nBerea",
+      "text_nfc": "(5) as 38550000056 Bots agen orjaw. as 3866 Mesovgg, 8808 3866 052 aojos sosges\ndosad carojaw. 3gen 883500 5 3866 Sovo8 808 Je Woyned?\n(6) 808 J03Es6 5 saogoe Saogses\n@\n88056\n(635 a\ndnjaio\n880008?\n(es) oO, 58, aX\n(es) aver, S3, 285\n(e2) mo, awsaw, 5ee908\n(7) S08 Ssgeess 28 20005050: noa aSZ 265 555, sewews 555, 00858e5, NOSOE 555,\nesawes 555? 20 a8S 280053N0? dots Sdyos adegons éatvg Sabod.\n(8) 000380833 3g5o0cvd,e6y5a@ba5 55650658009163 as 306565608 e8o P Sissereo.8og\ne9as8o asz 888 a20 Soaogo do8?\n(9) 3 20.8 UNSOSTEOO ne as (580 awsz 005008 7.5 paves esawe, WO Nolges Joë\ndoésod?\n(10) gesbe, so8rp 28005 porve 865005s s8rp 9525 850 mas 6o0AO. anesogoés\n20b83 wo& SPrS eg noay 8on egoer s08NOR. xa stge 65 owoes 20b83 5o& S0800s).\neave, X8 stie di) a88 ESO 8038 2abés S08NOD. 68 maso aso 200 weas?\na08685, ew8s5s, doo a8s a08085.\n(11) 5085 385055 beoso Seyes a855 088No8s. as Deon 300 20X5608?\n(es) noa 0800 a8soson aoeod.\n(es) noa eaboojsorp dod.\n(e2) noay ags 288osor dod.\n(12) 1 Besppow 38 ada 1 Bopsw awaw sOS dos 25525 9N0O30EOO doévod?\n(13) as EXDE560 dots sgrjeress 1 BePo 88 8d0 1 Berow ah8w doDd, 5 3310656\n20000 enesod?\n(14) 21066 soseë Joores dooo.\n6015500 -\n>\n9N0O3TEOO sos 3850000\n8800 (655008 soois 38500s dots\nSds6s Savibeor 02s2goso8.\n>\n68 DoNess 58 w8soson\ndossos? JO0S?\n508 eanosveg Sos 5) essers ao dobois). aod ssabon aswOs eavo S23, 50\nAgrebess aood, 0E Jeo eovoo 33056 W88 35j08.\n00\n57\nBerea",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

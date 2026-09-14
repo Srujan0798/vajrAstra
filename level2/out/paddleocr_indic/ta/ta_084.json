@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_084",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 12,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1\n9A       3   3   \nS4 f 3 34t R d fTT 3T C  S  ET   H \nrRa\n3 A 3  R er a      o E \nT61 3 3   T  ET  a9  34 T  h     \nSE 3 \n6\nfTR\nSER\nTIC1\nPRET\n6637-08-3T-8 CHT4\nFd\nTT\n\nI\n$5r\nFCT\nA\nFE\nQTI\nished\nT\nHT$I\nGrdt\n3747\n 4 ch14 3 3dl\nTST,\nH,\nTRHT\n3R\no\nTR\nTR\nT\n3807\nFTET\nFt\nT51\nf\nd\n3TTAT,\nrrect\nH\nTT-T\ncol\nT fat E   \nTTHT\nd\nct\noh\nTohled\nTrT\n2\n\nCAT\n$T${}\n3\nd\nT 3T\n34Tt 3T4 a2iA i 37 TETR T\n30137\nf\nFTT\nfl\nT\nct\n3401\ni\n TT T T5 \nca T$ 3 fx c \nihc\n$\nrof\nfchr\nf\nEE o A I TR 381\nST T - HT T T2 3TT I 3T4\nfrTT\n37T\na11a13ii0h\n\nT\noh\n\nHSN A   3Ch STTA1\ned-e\n\nced 3\nHCTH T5 T h 3hETT\n ATS ETETRUT TER TES, RE IACA AT \n   TE T  3T\n\nT2 34T AT TE THC ReAT &R Th TE fh TTA TST CT CTTA  Toh AX-HOR TTT Th TE\nT\n  Tி 3R TO R O J T PT TE ET 3TET TE E Toh A GG \nT\nTt HO FE OTT al\nFo 3TT OT I T  HE ETA, TE MTE T TE STC THTT TT TR  3TT HT\nh  \nT\nTRH\nAA  H       E, \n3TCE-3TOE)\nFTH\nBd S, MlO THd STI\n\nTETA\nHodf\nETTE HTCTHI TR T A HET HT H Th TET OTS ET H E\n\no\nSE\n\nfaardt\n1 $ H   E THR TE 3$T\nF\ngq\n53\nReprint 2026-27",
+      "text_nfc": "1\n9A       3   3   \nS4 f 3 34t R d fTT 3T C  S  ET   H \nrRa\n3 A 3  R er a      o E \nT61 3 3   T  ET  a9  34 T  h     \nSE 3 \n6\nfTR\nSER\nTIC1\nPRET\n6637-08-3T-8 CHT4\nFd\nTT\n\nI\n$5r\nFCT\nA\nFE\nQTI\nished\nT\nHT$I\nGrdt\n3747\n 4 ch14 3 3dl\nTST,\nH,\nTRHT\n3R\no\nTR\nTR\nT\n3807\nFTET\nFt\nT51\nf\nd\n3TTAT,\nrrect\nH\nTT-T\ncol\nT fat E   \nTTHT\nd\nct\noh\nTohled\nTrT\n2\n\nCAT\n$T${}\n3\nd\nT 3T\n34Tt 3T4 a2iA i 37 TETR T\n30137\nf\nFTT\nfl\nT\nct\n3401\ni\n TT T T5 \nca T$ 3 fx c \nihc\n$\nrof\nfchr\nf\nEE o A I TR 381\nST T - HT T T2 3TT I 3T4\nfrTT\n37T\na11a13ii0h\n\nT\noh\n\nHSN A   3Ch STTA1\ned-e\n\nced 3\nHCTH T5 T h 3hETT\n ATS ETETRUT TER TES, RE IACA AT \n   TE T  3T\n\nT2 34T AT TE THC ReAT &R Th TE fh TTA TST CT CTTA  Toh AX-HOR TTT Th TE\nT\n  Tி 3R TO R O J T PT TE ET 3TET TE E Toh A GG \nT\nTt HO FE OTT al\nFo 3TT OT I T  HE ETA, TE MTE T TE STC THTT TT TR  3TT HT\nh  \nT\nTRH\nAA  H       E, \n3TCE-3TOE)\nFTH\nBd S, MlO THd STI\n\nTETA\nHodf\nETTE HTCTHI TR T A HET HT H Th TET OTS ET H E\n\no\nSE\n\nfaardt\n1 $ H   E THR TE 3$T\nF\ngq\n53\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_030",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 2,
+    "width": 1414,
+    "height": 2096
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1414,
+        2096
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6 (1000230S (lafoloo 8910150 0910300 (6100000 Maolenocugaugmoer\" G0d6\n(2918o, alygofm, alolengsles, 610BOl0)\n0000010200 203-ejcoj01olo0g (J6.S0aJ0200 0080300820 ?\n(9650 0fo9206m, mo'80a02060ofleinuo023910108, 6303 90001, 6303 200,\n6303 66B0lo 20302150, 2008a2106mpo 20080210j0)\ne) (0ol00908 ogelgl afelong 8a16000 ?\n(C0m'aulolo, a18o1 afef (0006016o, 80086WO)\n\"20393 J30.910322008 59\n(00 ?\n(aiglooisamaid, aimalefle.d8, 00g1, o.sgo.msmaasib)\n00d53608 eollowgos Bald 600067010536.010936.01098026.\n(a100601308, 20, 096ma8, QIDO)\nh) G036S allellomosom (00la0208 Qlgo ?\n(220008, 20000lla2omg, a1(0380001008, (601a02001)\n2) 20000998086. :\na) glaflooroloer B001063900 allala5o@6sBgOGT onipegoser muofloloe (al0lalOBs\nQ.n'0go0im a0o. all. 8a1008 aoadonlengamo.066300D ?\n3\n)) 0@020 aulsioaovarolod 6001000 (Galmoa00m 0803 o0ugloassgorgmO\n0063300 ?\nC) a10o2 moonfamool mlag 8a1000 a00020006s ?\n3\n\"ango afing1206m a0m muea3cacrolg 60a10082012101e1399engsgclemenodd (INUOo\n2ommdo 89GJPKDlepoemmg 000008 000600200 ?\n3\n3) a. (00la0208 ofleya 0gelg18-1008 80063B006080 G8CICD8TD68B068D80 26300\nBOQIQJOSON0000200020006 ?\n3\nb) a13030191 o0isaaid 006330.000 mfleoleoaasaaoy ?\n3\nc) oon QnDOgl 00103 o100108 arpomolgomoalp agomggolololengama.\nODD (JTmOaImeOs 1661308 g0ogglengag86T30.?\n3\n66 a0g09090@gm.0g 021000010 951860618 eeroomalog 23elo Qi3e-g51sgasgp. 9>\n60\nmuasdso1go (Gl0ele000130 0L00908086.\n3\nago00lergo 06n33 Gal0856013005 60ma algoorolo8 60f0000 2010002980086 2 X 6=12\na) \"aymerust'aglaim?\" a0an 08189100 ODO onoo a0(020(00 (002800823900TD agmm\naldlecooulenge.\nb).a006lo 9060600 Graclgglaflgj068300 ?\nc) (alefololoe 60.9CD63B830S GOCDOO aourobogengoler 230002 Goygona mololo\n(3100l01g00 a0o00g0o ?",
+      "text_nfc": "6 (1000230S (lafoloo 8910150 0910300 (6100000 Maolenocugaugmoer\" G0d6\n(2918o, alygofm, alolengsles, 610BOl0)\n0000010200 203-ejcoj01olo0g (J6.S0aJ0200 0080300820 ?\n(9650 0fo9206m, mo'80a02060ofleinuo023910108, 6303 90001, 6303 200,\n6303 66B0lo 20302150, 2008a2106mpo 20080210j0)\ne) (0ol00908 ogelgl afelong 8a16000 ?\n(C0m'aulolo, a18o1 afef (0006016o, 80086WO)\n\"20393 J30.910322008 59\n(00 ?\n(aiglooisamaid, aimalefle.d8, 00g1, o.sgo.msmaasib)\n00d53608 eollowgos Bald 600067010536.010936.01098026.\n(a100601308, 20, 096ma8, QIDO)\nh) G036S allellomosom (00la0208 Qlgo ?\n(220008, 20000lla2omg, a1(0380001008, (601a02001)\n2) 20000998086. :\na) glaflooroloer B001063900 allala5o@6sBgOGT onipegoser muofloloe (al0lalOBs\nQ.n'0go0im a0o. all. 8a1008 aoadonlengamo.066300D ?\n3\n)) 0@020 aulsioaovarolod 6001000 (Galmoa00m 0803 o0ugloassgorgmO\n0063300 ?\nC) a10o2 moonfamool mlag 8a1000 a00020006s ?\n3\n\"ango afing1206m a0m muea3cacrolg 60a10082012101e1399engsgclemenodd (INUOo\n2ommdo 89GJPKDlepoemmg 000008 000600200 ?\n3\n3) a. (00la0208 ofleya 0gelg18-1008 80063B006080 G8CICD8TD68B068D80 26300\nBOQIQJOSON0000200020006 ?\n3\nb) a13030191 o0isaaid 006330.000 mfleoleoaasaaoy ?\n3\nc) oon QnDOgl 00103 o100108 arpomolgomoalp agomggolololengama.\nODD (JTmOaImeOs 1661308 g0ogglengag86T30.?\n3\n66 a0g09090@gm.0g 021000010 951860618 eeroomalog 23elo Qi3e-g51sgasgp. 9>\n60\nmuasdso1go (Gl0ele000130 0L00908086.\n3\nago00lergo 06n33 Gal0856013005 60ma algoorolo8 60f0000 2010002980086 2 X 6=12\na) \"aymerust'aglaim?\" a0an 08189100 ODO onoo a0(020(00 (002800823900TD agmm\naldlecooulenge.\nb).a006lo 9060600 Graclgglaflgj068300 ?\nc) (alefololoe 60.9CD63B830S GOCDOO aourobogengoler 230002 Goygona mololo\n(3100l01g00 a0o00g0o ?",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_086",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+    "page_index": 2,
+    "width": 1899,
+    "height": 1268
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1899,
+        1268
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6 A 3 # 4\n- :\nI a I *\nI I\nI I\nI &\nI\nE\n$\n- 3 I\nI\n& I -\nI\n#\noj\nI 3\n3\nI\n:\n=\ni\n3\nI\n6 E\n#\n! &\n1\n8\nI\nI\n13\n$\nI\n8\nI\nI\nI\n#\nTE\nC\nI -\nI\n=\nI\ni\nI\n3\n#\n4\n2\n2\n1 1\n1\n1\n1\n1\nI\n3\n#\nI I\n-\nI\n-\n$\nI\nB I\n>\n-\nI\n-\n13\nI\n5\n#\nI\n-\n:\nI\nI\nII\n.\nI\nB\n1\nI\n-\n3\n#\n#\nI\nI\n-\nI 1 # - 78 B R\nB\n3\n!\nS\nS\n@\nI\nA\n+\n3\nI\n-\nI\n3\n(\n-\nI\nI\nI\n:\nI\n- I 3\nI\nI\na 13\nI I $\nI I\nà :\nE\nI\n:\nI\n# :\n:\nI\n-\nI : I\nf\n€ E I - I SE I - E à I a E C € : I C I D oj\nDE\n#\n+\n35\n- ni m st un 6 N\no oi",
+      "text_nfc": "6 A 3 # 4\n- :\nI a I *\nI I\nI I\nI &\nI\nE\n$\n- 3 I\nI\n& I -\nI\n#\noj\nI 3\n3\nI\n:\n=\ni\n3\nI\n6 E\n#\n! &\n1\n8\nI\nI\n13\n$\nI\n8\nI\nI\nI\n#\nTE\nC\nI -\nI\n=\nI\ni\nI\n3\n#\n4\n2\n2\n1 1\n1\n1\n1\n1\nI\n3\n#\nI I\n-\nI\n-\n$\nI\nB I\n>\n-\nI\n-\n13\nI\n5\n#\nI\n-\n:\nI\nI\nII\n.\nI\nB\n1\nI\n-\n3\n#\n#\nI\nI\n-\nI 1 # - 78 B R\nB\n3\n!\nS\nS\n@\nI\nA\n+\n3\nI\n-\nI\n3\n(\n-\nI\nI\nI\n:\nI\n- I 3\nI\nI\na 13\nI I $\nI I\nà :\nE\nI\n:\nI\n# :\n:\nI\n-\nI : I\nf\n€ E I - I SE I - E à I a E C € : I C I D oj\nDE\n#\n+\n35\n- ni m st un 6 N\no oi",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

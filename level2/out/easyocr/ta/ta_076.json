@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_076",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 0,
+    "width": 1255,
+    "height": 2035
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1255,
+        2035
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sample Question paper Tamil ) II TERM (Oct २०१० March   २०१l) (Class - IX ) tonTglfl @ीी ढणाnछूकन\"ढाा छर॰lफ ढष LIgTib ढ७u4 (थ#GLrui २०१० toni# २०11 )\nMax. Marks 8० On.DguGusoग ऊनiग 8०\nTime 3 hours BI७ 9jना७ ३ १० ठ०्गी\nThe question paper is diveded into four sections: ४ऊ GBढiा ७ीीछं छIढौr फ़Iढषा@ Llflojऊooना छँ OBIनष्ण LLgl .\nSECTION A Lीfle : ७\nReading comprehension १५ Marks Lऋऊफ॰॰ (थ ७oगpooLi uGड़ ) -15 wglu७uoणग म नT\nSECTION : B Dfl॰{ 4\nWriting न@छIक॰\n१५ Marks -l५ ७gluOuनoग Bढाr\nSECTION : C LOflol\nGrammar &@ऊंम6ठण tम\n१५ Marks -l५ ७फ़liOuनoग 8 नाग़\nSECTION:D Zlflol ४ ।\nDiterature / Text Books ३५ Marks % @ऊफlui lछwlyu LITLLGI नUऊना - ३५ Dgiilolulठठग Bढiा\nx नsan ७ी ढणn छं६७मं७i JLLIuDb नfl७oLuनfl ऊँमuuL GollणगGi @siOwun७ ७ी ढणाnollpछi 2 flw wguOusoग Bढir अफ़॰्णछू॰ GpluuLLuLLGढir ढाा ६ण .\n)Lफ़ड़6\nDीf१el 9 LIफsक॰ १५ wक़luOusगग\n1.\nफy @७i upड़loui LIऊंऊयप्ं. @क़ळबाऊ्ूं OझILLipgl @IGu uoolooL शीढाI७ऊंछ २fीul मfflun ठठा olळाLoou न७ऊछ ना(s॰\". (5) नाfOlunGढir   Bnipp छिंwी॰ढण @ूछl @iबoBunBu Dfuui . ७क@ OI68 नाflpछ।   BITULIOUIBB BaLqw   छ्ूIढा ; woJio, ७७lBंGBI६ण,   @७o७J  @क नn ढणा OLTGबD ना #   BITi फफ़्लछौ . g)॰oढ! फlplu थना७ी॰ @७ूफ़\" फन्व्ग  ढर्षी fi   २० pplu७",
+      "text_nfc": "Sample Question paper Tamil ) II TERM (Oct २०१० March   २०१l) (Class - IX ) tonTglfl @ीी ढणाnछूकन\"ढाा छर॰lफ ढष LIgTib ढ७u4 (थ#GLrui २०१० toni# २०11 )\nMax. Marks 8० On.DguGusoग ऊनiग 8०\nTime 3 hours BI७ 9jना७ ३ १० ठ०्गी\nThe question paper is diveded into four sections: ४ऊ GBढiा ७ीीछं छIढौr फ़Iढषा@ Llflojऊooना छँ OBIनष्ण LLgl .\nSECTION A Lीfle : ७\nReading comprehension १५ Marks Lऋऊफ॰॰ (थ ७oगpooLi uGड़ ) -15 wglu७uoणग म नT\nSECTION : B Dfl॰{ 4\nWriting न@छIक॰\n१५ Marks -l५ ७gluOuनoग Bढाr\nSECTION : C LOflol\nGrammar &@ऊंम6ठण tम\n१५ Marks -l५ ७फ़liOuनoग 8 नाग़\nSECTION:D Zlflol ४ ।\nDiterature / Text Books ३५ Marks % @ऊफlui lछwlyu LITLLGI नUऊना - ३५ Dgiilolulठठग Bढiा\nx नsan ७ी ढणn छं६७मं७i JLLIuDb नfl७oLuनfl ऊँमuuL GollणगGi @siOwun७ ७ी ढणाnollpछi 2 flw wguOusoग Bढir अफ़॰्णछू॰ GpluuLLuLLGढir ढाा ६ण .\n)Lफ़ड़6\nDीf१el 9 LIफsक॰ १५ wक़luOusगग\n1.\nफy @७i upड़loui LIऊंऊयप्ं. @क़ळबाऊ्ूं OझILLipgl @IGu uoolooL शीढाI७ऊंछ २fीul मfflun ठठा olळाLoou न७ऊछ ना(s॰\". (5) नाfOlunGढir   Bnipp छिंwी॰ढण @ूछl @iबoBunBu Dfuui . ७क@ OI68 नाflpछ।   BITULIOUIBB BaLqw   छ्ूIढा ; woJio, ७७lBंGBI६ण,   @७o७J  @क नn ढणा OLTGबD ना #   BITi फफ़्लछौ . g)॰oढ! फlplu थना७ी॰ @७ूफ़\" फन्व्ग  ढर्षी fi   २० pplu७",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

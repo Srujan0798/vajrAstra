@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_069",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+    "page_index": 118,
+    "width": 1644,
+    "height": 1980
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        1980
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "I\n2\nN\nE 2\nI\n19\n8\nD\n-\nA\n16\nI\n9\n-\n8\nE\n15\nL E\n4\n13\nN\n1\nof\n9\n8\n6\n5\n16\n15\n13\n14\nI\nE\n1\n-\n8\n248- C\nUnoQo\n4 VEI\n3\n0\ncm 0\n5\nalesono\n3\n2\n1\n2 3 4 5 6 7 8 9 10 11 12 13 14\ngpura.org\n2\n-\n6 OT IT ZI ET 4T ST 91 LT 81",
+      "text_nfc": "I\n2\nN\nE 2\nI\n19\n8\nD\n-\nA\n16\nI\n9\n-\n8\nE\n15\nL E\n4\n13\nN\n1\nof\n9\n8\n6\n5\n16\n15\n13\n14\nI\nE\n1\n-\n8\n248- C\nUnoQo\n4 VEI\n3\n0\ncm 0\n5\nalesono\n3\n2\n1\n2 3 4 5 6 7 8 9 10 11 12 13 14\ngpura.org\n2\n-\n6 OT IT ZI ET 4T ST 91 LT 81",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

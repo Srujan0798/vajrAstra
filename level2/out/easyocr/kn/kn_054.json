@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "బాణర్యని-ి\nవ్యాలార్సయాపి విఖలాపి నరంటరాపి వెర్పాపి వెంశిలభవాపి దరానేదాపి గంధిిన బంధురెసి శిిరి నేవణజంశంా రిశిల గుణః ఖలు నిదేంఠి నెమన్తదుం-చానా 17-21 ఇకి బాణర్యనిణిదేటFణః సంవుంణFః Processed and proofread by Sunder Hattangadi\nChunukyu Niti pdf was typeset on July 11, 2024\nPlease send corrections to sunskrit@cheerJul. com\nchANakyanltisort pdf\n27",
+      "text_nfc": "బాణర్యని-ి\nవ్యాలార్సయాపి విఖలాపి నరంటరాపి వెర్పాపి వెంశిలభవాపి దరానేదాపి గంధిిన బంధురెసి శిిరి నేవణజంశంా రిశిల గుణః ఖలు నిదేంఠి నెమన్తదుం-చానా 17-21 ఇకి బాణర్యనిణిదేటFణః సంవుంణFః Processed and proofread by Sunder Hattangadi\nChunukyu Niti pdf was typeset on July 11, 2024\nPlease send corrections to sunskrit@cheerJul. com\nchANakyanltisort pdf\n27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

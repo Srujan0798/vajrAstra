@@ -1,0 +1,41 @@
+{
+  "page_id": "te_009",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+    "page_index": 27,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "B\n28 |\nLJ/806\n]] ]. The  cost  0[ depeciation   seneration   funds  js ] ]6. Sales value variance is the difference between equa] t0 (]) Standard saJes ೩nd Actua] sales (]) Cost of equity (2) Budeted sales ೩nd Actua] sales (2) Cost o[ debt (3) Standard sales and Budseted sales (3) Overa]] cost 0[ capita] (4) [ndustTy sales and T[irm 's sales (4) Cost of Tetained earninss\n]12. ]] 7. mhe   interest Tate Mhen marsin 0l safety is 20 percent and PrT that   equates the   pesent Tatio is 60 percent, the proft wj]] be value ot the expected future cash [[ows to the initia] cost outlay js (]) 30 percent (]) ARR (2) 33 _ percent (2) jPTT 3 (3) 12 percent (3) TRR (4) [6 percent (4) Payback\n]18. The difference between fxed ೩d Tajable while cost has special sjsnificance in the pTepaation 0t (]) MasteT  budset\n] 13. mhe [ost important varjable calculatin8 the cost 0[ debt is (]) ಔaxinss\n(2) Dividends\n(2) []exible budset\n(3) [nvestment\n(3) Cash  budset (4) Tunctiona] budset\n(4) Tax Tate\n]]4. TThich one 0[ the [o]lowing M]]]   take   place ] ]9. when [೩ir he time   oTmally TetuT] not taken j] js Tealized Teplenishins ೩5 capitalization ? inventory afteT the oTder has been placed is (]1) (]) Gestation  time UndeT  capitalization (2) Moderate capitalization (2) Operating time (3) OveT capitalization (3) [ead  time (4) V capitalization (4) Replenishins time\n] ]5. mhe Tatio that indicates ೩ fixm's commitment ]20. Market Tisk is measured by t0 meet shoxt-tem [iabilities 1s called (1) Beta co-efficient (1) Propxietory Tatio (2) [BTT (2) 'uTnovez' Tatio (3) RO] (3) Deszee 0[ ]eveTage (4) Current Tatio (4) Desxee ot feedom",
+      "text_nfc": "B\n28 |\nLJ/806\n]] ]. The  cost  0[ depeciation   seneration   funds  js ] ]6. Sales value variance is the difference between equa] t0 (]) Standard saJes ೩nd Actua] sales (]) Cost of equity (2) Budeted sales ೩nd Actua] sales (2) Cost o[ debt (3) Standard sales and Budseted sales (3) Overa]] cost 0[ capita] (4) [ndustTy sales and T[irm 's sales (4) Cost of Tetained earninss\n]12. ]] 7. mhe   interest Tate Mhen marsin 0l safety is 20 percent and PrT that   equates the   pesent Tatio is 60 percent, the proft wj]] be value ot the expected future cash [[ows to the initia] cost outlay js (]) 30 percent (]) ARR (2) 33 _ percent (2) jPTT 3 (3) 12 percent (3) TRR (4) [6 percent (4) Payback\n]18. The difference between fxed ೩d Tajable while cost has special sjsnificance in the pTepaation 0t (]) MasteT  budset\n] 13. mhe [ost important varjable calculatin8 the cost 0[ debt is (]) ಔaxinss\n(2) Dividends\n(2) []exible budset\n(3) [nvestment\n(3) Cash  budset (4) Tunctiona] budset\n(4) Tax Tate\n]]4. TThich one 0[ the [o]lowing M]]]   take   place ] ]9. when [೩ir he time   oTmally TetuT] not taken j] js Tealized Teplenishins ೩5 capitalization ? inventory afteT the oTder has been placed is (]1) (]) Gestation  time UndeT  capitalization (2) Moderate capitalization (2) Operating time (3) OveT capitalization (3) [ead  time (4) V capitalization (4) Replenishins time\n] ]5. mhe Tatio that indicates ೩ fixm's commitment ]20. Market Tisk is measured by t0 meet shoxt-tem [iabilities 1s called (1) Beta co-efficient (1) Propxietory Tatio (2) [BTT (2) 'uTnovez' Tatio (3) RO] (3) Deszee 0[ ]eveTage (4) Current Tatio (4) Desxee ot feedom",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

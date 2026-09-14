@@ -1,0 +1,41 @@
+{
+  "page_id": "te_065",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0065pro_raw.pdf",
+    "page_index": 65,
+    "width": 1800,
+    "height": 2400
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1800,
+        2400
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "महाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ, पुणे . हिंदी सुलभभारती इयत्ता ८ वी ₹ 30.00\n₹ 30.00",
+      "text_nfc": "महाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ, पुणे . हिंदी सुलभभारती इयत्ता ८ वी ₹ 30.00\n₹ 30.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_013",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 16,
+    "width": 1608,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1608,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ee nee\n\n|\n|\ni}\n\n||\n\nDeron Aime Oreemengrvt gave 208\n\n‘Ao\nDia Ney  തൃ “3 ap a ae *\n\nre Gat Cat) 4\nPhp Sean ee fo दी PO ae\nwearer a9 gy Aa Pe ee ae it\npodeergeh nrert lpg red Jan, 73s न\n\ny— aera pore\narson rd, Ig coy Ble In\nmI 3 (raw gna \"2 Ajo) Drregeo - om\nglans ony Ler (mas On Kenge 4\nNene Maen ett phen we के — alo eS\nmvc my oy bamaigecneited\n\nBrave??? .\n\nbane ക-ചുച്ിി\n\nകതന്ൻ nA 2F MS er Be Tee ey ree | -2&\n/\n\n]രകക്ക്കപക് ക=.ം—=2, --\n\n2-മ .\n\na 4) >| हनी ae vl =\nTOA YM ©2°M2-4,5-\n\n",
+      "text_nfc": "ee nee\n\n|\n|\ni}\n\n||\n\nDeron Aime Oreemengrvt gave 208\n\n‘Ao\nDia Ney  തൃ “3 ap a ae *\n\nre Gat Cat) 4\nPhp Sean ee fo दी PO ae\nwearer a9 gy Aa Pe ee ae it\npodeergeh nrert lpg red Jan, 73s न\n\ny— aera pore\narson rd, Ig coy Ble In\nmI 3 (raw gna \"2 Ajo) Drregeo - om\nglans ony Ler (mas On Kenge 4\nNene Maen ett phen we के — alo eS\nmvc my oy bamaigecneited\n\nBrave??? .\n\nbane ക-ചുച്ിി\n\nകതന്ൻ nA 2F MS er Be Tee ey ree | -2&\n/\n\n]രകക്ക്കപക് ക=.ം—=2, --\n\n2-മ .\n\na 4) >| हनी ae vl =\nTOA YM ©2°M2-4,5-\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

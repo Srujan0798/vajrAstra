@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_080",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 1623,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1623,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಶಿಲ್ಪ నిద్ధా౦౩ ಶ್ರೀ ಸಿದ್ಧಅ೦ಗಸ್ವಾಮಿ\nਹੈ ಸಿದ್ಧಾ೦ತಿ ਤੈ ಸದ್ಧಲಿಂಗಸ್ವಾಮಿ\nnana001771\nശീമാട്ടി જી\nਹੈ\nവികസനം\nਸੀ\nರಾಮದಾಸ ಅಡ್ಯ೦ತಾಯ\nಕರ್ನಾಟಕ ಲಲಿತಕಲಾ ಅಕಾಡೆಮಿ\nkarnataka lalithakala academy",
+      "text_nfc": "ಶಿಲ್ಪ నిద్ధా౦౩ ಶ್ರೀ ಸಿದ್ಧಅ೦ಗಸ್ವಾಮಿ\nਹੈ ಸಿದ್ಧಾ೦ತಿ ਤੈ ಸದ್ಧಲಿಂಗಸ್ವಾಮಿ\nnana001771\nശീമാട്ടി જી\nਹੈ\nവികസനം\nਸੀ\nರಾಮದಾಸ ಅಡ್ಯ೦ತಾಯ\nಕರ್ನಾಟಕ ಲಲಿತಕಲಾ ಅಕಾಡೆಮಿ\nkarnataka lalithakala academy",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_066",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 18,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1 My World of Feelings\nWe live surrounded\nby people,\nother \nliving\n beings and\nHOT\nnature. Things .\nI keep happening in this\nworld! S\nSometimes\nCOLD\nthe weather is\nhot, \nsometimes its\ncold \nor rainy or windy!\nRAINY\nWINDY\nLike the outside\nweather, our\nworld of feelings.\nalso\nkeeps\nThere\nis\nanother\nworld\nchanging! It depends\non what is\ninside\nus.\nIt .\nis\nmade\nup\n೦f\nhappening\ninside t\nthe\n body\nand \nfeelings.\nWe\nfeel \nhappy,\nwhat's happening\n outside.\nWhen\nsad,\nangry,\nupset, \nirritated,\nWe\nfall\ndown.\nand\nget hurt,\nWe \n feel\nsleepy, tired,\nbored... the list \npain.\nWhat if there\nwas\nno\npain?\ngoes on!\nWe\nwould \nnot \neven\nknow we\nhave\nhurt\nourselves!\nPain\ndraws\nour\nattention to\n the \n part that is \n hurt\nthat we\ncan\ntake\ncare of it.\nMake\ngroups of 4:\nDKTBS\nThink .\nof 3 feelings.\nDiscuss\nwhat if there\nHow\n do they help you?\nwere no\nfeelings?\nWrite\nbelow:\nWhat would happen\nthen?\nNOT TO BE REPUBLISI\nThink and Do:\nFeelings \n bring\nDo\nyou\nthink\nanimals\nhave\na positive\nfeelings?\nWhy do\nyou\nthink\nso?\nchange in me.\nWhat about plants?\n11",
+      "text_nfc": "3.1 My World of Feelings\nWe live surrounded\nby people,\nother \nliving\n beings and\nHOT\nnature. Things .\nI keep happening in this\nworld! S\nSometimes\nCOLD\nthe weather is\nhot, \nsometimes its\ncold \nor rainy or windy!\nRAINY\nWINDY\nLike the outside\nweather, our\nworld of feelings.\nalso\nkeeps\nThere\nis\nanother\nworld\nchanging! It depends\non what is\ninside\nus.\nIt .\nis\nmade\nup\n೦f\nhappening\ninside t\nthe\n body\nand \nfeelings.\nWe\nfeel \nhappy,\nwhat's happening\n outside.\nWhen\nsad,\nangry,\nupset, \nirritated,\nWe\nfall\ndown.\nand\nget hurt,\nWe \n feel\nsleepy, tired,\nbored... the list \npain.\nWhat if there\nwas\nno\npain?\ngoes on!\nWe\nwould \nnot \neven\nknow we\nhave\nhurt\nourselves!\nPain\ndraws\nour\nattention to\n the \n part that is \n hurt\nthat we\ncan\ntake\ncare of it.\nMake\ngroups of 4:\nDKTBS\nThink .\nof 3 feelings.\nDiscuss\nwhat if there\nHow\n do they help you?\nwere no\nfeelings?\nWrite\nbelow:\nWhat would happen\nthen?\nNOT TO BE REPUBLISI\nThink and Do:\nFeelings \n bring\nDo\nyou\nthink\nanimals\nhave\na positive\nfeelings?\nWhy do\nyou\nthink\nso?\nchange in me.\nWhat about plants?\n11",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

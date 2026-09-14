@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_026",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 955,
+    "height": 1387
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        955,
+        1387
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KOTTAYAM PUBLIC LIBRARY Mक़o Acc No .!3.6|0. CallNo Author ppopiplm\nTillo\nL.&.\nmo...@oफ़!",
+      "text_nfc": "KOTTAYAM PUBLIC LIBRARY Mक़o Acc No .!3.6|0. CallNo Author ppopiplm\nTillo\nL.&.\nmo...@oफ़!",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_044",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0044pro_raw.pdf",
+    "page_index": 37,
+    "width": 1770,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1770,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "u6t, THSTT 3i7 GIERTETT :\nP0. rsH\n-\nTHT chs fe-i a VRRIT-A CT tel 9ft I doerd deh Tai à I SIter a 3TI4RT t\nHT a 3Hch FE 301517 fouit Hai 9ft I Td fety chEl à I 3714ch1 HICTH à fep CST\nN THT CIHT Co 464 chi QUIR 3744 YRaR E7 t CHRUT 370h1 ar YT Tai\nYOTT VR Ma ad d 1E 9ft I da i YRH Y5dl I TRiCt t CRUT a Srly Hai CRT\ndod EU HT a YE9T, del, chs fa-i a d Hohd I # Ha i6 9 o 4H 316h ChIH\ntal Efe JH GhE TRRIF a I CRIT ald à ?\" 37T GIIUTT I 11 THT cloft\n\"HT, 6H CT yiteTT i dlG EARIT\nHT à chal, aigr HR SICCT 414T t\nchai-7-chal 21H7 Jd à I 347 dgd fta à I JH chel a YreUIT a chaHl fop\ndet gr aldr à 7 ! fahd-l aldi ETT ?\" df 374-11 HT chl meht 37T FIIC I 3701\nfoechd EU THT a YET I HT * 37ET VR Srily EH CT ChraUT I\"\"ta HT, JH\nYHchlH dr TE, i gH gr chi Toht fehd-il 37287 a !\" THT chl 3TG1 # grit\nVRRIT a ?\" THT aieft, \"Téi HT, 6H 8rich 38 9ft I THT t HTOT chi Hoft 10\nMTT SH CR 3TR chal 7 JITC a CRIT df HT ciloft, \"AA da Hod 31051 à CRIlICh\ndar yot fuct Hohdl à ! 17 g-ë sdt det 340hl foet GERT chi debefiy a geh aldi\nch CRIT Ufrd 37T 457 ?\" HT chi 3015 à I\" Yich THT chl HT fart 301 I\n7 3TRERf 9T I \"HT, YraTUIT o HI\n= mH Tchyt\no\nHo (V) ET Tad (x) fart CNITST 3it TiC aTer d Dd fsheit t chla chl HHSI :\n&. THT ths fa-i a TRRITT eft I\nR. 414T chl chis sft faa SICET Téi à I\n3. 340h1 Srlg EH CIT Hai chiaTun I\n8. 340h1 feet GERT cht debefiys à gett adt à I\nK99UIS\nfacerfereil chl chal-ft Hd 3 ShHRT: 7-7 yfedeii ShT dicH chich daat I fecerferil à 512 URAR t Harra VR zaf\naht I adHichlei, Trichlel 3it Taechlet aht 3GIEUT CART HHSTTT I facenfefent ahT aiya, HHdI Hiaeft chalfrent ynd I\nP8",
+      "text_nfc": "u6t, THSTT 3i7 GIERTETT :\nP0. rsH\n-\nTHT chs fe-i a VRRIT-A CT tel 9ft I doerd deh Tai à I SIter a 3TI4RT t\nHT a 3Hch FE 301517 fouit Hai 9ft I Td fety chEl à I 3714ch1 HICTH à fep CST\nN THT CIHT Co 464 chi QUIR 3744 YRaR E7 t CHRUT 370h1 ar YT Tai\nYOTT VR Ma ad d 1E 9ft I da i YRH Y5dl I TRiCt t CRUT a Srly Hai CRT\ndod EU HT a YE9T, del, chs fa-i a d Hohd I # Ha i6 9 o 4H 316h ChIH\ntal Efe JH GhE TRRIF a I CRIT ald à ?\" 37T GIIUTT I 11 THT cloft\n\"HT, 6H CT yiteTT i dlG EARIT\nHT à chal, aigr HR SICCT 414T t\nchai-7-chal 21H7 Jd à I 347 dgd fta à I JH chel a YreUIT a chaHl fop\ndet gr aldr à 7 ! fahd-l aldi ETT ?\" df 374-11 HT chl meht 37T FIIC I 3701\nfoechd EU THT a YET I HT * 37ET VR Srily EH CT ChraUT I\"\"ta HT, JH\nYHchlH dr TE, i gH gr chi Toht fehd-il 37287 a !\" THT chl 3TG1 # grit\nVRRIT a ?\" THT aieft, \"Téi HT, 6H 8rich 38 9ft I THT t HTOT chi Hoft 10\nMTT SH CR 3TR chal 7 JITC a CRIT df HT ciloft, \"AA da Hod 31051 à CRIlICh\ndar yot fuct Hohdl à ! 17 g-ë sdt det 340hl foet GERT chi debefiy a geh aldi\nch CRIT Ufrd 37T 457 ?\" HT chi 3015 à I\" Yich THT chl HT fart 301 I\n7 3TRERf 9T I \"HT, YraTUIT o HI\n= mH Tchyt\no\nHo (V) ET Tad (x) fart CNITST 3it TiC aTer d Dd fsheit t chla chl HHSI :\n&. THT ths fa-i a TRRITT eft I\nR. 414T chl chis sft faa SICET Téi à I\n3. 340h1 Srlg EH CIT Hai chiaTun I\n8. 340h1 feet GERT cht debefiys à gett adt à I\nK99UIS\nfacerfereil chl chal-ft Hd 3 ShHRT: 7-7 yfedeii ShT dicH chich daat I fecerferil à 512 URAR t Harra VR zaf\naht I adHichlei, Trichlel 3it Taechlet aht 3GIEUT CART HHSTTT I facenfefent ahT aiya, HHdI Hiaeft chalfrent ynd I\nP8",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

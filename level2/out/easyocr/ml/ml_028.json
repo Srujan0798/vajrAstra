@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_028",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 3,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(vjii) ಇU) @@೦3೨೦೦ ` ೧m ೧J೨c6   ೧6336mಯ೨6m   ೧11016 ೨ [9)()ಹಿ? (A) 2Ux +oG೨೦೦ (B) Qಯx@+9(೨0o (C) 2Ux@+63ಂ3೨0೦ (D) Q0)@@೨+೦G3೨೧೦ (1T `mo@ugಹo ೧೧೧   ೧1೨c೦16೧ದ   ೧11೧ J@ 1೧೧ I3o   ೧೧೦೨೯? (4) mಂನIಗಹ೦ (B) @ಾ೧10@I೧ಹ೦ (C) @ನI0ಹo (D) ೧ioloosodlnco @3696c೧೨S  @013089   ೧J36m3e103   001m೨ಃ@  600066/0/0 9)@ೂಹಿ (A) 3ನr)@೦ (B) 303J0೦ (C)   30U)೧o (D) (300Q)@೦ 4 @101 ಠ J @ @) 1@3 m1m 63 ೧3 ೧ I @) @ ೨Jಖ 3] 6313 @ ದ6  @ @1ಯ೨೦ ೭@1೦ @೦ 006) 1010S) 6@09y @) . . [9x2=]8] (೩)(:i) m೬1m1ಯಮoS   ಿ65ಣam 106m16010   2J6 I6@0   ಹಿ೧1   ೧6336೧@೨೯   ೧Jd6 1oo Jmoi? (A) ೨I೨@660-Qlಹlnವಹ6   (0581೨ JG೧ I೨*ಶ (B) ೧1೫ಹ೧೧೧ 1೧೧೦೦   @@ 1@1ಹ69@n |O6pl (C) m3ೈ @1ಯ1elದ99@J@೧ Jb6el (D) 060 0 J@೧U೨oo೨rm   ೧JmImಶರಿqlGolooal ೧೬1೧1   ೧m   6 I6mಯುಹಾ೨೧ly @0Im) @೦೦೧೦ ೧ನUಹ 1ಯ  2699Q   @೧J@   ೧೧೦೨೯೫? (A) m೯1m1  ೧m   ಡ೨೧l ಣ1ei೧lo (B) 630ಮ m@೧೧೧೦ (C) ೧6೧ l೧] (D) @9ಊ೨6೧   m1@೨-೦೧lyo (b)(i) 2ದc01c6   ೧il೧eimo   ೧@@ J೧J೨qಚ   ೧೧೧ ೯o   0o@೨೨mo   ೧೦೧೦೦6m? (4) @LಹಂUo (B) ಹ೨2o (C) @eoso (D) @ಇ೨೧೧೦ [.q a6 m೨೧ ] ೧೦ ೧೦m .೨೧lJ G೯೧೦ @ 60 @0 ೧ $ @೦) @ 6 @O( ೨೧೧ನ೦೧೨೦6೦   ಡ1ಇ13 051' @ಚ   mI೧J೦   2SJ @-@೨6m . n0@ cಂ6ಉ@0ೀಾ ೧1m೨6   @ಇ Gಇ0೦ ೧S@Z@? (A) 6loplಡosmಉo (B) @@@ಂಖ(Oಹ೨smಉಂ (C) @06m ] .ಾಂ6m ಉುಂ (D) c1ಞ931ಉಂcosಉುo ()(1) (9ಹ೦೦ @೧೦೧l) 06313ವdಹ೧ ) @೨೨೧೦೧ ೧೨38c೧  @QJ6ns]   9೧633೨೧   (021ವ್)೧) ` ೊ-೧೨6m   %೧6G3೨೧?   (021c್)m@)? (A) (022 (3) ೧i13(%eJ@) %೧೦ (C) 6ವ@೧/1q1ಹಣ (D) ವ೧@೦   @0ಖ15o ೯೨ಇ   ೧I@1ಹಯ ೧@) ವಾ೧11@ಯ1ೀೌ   ೧1m   ೧S@೦೧೨6m? (A) ಉl೧ im೧ID632elo (B) (೧೨q೧ll .x0016e]   ೧೧೦ನೌ (C) 012lc92l (D) @0226009310ಶ (d)() ೧Joale lyoJo   ೧ಥ6ಹಾ೨g166-o೨o    ೧Jಂsಂo6mm . ೧I91.6921m (9 @೨6 ೧J991ವಕJm@ ? (A) 696m@೦R |೧3 (3) 606 G8c6೨51ಣ SJ@0   @೧೫೧ (C) ೧lಇo೧J೧ಚ (D) ೧J@1oso೨@@o1೧3   016 @1elಪaಇ೧J೧o ವ೨೨ 1m9J೧)c610   ಹ೧1@ ೧m೧1@೫೧ IsJm@   @90J65   ವ೧11@೧೨6m? (A) ಹ.Q೨೧೧೨೦೦೦೧ (B) @o೧Ge.-n 19381   (@1U೧@ಚ@೧೨೦೧ದಗ (C) 6@ .@0   ೧)9 @@3ದ 6೧ದ (D) ೧೧೧1c6   (೧ ೧22316೧ಾ",
+      "text_nfc": "(vjii) ಇU) @@೦3೨೦೦ ` ೧m ೧J೨c6   ೧6336mಯ೨6m   ೧11016 ೨ [9)()ಹಿ? (A) 2Ux +oG೨೦೦ (B) Qಯx@+9(೨0o (C) 2Ux@+63ಂ3೨0೦ (D) Q0)@@೨+೦G3೨೧೦ (1T `mo@ugಹo ೧೧೧   ೧1೨c೦16೧ದ   ೧11೧ J@ 1೧೧ I3o   ೧೧೦೨೯? (4) mಂನIಗಹ೦ (B) @ಾ೧10@I೧ಹ೦ (C) @ನI0ಹo (D) ೧ioloosodlnco @3696c೧೨S  @013089   ೧J36m3e103   001m೨ಃ@  600066/0/0 9)@ೂಹಿ (A) 3ನr)@೦ (B) 303J0೦ (C)   30U)೧o (D) (300Q)@೦ 4 @101 ಠ J @ @) 1@3 m1m 63 ೧3 ೧ I @) @ ೨Jಖ 3] 6313 @ ದ6  @ @1ಯ೨೦ ೭@1೦ @೦ 006) 1010S) 6@09y @) . . [9x2=]8] (೩)(:i) m೬1m1ಯಮoS   ಿ65ಣam 106m16010   2J6 I6@0   ಹಿ೧1   ೧6336೧@೨೯   ೧Jd6 1oo Jmoi? (A) ೨I೨@660-Qlಹlnವಹ6   (0581೨ JG೧ I೨*ಶ (B) ೧1೫ಹ೧೧೧ 1೧೧೦೦   @@ 1@1ಹ69@n |O6pl (C) m3ೈ @1ಯ1elದ99@J@೧ Jb6el (D) 060 0 J@೧U೨oo೨rm   ೧JmImಶರಿqlGolooal ೧೬1೧1   ೧m   6 I6mಯುಹಾ೨೧ly @0Im) @೦೦೧೦ ೧ನUಹ 1ಯ  2699Q   @೧J@   ೧೧೦೨೯೫? (A) m೯1m1  ೧m   ಡ೨೧l ಣ1ei೧lo (B) 630ಮ m@೧೧೧೦ (C) ೧6೧ l೧] (D) @9ಊ೨6೧   m1@೨-೦೧lyo (b)(i) 2ದc01c6   ೧il೧eimo   ೧@@ J೧J೨qಚ   ೧೧೧ ೯o   0o@೨೨mo   ೧೦೧೦೦6m? (4) @LಹಂUo (B) ಹ೨2o (C) @eoso (D) @ಇ೨೧೧೦ [.q a6 m೨೧ ] ೧೦ ೧೦m .೨೧lJ G೯೧೦ @ 60 @0 ೧ $ @೦) @ 6 @O( ೨೧೧ನ೦೧೨೦6೦   ಡ1ಇ13 051' @ಚ   mI೧J೦   2SJ @-@೨6m . n0@ cಂ6ಉ@0ೀಾ ೧1m೨6   @ಇ Gಇ0೦ ೧S@Z@? (A) 6loplಡosmಉo (B) @@@ಂಖ(Oಹ೨smಉಂ (C) @06m ] .ಾಂ6m ಉುಂ (D) c1ಞ931ಉಂcosಉುo ()(1) (9ಹ೦೦ @೧೦೧l) 06313ವdಹ೧ ) @೨೨೧೦೧ ೧೨38c೧  @QJ6ns]   9೧633೨೧   (021ವ್)೧) ` ೊ-೧೨6m   %೧6G3೨೧?   (021c್)m@)? (A) (022 (3) ೧i13(%eJ@) %೧೦ (C) 6ವ@೧/1q1ಹಣ (D) ವ೧@೦   @0ಖ15o ೯೨ಇ   ೧I@1ಹಯ ೧@) ವಾ೧11@ಯ1ೀೌ   ೧1m   ೧S@೦೧೨6m? (A) ಉl೧ im೧ID632elo (B) (೧೨q೧ll .x0016e]   ೧೧೦ನೌ (C) 012lc92l (D) @0226009310ಶ (d)() ೧Joale lyoJo   ೧ಥ6ಹಾ೨g166-o೨o    ೧Jಂsಂo6mm . ೧I91.6921m (9 @೨6 ೧J991ವಕJm@ ? (A) 696m@೦R |೧3 (3) 606 G8c6೨51ಣ SJ@0   @೧೫೧ (C) ೧lಇo೧J೧ಚ (D) ೧J@1oso೨@@o1೧3   016 @1elಪaಇ೧J೧o ವ೨೨ 1m9J೧)c610   ಹ೧1@ ೧m೧1@೫೧ IsJm@   @90J65   ವ೧11@೧೨6m? (A) ಹ.Q೨೧೧೨೦೦೦೧ (B) @o೧Ge.-n 19381   (@1U೧@ಚ@೧೨೦೧ದಗ (C) 6@ .@0   ೧)9 @@3ದ 6೧ದ (D) ೧೧೧1c6   (೧ ೧22316೧ಾ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

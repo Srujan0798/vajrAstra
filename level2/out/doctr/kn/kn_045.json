@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\nSeries G7DEF :\nSet = 4\nE ag8 doctrr oa\nQ.P. Code\n13\n002d Noaz\nesdOFado a ae8 doetes en eusd\nRoll No.\na38 avagesde ewgwon wd0wd.\nCandidates must write the Q.P. Code on\nthe title page of the answer-book.\n28 a3 agdave 15 awae 38790050R0060 woscos.\ndE ag dao wegponae doesoas doctes Noa3\nes\naba\n2\nenzd agtad awa)\naje3ad\neoFai wdodees).\n88 c, D agdave 15 3ane3 woawaa naoz.\nenzowaat aiodev agat ga Noas an enzo agdad abgerosae wdawd.\n68 dE 23t00s0 wadoges 15 Daanea A dodoohd. dE 23ta0n 10.15 a.m.\nn a50geon0as. 10.15 a.m. doa 10.30 a.m. a AN0 dwes OFTED 28 ae dooa\nbadogeies az 23 eapate aloayde engosro enzd ag date wdadeedts.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 15 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n) 2\nA\nKANNADA\nCRORDETCROAEDOD : 3 Ro83\nnozy eoonet : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n13\n5111\n* Page 1of 16 *\nP.T.O.\n11",
+      "text_nfc": "\nSeries G7DEF :\nSet = 4\nE ag8 doctrr oa\nQ.P. Code\n13\n002d Noaz\nesdOFado a ae8 doetes en eusd\nRoll No.\na38 avagesde ewgwon wd0wd.\nCandidates must write the Q.P. Code on\nthe title page of the answer-book.\n28 a3 agdave 15 awae 38790050R0060 woscos.\ndE ag dao wegponae doesoas doctes Noa3\nes\naba\n2\nenzd agtad awa)\naje3ad\neoFai wdodees).\n88 c, D agdave 15 3ane3 woawaa naoz.\nenzowaat aiodev agat ga Noas an enzo agdad abgerosae wdawd.\n68 dE 23t00s0 wadoges 15 Daanea A dodoohd. dE 23ta0n 10.15 a.m.\nn a50geon0as. 10.15 a.m. doa 10.30 a.m. a AN0 dwes OFTED 28 ae dooa\nbadogeies az 23 eapate aloayde engosro enzd ag date wdadeedts.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 15 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n) 2\nA\nKANNADA\nCRORDETCROAEDOD : 3 Ro83\nnozy eoonet : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n13\n5111\n* Page 1of 16 *\nP.T.O.\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

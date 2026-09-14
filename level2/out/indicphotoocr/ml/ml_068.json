@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_068",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 24,
+    "width": 1509,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1509,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "८ 34 জেদ্যুওক 25 হুদ\nભ minjamie ગુરુઆતીનાની 24966000\n20101000100 biwjand ਕਾਰਾ ৭০৪ 3 biwlb\nগা ભય   ੧  \nbj binj ੭੦੦ ੧੧   જીટી ਕੇਅਰ\n૮૬૪૧ ਕਮਾਈ    જાનની\nਤੇ અમર ਵਾਈਆ ਕਾਰਾਇਆ এএভা ਸੰਘ\n૮૬ 6 ০৯৪ ४८ ਮਾ २२२२२२४४\n141 બી 4144 ਸਮਾਰੀਆ শোকে শ্রী \nbiwj dom316 ਬਾਨ ০০০ এও দেৱ\nਸੁਖਾ vusson સ્ટલ્હીશનરીશ્રીશગરાશા\n28ਪੀ ટીની નીનહોમ ਇਨਾ dow ચેમમભાઈ\n८१ শৰ સ્ાવી শ্রী  পদঙীয়া અનુ ১১শ\nਕਾਰੀ ਸਾਰਾ ਮਾ ਸਾਈ ಸಿವಿ     ਸਾਹ ਕਾਰਾ ਕ੍ਰਾਈ সম্পতি\nतीळ2  ੨੦੦ ੧੮੧ ੦੦੦ శ్రమస్యర్ ಅಅರು দীপ\nભડી 41 ੧੧ 180300000000 આશ્રી ৫০০ শ্রীন্দ\nત્પતી મડી ਸਿਸ મનનાદ્રીન્જ 02",
+      "text_nfc": "८ 34 জেদ্যুওক 25 হুদ\nભ minjamie ગુરુઆતીનાની 24966000\n20101000100 biwjand ਕਾਰਾ ৭০৪ 3 biwlb\nগা ભય   ੧  \nbj binj ੭੦੦ ੧੧   જીટી ਕੇਅਰ\n૮૬૪૧ ਕਮਾਈ    જાનની\nਤੇ અમર ਵਾਈਆ ਕਾਰਾਇਆ এএভা ਸੰਘ\n૮૬ 6 ০৯৪ ४८ ਮਾ २२२२२२४४\n141 બી 4144 ਸਮਾਰੀਆ শোকে শ্রী \nbiwj dom316 ਬਾਨ ০০০ এও দেৱ\nਸੁਖਾ vusson સ્ટલ્હીશનરીશ્રીશગરાશા\n28ਪੀ ટીની નીનહોમ ਇਨਾ dow ચેમમભાઈ\n८१ শৰ સ્ાવી শ্রী  পদঙীয়া અનુ ১১শ\nਕਾਰੀ ਸਾਰਾ ਮਾ ਸਾਈ ಸಿವಿ     ਸਾਹ ਕਾਰਾ ਕ੍ਰਾਈ সম্পতি\nतीळ2  ੨੦੦ ੧੮੧ ੦੦੦ శ్రమస్యర్ ಅಅರು দীপ\nભડી 41 ੧੧ 180300000000 આશ્રી ৫০০ শ্রীন্দ\nત્પતી મડી ਸਿਸ મનનાદ્રીન્જ 02",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_002",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 1,
+    "width": 1452,
+    "height": 2224
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1452,
+        2224
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4) Gomj6om  @3ai0nole!o&3e 1 mloooo mUoDOJol8OODoS @lala eioँa2l8लos 8a]33l>]3 ८८ mीळीmँ 0lg]o3० 69l8>]2 5) @lol69]330ी  momछी mीoopoाक३० 2 a)  6ू]98g]03० b) moDळl@oळ\n6) @lcool॰ maom० कीठmूpळी@8& 6n? a) 2ू1936000 20 b) Qfloco]cojom\n2\n7) d. @@$9@ @l3631308  ॰@$2@@109303&. l 09i (&el io , @o@m०, 01008. Qfliी) २ eia elo .(80183018०, tgellel, mnilm232. @त3loi0० )\nb. momodm0@l3631303  @0$8@@1098028 1. त७3८0० (2(00)0, olo$ , @2० , 2०1D@०) २. 639$ (63@2200, tooimom०, @l८७ , olDef)\nC. @l॰lolo @l30293@2& 1. \"03&0 (mQlo , @oobalo , @o8m&०, Glo॰el० ) २ 29n22g० (0fl@8०, 0ठl@2०, egloo , 002०)\nd. @l3633286$ Qo Omo0gogom)॰  @@$36@109303& 1 (803(00 08त3a0o (CCo06m० , OUocoQo 33@ 9809090 m8mू0०, (C०fD ) २ ड3aभmm० 33^6m० (@oe!&90० e1f@om०, 90880, 33०शीभीe@8, QIm0o, mDlol)\n2\ne. egoीoello0 @l30 00$86@1093@8&. 1. @oleत (@2(081, mo(0l8, @D(@ी, @9(@ ) २. ofl3]om (Of3oख७ , Ol3oooial, 03३०शी , 0l3 \nSECTON - D/ D- Qlllo०० ४० Marks IV. 1) codloo@ २क़o@० \"0$86@1098088. 8x% =4 a) 8कg600  23930m emalaleon 6&0मa132g  3lतjfa 303०am  @omoJom3 83a )० (00 (6601&0 23@0223  62]62ी0, 6)9]038g8@ी, 08290m9605@, Colmoooळmm   0D8@३) b) ८८ 80@9त )) 8tlolaleamms ogm@g @9 eam @ & @olom 80o0g0 @03@ 8 olamo Boolom (a0le]3&60 , C0612|ँ363300 onizegeze] @@fी, @]9001032@136$  @o$ -2",
+      "text_nfc": "4) Gomj6om  @3ai0nole!o&3e 1 mloooo mUoDOJol8OODoS @lala eioँa2l8लos 8a]33l>]3 ८८ mीळीmँ 0lg]o3० 69l8>]2 5) @lol69]330ी  momछी mीoopoाक३० 2 a)  6ू]98g]03० b) moDळl@oळ\n6) @lcool॰ maom० कीठmूpळी@8& 6n? a) 2ू1936000 20 b) Qfloco]cojom\n2\n7) d. @@$9@ @l3631308  ॰@$2@@109303&. l 09i (&el io , @o@m०, 01008. Qfliी) २ eia elo .(80183018०, tgellel, mnilm232. @त3loi0० )\nb. momodm0@l3631303  @0$8@@1098028 1. त७3८0० (2(00)0, olo$ , @2० , 2०1D@०) २. 639$ (63@2200, tooimom०, @l८७ , olDef)\nC. @l॰lolo @l30293@2& 1. \"03&0 (mQlo , @oobalo , @o8m&०, Glo॰el० ) २ 29n22g० (0fl@8०, 0ठl@2०, egloo , 002०)\nd. @l3633286$ Qo Omo0gogom)॰  @@$36@109303& 1 (803(00 08त3a0o (CCo06m० , OUocoQo 33@ 9809090 m8mू0०, (C०fD ) २ ड3aभmm० 33^6m० (@oe!&90० e1f@om०, 90880, 33०शीभीe@8, QIm0o, mDlol)\n2\ne. egoीoello0 @l30 00$86@1093@8&. 1. @oleत (@2(081, mo(0l8, @D(@ी, @9(@ ) २. ofl3]om (Of3oख७ , Ol3oooial, 03३०शी , 0l3 \nSECTON - D/ D- Qlllo०० ४० Marks IV. 1) codloo@ २क़o@० \"0$86@1098088. 8x% =4 a) 8कg600  23930m emalaleon 6&0मa132g  3lतjfa 303०am  @omoJom3 83a )० (00 (6601&0 23@0223  62]62ी0, 6)9]038g8@ी, 08290m9605@, Colmoooळmm   0D8@३) b) ८८ 80@9त )) 8tlolaleamms ogm@g @9 eam @ & @olom 80o0g0 @03@ 8 olamo Boolom (a0le]3&60 , C0612|ँ363300 onizegeze] @@fी, @]9001032@136$  @o$ -2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

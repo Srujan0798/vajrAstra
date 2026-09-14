@@ -1,0 +1,41 @@
+{
+  "page_id": "te_058",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0058pro_raw.pdf",
+    "page_index": 62,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "language study\nyou have seen last year that there are four types of sentences statements\nquestions commands and exclamations some sentences பேபமெ negative words\nlike not no never and have વ negative meaning\ncan you turn the following അമ്പലപ്പുഴ orders into negative ones 2\nexample put all the ingredients together\nnegative dont put all the ingredients together\nfold the paper in half again wash the guava\nmix the ingredients grind them in ત mixer\ncan you turn the following negative statements into positive affirmative ones 22\nexample i cannot understand\npositive can understand\nido not like that music at my dinner\nthe other did not know what to do use knew\ntravelling from china to india was not an easy task\nit made no difference to us use ે૧૧ difference\nnever trust વ friend who deserts you at વ pinch\ncan you make the statements positive without changing the meaning\nwhat do you have to do can all the above sentences be rewritten in this way\ndiscuss write down any two sentences you could rewrite without changing\nthe meaning\ntow\ntwo minutes of oral work\nthink of as many commands as possible within two\nminutes that begin with the following verbs\ncross help wash study take\ntow\ntwo minutes of oral work\nthink of ପି many negative words as possible\nwithin two minutes\nexample no one",
+      "text_nfc": "language study\nyou have seen last year that there are four types of sentences statements\nquestions commands and exclamations some sentences பேபமெ negative words\nlike not no never and have વ negative meaning\ncan you turn the following അമ്പലപ്പുഴ orders into negative ones 2\nexample put all the ingredients together\nnegative dont put all the ingredients together\nfold the paper in half again wash the guava\nmix the ingredients grind them in ત mixer\ncan you turn the following negative statements into positive affirmative ones 22\nexample i cannot understand\npositive can understand\nido not like that music at my dinner\nthe other did not know what to do use knew\ntravelling from china to india was not an easy task\nit made no difference to us use ે૧૧ difference\nnever trust વ friend who deserts you at વ pinch\ncan you make the statements positive without changing the meaning\nwhat do you have to do can all the above sentences be rewritten in this way\ndiscuss write down any two sentences you could rewrite without changing\nthe meaning\ntow\ntwo minutes of oral work\nthink of as many commands as possible within two\nminutes that begin with the following verbs\ncross help wash study take\ntow\ntwo minutes of oral work\nthink of ପି many negative words as possible\nwithin two minutes\nexample no one",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

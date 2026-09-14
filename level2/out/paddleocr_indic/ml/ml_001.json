@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_001",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1630,
+    "height": 2019
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1630,
+        2019
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-1-\neororasi oaes aglsco\nl\noicowwioolocel\nwoω ωi@lω,\n(ε)\n( )ω  ()\n() c     \nBo cscrgllo sc ioeie lcωiωi laceo so(e)\nlI\n\nSectct (o)\n(2)\n2c)\niωB\nωLaωcmcωisiiro8\n5 10\n(2)\ncc\n(2)\n¿GU\nueccroiecr\n(2)\n c\n(2)\ne8ccc\nOGGGO\nPLieLeelocoeole\neco coro oec \nLecmce cecis\noe gscr soiacescra   i lcorois  oca\nacis ole cmce\nc c  c c c\nco l  ec umeo cco e,c\n   cc  e\n o ac  c  c \ns cc cco  co\noocaocerw o leei oa ωiwweoracen\ncragfg wiooe loornoo raceo cosoe wcmwiiecolo\n  aoωc cc c\nsFoooisewogcro geoie soi@lecωoyωcPc iωiero 8cșuco\ncc\ngeo ecoaio glceucceo soioalac l\ncocac\n\n\nSecttti A  1so)\nim  rs.\nM\nC0ode 012\nMars 80\nlass : IX\nar  -011\nSet - Il\nSesssent\nSam o fo",
+      "text_nfc": "-1-\neororasi oaes aglsco\nl\noicowwioolocel\nwoω ωi@lω,\n(ε)\n( )ω  ()\n() c     \nBo cscrgllo sc ioeie lcωiωi laceo so(e)\nlI\n\nSectct (o)\n(2)\n2c)\niωB\nωLaωcmcωisiiro8\n5 10\n(2)\ncc\n(2)\n¿GU\nueccroiecr\n(2)\n c\n(2)\ne8ccc\nOGGGO\nPLieLeelocoeole\neco coro oec \nLecmce cecis\noe gscr soiacescra   i lcorois  oca\nacis ole cmce\nc c  c c c\nco l  ec umeo cco e,c\n   cc  e\n o ac  c  c \ns cc cco  co\noocaocerw o leei oa ωiwweoracen\ncragfg wiooe loornoo raceo cosoe wcmwiiecolo\n  aoωc cc c\nsFoooisewogcro geoie soi@lecωoyωcPc iωiero 8cșuco\ncc\ngeo ecoaio glceucceo soioalac l\ncocac\n\n\nSecttti A  1so)\nim  rs.\nM\nC0ode 012\nMars 80\nlass : IX\nar  -011\nSet - Il\nSesssent\nSam o fo",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

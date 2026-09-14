@@ -1,0 +1,41 @@
+{
+  "page_id": "te_015",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0015pro_raw.pdf",
+    "page_index": 155,
+    "width": 591.6365966796875,
+    "height": 796.1658325195312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        591.6365966796875,
+        796.1658325195312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "O\nN2\nమహారాష్ట రాష్ట పా్యపుస్తక నిర్మి మరియు పా్యప్రణాళిక పరిశోధన సంస్థ, పుణె\n &-    is\n₹ 75.00",
+      "text_nfc": "O\nN2\nమహారాష్ట రాష్ట పా్యపుస్తక నిర్మి మరియు పా్యప్రణాళిక పరిశోధన సంస్థ, పుణె\n &-    is\n₹ 75.00",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

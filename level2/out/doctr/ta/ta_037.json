@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_037",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+    "page_index": 84,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "A\n122,+2,23 + Z122\nI r.\n(G.STIGIT@D-SuLlObTLIQ Z1 + Z2 + Z3 # 0)\n12+2,+23\n67607001,\n2223 + Z,23 + Z122\nr.\nZ1 + Z2 + Z3\n610551855110 2.16\nI\n2=Z 6160TI FLDODTLITL19D5 5T60T5 eLpoUr51556T Oagib 61607 Bm1015.\nSjoi\n051161T605 z2 = Z.\n=lzP=lz\nA Iz1(z/-1)= 0,\nA |zl= 0, JQOUSI |zl=1.\nGastodton.sulcnishsl z? I\nIz/=0 A z=0 GTGOTLI5I U Sijal, zl -1=2-1-1-\nL\nZ = 1.\nZ\n0505 3 LEuLDDD Sijo150T OG35 25601 Hegglusonsltb Grijj5l 0505 15/160T(5\nSijO150T 0035.\n2.5.2 BU 35001GLioitonfoir Q1j35350UDSUID (Square roots of a complex number)\na+i ib -GÔT Quij5RLDGULD x+ iy 6760155.\n915TOIJI Va+ib =x+iy O1g x,yE R\na+ib = (r+w)-r-y'+i2y\nOLoul LODOILD 5MLIGOGOTL L15556001E FLDULG55\n22-y2 = a LDDOILD 2xy = b\n(*y)-(r-y)+4y-d+b\nx2+y2 LD605 2605LLITG\nx2+y2 = Va+b2\n12-y2 = a LDDDILD 1+y2-Va+b gBuaumons Si55\nX = t\nVa+b? + a\nVa+b? - a\nT\n6TGOTL OLIMOUITLD.\n2\n2\n2xy = b GTObTLId1a0(5b51 b LD605 6T600T 6Toof6 X LDDOILD y ABuool SpGI 5DUOLIIODOLITSOLLD\nLODDILD b Gom GTooflo X LDDMILD y Bu6ol GoJ6/GOJDI asplyspl.uspasumsaub OG55D.\n-25601 Va+ib = +\nb\na\nOh15b # 0. (:: Re(z) <lE1)\n2\n2\n91 55auLOL(cbsoxlabr Quijh5RLDOULD 5116007 533rb\nVa+ib =t\nb Z a\nD615 Z =a + ib Loppiibb # 0.\n2\nlbl\n2\n77\n5QUL4 6T600T561T\n12th_Maths_TM_Vol1_CH2_Complex! Numbers.indd 77\n16-12-2022 14:58:07",
+      "text_nfc": "A\n122,+2,23 + Z122\nI r.\n(G.STIGIT@D-SuLlObTLIQ Z1 + Z2 + Z3 # 0)\n12+2,+23\n67607001,\n2223 + Z,23 + Z122\nr.\nZ1 + Z2 + Z3\n610551855110 2.16\nI\n2=Z 6160TI FLDODTLITL19D5 5T60T5 eLpoUr51556T Oagib 61607 Bm1015.\nSjoi\n051161T605 z2 = Z.\n=lzP=lz\nA Iz1(z/-1)= 0,\nA |zl= 0, JQOUSI |zl=1.\nGastodton.sulcnishsl z? I\nIz/=0 A z=0 GTGOTLI5I U Sijal, zl -1=2-1-1-\nL\nZ = 1.\nZ\n0505 3 LEuLDDD Sijo150T OG35 25601 Hegglusonsltb Grijj5l 0505 15/160T(5\nSijO150T 0035.\n2.5.2 BU 35001GLioitonfoir Q1j35350UDSUID (Square roots of a complex number)\na+i ib -GÔT Quij5RLDGULD x+ iy 6760155.\n915TOIJI Va+ib =x+iy O1g x,yE R\na+ib = (r+w)-r-y'+i2y\nOLoul LODOILD 5MLIGOGOTL L15556001E FLDULG55\n22-y2 = a LDDOILD 2xy = b\n(*y)-(r-y)+4y-d+b\nx2+y2 LD605 2605LLITG\nx2+y2 = Va+b2\n12-y2 = a LDDDILD 1+y2-Va+b gBuaumons Si55\nX = t\nVa+b? + a\nVa+b? - a\nT\n6TGOTL OLIMOUITLD.\n2\n2\n2xy = b GTObTLId1a0(5b51 b LD605 6T600T 6Toof6 X LDDOILD y ABuool SpGI 5DUOLIIODOLITSOLLD\nLODDILD b Gom GTooflo X LDDMILD y Bu6ol GoJ6/GOJDI asplyspl.uspasumsaub OG55D.\n-25601 Va+ib = +\nb\na\nOh15b # 0. (:: Re(z) <lE1)\n2\n2\n91 55auLOL(cbsoxlabr Quijh5RLDOULD 5116007 533rb\nVa+ib =t\nb Z a\nD615 Z =a + ib Loppiibb # 0.\n2\nlbl\n2\n77\n5QUL4 6T600T561T\n12th_Maths_TM_Vol1_CH2_Complex! Numbers.indd 77\n16-12-2022 14:58:07",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

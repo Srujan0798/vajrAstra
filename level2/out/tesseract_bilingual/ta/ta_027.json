@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.6 நைட்ரஜனின்‌ ஆக்சைருகள்‌ மற்றும்‌ ஆக்சோஅமிலங்கள்‌\n\nரராழயாஈக woSDecaseFe மபர்‌ ய\n\n[மப\nहै कि ctl * அ மப பாப\n02௦0 04 ONHZ|\" 2 ௪8௯௪9 s+ ON ஜரா @\nமழு GGagigi ்‌ ்‌\ni}\nக மலடு க மலப்‌\nON ONZ | गण @ 19 & F 09 ௪௦ a ON | & | - पा a\nராமல agaaigi j ்‌\n[மப\nz 6 GG Tw mEgEFopiie g aie\nO+O4d7+ \"ர “(010442 PSP owes bt ON ல முல\nture GgihnAn ட்‌\nG Deasefengass9\n1\n€ 7 rT ப 82 முகர 1dias (௮)\nம யு WEF O MIE R e+ ON ஒலை ரண\nணத சமஜுலதை கள க\n[மப\n; ட ८७. ८ , ८, ८ ONT + எஸ  GoscsgiNarg 2 ON Deasete ஒழிய\nO HZ + OSH®NZ + (OS) ed € OS HE+ OS2A7+ “ONPNZ ணாக GGaggi\n[மப\nO'HZ + 01௪ ‘ON'HN | வழிக வையை I+ OM துய்ய\n09 Gdaggi\nCSE ius பம Gime comets e100, Mure ராடி\nமம்ம\n\n21-12-2022 12:90:04 | |\n\nXI U3-P-block.indd 73\n",
+      "text_nfc": "3.1.6 நைட்ரஜனின்‌ ஆக்சைருகள்‌ மற்றும்‌ ஆக்சோஅமிலங்கள்‌\n\nரராழயாஈக woSDecaseFe மபர்‌ ய\n\n[மப\nहै कि ctl * அ மப பாப\n02௦0 04 ONHZ|\" 2 ௪8௯௪9 s+ ON ஜரா @\nமழு GGagigi ்‌ ்‌\ni}\nக மலடு க மலப்‌\nON ONZ | गण @ 19 & F 09 ௪௦ a ON | & | - पा a\nராமல agaaigi j ்‌\n[மப\nz 6 GG Tw mEgEFopiie g aie\nO+O4d7+ \"ர “(010442 PSP owes bt ON ல முல\nture GgihnAn ட்‌\nG Deasefengass9\n1\n€ 7 rT ப 82 முகர 1dias (௮)\nம யு WEF O MIE R e+ ON ஒலை ரண\nணத சமஜுலதை கள க\n[மப\n; ட ८७. ८ , ८, ८ ONT + எஸ  GoscsgiNarg 2 ON Deasete ஒழிய\nO HZ + OSH®NZ + (OS) ed € OS HE+ OS2A7+ “ONPNZ ணாக GGaggi\n[மப\nO'HZ + 01௪ ‘ON'HN | வழிக வையை I+ OM துய்ய\n09 Gdaggi\nCSE ius பம Gime comets e100, Mure ராடி\nமம்ம\n\n21-12-2022 12:90:04 | |\n\nXI U3-P-block.indd 73\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_009",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0009pro_raw.pdf",
+    "page_index": 27,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "B\n(28)\nLJ/806\n111. The cost of depreciation generation funds is 116. Sales value variance is the difference between\nequal to\n(1)\nStandard sales and Actual sales\n(1)\nCost of equity\n(2)\nBudgeted sales and Actual sales\n(2)\nCost of debt\n(3)\nStandard sales and Budgeted sales\n(3)\nOverall cost of capital\n(4)\nIndustry sales and Firm's sales\n(4)\nCost of retained earnings\n117.\nWhen margin of safety is 20 percent and P/V\n112. The interest rate that equates the present\nratio is 60 percent, the profit will be\nvalue of the expected future cash flows to the\ninitial cost outlay is\n(1)\n30 percent\n(1)\nARR\n1!\n(2)\n33\npercent\n(2)NPV\n3\n(3)\n12 percent\n(3)\nIRR\n(4)\n16 percent\n(4)\nPayback\n118. The difference between fixed and variable\n113.\nThe\nmost\nimportant  variable\nwhile\ncost has a special significance in the\ncalculating the cost of debt is\npreparation of\n(1)\nEarnings\n(1)\nMaster budget\n(2)\nDividends\n(2)\nFlexible budget\n(3)\nInvestment\n(3)\nCash budget\n(4)\nTax rate\n(4)\nFunctional budget\n114.\nWhich one of the following will take place\n119.\nThe time normally taken in replenishing\nwhen  a fair return is not realized\nas\ninventory after the order has been placed is\ncapitalization ?\n(1)\nGestation time\n(1) Under capitalization\n(2)\n(2)\nModerate capitalization\nOperating time\n(3)  Over capitalization\n(3)\nLead time\n(4)\nNo capitalization\n(4)\nReplenishing time\n115. The ratio that indicates a firm's commitment\n120.\nMarket risk is measured by\nto meet short-term liabilities is called\n(1)\nBeta co-efficient\n(1) . Proprietory ratio\n(2)\nEBIT\n(2) Türnover ratio\n(3)\nDegree of leverage\n(3)\nROI\n(4)\nCurrent ratio\n(4)\nDegree of freedom",
+      "text_nfc": "B\n(28)\nLJ/806\n111. The cost of depreciation generation funds is 116. Sales value variance is the difference between\nequal to\n(1)\nStandard sales and Actual sales\n(1)\nCost of equity\n(2)\nBudgeted sales and Actual sales\n(2)\nCost of debt\n(3)\nStandard sales and Budgeted sales\n(3)\nOverall cost of capital\n(4)\nIndustry sales and Firm's sales\n(4)\nCost of retained earnings\n117.\nWhen margin of safety is 20 percent and P/V\n112. The interest rate that equates the present\nratio is 60 percent, the profit will be\nvalue of the expected future cash flows to the\ninitial cost outlay is\n(1)\n30 percent\n(1)\nARR\n1!\n(2)\n33\npercent\n(2)NPV\n3\n(3)\n12 percent\n(3)\nIRR\n(4)\n16 percent\n(4)\nPayback\n118. The difference between fixed and variable\n113.\nThe\nmost\nimportant  variable\nwhile\ncost has a special significance in the\ncalculating the cost of debt is\npreparation of\n(1)\nEarnings\n(1)\nMaster budget\n(2)\nDividends\n(2)\nFlexible budget\n(3)\nInvestment\n(3)\nCash budget\n(4)\nTax rate\n(4)\nFunctional budget\n114.\nWhich one of the following will take place\n119.\nThe time normally taken in replenishing\nwhen  a fair return is not realized\nas\ninventory after the order has been placed is\ncapitalization ?\n(1)\nGestation time\n(1) Under capitalization\n(2)\n(2)\nModerate capitalization\nOperating time\n(3)  Over capitalization\n(3)\nLead time\n(4)\nNo capitalization\n(4)\nReplenishing time\n115. The ratio that indicates a firm's commitment\n120.\nMarket risk is measured by\nto meet short-term liabilities is called\n(1)\nBeta co-efficient\n(1) . Proprietory ratio\n(2)\nEBIT\n(2) Türnover ratio\n(3)\nDegree of leverage\n(3)\nROI\n(4)\nCurrent ratio\n(4)\nDegree of freedom",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

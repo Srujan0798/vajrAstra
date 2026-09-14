@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_094",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 49,
+    "width": 1050,
+    "height": 1678
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1050,
+        1678
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "uy Et..'g e .Mr Tuiu stSo . num ygan.y.\nStn ಸ.\nIst. c+as, aa t oeuneyy tas i tt?\nIrriruyuei urs- Oatls en tso ys yyty, ouy?\n+tets +yu+too tarrwseyy a++t Fl s, +?\n++ +Cur+  ee++++++r++ +a et ++cu'+ t\nDe io Kuaey rse y a? ky ಸhre eel ays?\nBe a cyuovr she dut id o ptyurlu  ?\nLie tee uyo si yenk auwson de\nTh.\n,sla'nb.\n,-D- -y\nIrt t, hauey urs er wg rcoeye a e?\nSu ttem or auer yidcn se -f aau?\nSca deas.te t rnn. or fung, irisr.\nವuuyut -uyio e  tohಲಲs -ಲ್ತ ತಾ\nIi.\n+yh+e!\nIaa. \n1?",
+      "text_nfc": "uy Et..'g e .Mr Tuiu stSo . num ygan.y.\nStn ಸ.\nIst. c+as, aa t oeuneyy tas i tt?\nIrriruyuei urs- Oatls en tso ys yyty, ouy?\n+tets +yu+too tarrwseyy a++t Fl s, +?\n++ +Cur+  ee++++++r++ +a et ++cu'+ t\nDe io Kuaey rse y a? ky ಸhre eel ays?\nBe a cyuovr she dut id o ptyurlu  ?\nLie tee uyo si yenk auwson de\nTh.\n,sla'nb.\n,-D- -y\nIrt t, hauey urs er wg rcoeye a e?\nSu ttem or auer yidcn se -f aau?\nSca deas.te t rnn. or fung, irisr.\nವuuyut -uyio e  tohಲಲs -ಲ್ತ ತಾ\nIi.\n+yh+e!\nIaa. \n1?",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

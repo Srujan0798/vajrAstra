@@ -1,0 +1,41 @@
+{
+  "page_id": "te_057",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0057pro_raw.pdf",
+    "page_index": 16,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "38eA chic\n3747 377 faheft ustef TVe # TIoETa 373TIRUPIT chi RTRIChTeT affiset fereTCH,\nfortt 3Tf4 decht aiffchrul chit ta feuquft GH3 :\nTV chl HIH\nfastedit\n3TTIRU ohT TIH\nfaar ter\nalca sud E\nII gadreft 311-61 EeR aHet II\ntal facchlic chl Ehls STTYUT\n461 3it yya dlcei adiait I\nHGa E4 d RCI\nH1O7 7 a STfeRd à s7 vfia N 3dRT I\nP. ECHT * 3TIHR ShH CIICH fenat :\nP. Uch-7 aleii d 3rdR fmat :\n() feicht a sft a aei chl 345R feei I\n(E) farsen chel Tart eft ?\n(E) Uch HTeT 354 ahl tEl dur I\n(E) dalMeIT chal ZIT-HT i1 TRIT ?\n(T) a-t, THoR - YHoh doH C7T I\n(57) GIA HT ydf 30ch CRIT chtdi ?\n(EI) ER * 37717 i CRIIG ST 1s 2T I\n(31) THK-YHCh a fentrà JeT ChTCT ?\nPICT ci 3TR\nL1YL6L\nelfeteT\n91\naegy\nfaaefad VIcai * dEl aGrioh dlcel # RITT chten ferat :\nqieffert chl dri chl PRITT Hal ChHI allfay T\nTRGT\nGAR\nTIVIT\nHiseIt\nSE\nda\n5S",
+      "text_nfc": "38eA chic\n3747 377 faheft ustef TVe # TIoETa 373TIRUPIT chi RTRIChTeT affiset fereTCH,\nfortt 3Tf4 decht aiffchrul chit ta feuquft GH3 :\nTV chl HIH\nfastedit\n3TTIRU ohT TIH\nfaar ter\nalca sud E\nII gadreft 311-61 EeR aHet II\ntal facchlic chl Ehls STTYUT\n461 3it yya dlcei adiait I\nHGa E4 d RCI\nH1O7 7 a STfeRd à s7 vfia N 3dRT I\nP. ECHT * 3TIHR ShH CIICH fenat :\nP. Uch-7 aleii d 3rdR fmat :\n() feicht a sft a aei chl 345R feei I\n(E) farsen chel Tart eft ?\n(E) Uch HTeT 354 ahl tEl dur I\n(E) dalMeIT chal ZIT-HT i1 TRIT ?\n(T) a-t, THoR - YHoh doH C7T I\n(57) GIA HT ydf 30ch CRIT chtdi ?\n(EI) ER * 37717 i CRIIG ST 1s 2T I\n(31) THK-YHCh a fentrà JeT ChTCT ?\nPICT ci 3TR\nL1YL6L\nelfeteT\n91\naegy\nfaaefad VIcai * dEl aGrioh dlcel # RITT chten ferat :\nqieffert chl dri chl PRITT Hal ChHI allfay T\nTRGT\nGAR\nTIVIT\nHiseIt\nSE\nda\n5S",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

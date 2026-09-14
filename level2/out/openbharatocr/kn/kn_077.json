@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_077",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0038pro_raw.pdf",
+    "page_index": 216,
+    "width": 2339,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        2339,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಕ ಸಾಹಿತ್ಯ ದರ್ಶನ-೪\n\n೧. ವಾರಿಕಲ್ಲಾನೆ - ಆಲಿಕಲ್ಲಿನ ಆನೆ\n\nವಜ್ರದ ಮೃಗೇಂದ್ರ = ವಜ್ರದ ಸಿಂಹ\n\nಹೋರಿ = ಹೋರಾಡಿ\n\nಹೊದುಕುಳಿಗೊಂಡು = ನೋವು ಸಹಿಸಿ\n\nಭೂರಿ ಭೂತಗಳೆ = ಅಸಂಖ್ಯ ಕ್ಷುದ್ರ ಜೀವಿಗಳೆ\nಭೂಸತಿಯ ಕಾ೦ತ = ಭೂದೇವಿಯ ಗಂಡ (ವಿಷ್ಣು)\nನಾಮಧಾರಿಗಳು = ವೈಷ್ಣವ ಭಕ್ತರು\n\nತೊಡರು = ಸಂಬಂಧ; ಸಂಕೋಲೆ; ಆಭರಣ\n\n. ಪಾಶ = ಹಗ್ಗ\nvay\n\nದಾನವಾರಿ (ಆದಾನವ-ಅರಿ) = ರಾ\nಗೋವತ್ಸ = ಕರುಗಳು\n\nಸರ ಶತ್ರು (ವಿಷ್ಣು)\n\nrey\n\nके ೫ के ೫%\n\nಸಮಾಜ ಚಿಂತನೆ: ನೀತಿ ಬೋಧನೆ\n\nCf\n",
+      "text_nfc": "ಕನಕ ಸಾಹಿತ್ಯ ದರ್ಶನ-೪\n\n೧. ವಾರಿಕಲ್ಲಾನೆ - ಆಲಿಕಲ್ಲಿನ ಆನೆ\n\nವಜ್ರದ ಮೃಗೇಂದ್ರ = ವಜ್ರದ ಸಿಂಹ\n\nಹೋರಿ = ಹೋರಾಡಿ\n\nಹೊದುಕುಳಿಗೊಂಡು = ನೋವು ಸಹಿಸಿ\n\nಭೂರಿ ಭೂತಗಳೆ = ಅಸಂಖ್ಯ ಕ್ಷುದ್ರ ಜೀವಿಗಳೆ\nಭೂಸತಿಯ ಕಾ೦ತ = ಭೂದೇವಿಯ ಗಂಡ (ವಿಷ್ಣು)\nನಾಮಧಾರಿಗಳು = ವೈಷ್ಣವ ಭಕ್ತರು\n\nತೊಡರು = ಸಂಬಂಧ; ಸಂಕೋಲೆ; ಆಭರಣ\n\n. ಪಾಶ = ಹಗ್ಗ\nvay\n\nದಾನವಾರಿ (ಆದಾನವ-ಅರಿ) = ರಾ\nಗೋವತ್ಸ = ಕರುಗಳು\n\nಸರ ಶತ್ರು (ವಿಷ್ಣು)\n\nrey\n\nके ೫ के ೫%\n\nಸಮಾಜ ಚಿಂತನೆ: ನೀತಿ ಬೋಧನೆ\n\nCf\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

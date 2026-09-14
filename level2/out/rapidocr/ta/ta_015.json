@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_015",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0015pro_raw.pdf",
+    "page_index": 129,
+    "width": 595.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "114\nfer  str\nfage 1\nfax 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.8, 1.11, 1.12, 1.13, 1.14,\n1.15, 1.16, 1.20, 1.22, 1.23, 1.26, 1.28, 1.29, ftx 1.30 379TT\nFT\nfax 1.7, 1.9, 1.10, 1.17, 1.18, 1.19, 1.21, 1.24:\nfT 1.27:\nh ad Ta Tr dis Te f\nfaga 2\nfa 2.1: 3 3E 3 54 FE1, TE\nfa 2.2, 2.6: IRA GTAdC HTT\nfax 2.3, 2.5, 2.10:\nHi  T T a, T fa\nfa3 2.4, 2.7, 2.9, 2.12, 2.13: RAA HiNETCT4, F fC\nfax 2.8: 015C13\nfara 3\nfaX 3.1, 3.10: ARAE GACC HTT\nfa3 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9: HRATA HHETCT4, Te faCC\nfarr 4\nfax 4.1, 4.5, 4.8, 4.9, 4.12, 4.13, 4.14, 4. 15, 4.16, 4.17,\n4.18, 4.19, 4.21, 4.22, 4.23, 4.24, 4.25, 4.26, 4.27, 4.29,\n4.31, Fa3 4.32 3R 33 372 FTd F\n  3   \nfax 4.2: 15C3\nfax 4.3, 4.11, 4.28, 4.30:\nh ad T Tr is Te f\nfaX 4.4, 4.6, 4.7, 4.20: TRATA HiNETCTE, Te fGCC",
+      "text_nfc": "114\nfer  str\nfage 1\nfax 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.8, 1.11, 1.12, 1.13, 1.14,\n1.15, 1.16, 1.20, 1.22, 1.23, 1.26, 1.28, 1.29, ftx 1.30 379TT\nFT\nfax 1.7, 1.9, 1.10, 1.17, 1.18, 1.19, 1.21, 1.24:\nfT 1.27:\nh ad Ta Tr dis Te f\nfaga 2\nfa 2.1: 3 3E 3 54 FE1, TE\nfa 2.2, 2.6: IRA GTAdC HTT\nfax 2.3, 2.5, 2.10:\nHi  T T a, T fa\nfa3 2.4, 2.7, 2.9, 2.12, 2.13: RAA HiNETCT4, F fC\nfax 2.8: 015C13\nfara 3\nfaX 3.1, 3.10: ARAE GACC HTT\nfa3 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9: HRATA HHETCT4, Te faCC\nfarr 4\nfax 4.1, 4.5, 4.8, 4.9, 4.12, 4.13, 4.14, 4. 15, 4.16, 4.17,\n4.18, 4.19, 4.21, 4.22, 4.23, 4.24, 4.25, 4.26, 4.27, 4.29,\n4.31, Fa3 4.32 3R 33 372 FTd F\n  3   \nfax 4.2: 15C3\nfax 4.3, 4.11, 4.28, 4.30:\nh ad T Tr is Te f\nfaX 4.4, 4.6, 4.7, 4.20: TRATA HiNETCTE, Te fGCC",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

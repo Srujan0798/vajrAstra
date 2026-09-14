@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_013",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 21,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "=p Dow ~\n\n1 Hay, ८००९४ दर i\n2 GAMO NAG rkog = HomOTGNaTITE! ©\n— @ 8. a0 BE sOVaLy =P Bev ve\n2 8. Kent => mang UC\n© BAB, GH.* KF 00९00. ने Peanw ५.\nOe BNO > we 4\nWeke resi > KROGTFoW ५०,\n© MiadKo asewaes oot  epagene oe\n_® & SHosye GUT? => DaIsoe कक “op 4\n\n@ छठ : १७: DosrdsmeP\n\nDOES aga\n\n@ Vo. 6९. aooy => Wad Dory\n\n@ Bu ao. dado > ng sy ty\n\n@) ' B8Bq099_8 038 juke eo\n\n@ ಪಿಡ್ಯ पता स्डोएएंक ot ರಗಾಚಾಯ 4 कि व तत्काल\n\n_ & adigdag . -.. ,। नर @. 26. सुर HA > फ९त8-\n\n_ OP Sad ym wd a\n\n— ose oe RS. KF peSowve opm oo\n2 attorna Ado mols guipay & OB eS RC ROgG MOS > OAH ना ६\n\nQO wu ence 80S: > enw\n\n_ © hbieg, Sdevar nes PRET\n\n_ | PQ) Bork ork smoww DUMB पं Hot Mone snoww\n\n=>t\n\nदा es ofp ean\n\n2) 9 vt nna\n\n_ EKO. Beaosowp sD aeea Be SoBe) 2380, 66४0 GODS). : SD Sema Be 30) Be!)\n\nन serie के «isi wed EEE O DO: ६७ . MAM 20V PUGS... Lope (वो\n\n__ G tnady, Ube, mooning, \"oR qn Bay, 28, MHOINTG, ~ WOR न oS eh\n— गे गन we SrA Bw ov =P Gy. 2 ag te eee\nटी खा न  aner ed कर OP.  . MANS Dove Bs oy ०0\n\nEB Be. ७९ तो ab Ge KA) en)\n\nN Gate (23 Ke cuts Soak oajont La gun, =r D2 Book asians Rang =p Due.\n\n|... @ । agdod dsm Fh\n\nMOVE rt Wa कराकारम न हा et ee a pant\n\n-, PSVoRAa rn)\n\n| @ soag?s ofcarng,. «\n\nVo CSP Big Cy EY\n2D 7\n\n© Soir tog A Laan ean :\n\n(SPM जित ey (0\n\n64) 0D eh Cr eT कु... Oe ae ee fh\n\n|] >> Four है Fn GSS)\n\nScanned by CamScanner\n",
+      "text_nfc": "=p Dow ~\n\n1 Hay, ८००९४ दर i\n2 GAMO NAG rkog = HomOTGNaTITE! ©\n— @ 8. a0 BE sOVaLy =P Bev ve\n2 8. Kent => mang UC\n© BAB, GH.* KF 00९00. ने Peanw ५.\nOe BNO > we 4\nWeke resi > KROGTFoW ५०,\n© MiadKo asewaes oot  epagene oe\n_® & SHosye GUT? => DaIsoe कक “op 4\n\n@ छठ : १७: DosrdsmeP\n\nDOES aga\n\n@ Vo. 6९. aooy => Wad Dory\n\n@ Bu ao. dado > ng sy ty\n\n@) ' B8Bq099_8 038 juke eo\n\n@ ಪಿಡ್ಯ पता स्डोएएंक ot ರಗಾಚಾಯ 4 कि व तत्काल\n\n_ & adigdag . -.. ,। नर @. 26. सुर HA > फ९त8-\n\n_ OP Sad ym wd a\n\n— ose oe RS. KF peSowve opm oo\n2 attorna Ado mols guipay & OB eS RC ROgG MOS > OAH ना ६\n\nQO wu ence 80S: > enw\n\n_ © hbieg, Sdevar nes PRET\n\n_ | PQ) Bork ork smoww DUMB पं Hot Mone snoww\n\n=>t\n\nदा es ofp ean\n\n2) 9 vt nna\n\n_ EKO. Beaosowp sD aeea Be SoBe) 2380, 66४0 GODS). : SD Sema Be 30) Be!)\n\nन serie के «isi wed EEE O DO: ६७ . MAM 20V PUGS... Lope (वो\n\n__ G tnady, Ube, mooning, \"oR qn Bay, 28, MHOINTG, ~ WOR न oS eh\n— गे गन we SrA Bw ov =P Gy. 2 ag te eee\nटी खा न  aner ed कर OP.  . MANS Dove Bs oy ०0\n\nEB Be. ७९ तो ab Ge KA) en)\n\nN Gate (23 Ke cuts Soak oajont La gun, =r D2 Book asians Rang =p Due.\n\n|... @ । agdod dsm Fh\n\nMOVE rt Wa कराकारम न हा et ee a pant\n\n-, PSVoRAa rn)\n\n| @ soag?s ofcarng,. «\n\nVo CSP Big Cy EY\n2D 7\n\n© Soir tog A Laan ean :\n\n(SPM जित ey (0\n\n64) 0D eh Cr eT कु... Oe ae ee fh\n\n|] >> Four है Fn GSS)\n\nScanned by CamScanner\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

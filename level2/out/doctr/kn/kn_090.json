@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_090",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+    "page_index": 9,
+    "width": 1654,
+    "height": 2338
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2338
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "D0\nos 22ga02 Notod ToTne con Dwowid, soawpnsas Notd Nosne\nNooabr a00000, wone GODSD dese0ronss wepag NOne w3wodo ael aasanwin\nXowopado To0d Hone aos 8000FR30F056 soaas HORO (3.70.400 se80aos) tot\naswodd denVa 3os0na Nowow aodroso Sounya des2, AOXO egearine 2yr1 WodeOs\neosas w30odd wenya (E.NO. 508 2080303) soaas deeOs ayosa wn enz Jas\ninadoges adersad.\naees 080ados, UNOFEE Totod Hone epsabas 1959 a3s UNOFEE Totod Hone Dosabntes\n1960 d dosane eatesne corto Totod None 23C0 estoenen Rabsdoud.coms aseQredaon\nvoereg aetoroa a33 de eoxessosscon onsada esowow-2, 250N03r00 doarde groyasered\ngaortes aas 2N0arsos Nosddo gnogasetn gaortee age2as Sdaenes nabsdougd.com\nBossoswoh grogaeson aan agoore aon nasaos eny gas ERoepaos as0ormo@moonen\naderaseond.\nay8 eosne en enn Noagioon adoaba, O0es Noted 23000000 aebtode NOne 0der8ad.\n(t.0 OT . 23n2370t)\nesasogdo,\nNatod 25N0rs0 aeosed,\n23oneod.",
+      "text_nfc": "D0\nos 22ga02 Notod ToTne con Dwowid, soawpnsas Notd Nosne\nNooabr a00000, wone GODSD dese0ronss wepag NOne w3wodo ael aasanwin\nXowopado To0d Hone aos 8000FR30F056 soaas HORO (3.70.400 se80aos) tot\naswodd denVa 3os0na Nowow aodroso Sounya des2, AOXO egearine 2yr1 WodeOs\neosas w30odd wenya (E.NO. 508 2080303) soaas deeOs ayosa wn enz Jas\ninadoges adersad.\naees 080ados, UNOFEE Totod Hone epsabas 1959 a3s UNOFEE Totod Hone Dosabntes\n1960 d dosane eatesne corto Totod None 23C0 estoenen Rabsdoud.coms aseQredaon\nvoereg aetoroa a33 de eoxessosscon onsada esowow-2, 250N03r00 doarde groyasered\ngaortes aas 2N0arsos Nosddo gnogasetn gaortee age2as Sdaenes nabsdougd.com\nBossoswoh grogaeson aan agoore aon nasaos eny gas ERoepaos as0ormo@moonen\naderaseond.\nay8 eosne en enn Noagioon adoaba, O0es Noted 23000000 aebtode NOne 0der8ad.\n(t.0 OT . 23n2370t)\nesasogdo,\nNatod 25N0rs0 aeosed,\n23oneod.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

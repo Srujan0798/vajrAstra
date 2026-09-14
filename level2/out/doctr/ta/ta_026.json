@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_026",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0026pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT\n6\nN Goumie\n5LDLD5TO JIJT\nGLDOUBOOGU OITGOOTLITLD 260T 6\n01600155 560015LD\nLDDMILD\nYoTofulud\nSLDLD5TO JIJF aloaulooumt LITLETG OLp15L SLLBSOT B1p GalafluaLbutL5\nLJ6Torfla 500615510D\nSGOTLITGDLD LDoofl35GBWILDDD OFUQIID Qu5hi5DDgpiD 25L\nXIIStd- Business Maths & StatTME Preliminary.indd 1\n13-12-2022 15:42:50",
+      "text_nfc": "IT\n6\nN Goumie\n5LDLD5TO JIJT\nGLDOUBOOGU OITGOOTLITLD 260T 6\n01600155 560015LD\nLDDMILD\nYoTofulud\nSLDLD5TO JIJF aloaulooumt LITLETG OLp15L SLLBSOT B1p GalafluaLbutL5\nLJ6Torfla 500615510D\nSGOTLITGDLD LDoofl35GBWILDDD OFUQIID Qu5hi5DDgpiD 25L\nXIIStd- Business Maths & StatTME Preliminary.indd 1\n13-12-2022 15:42:50",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_007",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0008pro_raw.png",
+    "page_index": 0,
+    "width": 371,
+    "height": 520
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        371,
+        520
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "mlotalrollapr4\"1051\nण\"n\"*-0*- mie7  nllswnsler IERकOप +43*-\"\"8 Iunwaolm cr 7*07+ %%[- omput <40!2113 mlzoo mlainla QLण mut 990@361 llt41@\"0100 ompulajanera \"losloemae Pen2aaln1 Temmonll caय\" ] ntl rvchrmmet uluidaic mull tewaninc trou 2412 TEollatus Inro 10\"25750 lanu OWECTY nd Irmcoletrs ln unma arholl in Outctic Ienclurino udiviripnut and huleca Jespecl ut holdine Aknrainant )eplitlcd in aol Icnur- eEclion L Ic*CI Dl which ecquficn  PCCW iBucd Ghall sublp Irrmc Eam0  ' Creaitu orovlsiar crrnEnt प rutelYIE  ThEICll cale7] UWCCIS \"7\"2000201<1115 4708+2^\"0 ntcrooo utDIEE monu - wemtuoelo ru=la cuieग\"rlw-\"1E cttDP U77 + wrroamum-laolad 717||411*\"0^017;@010 Bradelelepणाa3m फ Swa\" RiRlrett ०१C-T८ moEie le lo 7\"0]4[ 70 Biaw2lou8e |250+@+913 % ]o0 WUC treColao Tlrl JiLom oटruceगuuo Ieolueemtowriu Tulc lowln2zal<3043,0 एaR2 4६7 aLcleeanle mllantl itioaal ocoai ca SIt 5+7lplca miToila dट%+ 7171710 tगisiuo- maीस2l% FEle !21:31<1 ommoan{ 010(.0979\nणट७\" Jto0\"39 cरl Elzruod ttt Mbo Tucna२।णा Rieloes 0\"7=21[01 ण iauu-जuuanilol<४leu mianaDlloial 7t Claषn% 8!3274230}- nahा0+%। ncaamv mngrolaed Fudtmo [7 011# [n)7<9 mla ++]5!LDए 11[2%71[ qupiaoiololoanm +lslaam   gamoc <l 5l@!70 20r-1 nmnool ,0!00+20 msa %a151030 mrrmv 0]12672217\"] CuRur दasoo 070\"71@11517 v० 5%9-1\" nmta==Dlliie slSIफ7D - mtclo glse|wine mpmbeonlo mi+almtJt woreDuce   muroguen 0\"850.111`ए PDaroiml7l lml) clmimuo a+7101 \"me47+5239 cislaoni rllal nicitunoom nlanla d)900. niaol=|c: णLoLnono 0]) [407-9 ntreIolcatd oruliaena mlenl laze D२ [ Carslcom pmboem mudgrdred Tua nalolmialot \"DI=@ ejslmot -90*37)m9L0- आoly तuzpn Clडl9 D0u OkorJratrule mb:ltmJ%] 77(1) 071201-0 UNLPOTlac \"आम r२-प mlca४ ~ Joaraa  EllmlnimmaainciaDo 7]71* rr0 ZATA mlenun Q५cs  s।aiuउ शारर्ई",
+      "text_nfc": "mlotalrollapr4\"1051\nण\"n\"*-0*- mie7  nllswnsler IERकOप +43*-\"\"8 Iunwaolm cr 7*07+ %%[- omput <40!2113 mlzoo mlainla QLण mut 990@361 llt41@\"0100 ompulajanera \"losloemae Pen2aaln1 Temmonll caय\" ] ntl rvchrmmet uluidaic mull tewaninc trou 2412 TEollatus Inro 10\"25750 lanu OWECTY nd Irmcoletrs ln unma arholl in Outctic Ienclurino udiviripnut and huleca Jespecl ut holdine Aknrainant )eplitlcd in aol Icnur- eEclion L Ic*CI Dl which ecquficn  PCCW iBucd Ghall sublp Irrmc Eam0  ' Creaitu orovlsiar crrnEnt प rutelYIE  ThEICll cale7] UWCCIS \"7\"2000201<1115 4708+2^\"0 ntcrooo utDIEE monu - wemtuoelo ru=la cuieग\"rlw-\"1E cttDP U77 + wrroamum-laolad 717||411*\"0^017;@010 Bradelelepणाa3m फ Swa\" RiRlrett ०१C-T८ moEie le lo 7\"0]4[ 70 Biaw2lou8e |250+@+913 % ]o0 WUC treColao Tlrl JiLom oटruceगuuo Ieolueemtowriu Tulc lowln2zal<3043,0 एaR2 4६7 aLcleeanle mllantl itioaal ocoai ca SIt 5+7lplca miToila dट%+ 7171710 tगisiuo- maीस2l% FEle !21:31<1 ommoan{ 010(.0979\nणट७\" Jto0\"39 cरl Elzruod ttt Mbo Tucna२।णा Rieloes 0\"7=21[01 ण iauu-जuuanilol<४leu mianaDlloial 7t Claषn% 8!3274230}- nahा0+%। ncaamv mngrolaed Fudtmo [7 011# [n)7<9 mla ++]5!LDए 11[2%71[ qupiaoiololoanm +lslaam   gamoc <l 5l@!70 20r-1 nmnool ,0!00+20 msa %a151030 mrrmv 0]12672217\"] CuRur दasoo 070\"71@11517 v० 5%9-1\" nmta==Dlliie slSIफ7D - mtclo glse|wine mpmbeonlo mi+almtJt woreDuce   muroguen 0\"850.111`ए PDaroiml7l lml) clmimuo a+7101 \"me47+5239 cislaoni rllal nicitunoom nlanla d)900. niaol=|c: णLoLnono 0]) [407-9 ntreIolcatd oruliaena mlenl laze D२ [ Carslcom pmboem mudgrdred Tua nalolmialot \"DI=@ ejslmot -90*37)m9L0- आoly तuzpn Clडl9 D0u OkorJratrule mb:ltmJ%] 77(1) 071201-0 UNLPOTlac \"आम r२-प mlca४ ~ Joaraa  EllmlnimmaainciaDo 7]71* rr0 ZATA mlenun Q५cs  s।aiuउ शारर्ई",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

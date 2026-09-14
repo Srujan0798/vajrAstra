@@ -1,0 +1,41 @@
+{
+  "page_id": "te_040",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0040pro_raw.pdf",
+    "page_index": 139,
+    "width": 1686,
+    "height": 2267
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1686,
+        2267
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "C\n3006059 559 abs o5s 2818 38050 aobs SEOVODS 38555 Kors, 6JE3\nK Tfora surdl ziteft (dog HTEZIH)\n787.00\n:",
+      "text_nfc": "C\n3006059 559 abs o5s 2818 38050 aobs SEOVODS 38555 Kors, 6JE3\nK Tfora surdl ziteft (dog HTEZIH)\n787.00\n:",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

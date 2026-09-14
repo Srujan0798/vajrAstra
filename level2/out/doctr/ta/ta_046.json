@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_046",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 0,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "10 AIRT 0 2 140\n(1)\ndeit TR TT N icrileTl\nHeft uta HaR yua, AHT a farilet II\n3TET yeT TT Yteft Rivifd, 37 avidt HICT II\n&TE sifeoht chlède unfrd,\n3\nTYT\nToo THICT II\nFRT i Ty tidt YECTs, Hod deT TIYICT II\n(2)\naRi aGReT HOT chi, HaH chi HT HICT ChTl\nHAT N 34R1 TRT H7aT, HHCh yrf aR 31107 chtll\n0771CH10\naDn\n3H5 THE d8 S fart à 3TRIT, GIfHH CH o FR dlat cht\nTre Trof dcH H67 GRet, sfidet YoT Halat chill\nFART t TY FRER-IR, 3TG TiTeT TIaHCh II\nHRT\n-\nReprint 2026-27",
+      "text_nfc": "10 AIRT 0 2 140\n(1)\ndeit TR TT N icrileTl\nHeft uta HaR yua, AHT a farilet II\n3TET yeT TT Yteft Rivifd, 37 avidt HICT II\n&TE sifeoht chlède unfrd,\n3\nTYT\nToo THICT II\nFRT i Ty tidt YECTs, Hod deT TIYICT II\n(2)\naRi aGReT HOT chi, HaH chi HT HICT ChTl\nHAT N 34R1 TRT H7aT, HHCh yrf aR 31107 chtll\n0771CH10\naDn\n3H5 THE d8 S fart à 3TRIT, GIfHH CH o FR dlat cht\nTre Trof dcH H67 GRet, sfidet YoT Halat chill\nFART t TY FRER-IR, 3TG TiTeT TIaHCh II\nHRT\n-\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_027",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0028pro_raw.pdf",
+    "page_index": 31,
+    "width": 858,
+    "height": 1319
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        858,
+        1319
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "26\nam\n:G.\noeaioonoono?\n:.\n?  \nd e\nple.ooces\noodomon.\n;.\neeog\nqogo?\no\nwo   oow\n,\ne\n\n\nSoleoleno m. cco\n\n.o\no\nmoo\nusl m.\n  \nel\nowo.\n\nr go\n\"oo\n(mmmcom.\n\"ilasoom aloloem ?\"\noL:一o0.",
+      "text_nfc": "26\nam\n:G.\noeaioonoono?\n:.\n?  \nd e\nple.ooces\noodomon.\n;.\neeog\nqogo?\no\nwo   oow\n,\ne\n\n\nSoleoleno m. cco\n\n.o\no\nmoo\nusl m.\n  \nel\nowo.\n\nr go\n\"oo\n(mmmcom.\n\"ilasoom aloloem ?\"\noL:一o0.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

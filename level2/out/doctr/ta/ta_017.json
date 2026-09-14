@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_017",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 4,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "46 Trdch\ntiyof ARTETT TisheT N SI9T chT chsiet F2TT à STI9T cft FRTRTT a fafe TTRT TR faenferent t\ngRechuT 377 urat chl fachlet chidt àl faheft eft HTTREF à CRIT-CRIT 3778T77 aldt à sro 2 N\ntad EU 3nyarRch faeleteit FRTETT ROETT # toft ERUTT N STYT FRTRTUT # Te CTRRT E do a\ntaifend fary JT Hohd à Ho-feidl, JT TIYRT 37t PEITT, tada 3TE2dT ta 31012HIrHch\nfeid, RICCTT ta Hitshhtch dd-il, TaTE2Z Ud gRlelefti HT9T tft Yoiieidl à 3TTTT à for\nfaenferent N STT9T * tiaigeruff Farny # TCHIrHch T&T t yfa HHS Art 377 a fafier duftdeh,\nHIHTICh, Hichideh Affiet # 31f64 IAT shT Yo-irT TRIT Ch Hohl faerreff 374-11 gid chT\n3747 GTT # che Hoh, 374-f1 tamifach Hu-sfeidt Ua chr4-T ahT yifad sh uchl 7I-YIYRT 377\n34chT adHTT ticaf N RITT HTYT ahT Uch Herquuf CTRT à sert TIYRPId JT 377 34ch1 3TfTA\nTIT ufuferd à fortra faenferet N 3747 Afa-Rareii 377 VI4RT37T i yfa fadchyuf yie AaT\na ual SI9T 467-461 chT TTRRT #6 sft à fon faerreff tada 372201 ta 371HIcHch fedoh arl\nHTOT a HT2T, adurt 377 3da fT ETCHT3TT shT aifehch farriqur th Hohl faenfefeit N TICETeT ta\nHitshldch adt t fachiel cht ET N wad EU gRasfer HofIdT a 3Tefer Hiadl ChT HIA dat\na 477 HRdrr PedT 377 3TRHdT faHToT tft agiger idt th Hdd Affa àl HIAT ahl HHgT ch\n&THAT fachfed ChHT clladd, HIHTCh, Afden, TTCETeT ureit ShT fachet CHT sft àl TalE2 ta\ngRieleft à 3TT3TT à fon faerreff TIRIRCH A HIfHCh 54 à Ppd , 374 Tarer ghechUt a 3Taai\nchT fachltt a 377 HaHrHch td HTHICh 74 à uRyaadt 3T121 STIAT chT FraIT-fergT troft\nfaqer RTTT t ya HHST GHIT t HTPT-HTOT fateTreff i HidrHch, HHIrHch 37t HIHTCh Tare\nt fay sft Herayuf a 377 a afach, Hiehlich A HTHINICh TRORT, TRICRUT, de, chell, fasi,\nqict 377 A # ya Hor EaTl\nCH&TT 7 fT fedt Hgyyedeh HrER 3114ch1 arat-fuart cft Uch 37ic 377 3TGGRICH HT\nR 1 JTTt t fy duR fT TE àl #6 Yedch 37151 t faerfereni, HHIT 377 TTOE cft 3144chd131,\nsfeeit 377 377817377 chl qT chtt t 3E7 a fachfed tft TTE à EHR faerreff 3747 3T4YRT t\nHHIST, 3747 HETT TIOZ t TiRaRTeft sAdElT 377 titeha cht HHS Hohl HRA cft ciehdifichdl,\n3H, ATISEIR, GRICRUT EITETUT, TIST HHITT, ayaa FgaehH, srifa 377 HFEUIAT ch EVIRT quf\nyrr-ft VI4RT37T 377 faried chT 3177 CGT Hoh 377 3747 anch vfiat N foat chl 3rHarartgdeh\n342IT ShR Hoh, stch fay Yeich N geria HTHEt a TTE àl HTH TT N HRA t fafie Tiveit,\nchellait, fafaer VRORIT ChT sft THIORTT foheit TAT àl",
+      "text_nfc": "46 Trdch\ntiyof ARTETT TisheT N SI9T chT chsiet F2TT à STI9T cft FRTRTT a fafe TTRT TR faenferent t\ngRechuT 377 urat chl fachlet chidt àl faheft eft HTTREF à CRIT-CRIT 3778T77 aldt à sro 2 N\ntad EU 3nyarRch faeleteit FRTETT ROETT # toft ERUTT N STYT FRTRTUT # Te CTRRT E do a\ntaifend fary JT Hohd à Ho-feidl, JT TIYRT 37t PEITT, tada 3TE2dT ta 31012HIrHch\nfeid, RICCTT ta Hitshhtch dd-il, TaTE2Z Ud gRlelefti HT9T tft Yoiieidl à 3TTTT à for\nfaenferent N STT9T * tiaigeruff Farny # TCHIrHch T&T t yfa HHS Art 377 a fafier duftdeh,\nHIHTICh, Hichideh Affiet # 31f64 IAT shT Yo-irT TRIT Ch Hohl faerreff 374-11 gid chT\n3747 GTT # che Hoh, 374-f1 tamifach Hu-sfeidt Ua chr4-T ahT yifad sh uchl 7I-YIYRT 377\n34chT adHTT ticaf N RITT HTYT ahT Uch Herquuf CTRT à sert TIYRPId JT 377 34ch1 3TfTA\nTIT ufuferd à fortra faenferet N 3747 Afa-Rareii 377 VI4RT37T i yfa fadchyuf yie AaT\na ual SI9T 467-461 chT TTRRT #6 sft à fon faerreff tada 372201 ta 371HIcHch fedoh arl\nHTOT a HT2T, adurt 377 3da fT ETCHT3TT shT aifehch farriqur th Hohl faenfefeit N TICETeT ta\nHitshldch adt t fachiel cht ET N wad EU gRasfer HofIdT a 3Tefer Hiadl ChT HIA dat\na 477 HRdrr PedT 377 3TRHdT faHToT tft agiger idt th Hdd Affa àl HIAT ahl HHgT ch\n&THAT fachfed ChHT clladd, HIHTCh, Afden, TTCETeT ureit ShT fachet CHT sft àl TalE2 ta\ngRieleft à 3TT3TT à fon faerreff TIRIRCH A HIfHCh 54 à Ppd , 374 Tarer ghechUt a 3Taai\nchT fachltt a 377 HaHrHch td HTHICh 74 à uRyaadt 3T121 STIAT chT FraIT-fergT troft\nfaqer RTTT t ya HHST GHIT t HTPT-HTOT fateTreff i HidrHch, HHIrHch 37t HIHTCh Tare\nt fay sft Herayuf a 377 a afach, Hiehlich A HTHINICh TRORT, TRICRUT, de, chell, fasi,\nqict 377 A # ya Hor EaTl\nCH&TT 7 fT fedt Hgyyedeh HrER 3114ch1 arat-fuart cft Uch 37ic 377 3TGGRICH HT\nR 1 JTTt t fy duR fT TE àl #6 Yedch 37151 t faerfereni, HHIT 377 TTOE cft 3144chd131,\nsfeeit 377 377817377 chl qT chtt t 3E7 a fachfed tft TTE à EHR faerreff 3747 3T4YRT t\nHHIST, 3747 HETT TIOZ t TiRaRTeft sAdElT 377 titeha cht HHS Hohl HRA cft ciehdifichdl,\n3H, ATISEIR, GRICRUT EITETUT, TIST HHITT, ayaa FgaehH, srifa 377 HFEUIAT ch EVIRT quf\nyrr-ft VI4RT37T 377 faried chT 3177 CGT Hoh 377 3747 anch vfiat N foat chl 3rHarartgdeh\n342IT ShR Hoh, stch fay Yeich N geria HTHEt a TTE àl HTH TT N HRA t fafie Tiveit,\nchellait, fafaer VRORIT ChT sft THIORTT foheit TAT àl",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

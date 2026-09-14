@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_094",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 49,
+    "width": 1050,
+    "height": 1678
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1050,
+        1678
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "८30 - उप Bey est\n\nsoo”.\n\nGe oF ನಿಕ Ga Grew way CV La\n\nCOLE ९९ CO FI गई ಆ, VEL POS AUIS\n\nPURI Los” Oars GOVE Hw, ows\n+\n\nहम गुजर ಅರ್ತ ಬಿಲ bo,\nAOL KH 539, TIO ಆ SAL CAGES\nDo ಲಾಟಿ Dee OF YOoW Loe टी\nDdtaCosy Frese ಫೊ UT Owsaw Tf\n\nದ FRI By WILLS PO SCF Soe Seas\nNM ರ್‌ BOYS Oy SUSAN TD ಚ್‌\nಹಗ ಟ್‌ ಟಟ wen ರ್ಟ\nಜಗಾ Oe HW Ge Wyo [ಟು\n90 WN, ot ಅವಿಭಕ್ತ ಯಸ: BEN\n\n¢ ವಲ್‌ ಸ್‌ eae oo; Ay TEE\n\nChange sR? ० Rar’ acre\n\n“87\n\nಪೇಟ (1551\nbe\n\n(ಡಿ\nहि\n\n49\n",
+      "text_nfc": "८30 - उप Bey est\n\nsoo”.\n\nGe oF ನಿಕ Ga Grew way CV La\n\nCOLE ९९ CO FI गई ಆ, VEL POS AUIS\n\nPURI Los” Oars GOVE Hw, ows\n+\n\nहम गुजर ಅರ್ತ ಬಿಲ bo,\nAOL KH 539, TIO ಆ SAL CAGES\nDo ಲಾಟಿ Dee OF YOoW Loe टी\nDdtaCosy Frese ಫೊ UT Owsaw Tf\n\nದ FRI By WILLS PO SCF Soe Seas\nNM ರ್‌ BOYS Oy SUSAN TD ಚ್‌\nಹಗ ಟ್‌ ಟಟ wen ರ್ಟ\nಜಗಾ Oe HW Ge Wyo [ಟು\n90 WN, ot ಅವಿಭಕ್ತ ಯಸ: BEN\n\n¢ ವಲ್‌ ಸ್‌ eae oo; Ay TEE\n\nChange sR? ० Rar’ acre\n\n“87\n\nಪೇಟ (1551\nbe\n\n(ಡಿ\nहि\n\n49\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

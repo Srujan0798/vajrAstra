@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_094",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0023pro_raw.pdf",
+    "page_index": 36,
+    "width": 882,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        882,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "05e1210388\"00\n35\nObé10o5 aloooo B00163 muejoaloo modal. mU2\noold 00l80100 oniT00ooloe QJeiloisommowleo\n01 GOmo 000lol0 OO 6m 005025: 51010\nB10663 60\nDonlad moaomloasgis am0 0002Js8egloes GO6mO\nalaoolooml GO 0000 000200J00lawlamlson 600e\n00emlaol.\n*\n*\n*\n0100968B Co 6>5moG0J001.\n06n1lao 65eJe1Qo\nmu200omem800SSeS loilo. B10036S GYO 016000\n00\nco02molejosmojd moomlojo. (0 O6ne Qooos\n30 QJ005o0.Joslao B100BO5 ml0016880016g00olegoola\nmo. 001001500 00mp00 601doejo 0006021500000\n000 0000J06LD BOOJO 6001355 03000l6e183\n06m06oSoolomo.looJopmoc 0\nomo8 BOQO\nB0S CoR2omo.DGosl l00galolo OJB 00000AJ0 GYO\n01600 msmo.\nBYO wogleg100o b0eje10os\nemQd\n0060 C\n60eloimuc omos 603 QJOOO 0000Us200\n0l600.\n012010-9902320001 006025.100000J060000\nallcosmulosooaislom 0200, al@od@cosmmalcompl\nmoo QGm 603 auon00lqos\n@ 2u803232onp1\n20\nOs000loloolol-samopogimo 0acalao5 enolool\nclod, 60 QOJA munelon BYOOJOO @000000.08601\nonel boolo1a802010802000! 6m0 moploma48lop\nMOo 6TO 00805 mujoalolamos - QJosoole B00J301\n03600 onjegloejo.mlom BO000O 01s1o 2SON\nOg'molom 606mO00G6210001.\n015036000, mOGOJO",
+      "text_nfc": "05e1210388\"00\n35\nObé10o5 aloooo B00163 muejoaloo modal. mU2\noold 00l80100 oniT00ooloe QJeiloisommowleo\n01 GOmo 000lol0 OO 6m 005025: 51010\nB10663 60\nDonlad moaomloasgis am0 0002Js8egloes GO6mO\nalaoolooml GO 0000 000200J00lawlamlson 600e\n00emlaol.\n*\n*\n*\n0100968B Co 6>5moG0J001.\n06n1lao 65eJe1Qo\nmu200omem800SSeS loilo. B10036S GYO 016000\n00\nco02molejosmojd moomlojo. (0 O6ne Qooos\n30 QJ005o0.Joslao B100BO5 ml0016880016g00olegoola\nmo. 001001500 00mp00 601doejo 0006021500000\n000 0000J06LD BOOJO 6001355 03000l6e183\n06m06oSoolomo.looJopmoc 0\nomo8 BOQO\nB0S CoR2omo.DGosl l00galolo OJB 00000AJ0 GYO\n01600 msmo.\nBYO wogleg100o b0eje10os\nemQd\n0060 C\n60eloimuc omos 603 QJOOO 0000Us200\n0l600.\n012010-9902320001 006025.100000J060000\nallcosmulosooaislom 0200, al@od@cosmmalcompl\nmoo QGm 603 auon00lqos\n@ 2u803232onp1\n20\nOs000loloolol-samopogimo 0acalao5 enolool\nclod, 60 QOJA munelon BYOOJOO @000000.08601\nonel boolo1a802010802000! 6m0 moploma48lop\nMOo 6TO 00805 mujoalolamos - QJosoole B00J301\n03600 onjegloejo.mlom BO000O 01s1o 2SON\nOg'molom 606mO00G6210001.\n015036000, mOGOJO",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

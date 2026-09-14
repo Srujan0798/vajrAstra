@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_009",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0009pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ia 9.\n\nதேர்தல் ஏூஜண்ட் நியமனத்தை ரத்து செய்தல்.\n(தேர்தல் நடத்துவது குறித்த 196) ஆம் ஆண்டு விதிகளின் 72 (2) விதியைப் பார்க்கவும்)\n\n = =  =  -  - தொகுதியிலிருத்து\nதமிழ்நாடு சட்டப் பேரவைக்கு ந்டக்கும் தேர்தல்.\nதேர்தல் நடத்தும் அதிகாரிக்கு,\n\nமேற்படி தேர்தலில் ஓச் வேட்பாளராகிய न ~ -  … - …\nஎனது தேர்தல் ஏூஜண்டஈன - ~ - - - - ~ - - ~ ~ -  - -  -  - 2 …… … … … … _\n\nவேட்பாளரின் கையெழுத்து,\n\n",
+      "text_nfc": "ia 9.\n\nதேர்தல் ஏூஜண்ட் நியமனத்தை ரத்து செய்தல்.\n(தேர்தல் நடத்துவது குறித்த 196) ஆம் ஆண்டு விதிகளின் 72 (2) விதியைப் பார்க்கவும்)\n\n = =  =  -  - தொகுதியிலிருத்து\nதமிழ்நாடு சட்டப் பேரவைக்கு ந்டக்கும் தேர்தல்.\nதேர்தல் நடத்தும் அதிகாரிக்கு,\n\nமேற்படி தேர்தலில் ஓச் வேட்பாளராகிய न ~ -  … - …\nஎனது தேர்தல் ஏூஜண்டஈன - ~ - - - - ~ - - ~ ~ -  - -  -  - 2 …… … … … … _\n\nவேட்பாளரின் கையெழுத்து,\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_052",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+    "page_index": 70,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "@I६D BLILINLLq 6्छा थIफ़LILIGDL\n6|. ना नणंठा\nG७फ़lionppछंफ़ीन्णा @BBीul @l६DछB६ाा\n@ऊBीuI LI6DOTLछनiा\nछनणा 6णflB६DBUIIT6णा\nOpफ़luInछ F७फ़ltnpफ़lBनाn6b फ़lBफ़olgl\n_\nGpnpoi\nछुIT6णOLLILILL\nopplpछ F७फ़ltonpplBaाnob फ़lBफ़olgl @६णLIOLIGऊBID6DODnछ ६म६bऊनfl६ं २L६ @!फ़ी फ़lकफ़olgl 6णा   @२Iफ़ 6OTLIOLIGBB+ नम६bकनfl६b फ़lBफolg OमUI६D QyLL (omIनflGuIpmlpob @uIनDLII6णT OBUIGDLIILIq नDD६णा फक olgl (knockout) @व्णा 6olD (null))\n२\n६म६ं ६l६DB\nGoop थlDIOLIL Iloo@D   (hypomorphic) QuIGDLII 6णा OमUIGDLIITLLq ६०D६णा छं LIिoठfीकनfीनठा IBgl (6$8&ी) GनomLILIgl LITTSlLIL @uIGDLIIT 6णा OBUI६DLIITTLLLQ ६D६णा Ul६oछ थl६ODIDLIL फ़l६o६D (hypermorphic) थफ़्रीBग्रीLILIgI %@Imn6णा Gफ़प छंड़ी॰ं थ१६D६Dgl OBUI६D शpu QLIoOUIIT ठ६laflLILInG) OLIITGछplopo OF६DBनाfl६b न६lनflLILIGOIg DNA Rःगरl॰oyullsं 9 .6ा6ा @७ BII फlw छofीGuII नDLG uठldbG ६०D60णाBGL LIgl६n & LDpomnG BITI ६D६णणा @GLILIgI Lluगlsolऊछ Lठloon BLi LluJ ग्रीनiा (A- ~G) @फ़ंछ Lफ़lन७७ (transition) शl६D६Dgl नoDLIफ़lLDlLq ृ9Jकछ LgloonBLl oLIफ़lblL 6्णr (T ~C).\n3\nLuगlsolछ छ LIglनonBLl oLIफ़lLlL 6्णा (A G@Iफ़ILILL LIglन७G (transversion) -~T)थl6D@Dgl नOLIफ़lLblLq @OIDछ Lफ़loon BL Lluग्रीनo (C ~G). @६irpl शl६DmDgl थppeछ GpLILL 6ODLL68(5छ6ं (insertion) pluJ ऊनfीGUIIT 6OLGBनाT Bo G%n8 QGLLIgI @०ir@l शl६b६Dछl थlppe GDDLILL फBsम (deletion) plus= ऊनfीGUIIT 6DLGB६r 6DनDnLD6D QGLILIgI JI६DIDछluII 6णा (silent) (@pp)   थIठीGणाI थILD६ @irfl6oBU६ं Lonpob (synonymous) २६D६o६ छo२lmIpoon BLi OLITOBनTLIGuo   शIीGणn थILD६ @Ipfl6oDBUl६ Ionpoi (missense) (pफ़ीsboon ) (non @GLILIgI synonymous)\n९०@DBBo @l थlना@l६ं Inppi\nLDJLTOBUIफ़ OLIUIj @ll६oD६णा LIT SlLILIg\n5\nIDJLBOBUISlOLIUIj @fllornoं @I@I फ़l६o६ OLIITGGऊ6oणाj छछIा छ (nonsense) IOJLDGOlUIDD6णा (UAA, UAG शl६D६Dछl (७4@|) UGA) GpnpmJolLILIgI Bख़luIn 6णा BLLछफीl६ २ 6ाना CO6णrml BLL JBjol (frame shift) IOJLIDGDlUIOनणI (codon) फ़By छंकl@Iछl\nILL@IनDन0ण   ३.७ः F७फ़ltonppछंछ्री॰्णा @BBीul @l६DBछना\nGnGIonGEniD थIqLILIनOL Ul@nनणा Lngioupluio\n63\nTIIGOTBIOLOGYBOTANY _XIITIICH O३ indd 63\n31/12/2022 13:03:28",
+      "text_nfc": "@I६D BLILINLLq 6्छा थIफ़LILIGDL\n6|. ना नणंठा\nG७फ़lionppछंफ़ीन्णा @BBीul @l६DछB६ाा\n@ऊBीuI LI6DOTLछनiा\nछनणा 6णflB६DBUIIT6णा\nOpफ़luInछ F७फ़ltnpफ़lBनाn6b फ़lBफ़olgl\n_\nGpnpoi\nछुIT6णOLLILILL\nopplpछ F७फ़ltonpplBaाnob फ़lBफ़olgl @६णLIOLIGऊBID6DODnछ ६म६bऊनfl६ं २L६ @!फ़ी फ़lकफ़olgl 6णा   @२Iफ़ 6OTLIOLIGBB+ नम६bकनfl६b फ़lBफolg OमUI६D QyLL (omIनflGuIpmlpob @uIनDLII6णT OBUIGDLIILIq नDD६णा फक olgl (knockout) @व्णा 6olD (null))\n२\n६म६ं ६l६DB\nGoop थlDIOLIL Iloo@D   (hypomorphic) QuIGDLII 6णा OमUIGDLIITLLq ६०D६णा छं LIिoठfीकनfीनठा IBgl (6$8&ी) GनomLILIgl LITTSlLIL @uIGDLIIT 6णा OBUI६DLIITTLLLQ ६D६णा Ul६oछ थl६ODIDLIL फ़l६o६D (hypermorphic) थफ़्रीBग्रीLILIgI %@Imn6णा Gफ़प छंड़ी॰ं थ१६D६Dgl OBUI६D शpu QLIoOUIIT ठ६laflLILInG) OLIITGछplopo OF६DBनाfl६b न६lनflLILIGOIg DNA Rःगरl॰oyullsं 9 .6ा6ा @७ BII फlw छofीGuII नDLG uठldbG ६०D60णाBGL LIgl६n & LDpomnG BITI ६D६णणा @GLILIgI Lluगlsolऊछ Lठloon BLi LluJ ग्रीनiा (A- ~G) @फ़ंछ Lफ़lन७७ (transition) शl६D६Dgl नoDLIफ़lLDlLq ृ9Jकछ LgloonBLl oLIफ़lblL 6्णr (T ~C).\n3\nLuगlsolछ छ LIglनonBLl oLIफ़lLlL 6्णा (A G@Iफ़ILILL LIglन७G (transversion) -~T)थl6D@Dgl नOLIफ़lLblLq @OIDछ Lफ़loon BL Lluग्रीनo (C ~G). @६irpl शl६DmDgl थppeछ GpLILL 6ODLL68(5छ6ं (insertion) pluJ ऊनfीGUIIT 6OLGBनाT Bo G%n8 QGLLIgI @०ir@l शl६b६Dछl थlppe GDDLILL फBsम (deletion) plus= ऊनfीGUIIT 6DLGB६r 6DनDnLD6D QGLILIgI JI६DIDछluII 6णा (silent) (@pp)   थIठीGणाI थILD६ @irfl6oBU६ं Lonpob (synonymous) २६D६o६ छo२lmIpoon BLi OLITOBनTLIGuo   शIीGणn थILD६ @Ipfl6oDBUl६ Ionpoi (missense) (pफ़ीsboon ) (non @GLILIgI synonymous)\n९०@DBBo @l थlना@l६ं Inppi\nLDJLTOBUIफ़ OLIUIj @ll६oD६णा LIT SlLILIg\n5\nIDJLBOBUISlOLIUIj @fllornoं @I@I फ़l६o६ OLIITGGऊ6oणाj छछIा छ (nonsense) IOJLDGOlUIDD6णा (UAA, UAG शl६D६Dछl (७4@|) UGA) GpnpmJolLILIgI Bख़luIn 6णा BLLछफीl६ २ 6ाना CO6णrml BLL JBjol (frame shift) IOJLIDGDlUIOनणI (codon) फ़By छंकl@Iछl\nILL@IनDन0ण   ३.७ः F७फ़ltonppछंछ्री॰्णा @BBीul @l६DBछना\nGnGIonGEniD थIqLILIनOL Ul@nनणा Lngioupluio\n63\nTIIGOTBIOLOGYBOTANY _XIITIICH O३ indd 63\n31/12/2022 13:03:28",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

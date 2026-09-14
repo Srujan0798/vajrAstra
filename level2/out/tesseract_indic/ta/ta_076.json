@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_076",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 0,
+    "width": 1255,
+    "height": 2035
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1255,
+        2035
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sample Question paper’ - ( Tamil )\n\nMax. Marks : 80\n\nமொ.மதிப்பெண்கள்‌ : 80\n\nIL- TERM (Oct 2010- March 2011)\n(Class - 1 X )\n\nமாதிரி வினாத்தாள்‌ - தமிழ்‌\nஒன்பதாம்‌ வகுப்பு\n\n(அக்டோபர்‌ 2010 - மார்ச்‌ 2011)\n\nTime : 3 hours\nகால அளவு : 3 மணி\n\nThe question paper is diveded into four sections:\nஇக்‌ கேள்வித்‌ தாள்‌ நான்கு பிரிவுகளைக்‌ கொண்டது.\n\nSECTION: A\nபிரிவு ₹அ\n\nSECTION : B\nபிரிவு ஆ\n\nSECTION : C\nபிரிவு இ\n\nகாட்ற\nபிரிவு 2\n\nReading comprehension - 15 Marks\nபடித்தல்‌ (உரைநடைப்‌ பகுதி) -15 மதிப்பெண்கள்‌\n\nWriting - 15 Marks\nஎழுதுதல்‌ -15 மதிப்பெண்கள்‌\nGrammar - 15 Marks\nஇலக்கணம்‌ -15 மதிப்பெண்கள்‌\nLiterature / Text Books - 35 Marks\n\nஇலக்கியம்‌/தமிழ்ப்‌ பாடநூல்கள்‌-35 மதிப்பெண்கள்‌\n\nK எல்லா வினாக்களுக்கும்‌ கட்டாயம்‌ விடையளிக்கப்பட வேண்டும்‌.\n* ஒவ்வொரு வினாவிற்கும்‌ உரிய மதிப்பெண்கள்‌ அதனதன்‌ இடத்தில்‌\n\nகுறிப்பிடப்பட்டுள்ளன.\n\nபிரிவு -௮\nபடித்தல்‌ - 15 மதிப்பெண்‌\n\n1. 6 வரும்‌ பத்தியைப்‌ படிக்கவும்‌. இதனைத்‌ தொடர்ந்து வரும்‌\nபல்விடை வினாவுக்கு உரிய சரியான விடையை எடுத்து\n\nஎழுதவும்‌.\n\n(5)\n\nஎரிபொருள்‌ சார்ந்த தீயினை ஐந்து வகையாகப்‌ பிரிப்பர்‌. முதல்‌\n\nவகை எரிந்து சாம்பலாகக்‌ கூடிய தாள்‌; மரம்‌, வைக்கோல்‌, ஒலை முதலான\nபொருளைச்‌ சார்ந்தது. இவை சிறிய அளவில்‌ இருந்தா தண்ணீர்‌ ஊற்றியும்‌\n",
+      "text_nfc": "Sample Question paper’ - ( Tamil )\n\nMax. Marks : 80\n\nமொ.மதிப்பெண்கள்‌ : 80\n\nIL- TERM (Oct 2010- March 2011)\n(Class - 1 X )\n\nமாதிரி வினாத்தாள்‌ - தமிழ்‌\nஒன்பதாம்‌ வகுப்பு\n\n(அக்டோபர்‌ 2010 - மார்ச்‌ 2011)\n\nTime : 3 hours\nகால அளவு : 3 மணி\n\nThe question paper is diveded into four sections:\nஇக்‌ கேள்வித்‌ தாள்‌ நான்கு பிரிவுகளைக்‌ கொண்டது.\n\nSECTION: A\nபிரிவு ₹அ\n\nSECTION : B\nபிரிவு ஆ\n\nSECTION : C\nபிரிவு இ\n\nகாட்ற\nபிரிவு 2\n\nReading comprehension - 15 Marks\nபடித்தல்‌ (உரைநடைப்‌ பகுதி) -15 மதிப்பெண்கள்‌\n\nWriting - 15 Marks\nஎழுதுதல்‌ -15 மதிப்பெண்கள்‌\nGrammar - 15 Marks\nஇலக்கணம்‌ -15 மதிப்பெண்கள்‌\nLiterature / Text Books - 35 Marks\n\nஇலக்கியம்‌/தமிழ்ப்‌ பாடநூல்கள்‌-35 மதிப்பெண்கள்‌\n\nK எல்லா வினாக்களுக்கும்‌ கட்டாயம்‌ விடையளிக்கப்பட வேண்டும்‌.\n* ஒவ்வொரு வினாவிற்கும்‌ உரிய மதிப்பெண்கள்‌ அதனதன்‌ இடத்தில்‌\n\nகுறிப்பிடப்பட்டுள்ளன.\n\nபிரிவு -௮\nபடித்தல்‌ - 15 மதிப்பெண்‌\n\n1. 6 வரும்‌ பத்தியைப்‌ படிக்கவும்‌. இதனைத்‌ தொடர்ந்து வரும்‌\nபல்விடை வினாவுக்கு உரிய சரியான விடையை எடுத்து\n\nஎழுதவும்‌.\n\n(5)\n\nஎரிபொருள்‌ சார்ந்த தீயினை ஐந்து வகையாகப்‌ பிரிப்பர்‌. முதல்‌\n\nவகை எரிந்து சாம்பலாகக்‌ கூடிய தாள்‌; மரம்‌, வைக்கோல்‌, ஒலை முதலான\nபொருளைச்‌ சார்ந்தது. இவை சிறிய அளவில்‌ இருந்தா தண்ணீர்‌ ஊற்றியும்‌\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

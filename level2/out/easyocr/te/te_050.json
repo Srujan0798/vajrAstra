@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Say `a to Z in १० seconds.\nTell 5 words that end with e\nTell 5 words that begin with A\nTell 5 words that end with \nSay १ to २० in १० seconds.\nFrame question that begins with What '\nFrame question that begins with Who\nFrame question that begins with How\nDo what you like (in English ).\nSing an English song.\nTell 5 words that begin with n\nTell words that begin with th '\nTell 5 words that begin with b'\nTell 5 words that end with t'\nTell 5 words that end with p\nTell 5 words that end with k'\nTell 5 words that begin with\nSpeak fast\nTell words that begin with `wh\nTell 5 words that begin with m '\nin English for १० seconds.\nTell 5 words that begin with p\nMake sentence that has and' .\nTell 5 words that end with n '\nTell 5 words that begin with *t\nTell 5 words that begin with *d\nFrame question that begins with Where \nFrame question that begins with When\nFrame question that begins with Why\nTell + words that begin with `st .\nTell 5 words that begin with f'\nMAHARASHTRA STATE BUREAU OF TEXTBOOK PRODUCTION AND CURRICULUM RESEARCH, PUNE. माय इग्लिश बुक फाइव्ह तेलुगु र ४०.००\nमहागप्ट रम्य पाट्यपुस्तक निर्मितीा घ अभ्यासकम ' मशाधन मंदळ",
+      "text_nfc": "Say `a to Z in १० seconds.\nTell 5 words that end with e\nTell 5 words that begin with A\nTell 5 words that end with \nSay १ to २० in १० seconds.\nFrame question that begins with What '\nFrame question that begins with Who\nFrame question that begins with How\nDo what you like (in English ).\nSing an English song.\nTell 5 words that begin with n\nTell words that begin with th '\nTell 5 words that begin with b'\nTell 5 words that end with t'\nTell 5 words that end with p\nTell 5 words that end with k'\nTell 5 words that begin with\nSpeak fast\nTell words that begin with `wh\nTell 5 words that begin with m '\nin English for १० seconds.\nTell 5 words that begin with p\nMake sentence that has and' .\nTell 5 words that end with n '\nTell 5 words that begin with *t\nTell 5 words that begin with *d\nFrame question that begins with Where \nFrame question that begins with When\nFrame question that begins with Why\nTell + words that begin with `st .\nTell 5 words that begin with f'\nMAHARASHTRA STATE BUREAU OF TEXTBOOK PRODUCTION AND CURRICULUM RESEARCH, PUNE. माय इग्लिश बुक फाइव्ह तेलुगु र ४०.००\nमहागप्ट रम्य पाट्यपुस्तक निर्मितीा घ अभ्यासकम ' मशाधन मंदळ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

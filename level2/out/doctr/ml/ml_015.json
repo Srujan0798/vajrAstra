@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "I\nE\nN\n2\n0\n9\nI 8\nI A\n- 16\n15\nA\n8\no\n5\n3\nN\n-\n9\n-\n5\nE\nE\ncm 0\n1605\n7.147\nNo402.\n/\n00183010 0DD000.\ne 6 E el a\naudeod 809001d6 00003001000\n6 6 a0e00al0os\nm0 dunaigmd.\nOmadmmoaf:\n2.00. 00. muld 6r00100282.0000010001imaldlo\n98l06010d.\nasnuponumilgy-1039.\nda0g71-1500,\nPrinted at\nThe Mangalodayam Press,\nTrichur.\no\nPrice 1-0-0\n(Copyright to the author.)\nailer 1-0-0.\nipuup\n1\n2\n3\n5 6\n/\na\n-\n9 10 11 12 13 14\n\"\ngpura.org\n2\nE\nOT IT ZI ET 4T ST 9T LT 81",
+      "text_nfc": "I\nE\nN\n2\n0\n9\nI 8\nI A\n- 16\n15\nA\n8\no\n5\n3\nN\n-\n9\n-\n5\nE\nE\ncm 0\n1605\n7.147\nNo402.\n/\n00183010 0DD000.\ne 6 E el a\naudeod 809001d6 00003001000\n6 6 a0e00al0os\nm0 dunaigmd.\nOmadmmoaf:\n2.00. 00. muld 6r00100282.0000010001imaldlo\n98l06010d.\nasnuponumilgy-1039.\nda0g71-1500,\nPrinted at\nThe Mangalodayam Press,\nTrichur.\no\nPrice 1-0-0\n(Copyright to the author.)\nailer 1-0-0.\nipuup\n1\n2\n3\n5 6\n/\na\n-\n9 10 11 12 13 14\n\"\ngpura.org\n2\nE\nOT IT ZI ET 4T ST 9T LT 81",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

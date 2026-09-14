@@ -1,0 +1,41 @@
+{
+  "page_id": "te_013",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0013pro_raw.pdf",
+    "page_index": 32,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "  குடிப்பம் குற\n95 ૐ  ੯੯ wi 6 oils બ્રા\nਸਪ ४८ ભ\nબ எல்ஏ ৩২এ ૭૩૦ பரபல்ய ৩১৭১৯৭ ભય\nహంబ le 12 bilojle ४५११ ౧౯౪౩ લ્ય\n૧૭ ૩ ૧૭ ક   કાર ਸੰਘ 2525\nબબ 5 19\n  ૐ નમ શિવાય ਮਾਰਾ 0\nખ્દ ે૧૩ ੧ ૮૭૭ 159 ૮૭૭ ਕ੍ਰਾਮ\nਮਾ yylos\n૭૨૭૧ ਸੀ ७८० bi ८०४ ૬ భాల ம்பம் டயமே નવ യുണ്ടൂർ\n૭૮ પરી ੦੭ ભ ઝઘ குட்ட குற\nભ ે૧ will 29\n૬ ભય ੧ ੭੦੦ ૐ નમ શિવાય ડ ഈ ૮૭\n04 337 ૭૨ંક ২৩এমনিন\n੧੬ 18 laisga ம்\nਪਹਾ ਰਾਂ h ਣਾਂ\nક ૮૭ ੧੧ jl19 h ૧૩૦૩૩\nਮ ulga r குலய ਕਾਰਾ\n૧૭૫ ਰੀ ડ ওড় કર ૮૭૭ குற\nਮਿਰ begw ১়০ম ૭૭૮ ૭   ui ৩৬  jlsgdlic ભ\n25",
+      "text_nfc": "  குடிப்பம் குற\n95 ૐ  ੯੯ wi 6 oils બ્રા\nਸਪ ४८ ભ\nબ எல்ஏ ৩২এ ૭૩૦ பரபல்ய ৩১৭১৯৭ ભય\nహంబ le 12 bilojle ४५११ ౧౯౪౩ લ્ય\n૧૭ ૩ ૧૭ ક   કાર ਸੰਘ 2525\nબબ 5 19\n  ૐ નમ શિવાય ਮਾਰਾ 0\nખ્દ ે૧૩ ੧ ૮૭૭ 159 ૮૭૭ ਕ੍ਰਾਮ\nਮਾ yylos\n૭૨૭૧ ਸੀ ७८० bi ८०४ ૬ భాల ம்பம் டயமே નવ യുണ്ടൂർ\n૭૮ પરી ੦੭ ભ ઝઘ குட்ட குற\nભ ે૧ will 29\n૬ ભય ੧ ੭੦੦ ૐ નમ શિવાય ડ ഈ ૮૭\n04 337 ૭૨ંક ২৩এমনিন\n੧੬ 18 laisga ம்\nਪਹਾ ਰਾਂ h ਣਾਂ\nક ૮૭ ੧੧ jl19 h ૧૩૦૩૩\nਮ ulga r குலய ਕਾਰਾ\n૧૭૫ ਰੀ ડ ওড় કર ૮૭૭ குற\nਮਿਰ begw ১়০ম ૭૭૮ ૭   ui ৩৬  jlsgdlic ભ\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

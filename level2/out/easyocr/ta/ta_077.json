@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_077",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+    "page_index": 3,
+    "width": 1224,
+    "height": 1875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1224,
+        1875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(iii) छl ढण्ण @DLD ना ढठLIg ढ्ण OLIIG ढाा थथगi थु॰ मpu4 @. OLGब@ फऋ. ळBlyमकl\n(1)\n(iv ) &f बDID ढा ढढ LIफ़ ढठा  OLIIGनiा 9|: फflg)l नiTना GDLD थ &७ ४ GLD ढण@DLD R॰ ७\"s७4\n(1)\n(V)\nOopड़@गरषi फ्न्ण्ण न्ठीँ ७D ग॰ा Bopछl छबfLugl 9|: %॰%i LWऊँछळ %: फ७ढगा UuLILgTBIछl @- छniumoDD LuBGi । . ७१छनीन LWऊंछi\n1)\n3.\nफफ ब७i ugglouu uLऊऊo%. @फ़ळढाऊ्रं oफ़nipgl बl७u uoooL o१ ढा \"॰४झछ २flul ष्fीlwn ठठा olloLou नOछंgl न(क॰ा. (5) BI ढ७olny २wीflढठा ।ऊl 8 नfी ६ + नवठा @uIUi ना ढष LIgl @७ @/ ढoऊ नण @IशilB७ ऊ७म छI न७षना क॰७uी॰ी७ू Gक ७ब० ना छंड़ ७म७i. 9ऊ ढणn ६७ 9 wpopऊं ऊ॰नऊँऊIनUीऊनiा ना ढठा७% थबogiLai . फ६ठग @Inu ६ Lढol@o8 २न्गंग 0 @L७ऊ +६०गा ७iIruil , Jकफछ॰ ऊ न०ग @iIuil , Guu8 8 6षठा @४I Ul नाढठा L४I 6गा 9|@@/ फLpBooगGuny IlBनfl@ii फ। ७७ी ढठा थ!१०I ढठा LGSlBनllgii 9|@6/ oungक ढण p ढण . फLpLIIOopB ढfl@i ८D २७ ढठाफ्लँ SLGफढl ढठा 8@1 ळी@l ०b 606 ऊग६ठगा LILIOBl ढण p ढ्ण . ऊन्वग rOIIuी ढठा   २१६ ऊl ाl @oBLi GLIIOJ ळGglOIIऊ @७मछi. Bढणगा @I Iulछछ TLG ७ू॰ १० BnणँBना   @lबDD ४ . ठठग @ छI६Uऊनीी ढंषा   फ७७ी॰ @lछ॰ष @Inrul 9Jmoipछl ना नाछ। . @i wीl ढठा छरIबo LLBनir फनfl wी ढठा ९ऊंछ GLII ६ 9॰wpड़ ७ऊछi. 8 न्ठग @uI णB ढiा Go/6ठंग Gळo Gungl छळ फlpफ॰oफ़ू Jonpplऊ OBnढ ७% @D @ s७ २LioLlol७ फ़छl O#wणun ढा ढठा p नolD७o wu8ं BऊGबlफ़\"॰b JJ७p॰opड़ं छ्ीोढंााढण ७u७w ७ीी @ऊl@मना ७gl uLO थJ॰o७ा Gwnuu २ 6णणा fं #मlupoiu GunGi. @@ @LबLuLOऊ ७७ण OlLIfऊंक - ढठ p ढठा .",
+      "text_nfc": "(iii) छl ढण्ण @DLD ना ढठLIg ढ्ण OLIIG ढाा थथगi थु॰ मpu4 @. OLGब@ फऋ. ळBlyमकl\n(1)\n(iv ) &f बDID ढा ढढ LIफ़ ढठा  OLIIGनiा 9|: फflg)l नiTना GDLD थ &७ ४ GLD ढण@DLD R॰ ७\"s७4\n(1)\n(V)\nOopड़@गरषi फ्न्ण्ण न्ठीँ ७D ग॰ा Bopछl छबfLugl 9|: %॰%i LWऊँछळ %: फ७ढगा UuLILgTBIछl @- छniumoDD LuBGi । . ७१छनीन LWऊंछi\n1)\n3.\nफफ ब७i ugglouu uLऊऊo%. @फ़ळढाऊ्रं oफ़nipgl बl७u uoooL o१ ढा \"॰४झछ २flul ष्fीlwn ठठा olloLou नOछंgl न(क॰ा. (5) BI ढ७olny २wीflढठा ।ऊl 8 नfी ६ + नवठा @uIUi ना ढष LIgl @७ @/ ढoऊ नण @IशilB७ ऊ७म छI न७षना क॰७uी॰ी७ू Gक ७ब० ना छंड़ ७म७i. 9ऊ ढणn ६७ 9 wpopऊं ऊ॰नऊँऊIनUीऊनiा ना ढठा७% थबogiLai . फ६ठग @Inu ६ Lढol@o8 २न्गंग 0 @L७ऊ +६०गा ७iIruil , Jकफछ॰ ऊ न०ग @iIuil , Guu8 8 6षठा @४I Ul नाढठा L४I 6गा 9|@@/ फLpBooगGuny IlBनfl@ii फ। ७७ी ढठा थ!१०I ढठा LGSlBनllgii 9|@6/ oungक ढण p ढण . फLpLIIOopB ढfl@i ८D २७ ढठाफ्लँ SLGफढl ढठा 8@1 ळी@l ०b 606 ऊग६ठगा LILIOBl ढण p ढ्ण . ऊन्वग rOIIuी ढठा   २१६ ऊl ाl @oBLi GLIIOJ ळGglOIIऊ @७मछi. Bढणगा @I Iulछछ TLG ७ू॰ १० BnणँBना   @lबDD ४ . ठठग @ छI६Uऊनीी ढंषा   फ७७ी॰ @lछ॰ष @Inrul 9Jmoipछl ना नाछ। . @i wीl ढठा छरIबo LLBनir फनfl wी ढठा ९ऊंछ GLII ६ 9॰wpड़ ७ऊछi. 8 न्ठग @uI णB ढiा Go/6ठंग Gळo Gungl छळ फlpफ॰oफ़ू Jonpplऊ OBnढ ७% @D @ s७ २LioLlol७ फ़छl O#wणun ढा ढठा p नolD७o wu8ं BऊGबlफ़\"॰b JJ७p॰opड़ं छ्ीोढंााढण ७u७w ७ीी @ऊl@मना ७gl uLO थJ॰o७ा Gwnuu २ 6णणा fं #मlupoiu GunGi. @@ @LबLuLOऊ ७७ण OlLIfऊंक - ढठ p ढठा .",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

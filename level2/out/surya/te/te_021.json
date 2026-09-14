@@ -1,0 +1,41 @@
+{
+  "page_id": "te_021",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1647,
+    "height": 2223
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1647,
+        2223
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "చరిత్ర మరియు రాజనీతి శాస్త్రం",
+      "text_nfc": "చరిత్ర మరియు రాజనీతి శాస్త్రం",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

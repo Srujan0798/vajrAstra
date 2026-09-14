@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_026",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 955,
+    "height": 1387
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        955,
+        1387
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "+ A\nvedee 1\nE de a\na elele peele\nDeee a 4el4\nKOTTAYAM PUBLIC LIBRARY\nCallNo\nMEa\nAcc. No.13610 -\n-\nAuthor. nonimln\nluni\nTitle. on.bzondnonyoont\n8046\nbeb\nde - 1 de",
+      "text_nfc": "+ A\nvedee 1\nE de a\na elele peele\nDeee a 4el4\nKOTTAYAM PUBLIC LIBRARY\nCallNo\nMEa\nAcc. No.13610 -\n-\nAuthor. nonimln\nluni\nTitle. on.bzondnonyoont\n8046\nbeb\nde - 1 de",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

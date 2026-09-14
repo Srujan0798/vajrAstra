@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_037",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+    "page_index": 84,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\\Rightarrow \\frac{|z_2z_3 + z_1z_3 + z_1z_2|}{|z_1 + z_2 + z_3|} = r. \\quad (\\text{கொள்கையின்படி } z_1 + z_2 + z_3 \\neq 0)\nஎனவே, \\frac{z_2z_3 + z_1z_3 + z_1z_2}{z_1 + z_2 + z_3} = r .\nஎடுத்துக்காட்டு 2.16\nz 2 = − π ﻿ / ﻿ என்ற சமன்பாட்டிற்கு நான்கு மூலங்கள் இருக்கும் என நிறுவுக .\nதீர்வு\nகொள்கை z^2 = \\overline{z} .\n\\Rightarrow |z|^2 = |z|\n\\Rightarrow |z|(|z|-1) = 0,\n\\Rightarrow |z| = 0, அல்லது |z|=1.\n|z| = 0 \\implies z = 0 என்பது ஒரு தீர்வு, |z| = 1 \\implies z\\bar{z} = 1 \\implies \\bar{z} = \\frac{1}{z} .\nகொள்கையிலிருந்து z^2 = \\bar{z} \\implies z^2 = \\frac{1}{z} \\implies z^3 = 1 .\nஇதற்கு 3 பூஜ்ஜியமற்ற தீர்வுகள் இருக்கும். ஆகவே பூஜ்ஜியத்தையும் சேர்த்து இதற்கு நான்கு தீர்வுகள் இருக்கும்.\n2.5.2 ஒரு கலப்பெண்ணின் வர்க்கமூலம் (Square roots of a complex number)\na + ib –ன் வர்க்கமூலம் x + iy என்க.\nஅதாவது \\sqrt{a+ib} = x+iy இங்கு x, y \\in \\mathbb{R}\na + ib = (x + iy)^2 = x^2 - y^2 + i2xy\nமெய் மற்றும் கற்பனைப் பகுதிகளைச் சமப்படுத்த\nx^2 - y^2 = a \\text{ மற்றும் } 2xy = b\n\\left(x^2 + y^2\\right)^2 = \\left(x^2 - y^2\\right)^2 + 4x^2y^2 = a^2 + b^2\nx^2 + y^2 மிகை ஆகையால் x^2 + y^2 = \\sqrt{a^2 + b^2}\nx^2 - y^2 = a மற்றும் x^2 + y^2 = \\sqrt{a^2 + b^2} ஆகியவற்றைத் தீர்க்க\nx = \\pm \\sqrt{\\frac{\\sqrt{a^2 + b^2} + a}{2}} ; y = \\pm \\sqrt{\\frac{\\sqrt{a^2 + b^2} - a}{2}} எனப் பெறலாம்.\n2xy = b என்பதிலிருந்து b மிகைஎண் எனில் x மற்றும் y ஆகியவை ஒரே குறியுடையவையாகவும் மற்றும் b குறை எனில் x மற்றும் y ஆகியவை வெவ்வேறு குறியுடையவையாகவும் இருக்கும்.\nஆகவே \\sqrt{a+ib} = \\pm \\left( \\sqrt{\\frac{|z|+a}{2}} + i \\frac{b}{|b|} \\sqrt{\\frac{|z|-a}{2}} \\right), \\quad \\text{அங்கு } b \\neq 0. \\quad (\\because \\operatorname{Re}(z) \\leq |z|)\nஒரு கலப்பெண்ணின் வர்க்கமூலம் காண சூத்திரம்\n\\sqrt{a+ib} = \\pm \\left( \\sqrt{\\frac{|z|+a}{2}} + i \\frac{b}{|b|} \\sqrt{\\frac{|z|-a}{2}} \\right), \\text{ அங்கு } z = a+ib \\text{ மற்றும் } b \\neq 0.\n77\nகலப்பு எண்கள்\n12th_Maths_TM_Vol1_CH 2_Complex Numbers.indd 77 16-12-2022 14:58:07",
+      "text_nfc": "\\Rightarrow \\frac{|z_2z_3 + z_1z_3 + z_1z_2|}{|z_1 + z_2 + z_3|} = r. \\quad (\\text{கொள்கையின்படி } z_1 + z_2 + z_3 \\neq 0)\nஎனவே, \\frac{z_2z_3 + z_1z_3 + z_1z_2}{z_1 + z_2 + z_3} = r .\nஎடுத்துக்காட்டு 2.16\nz 2 = − π ﻿ / ﻿ என்ற சமன்பாட்டிற்கு நான்கு மூலங்கள் இருக்கும் என நிறுவுக .\nதீர்வு\nகொள்கை z^2 = \\overline{z} .\n\\Rightarrow |z|^2 = |z|\n\\Rightarrow |z|(|z|-1) = 0,\n\\Rightarrow |z| = 0, அல்லது |z|=1.\n|z| = 0 \\implies z = 0 என்பது ஒரு தீர்வு, |z| = 1 \\implies z\\bar{z} = 1 \\implies \\bar{z} = \\frac{1}{z} .\nகொள்கையிலிருந்து z^2 = \\bar{z} \\implies z^2 = \\frac{1}{z} \\implies z^3 = 1 .\nஇதற்கு 3 பூஜ்ஜியமற்ற தீர்வுகள் இருக்கும். ஆகவே பூஜ்ஜியத்தையும் சேர்த்து இதற்கு நான்கு தீர்வுகள் இருக்கும்.\n2.5.2 ஒரு கலப்பெண்ணின் வர்க்கமூலம் (Square roots of a complex number)\na + ib –ன் வர்க்கமூலம் x + iy என்க.\nஅதாவது \\sqrt{a+ib} = x+iy இங்கு x, y \\in \\mathbb{R}\na + ib = (x + iy)^2 = x^2 - y^2 + i2xy\nமெய் மற்றும் கற்பனைப் பகுதிகளைச் சமப்படுத்த\nx^2 - y^2 = a \\text{ மற்றும் } 2xy = b\n\\left(x^2 + y^2\\right)^2 = \\left(x^2 - y^2\\right)^2 + 4x^2y^2 = a^2 + b^2\nx^2 + y^2 மிகை ஆகையால் x^2 + y^2 = \\sqrt{a^2 + b^2}\nx^2 - y^2 = a மற்றும் x^2 + y^2 = \\sqrt{a^2 + b^2} ஆகியவற்றைத் தீர்க்க\nx = \\pm \\sqrt{\\frac{\\sqrt{a^2 + b^2} + a}{2}} ; y = \\pm \\sqrt{\\frac{\\sqrt{a^2 + b^2} - a}{2}} எனப் பெறலாம்.\n2xy = b என்பதிலிருந்து b மிகைஎண் எனில் x மற்றும் y ஆகியவை ஒரே குறியுடையவையாகவும் மற்றும் b குறை எனில் x மற்றும் y ஆகியவை வெவ்வேறு குறியுடையவையாகவும் இருக்கும்.\nஆகவே \\sqrt{a+ib} = \\pm \\left( \\sqrt{\\frac{|z|+a}{2}} + i \\frac{b}{|b|} \\sqrt{\\frac{|z|-a}{2}} \\right), \\quad \\text{அங்கு } b \\neq 0. \\quad (\\because \\operatorname{Re}(z) \\leq |z|)\nஒரு கலப்பெண்ணின் வர்க்கமூலம் காண சூத்திரம்\n\\sqrt{a+ib} = \\pm \\left( \\sqrt{\\frac{|z|+a}{2}} + i \\frac{b}{|b|} \\sqrt{\\frac{|z|-a}{2}} \\right), \\text{ அங்கு } z = a+ib \\text{ மற்றும் } b \\neq 0.\n77\nகலப்பு எண்கள்\n12th_Maths_TM_Vol1_CH 2_Complex Numbers.indd 77 16-12-2022 14:58:07",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

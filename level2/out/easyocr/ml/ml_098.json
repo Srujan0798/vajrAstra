@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_098",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 57,
+    "width": 923,
+    "height": 1356
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        923,
+        1356
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "६०\ncodonb m !oomb\noQmo २०७०० ailooo,   o I५ळmod, &oieldo@, @g8o 80_00 ogmloisoa3ale lommo @g3 J29@7 @ cot2ilel6 68BC5 Olomlolsp 6 65= jlooe_)po\" omk! ८UD0D3 2oळl ola@m Opejda   orloo@o   oel fles la२oan 68]9. QO२ielo gaaloळ 0|D063 )06)@&], codoतbom ! Oom GOoolelक683%> O Jomlळlxlomom@ l@b 8oल Boieldbo, Ligomoo   pSoaal@o 00$94|3300683@1@0` 819 BJo 0 lomlळlgकoonड ळlomleJ   myoloIomvoolmogQloneो Ooplosmalot eoa _lsgtSoo2Jda2omlomo 8oro / OD@b Olosgoooolonbo @lo3co०   Oo१ Jooloतbo   mosg]२ @ On4क06$ Ooe Qjablonmloemm o0m qYat2omm 6839. ृल Goopllelक6onal@b @mJoomb @$@ sQ6 oogmga 7 oo2mछloem @olQj2onsow}@rr. o%Dg009m २l७0I0Dl6@७8 Jooe] ८O Oomom ]@J 0०० @ggcoo@g० @$कglळoळlomo. Q8 gomlopoळlळs Co3Go0o  lomlooapil8 ]laच \"eB0I@J ' २oale   कonडo@s @p @2000 01)002)d:0. 603'@p03@ 8omolom0 gomकg० 0 lsmlलo$ 0$० 2oa |॰ ` @onडzob oQQld७o ८roणड@o  COo)omo. 046n3900]0 ८ Ooolielक683X Olomloaplloa2inb po७2e oseaoo   Oog Jooloel QIO2Dm० olleioi 691 %l@mogg moडक२d8' 8g 2ICO JQJc omvलक9|0]2g@ 8O81 @)83%0, 2959 !0< &00, Osmldo IलoeloCo, 0 IoOddor QoelBe QoebwQl mmooo Oo@० 0 _smilळ iooQo ठ७i",
+      "text_nfc": "६०\ncodonb m !oomb\noQmo २०७०० ailooo,   o I५ळmod, &oieldo@, @g8o 80_00 ogmloisoa3ale lommo @g3 J29@7 @ cot2ilel6 68BC5 Olomlolsp 6 65= jlooe_)po\" omk! ८UD0D3 2oळl ola@m Opejda   orloo@o   oel fles la२oan 68]9. QO२ielo gaaloळ 0|D063 )06)@&], codoतbom ! Oom GOoolelक683%> O Jomlळlxlomom@ l@b 8oल Boieldbo, Ligomoo   pSoaal@o 00$94|3300683@1@0` 819 BJo 0 lomlळlgकoonड ळlomleJ   myoloIomvoolmogQloneो Ooplosmalot eoa _lsgtSoo2Jda2omlomo 8oro / OD@b Olosgoooolonbo @lo3co०   Oo१ Jooloतbo   mosg]२ @ On4क06$ Ooe Qjablonmloemm o0m qYat2omm 6839. ृल Goopllelक6onal@b @mJoomb @$@ sQ6 oogmga 7 oo2mछloem @olQj2onsow}@rr. o%Dg009m २l७0I0Dl6@७8 Jooe] ८O Oomom ]@J 0०० @ggcoo@g० @$कglळoळlomo. Q8 gomlopoळlळs Co3Go0o  lomlooapil8 ]laच \"eB0I@J ' २oale   कonडo@s @p @2000 01)002)d:0. 603'@p03@ 8omolom0 gomकg० 0 lsmlलo$ 0$० 2oa |॰ ` @onडzob oQQld७o ८roणड@o  COo)omo. 046n3900]0 ८ Ooolielक683X Olomloaplloa2inb po७2e oseaoo   Oog Jooloel QIO2Dm० olleioi 691 %l@mogg moडक२d8' 8g 2ICO JQJc omvलक9|0]2g@ 8O81 @)83%0, 2959 !0< &00, Osmldo IलoeloCo, 0 IoOddor QoelBe QoebwQl mmooo Oo@० 0 _smilळ iooQo ठ७i",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

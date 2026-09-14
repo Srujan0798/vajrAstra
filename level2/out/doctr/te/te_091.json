@@ -1,0 +1,41 @@
+{
+  "page_id": "te_091",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0007pro_raw.pdf",
+    "page_index": 0,
+    "width": 1352,
+    "height": 2115
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1352,
+        2115
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SECOND TERM SUMMATIVE ASSESSMENT\n(OCT '2010 - MAR 2011) MARCH 2011\nSAMPLE QUESTION PAPER\nCLASS - IX\nSUBJECT - TELUGU\nTIME: 3 Hye.\nMax. Marka, 80.\narho 6 J 9\n1. So8 Koror) s8a, 390 ans assads JSSOJSS NOOUs OJS\nJN)S oood.\n5x2=10\n5080y083 eoseson s89oto 80005 Bw5 aessss\nN35O56. Bwos 539000, 059000 ess JorOs\nBJh00N, JOO sresogod 32000s0 00A0w. b39o6o,\nnoso 3088 85295 380ho0ss\nE\n33)sw3. 539060\n2Gos S3550800s SOSSAS Saogo. 8303 Jasero es\nKog) S5GO grod 80ow. SNASS 2GS0835o 508\nSeg JSL3. esoos woJeso 8000 eswesjays 3e3s\n00382030. S30-603363 3G30ds B0g6\n15 5\n008 3085J0.\nsoe:-\ni. Bno 8000s Goges.\nes) 539o06o, OSJOSJERO\nes) OSJOJESO, : spoto\na) : So9o06o, s8pobo\n68) ernseso, 0sopo0o.\nii. Sro J38 NS5DSS?\nes) aes\ne3) 352\na) Ssjas\nS8) JON",
+      "text_nfc": "SECOND TERM SUMMATIVE ASSESSMENT\n(OCT '2010 - MAR 2011) MARCH 2011\nSAMPLE QUESTION PAPER\nCLASS - IX\nSUBJECT - TELUGU\nTIME: 3 Hye.\nMax. Marka, 80.\narho 6 J 9\n1. So8 Koror) s8a, 390 ans assads JSSOJSS NOOUs OJS\nJN)S oood.\n5x2=10\n5080y083 eoseson s89oto 80005 Bw5 aessss\nN35O56. Bwos 539000, 059000 ess JorOs\nBJh00N, JOO sresogod 32000s0 00A0w. b39o6o,\nnoso 3088 85295 380ho0ss\nE\n33)sw3. 539060\n2Gos S3550800s SOSSAS Saogo. 8303 Jasero es\nKog) S5GO grod 80ow. SNASS 2GS0835o 508\nSeg JSL3. esoos woJeso 8000 eswesjays 3e3s\n00382030. S30-603363 3G30ds B0g6\n15 5\n008 3085J0.\nsoe:-\ni. Bno 8000s Goges.\nes) 539o06o, OSJOSJERO\nes) OSJOJESO, : spoto\na) : So9o06o, s8pobo\n68) ernseso, 0sopo0o.\nii. Sro J38 NS5DSS?\nes) aes\ne3) 352\na) Ssjas\nS8) JON",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

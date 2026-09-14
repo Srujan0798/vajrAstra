@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_040",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 106,
+    "width": 1698,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1698,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "BHVEBS OVGSerlo छरुलांउदी)\n\nmess «8A, ಭವನ. 8.8. ರಸ್ತೆ. ಬೆಂಗಳೂರು-66೦ 002\n\nae Res peek AME re a is\nOOF OD Karnataka Lalitkala Academy\n\n2 Kannada Bhavan, J.C. Road, Bengaluru - 560 002\n\nPhone : 080 - 22480297\n\n",
+      "text_nfc": "BHVEBS OVGSerlo छरुलांउदी)\n\nmess «8A, ಭವನ. 8.8. ರಸ್ತೆ. ಬೆಂಗಳೂರು-66೦ 002\n\nae Res peek AME re a is\nOOF OD Karnataka Lalitkala Academy\n\n2 Kannada Bhavan, J.C. Road, Bengaluru - 560 002\n\nPhone : 080 - 22480297\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

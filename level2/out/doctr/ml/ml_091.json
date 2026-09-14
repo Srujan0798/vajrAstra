@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_091",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1\neBooks-459-thinmakal-23\n6321608 (Olo00o\nAuthor: Binoy Thomas\nmalayalamplus.com eBook series\nPrice: FREE\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "text_nfc": "1\neBooks-459-thinmakal-23\n6321608 (Olo00o\nAuthor: Binoy Thomas\nmalayalamplus.com eBook series\nPrice: FREE\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

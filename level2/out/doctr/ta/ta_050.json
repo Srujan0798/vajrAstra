@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_050",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 17,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ST9T TITH\npeil CpT tope\n311ChRT N Caet ET JT VR\n371416 N auf at VR\ndai chi is 3riadt Tieft Tfieft YeCITE 311ch\nGTH-CH N 716H15 auidt à\nT JTTT HOHT chaia\nIE 4 US iheT 311C HeH CTT uld à\nE ERH VR\nast 34T 7\nHT, LET cIdT à\nST Yrit - ChT tcheT TTRG\nchal gcht feut UH6 VR à fHET Ta\nTET Ralt dG chich à CIT\nTGIE cfi fandld 46d à 378\nHH E7 à 4601\nCIRRT 6 S at 3H0h\nTohet A ghl 9E I Jdt àl\nVHICT # 451 cht ZofeT Zohridt au\nTHICT GaT a 47 chlyd d\nCITRET 3747 farilet ET2T alchoht\nTSIS16C Gelldt à\n377 Het, TRIA, uya\ntT cht ViTch 467\nfachel 3d à drdl\nHICTH à T9T\nfahtich fay RIT ft à à ETPT 3010\nCRITICH t 31ch1 eft nie\ndet 4T b HTI\nTalig-el ZIR\nReprint 2026-",
+      "text_nfc": "ST9T TITH\npeil CpT tope\n311ChRT N Caet ET JT VR\n371416 N auf at VR\ndai chi is 3riadt Tieft Tfieft YeCITE 311ch\nGTH-CH N 716H15 auidt à\nT JTTT HOHT chaia\nIE 4 US iheT 311C HeH CTT uld à\nE ERH VR\nast 34T 7\nHT, LET cIdT à\nST Yrit - ChT tcheT TTRG\nchal gcht feut UH6 VR à fHET Ta\nTET Ralt dG chich à CIT\nTGIE cfi fandld 46d à 378\nHH E7 à 4601\nCIRRT 6 S at 3H0h\nTohet A ghl 9E I Jdt àl\nVHICT # 451 cht ZofeT Zohridt au\nTHICT GaT a 47 chlyd d\nCITRET 3747 farilet ET2T alchoht\nTSIS16C Gelldt à\n377 Het, TRIA, uya\ntT cht ViTch 467\nfachel 3d à drdl\nHICTH à T9T\nfahtich fay RIT ft à à ETPT 3010\nCRITICH t 31ch1 eft nie\ndet 4T b HTI\nTalig-el ZIR\nReprint 2026-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

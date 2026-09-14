@@ -1,0 +1,41 @@
+{
+  "page_id": "te_096",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0012pro_raw.pdf",
+    "page_index": 0,
+    "width": 1662,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1662,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "COURSEBOOK;, |\n\na గ del ।\n\n&&\n\n<3 STANDARD TEN\n",
+      "text_nfc": "COURSEBOOK;, |\n\na గ del ।\n\n&&\n\n<3 STANDARD TEN\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

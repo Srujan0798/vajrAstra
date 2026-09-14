@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_045",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 11,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "s\nS\n3TT9\n$22\n\nfrtt\n3T2T\nHETH  MERA 3  Rh  \nAf\n3t\na r  c f\nf\nA S T   3 - R 3  -H \nEHRT TRT\nhttps://youtu.be/gKvAoGtZY1I?si=3Z9zHAxMzeosnm7L\nTEa\n–\nhttps://youtu.be/T93aUA1jHkI?feature=shared\n© NCERT\nnot to be republished\n\n127\nReprint 2026-27",
+      "text_nfc": "s\nS\n3TT9\n$22\n\nfrtt\n3T2T\nHETH  MERA 3  Rh  \nAf\n3t\na r  c f\nf\nA S T   3 - R 3  -H \nEHRT TRT\nhttps://youtu.be/gKvAoGtZY1I?si=3Z9zHAxMzeosnm7L\nTEa\n–\nhttps://youtu.be/T93aUA1jHkI?feature=shared\n© NCERT\nnot to be republished\n\n127\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

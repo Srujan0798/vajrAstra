@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_017",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 56,
+    "width": 1108,
+    "height": 1643
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1108,
+        1643
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "apozoo w0230\n3\n20230.. 2c2c... 20230...\nSas asozoo 2o2c... II\n3\naz eodioe 20230...\n33F woae 20230...\nNoooabrs 8 sogase, azod\nDBO 2o2e... NOWO wo2c... II\naden DeOO 20230...\n20020d mOPOD 20230...\ndoos 20230.... aoe 20230... II\n208ado0n 20230...\nDesoadasoen 20230...\nnes, BoU, egerer 2023... Il\nsats adeg aSor woxse...\nJats Sesgp gposd woxe...\nsioep worsc... SPAOCD w0230... II\ngjetdo 2ass wodo...\nderio Hease abeorio..\n3\nasoosdoore wabro.. II\n20230... 20230... woese...\nsa asoodon w0230... II\nBow-3eos /42",
+      "text_nfc": "apozoo w0230\n3\n20230.. 2c2c... 20230...\nSas asozoo 2o2c... II\n3\naz eodioe 20230...\n33F woae 20230...\nNoooabrs 8 sogase, azod\nDBO 2o2e... NOWO wo2c... II\naden DeOO 20230...\n20020d mOPOD 20230...\ndoos 20230.... aoe 20230... II\n208ado0n 20230...\nDesoadasoen 20230...\nnes, BoU, egerer 2023... Il\nsats adeg aSor woxse...\nJats Sesgp gposd woxe...\nsioep worsc... SPAOCD w0230... II\ngjetdo 2ass wodo...\nderio Hease abeorio..\n3\nasoosdoore wabro.. II\n20230... 20230... woese...\nsa asoodon w0230... II\nBow-3eos /42",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

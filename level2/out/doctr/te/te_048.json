@@ -1,0 +1,41 @@
+{
+  "page_id": "te_048",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0048pro_raw.pdf",
+    "page_index": 50,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "III. 2pop Beososootro.\ne. wsporerss oobod.\n1) ssang! S59 Koowd !\n2) deusgoes Besowsdoes ?\n3) sg5 S55 SA SNSonO.\n4) 316555 sowe 38 SS JCSod\ne. Soa soes Jo w5re5S 6oaROD\nbobod.\n1) eodwowver\n2) dopse\n3) anA3e\n3. fghas soves 6 2v0P2TOSS oobod.\n1) 350 8s 258808056 sE5Sego\nSX8056 0os20.\n2) a8 WSLD Joésew assis.\nnas\n000 00\n@\nN-r\n€\n2ya PeyTOOs\nJOYAN9\nI\na\n3) 808 350 583 dro3os\nJeNstno.\n4) S59 255 apeur\n650A050SS5\n5) S50 8SE asTom 303J5.\nIV. Sevosd :\n1) S08 WoOs KDOWOd. 2.2.00,\n335, WO65, ases, 8655 ess\nSoss baahal 0o0s, eso\nJssev oobol.\n1.\n2.\n3.\n4.\n5.\n6.\n8555- roEg5- 800Es auoen sooss\nLSOAATO 230265 SORTTEON oobod.\n1.\n2.\n3.\n4.\n5.\n6.\n2. Koaygo' escsoss DobJSSS 3\noobod.\nC413",
+      "text_nfc": "III. 2pop Beososootro.\ne. wsporerss oobod.\n1) ssang! S59 Koowd !\n2) deusgoes Besowsdoes ?\n3) sg5 S55 SA SNSonO.\n4) 316555 sowe 38 SS JCSod\ne. Soa soes Jo w5re5S 6oaROD\nbobod.\n1) eodwowver\n2) dopse\n3) anA3e\n3. fghas soves 6 2v0P2TOSS oobod.\n1) 350 8s 258808056 sE5Sego\nSX8056 0os20.\n2) a8 WSLD Joésew assis.\nnas\n000 00\n@\nN-r\n€\n2ya PeyTOOs\nJOYAN9\nI\na\n3) 808 350 583 dro3os\nJeNstno.\n4) S59 255 apeur\n650A050SS5\n5) S50 8SE asTom 303J5.\nIV. Sevosd :\n1) S08 WoOs KDOWOd. 2.2.00,\n335, WO65, ases, 8655 ess\nSoss baahal 0o0s, eso\nJssev oobol.\n1.\n2.\n3.\n4.\n5.\n6.\n8555- roEg5- 800Es auoen sooss\nLSOAATO 230265 SORTTEON oobod.\n1.\n2.\n3.\n4.\n5.\n6.\n2. Koaygo' escsoss DobJSSS 3\noobod.\nC413",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

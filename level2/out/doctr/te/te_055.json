@@ -1,0 +1,41 @@
+{
+  "page_id": "te_055",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0055pro_raw.pdf",
+    "page_index": 171,
+    "width": 1658,
+    "height": 2243
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2243
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "I\nO\n>\n1\n000560039 059 aros OES 2818 8806s arbs SEOVOS 885503 Kors, SJe3\nA TIford serdl Hercht (dol HTEZIH)\nR 105.00",
+      "text_nfc": "I\nO\n>\n1\n000560039 059 aros OES 2818 8806s arbs SEOVOS 885503 Kors, SJe3\nA TIford serdl Hercht (dol HTEZIH)\nR 105.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

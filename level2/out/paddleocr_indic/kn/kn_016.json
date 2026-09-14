@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_016",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 0,
+    "width": 1077,
+    "height": 1699
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1077,
+        1699
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಮದಃಯರಾವಂದತುಳುವರ್ಮಾಲಕೆ--ಕ\nಪಂಪಪಶಸಪಡೆಯುನ\nಕಯಾೈರ\n೨ಇಇ\n೫೫\nರೂಪಕಲಾಆಳ\nಕನಾ೯ಟಕತುಳುಸಾ೯ತಅಕಾಡಖ\nತುಳುಭವನ-ಉವ-ಸೋರ್-ಮಂಗಳೂರು-",
+      "text_nfc": "ಮದಃಯರಾವಂದತುಳುವರ್ಮಾಲಕೆ--ಕ\nಪಂಪಪಶಸಪಡೆಯುನ\nಕಯಾೈರ\n೨ಇಇ\n೫೫\nರೂಪಕಲಾಆಳ\nಕನಾ೯ಟಕತುಳುಸಾ೯ತಅಕಾಡಖ\nತುಳುಭವನ-ಉವ-ಸೋರ್-ಮಂಗಳೂರು-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

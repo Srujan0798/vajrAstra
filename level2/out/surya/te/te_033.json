@@ -1,0 +1,41 @@
+{
+  "page_id": "te_033",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0033pro_raw.pdf",
+    "page_index": 48,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "“Oh! no! It’s not a Hen. It’s a Squirrel.”\n“Come on, Squirrel, follow me. Let’s find the Hen. Where is she?”\n“May be Hen is behind this basket. Can you see a furry tail?”\n“Oh! no! It’s not Hen. It’s Cat.”\n“Come on, Cat, follow me. Let’s find the Hen. Where is she?”\n“Who’s behind this rose garden? Can you see a stripy nose?”\n“Come on, Fox follow me. I’ll lead you to our picnic spot.”\n“Still no Hen! Where did she go?”\n\"Calf can't guess. Can you guess?\"\n39",
+      "text_nfc": "“Oh! no! It’s not a Hen. It’s a Squirrel.”\n“Come on, Squirrel, follow me. Let’s find the Hen. Where is she?”\n“May be Hen is behind this basket. Can you see a furry tail?”\n“Oh! no! It’s not Hen. It’s Cat.”\n“Come on, Cat, follow me. Let’s find the Hen. Where is she?”\n“Who’s behind this rose garden? Can you see a stripy nose?”\n“Come on, Fox follow me. I’ll lead you to our picnic spot.”\n“Still no Hen! Where did she go?”\n\"Calf can't guess. Can you guess?\"\n39",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

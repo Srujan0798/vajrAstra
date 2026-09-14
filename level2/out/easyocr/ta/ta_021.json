@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_021",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "शऋष DL 0रा\nQाUIoLDGu 0@6= %\nफ़IDीyूआG शJष्\nGLDनDूblooov QJoठग LILD श्रुनठंग G\nमlpLI4g फ़lीy\nफ़IDीypIG शJ J ७व @DJJU नUनJILI LIITLLII नD @lypilGuo छीLं L फ़ंफ़्लीन्ं &yp Ol७lनflulLLILILLLछI LIGiraflक B६bollggloop रँनणग LLITODLD LDनगीमू OूuILopp Olमul@iib OLIG IGpp(pio थ७Lo\nXII Sid Advance Tamil Introduction Pages indd\n11-12-2021 22:24:04",
+      "text_nfc": "शऋष DL 0रा\nQाUIoLDGu 0@6= %\nफ़IDीyूआG शJष्\nGLDनDूblooov QJoठग LILD श्रुनठंग G\nमlpLI4g फ़lीy\nफ़IDीypIG शJ J ७व @DJJU नUनJILI LIITLLII नD @lypilGuo छीLं L फ़ंफ़्लीन्ं &yp Ol७lनflulLLILILLLछI LIGiraflक B६bollggloop रँनणग LLITODLD LDनगीमू OूuILopp Olमul@iib OLIG IGpp(pio थ७Lo\nXII Sid Advance Tamil Introduction Pages indd\n11-12-2021 22:24:04",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

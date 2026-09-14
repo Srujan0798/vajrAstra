@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_080",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+    "page_index": 0,
+    "width": 1059,
+    "height": 1609
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1059,
+        1609
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KOTTAYAM PUBLIC LIBRARY\nCall No.ME3\nAcc. No..80900\n1o sorlon00pg (am..araniromp\nTue0800.8.021011..V01eh1..vol-1L",
+      "text_nfc": "KOTTAYAM PUBLIC LIBRARY\nCall No.ME3\nAcc. No..80900\n1o sorlon00pg (am..araniromp\nTue0800.8.021011..V01eh1..vol-1L",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

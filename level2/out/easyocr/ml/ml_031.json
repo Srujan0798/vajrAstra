@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_031",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series G7DEF\nSET-4\nQ.P. Code\n12\nCandidates must write the Q.P Code on the title page of the answer-book.\nR0]] [o.\nm173306030 ]OTಾ @9JDGG೧ lR_I೧1೧? @02J519) 15 %೧o3'oonsm PLedse check thot thts questton [oDeT (@೧ದ6೨I@್ ಐ೧? ೂ೧ @@ಹ . co tctns ]5 Drinted Dd8es. []) ೧J@ವ೫೨d@ಚ] @೨J93JG೧ lq [೧1*m ([[) Q.? Code   81Ue1 011 the   Tisht hQnq Qel@ಯcಾ0Gಂಯ@ 6c3s@1 1ವom sude of the question   DQpeT   should be @9/53JGಇ R |@ Gಹಿ೦ಉ ಐ@@ಹ seಂಇಭlಎm urttten O1 the title pdse of the @sueT - book by the condidute. 665R1೧ೆ G೧ J8l@ೌ 00ಣG@6ns@೨6m . ([]])   69/93J6 /6 ಸ೧17 8 @993J6030 ಖ66ngm  ([[[) PLedse check thct thts questton DdDeT G3@೧ಪ೧೨I@ ೨೧ ೂ೧ @@ಹಾ. contotns 8 questtons. ([TT) ೨@೧೦ ೧೪@m@m %೧೨೦ಫ ([TT) Pedse uTtte douun the SeTtd] ]umbe1 9@@-೧se ಎml@u @m1s.99 ಖ56039100 o[ the guestto? 11 the CTsuUeT-b0oR Ct G೨ J93@016೧2 (ಹಾನmಯು@ಿ 299@ಹ. the Btue1 pLವce before @ttemptt78 it. @9J93J6 ೧ J0 ೧೨೦1ವ೧೨೧ಚ 15 01m1596m [5 mtqute tt1e hCs beem   ClLotted] t0 @0mQI31215890 . @೨೧l68J 10.15 ೧ Tedd thts questton_DoDer: 'T'he questton @9193JG೧ I~ 0 Qlooomo ೧೨ I@m@೨೯m . [Q[eT LUt]] be dustrtbuted] Ct ]0.[5 0.111 . RT01 ]0.[5 0.111 . t0 [0.30 ೧೦೧l6eJ 10.15 0@@7 10.30 ೧J60 Q.111 . [ the condidotes Ut]] Tedd the questton ೧l3ಂಸ@ಚlಹಾಉಹo @೨ID360300 DQ[e1 011y C10] LUt] ] TOt LT*tte 01) ೧೦೦] 2lೂ@mಭಹ೧ಇm೫ಇ ಉಇ@೩ಂom . ಐಇ C7SLUPT` 011 the @7suueT-book   duTt78 ೧೧೦೦ ಐ@ಹ೧seಂq್ಣುIೀೆ 60 ಖಊ೧೧೦ this Dertod . ೧39೧೨೧ @೦1ವoq@ .\nQ8J0ಂ8ಂ MATAYATAJ\n@0mJ೧JG312 ೧೧ಯ೦ : 3  06 1ಹqಸ [1e C[]ouued] 3 ^ouTs\n@96ಹರ ೨9ನc೧ 80\n[ಯ .tmum ][CTs 80\nಲ\nJಖ\n12\nPT.0.",
+      "text_nfc": "Series G7DEF\nSET-4\nQ.P. Code\n12\nCandidates must write the Q.P Code on the title page of the answer-book.\nR0]] [o.\nm173306030 ]OTಾ @9JDGG೧ lR_I೧1೧? @02J519) 15 %೧o3'oonsm PLedse check thot thts questton [oDeT (@೧ದ6೨I@್ ಐ೧? ೂ೧ @@ಹ . co tctns ]5 Drinted Dd8es. []) ೧J@ವ೫೨d@ಚ] @೨J93JG೧ lq [೧1*m ([[) Q.? Code   81Ue1 011 the   Tisht hQnq Qel@ಯcಾ0Gಂಯ@ 6c3s@1 1ವom sude of the question   DQpeT   should be @9/53JGಇ R |@ Gಹಿ೦ಉ ಐ@@ಹ seಂಇಭlಎm urttten O1 the title pdse of the @sueT - book by the condidute. 665R1೧ೆ G೧ J8l@ೌ 00ಣG@6ns@೨6m . ([]])   69/93J6 /6 ಸ೧17 8 @993J6030 ಖ66ngm  ([[[) PLedse check thct thts questton DdDeT G3@೧ಪ೧೨I@ ೨೧ ೂ೧ @@ಹಾ. contotns 8 questtons. ([TT) ೨@೧೦ ೧೪@m@m %೧೨೦ಫ ([TT) Pedse uTtte douun the SeTtd] ]umbe1 9@@-೧se ಎml@u @m1s.99 ಖ56039100 o[ the guestto? 11 the CTsuUeT-b0oR Ct G೨ J93@016೧2 (ಹಾನmಯು@ಿ 299@ಹ. the Btue1 pLವce before @ttemptt78 it. @9J93J6 ೧ J0 ೧೨೦1ವ೧೨೧ಚ 15 01m1596m [5 mtqute tt1e hCs beem   ClLotted] t0 @0mQI31215890 . @೨೧l68J 10.15 ೧ Tedd thts questton_DoDer: 'T'he questton @9193JG೧ I~ 0 Qlooomo ೧೨ I@m@೨೯m . [Q[eT LUt]] be dustrtbuted] Ct ]0.[5 0.111 . RT01 ]0.[5 0.111 . t0 [0.30 ೧೦೧l6eJ 10.15 0@@7 10.30 ೧J60 Q.111 . [ the condidotes Ut]] Tedd the questton ೧l3ಂಸ@ಚlಹಾಉಹo @೨ID360300 DQ[e1 011y C10] LUt] ] TOt LT*tte 01) ೧೦೦] 2lೂ@mಭಹ೧ಇm೫ಇ ಉಇ@೩ಂom . ಐಇ C7SLUPT` 011 the @7suueT-book   duTt78 ೧೧೦೦ ಐ@ಹ೧seಂq್ಣುIೀೆ 60 ಖಊ೧೧೦ this Dertod . ೧39೧೨೧ @೦1ವoq@ .\nQ8J0ಂ8ಂ MATAYATAJ\n@0mJ೧JG312 ೧೧ಯ೦ : 3  06 1ಹqಸ [1e C[]ouued] 3 ^ouTs\n@96ಹರ ೨9ನc೧ 80\n[ಯ .tmum ][CTs 80\nಲ\nJಖ\n12\nPT.0.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

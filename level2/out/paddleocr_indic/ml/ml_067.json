@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_067",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "DBB:\n(i)\n S  LS 3?\n(ii)\n3   3\nnglgmggg6mg?\n(iii)\ngm ?\n(iv)\n9 993 99 (63\n3 gm?\n(v)\nCPP991 B26) DL1G6M 2L3LB6\ngg?\n(vi)\nDoMOB LoMg33?\n(vii)\n92LD Sg R S9913 B9) (L993\n2m 363 ?\n(vii) ?\n2.\n7\n2(3i)(Reading\nComprehension)\n7×1=7\n 3    6\nU3M.6 LR M3 J\n \n3SD9M M9 36S 2O8069S)O9)M\n.g a Sgg3 \n 33   3\n3. 33 (1)\n39839633963,88383 293999\n399 32R5183 (LS3 9)5169M 3)391338, P16\nDe3l90Mo 990OnRS gP-9g1a B6O LLUW93yBA58gM 60g\nGgCSLLSMD6) S6MI6SM).6B999ogBy90\n2OLUBMOLG6S IO SODUMDUM DE3IJOMLLSMAWA\n12\n4\n[]",
+      "text_nfc": "DBB:\n(i)\n S  LS 3?\n(ii)\n3   3\nnglgmggg6mg?\n(iii)\ngm ?\n(iv)\n9 993 99 (63\n3 gm?\n(v)\nCPP991 B26) DL1G6M 2L3LB6\ngg?\n(vi)\nDoMOB LoMg33?\n(vii)\n92LD Sg R S9913 B9) (L993\n2m 363 ?\n(vii) ?\n2.\n7\n2(3i)(Reading\nComprehension)\n7×1=7\n 3    6\nU3M.6 LR M3 J\n \n3SD9M M9 36S 2O8069S)O9)M\n.g a Sgg3 \n 33   3\n3. 33 (1)\n39839633963,88383 293999\n399 32R5183 (LS3 9)5169M 3)391338, P16\nDe3l90Mo 990OnRS gP-9g1a B6O LLUW93yBA58gM 60g\nGgCSLLSMD6) S6MI6SM).6B999ogBy90\n2OLUBMOLG6S IO SODUMDUM DE3IJOMLLSMAWA\n12\n4\n[]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

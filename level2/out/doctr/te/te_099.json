@@ -1,0 +1,41 @@
+{
+  "page_id": "te_099",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0015pro_raw.pdf",
+    "page_index": 117,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4. Jogagesso (Electeroplating)\n68 5086 2005 agaeso aSO ésys Sorteéne\nA Sgas\n200E0\nestisess J5S Sogled no 6303 som 20joro.\n308 Jvë no wow, 20O Jé Ko ezyoeoves 20\naogoreaso awsy dwsoesen.\n5. D8sopOss Jojos6 (Alloying)\n300 Gs\nongéo wbes) wo swOs swges Doave\nJogts\nJogs Bow\n850e56 doera. 583 3N5 swagas 50800 dod esd\nesfofess 2018 saso 3565 éfowd. as SETOOSE 36\n05)86 288 ofifesss do esfusoss sevar 206\n8.17 Dogagesso\nagaves 2oose5asex eodo. dwJOEOS, eroas esa\n90% oô sd0 10% enoswe 508 easowss 2000.\neroas (Sow) On5O Sso, 5o50o6 S56 swjeod.\n50, mO ses 28s00 20960, 6) 3ess Ses 74%\nawaw, 18% 5o0050 sd0 8% 50)50 N08\neavowns 208000. ad aGor\nC\nonge\nJodwes eao\nBabods 28305 o5e 20800WE soo ayo.\n5055 Beos?\n8.18 208 Josses\naoyoë 20s otaeos as o5WO J88NO eséos esys WOD eareo (Amalgam) es eodro.\n800b0 eares, 205 esrgs avdenss. 308, J88No aavens aSOT 6ob3doges dwahso.\n20ro0, J8830 agavenss 20m00 Dopbeness dwahso.\n1. as00s doatress 208 203 sfifes 20? JOD aSyCS\nSSTWOSOS 3680508.\ndsairhso?\n1. 3g5s oobod.\n2. Josve éosôs aoarlossoss aogaves Jeroes gores\ndocsos ?\nesasgiso\nGO\n2. sogso, sojowess 2838508.\ne. N8oso, J8ONO awsz 20830 eO.\nsagss\n6581350\nes. eerrasaso awsz Jooes wes\ne. KBr\n1. aod DDEOO Kod\nescaugrbojer\nes. 20md0\n2. 588656 SODS\na. essg 580 SOO 308003 sos 288 OSeOo\na. Koosaw 3. 8JOBOS 150g 20n0.\nsdow 58 201833 e3E\n60. Jas5\n4. eas éscé\n68. 6549) tyoo Bowos dwahow JOsO\nt. eoostises sow Doeorssses\nde. ssoaswers sonoi Sairessaw.",
+      "text_nfc": "4. Jogagesso (Electeroplating)\n68 5086 2005 agaeso aSO ésys Sorteéne\nA Sgas\n200E0\nestisess J5S Sogled no 6303 som 20joro.\n308 Jvë no wow, 20O Jé Ko ezyoeoves 20\naogoreaso awsy dwsoesen.\n5. D8sopOss Jojos6 (Alloying)\n300 Gs\nongéo wbes) wo swOs swges Doave\nJogts\nJogs Bow\n850e56 doera. 583 3N5 swagas 50800 dod esd\nesfofess 2018 saso 3565 éfowd. as SETOOSE 36\n05)86 288 ofifesss do esfusoss sevar 206\n8.17 Dogagesso\nagaves 2oose5asex eodo. dwJOEOS, eroas esa\n90% oô sd0 10% enoswe 508 easowss 2000.\neroas (Sow) On5O Sso, 5o50o6 S56 swjeod.\n50, mO ses 28s00 20960, 6) 3ess Ses 74%\nawaw, 18% 5o0050 sd0 8% 50)50 N08\neavowns 208000. ad aGor\nC\nonge\nJodwes eao\nBabods 28305 o5e 20800WE soo ayo.\n5055 Beos?\n8.18 208 Josses\naoyoë 20s otaeos as o5WO J88NO eséos esys WOD eareo (Amalgam) es eodro.\n800b0 eares, 205 esrgs avdenss. 308, J88No aavens aSOT 6ob3doges dwahso.\n20ro0, J8830 agavenss 20m00 Dopbeness dwahso.\n1. as00s doatress 208 203 sfifes 20? JOD aSyCS\nSSTWOSOS 3680508.\ndsairhso?\n1. 3g5s oobod.\n2. Josve éosôs aoarlossoss aogaves Jeroes gores\ndocsos ?\nesasgiso\nGO\n2. sogso, sojowess 2838508.\ne. N8oso, J8ONO awsz 20830 eO.\nsagss\n6581350\nes. eerrasaso awsz Jooes wes\ne. KBr\n1. aod DDEOO Kod\nescaugrbojer\nes. 20md0\n2. 588656 SODS\na. essg 580 SOO 308003 sos 288 OSeOo\na. Koosaw 3. 8JOBOS 150g 20n0.\nsdow 58 201833 e3E\n60. Jas5\n4. eas éscé\n68. 6549) tyoo Bowos dwahow JOsO\nt. eoostises sow Doeorssses\nde. ssoaswers sonoi Sairessaw.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

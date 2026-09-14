@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_070",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+    "page_index": 335,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "UDiy\nXII - 5600f5oo\n12h_Matha.TM.Voit_Teat Book Devl Team.indd 328\n16-12-2022 15:43:55\n328",
+      "text_nfc": "UDiy\nXII - 5600f5oo\n12h_Matha.TM.Voit_Teat Book Devl Team.indd 328\n16-12-2022 15:43:55\n328",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

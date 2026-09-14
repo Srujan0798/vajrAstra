@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_011",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+    "page_index": 0,
+    "width": 1232,
+    "height": 1842
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1232,
+        1842
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sample Question paper (Tamil)\n\nமாதிரி வினாத்தாள்‌\nபத்தாம்‌ வகுப்பு (Class - X)\nஅக்டோபர்‌ 2010 - மார்ச்‌ 2011\nIf - Term (OCT 2010 - MARCH 2011)\n\nMax. Marks : 80 Time Allowed : 3 hours\nமொ.மதிப்பெண்‌ கள்‌: 80 கால அளவு : 3 மணி\n\nThe question paper is diveded in to four sections:\nஇக்‌ கேள்வித்‌ தாள்‌ நான்கு பிரிவுகளைக்‌ கொண்டது.\n\nSECTION: A Reading comprehension - 15 Marks\nபிரிவு அ படித்தல்‌ (உரைநடைப்‌ பகுதி) -15 மதிப்பெண்கள்‌\nSECTION : B Writing - 15 Marks\nபிரிவு ஆ எழுதுதல்‌ -15 மதிப்பெண்கள்‌\nSECTION : C Grammar - 15 Marks\nபிரிவு இ இலக்கணம்‌ -15 மதிப்பெண்கள்‌\nSECTION : D Literature / Text Books - 35 Marks\nபிரிவு ப இலக்கியம்‌/தமிழ்ப்‌ பாடநால்கள்‌-35 மதிப்பெண்கள்‌\n\n* எல்லா வினாக்களும்‌ கட்டாயம்‌ விடையளிக்கப்பட வேண்டும்‌.\n* ஒவ்வொரு வினாவிற்கும்‌ உரிய மதிப்பெண்கள்‌ அதனதன்‌ இடத்தில்‌\nகுறிப்பிடப்பட்டுள்ளன.\n\nபிரிவு -௮\nபடித்தல்‌ - 15 மதிப்பெண்‌\n\n1. ழ்‌ வரும்‌ பத்திமைப்‌ படிக்கவும்‌. இதனைத்‌ தொடர்ந்து வரும்‌\nபல்விடை வினாவுக்கு உரிய சரியான விடையை எடுத்து\nஎழுதவும்‌. (5)\n\nநீர்‌ நிறைந்த ஏரியைப்‌ பறவைகள்‌ நாடி வருவதைப்‌ போன்று பண்டைத்‌\nதமிழகத்தில்‌ தமிழின்‌ சுவையை அறிந்த மன்னர்களைத்‌ தேடி அறிஞர்கள்‌\n",
+      "text_nfc": "Sample Question paper (Tamil)\n\nமாதிரி வினாத்தாள்‌\nபத்தாம்‌ வகுப்பு (Class - X)\nஅக்டோபர்‌ 2010 - மார்ச்‌ 2011\nIf - Term (OCT 2010 - MARCH 2011)\n\nMax. Marks : 80 Time Allowed : 3 hours\nமொ.மதிப்பெண்‌ கள்‌: 80 கால அளவு : 3 மணி\n\nThe question paper is diveded in to four sections:\nஇக்‌ கேள்வித்‌ தாள்‌ நான்கு பிரிவுகளைக்‌ கொண்டது.\n\nSECTION: A Reading comprehension - 15 Marks\nபிரிவு அ படித்தல்‌ (உரைநடைப்‌ பகுதி) -15 மதிப்பெண்கள்‌\nSECTION : B Writing - 15 Marks\nபிரிவு ஆ எழுதுதல்‌ -15 மதிப்பெண்கள்‌\nSECTION : C Grammar - 15 Marks\nபிரிவு இ இலக்கணம்‌ -15 மதிப்பெண்கள்‌\nSECTION : D Literature / Text Books - 35 Marks\nபிரிவு ப இலக்கியம்‌/தமிழ்ப்‌ பாடநால்கள்‌-35 மதிப்பெண்கள்‌\n\n* எல்லா வினாக்களும்‌ கட்டாயம்‌ விடையளிக்கப்பட வேண்டும்‌.\n* ஒவ்வொரு வினாவிற்கும்‌ உரிய மதிப்பெண்கள்‌ அதனதன்‌ இடத்தில்‌\nகுறிப்பிடப்பட்டுள்ளன.\n\nபிரிவு -௮\nபடித்தல்‌ - 15 மதிப்பெண்‌\n\n1. ழ்‌ வரும்‌ பத்திமைப்‌ படிக்கவும்‌. இதனைத்‌ தொடர்ந்து வரும்‌\nபல்விடை வினாவுக்கு உரிய சரியான விடையை எடுத்து\nஎழுதவும்‌. (5)\n\nநீர்‌ நிறைந்த ஏரியைப்‌ பறவைகள்‌ நாடி வருவதைப்‌ போன்று பண்டைத்‌\nதமிழகத்தில்‌ தமிழின்‌ சுவையை அறிந்த மன்னர்களைத்‌ தேடி அறிஞர்கள்‌\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

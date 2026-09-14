@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_100",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0023pro_raw.pdf",
+    "page_index": 1046,
+    "width": 1114,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1114,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0026\naHoB Boath\nto. 2.0. d o waor\nt3o. Seto0 doen\nto. 2. WT. Sadoa\ne. Seowon entoa\n28. 2. woewsog\nt3o. wAaOon xodabo\n3\nNn N0803 JEFN-O\nsogoer, WU. a. an soclcas,\nnoeneF-98588 ooa\n0OFest, 330 edaor Hoty,\naONA norioes,\naed-820 OO&.\nsaa deto, waoa aaaoeneat, 3\n29. eo, weee, Soaion 2e3.\n0E0O3 330 aeweae, edE.\nBNOFEE Aoboz esodas,\ngason OR 2onslodo-820 00).\ndeto, mohear depon, saeosod\na880 soee2s,\nBwaen-822 900.\nHodoege, daa egaos Hoty,\naONA Noriecs,\n5H.0C0-8820002.\n3o0 eweat\n20.80.20. TOWTF soce2\n000021.000-869 000.\n* * * *",
+      "text_nfc": "0026\naHoB Boath\nto. 2.0. d o waor\nt3o. Seto0 doen\nto. 2. WT. Sadoa\ne. Seowon entoa\n28. 2. woewsog\nt3o. wAaOon xodabo\n3\nNn N0803 JEFN-O\nsogoer, WU. a. an soclcas,\nnoeneF-98588 ooa\n0OFest, 330 edaor Hoty,\naONA norioes,\naed-820 OO&.\nsaa deto, waoa aaaoeneat, 3\n29. eo, weee, Soaion 2e3.\n0E0O3 330 aeweae, edE.\nBNOFEE Aoboz esodas,\ngason OR 2onslodo-820 00).\ndeto, mohear depon, saeosod\na880 soee2s,\nBwaen-822 900.\nHodoege, daa egaos Hoty,\naONA Noriecs,\n5H.0C0-8820002.\n3o0 eweat\n20.80.20. TOWTF soce2\n000021.000-869 000.\n* * * *",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

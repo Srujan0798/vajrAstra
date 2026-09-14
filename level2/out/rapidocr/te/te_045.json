@@ -1,0 +1,41 @@
+{
+  "page_id": "te_045",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0045pro_raw.pdf",
+    "page_index": 147,
+    "width": 596.5467529296875,
+    "height": 795.0499877929688
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        596.5467529296875,
+        795.0499877929688
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "AS\nRLEL\nADR\nమహా్ట్రాష్టర పర్యపుస్తక ిర్మి మరియు పా్యపణాళిక పరిశోధన సంస్థ, పుణె–411 004.\n₹57.00\nhl I )t  ",
+      "text_nfc": "AS\nRLEL\nADR\nమహా్ట్రాష్టర పర్యపుస్తక ిర్మి మరియు పా్యపణాళిక పరిశోధన సంస్థ, పుణె–411 004.\n₹57.00\nhl I )t  ",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

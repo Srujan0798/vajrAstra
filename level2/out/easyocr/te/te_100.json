@@ -1,0 +1,41 @@
+{
+  "page_id": "te_100",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0016pro_raw.pdf",
+    "page_index": 131,
+    "width": 1649,
+    "height": 2191
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1649,
+        2191
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "URLDN\n@u? మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, పుణె: ఢీ FRTTZ FFTHaT 7 T2గాTFI {asTR 3ITfuT గ=3TR కెuగెT  #rTat 9TITT ? (గCెౌ HTeaH) \"STaImTAWTTTITAA #కే 5 65.00",
+      "text_nfc": "URLDN\n@u? మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, పుణె: ఢీ FRTTZ FFTHaT 7 T2గాTFI {asTR 3ITfuT గ=3TR కెuగెT  #rTat 9TITT ? (గCెౌ HTeaH) \"STaImTAWTTTITAA #కే 5 65.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_064",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 270,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ணா!) ® | _._\n\n| பகுதி-இ\n\nஅனைத்து வினாக்களுக்கும்‌ விடையளி (3 மதிப்பண்‌)\n\n1. பைத்தானிலுள்ள open() செயற்கூற்றைபற்றி குறிப்பு எழுதுக, மேலும்‌ இதன்‌ இரண்டூ வழிமுறைகளின்‌\nவேறுபாடுகள்‌ என்ன?\n\n2. ஏற்கனவே உள்ள கோப்பில்‌ மாற்றம்‌ செய்யும்‌, பைத்தான்‌ நிரலை எழுதுக.\n\n3. காற்புள்ளியை (,) தானமைவு பிரிப்பானாக கொண்டூள்ள CSV கோப்பினை படிப்பதற்கான பைத்தான்‌\nநிரலை எழுதுக.\n\n4. write மற்றும்‌ append mode முறைமைகளின்‌ வேறுபாடு என்ன?\n\n5. 768060 மற்றும்‌ DictReader() இடையேயான வேறுபாடு யாது?\nபகுதி-ஈ\nஅனைத்து வினாக்களுக்கும்‌ விடையளி (5 மதிப்ஸபண்‌)\n1. எக்ஸல்‌ மற்றும்‌ CSV கோப்பின்‌ வேறுபாடு என்ன?\nபல்வேறு கோப்பு முறைமைகளின்‌ பொருள்களை பட்டியலிடுக.\nபைத்தானில்‌ ஒரு கோப்பை படிப்பதற்கான பல்வேறு வழிமுறைகளை எழுதுக,\n\n2\n3\n4. தனிப்பயனாக்கம்‌ பிரிப்பானுடன்‌ கூடிய CSV கோப்பை எழுதுவதற்கான பைத்தான்‌ நிரலை எழுதுக,\n5. CSV கோப்பிலுள்ள தரவை வடிவமைப்பதற்கு பின்பற்றவேண்டிய விதிமுறைகளை எழுதுக.\n® மேற்பார்வை நூல்கள்‌ இ\n1 Python for Data Analysis, Data Wrangling with Pandas, NumPy, and IPython By William\nMcKinney\n2. CSV File Reading and Writing - Python 3.7.0 documentation\n3 https://docs.python.org\n\n(265) பைத்தான்‌ மற்றும்‌ 05४ கோப்புகள்‌\n\n| | 12th Computer Science_TM Chapter 13.indd 265 ஓ 11-01-2023 மை | |\n",
+      "text_nfc": "ணா!) ® | _._\n\n| பகுதி-இ\n\nஅனைத்து வினாக்களுக்கும்‌ விடையளி (3 மதிப்பண்‌)\n\n1. பைத்தானிலுள்ள open() செயற்கூற்றைபற்றி குறிப்பு எழுதுக, மேலும்‌ இதன்‌ இரண்டூ வழிமுறைகளின்‌\nவேறுபாடுகள்‌ என்ன?\n\n2. ஏற்கனவே உள்ள கோப்பில்‌ மாற்றம்‌ செய்யும்‌, பைத்தான்‌ நிரலை எழுதுக.\n\n3. காற்புள்ளியை (,) தானமைவு பிரிப்பானாக கொண்டூள்ள CSV கோப்பினை படிப்பதற்கான பைத்தான்‌\nநிரலை எழுதுக.\n\n4. write மற்றும்‌ append mode முறைமைகளின்‌ வேறுபாடு என்ன?\n\n5. 768060 மற்றும்‌ DictReader() இடையேயான வேறுபாடு யாது?\nபகுதி-ஈ\nஅனைத்து வினாக்களுக்கும்‌ விடையளி (5 மதிப்ஸபண்‌)\n1. எக்ஸல்‌ மற்றும்‌ CSV கோப்பின்‌ வேறுபாடு என்ன?\nபல்வேறு கோப்பு முறைமைகளின்‌ பொருள்களை பட்டியலிடுக.\nபைத்தானில்‌ ஒரு கோப்பை படிப்பதற்கான பல்வேறு வழிமுறைகளை எழுதுக,\n\n2\n3\n4. தனிப்பயனாக்கம்‌ பிரிப்பானுடன்‌ கூடிய CSV கோப்பை எழுதுவதற்கான பைத்தான்‌ நிரலை எழுதுக,\n5. CSV கோப்பிலுள்ள தரவை வடிவமைப்பதற்கு பின்பற்றவேண்டிய விதிமுறைகளை எழுதுக.\n® மேற்பார்வை நூல்கள்‌ இ\n1 Python for Data Analysis, Data Wrangling with Pandas, NumPy, and IPython By William\nMcKinney\n2. CSV File Reading and Writing - Python 3.7.0 documentation\n3 https://docs.python.org\n\n(265) பைத்தான்‌ மற்றும்‌ 05४ கோப்புகள்‌\n\n| | 12th Computer Science_TM Chapter 13.indd 265 ஓ 11-01-2023 மை | |\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

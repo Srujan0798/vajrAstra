@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_053",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+    "page_index": 184,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "१५. नF६boiib Lopoib 6ti5फ़l॰b @uoli २:३ नoorp @lBlppफ़ी॰ं @onLID LIBlOBio BozLLIaflBoाा. @फ़l॰b, fl६In   6ा6णTLIo२Ij १l५ LIrile @lकlpऊड़lू BoLLIafluIB G#GBlलnj. GloIn, @LLIBIBlनo6णा   OlB६boi Lopoib नlBफ़फ़l॰ @GoilL७t BIDIDNB OlLIOIBlmnj. Hफ़lul @anLILi LIBljol @ll६lpi Lopoio छluInB @ll&lg८o BणoLmluIoथILb. (@f६oL: Hglul @anLILi LIBlj @l @ी&pi: 3:5:२; छीuIn& @l&ीpi: 1:l) १६. LnODIT Loppio शl६oflpn @Gol5i मo२ LLIaflBoाग. शloljछठाा ३२ नाoणp @llBlppड़l॰ @oonLiDb Jppiio ILLIiIBOOOILi   LIBljigl @lpoojरं.   ठtoj&ी ना6णTLI@ृIj 1/5 QoDnLI   @ll६pऊड़ी६ं Bo२ LLLIT6DOT 6OLDUl६D BozLLLIafluIIB GaUकlpny. Hौlul @aDILILI LIBljol @lBlफ़io Lopoio छlUITक @ll६lgi Bकoणा &&ीLO|D. (olनoL: Hplul @anLILI LBlj 6 @ी&ीछi: 1 २:8:५; छीuInक @ीीीp!: 3:२) १७. शIDLEI,   ऊग्र॰ण्णीी   Lopgiio LIgIDnT   epoli ऋ७ मo२ LLIOणO 6ODLD   ोlmlन२lनणा छंफ़ीन्ण   BozLLIaflBठाा. शbeol(i  5:३ः२ नoorp @l६lppफ़l॰ JoonLiib LIBljigl @lpooाj. शloफ़jछनाा @JiUIT ना६ठTLI६२IboDग्र २५% @aDnLILD छU@Iफ़I & BoL LLIT6DOा 6ODLDUl६D थlpoloफ़lpछooाj. Hौlul @aDnLILI LIBlj 6l @llमlफ़i Lppiफ़o छluIछ @llमlpio ऊनणणLpluIoILD. (@iनoL: Hफ़luI @anLILI LIBljol @ी&ीpiः 1५:9:६:१0; छीuInक @ी&ीp!: 5:3:2) poLIULIGकछानणा Bफ्रlBBLGpककmा १८. शLIjरoooाn Loppio LifluI @uolQi BLLIaflBmाा. शl@फ़jछठाा छIऊlBनit @oonLib Iopoio JLLIBIBOODनT 3:2 नठणrp  @ीीीछऊंफ़ी॰ं LIBljigl @lफ़ooाj॰   LKफ़फ़n 1/5 QaDnLIL   LIrBlBlpछ Boz LLLIT6DOT 6OLOUl६D GB(&lmnग. थloफ़j Blogl BpoLiuI LIIBIBIB रै l०JOO० नBI6णंणा GolG&lpnj. BoLLIनflछनflनoा ७%६b BoणठाDंछछनाा LOIOILIGID @छ६D (नOmUl६D BकणणाछंकीLLILIGकpgl. Boz LLLIनflBनाT छIOgl IpoLIuIj OछI६Dछ (०IDgIJLD ना७छकlकंकीBा6णOIL नoाj. @फ़pछ GgनO@IULII6Oा GmlLiGLILLGL LIफ़l@JBनOना छं छग्रन्पb. (ol6oL: ppoLILIj LIrlGः थILIj 6णणrnः र 6,O००; LipluIn: र ४,०००) १९. SLIB,   नlBफ़pl॰ Lopoib   BjंOpnoq थJBीuI Bo2 LLLIaflक६iा @६DILI   BLLIBIBOODनT   BIOIOIBL LIBljigl 6BI6ा&loormoorj. शloij छठiा   Olgग़noD७ ना6ठTLI६२IठDग्र १l३ @oonLILi LIBlBlpeG BoLLIafluIक GBगछकlऊं BI6ठOILL 6oाj. BlpJ@२lनणा छंछ्ीनणा poLIULIj र ४५,OOOना 6OTLOफ़lLLILLILILLGOIफ़BI6णा छनणT ठणJनODLLULILIIDIDlनO६oा Olgग़noDक ठlगIT BBIDIक नlBI6णणा( @lbछnग. LIनODLULI Boz LLLLIनflBनाग छIंlकनflनoा DOlLIULIJकBI6णा Loफ़lLiLOoo LIITglgOgI6DBUll६o६णा ना७ऊकlकंकBI6णOL 6oाj॰   UonglulGbio  @फ़६b   @sopoouiLi   LlooLipmloफ़फ़nBऊ 6BI6णणाG PpolLIUIनOग मप्रlBBLGoIफ़pBIनOा GलlLGLILGLI LIफ़lन२ BOOनाछं छग्न. (oflबoL: ppoLIuIj LIIilG: SLछ: र 5,O००; नषpछी॰: र 5,O००; BफंGpn६q: र 5,0००) २०. LnTODछी Lopgiib GoqLIooII @Golti   BozLLIaflBoा. थI@2!फ़ छ६ा 5:4 6ाoणrp   @lBlppफ़l६ QकDnLILb LBljigl @l(Bloopooाjर. शloijंछनाा Olguik नाठठTLI@२Iनoग्र 1l3 @oonLILi LIilblpछ JozLLIoOOT6ODLDUl६D GBग ककloणmooागर. Olgu Ik छनण नणJनOLLUILIBIDIछ रै 6,००० ्olLIULIGकOछणणा OFolpglछlmni. शl@Ij छनfीठठा Lफ़luI @oDnLLILIकljo| @l६lफ़ू ३२l. floo६D(op॰b @omuilsb Booणाऊकछना   LIJILOफ़lBBLLIGकlनormoo ना6णा ऊँBI6णणा (, JpoLIuIj षग्रlBBLLGB@JऊकI6णा GJ६o६IULIIT6Oा GलlLiGLILGLl LIफ़loll७o६oा छं छग्नभूo. (ofबoL: ppoLIuIj LIilG: InODञी ILLIL छ।छः र २,OOO; GoqLIनoIIT ILLL क।छः र 4,०००)\n२1. थlpl Lopoio थI७ऊनाा @७olफ़i @७ मo२ LLITODOT6OIO   फ़lpJन२lनणा छंफ़्ीन्ठा   BoLLIoflBनाा. शloljछठांा  ४:१ ना6orp   @l६lpछफ़ी६ं QonLiib  Lopoib ILLIlBooaLi LIBljpgl @I(ऊकी6णrp6णाy. थI६2Ij छ६ाा LOG6णTIT ना6ठTLI@२IनDDगर २I५ @६DnLI @ीकीछpंछी॰ं फ़lplo२lनoा छंछ्ी॰ं Gमगऊण @OI@| OBulBloorpooाj. Gषj ऊंकDछUीठठा GLIIgI IlmJन२lनoा छंफ्ीन्ण JpolLiuIj ७SILL र २५JO०० नाठणrml ७SlLLILLILIGBIpgl. IGनOIIT  छनणTऋoJनoLUI LIIIBIpBI6णा IbpolLIuIj LoSlLILDBIOOा Ol९I६DBनOULIऊ न१BIनणणा Gol (YOIq UIOll६DकoDनD. LongILIGID ७ू६ (omUlनD6णा   थIIqLILIOOLUIITB OBIoणण( JpoLiuIj मग्रीlBंBLGolफ़pe Gक०oौlUIIoणा GmliiGLLGLi Lफ़loll६o)6णा छं छप्रन्७. (ofloL : फ़poLILIj LImंlG: थpणाः रै 8,०००; थI७ना: २,०००) 177\n१२th Accountancy Unit-O५_ TM.indd 177\n12/9'2021 11:13:53 |P11",
+      "text_nfc": "१५. नF६boiib Lopoib 6ti5फ़l॰b @uoli २:३ नoorp @lBlppफ़ी॰ं @onLID LIBlOBio BozLLIaflBoाा. @फ़l॰b, fl६In   6ा6णTLIo२Ij १l५ LIrile @lकlpऊड़lू BoLLIafluIB G#GBlलnj. GloIn, @LLIBIBlनo6णा   OlB६boi Lopoib नlBफ़फ़l॰ @GoilL७t BIDIDNB OlLIOIBlmnj. Hफ़lul @anLILi LIBljol @ll६lpi Lopoio छluInB @ll&lg८o BणoLmluIoथILb. (@f६oL: Hglul @anLILi LIBlj @l @ी&pi: 3:5:२; छीuIn& @l&ीpi: 1:l) १६. LnODIT Loppio शl६oflpn @Gol5i मo२ LLIaflBoाग. शloljछठाा ३२ नाoणp @llBlppड़l॰ @oonLiDb Jppiio ILLIiIBOOOILi   LIBljigl @lpoojरं.   ठtoj&ी ना6णTLI@ृIj 1/5 QoDnLI   @ll६pऊड़ी६ं Bo२ LLLIT6DOT 6OLDUl६D BozLLLIafluIIB GaUकlpny. Hौlul @aDILILI LIBljol @lBlफ़io Lopoio छlUITक @ll६lgi Bकoणा &&ीLO|D. (olनoL: Hplul @anLILI LBlj 6 @ी&ीछi: 1 २:8:५; छीuInक @ीीीp!: 3:२) १७. शIDLEI,   ऊग्र॰ण्णीी   Lopgiio LIgIDnT   epoli ऋ७ मo२ LLIOणO 6ODLD   ोlmlन२lनणा छंफ़ीन्ण   BozLLIaflBठाा. शbeol(i  5:३ः२ नoorp @l६lppफ़l॰ JoonLiib LIBljigl @lpooाj. शloफ़jछनाा @JiUIT ना६ठTLI६२IboDग्र २५% @aDnLILD छU@Iफ़I & BoL LLIT6DOा 6ODLDUl६D थlpoloफ़lpछooाj. Hौlul @aDnLILI LIBlj 6l @llमlफ़i Lppiफ़o छluIछ @llमlpio ऊनणणLpluIoILD. (@iनoL: Hफ़luI @anLILI LIBljol @ी&ीpiः 1५:9:६:१0; छीuInक @ी&ीp!: 5:3:2) poLIULIGकछानणा Bफ्रlBBLGpककmा १८. शLIjरoooाn Loppio LifluI @uolQi BLLIaflBmाा. शl@फ़jछठाा छIऊlBनit @oonLib Iopoio JLLIBIBOODनT 3:2 नठणrp  @ीीीछऊंफ़ी॰ं LIBljigl @lफ़ooाj॰   LKफ़फ़n 1/5 QaDnLIL   LIrBlBlpछ Boz LLLIT6DOT 6OLOUl६D GB(&lmnग. थloफ़j Blogl BpoLiuI LIIBIBIB रै l०JOO० नBI6णंणा GolG&lpnj. BoLLIनflछनflनoा ७%६b BoणठाDंछछनाा LOIOILIGID @छ६D (नOmUl६D BकणणाछंकीLLILIGकpgl. Boz LLLIनflBनाT छIOgl IpoLIuIj OछI६Dछ (०IDgIJLD ना७छकlकंकीBा6णOIL नoाj. @फ़pछ GgनO@IULII6Oा GmlLiGLILLGL LIफ़l@JBनOना छं छग्रन्पb. (ol6oL: ppoLILIj LIrlGः थILIj 6णणrnः र 6,O००; LipluIn: र ४,०००) १९. SLIB,   नlBफ़pl॰ Lopoib   BjंOpnoq थJBीuI Bo2 LLLIaflक६iा @६DILI   BLLIBIBOODनT   BIOIOIBL LIBljigl 6BI6ा&loormoorj. शloij छठiा   Olgग़noD७ ना6ठTLI६२IठDग्र १l३ @oonLILi LIBlBlpeG BoLLIafluIक GBगछकlऊं BI6ठOILL 6oाj. BlpJ@२lनणा छंछ्ीनणा poLIULIj र ४५,OOOना 6OTLOफ़lLLILLILILLGOIफ़BI6णा छनणT ठणJनODLLULILIIDIDlनO६oा Olgग़noDक ठlगIT BBIDIक नlBI6णणा( @lbछnग. LIनODLULI Boz LLLLIनflBनाग छIंlकनflनoा DOlLIULIJकBI6णा Loफ़lLiLOoo LIITglgOgI6DBUll६o६णा ना७ऊकlकंकBI6णOL 6oाj॰   UonglulGbio  @फ़६b   @sopoouiLi   LlooLipmloफ़फ़nBऊ 6BI6णणाG PpolLIUIनOग मप्रlBBLGoIफ़pBIनOा GलlLGLILGLI LIफ़lन२ BOOनाछं छग्न. (oflबoL: ppoLIuIj LIIilG: SLछ: र 5,O००; नषpछी॰: र 5,O००; BफंGpn६q: र 5,0००) २०. LnTODछी Lopgiib GoqLIooII @Golti   BozLLIaflBoा. थI@2!फ़ छ६ा 5:4 6ाoणrp   @lBlppफ़l६ QकDnLILb LBljigl @l(Bloopooाjर. शloijंछनाा Olguik नाठठTLI@२Iनoग्र 1l3 @oonLILi LIilblpछ JozLLIoOOT6ODLDUl६D GBग ककloणmooागर. Olgu Ik छनण नणJनOLLUILIBIDIछ रै 6,००० ्olLIULIGकOछणणा OFolpglछlmni. शl@Ij छनfीठठा Lफ़luI @oDnLLILIकljo| @l६lफ़ू ३२l. floo६D(op॰b @omuilsb Booणाऊकछना   LIJILOफ़lBBLLIGकlनormoo ना6णा ऊँBI6णणा (, JpoLIuIj षग्रlBBLLGB@JऊकI6णा GJ६o६IULIIT6Oा GलlLiGLILGLl LIफ़loll७o६oा छं छग्नभूo. (ofबoL: ppoLIuIj LIilG: InODञी ILLIL छ।छः र २,OOO; GoqLIनoIIT ILLL क।छः र 4,०००)\n२1. थlpl Lopoio थI७ऊनाा @७olफ़i @७ मo२ LLITODOT6OIO   फ़lpJन२lनणा छंफ़्ीन्ठा   BoLLIoflBनाा. शloljछठांा  ४:१ ना6orp   @l६lpछफ़ी६ं QonLiib  Lopoib ILLIlBooaLi LIBljpgl @I(ऊकी6णrp6णाy. थI६2Ij छ६ाा LOG6णTIT ना6ठTLI@२IनDDगर २I५ @६DnLI @ीकीछpंछी॰ं फ़lplo२lनoा छंछ्ी॰ं Gमगऊण @OI@| OBulBloorpooाj. Gषj ऊंकDछUीठठा GLIIgI IlmJन२lनoा छंफ्ीन्ण JpolLiuIj ७SILL र २५JO०० नाठणrml ७SlLLILLILIGBIpgl. IGनOIIT  छनणTऋoJनoLUI LIIIBIpBI6णा IbpolLIuIj LoSlLILDBIOOा Ol९I६DBनOULIऊ न१BIनणणा Gol (YOIq UIOll६DकoDनD. LongILIGID ७ू६ (omUlनD6णा   थIIqLILIOOLUIITB OBIoणण( JpoLiuIj मग्रीlBंBLGolफ़pe Gक०oौlUIIoणा GmliiGLLGLi Lफ़loll६o)6णा छं छप्रन्७. (ofloL : फ़poLILIj LImंlG: थpणाः रै 8,०००; थI७ना: २,०००) 177\n१२th Accountancy Unit-O५_ TM.indd 177\n12/9'2021 11:13:53 |P11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

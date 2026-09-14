@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_081",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+    "page_index": 12,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n13\nG1\n99. dend soeonea a0002 aa xoabod aefabo 103. anegd aprpo de densonea agrerioeogdd\neay aoa.\nt0o -I\n(a) 280830 Too\nw0o-II\n() dears so00e\n(b) Gooobte ToD (ii) 20003 doen\n(c) eaner To@\n(iii) datoesesf\nauadtr\n(d) abecdoeelede (iv) earus 5000003\nTOO\n(a) (b) (c) (d)\n(1) (iii) (ii) () (iv)\n(2) (iii) (i) (iv) (ii)\n(3) (ii) () (iv) (iil)\n(4) (iv) (iii) () (ii)\n100. d8 gend aceaneo adoado Xoabohd ?\n(1) 2od H-woda aboet dors 2303\nearry doeaaderbad.\n(2) atod H-wopne aboot Bwrs 2303\neasrr doeaaderbad.\n(3) dwrd 2303 ean docaaderbsjog.\nabood, 37 aadeenined WTWOF. wgodad\neayiee earea eusoadd :\n(1) CH3 H2, NH, 3033 De000OJONO,\n800°C d2\n(2) CH, H2, NH3 3035 De000odons\n600CJ\n(3) CH3, H2, NH3 3033 De000OJoNo,\n600°C do\n(4) CH, H2, NH3 3033 De00003030A\n800°C do\n104. enbajobeabsad aoFdoseod Aoposd agadoche\ngasordeddroag aodenag aasod :\n(1) Xe3pu\n(2)\n2ioseo\n(3) aorF\n(4) abodder\n(4) aots H-eogne atoer dors 2o3 105. eows Beaa soutdond 2303\nearr docaaderbad.\n101. e338 aoewns bono AAnHO eane\nsoabfnien HowoQaae/ds d3 densonea\na000x :\n(a) dagro\n(b) apor\n() Deos d,a0gesd\n(ii) doonderone\n3ov8ododa.os\n(c) eiocoos (iii) agedocgers 208\nRogearan 23esorbat\n(d) aveonder (iv) IAA2O8 Nogeadrs\nxoovod eatyadal, e82 :\n(a) (b) (c) (d)\n(1) (iv) (inl) (ii) (i)\n(2) (iii) (iv) (ii) ()\n(3) (iv) (i) (ii) (ii)\n(4) (ii) (i) (iv) (iii)\n102. 20c20 RDaDastjaa 300ar09x0 DeFODB\n3XD d8 sensaneg adoaas ee ?\n(1) e2gAE ea\n(2) aoO es\n(3) 2200-07.0F ea\n(4) seydos eas\nKoodatar.aoacgcd adde :\n(1) adogjer\n(2) aper\n(3) 23008\n(4) ajea\n106. aosws 2erOOFON Joag Nowopae3o xoobod\naeododa Tbdoe2.\n(1) Adoereas enpoed e3o3 asha aud.\n(2) QOabo aot ezos ADdbpateseda gport.\n(3) JOOFOaF eaoar 2 aadocadatrood\naesd.\n(4) QOado Reoddoen adodoebad.\n107. Ao0 apedeasor Hoterofa agoswoh\ndonoajos :\n(1) anoessendo\n(2) aageserso\n(3) Saigeserso\n(4) aegterde",
+      "text_nfc": "KANNADA\n13\nG1\n99. dend soeonea a0002 aa xoabod aefabo 103. anegd aprpo de densonea agrerioeogdd\neay aoa.\nt0o -I\n(a) 280830 Too\nw0o-II\n() dears so00e\n(b) Gooobte ToD (ii) 20003 doen\n(c) eaner To@\n(iii) datoesesf\nauadtr\n(d) abecdoeelede (iv) earus 5000003\nTOO\n(a) (b) (c) (d)\n(1) (iii) (ii) () (iv)\n(2) (iii) (i) (iv) (ii)\n(3) (ii) () (iv) (iil)\n(4) (iv) (iii) () (ii)\n100. d8 gend aceaneo adoado Xoabohd ?\n(1) 2od H-woda aboet dors 2303\nearry doeaaderbad.\n(2) atod H-wopne aboot Bwrs 2303\neasrr doeaaderbad.\n(3) dwrd 2303 ean docaaderbsjog.\nabood, 37 aadeenined WTWOF. wgodad\neayiee earea eusoadd :\n(1) CH3 H2, NH, 3033 De000OJONO,\n800°C d2\n(2) CH, H2, NH3 3035 De000odons\n600CJ\n(3) CH3, H2, NH3 3033 De000OJoNo,\n600°C do\n(4) CH, H2, NH3 3033 De00003030A\n800°C do\n104. enbajobeabsad aoFdoseod Aoposd agadoche\ngasordeddroag aodenag aasod :\n(1) Xe3pu\n(2)\n2ioseo\n(3) aorF\n(4) abodder\n(4) aots H-eogne atoer dors 2o3 105. eows Beaa soutdond 2303\nearr docaaderbad.\n101. e338 aoewns bono AAnHO eane\nsoabfnien HowoQaae/ds d3 densonea\na000x :\n(a) dagro\n(b) apor\n() Deos d,a0gesd\n(ii) doonderone\n3ov8ododa.os\n(c) eiocoos (iii) agedocgers 208\nRogearan 23esorbat\n(d) aveonder (iv) IAA2O8 Nogeadrs\nxoovod eatyadal, e82 :\n(a) (b) (c) (d)\n(1) (iv) (inl) (ii) (i)\n(2) (iii) (iv) (ii) ()\n(3) (iv) (i) (ii) (ii)\n(4) (ii) (i) (iv) (iii)\n102. 20c20 RDaDastjaa 300ar09x0 DeFODB\n3XD d8 sensaneg adoaas ee ?\n(1) e2gAE ea\n(2) aoO es\n(3) 2200-07.0F ea\n(4) seydos eas\nKoodatar.aoacgcd adde :\n(1) adogjer\n(2) aper\n(3) 23008\n(4) ajea\n106. aosws 2erOOFON Joag Nowopae3o xoobod\naeododa Tbdoe2.\n(1) Adoereas enpoed e3o3 asha aud.\n(2) QOabo aot ezos ADdbpateseda gport.\n(3) JOOFOaF eaoar 2 aadocadatrood\naesd.\n(4) QOado Reoddoen adodoebad.\n107. Ao0 apedeasor Hoterofa agoswoh\ndonoajos :\n(1) anoessendo\n(2) aageserso\n(3) Saigeserso\n(4) aegterde",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

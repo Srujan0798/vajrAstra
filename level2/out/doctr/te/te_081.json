@@ -1,0 +1,41 @@
+{
+  "page_id": "te_081",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0081pro_raw.pdf",
+    "page_index": 0,
+    "width": 1649,
+    "height": 2226
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1649,
+        2226
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "bo0 bo0 00258 GONO\ns00s 8888\nfagaaue 98C3\nan freqot CANCELLATIONS ZITA\nINDIA\no\nN\nà\n1000\nOTTA EFuR JAL ÇOOPER\n1997\nFTII\nErepial",
+      "text_nfc": "bo0 bo0 00258 GONO\ns00s 8888\nfagaaue 98C3\nan freqot CANCELLATIONS ZITA\nINDIA\no\nN\nà\n1000\nOTTA EFuR JAL ÇOOPER\n1997\nFTII\nErepial",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_006",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sezjes 2LKNM\nSRT ~ 4 [; @3@7ಗಕ೨roir (D]u @ 6167 ] 0 Q2. Code LDToooroiisoir   616/1ಪತrToil oು 5/OIಹಹLILL`CIoiToT @0 67600/ 60)600T @116L55[Tofl 60] 560@LILLI Lಹಹ55 @U 61(U56L6 . Cadidates must 1ite the QP. Code 01 the title pase ot the aswez-book.\n@Iriou  67600T . j0]] [o.\n@ಊLIL OT} @s @1o7/ಶ5mToflo ಅ೫ಣLLiGupp ]] Lಹsಹlsor ೨ @iTo7oo5ಕ &rfuಹiisಹo|Lb . PJease check that this question pape] contains ] ] Dzinted Dases. (TT) @1o7/ಶಹ/T6flo7 @J @೨| L Imಹ55) @ @Iಹ/CIಹಹLJLJL` CIoiToT   (ಣ1 6T600] @0)6007 (Code ]o) 6116 L ಪ5/6il6 l 86@LILLT Lಹಹ5m o 6(Uತ6Lb . QP. Code 8iven 01  the tisht had side ot the questio] p೩pe]   should  be wzitten o1 the title pase ot the ೩swe] -boo]k by the caididate. (TT]) @155 6167/ಶ5ೊT6iilou ] 4 @1607/15ಹ6iT ೨_6T67T67oJTT 67607ಶ grilLJrTiisಹ GLb . P[ease chec] that this questio] Dape] contains ]4 questio]s. (TTT) 67(L5m @ತ5[L [1(56 50( (6dT @16L   55 T6ಯ @1ಿG7/T6167 @Iroou 6760 6  6  7ತ5 @I5/0Iಹ3L ILII` @ioiTor @L ಕೆತ@ (ಣu1L11_@JLb. Pease w]ite dow] the se]i೩] numbez ot the questio] j1 the ೩swe] - book ೩t the sive1 place betoze attemptins it. @167/55[6GTL] LIILILI50( ]5 ,5LDLಸ5soiT 9ತ/ಹತLILIL` G)6i76T67 . @1167/755/6ir ]0.15 m(5 @13[CImಹLILO L; 10.15 @@ ಠ(p9l ]0.30 @J6[] @1 G07/55[60@7 LLLGub LLm3 @%oI@ ZT CILb . 91[s @15[ಕmlou @16 Lಶ5/6floು 6T[55L] Lm oouLb 6(ತ5m35/_[5] . 15 minute time h೩s been ೩ೊ]otted t0 ]ead this question Dape]. mhe question pape]  1j]] be distibuted ೩t ]0.15 ೩.]1 []0]1] ]0.]5 ೩.[1 . t0 ]0.30 ೩m ; t]e candidates wi]] ead the question papex only ೩d wj]] not wite ೩y ೩swe] 0]] tಊe ೩ೊswe]-bOo] duzins this pe]iod.\n5L090 TಗZ]I[T]\n5ೊಉ ೨oTಯ 3 L0oof] [me C]]ouued]  3 hoL1 s\n@ILDT.LDSILIGILJ@oTs5oi 80 [[ಯtmu1 ಹಯ1ks 80\n]0\n] ]04\nPd8e ] 0f ]2\nPT.0",
+      "text_nfc": "Sezjes 2LKNM\nSRT ~ 4 [; @3@7ಗಕ೨roir (D]u @ 6167 ] 0 Q2. Code LDToooroiisoir   616/1ಪತrToil oು 5/OIಹಹLILL`CIoiToT @0 67600/ 60)600T @116L55[Tofl 60] 560@LILLI Lಹಹ55 @U 61(U56L6 . Cadidates must 1ite the QP. Code 01 the title pase ot the aswez-book.\n@Iriou  67600T . j0]] [o.\n@ಊLIL OT} @s @1o7/ಶ5mToflo ಅ೫ಣLLiGupp ]] Lಹsಹlsor ೨ @iTo7oo5ಕ &rfuಹiisಹo|Lb . PJease check that this question pape] contains ] ] Dzinted Dases. (TT) @1o7/ಶಹ/T6flo7 @J @೨| L Imಹ55) @ @Iಹ/CIಹಹLJLJL` CIoiToT   (ಣ1 6T600] @0)6007 (Code ]o) 6116 L ಪ5/6il6 l 86@LILLT Lಹಹ5m o 6(Uತ6Lb . QP. Code 8iven 01  the tisht had side ot the questio] p೩pe]   should  be wzitten o1 the title pase ot the ೩swe] -boo]k by the caididate. (TT]) @155 6167/ಶ5ೊT6iilou ] 4 @1607/15ಹ6iT ೨_6T67T67oJTT 67607ಶ grilLJrTiisಹ GLb . P[ease chec] that this questio] Dape] contains ]4 questio]s. (TTT) 67(L5m @ತ5[L [1(56 50( (6dT @16L   55 T6ಯ @1ಿG7/T6167 @Iroou 6760 6  6  7ತ5 @I5/0Iಹ3L ILII` @ioiTor @L ಕೆತ@ (ಣu1L11_@JLb. Pease w]ite dow] the se]i೩] numbez ot the questio] j1 the ೩swe] - book ೩t the sive1 place betoze attemptins it. @167/55[6GTL] LIILILI50( ]5 ,5LDLಸ5soiT 9ತ/ಹತLILIL` G)6i76T67 . @1167/755/6ir ]0.15 m(5 @13[CImಹLILO L; 10.15 @@ ಠ(p9l ]0.30 @J6[] @1 G07/55[60@7 LLLGub LLm3 @%oI@ ZT CILb . 91[s @15[ಕmlou @16 Lಶ5/6floು 6T[55L] Lm oouLb 6(ತ5m35/_[5] . 15 minute time h೩s been ೩ೊ]otted t0 ]ead this question Dape]. mhe question pape]  1j]] be distibuted ೩t ]0.15 ೩.]1 []0]1] ]0.]5 ೩.[1 . t0 ]0.30 ೩m ; t]e candidates wi]] ead the question papex only ೩d wj]] not wite ೩y ೩swe] 0]] tಊe ೩ೊswe]-bOo] duzins this pe]iod.\n5L090 TಗZ]I[T]\n5ೊಉ ೨oTಯ 3 L0oof] [me C]]ouued]  3 hoL1 s\n@ILDT.LDSILIGILJ@oTs5oi 80 [[ಯtmu1 ಹಯ1ks 80\n]0\n] ]04\nPd8e ] 0f ]2\nPT.0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

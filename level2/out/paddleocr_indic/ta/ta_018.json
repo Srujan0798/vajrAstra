@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_018",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 8,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HU\n(‡)\nCh  To   3    TE 3\n37T0 ET T  3T  H  h\nHhT 3Y  3  E \n3 3   S   8  \n3T   34--3  E  EE\nT    -- T E\n       \n(T)\n,H, , E, ER, f   E\nO\n3H   TERT, ET ,   EL\n3       3 3 , 3  3\nin \nONCERT\nnot to be republis\nhh\nReprint 2026-27",
+      "text_nfc": "HU\n(‡)\nCh  To   3    TE 3\n37T0 ET T  3T  H  h\nHhT 3Y  3  E \n3 3   S   8  \n3T   34--3  E  EE\nT    -- T E\n       \n(T)\n,H, , E, ER, f   E\nO\n3H   TERT, ET ,   EL\n3       3 3 , 3  3\nin \nONCERT\nnot to be republis\nhh\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

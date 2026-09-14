@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "২০০০\n8 ਸੁੱਖ 1605 ૨ઃ૧૫\nno402\n9 ശീമാട്ടി വെളള വക്കമ്മാരൻ\nਸੰਘ ൺ‌ ജെല്ലിങ്കിൽ\nਸੁੱਖ സർഭാർ ഷേയിക്ക് ആയാസ് ഖാൻ\n‌ \nനായ போொக்க\nഗ്രന്ഥകത്താവു\n20000 m2 ക ശ്തീരാമമേനവിനവർ ੦੦\nതൃശ്ശിവപേതൂർ\nരണ്ടാംപതിപ്പ് 1929\n08001500\nprinted at\nthe mangalodayam press\ntrichur\nprice 100 ചില്ല 100\ncopyright to the author\n૧૫૫૫૫૫૫૫૫૪\n10 11 12 13 14\ngpuraorg\n10 म ੍ਹ 13 ਸਾਂ 91 16 17 18",
+      "text_nfc": "২০০০\n8 ਸੁੱਖ 1605 ૨ઃ૧૫\nno402\n9 ശീമാട്ടി വെളള വക്കമ്മാരൻ\nਸੰਘ ൺ‌ ജെല്ലിങ്കിൽ\nਸੁੱਖ സർഭാർ ഷേയിക്ക് ആയാസ് ഖാൻ\n‌ \nനായ போொக்க\nഗ്രന്ഥകത്താവു\n20000 m2 ക ശ്തീരാമമേനവിനവർ ੦੦\nതൃശ്ശിവപേതൂർ\nരണ്ടാംപതിപ്പ് 1929\n08001500\nprinted at\nthe mangalodayam press\ntrichur\nprice 100 ചില്ല 100\ncopyright to the author\n૧૫૫૫૫૫૫૫૫૪\n10 11 12 13 14\ngpuraorg\n10 म ੍ਹ 13 ਸਾਂ 91 16 17 18",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

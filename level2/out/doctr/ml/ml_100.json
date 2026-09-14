@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_100",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 6,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(b) ml6039)0S la1GB0OON aimjajovoeijo 088010 0100910000). D0 lalud mo\najolapolsojmoloy 00LO0)o GOIOO msalslesd muflevol@oamoam CGal0g1al\n6006Ns 8m6lomolomelolojos 010WJC09108 oo mlerolo8 QINO - omjelon Ql0121\nanol06 630) dO 00000000)8.\n[5]\n(c) aldwlaforogm GOOQnJOs S6339108 (0G0600100 023600.0000 2290108\nMosisog/simo). oolom (ni0l600wl.09o0d GQIONS msaislodd aldaguolafjoeoané\n630) alooleafods 00000000).\n[4]\n7. mmlolaoyomarolos agooaleno (06n3) Gal06363300.00 00L00 20000 0090)0\n(socoomlonjo ay0m) 00000 anloo)\n[2x3=6]\n(a) 00G00000 (G3030S Q186N300 0000e1o OOSQIOS) OSOOS OOQIOSO OD3!\n(oolongsa8s0 00on8 oDO allom16813) coauleoo ! G0006M 0D661300 al0omo?\nmolos (ales0oeimm OG0OGOQlO 000006m? al0os00.80).\n(b) \"Gnolom, (GOQIO, 00Ga/09)0 golosojo boolologom) 00000)0\" 00006m\nasojoluloladosmeo't 09aD10.60GTs.0om 0D681360 630) 000090 Ge101008\nmodemo?\n(c) \"oons) Q1000)0008 00LO0. (0603) a0a0)eaub.ao1sci-a6 moaoimorlong mlooi\".\nDO00 @00000.20606m6039000 00068308 oDO bloolensmlgo 006m008 0910)0\".\n6S.00001000) o0 d100lo8 0o000lm)39 (alowomjoromalg al00300.00)0.\n8. omlolojmaiolod ogooaleno (6n3) Galoajsaaudas 200000930)6\n(g0Goomlonjo ojam) 00000) anloo)\n[2x3=6]\n(a) \"GLBOWO alolojelG.806mo 6n1w200\" 0D631300 oon 010000133 006m60308\n00onogyoo?\n(b) ODM600 N0a000lo8 GOMODÔ Gomjsalles)m (a100006032)0S Gmdal020om\n\"coomoomoslo8\" oo dollo. eallooeocoxon) maslrunom20.86l 0l00300.00)0.\n(c) soanvooelesud alolo00)e)s1osenlalwo oloernoo NUIGOIOBQO\" 0D66300\nnioogmonamyo.agamét\n9. omlolaojomaxolod go08le1o (06n5) Gal06360300.00 0OLO0 20000 0090)0\n(Bocoomlajo ay0m) 00d.00) onoo)\n[2x3=6]\n(a) muiool allonisommonanpego @00EJO00/SI0010.800ons alsmn mUlODloô 0008\nGOOloi (al8s00.05lo0 006613600?\n(b) anomoosoypuagoidad omloo) eisloogm GIOGO aloloomm eisloo6mo ogm\nalsmn NU100les0006 aldoninwajonsooloiamy o0m 0Ogloleom mOGOlo\n000000m?\n(c) algmakrupalesubes \"allejowlooeaad\" oom 60100001 eielaj60)6930002\n7",
+      "text_nfc": "(b) ml6039)0S la1GB0OON aimjajovoeijo 088010 0100910000). D0 lalud mo\najolapolsojmoloy 00LO0)o GOIOO msalslesd muflevol@oamoam CGal0g1al\n6006Ns 8m6lomolomelolojos 010WJC09108 oo mlerolo8 QINO - omjelon Ql0121\nanol06 630) dO 00000000)8.\n[5]\n(c) aldwlaforogm GOOQnJOs S6339108 (0G0600100 023600.0000 2290108\nMosisog/simo). oolom (ni0l600wl.09o0d GQIONS msaislodd aldaguolafjoeoané\n630) alooleafods 00000000).\n[4]\n7. mmlolaoyomarolos agooaleno (06n3) Gal06363300.00 00L00 20000 0090)0\n(socoomlonjo ay0m) 00000 anloo)\n[2x3=6]\n(a) 00G00000 (G3030S Q186N300 0000e1o OOSQIOS) OSOOS OOQIOSO OD3!\n(oolongsa8s0 00on8 oDO allom16813) coauleoo ! G0006M 0D661300 al0omo?\nmolos (ales0oeimm OG0OGOQlO 000006m? al0os00.80).\n(b) \"Gnolom, (GOQIO, 00Ga/09)0 golosojo boolologom) 00000)0\" 00006m\nasojoluloladosmeo't 09aD10.60GTs.0om 0D681360 630) 000090 Ge101008\nmodemo?\n(c) \"oons) Q1000)0008 00LO0. (0603) a0a0)eaub.ao1sci-a6 moaoimorlong mlooi\".\nDO00 @00000.20606m6039000 00068308 oDO bloolensmlgo 006m008 0910)0\".\n6S.00001000) o0 d100lo8 0o000lm)39 (alowomjoromalg al00300.00)0.\n8. omlolojmaiolod ogooaleno (6n3) Galoajsaaudas 200000930)6\n(g0Goomlonjo ojam) 00000) anloo)\n[2x3=6]\n(a) \"GLBOWO alolojelG.806mo 6n1w200\" 0D631300 oon 010000133 006m60308\n00onogyoo?\n(b) ODM600 N0a000lo8 GOMODÔ Gomjsalles)m (a100006032)0S Gmdal020om\n\"coomoomoslo8\" oo dollo. eallooeocoxon) maslrunom20.86l 0l00300.00)0.\n(c) soanvooelesud alolo00)e)s1osenlalwo oloernoo NUIGOIOBQO\" 0D66300\nnioogmonamyo.agamét\n9. omlolaojomaxolod go08le1o (06n5) Gal06360300.00 0OLO0 20000 0090)0\n(Bocoomlajo ay0m) 00d.00) onoo)\n[2x3=6]\n(a) muiool allonisommonanpego @00EJO00/SI0010.800ons alsmn mUlODloô 0008\nGOOloi (al8s00.05lo0 006613600?\n(b) anomoosoypuagoidad omloo) eisloogm GIOGO aloloomm eisloo6mo ogm\nalsmn NU100les0006 aldoninwajonsooloiamy o0m 0Ogloleom mOGOlo\n000000m?\n(c) algmakrupalesubes \"allejowlooeaad\" oom 60100001 eielaj60)6930002\n7",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

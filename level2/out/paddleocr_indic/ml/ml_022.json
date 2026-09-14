@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_022",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
+    "page_index": 12,
+    "width": 882,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        882,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "cra\n11\no  o\n12911.\nooog\nelmelo\n.\nll.\ns\n1229\nlsl\neasl; mace\n'Scrcel.\nc\nolll o\n.2.\n. lel\n60o\nO cc ssuwlg   c fo\nosooloone.\n\n0\n\n\nao\n\n..\nmcll. ml\n mllo.  2\nwell\n l\nu\nlm mrre\nsla lo meel oeaao. erse",
+      "text_nfc": "cra\n11\no  o\n12911.\nooog\nelmelo\n.\nll.\ns\n1229\nlsl\neasl; mace\n'Scrcel.\nc\nolll o\n.2.\n. lel\n60o\nO cc ssuwlg   c fo\nosooloone.\n\n0\n\n\nao\n\n..\nmcll. ml\n mllo.  2\nwell\n l\nu\nlm mrre\nsla lo meel oeaao. erse",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_066",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 0,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "CENTRAL BOARD OF SECONDARY EDUCATION\nSAMPLE QUESTION PAPER FOR SSE : 2024-25\nStd X\nTime Allowed : 3 Hrs\nMaximum Marks : 80\n2:326\n2:80\nMALAYALAM (CODE - 012)\nThe question paper is divided into two sections :\nSection A\n: Reading Comprehension (V.S.A.Q)\nVocabulary Building, Prose & Poetry (M.C.Q.)\n: 40 Marks\nSection B\nGrammar, Composition\nLiterature (Prose, Poetry & Supplementary Reader : 40 Marks\nleoSo [Section : A]\n1. \n(ol)\n[8x1=8]\n1903.  S   2). S\nMOO 2OWoOOSO SCMNB6S LDB6H\n,\n2BSSS.OS\n2OS3Sm\n . 1903-2 2  :\nS3.2\n,.\n-\n62\n.\nB0221  1. 21 30\n2\n2,2,\n,\n\nMJMGBCOGSOP\n\nG\n126310). 1903-11 1: “3BCS0\nOOBS.\nDOOSMBOOOOOO. BO,BO\n.\n.\n,\n.1.dm lol. The World Set Free’1\n.\nS\nQcol\n\n608\nLOOMMB. MO\nBOBS\nLESO",
+      "text_nfc": "CENTRAL BOARD OF SECONDARY EDUCATION\nSAMPLE QUESTION PAPER FOR SSE : 2024-25\nStd X\nTime Allowed : 3 Hrs\nMaximum Marks : 80\n2:326\n2:80\nMALAYALAM (CODE - 012)\nThe question paper is divided into two sections :\nSection A\n: Reading Comprehension (V.S.A.Q)\nVocabulary Building, Prose & Poetry (M.C.Q.)\n: 40 Marks\nSection B\nGrammar, Composition\nLiterature (Prose, Poetry & Supplementary Reader : 40 Marks\nleoSo [Section : A]\n1. \n(ol)\n[8x1=8]\n1903.  S   2). S\nMOO 2OWoOOSO SCMNB6S LDB6H\n,\n2BSSS.OS\n2OS3Sm\n . 1903-2 2  :\nS3.2\n,.\n-\n62\n.\nB0221  1. 21 30\n2\n2,2,\n,\n\nMJMGBCOGSOP\n\nG\n126310). 1903-11 1: “3BCS0\nOOBS.\nDOOSMBOOOOOO. BO,BO\n.\n.\n,\n.1.dm lol. The World Set Free’1\n.\nS\nQcol\n\n608\nLOOMMB. MO\nBOBS\nLESO",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

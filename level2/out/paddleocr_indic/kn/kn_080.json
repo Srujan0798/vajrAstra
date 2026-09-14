@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_080",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 1623,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1623,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೭೪ ೯ದೀ೦೬ ೫ೀನದಅ೦ರನ೯ು\nಇ\n\nಶಲನಿದಾಂತಶೀಸದಲಂಗಸಾೃವು\n\nJNANAOOITTI\n2uppiS uS luueupp!S Ed!!uS\nರಾಮದಾಸಅಡೃಂತಾಯ\nಾಟ\nಕನಾ೯ಟಕಲಅತಕಲಾಅಕಾಡೆಮು\nHr.\n\nKarnataka Lalithakala Academy",
+      "text_nfc": "೭೪ ೯ದೀ೦೬ ೫ೀನದಅ೦ರನ೯ು\nಇ\n\nಶಲನಿದಾಂತಶೀಸದಲಂಗಸಾೃವು\n\nJNANAOOITTI\n2uppiS uS luueupp!S Ed!!uS\nರಾಮದಾಸಅಡೃಂತಾಯ\nಾಟ\nಕನಾ೯ಟಕಲಅತಕಲಾಅಕಾಡೆಮು\nHr.\n\nKarnataka Lalithakala Academy",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

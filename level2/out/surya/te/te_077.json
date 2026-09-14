@@ -1,0 +1,41 @@
+{
+  "page_id": "te_077",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0077pro_raw.pdf",
+    "page_index": 37,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Which sentences tell us that Mathilde greatly desired the necklace?\nrapturously : with great joy fled with her treasure : Here, fled means went away quickly. panic stricken : with a sudden feeling of fear distraught : worried, disturbed\nThink and answer:\nWhy did Mathilde not notice the loss of her necklace?\nsuperb diamond necklace, and her heart began to beat with uncontrolled desire. Her hands trembled as she took it. She fastened it around her neck and stood lost in ecstasy as she looked at herself.\nThen she asked anxiously, hesitating, “Would you lend me this, just this?”\n“Why, yes, of course.”\nShe threw her arms around her friend's neck, rapturously, then fled with her treasure.\nThe day of the party arrived. Madame Loisel was a success. She was prettier than all the other women, elegant, gracious, smiling, and full of joy.\nShe danced wildly, with passion, forgetting everything in the triumph of her beauty and success, floating in a cloud of happiness.\nMathilde and her husband left at about four o'clock in the morning. When they were finally in the street, they could not find a cab. They walked down toward the Seine, till they found one. They were dropped off at their door in the Rue des Martyrs, and sadly, it was all over, for her.\nIn front of the mirror, she took a final look at herself in all her glory. But suddenly she uttered a cry. She no longer had the necklace round her neck!\n“What is the matter?” asked her husband.\nShe turned towards him, panic-stricken, “I have... I have... I no longer have Madame Forestier’s necklace.”\nHe stood up, distraught, “What!... How! ...That’s impossible!”\n26",
+      "text_nfc": "Which sentences tell us that Mathilde greatly desired the necklace?\nrapturously : with great joy fled with her treasure : Here, fled means went away quickly. panic stricken : with a sudden feeling of fear distraught : worried, disturbed\nThink and answer:\nWhy did Mathilde not notice the loss of her necklace?\nsuperb diamond necklace, and her heart began to beat with uncontrolled desire. Her hands trembled as she took it. She fastened it around her neck and stood lost in ecstasy as she looked at herself.\nThen she asked anxiously, hesitating, “Would you lend me this, just this?”\n“Why, yes, of course.”\nShe threw her arms around her friend's neck, rapturously, then fled with her treasure.\nThe day of the party arrived. Madame Loisel was a success. She was prettier than all the other women, elegant, gracious, smiling, and full of joy.\nShe danced wildly, with passion, forgetting everything in the triumph of her beauty and success, floating in a cloud of happiness.\nMathilde and her husband left at about four o'clock in the morning. When they were finally in the street, they could not find a cab. They walked down toward the Seine, till they found one. They were dropped off at their door in the Rue des Martyrs, and sadly, it was all over, for her.\nIn front of the mirror, she took a final look at herself in all her glory. But suddenly she uttered a cry. She no longer had the necklace round her neck!\n“What is the matter?” asked her husband.\nShe turned towards him, panic-stricken, “I have... I have... I no longer have Madame Forestier’s necklace.”\nHe stood up, distraught, “What!... How! ...That’s impossible!”\n26",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

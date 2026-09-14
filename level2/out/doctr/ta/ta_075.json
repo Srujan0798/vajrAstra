@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_075",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 6,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-7-\nU6S-VI\nGacyugioad 6umme O)ansrsbanor gegi\n(\nUPEOJ60)60 6eùso 5035 aooyi.\n(Gocy 060160)0 6)6nGOUGRLO goyoDASUUL G6J606.)\nGoucy 0606D607 6)sncA 67600T.\nBiLOGugOS 0505800655\nGsisgas Bmg Goucurengnaw -\ngoun6of607 Goiy 60) 6T60T0060LW\nsigowasso -\n65Bw6g\n0600P35 *Gaucunengnd / (O6T O)unguagno 6T60T60PLD goppaabucigi\nGoiy 0060)566\n9160)6015S\n60 (OLi)\nG5sworg\nD6OPÉE UREAOOTN6 670558 6)6n676N00G0.\nSnot-\nGgigo BL5S0 9BEn.\n*6unG5sns 6)En6060)60 91435 ODLoyi.",
+      "text_nfc": "-7-\nU6S-VI\nGacyugioad 6umme O)ansrsbanor gegi\n(\nUPEOJ60)60 6eùso 5035 aooyi.\n(Gocy 060160)0 6)6nGOUGRLO goyoDASUUL G6J606.)\nGoucy 0606D607 6)sncA 67600T.\nBiLOGugOS 0505800655\nGsisgas Bmg Goucurengnaw -\ngoun6of607 Goiy 60) 6T60T0060LW\nsigowasso -\n65Bw6g\n0600P35 *Gaucunengnd / (O6T O)unguagno 6T60T60PLD goppaabucigi\nGoiy 0060)566\n9160)6015S\n60 (OLi)\nG5sworg\nD6OPÉE UREAOOTN6 670558 6)6n676N00G0.\nSnot-\nGgigo BL5S0 9BEn.\n*6unG5sns 6)En6060)60 91435 ODLoyi.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_042",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 1,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-2-\n0&9-11.\n(ew#sf#soucL शp8iusu sC Owoar BaJZURST J^Jauf Sovi BSf Tou UWJrUOs७%&rtwg ) sCLE Qurooous DSTGS७OsणG5gl sCLO GUJsowvs Gsi Souऊ८foor GoCurmrrs८ GUrC७C @Sofou GffiJssit GuJUsrt 6)षU8GलT७ GoCO6m oor bJowr SbooslSrwls6oar6ui o)owr 9l6v)g थ65&60 @086;?\nJJ६lGooLL@ 6)owi\n-८CL6 Gupoools ठ%f७ss&ifor Qun BBfori UCtUUmDr फ0 ठrooorooloror   U685S6 ९७ %s^L; 6Tooorooof ६i 0$64\n6)stuDoL Goorgi.\nGf fusar @ऊs acti Gujsowus OSn७ड़wछीa ढJlf BBfori Bai 6roirgj७; 6TfJBOBaoLW Duwi Bsi 869 GलoocGsioorm  @ऊs s८८o GUjmoo   ठ)५६७s@or  @fBsfsi UC५iusooJ Ug६!  6)8ttJoCGsisror 6roirpJo,  @७s . BtU $॰os   @oir6)oryolsie 96c( tf6ron8 986 oTmbson oठr 6o)&o)wrU0f)&6o)6n 8७५ gCGs Garr७ 6roorpo @gorfoif Jlmoऊणcr Bro. @oro)onguwiBafoor   ७ी lJJfJs७s७ थloi&७soo८w  6oso)w6JunJs७ख o)srL; Csoro)orgUounfoor ६}िठ्ठ . Y५० 6our or8sfoi UCऋUJJ 6rodor मosb wB७७७ GTor\n98^88388#6' oun88#6^( our8dfoar OCdsd ठठr OC GUU६D ठठा gOUf8$$6r- Urdb 6looor osrtf 6lठठठr (२ \n(4`\n४ \n2. 3.\n4. ठ 7. 8. 9. 10.\nO४ir @ipo५ शgंo)SnGStी॰ir USS नufesasiinsai @olojonguwvi Bsfःs @Ges Gauwingi 13.8'.06.)\n08$\n[1].",
+      "text_nfc": "-2-\n0&9-11.\n(ew#sf#soucL शp8iusu sC Owoar BaJZURST J^Jauf Sovi BSf Tou UWJrUOs७%&rtwg ) sCLE Qurooous DSTGS७OsणG5gl sCLO GUJsowvs Gsi Souऊ८foor GoCurmrrs८ GUrC७C @Sofou GffiJssit GuJUsrt 6)षU8GलT७ GoCO6m oor bJowr SbooslSrwls6oar6ui o)owr 9l6v)g थ65&60 @086;?\nJJ६lGooLL@ 6)owi\n-८CL6 Gupoools ठ%f७ss&ifor Qun BBfori UCtUUmDr फ0 ठrooorooloror   U685S6 ९७ %s^L; 6Tooorooof ६i 0$64\n6)stuDoL Goorgi.\nGf fusar @ऊs acti Gujsowus OSn७ड़wछीa ढJlf BBfori Bai 6roirgj७; 6TfJBOBaoLW Duwi Bsi 869 GलoocGsioorm  @ऊs s८८o GUjmoo   ठ)५६७s@or  @fBsfsi UC५iusooJ Ug६!  6)8ttJoCGsisror 6roirpJo,  @७s . BtU $॰os   @oir6)oryolsie 96c( tf6ron8 986 oTmbson oठr 6o)&o)wrU0f)&6o)6n 8७५ gCGs Garr७ 6roorpo @gorfoif Jlmoऊणcr Bro. @oro)onguwiBafoor   ७ी lJJfJs७s७ थloi&७soo८w  6oso)w6JunJs७ख o)srL; Csoro)orgUounfoor ६}िठ्ठ . Y५० 6our or8sfoi UCऋUJJ 6rodor मosb wB७७७ GTor\n98^88388#6' oun88#6^( our8dfoar OCdsd ठठr OC GUU६D ठठा gOUf8$$6r- Urdb 6looor osrtf 6lठठठr (२ \n(4`\n४ \n2. 3.\n4. ठ 7. 8. 9. 10.\nO४ir @ipo५ शgंo)SnGStी॰ir USS नufesasiinsai @olojonguwvi Bsfःs @Ges Gauwingi 13.8'.06.)\n08$\n[1].",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

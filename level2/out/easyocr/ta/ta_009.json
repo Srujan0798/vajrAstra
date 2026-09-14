@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_009",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0009pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Ooouu 9\nG5గ 5గు   00)adarL Guu6o కణgి 05g 06ub:\n(Ggngమu 'tలతీఐుళ్ళ) ల0ికీక 196' తt శotn@ nఅgsoron 12 (2) రక్రీణuర Uగnecగb 0)56 ల9uduUug ;096nG థLLU GUv6o6ue3g GLegu G5ngo: G5గ లమ GL5gJu తgoగగి ఉల\nGoUUt G5ng60ణ ణగ GouLUrenonau 6T601g్ర G5n56 6o)బరouru_గcor Guutrg60 g శ J60Tగtu 0g o)*ugGucr:\n6T6ud0 Ofor; తlయబగ coగౌbur\nఠీCu-\n(55ీ\nGouLUn6ff6ur 6066)uU5g\n51-82",
+      "text_nfc": "Ooouu 9\nG5గ 5గు   00)adarL Guu6o కణgి 05g 06ub:\n(Ggngమu 'tలతీఐుళ్ళ) ల0ికీక 196' తt శotn@ nఅgsoron 12 (2) రక్రీణuర Uగnecగb 0)56 ల9uduUug ;096nG థLLU GUv6o6ue3g GLegu G5ngo: G5గ లమ GL5gJu తgoగగి ఉల\nGoUUt G5ng60ణ ణగ GouLUrenonau 6T601g్ర G5n56 6o)బరouru_గcor Guutrg60 g శ J60Tగtu 0g o)*ugGucr:\n6T6ud0 Ofor; తlయబగ coగౌbur\nఠీCu-\n(55ీ\nGouLUn6ff6ur 6066)uU5g\n51-82",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_077",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0023pro_raw.pdf",
+    "page_index": 24,
+    "width": 882,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        882,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n23\neumlnlmmiin slsmalmo\no\nGololo.\na   lolg\n,l\noll  elo\n0o0\nlaec af\ne, \n2o lml s. rm\n\"oesloowwcosoc\nwg9o \nl\naccog\nm  1. \n\nm l o u 0\n\" l,\", \nelo olmlwo eossoeloo olo\n\ncc\na\n!l\ne\nm\n,,",
+      "text_nfc": "\n23\neumlnlmmiin slsmalmo\no\nGololo.\na   lolg\n,l\noll  elo\n0o0\nlaec af\ne, \n2o lml s. rm\n\"oesloowwcosoc\nwg9o \nl\naccog\nm  1. \n\nm l o u 0\n\" l,\", \nelo olmlwo eossoeloo olo\n\ncc\na\n!l\ne\nm\n,,",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

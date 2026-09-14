@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_019",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+    "page_index": 210,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "१0.1.२ Bplpn6ofluImlB६ir (Millets) थjLLपlBBI Iopoio eJषlUInolb LUOIIBIOD IBBInoD @फ़०ी६b LIUOrILLILILL Blplul @lllopछनiा Llooolpplpछs GlpIछI6oflu IlBनiT (Millets) नाsoitb 6मnा६ं LIULIनOTLIGछफ़LILIGकloणrpgl. @o६l छपर# Lप% LIDBUIDD (G९ऊLL 6्णr ) GopoIn6णा Bj छBणoग्र JIना६|छ GplufL नoLऊं नBIनठOTL छIoofluI @२l६DDBUIITGIb\n10.1.3 LीB&Blpl छnनofluImlBoir (Minor Millets) छ्ली॰oव्णा (Foxtail Millet) छI@I् @fluI@D OLILIj: BILGLफ़luIn @LIनDीककn Gpnppi Lopoio @flनoनाuqlLi @pफ़luInol६ LInPUDLIflUIIOIBLI LIUIOTLIGSBLILIGLD छी६o६णा ६I६DDBB6fl६ं @glo   @oणrml Blonग़ 6,000 @२IBLLIBIDGाऊकछ (नणT GLI &नणrnoll६b @lनniLLId फ5७@Jकछ २ LLIGDSLILILLgl. छl६oD6orUl६b Lपpi, Bnj GLIITODSOLGगL,  ६D६ILLIDlठor B, C, OLIITLLIBluID IDppib BIODEIUIDD GLIIT6OTOनO@I Ilछफ़glनाानाठणा . LILIनDT कनाा l६o६णा @puIpoogLl LIGDLILIGBgOID, B६णणTLInI 6D६IनODUI GIDLDLIGgpojo LIUIनDTLIGBl़gl. छl६o6णाऊछं&ी LITTgTLGID Jl६णा 6DDनOTUIUBछऊं नBI(कBLILIGBlलgl. @Iप७ (Kodo Millet) छI@Iप @fuLI६D OLIUIj: LनंDLIIODDD 6i७GGगnLleGoLLD Opnppi ७oppiio @f६oनulLi @Iपe Gopछ eLLलीBBIOD@ILI LmLiLLIOnBB नछI6ठOLLgl. pnj8छgl, LJgD Loppib BoofltomlBढir फ़loomफ़5pgl. LILIनDT &नiा @IJछ IIOINT& Jloप्र ऊंBLILILLGछ छनflUII छBLILIGEloopg (Pudding)   Glplsj   OLIGककUIBOJD,   IDODBElकB६D६Dऊ Gनo0ाLILIGppoi, २ L६ LIGID6OD6Oा छं GopऊBo, @ग ऊp# मगऊक६Dगर ७oppi @छp शI७ऊछछopऊ GoopऊBozjb २  छनlछlpgl. १0.1.4 LGLL @I६D६छ6ा (Pulses) LlGDBoib   ठा6op नBn६D शILjip gsLl नाooाLi OLInGBSTLIGD नDछफँठणा @Iग छ॰णफ़कनIIठणा Lllboiv (puls) Jl६D६Dgl LIGDIQ 6ib (pultis) नाoorp   Oषn६bmloblGूgl   OLIDLILILLgl LGLL ना 6ठTLIgI %GLIGLIकDी  GकiulilBafloblकig   OLIpLiLIGi @fllopकmाा  थ७i. @o६l .6DBl@)|6ाग6ाा   IOBBGऊBछछ Gg6D@IUII6णा छIOIJ BITग़ (plant based) Lपpi, 6D६ILLLLIDीlनणT B६iा boppio BoणflrlB6oना @ltorl&lनopनणा . 2 -७ऊpछl (Black gram) छI@I् @fuI@D OLIUIj: नीकनणाI (mlGBn Gpnppi Lopoio @flनoनाuqlLi @pफ़lUI o@ILI LlpLLLIOnBळ नBI6णOLg!. OgIठणT6DLD 6gn6bpn@Iफ़oluI६b BIT6णTmJकना (Archeobotanical) Blonj 3,500 थJनणणा (BGऊDछ @६णT GLI @ऊफ़luInoll २_ -G5फ़छl षG!jpop २ mफ़फ़ी O#UIDlठठmठणा . @g @IpनणणTL QLmlBoflsb LOIT6णTITOIIIf (Rainfed) LIUlTIBLI LIUfफ़ILLILIGBlpgl 9 .6DBनाn@luI २ GBूछl थ pupफ़lulls @pफ़uIn 8O% LrilकofliL OlFulकlng! @ऊफ़luIol६ं २ ऊड़ीगu LगGpम,\nGकफ़oiछ GमnGLD LLD १०.२: BlmIpn6oflu IrilBoiT Gaफ़oफ़्७ (Finger millet) छI@I @fUI@D OLIULIj: नाdDकृषीन्ठा Gकnग कन्णाI Gpnppio woppio @fl६oनाulLio GBफ़oi छ &lफऊ  थJLLगl BकIOlनGफ़glgpफ़lu Inollpछ ६@I@छ BIoDpफ़lpछ @६णTGL थIlYBLILIGSLILILL LIUfj. @gl BIODEIUID floopiछgl. LIULIनDT कनाा @ऊफ़luIn६l6णा LI६D Oppछ   WDबDJDLILIछSीकनfl६ू @७ ७BBlul 6णणा @In& @gl LIULIनOTLIGSJLILIGकlmgl. Gaफ़oipछ DGflUIN BG@In, B+z Yn &G@Iआ नठणा 6OOILILIGDlलgl JITBीLISDL (Ragi malt) @७ LlrLIGDUDI6णT २aLLLBBछgILi LIITनOTIDNछD. Gaफ़oipछ Opnछी LIIT6oTIBIDनाT puIlLiLlls (Fermented beverages) OOनDLIOLIITGनII BLI LIUIDTLIGElpgl. G#noाib (Sorghum) छI@I @fUI@D OLIULIj: नn BlD @IवGBj Gpnppio woppio @fl६oनाulLio SBIनाLD थJLLफ़lककIOlनbGigl थIpl@BLILIGDSLILILLgl. नDछी6णा @ऊBीuI GlmIpn6oflu IrilBafloo Ganaा@i @oणrml  BIODfluID Iojoiio @Gil मछgl थफ़ीष् थlनाol६ं -6ा1नाछ LIULIनDT कनाा Gकnफ , LID+DOIB6ाT, LI6DTplBmाा Dppio BIT6DIनDL BGऊऊ७म Gan6TLD S६l6OTLOITBLl LIULIOTLIGकlooipgl Oफ़nक्री BTIITULILI LIT6OIंIकनfीठoा eoaoLi OLIITGOTI& 2 6ाTना छl.\nछl६o६णा\n@Ipe\nLILD १०.३ः Blpl छnooflu IlBनir\nOLIITGJनTN छIगLI LIULIjOJनाTना छITOIIIBGBID नgnफ़l६D(६Dनणाभ|छ छI@Iफ़@lu Igio\n203\nTIIGOTBIOLOGYBOTANY_XIITIICH १० indd 203\n28/12/2022 16:45:42",
+      "text_nfc": "१0.1.२ Bplpn6ofluImlB६ir (Millets) थjLLपlBBI Iopoio eJषlUInolb LUOIIBIOD IBBInoD @फ़०ी६b LIUOrILLILILL Blplul @lllopछनiा Llooolpplpछs GlpIछI6oflu IlBनiT (Millets) नाsoitb 6मnा६ं LIULIनOTLIGछफ़LILIGकloणrpgl. @o६l छपर# Lप% LIDBUIDD (G९ऊLL 6्णr ) GopoIn6णा Bj छBणoग्र JIना६|छ GplufL नoLऊं नBIनठOTL छIoofluI @२l६DDBUIITGIb\n10.1.3 LीB&Blpl छnनofluImlBoir (Minor Millets) छ्ली॰oव्णा (Foxtail Millet) छI@I् @fluI@D OLILIj: BILGLफ़luIn @LIनDीककn Gpnppi Lopoio @flनoनाuqlLi @pफ़luInol६ LInPUDLIflUIIOIBLI LIUIOTLIGSBLILIGLD छी६o६णा ६I६DDBB6fl६ं @glo   @oणrml Blonग़ 6,000 @२IBLLIBIDGाऊकछ (नणT GLI &नणrnoll६b @lनniLLId फ5७@Jकछ २ LLIGDSLILILLgl. छl६oD6orUl६b Lपpi, Bnj GLIITODSOLGगL,  ६D६ILLIDlठor B, C, OLIITLLIBluID IDppib BIODEIUIDD GLIIT6OTOनO@I Ilछफ़glनाानाठणा . LILIनDT कनाा l६o६णा @puIpoogLl LIGDLILIGBgOID, B६णणTLInI 6D६IनODUI GIDLDLIGgpojo LIUIनDTLIGBl़gl. छl६o6णाऊछं&ी LITTgTLGID Jl६णा 6DDनOTUIUBछऊं नBI(कBLILIGBlलgl. @Iप७ (Kodo Millet) छI@Iप @fuLI६D OLIUIj: LनंDLIIODDD 6i७GGगnLleGoLLD Opnppi ७oppiio @f६oनulLi @Iपe Gopछ eLLलीBBIOD@ILI LmLiLLIOnBB नछI6ठOLLgl. pnj8छgl, LJgD Loppib BoofltomlBढir फ़loomफ़5pgl. LILIनDT &नiा @IJछ IIOINT& Jloप्र ऊंBLILILLGछ छनflUII छBLILIGEloopg (Pudding)   Glplsj   OLIGककUIBOJD,   IDODBElकB६D६Dऊ Gनo0ाLILIGppoi, २ L६ LIGID6OD6Oा छं GopऊBo, @ग ऊp# मगऊक६Dगर ७oppi @छp शI७ऊछछopऊ GoopऊBozjb २  छनlछlpgl. १0.1.4 LGLL @I६D६छ6ा (Pulses) LlGDBoib   ठा6op नBn६D शILjip gsLl नाooाLi OLInGBSTLIGD नDछफँठणा @Iग छ॰णफ़कनIIठणा Lllboiv (puls) Jl६D६Dgl LIGDIQ 6ib (pultis) नाoorp   Oषn६bmloblGूgl   OLIDLILILLgl LGLL ना 6ठTLIgI %GLIGLIकDी  GकiulilBafloblकig   OLIpLiLIGi @fllopकmाा  थ७i. @o६l .6DBl@)|6ाग6ाा   IOBBGऊBछछ Gg6D@IUII6णा छIOIJ BITग़ (plant based) Lपpi, 6D६ILLLLIDीlनणT B६iा boppio BoणflrlB6oना @ltorl&lनopनणा . 2 -७ऊpछl (Black gram) छI@I् @fuI@D OLIUIj: नीकनणाI (mlGBn Gpnppi Lopoio @flनoनाuqlLi @pफ़lUI o@ILI LlpLLLIOnBळ नBI6णOLg!. OgIठणT6DLD 6gn6bpn@Iफ़oluI६b BIT6णTmJकना (Archeobotanical) Blonj 3,500 थJनणणा (BGऊDछ @६णT GLI @ऊफ़luInoll २_ -G5फ़छl षG!jpop २ mफ़फ़ी O#UIDlठठmठणा . @g @IpनणणTL QLmlBoflsb LOIT6णTITOIIIf (Rainfed) LIUlTIBLI LIUfफ़ILLILIGBlpgl 9 .6DBनाn@luI २ GBूछl थ pupफ़lulls @pफ़uIn 8O% LrilकofliL OlFulकlng! @ऊफ़luIol६ं २ ऊड़ीगu LगGpम,\nGकफ़oiछ GमnGLD LLD १०.२: BlmIpn6oflu IrilBoiT Gaफ़oफ़्७ (Finger millet) छI@I @fUI@D OLIULIj: नाdDकृषीन्ठा Gकnग कन्णाI Gpnppio woppio @fl६oनाulLio GBफ़oi छ &lफऊ  थJLLगl BकIOlनGफ़glgpफ़lu Inollpछ ६@I@छ BIoDpफ़lpछ @६णTGL थIlYBLILIGSLILILL LIUfj. @gl BIODEIUID floopiछgl. LIULIनDT कनाा @ऊफ़luIn६l6णा LI६D Oppछ   WDबDJDLILIछSीकनfl६ू @७ ७BBlul 6णणा @In& @gl LIULIनOTLIGSJLILIGकlmgl. Gaफ़oipछ DGflUIN BG@In, B+z Yn &G@Iआ नठणा 6OOILILIGDlलgl JITBीLISDL (Ragi malt) @७ LlrLIGDUDI6णT २aLLLBBछgILi LIITनOTIDNछD. Gaफ़oipछ Opnछी LIIT6oTIBIDनाT puIlLiLlls (Fermented beverages) OOनDLIOLIITGनII BLI LIUIDTLIGElpgl. G#noाib (Sorghum) छI@I @fUI@D OLIULIj: नn BlD @IवGBj Gpnppio woppio @fl६oनाulLio SBIनाLD थJLLफ़lककIOlनbGigl थIpl@BLILIGDSLILILLgl. नDछी6णा @ऊBीuI GlmIpn6oflu IrilBafloo Ganaा@i @oणrml  BIODfluID Iojoiio @Gil मछgl थफ़ीष् थlनाol६ं -6ा1नाछ LIULIनDT कनाा Gकnफ , LID+DOIB6ाT, LI6DTplBmाा Dppio BIT6DIनDL BGऊऊ७म Gan6TLD S६l6OTLOITBLl LIULIOTLIGकlooipgl Oफ़nक्री BTIITULILI LIT6OIंIकनfीठoा eoaoLi OLIITGOTI& 2 6ाTना छl.\nछl६o६णा\n@Ipe\nLILD १०.३ः Blpl छnooflu IlBनir\nOLIITGJनTN छIगLI LIULIjOJनाTना छITOIIIBGBID नgnफ़l६D(६Dनणाभ|छ छI@Iफ़@lu Igio\n203\nTIIGOTBIOLOGYBOTANY_XIITIICH १० indd 203\n28/12/2022 16:45:42",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

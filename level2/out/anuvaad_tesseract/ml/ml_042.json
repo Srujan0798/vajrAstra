@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_042",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+    "page_index": 78,
+    "width": 876,
+    "height": 1362
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        876,
+        1362
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "BL salam തവവശൃത്തിന്നു ഉപയോഗ പ്ടത്തീട്ടു\nഒണ്ണന്നു തിരി മുഴപ് agyern a Jone lS laporm@acroan?\nDow നിശ്ചയിച്ചു : oilade എടുത്ജ് ജ്ത്ര അകം മുഴുവൻ\nരഞ്തു പെട്ടിയും പെട്ടകവും വലിച്ചിട്ട aaa കാണാട ठ\nമടങ്ങിവ്നു.കുട്ടി്ക്െ കുട്ടി്പെണ്ണെ agro alls)\naemMivlel.  DosaTPilaads ക്ക് GOD, AOA\nഎടി Wactal BIN Ooas നിൻറു കള്ളത്തരം se\nക്രൂളി അവസാനിക്കണം എന്നു പറഞ്ഞു കൂട്ടി\nAMO കൈ പപിടില്ചു വലിച്ചു दर\n\nസുഖസുഷുഷ്ത്ി വിട്ട് അന്തുഃകരണം e200) വേസ്ഥയി\nലെഞ്ഞുന്ന മാതിരികള് ഇഔഷൽഭേദം ക്രടാതെ ഒരു ഞരക്കും\nഞരങ്ളി തൊണ്ടുക്കെട്ട ailsatloy കോട്ടുപായിട്ടു കൈകേം\noe കണ്ണു, തിര്മി aoa ട്ടി മാാസപേശികക്ക് o\n01 कुछ 22008 വ്ലിങ്ഞു ചുളിഞ്ഞു  കണ്ണുകാം\ncage 2 Slay alsm കിടപ്പിൽത്തന്നെ aglagy\nപ്പിനോടു ചോടിച്ചു\n\n*\n“ഇതെന്നതൊരന്കായമാണീ കാട്ടിയത്ത് के 4വ്\n\nശവൃശൂദ്ധമാക്കിയല്ലോ\n\n? Bagy = Gaiwereas? afladto etn, &Plaf\n* golden. छठी Goaimcdo പുന്നാരം പറവാൻ aie\n\n- കൊല്ലാൻ പന്നതാണള്ിൽ\n\nae ree\n",
+      "text_nfc": "BL salam തവവശൃത്തിന്നു ഉപയോഗ പ്ടത്തീട്ടു\nഒണ്ണന്നു തിരി മുഴപ് agyern a Jone lS laporm@acroan?\nDow നിശ്ചയിച്ചു : oilade എടുത്ജ് ജ്ത്ര അകം മുഴുവൻ\nരഞ്തു പെട്ടിയും പെട്ടകവും വലിച്ചിട്ട aaa കാണാട ठ\nമടങ്ങിവ്നു.കുട്ടി്ക്െ കുട്ടി്പെണ്ണെ agro alls)\naemMivlel.  DosaTPilaads ക്ക് GOD, AOA\nഎടി Wactal BIN Ooas നിൻറു കള്ളത്തരം se\nക്രൂളി അവസാനിക്കണം എന്നു പറഞ്ഞു കൂട്ടി\nAMO കൈ പപിടില്ചു വലിച്ചു दर\n\nസുഖസുഷുഷ്ത്ി വിട്ട് അന്തുഃകരണം e200) വേസ്ഥയി\nലെഞ്ഞുന്ന മാതിരികള് ഇഔഷൽഭേദം ക്രടാതെ ഒരു ഞരക്കും\nഞരങ്ളി തൊണ്ടുക്കെട്ട ailsatloy കോട്ടുപായിട്ടു കൈകേം\noe കണ്ണു, തിര്മി aoa ട്ടി മാാസപേശികക്ക് o\n01 कुछ 22008 വ്ലിങ്ഞു ചുളിഞ്ഞു  കണ്ണുകാം\ncage 2 Slay alsm കിടപ്പിൽത്തന്നെ aglagy\nപ്പിനോടു ചോടിച്ചു\n\n*\n“ഇതെന്നതൊരന്കായമാണീ കാട്ടിയത്ത് के 4വ്\n\nശവൃശൂദ്ധമാക്കിയല്ലോ\n\n? Bagy = Gaiwereas? afladto etn, &Plaf\n* golden. छठी Goaimcdo പുന്നാരം പറവാൻ aie\n\n- കൊല്ലാൻ പന്നതാണള്ിൽ\n\nae ree\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

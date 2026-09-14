@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_078",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+    "page_index": 235,
+    "width": 876,
+    "height": 1362
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        876,
+        1362
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Qoo\n00g0J000 :\naolano. 000J) @YSOD60J0D Qajoallonbo 00b01s\nof 9020000000 musoomolgogememg) 60000 Wolollas\no' o a0mo QJ0600. 006000 82103.01010 6068 (BYO\n6G000 amt@slamo.a6l. q.mo.aogimolmplajos GO mo\n280000 00000000\ndom683Code 6m\nacpp.alo2ocolge\np0000:\n0062 @0Ol60 QJ000000085lo00\nS (1O C306m 60008 e0000l0 nuoaomuoolanbo\n603 2000009 S00020600 O0H 0600 lyjonl.\na\ncore\nD0owlouo):\nmuagjomulos 801090 obgloim,\n6nJe066010j 66opelooig GQJ0900001 80J00051, 60\neucpocol, mpol 60/@0m00QJ00D0R06m0 CQ0000, ojoolooo\n0160 oocloo.alooiloiog\" 006000 mononveJgjom\n6600n806.0mCTD 0U20018000. o0al (1O O0C0\n00010\nQomoploo\ndebcolo 106000 aslaamerm-molaco?\naevo@.a@0.1oibl.es 00008 eroonlos 0050198000180\n105) 62/80000 alaalev@ooommo Begsons. 2000000\n60 006000 ag60 60000 ansoole\n200000:\n60000 000000000 allassolaamles (BYO\n683005 agoo 60000 mooucojogissolg\npoo0lan):\n006000 000 600000 000le. da20\n(06C bocleemalog apo) 26000080000 Oboso0es.\np0000:\nogmlea Q010.10laxg0)cs1 20pjo00\n60000 8202.0m00Jlooilosmoleamoam. 8008 BOOlo\n4660006600 c0ogo.0lor00\ndoocolaio:\ngo@cazonanto eejeonlmo a101\nalmaiaesog\nol aolg1490300082\ncodrplagona0.88",
+      "text_nfc": "Qoo\n00g0J000 :\naolano. 000J) @YSOD60J0D Qajoallonbo 00b01s\nof 9020000000 musoomolgogememg) 60000 Wolollas\no' o a0mo QJ0600. 006000 82103.01010 6068 (BYO\n6G000 amt@slamo.a6l. q.mo.aogimolmplajos GO mo\n280000 00000000\ndom683Code 6m\nacpp.alo2ocolge\np0000:\n0062 @0Ol60 QJ000000085lo00\nS (1O C306m 60008 e0000l0 nuoaomuoolanbo\n603 2000009 S00020600 O0H 0600 lyjonl.\na\ncore\nD0owlouo):\nmuagjomulos 801090 obgloim,\n6nJe066010j 66opelooig GQJ0900001 80J00051, 60\neucpocol, mpol 60/@0m00QJ00D0R06m0 CQ0000, ojoolooo\n0160 oocloo.alooiloiog\" 006000 mononveJgjom\n6600n806.0mCTD 0U20018000. o0al (1O O0C0\n00010\nQomoploo\ndebcolo 106000 aslaamerm-molaco?\naevo@.a@0.1oibl.es 00008 eroonlos 0050198000180\n105) 62/80000 alaalev@ooommo Begsons. 2000000\n60 006000 ag60 60000 ansoole\n200000:\n60000 000000000 allassolaamles (BYO\n683005 agoo 60000 mooucojogissolg\npoo0lan):\n006000 000 600000 000le. da20\n(06C bocleemalog apo) 26000080000 Oboso0es.\np0000:\nogmlea Q010.10laxg0)cs1 20pjo00\n60000 8202.0m00Jlooilosmoleamoam. 8008 BOOlo\n4660006600 c0ogo.0lor00\ndoocolaio:\ngo@cazonanto eejeonlmo a101\nalmaiaesog\nol aolg1490300082\ncodrplagona0.88",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

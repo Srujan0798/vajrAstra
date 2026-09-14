@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_096",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "a T G\n9\na\nNOe DOEE\n5LDLD5TG JJT\nBL6l6060 OT6OOTLITLD 2 6001\n5600fl6of\nLILI6OTLITT(6856\n50555ud & 6Fip60m\n5LOBTC SITO ollesoull6bsomu LITLIITOD OL0115LD SILL5560T BLp G6LoruaLOULL51\nLJ6t6flo 500015510D\nS60OTLIT60LD LD6015GBWLDDD OFLQILD GLOTSDDUDID 9EL\n12th_Computer_Application_Tamils version FM.indd 1\n19-01-2023 17:34:13",
+      "text_nfc": "a T G\n9\na\nNOe DOEE\n5LDLD5TG JJT\nBL6l6060 OT6OOTLITLD 2 6001\n5600fl6of\nLILI6OTLITT(6856\n50555ud & 6Fip60m\n5LOBTC SITO ollesoull6bsomu LITLIITOD OL0115LD SILL5560T BLp G6LoruaLOULL51\nLJ6t6flo 500015510D\nS60OTLIT60LD LD6015GBWLDDD OFLQILD GLOTSDDUDID 9EL\n12th_Computer_Application_Tamils version FM.indd 1\n19-01-2023 17:34:13",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

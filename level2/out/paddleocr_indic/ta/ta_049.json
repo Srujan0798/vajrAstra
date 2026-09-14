@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_049",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 117,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "fCHT, STHER 3iR \n217\nF8\nHRA\nat\n ?\nuia-\nT  ToR T TR 3ERA  fTCR 37T  E TA TTfoh\nATHR\n\nFhTAt\nRT\nETET \nT\n()\nT\nτ\nET-4f\nF\n3\nCT  foT TC 5 OT TR iR  f S\nHT\n\nfodRt\ndell\nHRT\n-\n3R     \nST\nTER\n3TARChT\n2\n3 3 4, T-  \nRE\nπ\nTR3\n&\nfTh\nTof\n3 -  TH T    \nT\n1\n3T\n\nTof\n\nThT  3T TE8Hh,  h 3T 3R 3fOR  37\n...\n(37)\n7\nd\nT\n3TTOT 3R ToT ( CT) HR  T3  foT TE Hd I\n(a)\nTT\nπ\nfaRTIeT\nH\n T oT    f H  ; ( E\nalle\n\n\n\nπ\nas\nT\nFT TRT Td  TTE HT\nf\nE \n(TS)\n\n\n1\nHTRAT\nET 3  5, 3 3 \nR\n\nπ\n\nM\ndh\nTTPTHR E)PTH TTSTS)CYSTSTCT).\nHrda\n$\nZTY.\n110\n3\n3T2T\n  r\nSE\ncf R T TE\n\nT- \n\n\n\nd\n(TS)\nT T5A\n1a  8,  3d c\nHRT\nH\nπ\na\n\nf\n\\{d,-\nF\n(π)\nl\nJ\n;3  giT \nJI9\n\nact\n\nT\nT \n\nI\n3$\nTATCT\n\nThE\nREி ி \", \n\n(THG)\nஎ\n(fES\n\n8. 3gT\nT  3157-T-3TChO\n37157-- 3S    h  3 E\n3i h T T T ef h f 18\n3TO  04 T 3T h  381 E 3ThOR   \nTcd , 1598. H, d iTET o, 4 T h\nT 35 ET   h  R T  \nef fC TEC 3ThO   ef1  eT T uH \n3ThORATH f A fTC H T TT TECT  fo \nE C T    TR H 3 9  T\nC TT ST R , 3ET--TO,  E RTH\nT   3R   T TT   + \n T \n37TT S HT R   : OR, \n3i   ; T   3i    9\n T; 3i ci  ef, igh  em Ral\n3TOT  ROT  THTH H 3R T (OT)  O ",
+      "text_nfc": "fCHT, STHER 3iR \n217\nF8\nHRA\nat\n ?\nuia-\nT  ToR T TR 3ERA  fTCR 37T  E TA TTfoh\nATHR\n\nFhTAt\nRT\nETET \nT\n()\nT\nτ\nET-4f\nF\n3\nCT  foT TC 5 OT TR iR  f S\nHT\n\nfodRt\ndell\nHRT\n-\n3R     \nST\nTER\n3TARChT\n2\n3 3 4, T-  \nRE\nπ\nTR3\n&\nfTh\nTof\n3 -  TH T    \nT\n1\n3T\n\nTof\n\nThT  3T TE8Hh,  h 3T 3R 3fOR  37\n...\n(37)\n7\nd\nT\n3TTOT 3R ToT ( CT) HR  T3  foT TE Hd I\n(a)\nTT\nπ\nfaRTIeT\nH\n T oT    f H  ; ( E\nalle\n\n\n\nπ\nas\nT\nFT TRT Td  TTE HT\nf\nE \n(TS)\n\n\n1\nHTRAT\nET 3  5, 3 3 \nR\n\nπ\n\nM\ndh\nTTPTHR E)PTH TTSTS)CYSTSTCT).\nHrda\n$\nZTY.\n110\n3\n3T2T\n  r\nSE\ncf R T TE\n\nT- \n\n\n\nd\n(TS)\nT T5A\n1a  8,  3d c\nHRT\nH\nπ\na\n\nf\n\\{d,-\nF\n(π)\nl\nJ\n;3  giT \nJI9\n\nact\n\nT\nT \n\nI\n3$\nTATCT\n\nThE\nREி ி \", \n\n(THG)\nஎ\n(fES\n\n8. 3gT\nT  3157-T-3TChO\n37157-- 3S    h  3 E\n3i h T T T ef h f 18\n3TO  04 T 3T h  381 E 3ThOR   \nTcd , 1598. H, d iTET o, 4 T h\nT 35 ET   h  R T  \nef fC TEC 3ThO   ef1  eT T uH \n3ThORATH f A fTC H T TT TECT  fo \nE C T    TR H 3 9  T\nC TT ST R , 3ET--TO,  E RTH\nT   3R   T TT   + \n T \n37TT S HT R   : OR, \n3i   ; T   3i    9\n T; 3i ci  ef, igh  em Ral\n3TOT  ROT  THTH H 3R T (OT)  O ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

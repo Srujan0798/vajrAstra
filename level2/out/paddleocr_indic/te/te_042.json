@@ -1,0 +1,41 @@
+{
+  "page_id": "te_042",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0042pro_raw.pdf",
+    "page_index": 12,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "gorda\nH\npohl.aa.\nT\nBBFPAB\n$\nSRI\n7\nqTuf\nప\nA\nt\naed\nTG1\n∂311\nfOOH\nfo\nFC\n11811\nGc1o\nDRI\ndoaledl\na3f\nT1\nడ\nco1yeia\nqie\ni\n{\naeal\n7a1\n|IR|I\nf\na\nMad\nYGr\nqouin\n377\nfr\nmal\nA\nm\nMocrf\nMed\n\n||311\ngf\nfichae\n372f\nFdcodl\nA1R1\ngri?\n21\nfr\n#Cl\nI5\nAia\nfGorl\nHafl\nT1\n1181|\nGet\nFacodl\nfet\ndaa\nశేా\n3714\nG\nsan\nfo,\nTRH\nfo\nమీ\n34-\nGGG\n11411\n- faua1\nIas\nPoclefto\n- Fa08, 4ax. Gc0 -clso.\nyaun - en nh, o.\n -y\nfhal\nTDH HTI. 41O - as,\nf1ohau.\nFaERTe\n1.8. Tohl aoeid 3rat MET.\n1. P. san yoal.\n(37) SR GH TE 3TE?\n3'π\n'T\n(311) fr e\nT Sda 3T?\n\nqTuf\n(3π)\nGo\nud MGG 3TE?\n)\nTRI\n(311) qquin\n(₹)\nqait\nHd\n(3 31\n(₹)\n\nfiechiai8 :\nqfa1\n,  \nGrgdd. Acaeaiogt\nTe,  ufe\nπ hda\nAdgrd,\n4\nFEUT\nETTd.\n8",
+      "text_nfc": "gorda\nH\npohl.aa.\nT\nBBFPAB\n$\nSRI\n7\nqTuf\nప\nA\nt\naed\nTG1\n∂311\nfOOH\nfo\nFC\n11811\nGc1o\nDRI\ndoaledl\na3f\nT1\nడ\nco1yeia\nqie\ni\n{\naeal\n7a1\n|IR|I\nf\na\nMad\nYGr\nqouin\n377\nfr\nmal\nA\nm\nMocrf\nMed\n\n||311\ngf\nfichae\n372f\nFdcodl\nA1R1\ngri?\n21\nfr\n#Cl\nI5\nAia\nfGorl\nHafl\nT1\n1181|\nGet\nFacodl\nfet\ndaa\nశేా\n3714\nG\nsan\nfo,\nTRH\nfo\nమీ\n34-\nGGG\n11411\n- faua1\nIas\nPoclefto\n- Fa08, 4ax. Gc0 -clso.\nyaun - en nh, o.\n -y\nfhal\nTDH HTI. 41O - as,\nf1ohau.\nFaERTe\n1.8. Tohl aoeid 3rat MET.\n1. P. san yoal.\n(37) SR GH TE 3TE?\n3'π\n'T\n(311) fr e\nT Sda 3T?\n\nqTuf\n(3π)\nGo\nud MGG 3TE?\n)\nTRI\n(311) qquin\n(₹)\nqait\nHd\n(3 31\n(₹)\n\nfiechiai8 :\nqfa1\n,  \nGrgdd. Acaeaiogt\nTe,  ufe\nπ hda\nAdgrd,\n4\nFEUT\nETTd.\n8",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

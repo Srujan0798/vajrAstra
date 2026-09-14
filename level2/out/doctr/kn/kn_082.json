@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_082",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+    "page_index": 18,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n19\nF1\n149. dend atoa eayyr, soofereay 2oedaban 152. 17Lu de odoas aigessornieb, dogerres\nDeaad ?\n(1)\n(2)\n(3)\n(4)\nN(CH3)2\nNHC,H,\nNH,\nNHCH3\n150. tona arordeana densane aows\nenceadriadend :\n(1)\n(2)\n(3)\n(4)\n38b aao aofdeas\nKog (engy AOew) Srofdeos\nabees 23008 soFdeos\naesesas WOFdeD\n151. N2 (dedggas) aas Ar (BTOFE) esene\naogrode 7 ngo Nad N2 aa 8 no Nads Ar\nROododerg agd, AOodosoda ene agrodd\n2vts0 2300 27 2300 ead N2 (Stdgees) 2a\neost 23t0 :\n[a daJoEOS N03,03033 engodoehs\n(rBolaoeoneo) :N=1 14, Ar =40 ]\n(1)\n(2)\n(3)\n(4)\n15 200\n18 2J00\n9 2300\n12 2J00\naz wooone Nosineb dwwch :\na\n(1)\n(2)\n(3)\n(4)\n71, 71 a3 104\n175, 104 aas 71\n71, 104 aa 71\n104, 71 avas 71\n153. aode deF dnoaDos gabad aen dabs0ota\n4.606 x 10 s 1 ead 2.0 n2O d gatotobad\n0.2 neo n aeades 23etorba sabada :\n(1)\n(2)\n(3)\n(4)\n500 S\n1000 S\n100 s\n200 S\n154. densanee eagdoed erawa do008000.\n(1)\n(2)\n(3)\n(4)\nCz\nO2\nHez\nLiz\n155. ndoera seagesdada dend soeddrodo\nDederhd.\nxodger + H,0 ndoer + adger\nTozen dabzoota (K) & 300 K No 2x 1013\nead, 4,G a avoeya ode soade :\n(1)\n(2)\n(3)\n(4)\n8.314J mol K X 3001 Kx In(3x 1013)\n-8.314 J mol\nX 300 Kx In(4 x 1013)\n- 8.314 J mol K 1x 300 Kxl In(2 X 1013)\n8.314J mol K\n156. 2CI(ede) - Clese),\nX 3001 K x In(2x 1013)\nd3 daori xootoa eata :\n(1)\n(2)\n(3)\n(4)\n4,H<0 avas 4,S>0\n4,H<0 ws 4,S<0\n4H>0 aas 4,S>0\n4,H> 0 a3 4,S<0\n157. Ni(OH), eatode rbroeeas 2x 10-15 edd,\n0.1 M NaOH do Ni(OH)2 a weadoons\ndowb8000.\n(1)\n(2)\n(3)\n(4)\n1x1 10-13M\n1x 108M\n2x 10-13M\n2x1 10-8M",
+      "text_nfc": "KANNADA\n19\nF1\n149. dend atoa eayyr, soofereay 2oedaban 152. 17Lu de odoas aigessornieb, dogerres\nDeaad ?\n(1)\n(2)\n(3)\n(4)\nN(CH3)2\nNHC,H,\nNH,\nNHCH3\n150. tona arordeana densane aows\nenceadriadend :\n(1)\n(2)\n(3)\n(4)\n38b aao aofdeas\nKog (engy AOew) Srofdeos\nabees 23008 soFdeos\naesesas WOFdeD\n151. N2 (dedggas) aas Ar (BTOFE) esene\naogrode 7 ngo Nad N2 aa 8 no Nads Ar\nROododerg agd, AOodosoda ene agrodd\n2vts0 2300 27 2300 ead N2 (Stdgees) 2a\neost 23t0 :\n[a daJoEOS N03,03033 engodoehs\n(rBolaoeoneo) :N=1 14, Ar =40 ]\n(1)\n(2)\n(3)\n(4)\n15 200\n18 2J00\n9 2300\n12 2J00\naz wooone Nosineb dwwch :\na\n(1)\n(2)\n(3)\n(4)\n71, 71 a3 104\n175, 104 aas 71\n71, 104 aa 71\n104, 71 avas 71\n153. aode deF dnoaDos gabad aen dabs0ota\n4.606 x 10 s 1 ead 2.0 n2O d gatotobad\n0.2 neo n aeades 23etorba sabada :\n(1)\n(2)\n(3)\n(4)\n500 S\n1000 S\n100 s\n200 S\n154. densanee eagdoed erawa do008000.\n(1)\n(2)\n(3)\n(4)\nCz\nO2\nHez\nLiz\n155. ndoera seagesdada dend soeddrodo\nDederhd.\nxodger + H,0 ndoer + adger\nTozen dabzoota (K) & 300 K No 2x 1013\nead, 4,G a avoeya ode soade :\n(1)\n(2)\n(3)\n(4)\n8.314J mol K X 3001 Kx In(3x 1013)\n-8.314 J mol\nX 300 Kx In(4 x 1013)\n- 8.314 J mol K 1x 300 Kxl In(2 X 1013)\n8.314J mol K\n156. 2CI(ede) - Clese),\nX 3001 K x In(2x 1013)\nd3 daori xootoa eata :\n(1)\n(2)\n(3)\n(4)\n4,H<0 avas 4,S>0\n4,H<0 ws 4,S<0\n4H>0 aas 4,S>0\n4,H> 0 a3 4,S<0\n157. Ni(OH), eatode rbroeeas 2x 10-15 edd,\n0.1 M NaOH do Ni(OH)2 a weadoons\ndowb8000.\n(1)\n(2)\n(3)\n(4)\n1x1 10-13M\n1x 108M\n2x 10-13M\n2x1 10-8M",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

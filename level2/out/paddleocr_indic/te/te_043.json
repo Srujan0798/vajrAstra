@@ -1,0 +1,41 @@
+{
+  "page_id": "te_043",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0043pro_raw.pdf",
+    "page_index": 33,
+    "width": 1770,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1770,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "a\n1941\nyRiad-?$\n8.\ng 3 aren :\nn-, -To, 3-, n-, a-, s-d, -, fas-fa14,\nRy-, -, si$-s, T-, -, -, U-E4, -4I\nTa  PH 3o ాR d RT    ా \n?.\ndell ahil ?\n3ar ahil 3i uol\n₹.\n8a n 3i 4ri a 3e  teae a4  3i qd i fe:\n8.\n8888\n\n94h 4   i a  ai 3 3a4 ai a\nY.\nf/349h4\nad gm\nteal/gxos\ns aae 314n\nHHTEREE\nTT స గ్ా\n3itk forafien\nT్ర ్ా\nueifa h\nFe1l-Feil chi,\nHO G\nfsun gaien I\nfaaaian ani I\naa3l\nfrat I\nPY",
+      "text_nfc": "a\n1941\nyRiad-?$\n8.\ng 3 aren :\nn-, -To, 3-, n-, a-, s-d, -, fas-fa14,\nRy-, -, si$-s, T-, -, -, U-E4, -4I\nTa  PH 3o ాR d RT    ా \n?.\ndell ahil ?\n3ar ahil 3i uol\n₹.\n8a n 3i 4ri a 3e  teae a4  3i qd i fe:\n8.\n8888\n\n94h 4   i a  ai 3 3a4 ai a\nY.\nf/349h4\nad gm\nteal/gxos\ns aae 314n\nHHTEREE\nTT స గ్ా\n3itk forafien\nT్ర ్ా\nueifa h\nFe1l-Feil chi,\nHO G\nfsun gaien I\nfaaaian ani I\naa3l\nfrat I\nPY",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

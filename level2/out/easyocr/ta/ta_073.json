@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_073",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 6,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(iv) LIBrolloi @L4 (A) LDJL ७७ (C) 8  +\nB)\nफl606०0 @४७ D) ऊI७J @७\n७फ ७l७णG फफ॰, फI५IऊIछछ ख।मफफ़॰ (A) ७pl७म फloopं ७lफ़nyoloo (B) @०D७D७J फlovछं olफ़nyploo (C) LDGम फ़l॰कं ७lफnT!lo (D) ७lpulg॰ फ़loopं olफ़nyoloo\n6\nBoplUIOIITOI olमulB 6T७o@/GuIpoILD QD6ppolऊछ LLGLbl ३ >१= 3 6]l 6)०%०%8 ना७il@]७Dछ ख|ना ७ILIOOL_ नाढणाऊंBom]ऊ. (A) ७lBuIUJofl७o# खना ७ILIOOL (B) 8)ा॰णl७o# ख।ना ७lLI७oL_ (C) ७lBITODGUl७oङ 9।ना ७ILIOOL (D) Jppoा७lLIooL\n(ii) फooflनunul 2-64 GLDUIg७oफ़ऊं Bml (A) ऊढol (B) oJITU (0) ऊ॰णी GLITToop OIul (D) oInul GLIITGop ऊन्णl\n(iii) छ॰o७v @/6०0TIऊI४। 60ाIढठ- Go!ppJooLD @J७०B७0UIऊं Baml. (A) 8J॰oL_mLi GolpplooLog ७lछI७oऊ (B) ९DoipnLi GopmJooLog ७lछIooछ (C) ऊIoषछnub GolpmlooLop ७lफूI॰oऊ (D) ूफ़nLi GolpmlooLDझ ७lछIooछ\n(iv) Qछl  olमUIOIITUIIT ? ७] 60ाI नाफ़li @llनonफ॰ @ll७oLLUIIऊ LOIpDIऊ. (A) ७lमui Go loठ (B) Olमulul LOILGLढठ (C) ७lBUJUIITLDODIGL GLIनOIT ? (D) फँGul ७olBul\n७lpulpoi- Glpl OLITAg ७Dढणाऊं JDlऊ. (A) नTpLIIG (B) 60)64|8600 LDIoD6J D) UIILDLD\n10\nPage 7 of १२\nP.T.O.",
+      "text_nfc": "(iv) LIBrolloi @L4 (A) LDJL ७७ (C) 8  +\nB)\nफl606०0 @४७ D) ऊI७J @७\n७फ ७l७णG फफ॰, फI५IऊIछछ ख।मफफ़॰ (A) ७pl७म फloopं ७lफ़nyoloo (B) @०D७D७J फlovछं olफ़nyploo (C) LDGम फ़l॰कं ७lफnT!lo (D) ७lpulg॰ फ़loopं olफ़nyoloo\n6\nBoplUIOIITOI olमulB 6T७o@/GuIpoILD QD6ppolऊछ LLGLbl ३ >१= 3 6]l 6)०%०%8 ना७il@]७Dछ ख|ना ७ILIOOL_ नाढणाऊंBom]ऊ. (A) ७lBuIUJofl७o# खना ७ILIOOL (B) 8)ा॰णl७o# ख।ना ७lLI७oL_ (C) ७lBITODGUl७oङ 9।ना ७ILIOOL (D) Jppoा७lLIooL\n(ii) फooflनunul 2-64 GLDUIg७oफ़ऊं Bml (A) ऊढol (B) oJITU (0) ऊ॰णी GLITToop OIul (D) oInul GLIITGop ऊन्णl\n(iii) छ॰o७v @/6०0TIऊI४। 60ाIढठ- Go!ppJooLD @J७०B७0UIऊं Baml. (A) 8J॰oL_mLi GolpplooLog ७lछI७oऊ (B) ९DoipnLi GopmJooLog ७lछIooछ (C) ऊIoषछnub GolpmlooLop ७lफूI॰oऊ (D) ूफ़nLi GolpmlooLDझ ७lछIooछ\n(iv) Qछl  olमUIOIITUIIT ? ७] 60ाI नाफ़li @llनonफ॰ @ll७oLLUIIऊ LOIpDIऊ. (A) ७lमui Go loठ (B) Olमulul LOILGLढठ (C) ७lBUJUIITLDODIGL GLIनOIT ? (D) फँGul ७olBul\n७lpulpoi- Glpl OLITAg ७Dढणाऊं JDlऊ. (A) नTpLIIG (B) 60)64|8600 LDIoD6J D) UIILDLD\n10\nPage 7 of १२\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

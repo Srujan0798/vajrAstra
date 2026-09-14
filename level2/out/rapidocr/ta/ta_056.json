@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_056",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0023pro_raw.pdf",
+    "page_index": 0,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "©\nC\n9\nவெல்லுப்\nதமிழ்நாடு\nஅரசு\nமேல்நிலை\nஇரண்டாம்\nஆண்டு\nயிர்\nவேதியியல்\n2\nதமிழ்நாடு\nஅரசு விலையில்லாப் பாடநூல்\nவழங்கும் திட்டத்தின்\nகீழ்\n வெளியிடப்பட்டது\nபள்ளிக்\nகல்வித்துறை\nதீண்டாமை\n மனிதேநயமற்ற\nசெயலும்\nபெருங்குற்றமும்\n ஆகும்\nIntroduction Pages.indd 1\n4/21/2020\n4:01:21 PM",
+      "text_nfc": "©\nC\n9\nவெல்லுப்\nதமிழ்நாடு\nஅரசு\nமேல்நிலை\nஇரண்டாம்\nஆண்டு\nயிர்\nவேதியியல்\n2\nதமிழ்நாடு\nஅரசு விலையில்லாப் பாடநூல்\nவழங்கும் திட்டத்தின்\nகீழ்\n வெளியிடப்பட்டது\nபள்ளிக்\nகல்வித்துறை\nதீண்டாமை\n மனிதேநயமற்ற\nசெயலும்\nபெருங்குற்றமும்\n ஆகும்\nIntroduction Pages.indd 1\n4/21/2020\n4:01:21 PM",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

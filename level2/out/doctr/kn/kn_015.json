@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_015",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 499,
+    "width": 1462,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1462,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "982\n098 a888 8\na8e 88\n092 ase C\n092 aes\naka 09\nale oa\n090 aek 088\n096 a20 OE\n0a0 a29 90\na2a 99\noa0 a28 98\nWAWEONAO aendody wessneb\nt\n2ogads\naespd, odapan\ndosbasoeds Oon dogfes aioea Oon\nda\n38t\nwasas at\n3\ndodon\nadozeasts\ngestd\ndoto\n23e30g\nJesoe\nJodeo\naig\ngaoos, SEE envwooors\nesd\nNo asi, acoosdoe\nder\nNozeas\n10o3\ndotd\ngdoz\n3o03\n33E cod\nedoepz",
+      "text_nfc": "982\n098 a888 8\na8e 88\n092 ase C\n092 aes\naka 09\nale oa\n090 aek 088\n096 a20 OE\n0a0 a29 90\na2a 99\noa0 a28 98\nWAWEONAO aendody wessneb\nt\n2ogads\naespd, odapan\ndosbasoeds Oon dogfes aioea Oon\nda\n38t\nwasas at\n3\ndodon\nadozeasts\ngestd\ndoto\n23e30g\nJesoe\nJodeo\naig\ngaoos, SEE envwooors\nesd\nNo asi, acoosdoe\nder\nNozeas\n10o3\ndotd\ngdoz\n3o03\n33E cod\nedoepz",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

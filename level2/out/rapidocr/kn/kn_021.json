@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_021",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0022pro_raw.pdf",
+    "page_index": 0,
+    "width": 489.0,
+    "height": 669.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        489.0,
+        669.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೨೫೬೨೬\nಎಚಾನ\n1೦\nISHED\nಹತನೇ\nತರಗ೨\n೭\nfaat' s Ja--d\nttg set \nNC ERT\nರಾಫೀಯ\nಶೈಕಣೆಕ\nಸಂಶೋಧನೆ\nಮತು\nತರಬೇತಿ\nಟೈ\n9ಅರಣಂದೋ\n34eag\nನವದಿಹಅ\n10015\nಕನಾ೯ಟಕ\nಪಠೈಪುಸಕ\nಸಂಘ\n೧.\n6ನೀ\nಅಡರಸೈ\nಮಲೇಶರಂ,\n580003\nಐ",
+      "text_nfc": "೨೫೬೨೬\nಎಚಾನ\n1೦\nISHED\nಹತನೇ\nತರಗ೨\n೭\nfaat' s Ja--d\nttg set \nNC ERT\nರಾಫೀಯ\nಶೈಕಣೆಕ\nಸಂಶೋಧನೆ\nಮತು\nತರಬೇತಿ\nಟೈ\n9ಅರಣಂದೋ\n34eag\nನವದಿಹಅ\n10015\nಕನಾ೯ಟಕ\nಪಠೈಪುಸಕ\nಸಂಘ\n೧.\n6ನೀ\nಅಡರಸೈ\nಮಲೇಶರಂ,\n580003\nಐ",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

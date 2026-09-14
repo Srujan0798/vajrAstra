@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.6 நைட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\nHZ + OSHNZ +\n2\n3\nO+O9dZ+ ON ←({ON)9dZ\n–\nOSHE+ OSHZ+ ONPNZ\nO'HZ + 'N←\n3\nONZ←ON+ONZ\n4\n2\nON'ONZ\n2\nழரபா\n'ON'HN\n3\nONZ+\n2\nழபm்09\nIuro\nC|09109\nImure\nC109109\nம்\n9\nIuro\n9\nழ்\n9\nOழ்\n9\nC09\nC09\nC09\n9\n.\n.\n.\n.T\nப \nந\n6\nb\nந\n\n\nூ\nூ\nி\n9  \n1009ப9\n009\n6\n10Q99\n0099\n009ப9\n09\nரபரகூா\n09   8\n09 8\n\n0\nகரனனள\nகளனெசு\nகெளு\nகளனனடு\nழ\n∞\nA@\n+\n1\nF\n+\nT+\n5\n+\nC\nun.n.mur9\nON\n3\n2\n4\n5\nON\nN\n2\nN\n2\nN\n2\nN\n2\n09\n90\nம்ண\nD9\nம்\n709\n.%\n.%\n9|(919\n8\na\n9\nபப்79\nL\n\nம்ண\nD9\n.\nmnu\nm\n□09\n1009\no\nC09\nC09\n73\nXIIl U3-P-block.indd 73\n21-12-2022 18:33:34",
+      "text_nfc": "3.1.6 நைட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\nHZ + OSHNZ +\n2\n3\nO+O9dZ+ ON ←({ON)9dZ\n–\nOSHE+ OSHZ+ ONPNZ\nO'HZ + 'N←\n3\nONZ←ON+ONZ\n4\n2\nON'ONZ\n2\nழரபா\n'ON'HN\n3\nONZ+\n2\nழபm்09\nIuro\nC|09109\nImure\nC109109\nம்\n9\nIuro\n9\nழ்\n9\nOழ்\n9\nC09\nC09\nC09\n9\n.\n.\n.\n.T\nப \nந\n6\nb\nந\n\n\nூ\nூ\nி\n9  \n1009ப9\n009\n6\n10Q99\n0099\n009ப9\n09\nரபரகூா\n09   8\n09 8\n\n0\nகரனனள\nகளனெசு\nகெளு\nகளனனடு\nழ\n∞\nA@\n+\n1\nF\n+\nT+\n5\n+\nC\nun.n.mur9\nON\n3\n2\n4\n5\nON\nN\n2\nN\n2\nN\n2\nN\n2\n09\n90\nம்ண\nD9\nம்\n709\n.%\n.%\n9|(919\n8\na\n9\nபப்79\nL\n\nம்ண\nD9\n.\nmnu\nm\n□09\n1009\no\nC09\nC09\n73\nXIIl U3-P-block.indd 73\n21-12-2022 18:33:34",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

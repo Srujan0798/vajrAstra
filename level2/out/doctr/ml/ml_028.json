@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_028",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 3,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(viii) 0W10003000 oom Q1006) 006aBomooom alolos/9101e?\n(A) 0W)+23000\n(B) 0W10+28000\n(C) 0W10+603000\n(D) 0W1G00+23000\n(ix) 'mlodinoo 0om Q10061008 0llo10700130 000006m?\n(A) modindo\n(B) (omlodindo\n(C) GOOLOOO\n(D) allcolnaisodinbo\n(x) 00090.8905y001sj29 0136939108 000l0000 6X00060105J6X009016\n(A) Bdeujoo\n(B) B03100\n(C) Bdwjoo\n(D) Bdonoo\n4. 0 mlolaojmolos mlm 600010 Gal063603 &ô 06) 0001000 2 0000\n6000610105J00091016.\n[9x2=18]\n(a)i) mglolojos esoppioloomploon) 001000 oon 0060300006m aroomleojmor\n(A) alpoyoououoalenndiad cooealayGal008\n(B) alezavdonmloooc voololesogagyooei\n(C) aioyololenago1010001\n(D) agup)onbupomodm auloldgp@aJooel\n(ii) 'mglo? og ouloriwesoaujoplay 0000008 modlo 00000) Gold 000006m?\n(A) mglml 00 eooljcolelalo\n(B) 630) micmo0o\n(C) Ollomoljoi\n(D) 00000008 mloseoaijo\n(b)() Deoles oflopino QIOJ0J01o08 088010 00000000 000006m?\n(A) GLODWO\n(B) 0000\n(C) ceIOso\n(D) C0On0o\n(ii) eldgi Dommono.mo\n00m\nbOQIIGO0O\n060100\n009100 2008\n(T0WJ0000000006m0 olgla/os7.8 mlomjo 00S100006. 0g0 boomaworlod\nmlmoom D0 GOUO 00SIODO?\n(A) onioeleoomiawo\n(B) (10GQORDJ060DjO@omWO\n(C) DOm3bosmwo\n(D) alogiolnwoboomiwwo\n(c)G) 000000 G00013063300.00) 0090001 moGg-00)G01onel 206813008 (o0leoomy.\n00006m 206613008 (02lo)mo?\n(A) GIOOO\n(B) oleyoero 0180\n(C) o000M10180\n(D) omOn D0glso\n(ii) DO Q1Ol8 030 boloolo8 mlm ogsjonxo06?\n(A) mulnioasoaso)elo\n(B) (67000j-6as0ploei Q1Q008\n(C) Jololoo1\n(D) (00000000sl08\n(d)i) A algacolengojo 01e1060910600000 al090o6ma) al9leoo0lm\". (0000M\na19lo)mo?\n(A) 6306m00g/08\n(B) GOSTDG490S10)5JOD 203103\n(C) 2133)0108\n(D) aJ0l100000108 oloppolensgand\n(i)\n80a.00)0196l0 dolo\" ogmoloog/sim G0OS baloooom?\n(A) 0900000000000g\n(B) oo01ce10aflag (olwocacmoong\n(C) 000100 00900s1008\n(D) 000706 (01000006lo08\n4",
+      "text_nfc": "(viii) 0W10003000 oom Q1006) 006aBomooom alolos/9101e?\n(A) 0W)+23000\n(B) 0W10+28000\n(C) 0W10+603000\n(D) 0W1G00+23000\n(ix) 'mlodinoo 0om Q10061008 0llo10700130 000006m?\n(A) modindo\n(B) (omlodindo\n(C) GOOLOOO\n(D) allcolnaisodinbo\n(x) 00090.8905y001sj29 0136939108 000l0000 6X00060105J6X009016\n(A) Bdeujoo\n(B) B03100\n(C) Bdwjoo\n(D) Bdonoo\n4. 0 mlolaojmolos mlm 600010 Gal063603 &ô 06) 0001000 2 0000\n6000610105J00091016.\n[9x2=18]\n(a)i) mglolojos esoppioloomploon) 001000 oon 0060300006m aroomleojmor\n(A) alpoyoououoalenndiad cooealayGal008\n(B) alezavdonmloooc voololesogagyooei\n(C) aioyololenago1010001\n(D) agup)onbupomodm auloldgp@aJooel\n(ii) 'mglo? og ouloriwesoaujoplay 0000008 modlo 00000) Gold 000006m?\n(A) mglml 00 eooljcolelalo\n(B) 630) micmo0o\n(C) Ollomoljoi\n(D) 00000008 mloseoaijo\n(b)() Deoles oflopino QIOJ0J01o08 088010 00000000 000006m?\n(A) GLODWO\n(B) 0000\n(C) ceIOso\n(D) C0On0o\n(ii) eldgi Dommono.mo\n00m\nbOQIIGO0O\n060100\n009100 2008\n(T0WJ0000000006m0 olgla/os7.8 mlomjo 00S100006. 0g0 boomaworlod\nmlmoom D0 GOUO 00SIODO?\n(A) onioeleoomiawo\n(B) (10GQORDJ060DjO@omWO\n(C) DOm3bosmwo\n(D) alogiolnwoboomiwwo\n(c)G) 000000 G00013063300.00) 0090001 moGg-00)G01onel 206813008 (o0leoomy.\n00006m 206613008 (02lo)mo?\n(A) GIOOO\n(B) oleyoero 0180\n(C) o000M10180\n(D) omOn D0glso\n(ii) DO Q1Ol8 030 boloolo8 mlm ogsjonxo06?\n(A) mulnioasoaso)elo\n(B) (67000j-6as0ploei Q1Q008\n(C) Jololoo1\n(D) (00000000sl08\n(d)i) A algacolengojo 01e1060910600000 al090o6ma) al9leoo0lm\". (0000M\na19lo)mo?\n(A) 6306m00g/08\n(B) GOSTDG490S10)5JOD 203103\n(C) 2133)0108\n(D) aJ0l100000108 oloppolensgand\n(i)\n80a.00)0196l0 dolo\" ogmoloog/sim G0OS baloooom?\n(A) 0900000000000g\n(B) oo01ce10aflag (olwocacmoong\n(C) 000100 00900s1008\n(D) 000706 (01000006lo08\n4",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

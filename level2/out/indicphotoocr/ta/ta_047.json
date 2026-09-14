@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ध्वनिविज्ञान\n18\n20\n2\nध्वनि यंत्र\nਗੱ कपिलदेव द्विवेदी भाषा विज्ञान‌ एवं भाषा शास्त्र पृष्ठ संख्या 128\nचि‍त्र परिचय\nश्वास नली wind pipe 185 peoples\nभोजन नली gulletfood pipe\n3 स्वर ਧਂਕ larynx university\nस्वर तंत्री vocal cord\n5 काकल glottis\n6 अभिकाकल epiglottis\nਗਰਕਿਰਚਿਚਧਰਿਰਿਵਗ pharynx\n8 ਗਰਿਯਿਵਗਾਂਕਸੈਗ uvula\n9 नासाविवर nasal கேப்பு\n10 कोमल ਗਰ੍ਹ soft palate\n11 मूर्धा cerebrum\n12 कठोर तालु hard palate\n13 वर्स alveolus\n14ਸਫਰ teeth\n15 3ਗੇਾਰ lips\n16 ਯਿਵਗ नोक tip of the tongue\n65",
+      "text_nfc": "ध्वनिविज्ञान\n18\n20\n2\nध्वनि यंत्र\nਗੱ कपिलदेव द्विवेदी भाषा विज्ञान‌ एवं भाषा शास्त्र पृष्ठ संख्या 128\nचि‍त्र परिचय\nश्वास नली wind pipe 185 peoples\nभोजन नली gulletfood pipe\n3 स्वर ਧਂਕ larynx university\nस्वर तंत्री vocal cord\n5 काकल glottis\n6 अभिकाकल epiglottis\nਗਰਕਿਰਚਿਚਧਰਿਰਿਵਗ pharynx\n8 ਗਰਿਯਿਵਗਾਂਕਸੈਗ uvula\n9 नासाविवर nasal கேப்பு\n10 कोमल ਗਰ੍ਹ soft palate\n11 मूर्धा cerebrum\n12 कठोर तालु hard palate\n13 वर्स alveolus\n14ਸਫਰ teeth\n15 3ਗੇਾਰ lips\n16 ਯਿਵਗ नोक tip of the tongue\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

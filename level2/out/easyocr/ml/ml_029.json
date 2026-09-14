@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_029",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 1,
+    "width": 1491,
+    "height": 1954
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1491,
+        1954
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(c) ೧360ಹ1elJo   630,   66c81 mI೧೦ ೧ಂ೦] @0)1ೀ8 ೧ಣ@ಹ. 1. @೫೦೫೨೧೦೦೦ 2 QJ6J@TD. ಹಿ@1ಡ@ವ ದಠಹ (d)   ೧C6@ಹ lello 630)   ೧1೧s@6@೦ಹಕx೧೭   ( 150 ೧೨-61ೀ-   .ಿ೧1ಯ೨೦@ ) ಐ೧mmU1ಹ್Jಹ2. (6) 1. G @ಇಇಖು] 06338J6s   ಉಂu Imಂ   ೧13y೨ದoಚ1ಹ81@d 2 ಹದS16Q8ಇ ಹMoQo 3 ಹಿಂಯ1ಹಿ   Q1393ೈಂm@-16೧i್ಷ   @9೧@ ಹ@\nSection C (m1 ೧soಊo )\nIVCuL!\n13\n(a) (6J3ಹoq16e   m1ನG3 6g3emxm ol   ೧ಂಹೊ]೧೧1೧ ನ@Dmo   ೧@@ಾಹಾ 1* (1 ೂm @೧೨ವ1 ೧ @1m೦೧ಮ  ದಹಿಂಇo ಹ9160101S.o @1ಇಇ೧೧ ಐm೦ @9 [೧@೨೧oಊoG1@ Q)6o   63೧ನಹ,m@   (o@1 ೦೦ @6m (೨lನಿದ]ಹಹ8ಂಹo)ಹಿ) (2) (b) 1. @೧e/ಬuು6m   ಹಾmಇe3 1ಃ890   868 ೧16100.. 2 Gಹ೨s1@)SX(D  ೧೦Jo೧ ಹಿPಂ6m- Coeilsel.6   2J@1dm   630) mL@?1 @@ಞಯ1೨ೂ. ([೧' @ಯ೨ಊ೦ Q9೧ಃದ ) (2) (c)   @omJ೨6y೨m   @ಇ@olelಂಹದJಹ (2) GOa೧ loel೧a ೧೦೦೦ (10 ೩೦ @ಾ22J66)516s   6೧ ೨s೩J೧1ಉ೨6m ೧೨68 0@0 ]೧ @ಾ೧ಯ3 6೩ G೧J ಹಃSೈ @ದ G೧೨೧loa೦ ೧೧1೧೦ ಐನ@9 630! 6೧೨SQJ೧1 ? 6೧೧ಹ೦೯೦   6@35G663(0  (Gಇ೧0) ? (d)   6@೧)66ns8108 @10) ( @Jಹಿ (2 X 2 = 4) 1. (9 8c೧ - ೧mloo ಹಿSlಹ ಣ  0y@08   J@1ನm೧ರ   ೧6@   @6 oe ೧l ುo   8m633 Jo @16331c6)51 2 ೧@ಇಂ೧U1 @@71@೦   @೧I೧J60 ೧0S3 ಹ15ಇ೧ m Qsಂ6m10 (e) 1. D)51 ೧೧m   ೧I3@01m  ಯ0ಂ81ಹ6ಐr0   @ನ೦೦೦ ಇ90 ? (@9m;  ಹ1015o, ಹೊ೧೦(೦ರ   @o೫o ) 2. (081 @81 ೧m1 ೧G6G3e.6s   (೦ದ೧೦೦ ೧0s6@೦೪@ಹ. (@0391   C6ns, ಹಿ81 @೧181) 3 @m  ೨@ವ೦೦೦೦೧: ೧೧m   ?J3@01m   ~oomum3ds(0o1@0a 615.m (00@0೦00 ೨ (1) (೧]ooGಹas]   [೧Qo@oloxm೧nd;   ೧ಂ@ುಂ dQlo   LnJQo@olಹoxm೧೧ರ;   ದಾ,x0981; ೧@9@1ವ೨೨೦೧ಚ ) nಂm1 ೧m@16೧ಕ್ಣ   ೧@1ನe loಊ Q30 ೧9೦ ? (1) (೩೦೧] ೧ಚ;,  ೧ಇm೧,   ೧ಇm; ೧೨m1m1 ) 5. ಬಹಂಂಞ೧ರ  ೧m   ೧13@10167್ಲ7   ೧೩೨m೨ನ@೧೦  ೧@m   QG633ಊ  ೧8೧ ? (@oG);  QG೧೧೦೧; ೧೧೧1 ಹಿ೧1) ೧೬ | . ಒ)1 41) 1cJL$ 40 ) IV ೧೬೭+ ೬೮v: (a) %@m೨ m೨G೦೦ ೧೦ಹ ] 633810ೌ   ಿ೧೦6ಇ9೬ @ಹಿ (4 x 3 = 12) @೧elಂcyunu   JJ6G3e bnuos1s   @ಹೋ6೧Soq8   @ಿ1@ಇ೨m೨_@   ೧೧೦1೧ ?\n2",
+      "text_nfc": "(c) ೧360ಹ1elJo   630,   66c81 mI೧೦ ೧ಂ೦] @0)1ೀ8 ೧ಣ@ಹ. 1. @೫೦೫೨೧೦೦೦ 2 QJ6J@TD. ಹಿ@1ಡ@ವ ದಠಹ (d)   ೧C6@ಹ lello 630)   ೧1೧s@6@೦ಹಕx೧೭   ( 150 ೧೨-61ೀ-   .ಿ೧1ಯ೨೦@ ) ಐ೧mmU1ಹ್Jಹ2. (6) 1. G @ಇಇಖು] 06338J6s   ಉಂu Imಂ   ೧13y೨ದoಚ1ಹ81@d 2 ಹದS16Q8ಇ ಹMoQo 3 ಹಿಂಯ1ಹಿ   Q1393ೈಂm@-16೧i್ಷ   @9೧@ ಹ@\nSection C (m1 ೧soಊo )\nIVCuL!\n13\n(a) (6J3ಹoq16e   m1ನG3 6g3emxm ol   ೧ಂಹೊ]೧೧1೧ ನ@Dmo   ೧@@ಾಹಾ 1* (1 ೂm @೧೨ವ1 ೧ @1m೦೧ಮ  ದಹಿಂಇo ಹ9160101S.o @1ಇಇ೧೧ ಐm೦ @9 [೧@೨೧oಊoG1@ Q)6o   63೧ನಹ,m@   (o@1 ೦೦ @6m (೨lನಿದ]ಹಹ8ಂಹo)ಹಿ) (2) (b) 1. @೧e/ಬuು6m   ಹಾmಇe3 1ಃ890   868 ೧16100.. 2 Gಹ೨s1@)SX(D  ೧೦Jo೧ ಹಿPಂ6m- Coeilsel.6   2J@1dm   630) mL@?1 @@ಞಯ1೨ೂ. ([೧' @ಯ೨ಊ೦ Q9೧ಃದ ) (2) (c)   @omJ೨6y೨m   @ಇ@olelಂಹದJಹ (2) GOa೧ loel೧a ೧೦೦೦ (10 ೩೦ @ಾ22J66)516s   6೧ ೨s೩J೧1ಉ೨6m ೧೨68 0@0 ]೧ @ಾ೧ಯ3 6೩ G೧J ಹಃSೈ @ದ G೧೨೧loa೦ ೧೧1೧೦ ಐನ@9 630! 6೧೨SQJ೧1 ? 6೧೧ಹ೦೯೦   6@35G663(0  (Gಇ೧0) ? (d)   6@೧)66ns8108 @10) ( @Jಹಿ (2 X 2 = 4) 1. (9 8c೧ - ೧mloo ಹಿSlಹ ಣ  0y@08   J@1ನm೧ರ   ೧6@   @6 oe ೧l ುo   8m633 Jo @16331c6)51 2 ೧@ಇಂ೧U1 @@71@೦   @೧I೧J60 ೧0S3 ಹ15ಇ೧ m Qsಂ6m10 (e) 1. D)51 ೧೧m   ೧I3@01m  ಯ0ಂ81ಹ6ಐr0   @ನ೦೦೦ ಇ90 ? (@9m;  ಹ1015o, ಹೊ೧೦(೦ರ   @o೫o ) 2. (081 @81 ೧m1 ೧G6G3e.6s   (೦ದ೧೦೦ ೧0s6@೦೪@ಹ. (@0391   C6ns, ಹಿ81 @೧181) 3 @m  ೨@ವ೦೦೦೦೧: ೧೧m   ?J3@01m   ~oomum3ds(0o1@0a 615.m (00@0೦00 ೨ (1) (೧]ooGಹas]   [೧Qo@oloxm೧nd;   ೧ಂ@ುಂ dQlo   LnJQo@olಹoxm೧೧ರ;   ದಾ,x0981; ೧@9@1ವ೨೨೦೧ಚ ) nಂm1 ೧m@16೧ಕ್ಣ   ೧@1ನe loಊ Q30 ೧9೦ ? (1) (೩೦೧] ೧ಚ;,  ೧ಇm೧,   ೧ಇm; ೧೨m1m1 ) 5. ಬಹಂಂಞ೧ರ  ೧m   ೧13@10167್ಲ7   ೧೩೨m೨ನ@೧೦  ೧@m   QG633ಊ  ೧8೧ ? (@oG);  QG೧೧೦೧; ೧೧೧1 ಹಿ೧1) ೧೬ | . ಒ)1 41) 1cJL$ 40 ) IV ೧೬೭+ ೬೮v: (a) %@m೨ m೨G೦೦ ೧೦ಹ ] 633810ೌ   ಿ೧೦6ಇ9೬ @ಹಿ (4 x 3 = 12) @೧elಂcyunu   JJ6G3e bnuos1s   @ಹೋ6೧Soq8   @ಿ1@ಇ೨m೨_@   ೧೧೦1೧ ?\n2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

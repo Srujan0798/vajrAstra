@@ -1,0 +1,41 @@
+{
+  "page_id": "te_013",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+    "page_index": 32,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-iganG opie (a) -0: Slgw\n\nsyle: ole (age ph Ise sI\nos |)\n\nlets oe Us hy Ola ee ght!\nSBOE BIE ae Bhs पट\n\nALS) WE के Js se फा aa GlSgrls\n\npest SS (1)\n\ngt pe yh Bu Behe se) em of BR milo le Ens ys 6)\n« gle SB दानव Grrew pS (GU)\n(Sm  oslb . 495)\n\nPd Ep ree फीकी Serle (OH)\n(ggo3t yg3g) ees)\n\nAw कि ew R= Ne किक GD\n\nकि 291 SS\n\n- : 9ల किन को Caw Sm (iii)\nSoG oS हा OG slSgrls (WH!)\n\n952 Bag & OGG IG oe YIM Sgrls (प्ल)\n\n25\n",
+      "text_nfc": "-iganG opie (a) -0: Slgw\n\nsyle: ole (age ph Ise sI\nos |)\n\nlets oe Us hy Ola ee ght!\nSBOE BIE ae Bhs पट\n\nALS) WE के Js se फा aa GlSgrls\n\npest SS (1)\n\ngt pe yh Bu Behe se) em of BR milo le Ens ys 6)\n« gle SB दानव Grrew pS (GU)\n(Sm  oslb . 495)\n\nPd Ep ree फीकी Serle (OH)\n(ggo3t yg3g) ees)\n\nAw कि ew R= Ne किक GD\n\nकि 291 SS\n\n- : 9ల किन को Caw Sm (iii)\nSoG oS हा OG slSgrls (WH!)\n\n952 Bag & OGG IG oe YIM Sgrls (प्ल)\n\n25\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

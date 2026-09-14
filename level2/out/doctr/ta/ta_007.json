@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_007",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "DO\nDe a\n(ii)\n45510451 DIfl6ot OIIJOIITOU 9m 6T6OMI 55IT60OTLLIGLD ?\n(A) SILIIS\n(B) 56URIS\n(C) 01561615\n(D) 0561T6T1505610ns\n(iii) Obmm 6661T6ITLD Lilulou OIITCALD 2011565558\nOFUO5 6T60T60T ?\n(A) C5056065 5058051\n(B) 560T60/LD8560/6T15 50860T05\n(C) C5056065 50860D51\n(D) GL6115560)615 50 5 60T051\n(iv) 666T6ITLD OLQUILD 50600TLD 6T51 ?\n(A) LO601 91515118510 BLITTSI\n(B) LD60LU160T 5660LD (5600UD BUITSI\n(C) QU56D1J856D/6T5 5160TGILD OUITSI\n(D) 5560)JLJ600TG 80LD BUITSI\n(v)\nOimm 66161T6ITLD OLID 5 GDLDGLITSI 6T60T60T\nOFUUILD? ?\n(A) D0I LO600T L L68-560/GT6-3FL0D5 6LD\n(B) LDT6585L6DLGDWS FLDI5 6(5LD\n(C) OLOlu1eo SLUI 600618560)61T 9114551 65LD\n(D) 5L60/L1560)618GFL05516 651T600T 6 61(5LD\n10/S\nPage 4 of 15\n#",
+      "text_nfc": "DO\nDe a\n(ii)\n45510451 DIfl6ot OIIJOIITOU 9m 6T6OMI 55IT60OTLLIGLD ?\n(A) SILIIS\n(B) 56URIS\n(C) 01561615\n(D) 0561T6T1505610ns\n(iii) Obmm 6661T6ITLD Lilulou OIITCALD 2011565558\nOFUO5 6T60T60T ?\n(A) C5056065 5058051\n(B) 560T60/LD8560/6T15 50860T05\n(C) C5056065 50860D51\n(D) GL6115560)615 50 5 60T051\n(iv) 666T6ITLD OLQUILD 50600TLD 6T51 ?\n(A) LO601 91515118510 BLITTSI\n(B) LD60LU160T 5660LD (5600UD BUITSI\n(C) QU56D1J856D/6T5 5160TGILD OUITSI\n(D) 5560)JLJ600TG 80LD BUITSI\n(v)\nOimm 66161T6ITLD OLID 5 GDLDGLITSI 6T60T60T\nOFUUILD? ?\n(A) D0I LO600T L L68-560/GT6-3FL0D5 6LD\n(B) LDT6585L6DLGDWS FLDI5 6(5LD\n(C) OLOlu1eo SLUI 600618560)61T 9114551 65LD\n(D) 5L60/L1560)618GFL05516 651T600T 6 61(5LD\n10/S\nPage 4 of 15\n#",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

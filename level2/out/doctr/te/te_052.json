@@ -1,0 +1,41 @@
+{
+  "page_id": "te_052",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0052pro_raw.pdf",
+    "page_index": 36,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "505596555505 8085 3X5055 eses\naawew STCO epowaw. 88 eseorvsew 30e3E\nSabests. e0856 203, 55L7 558 5063\neoesae Sanev esoror BI5O 20008, E5oX80,\nO8e caaw.\n3.4 wooan SOSLJE Sead85 sdees\na8D MONIJE 2y80d050 wo ep8\nBods MNOSS NONEJ. SO Soes 500O\neose 08 MONLJE Ses0wJhod. 88 seas 305\nJsoderev dnja Joe3 DooW 58505 20h08.\nSô 6o5O5 aroy esoxcod swasas Bos\n500E00 esawdotssyss. 5ô WJTO 880o\nSes 5e3 S80 20008. eodsse Sonoso\n8d00 2550 3 38850 28h08. dotoss\n508E00 esro eas 38000, erss ds aJSOsO\n3063 (5jE 35bege Ses segeges Grons\no00cossyss. 885 sgOS 508E00 W8TO\nS a. 2300 500056 wdd0s5 JOOE\n2JOe JODy JgaOO SOOROW JRod eodse\nw8sy SostJe Seas Woogasa.\nbo55 Bewi?\nNg5 ess esE Waeso aws as\nN3050000s 0023 bodwts. ego 500056\nJndoDOT 8800 5o MOsuJENe SOS\nsaws JaOo 28750 oage 88sav. 08\napobossodosborogl,om00,30d,3es\navden Devass SNODssOsO eopeodd.\n5O N85 SOO 8008 3no60iss\npesos esxooro 3055a. 8O 38E000 wosy\nMOTSIJED aws JOOD 3608. eodses\nA85 500560 JadO Josom enatawod.\n3dsOT 3O SONSEJE awsy segege esas\nSgrS 8n85000108. soloaves easaaw\n8d0 Wesew Segererss 260 05 TJOSS\nses doio.\neg eose S5too wOsn MONSEJe W2SO\n6o500 Q\n00008. aos BONSEJE segegves Sco\nedyas0551e33 J63 estarossees ONS Woes,\nsowoaes 8d0 eg SOONOe 55530\nDooW SawdO epmod. eodses 3833\nBONEJe as 5050559305 BONUJE. onses as\nNONTJOS JoNSNO 280secod.\n52 Scod.\nSo8 30505 w8s NOSLJ35 segegve S6o\n52063? 03 SeEsen Jezo bodo? 5 Sepseser\n88saw? 5 Sso JgaOO 2878? auoen\na80000 oood.\n23",
+      "text_nfc": "505596555505 8085 3X5055 eses\naawew STCO epowaw. 88 eseorvsew 30e3E\nSabests. e0856 203, 55L7 558 5063\neoesae Sanev esoror BI5O 20008, E5oX80,\nO8e caaw.\n3.4 wooan SOSLJE Sead85 sdees\na8D MONIJE 2y80d050 wo ep8\nBods MNOSS NONEJ. SO Soes 500O\neose 08 MONLJE Ses0wJhod. 88 seas 305\nJsoderev dnja Joe3 DooW 58505 20h08.\nSô 6o5O5 aroy esoxcod swasas Bos\n500E00 esawdotssyss. 5ô WJTO 880o\nSes 5e3 S80 20008. eodsse Sonoso\n8d00 2550 3 38850 28h08. dotoss\n508E00 esro eas 38000, erss ds aJSOsO\n3063 (5jE 35bege Ses segeges Grons\no00cossyss. 885 sgOS 508E00 W8TO\nS a. 2300 500056 wdd0s5 JOOE\n2JOe JODy JgaOO SOOROW JRod eodse\nw8sy SostJe Seas Woogasa.\nbo55 Bewi?\nNg5 ess esE Waeso aws as\nN3050000s 0023 bodwts. ego 500056\nJndoDOT 8800 5o MOsuJENe SOS\nsaws JaOo 28750 oage 88sav. 08\napobossodosborogl,om00,30d,3es\navden Devass SNODssOsO eopeodd.\n5O N85 SOO 8008 3no60iss\npesos esxooro 3055a. 8O 38E000 wosy\nMOTSIJED aws JOOD 3608. eodses\nA85 500560 JadO Josom enatawod.\n3dsOT 3O SONSEJE awsy segege esas\nSgrS 8n85000108. soloaves easaaw\n8d0 Wesew Segererss 260 05 TJOSS\nses doio.\neg eose S5too wOsn MONSEJe W2SO\n6o500 Q\n00008. aos BONSEJE segegves Sco\nedyas0551e33 J63 estarossees ONS Woes,\nsowoaes 8d0 eg SOONOe 55530\nDooW SawdO epmod. eodses 3833\nBONEJe as 5050559305 BONUJE. onses as\nNONTJOS JoNSNO 280secod.\n52 Scod.\nSo8 30505 w8s NOSLJ35 segegve S6o\n52063? 03 SeEsen Jezo bodo? 5 Sepseser\n88saw? 5 Sso JgaOO 2878? auoen\na80000 oood.\n23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_085",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n2. dend noe oowa badoot, eno geri douos 3anert eusd w0008.\n5x1=5\naedocer, acrierr, soges abas JAAFE ene coases goorba as\nHowages.\ndoceso,o3d aafne &00 23900 agar Danes gonef aea, gadero eon 20303\nas SRaE A60 aaawo comrs neonas. eoda esaoa 2usty c2as doot 3nao,\nesay esdy a3 0 g8FOJDaDe. SDwoh W8200 Q NOOOd warfneaon ea\n3gaa dowswa. edo gea Wot 3swsango0 aoes\n3\na232, waotode\n68\ngdons\n3800 noa asret d eg Weates. aor aon ge aeeanea as\nae aots, awret\nais, goaya wowabe cedos a8FUS. Q\nEan atdproavo evsoosat 3\nRoay\nwaotowa o 3coosdeas. o a\n13\nensoaa Beaoatoaode aedprdavo 2303 w0s docrosd. des anFa,\n3\neatee\naga anFO wno was saaonbsd. otond wey waone 2303 wosd.\neorpaserd aaaba aegp ponaes adoode bootoaon rioco docrosd. coson 3\nBoab endoo dectdegeoas\nd\nendanes ats 2250 DOONE Reomodade\ndoanaieoeroad. aedgrdabo wowa caajez abasd Noange WOWDAOOT, eao\naord Jaoni 2ezowon eao 2303 WOWE say RaDon Modett aodsod.\ncgo Boo8 aaneb wow0a woand aga eston,\na\nNpr,\nad gehrev\nARC aowan e3 aesn e3 waabo copaa acos Jag eseowsadas gaa aotsso\naoeneiess. woas ezoo cas\n38 ? 22039, meade as Naoas ecree egab as\n3800d. goa aoe oare weadoondo woworade caey. 00803 aws, 22500\nosoad, ca03 aronarpnoe, gdoaas SOWENDNOND noe amwoe.\n202000 gode 38000. eetori corto TRRE 2etoa 2920c0a 20200003\nadabeaa. eoptoon D\navonteos eonstoond stad. dosa 30 aloayde apone\naocoaao, e 03 ate, riocoos WOE30 &0E3OTS0 aa. wo3o ao asab\nepoastsan abees docando rioceos WOESOE 80830 sotasd. cgog 688307900A\n-\n* Page 5of 16 *\nP.T.O.\n11",
+      "text_nfc": "\n2. dend noe oowa badoot, eno geri douos 3anert eusd w0008.\n5x1=5\naedocer, acrierr, soges abas JAAFE ene coases goorba as\nHowages.\ndoceso,o3d aafne &00 23900 agar Danes gonef aea, gadero eon 20303\nas SRaE A60 aaawo comrs neonas. eoda esaoa 2usty c2as doot 3nao,\nesay esdy a3 0 g8FOJDaDe. SDwoh W8200 Q NOOOd warfneaon ea\n3gaa dowswa. edo gea Wot 3swsango0 aoes\n3\na232, waotode\n68\ngdons\n3800 noa asret d eg Weates. aor aon ge aeeanea as\nae aots, awret\nais, goaya wowabe cedos a8FUS. Q\nEan atdproavo evsoosat 3\nRoay\nwaotowa o 3coosdeas. o a\n13\nensoaa Beaoatoaode aedprdavo 2303 w0s docrosd. des anFa,\n3\neatee\naga anFO wno was saaonbsd. otond wey waone 2303 wosd.\neorpaserd aaaba aegp ponaes adoode bootoaon rioco docrosd. coson 3\nBoab endoo dectdegeoas\nd\nendanes ats 2250 DOONE Reomodade\ndoanaieoeroad. aedgrdabo wowa caajez abasd Noange WOWDAOOT, eao\naord Jaoni 2ezowon eao 2303 WOWE say RaDon Modett aodsod.\ncgo Boo8 aaneb wow0a woand aga eston,\na\nNpr,\nad gehrev\nARC aowan e3 aesn e3 waabo copaa acos Jag eseowsadas gaa aotsso\naoeneiess. woas ezoo cas\n38 ? 22039, meade as Naoas ecree egab as\n3800d. goa aoe oare weadoondo woworade caey. 00803 aws, 22500\nosoad, ca03 aronarpnoe, gdoaas SOWENDNOND noe amwoe.\n202000 gode 38000. eetori corto TRRE 2etoa 2920c0a 20200003\nadabeaa. eoptoon D\navonteos eonstoond stad. dosa 30 aloayde apone\naocoaao, e 03 ate, riocoos WOE30 &0E3OTS0 aa. wo3o ao asab\nepoastsan abees docando rioceos WOESOE 80830 sotasd. cgog 688307900A\n-\n* Page 5of 16 *\nP.T.O.\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

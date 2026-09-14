@@ -1,0 +1,41 @@
+{
+  "page_id": "te_046",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0046pro_raw.pdf",
+    "page_index": 0,
+    "width": 1641,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1641,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మనం aej రూపొ౦దా౦\nపరిసరాల అధ్యయనం రె౦డవ భాగ౦\nఐదవ తరగతి",
+      "text_nfc": "మనం aej రూపొ౦దా౦\nపరిసరాల అధ్యయనం రె౦డవ భాగ౦\nఐదవ తరగతి",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

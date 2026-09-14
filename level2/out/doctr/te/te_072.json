@@ -1,0 +1,41 @@
+{
+  "page_id": "te_072",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0072pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "015oes Saboi :\ndo. (1) (x + 2)(x ++ 3) = x2 + (2 + 3)x ++ (2 X 3) = x2 + 5x ++ 6\ndo. (2) (y + 4)(y- 3) =y+ (4 - 3)y + (4) X (-3)=y+y-1 12\ndo. (3) (2a + 3b)(2a - 3b) = (2a)? + [(3b) + ( 3b)]2a +[3b X (-3b)]\ni 4a2 + 0 X 2a - 9b2 = 4a- 9b2\n3\ndo. (4)\nm +\nm +\n= m +\n2 m +\nX\n= m2 + 2m + 3\n2\n2\n4\ndo. (5) (x - 3)(x- 7) =x2 + (-3 - 7)x + (-3)(-7)\n=x2 - 10x + 21\neapgissOS 5.1\n1.\nOnoes Sobod.\n(1) (a +2)(a - 1)\n(2) (m - 4)(m + 6)\n(3) (p + 8)(p -3)\n(4) (13 + x)(13 - x)\n(5) (3x + 4y)(3x + 5y) (6) (9x - 5t)(9x + 3t)\n2\n7\n(7) m +\nm\n3\n3)\n(8) x+-\nI\nX\n(9)\n+ 4\n9\nX\nX\nBeorosowo\n(II) (a + b)3 aosy 01ora (Expansion of (a + b)3)\n(a + b)= (a + b) (a + b) (a + b) = (a + b) (a + b)2\n= (a + b)(a? + 2ab + b2)\n= ala? + 2ab + b2) + b(a + 2ab + b?)\n= a3 + 2db + ab? + ba? + 2ab2 + b3\n= a3 ++ 3a'b + 3ab2 + b3\n(a + b)=a + 3ab + 3ab2 + b3\n88 Onoes SPONSOAOD JOODs 52 dosoesoss 30SO0O.\ndo. (1) (x + 3)3\n(a + b)3 = a3 + 3a'b + 3ab2 + b3\nques a = X, b = 3 Koo.\n24",
+      "text_nfc": "015oes Saboi :\ndo. (1) (x + 2)(x ++ 3) = x2 + (2 + 3)x ++ (2 X 3) = x2 + 5x ++ 6\ndo. (2) (y + 4)(y- 3) =y+ (4 - 3)y + (4) X (-3)=y+y-1 12\ndo. (3) (2a + 3b)(2a - 3b) = (2a)? + [(3b) + ( 3b)]2a +[3b X (-3b)]\ni 4a2 + 0 X 2a - 9b2 = 4a- 9b2\n3\ndo. (4)\nm +\nm +\n= m +\n2 m +\nX\n= m2 + 2m + 3\n2\n2\n4\ndo. (5) (x - 3)(x- 7) =x2 + (-3 - 7)x + (-3)(-7)\n=x2 - 10x + 21\neapgissOS 5.1\n1.\nOnoes Sobod.\n(1) (a +2)(a - 1)\n(2) (m - 4)(m + 6)\n(3) (p + 8)(p -3)\n(4) (13 + x)(13 - x)\n(5) (3x + 4y)(3x + 5y) (6) (9x - 5t)(9x + 3t)\n2\n7\n(7) m +\nm\n3\n3)\n(8) x+-\nI\nX\n(9)\n+ 4\n9\nX\nX\nBeorosowo\n(II) (a + b)3 aosy 01ora (Expansion of (a + b)3)\n(a + b)= (a + b) (a + b) (a + b) = (a + b) (a + b)2\n= (a + b)(a? + 2ab + b2)\n= ala? + 2ab + b2) + b(a + 2ab + b?)\n= a3 + 2db + ab? + ba? + 2ab2 + b3\n= a3 ++ 3a'b + 3ab2 + b3\n(a + b)=a + 3ab + 3ab2 + b3\n88 Onoes SPONSOAOD JOODs 52 dosoesoss 30SO0O.\ndo. (1) (x + 3)3\n(a + b)3 = a3 + 3a'b + 3ab2 + b3\nques a = X, b = 3 Koo.\n24",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

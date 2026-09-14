@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "316 நைட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\n2nahso\n1\nਉ\nਸੰਘ ਦੀ ਸਿਰਾ\nno2ho তৎপি গৃহ এই চিন্দ্রাণা\nজে চৃত 4no2\nਮਟੀਪੀ nono হ্ন\nnhno তাটেল 2no 1 মহাদিগন্ত ১়০ম 2hno\nmurg ഗ്രാൻ്റ ਸਾਰਾ ഗ്രാൻ്റ ഗ്രാൻ്റ appeage ਕਰ ਸਵੈ ഇ.എം edessage ഗ്രാൻ്റ adassage swingfilm\nਮਹੀਕਪੁਰੀ ഗ്രാൻ്റ തങ്കഗീ 657160015 ശീമാട്ടി ചളിപ്പറമ്പ് ৯৯ চিন্ত ਸੀ greengiotles আসম bedassm evengionl5 ശീമാട്ടി gamging ਸਿੰਘ evevensionley mlbeardai\nশ্রী  songdiinglein\nejbertleganjo ഗ്രാൻ്റ\nகார்த்திரும் no no\n৯৯৬০০০০০০৬ ৯৬৬৫০০০৬৬৬ বাট৲ এ becoff ২০১৮ জা ressinglengerne ਃ es rasasnasney সমিতি quainrisimerg\nਸਮਾ ভাষে ম  পৰমাণ বাসঃসম beneg ਦੀ\nਸੰਘ ਪੰਚਨਾ ੪ ੪\n73\nત્રા u3pblockindd 73 21122022 183334",
+      "text_nfc": "316 நைட்ரஜனின் ஆக்சைடுகள் மற்றும் ஆக்சோஅமிலங்கள்\n2nahso\n1\nਉ\nਸੰਘ ਦੀ ਸਿਰਾ\nno2ho তৎপি গৃহ এই চিন্দ্রাণা\nজে চৃত 4no2\nਮਟੀਪੀ nono হ্ন\nnhno তাটেল 2no 1 মহাদিগন্ত ১়০ম 2hno\nmurg ഗ്രാൻ്റ ਸਾਰਾ ഗ്രാൻ്റ ഗ്രാൻ്റ appeage ਕਰ ਸਵੈ ഇ.എം edessage ഗ്രാൻ്റ adassage swingfilm\nਮਹੀਕਪੁਰੀ ഗ്രാൻ്റ തങ്കഗീ 657160015 ശീമാട്ടി ചളിപ്പറമ്പ് ৯৯ চিন্ত ਸੀ greengiotles আসম bedassm evengionl5 ശീമാട്ടി gamging ਸਿੰਘ evevensionley mlbeardai\nশ্রী  songdiinglein\nejbertleganjo ഗ്രാൻ്റ\nகார்த்திரும் no no\n৯৯৬০০০০০০৬ ৯৬৬৫০০০৬৬৬ বাট৲ এ becoff ২০১৮ জা ressinglengerne ਃ es rasasnasney সমিতি quainrisimerg\nਸਮਾ ভাষে ম  পৰমাণ বাসঃসম beneg ਦੀ\nਸੰਘ ਪੰਚਨਾ ੪ ੪\n73\nત્રા u3pblockindd 73 21122022 183334",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

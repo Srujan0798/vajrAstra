@@ -1,0 +1,41 @@
+{
+  "page_id": "te_049",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0049pro_raw.pdf",
+    "page_index": 78,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2. 3 20.60. J635 epeo Xo 3e006so56 as awoss\n1 20.5. apeso Xo Wewono s0dosecod. (Seso\n56 atos). eave anos Jeso awsy weyy\nseë Jo boesod?\nag5e00150 woesy Sodss ACO\nJ\nagse060 seysoe = J6s + Scoey) + J6 + J6ey)\n360\nagseofso aws 28e3 apoegoew SaJSOn boesaw.\n3ceyy\nSAS agse0p0 OwSt weyy Sees\nD6S\n= doboee JES + Bocode Jcoeyy\n= 2 X J6 + 2 X 36e)\n80508150 weysed = 2 X DC + 2 X acey)\nco. (1) Sos 3015 doseono dS 7 2080, Jcery 3 20d, es agseono weysoon SAROOO.\nP\nS\nag500p0 PQRS seysoe = 2 X J6s + 2 X 360y)\n= 2x7+ 2x 3\n3 20.50.\n= 14+ 6\nQ\nR\n= 20\n7 20.5.\nSAS 6g56006s0 seysod 20 20.80.\nwebohso wessedss SCO\nwewowo awst 0233 gbese dose SaSO.\nSAUS wewofo weysee = as gpao doos 2 dess\nweohso wessod = 4 X as gp20 DCO\nco. (1) as BeNOo 6 2o.d0. es wewobso weyseon Sssyod.\nwewOo weyy Sees OO gpesDs 4 desocwod.\n6 20.5.\nwewowo Sessods =\n4 X as geso J6s\n=\n4 X 6\n=\n24\nSAOS wewOo wéysee 24 20.8.\nO 69 OD/ 00\n00 VOL 1\nO0",
+      "text_nfc": "2. 3 20.60. J635 epeo Xo 3e006so56 as awoss\n1 20.5. apeso Xo Wewono s0dosecod. (Seso\n56 atos). eave anos Jeso awsy weyy\nseë Jo boesod?\nag5e00150 woesy Sodss ACO\nJ\nagse060 seysoe = J6s + Scoey) + J6 + J6ey)\n360\nagseofso aws 28e3 apoegoew SaJSOn boesaw.\n3ceyy\nSAS agse0p0 OwSt weyy Sees\nD6S\n= doboee JES + Bocode Jcoeyy\n= 2 X J6 + 2 X 36e)\n80508150 weysed = 2 X DC + 2 X acey)\nco. (1) Sos 3015 doseono dS 7 2080, Jcery 3 20d, es agseono weysoon SAROOO.\nP\nS\nag500p0 PQRS seysoe = 2 X J6s + 2 X 360y)\n= 2x7+ 2x 3\n3 20.50.\n= 14+ 6\nQ\nR\n= 20\n7 20.5.\nSAS 6g56006s0 seysod 20 20.80.\nwebohso wessedss SCO\nwewowo awst 0233 gbese dose SaSO.\nSAUS wewofo weysee = as gpao doos 2 dess\nweohso wessod = 4 X as gp20 DCO\nco. (1) as BeNOo 6 2o.d0. es wewobso weyseon Sssyod.\nwewOo weyy Sees OO gpesDs 4 desocwod.\n6 20.5.\nwewowo Sessods =\n4 X as geso J6s\n=\n4 X 6\n=\n24\nSAOS wewOo wéysee 24 20.8.\nO 69 OD/ 00\n00 VOL 1\nO0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

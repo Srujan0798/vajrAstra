@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_073",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 78,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "9.3 Investment: Grow Your Money\nEvery day, people make choices about what to do with their money. Sometimes\nmoney is saved to keep it safe and sometimes it is invested to grow over time.\nInvestment means using money today to build wealth in the future, but it also\ninvolves risk. Different investment choices can give different results, depending\nOn time and decisions. In this activity, you will explore how money can grow and\nlearn to make smart investment choices on your own.\nTypes of lnvestments\nHa pdlp Elarn\nHut.! Funidla.\nIntursie\nಗಿಗ್ಳವೆ\nEnll\nErnl Itull.\nI.\nH.l -- \nad Er jil\nHanid.\n up Aueduoo # jo soreus SBupKng sueeu Kpnbe poeA :seeus Aunb 0eipa\nstock market. When the company does well, the value of the shares can increase and\nyou may also get dividends.\nMutual Funds: Mutual funds collect money from many people and invest it in\ndifferent companies. These funds are managed by experts, so your money is spread \nacross many businesses.\nInsurance: Insurance helps protect you and your family in the future. Some insurance\n'uopoejoId peoueug Buas e!Y Keuou mo18 io eAes noK dpeg ose sued\nGold: Gold is a popular investment that people buy to keep for a long time. Its value\noften\nincreases over time and it is considered a safe option.\nFixed Deposit FD: A fixed deposit is a safe way to invest money in a bank. You \nknow how much money you will get back and when you will get it.\nBonds: Bonds are when you lend money to the government or a company. In return,\nyou get interest on your money after a fixed period.\nProperty Investment: It means buying land or buildings. It can give regular income\nthrough rent and may increase in value over time.\nYou have some money that you do not need\n?\nimmediately. You can keep it safe or you\ncan try to grow it over time.\nInvestment --\nmeans\n using\nmoney\ntoday so it can become more in\nthe future. Different choices\ngrow\nmoney in different ways.\n71",
+      "text_nfc": "9.3 Investment: Grow Your Money\nEvery day, people make choices about what to do with their money. Sometimes\nmoney is saved to keep it safe and sometimes it is invested to grow over time.\nInvestment means using money today to build wealth in the future, but it also\ninvolves risk. Different investment choices can give different results, depending\nOn time and decisions. In this activity, you will explore how money can grow and\nlearn to make smart investment choices on your own.\nTypes of lnvestments\nHa pdlp Elarn\nHut.! Funidla.\nIntursie\nಗಿಗ್ಳವೆ\nEnll\nErnl Itull.\nI.\nH.l -- \nad Er jil\nHanid.\n up Aueduoo # jo soreus SBupKng sueeu Kpnbe poeA :seeus Aunb 0eipa\nstock market. When the company does well, the value of the shares can increase and\nyou may also get dividends.\nMutual Funds: Mutual funds collect money from many people and invest it in\ndifferent companies. These funds are managed by experts, so your money is spread \nacross many businesses.\nInsurance: Insurance helps protect you and your family in the future. Some insurance\n'uopoejoId peoueug Buas e!Y Keuou mo18 io eAes noK dpeg ose sued\nGold: Gold is a popular investment that people buy to keep for a long time. Its value\noften\nincreases over time and it is considered a safe option.\nFixed Deposit FD: A fixed deposit is a safe way to invest money in a bank. You \nknow how much money you will get back and when you will get it.\nBonds: Bonds are when you lend money to the government or a company. In return,\nyou get interest on your money after a fixed period.\nProperty Investment: It means buying land or buildings. It can give regular income\nthrough rent and may increase in value over time.\nYou have some money that you do not need\n?\nimmediately. You can keep it safe or you\ncan try to grow it over time.\nInvestment --\nmeans\n using\nmoney\ntoday so it can become more in\nthe future. Different choices\ngrow\nmoney in different ways.\n71",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

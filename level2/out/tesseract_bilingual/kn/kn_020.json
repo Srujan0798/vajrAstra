@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_020",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 151,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "140 ವಿಜ್ಞಾನ\n\nS 5) = ಹ\n(कक) Children be cautious !!! Be alert <\nYour body belongs only to you, You have all the rights\n\nto keep safe and protect it always.\nSafe and Unsafe touches on your body\n\nForehead\n\nCheeks\n\nLips\nShoulder/\nBack\n\nHand Chest\n\nBottom\n(below your back )\n\nPart between\ntwo legs\n\na Unsafe Touch (4070001) - parts of your body where nobody should touch\n(except parents and in their presence only doctors can touch)\n\nSafe touch (coon toucn)-can touch only when required\n\nWhen you feel Unsafe Touch or any other mischief,please Say loudly\nNO.. Don't. Stop it..and Scream, push the person aside and move to a safer place,\nbe brave and inform about it, to your parents & Trusted adult and register a complaint\n\nPublished by :Distict Administration -08532-229011, Zilla Panchyat-228448\n\nDepartment of Police -235635/ 235001 / 235100 / 100 /1091 District Child Protection Unit-280670,\nDepartment of Women and Child Develpoment~226292, Unicef Child Protection Project ~230610. Raichur\n\nro) Be Smart, Be Safe, Be Happy eee\nಗು ಧ್‌ Picture courtesy : Prajavani, Bhoomika 26-07-2014 unicef @\n\n",
+      "text_nfc": "140 ವಿಜ್ಞಾನ\n\nS 5) = ಹ\n(कक) Children be cautious !!! Be alert <\nYour body belongs only to you, You have all the rights\n\nto keep safe and protect it always.\nSafe and Unsafe touches on your body\n\nForehead\n\nCheeks\n\nLips\nShoulder/\nBack\n\nHand Chest\n\nBottom\n(below your back )\n\nPart between\ntwo legs\n\na Unsafe Touch (4070001) - parts of your body where nobody should touch\n(except parents and in their presence only doctors can touch)\n\nSafe touch (coon toucn)-can touch only when required\n\nWhen you feel Unsafe Touch or any other mischief,please Say loudly\nNO.. Don't. Stop it..and Scream, push the person aside and move to a safer place,\nbe brave and inform about it, to your parents & Trusted adult and register a complaint\n\nPublished by :Distict Administration -08532-229011, Zilla Panchyat-228448\n\nDepartment of Police -235635/ 235001 / 235100 / 100 /1091 District Child Protection Unit-280670,\nDepartment of Women and Child Develpoment~226292, Unicef Child Protection Project ~230610. Raichur\n\nro) Be Smart, Be Safe, Be Happy eee\nಗು ಧ್‌ Picture courtesy : Prajavani, Bhoomika 26-07-2014 unicef @\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 1166,
+    "height": 1654
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1166,
+        1654
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಚಾಣಕೃನತ\nವಾಲಾಶೃಯಾಕಏಫಲಾಏಸಕಂಟಕಾಏ\nವಕಾೃಕಪಂರಿಲಭವಾಏದುರಾಸದಾಏ\nಗಂಧೀನಬಂಧುರನಿಕೀತರಿಸವ೯ಜಂತೋಕೆ\nರೀಕೋಗುಣಃಖಲುನಹಂತಸಮಸದೋಷಾನ್..17-2\nಇತಚಾಣಕೃನತದಪ೯ಣಃಸಂಪೂಣ೯\nProcessed and proofread by Sunder Hattangad\nChanakya Niti\npdf was typeset on July 1 I, 202\nPlease send corrections to sanskritOcheerful. com\n೦ಬುಂ\nCh ANakyanltisort.pdf\n27",
+      "text_nfc": "ಚಾಣಕೃನತ\nವಾಲಾಶೃಯಾಕಏಫಲಾಏಸಕಂಟಕಾಏ\nವಕಾೃಕಪಂರಿಲಭವಾಏದುರಾಸದಾಏ\nಗಂಧೀನಬಂಧುರನಿಕೀತರಿಸವ೯ಜಂತೋಕೆ\nರೀಕೋಗುಣಃಖಲುನಹಂತಸಮಸದೋಷಾನ್..17-2\nಇತಚಾಣಕೃನತದಪ೯ಣಃಸಂಪೂಣ೯\nProcessed and proofread by Sunder Hattangad\nChanakya Niti\npdf was typeset on July 1 I, 202\nPlease send corrections to sanskritOcheerful. com\n೦ಬುಂ\nCh ANakyanltisort.pdf\n27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_001",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1630,
+    "height": 2019
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1630,
+        2019
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-\nogrorastre oraLen ru9laScro\ngoleleges\npoladoewa wtoelUUcels\nwqw bW Latstaopyvwpu.\n(E)\n(oloorv g0100CrU OS O0QG) plol6l colmuugrg los Foloplafroo oD000 (q)\n(s) loecoCoo lQ100 los9 WOCEYOLOVO relwro) l0s9 guoCepotreipperuvpropwoous\nOroo OWSCIOUgG LOLOw OSCW wtopopyoto locotoiru gOLOLOrDrecTero S918E109W (e)\nII\nS\nS1VW\n(OUCEIU Uu)a - uonoes\n(z)\n& (LOCULOLODPPTU\nl080 088 RSLFELUE ofwomoro) go Q lstco olro88 gola LQ Q CereLro 5\n(z)\n& oxulepomypngebhgcp golow QCOOCS juscre(oloOseU Q8 t\n(z)\n& Q000\noGs guo0ep & 03815/Frojolatu (9CUB gOLQLOSCrUPpwopropro@wopropro) selaloocsropijo 'E\n(z)\n& (QUOU LOUCQUIO SL9CPDISD000Bru 09000000 ofrocrug 2018PIS 2\n(z)\n& QUOGFODrU@L) Quel@susaloptoro o8c0 ROLOLOOOQIE awcfscleyo \"L\ngoa9Tecrcg\ntolwtoroolac0L0CD0-PLOFD\nWLQofoecuvCUVDWYruvDwpotwo olawc@groe tastwtoerore SoUve) DsWCUNW g8w\n(LO90Cmolwro @CDOrvQero (9000E109950 SlptUce QULQC8 EUsEIErU (01600\nOUUODeD POLQOSCIU sotoracencrae GD wOo lawleros lacorugotstp los9 OCCIDO\nreecrep(stoppypry omULWeYopros oronuvolo, jowtorourorop ofwcmcro) loru\ncrosgrw (9CWIQIOTOO oLoneprogcw (COQLOPLOFBOLMCONQE CePCraDO gLOLOocaronlo\nFolvcorw longe POURLERD tatorocaiste gumoeyo rwcfsclero lo89 (mouxo.usorptwer\nOUEDe lenge hgco solaow POL0L0fOCOG 9COCODCS gicwelwirow B800pQ00r0\nA\nlwgaro cosgoolo ofracrug 2018PIS0 wrocs 38tow306189 @u9CBED901e 39LQ0\nrugols?o atecomcras ofwageco@celowpolwo loes staqwss oocelow\nouggecralosw oocerwlw worv 38Folopqwolru QWOOPIT olonwro) oeruracon\ncrapfogrw goolo gotoew 100r0199 oractero (9CO0OQ wcmro) wtoetoc@elro\nWQA (B8ll6r0 000000) ragl@oloro UUCS sugcopotoep) orucscWs0 Qo) (U9CO\nSFbooptsawregoro goyolo siotajcoalocs ofaecw eotaiotoro o8co suCP9\noogPrvo oraruos (DIQLOTUCSCUDO solooloro wolola gustosusaiopford owdwgro\nioru los ocoralow POLOLOULQIY nwcfscfero solaow 00r3300 uscwlw 8OLE\nELD9OECTELO COLOOICrU) towleesst Olc BB(GPTEDIGIOYRPPIO wogacelarurowco\n1016000000 gegnssfecros Folacro oucsteo 8850015c9g 69CQ 1\n(01 1 siont\n(OUCELU (U)V- uompes\n\"SJY E QUIL\nWVTVAVTVI\nZIO : apop\n08 : SYIE\nIIOZ - youew\nXI : SSEID\nII-1S\nquoussassy Anjeuuns puosas\nJOJ uonseno edues",
+      "text_nfc": "-\nogrorastre oraLen ru9laScro\ngoleleges\npoladoewa wtoelUUcels\nwqw bW Latstaopyvwpu.\n(E)\n(oloorv g0100CrU OS O0QG) plol6l colmuugrg los Foloplafroo oD000 (q)\n(s) loecoCoo lQ100 los9 WOCEYOLOVO relwro) l0s9 guoCepotreipperuvpropwoous\nOroo OWSCIOUgG LOLOw OSCW wtopopyoto locotoiru gOLOLOrDrecTero S918E109W (e)\nII\nS\nS1VW\n(OUCEIU Uu)a - uonoes\n(z)\n& (LOCULOLODPPTU\nl080 088 RSLFELUE ofwomoro) go Q lstco olro88 gola LQ Q CereLro 5\n(z)\n& oxulepomypngebhgcp golow QCOOCS juscre(oloOseU Q8 t\n(z)\n& Q000\noGs guo0ep & 03815/Frojolatu (9CUB gOLQLOSCrUPpwopropro@wopropro) selaloocsropijo 'E\n(z)\n& (QUOU LOUCQUIO SL9CPDISD000Bru 09000000 ofrocrug 2018PIS 2\n(z)\n& QUOGFODrU@L) Quel@susaloptoro o8c0 ROLOLOOOQIE awcfscleyo \"L\ngoa9Tecrcg\ntolwtoroolac0L0CD0-PLOFD\nWLQofoecuvCUVDWYruvDwpotwo olawc@groe tastwtoerore SoUve) DsWCUNW g8w\n(LO90Cmolwro @CDOrvQero (9000E109950 SlptUce QULQC8 EUsEIErU (01600\nOUUODeD POLQOSCIU sotoracencrae GD wOo lawleros lacorugotstp los9 OCCIDO\nreecrep(stoppypry omULWeYopros oronuvolo, jowtorourorop ofwcmcro) loru\ncrosgrw (9CWIQIOTOO oLoneprogcw (COQLOPLOFBOLMCONQE CePCraDO gLOLOocaronlo\nFolvcorw longe POURLERD tatorocaiste gumoeyo rwcfsclero lo89 (mouxo.usorptwer\nOUEDe lenge hgco solaow POL0L0fOCOG 9COCODCS gicwelwirow B800pQ00r0\nA\nlwgaro cosgoolo ofracrug 2018PIS0 wrocs 38tow306189 @u9CBED901e 39LQ0\nrugols?o atecomcras ofwageco@celowpolwo loes staqwss oocelow\nouggecralosw oocerwlw worv 38Folopqwolru QWOOPIT olonwro) oeruracon\ncrapfogrw goolo gotoew 100r0199 oractero (9CO0OQ wcmro) wtoetoc@elro\nWQA (B8ll6r0 000000) ragl@oloro UUCS sugcopotoep) orucscWs0 Qo) (U9CO\nSFbooptsawregoro goyolo siotajcoalocs ofaecw eotaiotoro o8co suCP9\noogPrvo oraruos (DIQLOTUCSCUDO solooloro wolola gustosusaiopford owdwgro\nioru los ocoralow POLOLOULQIY nwcfscfero solaow 00r3300 uscwlw 8OLE\nELD9OECTELO COLOOICrU) towleesst Olc BB(GPTEDIGIOYRPPIO wogacelarurowco\n1016000000 gegnssfecros Folacro oucsteo 8850015c9g 69CQ 1\n(01 1 siont\n(OUCELU (U)V- uompes\n\"SJY E QUIL\nWVTVAVTVI\nZIO : apop\n08 : SYIE\nIIOZ - youew\nXI : SSEID\nII-1S\nquoussassy Anjeuuns puosas\nJOJ uonseno edues",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

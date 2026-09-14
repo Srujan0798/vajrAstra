@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_017",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0017pro_raw.pdf",
+    "page_index": 4,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "TETtTCh\nTiT fTET ST I T T T FETT I HT  fTT  aT F R ETEf \n 3 H       -  \nM  E        \nTT T  H,  T 3 S,  3  \nf,   M , T  T   AA T \nfaETA T  ETH Y  THh T   HH T 3R aT ,\n, M      Se   Eef 3  \n3E3 F        -  3\n3    M   oh E C  S TR  3R  \ne  f faefefe  t f-Rai 3 i   fadu f a1\n  -ET  CT E   Ef  3E d 3HC  \n T,  3   A    E \n   \n          \n   ,    \n  o   ,    \nI   3 H      3   - \nfa   S T T- TT  , H 3  T\nfeE ,  , \nmefe fa\nCE 7   Ch HER 3C t-fA  h 3TE 3R 3TGRCh \nT    f R  T 1 E  3T  fET, H 3R E  33,\nP 3R 33  TT h  3E22    5 1 E4 fEeff 374 3 \nT, 3 HET M ET 3    H   ,\n     \nT TT3 3R FR  3 T6T  3 34 h   E T 3H\n    \nChCT3T, FAET RT T  HT  \nAr\nReprint2026-27",
+      "text_nfc": "TETtTCh\nTiT fTET ST I T T T FETT I HT  fTT  aT F R ETEf \n 3 H       -  \nM  E        \nTT T  H,  T 3 S,  3  \nf,   M , T  T   AA T \nfaETA T  ETH Y  THh T   HH T 3R aT ,\n, M      Se   Eef 3  \n3E3 F        -  3\n3    M   oh E C  S TR  3R  \ne  f faefefe  t f-Rai 3 i   fadu f a1\n  -ET  CT E   Ef  3E d 3HC  \n T,  3   A    E \n   \n          \n   ,    \n  o   ,    \nI   3 H      3   - \nfa   S T T- TT  , H 3  T\nfeE ,  , \nmefe fa\nCE 7   Ch HER 3C t-fA  h 3TE 3R 3TGRCh \nT    f R  T 1 E  3T  fET, H 3R E  33,\nP 3R 33  TT h  3E22    5 1 E4 fEeff 374 3 \nT, 3 HET M ET 3    H   ,\n     \nT TT3 3R FR  3 T6T  3 34 h   E T 3H\n    \nChCT3T, FAET RT T  HT  \nAr\nReprint2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

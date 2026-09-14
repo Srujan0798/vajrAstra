@@ -1,0 +1,41 @@
+{
+  "page_id": "te_095",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0011pro_raw.pdf",
+    "page_index": 73,
+    "width": 1655,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1655,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "রোজেল মোদেবদেশ দিনি\nअभ्यासक्रम संशोधन मंडळ\nमहाराष्‍ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासकम संशोधन मंडळ ਧ੍ਰਗੇ ੪੪੦੦੦੪\nहिंदी लोकवाणी इयत्ता दहावी हिंदी भाषा ੨ 4200\n૦\nਉ ਉ",
+      "text_nfc": "রোজেল মোদেবদেশ দিনি\nअभ्यासक्रम संशोधन मंडळ\nमहाराष्‍ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासकम संशोधन मंडळ ਧ੍ਰਗੇ ੪੪੦੦੦੪\nहिंदी लोकवाणी इयत्ता दहावी हिंदी भाषा ੨ 4200\n૦\nਉ ਉ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

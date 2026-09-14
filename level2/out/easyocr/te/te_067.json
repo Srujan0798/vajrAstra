@@ -1,0 +1,41 @@
+{
+  "page_id": "te_067",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0067pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "the teqchers'   [0O11, qfter the CIqSs. [[e] to]e MQS ೊOt 0[ qmnoyqnce O1 qiget. Tet q1   unknown feqr mqde T0 \" ೊe] TOUS . Reqssuring myself thqt she MQS q kind-heqted teqcher qnd would not punish me ] [eqched the teqchers reqssuring confirming [001   with   hesitqnt   steps. The teqcher: greeted 10   with q S1ile q1d qsked ೊ0 t0 sit by her side. [Ter tendett tone tured my sighs into S0bS . She pulled he] chqir   close [0 ]ine qnd   pqtting [ು [0 01 the heqd   sqid, Mhqt mqkes yOu cTy, Iy child? [ hqve] t sqid Q wOrd  t0 yOu. A[te] 0 brief pquse;  She confide shqre continued, sTel] T0 whqt JOLT touble 1S . Confide 11 Secret Te, [O] q111 ] ]ot [ike [ Siste]   t0 you?; ಗ [q1e thrill thrill greqt joy TQ]] through ]11) entire   fqme. Tox Q ]0ment [ Telt ] should cling [0 her   q10 CT]] qnd CT] . Of course, [ did ]0t   d0 S0, but ] kept gqzing qt he] with   teq]ful eyes. Tenderly, teqche] continued,  *Do yOu   kOw the meqning of didi? ]t meqns elde]   sister. MO]' t yOL   tel] WIqt t0 Pelqtionships JOUT Sister yOuT troubles? , Amid SObs [ SQid, cc]he Clic] tle   teqche\" 0[fex girls   keep   teqsing ]0. She   ]qughed, TTThy d1e ]OL] Sqyqli? scqred 0T the? 1f yOu CT]] ]ike   this, the) 1iII   pester yOu Q1] the more. So ignore them. MTho is your friend?; [ shook  1y heqd qid teqcher  smiled [t seemed the [0 stqnd by teqche] hqd   poured her   smile ೊnt0 T]] eyes. c*Tike [0 someone t0   suppott SOmeone be   my friend?, She Sqid. fiend The bel]   [qng. She [OS0. MTith 0 tede] pql pqt 01   1y bqck,  she sqid, *Tisten ! [0u   Mere 0 sister  qlright! Now Iqvished poured 11 JOL Q1e q fiend  t00. But [ ]ike 1y friends t0 be brqve. greqt   quqntity [ou ' 1e got t0 t1y [0 be brqve. ]']]   qwqys   stqnd by JOL, Test   qSsured, 1y  little pql. Tow Tise  qd hop 0[f spontqneously sudden within t0  yOuT   CIqSS. impulse   fTo1 Exciteent qde   my [qce [1ush Ted-hot [0 the [0 be   beyond eqr-tips. Never before hqd qyone Iqvished love O1 T0 oneself t0   [ose thuS   q10 heze MQS Iy  teqcher  who 1qd spontqneously contro] of oneself qccepted me 0S q Siste]; q [jed! [ MqS   bೀyond myself with   joy. [ wqnted [0 chuckle [0 burst 1nto ]eqT - hystericql   Iಯughter hystericql   Iqughter . umcontrolled  ]qughter O1 winged feet [ TQ1] t0 1y CIqSs. Soo] ] WqS   [ost Teverie dreqmy sleep 11 ಯ TqTe reverie. ] forgot   thqt [ TTQS sitting in Q CIqSs 0f wild girls whose   prime   pqstime MQS teqsing prime ]0 most importqnt During the breqk, the Mqter bottle thqt [ TTQS WIy   @id Sqyqli jeel drinking from, fe]] O1 ೊ0 Q1d [ got   fully   drenched. like \"ೀjoicing @ [ot? Right in font   stood Mqyq qnd Chqndd, Iqughing QMqJ [0 theiz heqrts content. Chqdq teqsed, sF[0]1 the slippery 1qnds   0f Slippery, the slippery bottle  went Slip,\n20",
+      "text_nfc": "the teqchers'   [0O11, qfter the CIqSs. [[e] to]e MQS ೊOt 0[ qmnoyqnce O1 qiget. Tet q1   unknown feqr mqde T0 \" ೊe] TOUS . Reqssuring myself thqt she MQS q kind-heqted teqcher qnd would not punish me ] [eqched the teqchers reqssuring confirming [001   with   hesitqnt   steps. The teqcher: greeted 10   with q S1ile q1d qsked ೊ0 t0 sit by her side. [Ter tendett tone tured my sighs into S0bS . She pulled he] chqir   close [0 ]ine qnd   pqtting [ು [0 01 the heqd   sqid, Mhqt mqkes yOu cTy, Iy child? [ hqve] t sqid Q wOrd  t0 yOu. A[te] 0 brief pquse;  She confide shqre continued, sTel] T0 whqt JOLT touble 1S . Confide 11 Secret Te, [O] q111 ] ]ot [ike [ Siste]   t0 you?; ಗ [q1e thrill thrill greqt joy TQ]] through ]11) entire   fqme. Tox Q ]0ment [ Telt ] should cling [0 her   q10 CT]] qnd CT] . Of course, [ did ]0t   d0 S0, but ] kept gqzing qt he] with   teq]ful eyes. Tenderly, teqche] continued,  *Do yOu   kOw the meqning of didi? ]t meqns elde]   sister. MO]' t yOL   tel] WIqt t0 Pelqtionships JOUT Sister yOuT troubles? , Amid SObs [ SQid, cc]he Clic] tle   teqche\" 0[fex girls   keep   teqsing ]0. She   ]qughed, TTThy d1e ]OL] Sqyqli? scqred 0T the? 1f yOu CT]] ]ike   this, the) 1iII   pester yOu Q1] the more. So ignore them. MTho is your friend?; [ shook  1y heqd qid teqcher  smiled [t seemed the [0 stqnd by teqche] hqd   poured her   smile ೊnt0 T]] eyes. c*Tike [0 someone t0   suppott SOmeone be   my friend?, She Sqid. fiend The bel]   [qng. She [OS0. MTith 0 tede] pql pqt 01   1y bqck,  she sqid, *Tisten ! [0u   Mere 0 sister  qlright! Now Iqvished poured 11 JOL Q1e q fiend  t00. But [ ]ike 1y friends t0 be brqve. greqt   quqntity [ou ' 1e got t0 t1y [0 be brqve. ]']]   qwqys   stqnd by JOL, Test   qSsured, 1y  little pql. Tow Tise  qd hop 0[f spontqneously sudden within t0  yOuT   CIqSS. impulse   fTo1 Exciteent qde   my [qce [1ush Ted-hot [0 the [0 be   beyond eqr-tips. Never before hqd qyone Iqvished love O1 T0 oneself t0   [ose thuS   q10 heze MQS Iy  teqcher  who 1qd spontqneously contro] of oneself qccepted me 0S q Siste]; q [jed! [ MqS   bೀyond myself with   joy. [ wqnted [0 chuckle [0 burst 1nto ]eqT - hystericql   Iಯughter hystericql   Iqughter . umcontrolled  ]qughter O1 winged feet [ TQ1] t0 1y CIqSs. Soo] ] WqS   [ost Teverie dreqmy sleep 11 ಯ TqTe reverie. ] forgot   thqt [ TTQS sitting in Q CIqSs 0f wild girls whose   prime   pqstime MQS teqsing prime ]0 most importqnt During the breqk, the Mqter bottle thqt [ TTQS WIy   @id Sqyqli jeel drinking from, fe]] O1 ೊ0 Q1d [ got   fully   drenched. like \"ೀjoicing @ [ot? Right in font   stood Mqyq qnd Chqndd, Iqughing QMqJ [0 theiz heqrts content. Chqdq teqsed, sF[0]1 the slippery 1qnds   0f Slippery, the slippery bottle  went Slip,\n20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

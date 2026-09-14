@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Eaff\n10\n11\n12\n13\n14\n9\n8\n15\n7\n16\n6\n17\n18\n19\n20\n5\n3\nA\n2\n1\nnou\nEaf\ni\n(gx\nCC &1,  ST  H TY TT 128)\nfd\nufa :\nTHE\nPEOPLE'S\n \n1.\n(W ind Pipe)\n T\n2.\n(Gullet/Food Pipe)\n\n(Larynx)\n3.\nUNIVERSITY\n4.\nTR \n(Vocal Cord)\nc\n(Glottis)\n5.\n6.\n31\n(Epiglottis)\n7.\n1cc/34fEI\n(Pharynx)\n8.\n311/1\n(Uvula)\n9.\nFRITACR\n(Nasal Cavity)\n10.\nch \n(Soft Palate)\n11. Tef\n(Cerebrum)\n12. C \n(Hard Palate)\n13. f\n(Alveolus)\n14.\n(Teeth)\n15.3\n(Lips)\n16. fuET Ch\n(Tip of the Tongue)\n65",
+      "text_nfc": "Eaff\n10\n11\n12\n13\n14\n9\n8\n15\n7\n16\n6\n17\n18\n19\n20\n5\n3\nA\n2\n1\nnou\nEaf\ni\n(gx\nCC &1,  ST  H TY TT 128)\nfd\nufa :\nTHE\nPEOPLE'S\n \n1.\n(W ind Pipe)\n T\n2.\n(Gullet/Food Pipe)\n\n(Larynx)\n3.\nUNIVERSITY\n4.\nTR \n(Vocal Cord)\nc\n(Glottis)\n5.\n6.\n31\n(Epiglottis)\n7.\n1cc/34fEI\n(Pharynx)\n8.\n311/1\n(Uvula)\n9.\nFRITACR\n(Nasal Cavity)\n10.\nch \n(Soft Palate)\n11. Tef\n(Cerebrum)\n12. C \n(Hard Palate)\n13. f\n(Alveolus)\n14.\n(Teeth)\n15.3\n(Lips)\n16. fuET Ch\n(Tip of the Tongue)\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

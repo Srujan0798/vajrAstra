@@ -1,0 +1,41 @@
+{
+  "page_id": "te_018",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0018pro_raw.pdf",
+    "page_index": 90,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "do.(3) Séso 3.75 56, dota sesver 30N00\nX, Y 00053o56 ppodonsoeras.\ndep XY 3 Xo M Dosssoro\nA25 Soydpes eg seawens P,\nQ 00853056 Syoossooas.\neavs d.ppo. PM N d.spo. QM es\nP\nY\n0830800.\nM\n6OSSSD : grdess JôoD J os oobod.\ndep MX esa dota Seswe desye\nSeso 3.75\nPM? = MY X MX\n(I)\nedagor\nX\n(50,dg-potisdyp darppots aaoëbo) : (II)\n. (I), (II) e Nol\n= QMP\n. PM =QM\nd.po. PM N d.spo. QM\ndo. (4)\nJéso 3.76 55, d.spo. PQ esa O Soorxe 3je es\nR\nP\nJnsse. R dods Seswd 585 as dods).\nd.spo. RS L d.ppo. PQ.\neavs SR esa\nL\nk\nPS, SQ e DE aogas es D8SOWOd.\n[esr SR2 = PS X SQ]\nBso 3.76\nJos\n: So8 305 DJOES 085383 oood.\n(1)\n(1) S0230 RS 20 Robod. e8 Soswas 5 dodss) 38 podnpos es dodgss T To 38 Déjod.\n(2) RS = TS es asod.\n(3)egge eog potons aooosos 6OROW saysegond oood.\n(4) RS = TS 8 bOhOD JOOtoN 0830800.\nessioosoro.\n3 Jeso 3.76 5€ d.ppo. PR, d.ppo. RQ ess A25 A PRQ 5 8535 l2pe0 esewod?\n(2) 2 bo. (4) 56 08200S gozaw 3ooss awod 38 38056 0030060 28800?\n2 a aD D e E D 8 8 8 e OD DD 8 8 1 6 D 81 Be e 8 E 8 e 58 8 D E D 8 8",
+      "text_nfc": "do.(3) Séso 3.75 56, dota sesver 30N00\nX, Y 00053o56 ppodonsoeras.\ndep XY 3 Xo M Dosssoro\nA25 Soydpes eg seawens P,\nQ 00853056 Syoossooas.\neavs d.ppo. PM N d.spo. QM es\nP\nY\n0830800.\nM\n6OSSSD : grdess JôoD J os oobod.\ndep MX esa dota Seswe desye\nSeso 3.75\nPM? = MY X MX\n(I)\nedagor\nX\n(50,dg-potisdyp darppots aaoëbo) : (II)\n. (I), (II) e Nol\n= QMP\n. PM =QM\nd.po. PM N d.spo. QM\ndo. (4)\nJéso 3.76 55, d.spo. PQ esa O Soorxe 3je es\nR\nP\nJnsse. R dods Seswd 585 as dods).\nd.spo. RS L d.ppo. PQ.\neavs SR esa\nL\nk\nPS, SQ e DE aogas es D8SOWOd.\n[esr SR2 = PS X SQ]\nBso 3.76\nJos\n: So8 305 DJOES 085383 oood.\n(1)\n(1) S0230 RS 20 Robod. e8 Soswas 5 dodss) 38 podnpos es dodgss T To 38 Déjod.\n(2) RS = TS es asod.\n(3)egge eog potons aooosos 6OROW saysegond oood.\n(4) RS = TS 8 bOhOD JOOtoN 0830800.\nessioosoro.\n3 Jeso 3.76 5€ d.ppo. PR, d.ppo. RQ ess A25 A PRQ 5 8535 l2pe0 esewod?\n(2) 2 bo. (4) 56 08200S gozaw 3ooss awod 38 38056 0030060 28800?\n2 a aD D e E D 8 8 8 e OD DD 8 8 1 6 D 81 Be e 8 E 8 e 58 8 D E D 8 8",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

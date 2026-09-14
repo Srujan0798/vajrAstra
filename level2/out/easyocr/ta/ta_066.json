@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_066",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0033pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "pv १क \" ULd\nQTUIoLDGu 0@6b= ऩै फ़IDीYpnG शJष्\nGo6Dूl+o@\n@ग्रनdणLIio थJन्णंण(\nOLIngIफ़ छioly\nझuolYpI G शJङ OllनDनUUI GUनUTLI LIITLLकIOU olyonlGuo SILLऊफ़lन्ग &yु OlolनlUILLILILLgI LIGiT6flक B६bolggloop ऊँनगLLITODLD LOनगllp OuiLopp OlFUIgJLD OLG IGppgoi शुछ।ं\nXII Sid Tamil Introduction Pages indd\n23'12 2023 11:28:08",
+      "text_nfc": "pv १क \" ULd\nQTUIoLDGu 0@6b= ऩै फ़IDीYpnG शJष्\nGo6Dूl+o@\n@ग्रनdणLIio थJन्णंण(\nOLIngIफ़ छioly\nझuolYpI G शJङ OllनDनUUI GUनUTLI LIITLLकIOU olyonlGuo SILLऊफ़lन्ग &yु OlolनlUILLILILLgI LIGiT6flक B६bolggloop ऊँनगLLITODLD LOनगllp OuiLopp OlFUIgJLD OLG IGppgoi शुछ।ं\nXII Sid Tamil Introduction Pages indd\n23'12 2023 11:28:08",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

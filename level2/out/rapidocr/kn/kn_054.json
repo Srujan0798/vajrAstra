@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_054",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0015pro_raw.pdf",
+    "page_index": 27,
+    "width": 419.5299987792969,
+    "height": 595.280029296875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        419.5299987792969,
+        595.280029296875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಚಾಣಕೃನೀತಿ\n&eeಣo9g ಇeತgc #eo'aeದ\nವಕಾೃಪಿಪಂಕಿಲಭವಾಪದುರಾಸದಾಪ.\nಗಂಧೀನಬಂಧುರನಕೇತಕಿಸವ೯ಜಂತೋ-\nರೇಕೋಗುಣಃಖಲು ನಹಂತ ಸಮಸದೋಷಾನ್.. 17-21\nಇತಿಚಾಣಕೃನೇತದಪ೯ಣಃಸಂಪೂಣ೯ಃ.\nProcessed and proofread by Sunder Hattangadi\nChanakya Niti\npdf was typeset on July 11, 2024\nPlease send corrections to sanskritocheerful.com\nchANakyanItisort.pdf\n2",
+      "text_nfc": "ಚಾಣಕೃನೀತಿ\n&eeಣo9g ಇeತgc #eo'aeದ\nವಕಾೃಪಿಪಂಕಿಲಭವಾಪದುರಾಸದಾಪ.\nಗಂಧೀನಬಂಧುರನಕೇತಕಿಸವ೯ಜಂತೋ-\nರೇಕೋಗುಣಃಖಲು ನಹಂತ ಸಮಸದೋಷಾನ್.. 17-21\nಇತಿಚಾಣಕೃನೇತದಪ೯ಣಃಸಂಪೂಣ೯ಃ.\nProcessed and proofread by Sunder Hattangadi\nChanakya Niti\npdf was typeset on July 11, 2024\nPlease send corrections to sanskritocheerful.com\nchANakyanItisort.pdf\n2",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

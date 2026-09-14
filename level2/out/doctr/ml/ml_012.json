@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_012",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0013pro_raw.png",
+    "page_index": 0,
+    "width": 405,
+    "height": 565
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        405,
+        565
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "VS -\naontras corsenugemelin\npruted rudaaymi\nmudghnoleeg\nmedajm\n:\nelemajolalo mpa@nalesonogmeoeni. ajsoom onum\namkyoje-gle\naogo\ncuojaann camuje-gled ERrmonunoubo inydemonia.bubo eslan\nngmele an) mudghdleog mataom)se moulaono amugleseant\naonoirubed mobahym aonynno mudghdleeglent comj agemoaholecem\ncamjo mpd@n.lecongmmoami\nalojeomalos 0104.1964 m) aubraso moemom) ajslmoalamje\nmujnaislenons auosigomsalmoeugo nim 13 (nidhono na9p ajslauocmobeajo\nfixity of Tennure of mnuacunoyggsimoege ajslaorzomjes ajaloet\nsaraleojeneoaloyem nep aonuaoubeungjo 0101.1970 ajmas mubanoolas\nmaaihlmaoeslloleogmaimoago gmmomalegge sjalages mlajml\naescesens mowym 72 S (nlb00o ajslaomles masihimaomn\nleajmmimongo mm00o soles\nnudaym rudgholeeg euslecons\najslmom mouaouajagmimnoene 72 c abd UnJ0000 80rD0T0le199\najslaoreobed muaawao aldaami muigladleng modaans gomiocubalio\nmudesoolos elasih.imaotuaniraenp aons alnaomralos (nmhonla msj\najslmomoded njdemonue.oubo eiclesomise mimonbaom monaoubajent.\nnoep\ngpmemaglegajse muitenod soleut osaagnomj82 LubDo, cuyos\nawobo aocieoad, ag aujemlages ajales amulay muobo\naoaleoos miscmlp (uoasmud pejoomm goggaunol pamnsooded\nofmudory, ngod.mgdngo. mSnusl mupamr smoruaoubo maob@sonagommosm.\nalluniomungogyo\nal/-\nomulagol\n@ou'.aondmoeg\nDisas\nmulmln TullaJens",
+      "text_nfc": "VS -\naontras corsenugemelin\npruted rudaaymi\nmudghnoleeg\nmedajm\n:\nelemajolalo mpa@nalesonogmeoeni. ajsoom onum\namkyoje-gle\naogo\ncuojaann camuje-gled ERrmonunoubo inydemonia.bubo eslan\nngmele an) mudghdleog mataom)se moulaono amugleseant\naonoirubed mobahym aonynno mudghdleeglent comj agemoaholecem\ncamjo mpd@n.lecongmmoami\nalojeomalos 0104.1964 m) aubraso moemom) ajslmoalamje\nmujnaislenons auosigomsalmoeugo nim 13 (nidhono na9p ajslauocmobeajo\nfixity of Tennure of mnuacunoyggsimoege ajslaorzomjes ajaloet\nsaraleojeneoaloyem nep aonuaoubeungjo 0101.1970 ajmas mubanoolas\nmaaihlmaoeslloleogmaimoago gmmomalegge sjalages mlajml\naescesens mowym 72 S (nlb00o ajslaomles masihimaomn\nleajmmimongo mm00o soles\nnudaym rudgholeeg euslecons\najslmom mouaouajagmimnoene 72 c abd UnJ0000 80rD0T0le199\najslaoreobed muaawao aldaami muigladleng modaans gomiocubalio\nmudesoolos elasih.imaotuaniraenp aons alnaomralos (nmhonla msj\najslmomoded njdemonue.oubo eiclesomise mimonbaom monaoubajent.\nnoep\ngpmemaglegajse muitenod soleut osaagnomj82 LubDo, cuyos\nawobo aocieoad, ag aujemlages ajales amulay muobo\naoaleoos miscmlp (uoasmud pejoomm goggaunol pamnsooded\nofmudory, ngod.mgdngo. mSnusl mupamr smoruaoubo maob@sonagommosm.\nalluniomungogyo\nal/-\nomulagol\n@ou'.aondmoeg\nDisas\nmulmln TullaJens",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

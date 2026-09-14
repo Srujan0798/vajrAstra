@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_008",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 9,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "UE\nRt\ndood doeneened ?\n3\nRes\ndoz aioe233\nnedalaon\ndeead.\n\"Dond ava aeeof 2803 ?\" doa\nQ\nQ\nges,\nead\naada\n@ @\n23n3\naeen. Dordaloend narn euad dod303003). dosaadre\ne3 WyE3 31 degafan o solsdoode 2080). euwod odaboed\nJerdetoend 2Jodbod 123e3 DOR abesoad ao aodt0\nBodgfarddabd \"ds bordztoenon\n&\naei\n88dgoe\"\nanaoo\ndoedea neaabaon eoan\nQ\ndgaunee 3\nbegad.\nbondetoend \"oad Jed eeuna don\" orernadde aea\nN83 ar Reodeodd. Ondosan asadd \"We en\n&\noa\nosadged\" dO2 aioezir wowon eao DaNebJoade aursonn\n3\naoaa, CUE30 de3 gaaawodba). eaon eod Jaaa easodan\n&\naansdos)\n3\noytoan\noowoad e3 28F\nQno\ndoosoo\n3n\naecofarga dodbae dodade\n3\n3 00003\nabaw3d).\nDondeloend\naegai\neno3aode,dod,\n2 O\n838300d,\ne3 oun aod8o.\ne3 Doreioendode Ben e e0o 28F Wno 200rto\n3\naajaohd.\nBeao\naowennd\naees\naoas\nbondeloend\nN033003000 Bndo gogsaon\nf\nBrosad.\n3 3383a0 a\neaded\nesds Nodw. esao Jeaon Roeado Donzloend eugda a 28F\narodode, Weab Dar Sadod. e3 mean doa donga gorg\nan aoon 208d.\n13/S\n10\n#",
+      "text_nfc": "UE\nRt\ndood doeneened ?\n3\nRes\ndoz aioe233\nnedalaon\ndeead.\n\"Dond ava aeeof 2803 ?\" doa\nQ\nQ\nges,\nead\naada\n@ @\n23n3\naeen. Dordaloend narn euad dod303003). dosaadre\ne3 WyE3 31 degafan o solsdoode 2080). euwod odaboed\nJerdetoend 2Jodbod 123e3 DOR abesoad ao aodt0\nBodgfarddabd \"ds bordztoenon\n&\naei\n88dgoe\"\nanaoo\ndoedea neaabaon eoan\nQ\ndgaunee 3\nbegad.\nbondetoend \"oad Jed eeuna don\" orernadde aea\nN83 ar Reodeodd. Ondosan asadd \"We en\n&\noa\nosadged\" dO2 aioezir wowon eao DaNebJoade aursonn\n3\naoaa, CUE30 de3 gaaawodba). eaon eod Jaaa easodan\n&\naansdos)\n3\noytoan\noowoad e3 28F\nQno\ndoosoo\n3n\naecofarga dodbae dodade\n3\n3 00003\nabaw3d).\nDondeloend\naegai\neno3aode,dod,\n2 O\n838300d,\ne3 oun aod8o.\ne3 Doreioendode Ben e e0o 28F Wno 200rto\n3\naajaohd.\nBeao\naowennd\naees\naoas\nbondeloend\nN033003000 Bndo gogsaon\nf\nBrosad.\n3 3383a0 a\neaded\nesds Nodw. esao Jeaon Roeado Donzloend eugda a 28F\narodode, Weab Dar Sadod. e3 mean doa donga gorg\nan aoon 208d.\n13/S\n10\n#",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

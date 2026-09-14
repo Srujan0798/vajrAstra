@@ -1,0 +1,41 @@
+{
+  "page_id": "te_027",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0027pro_raw.pdf",
+    "page_index": 29,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "చి(తంలోని చేతివేళ్ళను లెక్కించండి. చేతివేళ్ళు ఎన్నివున్నాయో అన్నిగీతలు పక్కనున్న గడిలో\n*\nగీయండి. మొత్తం గీతలను లెక్కించి వాటి సంఖ్యను పక్కనున్న గడిలో రాయండి.\n4\n* రెండు సమూహాలలోని చితాలను లెక్కించండి. మొత్తం చితాల సంఖ్య రాయండి.\nబొంగరాలు\n7\nబొంగరాలు\nCo\nచిలుకలు\nసీతాకోకచిలుకలు\nసీతాకోక చిలుకలు\n6O\n20",
+      "text_nfc": "చి(తంలోని చేతివేళ్ళను లెక్కించండి. చేతివేళ్ళు ఎన్నివున్నాయో అన్నిగీతలు పక్కనున్న గడిలో\n*\nగీయండి. మొత్తం గీతలను లెక్కించి వాటి సంఖ్యను పక్కనున్న గడిలో రాయండి.\n4\n* రెండు సమూహాలలోని చితాలను లెక్కించండి. మొత్తం చితాల సంఖ్య రాయండి.\nబొంగరాలు\n7\nబొంగరాలు\nCo\nచిలుకలు\nసీతాకోకచిలుకలు\nసీతాకోక చిలుకలు\n6O\n20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

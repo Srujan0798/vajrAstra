@@ -1,0 +1,41 @@
+{
+  "page_id": "te_024",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0024pro_raw.pdf",
+    "page_index": 36,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "माझ्या टोप्या द्या\nमला नकोच\nनाही देणार.\nआता मी टोप्या जमा करतो .\nजातो.\n*%<% <e\nsऋ> <५ ८( २७ ,9<e><><><><;",
+      "text_nfc": "माझ्या टोप्या द्या\nमला नकोच\nनाही देणार.\nआता मी टोप्या जमा करतो .\nजातो.\n*%<% <e\nsऋ> <५ ८( २७ ,9<e><><><><;",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

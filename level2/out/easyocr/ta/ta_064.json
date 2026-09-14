@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_064",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 270,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "LGछ-@\nथIनDD6णा छंgl @flणाnBकGऊB७७ @f६oL UIनfl (३ ७oglLioLIनणor ) 1 ६OLIछ छIooflgJlठाToा open ( ) OlBUIpBo moomuimml GmLIL| न(छlछ. GLogib कछूण @ग्र॰णण G @Iफ़l yosomछoीठठ GoIDILIITGBo ठा ६ठा ६णा ? २ ग्रmछणणा Gol २ 6iTroा GBILLlob Iorpmuo OlBuIJLD. नOLIछछI6ठT Ily6o६D ना(छIक. 3 BImLJoToflooul छIा6णा ६OLDन२| LOplLILIT 6OTIT छ ठlछI6णग Goiroा CSV GBILILllooठoा LIQLILISOBIOOT GOLIछछIठठ फly६o६७ 6ा(छIक. 4 write Lmoio append mode (०om+oLDछनlठor GoIफ़ILITG नाठठा ठठा ? 5 reader( ) wopलio DictReader ) @JooL GUIUIITooT GoIलILITG ULIIT छl?\nLGछी-ा\nथ१६DDनणा छंgl @lनoाnBBGऊB७ू @f६oLUIनfl (५ ७oglLioLIनoo  1. ना छंठlनD६D Lompio CSV GBILILOoor GoIख़ILITG ना6ठ 6णr ? २ LlobGolलl GBILIL| (O+OmJOLDBOfloor OlLITGOiT छकoना LILLIqUIनDGB. 3 नOLIछछाoणfी७b JG GBILlOOLI LIIqLILIछDछIoणा LlobGolml @Iफ़l(J+DmछकOना ना@छIछ. 4 छ॰ofीL ILIU IoTI BBID LOफ़lLILIITgOILL6णr 8@ IUI CSV GकILlOLI ना(gloIफ़ mकI6णा 6OLIछफ़IठणT फlyoo६२ नाखछIक. 5 CSV GकILILlgJloToा छग+o@l @IQ@lनOLOLILIफ़mG LlooTLIpm BoloODLQUI @llफ़ी(कomBकOना ना@gIक. G!opunj नD६l छI 6कठाा 1 Python for Data Analysis, Data Wrangling with Pandas NumPy and IPython By William McKinney 2. CSV File Reading and Writing - Python 3.७.० documentation 3 https: Idocs python.org\n265\nनOLIछछIठठT Lopplb CSV GBILILJBनT\n१२th Computer Science_TM Chapter 1३ indd 2६5\n11-01-2023 12:39:57",
+      "text_nfc": "LGछ-@\nथIनDD6णा छंgl @flणाnBकGऊB७७ @f६oL UIनfl (३ ७oglLioLIनणor ) 1 ६OLIछ छIooflgJlठाToा open ( ) OlBUIpBo moomuimml GmLIL| न(छlछ. GLogib कछूण @ग्र॰णण G @Iफ़l yosomछoीठठ GoIDILIITGBo ठा ६ठा ६णा ? २ ग्रmछणणा Gol २ 6iTroा GBILLlob Iorpmuo OlBuIJLD. नOLIछछI6ठT Ily6o६D ना(छIक. 3 BImLJoToflooul छIा6णा ६OLDन२| LOplLILIT 6OTIT छ ठlछI6णग Goiroा CSV GBILILllooठoा LIQLILISOBIOOT GOLIछछIठठ फly६o६७ 6ा(छIक. 4 write Lmoio append mode (०om+oLDछनlठor GoIफ़ILITG नाठठा ठठा ? 5 reader( ) wopलio DictReader ) @JooL GUIUIITooT GoIलILITG ULIIT छl?\nLGछी-ा\nथ१६DDनणा छंgl @lनoाnBBGऊB७ू @f६oLUIनfl (५ ७oglLioLIनoo  1. ना छंठlनD६D Lompio CSV GBILILOoor GoIख़ILITG ना6ठ 6णr ? २ LlobGolलl GBILIL| (O+OmJOLDBOfloor OlLITGOiT छकoना LILLIqUIनDGB. 3 नOLIछछाoणfी७b JG GBILlOOLI LIIqLILIछDछIoणा LlobGolml @Iफ़l(J+DmछकOना ना@छIछ. 4 छ॰ofीL ILIU IoTI BBID LOफ़lLILIITgOILL6णr 8@ IUI CSV GकILlOLI ना(gloIफ़ mकI6णा 6OLIछफ़IठणT फlyoo६२ नाखछIक. 5 CSV GकILILlgJloToा छग+o@l @IQ@lनOLOLILIफ़mG LlooTLIpm BoloODLQUI @llफ़ी(कomBकOना ना@gIक. G!opunj नD६l छI 6कठाा 1 Python for Data Analysis, Data Wrangling with Pandas NumPy and IPython By William McKinney 2. CSV File Reading and Writing - Python 3.७.० documentation 3 https: Idocs python.org\n265\nनOLIछछIठठT Lopplb CSV GBILILJBनT\n१२th Computer Science_TM Chapter 1३ indd 2६5\n11-01-2023 12:39:57",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

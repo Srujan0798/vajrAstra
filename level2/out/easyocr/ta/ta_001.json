@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_001",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0001pro_raw.png",
+    "page_index": 0,
+    "width": 546,
+    "height": 452
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        546,
+        452
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "alnoonpol fgliTE . BidlrnLl ह्ं Jlatl ECalDE हघा <IaalalEiin BfLIniLILEID Dफ Qingiaiछा, ElEEauneठा LDaii El GJTLDTढJT OrursitparDuIr5 QU5फ़El Lव्ाlडशा फlaopeueo _eupoG ALजगLl, Elai eflawur Cuicset कJUम CIUDICI र +फर Gamutsmaies Oltsunoit CarmtcWle ~5|\"0 SIEIEISELEUEG Loapaom GlBsia Colarlc LSIGIEEI QFS Ee EEDघL5 Bव्ाड़lनIBDEIE ILEEPा G4UOL\"gD OचLEBOBiEऋभaा BTI रर्गं Q३ Bintliet PBIDE Gionels topgibo tpglFENOI CuTILILEeleा SIईl5flgEEl-\nJLLछकl@, IEelu S।रीकंा IelLLi QreluIn plaLl LECQD poioouireca ALLEtor (DILRMP) Epmin BiflrTh @U CDUlLBBSE Lषle Icnpn5छ५S ६ला Q=iIonGlogषl=् Gloui LEldनiD GUDounaroraoLD m।[II  क। ' trpplumiooel tele CIटLLIO ण[5)a110760 ccmu Lerfcsuflaloopel Dझaकाuaudls Olswsu_osDsts5 Irpluisoस @eoi Goi ECallE गlह्ना Elooaluuib GlBuIaug DEa wpmi GleuचflLiLeL EEवraoi CuDiLLOTregl Q SIlDDTLLrग्ग फa flaxo ClCEEeDCT ना्तीङा6 6ULOEI@@U3\"0. 1)@ flिछाICLII वना SUFS GU LlaCEनuipi Ollsaflm LulmaafleElpzl\nQpelu IDTp aractsD v७ dlflouo Opelu Dw o।macu QanLLS Jrcurकl LIOILr FOnau गफTIEGIET खगDवाघाळा 0GuiSizlin BIDprnLk+ Oळा_j॰ LIaSGTalnsn@ा Sटटएळ Caan\ngLटlDETh FaLl LIElCODEIJEETSJ LITLElEITLDT ETT +eILL SenEElal LUISILILe Lifli = OEn गाधा ecauo GugoksiLt ४alकn \nsiltpn G ploLl LISI G०l GlB६oना LaLLoi IDUIIOTTछछ॰ ITEEचा। Inmgito ElLLNElall BrflLInIEEGuto SEI QEnLITLITTEaा CBELELE हाचा OlattoLle olali DalD @gleunG फDlLE ZIएE Irplaछफीकंा plaLl LEGaDseer नातण =fLLILOEEUचTETEI Tmnd -7)058",
+      "text_nfc": "alnoonpol fgliTE . BidlrnLl ह्ं Jlatl ECalDE हघा <IaalalEiin BfLIniLILEID Dफ Qingiaiछा, ElEEauneठा LDaii El GJTLDTढJT OrursitparDuIr5 QU5फ़El Lव्ाlडशा फlaopeueo _eupoG ALजगLl, Elai eflawur Cuicset कJUम CIUDICI र +फर Gamutsmaies Oltsunoit CarmtcWle ~5|\"0 SIEIEISELEUEG Loapaom GlBsia Colarlc LSIGIEEI QFS Ee EEDघL5 Bव्ाड़lनIBDEIE ILEEPा G4UOL\"gD OचLEBOBiEऋभaा BTI रर्गं Q३ Bintliet PBIDE Gionels topgibo tpglFENOI CuTILILEeleा SIईl5flgEEl-\nJLLछकl@, IEelu S।रीकंा IelLLi QreluIn plaLl LECQD poioouireca ALLEtor (DILRMP) Epmin BiflrTh @U CDUlLBBSE Lषle Icnpn5छ५S ६ला Q=iIonGlogषl=् Gloui LEldनiD GUDounaroraoLD m।[II  क। ' trpplumiooel tele CIटLLIO ण[5)a110760 ccmu Lerfcsuflaloopel Dझaकाuaudls Olswsu_osDsts5 Irpluisoस @eoi Goi ECallE गlह्ना Elooaluuib GlBuIaug DEa wpmi GleuचflLiLeL EEवraoi CuDiLLOTregl Q SIlDDTLLrग्ग फa flaxo ClCEEeDCT ना्तीङा6 6ULOEI@@U3\"0. 1)@ flिछाICLII वना SUFS GU LlaCEनuipi Ollsaflm LulmaafleElpzl\nQpelu IDTp aractsD v७ dlflouo Opelu Dw o।macu QanLLS Jrcurकl LIOILr FOnau गफTIEGIET खगDवाघाळा 0GuiSizlin BIDprnLk+ Oळा_j॰ LIaSGTalnsn@ा Sटटएळ Caan\ngLटlDETh FaLl LIElCODEIJEETSJ LITLElEITLDT ETT +eILL SenEElal LUISILILe Lifli = OEn गाधा ecauo GugoksiLt ४alकn \nsiltpn G ploLl LISI G०l GlB६oना LaLLoi IDUIIOTTछछ॰ ITEEचा। Inmgito ElLLNElall BrflLInIEEGuto SEI QEnLITLITTEaा CBELELE हाचा OlattoLle olali DalD @gleunG फDlLE ZIएE Irplaछफीकंा plaLl LEGaDseer नातण =fLLILOEEUचTETEI Tmnd -7)058",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

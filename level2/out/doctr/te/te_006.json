@@ -1,0 +1,41 @@
+{
+  "page_id": "te_006",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series : 2LKNM\nSET 2 4\n(373 3180 SE\n57\n8550.\nQ.P. Code\nRoll No.\neseoroges (8 3les0 SESS savos S18s0 awsy\nX\n808 3es5s oOis.\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nSe5 / NOTE :\n88 (ESISO 56 esxyy 335 15 Jées éjair 856 wcod.\nPlease check that this question paper contains 15 printed pages.\n(II) 2018 (5 S185050 563S 32j5 W8 S1830 SE Noggns Saros 31850560 awg 518055\nbows.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III) 18 Woev 6518 308 38800508.\nPlease check that this question paper contains 18 questions.\n(IV) SarONONs ooboss swod (58 3185056 doogrssosss 303 Soggis oobol.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n(V) 88 (8 SES) Bosoos 15 aaarev Serowosto 28h08. (8 3(e5O 68obo 10.15\n0.0s aopescsesod. 10.15 Nod 10.30 38S5 Dorbges (8 SED 88as. 08 5005\nsavos 5185056 550 OOWSTCOD.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n8\nDeph -Beoms\nTELUGU - TELANGANA\n3a0bo : 3 Koeses\nawoo svooes : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n57 1127\nPage 1 of16\nP.T.O.",
+      "text_nfc": "Series : 2LKNM\nSET 2 4\n(373 3180 SE\n57\n8550.\nQ.P. Code\nRoll No.\neseoroges (8 3les0 SESS savos S18s0 awsy\nX\n808 3es5s oOis.\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nSe5 / NOTE :\n88 (ESISO 56 esxyy 335 15 Jées éjair 856 wcod.\nPlease check that this question paper contains 15 printed pages.\n(II) 2018 (5 S185050 563S 32j5 W8 S1830 SE Noggns Saros 31850560 awg 518055\nbows.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III) 18 Woev 6518 308 38800508.\nPlease check that this question paper contains 18 questions.\n(IV) SarONONs ooboss swod (58 3185056 doogrssosss 303 Soggis oobol.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n(V) 88 (8 SES) Bosoos 15 aaarev Serowosto 28h08. (8 3(e5O 68obo 10.15\n0.0s aopescsesod. 10.15 Nod 10.30 38S5 Dorbges (8 SED 88as. 08 5005\nsavos 5185056 550 OOWSTCOD.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n8\nDeph -Beoms\nTELUGU - TELANGANA\n3a0bo : 3 Koeses\nawoo svooes : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n57 1127\nPage 1 of16\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_074",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 8,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "@೦೦೦೦ಂ\n೧೧೨@ ಹಾ೨06336ಣ   (I@]ಹಿ೨@ menooorolಡelo6   ಉ@@m ]   3lೀelಹಂe ಇ೨@] ಇ೧ಉ]@ 6cಂ6n3? mSco:m ೨1[l Q೧ೂ೧೪6೧ ೧0ೂc6? ೨3Ro   ಡದಿ೨6m೨Qm೧೨6m . @9(೨(6/ ೨, ೧ಪಿ @Jಂ   (೧I@].ಾ೨@6 a( ುIಯಂ   6c56n33   ೧Sc6m@)   @o೧0   (J@)].ಿ೨@o 6೨I@am @0]mಃ ೧,೧0೧ /a@6m ೧೧೦ 0(I@Gcಿಂಯ633@8ಂs (೧I@]ಹಿಾ೨@o 6೨I@@I@lಹ6amೂ6೧m @o೧@೨೧ಖ !\nJWW.malayalamplus.com\neBooks-459-thiimaka]-23",
+      "text_nfc": "@೦೦೦೦ಂ\n೧೧೨@ ಹಾ೨06336ಣ   (I@]ಹಿ೨@ menooorolಡelo6   ಉ@@m ]   3lೀelಹಂe ಇ೨@] ಇ೧ಉ]@ 6cಂ6n3? mSco:m ೨1[l Q೧ೂ೧೪6೧ ೧0ೂc6? ೨3Ro   ಡದಿ೨6m೨Qm೧೨6m . @9(೨(6/ ೨, ೧ಪಿ @Jಂ   (೧I@].ಾ೨@6 a( ುIಯಂ   6c56n33   ೧Sc6m@)   @o೧0   (J@)].ಿ೨@o 6೨I@am @0]mಃ ೧,೧0೧ /a@6m ೧೧೦ 0(I@Gcಿಂಯ633@8ಂs (೧I@]ಹಿಾ೨@o 6೨I@@I@lಹ6amೂ6೧m @o೧@೨೧ಖ !\nJWW.malayalamplus.com\neBooks-459-thiimaka]-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

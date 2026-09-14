@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_088",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 18,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "h\n13.\nಈಕೆಳಗನಪೃಶೈಗಳಿಗಿಸಂದಭ೯ಹಾಗೂಸಾರಸೃದೊಡನಿಎವಂನಿಃ\n2X3-6\n\na\nಸಾಮಾಜಿಕಕಾನೂನುಗಳಹಂಕಾರ\nಅಥವಾ OR\nb.\nಅವಂಗಿಅವರವಕಿಪೃಜೆಯೇದೇವರಾಗತು\nii\na\nಹಸುರಾದುದುಕವಯಾತೃಂ\nಅಥವಾ OR\nb\nಜಾನಕಿಯಮಗನದಕಿಭೆದರುವನ\n14.\nಈಕೆಳಗನಪೃಶೈಗಳಿಗಿ೯-ಂವಾಕೃಗಳಲಿಉತಂನಿ\nI-\nಬ\nY\na\nಕವನದಲಂಗಯಃಹೇಳದಕತೆಯನುಬರೆಹುಹ\n೧\n೭\n\nಅಥವಾ OR\nb\nಯುದಬಂದ\nಆಗುವ\nಅನಾಹುತಗಳ\nಬಗೆ\nನಮ\nಅಭಪಾೃಯವನು\nಧ\nI\n\nಬರೆಹು೩\n15.\nಈಕೆಳಗನಪೃಶೈಗಳಿಗಿ೯-ಂವಾಗ.ಗಳಲಿಉತ೫ನಃ\nI-\n೭\nಇ\nI.\na\nನಾವಯಾವಸಂಕಲಕೆ\nಕೈಗೊಳಬೇಕೆಂಬುದುಕವಏವರುದೃಪನವರಆಶಯ\n\n\nಅಥವಾOR\nb\nಪಾಂಡವರುಸೋದರರೆಂದು ತಳದಾಗಕಣ೯ನಮನನು.ತಯನು.ತಳಿನ\n\n131S\n1?\nI",
+      "text_nfc": "h\n13.\nಈಕೆಳಗನಪೃಶೈಗಳಿಗಿಸಂದಭ೯ಹಾಗೂಸಾರಸೃದೊಡನಿಎವಂನಿಃ\n2X3-6\n\na\nಸಾಮಾಜಿಕಕಾನೂನುಗಳಹಂಕಾರ\nಅಥವಾ OR\nb.\nಅವಂಗಿಅವರವಕಿಪೃಜೆಯೇದೇವರಾಗತು\nii\na\nಹಸುರಾದುದುಕವಯಾತೃಂ\nಅಥವಾ OR\nb\nಜಾನಕಿಯಮಗನದಕಿಭೆದರುವನ\n14.\nಈಕೆಳಗನಪೃಶೈಗಳಿಗಿ೯-ಂವಾಕೃಗಳಲಿಉತಂನಿ\nI-\nಬ\nY\na\nಕವನದಲಂಗಯಃಹೇಳದಕತೆಯನುಬರೆಹುಹ\n೧\n೭\n\nಅಥವಾ OR\nb\nಯುದಬಂದ\nಆಗುವ\nಅನಾಹುತಗಳ\nಬಗೆ\nನಮ\nಅಭಪಾೃಯವನು\nಧ\nI\n\nಬರೆಹು೩\n15.\nಈಕೆಳಗನಪೃಶೈಗಳಿಗಿ೯-ಂವಾಗ.ಗಳಲಿಉತ೫ನಃ\nI-\n೭\nಇ\nI.\na\nನಾವಯಾವಸಂಕಲಕೆ\nಕೈಗೊಳಬೇಕೆಂಬುದುಕವಏವರುದೃಪನವರಆಶಯ\n\n\nಅಥವಾOR\nb\nಪಾಂಡವರುಸೋದರರೆಂದು ತಳದಾಗಕಣ೯ನಮನನು.ತಯನು.ತಳಿನ\n\n131S\n1?\nI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

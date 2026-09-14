@@ -1,0 +1,41 @@
+{
+  "page_id": "te_087",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0003pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "DL\n11/S\n(ii) JOENOEDOSU awesodo esonsa ) 20? -\n(A) assessdes\n(B) SSNS esodgs\n(C) 3000er08 DoGNsae\n(D) A,C\n(iii) JNOn essogest 0000 daues? ?\n(A) 25a0 San a0 deress Doddo\n(B) WSJes, 2s20r0s Navosege\n(C) sseegess)on6o\n(D) Boo08eved\n(iv) ad SaNo a0 deress DOG0650OG\nGododso essowauga\n(A) TONJO 200baen\n(B) coasawwoed\n(C) Sosgaes\n(D) 3050058 200gev\n(v) awesodo'- 08 220Os esgo OObod\n(A) wososo\n(B) Was eswoo\n(C) Waugoso\n(D) 13091663000o\nSos (OR)\nPage 5 of 19\nP.T.O.",
+      "text_nfc": "DL\n11/S\n(ii) JOENOEDOSU awesodo esonsa ) 20? -\n(A) assessdes\n(B) SSNS esodgs\n(C) 3000er08 DoGNsae\n(D) A,C\n(iii) JNOn essogest 0000 daues? ?\n(A) 25a0 San a0 deress Doddo\n(B) WSJes, 2s20r0s Navosege\n(C) sseegess)on6o\n(D) Boo08eved\n(iv) ad SaNo a0 deress DOG0650OG\nGododso essowauga\n(A) TONJO 200baen\n(B) coasawwoed\n(C) Sosgaes\n(D) 3050058 200gev\n(v) awesodo'- 08 220Os esgo OObod\n(A) wososo\n(B) Was eswoo\n(C) Waugoso\n(D) 13091663000o\nSos (OR)\nPage 5 of 19\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

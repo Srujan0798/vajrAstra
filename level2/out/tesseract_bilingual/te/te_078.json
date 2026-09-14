@@ -1,0 +1,41 @@
+{
+  "page_id": "te_078",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0078pro_raw.pdf",
+    "page_index": 74,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(IID) సంయోగ నియమం (Componendo) ఒకవేళ\n\na\nగి\n_ c\nd\natl (ఇరువైపుల 19 కలుపగా)\n\nat+tb_ctd\nb d\na+b ct\n\nఒకవేళ ర అయిన క్‌ — అవుతుంది. ఈ ధర్మమును “సంయోగ నియమం” అంటారు.\n\n+\n\nela FIs\nLoy\n\na-b_c-d\nb d\n\n(IV) వియోగ నియమం (Dividendo) ఒకవేళ అయిన అవుతుంది.\n\na_c\nbod\n\n-1 (ఇరువైపుల 19 తీసివేయగా)\n\nac a-b_c-d\nbd 2? bd\n\nఒకవేళ అవుతుంది. ఈ ధర్మమును “వియోగ నియమం” అంటారు.\n\na+b ct+d\na-b c-d\n\nఅయిన ,a#b, c#d\n\nac\n(V) సంయోగ-వియోగ నియమం (Componendo-dividendo) ఒకవేళ bd\n\nఅవుతుంది.\n\n= a+b _ct+d (సంయోగ నియమం ప్రకారం) ....(1)\nb d\n\n— = > (వియోగ నియమం ప్రకారం) ....(2)\na+b _ct+d\n\na-b 6-6\n\nఒకవేళ\n\nఅయిన\n\nరాష\nషి ౧\nదా\nగా\nషి\n\n(1) మరియు (2) లను బట్టి\n\na_c a+b _ct+d\nఒకవేళ /ె/7లయున re\n\nసంయోగ నియమం మరియు వియోగ నియమాల సాధారణ రూపం\n\nఅవుతుంది. ఈ ధర్మమును “సంయోగ-వియోగ నియమం” అంటారు.\n\nఒకవేళ కా అయినచో a+b _crd\nbod b d\n\na+2b_c+2d\nb d\na+mb_ct+md\n\nb d\nac a-mb c-—md\nఅదే విధంగా ఒకవేళ అ च् घर అయనచో bd (M సార్లు వియోగ నియమం ప్రకారం) ...(2)\n\n(ఒకసారి సంయోగ నియమం ప్రకారం)\n\n(రెండుసార్లు సంయోగ నియమం ప్రకారం)\n\nసాధారణంగా (M సార్లు సంయోగ నియమం ప్రకారం) ...(1)\n\na Cc\nమరియు ఒకవేళ P= GF అయనలో atmb _c+md ((1) మరియు (2) లను బట్టి భాగించగా)\n\nd a-mb c-md\n\n",
+      "text_nfc": "(IID) సంయోగ నియమం (Componendo) ఒకవేళ\n\na\nగి\n_ c\nd\natl (ఇరువైపుల 19 కలుపగా)\n\nat+tb_ctd\nb d\na+b ct\n\nఒకవేళ ర అయిన క్‌ — అవుతుంది. ఈ ధర్మమును “సంయోగ నియమం” అంటారు.\n\n+\n\nela FIs\nLoy\n\na-b_c-d\nb d\n\n(IV) వియోగ నియమం (Dividendo) ఒకవేళ అయిన అవుతుంది.\n\na_c\nbod\n\n-1 (ఇరువైపుల 19 తీసివేయగా)\n\nac a-b_c-d\nbd 2? bd\n\nఒకవేళ అవుతుంది. ఈ ధర్మమును “వియోగ నియమం” అంటారు.\n\na+b ct+d\na-b c-d\n\nఅయిన ,a#b, c#d\n\nac\n(V) సంయోగ-వియోగ నియమం (Componendo-dividendo) ఒకవేళ bd\n\nఅవుతుంది.\n\n= a+b _ct+d (సంయోగ నియమం ప్రకారం) ....(1)\nb d\n\n— = > (వియోగ నియమం ప్రకారం) ....(2)\na+b _ct+d\n\na-b 6-6\n\nఒకవేళ\n\nఅయిన\n\nరాష\nషి ౧\nదా\nగా\nషి\n\n(1) మరియు (2) లను బట్టి\n\na_c a+b _ct+d\nఒకవేళ /ె/7లయున re\n\nసంయోగ నియమం మరియు వియోగ నియమాల సాధారణ రూపం\n\nఅవుతుంది. ఈ ధర్మమును “సంయోగ-వియోగ నియమం” అంటారు.\n\nఒకవేళ కా అయినచో a+b _crd\nbod b d\n\na+2b_c+2d\nb d\na+mb_ct+md\n\nb d\nac a-mb c-—md\nఅదే విధంగా ఒకవేళ అ च् घर అయనచో bd (M సార్లు వియోగ నియమం ప్రకారం) ...(2)\n\n(ఒకసారి సంయోగ నియమం ప్రకారం)\n\n(రెండుసార్లు సంయోగ నియమం ప్రకారం)\n\nసాధారణంగా (M సార్లు సంయోగ నియమం ప్రకారం) ...(1)\n\na Cc\nమరియు ఒకవేళ P= GF అయనలో atmb _c+md ((1) మరియు (2) లను బట్టి భాగించగా)\n\nd a-mb c-md\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

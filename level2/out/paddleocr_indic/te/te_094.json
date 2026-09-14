@@ -1,0 +1,41 @@
+{
+  "page_id": "te_094",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0010pro_raw.pdf",
+    "page_index": 48,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "() 3epfaie qoi eh.\n(37)\nHoT cR o (3\nHiReTe dcOR ammn\nfafae idm ao\nGUI\nHRa\nHTOT\no\n0\n\n\n\n\n()\n3mait fel.\n(37) d a  d  -\n(31)a  aiea H-\n(₹)\nERM HRr u -\n(ξ)\nHIRTHE (eH-\n(3)\nHieT4He 34dd 12d-\n(3)\nHRRT4E ER 31 -\n(8)\nence dohl qoi a.\n(4) amm Pocid fin 3o a drl yi a.\n31.πh.\n37chaa\nfin\nTohaat\n31.πh.\n210G\n(&)\nRTEE\n(8)\nHErde\n(?)\nTG1\n()\nమs\n()\n413\n(²)\nghe\n(8)\nST\n(8)\nye\n(adm Pao Pocia fau.\nPafich 210G\nfaue\n() TATGt\n() ^y4\n(3) rarT\n(8) HTuTei\n4) 414yue\n(9)\nFahd.\n3)  i ad , e  .\n(311)  d a 3sdm rna (o   .\n34sh : 3  4 3  fE.\n***\nAS4HGG\n38",
+      "text_nfc": "() 3epfaie qoi eh.\n(37)\nHoT cR o (3\nHiReTe dcOR ammn\nfafae idm ao\nGUI\nHRa\nHTOT\no\n0\n\n\n\n\n()\n3mait fel.\n(37) d a  d  -\n(31)a  aiea H-\n(₹)\nERM HRr u -\n(ξ)\nHIRTHE (eH-\n(3)\nHieT4He 34dd 12d-\n(3)\nHRRT4E ER 31 -\n(8)\nence dohl qoi a.\n(4) amm Pocid fin 3o a drl yi a.\n31.πh.\n37chaa\nfin\nTohaat\n31.πh.\n210G\n(&)\nRTEE\n(8)\nHErde\n(?)\nTG1\n()\nమs\n()\n413\n(²)\nghe\n(8)\nST\n(8)\nye\n(adm Pao Pocia fau.\nPafich 210G\nfaue\n() TATGt\n() ^y4\n(3) rarT\n(8) HTuTei\n4) 414yue\n(9)\nFahd.\n3)  i ad , e  .\n(311)  d a 3sdm rna (o   .\n34sh : 3  4 3  fE.\n***\nAS4HGG\n38",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

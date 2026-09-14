@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_015",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 240,
+    "width": 1103,
+    "height": 1451
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1103,
+        1451
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "金023一\nn  rion\n11 19\n1605\n7.147\nNo.402.\n0022J0).\n\nooo l lon.\nSea\nwresc.\n10\nGmnasooaj:\n200.00.27.100222101000\n9\nDolread.\n8\n02900010-1929.\n000-1500\n6\n9\n5\nPrinted at\n8\nThe Mangalodayam Press,\n4\nTrichur.\nPrice 1-0-0\naile 1_0_0.\n3\n6\n(Copyright to the author.)\n2\n5\n0\n3\ncm\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n2\ngpura.org\n2\n3\n4\n5\n9\nL\n8\n6\n10\n11\n12\n13\n14\n15\n16\n17\n18",
+      "text_nfc": "金023一\nn  rion\n11 19\n1605\n7.147\nNo.402.\n0022J0).\n\nooo l lon.\nSea\nwresc.\n10\nGmnasooaj:\n200.00.27.100222101000\n9\nDolread.\n8\n02900010-1929.\n000-1500\n6\n9\n5\nPrinted at\n8\nThe Mangalodayam Press,\n4\nTrichur.\nPrice 1-0-0\naile 1_0_0.\n3\n6\n(Copyright to the author.)\n2\n5\n0\n3\ncm\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n2\ngpura.org\n2\n3\n4\n5\n9\nL\n8\n6\n10\n11\n12\n13\n14\n15\n16\n17\n18",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

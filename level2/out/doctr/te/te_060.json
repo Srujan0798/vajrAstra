@@ -1,0 +1,41 @@
+{
+  "page_id": "te_060",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0060pro_raw.pdf",
+    "page_index": 115,
+    "width": 1661,
+    "height": 2218
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1661,
+        2218
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aItOg O9D659S000 sdo Dosbegos 888 SS Soig, 3E3-411 004.\nA a\nS Rgj Tifurd 3.627\nR 41.00\nx+ 4x2-2x+7\n000 - 00000\nt4+7t 80\n000 00000\nMi\nM7\nM\nMer\nMG\nM\nI -\nAN\n-\nN\nM\nM\n-\n",
+      "text_nfc": "aItOg O9D659S000 sdo Dosbegos 888 SS Soig, 3E3-411 004.\nA a\nS Rgj Tifurd 3.627\nR 41.00\nx+ 4x2-2x+7\n000 - 00000\nt4+7t 80\n000 00000\nMi\nM7\nM\nMer\nMG\nM\nI -\nAN\n-\nN\nM\nM\n-\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_059",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0059pro_raw.pdf",
+    "page_index": 87,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "28 8ono\n(ROSS estod 0856 Joésen JOSO soaor Jooesta. 3oe556 Sorpos Sonev\ndo0 SJes Nod AT.)\n185 80X\n: adob! KOnJ! 2586 geu3s Sni 2 éwaaa Wto.\nA\n285 SoX\n: (ade aew Nod Son W) aNo! 2e3 srnns. 2J0 soaor\nJoesew Jocwes Scannya!\n38 SoX\n: asya SNNTGO? d5 goSsOno JLES\n-\ndnyor?\n28 8oX\n: (5030 S0 SMT) e.. esyd aronycs.\n38 80X\n: eawd aoto SOSSeN SNOOs J0JENISJES. JO 8X8 coaryjew S56O\nJoesaw.\n185 80X\n: eave.. Wlo 350 segsooens.\n25 SoX\n: Sss wô coery eSyOs.\n305 8oX\n: wta 28080 28n8 350 Stes.\n(sorpos\nSorev ao essssesra\nC 3\nBoONs coerjew estoyo. egogos 2J°T Se3 esyho Scns 28 Jgg).\n38 8ono\n(ROSNS Beyjeg Boose swoeveso n\nboes Soessess as Jad ecwr SCs).\nDgADDO\n: 000e56! 586 SJoA 35ec600doe3? 530 bolwodery!! (eoéso ad0\n29S Jgpcs).\nSods\n: (sweones) Oso.. aNO...\nDgADrB\n: eary! 880 2556 Se3 sonsesnyo. 3 X\nSey ecorpesncss. b0 Bais)?\neawno JSOOSO Sas8 2a.. (eoéso Keneso 32 doots)\n(NOëS awehes boesto... 88500 55638 as posoesta s0so\n38 ShJO essw SCONJOesCs.)\nossocsts : 60500S WSS8S0 : 058050 SOsOD 2380307 S058S N3SOSW\naoasys Sood 30,8 DoE!\nBo0s)\n: (ne3ro sweyes) owo.. ONO...\nossocsto : Dooeso awevr.. ONO... OWO esoeaa5@.. 3J2\nN00S)\n: ONO... Sec Segy\nossocsts : eayy! 80SE! Sesy econsesncs. 5 Soxe 3056 Begew ONE!\neavnsts No 200s? SyaeDto! 350 5a8 Sesy JodOss a.(eoea\n8088 9088n 300600s)\n78",
+      "text_nfc": "28 8ono\n(ROSS estod 0856 Joésen JOSO soaor Jooesta. 3oe556 Sorpos Sonev\ndo0 SJes Nod AT.)\n185 80X\n: adob! KOnJ! 2586 geu3s Sni 2 éwaaa Wto.\nA\n285 SoX\n: (ade aew Nod Son W) aNo! 2e3 srnns. 2J0 soaor\nJoesew Jocwes Scannya!\n38 SoX\n: asya SNNTGO? d5 goSsOno JLES\n-\ndnyor?\n28 8oX\n: (5030 S0 SMT) e.. esyd aronycs.\n38 80X\n: eawd aoto SOSSeN SNOOs J0JENISJES. JO 8X8 coaryjew S56O\nJoesaw.\n185 80X\n: eave.. Wlo 350 segsooens.\n25 SoX\n: Sss wô coery eSyOs.\n305 8oX\n: wta 28080 28n8 350 Stes.\n(sorpos\nSorev ao essssesra\nC 3\nBoONs coerjew estoyo. egogos 2J°T Se3 esyho Scns 28 Jgg).\n38 8ono\n(ROSNS Beyjeg Boose swoeveso n\nboes Soessess as Jad ecwr SCs).\nDgADDO\n: 000e56! 586 SJoA 35ec600doe3? 530 bolwodery!! (eoéso ad0\n29S Jgpcs).\nSods\n: (sweones) Oso.. aNO...\nDgADrB\n: eary! 880 2556 Se3 sonsesnyo. 3 X\nSey ecorpesncss. b0 Bais)?\neawno JSOOSO Sas8 2a.. (eoéso Keneso 32 doots)\n(NOëS awehes boesto... 88500 55638 as posoesta s0so\n38 ShJO essw SCONJOesCs.)\nossocsts : 60500S WSS8S0 : 058050 SOsOD 2380307 S058S N3SOSW\naoasys Sood 30,8 DoE!\nBo0s)\n: (ne3ro sweyes) owo.. ONO...\nossocsto : Dooeso awevr.. ONO... OWO esoeaa5@.. 3J2\nN00S)\n: ONO... Sec Segy\nossocsts : eayy! 80SE! Sesy econsesncs. 5 Soxe 3056 Begew ONE!\neavnsts No 200s? SyaeDto! 350 5a8 Sesy JodOss a.(eoea\n8088 9088n 300600s)\n78",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

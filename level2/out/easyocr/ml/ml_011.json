@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_011",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0012pro_raw.png",
+    "page_index": 0,
+    "width": 385,
+    "height": 564
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        385,
+        564
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "099@)0\n[)7+I00b0)4)9|]c1|^\"!)0]0 wllntralne\" 0(0%74007 dblrel0e[642-7 Ola lolaemtlo  rmrnpeed Wlral :wtaniailino %य+'0)0)000/|% Tukk/le dlLAVग\"\"0 (0^-4\"* *0!24005+0%010029 llaalle t%b\"ll) 0006u2 J5)गाm ]mcull lu rrlltunmilemttiludiorkolllte  mio oruonlanilmol 2zraotal Oimmimraillltsime 4[0101019 nlrl%]e4 116<*1\"124* umalllJ Lanulmiuonlull oilwd opaonnmaoााi 7\"07 489 alitinl Glotulmlrn 04.|2:0%20 ilezmDJIL Tlinnn Ptraamlanttin n mfuDual-llwl 217[1[ Ial5lmpuo OLotllTrDg 3o5\"+ २२n Katolin Trilanty Alolilirul Jtulrs \"\"+[r +.02121 \"117[10 Umllh7 Do n JlYUUI udoa 0 il[laotlult Dulot  mot eaacl slua्. \"77^701 tlSlDIaIon nlel omlm Bimlmallute aoadea3a ~६ २ ७umu&ouurila ml दह0PEallnoile parulhihaoa Wlonwwuarl Pu alromio mirr 7,+2.7\"00 +* Jollad% 5luetUacod mtonilos ए TalnAlb!P elolaflad rlcoraoi esamuo3ruu.)[00 pnr Inimloara Ia Dla ninlolimk |[7%[7101[ 0]@5? mlmacaीत vnl8 Iele]माईं mlaio umine 1D50-[9 mophaloआe @!(9!4 7+0t0041;30 Imaoltdrl n7halhlutTmh Innul Zoudinzom aruoierar rale e 2iapi mlunlel   rutamod Dाt TODIDEJढn- nial%] Ireha e aoralnrunaon Caan%lsleiaad %9(77 2440>121\"-[ )5wali 7|0|\",1010[!' aाla SOIUC 0r02{\" omuol Joslaia mnaoirmp Dगoootoci aio pcbsJslm IaJminui= cla WotT 0]-0*7- mm \"l7 n oralpe Ewa20 m AToltin ? crD- d5la\"2क @ lmmial  not e!Jonumnbm mp- talnhnuiotlal 0mocunlai] asinflad . तiaitrtiui 1i:01) +ho D२i a]~ृ- raaocd OonaiTudad *lelc२0० ाट OUotTmla Gmoziav eruolascom motatrsacort तtlal emuoladooTi Glnoime nlanlai To) Unlernoo Dwvaane I15u0\"0 णा'50 1+9| घणur[Iन 0 tpumcalai wnlrtsorird ग़ouoluru llal nilnipozud aoalcaJsa7lwcalla 735\"0- Giacoapo ioooimlel2 enioad rltaalint miskoloog   moociin \"701[\"08- mltc uelttramt फlTnT-- lJPlo ATaralcen tuawl 0 do२mno dl5lipml teloalcmaogy  raooud Blalol# =00शा [DaD0. nlurlai |14%?.900 +-0^][\"7 +,1;]0002+\".|0 rda  mv musholasoin lonlenOucc ]गई. Jooclmrar३ TEra tmarailca oniaul arlpyneglea [m]6[|[ ecpe Teueteaael",
+      "text_nfc": "099@)0\n[)7+I00b0)4)9|]c1|^\"!)0]0 wllntralne\" 0(0%74007 dblrel0e[642-7 Ola lolaemtlo  rmrnpeed Wlral :wtaniailino %य+'0)0)000/|% Tukk/le dlLAVग\"\"0 (0^-4\"* *0!24005+0%010029 llaalle t%b\"ll) 0006u2 J5)गाm ]mcull lu rrlltunmilemttiludiorkolllte  mio oruonlanilmol 2zraotal Oimmimraillltsime 4[0101019 nlrl%]e4 116<*1\"124* umalllJ Lanulmiuonlull oilwd opaonnmaoााi 7\"07 489 alitinl Glotulmlrn 04.|2:0%20 ilezmDJIL Tlinnn Ptraamlanttin n mfuDual-llwl 217[1[ Ial5lmpuo OLotllTrDg 3o5\"+ २२n Katolin Trilanty Alolilirul Jtulrs \"\"+[r +.02121 \"117[10 Umllh7 Do n JlYUUI udoa 0 il[laotlult Dulot  mot eaacl slua्. \"77^701 tlSlDIaIon nlel omlm Bimlmallute aoadea3a ~६ २ ७umu&ouurila ml दह0PEallnoile parulhihaoa Wlonwwuarl Pu alromio mirr 7,+2.7\"00 +* Jollad% 5luetUacod mtonilos ए TalnAlb!P elolaflad rlcoraoi esamuo3ruu.)[00 pnr Inimloara Ia Dla ninlolimk |[7%[7101[ 0]@5? mlmacaीत vnl8 Iele]माईं mlaio umine 1D50-[9 mophaloआe @!(9!4 7+0t0041;30 Imaoltdrl n7halhlutTmh Innul Zoudinzom aruoierar rale e 2iapi mlunlel   rutamod Dाt TODIDEJढn- nial%] Ireha e aoralnrunaon Caan%lsleiaad %9(77 2440>121\"-[ )5wali 7|0|\",1010[!' aाla SOIUC 0r02{\" omuol Joslaia mnaoirmp Dगoootoci aio pcbsJslm IaJminui= cla WotT 0]-0*7- mm \"l7 n oralpe Ewa20 m AToltin ? crD- d5la\"2क @ lmmial  not e!Jonumnbm mp- talnhnuiotlal 0mocunlai] asinflad . तiaitrtiui 1i:01) +ho D२i a]~ृ- raaocd OonaiTudad *lelc२0० ाट OUotTmla Gmoziav eruolascom motatrsacort तtlal emuoladooTi Glnoime nlanlai To) Unlernoo Dwvaane I15u0\"0 णा'50 1+9| घणur[Iन 0 tpumcalai wnlrtsorird ग़ouoluru llal nilnipozud aoalcaJsa7lwcalla 735\"0- Giacoapo ioooimlel2 enioad rltaalint miskoloog   moociin \"701[\"08- mltc uelttramt फlTnT-- lJPlo ATaralcen tuawl 0 do२mno dl5lipml teloalcmaogy  raooud Blalol# =00शा [DaD0. nlurlai |14%?.900 +-0^][\"7 +,1;]0002+\".|0 rda  mv musholasoin lonlenOucc ]गई. Jooclmrar३ TEra tmarailca oniaul arlpyneglea [m]6[|[ ecpe Teueteaael",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

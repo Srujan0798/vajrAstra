@@ -1,0 +1,41 @@
+{
+  "page_id": "te_024",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0024pro_raw.pdf",
+    "page_index": 36,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "माइया टोष्या दया\nमला नकोच\nनाही देणार\nआता ਸੀ टोप्या जमा करतो ਸੀ जातो",
+      "text_nfc": "माइया टोष्या दया\nमला नकोच\nनाही देणार\nआता ਸੀ टोप्या जमा करतो ਸੀ जातो",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

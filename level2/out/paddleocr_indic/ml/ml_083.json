@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_083",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 5,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(ii)\nS?\n(A) CMOd\n(B) \n(C) Moso\n(D) \n()().\nO?\n(A) S2OMO\n(B)\n(C) cos mlenl 2mooleo\n6m\n(D)MO\n(ii)\n?\n(A)\n(B) 15 23\n\n(C)\nD\nml leoso [Section : B]\n5a,\n[2x1=2]\n(i)1\nBMS.\n(i)S \nBOCLM.\n\n[2x1=2]\n(i)S2)\n.\n)\n\nBom.\n(c) LCSo O\n[2x1=2]\ni)\n20\n(\n(d\nm\nGOOS\n[2x1=2]\n(i)\n(ii)\n(iii)\na)\n\n[5]\n(A)SOOOMB\n1ria\n2\n(B)2O22WJ2g\n6",
+      "text_nfc": "(ii)\nS?\n(A) CMOd\n(B) \n(C) Moso\n(D) \n()().\nO?\n(A) S2OMO\n(B)\n(C) cos mlenl 2mooleo\n6m\n(D)MO\n(ii)\n?\n(A)\n(B) 15 23\n\n(C)\nD\nml leoso [Section : B]\n5a,\n[2x1=2]\n(i)1\nBMS.\n(i)S \nBOCLM.\n\n[2x1=2]\n(i)S2)\n.\n)\n\nBom.\n(c) LCSo O\n[2x1=2]\ni)\n20\n(\n(d\nm\nGOOS\n[2x1=2]\n(i)\n(ii)\n(iii)\na)\n\n[5]\n(A)SOOOMB\n1ria\n2\n(B)2O22WJ2g\n6",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

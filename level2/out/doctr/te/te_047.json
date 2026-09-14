@@ -1,0 +1,41 @@
+{
+  "page_id": "te_047",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0047pro_raw.pdf",
+    "page_index": 24,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4. - aa8 eesos\n4.1 eswod eeses\nas eses awas Sorens eéeson So5ses as Soesod espoostn eswog eésev 808\n\nSaseceraw. 88 eswog eéonon Bc Sderre ars J os edonewod. as 3dego8 esess6s esodo,\nesaso doosays.\nSeoe\n1) 2807 S066 epoS egeorres Ze5 Sostoo.\n2) Soew 35555 280 eseores Ze5 Sooto.\n3) 30 sedseggiss seyswes.\n4) so8 bosocons Seyswes.\n5) Stasiuss Seysses.\n356 - 356\n1) 353063 356 quyes.\n2) Juadso soneges.\n3) escorres Jowtosses.\n4) eeomd 8856 soneves.\n5) eseomes aarojes.\nSSOEETE\n1) Soss Stwes (essyev SsSOGs) sonseyes.\n2) eemos 208 as00so soneses.\n3) ntos C 383305 g0o5 S'exges.\n4) egos 23603 3355 20 S80500 25 Sosves.\n5) n5 35 (essng) 885 Se3:5 2000 ecoswes.\n16 escooro, Soro, S0yso0o I",
+      "text_nfc": "4. - aa8 eesos\n4.1 eswod eeses\nas eses awas Sorens eéeson So5ses as Soesod espoostn eswog eésev 808\n\nSaseceraw. 88 eswog eéonon Bc Sderre ars J os edonewod. as 3dego8 esess6s esodo,\nesaso doosays.\nSeoe\n1) 2807 S066 epoS egeorres Ze5 Sostoo.\n2) Soew 35555 280 eseores Ze5 Sooto.\n3) 30 sedseggiss seyswes.\n4) so8 bosocons Seyswes.\n5) Stasiuss Seysses.\n356 - 356\n1) 353063 356 quyes.\n2) Juadso soneges.\n3) escorres Jowtosses.\n4) eeomd 8856 soneves.\n5) eseomes aarojes.\nSSOEETE\n1) Soss Stwes (essyev SsSOGs) sonseyes.\n2) eemos 208 as00so soneses.\n3) ntos C 383305 g0o5 S'exges.\n4) egos 23603 3355 20 S80500 25 Sosves.\n5) n5 35 (essng) 885 Se3:5 2000 ecoswes.\n16 escooro, Soro, S0yso0o I",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_050",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8.\nomloleojm 08008leJo ogm Ga1D6160130006) 20000 0090)d.\n3x3=9\n(a)\n210943:100016OQ/6moggmunao BÔB)00\nGeMom.orolamaaleal.eleojmo) Gonoe\nopeDnolms aolomono GendQn-\nopeeper Bolom) GB000681300 GOSI\nmumdso, GOUOQo nomloi alcos00e0) ?\n(b)\n\"G10006m 00108 0OG010060000000600000m0-\nOlcojond d060p 06oggpaloemlacy\" momdso aloosloola)\nQologloe mUDDnold Olodcomo alodemo 00100 0090)0 ?\n(c)\n(noolGo)s Boldom DOMOI gloloo 6306m.OT0aJox\nQ1OGQ.100.80)0D00060306830mo0m '6306m0)9010) nom boloold8\nmlom 6663001 MUIOOo QDajoroldd 0090)0.\n(d)\n(108:005106101060 ofloonss)-\n(OYOXTD6TD6T0T0) 0)0063308 008 modd\"\nGOCOJ0.0J30023026000 aldoldd GO0lo8 mlom6006d00om\nmdovldroloopes)m 001060 alloones)oro.0) ?\n12\n15\n[]",
+      "text_nfc": "8.\nomloleojm 08008leJo ogm Ga1D6160130006) 20000 0090)d.\n3x3=9\n(a)\n210943:100016OQ/6moggmunao BÔB)00\nGeMom.orolamaaleal.eleojmo) Gonoe\nopeDnolms aolomono GendQn-\nopeeper Bolom) GB000681300 GOSI\nmumdso, GOUOQo nomloi alcos00e0) ?\n(b)\n\"G10006m 00108 0OG010060000000600000m0-\nOlcojond d060p 06oggpaloemlacy\" momdso aloosloola)\nQologloe mUDDnold Olodcomo alodemo 00100 0090)0 ?\n(c)\n(noolGo)s Boldom DOMOI gloloo 6306m.OT0aJox\nQ1OGQ.100.80)0D00060306830mo0m '6306m0)9010) nom boloold8\nmlom 6663001 MUIOOo QDajoroldd 0090)0.\n(d)\n(108:005106101060 ofloonss)-\n(OYOXTD6TD6T0T0) 0)0063308 008 modd\"\nGOCOJ0.0J30023026000 aldoldd GO0lo8 mlom6006d00om\nmdovldroloopes)m 001060 alloones)oro.0) ?\n12\n15\n[]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

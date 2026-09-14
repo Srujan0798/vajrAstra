@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_049",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 117,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "fohti, THAR ait TiVel\n217\naa 8\nSTRA N FTat dà 3T5?\nvialit CHIRIT t da (affr t da VR 3TeTRd) # fafenad 3727 7 E7 Ydl Tridl à fon\nTIAT HIHNY N fahdit STRT HIFIT 7 CI6T # ET 371 RET 2:\n(JI) HIHNY cht er7-uyfd chl 3791511 CHIT * fey H1och FT ald VR TR shti fen SfTEIT\nR 7i faart allcil HRI HIT-7A 3TfERChR 767 TET vlldi ài 7 Hq wlad à foh EHchl agr\nAST fereHl 374fchT # 3Tdl à 3i 71y t thE Tiveni # ad EU, (EHchT) 21S7-H forl thE\ndRE cht aeganl 4 fey geht 7 vildi :; 3i7 21ST-HT fornl TRTH t fey ferT ad EU ThRH\nVgual ài 370 TToF geht CTT chiyht # 3111 T6 TF Hohd, 477 for 37HI7 3ir 3RIGRIT # Strdt\nà. (3ir) 7 a YRH, 3RIge 377 gehT (t CIT) STRA cht aegait 4 fart TE Hohd ài\n(à) YET cht fariel HIFI cllet HR VR dart HST t YRI frerd TIET stord :; (seft RRE\nà 7 YET) TRH cht arst TR frerd CHRI gord t CG 7 7 (HRT vyfa) VElTl d FTI\n(fegtift) S777 47 viit ài STRdry valuil t 3Te1ql 47 E7, 3i1oft 3it yrilreit JEIT E HIT\nEAKIFT chl aege rieht T1 TEERT (PITHR t faed), RIH (2TeIS), Hieit sicicht)...\nHiida t 2y Hiulisigh 377 3TRI SHC 1 vird à (5-a volail chl) farad de VR dgd\nHRT HT-7 57 7RI1 # Toht AEi (fageift) VEEIFT usdl ài ai Ho ghs, 477 Eq CT\nV147 cht ari # BIfHeT chrd à T7-HOR EGTEdF (ch1) TT vildi :; 3it 767 # TRTy cht\nTt aleit HRT aRgy, EId at Yhit VTT ZT steis AT yrillei, Taft Tch7 7i TiAt vilit à 477\n(7chg) dal (fagedt #) TE vidi ài\n8. 30 thud cht 31157-7-31chaR\n3157-7-31haR7 3chst t aiohrUT t Uch dgd ds iidelfueh\nait mirfch YReIHT chl Tdloil eft forticht foTeHT AGIE\n3ThOR t E94 VR 3gr7 Yhurt + 301 2TTI 3ThOR 4 RYT t\naeitd qof, 1598 € 7, 47 TiRTTerTt 4 alG, Et AT fahel\nTATI 3157 EfdaRt fetart t Uch t4 JETR YReISl chl forHl\neft foticht 4607 3chOR * cht 27t1 ET YREISHT oT YRUTTH 2\n37chOR-IHT fort da foirai 7 TEl TRITI Yerit 7 fueai +\nufdalfuch GREdIT 4RT chil 57 farii VR EH 3782114 9 7 TYIIGT\nchriat TUR SITTI drent fuee, 3157-7-31h4R1, chl FTTeT fret\nChIFFT 4 HRIST 3it HIHNY 4 Uoh 79147 cht ERd 7i Hiohferd\nfohel TRIT 2TI\n357 che HHoTt VR farR # daf chrat à : FroR, YRIRNT\nait #T chT #187; Tiufa t ua 377 3TchaRt HIHIY t giai\nohT TieT; 37R crnT 4 Hifafrych, Hitghldch a eftich fralil\n37chO chl HROhR 4 THIH fasril 3it giai (zail) 4 GR 7",
+      "text_nfc": "fohti, THAR ait TiVel\n217\naa 8\nSTRA N FTat dà 3T5?\nvialit CHIRIT t da (affr t da VR 3TeTRd) # fafenad 3727 7 E7 Ydl Tridl à fon\nTIAT HIHNY N fahdit STRT HIFIT 7 CI6T # ET 371 RET 2:\n(JI) HIHNY cht er7-uyfd chl 3791511 CHIT * fey H1och FT ald VR TR shti fen SfTEIT\nR 7i faart allcil HRI HIT-7A 3TfERChR 767 TET vlldi ài 7 Hq wlad à foh EHchl agr\nAST fereHl 374fchT # 3Tdl à 3i 71y t thE Tiveni # ad EU, (EHchT) 21S7-H forl thE\ndRE cht aeganl 4 fey geht 7 vildi :; 3i7 21ST-HT fornl TRTH t fey ferT ad EU ThRH\nVgual ài 370 TToF geht CTT chiyht # 3111 T6 TF Hohd, 477 for 37HI7 3ir 3RIGRIT # Strdt\nà. (3ir) 7 a YRH, 3RIge 377 gehT (t CIT) STRA cht aegait 4 fart TE Hohd ài\n(à) YET cht fariel HIFI cllet HR VR dart HST t YRI frerd TIET stord :; (seft RRE\nà 7 YET) TRH cht arst TR frerd CHRI gord t CG 7 7 (HRT vyfa) VElTl d FTI\n(fegtift) S777 47 viit ài STRdry valuil t 3Te1ql 47 E7, 3i1oft 3it yrilreit JEIT E HIT\nEAKIFT chl aege rieht T1 TEERT (PITHR t faed), RIH (2TeIS), Hieit sicicht)...\nHiida t 2y Hiulisigh 377 3TRI SHC 1 vird à (5-a volail chl) farad de VR dgd\nHRT HT-7 57 7RI1 # Toht AEi (fageift) VEEIFT usdl ài ai Ho ghs, 477 Eq CT\nV147 cht ari # BIfHeT chrd à T7-HOR EGTEdF (ch1) TT vildi :; 3it 767 # TRTy cht\nTt aleit HRT aRgy, EId at Yhit VTT ZT steis AT yrillei, Taft Tch7 7i TiAt vilit à 477\n(7chg) dal (fagedt #) TE vidi ài\n8. 30 thud cht 31157-7-31chaR\n3157-7-31haR7 3chst t aiohrUT t Uch dgd ds iidelfueh\nait mirfch YReIHT chl Tdloil eft forticht foTeHT AGIE\n3ThOR t E94 VR 3gr7 Yhurt + 301 2TTI 3ThOR 4 RYT t\naeitd qof, 1598 € 7, 47 TiRTTerTt 4 alG, Et AT fahel\nTATI 3157 EfdaRt fetart t Uch t4 JETR YReISl chl forHl\neft foticht 4607 3chOR * cht 27t1 ET YREISHT oT YRUTTH 2\n37chOR-IHT fort da foirai 7 TEl TRITI Yerit 7 fueai +\nufdalfuch GREdIT 4RT chil 57 farii VR EH 3782114 9 7 TYIIGT\nchriat TUR SITTI drent fuee, 3157-7-31h4R1, chl FTTeT fret\nChIFFT 4 HRIST 3it HIHNY 4 Uoh 79147 cht ERd 7i Hiohferd\nfohel TRIT 2TI\n357 che HHoTt VR farR # daf chrat à : FroR, YRIRNT\nait #T chT #187; Tiufa t ua 377 3TchaRt HIHIY t giai\nohT TieT; 37R crnT 4 Hifafrych, Hitghldch a eftich fralil\n37chO chl HROhR 4 THIH fasril 3it giai (zail) 4 GR 7",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

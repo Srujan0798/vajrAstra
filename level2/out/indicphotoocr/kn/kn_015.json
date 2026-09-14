@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_015",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 499,
+    "width": 1462,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1462,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "  ಬಸವ ಣ್ಣನವರ ಹೆಚ್ಚಿಗೆ ದೊರೆತ ವಚನಗಳು\n୦୭୨ এই এএং ಒಕ್ಕುದು ಹೆಚ್ಚಾದುಮ ರಾಶಿಯಾಮದು\n੧੭੪ ੭ ಕೊಳುವೋದ ಲಿ೦ಗ ಕೊಳ್ಳಲು ಹೋದ ੭੦\nದೃಷ್ಟಿ ದೃಷ್ಟಾ೦ತ ಪ್ರತ್ಯಕ್ಷ ಉದಾಹರಣೆ\n୦୭ଧ ୨ ୨ା୧ ଓଁ ತವಕ ಆತುರ\n୦୭ଥ ୭୭୭ ಒಪ್ಪವ ಮಾಡು ਡਠੇ ಮಾಡು ಹೊ೦ದಿಸಿಕೋ\n  ০৩ ದಂದುಗ ಕಷ್ಟ\n२२४ ୦୫ ಮರುಜೀವಣಿ ಸ೦ಜೀವಿನಿ\n০৩৩ ૧૯ ୦ ಪುಟವಿಡು ಕಾ೦ತಿ\n୦୭୮   ୦୧ ಕಿಂಕಲ ੪੦੪\n୦୫୦   ৩০ ಭೇತಾಳ ಭೂತ\nನೇತಾಳ ತ೦ಪು\n੧੭ এ৩ ತಾರಣ ಪ್ರತ್ಯಕ್ಷ ಇದಿರು\n୦୫୦   এৎ ಹಮ್ಮಿ ಆರಂಭಿಸಿ",
+      "text_nfc": "  ಬಸವ ಣ್ಣನವರ ಹೆಚ್ಚಿಗೆ ದೊರೆತ ವಚನಗಳು\n୦୭୨ এই এএং ಒಕ್ಕುದು ಹೆಚ್ಚಾದುಮ ರಾಶಿಯಾಮದು\n੧੭੪ ੭ ಕೊಳುವೋದ ಲಿ೦ಗ ಕೊಳ್ಳಲು ಹೋದ ੭੦\nದೃಷ್ಟಿ ದೃಷ್ಟಾ೦ತ ಪ್ರತ್ಯಕ್ಷ ಉದಾಹರಣೆ\n୦୭ଧ ୨ ୨ା୧ ଓଁ ತವಕ ಆತುರ\n୦୭ଥ ୭୭୭ ಒಪ್ಪವ ಮಾಡು ਡਠੇ ಮಾಡು ಹೊ೦ದಿಸಿಕೋ\n  ০৩ ದಂದುಗ ಕಷ್ಟ\n२२४ ୦୫ ಮರುಜೀವಣಿ ಸ೦ಜೀವಿನಿ\n০৩৩ ૧૯ ୦ ಪುಟವಿಡು ಕಾ೦ತಿ\n୦୭୮   ୦୧ ಕಿಂಕಲ ੪੦੪\n୦୫୦   ৩০ ಭೇತಾಳ ಭೂತ\nನೇತಾಳ ತ೦ಪು\n੧੭ এ৩ ತಾರಣ ಪ್ರತ್ಯಕ್ಷ ಇದಿರು\n୦୫୦   এৎ ಹಮ್ಮಿ ಆರಂಭಿಸಿ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

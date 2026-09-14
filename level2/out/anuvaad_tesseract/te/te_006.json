@@ -1,0 +1,41 @@
+{
+  "page_id": "te_006",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series : 2LKNM Obey Oo} SET ~ 4 ee:\n\nny Sm, ४६ हु\nace, | IMU MINIT TT Tr 57\nRoll No. అభ్యర్దులు ప్రశ్న So కోడ్‌ను సమాధాన పత్రం Bok,\n\n808 DOS రాయాలి\nCandidates must write the Q.P. Code\n\non the title page of the answer-book.\n\n5 / NOTE:\n\n(I)  & GAS Wo లో wey వేసిన 15 How aay Gr లేదో చూడండి .\nPlease check that this question paper contains 15 printed pages.\nవిద్యార్థి We పత్రంలో కుడివైపు ఇచ్చిన Se పత్రం SE సంఖ్యను సమాధాన SoD Sow పత్రంలో\nఉండాలి .\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\n18 ప్రశ్నలు ఉన్నది BDO పరిశీలించండి .\n\nPlease check that this question paper contains 18 questions.\n\nసమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\nBe Se పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది . ప్రశ్న పత్రం ఉదయం 10.15\n0.08 ఇవ్వబడుతుంది . 10.15 నుండి 10.30 వరకు చిద్యార్థులు ప్రశ్న Sway చదవాలి . ఈ soos\nసమాధాన పత్రంలో ఏమీ రాయకూడదు .\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\n\non the answer-book during this period. {}\n\nతెలుగు -లతెలంగాణ\nTELUGU - TELANGANA\n\nసమయం : 3 గంటలు మొత్తం మార్కులు : 80\n\nTime allowed : 3 hours Maximum Marks : 80\n\n57 1127 Page 1 of 16 P.T.O.\n",
+      "text_nfc": "Series : 2LKNM Obey Oo} SET ~ 4 ee:\n\nny Sm, ४६ हु\nace, | IMU MINIT TT Tr 57\nRoll No. అభ్యర్దులు ప్రశ్న So కోడ్‌ను సమాధాన పత్రం Bok,\n\n808 DOS రాయాలి\nCandidates must write the Q.P. Code\n\non the title page of the answer-book.\n\n5 / NOTE:\n\n(I)  & GAS Wo లో wey వేసిన 15 How aay Gr లేదో చూడండి .\nPlease check that this question paper contains 15 printed pages.\nవిద్యార్థి We పత్రంలో కుడివైపు ఇచ్చిన Se పత్రం SE సంఖ్యను సమాధాన SoD Sow పత్రంలో\nఉండాలి .\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\n18 ప్రశ్నలు ఉన్నది BDO పరిశీలించండి .\n\nPlease check that this question paper contains 18 questions.\n\nసమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\nBe Se పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది . ప్రశ్న పత్రం ఉదయం 10.15\n0.08 ఇవ్వబడుతుంది . 10.15 నుండి 10.30 వరకు చిద్యార్థులు ప్రశ్న Sway చదవాలి . ఈ soos\nసమాధాన పత్రంలో ఏమీ రాయకూడదు .\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\n\non the answer-book during this period. {}\n\nతెలుగు -లతెలంగాణ\nTELUGU - TELANGANA\n\nసమయం : 3 గంటలు మొత్తం మార్కులు : 80\n\nTime allowed : 3 hours Maximum Marks : 80\n\n57 1127 Page 1 of 16 P.T.O.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

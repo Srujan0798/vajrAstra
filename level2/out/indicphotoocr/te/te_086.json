@@ -1,0 +1,41 @@
+{
+  "page_id": "te_086",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "series g7def set\nప్రశ్నపత్ర ੬੬ 11\nqp code\nਠੰਠ న౦ అభ్యర్థుల ప్రశ్నపత్ర౦ కోడ్ను సమాధానపత్ర౦\nroll no యొక్క శీర్షక పుటలో రాయాలి\ncandidates must write the qp code\non the title page of the answerbook\nਦੇ ప్రశ్న పత్ర౦లో అచ్చు వేసిన 15 పుటలు ਮਹਾ ਭੰਨ చూడ౦డి\n੭੦੪ ప్రశ్న పత్ర౦లో కుడవైపు ఇచ్చిన ప్రశ్న పత్ర౦ ੬੯ స౦ఖ్య సమాధాన పత్ర౦లోని ముఖ పత్ర౦లో\nಒಂಡ್ಲಿ\n17 ప్రశ్నలు ఉన్నది ਭੰਗਠ పరిశీలి౦చ౦డి\nసమాధానాలను రాయడానికి ము౦దు ప్రశ్న పత్ర౦లో యథాస్థాన౦లోని వరుస స౦ఖ్యను రాయ౦డి\nఈ ప్రశ్న పత్రాన్ని చదవడానికి 15 ੧੨੨੨ కేటాయి౦చడ౦   ప్రశ్న పత్ర౦ ఉదయం 10150 ૐ\nయివ్వబడుతు౦ది 1015 ను౦డి 1030 వరకు ఎద్యార్థల ప్రశ్న పత్రాన్ని చదవాలి ਤੇ ਤ੦੦੦੦ సమాధాన\nపత్ర౦లో তই অ  రాయకూడదు\nplease check that this question paper contains 15 printed pages\nqp code given ണ്ണ the right hand side of the question paper should be\nwritten ണ്ണ the title page of the answerbook by the candidate\nplease check that this question paper contains 17 questions\nplease write down the serial number of the question in the answer\nbook at the given place before attempting it\n15 minute time has been allotted to read this question paper the question\npaper will be distributed at 1015 am from 1015 am to 1030 am the\ncandidates will read the question paper only and will not write any answer\non the answerbook during this period\ntelugu\nసమయం 3 గ౦టలు మొత్త౦ మార్కలు 80\ntime allowed ૧ hours maximum marks 80\n૧૧ ਨੇ page 1of 16 ૠ pto\n5169",
+      "text_nfc": "series g7def set\nప్రశ్నపత్ర ੬੬ 11\nqp code\nਠੰਠ న౦ అభ్యర్థుల ప్రశ్నపత్ర౦ కోడ్ను సమాధానపత్ర౦\nroll no యొక్క శీర్షక పుటలో రాయాలి\ncandidates must write the qp code\non the title page of the answerbook\nਦੇ ప్రశ్న పత్ర౦లో అచ్చు వేసిన 15 పుటలు ਮਹਾ ਭੰਨ చూడ౦డి\n੭੦੪ ప్రశ్న పత్ర౦లో కుడవైపు ఇచ్చిన ప్రశ్న పత్ర౦ ੬੯ స౦ఖ్య సమాధాన పత్ర౦లోని ముఖ పత్ర౦లో\nಒಂಡ್ಲಿ\n17 ప్రశ్నలు ఉన్నది ਭੰਗਠ పరిశీలి౦చ౦డి\nసమాధానాలను రాయడానికి ము౦దు ప్రశ్న పత్ర౦లో యథాస్థాన౦లోని వరుస స౦ఖ్యను రాయ౦డి\nఈ ప్రశ్న పత్రాన్ని చదవడానికి 15 ੧੨੨੨ కేటాయి౦చడ౦   ప్రశ్న పత్ర౦ ఉదయం 10150 ૐ\nయివ్వబడుతు౦ది 1015 ను౦డి 1030 వరకు ఎద్యార్థల ప్రశ్న పత్రాన్ని చదవాలి ਤੇ ਤ੦੦੦੦ సమాధాన\nపత్ర౦లో তই অ  రాయకూడదు\nplease check that this question paper contains 15 printed pages\nqp code given ണ്ണ the right hand side of the question paper should be\nwritten ണ്ണ the title page of the answerbook by the candidate\nplease check that this question paper contains 17 questions\nplease write down the serial number of the question in the answer\nbook at the given place before attempting it\n15 minute time has been allotted to read this question paper the question\npaper will be distributed at 1015 am from 1015 am to 1030 am the\ncandidates will read the question paper only and will not write any answer\non the answerbook during this period\ntelugu\nసమయం 3 గ౦టలు మొత్త౦ మార్కలు 80\ntime allowed ૧ hours maximum marks 80\n૧૧ ਨੇ page 1of 16 ૠ pto\n5169",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

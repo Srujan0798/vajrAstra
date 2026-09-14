@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Say a'to'z Tell 5 words Tell 5 words\nin\n10 seconds.\nFrame\na question\nthat begins\nthat end\nwith 'e'.\nDo what\nyou like\nwith What' (in English).\nTell\n5 words\nthat begin\nwith 'n'.\nTell\n5 words\nthat end\nwith k'.\nTell\n5 words\nthat begin\nwith 'p'\nTETETE for\nthat begin\nwith a'.\nSing\nan English\nsong.\nTell\n4 words\nthat begin\nwith th'.\nTell\n5 words\nSpeak\nfast\nthat begin in English for\nwith c'.\nMake\na sentence\nthat has\nand'.\nFrame\na question\nthat begins\nwith\nWhere'.\nFERET\nIShHTE rERMVENCE\n10 seconds.\nFrame\na question\nthat begins\nwith\nWhen'.\nTell 5 words Say 11 to 20\nthat end\nwith T.\nin\n10 seconds.\nFrame\na question\nthat begins\nwith Who'\nTell\n5 words\nthat begin\nwith b'.\nTell\n4 words\nthat begin\nwith wh'.\nTell\n5 words\nthat end\nwith 'n'\nFrame\na question\nthat begins\nwith\nWhy'.\nFrame\na question\nthat begins\nwith How'\nTell\n5 words\nthat end\nwith t.\nTell\n5 words\nthat begin\nwith 'm'.\nTell\n5 words\nthat begin\nwith t'.\nTell\n4 words\nthat begin\nwith st'.\nMAHARASHTRA STATE BUREAU OF TEXTBOOK\nTell\n5 words\nthat end\nwith 'p.\nTell\n5 words\nthat begin\nwith d'\nTell\n5 words\nthat begin\nwith f.\nPRODUCTION AND CURRICULUM RESEARCH, PUNE.\nHRI STETET geh 5150E (dgy)\nR 40.00",
+      "text_nfc": "Say a'to'z Tell 5 words Tell 5 words\nin\n10 seconds.\nFrame\na question\nthat begins\nthat end\nwith 'e'.\nDo what\nyou like\nwith What' (in English).\nTell\n5 words\nthat begin\nwith 'n'.\nTell\n5 words\nthat end\nwith k'.\nTell\n5 words\nthat begin\nwith 'p'\nTETETE for\nthat begin\nwith a'.\nSing\nan English\nsong.\nTell\n4 words\nthat begin\nwith th'.\nTell\n5 words\nSpeak\nfast\nthat begin in English for\nwith c'.\nMake\na sentence\nthat has\nand'.\nFrame\na question\nthat begins\nwith\nWhere'.\nFERET\nIShHTE rERMVENCE\n10 seconds.\nFrame\na question\nthat begins\nwith\nWhen'.\nTell 5 words Say 11 to 20\nthat end\nwith T.\nin\n10 seconds.\nFrame\na question\nthat begins\nwith Who'\nTell\n5 words\nthat begin\nwith b'.\nTell\n4 words\nthat begin\nwith wh'.\nTell\n5 words\nthat end\nwith 'n'\nFrame\na question\nthat begins\nwith\nWhy'.\nFrame\na question\nthat begins\nwith How'\nTell\n5 words\nthat end\nwith t.\nTell\n5 words\nthat begin\nwith 'm'.\nTell\n5 words\nthat begin\nwith t'.\nTell\n4 words\nthat begin\nwith st'.\nMAHARASHTRA STATE BUREAU OF TEXTBOOK\nTell\n5 words\nthat end\nwith 'p.\nTell\n5 words\nthat begin\nwith d'\nTell\n5 words\nthat begin\nwith f.\nPRODUCTION AND CURRICULUM RESEARCH, PUNE.\nHRI STETET geh 5150E (dgy)\nR 40.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

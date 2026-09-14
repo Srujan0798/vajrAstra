@@ -1,0 +1,41 @@
+{
+  "page_id": "te_077",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0077pro_raw.pdf",
+    "page_index": 37,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "superb diamond necklace and her heart began to beat\nwith uncontrolled desire her hands trembled ૧8 she\ntook she fastened it around her neck and stood\nlost in ecstasy as she looked at herself\nwhich sentences\nthen she asked anxiously hesitating would you\ntell us that\nmathilde lend me this just this ੴ\ngreatly\ndesired the why yes of course\nnecklace she threw her arms around her friend 8 neck\nrapturously then fled with her treasure\nthe day of the party arrived madame loisel was\n૧ success she was prettier than all the other women\nelegant gracious smiling and full of joy\nshe danced wildly with passion பிரு த  ரிப்பாஜ\neverything the triumph of her beauty and success\nfloating in ૧ cloud of happiness\nmathilde and her husband left at about four\nrapturously with oclock in the பொப்படி when they were finally in the\ngreat joy street they could not find ૧ cab they walked down\nfled with her toward the seine till they found one they were\ntreasure here dropped off at their door in the rue des martyrs and\nfled means went sadly it was all over for her\naway quickly in front of the she final look\nmirror took ૧ at\npanic stricken herself in all her glory but suddenly she uttered ૧\nwith ૧ sudden she longer had the necklace round her neck\ncry no\nfeeling of fear\nwhat is the matter ੧ੁ asked her husband\ndistraught she towards ૧૯૯\ndisturbed turned him panicstricken have\nworried\ni have ૧ no longer have madame forestier s\nnecklace\nhe stood up distraught what how that 8\nimpossible\nthink and answer\nwhy did mathilde\nnot notice the loss\nof her necklace\nമ",
+      "text_nfc": "superb diamond necklace and her heart began to beat\nwith uncontrolled desire her hands trembled ૧8 she\ntook she fastened it around her neck and stood\nlost in ecstasy as she looked at herself\nwhich sentences\nthen she asked anxiously hesitating would you\ntell us that\nmathilde lend me this just this ੴ\ngreatly\ndesired the why yes of course\nnecklace she threw her arms around her friend 8 neck\nrapturously then fled with her treasure\nthe day of the party arrived madame loisel was\n૧ success she was prettier than all the other women\nelegant gracious smiling and full of joy\nshe danced wildly with passion பிரு த  ரிப்பாஜ\neverything the triumph of her beauty and success\nfloating in ૧ cloud of happiness\nmathilde and her husband left at about four\nrapturously with oclock in the பொப்படி when they were finally in the\ngreat joy street they could not find ૧ cab they walked down\nfled with her toward the seine till they found one they were\ntreasure here dropped off at their door in the rue des martyrs and\nfled means went sadly it was all over for her\naway quickly in front of the she final look\nmirror took ૧ at\npanic stricken herself in all her glory but suddenly she uttered ૧\nwith ૧ sudden she longer had the necklace round her neck\ncry no\nfeeling of fear\nwhat is the matter ੧ੁ asked her husband\ndistraught she towards ૧૯૯\ndisturbed turned him panicstricken have\nworried\ni have ૧ no longer have madame forestier s\nnecklace\nhe stood up distraught what how that 8\nimpossible\nthink and answer\nwhy did mathilde\nnot notice the loss\nof her necklace\nമ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

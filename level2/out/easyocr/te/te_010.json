@@ -1,0 +1,41 @@
+{
+  "page_id": "te_010",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0010pro_raw.pdf",
+    "page_index": 63,
+    "width": 1659,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1659,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ववद्या  a१ विमुक 4^#^4t महाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ , पुणे. महागष्ट्र ७ निर्मिती अभ्यामक्रम ' रन्य पाठ्यपुर्नक ः सशोधन मंडळ मराठी आंतरभारती ,   इयत्ता दहावी ( मराठी भाषा ) र ४२.००\nसिंघी <\nकन्नंड `\nगुँजराती५",
+      "text_nfc": "ववद्या  a१ विमुक 4^#^4t महाराष्ट्र राज्य पाठ्यपुस्तक निर्मिती व अभ्यासक्रम संशोधन मंडळ , पुणे. महागष्ट्र ७ निर्मिती अभ्यामक्रम ' रन्य पाठ्यपुर्नक ः सशोधन मंडळ मराठी आंतरभारती ,   इयत्ता दहावी ( मराठी भाषा ) र ४२.००\nसिंघी <\nकन्नंड `\nगुँजराती५",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

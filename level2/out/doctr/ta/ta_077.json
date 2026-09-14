@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_077",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+    "page_index": 3,
+    "width": 1224,
+    "height": 1875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1224,
+        1875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(iii)\n60T6DLD GTGOTLISGT QurGoT\n(1)\n9.2JL\n2. Amiy\nQ.QUGOD\nFF. DD8ipE\n(iv) BioL GTGOTLI5GT OuTGor\n(1)\n9f. Bigy GITOIT GOLD\n9.50\n@. .GIGTGDLD\nFF. Quay\n(v)\nGabBogub 5 60T oofoJuio 50551 Gonuus\n1)\n9.Baii uwsgi\n9.5Q0T uWDL5T53\nQ-5IIOL uwsgi\nFF. O5oho uwsgi\n3.\ng1 QI(5I ujsoud uq550f10. 050615 OEITLIBSI QI(5I\nLQOL alerrajag amu surer aOLOW\n6TO55\nGT(L50/ID.\n(5)\nSLQOITTD 2ufflemisofld 55 600T QITU GTGOTLISI PU 0165.\n85 ewraumiis@sdigd STO5OT 5maula5bGs (poparaStdgib. 9150TT0\n@ amoms soadisirelacir GTGOTOJLD gooppuu. 55 S60TOITUT G UQOI05 2 GOTO.\nOLOS 85 600T QITi, m55m 560T01, Guus 85 600T QITI GTOOTLIGST YoO.\n5LDsapGumgmsallgib\nSLOlor\nOLDITGT\nU535angb\n9/00\naImSGTDGNT. iL-purompsailgurb 2016013 BLG50NOT OoLulgi\n6001\n55IT6T duG@orper. 85 600T OII rul 607 DLO 51110051 Guna LOG510115 00551.\n35 co0Tamd GTLO (ysa 10 STOSoT QIGOT 2 60TG. - sosanGt 5Gola 0507\nam 9(001D5510ITOT51. QITTUlOT 5TOL50T Rofulor eypa GuTTa\n3/o0p90k610. 55 600T QITSOT Gou6ODI Gursi 5i Bm305 DimMe\nO5IOT 5ib.\n) 6 OI 5i0 2LibLAa555 OFillui\nGTGOTT OOLDOOUS\n5550151a gyoimoms B160T607 G5 0fa15501 1851 ULO Y0 GWmUU\n2 coriaunmii GuIGi. 6 OI (LOLULO 565 Qumfaderpen.\n4-",
+      "text_nfc": "(iii)\n60T6DLD GTGOTLISGT QurGoT\n(1)\n9.2JL\n2. Amiy\nQ.QUGOD\nFF. DD8ipE\n(iv) BioL GTGOTLI5GT OuTGor\n(1)\n9f. Bigy GITOIT GOLD\n9.50\n@. .GIGTGDLD\nFF. Quay\n(v)\nGabBogub 5 60T oofoJuio 50551 Gonuus\n1)\n9.Baii uwsgi\n9.5Q0T uWDL5T53\nQ-5IIOL uwsgi\nFF. O5oho uwsgi\n3.\ng1 QI(5I ujsoud uq550f10. 050615 OEITLIBSI QI(5I\nLQOL alerrajag amu surer aOLOW\n6TO55\nGT(L50/ID.\n(5)\nSLQOITTD 2ufflemisofld 55 600T QITU GTGOTLISI PU 0165.\n85 ewraumiis@sdigd STO5OT 5maula5bGs (poparaStdgib. 9150TT0\n@ amoms soadisirelacir GTGOTOJLD gooppuu. 55 S60TOITUT G UQOI05 2 GOTO.\nOLOS 85 600T QITi, m55m 560T01, Guus 85 600T QITI GTOOTLIGST YoO.\n5LDsapGumgmsallgib\nSLOlor\nOLDITGT\nU535angb\n9/00\naImSGTDGNT. iL-purompsailgurb 2016013 BLG50NOT OoLulgi\n6001\n55IT6T duG@orper. 85 600T OII rul 607 DLO 51110051 Guna LOG510115 00551.\n35 co0Tamd GTLO (ysa 10 STOSoT QIGOT 2 60TG. - sosanGt 5Gola 0507\nam 9(001D5510ITOT51. QITTUlOT 5TOL50T Rofulor eypa GuTTa\n3/o0p90k610. 55 600T QITSOT Gou6ODI Gursi 5i Bm305 DimMe\nO5IOT 5ib.\n) 6 OI 5i0 2LibLAa555 OFillui\nGTGOTT OOLDOOUS\n5550151a gyoimoms B160T607 G5 0fa15501 1851 ULO Y0 GWmUU\n2 coriaunmii GuIGi. 6 OI (LOLULO 565 Qumfaderpen.\n4-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

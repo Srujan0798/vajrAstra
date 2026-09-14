@@ -1,0 +1,41 @@
+{
+  "page_id": "te_083",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0083pro_raw.pdf",
+    "page_index": 114,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ewene DogayEs esr ssogas\nBsjoë AOO!\nSegos,\nNowores\nSjeco\nsd0\nswscaso, 583 aO essen W86608\n208 o50 essoes 28h5 éorgé 505 Jes WEO\n255153560508 5j2 es esgo. 3005 S08\nassor 5 osom docwvod?\naaaves bodoo.\nesssess rOb3as J8S 3035 288)\n1. Qwee dg Son W6S, sarwens\nDEoWED éojorsé, esshgo 3608506 esé\nedseges.\ns800 288 ergso Ssrd ssas Joodowe\n2. procs srogso no esssées 08g0w6.\n30s 0883 awsy awagedso. eodsg 3o5 0883\n3. Qwéons 200omb/g00 SgOrsO\nd6 300s 3s daabres 20 dlaw Bevwssto\nsd00 JSED efowés.\nwer essoo.\n4. awegen\na0620s\nsos\n5655 0088) awsy Sire wges: 2550 S8050 S1560S50\néavosawe.\n(Life and Resuscitation)\n5. awege 30gé0et eses Sjégo Bowe.\n1. TNaTgO (Airway) : e9s00 ds)a88 TSS\n6. Qoege dg SOAS aES, aS 3585\naN55oJg sang eavë éoss 8088 Bays\neows Sawe.\nds 8s600 38 aéyés Sos JENNSO\n7. 35-60 SOD SsJoos satoso\n30505000008.\nBowe.\n2. TCS SN536 (Breathing) : TENONSS6O\n8. WSOJNO sdaw ON8OMEDO Bowo.\n9.7 5es TSAS asyés\nenad essosongs 5523 OSO 585 TShS a0go8.\n3. 8535600 (Circulation) : e958e56 das)e SCE edes\n38 (3JJ dsas3e)e5t docs es5EE docs J8\nSONOSS 20p08. éorges we a08 doto eoiées\n28 aoasod K8m 53 380 Deyssods wao\n15N6 Babol. a23\nCPR (Cardio =\nPulmonary Resuscitation) eoéro. essonyo\no5\nSNOcs\n288\nSSOOT\n20n666\nsbwéod.\n85 -so : as des essoos cas) SCE mabavavs 85J50 20néo8 TObOD a sseses 30 angonss 28\n250sdes d5 esséess 5 ooares 5508.\nDsuses 2006 5800 33j0W55 rOso : as des SRE Doosev 28n8 es 2885 Dsose eJTOS\nsoeysoocs\n(Immobilisation) dowé eeganoo. 60 5O55 eodarévest das) Jan 50 do 56 3555\n3515\nsoosod sooos. 53/33)00555 TOJOS Ssosss 58J3S\n(Hard Stretcher) bows.\no\n3\nsevdo : 2s des SSSE 5o3sE eeng 10 Daoares 5OS 3060 do ared Ses Sepo W80 orgso 200s.\n105",
+      "text_nfc": "ewene DogayEs esr ssogas\nBsjoë AOO!\nSegos,\nNowores\nSjeco\nsd0\nswscaso, 583 aO essen W86608\n208 o50 essoes 28h5 éorgé 505 Jes WEO\n255153560508 5j2 es esgo. 3005 S08\nassor 5 osom docwvod?\naaaves bodoo.\nesssess rOb3as J8S 3035 288)\n1. Qwee dg Son W6S, sarwens\nDEoWED éojorsé, esshgo 3608506 esé\nedseges.\ns800 288 ergso Ssrd ssas Joodowe\n2. procs srogso no esssées 08g0w6.\n30s 0883 awsy awagedso. eodsg 3o5 0883\n3. Qwéons 200omb/g00 SgOrsO\nd6 300s 3s daabres 20 dlaw Bevwssto\nsd00 JSED efowés.\nwer essoo.\n4. awegen\na0620s\nsos\n5655 0088) awsy Sire wges: 2550 S8050 S1560S50\néavosawe.\n(Life and Resuscitation)\n5. awege 30gé0et eses Sjégo Bowe.\n1. TNaTgO (Airway) : e9s00 ds)a88 TSS\n6. Qoege dg SOAS aES, aS 3585\naN55oJg sang eavë éoss 8088 Bays\neows Sawe.\nds 8s600 38 aéyés Sos JENNSO\n7. 35-60 SOD SsJoos satoso\n30505000008.\nBowe.\n2. TCS SN536 (Breathing) : TENONSS6O\n8. WSOJNO sdaw ON8OMEDO Bowo.\n9.7 5es TSAS asyés\nenad essosongs 5523 OSO 585 TShS a0go8.\n3. 8535600 (Circulation) : e958e56 das)e SCE edes\n38 (3JJ dsas3e)e5t docs es5EE docs J8\nSONOSS 20p08. éorges we a08 doto eoiées\n28 aoasod K8m 53 380 Deyssods wao\n15N6 Babol. a23\nCPR (Cardio =\nPulmonary Resuscitation) eoéro. essonyo\no5\nSNOcs\n288\nSSOOT\n20n666\nsbwéod.\n85 -so : as des essoos cas) SCE mabavavs 85J50 20néo8 TObOD a sseses 30 angonss 28\n250sdes d5 esséess 5 ooares 5508.\nDsuses 2006 5800 33j0W55 rOso : as des SRE Doosev 28n8 es 2885 Dsose eJTOS\nsoeysoocs\n(Immobilisation) dowé eeganoo. 60 5O55 eodarévest das) Jan 50 do 56 3555\n3515\nsoosod sooos. 53/33)00555 TOJOS Ssosss 58J3S\n(Hard Stretcher) bows.\no\n3\nsevdo : 2s des SSSE 5o3sE eeng 10 Daoares 5OS 3060 do ared Ses Sepo W80 orgso 200s.\n105",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

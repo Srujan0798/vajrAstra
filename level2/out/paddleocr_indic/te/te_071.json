@@ -1,0 +1,41 @@
+{
+  "page_id": "te_071",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0071pro_raw.pdf",
+    "page_index": 0,
+    "width": 1674,
+    "height": 2207
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1674,
+        2207
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "తెలుగు\nబాలభారత్రి\nఎనిమిదవ\nతరగతి\nE\nDek",
+      "text_nfc": "తెలుగు\nబాలభారత్రి\nఎనిమిదవ\nతరగతి\nE\nDek",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

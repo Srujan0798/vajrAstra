@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_013",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 21,
+    "width": 595.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Mo ho.\nಕೂಗಳು-ನರು--ಅವರೆದೃನವುಗಲುವ\nತಿಕುದಿಂದು\nತೆದಲಲಯ ಗವಚಂತ್ದುಂದ\nಮಅಮಳನಯದಲೂ\nOಿಟ.ಾರ. ಸಂತಯ\nರಪ.ಕೃಸು\nಅತ, ೩ಅoವಯ\nಎಳ\nತಬೆಳರಲ್ಕತಕು\nಪ್ಆನಂದಕಂದ್ತದುದ\nದpಯನರಜವನ್ನೆಂವ್\n gos oe --\nಸಾರ್ವಿಸಲಕಳೆಾದ್\nಪರವ್ಎದದರು\nಕoಿರಶಮುಗಳಗವತ.ರದತರಗದಲು\nO o ಎo. Bವoo\nWet ye so -\nನಊನತಯ-ಂತರ\nSರer ?g e --\nI so  got moso\nನ್ಡದುಕಂಗೆದಲಿ\nO..H.\nತಅರಕಲಗುಡ.ಸರಗಂದರಯ. ತೃದಂಯುತಅನಕೃವದಲು\n-\nಅಡೀದನಗಳದಿಕರವುನ-ಗುಂತಹು\nವಪಂಣೆಮಂಗೇಶಲಯರು\nನರಯಸಳು\nತತಸo. e co ಯ on es. S . ನo. L\nಅಎರವ. ಸeoವಯ\nಅರದವಳ್ಕೃ ಗರಯಾಂದು\nಅಚ.ವಿಂಕರಸುವಹದಗ\nO op. eರ noಯವ\nಅದಳ-ಜವರೀಗತ\nI\nಕುಳೆಕುಂದರವರಯವದದಕಸರಂಜನ್ಗದದಲ\nಎದದುನಿನರನತ.ಯನುತದದಕಮರವಸಿಲ\nದ ನಂದಳಿಂನರಾದ.ಗದ ಮದದಲ\n dog\nScanned by CamScanner",
+      "text_nfc": "Mo ho.\nಕೂಗಳು-ನರು--ಅವರೆದೃನವುಗಲುವ\nತಿಕುದಿಂದು\nತೆದಲಲಯ ಗವಚಂತ್ದುಂದ\nಮಅಮಳನಯದಲೂ\nOಿಟ.ಾರ. ಸಂತಯ\nರಪ.ಕೃಸು\nಅತ, ೩ಅoವಯ\nಎಳ\nತಬೆಳರಲ್ಕತಕು\nಪ್ಆನಂದಕಂದ್ತದುದ\nದpಯನರಜವನ್ನೆಂವ್\n gos oe --\nಸಾರ್ವಿಸಲಕಳೆಾದ್\nಪರವ್ಎದದರು\nಕoಿರಶಮುಗಳಗವತ.ರದತರಗದಲು\nO o ಎo. Bವoo\nWet ye so -\nನಊನತಯ-ಂತರ\nSರer ?g e --\nI so  got moso\nನ್ಡದುಕಂಗೆದಲಿ\nO..H.\nತಅರಕಲಗುಡ.ಸರಗಂದರಯ. ತೃದಂಯುತಅನಕೃವದಲು\n-\nಅಡೀದನಗಳದಿಕರವುನ-ಗುಂತಹು\nವಪಂಣೆಮಂಗೇಶಲಯರು\nನರಯಸಳು\nತತಸo. e co ಯ on es. S . ನo. L\nಅಎರವ. ಸeoವಯ\nಅರದವಳ್ಕೃ ಗರಯಾಂದು\nಅಚ.ವಿಂಕರಸುವಹದಗ\nO op. eರ noಯವ\nಅದಳ-ಜವರೀಗತ\nI\nಕುಳೆಕುಂದರವರಯವದದಕಸರಂಜನ್ಗದದಲ\nಎದದುನಿನರನತ.ಯನುತದದಕಮರವಸಿಲ\nದ ನಂದಳಿಂನರಾದ.ಗದ ಮದದಲ\n dog\nScanned by CamScanner",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

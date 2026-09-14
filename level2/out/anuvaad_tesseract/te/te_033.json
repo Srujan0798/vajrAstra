@@ -1,0 +1,41 @@
+{
+  "page_id": "te_033",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0033pro_raw.pdf",
+    "page_index": 48,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "“Oh! no! It’s\nnot a Hen. It’s\n\na Squirrel.” “Come on, Squirrel,\n4 follow me. Let’s find the\nथी 2 Hen. Where is she?”\n“May be Hen is behind\n\nthis basket. Can you see a\nfurry tail?”\n\n“Oh! no! I’\n\nare 1, S “Come on, Cat,\n\nnot an t's follow me. Let’s\nat.\n\nfind the Hen.\nWhere is she?”\n\n“Who’s behind this rose garden?\nCan you see a stripy nose?”\n\n“Come on, Fox follow\nme. 11] lead you to\nour picnic spot.”\n\n“Calf can’t\nguess. Can you\n= guess?”\n\n",
+      "text_nfc": "“Oh! no! It’s\nnot a Hen. It’s\n\na Squirrel.” “Come on, Squirrel,\n4 follow me. Let’s find the\nथी 2 Hen. Where is she?”\n“May be Hen is behind\n\nthis basket. Can you see a\nfurry tail?”\n\n“Oh! no! I’\n\nare 1, S “Come on, Cat,\n\nnot an t's follow me. Let’s\nat.\n\nfind the Hen.\nWhere is she?”\n\n“Who’s behind this rose garden?\nCan you see a stripy nose?”\n\n“Come on, Fox follow\nme. 11] lead you to\nour picnic spot.”\n\n“Calf can’t\nguess. Can you\n= guess?”\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

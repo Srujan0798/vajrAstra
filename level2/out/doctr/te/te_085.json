@@ -1,0 +1,41 @@
+{
+  "page_id": "te_085",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0001pro_raw.pdf",
+    "page_index": 1,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "eesoesor doco Se EovEsOL Os Wleew Goevaban 55 dee egew nagen Dooesss.\neod S6oe3noe3 Sevowos Do00 30e 00088 3ay0.\nes)esogn eevssres 7ooe3 WOGoS S0303 oyero 02e3?\neg)zoego ROGoS 0)26 eod Da 25000o0s?\nca) éod od woeg 20008 Jo Soysos?\n63)3 noso eswoor as e) eaio Bovod?\n3.oabcso wod 6\n8 So8 wsoev 5 ab sodes 30055 JoSC dpoess oobod. 8 syoyes\nes)aos Ja) ens eyoen sbes wae ssowes Dowds.\nes) Sbises worro ecor 38 Zosws esza Joeoest doner) d.\nca). osesjes >y beva Dzs aeuds sgeso SOSN cs.\n6a) Serorss esje caes KOECa 355-8 estavo Sosryd.\n4. So8 das sas\n08 es aowev oobod.\neorrnweg,\n20-11-2024.\nm8s5as ong à a0 DOES aopaoe, eosose TOS sorgooves. esais ! 2yooas Horfyes\ngess arsyo go) aws od. \"JS Sev w2obesderg esyc sohowdew Dosooeraw\" ess\nonfgrnede\n3e3\nF\nbes b5E5, ades Neesryo. Dogao, a8 eoe3 22) Beresro aww.apbadi.net\nGanae\naveo eenco ea. 50 woor\nbe\nDOÉso Sno Joess\nED 30s\n0.\naoness) wden esdseods seen, soson esssevooiser cydsesnor eoxsoror) aw.\ne0soonswes,\nesaigoas sbgsoco,\nsocpres 2e\neo. 6a eans Jsyd od OTO ?\nes. be OEcaSS eglowsesans dereis ?\nQ. 63 es 2300 Doesonu O7O ?\n6s. 68 es eswoon as 3 a dayodasod.?\nDerno-I\nIL5rSsoce - Darel Se. (36 Sd ev)\nSo8 6e a es weund Dsrees Nayoses oabod. 3x4=12\n5. 35e Dodto So 0o6abo oobod?\n6. SQos Ssoun oobod?\n7.3saw de SSAJ) oabod?\nSo8 paes 8 Sod 10 Dsoreess DSO5O oabod. 3x8=24\n8. Sesge Oovev 300 eswoor Golaoos 3dg) Dgaosod.?\n(da)\nS5je Dodto Dosern NOOTS Jovod.?\n9. osObE Jen s) Boo0 oabo&?",
+      "text_nfc": "eesoesor doco Se EovEsOL Os Wleew Goevaban 55 dee egew nagen Dooesss.\neod S6oe3noe3 Sevowos Do00 30e 00088 3ay0.\nes)esogn eevssres 7ooe3 WOGoS S0303 oyero 02e3?\neg)zoego ROGoS 0)26 eod Da 25000o0s?\nca) éod od woeg 20008 Jo Soysos?\n63)3 noso eswoor as e) eaio Bovod?\n3.oabcso wod 6\n8 So8 wsoev 5 ab sodes 30055 JoSC dpoess oobod. 8 syoyes\nes)aos Ja) ens eyoen sbes wae ssowes Dowds.\nes) Sbises worro ecor 38 Zosws esza Joeoest doner) d.\nca). osesjes >y beva Dzs aeuds sgeso SOSN cs.\n6a) Serorss esje caes KOECa 355-8 estavo Sosryd.\n4. So8 das sas\n08 es aowev oobod.\neorrnweg,\n20-11-2024.\nm8s5as ong à a0 DOES aopaoe, eosose TOS sorgooves. esais ! 2yooas Horfyes\ngess arsyo go) aws od. \"JS Sev w2obesderg esyc sohowdew Dosooeraw\" ess\nonfgrnede\n3e3\nF\nbes b5E5, ades Neesryo. Dogao, a8 eoe3 22) Beresro aww.apbadi.net\nGanae\naveo eenco ea. 50 woor\nbe\nDOÉso Sno Joess\nED 30s\n0.\naoness) wden esdseods seen, soson esssevooiser cydsesnor eoxsoror) aw.\ne0soonswes,\nesaigoas sbgsoco,\nsocpres 2e\neo. 6a eans Jsyd od OTO ?\nes. be OEcaSS eglowsesans dereis ?\nQ. 63 es 2300 Doesonu O7O ?\n6s. 68 es eswoon as 3 a dayodasod.?\nDerno-I\nIL5rSsoce - Darel Se. (36 Sd ev)\nSo8 6e a es weund Dsrees Nayoses oabod. 3x4=12\n5. 35e Dodto So 0o6abo oobod?\n6. SQos Ssoun oobod?\n7.3saw de SSAJ) oabod?\nSo8 paes 8 Sod 10 Dsoreess DSO5O oabod. 3x8=24\n8. Sesge Oovev 300 eswoor Golaoos 3dg) Dgaosod.?\n(da)\nS5je Dodto Dosern NOOTS Jovod.?\n9. osObE Jen s) Boo0 oabo&?",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

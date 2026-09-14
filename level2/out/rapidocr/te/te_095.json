@@ -1,0 +1,41 @@
+{
+  "page_id": "te_095",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0011pro_raw.pdf",
+    "page_index": 73,
+    "width": 595.6386108398438,
+    "height": 795.9310302734375
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.6386108398438,
+        795.9310302734375
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "O\nO\nO\nHERR\na 3sh e Hs0, y0- 88008.\nfa cchau, $aml Tea (f #9)\n₹ 42.00\nw\nAA\nMM",
+      "text_nfc": "O\nO\nO\nHERR\na 3sh e Hs0, y0- 88008.\nfa cchau, $aml Tea (f #9)\n₹ 42.00\nw\nAA\nMM",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

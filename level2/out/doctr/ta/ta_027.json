@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_027",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 82,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1.6 6DDLT860fl60 256605650T LomOILD apd@Gemaubleoriadsen\n€\n+\n2\n+\n:\n1\n-\n+\n-\n:\n4\n8\nI\n€\n%\n1\n2\nà\nI\n1\nE\n& I\nI\nXIIU U3-P-block.indd 73\n21-12-2022 18:33:34\n2\nà\nI\nI\nE\n2\n+\n-\nI i I I\n7\nN\ni\n+\n2\nI\n7\n2\nI\n1\n9\n€\ni\nt6\n-t6\n1 i\n8\n9\n65\no\n?\n9\na €\nE\nt6\n-t6\nI\n8\n9\n6D\n&\n#\ni\nI\nI\n9\n@\nE\nt6\n-t61\n8\n9\n65\n&\n#\ni\nI\ni\n9\n€\niE\nt6\n-t6\n8\n9\n65\n&\n2\ni\nI\nI\nI\n&\nI\nI\n2\nI\n1\n2\nI\n1\n2\nI\n1 I\nI\n€ 8\nI\n73\n2\n€\nI\nI\n2\ni\n88\nE\n\nE\n€\nI\n2\ni8\n88\nL\nL\nA\n€\nI",
+      "text_nfc": "3.1.6 6DDLT860fl60 256605650T LomOILD apd@Gemaubleoriadsen\n€\n+\n2\n+\n:\n1\n-\n+\n-\n:\n4\n8\nI\n€\n%\n1\n2\nà\nI\n1\nE\n& I\nI\nXIIU U3-P-block.indd 73\n21-12-2022 18:33:34\n2\nà\nI\nI\nE\n2\n+\n-\nI i I I\n7\nN\ni\n+\n2\nI\n7\n2\nI\n1\n9\n€\ni\nt6\n-t6\n1 i\n8\n9\n65\no\n?\n9\na €\nE\nt6\n-t6\nI\n8\n9\n6D\n&\n#\ni\nI\nI\n9\n@\nE\nt6\n-t61\n8\n9\n65\n&\n#\ni\nI\ni\n9\n€\niE\nt6\n-t6\n8\n9\n65\n&\n2\ni\nI\nI\nI\n&\nI\nI\n2\nI\n1\n2\nI\n1\n2\nI\n1 I\nI\n€ 8\nI\n73\n2\n€\nI\nI\n2\ni\n88\nE\n\nE\n€\nI\n2\ni8\n88\nL\nL\nA\n€\nI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

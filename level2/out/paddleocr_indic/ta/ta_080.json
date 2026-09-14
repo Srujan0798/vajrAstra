@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_080",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 17,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Eaffa1,\n3TTETT CT ,   RA CTT TTT I CT   CTS\neaffaar,\n3iTA 3TEfR, ieCT  ETT R   TChT  TR 1\nEaf+-ufad d\nSCT 3TETT  G fET  HT c E, 3HCT 3RT ST,\nEaf+-fq\n3CT TifCT 3  fa  fa HST a  C r HTT\nMiee Ch a cT fa ct  BT E e c E cch TT\nCER HSHaC  C\n4.9\n8  g\n. CCTG fET (2012), HSTT  HTT T, fa.a. TCT2TT,\nCRTUNA\nT  (2013), S,  HET, aT\n  1999  ,   , \n3T. f2-TT G (168) T (H c rUcT 3TT),\nE R\n. Fi G, (2010 Ch A  3  T\nHCT (ufCuS\nfexloyTface\n. GNY\n(1995), HT faSTT, CT2TT TieTH, T fcc\nBernard Blochand\nGeorge L.Trager (1972),\nOutlines of Linguistic\nAnalysis, Munshiram Manoharlal Publishers Pvt Ltd .\nGeorge\nYule\n(1985), The\nStudy of Language An Introduction,\nePLES\nCambridgeUniversity Press, Cambridge, UK.\nJ. Sethi & P.V. Dhamija (1999), A Course in Phonetics and Spoken\nEnglish, Prentice Hall of India Private Limited, New Delh\nO ITY\n4.10\n \nE  C 3  C   4R  R\n1.\n2.\nE  3 3\n3.\nari f ched fe d  daf cfory1\n4.\na E   c   CifT  E \n5.\niuT E C  TeT TET   T r TifT Cf\n6.\nHTTROR  3TTE CR1\n78",
+      "text_nfc": "Eaffa1,\n3TTETT CT ,   RA CTT TTT I CT   CTS\neaffaar,\n3iTA 3TEfR, ieCT  ETT R   TChT  TR 1\nEaf+-ufad d\nSCT 3TETT  G fET  HT c E, 3HCT 3RT ST,\nEaf+-fq\n3CT TifCT 3  fa  fa HST a  C r HTT\nMiee Ch a cT fa ct  BT E e c E cch TT\nCER HSHaC  C\n4.9\n8  g\n. CCTG fET (2012), HSTT  HTT T, fa.a. TCT2TT,\nCRTUNA\nT  (2013), S,  HET, aT\n  1999  ,   , \n3T. f2-TT G (168) T (H c rUcT 3TT),\nE R\n. Fi G, (2010 Ch A  3  T\nHCT (ufCuS\nfexloyTface\n. GNY\n(1995), HT faSTT, CT2TT TieTH, T fcc\nBernard Blochand\nGeorge L.Trager (1972),\nOutlines of Linguistic\nAnalysis, Munshiram Manoharlal Publishers Pvt Ltd .\nGeorge\nYule\n(1985), The\nStudy of Language An Introduction,\nePLES\nCambridgeUniversity Press, Cambridge, UK.\nJ. Sethi & P.V. Dhamija (1999), A Course in Phonetics and Spoken\nEnglish, Prentice Hall of India Private Limited, New Delh\nO ITY\n4.10\n \nE  C 3  C   4R  R\n1.\n2.\nE  3 3\n3.\nari f ched fe d  daf cfory1\n4.\na E   c   CifT  E \n5.\niuT E C  TeT TET   T r TifT Cf\n6.\nHTTROR  3TTE CR1\n78",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_042",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 1,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ugaii\neindrasoull அரசியல் കോൾ garlungaioungairantranna பயன்படுத்தக்\n \n੯੦   தொகுதியிலிருந்து ellu  \n856 தலுக்கான வேட்பாளராகப் போட்டியிட gootrsu நாங்கள் ഭാഗങ്ങൾ செய்கிறோம்\nമഖ 6uwn\nகுந்தை தாய் கணவர் 6uwi\nമുഖാ ક அஞ்சல் ഗ്രകബസി\nമുഖകെ. 6uwi ellu   தொகுதிக்கான வாக்காளா்\nபட்டியலின்\n676ਹੰਗ തുണ് பாகத்தில் 6sali\n676000 6600 6 0ਲੰ64\naivivinsiongs\nநாங்கள் 999 4160 ലേറെ   wagansaison\nஎன்றும் எங்களுடைய nuwisois  \nகுறிப்பிட்டுள்ளவாறு 999 4160    .7..കി. guggerser பட்டியலில்\n0ਰੀ64 செய்யப்பட்டுள்ளன\nஎன்றும் ੪੭੭ நியமனத்தை ഗൺ. 9160615151516\nਉਭੰ 61ਨਹੋਲ6196ਗੇ கையொப்பங்களை ੬੪੦ੁ\nஇட்டுள்ளோம் നങ്ങയ്യർ இதனால் அறிவிக்கின்றோம்\nഗ്രാമിതകെടി  201ർമി വിഖാസമന്ത്രി\nhour 5 ૭ സലധ கையொப்பங்களும்\nostla ഗുൺ ഗ്രീ quwa\nவாக்காளா் பட்டியல் 676660 கையொப்பம் 6661\n05165 sentgot 606 556666\n606 556666 பட்டியலின்\n  ਤ੦ੰਾਮਾਲਲੇਗਾ\n0650 616ਠੰਗ 6enli 616001\n3\n5\n10\n99661 smult அத்தொகுதியின் 059\nsuneenminson ഗണ്ടിയനെലബർ 2727 ੪੦ வேண்டும்\n59un\n౮అ౨ iii",
+      "text_nfc": "ugaii\neindrasoull அரசியல் കോൾ garlungaioungairantranna பயன்படுத்தக்\n \n੯੦   தொகுதியிலிருந்து ellu  \n856 தலுக்கான வேட்பாளராகப் போட்டியிட gootrsu நாங்கள் ഭാഗങ്ങൾ செய்கிறோம்\nമഖ 6uwn\nகுந்தை தாய் கணவர் 6uwi\nമുഖാ ક அஞ்சல் ഗ്രകബസി\nമുഖകെ. 6uwi ellu   தொகுதிக்கான வாக்காளா்\nபட்டியலின்\n676ਹੰਗ തുണ് பாகத்தில் 6sali\n676000 6600 6 0ਲੰ64\naivivinsiongs\nநாங்கள் 999 4160 ലേറെ   wagansaison\nஎன்றும் எங்களுடைய nuwisois  \nகுறிப்பிட்டுள்ளவாறு 999 4160    .7..കി. guggerser பட்டியலில்\n0ਰੀ64 செய்யப்பட்டுள்ளன\nஎன்றும் ੪੭੭ நியமனத்தை ഗൺ. 9160615151516\nਉਭੰ 61ਨਹੋਲ6196ਗੇ கையொப்பங்களை ੬੪੦ੁ\nஇட்டுள்ளோம் നങ്ങയ്യർ இதனால் அறிவிக்கின்றோம்\nഗ്രാമിതകെടി  201ർമി വിഖാസമന്ത്രി\nhour 5 ૭ സലധ கையொப்பங்களும்\nostla ഗുൺ ഗ്രീ quwa\nவாக்காளா் பட்டியல் 676660 கையொப்பம் 6661\n05165 sentgot 606 556666\n606 556666 பட்டியலின்\n  ਤ੦ੰਾਮਾਲਲੇਗਾ\n0650 616ਠੰਗ 6enli 616001\n3\n5\n10\n99661 smult அத்தொகுதியின் 059\nsuneenminson ഗണ്ടിയനെലബർ 2727 ੪੦ வேண்டும்\n59un\n౮అ౨ iii",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

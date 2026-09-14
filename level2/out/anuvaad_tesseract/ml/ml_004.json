@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_004",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0005pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 579
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        579
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "accel mtesiamen geared coment ca anode APS\n\na aedracsoei\neciaigyt pent marcas amare Sarno\n=\n\nal\n\npoco\nBlogads orard $%/2018/ 2422 [9 /o00\nपं ponnwaorersi, वि ഫ,\n\nnage Ae മ ക RAS: 4\nക്കു १४४५\n\nf\n\neee\n",
+      "text_nfc": "accel mtesiamen geared coment ca anode APS\n\na aedracsoei\neciaigyt pent marcas amare Sarno\n=\n\nal\n\npoco\nBlogads orard $%/2018/ 2422 [9 /o00\nपं ponnwaorersi, वि ഫ,\n\nnage Ae മ ക RAS: 4\nക്കു १४४५\n\nf\n\neee\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

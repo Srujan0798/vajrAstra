@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_076",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 0,
+    "width": 1255,
+    "height": 2035
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1255,
+        2035
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "sample பெளிமா paper tamil\nii term 0ল 2010 march 2011\nclass ix\nமாதிாி ରମ୍ବ னாத்தாள் தமிழ்\nஒன்பதாம் வகுப்பு\nஅக்டோபா் 2010 மாா்ச் 2011\nmax marks 80 time 3 hours\nமொஃமதிப்பெண் கள் 80 கால அளவு ે૧૩ ld ணி\nthe question paper is diveded into four sections\nகேள்வித் தாள் நான்கு பிாிவுக ക ளக் கொ ண் டது\nsection 4 reading comprehension 15 marks\nപിസച്ച படித்தல் உரைநடைப் பகுதி 15 மதிப்பெண் ਬ ள்\nsection b writing 15 marks\nപിനിച്ച શ્રુ எழுதுதல் 15 மதிப்பெண் கள்\nsection ੦ ଓ grammar 15 marks\nliag ക லக்க 6001 60 15 மதிப்பெண் கள்\nsectiond literature text books 35 marks\nപിസച്ച ঢা ക லக்கியம் தமிழ்ப் utl ல்கள் மதிப்பெண் கள்\nஎல்லா வினாக்களு க்கும் கட்டாயம் விடையளிக்கப்பட வேண்டும்\nஒவ்வொரு ର னாவிற்கும் உாிய மதிப்பெண் கள் அதனதன் இடத்தில்\nகுறிப்பிடப்பட்டு ଗା ଗା 6\nപിസച്ച ਦੀ\nபடித்தல் 15 மதிப்பெண்\nகீழ் வ௫ம் பத்தியைப் படிக்கவும் இதன னத் தொடர்ந்து வ௫ம்\nപർവിതം வினாவுக்கு உாிய சாியான விடையை எடுத்து\nஎழுதவும் 159\nஎரிபொருள் சாா்ந்த தீயினை ஐந்து வகையாகப் பிாிப்பா் முதல்\nഖ எாிந்து சாம்பலாகக் forlqw தாள் மரம் வைக்கோல் ഉ. முதலான\nபொரு ளைச் சாா்ந்தது ക ക്ക വ சிறிய அளவில் ക ருந்தா ਤੇ ண் ணீா் ஊற்றியும்",
+      "text_nfc": "sample பெளிமா paper tamil\nii term 0ল 2010 march 2011\nclass ix\nமாதிாி ରମ୍ବ னாத்தாள் தமிழ்\nஒன்பதாம் வகுப்பு\nஅக்டோபா் 2010 மாா்ச் 2011\nmax marks 80 time 3 hours\nமொஃமதிப்பெண் கள் 80 கால அளவு ે૧૩ ld ணி\nthe question paper is diveded into four sections\nகேள்வித் தாள் நான்கு பிாிவுக ക ளக் கொ ண் டது\nsection 4 reading comprehension 15 marks\nപിസച്ച படித்தல் உரைநடைப் பகுதி 15 மதிப்பெண் ਬ ள்\nsection b writing 15 marks\nപിനിച്ച શ્રુ எழுதுதல் 15 மதிப்பெண் கள்\nsection ੦ ଓ grammar 15 marks\nliag ക லக்க 6001 60 15 மதிப்பெண் கள்\nsectiond literature text books 35 marks\nപിസച്ച ঢা ക லக்கியம் தமிழ்ப் utl ல்கள் மதிப்பெண் கள்\nஎல்லா வினாக்களு க்கும் கட்டாயம் விடையளிக்கப்பட வேண்டும்\nஒவ்வொரு ର னாவிற்கும் உாிய மதிப்பெண் கள் அதனதன் இடத்தில்\nகுறிப்பிடப்பட்டு ଗା ଗା 6\nപിസച്ച ਦੀ\nபடித்தல் 15 மதிப்பெண்\nகீழ் வ௫ம் பத்தியைப் படிக்கவும் இதன னத் தொடர்ந்து வ௫ம்\nപർവിതം வினாவுக்கு உாிய சாியான விடையை எடுத்து\nஎழுதவும் 159\nஎரிபொருள் சாா்ந்த தீயினை ஐந்து வகையாகப் பிாிப்பா் முதல்\nഖ எாிந்து சாம்பலாகக் forlqw தாள் மரம் வைக்கோல் ഉ. முதலான\nபொரு ளைச் சாா்ந்தது ക ക്ക വ சிறிய அளவில் ക ருந்தா ਤੇ ண் ணீா் ஊற்றியும்",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

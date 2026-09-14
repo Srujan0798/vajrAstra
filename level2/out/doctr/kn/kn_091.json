@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_091",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0\n[apul3ntil@grail.om\n*aom : a\n[7353309032] PACE NO.\nDATE\nsaNd Smt A1003xe lotay = 49 -Usong Poo\ntt gony =13 BoRnng = 34\noreloing - 21\n=P 6N gong M\nU,20,, e,\n> Beoss Rong a 7, >> 88, à 6,w s,a,,,\n=D aaftal Bonang - 257 -USRTROL J joxsg -9.\nU\n813,0.0, SRtbg\n03,0,0 ) 3,0368\n* dopngo-\nTnd a Boong:\nplps -\n1A on (E)\n0 Oxd pop Olune BoR OAEs Bocs E\nTBORU Nogngst- 00\nromiAs - DO2e 1-\nOBoSF ocees AOR Onngoe O0A Rog Ooispob\nG xo doa L V@ diss, 1900 @ -0; SMAS NOQA de\n* BRLB Boong3-\nOdsa Boo:- C B.8 exs po&\n:\nD end + enros = ens 0a 0\nen + ens i ew iens\ne BtOo + M2od 283000 I lestase exd\nBeount 2205 I = Beodabs Cotqrsaand\nHvog + enro in Uogne bet ens =U eexes\n1\ni\n@ gRBob - Poss'ogorl8 31o0 unwango\n=D DRtUO a apovee Cedte=03 b0 ongs]\nEpfei -\nSESUN Fote= es\nPo\n7\n4+ R0 + oRE 800JA1 Untu = a 7\nU4\nA UIRAN Brstnd= areon Cet2= e3t\n03 + 4E\n5y\n- Np\na\n3 8e8 800 : [388 ngn 0,8,208 88eswnud\n6n3 + BRB I GRNAB [U + 8 = Did83\n4 882 t e3100 -dened-(0+6-g eots\n4 OFtOs = B000 (U. +e- 2 888e3\nA og + 88\nognos\neo + dEr n\nDe 67\nA els es + Eiy i eang\n[ate- a\nSeB\nA esrf +t 8e3 y esowes, [es +\n2 e8 8e7\n26\nScanned by CamScanner\n* Ueo f 8n8S Boong drdd 20 Boongna\nedeg DDQO YEU eSjOR\nr 180",
+      "text_nfc": "0\n[apul3ntil@grail.om\n*aom : a\n[7353309032] PACE NO.\nDATE\nsaNd Smt A1003xe lotay = 49 -Usong Poo\ntt gony =13 BoRnng = 34\noreloing - 21\n=P 6N gong M\nU,20,, e,\n> Beoss Rong a 7, >> 88, à 6,w s,a,,,\n=D aaftal Bonang - 257 -USRTROL J joxsg -9.\nU\n813,0.0, SRtbg\n03,0,0 ) 3,0368\n* dopngo-\nTnd a Boong:\nplps -\n1A on (E)\n0 Oxd pop Olune BoR OAEs Bocs E\nTBORU Nogngst- 00\nromiAs - DO2e 1-\nOBoSF ocees AOR Onngoe O0A Rog Ooispob\nG xo doa L V@ diss, 1900 @ -0; SMAS NOQA de\n* BRLB Boong3-\nOdsa Boo:- C B.8 exs po&\n:\nD end + enros = ens 0a 0\nen + ens i ew iens\ne BtOo + M2od 283000 I lestase exd\nBeount 2205 I = Beodabs Cotqrsaand\nHvog + enro in Uogne bet ens =U eexes\n1\ni\n@ gRBob - Poss'ogorl8 31o0 unwango\n=D DRtUO a apovee Cedte=03 b0 ongs]\nEpfei -\nSESUN Fote= es\nPo\n7\n4+ R0 + oRE 800JA1 Untu = a 7\nU4\nA UIRAN Brstnd= areon Cet2= e3t\n03 + 4E\n5y\n- Np\na\n3 8e8 800 : [388 ngn 0,8,208 88eswnud\n6n3 + BRB I GRNAB [U + 8 = Did83\n4 882 t e3100 -dened-(0+6-g eots\n4 OFtOs = B000 (U. +e- 2 888e3\nA og + 88\nognos\neo + dEr n\nDe 67\nA els es + Eiy i eang\n[ate- a\nSeB\nA esrf +t 8e3 y esowes, [es +\n2 e8 8e7\n26\nScanned by CamScanner\n* Ueo f 8n8S Boong drdd 20 Boongna\nedeg DDQO YEU eSjOR\nr 180",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_072",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0005pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(iii) 67o0)o/ Csipbsl (ಸms (BoJG7CILb ? (4) ಖmIoLb 3(566ಚTuILb (B) @I86 @(ತpu ಖಣoLb (C) ಖ6BuLಗ Lns@ub (D) ತ)GTLI(ui $IG TLI(pLi\n(11) ಹ6U@1 67560607 @Jo7ii5m OILb ? () ಹಯ@1  LIಹonl @JoTiiಕm OIui (}) ಹಯ@1 GIಕಉುದಿಶೆಂತ @Joriಶ9 @ ui ಹ6U@1 ೨ [6೦J @JoTiisಐ OLi (D) ಹ6 @1 ೨p1ool @JoTಕm Giuh [5rTLb 6150(Li LTOILJL  (ಠoJGoTOiui ? (4) ತ[೦೦ು ೨ @ಖಖJC @L 81pmಹl] LTOILL @oJo7OILb (B) @I8ಯ@& @I8L0ILJL1oU @mಳpui LIOILL @oJGoGIu (C) ಖmu ol [5ಹಹL1 LTGLL  @oJoo7 GLb (D) moLb ಹ(U6G6 TL|Lಗ 9)667[5 @5 @IoTTL  i LTOILL = C9o] G07CILಗ .\n2.\nL16 To/ ([Lb L(ತS ollui   Lu ಪತl , @Iಹ/0ಹಹLೊuu್u   @1o ಹಿತ @ಹಿ@ಹpp @1@L _ 67(L5|ಹ. 5 X ] = ಃ 50CBLIೊgl [5lTLಗ 5600/55)LL] LUJGTLOSSllಗ 5/16((9oL` Lii 80@101631 @G TGBoTrTLq  Lmoiಹoು ಪಿ@mii. 1623 ಖLb ೨G7೦) ಊೌ6 18 ಖL [5ಹoiT L1rTGUT@2) @U 8 oTifLD/ToooTOlo% GILGITGOTL * 676o7ಐ ತ)L ಶ5lo LSpp5srii. [iiLlsJsoffl 6ol LJGoಚTL ಹoiT LpmuI ಖuiloಹofloulLb FUILL'L  LTTomo   Lm foso @ 6UT ಖulolsoor @1r1loLO5S   ೨(ತssLi   Lnglui GI6p0IL_Li @5TL_ifLI[T6T @Iಹ/T6i160ಹ566T8 @I5Glil6JLIOಶmlGuTTTi . ಹ60o  555) @ @IL4 @1u I@ LD2DlLb [15595ಹ6| CಹಹTL 'LIITOIsoT @I5ಹL_iL soLಗ uilo GIsuilsmi; LTTo ಹಯ ಹ6flLೊGILJTm @JLq @J @LDLILಹ(ತ @Go TC'oT[TLRUI[ಕ @11ormImluJ LImoUಹoo@GuT   6T6oTp   ಹ0061 8/ `L_@   ಹ5055ಯು @9ol G@ಹ 6GIT LDL'CILಗ @I8tilluಹ 8/qILಪ/(L . GಣiLDoflt1ou L/6uL _607 GTGoTp ಠL 5mlo ೨_@ToIT 8ೌo1೫lsi ೨U೫lಹ[TL g uls m)o LITTo 5ಯ @JL@J/6/055 ಹಗ6(ತಿ@ou L_i Lnio@/ಹ(ತ   6@JಹತLILJI` @ 6Tosl . 5[565L1L_CLD   56U6111 60675   ಹ0ಣ1 ೨[Io L_6u7 mIಹL'jbsrii.  LCoTuiloi LITG ಹo   [516676JJ/15   ೨(Umm 0ಹ[67 616ಜ .  !oflu_ೊಗ( LToಹ@ು   Guur LLILILGoiTo sl . ಠori   1662 ೨ಹoL ` 19 ಖL prToir 56 r@೦| 60 L_uI 39 @ | @JuಣI@U ಹ/T6LDವTooTmi . 10 Page 4oj 12 * 11",
+      "text_nfc": "(iii) 67o0)o/ Csipbsl (ಸms (BoJG7CILb ? (4) ಖmIoLb 3(566ಚTuILb (B) @I86 @(ತpu ಖಣoLb (C) ಖ6BuLಗ Lns@ub (D) ತ)GTLI(ui $IG TLI(pLi\n(11) ಹ6U@1 67560607 @Jo7ii5m OILb ? () ಹಯ@1  LIಹonl @JoTiiಕm OIui (}) ಹಯ@1 GIಕಉುದಿಶೆಂತ @Joriಶ9 @ ui ಹ6U@1 ೨ [6೦J @JoTiisಐ OLi (D) ಹ6 @1 ೨p1ool @JoTಕm Giuh [5rTLb 6150(Li LTOILJL  (ಠoJGoTOiui ? (4) ತ[೦೦ು ೨ @ಖಖJC @L 81pmಹl] LTOILL @oJo7OILb (B) @I8ಯ@& @I8L0ILJL1oU @mಳpui LIOILL @oJGoGIu (C) ಖmu ol [5ಹಹL1 LTGLL  @oJoo7 GLb (D) moLb ಹ(U6G6 TL|Lಗ 9)667[5 @5 @IoTTL  i LTOILL = C9o] G07CILಗ .\n2.\nL16 To/ ([Lb L(ತS ollui   Lu ಪತl , @Iಹ/0ಹಹLೊuu್u   @1o ಹಿತ @ಹಿ@ಹpp @1@L _ 67(L5|ಹ. 5 X ] = ಃ 50CBLIೊgl [5lTLಗ 5600/55)LL] LUJGTLOSSllಗ 5/16((9oL` Lii 80@101631 @G TGBoTrTLq  Lmoiಹoು ಪಿ@mii. 1623 ಖLb ೨G7೦) ಊೌ6 18 ಖL [5ಹoiT L1rTGUT@2) @U 8 oTifLD/ToooTOlo% GILGITGOTL * 676o7ಐ ತ)L ಶ5lo LSpp5srii. [iiLlsJsoffl 6ol LJGoಚTL ಹoiT LpmuI ಖuiloಹofloulLb FUILL'L  LTTomo   Lm foso @ 6UT ಖulolsoor @1r1loLO5S   ೨(ತssLi   Lnglui GI6p0IL_Li @5TL_ifLI[T6T @Iಹ/T6i160ಹ566T8 @I5Glil6JLIOಶmlGuTTTi . ಹ60o  555) @ @IL4 @1u I@ LD2DlLb [15595ಹ6| CಹಹTL 'LIITOIsoT @I5ಹL_iL soLಗ uilo GIsuilsmi; LTTo ಹಯ ಹ6flLೊGILJTm @JLq @J @LDLILಹ(ತ @Go TC'oT[TLRUI[ಕ @11ormImluJ LImoUಹoo@GuT   6T6oTp   ಹ0061 8/ `L_@   ಹ5055ಯು @9ol G@ಹ 6GIT LDL'CILಗ @I8tilluಹ 8/qILಪ/(L . GಣiLDoflt1ou L/6uL _607 GTGoTp ಠL 5mlo ೨_@ToIT 8ೌo1೫lsi ೨U೫lಹ[TL g uls m)o LITTo 5ಯ @JL@J/6/055 ಹಗ6(ತಿ@ou L_i Lnio@/ಹ(ತ   6@JಹತLILJI` @ 6Tosl . 5[565L1L_CLD   56U6111 60675   ಹ0ಣ1 ೨[Io L_6u7 mIಹL'jbsrii.  LCoTuiloi LITG ಹo   [516676JJ/15   ೨(Umm 0ಹ[67 616ಜ .  !oflu_ೊಗ( LToಹ@ು   Guur LLILILGoiTo sl . ಠori   1662 ೨ಹoL ` 19 ಖL prToir 56 r@೦| 60 L_uI 39 @ | @JuಣI@U ಹ/T6LDವTooTmi . 10 Page 4oj 12 * 11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

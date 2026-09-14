@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_048",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1Y\nRRE\n(vii) ccd J238 agaada aadd\n(A) Nodgaw\n(B) Nodgain\n(C) Nodgn\n(D) wowgalod\n(viii) Joonne Bay eaveeaed saaban f dodeedsabe 3 drawoed -\n- Reda endrs roab\nE3\n(A) wabab\n(B) Noloenn\n(C) 88\n(D) Joon\n(ix) 88t36 et3de dodnab\n3\ndod,de\ndod drs doddad e93 Qo% -\nge oda Noaeael3s\n(A) doonab\n(B) doas\n(C) 88t36\n(D) dod\n(x)\noa NaFNa ads ewwoodd.\n(A) dabes\n(B) 3a\n(C) adod\n(D) 3es8\n13/S\n15\nP.T.O.\n#",
+      "text_nfc": "1Y\nRRE\n(vii) ccd J238 agaada aadd\n(A) Nodgaw\n(B) Nodgain\n(C) Nodgn\n(D) wowgalod\n(viii) Joonne Bay eaveeaed saaban f dodeedsabe 3 drawoed -\n- Reda endrs roab\nE3\n(A) wabab\n(B) Noloenn\n(C) 88\n(D) Joon\n(ix) 88t36 et3de dodnab\n3\ndod,de\ndod drs doddad e93 Qo% -\nge oda Noaeael3s\n(A) doonab\n(B) doas\n(C) 88t36\n(D) dod\n(x)\noa NaFNa ads ewwoodd.\n(A) dabes\n(B) 3a\n(C) adod\n(D) 3es8\n13/S\n15\nP.T.O.\n#",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

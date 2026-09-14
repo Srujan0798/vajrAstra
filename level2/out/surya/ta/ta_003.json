@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_003",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0003pro_raw.png",
+    "page_index": 0,
+    "width": 263,
+    "height": 428
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        263,
+        428
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Π Αλγελίκαι\n1) പുലർ നോവലിനെ ശനിക്കുകയി നിന്നും? വിശേഷണം പറയു തനിവർമ്മ രീതിയും നേരി?\nവിസ്തൃതി തീർത്തുന്ന വിസ്തൃതി കാരണം അവിടെ വരും. വിസ്തൃതി വിസ്തൃതിയിൽ തീർത്തുന്ന വിസ്തൃതിയിൽ\nAnalysis of the results of the water concentration experiments showing that the usual concentration of the sample is about the limit of the limit of the sample.\nதொண்டையாள் தாயுல் சிறப்பாக அக்குப்பு: மற்ற்கள் அனைத்தும் சீண்டையின்பைக் ஆயத்து விடுத்தன.\nஎனவே புல் காற்றினால் மரங்களைக் கொல்பட நிலைகளாக பால் காற்பிறக்கிறது.\nകേരളത്തുനൂറുമുമ്പ് വീക്ഷയ്ക്ക് എ്വലപ്പിലുകളെ വേതവ?\nജിഗ്നൻ സ്വന്തം ഖരങ്ങളാണ് പരിചയത്ത് നിഗമ്മ ഭാഷയിൽ ചിലപ്പോൾ സ്ഥിതി ചെയ്യുന്നത്. ജാത്യത്ത് ശിഖരനായിരുന്നു എന്ന് പുലർത്തുന്നു.\nஅழகிய சுவர்களை வெடி மாம மிகள் அழகாக விடுத்தை\nالاسم\nC",
+      "text_nfc": "Π Αλγελίκαι\n1) പുലർ നോവലിനെ ശനിക്കുകയി നിന്നും? വിശേഷണം പറയു തനിവർമ്മ രീതിയും നേരി?\nവിസ്തൃതി തീർത്തുന്ന വിസ്തൃതി കാരണം അവിടെ വരും. വിസ്തൃതി വിസ്തൃതിയിൽ തീർത്തുന്ന വിസ്തൃതിയിൽ\nAnalysis of the results of the water concentration experiments showing that the usual concentration of the sample is about the limit of the limit of the sample.\nதொண்டையாள் தாயுல் சிறப்பாக அக்குப்பு: மற்ற்கள் அனைத்தும் சீண்டையின்பைக் ஆயத்து விடுத்தன.\nஎனவே புல் காற்றினால் மரங்களைக் கொல்பட நிலைகளாக பால் காற்பிறக்கிறது.\nകേരളത്തുനൂറുമുമ്പ് വീക്ഷയ്ക്ക് എ്വലപ്പിലുകളെ വേതവ?\nജിഗ്നൻ സ്വന്തം ഖരങ്ങളാണ് പരിചയത്ത് നിഗമ്മ ഭാഷയിൽ ചിലപ്പോൾ സ്ഥിതി ചെയ്യുന്നത്. ജാത്യത്ത് ശിഖരനായിരുന്നു എന്ന് പുലർത്തുന്നു.\nஅழகிய சுவர்களை வெடி மாம மிகள் அழகாக விடுத்தை\nالاسم\nC",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

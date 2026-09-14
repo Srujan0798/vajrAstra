@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_038",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 258,
+    "width": 1123,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1123,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "s3w8one5\n982\n3\nda0\nwaab Co0DaoNan, nabara eao\nX\nwoodso\nagabrea XOT wetdrods 23022877 epsardade\nde)\ne\nao0 Roodenen sodrowond. agede, WORFOON\nHOX3a0,6dr0 boot\nJe)\naapada\nB0NA0RJGOO0\newa 8Fwa bodoostavdo mosewoa Se 8.88.\napo@donabado egaead atsood. ead 3970003,\n3 Q\nHOXE\nweddrod ayood aoaso de38 modogesse; ;\no\noono (BaFEO dadeende) 3gcas0 0e3800\n60ro'todoae\nbodogaao e8Ros03d. aoTFOON\n83F\nC\n\nentaba eano 88 d03 HOJOFAOJOS mowen\ndowwoade, WoRFOO doebas 63Fbede 883w00\ned w00on9e aejate sedade cagas WO2 XoorA\newoo0 wo00o Ketsswohes.s\nosoo8no gecaon 83F,0008300 dewgd. (geeab deeser\n&\natno 83F,8de0 dezo Aeoiog - no. 090. cwwo. wowaao\naeest aesa.)\n3\n(epo epoevo\nsoxed S\naood, 3000e apaso aestooado\no\neur Roteera agab waa 20abae nNg aode. wowaggabe\naowab eprde gadoenavrbad. aonFodn eg\no\na agagabe\n- wows woWo' - WO aadoen cadg 033F. egd, woga\n09. \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven\nvibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit\ngrammarians, the first case termination does not convey any Karaka. The second\nconveys Karma, the Karana and Karta and SO on. The verbal termination con-\nveys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons...\na plan of reference to Karma on this basis\ncannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot\nalso be applied mutatis mutandis to Kannada.' \"- Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' : Paper by Sri K.T. Pandurangi, M.A.; Vide\nproceedings of the Seminar on Grammatical \"Theories in Kannada\" (October\n1965), Annamalai University, Annamalainagar.",
+      "text_nfc": "s3w8one5\n982\n3\nda0\nwaab Co0DaoNan, nabara eao\nX\nwoodso\nagabrea XOT wetdrods 23022877 epsardade\nde)\ne\nao0 Roodenen sodrowond. agede, WORFOON\nHOX3a0,6dr0 boot\nJe)\naapada\nB0NA0RJGOO0\newa 8Fwa bodoostavdo mosewoa Se 8.88.\napo@donabado egaead atsood. ead 3970003,\n3 Q\nHOXE\nweddrod ayood aoaso de38 modogesse; ;\no\noono (BaFEO dadeende) 3gcas0 0e3800\n60ro'todoae\nbodogaao e8Ros03d. aoTFOON\n83F\nC\n\nentaba eano 88 d03 HOJOFAOJOS mowen\ndowwoade, WoRFOO doebas 63Fbede 883w00\ned w00on9e aejate sedade cagas WO2 XoorA\newoo0 wo00o Ketsswohes.s\nosoo8no gecaon 83F,0008300 dewgd. (geeab deeser\n&\natno 83F,8de0 dezo Aeoiog - no. 090. cwwo. wowaao\naeest aesa.)\n3\n(epo epoevo\nsoxed S\naood, 3000e apaso aestooado\no\neur Roteera agab waa 20abae nNg aode. wowaggabe\naowab eprde gadoenavrbad. aonFodn eg\no\na agagabe\n- wows woWo' - WO aadoen cadg 033F. egd, woga\n09. \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven\nvibhaktis. He begins his enumeration with Karmakaraka instead of Kartrkaraka.\nThis is because the order followed is that of vibhaktis. Accoring to Sanskrit\ngrammarians, the first case termination does not convey any Karaka. The second\nconveys Karma, the Karana and Karta and SO on. The verbal termination con-\nveys Karta in active construction. Therefore the first case termination is added\npurely for technocal reasons...\na plan of reference to Karma on this basis\ncannot hold good to Kannada. The demarcation of Karakas as in Sanskrit cannot\nalso be applied mutatis mutandis to Kannada.' \"- Influences of Sanskrit and prakrit\nGrammars on Kannada Grammarians' : Paper by Sri K.T. Pandurangi, M.A.; Vide\nproceedings of the Seminar on Grammatical \"Theories in Kannada\" (October\n1965), Annamalai University, Annamalainagar.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

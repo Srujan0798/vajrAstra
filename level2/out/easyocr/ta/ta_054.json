@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_054",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0021pro_raw.pdf",
+    "page_index": 216,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಖoflu]LuLLL' L67 . ]950 @ ಖ೦Lrfmಹ 1616 r LbGum6 ' [5 [] @ 607 Lb [51 ಪL08 8ಹ 6D GT7 L] L 5 @ @ v uil ಪJ  @ ೮ @ @J L1 L ( Lb @ u [ ೨1 ಹ/L*೫LIuUSmILD 9ofltiuslo [TLT (TTR-l idco T.pೇ Rccotdet) 67607m ಹ(J@16lLJ ಖ (ಖJ/೫ಣluusl . ಖ೫6ಐಐoತ [5ofooಕ @5/L016[5IL' uL @Iಹ/1600L LLLiuIqtiu೫; 5(J61ಹ6iT   56007ULLq ೫ಹLILJL' L 607 . ಹ0ಹ/ಖ5m 6 65/60@5;ಹlL*8 offlurLusoir @(U6olDll s 6T600T60ಾilL0 ( Disital) oIq @5m [( Ln[DLiuL Go೨u L_6l. ಠ56/6  ಹ/TL` 3156067ಶ G96ilo[soLb 9J6UouILD/ಹoLb ಹ/ 6uul(L0Iq 81_9] . @isume1ಕu 65m606ಹಹmtಕ1 [ ಪ) u [ @1 6 @ 5 6u1 @ ಪ @ ಣ @5/1 @ @೫ ಹ/1L'8 ] 9೯೨ _ ಯ Lಪl 5 oಖ 11 6u @Iಪ/L[IಹLJLL` L ೨J. @ತಖ @ [51ಹL881ಹ6ir ಹ೨ILIL @|o/ oT 6DGT [ 05m @ 6fu[]Lunu16u7 . L6uTL, ]982910 967U 956UL * 15 ಖ1 [blT6ir 6/600760075 @ 5[T G @ ಪ 5[TL' 8 u[ಹ OJ 6Il [j &m   GIupmsl . @o] @J607 6075  @5/6065;ಹ/L'ಖu1 @u @ [sln ಹ11[5m   ೨L0oLnunrouT   3ತ[5m] m 607 @1 UpTL] @L(Uo[@uJ @ಪou [51ಹLಂ3 3uu[ಹ  16LDj5ggl . 6Jr66urmTeO;   65r66ಹಹrL_೫ (866lಹ6i @J mG1 607 [1 @ u| LD @511 6 @ ೫ 5/ L* 8 u L0 5 ಹ @J 6 ಪ @ G 8   50u0 5ಹ@J @ @5ೊL [jL ಖ೫ L & I5l ಹ GTT [T ಹ LDL' @ L 6U @[T LD6 ಹ @ 61 , Ol G6IT [ 6007 6 /0 , ೨m o1 u I @ , L(5ಕl @ L0 , 166TUUTL'U @ಪಖn67 LJ6u@oDl 5I6Dunij ಸತ 9016oluLb 6ಹ/160076   @3 6uಖJL0 ಖ1mJosnij ೨6L L  ಹ/5Jಹ6T[ಹ6JL0 m1ಹL0m601[0607 . ೃ-ಣelii [61ಹಕ81ಹ6 @J/TGIo7[T@Uu1 6 L6 07 6D678  @I8 u1mಹ(@5LD, ಖ  L0 @ ij ಹ Gi1 L0 [ಿ Dl Lb @1 [] o [ & 5 [l L ouuil uJ [ G7 [j ಹ (@ ೫ ಹ[T 607 ೨ 01 o1 [L ಹ @5 u0 @LLbolu[ಐl @(Um6 7[o7 . @[TOI67/T60u9ou ಖ Lpoij [51ಹuಂu8 ೮DoLD/1s @1 65ಹ6   ಪm (ಹLb, uuAr ಹ6  unLrjluu; LuArj ಹ667T 5   5/5(Lb   @ೊ5/uilsoiT , 56೫(Lb (oojಹ6iT @mouJo[mlp( (oJGT[6ouT 6ಚrjloJl೫ಹ ೫೨o@[j ಹ6ir @161 ೫5l0 ೨Gfl೫m6u moij . @LDouun @oJoT/ol Su' L[5lಹ6l , ೨[861 ಹL607 ೨ 561 561 , [5j (LDorTo or6 LD; 5/16U[56L  @J6 TijLu; 8pgrrj\nLLLix^w Liv|u 80ಖಫ Gಹinrn)\n@ಹT sus#TL*g1 [ಗಪsuuulo\n೧೫iroಖuಈ sirL*5 ಖ೯funLiu  cp\nಖi೦\nG5ಚ--ಹdTLFui GuL\nDaTnofuntua\n3. ೨ @I [ L [ILL' L L0 607 607 6 @ ಣ 6  6)7 omTmhlಟ , ಖ೦jopul LLLD[TಹoLD @ಫ UlTಹoLD LT[ DI5(Uub @I5/766೫ಹ/TL*ಖlul GILL'I (Rcciever T.1)\n65[606ಹಹಞL_೫luler   @5rpplb [5Jmlonibsl JlL' @L& &nijibs 8r6u] 6163 GuujU (]ol Iegic baird) ಹ/1L'm ofluluu ujim] ೨mbsl@sn6i1 @JS1 6   .0([೮ ಫಿij oJub 01ಹ [ 60T I (.ಪn [j . & o ಹ LD Lu1 o @M 5 5[515 5(061 LDglub ಊ o  L016ಊ7 566ಶl ಹ(5L607 ಖ[u& ೫u1 6u F@LL'LTij . @ @] @TTu| @1 ouT @16D6 T G/1ಹ ಣ(U GILTLDooLDugour ೨ (oಪ5os ಖr ೦[luoouisl Ln@mnij   ೦[ಹತ ೨@Iuu @I6[m] ಹ600TLmij . 97೮ 80J6J606075 5L09l LLub I1q೫೬ub 3(061 (6or [ಐl5s, 66ಶl   @ಹ, 5/16566T  9163m3 6D6Jಶ9l 91೫ಹಗL` Iu160607 6flu[]Lu   Lmlup[5snij . 569|  @)[s 9rlu 56007C LIq Ll6L @)ಯ6 dl L 607l6u ೨_Gif G7T   [TuI@ ಅ@ತಂತSಿಕ Lವ ol @I3uilgl@ ಹ/160TLTij . @ ಪ 60T @ ಹ @ T ಹ L L T ಪ1 L ಪ ಹ 6iT 5600T ( Gಪ6fl೫(ub @5/1606೫s/L*yl [ಗ1ಹu0s4lಹ6ir )rlಹloun [ಸsl[5IL'Iq 6U1 56೦ [ಹl] [607 E @UGUTL_@07 ಯ GflLILLLILL'L60. ೨1ಶ1 ಹDILIL; GI*J6iT 667 [Blm೫ (B[ack ೩.1d Il hito) ಹ/1L'8 GflL[LLT(Lb. 46 To7rj , ೨1 L [ 5 ಹ [ @1 @ 6007 6007 [5] ಣ (Co[ou[ ) @iflu[LL G5TL[lsll LL' LಪI.\nG151Lಹ ಹ/16ಂm1 6 LLIDLIIq5(ubಹ([61u16ur @ 607 [ ಹ U೧  81 ಹ GiT [5L55LLL'G @ೊ Iquns ಣn6i G ou8 GIuuurjG\n209\n12th Std Advance Tamil Chaper 586.indd 209\n10-12-2021 15.35.08",
+      "text_nfc": "ಖoflu]LuLLL' L67 . ]950 @ ಖ೦Lrfmಹ 1616 r LbGum6 ' [5 [] @ 607 Lb [51 ಪL08 8ಹ 6D GT7 L] L 5 @ @ v uil ಪJ  @ ೮ @ @J L1 L ( Lb @ u [ ೨1 ಹ/L*೫LIuUSmILD 9ofltiuslo [TLT (TTR-l idco T.pೇ Rccotdet) 67607m ಹ(J@16lLJ ಖ (ಖJ/೫ಣluusl . ಖ೫6ಐಐoತ [5ofooಕ @5/L016[5IL' uL @Iಹ/1600L LLLiuIqtiu೫; 5(J61ಹ6iT   56007ULLq ೫ಹLILJL' L 607 . ಹ0ಹ/ಖ5m 6 65/60@5;ಹlL*8 offlurLusoir @(U6olDll s 6T600T60ಾilL0 ( Disital) oIq @5m [( Ln[DLiuL Go೨u L_6l. ಠ56/6  ಹ/TL` 3156067ಶ G96ilo[soLb 9J6UouILD/ಹoLb ಹ/ 6uul(L0Iq 81_9] . @isume1ಕu 65m606ಹಹmtಕ1 [ ಪ) u [ @1 6 @ 5 6u1 @ ಪ @ ಣ @5/1 @ @೫ ಹ/1L'8 ] 9೯೨ _ ಯ Lಪl 5 oಖ 11 6u @Iಪ/L[IಹLJLL` L ೨J. @ತಖ @ [51ಹL881ಹ6ir ಹ೨ILIL @|o/ oT 6DGT [ 05m @ 6fu[]Lunu16u7 . L6uTL, ]982910 967U 956UL * 15 ಖ1 [blT6ir 6/600760075 @ 5[T G @ ಪ 5[TL' 8 u[ಹ OJ 6Il [j &m   GIupmsl . @o] @J607 6075  @5/6065;ಹ/L'ಖu1 @u @ [sln ಹ11[5m   ೨L0oLnunrouT   3ತ[5m] m 607 @1 UpTL] @L(Uo[@uJ @ಪou [51ಹLಂ3 3uu[ಹ  16LDj5ggl . 6Jr66urmTeO;   65r66ಹಹrL_೫ (866lಹ6i @J mG1 607 [1 @ u| LD @511 6 @ ೫ 5/ L* 8 u L0 5 ಹ @J 6 ಪ @ G 8   50u0 5ಹ@J @ @5ೊL [jL ಖ೫ L & I5l ಹ GTT [T ಹ LDL' @ L 6U @[T LD6 ಹ @ 61 , Ol G6IT [ 6007 6 /0 , ೨m o1 u I @ , L(5ಕl @ L0 , 166TUUTL'U @ಪಖn67 LJ6u@oDl 5I6Dunij ಸತ 9016oluLb 6ಹ/160076   @3 6uಖJL0 ಖ1mJosnij ೨6L L  ಹ/5Jಹ6T[ಹ6JL0 m1ಹL0m601[0607 . ೃ-ಣelii [61ಹಕ81ಹ6 @J/TGIo7[T@Uu1 6 L6 07 6D678  @I8 u1mಹ(@5LD, ಖ  L0 @ ij ಹ Gi1 L0 [ಿ Dl Lb @1 [] o [ & 5 [l L ouuil uJ [ G7 [j ಹ (@ ೫ ಹ[T 607 ೨ 01 o1 [L ಹ @5 u0 @LLbolu[ಐl @(Um6 7[o7 . @[TOI67/T60u9ou ಖ Lpoij [51ಹuಂu8 ೮DoLD/1s @1 65ಹ6   ಪm (ಹLb, uuAr ಹ6  unLrjluu; LuArj ಹ667T 5   5/5(Lb   @ೊ5/uilsoiT , 56೫(Lb (oojಹ6iT @mouJo[mlp( (oJGT[6ouT 6ಚrjloJl೫ಹ ೫೨o@[j ಹ6ir @161 ೫5l0 ೨Gfl೫m6u moij . @LDouun @oJoT/ol Su' L[5lಹ6l , ೨[861 ಹL607 ೨ 561 561 , [5j (LDorTo or6 LD; 5/16U[56L  @J6 TijLu; 8pgrrj\nLLLix^w Liv|u 80ಖಫ Gಹinrn)\n@ಹT sus#TL*g1 [ಗಪsuuulo\n೧೫iroಖuಈ sirL*5 ಖ೯funLiu  cp\nಖi೦\nG5ಚ--ಹdTLFui GuL\nDaTnofuntua\n3. ೨ @I [ L [ILL' L L0 607 607 6 @ ಣ 6  6)7 omTmhlಟ , ಖ೦jopul LLLD[TಹoLD @ಫ UlTಹoLD LT[ DI5(Uub @I5/766೫ಹ/TL*ಖlul GILL'I (Rcciever T.1)\n65[606ಹಹಞL_೫luler   @5rpplb [5Jmlonibsl JlL' @L& &nijibs 8r6u] 6163 GuujU (]ol Iegic baird) ಹ/1L'm ofluluu ujim] ೨mbsl@sn6i1 @JS1 6   .0([೮ ಫಿij oJub 01ಹ [ 60T I (.ಪn [j . & o ಹ LD Lu1 o @M 5 5[515 5(061 LDglub ಊ o  L016ಊ7 566ಶl ಹ(5L607 ಖ[u& ೫u1 6u F@LL'LTij . @ @] @TTu| @1 ouT @16D6 T G/1ಹ ಣ(U GILTLDooLDugour ೨ (oಪ5os ಖr ೦[luoouisl Ln@mnij   ೦[ಹತ ೨@Iuu @I6[m] ಹ600TLmij . 97೮ 80J6J606075 5L09l LLub I1q೫೬ub 3(061 (6or [ಐl5s, 66ಶl   @ಹ, 5/16566T  9163m3 6D6Jಶ9l 91೫ಹಗL` Iu160607 6flu[]Lu   Lmlup[5snij . 569|  @)[s 9rlu 56007C LIq Ll6L @)ಯ6 dl L 607l6u ೨_Gif G7T   [TuI@ ಅ@ತಂತSಿಕ Lವ ol @I3uilgl@ ಹ/160TLTij . @ ಪ 60T @ ಹ @ T ಹ L L T ಪ1 L ಪ ಹ 6iT 5600T ( Gಪ6fl೫(ub @5/1606೫s/L*yl [ಗ1ಹu0s4lಹ6ir )rlಹloun [ಸsl[5IL'Iq 6U1 56೦ [ಹl] [607 E @UGUTL_@07 ಯ GflLILLLILL'L60. ೨1ಶ1 ಹDILIL; GI*J6iT 667 [Blm೫ (B[ack ೩.1d Il hito) ಹ/1L'8 GflL[LLT(Lb. 46 To7rj , ೨1 L [ 5 ಹ [ @1 @ 6007 6007 [5] ಣ (Co[ou[ ) @iflu[LL G5TL[lsll LL' LಪI.\nG151Lಹ ಹ/16ಂm1 6 LLIDLIIq5(ubಹ([61u16ur @ 607 [ ಹ U೧  81 ಹ GiT [5L55LLL'G @ೊ Iquns ಣn6i G ou8 GIuuurjG\n209\n12th Std Advance Tamil Chaper 586.indd 209\n10-12-2021 15.35.08",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

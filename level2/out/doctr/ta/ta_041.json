@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_041",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "DO\n- if\nDe\nSeries : EFGH/S\nSet = 4\nQ.P. Code\n10/S\nRoll No.\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nsuy\nTAMIL\n55IT6U 9/6T6: . 3 LD60011\nOLDIT LDSILIGLI6001556IT:80\nTime allowed : 3 hours\nMaximum Marks : 80\n10/S\nb5 096011T35Tarl 9alLUGUDD 15 L5516150 OIT 90T616054 ELImie5504D.\nollootma5onloor 616051 165556 051655LULGOT6IT C56167 LIBl60 MUSLOOL,\nGoijon 01160L65107lr 5606ULLU LI555560 6T(L05 C660TGLD.\n015 096or55offle 14 096TIT50T DOTGTGTOUIT 6T60TH EMumia50llb.\n6T055\nGSTL0501505\n(D60T\n0M60L55morlo\n6960T116960T\n6f60s\n6T600160)600T8 MULLO4.\n096TT755TDGTL UqDu5D5 15 BLOLIEI5OT 5155L11\n6TT6IT60T. 096011T55IOT\n10.15 $(58 G5T@65LUGLD. 10.15 Oo 0055 10.30 OJ60I 09601155TTGDGT\nLDLGLD Llq55 COLGOTGILD. 065 OBIBB6 0900L35ofle 6T55L LIBGoouLD\n6T(056560LT5\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 14 questions.\nPlease write down the Serial Number of the question in the answer-book\nat the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n#\nPage 1 of 15\nP.T.O.",
+      "text_nfc": "DO\n- if\nDe\nSeries : EFGH/S\nSet = 4\nQ.P. Code\n10/S\nRoll No.\nCandidates must write the Q.P. Code\non the title page of the answer-book.\nsuy\nTAMIL\n55IT6U 9/6T6: . 3 LD60011\nOLDIT LDSILIGLI6001556IT:80\nTime allowed : 3 hours\nMaximum Marks : 80\n10/S\nb5 096011T35Tarl 9alLUGUDD 15 L5516150 OIT 90T616054 ELImie5504D.\nollootma5onloor 616051 165556 051655LULGOT6IT C56167 LIBl60 MUSLOOL,\nGoijon 01160L65107lr 5606ULLU LI555560 6T(L05 C660TGLD.\n015 096or55offle 14 096TIT50T DOTGTGTOUIT 6T60TH EMumia50llb.\n6T055\nGSTL0501505\n(D60T\n0M60L55morlo\n6960T116960T\n6f60s\n6T600160)600T8 MULLO4.\n096TT755TDGTL UqDu5D5 15 BLOLIEI5OT 5155L11\n6TT6IT60T. 096011T55IOT\n10.15 $(58 G5T@65LUGLD. 10.15 Oo 0055 10.30 OJ60I 09601155TTGDGT\nLDLGLD Llq55 COLGOTGILD. 065 OBIBB6 0900L35ofle 6T55L LIBGoouLD\n6T(056560LT5\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 14 questions.\nPlease write down the Serial Number of the question in the answer-book\nat the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n#\nPage 1 of 15\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

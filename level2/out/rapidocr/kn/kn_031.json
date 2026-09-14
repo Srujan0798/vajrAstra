@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_031",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0032pro_raw.pdf",
+    "page_index": 0,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೧ಂ\n೨ಿಕಣ\ng\n೬೨೫\nಇಲಾಖೆ\nಇ\nDepartment\nof School \nEducation\n8 Literacy\nಶಿಕಣಿ\nSೊ.ಣ\nಿಕಣ\nಮತು\nಅಾಮಾಣಕ\nಔೌಗೃ\nಒಳಗೊಂಡ\nPhysical\nEducation,\nISHED\nVALUE\nMental\nand\nSocial\nwellbeing\nEDUCA IION\nIncluding\nNOT \n7ನೇ\nತರಗ೨ಿ\nಎದಾೈ೯ಗಳ\nಚಟುವಟಕಾ\nActivity\nBook\nfor\nClass\nStudents\n೭0೭6\n೭0೭7\n೫ಕಣ\nಸಂಶೋಧನೆ\nತರಬೇ೨ಿ\nಇಲಾಖೆ\nಇ\nಬನಶಂಕಂ\n3ನೇ\nಹಂತ,\nಬೆಂಗಳೂರು\n560\n085.\n1",
+      "text_nfc": "೧ಂ\n೨ಿಕಣ\ng\n೬೨೫\nಇಲಾಖೆ\nಇ\nDepartment\nof School \nEducation\n8 Literacy\nಶಿಕಣಿ\nSೊ.ಣ\nಿಕಣ\nಮತು\nಅಾಮಾಣಕ\nಔೌಗೃ\nಒಳಗೊಂಡ\nPhysical\nEducation,\nISHED\nVALUE\nMental\nand\nSocial\nwellbeing\nEDUCA IION\nIncluding\nNOT \n7ನೇ\nತರಗ೨ಿ\nಎದಾೈ೯ಗಳ\nಚಟುವಟಕಾ\nActivity\nBook\nfor\nClass\nStudents\n೭0೭6\n೭0೭7\n೫ಕಣ\nಸಂಶೋಧನೆ\nತರಬೇ೨ಿ\nಇಲಾಖೆ\nಇ\nಬನಶಂಕಂ\n3ನೇ\nಹಂತ,\nಬೆಂಗಳೂರು\n560\n085.\n1",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

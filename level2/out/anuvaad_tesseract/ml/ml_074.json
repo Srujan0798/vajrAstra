@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_074",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 8,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ആശയം -\n\nനിസ്സാര കാര്യങ്ങളെ പ്രതികാര നിലവാരത്തിലേക്ക് ഉയർത്തി ദീർഘകാലമായി\nമനസ്സിൽ കൊണ്ടു നടക്കുന്ന ചില മനുഷ്യരെ നമുക്കു ചുറ്റും കാണാവുന്നതാണ് .\nആരാണോ, പകയും പ്രതികാരബുദ്ധിയും കൊണ്ടു നടക്കുന്നത് അവർ പ്രതികാരം\nചെയ്യുന്നതിനു മുൻപുതന്നെ സ്വന്തം ശരീരകോശങ്ങളോട് പ്രതികാരം\n\nചെയ്തിരിക്കുന്നുവെന്ന് അറിയുന്നില്ല !\n\nwww.malayalamplus.com eBooks-459-thinmakal-23\n\n",
+      "text_nfc": "ആശയം -\n\nനിസ്സാര കാര്യങ്ങളെ പ്രതികാര നിലവാരത്തിലേക്ക് ഉയർത്തി ദീർഘകാലമായി\nമനസ്സിൽ കൊണ്ടു നടക്കുന്ന ചില മനുഷ്യരെ നമുക്കു ചുറ്റും കാണാവുന്നതാണ് .\nആരാണോ, പകയും പ്രതികാരബുദ്ധിയും കൊണ്ടു നടക്കുന്നത് അവർ പ്രതികാരം\nചെയ്യുന്നതിനു മുൻപുതന്നെ സ്വന്തം ശരീരകോശങ്ങളോട് പ്രതികാരം\n\nചെയ്തിരിക്കുന്നുവെന്ന് അറിയുന്നില്ല !\n\nwww.malayalamplus.com eBooks-459-thinmakal-23\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

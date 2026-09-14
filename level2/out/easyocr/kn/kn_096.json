@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_096",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "శేనాFొటో సశాFరె గణి3\n10 క్డీ వర్తనియి శెంగః Q T0గ @) ? fanui రిగెగెగే DథWIకే మn నౌ NC ERT అయ ఆృిక్ణణిక సంజంధని మత్తు ఇెంబిఆకి సంస్థి శ్రిథ అంబిందూా మాగణ నవదివలి 110016\nకనాణటం పఠ్యతున్తర సంఫ (రి) 6నె అడ్డంిస్తి; మల్లర్దరెం బింగళూరు-560 003.",
+      "text_nfc": "శేనాFొటో సశాFరె గణి3\n10 క్డీ వర్తనియి శెంగః Q T0గ @) ? fanui రిగెగెగే DథWIకే మn నౌ NC ERT అయ ఆృిక్ణణిక సంజంధని మత్తు ఇెంబిఆకి సంస్థి శ్రిథ అంబిందూా మాగణ నవదివలి 110016\nకనాణటం పఠ్యతున్తర సంఫ (రి) 6నె అడ్డంిస్తి; మల్లర్దరెం బింగళూరు-560 003.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

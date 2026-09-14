@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_006",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series : 2LKNM\nSET ~ 4\nவரிசை எண்.\nவினாத்தாள் குறியீடு எண்\n10\nRoll No.\nமாணவர்கள் வினாத்தாளில் கொடுக்கப்பட்டுள்ள குறி எண்ணை விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுதவும்.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nகுறிப்பு / NOTE :\n(I) இந்த வினாத்தாளில் சரிபார்க்கவும். அச்சிடப்பெற்ற 11 பக்கங்கள் உள்ளதைச்\nPlease check that this question paper contains 11 printed pages.\n(II) வினாத்தாளின் வலதுபக்கத்தில் கொடுக்கப்பட்டுள்ள குறி எண்ணை (Code No) விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுதவும்.\nQ.P. Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate.\n(III) இந்த வினாத்தாளில் 14 வினாக்கள் உள்ளனவா எனச் சரிபார்க்கவும்.\nPlease check that this question paper contains 14 questions.\n(IV) எழுதத் தொடங்குவதற்கு முன் விடைத்தாளில் வினாவின் வரிசை எண்ணைக் கொடுக்கப்பட்டுள்ள இடத்தில் குறிப்பிடவும்.\nPlease write down the serial number of the question in the answer-book at the given place before attempting it.\n(V) வினாத்தாளைப் படிப்பதற்கு 15 நிமிடங்கள் ஒதுக்கப்பட்டுள்ளன. வினாத்தாள் 10.15 க்குக் கொடுக்கப்படும் 10.15 இல் இருந்து 10.30 வரை வினாத்தாளை மட்டும் படிக்க வேண்டும். இந்த நேரத்தில் விடைத்தாளில் எந்தப் பதிலையும் எழுதக்கூடாது.\n15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period. {}\n{ } { } { }\nதமிழ் TAMIL\nகால அளவு : 3 மணி\nமொ.மதிப்பெண்கள் : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n10\n1144\nPage 1 of 12\nP.T.O.",
+      "text_nfc": "Series : 2LKNM\nSET ~ 4\nவரிசை எண்.\nவினாத்தாள் குறியீடு எண்\n10\nRoll No.\nமாணவர்கள் வினாத்தாளில் கொடுக்கப்பட்டுள்ள குறி எண்ணை விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுதவும்.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nகுறிப்பு / NOTE :\n(I) இந்த வினாத்தாளில் சரிபார்க்கவும். அச்சிடப்பெற்ற 11 பக்கங்கள் உள்ளதைச்\nPlease check that this question paper contains 11 printed pages.\n(II) வினாத்தாளின் வலதுபக்கத்தில் கொடுக்கப்பட்டுள்ள குறி எண்ணை (Code No) விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுதவும்.\nQ.P. Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate.\n(III) இந்த வினாத்தாளில் 14 வினாக்கள் உள்ளனவா எனச் சரிபார்க்கவும்.\nPlease check that this question paper contains 14 questions.\n(IV) எழுதத் தொடங்குவதற்கு முன் விடைத்தாளில் வினாவின் வரிசை எண்ணைக் கொடுக்கப்பட்டுள்ள இடத்தில் குறிப்பிடவும்.\nPlease write down the serial number of the question in the answer-book at the given place before attempting it.\n(V) வினாத்தாளைப் படிப்பதற்கு 15 நிமிடங்கள் ஒதுக்கப்பட்டுள்ளன. வினாத்தாள் 10.15 க்குக் கொடுக்கப்படும் 10.15 இல் இருந்து 10.30 வரை வினாத்தாளை மட்டும் படிக்க வேண்டும். இந்த நேரத்தில் விடைத்தாளில் எந்தப் பதிலையும் எழுதக்கூடாது.\n15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period. {}\n{ } { } { }\nதமிழ் TAMIL\nகால அளவு : 3 மணி\nமொ.மதிப்பெண்கள் : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n10\n1144\nPage 1 of 12\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

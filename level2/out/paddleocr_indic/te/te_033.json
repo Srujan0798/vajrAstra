@@ -1,0 +1,41 @@
+{
+  "page_id": "te_033",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0033pro_raw.pdf",
+    "page_index": 48,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\"Oh! no! It's\nnot a Hen. It's\na Squirrel.\"\n\"Come on, Squirrel,\n8\nfollow me. Let's find the\nHen. Where is she?\"\n\"May be Hen is behind\nthis basket. Can you see a\nfurry tail?\"\n\"Oh! no! It's\n8\n\"Come on, Cat,\nnot Hen. It's\nfollow me. Let's\nCat.\"\nfind the Hen.\nWhere is she?\"\n\"Who's behind this rose garden?\nCan you see a stripy nose?\"\n\"Come on, Fox follow\nme. I'll lead you to\nour picnic spot.\"\n\"Still no Hen! Where did she go?\"\n\"Calf can't\nguess. Can you\nguess?\"\n39",
+      "text_nfc": "\"Oh! no! It's\nnot a Hen. It's\na Squirrel.\"\n\"Come on, Squirrel,\n8\nfollow me. Let's find the\nHen. Where is she?\"\n\"May be Hen is behind\nthis basket. Can you see a\nfurry tail?\"\n\"Oh! no! It's\n8\n\"Come on, Cat,\nnot Hen. It's\nfollow me. Let's\nCat.\"\nfind the Hen.\nWhere is she?\"\n\"Who's behind this rose garden?\nCan you see a stripy nose?\"\n\"Come on, Fox follow\nme. I'll lead you to\nour picnic spot.\"\n\"Still no Hen! Where did she go?\"\n\"Calf can't\nguess. Can you\nguess?\"\n39",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

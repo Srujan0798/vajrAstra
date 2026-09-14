@@ -1,0 +1,41 @@
+{
+  "page_id": "te_068",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0068pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3,569\nAUA\nignj Hopohisn\n.929 Umils Jaio 35A(r\nSDT RsmS galé) (M\nST gae Ls3 Sus wlis(\ngsT 54 sl lis $531, (a\ngS py Ls Elo smsly (IS\nLsolw f Lsms las) I P A\n5\n63 91 9A UlsA Juss lai) L53 P uslas ousym\nlai) 'sU 2lo F umsly las) (\nsio f SS)S9A lai) Umily ssigai siflw 935563 9U 9A\n.6 0y63 SEFI 9A lyEEl\nFomi welssolw yaars 6 pm I S : D g53) f\nL5A yaars 6 pwl LSEs lai Ls!\n5is A Liss\ngalyeupub sae\n* Ate\n-gTulo ssiras mlS Lproyr STU, Ug4 45t Essjran f Yjsl umis, (J\n:9:9 gelalo gunla giWlw pUsSulssull 1(15\nS>T sJni 453,0, solo ssuimis (r\nly SS 4s onoj (Sw Uigw Aw (a\nULEw 84-04,584\nls\n-go li ssuiiss 0921319 s bel yai 09)m ulstiol LS E4 ssais ssrinig )\n-g5 ki S jiwlo SAD sl 399m Lsmla Wlw 45A JsEwl ssumiy.r\n.95 Li suis Uojo sl b55g b9 Eisiolyel simis s jlalas jlaslawlg Samigso.\ng0 li sl bs J93 eBi st\n3L SSquyt L57 >y1s ssulmgs.\nSEUT\n-192)55)9 SUT ulo olegys U3.\n(\n09M9 bams A sslro Lsa3F Ugjanlw 54 las) f lasw. SDT,NIF L5A sa5s SD\ng5 LSDU SPUST olo Uhai U3.r\n-bilsy Ue 115130)3\n:g5 SDULESIT olo Un3.r\n3yw - uswai - b555 sslio 9A Juily ssjbu Juil sslio - Ugaly d\ngeiis\ngfiés F+9 Uyalmo OY uy's bssislmo P 03.\n-9D gfres Nt9 L57 Ujinlw 6 sings SY sl USV SA s4.\ngi gfiis NP9 SL54 lgD.r\n21",
+      "text_nfc": "3,569\nAUA\nignj Hopohisn\n.929 Umils Jaio 35A(r\nSDT RsmS galé) (M\nST gae Ls3 Sus wlis(\ngsT 54 sl lis $531, (a\ngS py Ls Elo smsly (IS\nLsolw f Lsms las) I P A\n5\n63 91 9A UlsA Juss lai) L53 P uslas ousym\nlai) 'sU 2lo F umsly las) (\nsio f SS)S9A lai) Umily ssigai siflw 935563 9U 9A\n.6 0y63 SEFI 9A lyEEl\nFomi welssolw yaars 6 pm I S : D g53) f\nL5A yaars 6 pwl LSEs lai Ls!\n5is A Liss\ngalyeupub sae\n* Ate\n-gTulo ssiras mlS Lproyr STU, Ug4 45t Essjran f Yjsl umis, (J\n:9:9 gelalo gunla giWlw pUsSulssull 1(15\nS>T sJni 453,0, solo ssuimis (r\nly SS 4s onoj (Sw Uigw Aw (a\nULEw 84-04,584\nls\n-go li ssuiiss 0921319 s bel yai 09)m ulstiol LS E4 ssais ssrinig )\n-g5 ki S jiwlo SAD sl 399m Lsmla Wlw 45A JsEwl ssumiy.r\n.95 Li suis Uojo sl b55g b9 Eisiolyel simis s jlalas jlaslawlg Samigso.\ng0 li sl bs J93 eBi st\n3L SSquyt L57 >y1s ssulmgs.\nSEUT\n-192)55)9 SUT ulo olegys U3.\n(\n09M9 bams A sslro Lsa3F Ugjanlw 54 las) f lasw. SDT,NIF L5A sa5s SD\ng5 LSDU SPUST olo Uhai U3.r\n-bilsy Ue 115130)3\n:g5 SDULESIT olo Un3.r\n3yw - uswai - b555 sslio 9A Juily ssjbu Juil sslio - Ugaly d\ngeiis\ngfiés F+9 Uyalmo OY uy's bssislmo P 03.\n-9D gfres Nt9 L57 Ujinlw 6 sings SY sl USV SA s4.\ngi gfiis NP9 SL54 lgD.r\n21",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

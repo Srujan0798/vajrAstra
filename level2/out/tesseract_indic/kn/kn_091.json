@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_091",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "| ಕನ್ನಡ wna [app 13 pat |@grnail on]\nroe (7353309032 J\n\nPIYS sh Angosxe top = 49 -OESINR. = 49 -ಅಕ್ಷಕಗಳ್ಪ Py\n> Roy, =13 Slows = 34 , ಯ್ಯೋಗರಳತಗಳು ಕೂ\nनह ON a6 F789 ९४,१३० ಎ.ಓ\nಇ ಗಥ! ಶ್ಚರಿಗಳ್ಳು- 7, ೨೪, Hw ಟ್ಮಬ್ಬಿ ಬಳ್ಳ.\nAhead, ವ್ರಂಸನಗಳ್ಳು = 257 ಅಡರೀಯ Ton sy, 3 {\n..- 30,00४ ONG | > 03) 8 0 ದ.ಕ me\n\nಎ ಕಥಗಳು - a लाए\nop Tage ತಂಥಿಗಳು : _'_ಉ' nO) of\n| © IMB OQ! Sus oh Ours goog न\nएप, 808 ता ಸಂಥಿಗಳು'- = ತೆ :\nO ಸರೇೇೋಟ KOH 6ಗುಣಸಂಥ Ox Os Hoe Qed Hoe _ (907५ pow\n__@ ಇಕ್ಕೆ ಸಂದಿ ' © ಕೃತ್ಚ Boy @ -Hs,mad ಸಂದಿ -\n+ रद, Boonwi- | ra\n@ exe 300 i- Ces us eG] Pe\nಡು ಊಸು 4 ಊರು = ಊರೂಾರ) (ಉರ = wind)\nwham मे mod ಇಡೇದಕಾಡ [wea weirs}.\n= Fost ಇರು | 280080) (ಲ ಇಇ/ಎರೀಥ]__ [८04 ಚ\n\nMSY ने ಊರು ಇ ಅ0ದಳೂರು PUten ನಜ ಕ್ತ\n\n® wna BoR 2- [or'uga'd avs ಚಗದ್ರವಗುತ್ತಡೆ.\nही ले दर) तने ve = ಮನೆಯಲ್ಲ = Hedy [पिन श न 05० ಇಸಾಕ ಓಗರ)...\nBRD 48, SP BRA ಅನ್ನು = BE: ತತ [ರಸ rn) Pes: | ನ\n\nके RS+ BR, न ಓಂಯನ್ಯ (ಇ೯£0 safe ow\n\nತವಡು ಇಗ ಸಾದ ಮಗಳಗ [७०११५ -> ಉದ\n\nಕೆ\n\nಅ wks ४०० :- [ಸತ್ರ ಪ are 8 Rt DAG पार रात\nन? AL *ಸನ್ನಡ.-ಲೆಸಗಸ್ಷಡ fw es B= ಶ್ರ ಚಹೆಕ:\n> ಬೆಟ್ಟ ¢add = Symdd (e+ d= ದ wR3) |\nपके रू ला 4 ಪನಿ = OD (ಅಆ ಬ gest\nके ध५ु न ತರು ಇ. ಏಳ್ಳೆಗರು (ಐಎ. दे ಎಗ್ರ ಜ್‌\nho + tay? ಇ a& Guy” (Gt ४ ४ wks] S grees\nawit + व, = Bows, [84 8 ಇಬ छ 6९७४] _\n\n*ಈೌತಕ INS Gon ತನ್ನಡರ-ಶ್ಚಸ हठ्कृतकुमत हक\nअं ನಂಡಿಯು-ಸಸ್ತ ದದ-ದೃಂಜನ-ಶಂಡಿಯಾಣಿಡ್‌\n\nScanned by CamScanner\n",
+      "text_nfc": "| ಕನ್ನಡ wna [app 13 pat |@grnail on]\nroe (7353309032 J\n\nPIYS sh Angosxe top = 49 -OESINR. = 49 -ಅಕ್ಷಕಗಳ್ಪ Py\n> Roy, =13 Slows = 34 , ಯ್ಯೋಗರಳತಗಳು ಕೂ\nनह ON a6 F789 ९४,१३० ಎ.ಓ\nಇ ಗಥ! ಶ್ಚರಿಗಳ್ಳು- 7, ೨೪, Hw ಟ್ಮಬ್ಬಿ ಬಳ್ಳ.\nAhead, ವ್ರಂಸನಗಳ್ಳು = 257 ಅಡರೀಯ Ton sy, 3 {\n..- 30,00४ ONG | > 03) 8 0 ದ.ಕ me\n\nಎ ಕಥಗಳು - a लाए\nop Tage ತಂಥಿಗಳು : _'_ಉ' nO) of\n| © IMB OQ! Sus oh Ours goog न\nएप, 808 ता ಸಂಥಿಗಳು'- = ತೆ :\nO ಸರೇೇೋಟ KOH 6ಗುಣಸಂಥ Ox Os Hoe Qed Hoe _ (907५ pow\n__@ ಇಕ್ಕೆ ಸಂದಿ ' © ಕೃತ್ಚ Boy @ -Hs,mad ಸಂದಿ -\n+ रद, Boonwi- | ra\n@ exe 300 i- Ces us eG] Pe\nಡು ಊಸು 4 ಊರು = ಊರೂಾರ) (ಉರ = wind)\nwham मे mod ಇಡೇದಕಾಡ [wea weirs}.\n= Fost ಇರು | 280080) (ಲ ಇಇ/ಎರೀಥ]__ [८04 ಚ\n\nMSY ने ಊರು ಇ ಅ0ದಳೂರು PUten ನಜ ಕ್ತ\n\n® wna BoR 2- [or'uga'd avs ಚಗದ್ರವಗುತ್ತಡೆ.\nही ले दर) तने ve = ಮನೆಯಲ್ಲ = Hedy [पिन श न 05० ಇಸಾಕ ಓಗರ)...\nBRD 48, SP BRA ಅನ್ನು = BE: ತತ [ರಸ rn) Pes: | ನ\n\nके RS+ BR, न ಓಂಯನ್ಯ (ಇ೯£0 safe ow\n\nತವಡು ಇಗ ಸಾದ ಮಗಳಗ [७०११५ -> ಉದ\n\nಕೆ\n\nಅ wks ४०० :- [ಸತ್ರ ಪ are 8 Rt DAG पार रात\nन? AL *ಸನ್ನಡ.-ಲೆಸಗಸ್ಷಡ fw es B= ಶ್ರ ಚಹೆಕ:\n> ಬೆಟ್ಟ ¢add = Symdd (e+ d= ದ wR3) |\nपके रू ला 4 ಪನಿ = OD (ಅಆ ಬ gest\nके ध५ु न ತರು ಇ. ಏಳ್ಳೆಗರು (ಐಎ. दे ಎಗ್ರ ಜ್‌\nho + tay? ಇ a& Guy” (Gt ४ ४ wks] S grees\nawit + व, = Bows, [84 8 ಇಬ छ 6९७४] _\n\n*ಈೌತಕ INS Gon ತನ್ನಡರ-ಶ್ಚಸ हठ्कृतकुमत हक\nअं ನಂಡಿಯು-ಸಸ್ತ ದದ-ದೃಂಜನ-ಶಂಡಿಯಾಣಿಡ್‌\n\nScanned by CamScanner\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

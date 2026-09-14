@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_010",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0011pro_raw.pdf",
+    "page_index": 1,
+    "width": 1695,
+    "height": 2198
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1695,
+        2198
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2\nawpaba, J.0.0AJS., dad BNDE8E Deeygrs Nobed eoNeste egawugood) aneos:\n12.04.20130003 epood 38p Beoedood.\nJogde\nabeejow dorgesades, Nobed Reasa0be0dto / 30500 Rogde) P\nNobed\neppababz\n2geesd\nesodoa\nSdaeden\ndabdoeguayeleon). s\nesppababded / pababded / eieroded epoabcewel) escias gas sriogiong abzy\nJobed 230OJE0 esadeeds escacy Dews preraiiden ae soesgpaso doesp.\nmuw\n(WJE R. atopaba)\nNobed e3ONOEe eatugd,\nBNJOE 833 O08s. 23odeod.\n2wod :\n1. 30500 Nodoe Dwoged, #1, egeg esrjos dig. e3ordeledo-560 052 : 2W00\nRoz 3a0520\n2. 3050d Jogde e9zo DwoGE0\n) Beow 8e3e0, 83oggled\n3. Nobed Jogds 8OE9 Deogad,\nW203,\n4. were esejde Jobod 3ogde eo3 pesogtadoded Riez Sabgof)\n5. agasrsgase owersgd, Ooes abegas werg Nobed Jorgdeb\n6. Jgsngag 2\nDwergad, eserg Beos Nobed ROFO3S 2.,\n7. dgasagads owersad, eserg ooew e0benad Nobod Nogde Roglees dabas\n8. owersad, 30500 eeaostoegrue 2e30a3, 23oosed\n9. esalugd. 3233 e9e9a3 obeddo 338 Dwersod, e3odglod\n10.e e989018 esatugd obodio Babr wae Dwersgd, 83o0eod\n11. pdessod, avenboedg posersrsoead, 23odelod\n12. owersad, derg 20033, e3oogled\n13. eo e929333 eposo (3o50d), 8060,\n38d8 :\n1. J50800 spors B00JEWSE, Jo500 2e083, eoabol 86303, esoddeled-01\nab:02.",
+      "text_nfc": "2\nawpaba, J.0.0AJS., dad BNDE8E Deeygrs Nobed eoNeste egawugood) aneos:\n12.04.20130003 epood 38p Beoedood.\nJogde\nabeejow dorgesades, Nobed Reasa0be0dto / 30500 Rogde) P\nNobed\neppababz\n2geesd\nesodoa\nSdaeden\ndabdoeguayeleon). s\nesppababded / pababded / eieroded epoabcewel) escias gas sriogiong abzy\nJobed 230OJE0 esadeeds escacy Dews preraiiden ae soesgpaso doesp.\nmuw\n(WJE R. atopaba)\nNobed e3ONOEe eatugd,\nBNJOE 833 O08s. 23odeod.\n2wod :\n1. 30500 Nodoe Dwoged, #1, egeg esrjos dig. e3ordeledo-560 052 : 2W00\nRoz 3a0520\n2. 3050d Jogde e9zo DwoGE0\n) Beow 8e3e0, 83oggled\n3. Nobed Jogds 8OE9 Deogad,\nW203,\n4. were esejde Jobod 3ogde eo3 pesogtadoded Riez Sabgof)\n5. agasrsgase owersgd, Ooes abegas werg Nobed Jorgdeb\n6. Jgsngag 2\nDwergad, eserg Beos Nobed ROFO3S 2.,\n7. dgasagads owersad, eserg ooew e0benad Nobod Nogde Roglees dabas\n8. owersad, 30500 eeaostoegrue 2e30a3, 23oosed\n9. esalugd. 3233 e9e9a3 obeddo 338 Dwersod, e3odglod\n10.e e989018 esatugd obodio Babr wae Dwersgd, 83o0eod\n11. pdessod, avenboedg posersrsoead, 23odelod\n12. owersad, derg 20033, e3oogled\n13. eo e929333 eposo (3o50d), 8060,\n38d8 :\n1. J50800 spors B00JEWSE, Jo500 2e083, eoabol 86303, esoddeled-01\nab:02.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

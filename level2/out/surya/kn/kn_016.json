@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_016",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 0,
+    "width": 1077,
+    "height": 1699
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1077,
+        1699
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಮದಕ್ಷಿಯೆರಾವಂದಿ ತುಚುವೆರ್ ಮಾಲಕೆ - 52\nಪಂಪ ಪ್ರಶಸ್ತಿಪಡೆಯಿನ ಕಯ್ಯಾರ ಕಿಞ್ಞಣ ರೈ\nರೂಪಕಲಾ ಆಳ್ವಿನ\nಕರ್ನಾಟಕ ತುಳು ಸಾಹಿತ್ಯ ಅಕಾಡೆಮಿ\nತುಳು ಭವನ, ಉರ್ವಸ್ಟೋರ್, ಮಂಗಳೂರು — 6",
+      "text_nfc": "ಮದಕ್ಷಿಯೆರಾವಂದಿ ತುಚುವೆರ್ ಮಾಲಕೆ - 52\nಪಂಪ ಪ್ರಶಸ್ತಿಪಡೆಯಿನ ಕಯ್ಯಾರ ಕಿಞ್ಞಣ ರೈ\nರೂಪಕಲಾ ಆಳ್ವಿನ\nಕರ್ನಾಟಕ ತುಳು ಸಾಹಿತ್ಯ ಅಕಾಡೆಮಿ\nತುಳು ಭವನ, ಉರ್ವಸ್ಟೋರ್, ಮಂಗಳೂರು — 6",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

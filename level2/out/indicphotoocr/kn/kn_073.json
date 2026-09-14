@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_073",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 78,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "93 investment grow your money\nevery day people make choices about what to do with their money sometimes\nmoney is saved to keep 1੮ safe and sometimes it is invested to grow over time\ninvestment means using money today to build wealth in the future but 1ਂ also\ninvolves risk different investment choices can give different results depending\non time and decisions in this activity you will explore how money can grow and\nlearn to make smart investment choices on your own\ntypes of investments\nசெயர்ஷேண்    mutual ચિતર્તક insurance\nમહેજના ಶಿವರ್ಧಾ\nઉધાઈ real estabr\nના ભય 1147\nચિતા deposit fd દિવસર્તર\nપ્રાતી જીતા\ndirect equity shares direct equity means buying shares of ૧ company in the\nstock market when the company does well the value of the shares can increase and\nyou may also get dividends\nmutual funds mutual funds collect money from many people and invest 1੮ in\ndifferent companies these funds are managed by experts ১০ your money is spread\nacross many businesses\ninsurance insurance helps protect you and your family in the future some insurance\nplans also help you save or grow money while giving financial protection\ngold gold is ૧ popular investment that people buy to keep for ૧ long time its value\noften increases over time and it is considered ੧ safe option\nfixed deposit fd a fixed deposit is ੧ safe way to invest money in ૧ bank you\nknow how much money you will get back and when you will get it\nbonds bonds are when you lend money to the government or ੧ company in return\nyou get interest on your money after ૧ fixed period\nproperty investment it means buying land or buildings it can give regular income\nthrough rent and may increase in value over time\nimmediately you have some you money can that keep you 1੮ safe do not or need you ੧\ncan try to grow it over time investment means using money\ntoday so it can become more in\nthe future different choices grow\nmoney in different ways",
+      "text_nfc": "93 investment grow your money\nevery day people make choices about what to do with their money sometimes\nmoney is saved to keep 1੮ safe and sometimes it is invested to grow over time\ninvestment means using money today to build wealth in the future but 1ਂ also\ninvolves risk different investment choices can give different results depending\non time and decisions in this activity you will explore how money can grow and\nlearn to make smart investment choices on your own\ntypes of investments\nசெயர்ஷேண்    mutual ચિતર્તક insurance\nમહેજના ಶಿವರ್ಧಾ\nઉધાઈ real estabr\nના ભય 1147\nચિતા deposit fd દિવસર્તર\nપ્રાતી જીતા\ndirect equity shares direct equity means buying shares of ૧ company in the\nstock market when the company does well the value of the shares can increase and\nyou may also get dividends\nmutual funds mutual funds collect money from many people and invest 1੮ in\ndifferent companies these funds are managed by experts ১০ your money is spread\nacross many businesses\ninsurance insurance helps protect you and your family in the future some insurance\nplans also help you save or grow money while giving financial protection\ngold gold is ૧ popular investment that people buy to keep for ૧ long time its value\noften increases over time and it is considered ੧ safe option\nfixed deposit fd a fixed deposit is ੧ safe way to invest money in ૧ bank you\nknow how much money you will get back and when you will get it\nbonds bonds are when you lend money to the government or ੧ company in return\nyou get interest on your money after ૧ fixed period\nproperty investment it means buying land or buildings it can give regular income\nthrough rent and may increase in value over time\nimmediately you have some you money can that keep you 1੮ safe do not or need you ੧\ncan try to grow it over time investment means using money\ntoday so it can become more in\nthe future different choices grow\nmoney in different ways",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_040",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 106,
+    "width": 1698,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1698,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾಟಕ pಅತಕಲಾ ಅಕಾಪಬು\nಕನೃಡ ಭವನ.ಜೆ.ಗ.ರನೆ.ಬೆಂಗಳೂರು--ಕ೯೦೦೦\nಾಟ\nದೋರವಾ೯ಿ೯೦೯೦--೫೫೫೦೫೬7\nKarnataka Lalitkala Academy\n\nKannada Bhavan, J.C. Road, Bengaluru -5sooo\nPhone ?0g0 -2218029?",
+      "text_nfc": "ಕನಾಟಕ pಅತಕಲಾ ಅಕಾಪಬು\nಕನೃಡ ಭವನ.ಜೆ.ಗ.ರನೆ.ಬೆಂಗಳೂರು--ಕ೯೦೦೦\nಾಟ\nದೋರವಾ೯ಿ೯೦೯೦--೫೫೫೦೫೬7\nKarnataka Lalitkala Academy\n\nKannada Bhavan, J.C. Road, Bengaluru -5sooo\nPhone ?0g0 -2218029?",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

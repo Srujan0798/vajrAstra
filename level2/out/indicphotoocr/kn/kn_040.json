@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_040",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 106,
+    "width": 1698,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1698,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ஸ்ரீ ಲಲಿತಕಲಾ ੪੯੦੪\nಕನ್ನಡ ಭವನ ಜೆಸಿ ರಸ್ತೆ விமாிக்கஸ்ஏஏஏஏ 002\nದೂರವಾಣಿ 08022480297\nkarnataka lalitkala academy\n౧౯౫౦ kannada phone 080 bhavan 22480297 jc road bengaluru 560 002",
+      "text_nfc": "ஸ்ரீ ಲಲಿತಕಲಾ ੪੯੦੪\nಕನ್ನಡ ಭವನ ಜೆಸಿ ರಸ್ತೆ விமாிக்கஸ்ஏஏஏஏ 002\nದೂರವಾಣಿ 08022480297\nkarnataka lalitkala academy\n౧౯౫౦ kannada phone 080 bhavan 22480297 jc road bengaluru 560 002",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

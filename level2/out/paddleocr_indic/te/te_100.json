@@ -1,0 +1,41 @@
+{
+  "page_id": "te_100",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0016pro_raw.pdf",
+    "page_index": 131,
+    "width": 1649,
+    "height": 2191
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1649,
+        2191
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SUZLON\nP\nమహాష్ర\nరాష్ర\nపా్యపుస్తక\nనిర్మితి\nమరియు\nపాఠ్యపణాళిక\nధన\nసంస్థ,\nపుణె.\nT\nfas\n301\nTE5G\nGad\nHTT\n(ACu\nseral\n?\nH1821H)\n–\n₹ 65.00",
+      "text_nfc": "SUZLON\nP\nమహాష్ర\nరాష్ర\nపా్యపుస్తక\nనిర్మితి\nమరియు\nపాఠ్యపణాళిక\nధన\nసంస్థ,\nపుణె.\nT\nfas\n301\nTE5G\nGad\nHTT\n(ACu\nseral\n?\nH1821H)\n–\n₹ 65.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

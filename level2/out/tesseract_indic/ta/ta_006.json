@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_006",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series :|2LKNM\n\nவரிசை எண்‌.\n\nRoll No. மாணவர்கள்‌ வினாத்தாளில்‌ கொடுக்கப்பட்டுள்ள\n\nகுறி எண்ணை விடைத்தாளின்‌ தலைப்புப்‌\nCandidates must write the மெ. Code on\n\n0\n\ncen)\n\n(IID)\n\n0)\n\n(Vv)\n\nகுறிப்பு / NOTE:\n\nSET ~ 4 Re:\n\nue வினாத்தாள்‌ குறியீடு எண்‌\nரா 10\n\nQ.P. Code\n\nthe title page of the answer-book.\n\nஇந்த வினாத்தாளில்‌ அச்சிடப்பெற்ற 11 பக்கங்கள்‌ உள்ளதைச்‌\nசரிபார்க்கவும்‌.\n\nPlease check that this question paper contains 11 printed pages.\nவினாத்தாளின்‌ வலதுபக்கத்தில்‌ கொடுக்கப்பட்டுள்ள குறி எண்ணை\n(Code No) விடைத்தாளின்‌ தலைப்புப்‌ பக்கத்தில்‌ எழுதவும்‌.\n\nமெ. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\nஇந்த வினாத்தாளில்‌ 14 வினாக்கள்‌ உள்ளனவா எனச்‌ சரிபார்க்கவும்‌.\nPlease check that this question paper contains 14 questions.\n\nஎழுதத்‌ தொடங்குவதற்கு முன்‌ விடைத்தாளில்‌ வினாவின்‌ வரிசை\nஎண்ணைக்‌ கொடுக்கப்பட்டுள்ள இடத்தில்‌ குறிப்பிடவும்‌.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\nவினாத்தாளைப்‌ படிப்பதற்கு 15 நிமிடங்கள்‌ ஓதுக்கப்பட்டுள்ளன.\nவினாத்தாள்‌ 10.15 க்குக்‌ கொடுக்கப்படும்‌ 10.15 இல்‌ இருந்து 10.30 வரை\nவினாத்தாளை மட்டும்‌ படிக்க வேண்டும்‌. இந்த நேரத்தில்‌\nவிடைத்தாளில்‌ எந்தப்‌ பதிலையும்‌ எழுதக்கூடாது.\n\n15 minute time has been allotted to read this question paper. The question\n\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\n\non the answer-book during this period. {}\n\nTAMIL\n\nகால அளவு : 3 மணி மொ.மதிப்பெண்கள்‌ : 80\n\nTime allowed : 3 hours Maximum Marks : 80\n\n20 1104 Page 1 of 12 P.T.O.\n",
+      "text_nfc": "Series :|2LKNM\n\nவரிசை எண்‌.\n\nRoll No. மாணவர்கள்‌ வினாத்தாளில்‌ கொடுக்கப்பட்டுள்ள\n\nகுறி எண்ணை விடைத்தாளின்‌ தலைப்புப்‌\nCandidates must write the மெ. Code on\n\n0\n\ncen)\n\n(IID)\n\n0)\n\n(Vv)\n\nகுறிப்பு / NOTE:\n\nSET ~ 4 Re:\n\nue வினாத்தாள்‌ குறியீடு எண்‌\nரா 10\n\nQ.P. Code\n\nthe title page of the answer-book.\n\nஇந்த வினாத்தாளில்‌ அச்சிடப்பெற்ற 11 பக்கங்கள்‌ உள்ளதைச்‌\nசரிபார்க்கவும்‌.\n\nPlease check that this question paper contains 11 printed pages.\nவினாத்தாளின்‌ வலதுபக்கத்தில்‌ கொடுக்கப்பட்டுள்ள குறி எண்ணை\n(Code No) விடைத்தாளின்‌ தலைப்புப்‌ பக்கத்தில்‌ எழுதவும்‌.\n\nமெ. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\nஇந்த வினாத்தாளில்‌ 14 வினாக்கள்‌ உள்ளனவா எனச்‌ சரிபார்க்கவும்‌.\nPlease check that this question paper contains 14 questions.\n\nஎழுதத்‌ தொடங்குவதற்கு முன்‌ விடைத்தாளில்‌ வினாவின்‌ வரிசை\nஎண்ணைக்‌ கொடுக்கப்பட்டுள்ள இடத்தில்‌ குறிப்பிடவும்‌.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\nவினாத்தாளைப்‌ படிப்பதற்கு 15 நிமிடங்கள்‌ ஓதுக்கப்பட்டுள்ளன.\nவினாத்தாள்‌ 10.15 க்குக்‌ கொடுக்கப்படும்‌ 10.15 இல்‌ இருந்து 10.30 வரை\nவினாத்தாளை மட்டும்‌ படிக்க வேண்டும்‌. இந்த நேரத்தில்‌\nவிடைத்தாளில்‌ எந்தப்‌ பதிலையும்‌ எழுதக்கூடாது.\n\n15 minute time has been allotted to read this question paper. The question\n\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\n\non the answer-book during this period. {}\n\nTAMIL\n\nகால அளவு : 3 மணி மொ.மதிப்பெண்கள்‌ : 80\n\nTime allowed : 3 hours Maximum Marks : 80\n\n20 1104 Page 1 of 12 P.T.O.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

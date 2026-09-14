@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "“aa day in school, your friends feel different feelings: happy, sad, left out,\nproud or even embarrassed. Sometimes, we do not notice or we do not know\nwhat to say. But when we take a moment to think about how they might be\nfeeling, we start building empathy.\n\nThese are some ways in which you know you have empathy :\n\n¢ 1 helped a friend who was hurt «+ 1 gave my time and support pA\nor sad. when someone was upset.\n\n* I shared something because + 1 said sorry when I hurt\nsomeone did not have it. someone’s feelings.\n\n* I noticed someone sitting alone + J listened toa friend when they\nand sat with them. wanted to talk.\n\nActivity :\nIn groups of 4 : Discuss and share what you would do in each of\nthese situations\n\nA classmate Wd R\n\nsomething a\nwell and the er\n\npraised . You\nalso pai well\nbu aN one noticed.\n\nಷಿ play\nMake small\ngroups. Act it out\nin front of the\nclass. Show how\nyou can care for\nothers and what\nkind thing can be\ndone.\n\nmpathy helps\nme care, listen,\nand support\nothers in small\nbut important\nways\n\nWhen we try to understand what someone else is\nfeeling, we become kinder.\n\nThink and Do: Connect with your family\nmembers. Try to understand how they are feeling.\nTalk to them about it.\n\n",
+      "text_nfc": "“aa day in school, your friends feel different feelings: happy, sad, left out,\nproud or even embarrassed. Sometimes, we do not notice or we do not know\nwhat to say. But when we take a moment to think about how they might be\nfeeling, we start building empathy.\n\nThese are some ways in which you know you have empathy :\n\n¢ 1 helped a friend who was hurt «+ 1 gave my time and support pA\nor sad. when someone was upset.\n\n* I shared something because + 1 said sorry when I hurt\nsomeone did not have it. someone’s feelings.\n\n* I noticed someone sitting alone + J listened toa friend when they\nand sat with them. wanted to talk.\n\nActivity :\nIn groups of 4 : Discuss and share what you would do in each of\nthese situations\n\nA classmate Wd R\n\nsomething a\nwell and the er\n\npraised . You\nalso pai well\nbu aN one noticed.\n\nಷಿ play\nMake small\ngroups. Act it out\nin front of the\nclass. Show how\nyou can care for\nothers and what\nkind thing can be\ndone.\n\nmpathy helps\nme care, listen,\nand support\nothers in small\nbut important\nways\n\nWhen we try to understand what someone else is\nfeeling, we become kinder.\n\nThink and Do: Connect with your family\nmembers. Try to understand how they are feeling.\nTalk to them about it.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

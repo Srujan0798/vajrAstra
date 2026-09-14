@@ -1,0 +1,41 @@
+{
+  "page_id": "te_006",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series : |2_KNM Obey Oo} SET 4 క్ట\n\nny Sm, ప కో\nఅం. | IMU MINIT ||| Tr eae OF\nRoll No. అభ్యర్థులు ప్రశ్న పత్రం కోడ్‌ను సమాధాన పత్రం యొక్క\n\nశీర్షిక పుటలో రాయాలి\nCandidates must write the Q.P. Code\n\non the title page of the answer-book.\n\nనోట్‌ / NOTE:\n\n(1) ఈ ప్రశ్నపత్రం లో అచ్చు వేసిన 15 How ఉన్నాయో లేదో చూడండి.\nPlease check that this question paper contains 15 printed pages.\nవిద్యార్థి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న పత్రం కోడ్‌ సంఖ్యను సమాధాన పత్రంలోని ముఖ పత్రంలో\nఉండాలి.\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\n18 ప్రశ్నలు ఉన్నది లేనిది పరిశీలించండి.\n\nPlease check that this question paper contains 18 questions.\n\nసమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\nఈ ప్రశ్న పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. ప్రశ్న పత్రం ఉదయం 10.15\nని.లకు ఇవ్వబడుతుంది. 10.15 నుండి 10.80 వరకు విద్యార్థులు (ప్రశ్న పత్రాన్ని చదవాలి. ఈ కాలంలో\nసమాధాన పత్రంలో ఏమీ రాయకూడదు.\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\n\non the answer-book during this period. శ\n\nతెలుగు - తెలంగాణ\nTELUGU - TELANGANA\n\nసమయం : తీ గంటలు మొత్తం మార్కులు : 80\n\nTime allowed తీ hours Maximum Marks : 80\n\n57 1127 Page 1 of 16 P.T.O.\n",
+      "text_nfc": "Series : |2_KNM Obey Oo} SET 4 క్ట\n\nny Sm, ప కో\nఅం. | IMU MINIT ||| Tr eae OF\nRoll No. అభ్యర్థులు ప్రశ్న పత్రం కోడ్‌ను సమాధాన పత్రం యొక్క\n\nశీర్షిక పుటలో రాయాలి\nCandidates must write the Q.P. Code\n\non the title page of the answer-book.\n\nనోట్‌ / NOTE:\n\n(1) ఈ ప్రశ్నపత్రం లో అచ్చు వేసిన 15 How ఉన్నాయో లేదో చూడండి.\nPlease check that this question paper contains 15 printed pages.\nవిద్యార్థి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న పత్రం కోడ్‌ సంఖ్యను సమాధాన పత్రంలోని ముఖ పత్రంలో\nఉండాలి.\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\n18 ప్రశ్నలు ఉన్నది లేనిది పరిశీలించండి.\n\nPlease check that this question paper contains 18 questions.\n\nసమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\nఈ ప్రశ్న పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. ప్రశ్న పత్రం ఉదయం 10.15\nని.లకు ఇవ్వబడుతుంది. 10.15 నుండి 10.80 వరకు విద్యార్థులు (ప్రశ్న పత్రాన్ని చదవాలి. ఈ కాలంలో\nసమాధాన పత్రంలో ఏమీ రాయకూడదు.\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\n\non the answer-book during this period. శ\n\nతెలుగు - తెలంగాణ\nTELUGU - TELANGANA\n\nసమయం : తీ గంటలు మొత్తం మార్కులు : 80\n\nTime allowed తీ hours Maximum Marks : 80\n\n57 1127 Page 1 of 16 P.T.O.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

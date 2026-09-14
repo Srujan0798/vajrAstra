@@ -1,0 +1,41 @@
+{
+  "page_id": "te_027",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0027pro_raw.pdf",
+    "page_index": 29,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "చిత్ర౦లోని చేతివేళ్ళను లెక్కి౦చ౦డి చేతివేళ్ళ ఎన్నివున్నయో అన్నిగీతలు పక్కనున్న గడిలో\nగీయ౦డి మొత్త౦ గీతలను లెక్కి౦చి ವ್ೞಿ స౦ఖ్యను పక్కనున్న గడిలో రాయ౦డి\nరె౦డు సమూహాలలోని చిత్రాలను లెక్కి౦చ౦డి మొత్త౦ তো సంఖ్య రాయ౦డి\nబొ౦గరాలు బొ౦గరాలు\n7 బొ౦గరాలు\nਹਿਤੰਤ చిలుకలు ਰਿਹਾਉਂ చిలుకలు\nਹਾਓਤ చిలుకలు\n20",
+      "text_nfc": "చిత్ర౦లోని చేతివేళ్ళను లెక్కి౦చ౦డి చేతివేళ్ళ ఎన్నివున్నయో అన్నిగీతలు పక్కనున్న గడిలో\nగీయ౦డి మొత్త౦ గీతలను లెక్కి౦చి ವ್ೞಿ స౦ఖ్యను పక్కనున్న గడిలో రాయ౦డి\nరె౦డు సమూహాలలోని చిత్రాలను లెక్కి౦చ౦డి మొత్త౦ তো సంఖ్య రాయ౦డి\nబొ౦గరాలు బొ౦గరాలు\n7 బొ౦గరాలు\nਹਿਤੰਤ చిలుకలు ਰਿਹਾਉਂ చిలుకలు\nਹਾਓਤ చిలుకలు\n20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

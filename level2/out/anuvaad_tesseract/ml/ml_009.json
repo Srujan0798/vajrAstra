@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_009",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0010pro_raw.png",
+    "page_index": 0,
+    "width": 389,
+    "height": 526
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        389,
+        526
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "പളളൂു്്ാക്്ങളകപള്ഹപ്\nका कलम बा बल का\nन नया बवाल, नहर सा\nअं ong अजन्त धमाके agtenenanse Seem TS\n\ncoon aystoanie aysoyes meus\nFoapasncsjeoyd che abeynaen weitere\n\n< aytimaso gemraciniacine germ sama] बनवा\n\nलिन\n1 moans m dana eangeuiah aysonda exccuemasiens i\n710) muaane हर oma agp astooda qenopesaIe sees\n\ndotcoujmnme 1-20: snzpeaiat oferta: scaninaysiose at\nene ypyen चाल, हफ कर shtamenee) ou] 72 (0 costes\nया soacana;stoor aja exseconqrnayenn: esogyetet\n\n1 ated eeigyces: sengmgjes osname ~eiansieosen\nGrmdonyrveme eetanmnjen Croctan soacie सीकर eae\nlconacs mataien वौकॉफीयी दीदी बयान amaahadd shtgnecar\n",
+      "text_nfc": "പളളൂു്്ാക്്ങളകപള്ഹപ്\nका कलम बा बल का\nन नया बवाल, नहर सा\nअं ong अजन्त धमाके agtenenanse Seem TS\n\ncoon aystoanie aysoyes meus\nFoapasncsjeoyd che abeynaen weitere\n\n< aytimaso gemraciniacine germ sama] बनवा\n\nलिन\n1 moans m dana eangeuiah aysonda exccuemasiens i\n710) muaane हर oma agp astooda qenopesaIe sees\n\ndotcoujmnme 1-20: snzpeaiat oferta: scaninaysiose at\nene ypyen चाल, हफ कर shtamenee) ou] 72 (0 costes\nया soacana;stoor aja exseconqrnayenn: esogyetet\n\n1 ated eeigyces: sengmgjes osname ~eiansieosen\nGrmdonyrveme eetanmnjen Croctan soacie सीकर eae\nlconacs mataien वौकॉफीयी दीदी बयान amaahadd shtgnecar\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_096",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 0,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾ೯ಟಕಸಿ\n೨೫೨೨೬\nಗಣಿತ\nOt\nUBLISHED\nಹತನಿಯ\nತರಗಃ\nYe?\n೧\nFai s JaA5\nNOT TO\n+t $ sret\nNC ERT\nರಾಖೈೀಯ\nಶೈಕಣಿಕ\nಪಂಶೋಧನಿ\nಮತು\nತರಬೀ೮\nಪಂಫಿ\nಅರಣಂದಿಾಲಿ\nನವದಿಹಅ\n110016\nಪಠೃಪುತಕ\nಸಂಘ\n೮\n$ನೇ\nಅಡರಸೈ\nಮಳೇಶರಂ\nಐ\nಬೆಂಗಳೂರು-560\n003.",
+      "text_nfc": "ಕನಾ೯ಟಕಸಿ\n೨೫೨೨೬\nಗಣಿತ\nOt\nUBLISHED\nಹತನಿಯ\nತರಗಃ\nYe?\n೧\nFai s JaA5\nNOT TO\n+t $ sret\nNC ERT\nರಾಖೈೀಯ\nಶೈಕಣಿಕ\nಪಂಶೋಧನಿ\nಮತು\nತರಬೀ೮\nಪಂಫಿ\nಅರಣಂದಿಾಲಿ\nನವದಿಹಅ\n110016\nಪಠೃಪುತಕ\nಸಂಘ\n೮\n$ನೇ\nಅಡರಸೈ\nಮಳೇಶರಂ\nಐ\nಬೆಂಗಳೂರು-560\n003.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

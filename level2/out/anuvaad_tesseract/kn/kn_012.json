@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_012",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+    "page_index": 2,
+    "width": 1654,
+    "height": 2338
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2338
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ite)\n\nकट फ 5 3\nie) a e 8B 5 2\nKR 6 Bs 8 wi 8\n3 - : फट\nBG sf के 2\n8 BR Sx B 3 us] BR\nHD = 9 g ane : ढ्ड\n८ 3 BE SS ww 8\n3 > 3. Be 8 नदी 8 हर\nहै फू ® ್ಟ gp\nNe 8 3 »\nES ¥e मद 6 से दल\nBR 4 ;6o 8 BD\nके 3B. B B 3 ft\nBog & ee\nS2g* B88 Rx 8 4\nमद 8 8B e 8388, 35\n४6६४ ४४६६ Bg 8B R\noO Box 8 Kop i cx BLE s Ye\nBR Se > कई 3 ठ 82४ Re के\n8 3 QB BA? 8 QS fe) Wl @ oF\nuae B ; Se Fe oY Be 6\nSEPT g@gglis BE B 3) 12 %\noY B eee 8.8 0 B 2) 3 3\n2 pb b fb 9 (en e 38 3) 8\nRK 2 9.3 ae हि iB कै &\nRe WR कर BB \"BB\n2१% D Q ae) बट! ¥ Ie\n1g 2 >3 हि है 3 g हि सिविल\n3228 B दि sd\n22° BRB BR ¢ 318 8\nog og % oo ae Bi v1\nQ, S SERS SSeS है 8 @\nS99 ge go है B Oo ® ex\n“4 > > BWR परे हू “Sa. B B. BB\na ७ +, हि Bo\np22 हि 2 Pl 3\n: Ke a X छि\nD BU ea कैं। B 18\nदा दर = कट कट\nw ४ एए Pg of\nelias [OF Buda °\n\n=~\nBe\n\nಕಡತಕ್ಕೆ\n\nಣಾ\n\n5\n\n8\noh\n\nಕಾರಿ / ಸಿಬ್ಬಂದಿ / एं\n\nಪ್ರಾಧಿಕಾರದ ಅಧಿ\n\n6.\n",
+      "text_nfc": "ite)\n\nकट फ 5 3\nie) a e 8B 5 2\nKR 6 Bs 8 wi 8\n3 - : फट\nBG sf के 2\n8 BR Sx B 3 us] BR\nHD = 9 g ane : ढ्ड\n८ 3 BE SS ww 8\n3 > 3. Be 8 नदी 8 हर\nहै फू ® ್ಟ gp\nNe 8 3 »\nES ¥e मद 6 से दल\nBR 4 ;6o 8 BD\nके 3B. B B 3 ft\nBog & ee\nS2g* B88 Rx 8 4\nमद 8 8B e 8388, 35\n४6६४ ४४६६ Bg 8B R\noO Box 8 Kop i cx BLE s Ye\nBR Se > कई 3 ठ 82४ Re के\n8 3 QB BA? 8 QS fe) Wl @ oF\nuae B ; Se Fe oY Be 6\nSEPT g@gglis BE B 3) 12 %\noY B eee 8.8 0 B 2) 3 3\n2 pb b fb 9 (en e 38 3) 8\nRK 2 9.3 ae हि iB कै &\nRe WR कर BB \"BB\n2१% D Q ae) बट! ¥ Ie\n1g 2 >3 हि है 3 g हि सिविल\n3228 B दि sd\n22° BRB BR ¢ 318 8\nog og % oo ae Bi v1\nQ, S SERS SSeS है 8 @\nS99 ge go है B Oo ® ex\n“4 > > BWR परे हू “Sa. B B. BB\na ७ +, हि Bo\np22 हि 2 Pl 3\n: Ke a X छि\nD BU ea कैं। B 18\nदा दर = कट कट\nw ४ एए Pg of\nelias [OF Buda °\n\n=~\nBe\n\nಕಡತಕ್ಕೆ\n\nಣಾ\n\n5\n\n8\noh\n\nಕಾರಿ / ಸಿಬ್ಬಂದಿ / एं\n\nಪ್ರಾಧಿಕಾರದ ಅಧಿ\n\n6.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

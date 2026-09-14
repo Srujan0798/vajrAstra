@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_075",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 6,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "068-V1\nGaCqogloooख o)ong% 6)&66oगriL siकणoण ge gl७ ७f &6)6o60    6)&@g6 ७05$ थ0o040. (GaC4 Osbo@l o)srGoJof८७ @०८ossOJL GoJooilकo. )\nGo८4 ७mफ़%ir   b)srti 6Tooor. 8_680)60@5  6)868@6!659 GsisoJs७ B@ti GoCUforir8t gloi8on%oor GaC4 !sl 6Tooroboew 9|6)626)8$$6 ७ssdorp O6o०f8@ *GC066f,f6 Co०r   ठ)orgUoJfsi 6TooroofCLo   sOtol&s२ueLgl. G८4 0@|8&6n 2|60)60198)0 ६i (८८७ ७sौWsirm O६००  8७ Uंf& 6J6o)6णr8 +७ssis 6)&fonsouGo\n6si$6 6(58)0`9|8&60.\n*6)0665505 6)&06)60)6!  9|998) .@)_6|0.\nGf6i",
+      "text_nfc": "068-V1\nGaCqogloooख o)ong% 6)&66oगriL siकणoण ge gl७ ७f &6)6o60    6)&@g6 ७05$ थ0o040. (GaC4 Osbo@l o)srGoJof८७ @०८ossOJL GoJooilकo. )\nGo८4 ७mफ़%ir   b)srti 6Tooor. 8_680)60@5  6)868@6!659 GsisoJs७ B@ti GoCUforir8t gloi8on%oor GaC4 !sl 6Tooroboew 9|6)626)8$$6 ७ssdorp O6o०f8@ *GC066f,f6 Co०r   ठ)orgUoJfsi 6TooroofCLo   sOtol&s२ueLgl. G८4 0@|8&6n 2|60)60198)0 ६i (८८७ ७sौWsirm O६००  8७ Uंf& 6J6o)6णr8 +७ssis 6)&fonsouGo\n6si$6 6(58)0`9|8&60.\n*6)0665505 6)&06)60)6!  9|998) .@)_6|0.\nGf6i",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

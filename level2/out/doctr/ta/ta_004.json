@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 341,
+    "height": 431
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        341,
+        431
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2ooboub EnA dinanLi Sanet\nSs\nEume eup Suut Le stildainst Ree Medal LE\n58s4 Salin siy mps. Mols Sing Eung\nRele Modal aiN ogid Mis atot stin\nÉ Aadweg Dbesil anat saaing Osais\n- €\nà\nAceLi, Ane aitoytait DausaisaAL.i Snp\nds6 Landa mBlesa Gmsd Du 35\ndaswals ag Gopdlomint. hE -\non\n0as Galdbit ddessait 2191 Singe\nB\nSAALeT 240u1y5 Bigis stboy bmf\nEssis\nmsard Engna\nAudat easg Pos\nAmE\nAaritfls Siacat ses LATEN a LAAWTG\naL - Oadises Saheat 613 16056 Eaat\nAtai\nRee Madel\nit m\na\nE\nAairt à\nApais TA 2\nGoE C\nSUET, wo Engima\nsbinmioniai Gone LTnt\nS RE Oritm seir\nLausS\nà AN\n85556 Hoiat Sinfaftit Sriusgflsit mmliet g6\nGAGAG dundnlse ciman DEsALAmE sinl\nEnbeunh thai aisositit G6 thigght mo\nSdt slupimaigsi EgALiat 45g d mbu Sump\nfhi Bunanual baani GnLngL 1 ridss adel\nGenia. pispit LLAi stilais Gaitungfwne\nEBOwita finigis\nBaynw Pmtbi almmant\n-\naui aingl finPresdaina finit Maigsa B6s\nas asiso mingl hwfis chepil\nbenid\nAsma -\nran\nAaantiiait\nadag Melimgne ch6p 10nae\nAbAbiacon\nTeiens\nRdaradeli - 1aa ain a Gad\nOscinapa Buna",
+      "text_nfc": "2ooboub EnA dinanLi Sanet\nSs\nEume eup Suut Le stildainst Ree Medal LE\n58s4 Salin siy mps. Mols Sing Eung\nRele Modal aiN ogid Mis atot stin\nÉ Aadweg Dbesil anat saaing Osais\n- €\nà\nAceLi, Ane aitoytait DausaisaAL.i Snp\nds6 Landa mBlesa Gmsd Du 35\ndaswals ag Gopdlomint. hE -\non\n0as Galdbit ddessait 2191 Singe\nB\nSAALeT 240u1y5 Bigis stboy bmf\nEssis\nmsard Engna\nAudat easg Pos\nAmE\nAaritfls Siacat ses LATEN a LAAWTG\naL - Oadises Saheat 613 16056 Eaat\nAtai\nRee Madel\nit m\na\nE\nAairt à\nApais TA 2\nGoE C\nSUET, wo Engima\nsbinmioniai Gone LTnt\nS RE Oritm seir\nLausS\nà AN\n85556 Hoiat Sinfaftit Sriusgflsit mmliet g6\nGAGAG dundnlse ciman DEsALAmE sinl\nEnbeunh thai aisositit G6 thigght mo\nSdt slupimaigsi EgALiat 45g d mbu Sump\nfhi Bunanual baani GnLngL 1 ridss adel\nGenia. pispit LLAi stilais Gaitungfwne\nEBOwita finigis\nBaynw Pmtbi almmant\n-\naui aingl finPresdaina finit Maigsa B6s\nas asiso mingl hwfis chepil\nbenid\nAsma -\nran\nAaantiiait\nadag Melimgne ch6p 10nae\nAbAbiacon\nTeiens\nRdaradeli - 1aa ain a Gad\nOscinapa Buna",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

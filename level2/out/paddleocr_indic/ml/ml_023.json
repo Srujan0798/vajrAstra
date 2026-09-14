@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_023",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0024pro_raw.pdf",
+    "page_index": 157,
+    "width": 876,
+    "height": 1362
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        876,
+        1362
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "nde\n\nGQeoooasa\nc\nufgo nwge\n \n6m\nfeoeerreoeler.\nee\nearae\nFr  e\n6m\ne nc\nuog\neocsloe.\ndrceoaams\ns\n \namo.\nemeeoe e?\n\n\nm\n    ?\neoa\nwurc\n.\nw\n6m\nceoee\nLeyrmo aorol.",
+      "text_nfc": "nde\n\nGQeoooasa\nc\nufgo nwge\n \n6m\nfeoeerreoeler.\nee\nearae\nFr  e\n6m\ne nc\nuog\neocsloe.\ndrceoaams\ns\n \namo.\nemeeoe e?\n\n\nm\n    ?\neoa\nwurc\n.\nw\n6m\nceoee\nLeyrmo aorol.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_067",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8>|23_631300 omleel @)0)@00 2l0l[@&)0m230 8062]66S200]m0 @g)633भm ? (1z) m3los momकJO63l3o@ omleelooombombकJoo nom Qllgloopmo ngnojo &Jonड ? (iii) nonoJom mioso motmI3z@l॰ (iv) olol[ozoीo +Jel0op mीm >lol[0क)el00l8e|60)2383 (|@)36m0)6 GoOoll>|oीm @Joom2zळी @looymo nonoJmmॅ ? selकooloo GO3JDJली DgtolsoJom motmI3J@lo Gooinie0lao @o0  (vi) omjotmbom  JO6ol३८d Ojo lo DकJonडoॉ @g)6ठ3om 0 (vii) 6(&=| Ooooloo Oplntlldojo @aloisoolmjo nकoo @ IJozmjo Qimo nl oउl३om ? (viii) oonoeo3[ooDodlemॅ ellol Ojo loq Saoolलo @ooJom ?\n2\nomloloojm o2lommulo @फ़@>| -|0465088 7 82|)(3!6313 0086)0 Q000० n980)6 (o33803mmlmjo 6308 03066) Qiloo ) (Reading Comprehension) 7x1=7\n8=|)60 emolsm ng८ol० Qellल डloMlomloglod amJom Qop2elmlकoomo. 63080) QiOnuinljo elo ilcsomoolm Gloajक(dकoJom Como ood ooloeiolo २QJ० 2eimoioi coamolsi eरim mosisDJoimo ngmo mopjos @odoo   oosjoojm @JLODO00j0Jomॅ. @omo2 Djood ८OJDmUBOJOoDOmI30oीm @loo @08 Dellmlcooomo O२omm2Jomjons nomo mीmoOकo2z@ QimojoळJom. omjoqioमmlom tlologeiDzol oidlcopmolomJq॰ Oom, OD१J6313८0@6ॅ @ळom moomioole m२IJ८j@ mUJgiडldopm tloomo dमslलlJom ogmolmzoo, @I@ Deimlooomo GloतozoJnqits oeloolod @goo Uloczmg2doDloojm ६@ @g8O१Dg(@ JUomDJली Ommlcooq |Samp. @DD0ा0०(19ड!त00 2o  ]33m0]p0>|@)6S @902 co023m2Jom DelmlकOoml IUOm6ol३८ठ\n^२",
+      "text_nfc": "8>|23_631300 omleel @)0)@00 2l0l[@&)0m230 8062]66S200]m0 @g)633भm ? (1z) m3los momकJO63l3o@ omleelooombombकJoo nom Qllgloopmo ngnojo &Jonड ? (iii) nonoJom mioso motmI3z@l॰ (iv) olol[ozoीo +Jel0op mीm >lol[0क)el00l8e|60)2383 (|@)36m0)6 GoOoll>|oीm @Joom2zळी @looymo nonoJmmॅ ? selकooloo GO3JDJली DgtolsoJom motmI3J@lo Gooinie0lao @o0  (vi) omjotmbom  JO6ol३८d Ojo lo DकJonडoॉ @g)6ठ3om 0 (vii) 6(&=| Ooooloo Oplntlldojo @aloisoolmjo nकoo @ IJozmjo Qimo nl oउl३om ? (viii) oonoeo3[ooDodlemॅ ellol Ojo loq Saoolलo @ooJom ?\n2\nomloloojm o2lommulo @फ़@>| -|0465088 7 82|)(3!6313 0086)0 Q000० n980)6 (o33803mmlmjo 6308 03066) Qiloo ) (Reading Comprehension) 7x1=7\n8=|)60 emolsm ng८ol० Qellल डloMlomloglod amJom Qop2elmlकoomo. 63080) QiOnuinljo elo ilcsomoolm Gloajक(dकoJom Como ood ooloeiolo २QJ० 2eimoioi coamolsi eरim mosisDJoimo ngmo mopjos @odoo   oosjoojm @JLODO00j0Jomॅ. @omo2 Djood ८OJDmUBOJOoDOmI30oीm @loo @08 Dellmlcooomo O२omm2Jomjons nomo mीmoOकo2z@ QimojoळJom. omjoqioमmlom tlologeiDzol oidlcopmolomJq॰ Oom, OD१J6313८0@6ॅ @ळom moomioole m२IJ८j@ mUJgiडldopm tloomo dमslलlJom ogmolmzoo, @I@ Deimlooomo GloतozoJnqits oeloolod @goo Uloczmg2doDloojm ६@ @g8O१Dg(@ JUomDJली Ommlcooq |Samp. @DD0ा0०(19ड!त00 2o  ]33m0]p0>|@)6S @902 co023m2Jom DelmlकOoml IUOm6ol३८ठ\n^२",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

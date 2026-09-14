@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_092",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0026pro_raw.pdf",
+    "page_index": 78,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "नानणfl६b, थibp @uIफ़lगछ॰op @IITLL6DBBG OLIgJ@Igl -1.08 थbBITUIIDIT6OIछI ना6ठTLIoDp  थमरnUIB. (९ 0.3396) %ग॰: t @२I(DLछSlpछn 6णा 72000e -0.09+ Bloफ़छn६D DoSlLiL dt\nC\nRs. 3.5\nT\n30\nGIDI छंछ Ggऊमठ 30 61&6062|= GjTx)dx =3.5 `२००  0.2r dr\n30 0.2 ~2 3.5 200r =रै 20,685 2\n१२ @IUDL ऊफ़lमI6oा BloफछI६D ७oSlLIL\n-0.09+ 72000e At\n1२ -0.09+\nOI६D60ठा LIRंIBLIqनDT OlUonछp Ogn6o६ (Amount of an Annuity) OB@pफ़LLILL OLDngछ फ६२l60D6ण0ा LIIBIBLG नकI६D६ Ippio शpp ऊानD BLLछफ़l६b OF@ISSLILILL 6LDnछछ @ILLIq थJBीu I@Ipंफ़ीनठा मo Gp६ं, %६२I६DD60णा LIIBIBLLIQनणT OILDn छछ 6lछI6DD६ना6oाLILIGbiD. @७ थbooolopछ BoL७   @ILLIq   Dippफ़ी॰o,  OlमoulppLiLlbio   छन२l६०D६०णा LIIBIBLG 6gIT6Dक र ऐ ना६ofl६b, N  %६२I६OD600ाBनfl६b OE@)pSLILIGIO छन२l६OD60णा LIIBIBLLIq6णT OlLOIछफ़ ठlऊI६Dऊ\n72000 -0.09\n72000 -0.09 (12)_e01 -0.09\n800000 e-1.08 -eo\n-800000[0.3396-1]\n528320\nA= . pe rt dt\nQuIफ़lग छंड़ीलंषI 6णा 61म6D64|\n500000\n30000\nनाGछgl&BnLG 3.2३ छl(. थIनाा ना6DTLIDIj ABC @lऊlकlull६b, @६l६l६२II( थJooollqpGi र १०,००० -क थJooolqpछ  १०% BoLG @iiqullsb 5 थJनणणGB७ऊऊछ नlमolpglछlpnग. 5 थJनणण (मनflनoा (I@llbशl@Iर @IDIछी छनणणाछंकी६D २  नााना 0.5 6UDngछ 6pn६DD६ 6ा6ंl6I6ा16२ ? ९ =1.6487\n470000\nना6णा G@l @u Iऊफ़ीप्र p॰णछ @२ITTLL नODBDछ OlLIgJ@IgI SनDILIDगIOI6णा छl थI६D६D. थैJनon6b @uIफ़lप p॰op @inIilGolGp Elpफ़pgl\n%p॰ः 0  10000\nमप्छछ Gूकक क़l॰o@ (nventory) 6BIGBBLLLL Bप्रऊंकीनठा   ६DBUfULL I  (x) Iopoib @७ थlनDBीpछIणणा Bपऊंकीठठा Gpकक# ६१६६D६२ (C) ना६ofl६b, T  छानDpंड़ीpछाठणा   Bप्ऊंछीठठा OLDnछp Gकऊठ न१६६D६| CL fI(x)dx \n 0.1, १ = 5\nGIDnछछ gI ६DB\n१००००e०1t dt\n10००० 0.1+\n0.1\nना७pglककILG 3.२२ @७  फ़lmJo२loorib   ३०   JIoilBGऊऊछ @७७sop २०० LDDlफoI5glक६ODना OLIplकlpgl थlj9ILI@Iछकी६ं, Eग्फ६ नDBUlLL QULL In6iT BGऊL नणा OgILILOLUIgI ना६णाछं 6pफ़lकpgl. BनDLflul६ं OLIDLILILL मग्रकंछ @फ़नीफ़g 1(Y =२००  - 0.2r ना6ठा छ. छीन्णाषप्री Fपऊंछ Gकऊठठ न१८६D६२| र ३.5 नानofी६ ३० IIT6TBGऊऊBI6णा GUDnछछ Gकऊ६# 6#6D6D6/ OgI6DBUSL६D @p६Dib छाानठंण छ.\n0.1X5 -९\n100000\n100000 (e%5 -1 100000 [0.6487]\nर 64,870\n@uIpनo& @lना छंछ्ीन्ंंा LIULIGDTLING (Consumption of a Natural Resource) @IUGLछंफ़ी॰b QuIp६oक @२lनााछंछी6णा LIUIGDTLIITLIDBI6णा BITju Pt) ना6ण &. k   नLUऊछ र्ppड़l६ं @uIp७oऊ @Iना छंठ्ीन्ण LIUIGDTLIITG\nफp॰ः grl I(x)\n200 -0.2x\n७फI७D फl७ठग Boooflफ़uo-II\n73\nXII Std Business Nlaths & Stat TIl Chapter 3.indd 73\n08-12-2021 18:21:08",
+      "text_nfc": "नानणfl६b, थibp @uIफ़lगछ॰op @IITLL6DBBG OLIgJ@Igl -1.08 थbBITUIIDIT6OIछI ना6ठTLIoDp  थमरnUIB. (९ 0.3396) %ग॰: t @२I(DLछSlpछn 6णा 72000e -0.09+ Bloफ़छn६D DoSlLiL dt\nC\nRs. 3.5\nT\n30\nGIDI छंछ Ggऊमठ 30 61&6062|= GjTx)dx =3.5 `२००  0.2r dr\n30 0.2 ~2 3.5 200r =रै 20,685 2\n१२ @IUDL ऊफ़lमI6oा BloफछI६D ७oSlLIL\n-0.09+ 72000e At\n1२ -0.09+\nOI६D60ठा LIRंIBLIqनDT OlUonछp Ogn6o६ (Amount of an Annuity) OB@pफ़LLILL OLDngछ फ६२l60D6ण0ा LIIBIBLG नकI६D६ Ippio शpp ऊानD BLLछफ़l६b OF@ISSLILILL 6LDnछछ @ILLIq थJBीu I@Ipंफ़ीनठा मo Gp६ं, %६२I६DD60णा LIIBIBLLIQनणT OILDn छछ 6lछI6DD६ना6oाLILIGbiD. @७ थbooolopछ BoL७   @ILLIq   Dippफ़ी॰o,  OlमoulppLiLlbio   छन२l६०D६०णा LIIBIBLG 6gIT6Dक र ऐ ना६ofl६b, N  %६२I६OD600ाBनfl६b OE@)pSLILIGIO छन२l६OD60णा LIIBIBLLIq6णT OlLOIछफ़ ठlऊI६Dऊ\n72000 -0.09\n72000 -0.09 (12)_e01 -0.09\n800000 e-1.08 -eo\n-800000[0.3396-1]\n528320\nA= . pe rt dt\nQuIफ़lग छंड़ीलंषI 6णा 61म6D64|\n500000\n30000\nनाGछgl&BnLG 3.2३ छl(. थIनाा ना6DTLIDIj ABC @lऊlकlull६b, @६l६l६२II( थJooollqpGi र १०,००० -क थJooolqpछ  १०% BoLG @iiqullsb 5 थJनणणGB७ऊऊछ नlमolpglछlpnग. 5 थJनणण (मनflनoा (I@llbशl@Iर @IDIछी छनणणाछंकी६D २  नााना 0.5 6UDngछ 6pn६DD६ 6ा6ंl6I6ा16२ ? ९ =1.6487\n470000\nना6णा G@l @u Iऊफ़ीप्र p॰णछ @२ITTLL नODBDछ OlLIgJ@IgI SनDILIDगIOI6णा छl थI६D६D. थैJनon6b @uIफ़lप p॰op @inIilGolGp Elpफ़pgl\n%p॰ः 0  10000\nमप्छछ Gूकक क़l॰o@ (nventory) 6BIGBBLLLL Bप्रऊंकीनठा   ६DBUfULL I  (x) Iopoib @७ थlनDBीpछIणणा Bपऊंकीठठा Gpकक# ६१६६D६२ (C) ना६ofl६b, T  छानDpंड़ीpछाठणा   Bप्ऊंछीठठा OLDnछp Gकऊठ न१६६D६| CL fI(x)dx \n 0.1, १ = 5\nGIDnछछ gI ६DB\n१००००e०1t dt\n10००० 0.1+\n0.1\nना७pglककILG 3.२२ @७  फ़lmJo२loorib   ३०   JIoilBGऊऊछ @७७sop २०० LDDlफoI5glक६ODना OLIplकlpgl थlj9ILI@Iछकी६ं, Eग्फ६ नDBUlLL QULL In6iT BGऊL नणा OgILILOLUIgI ना६णाछं 6pफ़lकpgl. BनDLflul६ं OLIDLILILL मग्रकंछ @फ़नीफ़g 1(Y =२००  - 0.2r ना6ठा छ. छीन्णाषप्री Fपऊंछ Gकऊठठ न१८६D६२| र ३.5 नानofी६ ३० IIT6TBGऊऊBI6णा GUDnछछ Gकऊ६# 6#6D6D6/ OgI6DBUSL६D @p६Dib छाानठंण छ.\n0.1X5 -९\n100000\n100000 (e%5 -1 100000 [0.6487]\nर 64,870\n@uIpनo& @lना छंछ्ीन्ंंा LIULIGDTLING (Consumption of a Natural Resource) @IUGLछंफ़ी॰b QuIp६oक @२lनााछंछी6णा LIUIGDTLIITLIDBI6णा BITju Pt) ना6ण &. k   नLUऊछ र्ppड़l६ं @uIp७oऊ @Iना छंठ्ीन्ण LIUIGDTLIITG\nफp॰ः grl I(x)\n200 -0.2x\n७फI७D फl७ठग Boooflफ़uo-II\n73\nXII Std Business Nlaths & Stat TIl Chapter 3.indd 73\n08-12-2021 18:21:08",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

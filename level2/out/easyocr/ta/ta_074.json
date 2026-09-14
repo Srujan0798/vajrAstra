@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_074",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 11,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(ii)\nL60)6J -OBLIL फIobीoठा JJEIrlui (4) Blui (3) LIITTSIUITI OILIUऊIऊIOIBनTE Boony (D) 6४6iT Gऊour (iii ) LOङo)6ULIफBLITL 6Tooroti Jlooफ़BBLuUBIDgl. (A) BoछझआIioltlLlooL (B) J७DDILILIooL (0) ७g७ऊमछछ (D) QUDOOL IITLBD (iv ) LO+O 6ULIGIBLIEं GTooTsoiti Gलiplou L०६ठT+णा ६०१६0ा LIITLLGlooLछं छ॰o6U६२l6oTITBछं ७lBIooठLछl. (4) Iऊनठा 6णाठठr (B) LIITV (0) षIT। D) थl६Bl - @l#olमIToJodloor OLIITGनiT (4) LIoiTou (B) BrDpt (0) छाफ़ंlष (D) फफ tl 9. Lllooroltii oltululoir olloornBt Gऊठा ठT6o)6lGUIp9![5 ९Dm०rpeolछछ ILGlt ollooL फ७म. 3x3=9 L० G०0ा ITooTLOsoofuiti BफझIoonn फ़lltऊफ़I+oul oInTiछछlt ollफ़sं॰oफ़झं olफ़oflolp न७छIम. (ii) C६D६DD6U ploupछl @SOOLIITOOiT BGL OLITTOB6iT २lLloLIITGoT JJBIUIopoop @loirlpछl नछIम. (iii ) FIBIB @lJJऊBIUIIOToO LIVILIITLodlsi Jl॰णणLLpoop 9loाpglt, Llolulloor Cठnpppoop शा Blpछlt Bo2lti oलlolul६i ७lFUlgl Boooाछं olझIछऊछl न७छlB. (iv) फpOलIT loठr Flpuiu upol छlकollooनTUITTID LITITooortं Bo2ii olFUISIBOOनT 6छlB. GBITE६U IITLIoOT ollolgooफ़ऊं BILloofloor 2 छंड़ 6ा6iloinT@l BITLFILILGgछlBIDछl  10/$ Page १२ of १५",
+      "text_nfc": "(ii)\nL60)6J -OBLIL फIobीoठा JJEIrlui (4) Blui (3) LIITTSIUITI OILIUऊIऊIOIBनTE Boony (D) 6४6iT Gऊour (iii ) LOङo)6ULIफBLITL 6Tooroti Jlooफ़BBLuUBIDgl. (A) BoछझआIioltlLlooL (B) J७DDILILIooL (0) ७g७ऊमछछ (D) QUDOOL IITLBD (iv ) LO+O 6ULIGIBLIEं GTooTsoiti Gलiplou L०६ठT+णा ६०१६0ा LIITLLGlooLछं छ॰o6U६२l6oTITBछं ७lBIooठLछl. (4) Iऊनठा 6णाठठr (B) LIITV (0) षIT। D) थl६Bl - @l#olमIToJodloor OLIITGनiT (4) LIoiTou (B) BrDpt (0) छाफ़ंlष (D) फफ tl 9. Lllooroltii oltululoir olloornBt Gऊठा ठT6o)6lGUIp9![5 ९Dm०rpeolछछ ILGlt ollooL फ७म. 3x3=9 L० G०0ा ITooTLOsoofuiti BफझIoonn फ़lltऊफ़I+oul oInTiछछlt ollफ़sं॰oफ़झं olफ़oflolp न७छIम. (ii) C६D६DD6U ploupछl @SOOLIITOOiT BGL OLITTOB6iT २lLloLIITGoT JJBIUIopoop @loirlpछl नछIम. (iii ) FIBIB @lJJऊBIUIIOToO LIVILIITLodlsi Jl॰णणLLpoop 9loाpglt, Llolulloor Cठnpppoop शा Blpछlt Bo2lti oलlolul६i ७lFUlgl Boooाछं olझIछऊछl न७छlB. (iv) फpOलIT loठr Flpuiu upol छlकollooनTUITTID LITITooortं Bo2ii olFUISIBOOनT 6छlB. GBITE६U IITLIoOT ollolgooफ़ऊं BILloofloor 2 छंड़ 6ा6iloinT@l BITLFILILGgछlBIDछl  10/$ Page १२ of १५",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

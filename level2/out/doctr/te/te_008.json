@@ -1,0 +1,41 @@
+{
+  "page_id": "te_008",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0008pro_raw.pdf",
+    "page_index": 3,
+    "width": 1312,
+    "height": 2068
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1312,
+        2068
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "25ho- 6 2 9\n4. 68 365 JOOS Kea J2as 33 8MS Sobads S90 Soô 2J2000\n38QJs OJO JS)SO oobod.\n4x1=4\n\"JT20 gjwsw 32, 385 a Sers 255356 SSS\"\nSae:-\ni. 3652-60 5 SJes SoTos 30838?\nes) Wego\ne3) desjosve\na) gbyeo\n68) Sossare\nii. q005 no Keaswe\nes) a 3 2 See K\ne)38653 85 S\na) 1 2 D 23 22 8\n6a) 885888 3.\niii. ae 20e 355 essoo\nes) 11 S essoo es) 13 5 esoo a) 12 5 egoo\n68) 14 S esoo\niv. 2 3OS J8oe 23) esoomjaw?\nes) 20\nes) 21 a) 22\n6a) 19\n5. Sod S5os sarose oood.\n4x1=4\ni. casjos Soe3 JSs 33 33)5\nes) 63s500500\ne3) e060d8 eoosoo\na) 5ar0os0o\n88) ecroesongs eeosoo.\nii. SSvO05oDs 35 38\nes) asgsogra\nes) asspeos-oo\na) es8803g eseosoo\n68) 3 aESO.\n- 4-",
+      "text_nfc": "25ho- 6 2 9\n4. 68 365 JOOS Kea J2as 33 8MS Sobads S90 Soô 2J2000\n38QJs OJO JS)SO oobod.\n4x1=4\n\"JT20 gjwsw 32, 385 a Sers 255356 SSS\"\nSae:-\ni. 3652-60 5 SJes SoTos 30838?\nes) Wego\ne3) desjosve\na) gbyeo\n68) Sossare\nii. q005 no Keaswe\nes) a 3 2 See K\ne)38653 85 S\na) 1 2 D 23 22 8\n6a) 885888 3.\niii. ae 20e 355 essoo\nes) 11 S essoo es) 13 5 esoo a) 12 5 egoo\n68) 14 S esoo\niv. 2 3OS J8oe 23) esoomjaw?\nes) 20\nes) 21 a) 22\n6a) 19\n5. Sod S5os sarose oood.\n4x1=4\ni. casjos Soe3 JSs 33 33)5\nes) 63s500500\ne3) e060d8 eoosoo\na) 5ar0os0o\n88) ecroesongs eeosoo.\nii. SSvO05oDs 35 38\nes) asgsogra\nes) asspeos-oo\na) es8803g eseosoo\n68) 3 aESO.\n- 4-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

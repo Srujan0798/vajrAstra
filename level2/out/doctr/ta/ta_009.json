@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_009",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0009pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Ulgoi 9.\nGsigo 6y6)2g60TC Bwworgons g55 6eiso.\n(Ggngoi BL330g E035 1961 2ji 26000 086086T 12 (2) ogowd uniasoyo)\n0)5n68W06bg\n50jn0 ELLO GUgUBE BLagi Ggigo.\nGgigo BL3g 9136n055,\nGomun Ggngos gn Goucunangnaw\n6T60T8M BnooT,\n6T60T5) Gsigo 676)22600TLT60T -\n96166867\nBW060T360g O56rroi gis 6)sidGmsr.\nOci-\nG58\nGoucunonfoor 6)66)w033.\n51-82",
+      "text_nfc": "Ulgoi 9.\nGsigo 6y6)2g60TC Bwworgons g55 6eiso.\n(Ggngoi BL330g E035 1961 2ji 26000 086086T 12 (2) ogowd uniasoyo)\n0)5n68W06bg\n50jn0 ELLO GUgUBE BLagi Ggigo.\nGgigo BL3g 9136n055,\nGomun Ggngos gn Goucunangnaw\n6T60T8M BnooT,\n6T60T5) Gsigo 676)22600TLT60T -\n96166867\nBW060T360g O56rroi gis 6)sidGmsr.\nOci-\nG58\nGoucunonfoor 6)66)w033.\n51-82",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

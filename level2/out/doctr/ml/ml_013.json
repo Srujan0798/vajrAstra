@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_013",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 16,
+    "width": 1608,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1608,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ComonAmm\n- 0 cg 5 a -\nmo 6300\nnsomio arMarcmm 8-gmn-m\nm-ormba\n- ooo Domle\nor a 0\nsaalammn rin gmad\nGocy-3ima-Aeg\nmommat wondyn non Jan - 8 2\n- Jo - 2001\n2ns00ga, 2pnd, 82 cobola\n3B0 onl\n23 arord smso\nU a\n-\nQi1, alono romions QLoI (o3- Oan E\nnmrhegos 245458m 0275 0aa-2\nDorarbing\n-\nGromp\n28mimmms\nOm srp 22es22\nGBioms 0d25 so OO ugm\nGRNA gn\nA SON2im\n0-82m0o\nom 2\nB- 3 a man,\n22\n4-a ond 62n\nronon\nmomm\n2\n2noy -\nin\namgooyn",
+      "text_nfc": "ComonAmm\n- 0 cg 5 a -\nmo 6300\nnsomio arMarcmm 8-gmn-m\nm-ormba\n- ooo Domle\nor a 0\nsaalammn rin gmad\nGocy-3ima-Aeg\nmommat wondyn non Jan - 8 2\n- Jo - 2001\n2ns00ga, 2pnd, 82 cobola\n3B0 onl\n23 arord smso\nU a\n-\nQi1, alono romions QLoI (o3- Oan E\nnmrhegos 245458m 0275 0aa-2\nDorarbing\n-\nGromp\n28mimmms\nOm srp 22es22\nGBioms 0d25 so OO ugm\nGRNA gn\nA SON2im\n0-82m0o\nom 2\nB- 3 a man,\n22\n4-a ond 62n\nronon\nmomm\n2\n2noy -\nin\namgooyn",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

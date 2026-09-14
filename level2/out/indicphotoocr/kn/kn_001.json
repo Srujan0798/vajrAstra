@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_001",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "no\ntest booklet code kanha this booklet contains 2444 pages\nಪ್ರಶ್ನ ಪುಸ್ತಕದ ಕೋಡ್ ਹੀ ಪುಸ್ತಕದಲ್ಲಿ 21441ಪುಟಗಳಿವೆ\ng1 do not open this test booklet until you are asked to do ১০\nസക്കസ്സ് ಈಪ್ರಶ್ನ ಪುಸ್ತಕವನ್ನು ತಮಗೆ ತೆರೆಯಲು ಸೂಚನೆ ನೀಡುವವರೆಗೆ ತೆರೆಯಬಾರದು\nread carefully the instructions ണ്ട the back cover of this test booklet\nಪ್ರಶ್ನ ಪುಸ್ತಕದ ಹಿ೦ಬದಿಯ ಲ್ಲಿರುವ ಸೂಚನೆಗಳನ್ನು ಜಾಗರೂ ಕತೆ ಯಿ೦ದ ఓదిరి\nimportant instructions ವಿಶೇಷ ಸೂಚನೆಗಳು\nthe answer sheet is inside this test booklet when ಪುಸ್ತಕದ ಒಳಗಡೆ ಉತ್ತರ ಹಾಳೆಯನ್ನು ಇಡಲಾಗಿದೆ ತಮಗೆ ಈ\nyou are directed to open the test booklet take out ಪುಸ್ತಕವನ್ನು ತೆರೆಯಲು ಹೇಳಿದ ನ೦ತರ ಉತ್ತರ ಹಾಳೆಯನ್ನು\nthe answer sheet and fill in the particulars ണ്ണ ತಗೆದು થી1 ಮತು ৪১১  ನ್ನು ಕೇವಲ ৯ঃ৩ ಕಪ್ಪು ಬಾಲ್\nside1 and side2 carefully with blueblack ball point ಪಾಯಿ೦ಟ್ ಪೆನ್ನಿನಿ೦ದ ವಿವರಗಳನ್ನು ಜಾಗರೂಕತೆಯಿ೦ದ ಭರ್ತಿ\npenonly ಮಾಡಬೇಕು\nthe test is of ૧ hours duration and test booklet\ncontains 180 questions each question carries ২় ಪರೀಕ್ಷೆಯ ಅವಧಿ 3 ಗ೦ಟೆಗಳು ಮತ್ತು ಪ್ರಶ್ನ ಪುಸ್ತಕದಲ್ಲಿ 180\nmarks for each correct response the candidate will ಪ್ರಶ್ನೆಗಳಿವೆ ಪ್ರತಿಯೊ೦ದು ಪ್ರಶ್ನೆಗೆ 4 ಅಂಕಗಳಿವೆ ಪ್ರತಿಯೊ೦ದು\nget 4 marks for ૯૧૦૧ incorrect response ണ mark 5੦ ಉತ್ತರಕ್ಕೆ usoftior 4 ಅಂಕಗಳನ್ನು ನೀಡಲಾಗುತ್ತದೆ ಮತು\nwill be deducted from the total scores the maximum ಪ್ರತಿಯೊ೦ದು ಅಂಕವನ್ನು\nತಪ್ಪು ಉತ್ತರಕ್ಕೆ ఒట్ట ಅಂಕಗಳಿಂದ ಒ೦ದು\nmarks are 720\nuse blueblack ball point pen only for writing ಕಳೆಯಲಾಗುತ್ತದೆ ಗರಿಷ್ಠ ಅಂಕಗಳು 720\nparticulars on this pagemarking responses 3 ਹੈ ಪುಟದಲ್ಲಿನ ವಿವರಗಳನ್ನು ತು೦ಬಲು ಮತು ಉತರ ಹಾಳೆಯ\nrough work to be done the space provided for ಮೇಲೆ ಗುರುತುಗಳನ್ನು ಮಾಡಲು ಕೇವಲ ৯ঃ৩ ಕಪ್ಪು ಬಾಲ್\nthispurpose the test booklet only ಪಾಯಿ೦ಟ್ ಪೆನ್ನನ್ನು ಉಪಯೋಗಿಸಬೇಕು\non completion 01 the test the candidate must 4 ಪ್ರಶ್ನ ಪುಸ್ತಕದಲ್ಲಿ ಒದಗಿಸಿದ ಸ್ಥಳದಲ್ಲೇ ರಫ್ ವರ್ಕ್ ಮಾಡಬೇಕು\nhand over the answer sheet to the invigilator 5 ಪರೀಕ್ಷ ಮುಗಿದ ನ೦ತರ ಅಭ್ಯರ್ಥಿಯು ಪರೀಕಾ ಕೋಣೆ ಸಭಾಂಗಣವನ್ನು\nbefore leaving the roomhall the candidates ಬಿಡುವ ಮುನ್ನ ಉತ್ತರ ಹಾಳೆಯನ್ನು ಪರೀಕಾ ಮೇಲಿಚಾರಕರಿಗೆ\nare allowed to take away this test booklet with ಒಪ್ಪಿಸಬೇಕು ಪುಸ್ತಕವನ್ನು ತಮ್ಮ ಜೊತೆಗೆ ತೆಗೆದುಕೊ೦ಡು\nthem ಅಭ್ಯರ್ಥಿಯು\nthe code for this booklet is g1 make that ಹೋಗಲು ಅನು ಮ ತಿಸಲಾಗಿದೆ\nsure g1\nthe code printed on side2 of the answer sheet is 6 ಈ ಪುಸ್ತಕದ ಕೋಡ್ ਹੈ ಪುಸ್ತಕದ ಕೋಡ್ ಮತ್ತು ಉತ್ತರ\nthe same 98 that ണ്ണ this test booklet in case of ಹಾಳೆಯ ৪১১  ರಲ್ಲಿ ಮುದ್ರಿಸಿದ ಕೋಡ್ ಒ೦ದೇ ಆಗಿದೆ ಎ೦ದು\ndiscrepancy the candidate should immediately report ದೃಢಿಕರಿಸಿಕೊಳ್ಳಿ ಒ೦ದು ವೇಳ ಬೇರೆಯಾಗಿದ್ದಲ್ಲಿ ಕೂಡಲೇ ಅಭ್ಯರ್ಥಿಯು\nthe matter to the invigila tor for replacement ofboth ಪರ್ಯಾಯ ಪ್ರಶ್ನ ಪುಸಕ ಮತ್ತು ಉತ್ತರ ಹಾಳೆಯನ್ನು ಕೊಡಲು\nthe test booklet and the answer sheet ಮೇಲಿಚಾರಕರಿಗೆ ತಿಳಿಸಬೇಕು\nthe candidates should ensure that the answer sheet 7 ಅಭ್ಯರ್ಥಿಯು ಉತ್ತರ ಹಾಳೆಯು ಮಡಿಚಿರಬಾರದೆ೦ದು ದೃಢಿಕರಿಸಿಕೊಳ್ಳಿ\nnot folded do not make any stray marks ണ്ണ the ಉತ್ತರ ಹಾಳೆಯ ಮೇಲೆ ಯಾವುದೇ ತರಹದ ಚಿಹೈಗಳನ್ನು ಗುರುತು\nanswer sheet do not write your roll no anywhere ಪುಸ್ತಕ ಉತ್ತರ ನಮೂದಿಸಿದ\nಮಾಡಬೇಡಿ ಅಭ್ಯರ್ಥಿ ಯು ಹಾಳೆಯಲ್ಲಿ\nelse except in the specified space in the test booklet\nanswer sheet ಸ್ಥಾನದ ಹೊರತು ಬೇರೆ ਠੱਠਤੇ ರೂಲ್ ನ೦ಬರನು ಬರೆಯಬಾರದು\nuse ર્ગ white ઉપાંતી for கேட்டி஋ பிம் is not permissible 8 ಉತ್ತರ ಹಾಳೆಯ ಮೇಲೆ ಯಾವುದೇ ತರಹದ ತಿದ್ದು ಪಡಿಗೆ ವಾಯಿಟ್\nണ്ണ the answer sheet ಫ್ಲೂಡ್ ಬಳಸಲು ಅನುಮತಿ ಇರುವುದಿಲ್ಲ\n0880 of any ambiguity in translation of any question english version shall be treated as final\nಪ್ರಶ್ನೆಗಳ ಅನು ವಾ ದದಲ್ಲಿ ಏನಾದರೂ ಅಸ್ಪಷ್ಟತೆಯಿದ್ದಲ್ಲಿ ಅ೦ತಿಮವಾಗಿ ੨ਰੀੁੁ   ಆವೃತ್ತಿಯು ಮಾನ್ಯವಾಗಿರುತ್ತದೆ\nname of the candidate மஂ capitals\nಅಭ್ಯರ್ಥಿಯ ಹೆಸರು ಻ದಪ್ಪ ಅಕ್ಷರಗಳಲ್ಲಿ\nroll number in figures\nರೂಲ್ ನಂಬರ್ ಅ೦ಕಿಗಳಲ್ಲಿ\nwords\nಅಕ್ಷರಗಳಲ್ಲಿ\ncentre of இணாஅமடப்பணில் மூ capitals\nಪರೀಕ್ಷಾ ಕೇ೦ದ್ರ ಻ದಪ್ಪ ಅಕ್ಷರಗಳಲ್ಲಿ\ncandidate 8 signa ture invigilator 8 signature\nಅಭ್ಯರ್ಥಿಯ ಸಹಿ ಮೇಲ್ವಿಚಾರಕರ ಸಹಿ\nசீலகப்படிப் signature stamp of\ncentre superintendent",
+      "text_nfc": "no\ntest booklet code kanha this booklet contains 2444 pages\nಪ್ರಶ್ನ ಪುಸ್ತಕದ ಕೋಡ್ ਹੀ ಪುಸ್ತಕದಲ್ಲಿ 21441ಪುಟಗಳಿವೆ\ng1 do not open this test booklet until you are asked to do ১০\nസക്കസ്സ് ಈಪ್ರಶ್ನ ಪುಸ್ತಕವನ್ನು ತಮಗೆ ತೆರೆಯಲು ಸೂಚನೆ ನೀಡುವವರೆಗೆ ತೆರೆಯಬಾರದು\nread carefully the instructions ണ്ട the back cover of this test booklet\nಪ್ರಶ್ನ ಪುಸ್ತಕದ ಹಿ೦ಬದಿಯ ಲ್ಲಿರುವ ಸೂಚನೆಗಳನ್ನು ಜಾಗರೂ ಕತೆ ಯಿ೦ದ ఓదిరి\nimportant instructions ವಿಶೇಷ ಸೂಚನೆಗಳು\nthe answer sheet is inside this test booklet when ಪುಸ್ತಕದ ಒಳಗಡೆ ಉತ್ತರ ಹಾಳೆಯನ್ನು ಇಡಲಾಗಿದೆ ತಮಗೆ ಈ\nyou are directed to open the test booklet take out ಪುಸ್ತಕವನ್ನು ತೆರೆಯಲು ಹೇಳಿದ ನ೦ತರ ಉತ್ತರ ಹಾಳೆಯನ್ನು\nthe answer sheet and fill in the particulars ണ്ണ ತಗೆದು થી1 ಮತು ৪১১  ನ್ನು ಕೇವಲ ৯ঃ৩ ಕಪ್ಪು ಬಾಲ್\nside1 and side2 carefully with blueblack ball point ಪಾಯಿ೦ಟ್ ಪೆನ್ನಿನಿ೦ದ ವಿವರಗಳನ್ನು ಜಾಗರೂಕತೆಯಿ೦ದ ಭರ್ತಿ\npenonly ಮಾಡಬೇಕು\nthe test is of ૧ hours duration and test booklet\ncontains 180 questions each question carries ২় ಪರೀಕ್ಷೆಯ ಅವಧಿ 3 ಗ೦ಟೆಗಳು ಮತ್ತು ಪ್ರಶ್ನ ಪುಸ್ತಕದಲ್ಲಿ 180\nmarks for each correct response the candidate will ಪ್ರಶ್ನೆಗಳಿವೆ ಪ್ರತಿಯೊ೦ದು ಪ್ರಶ್ನೆಗೆ 4 ಅಂಕಗಳಿವೆ ಪ್ರತಿಯೊ೦ದು\nget 4 marks for ૯૧૦૧ incorrect response ണ mark 5੦ ಉತ್ತರಕ್ಕೆ usoftior 4 ಅಂಕಗಳನ್ನು ನೀಡಲಾಗುತ್ತದೆ ಮತು\nwill be deducted from the total scores the maximum ಪ್ರತಿಯೊ೦ದು ಅಂಕವನ್ನು\nತಪ್ಪು ಉತ್ತರಕ್ಕೆ ఒట్ట ಅಂಕಗಳಿಂದ ಒ೦ದು\nmarks are 720\nuse blueblack ball point pen only for writing ಕಳೆಯಲಾಗುತ್ತದೆ ಗರಿಷ್ಠ ಅಂಕಗಳು 720\nparticulars on this pagemarking responses 3 ਹੈ ಪುಟದಲ್ಲಿನ ವಿವರಗಳನ್ನು ತು೦ಬಲು ಮತು ಉತರ ಹಾಳೆಯ\nrough work to be done the space provided for ಮೇಲೆ ಗುರುತುಗಳನ್ನು ಮಾಡಲು ಕೇವಲ ৯ঃ৩ ಕಪ್ಪು ಬಾಲ್\nthispurpose the test booklet only ಪಾಯಿ೦ಟ್ ಪೆನ್ನನ್ನು ಉಪಯೋಗಿಸಬೇಕು\non completion 01 the test the candidate must 4 ಪ್ರಶ್ನ ಪುಸ್ತಕದಲ್ಲಿ ಒದಗಿಸಿದ ಸ್ಥಳದಲ್ಲೇ ರಫ್ ವರ್ಕ್ ಮಾಡಬೇಕು\nhand over the answer sheet to the invigilator 5 ಪರೀಕ್ಷ ಮುಗಿದ ನ೦ತರ ಅಭ್ಯರ್ಥಿಯು ಪರೀಕಾ ಕೋಣೆ ಸಭಾಂಗಣವನ್ನು\nbefore leaving the roomhall the candidates ಬಿಡುವ ಮುನ್ನ ಉತ್ತರ ಹಾಳೆಯನ್ನು ಪರೀಕಾ ಮೇಲಿಚಾರಕರಿಗೆ\nare allowed to take away this test booklet with ಒಪ್ಪಿಸಬೇಕು ಪುಸ್ತಕವನ್ನು ತಮ್ಮ ಜೊತೆಗೆ ತೆಗೆದುಕೊ೦ಡು\nthem ಅಭ್ಯರ್ಥಿಯು\nthe code for this booklet is g1 make that ಹೋಗಲು ಅನು ಮ ತಿಸಲಾಗಿದೆ\nsure g1\nthe code printed on side2 of the answer sheet is 6 ಈ ಪುಸ್ತಕದ ಕೋಡ್ ਹੈ ಪುಸ್ತಕದ ಕೋಡ್ ಮತ್ತು ಉತ್ತರ\nthe same 98 that ണ്ണ this test booklet in case of ಹಾಳೆಯ ৪১১  ರಲ್ಲಿ ಮುದ್ರಿಸಿದ ಕೋಡ್ ಒ೦ದೇ ಆಗಿದೆ ಎ೦ದು\ndiscrepancy the candidate should immediately report ದೃಢಿಕರಿಸಿಕೊಳ್ಳಿ ಒ೦ದು ವೇಳ ಬೇರೆಯಾಗಿದ್ದಲ್ಲಿ ಕೂಡಲೇ ಅಭ್ಯರ್ಥಿಯು\nthe matter to the invigila tor for replacement ofboth ಪರ್ಯಾಯ ಪ್ರಶ್ನ ಪುಸಕ ಮತ್ತು ಉತ್ತರ ಹಾಳೆಯನ್ನು ಕೊಡಲು\nthe test booklet and the answer sheet ಮೇಲಿಚಾರಕರಿಗೆ ತಿಳಿಸಬೇಕು\nthe candidates should ensure that the answer sheet 7 ಅಭ್ಯರ್ಥಿಯು ಉತ್ತರ ಹಾಳೆಯು ಮಡಿಚಿರಬಾರದೆ೦ದು ದೃಢಿಕರಿಸಿಕೊಳ್ಳಿ\nnot folded do not make any stray marks ണ്ണ the ಉತ್ತರ ಹಾಳೆಯ ಮೇಲೆ ಯಾವುದೇ ತರಹದ ಚಿಹೈಗಳನ್ನು ಗುರುತು\nanswer sheet do not write your roll no anywhere ಪುಸ್ತಕ ಉತ್ತರ ನಮೂದಿಸಿದ\nಮಾಡಬೇಡಿ ಅಭ್ಯರ್ಥಿ ಯು ಹಾಳೆಯಲ್ಲಿ\nelse except in the specified space in the test booklet\nanswer sheet ಸ್ಥಾನದ ಹೊರತು ಬೇರೆ ਠੱਠਤੇ ರೂಲ್ ನ೦ಬರನು ಬರೆಯಬಾರದು\nuse ર્ગ white ઉપાંતી for கேட்டி஋ பிம் is not permissible 8 ಉತ್ತರ ಹಾಳೆಯ ಮೇಲೆ ಯಾವುದೇ ತರಹದ ತಿದ್ದು ಪಡಿಗೆ ವಾಯಿಟ್\nണ്ണ the answer sheet ಫ್ಲೂಡ್ ಬಳಸಲು ಅನುಮತಿ ಇರುವುದಿಲ್ಲ\n0880 of any ambiguity in translation of any question english version shall be treated as final\nಪ್ರಶ್ನೆಗಳ ಅನು ವಾ ದದಲ್ಲಿ ಏನಾದರೂ ಅಸ್ಪಷ್ಟತೆಯಿದ್ದಲ್ಲಿ ಅ೦ತಿಮವಾಗಿ ੨ਰੀੁੁ   ಆವೃತ್ತಿಯು ಮಾನ್ಯವಾಗಿರುತ್ತದೆ\nname of the candidate மஂ capitals\nಅಭ್ಯರ್ಥಿಯ ಹೆಸರು ಻ದಪ್ಪ ಅಕ್ಷರಗಳಲ್ಲಿ\nroll number in figures\nರೂಲ್ ನಂಬರ್ ಅ೦ಕಿಗಳಲ್ಲಿ\nwords\nಅಕ್ಷರಗಳಲ್ಲಿ\ncentre of இணாஅமடப்பணில் மூ capitals\nಪರೀಕ್ಷಾ ಕೇ೦ದ್ರ ಻ದಪ್ಪ ಅಕ್ಷರಗಳಲ್ಲಿ\ncandidate 8 signa ture invigilator 8 signature\nಅಭ್ಯರ್ಥಿಯ ಸಹಿ ಮೇಲ್ವಿಚಾರಕರ ಸಹಿ\nசீலகப்படிப் signature stamp of\ncentre superintendent",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

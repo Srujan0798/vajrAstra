@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_075",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 6,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "06ਕੁੰ 11\nഖേ ੪੦ வைப் gumma கொண்டதற்கான jsjio\nധനീക്ഖണങ്ങ 6ewgoi குறித்த அறிவிப்பும்\ngouly ഗബൺ.ജല கொடுப்பவரிடம் quyon 800l gongootbld\ncouly மனுவின் தொடர் 676ਠਂਗ ellugusedong  ... .\nதோ்தலுக்கு bmgw வேட்பாளராகிய ഇ.ഖർകുണ്ടെ coucy കണ്ണ ഒെബ്രണർ\nകുഞ്ചഖൽ தேதியன்று\n106000 ਲੇਲ caulunengnou ld68t ഗൃഹസ്സിലെ 616016016 quyod 500llg gouly மனுக்கள்\nകണൂർ670662 6ઈ ശ്രീ தேதியன்று\n46 பரிசீலனைக்கு எடுத்துக் கொள்ளப்படும்\n6666 தோ்தல் blssko 919660\nபொருந்தாத 6e06060 91959 വി.ുർ ",
+      "text_nfc": "06ਕੁੰ 11\nഖേ ੪੦ வைப் gumma கொண்டதற்கான jsjio\nധനീക്ഖണങ്ങ 6ewgoi குறித்த அறிவிப்பும்\ngouly ഗബൺ.ജല கொடுப்பவரிடம் quyon 800l gongootbld\ncouly மனுவின் தொடர் 676ਠਂਗ ellugusedong  ... .\nதோ்தலுக்கு bmgw வேட்பாளராகிய ഇ.ഖർകുണ്ടെ coucy കണ്ണ ഒെബ്രണർ\nകുഞ്ചഖൽ தேதியன்று\n106000 ਲੇਲ caulunengnou ld68t ഗൃഹസ്സിലെ 616016016 quyod 500llg gouly மனுக்கள்\nകണൂർ670662 6ઈ ശ്രീ தேதியன்று\n46 பரிசீலனைக்கு எடுத்துக் கொள்ளப்படும்\n6666 தோ்தல் blssko 919660\nபொருந்தாத 6e06060 91959 വി.ുർ ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_069",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0069pro_raw.pdf",
+    "page_index": 43,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Hai my:\nfaeri = af anfei\nyfedisit = aeTTsft\nafary = sifa\nYIAT i hU = ylad mey\nRUg = HHI5\nJIT d615 ferry = TgRT ferr\nyf yf SaTu = HGT Hoiufa TEY\n319\nyarg :: dfauft galh TIT vala fech faf ghaft d farait:-\n(8) Ra, afgei TETIEUT CIT ET h yRo ?\n(P) ohaftei gai ot chsfs aiei?\n(3) dCy gihetaly TGUT MS ET srerdt 3112 ?\n(8) JUg d1d615 shsfe eft Heiat ?\nyalg R: afaft gaah TIT Tiala 27t d farat.\n(8) RTIST CIT CHISUT MIE EST 97t da ?\n(P) H51E37 à afary ai Hifag cht ufat ?\n(3) ef3tf à GHSY i YGIEUT ET FRert 3112 ?\nyalg 3: da 4 SITEIR à fac yfe chfat.\n(R)aeei.\nytyad.\n(R)Eat, vig\nfegh afary.\n(3)EHIT aoat\nCIT dol5.\nyarg 8: da 4 STTEITT à ala eTfret.\n(8)feri\nUIT GIT.\n(R)\nqei chlegor.\n(3)auri sf3 YGIL\nyarg 4: faa ayft TIT EH aTallyit dy Titr faat.\n(8) CUTPL GHI, aftarg, à, HHIE,\nP3R34B\n(R) i HT Ion efias 2 CIY Ted fmat.\nFiah 3719\n(?) de à aHeit ChH:\nHYE dar fegs afay\ngarieh3 4Gri ef3\n(P) àf Ba fugi vit Tgft FY farat.\n(i) cfafeigei chlay o.\n(ii) Tg eft Yaat CTT dol5.\n35",
+      "text_nfc": "Hai my:\nfaeri = af anfei\nyfedisit = aeTTsft\nafary = sifa\nYIAT i hU = ylad mey\nRUg = HHI5\nJIT d615 ferry = TgRT ferr\nyf yf SaTu = HGT Hoiufa TEY\n319\nyarg :: dfauft galh TIT vala fech faf ghaft d farait:-\n(8) Ra, afgei TETIEUT CIT ET h yRo ?\n(P) ohaftei gai ot chsfs aiei?\n(3) dCy gihetaly TGUT MS ET srerdt 3112 ?\n(8) JUg d1d615 shsfe eft Heiat ?\nyalg R: afaft gaah TIT Tiala 27t d farat.\n(8) RTIST CIT CHISUT MIE EST 97t da ?\n(P) H51E37 à afary ai Hifag cht ufat ?\n(3) ef3tf à GHSY i YGIEUT ET FRert 3112 ?\nyalg 3: da 4 SITEIR à fac yfe chfat.\n(R)aeei.\nytyad.\n(R)Eat, vig\nfegh afary.\n(3)EHIT aoat\nCIT dol5.\nyarg 8: da 4 STTEITT à ala eTfret.\n(8)feri\nUIT GIT.\n(R)\nqei chlegor.\n(3)auri sf3 YGIL\nyarg 4: faa ayft TIT EH aTallyit dy Titr faat.\n(8) CUTPL GHI, aftarg, à, HHIE,\nP3R34B\n(R) i HT Ion efias 2 CIY Ted fmat.\nFiah 3719\n(?) de à aHeit ChH:\nHYE dar fegs afay\ngarieh3 4Gri ef3\n(P) àf Ba fugi vit Tgft FY farat.\n(i) cfafeigei chlay o.\n(ii) Tg eft Yaat CTT dol5.\n35",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

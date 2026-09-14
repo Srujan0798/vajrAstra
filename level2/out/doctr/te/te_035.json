@@ -1,0 +1,41 @@
+{
+  "page_id": "te_035",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0035pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2254
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2254
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "EEEEET EEEEEE\nVIRTITOTYSTAETT\nINeNld\nREEEEE\nKEEIS\nTa U HERIZ HISIT, TIsf HERIZ HISTT\nT v HERICZ HISIT, TISTI HERIZ HISTT l1EZ11\nK\nK8\nfad A 31161 gen Yoo a TIS\"EUI 79T\n3THHICT grdirei Tcla odi a FET9TT\nHolgiar fer Tsal - fa VTZTIST\nai qira HG Tvieil HERIZ HISTT\nTe S HERIZ HISIT, TISTf HERIZ HISTT 11811\nchlobel sdat chkeft, 3TTHHIEA muft\numd HTTC tod, do viiaauft\n8\n-\nX\nGIRGRIICET 3rgld TRIVICTl\n-\n8\nAooltel EHI faieil\nà Tramia ENiCT\nX\nX\nfeerid a dod aradt, HERIZ HISTT\nve v HERIC HISIT, TISTI HERIZ HISTT\nVe VP HERIZ HISTT UPII\naotorg OX Wooros 280 soo wosbenos 3856 os sois, 2E\nEL dimTRat serdt faert (dg)\nR 68.00\nK\nX",
+      "text_nfc": "EEEEET EEEEEE\nVIRTITOTYSTAETT\nINeNld\nREEEEE\nKEEIS\nTa U HERIZ HISIT, TIsf HERIZ HISTT\nT v HERICZ HISIT, TISTI HERIZ HISTT l1EZ11\nK\nK8\nfad A 31161 gen Yoo a TIS\"EUI 79T\n3THHICT grdirei Tcla odi a FET9TT\nHolgiar fer Tsal - fa VTZTIST\nai qira HG Tvieil HERIZ HISTT\nTe S HERIZ HISIT, TISTf HERIZ HISTT 11811\nchlobel sdat chkeft, 3TTHHIEA muft\numd HTTC tod, do viiaauft\n8\n-\nX\nGIRGRIICET 3rgld TRIVICTl\n-\n8\nAooltel EHI faieil\nà Tramia ENiCT\nX\nX\nfeerid a dod aradt, HERIZ HISTT\nve v HERIC HISIT, TISTI HERIZ HISTT\nVe VP HERIZ HISTT UPII\naotorg OX Wooros 280 soo wosbenos 3856 os sois, 2E\nEL dimTRat serdt faert (dg)\nR 68.00\nK\nX",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

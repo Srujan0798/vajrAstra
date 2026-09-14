@@ -1,0 +1,41 @@
+{
+  "page_id": "te_098",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0014pro_raw.pdf",
+    "page_index": 33,
+    "width": 1750,
+    "height": 2250
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1750,
+        2250
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Tai CIYT\n- -\n: : -\n:\n0000000000\n3TChE1F5 = THTY gUi,\nTY = ferdi,\n3aRicyf = Yielchl,\nReifen YEIRSTU = THTt qT,\nJifehisuft = 5ref,\ndeil ECIEY = ChIRTRI ChYJ,\nfarfart = fehRuit,\nYEIE fery = geard 37,\ngef-t = YER,\nES ES ÇCY = deG erfehuft Yay,\n3TT agei ferry = Teil chj,\nTnt = EHE,\nchalleiT ChG[ = detefts HEY,\nChYC ggeft aoy = ETRT N 312U,\nty = ferchls,\nSTIGHIHT = gari\ntaleyj=yhy\nCOOOOUOC000000OOOO0000\n379219 D00000000000000000000\nyan :: dfouf yaldft JT Jdlq fech fgft TfuCTft N ferat :\n2.\nREChR 7 3TG7 N ahlest TY gai ?\nR.\n3ielg CIS dfo ET cheit ?\n3.\neollohr à chleu7t gefreh Yg Tefia 7 ferit ?\n8.\nastat 3f4R N HIEEhR à yford ET eft qE.\nyald R: dfouft yaldh UT Tdld 977 # feral :\n3.\nYe THUT a REChR efiai rgrit HrolE ?\nR.\nfufeiichefa fsaur dIS 13 Ye a EOT TeIT ?\n3.\nYe a sd U ChRUT CE ET chRUTt fyeit ?\nX.\n\"gefa uf CHHTE\" 3TCTUf3T Hi chlest Teflad furt eft ?\nyalet 3: chfe chlad FRIT :\n3.\n\"EaT (ghH HIEE zre N 380119 Efs. ,7\nR.\ndosi TIGTfe a chl fs-f, Elg dlg a chit giesent. ,7\n..\n\"i EJUIT STE Hie-d Hyff ant, dft ET vifsent EGI. 17\nyad 8: dfouf stdeleft sf HIHT feren JftTft N ahfu aTTf0pIT :\nReifen TETTRUTY,\nchalleiT chG,\nChY1C grft qoT,\ndlei EIEY,\nyald 4: (31r9) fasd aifeent :\n374,\nRg-Gg,\n3RIL,\nmg\n3Gd,\nCAHRT\n24",
+      "text_nfc": "Tai CIYT\n- -\n: : -\n:\n0000000000\n3TChE1F5 = THTY gUi,\nTY = ferdi,\n3aRicyf = Yielchl,\nReifen YEIRSTU = THTt qT,\nJifehisuft = 5ref,\ndeil ECIEY = ChIRTRI ChYJ,\nfarfart = fehRuit,\nYEIE fery = geard 37,\ngef-t = YER,\nES ES ÇCY = deG erfehuft Yay,\n3TT agei ferry = Teil chj,\nTnt = EHE,\nchalleiT ChG[ = detefts HEY,\nChYC ggeft aoy = ETRT N 312U,\nty = ferchls,\nSTIGHIHT = gari\ntaleyj=yhy\nCOOOOUOC000000OOOO0000\n379219 D00000000000000000000\nyan :: dfouf yaldft JT Jdlq fech fgft TfuCTft N ferat :\n2.\nREChR 7 3TG7 N ahlest TY gai ?\nR.\n3ielg CIS dfo ET cheit ?\n3.\neollohr à chleu7t gefreh Yg Tefia 7 ferit ?\n8.\nastat 3f4R N HIEEhR à yford ET eft qE.\nyald R: dfouft yaldh UT Tdld 977 # feral :\n3.\nYe THUT a REChR efiai rgrit HrolE ?\nR.\nfufeiichefa fsaur dIS 13 Ye a EOT TeIT ?\n3.\nYe a sd U ChRUT CE ET chRUTt fyeit ?\nX.\n\"gefa uf CHHTE\" 3TCTUf3T Hi chlest Teflad furt eft ?\nyalet 3: chfe chlad FRIT :\n3.\n\"EaT (ghH HIEE zre N 380119 Efs. ,7\nR.\ndosi TIGTfe a chl fs-f, Elg dlg a chit giesent. ,7\n..\n\"i EJUIT STE Hie-d Hyff ant, dft ET vifsent EGI. 17\nyad 8: dfouf stdeleft sf HIHT feren JftTft N ahfu aTTf0pIT :\nReifen TETTRUTY,\nchalleiT chG,\nChY1C grft qoT,\ndlei EIEY,\nyald 4: (31r9) fasd aifeent :\n374,\nRg-Gg,\n3RIL,\nmg\n3Gd,\nCAHRT\n24",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

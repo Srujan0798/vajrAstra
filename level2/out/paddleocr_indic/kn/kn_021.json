@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_021",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0022pro_raw.pdf",
+    "page_index": 0,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾ೯ಟಕಸಕಾ೯ರ\nಏಜಾನ\n೦\nISHED\nಹತನೇ\nತರಗ\nಾದ -೩\nFeuuI s HaHEd\nIHtit faIl ET\nNC ERT.\nರಾ೯ಯಶಕಣಿಕಸಂಶೋಧನಿಮತು\nತರಬೇತಿಸಂಸೆ\nಟ\ne\n\nಶೀಅರಬಂದೋಮಾಗ೯ನವದೆಹಅಿಗಂಂಂ\nಕನಾ೯ಟಕ\nಪಠೃಪುಸಕಸಂಘ೦\n\nನೇಅಡರಸ.ಮಲೇಶರಂಬೆಂಗಳೂರು-ತೀಂ೦೦ತ\n\nಕ",
+      "text_nfc": "ಕನಾ೯ಟಕಸಕಾ೯ರ\nಏಜಾನ\n೦\nISHED\nಹತನೇ\nತರಗ\nಾದ -೩\nFeuuI s HaHEd\nIHtit faIl ET\nNC ERT.\nರಾ೯ಯಶಕಣಿಕಸಂಶೋಧನಿಮತು\nತರಬೇತಿಸಂಸೆ\nಟ\ne\n\nಶೀಅರಬಂದೋಮಾಗ೯ನವದೆಹಅಿಗಂಂಂ\nಕನಾ೯ಟಕ\nಪಠೃಪುಸಕಸಂಘ೦\n\nನೇಅಡರಸ.ಮಲೇಶರಂಬೆಂಗಳೂರು-ತೀಂ೦೦ತ\n\nಕ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_011",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0012pro_raw.png",
+    "page_index": 0,
+    "width": 385,
+    "height": 564
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        385,
+        564
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-7-\n ag inempted a et \noleozzo mos maoami aomaloo skoaa gomzo\naa(\nmudocomk\n(ae\ngmmeaslegesawo mkwamaommoosawo,\n\n\nmbowonmmon.\n0.07.199mm ng\neonoøm (gees domo skwoda uuammo The\nKanam Tenancy Abolition Act, 1976 go The Kanam Tenancy Abolition Rules, 1977 5\nwoi    m\ne\n\n()      e \nam a 070\n e.\ngmea  en \ng moe wam mmeee egng\nmnmn te\nmaleo, omskood, om eueo msam aoeu\ngudegszm eoz aou, emgaeng anamu gooamo\n(umslaolaeoeemzaoens amwoo og edo oonawo osmo\ns mmeeomm 1975e (m\nmmawo nmoen aszaka cezmai amm azme a aomimmdo\neugoeangonmu eeaogeaa uoumua e amsn\nma. a 20 () g , 6 (1) (n\n m  \nr.\nmos amozieagge aaam mvgleg mm\nmooo osmo soe mmeoe mzeaeio e\n eem m,  \nomo smooo am mceg eoen\nmemo gemeam onm mgyzge czm zogo mwocaoe",
+      "text_nfc": "-7-\n ag inempted a et \noleozzo mos maoami aomaloo skoaa gomzo\naa(\nmudocomk\n(ae\ngmmeaslegesawo mkwamaommoosawo,\n\n\nmbowonmmon.\n0.07.199mm ng\neonoøm (gees domo skwoda uuammo The\nKanam Tenancy Abolition Act, 1976 go The Kanam Tenancy Abolition Rules, 1977 5\nwoi    m\ne\n\n()      e \nam a 070\n e.\ngmea  en \ng moe wam mmeee egng\nmnmn te\nmaleo, omskood, om eueo msam aoeu\ngudegszm eoz aou, emgaeng anamu gooamo\n(umslaolaeoeemzaoens amwoo og edo oonawo osmo\ns mmeeomm 1975e (m\nmmawo nmoen aszaka cezmai amm azme a aomimmdo\neugoeangonmu eeaogeaa uoumua e amsn\nma. a 20 () g , 6 (1) (n\n m  \nr.\nmos amozieagge aaam mvgleg mm\nmooo osmo soe mmeoe mzeaeio e\n eem m,  \nomo smooo am mceg eoen\nmemo gemeam onm mgyzge czm zogo mwocaoe",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

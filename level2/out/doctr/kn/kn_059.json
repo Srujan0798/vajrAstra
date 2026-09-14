@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_059",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0020pro_raw.pdf",
+    "page_index": 135,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "134\nenzones / WOWTS\n-o\n19.\n1\nI\ni) 3 ii) 6\nT\n20. 24\n21. i) 36 31 ii) 36 5\n22. i)\n2 wonsOn\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\naos\nNogpasseads\n1 2 3\n4\n5\n6\n5\n4\n3\n2\n1\n36 36 36 36 36 36 36 36 36 36 36\nii) 0. 11 aosnes Naon\no\nsoodadange\n23. M NOR WozneD: HHH, TTT, HHT, HTH, HTT THH THT, TTH ce,\nTHH eoao, aoso Bavatate 3 aez, 23e 2aotave 6\n3 30 avas 3 de\n2savotave 2 30 aa enea\ne\n-o\ngoznea,\nade\ndegedf\naoadogeses).\n24. i) 35 ii) 36 11\n6\n25. i) Swond. NOC\n3\ngonea &\n68 de3 aheFtones\nraad\neao\nea Nabon\nregeas poenge. bodro0e3o0d, walooa vorode a00 wowao 2\ndegab BOz0osaA, Deawans- aode 0r0e 30 aa 23e v0de\naey\nepwo aode\nsergae 3 a023,\naa 23e\n-o\nvorode\n30\naeet wowa.\naboo0 aoted 30n80 (eowo aot aegneb) woao wote AOEneS\n2\nev0tsomsa.\nii) roabond. 3d0bg wonaa aoto WOEnSO Naor no@satagha.\nezsot A2.2\n1. (i) 1 5\n(ii) 160\n2. lcm2 OAREOFOA anadoot, eaooda 25078 08828. 68\nd\nA\nNosy\naa\n0\nORCEOFTS (cm2ned)\n0\nmosoeegase\naone\n20683\nNossasondoad.\n-\n3. 1087 adocasave waat aow 17.74%, aa 18% 803 baa.\negyon A2.3\n1. QWOFRES Sade en engowa, dowodosbsod.\ne\n-0",
+      "text_nfc": "134\nenzones / WOWTS\n-o\n19.\n1\nI\ni) 3 ii) 6\nT\n20. 24\n21. i) 36 31 ii) 36 5\n22. i)\n2 wonsOn\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\naos\nNogpasseads\n1 2 3\n4\n5\n6\n5\n4\n3\n2\n1\n36 36 36 36 36 36 36 36 36 36 36\nii) 0. 11 aosnes Naon\no\nsoodadange\n23. M NOR WozneD: HHH, TTT, HHT, HTH, HTT THH THT, TTH ce,\nTHH eoao, aoso Bavatate 3 aez, 23e 2aotave 6\n3 30 avas 3 de\n2savotave 2 30 aa enea\ne\n-o\ngoznea,\nade\ndegedf\naoadogeses).\n24. i) 35 ii) 36 11\n6\n25. i) Swond. NOC\n3\ngonea &\n68 de3 aheFtones\nraad\neao\nea Nabon\nregeas poenge. bodro0e3o0d, walooa vorode a00 wowao 2\ndegab BOz0osaA, Deawans- aode 0r0e 30 aa 23e v0de\naey\nepwo aode\nsergae 3 a023,\naa 23e\n-o\nvorode\n30\naeet wowa.\naboo0 aoted 30n80 (eowo aot aegneb) woao wote AOEneS\n2\nev0tsomsa.\nii) roabond. 3d0bg wonaa aoto WOEnSO Naor no@satagha.\nezsot A2.2\n1. (i) 1 5\n(ii) 160\n2. lcm2 OAREOFOA anadoot, eaooda 25078 08828. 68\nd\nA\nNosy\naa\n0\nORCEOFTS (cm2ned)\n0\nmosoeegase\naone\n20683\nNossasondoad.\n-\n3. 1087 adocasave waat aow 17.74%, aa 18% 803 baa.\negyon A2.3\n1. QWOFRES Sade en engowa, dowodosbsod.\ne\n-0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

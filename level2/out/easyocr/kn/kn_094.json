@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_094",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0017pro_raw.pdf",
+    "page_index": 49,
+    "width": 1050,
+    "height": 1678
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1050,
+        1678
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "~t 3 'ಕ೧ =-;\" '\"೬ 1} ;3 ೨೦ 12*ನ೬ ಊ೫F೯೧, ೨೬ದ ಸP ಟ' ಿ ;೨೨ನ^ @ ೨೭೮ ? `೬೨ (ಸ `ದ' tCi ( ೫; (%ಆ @ . 'T . ೬`' ಎಔ ೨೦ಸ೬q ~^J ಖ LQಟC ೬u1 yt ; ಎ 0 ~-_Jer(~_ಲದcV $ ~) ~ -d; F , \" ಔv5, < u ೯ ' io?' L' ೪೩G < ೬P,೯' ೭೬- ೨U೬೬ (' ದ9~ ೯ೈ8 ೬Fು , l. $ ೨ ಈLu / .L: @ 7 =x;1ಲಣ [ಸ 5೬ Cu7u L & ೧c; ೨ ೪೬ಖy ನZk' @? $ ~n cxtr.$ Oಘ syr &೬ ೮೩-ಟ : G' % ೧೬-್ರ೮ Lxc\" ೬ಣ @c' ೯ಅs (೮೦(Ar 71 ಟ: Uo ~೬೬ಲAolನ' tcರಿಸ' ಫ೨ಡಡ' > ಪ) ಬ ( cu73*07 $ = '  K; 0 [51' . ,; ೨~ cಟ9 ('ಣ scf೫ 2) cೆ ೬' ೧೯ ೬೩ +೨ ೧೦} ೯೯ ~ s9 ಸ:ಸh ~೦ ' ೬Jನ @('=ನcವ' 31 & ೦೬ ೬- ೬ಇ೬ ಸ ~೨ <೨೨ '೬-'9್ V1 $ m ೯ಡ`' ೮೬ಕ೬ Yಕಖುಂ . J೬sದ ] s \"ಷ೧ ಓ_೪ ೆ c ^ ೬ & 5೮5c' ್೮೬i೨ sccn ೨<- 'ಒa:' { \"'ನ್ರ '\" ೨೮ಲೀಶ ?೦ ತ್ಷಷಹ್ಯನಸ್ ್ಪ l ೬೪್ಫಸ ೮ ೯೬' @: , ೬ +7' ೯ ೬೬5 .uನ? ಉ೬ತ್ರ೯್ು c r.x೮ ೬_ 'q\n49",
+      "text_nfc": "~t 3 'ಕ೧ =-;\" '\"೬ 1} ;3 ೨೦ 12*ನ೬ ಊ೫F೯೧, ೨೬ದ ಸP ಟ' ಿ ;೨೨ನ^ @ ೨೭೮ ? `೬೨ (ಸ `ದ' tCi ( ೫; (%ಆ @ . 'T . ೬`' ಎಔ ೨೦ಸ೬q ~^J ಖ LQಟC ೬u1 yt ; ಎ 0 ~-_Jer(~_ಲದcV $ ~) ~ -d; F , \" ಔv5, < u ೯ ' io?' L' ೪೩G < ೬P,೯' ೭೬- ೨U೬೬ (' ದ9~ ೯ೈ8 ೬Fು , l. $ ೨ ಈLu / .L: @ 7 =x;1ಲಣ [ಸ 5೬ Cu7u L & ೧c; ೨ ೪೬ಖy ನZk' @? $ ~n cxtr.$ Oಘ syr &೬ ೮೩-ಟ : G' % ೧೬-್ರ೮ Lxc\" ೬ಣ @c' ೯ಅs (೮೦(Ar 71 ಟ: Uo ~೬೬ಲAolನ' tcರಿಸ' ಫ೨ಡಡ' > ಪ) ಬ ( cu73*07 $ = '  K; 0 [51' . ,; ೨~ cಟ9 ('ಣ scf೫ 2) cೆ ೬' ೧೯ ೬೩ +೨ ೧೦} ೯೯ ~ s9 ಸ:ಸh ~೦ ' ೬Jನ @('=ನcವ' 31 & ೦೬ ೬- ೬ಇ೬ ಸ ~೨ <೨೨ '೬-'9್ V1 $ m ೯ಡ`' ೮೬ಕ೬ Yಕಖುಂ . J೬sದ ] s \"ಷ೧ ಓ_೪ ೆ c ^ ೬ & 5೮5c' ್೮೬i೨ sccn ೨<- 'ಒa:' { \"'ನ್ರ '\" ೨೮ಲೀಶ ?೦ ತ್ಷಷಹ್ಯನಸ್ ್ಪ l ೬೪್ಫಸ ೮ ೯೬' @: , ೬ +7' ೯ ೬೬5 .uನ? ಉ೬ತ್ರ೯್ು c r.x೮ ೬_ 'q\n49",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

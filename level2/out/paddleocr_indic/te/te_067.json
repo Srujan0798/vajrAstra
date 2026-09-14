@@ -1,0 +1,41 @@
+{
+  "page_id": "te_067",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0067pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "the teachers' room, after the class. Her tone was not\nof annoyance or anger. Yet an unknown fear made me\nnervous. Reassuring myself that she was a kind-hearted\nteacher and would not punish me, I reached the teachers'\nreassuring\nroom with hesitant steps.\nconfirming\nThe teacher greeted me with a smile and asked me\nto sit by her side. Her tender tone turned my sighs into\nsobs. She pulled her chair close to mine and patting\nme on the head, said, \"What makes you cry, my child?\nI haven't said a word to you.\" After a brief pause, she\nconfide : share a\ncontinued, \"Tell me what your trouble is. Confide in\nsecret\nme, for am I not like a sister to you?\" A rare thrill\nthrill : great joy\nran through my entire frame. For a moment I felt I\nshould cling to her and cry and cry. Of course, I did\nnot do so, but I kept gazing at her with tearful eyes.\nTenderly, teacher continued, \"Do you know the\nmeaning of didi? It means elder sister. Won't you tell\nWhat two relationships\nyour sister your troubles?\" Amid sobs I said, \"The\n–\ndid the teacher\noffer\ngirls keep teasing me.\" She laughed, Why are you\nSayali?\nscared of them? If you cry like this, they will pester\nyou all the more. So ignore them. Who is your friend?\"\nI shook my head and teacher smiled. It seemed the\nto stand by\nteacher had poured her smile into my eyes. \"Like to\nsomeone : to support\nbe my friend?\" she said.\nsomeone\nThe bell rang. She rose. With a tender pat on my\npal : friend\nback, she said, \"Listen! You were a sister alright! Now\nlavished : poured in\nyou are a friend too. But I like my friends to be brave.\ngreat quantity\nYou've got to try to be brave. I'll always stand by\nyou, rest assured, my little pal. Now rise and hop off\nspontaneously :sudden\nto your class.\"\nimpulse from within\nExcitement made my face flush - red-hot to the\near-tips. Never before had anyone lavished love on me\nto be beyond\noneself : to lose\nthus and here was my teacher who had spontaneously\ncontrol of oneself\naccepted me as a sister, a friend! I was beyond myself\nwith joy. I wanted to chuckle - to burst into near-\nhysterical laughter :\nhysterical laughter.\nuncontrolled laughter\nOn winged feet I ran to my class. Soon I was lost\ndreamy sleep\nin a rare reverie. I forgot that I was sitting in a class\nreverie\nof wild girls whose prime pastime was teasing me.\nprime\n:\nmost\nimportant\nDuring the break, the water bottle that I was\nWhy\n\ndid\nSayali\nfeel\ndrinking from, fell on me and I got fully drenched.\nlike\nrejoicing\na\nlot?\nRight in front stood Maya and Chanda, laughing away\nto their hearts' content. Chanda teased, \"From the\nslippery hands of Slippery, the slippery bottle went slip,\n20",
+      "text_nfc": "the teachers' room, after the class. Her tone was not\nof annoyance or anger. Yet an unknown fear made me\nnervous. Reassuring myself that she was a kind-hearted\nteacher and would not punish me, I reached the teachers'\nreassuring\nroom with hesitant steps.\nconfirming\nThe teacher greeted me with a smile and asked me\nto sit by her side. Her tender tone turned my sighs into\nsobs. She pulled her chair close to mine and patting\nme on the head, said, \"What makes you cry, my child?\nI haven't said a word to you.\" After a brief pause, she\nconfide : share a\ncontinued, \"Tell me what your trouble is. Confide in\nsecret\nme, for am I not like a sister to you?\" A rare thrill\nthrill : great joy\nran through my entire frame. For a moment I felt I\nshould cling to her and cry and cry. Of course, I did\nnot do so, but I kept gazing at her with tearful eyes.\nTenderly, teacher continued, \"Do you know the\nmeaning of didi? It means elder sister. Won't you tell\nWhat two relationships\nyour sister your troubles?\" Amid sobs I said, \"The\n–\ndid the teacher\noffer\ngirls keep teasing me.\" She laughed, Why are you\nSayali?\nscared of them? If you cry like this, they will pester\nyou all the more. So ignore them. Who is your friend?\"\nI shook my head and teacher smiled. It seemed the\nto stand by\nteacher had poured her smile into my eyes. \"Like to\nsomeone : to support\nbe my friend?\" she said.\nsomeone\nThe bell rang. She rose. With a tender pat on my\npal : friend\nback, she said, \"Listen! You were a sister alright! Now\nlavished : poured in\nyou are a friend too. But I like my friends to be brave.\ngreat quantity\nYou've got to try to be brave. I'll always stand by\nyou, rest assured, my little pal. Now rise and hop off\nspontaneously :sudden\nto your class.\"\nimpulse from within\nExcitement made my face flush - red-hot to the\near-tips. Never before had anyone lavished love on me\nto be beyond\noneself : to lose\nthus and here was my teacher who had spontaneously\ncontrol of oneself\naccepted me as a sister, a friend! I was beyond myself\nwith joy. I wanted to chuckle - to burst into near-\nhysterical laughter :\nhysterical laughter.\nuncontrolled laughter\nOn winged feet I ran to my class. Soon I was lost\ndreamy sleep\nin a rare reverie. I forgot that I was sitting in a class\nreverie\nof wild girls whose prime pastime was teasing me.\nprime\n:\nmost\nimportant\nDuring the break, the water bottle that I was\nWhy\n\ndid\nSayali\nfeel\ndrinking from, fell on me and I got fully drenched.\nlike\nrejoicing\na\nlot?\nRight in front stood Maya and Chanda, laughing away\nto their hearts' content. Chanda teased, \"From the\nslippery hands of Slippery, the slippery bottle went slip,\n20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

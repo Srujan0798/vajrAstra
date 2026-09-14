@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_004",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0005pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 579
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        579
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "LonEX'mu lo.s Re sxalmnvrula ಐ3೧೬೩ಕಡಕಂಗ್ mk~c Tagcs ಆ38 mJಲಿ9ಗ ,ನಾರೊಗ್ Ho'x7 more-c4  ಖ3ಗiಚay Ouಮ\" = Fr೨ ಫom-nu S!0s  mಖ<ಗSuಖri F0. ve Teserulssctcai msudl 6  Y-Dua-`mos \" ಖUಖtn rx@x mLrrr11a ೨೫೧ಕರಾಗ] ಗಂಡಳಡರೋಗ I೪,\" 4*5 Ahmpinum\nmJAuCAt7-u0u- (o' !| ಘಘ ೊuu LA  Htm\nLILILmnI ' Wvabmut . rts]\nOrO4 me\n8೫8\"ಗ ~xoln f/qol*|  2422 (afsoo ಐಲಜ/s೨   TAnnldM0 ೧೧ಜ~Ann o 31n 2pf3. manMtು-ಟ) . 2೧೬y; C೫ಟ:| L Omnulun1d. NJಲeJs",
+      "text_nfc": "LonEX'mu lo.s Re sxalmnvrula ಐ3೧೬೩ಕಡಕಂಗ್ mk~c Tagcs ಆ38 mJಲಿ9ಗ ,ನಾರೊಗ್ Ho'x7 more-c4  ಖ3ಗiಚay Ouಮ\" = Fr೨ ಫom-nu S!0s  mಖ<ಗSuಖri F0. ve Teserulssctcai msudl 6  Y-Dua-`mos \" ಖUಖtn rx@x mLrrr11a ೨೫೧ಕರಾಗ] ಗಂಡಳಡರೋಗ I೪,\" 4*5 Ahmpinum\nmJAuCAt7-u0u- (o' !| ಘಘ ೊuu LA  Htm\nLILILmnI ' Wvabmut . rts]\nOrO4 me\n8೫8\"ಗ ~xoln f/qol*|  2422 (afsoo ಐಲಜ/s೨   TAnnldM0 ೧೧ಜ~Ann o 31n 2pf3. manMtು-ಟ) . 2೧೬y; C೫ಟ:| L Omnulun1d. NJಲeJs",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_046",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0028pro_raw.pdf",
+    "page_index": 0,
+    "width": 891,
+    "height": 1328
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        891,
+        1328
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "D y. दि 4 i दर\n[77 എല. ഹ कु 3 Mg J oe ev ere 4 f\n\n",
+      "text_nfc": "D y. दि 4 i दर\n[77 എല. ഹ कु 3 Mg J oe ev ere 4 f\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_086",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Set – 4\nప్రశ్న-పత్ర కోడ్ Q.P. Code\n11\nಕ್ರಿ.ಶ. ೨೦೦೬\nRoll No.\nمناسبة المناسبات\nఅభివృద్ధిలు ప్రశ్నపత్రం కోడ్‌ను సమాధానపత్రం\nయొక్క శీర్షిక పుటలో రాయాలి.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nఈ ప్రశ్న వత్రంలో అచ్చు వేసిన 15 పుటలు ఉన్నాయో లేదో చూడండి. విద్యార్థి ప్రశ్న వత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న వత్రం కోడ్ సంఖ్య సమాధాన వత్రంలోని ముఖ వత్రంలో ఉండాలి. 17 ప్రశ్నలు ఉన్నది లేనిది వరిశీలించండి. సమాధానాలను రాయడానికి ముందు ప్రశ్న వత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి. ఈ ప్రశ్న వత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. ప్రశ్న వత్రం ఉదయం 10.15 ని కు యివ్వబడుతుంది. 10.15 నుండి 10.30 వరకు విద్యార్థులు ప్రశ్న వత్రాన్ని చదవాలి. ఈ కాలంలో సమాధాన వత్రంలో ఏమీ రాయకూడదు. Please check that this question paper contains 15 printed pages. Q.P. Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate. Please check that this question paper contains 17 questions. Please write down the serial number of the question in the answer-book at the given place before attempting it. 15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period.\nవెలుగు\nTELUGU\nసమయం : 3 గంటలు\nTime allowed : 3 hours\nమొత్తం మార్కులు : 8౦\nMaximum Marks : 80\n11\n5169\n* Page 1 of 16 *\n11\nP.T.O.",
+      "text_nfc": "Set – 4\nప్రశ్న-పత్ర కోడ్ Q.P. Code\n11\nಕ್ರಿ.ಶ. ೨೦೦೬\nRoll No.\nمناسبة المناسبات\nఅభివృద్ధిలు ప్రశ్నపత్రం కోడ్‌ను సమాధానపత్రం\nయొక్క శీర్షిక పుటలో రాయాలి.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nఈ ప్రశ్న వత్రంలో అచ్చు వేసిన 15 పుటలు ఉన్నాయో లేదో చూడండి. విద్యార్థి ప్రశ్న వత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న వత్రం కోడ్ సంఖ్య సమాధాన వత్రంలోని ముఖ వత్రంలో ఉండాలి. 17 ప్రశ్నలు ఉన్నది లేనిది వరిశీలించండి. సమాధానాలను రాయడానికి ముందు ప్రశ్న వత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి. ఈ ప్రశ్న వత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. ప్రశ్న వత్రం ఉదయం 10.15 ని కు యివ్వబడుతుంది. 10.15 నుండి 10.30 వరకు విద్యార్థులు ప్రశ్న వత్రాన్ని చదవాలి. ఈ కాలంలో సమాధాన వత్రంలో ఏమీ రాయకూడదు. Please check that this question paper contains 15 printed pages. Q.P. Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate. Please check that this question paper contains 17 questions. Please write down the serial number of the question in the answer-book at the given place before attempting it. 15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period.\nవెలుగు\nTELUGU\nసమయం : 3 గంటలు\nTime allowed : 3 hours\nమొత్తం మార్కులు : 8౦\nMaximum Marks : 80\n11\n5169\n* Page 1 of 16 *\n11\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_042",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0002pro_raw.pdf",
+    "page_index": 12,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n13\nF1\n99. 50 Deponnedas 33ead geey aas 0.01 mm 104. 200 eosoawad aeos aeror Boed\nBaag e0o aoooda Xg Ress 225 :\n(1) 0.5 mm\n(2)\n1.0 mm\n(3) 0.01 mm\n(4) 0.25 mm\n100. xde Xong 2enodon droa 2woo3d wa\naerkocgafa daos weastad eosda :\n(1)\nT\n2\nrad\n(2) 0 (dos)\n(3) T rad\n(4)\n3T rad\n2\n101. 2.5A aa owcoada wods 50 cm engsas\nKocisoad 100 xoaortea asoobdabodd, ead\ndeoddos 0003d033 :\n(Mo= 4mx10-7TmA-1)\n(1) 6.28 x 10-5T\n(2) 3.14: X 10-5T\n(3) 6.28 x 10 -4T\n(4) 3.14 x 10-4T\n102. eo0 Roeajoa abeosod 20 m/s aende\neowwoh sugto ao0 2otb de xasaba Jozd\n80 m/s aenddooon 3e awesdd, Roeajoa\n0300 : (g= 10 m/s?)\n(1) 320 m\n(2) 3001 m\n(3) 3601 m\n(4) 3401 m\n103. 2oa doega WEOF Hodedan den Dead :\n-\nasa dede tod 235\ndabaoh doct\naba)\n(1) 4.7 k0; 5%\n(2) 470 Q; 5%\n(3) 4701 k0; 5%\n(4) 47 k0; 10%\nXas 38ne 2303780 :\n-\nip a :\n(1) 4506ip590\n(2) ip = 90°\n(3) o<ip < 30°\n(4) 30°<ip ( 45°\n105. ao0 Xrg doca 3363803 2o0s abeets abees\nwods adroarl ewoz does i dou egearopacon\neao soocy abedpood eowwoh onfaa\nasoodst. ade3d WDOS agegad X0252,08 p\nwOwdd xaed ewos doeaas : (A ado 2egdcd\ndoessods 390)\n(1) LA\nLA\n(4)\n(3)\n(4)\n2\nA\n2u\n2A\np\n106. X30ND306F0003 A aas B WOW wots\nAodoniva deoa 200083 about aoddgodn\nKeorepnd. gasorod\nenae aa 2gddg\nA\nEUoF esean aoood. B ato HOTjOOF\ndwofawehd. 2083\ngagabs e0200000F063-\naboor, dewa eodoedada, 38r0 3dwon enoa\n3\nagabado :\n(1) Adrgs\n(2) Adaugas\n(3) Xadocage\n(4) Adoree\n107. Es densaned atoa 2008 aiocos aodo\nRopbserbalg ?\n(1) dotoorr aoaora\n(2)\n2a3\nsodooa@dmer.ood DOJJON\naoaora (Ne+)\n(3) gouse adabora\n(4) 20a eadonedrer.cod &0dabo aoaora\n(He*)",
+      "text_nfc": "KANNADA\n13\nF1\n99. 50 Deponnedas 33ead geey aas 0.01 mm 104. 200 eosoawad aeos aeror Boed\nBaag e0o aoooda Xg Ress 225 :\n(1) 0.5 mm\n(2)\n1.0 mm\n(3) 0.01 mm\n(4) 0.25 mm\n100. xde Xong 2enodon droa 2woo3d wa\naerkocgafa daos weastad eosda :\n(1)\nT\n2\nrad\n(2) 0 (dos)\n(3) T rad\n(4)\n3T rad\n2\n101. 2.5A aa owcoada wods 50 cm engsas\nKocisoad 100 xoaortea asoobdabodd, ead\ndeoddos 0003d033 :\n(Mo= 4mx10-7TmA-1)\n(1) 6.28 x 10-5T\n(2) 3.14: X 10-5T\n(3) 6.28 x 10 -4T\n(4) 3.14 x 10-4T\n102. eo0 Roeajoa abeosod 20 m/s aende\neowwoh sugto ao0 2otb de xasaba Jozd\n80 m/s aenddooon 3e awesdd, Roeajoa\n0300 : (g= 10 m/s?)\n(1) 320 m\n(2) 3001 m\n(3) 3601 m\n(4) 3401 m\n103. 2oa doega WEOF Hodedan den Dead :\n-\nasa dede tod 235\ndabaoh doct\naba)\n(1) 4.7 k0; 5%\n(2) 470 Q; 5%\n(3) 4701 k0; 5%\n(4) 47 k0; 10%\nXas 38ne 2303780 :\n-\nip a :\n(1) 4506ip590\n(2) ip = 90°\n(3) o<ip < 30°\n(4) 30°<ip ( 45°\n105. ao0 Xrg doca 3363803 2o0s abeets abees\nwods adroarl ewoz does i dou egearopacon\neao soocy abedpood eowwoh onfaa\nasoodst. ade3d WDOS agegad X0252,08 p\nwOwdd xaed ewos doeaas : (A ado 2egdcd\ndoessods 390)\n(1) LA\nLA\n(4)\n(3)\n(4)\n2\nA\n2u\n2A\np\n106. X30ND306F0003 A aas B WOW wots\nAodoniva deoa 200083 about aoddgodn\nKeorepnd. gasorod\nenae aa 2gddg\nA\nEUoF esean aoood. B ato HOTjOOF\ndwofawehd. 2083\ngagabs e0200000F063-\naboor, dewa eodoedada, 38r0 3dwon enoa\n3\nagabado :\n(1) Adrgs\n(2) Adaugas\n(3) Xadocage\n(4) Adoree\n107. Es densaned atoa 2008 aiocos aodo\nRopbserbalg ?\n(1) dotoorr aoaora\n(2)\n2a3\nsodooa@dmer.ood DOJJON\naoaora (Ne+)\n(3) gouse adabora\n(4) 20a eadonedrer.cod &0dabo aoaora\n(He*)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

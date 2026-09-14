@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_037",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+    "page_index": 47,
+    "width": 984,
+    "height": 1612
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        984,
+        1612
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Bollglgoonmerma, 0083100021200000 Gorbgioa. QS:860\naoolss2omo, 6000000 dieplolamley 60 GoNGo. al\nemdba-Jompleal 018a200xbala alajabogaion 0200\ns62joe0jojo ma@aOmoblcosnascolog.e.\nmoajanbo mo@ngnoimmlobo arolcojo a18s A.hoanalcsano.\n0180, mgjruag.nolmosald msm adei 0JOG0168B0s (0\nQB 05 alajonamo ceggatio colgno.\nmmlaloo\n(erpau0ode aJd niciblodl.son.asnga G00002,99080D QNob\n000 malgferegfnos manidedd Beloeb Gelogojo, aJ\ndleon mgano meono.\n6oolam1 00m00 G6006-899080. a200016 21\n0a0onueedo a-jsjon3.8o0edg Gamog.\nGagarudin\n200 msobo 602ba0bo 093m900a21081 mulodlnggys\npo2lond RU0Gl.80300 603 ag7mogemo mosm.610100 (age\n853 619a.061 0.00100000 Galodmg29\nGGOnD aiolao rolaspel\n001-880026311 adards my\nGo0,023010,60190 alee runmoaJojo 2ma0g.89ms2msan0\n0080200. ADQ mloe3joogam 09me2029\ncoamlai 60 Q001Ul\nQ38811 (1O 003 100TU0\na o,soppog/mumhalmayolioano. 46 0018e 603 Corgymabloldlos\n008omsn@m 6.000029508.00 mamaionlan\n60100000 6\n0b02100 nalco.jmolgglmmg'. 01809 (omejoo Euojoe\n0493200smm0 n20p 00 COmles aopmlejool. €\n00 nvog\n00,001201 60 00:000100010ooaloilarm doggjo BOQAO BT ao\ne0j20000 39\nuomyoms.m o@malscocoioenp 0om00lmjan0y?9 00\nmoslcsmo muapjonulogos (8 aogjo. 608 Q70.00206000 QQuon\nalmo moliboodg 209 obla@a.o.00.o 06g00J000 60010cde a\neomppgledes al0oJo1U0 aJdolowlazomlomlm70 w0ode\nailongo sismo Q1061010.",
+      "text_nfc": "Bollglgoonmerma, 0083100021200000 Gorbgioa. QS:860\naoolss2omo, 6000000 dieplolamley 60 GoNGo. al\nemdba-Jompleal 018a200xbala alajabogaion 0200\ns62joe0jojo ma@aOmoblcosnascolog.e.\nmoajanbo mo@ngnoimmlobo arolcojo a18s A.hoanalcsano.\n0180, mgjruag.nolmosald msm adei 0JOG0168B0s (0\nQB 05 alajonamo ceggatio colgno.\nmmlaloo\n(erpau0ode aJd niciblodl.son.asnga G00002,99080D QNob\n000 malgferegfnos manidedd Beloeb Gelogojo, aJ\ndleon mgano meono.\n6oolam1 00m00 G6006-899080. a200016 21\n0a0onueedo a-jsjon3.8o0edg Gamog.\nGagarudin\n200 msobo 602ba0bo 093m900a21081 mulodlnggys\npo2lond RU0Gl.80300 603 ag7mogemo mosm.610100 (age\n853 619a.061 0.00100000 Galodmg29\nGGOnD aiolao rolaspel\n001-880026311 adards my\nGo0,023010,60190 alee runmoaJojo 2ma0g.89ms2msan0\n0080200. ADQ mloe3joogam 09me2029\ncoamlai 60 Q001Ul\nQ38811 (1O 003 100TU0\na o,soppog/mumhalmayolioano. 46 0018e 603 Corgymabloldlos\n008omsn@m 6.000029508.00 mamaionlan\n60100000 6\n0b02100 nalco.jmolgglmmg'. 01809 (omejoo Euojoe\n0493200smm0 n20p 00 COmles aopmlejool. €\n00 nvog\n00,001201 60 00:000100010ooaloilarm doggjo BOQAO BT ao\ne0j20000 39\nuomyoms.m o@malscocoioenp 0om00lmjan0y?9 00\nmoslcsmo muapjonulogos (8 aogjo. 608 Q70.00206000 QQuon\nalmo moliboodg 209 obla@a.o.00.o 06g00J000 60010cde a\neomppgledes al0oJo1U0 aJdolowlazomlomlm70 w0ode\nailongo sismo Q1061010.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

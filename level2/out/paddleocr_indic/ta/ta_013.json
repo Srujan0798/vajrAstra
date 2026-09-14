@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_013",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 13,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": " T4 e Fi\nft\nA TFER\nr\nh, ,  ch\nHERA 34 \nE\n i \nT\nao  340 E\n h 3  -\nES  3 \nT8   T  T\n3\n\nE \nTaHCTT?\nஈ\n\n371013\nfenf  st  39\n3714 1TT FR 31 3TE1\nTC\nTER HTT\nHdHd\nTHT..\n! 3T A T  U T\n\nS TE\nHE  T \n\nTEER FATHTT\nST \n\ndat!\n1  31\n5\n3122 34 37R 3\nA\nTE\nfH\n\n\nM JTO TE fAHE ITI\nA\n37ch 37411\n3 h   \nHhd !\n  3T4\n374  od\n3 T-e fe f 1\nh    \n\n5y   3\n35 Pi TE S?\nh fa \nJTA\nrc\nHERIST S\na3a\n\nll\n\nTCT\nPTT\nfohd\n\nT$\ncHCl\n\n3TdEC\n\n\nA\n3T\ndddd\nfhich\n371d2C\n\n\nTid\nτt\nSPT\n3$\n34rch\nTT\nFT\n35T\nuRad\n$}$\nN\nH\nf\nTPTT\nO\nπ\nETc\nTT4\nFoRTI\nCT\n3ET-T\n7 FET 4\nH\nTERT\nERIATT!\nFT\n34 TH \nad\nH\nF\n3Trid\nT\nThs\n\n ll\n2\nT37T\nH\nTER\n\nT\n\nπ\nHo \nA\n141\nReprint 2026-27",
+      "text_nfc": " T4 e Fi\nft\nA TFER\nr\nh, ,  ch\nHERA 34 \nE\n i \nT\nao  340 E\n h 3  -\nES  3 \nT8   T  T\n3\n\nE \nTaHCTT?\nஈ\n\n371013\nfenf  st  39\n3714 1TT FR 31 3TE1\nTC\nTER HTT\nHdHd\nTHT..\n! 3T A T  U T\n\nS TE\nHE  T \n\nTEER FATHTT\nST \n\ndat!\n1  31\n5\n3122 34 37R 3\nA\nTE\nfH\n\n\nM JTO TE fAHE ITI\nA\n37ch 37411\n3 h   \nHhd !\n  3T4\n374  od\n3 T-e fe f 1\nh    \n\n5y   3\n35 Pi TE S?\nh fa \nJTA\nrc\nHERIST S\na3a\n\nll\n\nTCT\nPTT\nfohd\n\nT$\ncHCl\n\n3TdEC\n\n\nA\n3T\ndddd\nfhich\n371d2C\n\n\nTid\nτt\nSPT\n3$\n34rch\nTT\nFT\n35T\nuRad\n$}$\nN\nH\nf\nTPTT\nO\nπ\nETc\nTT4\nFoRTI\nCT\n3ET-T\n7 FET 4\nH\nTERT\nERIATT!\nFT\n34 TH \nad\nH\nF\n3Trid\nT\nThs\n\n ll\n2\nT37T\nH\nTER\n\nT\n\nπ\nHo \nA\n141\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

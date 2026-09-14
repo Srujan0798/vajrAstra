@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_009",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+    "page_index": 2,
+    "width": 1695,
+    "height": 2198
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1695,
+        2198
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3\n2. Nobed 3ogde esad pwogad\n) Beog be3e0, eJodelod\n3. 3080d Noro8 WOE9 Dwogad,\n3203,\n4. wez esejode Job0d Jogot eo33 Desopadoded Roz Babogl)\n5. asgarogads Dwersad, o00s absgas weg Jobed Norgded\n6. apasragadd Oaer 380, eserg Beoa 3obed Refogs 0.,\n7. agatugade pwergad, eseg oooeo erbewod 3\nNobbed Bogd8 Rozuges 00bao\n8. pwersod, N0500 essozeenne 2esoas, 23008od\n9. eeadugd, sesg ese9a32 obodde N2d Dwersad, eiogeled\n10. aa8 e0098 esawwgd obedde aaory 808 Daessod, 23odsled\n11. owersad, awepboedg paes Bpoeab, 83ogeled\n12. odersgd, dergy 2er0a3, eJodslod\n13. ge escgase) epoo0 (Nob00), 0o1so,\na3:\n1.\n3508003 swors 50QDEWBE, 3000d 2e5083, goaboe 34g03, e3odeled-01\n:\n:\na:03.",
+      "text_nfc": "3\n2. Nobed 3ogde esad pwogad\n) Beog be3e0, eJodelod\n3. 3080d Noro8 WOE9 Dwogad,\n3203,\n4. wez esejode Job0d Jogot eo33 Desopadoded Roz Babogl)\n5. asgarogads Dwersad, o00s absgas weg Jobed Norgded\n6. apasragadd Oaer 380, eserg Beoa 3obed Refogs 0.,\n7. agatugade pwergad, eseg oooeo erbewod 3\nNobbed Bogd8 Rozuges 00bao\n8. pwersod, N0500 essozeenne 2esoas, 23008od\n9. eeadugd, sesg ese9a32 obodde N2d Dwersad, eiogeled\n10. aa8 e0098 esawwgd obedde aaory 808 Daessod, 23odsled\n11. owersad, awepboedg paes Bpoeab, 83ogeled\n12. odersgd, dergy 2er0a3, eJodslod\n13. ge escgase) epoo0 (Nob00), 0o1so,\na3:\n1.\n3508003 swors 50QDEWBE, 3000d 2e5083, goaboe 34g03, e3odeled-01\n:\n:\na:03.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

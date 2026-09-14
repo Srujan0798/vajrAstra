@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_006",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0007pro_raw.png",
+    "page_index": 0,
+    "width": 368,
+    "height": 527
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        368,
+        527
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "eecuseeooeng\na smme mg. g\n-2-\n\n(mderz . mm m zm\nmd  \n   m ..2  m\n    d   \nmdg maenem me ma oes, mze meg \n ( ome mg ees\n@aaanoleem\ngwowmed\nwehneeeme ma mag mbemeamud\n\nem m  e\n\naeeo\ns a m e2 aem\n \nemee eom mme ag\no  e m \n mes az eo ae agm sda mcomna)\n() (p)A e\no tea sal be created in rest o any lad.01.04.1964 m b w\n\nme \nme, a mmo.\n\ne ee\nman a () (oo skomodd fiity of tere\n  mm  g\nedem  eove wem sa eeo aemeon\n\n\nskoie e gemmlego sanomsmeamd\n",
+      "text_nfc": "eecuseeooeng\na smme mg. g\n-2-\n\n(mderz . mm m zm\nmd  \n   m ..2  m\n    d   \nmdg maenem me ma oes, mze meg \n ( ome mg ees\n@aaanoleem\ngwowmed\nwehneeeme ma mag mbemeamud\n\nem m  e\n\naeeo\ns a m e2 aem\n \nemee eom mme ag\no  e m \n mes az eo ae agm sda mcomna)\n() (p)A e\no tea sal be created in rest o any lad.01.04.1964 m b w\n\nme \nme, a mmo.\n\ne ee\nman a () (oo skomodd fiity of tere\n  mm  g\nedem  eove wem sa eeo aemeon\n\n\nskoie e gemmlego sanomsmeamd\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

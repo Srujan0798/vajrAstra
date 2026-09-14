@@ -1,0 +1,41 @@
+{
+  "page_id": "te_078",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0078pro_raw.pdf",
+    "page_index": 74,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(III) 300X Jobao (Componendo) asse\na C\neasse\na+b c+d\negewod.\nb d\nb\nd\na C\nI\nb d\n+1=C+1 -\na\n(30330 18 seusre)\nb\nd\na+b c+d\nb\nd\nasse\na C\na+b c+d\neaws\nesesod. 88 goons SOdX Doboo' eoero.\nb d\nb\nd\na C\na-b c-d\n(IV) 00X J0b8o (Dividendo) asss = eaws\nb d\nb\nd\nesesod.\na C\nb d\na\nC -\n(20330 18 Snsabr)\nb\nd\na-b C- d\nb\nd\na C\na-b c-d\nasse b d eaws b\nd egesod. 88 gozawiss 6005X Jobsso' eoero.\na C\na+b - c+d\n(V) SO03-X-JaX Jobao (Componendo-dividendo) 2sdg b d eaws a-b c-diat b, c+d\nesevod.\nasdg a i C eavs\na+b c+d (Soax Qabso (5580) ...(1)\nb d\nb\nd\na-b c-d\n(dax 00b80 (580) ....(2)\nb\nd\na+b c+d\na-b c-d\n(1) sdow (2) ens 23e3\na C\na+b c+d\nessg b d eaws a-b c-d egevod. 88 gozaoss O0-N-JaY 0obsso' eoéso.\nSooX Qabso 880 Q0X Jobaro Doors 85O\na C\nasse = esawsss\na+b c+d\nb d\n(esn8 SooX 0obao (580)\nb\nd\na+ 2b C+ 2d\n(docn NooX 20080 (580)\nb\nd\na+ mb C+i md\nJoOsOm\nb\nd\n(m 18 SOOX Qoboo W580) ...(1)\na C\na = mb C md\ned OGOT asde b d eass55 b\nd (m N8 QaX Qabs0 (580) ...(2)\nad0 assy\na = C\nb d\nea5556\na+i mb c+md\n.((1) 3800 (2) es 2ROST)\na -mb c-md\n2063\n65",
+      "text_nfc": "(III) 300X Jobao (Componendo) asse\na C\neasse\na+b c+d\negewod.\nb d\nb\nd\na C\nI\nb d\n+1=C+1 -\na\n(30330 18 seusre)\nb\nd\na+b c+d\nb\nd\nasse\na C\na+b c+d\neaws\nesesod. 88 goons SOdX Doboo' eoero.\nb d\nb\nd\na C\na-b c-d\n(IV) 00X J0b8o (Dividendo) asss = eaws\nb d\nb\nd\nesesod.\na C\nb d\na\nC -\n(20330 18 Snsabr)\nb\nd\na-b C- d\nb\nd\na C\na-b c-d\nasse b d eaws b\nd egesod. 88 gozawiss 6005X Jobsso' eoero.\na C\na+b - c+d\n(V) SO03-X-JaX Jobao (Componendo-dividendo) 2sdg b d eaws a-b c-diat b, c+d\nesevod.\nasdg a i C eavs\na+b c+d (Soax Qabso (5580) ...(1)\nb d\nb\nd\na-b c-d\n(dax 00b80 (580) ....(2)\nb\nd\na+b c+d\na-b c-d\n(1) sdow (2) ens 23e3\na C\na+b c+d\nessg b d eaws a-b c-d egevod. 88 gozaoss O0-N-JaY 0obsso' eoéso.\nSooX Qabso 880 Q0X Jobaro Doors 85O\na C\nasse = esawsss\na+b c+d\nb d\n(esn8 SooX 0obao (580)\nb\nd\na+ 2b C+ 2d\n(docn NooX 20080 (580)\nb\nd\na+ mb C+i md\nJoOsOm\nb\nd\n(m 18 SOOX Qoboo W580) ...(1)\na C\na = mb C md\ned OGOT asde b d eass55 b\nd (m N8 QaX Qabs0 (580) ...(2)\nad0 assy\na = C\nb d\nea5556\na+i mb c+md\n.((1) 3800 (2) es 2ROST)\na -mb c-md\n2063\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_048",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 2,
+    "width": 1404,
+    "height": 2003
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1404,
+        2003
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2.?\n3.g\nommsl?\n)\n(4×3=12)\n.\n(m?\n2.\n?\n\nmm?\n4. ?\n(c).\n(6×1=6)\n1.\n(,,lo,)\n2.\n(,,,)\n3.\n(,)\n.\n\ng\n()\n.\n(,,)\n6.o?\n(,,,)\n()\n(15006).\n(2×5=10)\n1.\n\n?\n2.\n\n6のB6M?\n3\n.\n4.?\n?\n诊\n\n-3-",
+      "text_nfc": "2.?\n3.g\nommsl?\n)\n(4×3=12)\n.\n(m?\n2.\n?\n\nmm?\n4. ?\n(c).\n(6×1=6)\n1.\n(,,lo,)\n2.\n(,,,)\n3.\n(,)\n.\n\ng\n()\n.\n(,,)\n6.o?\n(,,,)\n()\n(15006).\n(2×5=10)\n1.\n\n?\n2.\n\n6のB6M?\n3\n.\n4.?\n?\n诊\n\n-3-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

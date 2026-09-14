@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_020",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 151,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "140\nChildren be cautious !!! Be alert Your body belongs only to you, You have all the rights to keep safe and protect it always Safe and Unsafe touches on your body See the picture and understand this rautious is for Boys and Girls\nForehead\nCheeks\nLips\nShoulderl Back Hand\nChest\nBottom (below your back\nPart between two legs\nUnsafe Touch /BAD TOUCHJ ~ parts of your body where nobody should touch (except parents and in their presence only doctors can touch) Safe touch IGOOD TOUCHJ -can touch only when required When you feel Unsafe Touch or any other mischief please Say loudly NO. Don t.. Stop it .and Scream, push the person aside and move to a safer place be brave and inform about it, to your parents & Trusted adult and register a complaint Published by :Distict Administration -853२-२२९०11 , Zilla Panchyat 2२8४४8 Department of Police ~२J5६J५/ २०५८८१ 235100 १०० /१O9१ District Child Protection Unit~280670, Department of Women and Child Develpoment २२६२९२, Unicef Child Protection Project ~२उO६१O Raichur Be Smart, Be Safe, Be Happy Picture courtesy Prajavani, Bhoomika 2६-07-2014 unicef",
+      "text_nfc": "140\nChildren be cautious !!! Be alert Your body belongs only to you, You have all the rights to keep safe and protect it always Safe and Unsafe touches on your body See the picture and understand this rautious is for Boys and Girls\nForehead\nCheeks\nLips\nShoulderl Back Hand\nChest\nBottom (below your back\nPart between two legs\nUnsafe Touch /BAD TOUCHJ ~ parts of your body where nobody should touch (except parents and in their presence only doctors can touch) Safe touch IGOOD TOUCHJ -can touch only when required When you feel Unsafe Touch or any other mischief please Say loudly NO. Don t.. Stop it .and Scream, push the person aside and move to a safer place be brave and inform about it, to your parents & Trusted adult and register a complaint Published by :Distict Administration -853२-२२९०11 , Zilla Panchyat 2२8४४8 Department of Police ~२J5६J५/ २०५८८१ 235100 १०० /१O9१ District Child Protection Unit~280670, Department of Women and Child Develpoment २२६२९२, Unicef Child Protection Project ~२उO६१O Raichur Be Smart, Be Safe, Be Happy Picture courtesy Prajavani, Bhoomika 2६-07-2014 unicef",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

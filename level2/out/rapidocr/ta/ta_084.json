@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_084",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 12,
+    "width": 594.239990234375,
+    "height": 785.0399780273438
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.239990234375,
+        785.0399780273438
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "TA H M    3 3    H   \nS  3 34   T    S MET   H\n 1     \n5       3   \na  HST A  3T,    \n3\n347 3T4 aRiA I 34 TR ot 3S+ h fTT chL R MT, 34T ai  TR TR 45d \n AMA H STGCT ITI 3R Ix TG JA  54 Td   EE- aTS   TR 31H\nHT A HH A 3ECh ST 1 STd-Td HO ER MEd I 3 HTCTH 45 THT  fo 3Th ETT\nH S ERU TR TE, R  CE  fTH T T  , TE T T 3 \nO\nT 3MT  TE THCh eTTET & TCh TEI C TTA\nF 3T G I TX  E T, TE C T TEI Th THI AT TRH I 3TT H\nLPP\n37083-3T08 FT4 F{d\nthh\nTE CET HT , ETHHTE HICTHI TR IT S HET HT H Th TET TS ERH H TE\nET 3  $ C  HAH T  E E TH    E S\n53\nReprint 2026-27",
+      "text_nfc": "TA H M    3 3    H   \nS  3 34   T    S MET   H\n 1     \n5       3   \na  HST A  3T,    \n3\n347 3T4 aRiA I 34 TR ot 3S+ h fTT chL R MT, 34T ai  TR TR 45d \n AMA H STGCT ITI 3R Ix TG JA  54 Td   EE- aTS   TR 31H\nHT A HH A 3ECh ST 1 STd-Td HO ER MEd I 3 HTCTH 45 THT  fo 3Th ETT\nH S ERU TR TE, R  CE  fTH T T  , TE T T 3 \nO\nT 3MT  TE THCh eTTET & TCh TEI C TTA\nF 3T G I TX  E T, TE C T TEI Th THI AT TRH I 3TT H\nLPP\n37083-3T08 FT4 F{d\nthh\nTE CET HT , ETHHTE HICTHI TR IT S HET HT H Th TET TS ERH H TE\nET 3  $ C  HAH T  E E TH    E S\n53\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

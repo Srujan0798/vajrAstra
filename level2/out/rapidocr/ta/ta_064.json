@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_064",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 270,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "பகுதி-இ\nஅனைத்து வினாக்களுக்கும் விடையளி(3 மதிப்பெண்)\n1.\nபைத்தானிலுள்ள penட() செயற்கூற்றை பற்றி குறிப்பு எழுதுக. மெலும் இதென் இரெண்டு வழிமுறைகளின்\nவேறுபாடுகள் என்ன?\n2.\nஏற்கனவே உள்ள கோப்பில் மாற்றம் செய்பும். பைத்தான் நிரலை எழுதுக.\n3.\nகாற்புள்ளியை (,) தானமைவு பிரிப்பானாக கொண்டுள்ள CSV கொப்பினை படிப்பதற்கான பைத்தான்\nநிரலை எழுதுக.\n4.\nwrite மற்றும் append mode முறைமைகளின் வேறுபாடு என்ன?\n5.\nreader() மற்றும் DictReader() இடையேயான வேறுபாடு யாது?\nப-ழ\nஅனைத்து வினாக்களுக்கும் விடையளி(5 மதிப்பண்)\n1.\nஎக்ஸெல் மற்றும் CSV கோப்பின் வேறுபாடு என்ன?\n2.\nபல்வேறு கோப்பு முறைமைகளின் பொருள்களை பட்டியலிடுக.\n3.\n'்சிமபயிடியா மபயாரபா ொயய ஊ் ஷழுபா\n4.\n்ிழ்  ்ிMSM பொழபு ப\n5.\nசி பிழடுப்டு ண ப படS\nமேற்பார்வை நூல்கள்\n@\n1.\nPython for Data Analysis, Data Wrangling with Pandas, NumPy, and IPython By William\nMcKinney\n2.\nCSV File Reading and Writing - Python 3.7.0 documentation\n3.\nhttps://docs.python.org\n{26}\nபைத்தான் மற்றும்Csv கோப்புகள்\n12th Computer Science_TM Chapter 13.indd 265\nO\n11-01-2023 12:39:57",
+      "text_nfc": "பகுதி-இ\nஅனைத்து வினாக்களுக்கும் விடையளி(3 மதிப்பெண்)\n1.\nபைத்தானிலுள்ள penட() செயற்கூற்றை பற்றி குறிப்பு எழுதுக. மெலும் இதென் இரெண்டு வழிமுறைகளின்\nவேறுபாடுகள் என்ன?\n2.\nஏற்கனவே உள்ள கோப்பில் மாற்றம் செய்பும். பைத்தான் நிரலை எழுதுக.\n3.\nகாற்புள்ளியை (,) தானமைவு பிரிப்பானாக கொண்டுள்ள CSV கொப்பினை படிப்பதற்கான பைத்தான்\nநிரலை எழுதுக.\n4.\nwrite மற்றும் append mode முறைமைகளின் வேறுபாடு என்ன?\n5.\nreader() மற்றும் DictReader() இடையேயான வேறுபாடு யாது?\nப-ழ\nஅனைத்து வினாக்களுக்கும் விடையளி(5 மதிப்பண்)\n1.\nஎக்ஸெல் மற்றும் CSV கோப்பின் வேறுபாடு என்ன?\n2.\nபல்வேறு கோப்பு முறைமைகளின் பொருள்களை பட்டியலிடுக.\n3.\n'்சிமபயிடியா மபயாரபா ொயய ஊ் ஷழுபா\n4.\n்ிழ்  ்ிMSM பொழபு ப\n5.\nசி பிழடுப்டு ண ப படS\nமேற்பார்வை நூல்கள்\n@\n1.\nPython for Data Analysis, Data Wrangling with Pandas, NumPy, and IPython By William\nMcKinney\n2.\nCSV File Reading and Writing - Python 3.7.0 documentation\n3.\nhttps://docs.python.org\n{26}\nபைத்தான் மற்றும்Csv கோப்புகள்\n12th Computer Science_TM Chapter 13.indd 265\nO\n11-01-2023 12:39:57",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

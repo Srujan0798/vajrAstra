@@ -1,0 +1,41 @@
+{
+  "page_id": "te_072",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0072pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "విస్తరణ చేయండి :\n. (1) (x + 2)(x + 3) = x2 + (2 + 3)x + (2 × 3) = x2 + 5x + 6\nదా.(2) (y + 4)(y - 3) = y2 + (4 - 3)y + (4) × (-3) = y2 + y - 12\nఉదా.(3) (2a + 3b)(2a - 3b) = (2a)² + [(3b) + (- 3b)]2a +[3b× (-3b)]\n= 4α2 + 0 × 2a - 9 b2 = 4α2 − 9 b2\n3\n1\nm|\n= m2 + 2m +\nX\n2\n2\n.(5) (x - 3)(x - 7 = x2 + (-3 - 7)x +(-3)(-7)\n= x2 - 10x + 21\nఅభ్యాసమాలిక 5.1\n1.\nవిస్తరణ చేయండి.\n(1)(a +2)(α - 1)\n(2 (m - 4)(m + 6)\n(3)(p + 8)(p -3)\n(4) (13 + x)(13 - x)\n(5) (3x + 4y)(3x + 5y) (6) (9x - 5t)(9x + 3t)\n(9)(z+4)(z-9)\n8\nతెలుసుకొందాం\n(I) (a + b)3 యక ిస్తరణ (Expansion of (a + b)3)\n(α + b)3 = (α + b) (α + b) (a + b) = (a + b)(α + b)2\n= (α + b)(α2 + 2ab + b2)\n= a(α2 + 2ab + b2) + b(a2 + 2ab + b2)\n= α3 + 2a2b + ab2 + ba2 + 2ab2 + b3\n= α3 + 3α2b + 3ab2 + b3\n(a + b)3 = α3 + 3a2b + 3ab2 + b3\nఈ విస్తరణ సూతాలనుపయోగించి సాధించిన కొని ఉదాహరణలను నేర్చుకొందాం.\nఉదా. (1) (x + 3)3\n(a + b)3 = α3 + 3α2b + 3ab2 + b3\nఇచట α = x, b = 3 గలదు.\n24",
+      "text_nfc": "విస్తరణ చేయండి :\n. (1) (x + 2)(x + 3) = x2 + (2 + 3)x + (2 × 3) = x2 + 5x + 6\nదా.(2) (y + 4)(y - 3) = y2 + (4 - 3)y + (4) × (-3) = y2 + y - 12\nఉదా.(3) (2a + 3b)(2a - 3b) = (2a)² + [(3b) + (- 3b)]2a +[3b× (-3b)]\n= 4α2 + 0 × 2a - 9 b2 = 4α2 − 9 b2\n3\n1\nm|\n= m2 + 2m +\nX\n2\n2\n.(5) (x - 3)(x - 7 = x2 + (-3 - 7)x +(-3)(-7)\n= x2 - 10x + 21\nఅభ్యాసమాలిక 5.1\n1.\nవిస్తరణ చేయండి.\n(1)(a +2)(α - 1)\n(2 (m - 4)(m + 6)\n(3)(p + 8)(p -3)\n(4) (13 + x)(13 - x)\n(5) (3x + 4y)(3x + 5y) (6) (9x - 5t)(9x + 3t)\n(9)(z+4)(z-9)\n8\nతెలుసుకొందాం\n(I) (a + b)3 యక ిస్తరణ (Expansion of (a + b)3)\n(α + b)3 = (α + b) (α + b) (a + b) = (a + b)(α + b)2\n= (α + b)(α2 + 2ab + b2)\n= a(α2 + 2ab + b2) + b(a2 + 2ab + b2)\n= α3 + 2a2b + ab2 + ba2 + 2ab2 + b3\n= α3 + 3α2b + 3ab2 + b3\n(a + b)3 = α3 + 3a2b + 3ab2 + b3\nఈ విస్తరణ సూతాలనుపయోగించి సాధించిన కొని ఉదాహరణలను నేర్చుకొందాం.\nఉదా. (1) (x + 3)3\n(a + b)3 = α3 + 3α2b + 3ab2 + b3\nఇచట α = x, b = 3 గలదు.\n24",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

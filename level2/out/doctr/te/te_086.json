@@ -1,0 +1,41 @@
+{
+  "page_id": "te_086",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3\n-\nSeries G7DEF\nSet - 4;\n6582-315 SSE\nQ.P. Code\n11\n88550.\nesorbges WOSIsO SESS SwOSSeSo\nRoll No.\naw5y 80s 3es56 ooys.\nI\nCandidates must write the Q.P. Code -\nI on the title page of the answer-book.\n88 (58 18605 eny 325 15 Séev caraie 86 wtod.\nJ0r8 (58 3185050 Sa3s 325 65 18s0 SEE NO2S sags 31850560 awg 51e5056\nbo0s.\n17 Woes dasya 308 38800508.\nSAONONS ooboOs avod (352 318050 obossosss @\n805 Sogpgas oobos.\n08 (58 SED) B8SOOS 15 aaapev seravosto 28h08. (58 31850 b8aso 10.15 a S\nawsrersesod. 10.15 wod 10.30 8855 Jorber (8 S(ESS 8808. 88 500056 SON\n315050 550 DOUSTCO.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 17 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\nBooh\nTELUGU\nsaobo : 3 Xoesev\naveo apooes : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n11\n5169\n* Page 1 of 16 *\nP.T.O.\n11",
+      "text_nfc": "3\n-\nSeries G7DEF\nSet - 4;\n6582-315 SSE\nQ.P. Code\n11\n88550.\nesorbges WOSIsO SESS SwOSSeSo\nRoll No.\naw5y 80s 3es56 ooys.\nI\nCandidates must write the Q.P. Code -\nI on the title page of the answer-book.\n88 (58 18605 eny 325 15 Séev caraie 86 wtod.\nJ0r8 (58 3185050 Sa3s 325 65 18s0 SEE NO2S sags 31850560 awg 51e5056\nbo0s.\n17 Woes dasya 308 38800508.\nSAONONS ooboOs avod (352 318050 obossosss @\n805 Sogpgas oobos.\n08 (58 SED) B8SOOS 15 aaapev seravosto 28h08. (58 31850 b8aso 10.15 a S\nawsrersesod. 10.15 wod 10.30 8855 Jorber (8 S(ESS 8808. 88 500056 SON\n315050 550 DOUSTCO.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 17 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\nBooh\nTELUGU\nsaobo : 3 Xoesev\naveo apooes : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n11\n5169\n* Page 1 of 16 *\nP.T.O.\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

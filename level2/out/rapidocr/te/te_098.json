@@ -1,0 +1,41 @@
+{
+  "page_id": "te_098",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0014pro_raw.pdf",
+    "page_index": 33,
+    "width": 630.0,
+    "height": 810.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        630.0,
+        810.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3c1a = DH au,\n = ,\n3nfafTansf = 4c1ch1,\n  =h\nh = y}\nm Eay = i y,\n4as fhy = q 3a4,\nh = h\n్క   = e  qqu,\n3 q fay = y y,\n = \nGil h = e 4E,\n =   ,\n = feh15,\n11C-141 = gri\n$}=\nCCOOOOOOOOOOOOOOOOOOO\nDOOODODODODOOOOOOO0)\nyao : \n8.\n?.\nBi As Af   ?\n.\n$\n8.\npbl\n9e H  fi g ?\nf fa s  y  ?\n?.\n₹.\nye  d   as o o f?\n h,,\n8.\nyae : \na\n\" oh  g  s.\"\n\"oi anh   f,    y.\"\n?.\n₹.\n\"i a s H H ,   is a.\"\nllh \nqellh qanhy,\nTtk y 21h4\nya0 4: (34) f4 31e\n375\n3TRTH,\n31GT,\n24",
+      "text_nfc": "3c1a = DH au,\n = ,\n3nfafTansf = 4c1ch1,\n  =h\nh = y}\nm Eay = i y,\n4as fhy = q 3a4,\nh = h\n్క   = e  qqu,\n3 q fay = y y,\n = \nGil h = e 4E,\n =   ,\n = feh15,\n11C-141 = gri\n$}=\nCCOOOOOOOOOOOOOOOOOOO\nDOOODODODODOOOOOOO0)\nyao : \n8.\n?.\nBi As Af   ?\n.\n$\n8.\npbl\n9e H  fi g ?\nf fa s  y  ?\n?.\n₹.\nye  d   as o o f?\n h,,\n8.\nyae : \na\n\" oh  g  s.\"\n\"oi anh   f,    y.\"\n?.\n₹.\n\"i a s H H ,   is a.\"\nllh \nqellh qanhy,\nTtk y 21h4\nya0 4: (34) f4 31e\n375\n3TRTH,\n31GT,\n24",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

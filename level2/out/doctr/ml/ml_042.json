@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_042",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0024pro_raw.pdf",
+    "page_index": 78,
+    "width": 876,
+    "height": 1362
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        876,
+        1362
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "08902@jo00\nma\nolo 60 0010 Bloojhocoo 6neoclemo. B1OO 0\nPdo 0e1601 agoicgjoolmp\n20100000060 Sonlssg00\n66M010 ololagqint 009B aJosnelglejoroom0060ong (TO\ncoond mlopioolol 01gd8 QOSOO eo BOO 090100 6\n06010 0015100 60J500J0 Qelons. (062 6060060\nA\n05683 lommo. 0slost Joom! 6M a560 46oml 0000\n2ommle\n-\n6MD\nallaloy.\n20.8/01010000 2006 0100% 0000ons\n0051 oool 4978 0006. mlonbo 6B0 000 60600\nSas moainuomplanampo\n00m 010600 dslooom\n6000 668 01slo Qjeloy.\n6m\nmysioyagjod anso @10008606m0 2200 00J0U001\noejom 20010106 000091000030 5060 603 600800\n610.068B1 6/000030.805 olsonoy GoOSQuOls 6666000\nons 6om 6n0 oloo1 606019 Qosmu@n.scolesc.da 26m0\n0s3pop.goocol ojelorry 0121600.\ndoma0o meol\n6n0\n026M0 0gp Osm dlso 10006m a5o0100\n615\non0 daQ\nalleoos 8010elo\n49051000000010002090 bogloo\nofs 090100\ncoaucn@v2osalodga\ndQo\n00010000G2.0? Mloato OLA. aylols\nGOJOONS. (B1006J100 (10016000 amaoo Qo0lond Q108\nCo. 05500 gewon,\nD S1 -2000001 00o amplenaalommle a\nofl\n(OO 0100101000.00 200151 0100060 91.000. 0000\nOdbogjono\ncumpoosismso0\nilaloyom.oiblaquoms)2000\n66n202",
+      "text_nfc": "08902@jo00\nma\nolo 60 0010 Bloojhocoo 6neoclemo. B1OO 0\nPdo 0e1601 agoicgjoolmp\n20100000060 Sonlssg00\n66M010 ololagqint 009B aJosnelglejoroom0060ong (TO\ncoond mlopioolol 01gd8 QOSOO eo BOO 090100 6\n06010 0015100 60J500J0 Qelons. (062 6060060\nA\n05683 lommo. 0slost Joom! 6M a560 46oml 0000\n2ommle\n-\n6MD\nallaloy.\n20.8/01010000 2006 0100% 0000ons\n0051 oool 4978 0006. mlonbo 6B0 000 60600\nSas moainuomplanampo\n00m 010600 dslooom\n6000 668 01slo Qjeloy.\n6m\nmysioyagjod anso @10008606m0 2200 00J0U001\noejom 20010106 000091000030 5060 603 600800\n610.068B1 6/000030.805 olsonoy GoOSQuOls 6666000\nons 6om 6n0 oloo1 606019 Qosmu@n.scolesc.da 26m0\n0s3pop.goocol ojelorry 0121600.\ndoma0o meol\n6n0\n026M0 0gp Osm dlso 10006m a5o0100\n615\non0 daQ\nalleoos 8010elo\n49051000000010002090 bogloo\nofs 090100\ncoaucn@v2osalodga\ndQo\n00010000G2.0? Mloato OLA. aylols\nGOJOONS. (B1006J100 (10016000 amaoo Qo0lond Q108\nCo. 05500 gewon,\nD S1 -2000001 00o amplenaalommle a\nofl\n(OO 0100101000.00 200151 0100060 91.000. 0000\nOdbogjono\ncumpoosismso0\nilaloyom.oiblaquoms)2000\n66n202",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

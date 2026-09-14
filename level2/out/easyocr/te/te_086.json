@@ -1,0 +1,41 @@
+{
+  "page_id": "te_086",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series GTDEF\nSet -4 తiత ప్రశ్న-పత్ర కోడ్ 11 QP Code\nనం:\nభ్యర్థుం ప్రశ్నపత్రం కోడ్ను సమాధానపత్రం యొక్క శీర్షిక పుటలో రాయాలి Candidates must write the QP Code on the title page of the answer-book:\nRoll 10.\nపత్రంలో అచ్చు వేసిన 15 పుటలు ఉన్నాయో లేదోచూడండి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న పతత్రం కోడ్ సంఖ్య సమాధాన పత్రంలోని ముఖ పత్రంలో\n17 ప్రశ్నలు ఉన్నది లేనిది పరిశీలించండి సమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి: పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది ప్రశ్న పతత్రం ఉదయం 10.15 కు యివ్వబడుతుంది 10.15 నుండి 10.30 వరకు విద్యార్థులు ప్రశ్న పత్రాన్ని చదవాలి: ఈ కాలంలో సమాధాన పత్రంలో ఏమీ రాయకూడదు: Please check that this question paper contains 15 printed pages: @P Code given 011 the right hand side of the question paper should be written on the title page of the answer-book by the candidate: Please check that this question paper contains 17 questions: Please write down the serial number of the question in the answer: book at the given place before attempting it: 15 minute time has been allotted to read this question paper The question paper will be distributed at 10.15 a111 From 10.15 &.11 t0 10.30 a111 the candidates will read the question paper only and will not write any answer on the answer-book during this period:\nతెలుగు\nTELUGU\nసమయం 3 గంటలు Time duloued_ 3 hours\nమొత్తం మార్కులు 80 Muxumum Murks 80\n11\nPuge 1ot 16 11\nP70\n5169",
+      "text_nfc": "Series GTDEF\nSet -4 తiత ప్రశ్న-పత్ర కోడ్ 11 QP Code\nనం:\nభ్యర్థుం ప్రశ్నపత్రం కోడ్ను సమాధానపత్రం యొక్క శీర్షిక పుటలో రాయాలి Candidates must write the QP Code on the title page of the answer-book:\nRoll 10.\nపత్రంలో అచ్చు వేసిన 15 పుటలు ఉన్నాయో లేదోచూడండి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న పతత్రం కోడ్ సంఖ్య సమాధాన పత్రంలోని ముఖ పత్రంలో\n17 ప్రశ్నలు ఉన్నది లేనిది పరిశీలించండి సమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి: పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది ప్రశ్న పతత్రం ఉదయం 10.15 కు యివ్వబడుతుంది 10.15 నుండి 10.30 వరకు విద్యార్థులు ప్రశ్న పత్రాన్ని చదవాలి: ఈ కాలంలో సమాధాన పత్రంలో ఏమీ రాయకూడదు: Please check that this question paper contains 15 printed pages: @P Code given 011 the right hand side of the question paper should be written on the title page of the answer-book by the candidate: Please check that this question paper contains 17 questions: Please write down the serial number of the question in the answer: book at the given place before attempting it: 15 minute time has been allotted to read this question paper The question paper will be distributed at 10.15 a111 From 10.15 &.11 t0 10.30 a111 the candidates will read the question paper only and will not write any answer on the answer-book during this period:\nతెలుగు\nTELUGU\nసమయం 3 గంటలు Time duloued_ 3 hours\nమొత్తం మార్కులు 80 Muxumum Murks 80\n11\nPuge 1ot 16 11\nP70\n5169",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

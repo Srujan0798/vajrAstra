@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_055",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 1448,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1448,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಇನ\n೧/(ಗ:೧!೧ಗುಗು/(ತ್ರ\n\n~ lf 2\nಗೌ ಘಾ eS pe cor\n\nay वि on\naes ಯ ८6011 Jew\n೧\n\nಹೆಚ್ಚಿದೆ. ದೊರೆತ ವಚನದಟೊಂದಿಗೆ)\nಸ)\n\nಪ್ರೊ. ಐಸವನಾಚ ಶಿವಅ೦ದಪ್ಪನವರು\n\n",
+      "text_nfc": "ಇನ\n೧/(ಗ:೧!೧ಗುಗು/(ತ್ರ\n\n~ lf 2\nಗೌ ಘಾ eS pe cor\n\nay वि on\naes ಯ ८6011 Jew\n೧\n\nಹೆಚ್ಚಿದೆ. ದೊರೆತ ವಚನದಟೊಂದಿಗೆ)\nಸ)\n\nಪ್ರೊ. ಐಸವನಾಚ ಶಿವಅ೦ದಪ್ಪನವರು\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

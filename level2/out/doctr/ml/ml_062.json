@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_062",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 51,
+    "width": 1031,
+    "height": 1651
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1031,
+        1651
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aumyar\nalsgjonm.m0las 6120060-07)080 anolomgjool ooloso\nqale.\n6 doeloon Boj0oes 0000o000 dnyologo G10ma0on33\nalamooaio? Engiloqo Bngimojo C200 ayojm J00066m0?\nauago GOOUDOG0J0J00810eom QJOGQ0EJQ0 016031J6003 200\n0006m0? 20600600 mogenaslgoejo 670003nalloyoejo (B1O\nOlood aplaomoslolgrm. 3\n00000204jo momeansoalasmal\n60 mGo 22m00Jocg0m d3200 0O5S mocpcm.pupsola.0o B\n0020S oelod mugla.llogorol01-090.10 mJo nyanlaggons\nD0omogJo.\n(372 mjow0\n6100002100) 0 00016 6039100\nagaas G\nm00000200000 gmatosd eaélainuo mumuyomua.co/op) 10\nQuolod 600295 aflglos 6820010 a8 0J50000 2'000\nmama nnomyoso B08 muourolociaeblag @0301021ag.8\nc0m. 8 maba1ao 9e0020006 mon BOQud mu20/0l.800)\nogjalejo BOlod ofonQjo 020 000006 60 auoogy a9\noroyploleeme. Bo.00ola)\nO 50g80100 Gah050 0000700\nDoQowolgggosngmblejo 020 ruom 8 s2ig0 60 800\n000000O0 220.\ncpaomugonto Go1d a.spad 00600000 agooom. 22001\n6d0ong rolog moosmeejo egjboeran 608 6 20S0000\n6000 G080000 Olasom a1gleadam 09 muoomea1d ede\n0. 0000200 qoea 200go1.00d 220000281001 QJo\ncem1o0o Ga2cos nd d50p3 BEa0)moom 010000. 200Jo00\n60 mogs9013,03h030 80 oeJ0in (ORUmO 0260500\nmao 20gJ0gJ0. 015603 5001010001 da50 raggod 60300 ao1\ngauolegongomonuages s 28. C6 stoaca.joapallaucgaisom €\njseounal.rocem\"2o 2010:0-056030 doy 000900 ag\n69100000210). BOOQu mruayomlqossnpo aupomupoplogss\n600 20108002066mm8 a@nl 1peglooio0 mmood. eml",
+      "text_nfc": "aumyar\nalsgjonm.m0las 6120060-07)080 anolomgjool ooloso\nqale.\n6 doeloon Boj0oes 0000o000 dnyologo G10ma0on33\nalamooaio? Engiloqo Bngimojo C200 ayojm J00066m0?\nauago GOOUDOG0J0J00810eom QJOGQ0EJQ0 016031J6003 200\n0006m0? 20600600 mogenaslgoejo 670003nalloyoejo (B1O\nOlood aplaomoslolgrm. 3\n00000204jo momeansoalasmal\n60 mGo 22m00Jocg0m d3200 0O5S mocpcm.pupsola.0o B\n0020S oelod mugla.llogorol01-090.10 mJo nyanlaggons\nD0omogJo.\n(372 mjow0\n6100002100) 0 00016 6039100\nagaas G\nm00000200000 gmatosd eaélainuo mumuyomua.co/op) 10\nQuolod 600295 aflglos 6820010 a8 0J50000 2'000\nmama nnomyoso B08 muourolociaeblag @0301021ag.8\nc0m. 8 maba1ao 9e0020006 mon BOQud mu20/0l.800)\nogjalejo BOlod ofonQjo 020 000006 60 auoogy a9\noroyploleeme. Bo.00ola)\nO 50g80100 Gah050 0000700\nDoQowolgggosngmblejo 020 ruom 8 s2ig0 60 800\n000000O0 220.\ncpaomugonto Go1d a.spad 00600000 agooom. 22001\n6d0ong rolog moosmeejo egjboeran 608 6 20S0000\n6000 G080000 Olasom a1gleadam 09 muoomea1d ede\n0. 0000200 qoea 200go1.00d 220000281001 QJo\ncem1o0o Ga2cos nd d50p3 BEa0)moom 010000. 200Jo00\n60 mogs9013,03h030 80 oeJ0in (ORUmO 0260500\nmao 20gJ0gJ0. 015603 5001010001 da50 raggod 60300 ao1\ngauolegongomonuages s 28. C6 stoaca.joapallaucgaisom €\njseounal.rocem\"2o 2010:0-056030 doy 000900 ag\n69100000210). BOOQu mruayomlqossnpo aupomupoplogss\n600 20108002066mm8 a@nl 1peglooio0 mmood. eml",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

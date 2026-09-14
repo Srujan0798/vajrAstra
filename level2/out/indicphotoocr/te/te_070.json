@@ -1,0 +1,41 @@
+{
+  "page_id": "te_070",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0070pro_raw.pdf",
+    "page_index": 99,
+    "width": 1638,
+    "height": 2193
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1638,
+        2193
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మత మరియు పాఠ్యప్ర ణాళిక పరిశోధన స౦స్థ పుణ౾\nकअभ्यासक्रम संशोधन ਸਂਫਲ਼ इतिहास व‌ नागरिकशास्त्र इ.८वी तेलुगु माध्यम 4200",
+      "text_nfc": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మత మరియు పాఠ్యప్ర ణాళిక పరిశోధన స౦స్థ పుణ౾\nकअभ्यासक्रम संशोधन ਸਂਫਲ਼ इतिहास व‌ नागरिकशास्त्र इ.८वी तेलुगु माध्यम 4200",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

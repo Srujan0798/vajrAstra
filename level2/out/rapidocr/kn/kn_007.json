@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_007",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+    "page_index": 1,
+    "width": 404.6400146484375,
+    "height": 668.1599731445312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        404.6400146484375,
+        668.1599731445312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Oogc Ogu yeug  go'be Yo? opo o ppyec'gp ie Z\nಊರೆಲ- ನಂಟರು-ಹಣದಗಂಟದೃರೆ\nಲ\nSus pgepcocg cagc?\nರೊಟೈಯತುಣುಕೊಂದುಕೈಯೊಳಗದೃರೆ\nನಾಯಗಳಾರೇಳುಬಹವ\nಮಣೈನು-ನೆನೆಯುಸದಷೃಕಿಕುಂಬಾರ\nನಾರೊಬೈನೂಆಗಲಾರ\nಕುಡಕೆಗೆಿಬೇಕಷೈಕೋಲುಕೈಚಳಕವು\nಚಕೃವಬೆಂಕಿಯಕಾವ\nಬಾಳೆಯಹಣನುತಂದವರೆಸೆವರು\nಸಪೈಯಿಬೀದಯಕೊನೆಗೆ\nಕಾಣದಿಕಾಲಟುಜಾರುವರನೈರು\nಕಷೃವುಿಬರುವದೇಹಗೆ\nನಾನೊಬೃಇದೆಯಮಾಡದೆನಾದರೆ\nಅದುನನು ಒಬೃನಿಸುಖಕೆ\nOgeagcpoeeg ep ag' egee.\nಅದುಊಂನೆಲರಒತಕೆ\nಎಸ್.ಎ.ಪರವೋಶೃರಭಟೈ\nಪೃಶೆಗಳುಃ\nಅಊರೆಲ ನೆಂಟರು ಯಾವಾಗ ಆಗುವರು?\n1\nಅಕಷೃವಹೇಗಿಬರುವದು?\n2\nHeag oggc orcecog geca e\nI\nಈಊರವರಹತಿಯಾವದರಲದೆ?\n೭\nPage 2",
+      "text_nfc": "Oogc Ogu yeug  go'be Yo? opo o ppyec'gp ie Z\nಊರೆಲ- ನಂಟರು-ಹಣದಗಂಟದೃರೆ\nಲ\nSus pgepcocg cagc?\nರೊಟೈಯತುಣುಕೊಂದುಕೈಯೊಳಗದೃರೆ\nನಾಯಗಳಾರೇಳುಬಹವ\nಮಣೈನು-ನೆನೆಯುಸದಷೃಕಿಕುಂಬಾರ\nನಾರೊಬೈನೂಆಗಲಾರ\nಕುಡಕೆಗೆಿಬೇಕಷೈಕೋಲುಕೈಚಳಕವು\nಚಕೃವಬೆಂಕಿಯಕಾವ\nಬಾಳೆಯಹಣನುತಂದವರೆಸೆವರು\nಸಪೈಯಿಬೀದಯಕೊನೆಗೆ\nಕಾಣದಿಕಾಲಟುಜಾರುವರನೈರು\nಕಷೃವುಿಬರುವದೇಹಗೆ\nನಾನೊಬೃಇದೆಯಮಾಡದೆನಾದರೆ\nಅದುನನು ಒಬೃನಿಸುಖಕೆ\nOgeagcpoeeg ep ag' egee.\nಅದುಊಂನೆಲರಒತಕೆ\nಎಸ್.ಎ.ಪರವೋಶೃರಭಟೈ\nಪೃಶೆಗಳುಃ\nಅಊರೆಲ ನೆಂಟರು ಯಾವಾಗ ಆಗುವರು?\n1\nಅಕಷೃವಹೇಗಿಬರುವದು?\n2\nHeag oggc orcecog geca e\nI\nಈಊರವರಹತಿಯಾವದರಲದೆ?\n೭\nPage 2",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

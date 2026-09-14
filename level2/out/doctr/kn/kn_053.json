@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_053",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 32,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "* 8 Gonea- boyay 888\nA\n0 Thedno Damud 0OSO01D = D73 Refay Txtroste\n880 Bos FRS ='udronoeg rxdo'\nTOTu -\nE acarndudnous 0PO11SB craas d Ro Inypand\nD Boud Baotong esonra i WRODD gedfas 2351353 Dansa\nRETU i Sonfat png,ohurts) N500,9080154 21825f\n3 6OOR E B80 8730 > oaooneee (us ago]\n(4) OTRES assd a QUDE ndat CJSMO\nC\n86L 13098, - BRO1nS\ner\n@ 30.2808 = 3 Buz 888 ROONTE - A7BD log Sty\nno,a00es Roneses, WOJ fes BaedeG.\nDoarobes = S03O5 Sodo : M187 = pare PPES\n@ &ess 588 DBOAOLT DOBE = Leup ARPOL esugns Aes\nBung = 8e eA TesapE) agas, Joean BB\nsotg eJUNQt 2 an N383 War Dods gDRef dore\nBena BX250, seeas 3, Dgroa 201>38 12707 a\n13G2 8\n@ 8.Eonf13og Sexk i 3808 adowe >> 1 dafennu\nHaNOTD-T3f07,80N0 08 RS las Mo3 5 8073107 Jayyeosg\ndQ0 popesnges byuanos 180050 ) enos drenfes\n8418-00R10; sa I BonT- g0,0 ABBSE\n8 22188 Benedinegs = S0eto) = eNEJS Rega, BOOn 20\n3ung = WeJhs 03,00 3787070, OR310\nDQ Robenng=00 loldond Jung, Tre, 3308 86 wg\nB33 Boenngs woa 290070 - 2 027 &3\nOas 80EREB 603F9ID i luend gefar, anelo een83 237183\n18 23 =\nE BNOR\" 1 ) Baug ssegt = U BnyhY\nBengye 8808, 23390 OEOS ) Roa BULPBRE\n44,085905,8043 Jeged WBDT, 2338\n3u58- OUBRISDO I 3aN fress\n((p Byuoe 2Des-\nJB3 = SoB0oB0; ; #8 U elsebt ORES\n838 dobornes Toa 300888, Rxtngg\nGoang l eugy 2seong\nScanned by CamScanner",
+      "text_nfc": "* 8 Gonea- boyay 888\nA\n0 Thedno Damud 0OSO01D = D73 Refay Txtroste\n880 Bos FRS ='udronoeg rxdo'\nTOTu -\nE acarndudnous 0PO11SB craas d Ro Inypand\nD Boud Baotong esonra i WRODD gedfas 2351353 Dansa\nRETU i Sonfat png,ohurts) N500,9080154 21825f\n3 6OOR E B80 8730 > oaooneee (us ago]\n(4) OTRES assd a QUDE ndat CJSMO\nC\n86L 13098, - BRO1nS\ner\n@ 30.2808 = 3 Buz 888 ROONTE - A7BD log Sty\nno,a00es Roneses, WOJ fes BaedeG.\nDoarobes = S03O5 Sodo : M187 = pare PPES\n@ &ess 588 DBOAOLT DOBE = Leup ARPOL esugns Aes\nBung = 8e eA TesapE) agas, Joean BB\nsotg eJUNQt 2 an N383 War Dods gDRef dore\nBena BX250, seeas 3, Dgroa 201>38 12707 a\n13G2 8\n@ 8.Eonf13og Sexk i 3808 adowe >> 1 dafennu\nHaNOTD-T3f07,80N0 08 RS las Mo3 5 8073107 Jayyeosg\ndQ0 popesnges byuanos 180050 ) enos drenfes\n8418-00R10; sa I BonT- g0,0 ABBSE\n8 22188 Benedinegs = S0eto) = eNEJS Rega, BOOn 20\n3ung = WeJhs 03,00 3787070, OR310\nDQ Robenng=00 loldond Jung, Tre, 3308 86 wg\nB33 Boenngs woa 290070 - 2 027 &3\nOas 80EREB 603F9ID i luend gefar, anelo een83 237183\n18 23 =\nE BNOR\" 1 ) Baug ssegt = U BnyhY\nBengye 8808, 23390 OEOS ) Roa BULPBRE\n44,085905,8043 Jeged WBDT, 2338\n3u58- OUBRISDO I 3aN fress\n((p Byuoe 2Des-\nJB3 = SoB0oB0; ; #8 U elsebt ORES\n838 dobornes Toa 300888, Rxtngg\nGoang l eugy 2seong\nScanned by CamScanner",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

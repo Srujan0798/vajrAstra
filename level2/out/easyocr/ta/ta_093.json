@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_093",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0027pro_raw.pdf",
+    "page_index": 164,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "JILILILq GuI LIUI6DTLIGछSLILIGDl6pनor. थृनणाआ6b ना फ़ीpUIनणfी Jl६०D600ा6२|छनfl६ ooflLomंIछनflठoा OILIULIGगIG ate नाoणrp LloorolनoTILLG Gमग छंgुl ना(LBLILIGBloorpgl. २ G6Dn& थljoo]६२ी6ठT OILIUIDl6oD६णा छं OgILगफgl थlOLLILDGफ़lऊछना २छठण थJक#lgGoopp नाठणंण GTIUD ना नणंण joolओol६b ना(gLLIGकlpgl 8 Gmnछछछ्रीन्छा OLILI %नofl८oio GpगuIनofी Jl६Dनणणा6२|छनfl६ं ना छ्लीपUIन्णfीJIनDDनणणा6ृ|कनfl६ Cr GOnIbluib GOगnGoL Zn छुlछंछफ़Bn Blo(Zinc) glrilGaL Al शl@ृblनofluIb थI@JGoL Fe QGi4 (थIuIj6or ) %oLIj GगL Cu छIIbl,i (BILILIj ) GLGL Co GBITLIITSDL SBITLIIGDGLL Pb BnfuIb (O६DL ) LonLbGLIL Ag ६६२l6ाTनाfी (flsboij ) शjogoणGLL Sn १६ण 6ं७GL GणoTL Au SBn६DG G,L Pt LनाnLLq 6oाi LonnLL GoTL\nIUPAC @lफ़lrmopBOoनाLI LllorLIppl Jl६OD६o0ा६|# GajlomlBGlऊऊGui नILIUIफ़lGpob. ना७छglकBIL७ 1\nथ१नDन०0ान|# Gajioi KA[Fe(CN) ]\nOpjथIuIणfी (aाoflul JIUIनणfl)\nOLIILLIEIuIb\n4- [Fe(CN)6]\nनाफ़्ीफ़्रं थIUlनणfी( थl६OD६0ठा६य| थIU Jनणfी)\nग॰नणीी\nCN\n6 ToflBoiT @नणTनlनOTILLG Olomऊoon नाफ़्री॰्रं ननणfी BUIनOfीGLIT KC CN ६ं Tp॰D FBLILOJOD६OOILIनODLI शpLGoglo थlsool C)\n॰नofीull6oा OLIUIJ (०६णTननOTITLLGoण\nO@mछoon BUI6OfIGLIT-KC\n6DLDUI 2 GDnBLD\nFe (नाफ़्ीएरं थl६D६o0ा६६b )\nOLIj G,L\n155\nXII US Coordination jagan indd 155\n22-12-2022 12:45:58",
+      "text_nfc": "JILILILq GuI LIUI6DTLIGछSLILIGDl6pनor. थृनणाआ6b ना फ़ीpUIनणfी Jl६०D600ा6२|छनfl६ ooflLomंIछनflठoा OILIULIGगIG ate नाoणrp LloorolनoTILLG Gमग छंgुl ना(LBLILIGBloorpgl. २ G6Dn& थljoo]६२ी6ठT OILIUIDl6oD६णा छं OgILगफgl थlOLLILDGफ़lऊछना २छठण थJक#lgGoopp नाठणंण GTIUD ना नणंण joolओol६b ना(gLLIGकlpgl 8 Gmnछछछ्रीन्छा OLILI %नofl८oio GpगuIनofी Jl६Dनणणा6२|छनfl६ं ना छ्लीपUIन्णfीJIनDDनणणा6ृ|कनfl६ Cr GOnIbluib GOगnGoL Zn छुlछंछफ़Bn Blo(Zinc) glrilGaL Al शl@ृblनofluIb थI@JGoL Fe QGi4 (थIuIj6or ) %oLIj GगL Cu छIIbl,i (BILILIj ) GLGL Co GBITLIITSDL SBITLIIGDGLL Pb BnfuIb (O६DL ) LonLbGLIL Ag ६६२l6ाTनाfी (flsboij ) शjogoणGLL Sn १६ण 6ं७GL GणoTL Au SBn६DG G,L Pt LनाnLLq 6oाi LonnLL GoTL\nIUPAC @lफ़lrmopBOoनाLI LllorLIppl Jl६OD६o0ा६|# GajlomlBGlऊऊGui नILIUIफ़lGpob. ना७छglकBIL७ 1\nथ१नDन०0ान|# Gajioi KA[Fe(CN) ]\nOpjथIuIणfी (aाoflul JIUIनणfl)\nOLIILLIEIuIb\n4- [Fe(CN)6]\nनाफ़्ीफ़्रं थIUlनणfी( थl६OD६0ठा६य| थIU Jनणfी)\nग॰नणीी\nCN\n6 ToflBoiT @नणTनlनOTILLG Olomऊoon नाफ़्री॰्रं ननणfी BUIनOfीGLIT KC CN ६ं Tp॰D FBLILOJOD६OOILIनODLI शpLGoglo थlsool C)\n॰नofीull6oा OLIUIJ (०६णTननOTITLLGoण\nO@mछoon BUI6OfIGLIT-KC\n6DLDUI 2 GDnBLD\nFe (नाफ़्ीएरं थl६D६o0ा६६b )\nOLIj G,L\n155\nXII US Coordination jagan indd 155\n22-12-2022 12:45:58",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

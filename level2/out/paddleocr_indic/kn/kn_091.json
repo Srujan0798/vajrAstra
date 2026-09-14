@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_091",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನೈಡ\n ಬಾi\nappu 1ptile gtail, com\n?s ienhi?\nL1232309022\nK aeರಣ I-\nIit.\nಕನದ ವಣಮಲೆಯxe.. ಒಕ\nಒ--.ಿ-ಅವರಗಳಿನ\nಗಹನಗರಗಳುವ೯\n.ಅ.ಇ.ಬ.ಯ.ಎ. ಒ\n eg. ioogು- I, -? s, ಈ.ws,a.2, 'a\nತೃ.ಚಬ.ತ ಗ ವಗಕರಳ\nಯರಖ.ನತಟಸಹ ಳ\nನಂಥಗಳು.\nItrt i.\nT. ಕನುಡಗಸಂgಗಳು-\n\nOಲೋತಶಂದಜಲಗವ ರಂದ\nಆದೇಶತಂದ\nI ತo s ಚ ಸಂuಗಳು.\nIi i .\ne ae?\nO ಸsmtae ಸo\nDಗುnಸಂe eವೃs, ಸoವಗeor್ gಂತ?\nಅ ಜರ.ಸoದ Iಟe ತಳ. ತಂಟ. a ಅನನsಳ ಸಂದ\nಕನುತ ತಂಂಗಳು\nDuತ uoದt. Iyd ಶರ ೋತ iಂaI.\nI.\nಊಗುI.ೂರು-ಊರೂರ\nಬtಊ-ಖರ\n-ದೀವರು Ioದ. -ದೀsoರ I aಗದiಇ-wಲೀತ\nಪವಲಯದಿಾಇರುಗವಕಲಯಂರುರವtಇಪವಳರ\nಅವಳ. ಗಊರ\n--ಅನಳೂರುಟbಲ teಊ. -ಅತx..\n೭\nಗಗ್ರಂಟೈ-್ಯತ'ಅಡವಳಿವಕರವಶಗದಬಗುಳದೆ\nಮನೆ+.ಅ. -ಮನೆಯ.Lಎ+ಲ-ಯಾ-ಜಗನು\n ಗot ಅನ - seoನ Ioಣtiu-ಯ\n ಸಟಳವಗುರಇದವವಗಬಗ ಯ-ಇ ನ-\n.\n.\nಆ.ದೇಳ ಸಂದೀ-ಗವಳ್ದಿಗಳಗಗ,ನ,ಬಗಳ ತಬೇತವಗುಳವ\n. his IBನt.-oಸs ಅ tತ -ಗ+exes\n- ಳt ಗ ಳsರ ಗಟದವರಗಅ+ಳ ದ ಳದೇತ\n ಕದ್-ರನ-ಪ.ವಂಎನಅಕs-ಬ೪ದೀತ\naಳೆ I ವರು.- aಳಗರುaಎಗ ಕ-ಗ ಇದೇತ\nt ಕಳ -hox.ದ.Fwt ಳ-ಗiಳtೀತ\nಳೆನ್I-ಕಳು, - ಬಂಎಳುlಲಗ ತ- ಬಳಿದೇಕ\nತಳೇಪಿಗವ ತಂಗಳು-ಕನಡದಿತೃಗಿನಂಟಗಳಗದ\nಶದೀಶಿರುದಯು-ಕನಪದ-ವೃಲ್ಜನ ಶ್ತಂಯರದು\nScanned by CamScanner",
+      "text_nfc": "ಕನೈಡ\n ಬಾi\nappu 1ptile gtail, com\n?s ienhi?\nL1232309022\nK aeರಣ I-\nIit.\nಕನದ ವಣಮಲೆಯxe.. ಒಕ\nಒ--.ಿ-ಅವರಗಳಿನ\nಗಹನಗರಗಳುವ೯\n.ಅ.ಇ.ಬ.ಯ.ಎ. ಒ\n eg. ioogು- I, -? s, ಈ.ws,a.2, 'a\nತೃ.ಚಬ.ತ ಗ ವಗಕರಳ\nಯರಖ.ನತಟಸಹ ಳ\nನಂಥಗಳು.\nItrt i.\nT. ಕನುಡಗಸಂgಗಳು-\n\nOಲೋತಶಂದಜಲಗವ ರಂದ\nಆದೇಶತಂದ\nI ತo s ಚ ಸಂuಗಳು.\nIi i .\ne ae?\nO ಸsmtae ಸo\nDಗುnಸಂe eವೃs, ಸoವಗeor್ gಂತ?\nಅ ಜರ.ಸoದ Iಟe ತಳ. ತಂಟ. a ಅನನsಳ ಸಂದ\nಕನುತ ತಂಂಗಳು\nDuತ uoದt. Iyd ಶರ ೋತ iಂaI.\nI.\nಊಗುI.ೂರು-ಊರೂರ\nಬtಊ-ಖರ\n-ದೀವರು Ioದ. -ದೀsoರ I aಗದiಇ-wಲೀತ\nಪವಲಯದಿಾಇರುಗವಕಲಯಂರುರವtಇಪವಳರ\nಅವಳ. ಗಊರ\n--ಅನಳೂರುಟbಲ teಊ. -ಅತx..\n೭\nಗಗ್ರಂಟೈ-್ಯತ'ಅಡವಳಿವಕರವಶಗದಬಗುಳದೆ\nಮನೆ+.ಅ. -ಮನೆಯ.Lಎ+ಲ-ಯಾ-ಜಗನು\n ಗot ಅನ - seoನ Ioಣtiu-ಯ\n ಸಟಳವಗುರಇದವವಗಬಗ ಯ-ಇ ನ-\n.\n.\nಆ.ದೇಳ ಸಂದೀ-ಗವಳ್ದಿಗಳಗಗ,ನ,ಬಗಳ ತಬೇತವಗುಳವ\n. his IBನt.-oಸs ಅ tತ -ಗ+exes\n- ಳt ಗ ಳsರ ಗಟದವರಗಅ+ಳ ದ ಳದೇತ\n ಕದ್-ರನ-ಪ.ವಂಎನಅಕs-ಬ೪ದೀತ\naಳೆ I ವರು.- aಳಗರುaಎಗ ಕ-ಗ ಇದೇತ\nt ಕಳ -hox.ದ.Fwt ಳ-ಗiಳtೀತ\nಳೆನ್I-ಕಳು, - ಬಂಎಳುlಲಗ ತ- ಬಳಿದೇಕ\nತಳೇಪಿಗವ ತಂಗಳು-ಕನಡದಿತೃಗಿನಂಟಗಳಗದ\nಶದೀಶಿರುದಯು-ಕನಪದ-ವೃಲ್ಜನ ಶ್ತಂಯರದು\nScanned by CamScanner",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

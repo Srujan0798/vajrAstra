@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_065",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0032pro_raw.pdf",
+    "page_index": 335,
+    "width": 1785,
+    "height": 2415
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1785,
+        2415
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "१२-ei wl७i4 OlunGafluob छा%  थflflujक@%i GtmDnuJoI नाjरछ@ऊi\nGwoDIUIQIIनाj कनाr\nYव्Dव्छा @Jj .L. OlऋIऊIBLIBoDD GLIII&lrluIj , न१८6णा 6DD६णा @६णनiblq७uJL थJu ६L@I6DLIOLD6DणIL६D 6i७L IL6iD, ६८व्णा 6०D६णा\n@व्Dव्ा @Ij . शnपe. V. BoDoDपर ऊंमळ (नण6णाI6ाT कl॰opp J॰omb@lp , OLITUनflUIबD कlनop, CMS Bobounफ़l, GBILLUIb, GकJनाn\n@वDव्ठा @uj. S. शIWDDlनir न्छना (०६णT 6णTI6ाr GLIPIElfluIj, OLITGनflUIबD glनop LInप फ़lछIBठणा LIODB6DनDछ ByBlb, छी७iणी\nUITL @lobgiूग् ७@ @न्Dव्छा @uj R.GujवछाILL oqI (नDन्छा @uj.S 8व्णा BuJn ना न्छा U०६ण 6णाIT6iT Guipnelfluj, OLITUGनflUISD glop, NMSSVN OLINUनflUIGD glopछ छoomD@lp , WDgIIT B६bounफ़ , LDglनoग क६b@पl IITBLD6DD६D, LDgIनDDD\nUITI @GIIBlनoवorUUI नाग्र\nJ.Gम\"गष्ण्णा नDछI ७glक६D६D ejमlफ़lsoUl, छIपन &r ७sbबbii GLDSDDlनDSDLI LIनiTनffl, न८६णा 606णा -600002\nफnळं %मflwj मनाा @०Dठठा @uj. K.BछI BloJio @६o६oonLi GLIPIElfluIj, GILIITGनflUI६D कl॰op IDglनoग BIlogngj LIGDB6O६DB ByBID, LDgl6oग -२१ @०Dनठा @lj M flठyn gl६D६णOILi GLIIflफ़lup , OLINUGनflUIGD gloop ७glनDप BILDIIgj LI६DB6D६DD BलalD, LDgl6o] -२१\nYव्Dव्छा @Jj JमnBगLesंo OLITADGflUIGD कloopp pनण६D@lj, IDG6OII6DTUD6OOflUIID Brफ़5फ़J6णrng LISDB6O६DB Byolb, छी(Oफ़६DG@I६D ७नDव्छा @Ij R Xsobuju BlplsoGLIUj छा नं॰ @o६oorii GLIDIElfluip , OLIIGनfluIJD glनop glollorflऊठॅणr ऊobgurrl, OgIनDD\n७नDव्छा @uj. R.oloDlठn UIgI gl६D६णOILI GLInflफ़luIj, OLINASनfluIGD gloop, MSS @lकL| @Inplul B६bgupl, LDglनDप @न्Dन्छा @lj S.मIफछी GढL Gl OLIITUDOflUI६D gloopछ छ॰o6D@lj , Lloqil ofuj Blbgभnफ़l, छी७मढी.\n@नDन्छा @lj. K.कoblueyon छक्नी OLIN AGafluIGD gloop5 5oosboफ़, (I Soणr@DLLGIDl ऊobourpl , SlGsणी\nK.Bाव्ण्णा व्छंा ७gl६६D६D थbtlfluIj , छI Br UBoflr GLDSDIGlGoबDLi Lनiofl, SGimlBoDiD, LDgl6oDग\nनंDIeUव्Dा BवााlGमI @Iवछा ७glJ६DD६D थbtlfluip, TVS नloLiflळ GLoबDफ़6l6omDLi LIनाTठाfl, LOglनoग B.मव्ण्छ CDD ७glJ६DD६D थbtlfuip, IBLपIggनण फ़loUIbछl GLDढDGlso६DLi L६ाTofl, JITBLILILIqनणTib\nK Jbooioj OमऋboIवछा ७glक६D६D थbtlfuIj, छIगBr थJनणंणा Bनाा  GLDsbplso६Dii LIनाTनाfl , LJ@I6णI &lf , BLE शnr ICT- @GाIBlनoवoUUI नाग्र D.oJnBr प्रng, gIB6D६D Booorls थjelfluj IopoiD gloop Soombsuj, Gक. छbj. नाib OLINgILI LIनाTनf , OcioLluiio ६म६णा ६DDव्णा .\nGwonफ़OuujUUI नाjछना\nUIIL +ठ jppuJoJn नापरऊठाा\n@Dन्णा @lj R.Bगn Gकpठीप न्छा , @o६णणrii GLIJITEीfluIj , OLITGनflUIबD कlनop, ouiफ़fluIni  T.6l@l II Bobgभnफ़ी ( कनण 6णINLLEl), छी७sषी.\n@०Dव्छा @Jj A UgUofloIव्छT , BLIIIE luI(gilo ), D Sl ऊr Opgl Bobgrl, 5l(olp6D नl६Dी ouifluIni T.6@lII Bobguफ़ी ( छन्णा 6णINILLBl), छी७sषी @०Dव्छा @Jj A.onfluUUव्ठछा छlनD6ooLl GLITIS rluj, नLITAGafILISD gloop, @६DGUITODN Bobanl, ६lB६Dा 6Dनणा. मव्षीळीी ठLं LBमप Maonpoी SCERT. EMIS नफ़nylनDgILLLIछ ७@ @ग़n.In.Bछनi७ UnglनD @U5IIDl OSOOILILIIनIग OgnylsogILuib, B६b६l GLD6DI 6णणा 6OLD BBOIबD AवDD६DID, @UIIBl o6oणाफ़छ Llनiनlflककoboll @uIBBBID. @गn. थI(नणंणा IOnIGछी नम६D६I६णT, OlgnylsbgILu छlLILI6णofी gJGan#छj , B६D६ GLD6DI 6णणा ६DLD BEOI६D (वDDD६DUD, @UmIDl6o6ooLफ़छ LlनाT नfflककobol @uIककBID. B. Ll. Bछड़ीuIIIIITULI6DOTIT , छक६I६D 6gIylsbgILu थJGoDn#Bप, B६b६l GLD6DI 6णणा 6OLD BBOIबD AवDD६DID, RUBIBIBl D6णणाIछ LIनाT6lflBBoDo QuIBकBiD.\n@Dन्णा @lj A oolpup glनDनDा , @o6ooru Gupislfluj, ६ILITGनrlUIDD छlनDD, gIonSD @BlDlogl Boboृnfl, 5@उsl\nकनDबD Ipolto @lIq @JवDLoUपळ ७७ oL QIबDIDUL 6२ 6णाIG@IB6णT 6i७, GBILII6DLIगUD, न१म६णा 6Dनणा .\nIn- House QC Olgग़n6DG @ll६bम6णा LOgनणTग्रng Lrमnip पnGaoq छIIBLILIनDT\nJILनOL @२IlQ @IनODIDLIL छछीr ebpi७Bi @UIIकीनOनOOILILIIOाj पGL6q (६oflषnID\n@pफ़आ@ं 8Ogl ना६iंण नाlD. ना६bीlBनDणLं GUOLIनDlgGकI छIनfीमb छlBBILLLIL Gनiाना gl. PJLOBL @sopulsb JIमElL GLnj:\n330\n12th Economics- Tamil Authors indd 330\n11-01-2023 18:36:10",
+      "text_nfc": "१२-ei wl७i4 OlunGafluob छा%  थflflujक@%i GtmDnuJoI नाjरछ@ऊi\nGwoDIUIQIIनाj कनाr\nYव्Dव्छा @Jj .L. OlऋIऊIBLIBoDD GLIII&lrluIj , न१८6णा 6DD६णा @६णनiblq७uJL थJu ६L@I6DLIOLD6DणIL६D 6i७L IL6iD, ६८व्णा 6०D६णा\n@व्Dव्ा @Ij . शnपe. V. BoDoDपर ऊंमळ (नण6णाI6ाT कl॰opp J॰omb@lp , OLITUनflUIबD कlनop, CMS Bobounफ़l, GBILLUIb, GकJनाn\n@वDव्ठा @uj. S. शIWDDlनir न्छना (०६णT 6णTI6ाr GLIPIElfluIj, OLITGनflUIबD glनop LInप फ़lछIBठणा LIODB6DनDछ ByBlb, छी७iणी\nUITL @lobgiूग् ७@ @न्Dव्छा @uj R.GujवछाILL oqI (नDन्छा @uj.S 8व्णा BuJn ना न्छा U०६ण 6णाIT6iT Guipnelfluj, OLITUGनflUISD glop, NMSSVN OLINUनflUIGD glopछ छoomD@lp , WDgIIT B६bounफ़ , LDglनoग क६b@पl IITBLD6DD६D, LDgIनDDD\nUITI @GIIBlनoवorUUI नाग्र\nJ.Gम\"गष्ण्णा नDछI ७glक६D६D ejमlफ़lsoUl, छIपन &r ७sbबbii GLDSDDlनDSDLI LIनiTनffl, न८६णा 606णा -600002\nफnळं %मflwj मनाा @०Dठठा @uj. K.BछI BloJio @६o६oonLi GLIPIElfluIj, GILIITGनflUI६D कl॰op IDglनoग BIlogngj LIGDB6O६DB ByBID, LDgl6oग -२१ @०Dनठा @lj M flठyn gl६D६णOILi GLIIflफ़lup , OLINUGनflUIGD gloop ७glनDप BILDIIgj LI६DB6D६DD BलalD, LDgl6o] -२१\nYव्Dव्छा @Jj JमnBगLesंo OLITADGflUIGD कloopp pनण६D@lj, IDG6OII6DTUD6OOflUIID Brफ़5फ़J6णrng LISDB6O६DB Byolb, छी(Oफ़६DG@I६D ७नDव्छा @Ij R Xsobuju BlplsoGLIUj छा नं॰ @o६oorii GLIDIElfluip , OLIIGनfluIJD glनop glollorflऊठॅणr ऊobgurrl, OgIनDD\n७नDव्छा @uj. R.oloDlठn UIgI gl६D६णOILI GLInflफ़luIj, OLINASनfluIGD gloop, MSS @lकL| @Inplul B६bgupl, LDglनDप @न्Dन्छा @lj S.मIफछी GढL Gl OLIITUDOflUI६D gloopछ छ॰o6D@lj , Lloqil ofuj Blbgभnफ़l, छी७मढी.\n@नDन्छा @lj. K.कoblueyon छक्नी OLIN AGafluIGD gloop5 5oosboफ़, (I Soणr@DLLGIDl ऊobourpl , SlGsणी\nK.Bाव्ण्णा व्छंा ७gl६६D६D थbtlfluIj , छI Br UBoflr GLDSDIGlGoबDLi Lनiofl, SGimlBoDiD, LDgl6oDग\nनंDIeUव्Dा BवााlGमI @Iवछा ७glJ६DD६D थbtlfluip, TVS नloLiflळ GLoबDफ़6l6omDLi LIनाTठाfl, LOglनoग B.मव्ण्छ CDD ७glJ६DD६D थbtlfuip, IBLपIggनण फ़loUIbछl GLDढDGlso६DLi L६ाTofl, JITBLILILIqनणTib\nK Jbooioj OमऋboIवछा ७glक६D६D थbtlfuIj, छIगBr थJनणंणा Bनाा  GLDsbplso६Dii LIनाTनाfl , LJ@I6णI &lf , BLE शnr ICT- @GाIBlनoवoUUI नाग्र D.oJnBr प्रng, gIB6D६D Booorls थjelfluj IopoiD gloop Soombsuj, Gक. छbj. नाib OLINgILI LIनाTनf , OcioLluiio ६म६णा ६DDव्णा .\nGwonफ़OuujUUI नाjछना\nUIIL +ठ jppuJoJn नापरऊठाा\n@Dन्णा @lj R.Bगn Gकpठीप न्छा , @o६णणrii GLIJITEीfluIj , OLITGनflUIबD कlनop, ouiफ़fluIni  T.6l@l II Bobgभnफ़ी ( कनण 6णINLLEl), छी७sषी.\n@०Dव्छा @Jj A UgUofloIव्छT , BLIIIE luI(gilo ), D Sl ऊr Opgl Bobgrl, 5l(olp6D नl६Dी ouifluIni T.6@lII Bobguफ़ी ( छन्णा 6णINILLBl), छी७sषी @०Dव्छा @Jj A.onfluUUव्ठछा छlनD6ooLl GLITIS rluj, नLITAGafILISD gloop, @६DGUITODN Bobanl, ६lB६Dा 6Dनणा. मव्षीळीी ठLं LBमप Maonpoी SCERT. EMIS नफ़nylनDgILLLIछ ७@ @ग़n.In.Bछनi७ UnglनD @U5IIDl OSOOILILIIनIग OgnylsogILuib, B६b६l GLD6DI 6णणा 6OLD BBOIबD AवDD६DID, @UIIBl o6oणाफ़छ Llनiनlflककoboll @uIBBBID. @गn. थI(नणंणा IOnIGछी नम६D६I६णT, OlgnylsbgILu छlLILI6णofी gJGan#छj , B६D६ GLD6DI 6णणा ६DLD BEOI६D (वDDD६DUD, @UmIDl6o6ooLफ़छ LlनाT नfflककobol @uIककBID. B. Ll. Bछड़ीuIIIIITULI6DOTIT , छक६I६D 6gIylsbgILu थJGoDn#Bप, B६b६l GLD6DI 6णणा 6OLD BBOIबD AवDD६DID, RUBIBIBl D6णणाIछ LIनाT6lflBBoDo QuIBकBiD.\n@Dन्णा @lj A oolpup glनDनDा , @o6ooru Gupislfluj, ६ILITGनrlUIDD छlनDD, gIonSD @BlDlogl Boboृnfl, 5@उsl\nकनDबD Ipolto @lIq @JवDLoUपळ ७७ oL QIबDIDUL 6२ 6णाIG@IB6णT 6i७, GBILII6DLIगUD, न१म६णा 6Dनणा .\nIn- House QC Olgग़n6DG @ll६bम6णा LOgनणTग्रng Lrमnip पnGaoq छIIBLILIनDT\nJILनOL @२IlQ @IनODIDLIL छछीr ebpi७Bi @UIIकीनOनOOILILIIOाj पGL6q (६oflषnID\n@pफ़आ@ं 8Ogl ना६iंण नाlD. ना६bीlBनDणLं GUOLIनDlgGकI छIनfीमb छlBBILLLIL Gनiाना gl. PJLOBL @sopulsb JIमElL GLnj:\n330\n12th Economics- Tamil Authors indd 330\n11-01-2023 18:36:10",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

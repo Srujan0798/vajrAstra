@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_014",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 13,
+    "width": 595.3200073242188,
+    "height": 841.9199829101562
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": " (Labiodental)\neaffaar,\n ea    3          \n    in        \n(Bilabial\n E  B       1    \n1\n4.7.2 C  TTET R\n         h   \nτq2f (Stops or Plosive)\n    e         \n l  hh h    n   \nH             \n LaP 't 'b 'h 'h 'B '2 'r 'D '2 ' P '2 B 'I 'b ' | µ3φ Hb3 fh\n1\nங்(Fricative)\nUf ai HE  frhT CTe a 3RT   fhCh EfUT c\n5 TEX fh I SX M BrY E ael E C viE Ea hET\nU It, ,,U1, T, , T,    T E \nUNIVERSITY\nTf rierof (Affricate)\n1         \n     1\n al          \n    E 1\nf (Lateral)\n E    a 3     S  3 \nfo  E  ary E fi  i frer  3ra  3 ao \nfoE     ER hOI-I\nci e   fa c ea  hd I  ea  B \n1    \n74",
+      "text_nfc": " (Labiodental)\neaffaar,\n ea    3          \n    in        \n(Bilabial\n E  B       1    \n1\n4.7.2 C  TTET R\n         h   \nτq2f (Stops or Plosive)\n    e         \n l  hh h    n   \nH             \n LaP 't 'b 'h 'h 'B '2 'r 'D '2 ' P '2 B 'I 'b ' | µ3φ Hb3 fh\n1\nங்(Fricative)\nUf ai HE  frhT CTe a 3RT   fhCh EfUT c\n5 TEX fh I SX M BrY E ael E C viE Ea hET\nU It, ,,U1, T, , T,    T E \nUNIVERSITY\nTf rierof (Affricate)\n1         \n     1\n al          \n    E 1\nf (Lateral)\n E    a 3     S  3 \nfo  E  ary E fi  i frer  3ra  3 ao \nfoE     ER hOI-I\nci e   fa c ea  hd I  ea  B \n1    \n74",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

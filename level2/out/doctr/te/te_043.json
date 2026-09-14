@@ -1,0 +1,41 @@
+{
+  "page_id": "te_043",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0043pro_raw.pdf",
+    "page_index": 33,
+    "width": 1770,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1770,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "((C\n&\n* yRiad7-? *\nP. yit 377 GIERTEIT :\nde-dei, GI7-TG, 3797-97151, TT-TT, af4os-2h4c1, Hist-cho, 9d-97, fag117-fagigt,\nRy-7g, Titd-Eheirdi, ST1ST-HISI, amf-CRIT, E107-511, HICT-91C1, JUT-EGH, 4E-346 I\nP. uriten i THA aECh JERT t CRId a TIly a JH CRIT chirt ?\n3. BTRRCH cht 377 Uot :\n:\n: :\n*\n:\n8. EPIC à aet 3it urdi t 3TEIR FR uent/gan t HH TaGl 3it FRIdT a farait :\nKetter\nZ. Yerch Hr N TICh Jerichi chl friterut chi 3iR 3R aaf chi I\nnfa/349h4\ntisei/gqvit\naa Jtd qa CT\nsa HdE aru-1\nHHITRYE\nR 4 Er\nVIe a J4\nTHG t faa Mehr\n3it fe-aficht i\nfasiqa gant I\nCRIT-CRIT chin,\nfasalal chrit I\nHECI qt TIoG\nadiait I\nfrngt I\nPY",
+      "text_nfc": "((C\n&\n* yRiad7-? *\nP. yit 377 GIERTEIT :\nde-dei, GI7-TG, 3797-97151, TT-TT, af4os-2h4c1, Hist-cho, 9d-97, fag117-fagigt,\nRy-7g, Titd-Eheirdi, ST1ST-HISI, amf-CRIT, E107-511, HICT-91C1, JUT-EGH, 4E-346 I\nP. uriten i THA aECh JERT t CRId a TIly a JH CRIT chirt ?\n3. BTRRCH cht 377 Uot :\n:\n: :\n*\n:\n8. EPIC à aet 3it urdi t 3TEIR FR uent/gan t HH TaGl 3it FRIdT a farait :\nKetter\nZ. Yerch Hr N TICh Jerichi chl friterut chi 3iR 3R aaf chi I\nnfa/349h4\ntisei/gqvit\naa Jtd qa CT\nsa HdE aru-1\nHHITRYE\nR 4 Er\nVIe a J4\nTHG t faa Mehr\n3it fe-aficht i\nfasiqa gant I\nCRIT-CRIT chin,\nfasalal chrit I\nHECI qt TIoG\nadiait I\nfrngt I\nPY",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

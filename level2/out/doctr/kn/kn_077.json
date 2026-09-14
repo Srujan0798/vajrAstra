@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_077",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0038pro_raw.pdf",
+    "page_index": 216,
+    "width": 2339,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        2339,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "eoe\nonE mobog OEFN\n9pgs\nQ. wodergd = eotgn es\naeya areod = aea 200\naoco = docooe\naewoeneo0 = aoca N82\ng1od gdosne = enoss Ea 2co7e8\ngonea 5003 = gdodeaat Row (d0p)\nwoapoones = ajagas 23800\ndoud = Nowow; Xodoce; egsoco\nJaboe 23037: 003 2ocga\n2. e8 = NOF\ndebo = enege\nÉccrd = aadoes\na. a03 = an\nwonwod (<0Nate0) = DOERS 33 (dap)\nRoeass = bones\na",
+      "text_nfc": "eoe\nonE mobog OEFN\n9pgs\nQ. wodergd = eotgn es\naeya areod = aea 200\naoco = docooe\naewoeneo0 = aoca N82\ng1od gdosne = enoss Ea 2co7e8\ngonea 5003 = gdodeaat Row (d0p)\nwoapoones = ajagas 23800\ndoud = Nowow; Xodoce; egsoco\nJaboe 23037: 003 2ocga\n2. e8 = NOF\ndebo = enege\nÉccrd = aadoes\na. a03 = an\nwonwod (<0Nate0) = DOERS 33 (dap)\nRoeass = bones\na",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

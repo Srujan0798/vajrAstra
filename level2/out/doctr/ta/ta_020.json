@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_020",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+    "page_index": 367,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "CL6l6060 OT6OOTLITLD 2y600Tb t560or65tblodluid)\nLITLBITO 20011666 U0\nLITLBITO GogIbiEOT\n1. (O6D60T6JIJ. O6. 615610l610 LITGIOL6OT\n060600TL Bumaflui,\n66ooflaolud 51600, LDITBlODES 50gmf, 61560T6060T.\n2. (LO6060T6JIT. 2. 810564600160T\n060600TL Bumméfui, 66ooflaoluo 5160D,\nLOITBlODES 500gmf, 61560T6060T.\n3. (LO6060T6JIT. Oo. 61g60fLJm\n060600TL Bumméflui, 61600flaolud 5160D,\n460f13 Eg16061 5000mf, Sb8d.\nGuosomiseurenjesér\n1. (L6D60T6J. LIIT. OgubgLomj\n25011 Bummelflui, 6l60oflaouo 5160D,\n5TW 5ILDGD 56060 LIDPILD eimloluoi 5ogf,\n61560T6060T.\n2. 5005. oguis OTOLO4\nLulmEWIon, GELDLIfILE LIGOT60TILb3 G51015611,\n61560T6060T.\nLITL B@ria-deDecoriaumen Lommio GgIbi\nS0. 69. 2 6055151T560T,\n(5156060 660oflaouo gyelflui,\nSITO LoTOIf Guod@lopcoiuehierl, 6085TLGULGOL,\n61560T6060T.\n66060 LoDDID G1lQ616DLDLLLE U0\n611Q616ODLDLL\nGumeaog\nLpaibs\nmmegon ST1ELLGT\nOF06IELI\nSILOOL 61146160LDLL\nEglj eDILDELD\nST6BLOULITO\nSIG6OOT ETLDIITER\nOGu T55l6oTLb\n61gb0 616560T\nBOTAGDSOOILL\nTGLDoig (DGoflEmLO\n12th-Accountancy-Glossary.indd 360\nLINLBITO ejffluj EU\n1. (LD6D60T6IT. 21. FOgngloof\n(5156060 6600fla6ud goflui,\nSNTéloori GLOULlGOGOL Lioirorfl, ELIDLISSITI,\n5066Te6bT LOITOILLID.\n2. (LD6060T6JT. 5r. Ogm@govouf\n(5156060 6600fla6ud Sfflfluj,\nLoofl3 661160TI afmidlboom Obblusot 6LI600T556T\nGuoed@Bopeviléiter, Sbed.\n3. BGDS. (Lp. DDETIO\n060600TL Bummeifui, 61600flas6Mlu6b 5160D,\n5IU1G5 LOl600s SITOT LDE6rflj B00gf, 61560T6060T.\n4. (LD6060T6JT. Ib. OI8G5OL6OT\n25011 Gummarflui, 6600fla6/llué0 5160D,\nOymoelt50qs00IT L0Oq60T 616665T60TI55T 560gf,\n61560T6060T.\n5. (LD6060T6JIT. F. ELI\n(5156060 6J600flaouo gfflu,\nE.5. CO6DIIL5LD GuDéBapsouilléiter,\nEplodLLmg, BLOIT LOITOILLID.\n6. 60. 91. ALI F6TOT5S\n(5156060 6J600flaouo geflurj,\nBIELDE LDIG5ELDLDITGIT SITE LDb6rflj GuodBlopeviLléiter,\n6560T518, Bl00b6666) LOITOILLID.\n7. (O6060T6J. F. BoofloIE6oT\n25011 Gummaflui, GJ6ooflaolud 5160D,\nOymoe/toqe00IT LOlOq60T 016616T60T55T 560gf,\n61560T6060T.\nalleogojéespluiod UL\nL.ETGL6OOT6OT,\nGIOLLITQ, BE6DLD.\nLD. LGBG560T,\nUSSLGULOL, SGOIIEBI\nB-956LIL 6J16T6160T LITL,\nLID5EL, QTITIDIBT5LITLD.\nObBé 80 231.0T670.6TLD 6T6016600TL CLDL6015G5T 5marflé\nBNdALUUL-CDOTOTEL\n6611 SYLOEL (oopuld SIALGLIT:\n360 IIII\n12/9/2021 11:08:29 PM",
+      "text_nfc": "CL6l6060 OT6OOTLITLD 2y600Tb t560or65tblodluid)\nLITLBITO 20011666 U0\nLITLBITO GogIbiEOT\n1. (O6D60T6JIJ. O6. 615610l610 LITGIOL6OT\n060600TL Bumaflui,\n66ooflaolud 51600, LDITBlODES 50gmf, 61560T6060T.\n2. (LO6060T6JIT. 2. 810564600160T\n060600TL Bumméfui, 66ooflaoluo 5160D,\nLOITBlODES 500gmf, 61560T6060T.\n3. (LO6060T6JIT. Oo. 61g60fLJm\n060600TL Bumméflui, 61600flaolud 5160D,\n460f13 Eg16061 5000mf, Sb8d.\nGuosomiseurenjesér\n1. (L6D60T6J. LIIT. OgubgLomj\n25011 Bummelflui, 6l60oflaouo 5160D,\n5TW 5ILDGD 56060 LIDPILD eimloluoi 5ogf,\n61560T6060T.\n2. 5005. oguis OTOLO4\nLulmEWIon, GELDLIfILE LIGOT60TILb3 G51015611,\n61560T6060T.\nLITL B@ria-deDecoriaumen Lommio GgIbi\nS0. 69. 2 6055151T560T,\n(5156060 660oflaouo gyelflui,\nSITO LoTOIf Guod@lopcoiuehierl, 6085TLGULGOL,\n61560T6060T.\n66060 LoDDID G1lQ616DLDLLLE U0\n611Q616ODLDLL\nGumeaog\nLpaibs\nmmegon ST1ELLGT\nOF06IELI\nSILOOL 61146160LDLL\nEglj eDILDELD\nST6BLOULITO\nSIG6OOT ETLDIITER\nOGu T55l6oTLb\n61gb0 616560T\nBOTAGDSOOILL\nTGLDoig (DGoflEmLO\n12th-Accountancy-Glossary.indd 360\nLINLBITO ejffluj EU\n1. (LD6D60T6IT. 21. FOgngloof\n(5156060 6600fla6ud goflui,\nSNTéloori GLOULlGOGOL Lioirorfl, ELIDLISSITI,\n5066Te6bT LOITOILLID.\n2. (LD6060T6JT. 5r. Ogm@govouf\n(5156060 6600fla6ud Sfflfluj,\nLoofl3 661160TI afmidlboom Obblusot 6LI600T556T\nGuoed@Bopeviléiter, Sbed.\n3. BGDS. (Lp. DDETIO\n060600TL Bummeifui, 61600flas6Mlu6b 5160D,\n5IU1G5 LOl600s SITOT LDE6rflj B00gf, 61560T6060T.\n4. (LD6060T6JT. Ib. OI8G5OL6OT\n25011 Gummarflui, 6600fla6/llué0 5160D,\nOymoelt50qs00IT L0Oq60T 616665T60TI55T 560gf,\n61560T6060T.\n5. (LD6060T6JIT. F. ELI\n(5156060 6J600flaouo gfflu,\nE.5. CO6DIIL5LD GuDéBapsouilléiter,\nEplodLLmg, BLOIT LOITOILLID.\n6. 60. 91. ALI F6TOT5S\n(5156060 6J600flaouo geflurj,\nBIELDE LDIG5ELDLDITGIT SITE LDb6rflj GuodBlopeviLléiter,\n6560T518, Bl00b6666) LOITOILLID.\n7. (O6060T6J. F. BoofloIE6oT\n25011 Gummaflui, GJ6ooflaolud 5160D,\nOymoe/toqe00IT LOlOq60T 016616T60T55T 560gf,\n61560T6060T.\nalleogojéespluiod UL\nL.ETGL6OOT6OT,\nGIOLLITQ, BE6DLD.\nLD. LGBG560T,\nUSSLGULOL, SGOIIEBI\nB-956LIL 6J16T6160T LITL,\nLID5EL, QTITIDIBT5LITLD.\nObBé 80 231.0T670.6TLD 6T6016600TL CLDL6015G5T 5marflé\nBNdALUUL-CDOTOTEL\n6611 SYLOEL (oopuld SIALGLIT:\n360 IIII\n12/9/2021 11:08:29 PM",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_069",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0015pro_raw.pdf",
+    "page_index": 118,
+    "width": 1644,
+    "height": 1980
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        1980
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "19\n\n19: 20 21 22 2s\n16.17 16\n\n12 उड़ इक उड़ उड़ उर उड़\nIndic Digital Archive Foundation\nके ली : उड 42 13 डक डक\n\n9 ae\n\n9\n\n। IVT DDD रण » ane Ml\n0 1 a 3 4 5 6 7 8 9 10 11 12 उड़ इक\n\ngpura.org\n\n8 6 OF TT ch. St ot. St OF 27. eet\n\n",
+      "text_nfc": "19\n\n19: 20 21 22 2s\n16.17 16\n\n12 उड़ इक उड़ उड़ उर उड़\nIndic Digital Archive Foundation\nके ली : उड 42 13 डक डक\n\n9 ae\n\n9\n\n। IVT DDD रण » ane Ml\n0 1 a 3 4 5 6 7 8 9 10 11 12 उड़ इक\n\ngpura.org\n\n8 6 OF TT ch. St ot. St OF 27. eet\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

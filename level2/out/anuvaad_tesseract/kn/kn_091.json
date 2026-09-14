@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_091",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "| 30,8 wna [app 13 pat |@grnail on]\nroe (7353309032 J\n\nPIYS sh Angosxe top = 49 -OESINR. = 49 wEiray Py\n> Roy, =13 Slows = 34 | otras 2 |)\nPOS ON a6 F789 ९४,१३० Da i\nHH FOnQ= 7, 28, Hw dS,2,0, QV\n: Ahead, ವೈ ಸಗಕ್ಟು 25° u ದಗ ९60. Ton sy, 3 {\n..- 30,00४ ONG | > 03) 8 0 8,8 me\n\nopty a लाए 2\nop Tage woprgyre :\n| © IMB OQ! Sus ಕಂ%@ ಿಜೇಕ goog न |\nएप, 808  ಕಂಣ್ಗಳ್ತು- =  . :\nO pdr wrege KOH Oronx0g Ox Os Hoe Qed Hoe _ (907५ pow\n@ xb, 80H ' © RP, Boy @ -Hs,mad A0Q :\n+ रद, Boonwi- | ra\n@ exe oR i- Ces us eG] Pe\n= OW +e = ಊ 0०. [ew+wm = wind)\nwham मे mod =Rsmd [wea weirs}.\n= Fost aso | 280080) Cdt yg =erors| [८04 yr = ed etre\n\n_ नंद +H = ysgnd PUten =wiekns\n\n® wna BoR >- [or'uga'd avs unwrandge.\nही ले दर) तने ve = HVody = Hedy [पिन श न 05० DO gow) |\nBRD 48, SP BRA wdz = BE: espe e rn) Pes: 8\n\nके RS+ BR, न 8 ಯನ್ುು पु एस  ಯ ow\n\nराय कर Toe wat ದಗುತಿಗ [७०११५ -> रच\n\n1 e \\ 2 ८9\n\n@ wks ४०० 2-(4,3,8 are 8 Rt DAG पार रात\nन? AL + ತನ್ನಡ “ एव तर fw es B= गिर्किस्ट वन\n> 83 4 छाए = Symdd (e+ से न थे wR3) |\nपके रू ला 4. aS = OD (6+ 8= 2 gest\naoyv+so पल agnm (84 F=7 ca\nho + tay? = a& Guy” (Gt ४ ४ wks] S grees\nawit + व, = Bows, [84 8 =v छ 6९७४] _\n\n+ एगए INS Gon इदुप्ंत ax हठ्कृतकुमत हक\nಸಿಡೇಶ ಕರಿಣ್ಣರು-ಕಸ್ನುಷಜ-ಜ व एंग्केण्फासीएट\n\nScanned by CamScanner\n",
+      "text_nfc": "| 30,8 wna [app 13 pat |@grnail on]\nroe (7353309032 J\n\nPIYS sh Angosxe top = 49 -OESINR. = 49 wEiray Py\n> Roy, =13 Slows = 34 | otras 2 |)\nPOS ON a6 F789 ९४,१३० Da i\nHH FOnQ= 7, 28, Hw dS,2,0, QV\n: Ahead, ವೈ ಸಗಕ್ಟು 25° u ದಗ ९60. Ton sy, 3 {\n..- 30,00४ ONG | > 03) 8 0 8,8 me\n\nopty a लाए 2\nop Tage woprgyre :\n| © IMB OQ! Sus ಕಂ%@ ಿಜೇಕ goog न |\nएप, 808  ಕಂಣ್ಗಳ್ತು- =  . :\nO pdr wrege KOH Oronx0g Ox Os Hoe Qed Hoe _ (907५ pow\n@ xb, 80H ' © RP, Boy @ -Hs,mad A0Q :\n+ रद, Boonwi- | ra\n@ exe oR i- Ces us eG] Pe\n= OW +e = ಊ 0०. [ew+wm = wind)\nwham मे mod =Rsmd [wea weirs}.\n= Fost aso | 280080) Cdt yg =erors| [८04 yr = ed etre\n\n_ नंद +H = ysgnd PUten =wiekns\n\n® wna BoR >- [or'uga'd avs unwrandge.\nही ले दर) तने ve = HVody = Hedy [पिन श न 05० DO gow) |\nBRD 48, SP BRA wdz = BE: espe e rn) Pes: 8\n\nके RS+ BR, न 8 ಯನ್ುು पु एस  ಯ ow\n\nराय कर Toe wat ದಗುತಿಗ [७०११५ -> रच\n\n1 e \\ 2 ८9\n\n@ wks ४०० 2-(4,3,8 are 8 Rt DAG पार रात\nन? AL + ತನ್ನಡ “ एव तर fw es B= गिर्किस्ट वन\n> 83 4 छाए = Symdd (e+ से न थे wR3) |\nपके रू ला 4. aS = OD (6+ 8= 2 gest\naoyv+so पल agnm (84 F=7 ca\nho + tay? = a& Guy” (Gt ४ ४ wks] S grees\nawit + व, = Bows, [84 8 =v छ 6९७४] _\n\n+ एगए INS Gon इदुप्ंत ax हठ्कृतकुमत हक\nಸಿಡೇಶ ಕರಿಣ್ಣರು-ಕಸ್ನುಷಜ-ಜ व एंग्केण्फासीएट\n\nScanned by CamScanner\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

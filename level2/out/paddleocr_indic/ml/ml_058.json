@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_058",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0021pro_raw.pdf",
+    "page_index": 231,
+    "width": 932,
+    "height": 1415
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        932,
+        1415
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "228\n1\n\n 1 10 1 \n\nl;lll,\nlw.\n\". \"\nec\n\nu \n.\noea\"l\"\n1o  11o\n\",\n,1 ,\n.\ne\na\nor e \n.\nn lelel  \n.\n\nmol 1e. 2m: yo rano 9m e0013om1c0\n\noO\ne 11. 1\nl,\n111. 1\n\n ",
+      "text_nfc": "228\n1\n\n 1 10 1 \n\nl;lll,\nlw.\n\". \"\nec\n\nu \n.\noea\"l\"\n1o  11o\n\",\n,1 ,\n.\ne\na\nor e \n.\nn lelel  \n.\n\nmol 1e. 2m: yo rano 9m e0013om1c0\n\noO\ne 11. 1\nl,\n111. 1\n\n ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

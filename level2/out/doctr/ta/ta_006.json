@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_006",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series : 2LKNM\nSET 2 4\n0100173,5ITOT 5Mu0 616007 10\nOIrGOs 61600T.\nQ.P. Code\nRoll No.\nLDITGOOTQITSOIT alloormi,5alla Qan@asbut-Gaten\n(5p 6T60T606O0T alo35ofloir 5GOQULLL\nY -\n(\nL553Jo GT(LD50/LD.\nCandidates must write the Q.P. Code on\nthe title page of the answer-book.\n004 / NOTE :\n(I)\n065\nalloorm3,5iafle\n989LDOLIDD\n11\n1551150T 20TO16058\nFfumid50flb.\nPlease check that this question paper contains 11 printed pages.\n(II) alooir3,5iorlobr 010051L165580 05T055LULGGITOT (50 6T600T60)600T\n(Code No) 0OL 55IoHOT 5G0QULILL u55330 GTLD501LD.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III) 6 15 alloormi,5iafle 14 096T1T35501T 2OITOITGOTQJIT 6T6015 afumris50/ib.\nPlease check that this question paper contains 14 questions.\n(IV) GTCD53 GSITL 1501305 (LDOOT oMlooL35Tafla 0900TITOPGOT OIIoos\nGIGOOTGOGOOT GETOSDuLLGGtan 0L5Do 5DULILGILD.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n(V)\nall6oT35,5I6DOTL LDU5D5 15 BLOLI150T 95165LULLGGTOTOOT.\n01611351GT 10.15 353 G5T065DU0LD 10.15 Ooi 0555 10.30 OJ6OJ\naloot35TGDGT\nLDLGLD\nLL55\nGOLGOTOLD.\n065\nG5U3Bo\nalGoL35ofla 61B5L LBGOQUULD 6TLD5350 L IT51.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n8\n5LDLD\nTAMIL\nSITOU 90T04 : 3 LDOOof\nOLDT.LDSLIOLIGOT50IT : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n10\n1104\nPage 1 of12\nP.T.O.",
+      "text_nfc": "Series : 2LKNM\nSET 2 4\n0100173,5ITOT 5Mu0 616007 10\nOIrGOs 61600T.\nQ.P. Code\nRoll No.\nLDITGOOTQITSOIT alloormi,5alla Qan@asbut-Gaten\n(5p 6T60T606O0T alo35ofloir 5GOQULLL\nY -\n(\nL553Jo GT(LD50/LD.\nCandidates must write the Q.P. Code on\nthe title page of the answer-book.\n004 / NOTE :\n(I)\n065\nalloorm3,5iafle\n989LDOLIDD\n11\n1551150T 20TO16058\nFfumid50flb.\nPlease check that this question paper contains 11 printed pages.\n(II) alooir3,5iorlobr 010051L165580 05T055LULGGITOT (50 6T600T60)600T\n(Code No) 0OL 55IoHOT 5G0QULILL u55330 GTLD501LD.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III) 6 15 alloormi,5iafle 14 096T1T35501T 2OITOITGOTQJIT 6T6015 afumris50/ib.\nPlease check that this question paper contains 14 questions.\n(IV) GTCD53 GSITL 1501305 (LDOOT oMlooL35Tafla 0900TITOPGOT OIIoos\nGIGOOTGOGOOT GETOSDuLLGGtan 0L5Do 5DULILGILD.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n(V)\nall6oT35,5I6DOTL LDU5D5 15 BLOLI150T 95165LULLGGTOTOOT.\n01611351GT 10.15 353 G5T065DU0LD 10.15 Ooi 0555 10.30 OJ6OJ\naloot35TGDGT\nLDLGLD\nLL55\nGOLGOTOLD.\n065\nG5U3Bo\nalGoL35ofla 61B5L LBGOQUULD 6TLD5350 L IT51.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n8\n5LDLD\nTAMIL\nSITOU 90T04 : 3 LDOOof\nOLDT.LDSLIOLIGOT50IT : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n10\n1104\nPage 1 of12\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

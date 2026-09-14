@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_088",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 32,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "MIRAI jo അച്ചുനമമാരും ശജരനു പിരത്ന്\naM BO നാട്ടുവിളുചാൻ തിച്ചയാക്കി . . കൈുതല്ലായി ao\n[55 നെല്ലാ രയ്ചിടള്ജ് റല്ലാം വിശസ്ുനായ്\nത്രനു apes). . ലലതുന്നതിനന് മമ്വയിത്തന്നെ്\neo aa 5,8 maEslewdg” wow aiowmioledaio —\noo ec leis സങ്കടമുണ്ടായിരുന്നു Aordaso क0600\n\nSlyaieaemiovo mancmde aitlemnidee ०28 21512:\nSangnca somes ame ine anil 9 aap mens om |g. go\nMvawemrn’ grates lalame @paidte siednajosS) 2०० ते\nSo Goce asoens OIaeaiNAaI0 agin ailardeajo eoollaat\n\n66) ७006 ay wommarlwocmlajaa aicoxmorsiaje छठ,\n\nहरे O}9AID) BayHa1SOOs ow’. पद, कि G08\nATO GUID Ceamlim  croso0g) ama leo aiQes\n\nBi\n\n00९95: asalai weno axa oleeeOjon-a1\nIB A©. ‘enmayeanig as) 19s Moamlajo ajo law\n259g \\Sc10 | giao gone! a) leas cloaca,\n08 വലതു o ioewNeadog {la} :\nMogoilgeai9.cm BCae BE ഭൃത്തിൽളങ്ങുെ BOO\naie MERGING ISN Blo “aigegargal goomoacrarge my\nDOO le? aoarcenn gyasow lee ८०००) Gea Boca\n\nVAD MIA WI24 MTB Ais\nMIUDHIEAEMDIoM@D.a10\", aj0ng\\Solnato ०030० 8\n20 @a.ipsa0 iad Bowne k जिला: ACBAIMVEDOHISG -\n\n",
+      "text_nfc": "MIRAI jo അച്ചുനമമാരും ശജരനു പിരത്ന്\naM BO നാട്ടുവിളുചാൻ തിച്ചയാക്കി . . കൈുതല്ലായി ao\n[55 നെല്ലാ രയ്ചിടള്ജ് റല്ലാം വിശസ്ുനായ്\nത്രനു apes). . ലലതുന്നതിനന് മമ്വയിത്തന്നെ്\neo aa 5,8 maEslewdg” wow aiowmioledaio —\noo ec leis സങ്കടമുണ്ടായിരുന്നു Aordaso क0600\n\nSlyaieaemiovo mancmde aitlemnidee ०28 21512:\nSangnca somes ame ine anil 9 aap mens om |g. go\nMvawemrn’ grates lalame @paidte siednajosS) 2०० ते\nSo Goce asoens OIaeaiNAaI0 agin ailardeajo eoollaat\n\n66) ७006 ay wommarlwocmlajaa aicoxmorsiaje छठ,\n\nहरे O}9AID) BayHa1SOOs ow’. पद, कि G08\nATO GUID Ceamlim  croso0g) ama leo aiQes\n\nBi\n\n00९95: asalai weno axa oleeeOjon-a1\nIB A©. ‘enmayeanig as) 19s Moamlajo ajo law\n259g \\Sc10 | giao gone! a) leas cloaca,\n08 വലതു o ioewNeadog {la} :\nMogoilgeai9.cm BCae BE ഭൃത്തിൽളങ്ങുെ BOO\naie MERGING ISN Blo “aigegargal goomoacrarge my\nDOO le? aoarcenn gyasow lee ८०००) Gea Boca\n\nVAD MIA WI24 MTB Ais\nMIUDHIEAEMDIoM@D.a10\", aj0ng\\Solnato ०030० 8\n20 @a.ipsa0 iad Bowne k जिला: ACBAIMVEDOHISG -\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

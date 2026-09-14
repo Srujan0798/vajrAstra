@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_008",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-4-\nUBS - III-A\n(Gocunont Bgou GoJodorqwooa)\nGacunont-\n(i) 1951-20 gyoind wésoi 9688335108\nBiL3sor (43/1951) 8-20 OP60E Genis\n(e) 210f0 (1)-o07 bj wn6)5n6 500bS0sis /\n00m60sas1s ; S0OUS\n(e) 2i0f0 (2)-60 Bie 6p00LbucGoTor wn6)506\nsiugons Bowsiane satrtgdabucGoronagn;\ngyi, / B6606\nSoUoUg\n(ii). Gag oGgg0 5005s0an6 / s0gmsesdand.\nOoio0 syodor@sot S6J6US) 91506 Bumuie 6N6U\nSoT0Las Pooms SO0TL60)60T agasbuc@enonags?\nugo \"gi\" 6760P60, Gocurena, Oorobi aougriv6s6on aofés GouodrGi:\n(i) ougadot / (5o 5600 316o066\nGT60OT / 6T600T661:\n(li) 6066 Booowid (en660 Booswisson):\ninocei (DGUCLAGOt)\nonfoui (onfounssot)\n(iii) goi 6Tise ELL3SOT (sicnsofodr)\nsrisi S86760 (Ofojsofodr) Bj somorof\nO)woors ShousfaaducGoronady wmgio\n60m3567 (somisofor) 6666 oougi:\n(iv) Ebpaucaro)werd Shoraaabuct 5no7.\n(BnL6on):\n(v) Gouconoronge 6bpaunaP6)wes\nShduoss Bgoormi (B80ohgdusot):\n(vi) Ogasouit 500TL60)60T (5ocorLooorsot)\n[86ms SoL60)OT an600 (snourussot)\nongo / goiog sugnss 050606\n(6)5060)6607) 916T04 yewanoone\nM0OLOLo]\n(vil) Poouaibs 690560)60 6)eiwouil\nBron (snisor)\n(5.0ur.)",
+      "text_nfc": "-4-\nUBS - III-A\n(Gocunont Bgou GoJodorqwooa)\nGacunont-\n(i) 1951-20 gyoind wésoi 9688335108\nBiL3sor (43/1951) 8-20 OP60E Genis\n(e) 210f0 (1)-o07 bj wn6)5n6 500bS0sis /\n00m60sas1s ; S0OUS\n(e) 2i0f0 (2)-60 Bie 6p00LbucGoTor wn6)506\nsiugons Bowsiane satrtgdabucGoronagn;\ngyi, / B6606\nSoUoUg\n(ii). Gag oGgg0 5005s0an6 / s0gmsesdand.\nOoio0 syodor@sot S6J6US) 91506 Bumuie 6N6U\nSoT0Las Pooms SO0TL60)60T agasbuc@enonags?\nugo \"gi\" 6760P60, Gocurena, Oorobi aougriv6s6on aofés GouodrGi:\n(i) ougadot / (5o 5600 316o066\nGT60OT / 6T600T661:\n(li) 6066 Booowid (en660 Booswisson):\ninocei (DGUCLAGOt)\nonfoui (onfounssot)\n(iii) goi 6Tise ELL3SOT (sicnsofodr)\nsrisi S86760 (Ofojsofodr) Bj somorof\nO)woors ShousfaaducGoronady wmgio\n60m3567 (somisofor) 6666 oougi:\n(iv) Ebpaucaro)werd Shoraaabuct 5no7.\n(BnL6on):\n(v) Gouconoronge 6bpaunaP6)wes\nShduoss Bgoormi (B80ohgdusot):\n(vi) Ogasouit 500TL60)60T (5ocorLooorsot)\n[86ms SoL60)OT an600 (snourussot)\nongo / goiog sugnss 050606\n(6)5060)6607) 916T04 yewanoone\nM0OLOLo]\n(vil) Poouaibs 690560)60 6)eiwouil\nBron (snisor)\n(5.0ur.)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

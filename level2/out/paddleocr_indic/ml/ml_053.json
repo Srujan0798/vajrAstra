@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_053",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0016pro_raw.pdf",
+    "page_index": 120,
+    "width": 945,
+    "height": 1496
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        945,
+        1496
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Boooreyo\n97\n\"\ne l    \n\"\nesailooejley.\n\"  \noo sreoeoeeeoaoaleclo\nsGomle\"m gmlood seooo\nGO.\n\"   u ;\n\n \n\"re.\no! olnle muloao lescol\nle\n\n\" \n2\n\n \nioelie\n0\nOJ\ns \ngledo slao. l sa ran\nrlemle.\n \nemlol ymole oo fao eoejor\neaee\n13*",
+      "text_nfc": "Boooreyo\n97\n\"\ne l    \n\"\nesailooejley.\n\"  \noo sreoeoeeeoaoaleclo\nsGomle\"m gmlood seooo\nGO.\n\"   u ;\n\n \n\"re.\no! olnle muloao lescol\nle\n\n\" \n2\n\n \nioelie\n0\nOJ\ns \ngledo slao. l sa ran\nrlemle.\n \nemlol ymole oo fao eoejor\neaee\n13*",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

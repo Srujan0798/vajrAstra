@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_006",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\nSeries :\n2LKNM\nSET~4\nவினாத்தாள் குறியீடுஎண்\n10\nQ.P. Code\nவரிசை எண்.\nRoll No.\nமாணவர்கள் வினாத்தாளில் கொடுக்கப்பட்டுள்ள்\nகுறி\nஎண்ணைவிடைத்தாளின்\n தலைப்புப்\nபக்கத்தில் எழுதவும்.\nCandidates must write the Q.P. Code on\nthe title page of the answer-book.\nகுறிப்பு / NOTE :\n(I)\nஇந்த\nவினாத்தாளில்\nஅச்சிடப்பெற்ற 11பக்கங்கள்உள்ளதைச்\nசரிபார்க்கவும்.\nPlease check that this question paper contains 11 printed pages.\n(II)\nவினாத்தாளின்வலதுபக்கத்தில்கொடுக்கப்பட்டுள்ளகுறிஎண்ணை\n(ode N)விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுதவும்.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III)\nஇந்த வினாத்தாளில் 14 வினாக்கள் உள்ளனவா எனச் சரிபார்க்கவும்.\nPlease check that this question paper contains 14 questions.\n(IV)\nஎழுதத்தொடங்குவதற்குமுன்விடைத்தாளில் வினாவின்வரிசை\nஎண்ணக் கொடுக்கப்பட்டுள்ள இடத்தில் குறிப்பிடவும்.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\nV)\nவினாத்தாளைப்படிப்பதற்குக 15நிமிடங்கள்ஒதுக்கப்பட்டுள்ளன.\nவினாத்தாள் 10.15 க்குக் கொடுக்கப்படும் 10.15 இல் இருந்து 10.30 வரை\nவினாத்தாளைமட்டும்படிக்க\nவேண்டும்.\nஇந்த\nநேரத்தில்\nவிடைத்தாளில் எந்தப் பதிலையும் எழுதக்கூடாது.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n{0}\nதமிழ்\nTAMIL\nகால அளவு : 3 மணி\nமொ. மதிப்பெண்கள் : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n10\n1104\nPage 1 of 12\nP.T.O.",
+      "text_nfc": "\nSeries :\n2LKNM\nSET~4\nவினாத்தாள் குறியீடுஎண்\n10\nQ.P. Code\nவரிசை எண்.\nRoll No.\nமாணவர்கள் வினாத்தாளில் கொடுக்கப்பட்டுள்ள்\nகுறி\nஎண்ணைவிடைத்தாளின்\n தலைப்புப்\nபக்கத்தில் எழுதவும்.\nCandidates must write the Q.P. Code on\nthe title page of the answer-book.\nகுறிப்பு / NOTE :\n(I)\nஇந்த\nவினாத்தாளில்\nஅச்சிடப்பெற்ற 11பக்கங்கள்உள்ளதைச்\nசரிபார்க்கவும்.\nPlease check that this question paper contains 11 printed pages.\n(II)\nவினாத்தாளின்வலதுபக்கத்தில்கொடுக்கப்பட்டுள்ளகுறிஎண்ணை\n(ode N)விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுதவும்.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n(III)\nஇந்த வினாத்தாளில் 14 வினாக்கள் உள்ளனவா எனச் சரிபார்க்கவும்.\nPlease check that this question paper contains 14 questions.\n(IV)\nஎழுதத்தொடங்குவதற்குமுன்விடைத்தாளில் வினாவின்வரிசை\nஎண்ணக் கொடுக்கப்பட்டுள்ள இடத்தில் குறிப்பிடவும்.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\nV)\nவினாத்தாளைப்படிப்பதற்குக 15நிமிடங்கள்ஒதுக்கப்பட்டுள்ளன.\nவினாத்தாள் 10.15 க்குக் கொடுக்கப்படும் 10.15 இல் இருந்து 10.30 வரை\nவினாத்தாளைமட்டும்படிக்க\nவேண்டும்.\nஇந்த\nநேரத்தில்\nவிடைத்தாளில் எந்தப் பதிலையும் எழுதக்கூடாது.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n{0}\nதமிழ்\nTAMIL\nகால அளவு : 3 மணி\nமொ. மதிப்பெண்கள் : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n10\n1104\nPage 1 of 12\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

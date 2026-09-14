@@ -1,0 +1,41 @@
+{
+  "page_id": "te_009",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0009pro_raw.pdf",
+    "page_index": 27,
+    "width": 596.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        596.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "B\n(28\nLJ/806\n111. The cost of depreciation generation funds is 116. Sales value variance is the difference between\nequal to\n Standard sales and Actual sales\n Cost of equity\n Budgeted sales and Actual sales\n Cost of debt\n Standard sales and Budgeted sales\nOverall cost of capital\n(4) Industry sales and Firm's sales\n(4) Cost of retained earnings\n117. When margin of safety is 20 percent and P/V\n112. The interest rate that equates the present\nratio is 60 percent, the profit will be\nvalue of the expected future cash flows to the\ninitial cost outlay is\n(1) 30 percent\n(1) ARR\n(2)\n33\npercent\n(2)NPV\n3\n(3)\n12 percent\nIRR\n(4) 16 percent\n4) Payback\n118. The difference between fixed and variable\n113. The most important variable\nwhile\ncost has a special significance in the\ncalculating the cost of debt is\npreparation of\n) Earnings\n) Master budget\n Dividends\n Flexible budget\n: ) Investment\n Cash budget\n(4) Tax rate\n(4) Functional budget\n114. Which one of the following will take place\n119. The time normally taken in replenishing\nwhen a fair return is not realized as\ninventory after the order has been placed is\ncapitalization ?\n1) Gestation time\n() Under capitalization\n(2) Moderate capitalization\n Operating time\n(3)  Over capitalization\n3) Lead time\n(4) No capitalization\n4) Replenishing time\n115. The ratio that indicates a firm's commitment120. Market risk is measured by\nto meet short-term liabilities is called\n Beta co-efficient\n(1)  Proprietory ratio\n(2) EBIT\n) Turnover ratio\n Degree of leverage\n(3) ROI\n(4) Current ratio\n4) Degree of freedom",
+      "text_nfc": "B\n(28\nLJ/806\n111. The cost of depreciation generation funds is 116. Sales value variance is the difference between\nequal to\n Standard sales and Actual sales\n Cost of equity\n Budgeted sales and Actual sales\n Cost of debt\n Standard sales and Budgeted sales\nOverall cost of capital\n(4) Industry sales and Firm's sales\n(4) Cost of retained earnings\n117. When margin of safety is 20 percent and P/V\n112. The interest rate that equates the present\nratio is 60 percent, the profit will be\nvalue of the expected future cash flows to the\ninitial cost outlay is\n(1) 30 percent\n(1) ARR\n(2)\n33\npercent\n(2)NPV\n3\n(3)\n12 percent\nIRR\n(4) 16 percent\n4) Payback\n118. The difference between fixed and variable\n113. The most important variable\nwhile\ncost has a special significance in the\ncalculating the cost of debt is\npreparation of\n) Earnings\n) Master budget\n Dividends\n Flexible budget\n: ) Investment\n Cash budget\n(4) Tax rate\n(4) Functional budget\n114. Which one of the following will take place\n119. The time normally taken in replenishing\nwhen a fair return is not realized as\ninventory after the order has been placed is\ncapitalization ?\n1) Gestation time\n() Under capitalization\n(2) Moderate capitalization\n Operating time\n(3)  Over capitalization\n3) Lead time\n(4) No capitalization\n4) Replenishing time\n115. The ratio that indicates a firm's commitment120. Market risk is measured by\nto meet short-term liabilities is called\n Beta co-efficient\n(1)  Proprietory ratio\n(2) EBIT\n) Turnover ratio\n Degree of leverage\n(3) ROI\n(4) Current ratio\n4) Degree of freedom",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

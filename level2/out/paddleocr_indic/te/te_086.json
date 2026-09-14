@@ -1,0 +1,41 @@
+{
+  "page_id": "te_086",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n Series G7DEF\n Set - 4\n(పశ్న–ప(త కోడ్\n11\nQ.P. Code\nరోల్ నం.\nఅభ్యర్థులు\nపశ్ళపతం\nకోడ్ను\nసమాధానప(తం\nRoll No.\nI\n' యొక్క శ్రిక పుటలో రాయాలి.\nI\n: Candidates must write the Q.P. Code\nI\n: on the title page of the answer-book.\nఈ (పశ్న ప(తంలో అచ్చు వేసిన 15 పుటలు ఉన్నాయో లేదో చూడండి.\nవిద్యార్థి (పశ్న ప(తంలో కుడివైపు ఇచ్చిన (పశ్న పతం కోడ్ సంఖ్య సమాధాన ప(తంలోని ముఖ ప(తంలో\nఉండాలి.\n17 (పశ్నలు ఉన్నది లేనిది పరిశీలించండి.\nసమాధానాలను రాయడానికి ముందు (పశ్స ప(తంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి.\nφ\nఈ (పశ్న ప(తాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. (ప్స ప(తం ఉదయం 10.15 ని కు\nయివ్వబడుతుంది. 10.15 నుండి 10.30 వరకు విద్యార్జులు (ప్న ప(తాన్ని చదవాలి. ఈ కాలంలో సమాధాన\nప(తంలో ఏమీ రాయకూడదు.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 17 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\nతెలుగు\nTELUGU\nసమయం : 3 గంటలు\nమొత్తం మార్కులు : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n11\n5169\n* Page 1of 16 *\nP.T.O.\n11",
+      "text_nfc": "\n Series G7DEF\n Set - 4\n(పశ్న–ప(త కోడ్\n11\nQ.P. Code\nరోల్ నం.\nఅభ్యర్థులు\nపశ్ళపతం\nకోడ్ను\nసమాధానప(తం\nRoll No.\nI\n' యొక్క శ్రిక పుటలో రాయాలి.\nI\n: Candidates must write the Q.P. Code\nI\n: on the title page of the answer-book.\nఈ (పశ్న ప(తంలో అచ్చు వేసిన 15 పుటలు ఉన్నాయో లేదో చూడండి.\nవిద్యార్థి (పశ్న ప(తంలో కుడివైపు ఇచ్చిన (పశ్న పతం కోడ్ సంఖ్య సమాధాన ప(తంలోని ముఖ ప(తంలో\nఉండాలి.\n17 (పశ్నలు ఉన్నది లేనిది పరిశీలించండి.\nసమాధానాలను రాయడానికి ముందు (పశ్స ప(తంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి.\nφ\nఈ (పశ్న ప(తాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. (ప్స ప(తం ఉదయం 10.15 ని కు\nయివ్వబడుతుంది. 10.15 నుండి 10.30 వరకు విద్యార్జులు (ప్న ప(తాన్ని చదవాలి. ఈ కాలంలో సమాధాన\nప(తంలో ఏమీ రాయకూడదు.\nPlease check that this question paper contains 15 printed pages.\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\nPlease check that this question paper contains 17 questions.\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\nతెలుగు\nTELUGU\nసమయం : 3 గంటలు\nమొత్తం మార్కులు : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n11\n5169\n* Page 1of 16 *\nP.T.O.\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

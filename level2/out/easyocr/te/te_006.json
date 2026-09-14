@@ -1,0 +1,41 @@
+{
+  "page_id": "te_006",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0006pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series 2LKNM\nSET ~ 4\nపప్రశ్నా పత్రం కోడ్ 57 QP Code అభ్యర్థులు పతత్రం కోడ్ొను సమాధాన పత్రం యొక్క శీర్షిక పుటలో రాయాలి. Candidates must write the QP Code on the title page of the answer-book:\nనం:\nRoll 11o:\nఓ\nNOTE\nఈ ప్రశ్నపత్రం అచ్చు వేసిన 15 పుటలు చూడండి Please check that this question paper contains 15 printed pages: విద్యార్థి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న పత్రం కోడ్ సంఖ్యను సమాధాన పత్రంలోని ముఖ పత్రంలో\nCP Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate (IIT) 18 ప్రశ్నలు ఉన్నది లేనిది పరిశీలించండి Please check that this question paper contains 18 questions (IV) సమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి Please write down the serial number of the question in the answer- book at the given place before attempting it పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. ప్రశ్న పత్రం ఉదయం 10.15 ని.లకు ఇవ్వబడుతుంది: 10.15 నుండి 10.30 వరకు విద్యార్థులు ప్రశ్న పత్రాన్ని చదవాలి ఈ కాలంలో సమాధాన పతత్రంలో ఏమీ రాయకూడదు: 15 minute time has been allotted to read this question paper The question paper will be distributed at 10.15 a11 From 10.15 &.In to 10.30 a.I , the candidates will read the question paper only and will not write any answer on the answer-book during this period:\nతెలుగు మ తెలంగాణ TELUGU TELANGANA\nసమయం 3 గంటలు\nమొత్తం మార్కులు 80 Muమumum Marks 80\nTime duloued 8 Iours\n57 1127\nPage 1of 16\nPT.0",
+      "text_nfc": "Series 2LKNM\nSET ~ 4\nపప్రశ్నా పత్రం కోడ్ 57 QP Code అభ్యర్థులు పతత్రం కోడ్ొను సమాధాన పత్రం యొక్క శీర్షిక పుటలో రాయాలి. Candidates must write the QP Code on the title page of the answer-book:\nనం:\nRoll 11o:\nఓ\nNOTE\nఈ ప్రశ్నపత్రం అచ్చు వేసిన 15 పుటలు చూడండి Please check that this question paper contains 15 printed pages: విద్యార్థి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన ప్రశ్న పత్రం కోడ్ సంఖ్యను సమాధాన పత్రంలోని ముఖ పత్రంలో\nCP Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate (IIT) 18 ప్రశ్నలు ఉన్నది లేనిది పరిశీలించండి Please check that this question paper contains 18 questions (IV) సమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని వరుస సంఖ్యను రాయండి Please write down the serial number of the question in the answer- book at the given place before attempting it పత్రాన్ని చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది. ప్రశ్న పత్రం ఉదయం 10.15 ని.లకు ఇవ్వబడుతుంది: 10.15 నుండి 10.30 వరకు విద్యార్థులు ప్రశ్న పత్రాన్ని చదవాలి ఈ కాలంలో సమాధాన పతత్రంలో ఏమీ రాయకూడదు: 15 minute time has been allotted to read this question paper The question paper will be distributed at 10.15 a11 From 10.15 &.In to 10.30 a.I , the candidates will read the question paper only and will not write any answer on the answer-book during this period:\nతెలుగు మ తెలంగాణ TELUGU TELANGANA\nసమయం 3 గంటలు\nమొత్తం మార్కులు 80 Muమumum Marks 80\nTime duloued 8 Iours\n57 1127\nPage 1of 16\nPT.0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

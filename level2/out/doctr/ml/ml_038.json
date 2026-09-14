@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_038",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 4,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "5\nG000950000g 0llgla18 Qlazorogm asgle@s.d....\naeOdo GO0U066B00 aloorogm alaf060d coDonslolglyd Uoelo Oal0olso Onl\n0005300 GOQI60 G(IDONOnDlalleeogm @O@od..\n9D600606) ml66330d munlooool 606mgom mUO.MOGeog60g00lom dol 060.\n60000 NOOOnd aImO QImOQIO0/00lo0, 068003 000(006m. goleooo G0303\n6n006mlod ayjoafooooldloleogemioud n0on8 apoldmlglod oloogm Qaioloo\nOQn0Io 00(O0 8n0060d Qnlcoouleogmles GOQIO oolodoud Grog0lod\nBmoloud @ololeoso. oioloos 00OO algdlsod@nJ0oe1, pogmlo0gge\n0361000 0OOO eodeonel6aBud mloororologoma. oOnoY 00000.6000\nG1OQ13OS Oalofolo logallog.sogmgent. 01009, alldongoeglo agoorogmlmgo\na0gauslocomgo DD6 00(O0. (IOGONUDQo, 60008 Q0O0lo Q10663l0\nnomlo0o QIOOlY UOQo Galo@rooloorolg GOOSQo @nsje0000003006, GO\nooroloos Oalosleonalad Bo506m G10B661305 ollonsjo (oruleyo. GOQJUd\nallonsjo mujesayaoal 00600000000 GOQIGBOS 0(0019/0006nclogoma. 6150lad\nBQICDO 030/6afoud-\nBnloSS.. .mupole 610060000 000000.6...\n00ml63360 GOQINO aloormos COSd. Goolmg ao00001 GOQIS G060\n00610103 0106000 6D(O 00(Oo-\n\"co Bo0OGSO omglod n00 Buld 656n30006000 II\nW0O0ood alelolo GOQI60 (oreuloogmo d6nsGAJO00 OQIoY Qg060 ollgol.\n2500000, GOJSQOn 60000 DOsarlarolmood allommnog Mogalapocim\nGoololg. G10631360, aeolo 0D80J000 00o08 alrowleeld6 boolaide0la006m.\n00091008 gdloloo nug0n00dogmp Qgo00wleo muocaoles olefoud 6303\nQIVOOY ile.mulgl.eog@mioud\n00JQI0OOI0,\nn)66136006).006d6 (3808016Q000\n00100600 donsalslay edo1068308 B3ngllafloogoma. Geieorolong soon omloo\n(Juomsupgleel.es 0dafde-00ond 60IM108 0609936006. mUnOlo UQo\nGIOMUOOJo 00omp0 (conumvaaloérjo Qdols emmlesudaloo 26030061\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "text_nfc": "5\nG000950000g 0llgla18 Qlazorogm asgle@s.d....\naeOdo GO0U066B00 aloorogm alaf060d coDonslolglyd Uoelo Oal0olso Onl\n0005300 GOQI60 G(IDONOnDlalleeogm @O@od..\n9D600606) ml66330d munlooool 606mgom mUO.MOGeog60g00lom dol 060.\n60000 NOOOnd aImO QImOQIO0/00lo0, 068003 000(006m. goleooo G0303\n6n006mlod ayjoafooooldloleogemioud n0on8 apoldmlglod oloogm Qaioloo\nOQn0Io 00(O0 8n0060d Qnlcoouleogmles GOQIO oolodoud Grog0lod\nBmoloud @ololeoso. oioloos 00OO algdlsod@nJ0oe1, pogmlo0gge\n0361000 0OOO eodeonel6aBud mloororologoma. oOnoY 00000.6000\nG1OQ13OS Oalofolo logallog.sogmgent. 01009, alldongoeglo agoorogmlmgo\na0gauslocomgo DD6 00(O0. (IOGONUDQo, 60008 Q0O0lo Q10663l0\nnomlo0o QIOOlY UOQo Galo@rooloorolg GOOSQo @nsje0000003006, GO\nooroloos Oalosleonalad Bo506m G10B661305 ollonsjo (oruleyo. GOQJUd\nallonsjo mujesayaoal 00600000000 GOQIGBOS 0(0019/0006nclogoma. 6150lad\nBQICDO 030/6afoud-\nBnloSS.. .mupole 610060000 000000.6...\n00ml63360 GOQINO aloormos COSd. Goolmg ao00001 GOQIS G060\n00610103 0106000 6D(O 00(Oo-\n\"co Bo0OGSO omglod n00 Buld 656n30006000 II\nW0O0ood alelolo GOQI60 (oreuloogmo d6nsGAJO00 OQIoY Qg060 ollgol.\n2500000, GOJSQOn 60000 DOsarlarolmood allommnog Mogalapocim\nGoololg. G10631360, aeolo 0D80J000 00o08 alrowleeld6 boolaide0la006m.\n00091008 gdloloo nug0n00dogmp Qgo00wleo muocaoles olefoud 6303\nQIVOOY ile.mulgl.eog@mioud\n00JQI0OOI0,\nn)66136006).006d6 (3808016Q000\n00100600 donsalslay edo1068308 B3ngllafloogoma. Geieorolong soon omloo\n(Juomsupgleel.es 0dafde-00ond 60IM108 0609936006. mUnOlo UQo\nGIOMUOOJo 00omp0 (conumvaaloérjo Qdols emmlesudaloo 26030061\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

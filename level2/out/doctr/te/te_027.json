@@ -1,0 +1,41 @@
+{
+  "page_id": "te_027",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0027pro_raw.pdf",
+    "page_index": 29,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "* D180565 Sosegss 3Lowod. Sosesy aooair esyhcses a\nSS0s Xas6\nRobod. awoo fgoss 33,00 ae3 soggass 255y05 xast oobod.\nI\nI\nI\n4\n* doto Savribosto WCON Byowod. awoo Wge Nops oobod.\n- E\neeee\nsoroev\nsonooov\neeeeeee\n7\nsorooev\nSeosts Wevsev\nBersts Devsev\n20\nATE\nATV\nSorssDeuses\nI",
+      "text_nfc": "* D180565 Sosegss 3Lowod. Sosesy aooair esyhcses a\nSS0s Xas6\nRobod. awoo fgoss 33,00 ae3 soggass 255y05 xast oobod.\nI\nI\nI\n4\n* doto Savribosto WCON Byowod. awoo Wge Nops oobod.\n- E\neeee\nsoroev\nsonooov\neeeeeee\n7\nsorooev\nSeosts Wevsev\nBersts Devsev\n20\nATE\nATV\nSorssDeuses\nI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_010",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0011pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 586
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        586
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-6-\ncei mudeojeslos manuojood\nen.01-31609/09 mloal 3L10.1989\naogo cuojanal gomanl mos-ahoaugmmoent.\n4. mogmlos ajslmonia\nnigo motajm aooymolod\nesuseugemegenog\ngnasuolacomjo\nmpruojaca\nmunnomesaud, Gajgyomo\nnlage\naanglaudes\ncouleobajent cuad 72 EE lnuono unnuentoangio omuglad\nalomujo msamal allagt\ndaaglaus ojalalesoo. ajslaomia demueglos\nnoepo\nmomplense nuelaubowm msaral mhucomymuoeho endnnmayse\najslmomon)es msal\nely (umulaulanla) gouded nibaaymy mudgholeng\nmadaon\nerondri\noesmugemengeagos\nalags\ntaagles\ngauanunleongammoai. Do aonyomlns slep agdisojes aslomo\nmusonuajse aandamoganjo gogausymmongmmoai.\nw0 elgylang\nmeskruoomaoilod egauunjonalob mudenod gomonleges 8o elgy\nmoulaoly mosiasongemyaoen. D0 algylong ajs1 enuglajooles\neondris ceisenigemennd mlmi nudaaym muigholeog mose.onummoend.\n5. ajsimomia, djslalsa\nmysemsluasjaccal mumwons Eemonuesouto\ngoggaujamyem\naneD\nnugmo' agemosn gmi aujondesaoan\ngruaauourleayemai. gar wo0ogo omgluonem gensoeajmjent ngemons\ncuala 72(1) 01,01.1970 aymad mudaconlos enladaimanachuledaoym\n000J000D0 msa] ajslaont\nalemed 0u06a3j4scoam Baiggmei, erontris\noe(seugemad al gautod 'antaam mudghdleagosn\" mobajmi.\nCuhla 72 D (IA) (nle000 a0) Onndisolos mo690188 00BCJUD sjaled\nnudaamy Golam (lamode) ajslmons mataeeramlt djsoom manjoud\n0000100\najsloseng\nbeanv0ajee\nmowonmaleer Onanugelod\najslmoaio\ngmo\nI aoemo,\necuojmiogo\nmjsensloas)\nasuiongsymnhalelaoymey onomsoent gnuded semmonue-ubo midoynolall\nmedesatad. mloodmo ala.mowonmaleng gegseomalos Nuelanoeo\nTenancy condition geneo@smeamilel\n01.04.1964 aubnlo\nnowjolm\nmgwooeusgles\nGnlbeno\nOntrwggles\najslooala\nomo\nansuonsysulnunym) cub 74(1) Injaono 01.04.1964 m aconato ajslmoala\nmuj-aislenont aJostgormlmores Oranwgeles aonuahoubamaliong omo\nansuogsyemmhuloleoym\najshmoaiaajes\nmuRonuo\nmlmanubaomn\nmamioteaymme:",
+      "text_nfc": "-6-\ncei mudeojeslos manuojood\nen.01-31609/09 mloal 3L10.1989\naogo cuojanal gomanl mos-ahoaugmmoent.\n4. mogmlos ajslmonia\nnigo motajm aooymolod\nesuseugemegenog\ngnasuolacomjo\nmpruojaca\nmunnomesaud, Gajgyomo\nnlage\naanglaudes\ncouleobajent cuad 72 EE lnuono unnuentoangio omuglad\nalomujo msamal allagt\ndaaglaus ojalalesoo. ajslaomia demueglos\nnoepo\nmomplense nuelaubowm msaral mhucomymuoeho endnnmayse\najslmomon)es msal\nely (umulaulanla) gouded nibaaymy mudgholeng\nmadaon\nerondri\noesmugemengeagos\nalags\ntaagles\ngauanunleongammoai. Do aonyomlns slep agdisojes aslomo\nmusonuajse aandamoganjo gogausymmongmmoai.\nw0 elgylang\nmeskruoomaoilod egauunjonalob mudenod gomonleges 8o elgy\nmoulaoly mosiasongemyaoen. D0 algylong ajs1 enuglajooles\neondris ceisenigemennd mlmi nudaaym muigholeog mose.onummoend.\n5. ajsimomia, djslalsa\nmysemsluasjaccal mumwons Eemonuesouto\ngoggaujamyem\naneD\nnugmo' agemosn gmi aujondesaoan\ngruaauourleayemai. gar wo0ogo omgluonem gensoeajmjent ngemons\ncuala 72(1) 01,01.1970 aymad mudaconlos enladaimanachuledaoym\n000J000D0 msa] ajslaont\nalemed 0u06a3j4scoam Baiggmei, erontris\noe(seugemad al gautod 'antaam mudghdleagosn\" mobajmi.\nCuhla 72 D (IA) (nle000 a0) Onndisolos mo690188 00BCJUD sjaled\nnudaamy Golam (lamode) ajslmons mataeeramlt djsoom manjoud\n0000100\najsloseng\nbeanv0ajee\nmowonmaleer Onanugelod\najslmoaio\ngmo\nI aoemo,\necuojmiogo\nmjsensloas)\nasuiongsymnhalelaoymey onomsoent gnuded semmonue-ubo midoynolall\nmedesatad. mloodmo ala.mowonmaleng gegseomalos Nuelanoeo\nTenancy condition geneo@smeamilel\n01.04.1964 aubnlo\nnowjolm\nmgwooeusgles\nGnlbeno\nOntrwggles\najslooala\nomo\nansuonsysulnunym) cub 74(1) Injaono 01.04.1964 m aconato ajslmoala\nmuj-aislenont aJostgormlmores Oranwgeles aonuahoubamaliong omo\nansuogsyemmhuloleoym\najshmoaiaajes\nmuRonuo\nmlmanubaomn\nmamioteaymme:",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

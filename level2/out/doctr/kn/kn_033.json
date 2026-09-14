@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_033",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 52,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "7.2 What Helps Creativity?\nHave you ever made up a new game? Cooked something by mixing things in a new way?\nThat's creativity! It doesn't only belong to artists or scientists, it belongs to all of us.\nBeavers build dams, birds build nests but they do it the same way every time. We, on the\nother hand, can invent new music, change the way we dress, even make machines that\ntalk like humans! But what helps us become more creative? And what blocks us?\nStory Time!\nSana lived in a small town. Her father\nwas a rickshaw puller, and they had\nEntertaining\nonly one room with no gas connection.\nTalking to\ndifferent ideas,\nShe noticed that the sun heated the\nwith people diverse\nexperimenting,\nexploring\ntin roof of their house SO much that\nbackgrounds\nit could burn her fingers. One day,\nshe saw an old shiny plate and some\nbroken glass pieces, that gave her\nan idea. What if she could use the\nsun's heat to cook? She tried different\nsetups using an old shoebox, black\npaint, foil wrappers, and glass, failing\nmany times. But she didn't give up.\nL\nReading\nAfter two weeks of testing and fixing,\nFeeling\nabout lot\ninspired\nMaking unusual\nof different\nSana made a solar cooker that could\nconnections\ntopics\nTaking\nheat water and cook rice! Her teachers\nbetween two things,\nlateral thinking\nwere amazed. Today, her design is\nbeing improved by an NGO to use in\nvillages with no access to fuel.\nChoose what helps you be\nfrom inspiration other's\ncreative:\ndesigns/\nAllowing ideas\nApplying\nthoughts\nto arise by\nideas from\nthemselves,\none field to\nnot force them\nanother\n0\nBeing\nBeing angry,\nBeing\npeaceful\nupset or irritated\nstressed\n45",
+      "text_nfc": "7.2 What Helps Creativity?\nHave you ever made up a new game? Cooked something by mixing things in a new way?\nThat's creativity! It doesn't only belong to artists or scientists, it belongs to all of us.\nBeavers build dams, birds build nests but they do it the same way every time. We, on the\nother hand, can invent new music, change the way we dress, even make machines that\ntalk like humans! But what helps us become more creative? And what blocks us?\nStory Time!\nSana lived in a small town. Her father\nwas a rickshaw puller, and they had\nEntertaining\nonly one room with no gas connection.\nTalking to\ndifferent ideas,\nShe noticed that the sun heated the\nwith people diverse\nexperimenting,\nexploring\ntin roof of their house SO much that\nbackgrounds\nit could burn her fingers. One day,\nshe saw an old shiny plate and some\nbroken glass pieces, that gave her\nan idea. What if she could use the\nsun's heat to cook? She tried different\nsetups using an old shoebox, black\npaint, foil wrappers, and glass, failing\nmany times. But she didn't give up.\nL\nReading\nAfter two weeks of testing and fixing,\nFeeling\nabout lot\ninspired\nMaking unusual\nof different\nSana made a solar cooker that could\nconnections\ntopics\nTaking\nheat water and cook rice! Her teachers\nbetween two things,\nlateral thinking\nwere amazed. Today, her design is\nbeing improved by an NGO to use in\nvillages with no access to fuel.\nChoose what helps you be\nfrom inspiration other's\ncreative:\ndesigns/\nAllowing ideas\nApplying\nthoughts\nto arise by\nideas from\nthemselves,\none field to\nnot force them\nanother\n0\nBeing\nBeing angry,\nBeing\npeaceful\nupset or irritated\nstressed\n45",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

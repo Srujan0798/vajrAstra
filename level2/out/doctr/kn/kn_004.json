@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_004",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0004pro_raw.pdf",
+    "page_index": 18,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n19\nE1\n149. 2k m AR8 xosada ao0s drod aee 154. 2000 40 uF podda 200 V, 50 Hz aaborab\nasoenonos aboot 3j N wea 38FAOO\nedo eeasaa do0b8000.\n(1) 6i N m\n(2) 65Nm\n(3) -6iNm\n(4)\n6k A N\nm\n150. 20 cm2 apeesd 6e3003 goges aoowa\nsbeers abees eowwoh N0078 20 Wlcm2 gos\n23060 ecesrogadd, 2od Daa socpawido\nabeets atd 38a :\n(1) 10x1 103J\n(2) 12x 103J\n(3) 24x1 103J\n(4) 48x 103J\n151. 10 cm\nSayodoa 200 riocecod woota\nwadeaide addoyooss 3.2x10-7C esesan\naoood. nocea deogdod 15 cm doda\nwowoson aaor des woaboro oany ?\n1\n4mE0\nx 109 N m21C2\n(1) 1.28 X 1011 N/C\n(2) 1.28 X 1051 N/C\n(3) 1.28 X 106 N/C\n(4) 1.28 107 N/C\nx\n152. wo0s\nDOFE seadon 2307 moga\n0.2 m3, edo aor odg Dedasase 5 V woas\nfocbdo@cahdodeod, e seabdon saye dead\nJoaoroa :\n(1) dory\n(2) 0.5 N/C\n(3) 1 N/C\n(4) 5N/C\na0 aedan Keoawon, wodedon aayer\naaoaod rms 2303at (saea3) :\n(1) 1.7A\n(2) 2.05 A\n(3) 2.5A\n(4) 25.1A\n155. erde wor d aas Hose NOUE n adoas 200\nesed XO0xo aod aoa neddoctado :\n1\n(1)\n(2)\n(3)\nV2 nmd\n1\nV2 nmd?\n1\nV2n?md?\n1\n(4) J2n22a2\n156.\nLOANO\nagabode d8 dend aoa aees\nxoobond ?\n(1) epod, euzesFo aas nead weaoreb 2ote\ndocdor roddada ascobdesed.\n(2)\nepod, eudesFt aba neas weabreb eode\nm3 aioobdesed.\n(3) CBEFE 2og eddodode neat\nBodoredtde OF Raberg endeseab.\n(4) ewod weab aoy Bow debwondeied\na3 ee\ndoezg\nendaed.\n157. asxowed WADOS abees 1.5 dap aiore\neajsab\n23883 eagabn ezedri.cexerhd. easaba\nedFRO9A aas Seadada aaar.ogacen\nevot3o7ba asoayar aaoaa :\n(1) aaparotbad\n(2) seepadesprbgd\n(3) Lodide-spodmmrbad\n(4) dor\n153. p-n asogayr dadectso dasary weaba ene 158. adwosato HWADA 235U en dotsorsod\nadood aesprbad :\n(1) OOF wabor aozood\n(2) OWTF wator asogood\n(3) qootF wabor aas OWTF wator\nwotood\n(4) pooatF daye aaca azsprbajdood\n23082007 SOKr, aod debennes a3)\naedaloangd.\n(1) 14Ba\n(2) %Zr\n(3) 19Kr\n(4) 192Kr",
+      "text_nfc": "KANNADA\n19\nE1\n149. 2k m AR8 xosada ao0s drod aee 154. 2000 40 uF podda 200 V, 50 Hz aaborab\nasoenonos aboot 3j N wea 38FAOO\nedo eeasaa do0b8000.\n(1) 6i N m\n(2) 65Nm\n(3) -6iNm\n(4)\n6k A N\nm\n150. 20 cm2 apeesd 6e3003 goges aoowa\nsbeers abees eowwoh N0078 20 Wlcm2 gos\n23060 ecesrogadd, 2od Daa socpawido\nabeets atd 38a :\n(1) 10x1 103J\n(2) 12x 103J\n(3) 24x1 103J\n(4) 48x 103J\n151. 10 cm\nSayodoa 200 riocecod woota\nwadeaide addoyooss 3.2x10-7C esesan\naoood. nocea deogdod 15 cm doda\nwowoson aaor des woaboro oany ?\n1\n4mE0\nx 109 N m21C2\n(1) 1.28 X 1011 N/C\n(2) 1.28 X 1051 N/C\n(3) 1.28 X 106 N/C\n(4) 1.28 107 N/C\nx\n152. wo0s\nDOFE seadon 2307 moga\n0.2 m3, edo aor odg Dedasase 5 V woas\nfocbdo@cahdodeod, e seabdon saye dead\nJoaoroa :\n(1) dory\n(2) 0.5 N/C\n(3) 1 N/C\n(4) 5N/C\na0 aedan Keoawon, wodedon aayer\naaoaod rms 2303at (saea3) :\n(1) 1.7A\n(2) 2.05 A\n(3) 2.5A\n(4) 25.1A\n155. erde wor d aas Hose NOUE n adoas 200\nesed XO0xo aod aoa neddoctado :\n1\n(1)\n(2)\n(3)\nV2 nmd\n1\nV2 nmd?\n1\nV2n?md?\n1\n(4) J2n22a2\n156.\nLOANO\nagabode d8 dend aoa aees\nxoobond ?\n(1) epod, euzesFo aas nead weaoreb 2ote\ndocdor roddada ascobdesed.\n(2)\nepod, eudesFt aba neas weabreb eode\nm3 aioobdesed.\n(3) CBEFE 2og eddodode neat\nBodoredtde OF Raberg endeseab.\n(4) ewod weab aoy Bow debwondeied\na3 ee\ndoezg\nendaed.\n157. asxowed WADOS abees 1.5 dap aiore\neajsab\n23883 eagabn ezedri.cexerhd. easaba\nedFRO9A aas Seadada aaar.ogacen\nevot3o7ba asoayar aaoaa :\n(1) aaparotbad\n(2) seepadesprbgd\n(3) Lodide-spodmmrbad\n(4) dor\n153. p-n asogayr dadectso dasary weaba ene 158. adwosato HWADA 235U en dotsorsod\nadood aesprbad :\n(1) OOF wabor aozood\n(2) OWTF wator asogood\n(3) qootF wabor aas OWTF wator\nwotood\n(4) pooatF daye aaca azsprbajdood\n23082007 SOKr, aod debennes a3)\naedaloangd.\n(1) 14Ba\n(2) %Zr\n(3) 19Kr\n(4) 192Kr",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_043",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0003pro_raw.pdf",
+    "page_index": 18,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KANNADA\n19\nH1\n147. 88 dend aoa agato 3oad. evera (T) aiooon 150. ri aas r2 (ry=1.5r,) Sayneda aot soaoad\nagaboed doege (p) as 3300030 ?\n(1)\n(2)\n(3)\n(4)\nP\nP\nP\nP\nT\nT\nT\nT\n148. X30X0300F0003 A a3s B WOW aots\nAOodonva, devay 200083 avoot 2oddgodad\nseogeohd. aasorod ervage a080 agtde A\nEUSF edosy asoood. B a HOEjoroF\nDwoFaohd. 2vts ayspabal ev230noFas63-\naboor, seww eodolsabal 36r0 300o7 erba\nadgabado :\n(1) Aydaudas\n(2) Xadoeae\n(3) Adocats\n(4) adrogs\n149. a00830 2g0r wont 230n007 doct 3osao\nwendabon 2ond0r 100 doegdooon BOCOL\n30800 3:2 enwesde aepond Xadoeesad.\ndoep 30800 evga 1.5 m edd doct 30sab\n1 a docga engans ?\n(1) 1.5x 10-2m\n(2)\n(3)\n1.0x1 10-2m\n1.0x1 10-'m\n(4) 1.5x10-1m\nosnocene ervasdadal 1K dor aegdes 23esorba\nDO aogne enwod :\n5\n(1)\n(2)\n(3)\n(4)\n3\n27\n8\n9\n4\n3\n2\n151. wod docoa WEOF Nodeswa deri dead :\n- -\naso dede doa 2352\ndaweh doeg wa Nos 3879 2303780 :\n(1) 470 0; 5%\n(2) 470 k0; 5%\n(3) 47 ko; 10%\n(4) 4.7 ko; 5%\n152. doega 3br0\nevagse TOrDodaa\nopineo atosodo :\n(1)\n(2)\naioooda\nesodoneb abas edwoaineb\ndocaneb\n(3) esodoneb aog\n(4) edwodoneb asog\n153. LEANO adobode a3 send aoa Beee\nxoosond ?\n(1) epod weab aD3 Bow 3ebwondeied\na3 ee doear endeed.\n(2) espod, eu3esFt aa read weabneb eote\ndocdon wodsaba asooodeses).\n(3)\neped, euzesFt aa nead weabneb aode\nmog asooodeseso.\n(4) eu3aFe 208 eddodoje neat\nsotonedtde g0OOF waberf endesed.\n1",
+      "text_nfc": "KANNADA\n19\nH1\n147. 88 dend aoa agato 3oad. evera (T) aiooon 150. ri aas r2 (ry=1.5r,) Sayneda aot soaoad\nagaboed doege (p) as 3300030 ?\n(1)\n(2)\n(3)\n(4)\nP\nP\nP\nP\nT\nT\nT\nT\n148. X30X0300F0003 A a3s B WOW aots\nAOodonva, devay 200083 avoot 2oddgodad\nseogeohd. aasorod ervage a080 agtde A\nEUSF edosy asoood. B a HOEjoroF\nDwoFaohd. 2vts ayspabal ev230noFas63-\naboor, seww eodolsabal 36r0 300o7 erba\nadgabado :\n(1) Aydaudas\n(2) Xadoeae\n(3) Adocats\n(4) adrogs\n149. a00830 2g0r wont 230n007 doct 3osao\nwendabon 2ond0r 100 doegdooon BOCOL\n30800 3:2 enwesde aepond Xadoeesad.\ndoep 30800 evga 1.5 m edd doct 30sab\n1 a docga engans ?\n(1) 1.5x 10-2m\n(2)\n(3)\n1.0x1 10-2m\n1.0x1 10-'m\n(4) 1.5x10-1m\nosnocene ervasdadal 1K dor aegdes 23esorba\nDO aogne enwod :\n5\n(1)\n(2)\n(3)\n(4)\n3\n27\n8\n9\n4\n3\n2\n151. wod docoa WEOF Nodeswa deri dead :\n- -\naso dede doa 2352\ndaweh doeg wa Nos 3879 2303780 :\n(1) 470 0; 5%\n(2) 470 k0; 5%\n(3) 47 ko; 10%\n(4) 4.7 ko; 5%\n152. doega 3br0\nevagse TOrDodaa\nopineo atosodo :\n(1)\n(2)\naioooda\nesodoneb abas edwoaineb\ndocaneb\n(3) esodoneb aog\n(4) edwodoneb asog\n153. LEANO adobode a3 send aoa Beee\nxoosond ?\n(1) epod weab aD3 Bow 3ebwondeied\na3 ee doear endeed.\n(2) espod, eu3esFt aa read weabneb eote\ndocdon wodsaba asooodeses).\n(3)\neped, euzesFt aa nead weabneb aode\nmog asooodeseso.\n(4) eu3aFe 208 eddodoje neat\nsotonedtde g0OOF waberf endesed.\n1",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

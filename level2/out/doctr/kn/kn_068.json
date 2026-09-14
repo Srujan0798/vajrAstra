@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_068",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 48,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "83 B Donate OE 00233\nNOO ae OJ WONO aTOTSO eozohothx0@oded. ende aewo WEs JAE No wowond.\nabwon NOa sofsas roaboh donande oon 082FAOUO edoon wondt 00D evotomat.\naz e0o adwetaba aowwa N tawonosd. 3eogon Toaboa desabe Donareyaood\nJosaa dereaa conio Nas wsawsos adeswnd Apnoeaco. 30ty Dontriaoa\navwwao atoot aoOy WoToB er bose asooades woawaa, docorewd. ao Nap\naoeepoadend. NoW say soeade cawa den aotwaa woevwa En doctdocse.\ntoaoF aposneb:\nNogeen ano wooda Begnen senea NOTONeD awaadsoon ey donDroa\naaraoa avotied.\n- aowstab aoa 083 25073 5000FaoT9a Soneen.\no adwetad eor 230713 aoarsda aabaeb az edo ansaba naas aoa avoieet.\naodeo: 32ey00 rooboa oesade\nNozd: OAEFNa sotyoa rooton\nXOn8R Sonas EXEFACOG0D\nwonanaa az aowgt asowwa.\nNW\nt\nPLASTIC\nPAPER\n3g8 2O3 :\nToaboa 3oey Dontrdaba avowa ahoor 030on aosoaoho.\nwdeetod wagd aur DWOFRES wa NONSFOOR sexpyodooon\nWORFOSF aao\nWWOOFRSS dabanes woragd ewon dadanea womWad\naason a\n0802 WoOrev Weey aE Deay Ropepbawaoh sotdog\nage wog:\nseey Dontro garen seadoon eadod\nwoOnees.\nsooyaa\nJOOD 3oro0e soeyne adwgt expinea\nDORERD303\nNgoowon wooneiea).\nXd8 apoNwa\n800X0X00000 sas\necioc23ao azs asoed: day J003 epwe\nworowa ava Sas\nasaooda B70 degnen Wod00s. tona az\npoayan,\nDO0EWO0O.\nJUDAJB ENORDA ge0s Toatoa degnee coa\negpet aoadog\n41",
+      "text_nfc": "83 B Donate OE 00233\nNOO ae OJ WONO aTOTSO eozohothx0@oded. ende aewo WEs JAE No wowond.\nabwon NOa sofsas roaboh donande oon 082FAOUO edoon wondt 00D evotomat.\naz e0o adwetaba aowwa N tawonosd. 3eogon Toaboa desabe Donareyaood\nJosaa dereaa conio Nas wsawsos adeswnd Apnoeaco. 30ty Dontriaoa\navwwao atoot aoOy WoToB er bose asooades woawaa, docorewd. ao Nap\naoeepoadend. NoW say soeade cawa den aotwaa woevwa En doctdocse.\ntoaoF aposneb:\nNogeen ano wooda Begnen senea NOTONeD awaadsoon ey donDroa\naaraoa avotied.\n- aowstab aoa 083 25073 5000FaoT9a Soneen.\no adwetad eor 230713 aoarsda aabaeb az edo ansaba naas aoa avoieet.\naodeo: 32ey00 rooboa oesade\nNozd: OAEFNa sotyoa rooton\nXOn8R Sonas EXEFACOG0D\nwonanaa az aowgt asowwa.\nNW\nt\nPLASTIC\nPAPER\n3g8 2O3 :\nToaboa 3oey Dontrdaba avowa ahoor 030on aosoaoho.\nwdeetod wagd aur DWOFRES wa NONSFOOR sexpyodooon\nWORFOSF aao\nWWOOFRSS dabanes woragd ewon dadanea womWad\naason a\n0802 WoOrev Weey aE Deay Ropepbawaoh sotdog\nage wog:\nseey Dontro garen seadoon eadod\nwoOnees.\nsooyaa\nJOOD 3oro0e soeyne adwgt expinea\nDORERD303\nNgoowon wooneiea).\nXd8 apoNwa\n800X0X00000 sas\necioc23ao azs asoed: day J003 epwe\nworowa ava Sas\nasaooda B70 degnen Wod00s. tona az\npoayan,\nDO0EWO0O.\nJUDAJB ENORDA ge0s Toatoa degnee coa\negpet aoadog\n41",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

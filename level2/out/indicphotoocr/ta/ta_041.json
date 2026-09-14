@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_041",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "series efghs set\nqp code 10s\nroll no\ncandidates must write the ୦୮ code\non the title page of the answerbook\nதமிழ்\ntamil\nfit6u hotel ૧ ഥങ്ങ qloit மதிப்பெண்கள் 80\ntime allowed ૧ hours பிரிமைப்பரப்பட்டமை marks 80\nஇந்த வினாத்தாளில் அச்சிடப்பெற்ற 15 பக்கங்கள் உள்ளதைச் சாிபாா்க்கவும்\nவினாத்தாளின் வலது பக்கத்தில் கொடுக்கப்பட்டுள்ள கேள்வி பதில் குறியீட்டை\nதேர்வர் விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுத வேண்டும்\nஇந்த வினாத்தாளில் 14 வினாக்கள் உள்ளனவா எனச் சாிபாா்க்கவும்\nஎழுதத் தொடங்குவதற்கு முன் விடைத்தாளில் வினாவின் வாிசை\nஎண்ணைக் குறிப்பிடவும்\nவினாத்தாளைப் படிப்பதற்கு 15 நிமிடங்கள் ஒதுக்கப்பட்டு ள்ளன ക്ഷി gotit த்தாள்\n1015 க்குக் கொடுக்கப்படும் 1015 இல் ବୁ ௫ந்து 1030 q160717 வினாத்தாளை\nமட்டும் படிக்க வேண் டும் இந்த நேரத்தில் விடைத்தாளில் எந்தப் பதிலையும்\n6 ழுதக்கூடாது\nplease check that this question paper contains 15 printed pages\nqp code given on the right hand side of the question paper should be\nபரப்போ on the title page of the answerbook by the candidate\nplease check that this question paper contains 14 questions\nplease write down the serial number of the question in the answerbook\nat the given place before attempting it\n15 minute time has been allotted to read this question paper the question\npaper will be distributed at 1015 am from 1015 am to 1030 am the\ncandidates will read the question paper only and will not write any answer\non the answerbook during this period\n10s page 1 of 15 pto",
+      "text_nfc": "series efghs set\nqp code 10s\nroll no\ncandidates must write the ୦୮ code\non the title page of the answerbook\nதமிழ்\ntamil\nfit6u hotel ૧ ഥങ്ങ qloit மதிப்பெண்கள் 80\ntime allowed ૧ hours பிரிமைப்பரப்பட்டமை marks 80\nஇந்த வினாத்தாளில் அச்சிடப்பெற்ற 15 பக்கங்கள் உள்ளதைச் சாிபாா்க்கவும்\nவினாத்தாளின் வலது பக்கத்தில் கொடுக்கப்பட்டுள்ள கேள்வி பதில் குறியீட்டை\nதேர்வர் விடைத்தாளின் தலைப்புப் பக்கத்தில் எழுத வேண்டும்\nஇந்த வினாத்தாளில் 14 வினாக்கள் உள்ளனவா எனச் சாிபாா்க்கவும்\nஎழுதத் தொடங்குவதற்கு முன் விடைத்தாளில் வினாவின் வாிசை\nஎண்ணைக் குறிப்பிடவும்\nவினாத்தாளைப் படிப்பதற்கு 15 நிமிடங்கள் ஒதுக்கப்பட்டு ள்ளன ക്ഷി gotit த்தாள்\n1015 க்குக் கொடுக்கப்படும் 1015 இல் ବୁ ௫ந்து 1030 q160717 வினாத்தாளை\nமட்டும் படிக்க வேண் டும் இந்த நேரத்தில் விடைத்தாளில் எந்தப் பதிலையும்\n6 ழுதக்கூடாது\nplease check that this question paper contains 15 printed pages\nqp code given on the right hand side of the question paper should be\nபரப்போ on the title page of the answerbook by the candidate\nplease check that this question paper contains 14 questions\nplease write down the serial number of the question in the answerbook\nat the given place before attempting it\n15 minute time has been allotted to read this question paper the question\npaper will be distributed at 1015 am from 1015 am to 1030 am the\ncandidates will read the question paper only and will not write any answer\non the answerbook during this period\n10s page 1 of 15 pto",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

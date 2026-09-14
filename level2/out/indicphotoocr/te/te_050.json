@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "say atoz tell 5 words tell 5 words tell 5 words say 1 to20\nthat end that begin that end\n10 seconds with with જય with r 10 seconds\nframe frame frame\nquestion do what sing question question\n૦ વ ୦୪\nthat begins you like an english begins begins\nthat that\nwith what குடி english song with who with how\ntell tell tell tell tell\n5 words words 5 words 5 words 5 words\nthat begin that begin that begin that end that end\nwith with th with with with p\ntell tell speak tell tell\n5 words 5 words fast words 5 words\nthat end that begin in english for that begin that begin\nwith k with ०१ 10 seconds with wh with m\ntell make tell tell tell\n5 words 5 words 5 words 5 words\nമ sentence\nthat begin that has that end that begin that begin\nwith p and with with ૧૨ with d\nframe frame frame tell tell\nഠ question વ question ୦୪ question ए words 5 words\nthat begins that begins that begins that begin\nthat begin\nwith with with with ১1 with f\nwhere when why\nmaharashtra state bureau of textbook\nമുല്ലി  production and curriculum research pune\nमहाराष्ट्राज्य वअभ्यासक्रम पाठ्यपुरतकामिती माय इंग्लिश बुक फाइन्ह तेलुगु 4000\nसंशोधन मंडळ",
+      "text_nfc": "say atoz tell 5 words tell 5 words tell 5 words say 1 to20\nthat end that begin that end\n10 seconds with with જય with r 10 seconds\nframe frame frame\nquestion do what sing question question\n૦ વ ୦୪\nthat begins you like an english begins begins\nthat that\nwith what குடி english song with who with how\ntell tell tell tell tell\n5 words words 5 words 5 words 5 words\nthat begin that begin that begin that end that end\nwith with th with with with p\ntell tell speak tell tell\n5 words 5 words fast words 5 words\nthat end that begin in english for that begin that begin\nwith k with ०१ 10 seconds with wh with m\ntell make tell tell tell\n5 words 5 words 5 words 5 words\nമ sentence\nthat begin that has that end that begin that begin\nwith p and with with ૧૨ with d\nframe frame frame tell tell\nഠ question વ question ୦୪ question ए words 5 words\nthat begins that begins that begins that begin\nthat begin\nwith with with with ১1 with f\nwhere when why\nmaharashtra state bureau of textbook\nമുല്ലി  production and curriculum research pune\nमहाराष्ट्राज्य वअभ्यासक्रम पाठ्यपुरतकामिती माय इंग्लिश बुक फाइन्ह तेलुगु 4000\nसंशोधन मंडळ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_073",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 78,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "9.3 [nvestment: Grow TouT Money\n[very day , people make choices ೩bout what to do with their money . Sometimes money is saved to keep jt sate and sometimes it is invested to 8TOw over time [[1est[ezt [eas usins mo ey today to build wealth i1 the future; but jt also invo[ves [isk. Different investment choices can 8ie difterent results; dependin8 01 time ad decisjons . ]1 this activity , JOL TTT]]] explore [oಚT mone cat 8ToTT and [eat[ to make smart investment choices o1 your o1]\nTypes o[ [hvestments [ritliIt I--aal Hl-nl [unnl Inrtಮiru\nLrtTtil\nTinll\nkrnl [ ttntr\nEtl VLal\nFrdl-Hal೦lry\nknnu:\n[tar\nDirect  ಔquity (Shares): Direct equity [eans buyin8 shares of ೩ company 111 the stock ಔarLket THen the company does Te]]; the Talue of the shares ca increase a3d JOu maj] ೩[so 8et dividends. ]utua]   [unds: Mutua]   [unds co]lect moe] trom many people ad jೊTest jt j0 different companies. 'These funds are mana ed by experts; s0 your money js spread across many busiesses . [nsutance: [nsutance helps protect you and your family in the future. Some insurance plans also help Jou save oT 8Tow money while 8ivin8 fnancial protection . Gold: Gold js ೩ popular investment that people buy t೦ keep for ೩ [o38 time. [ts Talue otte] iೊczeases over tie ೩nd jt 1s considered ೩ sate option . Pixed Deposit (PD): A fxed deposit js ೩ s೩le Ta t0 invest moze i1 ೩ bank. [O1] [now ]ow much money you w]]] 8et back and w]en you Wj]] 8et jt. Bonds: Bonds are when you Jend money to the 8ovetnment oT ೩ company . [1 Tetut], you 8et interest o1 Jour money atter ೩ fxed perjod. Property Tnvestment: [t means buyin8 [and oT buildinss. [t can 8ive Tesular income thToush Tent and may increase in value over time\n[ou have some money that Jou do [ot need immediately . [O1] ca[ keep jt sate ೦[  jT01 Ca] tT] to 8TOw jt over time.\n[ೊTeste[t [ea[s usin8 money today S0 jt Ca] becoಔe [OTe i] the  future Difterent   chojces STOTT mo]ey in diffetent ways\n7]",
+      "text_nfc": "9.3 [nvestment: Grow TouT Money\n[very day , people make choices ೩bout what to do with their money . Sometimes money is saved to keep jt sate and sometimes it is invested to 8TOw over time [[1est[ezt [eas usins mo ey today to build wealth i1 the future; but jt also invo[ves [isk. Different investment choices can 8ie difterent results; dependin8 01 time ad decisjons . ]1 this activity , JOL TTT]]] explore [oಚT mone cat 8ToTT and [eat[ to make smart investment choices o1 your o1]\nTypes o[ [hvestments [ritliIt I--aal Hl-nl [unnl Inrtಮiru\nLrtTtil\nTinll\nkrnl [ ttntr\nEtl VLal\nFrdl-Hal೦lry\nknnu:\n[tar\nDirect  ಔquity (Shares): Direct equity [eans buyin8 shares of ೩ company 111 the stock ಔarLket THen the company does Te]]; the Talue of the shares ca increase a3d JOu maj] ೩[so 8et dividends. ]utua]   [unds: Mutua]   [unds co]lect moe] trom many people ad jೊTest jt j0 different companies. 'These funds are mana ed by experts; s0 your money js spread across many busiesses . [nsutance: [nsutance helps protect you and your family in the future. Some insurance plans also help Jou save oT 8Tow money while 8ivin8 fnancial protection . Gold: Gold js ೩ popular investment that people buy t೦ keep for ೩ [o38 time. [ts Talue otte] iೊczeases over tie ೩nd jt 1s considered ೩ sate option . Pixed Deposit (PD): A fxed deposit js ೩ s೩le Ta t0 invest moze i1 ೩ bank. [O1] [now ]ow much money you w]]] 8et back and w]en you Wj]] 8et jt. Bonds: Bonds are when you Jend money to the 8ovetnment oT ೩ company . [1 Tetut], you 8et interest o1 Jour money atter ೩ fxed perjod. Property Tnvestment: [t means buyin8 [and oT buildinss. [t can 8ive Tesular income thToush Tent and may increase in value over time\n[ou have some money that Jou do [ot need immediately . [O1] ca[ keep jt sate ೦[  jT01 Ca] tT] to 8TOw jt over time.\n[ೊTeste[t [ea[s usin8 money today S0 jt Ca] becoಔe [OTe i] the  future Difterent   chojces STOTT mo]ey in diffetent ways\n7]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

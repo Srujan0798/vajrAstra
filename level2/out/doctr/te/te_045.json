@@ -1,0 +1,41 @@
+{
+  "page_id": "te_045",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0045pro_raw.pdf",
+    "page_index": 147,
+    "width": 1658,
+    "height": 2209
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2209
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0\n6\naora\nSS 08,0 8o0 wosbegos 388 os sois, WE3-411 004.\nET\nHP\nTra iso\nagy GRIR 3TRIRT (HTT 9) Surdi grerdt\nR 57.00",
+      "text_nfc": "0\n6\naora\nSS 08,0 8o0 wosbegos 388 os sois, WE3-411 004.\nET\nHP\nTra iso\nagy GRIR 3TRIRT (HTT 9) Surdi grerdt\nR 57.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

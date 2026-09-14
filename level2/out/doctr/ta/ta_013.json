@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_013",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 13,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "feidt T cht,\nHORISTI # 374-1 JIT\ndoht sft 37140h1 GETT\na\nEETATITI\nHaya,\ntHT CHT gtart\nHol-dT chT THIT àl\nN JEERT tarAeerd\ncfl TRTHT hdl\nal fyx sft, N gtd\nJIlT f 3741\ndat\nMfeht JH RIT fadt\nchid a, aa, ST9 Hoch\nHo 35 TY à de 4H SU\nHR\nyaft a fay 3TTRIT a CRIT\ndadt à HrTT?\ndfeh JHaR\nSH GMGTT à EHRT\nà yfereIt N\n3103, Hiohe chi FH\nEIT foheit 377 chl ChIT-HT EST N 37140 HTT\nTIST ftg aT\nHohdl à?\n16HT NT RH\nohdo à\n# 311401 SH\nfrerfa N B1S7 cAT 3742TT\n371407 HTT R VIHT 3Tfech\nYHG chATTl\n-\nTeft.\ndfoht Ja df fiche TRIT\n37t, TH dt Hard\na! fyr GHR Et chl HTd 2\na\n35 CRIT 761 GId?\nale! CRIT UTTR\nàl 371V1 iR JIleT T Uch HTOT\nAT by\nRGT!\naracch seit 37R 3T\ntET à\nN 5r6 Taf\nE1S Hohdll 7 R TISIT ET\n6 HTRT-HTT fyer faT sft àl\nHord ChR 37R\n104 JIT ATl\ncfohl TH\ndt Ja TIET VIT\nHohd a!\n-\nTéi, N\n3tche7 374-1\nyfert cft ChIHHT\nT67 CdTl HE4T\n# gue fadt ChrdT\n& HERIT chl ETS\na 377 aaet N\nTET Ychs\nCTTI\nN\n5Hch HHT a\n31chR 1 OST\n37 HiCT-diaIT\nE s4th FOITT R\n3TR JH HT\nYohs aT dl\ndtr hS 6Tf\nTol EriI\nFT YhR therdt a\nfeng\ngodiycch\na\naidafd chtet yTE 3Tracch chT\nEGI uRadt Ch T H4T a1T TRITI\n# JHaRt\nFalfaerd q\nAhT 3rid yaTad E\nSTT37T, N JHaR TISIT\nChT Hard cht\ndai E\nReprint 2026-27\nast chlHeidt a 3rdcch * ET i\nthet EU 4Ta chT SERIT 377 346\nTRCHT cht EToht H4 faheiTl\nTRIde!\nJH eft HGT\nyet TEll\nLE\nH8\n#\n141",
+      "text_nfc": "feidt T cht,\nHORISTI # 374-1 JIT\ndoht sft 37140h1 GETT\na\nEETATITI\nHaya,\ntHT CHT gtart\nHol-dT chT THIT àl\nN JEERT tarAeerd\ncfl TRTHT hdl\nal fyx sft, N gtd\nJIlT f 3741\ndat\nMfeht JH RIT fadt\nchid a, aa, ST9 Hoch\nHo 35 TY à de 4H SU\nHR\nyaft a fay 3TTRIT a CRIT\ndadt à HrTT?\ndfeh JHaR\nSH GMGTT à EHRT\nà yfereIt N\n3103, Hiohe chi FH\nEIT foheit 377 chl ChIT-HT EST N 37140 HTT\nTIST ftg aT\nHohdl à?\n16HT NT RH\nohdo à\n# 311401 SH\nfrerfa N B1S7 cAT 3742TT\n371407 HTT R VIHT 3Tfech\nYHG chATTl\n-\nTeft.\ndfoht Ja df fiche TRIT\n37t, TH dt Hard\na! fyr GHR Et chl HTd 2\na\n35 CRIT 761 GId?\nale! CRIT UTTR\nàl 371V1 iR JIleT T Uch HTOT\nAT by\nRGT!\naracch seit 37R 3T\ntET à\nN 5r6 Taf\nE1S Hohdll 7 R TISIT ET\n6 HTRT-HTT fyer faT sft àl\nHord ChR 37R\n104 JIT ATl\ncfohl TH\ndt Ja TIET VIT\nHohd a!\n-\nTéi, N\n3tche7 374-1\nyfert cft ChIHHT\nT67 CdTl HE4T\n# gue fadt ChrdT\n& HERIT chl ETS\na 377 aaet N\nTET Ychs\nCTTI\nN\n5Hch HHT a\n31chR 1 OST\n37 HiCT-diaIT\nE s4th FOITT R\n3TR JH HT\nYohs aT dl\ndtr hS 6Tf\nTol EriI\nFT YhR therdt a\nfeng\ngodiycch\na\naidafd chtet yTE 3Tracch chT\nEGI uRadt Ch T H4T a1T TRITI\n# JHaRt\nFalfaerd q\nAhT 3rid yaTad E\nSTT37T, N JHaR TISIT\nChT Hard cht\ndai E\nReprint 2026-27\nast chlHeidt a 3rdcch * ET i\nthet EU 4Ta chT SERIT 377 346\nTRCHT cht EToht H4 faheiTl\nTRIde!\nJH eft HGT\nyet TEll\nLE\nH8\n#\n141",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_055",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 1448,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1448,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಬಸವಣ್ಣನವರ ವರ್ಣಿಸುವುದು ದಚಿನಾದಲ್ಲಿ\n(ಹೆಚ್ಚಿನ ದೊರೆತ ವಚನಗಳೊಂದಿಗೆ)\nಪ್ರೊ. ಬಸವನಾಳ ಶಿವಆಂಗಪ್ಪನವರು",
+      "text_nfc": "ಬಸವಣ್ಣನವರ ವರ್ಣಿಸುವುದು ದಚಿನಾದಲ್ಲಿ\n(ಹೆಚ್ಚಿನ ದೊರೆತ ವಚನಗಳೊಂದಿಗೆ)\nಪ್ರೊ. ಬಸವನಾಳ ಶಿವಆಂಗಪ್ಪನವರು",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

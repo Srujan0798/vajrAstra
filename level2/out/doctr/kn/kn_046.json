@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_046",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+    "page_index": 1,
+    "width": 1298,
+    "height": 1878
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1298,
+        1878
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2. 88 aayonas 28 ewo ien Boegdoas sanen enzd 1 w0000.\nesoa...odts poddaods aoane aJOsE\neonowang Sapajoosn.ntasr\n200 BEdowdas aoe BXOS\n9\n230 Ward ewaa evado !\nWa..13a arodots aonaaa AOPPE\nasay aodronebots ? oaat egE ?\nesss 3e0bood aode3 206323 203\naon-aota ooesdoesa 2e3saDe3 !\nestsoabo eoma w8ooa 230ton\ndonoa 23805 dotaa esoca\ne\nOEC\n308\nesabowd as; 3code TONOE3\ndojbabo WaEd aise wo8na Wbee3 !\nsowsa WNEGO AoA Aones aa\nayesobowas 3oco, 30n00 an no\naoas aoconse 3 soodes 2yEz\nenwode aee ! aaDe 2u3 !\n- (enedesot asoon 2003)\naEneS :\nHona: s0a Xonas. 80/7000E : woon abogh.\ne9) waa aoe Ondead ?\n1\nQ\ne3) awE ONAS 38000 0od83 ?\n2\na) aERs 23885 Bots 2ri aen ?\n1\n32) 2w0 enaa sen Ro ?\n2\nPage 2",
+      "text_nfc": "2. 88 aayonas 28 ewo ien Boegdoas sanen enzd 1 w0000.\nesoa...odts poddaods aoane aJOsE\neonowang Sapajoosn.ntasr\n200 BEdowdas aoe BXOS\n9\n230 Ward ewaa evado !\nWa..13a arodots aonaaa AOPPE\nasay aodronebots ? oaat egE ?\nesss 3e0bood aode3 206323 203\naon-aota ooesdoesa 2e3saDe3 !\nestsoabo eoma w8ooa 230ton\ndonoa 23805 dotaa esoca\ne\nOEC\n308\nesabowd as; 3code TONOE3\ndojbabo WaEd aise wo8na Wbee3 !\nsowsa WNEGO AoA Aones aa\nayesobowas 3oco, 30n00 an no\naoas aoconse 3 soodes 2yEz\nenwode aee ! aaDe 2u3 !\n- (enedesot asoon 2003)\naEneS :\nHona: s0a Xonas. 80/7000E : woon abogh.\ne9) waa aoe Ondead ?\n1\nQ\ne3) awE ONAS 38000 0od83 ?\n2\na) aERs 23885 Bots 2ri aen ?\n1\n32) 2w0 enaa sen Ro ?\n2\nPage 2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

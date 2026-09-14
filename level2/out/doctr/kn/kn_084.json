@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_084",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "No. :\nTest Booklet Code\nKANHA\nThis Booklet contains 24+44 pages.\n3e aored doctes\nd8 axdde 24+44 abe3ne.\nE1\nDo not open this Test Booklet until you are asked to do so.\nd 34 axeon 3abn 38abes X0233 setbason 3dosesoda.\nRead carefully the Instructions on the Back Cover of this Test Booklet.\nda 3 abxed bowoasodoa Hoennes sendetsobod 208.\nImportant Instructions :\nOdear Nouireb :\n1. The Answer Sheet is inside this Test Booklet. When 1. 28 abxod aents euad aotaba, quohd. Baori 68\nyou are directed to open the Test Booklet, take out\n2 cOroon Edoden deed dozd evzd aofoda,\nthe Answer Sheet and fill in the particulars on\nside-1 and side-2 carefully with blue/black ball point\nEndo, 20-1 abab w0-2 a deae DeO / dady 2500\npen only.\n2000003 aopod Dadnes 2ordoddooood 238F\n2. The test is of 3 hours duration and Test Booklet\naboteseds.\ncontains 180 questions. Each question carries 4 2. aoedad eno 3 Rosineb a3 3e aorddo 180\nmarks. For each correcti response, the candidate will\n38n93. gadood 38A 4 eosnea. gaadood\nget 41 marks. For each incorrect response, one mark\nwill be deductedfrom the total scores. The maximum\nx8 enaog eOFROn 4 eodriea Deddeorbsa\naa\nmarks are 720.\naaadood 32 eusdg 2633 eooneod 2o0b eotan,\n3. Use Blue/Black Ball Point Pen only for writing\ndeaborrbad. noay eoaneb 720.\nparticulars on thisj page/marking responses.\n3. d3 abaadoa Dadriva Bowes abas evzd aosab\n4. Rough work is to be done on the space provided for\naee rodaonea avoien deae Deo / dado 2300\nthis) purpose in the Test Bookletonly.\naooDol3 3ejaoy ervaiodochkeded.\n5. On completion ofthe test, the candidate must 4. d8 aoxadg 2dhad gedde daf WF abotsesed).\nhand over the Answer Sheet to the invigilator 5. aoeg aond dosd, egoFass aocte docrs /xpportross,\nbefore leaving the Room/Hall. The candidates\nare allowed to take away this' Test Booklet with\n20aba adord, evsd wotodord, adere abedrdton\nthem.\nwagesed. enorat\na a 33 zdosi snoblood\n6. The CODE for this Booklet is E1. Make sure that\naoertes Unbabazoend.\nthe CODE printed on Side-2 of the Answer Sheet is 6. 68 aoxed docts E1. d8 aoxed doctr a3s euad\nthe same as that on this Test Booklet. In case of\nootad w0-2 d9 adad docter 2ode eshd woad\ndiscrepancy, the candidate should immediately report\ngadordog aodb aee zedatehgo. dotdee eajoFado\nthe matter to the Invigilator for replacementofboth\nthe Test Bookleta and the Answer Sheet.\naatorab a3 2ox8 abao eugd aofabad, deddes\nabeopsodsor bexesedo.\n7. The candidates should ensure that the Answer Sheet 7. egorato engd aofao abaadeeddocd gasoadeg\nis not folded. Do not make any stray marks on the\nAnswer Sheet. Do not write your Roll No. anywhere\nevsd afa aees adoajde 3dad 2an4 rodoao\nelse exceptin the specified space in the Test Booklet/\nabotdeieas.\negoFat 3d\naoxdlervad\naofadg\nsateoad\nAnswer Sheet.\nagad aioda 23ed dtd does Jowdad, audaberdas.\n8. Use ofwhite fluid for correction is NOT permissible 8. eved oofad abees adoajde Edad Sdiaan WO0s\non the Answer Sheet.\nsle a8Te edabs adojoe\nIn case of any ambiguity in translation of any question, English version shall be treated as final.\nsane enwoddde oroddo exasobge. eosaweh gonae eggob aeravendgt.\nName of the Candidate (in Capitals)\negofad axd (aa edoneg) :\nRoll Number\nin figures\ndoes Jowo\n: eosned\n:in words\nerdreg\nCentre ofl Examination (in Capitals) :\naoesg deod (das egoneg) :\nCandidate's Signature :\nInvigilator's Signature\nesgoFab x&0 :\nabedpsoded X8 :\nFacsimile signature stamp of\nCentre Superintendent :",
+      "text_nfc": "No. :\nTest Booklet Code\nKANHA\nThis Booklet contains 24+44 pages.\n3e aored doctes\nd8 axdde 24+44 abe3ne.\nE1\nDo not open this Test Booklet until you are asked to do so.\nd 34 axeon 3abn 38abes X0233 setbason 3dosesoda.\nRead carefully the Instructions on the Back Cover of this Test Booklet.\nda 3 abxed bowoasodoa Hoennes sendetsobod 208.\nImportant Instructions :\nOdear Nouireb :\n1. The Answer Sheet is inside this Test Booklet. When 1. 28 abxod aents euad aotaba, quohd. Baori 68\nyou are directed to open the Test Booklet, take out\n2 cOroon Edoden deed dozd evzd aofoda,\nthe Answer Sheet and fill in the particulars on\nside-1 and side-2 carefully with blue/black ball point\nEndo, 20-1 abab w0-2 a deae DeO / dady 2500\npen only.\n2000003 aopod Dadnes 2ordoddooood 238F\n2. The test is of 3 hours duration and Test Booklet\naboteseds.\ncontains 180 questions. Each question carries 4 2. aoedad eno 3 Rosineb a3 3e aorddo 180\nmarks. For each correcti response, the candidate will\n38n93. gadood 38A 4 eosnea. gaadood\nget 41 marks. For each incorrect response, one mark\nwill be deductedfrom the total scores. The maximum\nx8 enaog eOFROn 4 eodriea Deddeorbsa\naa\nmarks are 720.\naaadood 32 eusdg 2633 eooneod 2o0b eotan,\n3. Use Blue/Black Ball Point Pen only for writing\ndeaborrbad. noay eoaneb 720.\nparticulars on thisj page/marking responses.\n3. d3 abaadoa Dadriva Bowes abas evzd aosab\n4. Rough work is to be done on the space provided for\naee rodaonea avoien deae Deo / dado 2300\nthis) purpose in the Test Bookletonly.\naooDol3 3ejaoy ervaiodochkeded.\n5. On completion ofthe test, the candidate must 4. d8 aoxadg 2dhad gedde daf WF abotsesed).\nhand over the Answer Sheet to the invigilator 5. aoeg aond dosd, egoFass aocte docrs /xpportross,\nbefore leaving the Room/Hall. The candidates\nare allowed to take away this' Test Booklet with\n20aba adord, evsd wotodord, adere abedrdton\nthem.\nwagesed. enorat\na a 33 zdosi snoblood\n6. The CODE for this Booklet is E1. Make sure that\naoertes Unbabazoend.\nthe CODE printed on Side-2 of the Answer Sheet is 6. 68 aoxed docts E1. d8 aoxed doctr a3s euad\nthe same as that on this Test Booklet. In case of\nootad w0-2 d9 adad docter 2ode eshd woad\ndiscrepancy, the candidate should immediately report\ngadordog aodb aee zedatehgo. dotdee eajoFado\nthe matter to the Invigilator for replacementofboth\nthe Test Bookleta and the Answer Sheet.\naatorab a3 2ox8 abao eugd aofabad, deddes\nabeopsodsor bexesedo.\n7. The candidates should ensure that the Answer Sheet 7. egorato engd aofao abaadeeddocd gasoadeg\nis not folded. Do not make any stray marks on the\nAnswer Sheet. Do not write your Roll No. anywhere\nevsd afa aees adoajde 3dad 2an4 rodoao\nelse exceptin the specified space in the Test Booklet/\nabotdeieas.\negoFat 3d\naoxdlervad\naofadg\nsateoad\nAnswer Sheet.\nagad aioda 23ed dtd does Jowdad, audaberdas.\n8. Use ofwhite fluid for correction is NOT permissible 8. eved oofad abees adoajde Edad Sdiaan WO0s\non the Answer Sheet.\nsle a8Te edabs adojoe\nIn case of any ambiguity in translation of any question, English version shall be treated as final.\nsane enwoddde oroddo exasobge. eosaweh gonae eggob aeravendgt.\nName of the Candidate (in Capitals)\negofad axd (aa edoneg) :\nRoll Number\nin figures\ndoes Jowo\n: eosned\n:in words\nerdreg\nCentre ofl Examination (in Capitals) :\naoesg deod (das egoneg) :\nCandidate's Signature :\nInvigilator's Signature\nesgoFab x&0 :\nabedpsoded X8 :\nFacsimile signature stamp of\nCentre Superintendent :",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

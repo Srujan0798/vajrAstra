@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 341,
+    "height": 431
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        341,
+        431
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "«हज\nकिट PETS கட்டு\nकि न पक Ser i கதம்‌ க\nRabe bah என்வ்ட அளவ அழுத்தம்‌ என்னட என்‌\n\nBeene he a\n\nदि setae டக\nte வடை\nகக்க கங்கா தகக தட\nलक 1G) सर\n\nBae CTs Re POP OEY उनका |\n\nATO வளை AS Ol\nTd net igh 2225...\n\nபடித்து. lancet கண்டும்‌ அதை कृपा அடம்‌.\n\n",
+      "text_nfc": "«हज\nकिट PETS கட்டு\nकि न पक Ser i கதம்‌ க\nRabe bah என்வ்ட அளவ அழுத்தம்‌ என்னட என்‌\n\nBeene he a\n\nदि setae டக\nte வடை\nகக்க கங்கா தகக தட\nलक 1G) सर\n\nBae CTs Re POP OEY उनका |\n\nATO வளை AS Ol\nTd net igh 2225...\n\nபடித்து. lancet கண்டும்‌ அதை कृपा அடம்‌.\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

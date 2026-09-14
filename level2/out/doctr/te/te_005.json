@@ -1,0 +1,41 @@
+{
+  "page_id": "te_005",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0005pro_raw.pdf",
+    "page_index": 18,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "E DO -\n16.\nS08 Wo00 JOn (1) aswdS awoom Savao\noobo&:\n1x4=4\n(i)\nas8era J8S QSNOS ado OSO Joo Noas\n0oo0 Dsagawavob OObod ?\n(ii)\nn0500\nwQaren Naos\naasen essads\ncoNOEDeN G000Od?\n17.\nS08 soges dO0 asods eNsavlsavoë wesogo\nOOo&:\n1x6=6\n(i)\nasbawo)s Dawseos Jasoass) Nosso2, 80\ndos wajoa OOUDEDO, 200800 23SNa Nab\nCNa Soseg Syeas Jadavd 2y5SOS SOows a\nnaoio 20 O0 ozo so0n5s SOSSSO!\n(ii) essodoas Doaroso 25N2020 280scr\nOS0S20 Xc Sonerdsoo 3735318r00o0d\n58005 3ONSO soser!sad awoowwo\ngosNdeN rodesaes, B00061saW6 05NU5!\n18.\nS08 Woee 030 (2) 00&00S asoom Savowe\nOQOd:\n2x4=8\n(i)\nsoosves SOwSes Wos QQ) a8d0wo0.\n(ii)\nOs eswen agosables OrO do0s 002\n80008.\n(iii) leszés a80 ? eaoso SOos SSa2 aJOOS)\n2000wo0.\n(iv)\nNaJOe Ses 25000 saonnves OOSSo Wos\nDod) 2080w08.\n57/S\nPage 19 of 19",
+      "text_nfc": "E DO -\n16.\nS08 Wo00 JOn (1) aswdS awoom Savao\noobo&:\n1x4=4\n(i)\nas8era J8S QSNOS ado OSO Joo Noas\n0oo0 Dsagawavob OObod ?\n(ii)\nn0500\nwQaren Naos\naasen essads\ncoNOEDeN G000Od?\n17.\nS08 soges dO0 asods eNsavlsavoë wesogo\nOOo&:\n1x6=6\n(i)\nasbawo)s Dawseos Jasoass) Nosso2, 80\ndos wajoa OOUDEDO, 200800 23SNa Nab\nCNa Soseg Syeas Jadavd 2y5SOS SOows a\nnaoio 20 O0 ozo so0n5s SOSSSO!\n(ii) essodoas Doaroso 25N2020 280scr\nOS0S20 Xc Sonerdsoo 3735318r00o0d\n58005 3ONSO soser!sad awoowwo\ngosNdeN rodesaes, B00061saW6 05NU5!\n18.\nS08 Woee 030 (2) 00&00S asoom Savowe\nOQOd:\n2x4=8\n(i)\nsoosves SOwSes Wos QQ) a8d0wo0.\n(ii)\nOs eswen agosables OrO do0s 002\n80008.\n(iii) leszés a80 ? eaoso SOos SSa2 aJOOS)\n2000wo0.\n(iv)\nNaJOe Ses 25000 saonnves OOSSo Wos\nDod) 2080w08.\n57/S\nPage 19 of 19",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

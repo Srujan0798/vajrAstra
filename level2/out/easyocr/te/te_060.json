@@ -1,0 +1,41 @@
+{
+  "page_id": "te_060",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0060pro_raw.pdf",
+    "page_index": 115,
+    "width": 1661,
+    "height": 2218
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1661,
+        2218
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "'ఓg మహారాష్ట్ర రాష్ట్రపాఠ్యపుస్తక నిర్మి మరియు పాఠ్యప్రణాళిక పరిశోర ధన సంస్థ, పుణె-411 004. SFaTFTTFTITaN \"క ueTTFat dశ TTuTq క.అషె 41.00\nఎ3 1 4*2-22+2\nt+7t 80\nm2 12m\nW\n32",
+      "text_nfc": "'ఓg మహారాష్ట్ర రాష్ట్రపాఠ్యపుస్తక నిర్మి మరియు పాఠ్యప్రణాళిక పరిశోర ధన సంస్థ, పుణె-411 004. SFaTFTTFTITaN \"క ueTTFat dశ TTuTq క.అషె 41.00\nఎ3 1 4*2-22+2\nt+7t 80\nm2 12m\nW\n32",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

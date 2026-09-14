@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_062",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 51,
+    "width": 1031,
+    "height": 1651
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1031,
+        1651
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "* ഇക്കാലത്തെ പ്പോലെ കൊക്കുയും കുസ്ൃതിയും അന്നുമുണ്ടാ\nയിരുന്നുപൊ? ടുഷീയും Baxismajo നമുക്കു പൂവ്വസ് വത്താണൊ?\nഷസൂരീരോഗംപോലെതന്നെ പാറോലയും പണ്ടുചണ്ടെ കുള്ള\n“ താണൊ ? ഇതൊകെക ആലോചിച്ചാലും അനേോഷിച്ചാലും അ\n\nമൂന്നുപേരും പൃദ്ധന്മാരണണന്ന് അവ\nഅതിൽ ഏറ.വും maw\n_ शीट ക്കുന്നു . അതിഥ | 93 बिक...\n: ിച്ചിട്ട ണടെങ്കിലും Dao സ്ഥന്നി ar\n(Gm 238\n\nഗൃഫസ്ഥൻറ പേർ കണ്ണൻ മേനോൻ ag\n\nതലായ 9 WANRIM|.s92d MIA, 224\n2% wan \"ag moet\nyas °\n\nനാശന?ായ asin\n\nay\n\n2\n",
+      "text_nfc": "* ഇക്കാലത്തെ പ്പോലെ കൊക്കുയും കുസ്ൃതിയും അന്നുമുണ്ടാ\nയിരുന്നുപൊ? ടുഷീയും Baxismajo നമുക്കു പൂവ്വസ് വത്താണൊ?\nഷസൂരീരോഗംപോലെതന്നെ പാറോലയും പണ്ടുചണ്ടെ കുള്ള\n“ താണൊ ? ഇതൊകെക ആലോചിച്ചാലും അനേോഷിച്ചാലും അ\n\nമൂന്നുപേരും പൃദ്ധന്മാരണണന്ന് അവ\nഅതിൽ ഏറ.വും maw\n_ शीट ക്കുന്നു . അതിഥ | 93 बिक...\n: ിച്ചിട്ട ണടെങ്കിലും Dao സ്ഥന്നി ar\n(Gm 238\n\nഗൃഫസ്ഥൻറ പേർ കണ്ണൻ മേനോൻ ag\n\nതലായ 9 WANRIM|.s92d MIA, 224\n2% wan \"ag moet\nyas °\n\nനാശന?ായ asin\n\nay\n\n2\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

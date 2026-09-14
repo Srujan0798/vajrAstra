@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_036",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0037pro_raw.pdf",
+    "page_index": 0,
+    "width": 374.1600036621094,
+    "height": 508.32000732421875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        374.1600036621094,
+        508.32000732421875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ದೀವಡು\nನರ೨ಂಹಶಾಶಿ\nಪೊ.\nಕನಾ೯ಟಕ\nಎದಾೈವಧಕ\nಸಂಘ.",
+      "text_nfc": "ದೀವಡು\nನರ೨ಂಹಶಾಶಿ\nಪೊ.\nಕನಾ೯ಟಕ\nಎದಾೈವಧಕ\nಸಂಘ.",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

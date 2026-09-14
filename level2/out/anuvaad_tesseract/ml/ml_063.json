@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_063",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0026pro_raw.pdf",
+    "page_index": 100,
+    "width": 992,
+    "height": 1583
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        992,
+        1583
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "േവല്ല (നം e000) ് 98\n\nSABIE OQ) HL. 68 കുനരിട്ടുന്നു ത്കപ്പാടെ MORO BQO ശ്രമം al jena\nZona ०910 38 Eom). agBlalo MignBdMMemoas aslailale, —\nകിടക്കയിലും BOG0 തിരയുവാൻ wsed). macb6gosS aknaids o@\n“കുണ്ടു സംശയിച്ചേക്കമെന്നു കരുതി പതിരുന്നുകൊല്ലമോയി gm a glad)\nട്ിരിക്കയളല്ല a കുലക്കേസ്സിൽ വല്ലതുരെരു omglay  രാണുമോ\napie നോക്കുകുയാഞ്് ? എന്നു പറഞ്ഞു\n\n 6അയ്കേ ; agando കൂട്ടി  തി് agamdan a5! തെളിയാനുള്്ു\nला കുരക്കാരസെ ണടപിടിച്ഛ wlan कीफी കുഴിഞ്ജ aqme ae\nത്തനാവതി പറഞ്ജു 2\n25 am. eigailan aacm@ allozosinomvajgaingjel —\nडे AONE അങ്ങിനെ വുന്നുകൂടാ??? age ക്ോമളം ചോടിച്ചു\n““തുണ്ണുവത്ത &0gio” എശുന്നു അഞ്ഞനുവതി പ്യസനത്തോടെ\nRAN ON “\n66 ് ! അങ്ങിനൌെ aioe gn ടിക്കുകക്കുണ്ടവുന്ന സന്തോഷ\nത്ഞിന്നുതിരുണ്ടേ ip - യോഗ്ൂനായ പ്രഭരവീനെ സ്സേഹിക്കത്തവരരു\noy. 0989० ManlomMawsm Mode , ആലേചിക്കകകൂടി Hagia;\nagedao അഞ്ടിനെ aimegslowem o10c@m;. soegaoommasdlal\nസകലരു geallaans” എന്നു ക്യക്ദരൻ aioaam.\n\n~ gaonaaigh) slsao പനതിച്ച emoeemmaemng 20८०6 “ag,\n: p@lmacmaas വെറതെ snjelagmp ? gato 62 കിടക്കകളെല്ലാം\nവലിച്ചിട്ട് തിരിച്ച adlajo നോക്കിക്കഴിഞ്ഞിരിങ്കന്നു ? എന്നു പറഞ്ഞു .\n കകോളവപ്പി asleilaato തുപ്പണികുളെല്ലാ eMIsemMma.ens’ 2305\nf) “som പത്ത osladomn. m0 dladleciage wssiloa\n\naimiloaigiie. mm agaraogoamy alm@allmoge avemnna\n\nത്തിൽനിന്നു ammulemoms.  aoalad arma qerslog 84092 Vigo\nAlda വേള്ളിതകിടിലു കത്തുപണി ചെയ്തിട്ടുണട്  ? ഷന്നു ascamm\nക്മളുവള്ി ജതെനപ കേംകന്നരെയില്ല. അവളുടെ  നത്രങ്ങ\n\n— go amie രക്് esleflotdo mgeaats clogmnmlainw lane\n- OAINEM GPA AT AVIGMS Seg, BM സന്തഷബ്ും ojoHa}\n\n= _ Slay. 280m BoAas aHg_par@e ളടിഷ്തത്തി . acleflake ea m5\n\nala agen ace തിളങ്ങന്നുതിനെ അവക്കു dma j920gan. 2\n~ mame aac തിരുകിയിരുന്ന ae ajailows: | दर\nനുത്തെ പതെടതഞ്ജ: അതു രണദ്ദവിര് നീളുത്തിൽ ങതീ\nി പണിചെയ്ത em സ്വ്്ചങ്ങലതയയിരുനനു com കുണ്ട്\nവലുരും ആശ്ചയ്യപ്പെട്ടു ഒരേോരുഞ്തതുയി അതിനെ വാങ്ങിനോക്കി:\n\n: sannge:— “po almRAl QHIIMHS Aidreeag രരടയളമാണ്ണ്\nरे തിരഞ്ഞരപ്പൻവേണ്ടി Queso «pam ജവിടക്കയച്ചതായിതി\n\n",
+      "text_nfc": "േവല്ല (നം e000) ് 98\n\nSABIE OQ) HL. 68 കുനരിട്ടുന്നു ത്കപ്പാടെ MORO BQO ശ്രമം al jena\nZona ०910 38 Eom). agBlalo MignBdMMemoas aslailale, —\nകിടക്കയിലും BOG0 തിരയുവാൻ wsed). macb6gosS aknaids o@\n“കുണ്ടു സംശയിച്ചേക്കമെന്നു കരുതി പതിരുന്നുകൊല്ലമോയി gm a glad)\nട്ിരിക്കയളല്ല a കുലക്കേസ്സിൽ വല്ലതുരെരു omglay  രാണുമോ\napie നോക്കുകുയാഞ്് ? എന്നു പറഞ്ഞു\n\n 6അയ്കേ ; agando കൂട്ടി  തി് agamdan a5! തെളിയാനുള്്ു\nला കുരക്കാരസെ ണടപിടിച്ഛ wlan कीफी കുഴിഞ്ജ aqme ae\nത്തനാവതി പറഞ്ജു 2\n25 am. eigailan aacm@ allozosinomvajgaingjel —\nडे AONE അങ്ങിനെ വുന്നുകൂടാ??? age ക്ോമളം ചോടിച്ചു\n““തുണ്ണുവത്ത &0gio” എശുന്നു അഞ്ഞനുവതി പ്യസനത്തോടെ\nRAN ON “\n66 ് ! അങ്ങിനൌെ aioe gn ടിക്കുകക്കുണ്ടവുന്ന സന്തോഷ\nത്ഞിന്നുതിരുണ്ടേ ip - യോഗ്ൂനായ പ്രഭരവീനെ സ്സേഹിക്കത്തവരരു\noy. 0989० ManlomMawsm Mode , ആലേചിക്കകകൂടി Hagia;\nagedao അഞ്ടിനെ aimegslowem o10c@m;. soegaoommasdlal\nസകലരു geallaans” എന്നു ക്യക്ദരൻ aioaam.\n\n~ gaonaaigh) slsao പനതിച്ച emoeemmaemng 20८०6 “ag,\n: p@lmacmaas വെറതെ snjelagmp ? gato 62 കിടക്കകളെല്ലാം\nവലിച്ചിട്ട് തിരിച്ച adlajo നോക്കിക്കഴിഞ്ഞിരിങ്കന്നു ? എന്നു പറഞ്ഞു .\n കകോളവപ്പി asleilaato തുപ്പണികുളെല്ലാ eMIsemMma.ens’ 2305\nf) “som പത്ത osladomn. m0 dladleciage wssiloa\n\naimiloaigiie. mm agaraogoamy alm@allmoge avemnna\n\nത്തിൽനിന്നു ammulemoms.  aoalad arma qerslog 84092 Vigo\nAlda വേള്ളിതകിടിലു കത്തുപണി ചെയ്തിട്ടുണട്  ? ഷന്നു ascamm\nക്മളുവള്ി ജതെനപ കേംകന്നരെയില്ല. അവളുടെ  നത്രങ്ങ\n\n— go amie രക്് esleflotdo mgeaats clogmnmlainw lane\n- OAINEM GPA AT AVIGMS Seg, BM സന്തഷബ്ും ojoHa}\n\n= _ Slay. 280m BoAas aHg_par@e ളടിഷ്തത്തി . acleflake ea m5\n\nala agen ace തിളങ്ങന്നുതിനെ അവക്കു dma j920gan. 2\n~ mame aac തിരുകിയിരുന്ന ae ajailows: | दर\nനുത്തെ പതെടതഞ്ജ: അതു രണദ്ദവിര് നീളുത്തിൽ ങതീ\nി പണിചെയ്ത em സ്വ്്ചങ്ങലതയയിരുനനു com കുണ്ട്\nവലുരും ആശ്ചയ്യപ്പെട്ടു ഒരേോരുഞ്തതുയി അതിനെ വാങ്ങിനോക്കി:\n\n: sannge:— “po almRAl QHIIMHS Aidreeag രരടയളമാണ്ണ്\nरे തിരഞ്ഞരപ്പൻവേണ്ടി Queso «pam ജവിടക്കയച്ചതായിതി\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

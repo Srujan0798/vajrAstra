@@ -1,0 +1,41 @@
+{
+  "page_id": "te_012",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0012pro_raw.pdf",
+    "page_index": 47,
+    "width": 1771,
+    "height": 2322
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1771,
+        2322
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "find from the lesson the homophones of the மீபிோண்டி\npick the homophones from the text\n1 see 6 eye\nwood peace\nthere threw\nscene hence\n5 won 10 knot\nexplain how the underlined homographs differ in meaning\n1 ૧ he saw his two brothers\nb the woodcutter cut the weakened branch with his sharp saw\n2 ૧ the bird injured his wings\nભ he lives in the wing of the building\n3 ૧ the aeroplane will land at 9ઃ00 pm sharp\nભ he owns 10 acres of land\n4 ૧ the head of the ப்பளிப்பேப் was on leave\nભ he bent his head down with chin\nread the following sentences carefully underline the verbs and find out the\ntenses the sentences\n૧ the sun was now ascending the sky\nstill they took no notice of him\nshe is standing on ૧ little high hump on the plateau\nhe leaned out eagerly\nhe just felt dizzy\nadverb\nan adverb is ૧ word that tells us something more about ૧ verb an adjective\nor another adverb\nabout ૧ verb he runs fast\nthe girls sang sweetly\nsuddenly the baby started crying\nabout ટી1 adjective this chain is very sturdy\nthe tea is too hot\nabout another adverb ੪ you should run very fast\nabout ૧ phrase or sentence சஶா your answer is incorrect\nadverbs give us information about\nplace for example go there come\ntime for example i will do my homework tomorrow\ni need ૧ pencil now\n36",
+      "text_nfc": "find from the lesson the homophones of the மீபிோண்டி\npick the homophones from the text\n1 see 6 eye\nwood peace\nthere threw\nscene hence\n5 won 10 knot\nexplain how the underlined homographs differ in meaning\n1 ૧ he saw his two brothers\nb the woodcutter cut the weakened branch with his sharp saw\n2 ૧ the bird injured his wings\nભ he lives in the wing of the building\n3 ૧ the aeroplane will land at 9ઃ00 pm sharp\nભ he owns 10 acres of land\n4 ૧ the head of the ப்பளிப்பேப் was on leave\nભ he bent his head down with chin\nread the following sentences carefully underline the verbs and find out the\ntenses the sentences\n૧ the sun was now ascending the sky\nstill they took no notice of him\nshe is standing on ૧ little high hump on the plateau\nhe leaned out eagerly\nhe just felt dizzy\nadverb\nan adverb is ૧ word that tells us something more about ૧ verb an adjective\nor another adverb\nabout ૧ verb he runs fast\nthe girls sang sweetly\nsuddenly the baby started crying\nabout ટી1 adjective this chain is very sturdy\nthe tea is too hot\nabout another adverb ੪ you should run very fast\nabout ૧ phrase or sentence சஶா your answer is incorrect\nadverbs give us information about\nplace for example go there come\ntime for example i will do my homework tomorrow\ni need ૧ pencil now\n36",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

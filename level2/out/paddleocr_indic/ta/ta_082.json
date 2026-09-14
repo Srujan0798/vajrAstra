@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_082",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 39,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "enfsre i Tiy\n139\nHrfe chr\nae  3 h EE\n10.\nfar    4 37 i  fa  f\n ufar:\n 5o   1 -  4  34t 4R \nH\n??\n2006, s-f  57 f\n 3f32h{T, 1400-1800\nufeiutl chri (chξ uch)\nd ae , \ne TOT Ts AT EICTOE\n11.\n3T4A   3E (HTAI/HA/ETET-TET \n2006, 3 fo4 m1y,\n-/EE/ET ER  -A 3C R\ndfio ae , \n37T   E      () E\n  )\nTitl oer,  57 f \n3  P  (3 P 3    H\n 1656-1668 .,\nh  3 3R 3     3\n 15 ohT, e\n3T4t TEt  TET 3  fohy T TETi   , fa\naY , EH, TTT, A-RT, RA, 5C \nT.R. fio (TI.), 1993\n 3R E  -   I 34  \nfa d0 37 5or \ne T h fe der \nFRTH HERCT, fa\n12.3 3  3     e \n2005\n f  3 3 1  4 3 13\ndred3 o13s: d0 3t f01\nT Toh fue der cfry fat tay  3 o T ir  \n3T0 d, 3S ea\nfo      o  Me  l\nfac\n3E H y T 3o  fI\n.  (.), 1997\n s e\nf 5.14\n35 a \n        \nfar\ne dfere tafter, 1993, 2d\n  \nfacet\n3feTCh chT  foE 31\nfmfefa dase d Hhd\nwww.edumaritime.org",
+      "text_nfc": "enfsre i Tiy\n139\nHrfe chr\nae  3 h EE\n10.\nfar    4 37 i  fa  f\n ufar:\n 5o   1 -  4  34t 4R \nH\n??\n2006, s-f  57 f\n 3f32h{T, 1400-1800\nufeiutl chri (chξ uch)\nd ae , \ne TOT Ts AT EICTOE\n11.\n3T4A   3E (HTAI/HA/ETET-TET \n2006, 3 fo4 m1y,\n-/EE/ET ER  -A 3C R\ndfio ae , \n37T   E      () E\n  )\nTitl oer,  57 f \n3  P  (3 P 3    H\n 1656-1668 .,\nh  3 3R 3     3\n 15 ohT, e\n3T4t TEt  TET 3  fohy T TETi   , fa\naY , EH, TTT, A-RT, RA, 5C \nT.R. fio (TI.), 1993\n 3R E  -   I 34  \nfa d0 37 5or \ne T h fe der \nFRTH HERCT, fa\n12.3 3  3     e \n2005\n f  3 3 1  4 3 13\ndred3 o13s: d0 3t f01\nT Toh fue der cfry fat tay  3 o T ir  \n3T0 d, 3S ea\nfo      o  Me  l\nfac\n3E H y T 3o  fI\n.  (.), 1997\n s e\nf 5.14\n35 a \n        \nfar\ne dfere tafter, 1993, 2d\n  \nfacet\n3feTCh chT  foE 31\nfmfefa dase d Hhd\nwww.edumaritime.org",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

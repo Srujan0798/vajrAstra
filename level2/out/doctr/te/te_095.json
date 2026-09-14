@@ -1,0 +1,41 @@
+{
+  "page_id": "te_095",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0011pro_raw.pdf",
+    "page_index": 73,
+    "width": 1655,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1655,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "FEORLE E\nserTe\nHERIZ Tivel Tgugereh fiffat a 3721RHShH HRTTETT HSO, qU-X8800%.\nfeat micharoft, suril Galct (feat STT9T)\nM\nAAA A A\nWWA\n7 42.00\n\nAA\n-\nTV",
+      "text_nfc": "FEORLE E\nserTe\nHERIZ Tivel Tgugereh fiffat a 3721RHShH HRTTETT HSO, qU-X8800%.\nfeat micharoft, suril Galct (feat STT9T)\nM\nAAA A A\nWWA\n7 42.00\n\nAA\n-\nTV",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

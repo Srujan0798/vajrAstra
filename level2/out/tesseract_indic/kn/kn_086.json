@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_086",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0006pro_raw.pdf",
+    "page_index": 2,
+    "width": 1899,
+    "height": 1268
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1899,
+        1268
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "_ ಹಾ ६०8९० - ಮ\n\n೫ನ = ಉಂ + ೫ : : ಬೀಯಾಧೀಯು ಸ pepe + ಜು “೯\nಚುಟು = 303238299 : : Gace 2 4೮ಉೀಣ “ಲ\n7. ಉಣ ಐಣ ಐಇಲಿಂಇಂಜ ಸಣಣ ಉ೦೫೦೮೮ 2ಂಐಓಿಂಇಂಜ cots ಓಡಿಓಐಣ ಉಂಣಐಲಣ `\nae ೩೦೫\nT “ecqoare ಐಣ ashewerey Yauor ५68 '8\nಓದಿದ (ಇ. 0९०५९ (ಇ ದಿಜದಿಜ(೯೪ gees (ಲ\n17 \"೦೧೧ ಇಳಿ ಂಉಲಂಉಯಾರಾ ಅಂ ದಹಿಟಐಣ ಇಟ '(\nಇಂಟ \"ಇಂಬ\nt ‘omar ೫೮೦ She/he vauPeuss ‘9\nಉಂ ೦%%6೦\nI “ಯಣ ६५०५८ tweno'e: eke ಐಂ ೂಟಐಣ ಇಟಗಿ '५\nಆಜ ಆಜಹುಉಂಣ\n1 ೦%೧ಣ ಐಣ 83 टिलए0फ ಬಡಿಟಐಬಣ 8068 by\n1 \"ರಯ var ಔಂಗೋಣ 80% Regnum te ಸಖಲ Giese, \"\nacposcege (ಅಂ\nಗೆ wore `ಾಣಣೀರಾಣ yogic Qwaumr 2५68 ‘7\n“eafuece \"ಜಣ\nZz wore Qeqodox ver wayne 2५68 पु\n\"೦೦೮೧೧ ೧ 2೦೦೦೫೮೬ vau'e 2५68 He 0.\n\n(saugoa pl): (Goat) ठयफब्ठठ\n\nv \"६9९५४०४\n\nभर\n\nहै (J ry ಗ್ದ\nSecrogar ೦೧೦% woreee ಂಉ4%ಂಜ Memon momoace seme Doesnt Tee «pl\n\na\n\nहि\n\n\"೦೧೧ Be qnoeyeres ಖಂಟ \"ರೀ 8% भत्फय\n\n\"ಉಣಿ \"೮2೦೮%೪೦೫೮ comersyercse ಜಣ ಣಣ0% ೫೫೩ ೯೦8೦, ೧೫70ರ ಐ\n९०6\n‘ovOx are (लिफ्ट. axveman हि ಐಂ gear Ge ಉಗ \"ಉಣ\n\n೨೧೮% Crem Moweacceer ಟು ಐದು KORE LO ಜಗ A ಲಲಂ೯-6-6೮ ೩0೮ ‘|||\n\n“poo ಹಟ್ಟಗಾಣ “es “qaucpoemaergacee 20०५९ ೧೫೦೧ ೯. ಇಇ Shee “ಲ\n9 “acopr2 Hoe gomarce Yum ೦೫೮ ೦ 'ಹಣಉಂ೫೮ ೦% ಉಂಬೀಗೀಣಂ 008 “II\n\n(೧34/೩2೦೧ 977 (O@e UREA) q{—-UeAe\n\n",
+      "text_nfc": "_ ಹಾ ६०8९० - ಮ\n\n೫ನ = ಉಂ + ೫ : : ಬೀಯಾಧೀಯು ಸ pepe + ಜು “೯\nಚುಟು = 303238299 : : Gace 2 4೮ಉೀಣ “ಲ\n7. ಉಣ ಐಣ ಐಇಲಿಂಇಂಜ ಸಣಣ ಉ೦೫೦೮೮ 2ಂಐಓಿಂಇಂಜ cots ಓಡಿಓಐಣ ಉಂಣಐಲಣ `\nae ೩೦೫\nT “ecqoare ಐಣ ashewerey Yauor ५68 '8\nಓದಿದ (ಇ. 0९०५९ (ಇ ದಿಜದಿಜ(೯೪ gees (ಲ\n17 \"೦೧೧ ಇಳಿ ಂಉಲಂಉಯಾರಾ ಅಂ ದಹಿಟಐಣ ಇಟ '(\nಇಂಟ \"ಇಂಬ\nt ‘omar ೫೮೦ She/he vauPeuss ‘9\nಉಂ ೦%%6೦\nI “ಯಣ ६५०५८ tweno'e: eke ಐಂ ೂಟಐಣ ಇಟಗಿ '५\nಆಜ ಆಜಹುಉಂಣ\n1 ೦%೧ಣ ಐಣ 83 टिलए0फ ಬಡಿಟಐಬಣ 8068 by\n1 \"ರಯ var ಔಂಗೋಣ 80% Regnum te ಸಖಲ Giese, \"\nacposcege (ಅಂ\nಗೆ wore `ಾಣಣೀರಾಣ yogic Qwaumr 2५68 ‘7\n“eafuece \"ಜಣ\nZz wore Qeqodox ver wayne 2५68 पु\n\"೦೦೮೧೧ ೧ 2೦೦೦೫೮೬ vau'e 2५68 He 0.\n\n(saugoa pl): (Goat) ठयफब्ठठ\n\nv \"६9९५४०४\n\nभर\n\nहै (J ry ಗ್ದ\nSecrogar ೦೧೦% woreee ಂಉ4%ಂಜ Memon momoace seme Doesnt Tee «pl\n\na\n\nहि\n\n\"೦೧೧ Be qnoeyeres ಖಂಟ \"ರೀ 8% भत्फय\n\n\"ಉಣಿ \"೮2೦೮%೪೦೫೮ comersyercse ಜಣ ಣಣ0% ೫೫೩ ೯೦8೦, ೧೫70ರ ಐ\n९०6\n‘ovOx are (लिफ्ट. axveman हि ಐಂ gear Ge ಉಗ \"ಉಣ\n\n೨೧೮% Crem Moweacceer ಟು ಐದು KORE LO ಜಗ A ಲಲಂ೯-6-6೮ ೩0೮ ‘|||\n\n“poo ಹಟ್ಟಗಾಣ “es “qaucpoemaergacee 20०५९ ೧೫೦೧ ೯. ಇಇ Shee “ಲ\n9 “acopr2 Hoe gomarce Yum ೦೫೮ ೦ 'ಹಣಉಂ೫೮ ೦% ಉಂಬೀಗೀಣಂ 008 “II\n\n(೧34/೩2೦೧ 977 (O@e UREA) q{—-UeAe\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

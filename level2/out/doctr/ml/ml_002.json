@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_002",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 1,
+    "width": 1452,
+    "height": 2224
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1452,
+        2224
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(B10ajo6om egalorolero.eng6 :\n1\nlo6or0 Ma000al0180000S al6y3 Bleogfalsoos 801081918 - \"molam 0103o 0918910 \"\n5) aldlog19301 aomul aldampalenge :\n2\na) 0010801080\nb) aun0oloo\n6) ofoaolaf au200o aldomolenge. :\n2\na)\no1OBo0o\nb) ofecejc@laad\n7) a. alafoo a18661308 n053601093036.\n1. Q197\n1\n(defalo, GOOMo, QJCU3, ofil)\n2. gefalelo\n1\n(00le30190, (sgeler, onfa0232, aslai0o)\nb. mompdona183681308 a0586.01D98034 :\n1. m03(00\n1\n(2(000, alos\", 020, 201000)\n2. 60S\n1\n(6303200, (GQIUOMO, a129, alpef)\nC. olaldlo al30293086 :\n1. aBdo\n1\n((DOlo, G1000alo, GGIOBMOo, (1000lo)\n2. 20091280\n(aflago, 0logo, egloo, 0OB0)\nd. al36813936S aadanayoyoamo a053001093036 :\n2\n1. U803000 - mU803aDo\n((C0QJ6Mo, NocoQo. B30, 2800020, mosmado, (CORD)\n2. 630916m0 - B3096m0\n((310E10,000, eld0omo, 600200, B8a21ales08, QICUCDO, aunlol)\ne. agoldefloo alBo a05360093036 :\n1. O(0le08\n1\n(00(001, op(ole, 00(01, O(0)\n2. ofajpa8\n1\n(aNBow, ofngodoi, ofega21, ofles)\nSECTION-D/ D- afeooo\n40 Marks\nIV. 1) codloso 20000 a0580.01098086. :\n8x/ =4\na) 80020000 93930108 gmalalesodd 00084399 Blayal30g.90d 0omooomB8BaDo -\n(g0 ?\n(6001600 2300208 60la218, 0010380801, 8g200mpc00a8, (Galmooo0m 0202)\nb) \"000008 B(aJolallengamg a0mo DE GO alan'me.amlod 800050 7\na@08\nalgm@e.omlod ?\n(901ege08, 00601363308, onloeloser auof, aJ0010320030S GOS)\n-2-",
+      "text_nfc": "(B10ajo6om egalorolero.eng6 :\n1\nlo6or0 Ma000al0180000S al6y3 Bleogfalsoos 801081918 - \"molam 0103o 0918910 \"\n5) aldlog19301 aomul aldampalenge :\n2\na) 0010801080\nb) aun0oloo\n6) ofoaolaf au200o aldomolenge. :\n2\na)\no1OBo0o\nb) ofecejc@laad\n7) a. alafoo a18661308 n053601093036.\n1. Q197\n1\n(defalo, GOOMo, QJCU3, ofil)\n2. gefalelo\n1\n(00le30190, (sgeler, onfa0232, aslai0o)\nb. mompdona183681308 a0586.01D98034 :\n1. m03(00\n1\n(2(000, alos\", 020, 201000)\n2. 60S\n1\n(6303200, (GQIUOMO, a129, alpef)\nC. olaldlo al30293086 :\n1. aBdo\n1\n((DOlo, G1000alo, GGIOBMOo, (1000lo)\n2. 20091280\n(aflago, 0logo, egloo, 0OB0)\nd. al36813936S aadanayoyoamo a053001093036 :\n2\n1. U803000 - mU803aDo\n((C0QJ6Mo, NocoQo. B30, 2800020, mosmado, (CORD)\n2. 630916m0 - B3096m0\n((310E10,000, eld0omo, 600200, B8a21ales08, QICUCDO, aunlol)\ne. agoldefloo alBo a05360093036 :\n1. O(0le08\n1\n(00(001, op(ole, 00(01, O(0)\n2. ofajpa8\n1\n(aNBow, ofngodoi, ofega21, ofles)\nSECTION-D/ D- afeooo\n40 Marks\nIV. 1) codloso 20000 a0580.01098086. :\n8x/ =4\na) 80020000 93930108 gmalalesodd 00084399 Blayal30g.90d 0omooomB8BaDo -\n(g0 ?\n(6001600 2300208 60la218, 0010380801, 8g200mpc00a8, (Galmooo0m 0202)\nb) \"000008 B(aJolallengamg a0mo DE GO alan'me.amlod 800050 7\na@08\nalgm@e.omlod ?\n(901ege08, 00601363308, onloeloser auof, aJ0010320030S GOS)\n-2-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

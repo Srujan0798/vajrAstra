@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_063",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0026pro_raw.pdf",
+    "page_index": 100,
+    "width": 992,
+    "height": 1583
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        992,
+        1583
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "aale (cao. eocn.)\n98\nm a  m   \nz cm. emesee,\n.\n\noo\nm\".\n\"\n   \no ao\ne zl omg alozcinowae\n\n\"\"\n210000.\n\"m \nmomaeo?cmam cm\n\nooe\nu am o .\n\neu\n\nae eoo emamemm w\n\n\nomo m. mo me  uom\n\n000\n\n  gam lebo ss alolesm.\n\nsy. pssm maios geaeo sosagoml. alelomo ea \no.\nmomo meol mlom o co m o\nwmaom ooogo. o@ ozalob mlgo maacozo\n\nmg.\n\n“   .\nm\nsamo\"",
+      "text_nfc": "aale (cao. eocn.)\n98\nm a  m   \nz cm. emesee,\n.\n\noo\nm\".\n\"\n   \no ao\ne zl omg alozcinowae\n\n\"\"\n210000.\n\"m \nmomaeo?cmam cm\n\nooe\nu am o .\n\neu\n\nae eoo emamemm w\n\n\nomo m. mo me  uom\n\n000\n\n  gam lebo ss alolesm.\n\nsy. pssm maios geaeo sosagoml. alelomo ea \no.\nmomo meol mlom o co m o\nwmaom ooogo. o@ ozalob mlgo maacozo\n\nmg.\n\n“   .\nm\nsamo\"",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

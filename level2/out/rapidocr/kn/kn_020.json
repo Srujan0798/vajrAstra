@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_020",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 151,
+    "width": 488.97601318359375,
+    "height": 668.9760131835938
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        488.97601318359375,
+        668.9760131835938
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "140\nಎಜಾನ\nChildren be cautious !!! Be alert\nYour body belongs only to you, You have all the rights\nto keep safe and protect it always.\nSafe and Unsafe touches on your body.\nSee the picture and understand\nthis cautious is for Boys and Girls\nForehead\nCheeks\nLips\nShoulder!\nBack\nChest\nHand\nBottom\nBbelow your back \nPart between\ntwo legs\nUnsafe Touch eap fouch - parts of your body where nobody should touch\nJexcept parents and in their presence only doctors can touch\nSafe touch goop fouch -can touch only when required \nWhen you feel Unsafe Touch or any other mischief, please Say loudly\nNO.. Don't. Stop it.and Scream, push the person aside and move to a safer place,\nbe brave and inform about it, to your parents 8 Trusted adult and register a complaint \nPublished by Distict Administration -08532-29011, Zilla Panchyat-228448\nDepartment of Police -2535/ 25001 I 235100 I 100 1091 District Child Protection Unit-280670, \nDepartment of Women and Child Develpoment-22622, Unicef Child Protection Project 23060. Raichur \nBe Smart, Be Safe, Be Happy\nunicef \nPicture courtesy : Prajavani, Bhoomika 26-07-2014",
+      "text_nfc": "140\nಎಜಾನ\nChildren be cautious !!! Be alert\nYour body belongs only to you, You have all the rights\nto keep safe and protect it always.\nSafe and Unsafe touches on your body.\nSee the picture and understand\nthis cautious is for Boys and Girls\nForehead\nCheeks\nLips\nShoulder!\nBack\nChest\nHand\nBottom\nBbelow your back \nPart between\ntwo legs\nUnsafe Touch eap fouch - parts of your body where nobody should touch\nJexcept parents and in their presence only doctors can touch\nSafe touch goop fouch -can touch only when required \nWhen you feel Unsafe Touch or any other mischief, please Say loudly\nNO.. Don't. Stop it.and Scream, push the person aside and move to a safer place,\nbe brave and inform about it, to your parents 8 Trusted adult and register a complaint \nPublished by Distict Administration -08532-29011, Zilla Panchyat-228448\nDepartment of Police -2535/ 25001 I 235100 I 100 1091 District Child Protection Unit-280670, \nDepartment of Women and Child Develpoment-22622, Unicef Child Protection Project 23060. Raichur \nBe Smart, Be Safe, Be Happy\nunicef \nPicture courtesy : Prajavani, Bhoomika 26-07-2014",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

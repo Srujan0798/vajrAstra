@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_085",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0019pro_raw.pdf",
+    "page_index": 279,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "CLD6DIE1606D OJ6OOTLITID 2560010 - D_uflud 5TOITOL\nLITLIITO 2165510\nGLDGDITILIOLITTOIT 5L\nUD6DGOTOLT 5.69. d5oqcoorepd\n516DD656D6DGIT (guscu) STGIJGRUI6O,\nLITTEISTEGT LiébscDevbsspaib.\nLDGDGOTGJT EFIT. LILpoofluLIGOT\nLp56ouj -gicy, BITélonj 8560D60 sobgarrf(ayLcuij),\nBi5560TL, 61560T6060T\nLITL G6gIbi UL\nUPGDGOTGJT. 61F. a. OTSSlotsLonj\nUpsoouy -giol,\nuf arupuDoooflu BT6ILDI Bijo 456D006560gTI\n80556001, BGGLOTEGIBI LDITGILLID\nL6DGOTGJT 5l IBITELDLDGOT\nD60600T Bummalflui (guscy), STGITOALIO 5160p,\n61860T6D6OT 80555161 E6bgf 5MDLITL, ETe5eLib\n(OGDGOTGJT. GET.4. Efloesot\n060600T Gumelfuj, SITFGOT 56060 ssdogrf(eyLauj))\nBi5560Tb, 61560T6D60T.\nUPGDGOTOJ. A.ol. FLIQLITY\nO60600T Gummalfluj, LOTIElGD6 E0gurf, 61560T6060T.\nUPEDGOTOUj. GT6O0l 6TL6160T\n060600T Gummelfleou, LDITBlODE Eo0grf, 61660T6060T\nLITL Gushudienscorlumentadr\n55IT. LDI65ET6IIIT\neliflejcgument STGITGAUIGD\nDIET, Sasuébe@aGacof, 61860T6D6UT.\n6122. JT5ITD600f\nollflejcgument STGITGAUIGD\nDIET-aeflumibuciong. Emeisemib.\nC61. GEm66 6501\nU515606 syoflco STGLTGMLID\nBLG.Bluoterl, acorcombudesemib. SGGLTEGB\n56060 LoDDILD 6196J16DLDULé L\nOGDTULID\nOlgufGDGOT\n2500 sgéfluj,\n3185G0.BL Lieitorf, 20551166DJ, 6oiqsooréat\nGamy TTaGOL6,\nEr. Gamy\nE55160T 811504600T60T\n611466OLDLL\nsbaumg GTULELI6OT\nP.L Liyambs\nGTULELIGOT\na. Ligambs\nE. #b65164 LDIT\nLD560T, S1Q,560T\nIn-House QC\nEIDIILA LIT6D60T eDILD5iD\ngGgoig 5TIBLLIGOT\n61gT160b Gl6b560t\nSILGOL 6114616DLDL\n8551j ESDILDEID\nSetsriusdaDcvorlumen)\nTELDOg (p6oflemo\n5LLÈG\nE. Abam, SCERT, Chennai\n272\nTN_GOVT_BIOLOGY_BOTANY_XILTTM_PRACTICAL_MANUAL.indd 272\n28/12/2022 16:23:29\nLITLIITG 2061155L LDDODILD BLOLOTEES BL\n4 ouolcungioehn.osnmo) syeduj- 5TITolule)\nBL85G0.B. LiGitGrf, Glastbablernjdulig, G56ofl.\nL. Rgcmvib.Slonson.opbunumo) agdflcow- 5TEJITGILIeD\nBLD.GD.B. Li6iorfl, Guméaiblisiterf, dGoiqsootélif\nGTLD.69. 615656160T, U5166D egfflus STGuToflud\nSMSIUIDOTEÔT 1319G00,B LIGiTGff, sjLoLf\nSLGLD.B. rodugeL Gambnsibulig, 5(5LDLA\nUPGDGOTONT. LD600f1,U5156DD sgdfluj I- STGITOMILLO\nS1GLD.. bShu0E90 (8581). eyéembulig, LDE16DJ\n5. (55L\nsyerfui STEITGAIUJéD\nBoIT. os-Surcois8.osesoo) asefluj STGuITGliuLé\nBLG0.B Leitefl, eguumib, Slodubsmi.\n5l. TGLDOig,\nSeuITGflé)\n31.9G.B. Lieiterf, U515608 GouLLGuGDiD, ayedut SlasoledrecommpsDso.\n61E. S1GL0.B. LpGojolpluoginaoso Lieiterfl, Aecionuagmocinugmi. sydifloow E5ebreoflumgtof1. STGuTOluéD\nBLLD.GLD.B. Lundumina.beomneinu. LiéitGrf, 836065600TLmL/Iib,\nG5IT.\nST6JTOALIeD\nE. doqnigioni, U5166D8D syelflus 5TeTailulé)\n31@G0.BLuedTafl, 5LLULITODD, iqumssio, Gougpmi\nF.LIT. SLG0,B S1L05616060), Lieirerf, geGLi U5156D8D 1olifley, GLIEOOTLgIT, ejdifleow Emte5emib. STeuToilule)\nGuomflalujuléo 2509\nGIL. 6ab5lo, SapspeDioumé/luit\nSLGLD.B. Lieiterfl, egcomibsmi, B0oigcooréd)\nmglo@uotafiu.ammk upsosecocogth\n8. 61F0605160J,\negefluj STGUTAIUJGD\nOOTOL8 musb GLDGDITGOOTGDLDO E\nOgm. 086515601\n2mg/Bluotefl EGeooreLpb- Gurreabi, Sasauecdorecomoepe) LOITGILLID.\nS18_Blueiterl, OLLIBLDITOIS, Gcuppluyi, L.9, erflugeri.\n8y6501 6196n01b51, L.8y,\n312_6LLUGiTGr1, Grebr.omib.Garrallo, Gougurj.\nDbDITéDE 80g1.areiu.crib. 6T60185600TL GIDLeDBGBIT 5merflé snbaLduLodengl\nayuoaL upcopulé SIALGLII:",
+      "text_nfc": "CLD6DIE1606D OJ6OOTLITID 2560010 - D_uflud 5TOITOL\nLITLIITO 2165510\nGLDGDITILIOLITTOIT 5L\nUD6DGOTOLT 5.69. d5oqcoorepd\n516DD656D6DGIT (guscu) STGIJGRUI6O,\nLITTEISTEGT LiébscDevbsspaib.\nLDGDGOTGJT EFIT. LILpoofluLIGOT\nLp56ouj -gicy, BITélonj 8560D60 sobgarrf(ayLcuij),\nBi5560TL, 61560T6060T\nLITL G6gIbi UL\nUPGDGOTGJT. 61F. a. OTSSlotsLonj\nUpsoouy -giol,\nuf arupuDoooflu BT6ILDI Bijo 456D006560gTI\n80556001, BGGLOTEGIBI LDITGILLID\nL6DGOTGJT 5l IBITELDLDGOT\nD60600T Bummalflui (guscy), STGITOALIO 5160p,\n61860T6D6OT 80555161 E6bgf 5MDLITL, ETe5eLib\n(OGDGOTGJT. GET.4. Efloesot\n060600T Gumelfuj, SITFGOT 56060 ssdogrf(eyLauj))\nBi5560Tb, 61560T6D60T.\nUPGDGOTOJ. A.ol. FLIQLITY\nO60600T Gummalfluj, LOTIElGD6 E0gurf, 61560T6060T.\nUPEDGOTOUj. GT6O0l 6TL6160T\n060600T Gummelfleou, LDITBlODE Eo0grf, 61660T6060T\nLITL Gushudienscorlumentadr\n55IT. LDI65ET6IIIT\neliflejcgument STGITGAUIGD\nDIET, Sasuébe@aGacof, 61860T6D6UT.\n6122. JT5ITD600f\nollflejcgument STGITGAUIGD\nDIET-aeflumibuciong. Emeisemib.\nC61. GEm66 6501\nU515606 syoflco STGLTGMLID\nBLG.Bluoterl, acorcombudesemib. SGGLTEGB\n56060 LoDDILD 6196J16DLDULé L\nOGDTULID\nOlgufGDGOT\n2500 sgéfluj,\n3185G0.BL Lieitorf, 20551166DJ, 6oiqsooréat\nGamy TTaGOL6,\nEr. Gamy\nE55160T 811504600T60T\n611466OLDLL\nsbaumg GTULELI6OT\nP.L Liyambs\nGTULELIGOT\na. Ligambs\nE. #b65164 LDIT\nLD560T, S1Q,560T\nIn-House QC\nEIDIILA LIT6D60T eDILD5iD\ngGgoig 5TIBLLIGOT\n61gT160b Gl6b560t\nSILGOL 6114616DLDL\n8551j ESDILDEID\nSetsriusdaDcvorlumen)\nTELDOg (p6oflemo\n5LLÈG\nE. Abam, SCERT, Chennai\n272\nTN_GOVT_BIOLOGY_BOTANY_XILTTM_PRACTICAL_MANUAL.indd 272\n28/12/2022 16:23:29\nLITLIITG 2061155L LDDODILD BLOLOTEES BL\n4 ouolcungioehn.osnmo) syeduj- 5TITolule)\nBL85G0.B. LiGitGrf, Glastbablernjdulig, G56ofl.\nL. Rgcmvib.Slonson.opbunumo) agdflcow- 5TEJITGILIeD\nBLD.GD.B. Li6iorfl, Guméaiblisiterf, dGoiqsootélif\nGTLD.69. 615656160T, U5166D egfflus STGuToflud\nSMSIUIDOTEÔT 1319G00,B LIGiTGff, sjLoLf\nSLGLD.B. rodugeL Gambnsibulig, 5(5LDLA\nUPGDGOTONT. LD600f1,U5156DD sgdfluj I- STGITOMILLO\nS1GLD.. bShu0E90 (8581). eyéembulig, LDE16DJ\n5. (55L\nsyerfui STEITGAIUJéD\nBoIT. os-Surcois8.osesoo) asefluj STGuITGliuLé\nBLG0.B Leitefl, eguumib, Slodubsmi.\n5l. TGLDOig,\nSeuITGflé)\n31.9G.B. Lieiterf, U515608 GouLLGuGDiD, ayedut SlasoledrecommpsDso.\n61E. S1GL0.B. LpGojolpluoginaoso Lieiterfl, Aecionuagmocinugmi. sydifloow E5ebreoflumgtof1. STGuTOluéD\nBLLD.GLD.B. Lundumina.beomneinu. LiéitGrf, 836065600TLmL/Iib,\nG5IT.\nST6JTOALIeD\nE. doqnigioni, U5166D8D syelflus 5TeTailulé)\n31@G0.BLuedTafl, 5LLULITODD, iqumssio, Gougpmi\nF.LIT. SLG0,B S1L05616060), Lieirerf, geGLi U5156D8D 1olifley, GLIEOOTLgIT, ejdifleow Emte5emib. STeuToilule)\nGuomflalujuléo 2509\nGIL. 6ab5lo, SapspeDioumé/luit\nSLGLD.B. Lieiterfl, egcomibsmi, B0oigcooréd)\nmglo@uotafiu.ammk upsosecocogth\n8. 61F0605160J,\negefluj STGUTAIUJGD\nOOTOL8 musb GLDGDITGOOTGDLDO E\nOgm. 086515601\n2mg/Bluotefl EGeooreLpb- Gurreabi, Sasauecdorecomoepe) LOITGILLID.\nS18_Blueiterl, OLLIBLDITOIS, Gcuppluyi, L.9, erflugeri.\n8y6501 6196n01b51, L.8y,\n312_6LLUGiTGr1, Grebr.omib.Garrallo, Gougurj.\nDbDITéDE 80g1.areiu.crib. 6T60185600TL GIDLeDBGBIT 5merflé snbaLduLodengl\nayuoaL upcopulé SIALGLII:",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

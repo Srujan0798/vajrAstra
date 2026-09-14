@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_031",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Series G7DEF\nSET-4\nQ.P. Code 12\nRoll No.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nനിർദ്ദേശങ്ങൾ\n(I) ചോദ്യപേപ്പറിൽ അച്ചടിച്ച 15 പുറങ്ങളുണ്ടെ ദയവുചെയ്ത് ഉറപ്പുവരുത്തുക. (II) പരീക്ഷാർത്ഥി ചോദ്യപേപ്പറിന്റെ വലതുമുകൾഭാഗത്ത് കൊടുത്തിരിക്കുന്ന ചോദ്യപേപ്പർ കോഡ് ഉത്തരക്കടലാസ്സിന്റെ ടൈറ്റിൽ പേജിൽ എഴുതേണ്ടതാണ്. (III) ചോദ്യപേപ്പറിൽ 8 ചോദ്യങ്ങൾ ഉണ്ടെന്ന് ദയവുചെയ്ത് ഉറപ്പുവരുത്തുക. (IV) ഉത്തരം എഴുതുന്നതിനു മുമ്പായി ഉത്തരക്കടലാസ്സിൽ തന്നിട്ടുള്ള ഇടങ്ങളിൽ ചോദ്യത്തിന്റെ ക്രമനമ്പർ എഴുതുക. (V) ചോദ്യപേപ്പർ വായിക്കാൻ 15 മിനിട്ടാണ് അനുവദിച്ചിട്ടുള്ളത്. രാവിലെ 10.15 നു ചോദ്യപേപ്പർ വിതരണം ചെയ്യുന്നതാണ്. രാവിലെ 10.15 മുതൽ 10.30 വരെ വിദ്യാർത്ഥികൾക്ക് ചോദ്യങ്ങൾ വായിച്ചുനോക്കാനുള്ള സമയമാണ്. ഈ സമയം ഉത്തരക്കടലാസ്സിൽ ഒരു ഉത്തരവും എഴുതാൻ ശ്രമിക്കരുത്.\nNOTE\n[]\nPlease check that this question paper contains 15 printed pages.\n(II) Q.P. Code given on the right hand side of the question paper should be written on the title page of the answerbook by the candidate.\n(III) Please check that this question paper contains 8 questions.\n(IV) Please write down the Serial Number of the question in the answer-book at the given place before attempting it.\n(V) 15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period.\nമലയാളം\nMALAYALAM\nഅനുവദിച്ച സമയം : 3 മണിക്കൂർ\nആകെ മാർക്ക് : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n12\n1\nP.T.O.",
+      "text_nfc": "Series G7DEF\nSET-4\nQ.P. Code 12\nRoll No.\nCandidates must write the Q.P. Code on the title page of the answer-book.\nനിർദ്ദേശങ്ങൾ\n(I) ചോദ്യപേപ്പറിൽ അച്ചടിച്ച 15 പുറങ്ങളുണ്ടെ ദയവുചെയ്ത് ഉറപ്പുവരുത്തുക. (II) പരീക്ഷാർത്ഥി ചോദ്യപേപ്പറിന്റെ വലതുമുകൾഭാഗത്ത് കൊടുത്തിരിക്കുന്ന ചോദ്യപേപ്പർ കോഡ് ഉത്തരക്കടലാസ്സിന്റെ ടൈറ്റിൽ പേജിൽ എഴുതേണ്ടതാണ്. (III) ചോദ്യപേപ്പറിൽ 8 ചോദ്യങ്ങൾ ഉണ്ടെന്ന് ദയവുചെയ്ത് ഉറപ്പുവരുത്തുക. (IV) ഉത്തരം എഴുതുന്നതിനു മുമ്പായി ഉത്തരക്കടലാസ്സിൽ തന്നിട്ടുള്ള ഇടങ്ങളിൽ ചോദ്യത്തിന്റെ ക്രമനമ്പർ എഴുതുക. (V) ചോദ്യപേപ്പർ വായിക്കാൻ 15 മിനിട്ടാണ് അനുവദിച്ചിട്ടുള്ളത്. രാവിലെ 10.15 നു ചോദ്യപേപ്പർ വിതരണം ചെയ്യുന്നതാണ്. രാവിലെ 10.15 മുതൽ 10.30 വരെ വിദ്യാർത്ഥികൾക്ക് ചോദ്യങ്ങൾ വായിച്ചുനോക്കാനുള്ള സമയമാണ്. ഈ സമയം ഉത്തരക്കടലാസ്സിൽ ഒരു ഉത്തരവും എഴുതാൻ ശ്രമിക്കരുത്.\nNOTE\n[]\nPlease check that this question paper contains 15 printed pages.\n(II) Q.P. Code given on the right hand side of the question paper should be written on the title page of the answerbook by the candidate.\n(III) Please check that this question paper contains 8 questions.\n(IV) Please write down the Serial Number of the question in the answer-book at the given place before attempting it.\n(V) 15 minute time has been allotted to read this question paper. The question paper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the candidates will read the question paper only and will not write any answer on the answer-book during this period.\nമലയാളം\nMALAYALAM\nഅനുവദിച്ച സമയം : 3 മണിക്കൂർ\nആകെ മാർക്ക് : 80\nTime allowed : 3 hours\nMaximum Marks : 80\n12\n1\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

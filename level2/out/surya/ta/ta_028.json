@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_028",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0028pro_raw.pdf",
+    "page_index": 172,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "அ) அசிட்டால்டிஹைடை நீர்த்த NaOH உடன் வெப்பபடுத்தும்போது β – ஹைட்ராக்ஸி பியூட்ரால்டிஹைடை (அசிட்டால்டால்)தருகிறது.\nCH 3 -C(=O)-H + H-CH 2 -CHO \\xrightarrow[\\text{NaOH}]{\\text{நீரிய}} CH 3 -C(OH)-CH 2 -CHO அசிட்டால்டிஹைடு அசிட்டால்டால் 3 - ஹைட்ராக்சி பியுட்டனால்\nவினைவழி முறை\nஅசிட்டால்டிஹைடின் ஆல்டால் குறுக்க வினையானது மூன்று படிகளில் நிகழ்கிறது.\nபடி 1: காரத்தின் உதவியுடன் \\alpha – ஹைட்ரஜன் அணுவானது புரோட்டானாக நீக்கப்பட்டு கார்பன் எதிரயனி உருவாகிறது.\n\\text{HO}^- + \\text{H}^- \\cdot \\text{CH}_2 - \\text{CHO} \\longrightarrow \\overset{\\ominus}{\\text{CH}_2} - \\text{CHO} + \\text{H}_2\\text{O}\nபடி 2 : இந்த கார்பன் எதிரயனியானது மற்றொரு அயனியுறா ஆல்டிஹைடிலுள்ள கார்பனைல் கார்பனை தாக்கி ஆல்காக்சைடு அயனியை உருவாக்குகிறது.\n\\text{CH}_3 - \\overset{\\overset{\\text{H}}{|}}{\\underset{\\text{O}}{\\underset{||}{\\text{C}}}} + \\ominus \\text{CH}_2 - \\text{CHO} \\longrightarrow \\text{CH}_3 - \\overset{\\overset{\\text{O}}{|}}{\\underset{\\text{O}^\\ominus}{\\text{CH}}} - \\text{CH}_2 - \\text{CHO}\nபடி 3 : இவ்வாறு உருவான ஆல்காக்சைடு அயனியானது நீரினால் புரோட்டானேற்றம் பெற்று ஆல்டாலை உருவாக்குகிறது.\nCH 3 - CH - CH 2 - CHO + OH - \\xrightarrow{\\text{H}^+, \\text{OH}^-} CH 3 - CH - CH 2 - CHO + OH -\nவெப்பப்படுத்தும்போது இந்த ஆல்டால் விரைவாக நீர்நீக்கம் அடைந்து \\alpha - \\beta நிறைவுறா ஆல்டிஹைடை உருவாக்குகிறது.\n\\text{CH}_3 - \\overset{\\text{CH}-\\text{CH}-\\text{CHO}}{\\underset{\\text{OH}}{\\text{CH}}} \\xrightarrow{\\text{H}^+} \\text{CH}_3 - \\text{CH} = \\text{CH} - \\text{CHO} + \\text{H}_2\\text{O}\nii) குறுக்க ஆல்டால் குறுக்கம்.\nஇரண்டு வெவ்வேறு ஆல்டிஹைடுகள் அல்லது கீட்டோன்கள் அல்லது ஒரு ஆல்டிஹைடு மற்றும் ஒரு கீட்டோனுக்கு இடையிலும் ஆல்டால் குறுக்க வினை நிகழ முடியும். அத்தகைய ஆல்டால் குறுக்க வினையானது குறுக்க ஆல்டால் குறுக்க வினை அல்லது கலப்பு ஆல்டால் குறுக்க வினை என்றழைக்கப்படுகிறது. சாத்தியமுள்ள அனைத்து குறுக்கவினை விளைபொருட்களும் கலவையாக கிடைப்பதாலும், அவற்றை பிரித்தெடுத்தல் எளிதல்ல என்பதாலும் இந்த வினையானது அதிக பயனற்றது.\n169\nXII U12-Carbonyl Compounds.indd 169\n16-12-2022 20:39:56",
+      "text_nfc": "அ) அசிட்டால்டிஹைடை நீர்த்த NaOH உடன் வெப்பபடுத்தும்போது β – ஹைட்ராக்ஸி பியூட்ரால்டிஹைடை (அசிட்டால்டால்)தருகிறது.\nCH 3 -C(=O)-H + H-CH 2 -CHO \\xrightarrow[\\text{NaOH}]{\\text{நீரிய}} CH 3 -C(OH)-CH 2 -CHO அசிட்டால்டிஹைடு அசிட்டால்டால் 3 - ஹைட்ராக்சி பியுட்டனால்\nவினைவழி முறை\nஅசிட்டால்டிஹைடின் ஆல்டால் குறுக்க வினையானது மூன்று படிகளில் நிகழ்கிறது.\nபடி 1: காரத்தின் உதவியுடன் \\alpha – ஹைட்ரஜன் அணுவானது புரோட்டானாக நீக்கப்பட்டு கார்பன் எதிரயனி உருவாகிறது.\n\\text{HO}^- + \\text{H}^- \\cdot \\text{CH}_2 - \\text{CHO} \\longrightarrow \\overset{\\ominus}{\\text{CH}_2} - \\text{CHO} + \\text{H}_2\\text{O}\nபடி 2 : இந்த கார்பன் எதிரயனியானது மற்றொரு அயனியுறா ஆல்டிஹைடிலுள்ள கார்பனைல் கார்பனை தாக்கி ஆல்காக்சைடு அயனியை உருவாக்குகிறது.\n\\text{CH}_3 - \\overset{\\overset{\\text{H}}{|}}{\\underset{\\text{O}}{\\underset{||}{\\text{C}}}} + \\ominus \\text{CH}_2 - \\text{CHO} \\longrightarrow \\text{CH}_3 - \\overset{\\overset{\\text{O}}{|}}{\\underset{\\text{O}^\\ominus}{\\text{CH}}} - \\text{CH}_2 - \\text{CHO}\nபடி 3 : இவ்வாறு உருவான ஆல்காக்சைடு அயனியானது நீரினால் புரோட்டானேற்றம் பெற்று ஆல்டாலை உருவாக்குகிறது.\nCH 3 - CH - CH 2 - CHO + OH - \\xrightarrow{\\text{H}^+, \\text{OH}^-} CH 3 - CH - CH 2 - CHO + OH -\nவெப்பப்படுத்தும்போது இந்த ஆல்டால் விரைவாக நீர்நீக்கம் அடைந்து \\alpha - \\beta நிறைவுறா ஆல்டிஹைடை உருவாக்குகிறது.\n\\text{CH}_3 - \\overset{\\text{CH}-\\text{CH}-\\text{CHO}}{\\underset{\\text{OH}}{\\text{CH}}} \\xrightarrow{\\text{H}^+} \\text{CH}_3 - \\text{CH} = \\text{CH} - \\text{CHO} + \\text{H}_2\\text{O}\nii) குறுக்க ஆல்டால் குறுக்கம்.\nஇரண்டு வெவ்வேறு ஆல்டிஹைடுகள் அல்லது கீட்டோன்கள் அல்லது ஒரு ஆல்டிஹைடு மற்றும் ஒரு கீட்டோனுக்கு இடையிலும் ஆல்டால் குறுக்க வினை நிகழ முடியும். அத்தகைய ஆல்டால் குறுக்க வினையானது குறுக்க ஆல்டால் குறுக்க வினை அல்லது கலப்பு ஆல்டால் குறுக்க வினை என்றழைக்கப்படுகிறது. சாத்தியமுள்ள அனைத்து குறுக்கவினை விளைபொருட்களும் கலவையாக கிடைப்பதாலும், அவற்றை பிரித்தெடுத்தல் எளிதல்ல என்பதாலும் இந்த வினையானது அதிக பயனற்றது.\n169\nXII U12-Carbonyl Compounds.indd 169\n16-12-2022 20:39:56",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

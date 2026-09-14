@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_010",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0010pro_raw.pdf",
+    "page_index": 13,
+    "width": 1210,
+    "height": 1983
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1210,
+        1983
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4. aloLwanis.\n(porpglas DLOI)\n(5)\n(9). GEJ DOSTOSTIT 01055 BU0533g GITOIT Omuow oloumis.\n(ey). 56WoT yisppei LDOofg Grwi 1055011 6T GOTOI Enp1a1G50T.\n(O). Bw354 Boga GETUuBGT G5m55i1s50t WITGDOI?\n5. oG5g10 I pormglag aloLwahas.\n(5)\n(9). 00.5.6554.TTLb SGDTO 551T60r GTGUOUITOI? 010555.\n(24).5104 a10 51151 gowi 5DLID GO551ogagib\n01 60T coorjn 607 09 OITLDL5.\n6. SG5g1 popgias afoLuanés.\n(2)\n(91).OuomIlul 1687 UIWO) 68T5 3n015.\n(2). Qowb (ysa (um QIOJ 8GID 9015 GiT WITODOI?\n(Q). Qumiosumi GEITLOGO 607 GTOJQITMI GmSSenit?\n7. affairs afoLwanis (gorpi IDLOI)\n(6)\n9f. 2001 560T 6 WTGDJUID 2uiol SmOITS 5L553 JLI5I. GTGOTM\n56305 G50105 Amis 65 QILO Bmia1s.\nY. UITT5105 5050w8 5038 61 GOJS?\n8. 55351015 aloLwahas\n(3)\nJ. g/oruJauleir LI6TY 506T500T 6T(4515.\nY. G501005u1 GOT LI60T4 Ba0150 OT 6T(515.",
+      "text_nfc": "4. aloLwanis.\n(porpglas DLOI)\n(5)\n(9). GEJ DOSTOSTIT 01055 BU0533g GITOIT Omuow oloumis.\n(ey). 56WoT yisppei LDOofg Grwi 1055011 6T GOTOI Enp1a1G50T.\n(O). Bw354 Boga GETUuBGT G5m55i1s50t WITGDOI?\n5. oG5g10 I pormglag aloLwahas.\n(5)\n(9). 00.5.6554.TTLb SGDTO 551T60r GTGUOUITOI? 010555.\n(24).5104 a10 51151 gowi 5DLID GO551ogagib\n01 60T coorjn 607 09 OITLDL5.\n6. SG5g1 popgias afoLuanés.\n(2)\n(91).OuomIlul 1687 UIWO) 68T5 3n015.\n(2). Qowb (ysa (um QIOJ 8GID 9015 GiT WITODOI?\n(Q). Qumiosumi GEITLOGO 607 GTOJQITMI GmSSenit?\n7. affairs afoLwanis (gorpi IDLOI)\n(6)\n9f. 2001 560T 6 WTGDJUID 2uiol SmOITS 5L553 JLI5I. GTGOTM\n56305 G50105 Amis 65 QILO Bmia1s.\nY. UITT5105 5050w8 5038 61 GOJS?\n8. 55351015 aloLwahas\n(3)\nJ. g/oruJauleir LI6TY 506T500T 6T(4515.\nY. G501005u1 GOT LI60T4 Ba0150 OT 6T(515.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

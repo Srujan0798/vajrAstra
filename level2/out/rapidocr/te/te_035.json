@@ -1,0 +1,41 @@
+{
+  "page_id": "te_035",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0035pro_raw.pdf",
+    "page_index": 99,
+    "width": 594.6301879882812,
+    "height": 811.1309814453125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.6301879882812,
+        811.1309814453125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "PUrNE\nyol\nHERTO\nGR\nHERIS\nI∃H\nyo\nHERIS\n1181\nEW\nyo\nLtE\nB81\nfi\nfra\n12\nTG\nHERIOE\nLH\nGR\nHERIO\nyol\nHERTC\n11811\nvok\nch1oell\n42\ndoodl,\nEIHR\n12\nHERIE\nHERIS\nyol\nHERTS\nHERICG\n118ll\nX\nPA\nPX\nX\nXX\nX\nమరియు\n పాఠ్యపణాిక పరిశోధన సంస్థ, పుణె\n(d)\n₹ 68.00",
+      "text_nfc": "PUrNE\nyol\nHERTO\nGR\nHERIS\nI∃H\nyo\nHERIS\n1181\nEW\nyo\nLtE\nB81\nfi\nfra\n12\nTG\nHERIOE\nLH\nGR\nHERIO\nyol\nHERTC\n11811\nvok\nch1oell\n42\ndoodl,\nEIHR\n12\nHERIE\nHERIS\nyol\nHERTS\nHERICG\n118ll\nX\nPA\nPX\nX\nXX\nX\nమరియు\n పాఠ్యపణాిక పరిశోధన సంస్థ, పుణె\n(d)\n₹ 68.00",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

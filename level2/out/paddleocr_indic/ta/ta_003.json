@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_003",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0003pro_raw.png",
+    "page_index": 0,
+    "width": 263,
+    "height": 428
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        263,
+        428
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": ")ூao eாiponr ommlomeIrpuy\nah m ehsd Ee\nammal?\nalmiea் igpthn it Hame see\n-Due Gaiame Domeomeat dconb\nfunon\nAndame isesal நneyar. Cpchi\nee lmeone பe\nOmee grmd Bomeel mie\nBol eceame lonrpo\nெரe்rn மma் ாரpடில் கிறபிபms\nஅ்கப்புட மரகி்கள் அததும்\nBooில்ionons Gழக்து ிடg.\nஎன பூaமல் காற்றிmல் மர்ககுக்\naற்பeட நிகaரமகs பmல் கறிபிப்\n-றதுl.\nகேொக்ற்றால்விடகபஏெற்பட\nபாதி்புகள் யாவு!2\nதிரளtbழுந்து ம்களாில் டுவுானுை.\neரறறு மtக அழிதல் பிவு\nவிto் நரைள எல்லாம் ம்ரகmoா\nரிது சரிigு.\n2\nஅெகப சாaiகo வla மறம\nK\nfகள்அடிய விடர்தன.\na",
+      "text_nfc": ")ூao eாiponr ommlomeIrpuy\nah m ehsd Ee\nammal?\nalmiea் igpthn it Hame see\n-Due Gaiame Domeomeat dconb\nfunon\nAndame isesal நneyar. Cpchi\nee lmeone பe\nOmee grmd Bomeel mie\nBol eceame lonrpo\nெரe்rn மma் ாரpடில் கிறபிபms\nஅ்கப்புட மரகி்கள் அததும்\nBooில்ionons Gழக்து ிடg.\nஎன பூaமல் காற்றிmல் மர்ககுக்\naற்பeட நிகaரமகs பmல் கறிபிப்\n-றதுl.\nகேொக்ற்றால்விடகபஏெற்பட\nபாதி்புகள் யாவு!2\nதிரளtbழுந்து ம்களாில் டுவுானுை.\neரறறு மtக அழிதல் பிவு\nவிto் நரைள எல்லாம் ம்ரகmoா\nரிது சரிigு.\n2\nஅெகப சாaiகo வla மறம\nK\nfகள்அடிய விடர்தன.\na",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

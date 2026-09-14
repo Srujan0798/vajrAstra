@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_020",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 151,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "140\nಎಜಾನ\nChildreh be cautious l!l 3e alert.\nYour body belongs only to you, You have all the rights\nto eep safe and protect it always.\nSafe and unsafe touches on your body.\nSae thtsicture and undarstand.\nthis nautious is for Boys and Girls\nForehead\nCheeks\nLips\nShoulder!\nBack\nChest\nHand\nBottom\n below your back\nPart between\ntwo legs\nUnsafe Touch BAD Touc! - parts of your body where nobody should touch\nJexcept parents and in their presence only doctors can touch\nSafe touch GooD Touc! -can touch only when reguired\nWhen you feel Unsafe Touch or any other mischief,please Say loudly\nNO.. Don't.. Stop it..and Scream, push the person aside and move to a safer place.\nbe brave and inform about it, to your parents a Trusted adult and register a complaint\nPublished by Distiet Administration -08552-229011, Zilla Panchyat-228448\nDepartment of Police --2u69u6! 2u6001 I 206100 I 100 1091 District Child Protection Unit--2go870.\nDepartment of Women and Child Develpoment--226202, Unicef Child Protection Project --2u091o. Raichur\nBe smaart Be safe, Be lappy\nunicef?\nPicture courtesy . Prajavani, Bhoomika 26-07-2014",
+      "text_nfc": "140\nಎಜಾನ\nChildreh be cautious l!l 3e alert.\nYour body belongs only to you, You have all the rights\nto eep safe and protect it always.\nSafe and unsafe touches on your body.\nSae thtsicture and undarstand.\nthis nautious is for Boys and Girls\nForehead\nCheeks\nLips\nShoulder!\nBack\nChest\nHand\nBottom\n below your back\nPart between\ntwo legs\nUnsafe Touch BAD Touc! - parts of your body where nobody should touch\nJexcept parents and in their presence only doctors can touch\nSafe touch GooD Touc! -can touch only when reguired\nWhen you feel Unsafe Touch or any other mischief,please Say loudly\nNO.. Don't.. Stop it..and Scream, push the person aside and move to a safer place.\nbe brave and inform about it, to your parents a Trusted adult and register a complaint\nPublished by Distiet Administration -08552-229011, Zilla Panchyat-228448\nDepartment of Police --2u69u6! 2u6001 I 206100 I 100 1091 District Child Protection Unit--2go870.\nDepartment of Women and Child Develpoment--226202, Unicef Child Protection Project --2u091o. Raichur\nBe smaart Be safe, Be lappy\nunicef?\nPicture courtesy . Prajavani, Bhoomika 26-07-2014",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_006",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0007pro_raw.png",
+    "page_index": 0,
+    "width": 368,
+    "height": 527
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        368,
+        527
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ceanunasoneng\nafnubensud meslenunomaseel maglmd, glalmad\nnomls mgyonowel cumleym). gmoat E msnist onuma\namoded\n(muderylages 3110.190 ee 31000/8 mmut mubeojaidten annyauademamje €\nmudesjeintes (nimuonlesym (numhobo - 22-00 anopmlea afnueemeg\nmguoeaseclsoens nototnl osigyd agooosecemosimye 09.05.2016 al mubery\nngm3e-5231/20N mmub thrdi (nlhoo ofmudegi mujouendaotad mubery numoaisd\nmidaguoo mabalolegm) pmoes parpub JORDGOS, myR sigeglos ojno\ngaosmnelecyom\n(umimumuled\naobemneams\nmujamaglod\n289se00\nBajglmlolesym\navmojegles\n(rumlu.odla/slooyem)\nwo\ntnubmesnod\nuehnelesymens mruunjaoe aodun midaguosmaud motemeams muderi\nrumodsno\nnJOROGOS\nslgo\ndgesoo\nmpauoy@nsmoyeuels)\ngo\nageypermmalacmange mnunaislabemno mujamaus Unkhono anyg enontw\naenotrulamos mecuuojengloym) go.n/haspngeoul mumuan annues nomgm\nnilnansuaut moolong caogegm\nGAD8 sjnibhaiencem mimico 1963 quand 2 a, gaogmslagemo@hoym\nalndw mio ajslmomineng ajolulo cuand 4 aymes 11 cuoD ajskpomonomal\naem.enodeeeranuneajolago\n(numlhuboleejmy\neemeamles\ndangmmles\ngereoulojom oens ajshuouleagoeri abemo onungmuogo ngmlu\n01.04.1964 ajecs mlono ajeo aeogmales ajsimoaia mecumuomialleds sent\ncuela 74 (1) Inie00o (prohibition of future tenancies) After the commencement of this Act,\nno tenancy shall be created in respect of any land. 01.04.1964 m aubnito woomon)\najslponlomye mujnaislecond nosiegme alims mujniasleaym ngemony\naisloomleayo amemuougauoemn. amomd 01041964 aubraajee apwobonglos\nmuynaislalioleoyem, ajslaocia aouno' aemuowjcuoml am.eeoa.ecasmogri.\neomomd cormoo mgwoneonglod ajsimodleujaool mumwens . saraled\nmonmon) mOQJA0uDeungjo geraouleleeymong\nmioammleng Cub 13 (1) (ndeoto ajsluomoded fixity of tenure a\nsanieouto geni. mimommleng 14 ajmns 22 ruommjes celegled nuyoumuo\nGa.dimlolesym (nhO0 eaovles moemon) ajsimodia syolojo nfeemesjeeond\nauosgpammonym) maga ajslaoms ment ayaloled aeemonue.oute nml\nelgomse 00J00000 Do cuanpeu gongaunjamymy\najslmocia\ngee\nngemelego\nsgal aloemesjenemsams\nsraled\nmoelnunjajemamlnt Qonn 14 ajmgs 22 ruecmee nangeght ruyumuo Butim",
+      "text_nfc": "ceanunasoneng\nafnubensud meslenunomaseel maglmd, glalmad\nnomls mgyonowel cumleym). gmoat E msnist onuma\namoded\n(muderylages 3110.190 ee 31000/8 mmut mubeojaidten annyauademamje €\nmudesjeintes (nimuonlesym (numhobo - 22-00 anopmlea afnueemeg\nmguoeaseclsoens nototnl osigyd agooosecemosimye 09.05.2016 al mubery\nngm3e-5231/20N mmub thrdi (nlhoo ofmudegi mujouendaotad mubery numoaisd\nmidaguoo mabalolegm) pmoes parpub JORDGOS, myR sigeglos ojno\ngaosmnelecyom\n(umimumuled\naobemneams\nmujamaglod\n289se00\nBajglmlolesym\navmojegles\n(rumlu.odla/slooyem)\nwo\ntnubmesnod\nuehnelesymens mruunjaoe aodun midaguosmaud motemeams muderi\nrumodsno\nnJOROGOS\nslgo\ndgesoo\nmpauoy@nsmoyeuels)\ngo\nageypermmalacmange mnunaislabemno mujamaus Unkhono anyg enontw\naenotrulamos mecuuojengloym) go.n/haspngeoul mumuan annues nomgm\nnilnansuaut moolong caogegm\nGAD8 sjnibhaiencem mimico 1963 quand 2 a, gaogmslagemo@hoym\nalndw mio ajslmomineng ajolulo cuand 4 aymes 11 cuoD ajskpomonomal\naem.enodeeeranuneajolago\n(numlhuboleejmy\neemeamles\ndangmmles\ngereoulojom oens ajshuouleagoeri abemo onungmuogo ngmlu\n01.04.1964 ajecs mlono ajeo aeogmales ajsimoaia mecumuomialleds sent\ncuela 74 (1) Inie00o (prohibition of future tenancies) After the commencement of this Act,\nno tenancy shall be created in respect of any land. 01.04.1964 m aubnito woomon)\najslponlomye mujnaislecond nosiegme alims mujniasleaym ngemony\naisloomleayo amemuougauoemn. amomd 01041964 aubraajee apwobonglos\nmuynaislalioleoyem, ajslaocia aouno' aemuowjcuoml am.eeoa.ecasmogri.\neomomd cormoo mgwoneonglod ajsimodleujaool mumwens . saraled\nmonmon) mOQJA0uDeungjo geraouleleeymong\nmioammleng Cub 13 (1) (ndeoto ajsluomoded fixity of tenure a\nsanieouto geni. mimommleng 14 ajmns 22 ruommjes celegled nuyoumuo\nGa.dimlolesym (nhO0 eaovles moemon) ajsimodia syolojo nfeemesjeeond\nauosgpammonym) maga ajslaoms ment ayaloled aeemonue.oute nml\nelgomse 00J00000 Do cuanpeu gongaunjamymy\najslmocia\ngee\nngemelego\nsgal aloemesjenemsams\nsraled\nmoelnunjajemamlnt Qonn 14 ajmgs 22 ruecmee nangeght ruyumuo Butim",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

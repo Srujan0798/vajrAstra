@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_019",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 6,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "632 [6ಞq (೧ I@]ಹಿಂ@ಂ\n೧J6s]   ೧J6ns;   mೀo6 lo@ln IJ*oG(30@10) ೧ilon Jo6m]   ೧೧mಃ (೧ I@೨೦ 63003 ಉm೨m] ಣl೧121@3m03.\n63(0c6*03 , @oG(3೧೧o   mೀo6  ೨@al೧ Jೂ@o(cಾM((000*elo6)   ೧J36m J@೨(@   ೧l೧6- Sಣ. @@೨81(೦ 63003   @J6m] @6[@ೂo 86 s೨೦1@೧3. ಹ86೧ (೧೦ ೧Ims@o ೨ವ ಹಿQ @6ಃ೦೦ ೧9೧92 o8ಇ   ೧G೧೨ 630 @೦ 600936. (G1oG (3೧೧o   @೧೨ಹ6  @ತ೧ ೨ವ 63005 @Sl@೧d   632  m6೦i @ೂ65   ೧೫ಟl@l@d   ಐನ1ಹ6m ೂ.  mmಂm], 85೧3 @190016m 66c 6ಹಾಂ6n33 @3] mel(@0ಹ6) ೧0೧161010?.\n@1o(3೧೧o, 63003 ೧೨೧6೦೦ @೨(@)@ಹ6] (ಯngo @1*6ಹ @ 9(@2@1016EI@I0 ] . ೧16mಯlಂ m೨e? ೧@೧963300 .SmೂGn I೨@1.\n6300 G3IQmUo-\nmmಂm]   %J೧1ಯೀರ 6305   (ಊm೦೦  ೧೨೦] 2b   6c96n3lml.6GmJood   ಹಿಂ@೧ i@e 17u 636ಃ @6mಪನ  @om3GQ 6- /5o. ೧J೨6mJm .ಿ@@ ] ಉm೨mU] 6೧ J6Sm3 63*3 .ಿ೨೧d 25c6 1 .sleiೀd ೧2ೂ ಖ5೧d , 630] 632  ಉmಂmJIG@ಂs @ಾel೧]-\n 6397022@Jಖ6n3ಂ, ಐಇ 0J6o?\"\nಉm೨mU] ೧I೧6 0?\n೧ಿ @cಾQlelo 6303 63296m . ೧6m ೧೧೧೦ ೧  610900 639*0*00 1 .66mo?\"\n63ಖ1 ೧16m@?o 06n[32 @@ವ0 ]\nMMW.malayalamplus.Com\neBooks-459-thiimaka]-23",
+      "text_nfc": "632 [6ಞq (೧ I@]ಹಿಂ@ಂ\n೧J6s]   ೧J6ns;   mೀo6 lo@ln IJ*oG(30@10) ೧ilon Jo6m]   ೧೧mಃ (೧ I@೨೦ 63003 ಉm೨m] ಣl೧121@3m03.\n63(0c6*03 , @oG(3೧೧o   mೀo6  ೨@al೧ Jೂ@o(cಾM((000*elo6)   ೧J36m J@೨(@   ೧l೧6- Sಣ. @@೨81(೦ 63003   @J6m] @6[@ೂo 86 s೨೦1@೧3. ಹ86೧ (೧೦ ೧Ims@o ೨ವ ಹಿQ @6ಃ೦೦ ೧9೧92 o8ಇ   ೧G೧೨ 630 @೦ 600936. (G1oG (3೧೧o   @೧೨ಹ6  @ತ೧ ೨ವ 63005 @Sl@೧d   632  m6೦i @ೂ65   ೧೫ಟl@l@d   ಐನ1ಹ6m ೂ.  mmಂm], 85೧3 @190016m 66c 6ಹಾಂ6n33 @3] mel(@0ಹ6) ೧0೧161010?.\n@1o(3೧೧o, 63003 ೧೨೧6೦೦ @೨(@)@ಹ6] (ಯngo @1*6ಹ @ 9(@2@1016EI@I0 ] . ೧16mಯlಂ m೨e? ೧@೧963300 .SmೂGn I೨@1.\n6300 G3IQmUo-\nmmಂm]   %J೧1ಯೀರ 6305   (ಊm೦೦  ೧೨೦] 2b   6c96n3lml.6GmJood   ಹಿಂ@೧ i@e 17u 636ಃ @6mಪನ  @om3GQ 6- /5o. ೧J೨6mJm .ಿ@@ ] ಉm೨mU] 6೧ J6Sm3 63*3 .ಿ೨೧d 25c6 1 .sleiೀd ೧2ೂ ಖ5೧d , 630] 632  ಉmಂmJIG@ಂs @ಾel೧]-\n 6397022@Jಖ6n3ಂ, ಐಇ 0J6o?\"\nಉm೨mU] ೧I೧6 0?\n೧ಿ @cಾQlelo 6303 63296m . ೧6m ೧೧೧೦ ೧  610900 639*0*00 1 .66mo?\"\n63ಖ1 ೧16m@?o 06n[32 @@ವ0 ]\nMMW.malayalamplus.Com\neBooks-459-thiimaka]-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

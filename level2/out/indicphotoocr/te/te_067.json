@@ -1,0 +1,41 @@
+{
+  "page_id": "te_067",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0067pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "the teachers 0 after the class her tone was not\nof annoyance or anger yet ണ unknown fear made me\nnervous reassuring myself that she was વ kindhearted\nteacher and would not punish me i reached the teachers\nreassuring\nஶ஧ரிப்பயப்படி room with hesitant steps\nthe teacher greeted me with વ smile and asked me\nto sit by her side her tender tone turned my sighs into\nsobs she pulled her chair close to mine and ஒளிப்பது\nme on the head said what makes you cry my child\ni havent said ભાવ word to you after વ brief pause she\nconfide share\nsecret continued tell me what your trouble is confide in\nme for am not like વ sister to you rare thrill\nthrill great joy ran through entire frame for વ moment i felt i\nmy\nshould cling to her and cry and cry of course i did\nnot do 80 but i kept gazing at her with tearful eyes\ntenderly teacher continued   you know the\nmeaning of didi it means elder sister wont you tell\nwhat 190 relationships your sister your troubles amid sobs i said the\ndid the teacher offer girls keep teasing me ੭੭ she laughed why are you\nsayali scared of them if you cry like this they will pester\nyou all the more so ignore them who is your friend\ni shook my head and teacher smiled it seemed the\nto stand by teacher had poured her smile into like\nmy eyes to\nsomeone to support\nsomeone be my friend she said\npal friend the bell rang she rose with વ tender pat on my\nback she said listen you were ૦ sister alright now\nlavished poured you are વ friend too but i like my friends to be brave\ngreat quantity youve got to try to be brave ill always stand by\nyou rest assured my little pal now rise and hop off\nspontaneously sudden\nimpulse from within to your class\nexcitement made my face flush redhot to the\nto be beyond eartips never before had anyone lavished love on me\noneself to lose thus and here was my teacher who had spontaneously\ncontrol of oneself accepted me as વ sister વ friend i was beyond myself\nwith joy i wanted to chuckle burst into near\nhysterical laughter hysterical laughter\nuncontrolled laughter\non winged feet i ran to my class soon i was lost\nreverie dreamy sleep ૦ rare reverie i forgot that i was sitting in વ class\nprime important of wild girls whose prime pastime was teasing me\nટ most\nயயப்டி the break the water bottle that i was\nwhy did sayali feel drinking from fell വാ me and i got fully drenched\nlike கூர்அம் 0 lot right in front stood maya and chanda laughing\naway\nto their hearts content chanda teased from the\nslippery hands of slippery the slippery bottle went slip\nമാ",
+      "text_nfc": "the teachers 0 after the class her tone was not\nof annoyance or anger yet ണ unknown fear made me\nnervous reassuring myself that she was વ kindhearted\nteacher and would not punish me i reached the teachers\nreassuring\nஶ஧ரிப்பயப்படி room with hesitant steps\nthe teacher greeted me with વ smile and asked me\nto sit by her side her tender tone turned my sighs into\nsobs she pulled her chair close to mine and ஒளிப்பது\nme on the head said what makes you cry my child\ni havent said ભાવ word to you after વ brief pause she\nconfide share\nsecret continued tell me what your trouble is confide in\nme for am not like વ sister to you rare thrill\nthrill great joy ran through entire frame for વ moment i felt i\nmy\nshould cling to her and cry and cry of course i did\nnot do 80 but i kept gazing at her with tearful eyes\ntenderly teacher continued   you know the\nmeaning of didi it means elder sister wont you tell\nwhat 190 relationships your sister your troubles amid sobs i said the\ndid the teacher offer girls keep teasing me ੭੭ she laughed why are you\nsayali scared of them if you cry like this they will pester\nyou all the more so ignore them who is your friend\ni shook my head and teacher smiled it seemed the\nto stand by teacher had poured her smile into like\nmy eyes to\nsomeone to support\nsomeone be my friend she said\npal friend the bell rang she rose with વ tender pat on my\nback she said listen you were ૦ sister alright now\nlavished poured you are વ friend too but i like my friends to be brave\ngreat quantity youve got to try to be brave ill always stand by\nyou rest assured my little pal now rise and hop off\nspontaneously sudden\nimpulse from within to your class\nexcitement made my face flush redhot to the\nto be beyond eartips never before had anyone lavished love on me\noneself to lose thus and here was my teacher who had spontaneously\ncontrol of oneself accepted me as વ sister વ friend i was beyond myself\nwith joy i wanted to chuckle burst into near\nhysterical laughter hysterical laughter\nuncontrolled laughter\non winged feet i ran to my class soon i was lost\nreverie dreamy sleep ૦ rare reverie i forgot that i was sitting in વ class\nprime important of wild girls whose prime pastime was teasing me\nટ most\nயயப்டி the break the water bottle that i was\nwhy did sayali feel drinking from fell വാ me and i got fully drenched\nlike கூர்அம் 0 lot right in front stood maya and chanda laughing\naway\nto their hearts content chanda teased from the\nslippery hands of slippery the slippery bottle went slip\nമാ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

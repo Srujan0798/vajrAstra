@@ -1,0 +1,41 @@
+{
+  "page_id": "te_080",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0080pro_raw.pdf",
+    "page_index": 127,
+    "width": 1677,
+    "height": 2243
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1677,
+        2243
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక ৩০ ও మరియు పాఠ్య ప్రణాళిక పరిశోధన స౦స్థ పుణె౭౪\nਜਨਾਨਕਾਨਵਾਲਵਾਨਭੰਜੀ\nवअभ्यासक्रम संशोधन मंडळ स्व विकास व कलारसास्वाद इयत्ता नववी तेलुगु 6400",
+      "text_nfc": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక ৩০ ও మరియు పాఠ్య ప్రణాళిక పరిశోధన స౦స్థ పుణె౭౪\nਜਨਾਨਕਾਨਵਾਲਵਾਨਭੰਜੀ\nवअभ्यासक्रम संशोधन मंडळ स्व विकास व कलारसास्वाद इयत्ता नववी तेलुगु 6400",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

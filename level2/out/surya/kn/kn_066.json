@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_066",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 18,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3.1 My World of Feelings\nHOT\nRAINY\nWe live surrounded by people, other living beings and nature. Things keep happening in this world! Sometimes the weather is hot, sometimes its cold or rainy or windy!\nCOLD\nWINDY\nLike the outside weather, our world of feelings also keeps changing! It depends on what is happening inside the body and what's happening outside. When we fall down and get hurt, we feel pain. What if there was no pain? We would not even know we have hurt ourselves! Pain draws our attention to the part that is hurt so that we can take care of it.\nThere is another world inside us. It is made up of feelings. We feel happy, sad, angry, upset, irritated, sleepy, tired, bored... the list goes on!\nMake groups of 4:\nDiscuss what if there were no feelings? What would happen then?\nThink of 3 feelings. How do they help you? Write below:\nFeelings bring a positive change in me.\nThink and Do:\nDo you think animals have feelings? Why do you think so? What about plants?\n11",
+      "text_nfc": "3.1 My World of Feelings\nHOT\nRAINY\nWe live surrounded by people, other living beings and nature. Things keep happening in this world! Sometimes the weather is hot, sometimes its cold or rainy or windy!\nCOLD\nWINDY\nLike the outside weather, our world of feelings also keeps changing! It depends on what is happening inside the body and what's happening outside. When we fall down and get hurt, we feel pain. What if there was no pain? We would not even know we have hurt ourselves! Pain draws our attention to the part that is hurt so that we can take care of it.\nThere is another world inside us. It is made up of feelings. We feel happy, sad, angry, upset, irritated, sleepy, tired, bored... the list goes on!\nMake groups of 4:\nDiscuss what if there were no feelings? What would happen then?\nThink of 3 feelings. How do they help you? Write below:\nFeelings bring a positive change in me.\nThink and Do:\nDo you think animals have feelings? Why do you think so? What about plants?\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

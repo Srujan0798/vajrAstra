@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_048",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 14,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "குற ಷಷ್ಠಿ ವಿಭಕ್ತಿ ভাভ  ಯವಿರುವ ಪದವಿದು\na ਨਰਹੇ    ಯು\nb ০১১ও ಯನ್ನು\nଓ ਹਰਕੀਲ\nd ৯১এজ యి౦ద\nviii ವಿಜ್ಞಾನಿಗಳು ತಮ ઠ ಅಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ਚੇ੦ ಶೋಧನೆಯಲ್ಲಿ ಕಳೆಯುತಾರ\nಇಲ್ಲಿರುವ ৩ন ੦ੁ ನಾಮ\na ಸಮಯ\nb ಸಂಶೋಧನೆ\nଓ ਠੇਢ\nd ਹੈਲੂਰ\nਠੰਠ ಆಟದಲ್ಲಿ ನೂರನೆಯ ಪ೦ದ್ಯದಲ್ಲಿ ನೂರು ੦ੋਹ ಹೊಡೆದವರು 93 ವಿರಳ\n੧੨ ಇರುವ ಸಂಖ್ಯಾವಾಚಕ\na ನೂರನೆಯ\nb ಪಂದ್ಯ\nଓ ਠੁਠੰ\nನೂರು\nಇದು ಸರ್ವನಾಮ ಪದಕ್ಕೆ ಉದಾಹರಣೆ\na ರಮೇಶ\nb ਹਂ\nଓ ಯಾರು\nd ਠੱਠ\n13s 15 pto",
+      "text_nfc": "குற ಷಷ್ಠಿ ವಿಭಕ್ತಿ ভাভ  ಯವಿರುವ ಪದವಿದು\na ਨਰਹੇ    ಯು\nb ০১১ও ಯನ್ನು\nଓ ਹਰਕੀਲ\nd ৯১এজ యి౦ద\nviii ವಿಜ್ಞಾನಿಗಳು ತಮ ઠ ಅಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ਚੇ੦ ಶೋಧನೆಯಲ್ಲಿ ಕಳೆಯುತಾರ\nಇಲ್ಲಿರುವ ৩ন ੦ੁ ನಾಮ\na ಸಮಯ\nb ಸಂಶೋಧನೆ\nଓ ਠੇਢ\nd ਹੈਲੂਰ\nਠੰਠ ಆಟದಲ್ಲಿ ನೂರನೆಯ ಪ೦ದ್ಯದಲ್ಲಿ ನೂರು ੦ੋਹ ಹೊಡೆದವರು 93 ವಿರಳ\n੧੨ ಇರುವ ಸಂಖ್ಯಾವಾಚಕ\na ನೂರನೆಯ\nb ಪಂದ್ಯ\nଓ ਠੁਠੰ\nನೂರು\nಇದು ಸರ್ವನಾಮ ಪದಕ್ಕೆ ಉದಾಹರಣೆ\na ರಮೇಶ\nb ਹਂ\nଓ ಯಾರು\nd ਠੱਠ\n13s 15 pto",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

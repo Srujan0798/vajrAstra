@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 341,
+    "height": 431
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        341,
+        431
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "←\nC\nvi sing Hir S oticiti Rde Metel se\nஇ டு iு க் ர சா் து\nRode model aitn oi orgs Toon on\nOததியத ி் aா் ச்று கோம்ி\ne. ி a்n இபaடம்க\na w inloi Toi gt riத\natah any Geenin ngit\nஇgaian Inoia og GagBi\nau இuong Ragis ain Yng. Gasa\nMgaa igaa uan GsgஇElig\nDann Din Scn ree warh n orgwrs\nalg Dannanensi mre gatGras\nRele Model otain Gni fin gcin or ii\n Sue, m. Saca Tebl m\nasi Orn ai Masa\ne ப an, sini.\nEonelae Cunnie aand Dodan Tnad\nans Mhoi Tiali G thisght o\nin augnagah gn agii i Sung\npn Bua இi any enad nistn ae\nan. figi wcs ailaeita Gowns\noowi riin e  loA\nLand ang inmten, si agen g d\nis at ong onw danpin\nOane. c ce o\ncadamdi a ag G Qai  vi\nS\nC",
+      "text_nfc": "←\nC\nvi sing Hir S oticiti Rde Metel se\nஇ டு iு க் ர சா் து\nRode model aitn oi orgs Toon on\nOததியத ி் aா் ச்று கோம்ி\ne. ி a்n இபaடம்க\na w inloi Toi gt riத\natah any Geenin ngit\nஇgaian Inoia og GagBi\nau இuong Ragis ain Yng. Gasa\nMgaa igaa uan GsgஇElig\nDann Din Scn ree warh n orgwrs\nalg Dannanensi mre gatGras\nRele Model otain Gni fin gcin or ii\n Sue, m. Saca Tebl m\nasi Orn ai Masa\ne ப an, sini.\nEonelae Cunnie aand Dodan Tnad\nans Mhoi Tiali G thisght o\nin augnagah gn agii i Sung\npn Bua இi any enad nistn ae\nan. figi wcs ailaeita Gowns\noowi riin e  loA\nLand ang inmten, si agen g d\nis at ong onw danpin\nOane. c ce o\ncadamdi a ag G Qai  vi\nS\nC",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_045",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 11,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "साझी समझ\nआप इंटरनेट या‍ किसी अन्य माध्यम की सहायता से अन्य प्रवासी पक्षियों के‌ बारेमें रोचक जानकारी एकत्रित\nकीजिए और‍ प्रवासी पक्षियों पर‍ लेख लिखिए।\nਦਗੇਯਕੀਜ के‍ लिए\nसोचेदीगईटारे कड़ियों का‍ प्रयोग करके आप ਯੀਕਕਾਰ केबारेमे और‍ भी जानससमझ सकते\nहमारा पर्यावरण\nmelyonley64027752688888 മുതൽ‌ 71\nवद्धचिडिया जो\nwwwyyouthe796amphature\nഇ.എം\n০২\n୮୦\n૧૦\nঅহিয\n127\nreprint 202627",
+      "text_nfc": "साझी समझ\nआप इंटरनेट या‍ किसी अन्य माध्यम की सहायता से अन्य प्रवासी पक्षियों के‌ बारेमें रोचक जानकारी एकत्रित\nकीजिए और‍ प्रवासी पक्षियों पर‍ लेख लिखिए।\nਦਗੇਯਕੀਜ के‍ लिए\nसोचेदीगईटारे कड़ियों का‍ प्रयोग करके आप ਯੀਕਕਾਰ केबारेमे और‍ भी जानससमझ सकते\nहमारा पर्यावरण\nmelyonley64027752688888 മുതൽ‌ 71\nवद्धचिडिया जो\nwwwyyouthe796amphature\nഇ.എം\n০২\n୮୦\n૧૦\nঅহিয\n127\nreprint 202627",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

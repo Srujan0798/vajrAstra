@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_018",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0019pro_raw.pdf",
+    "page_index": 94,
+    "width": 984,
+    "height": 1612
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        984,
+        1612
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-89\nU06000 dgjo comaoooldey8 (nO mocoldjmueto\n60 0 mialaso dgyodoong QImO 000000 qalla. conal\n00d0endo. Badol 37\nsonulo6llont 26600 aJoogds.\n0188R e9m000e1\nQn0 0008w000 CO gja.ooplosmno, moaflos mimo eeuoOns\na0000 5 Dogpusouaa aotumpjTte2.p.mooy bloomyoug\nom 000109 087914080.0000g0 m00100 6800100 qela\n608000.. 00dh081 60088o mJeo olai C00g183880 NUOGOI\n2. COD00 0009000009 s 0Osonvajo b0goog2a &a\nSOD meno.2yonjol\najnooadimvoronulise, Mobumosabo dgjooeJaono\nen@gaompisobo gomumjo dous 60 COgOWloy. Blaconyon\naubsolgjoimiosm 0pasm.000219060 oanuopjo m0 6050010\nOSamoaulaamo Q0go gagimlemg. 806831030 ay0d0ns\n8O 0013 Unuiogs Grum.adgoaso.os aploba.deanel210,\n(o)\n20/030.100l00500o.mo@jons0om0@yJ00o\nayabmmooabo eJwo00000 qasnllaigmoass 9000\nacpaD-molaposicm 00-8r0l0olaos Qonud. 870.0.0000000\n0200 GO Odgissolael G005680 apQ0s010588g dons\nGgjoos BDQJ006 60300) (0 O2 moojo Q10G20JO dM6m2000\n006n9 000200J00019200 momo. 1 0s000 Q00 91g0000.\ndomdaoo1 mueoboajajo nUJiimo dbongol@bosnalogm 0\nQOoda 00 69 0@000J0 aJolalimasslopam eooic\nOlo ogomnemmemlo? 638 0000009060,000m.momicnolaroagm>\n600000 2288/000 mUa.0210000.00ilm/olo.8s, m0als 8O\n6106832100 (BYOQJCod0 aejo000 moodonqoshamag BO\nQOo alco.imledogreg?\"?",
+      "text_nfc": "-89\nU06000 dgjo comaoooldey8 (nO mocoldjmueto\n60 0 mialaso dgyodoong QImO 000000 qalla. conal\n00d0endo. Badol 37\nsonulo6llont 26600 aJoogds.\n0188R e9m000e1\nQn0 0008w000 CO gja.ooplosmno, moaflos mimo eeuoOns\na0000 5 Dogpusouaa aotumpjTte2.p.mooy bloomyoug\nom 000109 087914080.0000g0 m00100 6800100 qela\n608000.. 00dh081 60088o mJeo olai C00g183880 NUOGOI\n2. COD00 0009000009 s 0Osonvajo b0goog2a &a\nSOD meno.2yonjol\najnooadimvoronulise, Mobumosabo dgjooeJaono\nen@gaompisobo gomumjo dous 60 COgOWloy. Blaconyon\naubsolgjoimiosm 0pasm.000219060 oanuopjo m0 6050010\nOSamoaulaamo Q0go gagimlemg. 806831030 ay0d0ns\n8O 0013 Unuiogs Grum.adgoaso.os aploba.deanel210,\n(o)\n20/030.100l00500o.mo@jons0om0@yJ00o\nayabmmooabo eJwo00000 qasnllaigmoass 9000\nacpaD-molaposicm 00-8r0l0olaos Qonud. 870.0.0000000\n0200 GO Odgissolael G005680 apQ0s010588g dons\nGgjoos BDQJ006 60300) (0 O2 moojo Q10G20JO dM6m2000\n006n9 000200J00019200 momo. 1 0s000 Q00 91g0000.\ndomdaoo1 mueoboajajo nUJiimo dbongol@bosnalogm 0\nQOoda 00 69 0@000J0 aJolalimasslopam eooic\nOlo ogomnemmemlo? 638 0000009060,000m.momicnolaroagm>\n600000 2288/000 mUa.0210000.00ilm/olo.8s, m0als 8O\n6106832100 (BYOQJCod0 aejo000 moodonqoshamag BO\nQOo alco.imledogreg?\"?",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

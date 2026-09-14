@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_060",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "రెనాFటో సౌశాగర\nవిజల్లన్లె LISHED 10 @K 2EL ఉత్తనా శెరెగెతి NO భాదే 1 fquuT ాగn5గె\nDaWకే3 1 NC ERT\nరాష్జ్రిాయి రృిర్ణిణిరా సెంలగలధన మెత్తు తెరబిఆతి సంస్థి క్రిe అరబిండలe మోగణ నెవేదిఐలి 110016\nశనాణటో పఠ్యమస్తో నింఫా (రి.) 6నె అడ్డంస్తె మెల్లర్దరం, బింగళూరు 560003",
+      "text_nfc": "రెనాFటో సౌశాగర\nవిజల్లన్లె LISHED 10 @K 2EL ఉత్తనా శెరెగెతి NO భాదే 1 fquuT ాగn5గె\nDaWకే3 1 NC ERT\nరాష్జ్రిాయి రృిర్ణిణిరా సెంలగలధన మెత్తు తెరబిఆతి సంస్థి క్రిe అరబిండలe మోగణ నెవేదిఐలి 110016\nశనాణటో పఠ్యమస్తో నింఫా (రి.) 6నె అడ్డంస్తె మెల్లర్దరం, బింగళూరు 560003",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

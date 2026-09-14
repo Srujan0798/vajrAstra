@@ -1,0 +1,41 @@
+{
+  "page_id": "te_022",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0022pro_raw.pdf",
+    "page_index": 20,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "dio 880 28005 Gsesrsrrsggo\noeos 88 - Egab\n3rs0, 01oes 38050 10300s0\n2708 awsy JsO EUFSODsS 65000 sdo droy\nesgneo5s cod. essair ppoio 03e0 2X056 88 do bod.\nSPSDBOS 308\n68° Erds\n72°\nB a Jo 5\n2 O 8\nJeso 2.1 NoODOE 2788 aws sUAps gJDo\nOBoeas saorsod. &f Devsev gd056 oobol.\n4' to. SoW\n.6' és. esssyeso ado\n071 eo. NoW 025' e. darsjeso 6od.\n2r8E aws epoes Soes 8Se0o 235 No eno\n3odo Javoes. NOD 6°45' 650s8 es e9c On cod.\nJeso 2.1 a 388000 2788 aws J0X dreu\n76°\n80° 82'30 84'\nT\nd 6\n88°\n92°\n96°\n100°\n36°\n6500\n32°\n28°\n24\n20°\n16\n12°\n8°\n2580\n2s\nwoois\n5035\n4 O\nES\necs\n205P55\n65d5\nAJOS\noesoso\n0obgdabs8seg\noptes sda 300306 poro 158503\n30pr0s (1d8 58500\nO dcemo\n8.8. asSTE 38000 6s0 S 565500\nO..5. 3oa SA5 58\n231\n33\n2\n(SBopoE\nS\nO\n5s Os (S & 5\n5\nSosprooss\n156 6\nà 80\n& 8\nL\naso\n(S)\nBores\n5595555\n42\n699\nsasue\nSUS swg agso\n(0.0.)\n(705)\n900\n6\n&\nO\n& 00\na\nBeores\n6e\na\ne 80 ai sw 8O\nU\ne30 B 6\n5 J650650 Esso\nS 03es\n\n(5.)\n8200s\n2J0TTO9D s8o\n0 200 400 600\nL\nL\n2m (2785)\ngr b\no Q g365 Egso\n& fee (65)\n6\n9\n0\n30\nop0o\n099\n45885 (5)\ngoos\n3.50.\ng\nBDE\ne in3,\n&\ntah cx\n9\n%\ney\n8\n&\nono\nSP0 O\no\n9e\ngoô0 dovoes\nO\n8\n8\n36\n8\nSeso 2.1 : 288\n10\nsw\nG0\na",
+      "text_nfc": "dio 880 28005 Gsesrsrrsggo\noeos 88 - Egab\n3rs0, 01oes 38050 10300s0\n2708 awsy JsO EUFSODsS 65000 sdo droy\nesgneo5s cod. essair ppoio 03e0 2X056 88 do bod.\nSPSDBOS 308\n68° Erds\n72°\nB a Jo 5\n2 O 8\nJeso 2.1 NoODOE 2788 aws sUAps gJDo\nOBoeas saorsod. &f Devsev gd056 oobol.\n4' to. SoW\n.6' és. esssyeso ado\n071 eo. NoW 025' e. darsjeso 6od.\n2r8E aws epoes Soes 8Se0o 235 No eno\n3odo Javoes. NOD 6°45' 650s8 es e9c On cod.\nJeso 2.1 a 388000 2788 aws J0X dreu\n76°\n80° 82'30 84'\nT\nd 6\n88°\n92°\n96°\n100°\n36°\n6500\n32°\n28°\n24\n20°\n16\n12°\n8°\n2580\n2s\nwoois\n5035\n4 O\nES\necs\n205P55\n65d5\nAJOS\noesoso\n0obgdabs8seg\noptes sda 300306 poro 158503\n30pr0s (1d8 58500\nO dcemo\n8.8. asSTE 38000 6s0 S 565500\nO..5. 3oa SA5 58\n231\n33\n2\n(SBopoE\nS\nO\n5s Os (S & 5\n5\nSosprooss\n156 6\nà 80\n& 8\nL\naso\n(S)\nBores\n5595555\n42\n699\nsasue\nSUS swg agso\n(0.0.)\n(705)\n900\n6\n&\nO\n& 00\na\nBeores\n6e\na\ne 80 ai sw 8O\nU\ne30 B 6\n5 J650650 Esso\nS 03es\n\n(5.)\n8200s\n2J0TTO9D s8o\n0 200 400 600\nL\nL\n2m (2785)\ngr b\no Q g365 Egso\n& fee (65)\n6\n9\n0\n30\nop0o\n099\n45885 (5)\ngoos\n3.50.\ng\nBDE\ne in3,\n&\ntah cx\n9\n%\ney\n8\n&\nono\nSP0 O\no\n9e\ngoô0 dovoes\nO\n8\n8\n36\n8\nSeso 2.1 : 288\n10\nsw\nG0\na",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

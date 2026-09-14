@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_078",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 6,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(E) 34j47 STIaT N à 3714 chi-i HIA chof-chal 31744 hd 8? STIaT # HTH frigoht 37 frerfaent\nt fay Uoh-Uch ali ferfayi\n(Hich 3THART Ta # 37che7 USTH chi gehl a 3h8s Gieot 1 3dT El\n315 ol 4601\nchladt N 31197 chs yfereit i TTH Y6I 370 3114 HIHT yferIT a Jst ghes voftyl a TE à yferiT\nchl 462HC Hel faat i HTT Tat tiiacht Villsy\nfagt 7 E RRT-ERT\ntodl à ER t 3TT4-4R\nchadt a Hq RT-GRT\nTT à 34ch1 chleiT GHH\naldl € N faeff cie\nJI 9TT ATT gldl à\nchod Ho 4e fugeliet\nsis N 3T vldt à a\nanr AE HET 3011 Yirt\nER 374-T # chal GHidt\nchleft E VR chloh Tei\nadei3t N CRIT chocildt\nyat chlet R a\nvad PTH à - HK 3T\n35dT Todl a fa7-t7\nartyft N at 3110 #\nFART VEEIHT AT ChlH\ndai : srifa ChT QUTH\nchrdT a N TCT -\n3773777 YRT df E1T TIRIT E\nfat a GITRAT cft I G\nT7 NT uyG\nTadl du fyr 3E 1\nTdT HT riot\naat TOhR à AT HTeft\nHTH adi3TT Hof-Heeh\nfor 3H0h 44 38 3E\nchocildt a N Jeyeft\n122\nReprint 2026-27",
+      "text_nfc": "(E) 34j47 STIaT N à 3714 chi-i HIA chof-chal 31744 hd 8? STIaT # HTH frigoht 37 frerfaent\nt fay Uoh-Uch ali ferfayi\n(Hich 3THART Ta # 37che7 USTH chi gehl a 3h8s Gieot 1 3dT El\n315 ol 4601\nchladt N 31197 chs yfereit i TTH Y6I 370 3114 HIHT yferIT a Jst ghes voftyl a TE à yferiT\nchl 462HC Hel faat i HTT Tat tiiacht Villsy\nfagt 7 E RRT-ERT\ntodl à ER t 3TT4-4R\nchadt a Hq RT-GRT\nTT à 34ch1 chleiT GHH\naldl € N faeff cie\nJI 9TT ATT gldl à\nchod Ho 4e fugeliet\nsis N 3T vldt à a\nanr AE HET 3011 Yirt\nER 374-T # chal GHidt\nchleft E VR chloh Tei\nadei3t N CRIT chocildt\nyat chlet R a\nvad PTH à - HK 3T\n35dT Todl a fa7-t7\nartyft N at 3110 #\nFART VEEIHT AT ChlH\ndai : srifa ChT QUTH\nchrdT a N TCT -\n3773777 YRT df E1T TIRIT E\nfat a GITRAT cft I G\nT7 NT uyG\nTadl du fyr 3E 1\nTdT HT riot\naat TOhR à AT HTeft\nHTH adi3TT Hof-Heeh\nfor 3H0h 44 38 3E\nchocildt a N Jeyeft\n122\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

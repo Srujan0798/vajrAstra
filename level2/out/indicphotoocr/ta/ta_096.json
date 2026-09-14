@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_096",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "നമ്പുലം  \nதமிழ்நாடு 9175\nமேல்நிலை இர ண் டாம் શ્ર ண் ભ\nகணி 600 பயன் பாடுகள்\nகருத்தியல் શ્ર செய்மு ങ്ങ\nதமிழ்நாடு அரசு ഖി.. பாடநூல் வழங்கும் திட்டத்தின் கீழ் வெளியிடப்பட்டது\nപണ്മിക് கல்வி த்துறை\nதீண்டாமை மனிதநேயமற்ற செயலும் பெருங்குற்றமும் ஆகும்\n12th computer application tamil version fmindd 19012023 173413",
+      "text_nfc": "നമ്പുലം  \nதமிழ்நாடு 9175\nமேல்நிலை இர ண் டாம் શ્ર ண் ભ\nகணி 600 பயன் பாடுகள்\nகருத்தியல் શ્ર செய்மு ങ്ങ\nதமிழ்நாடு அரசு ഖി.. பாடநூல் வழங்கும் திட்டத்தின் கீழ் வெளியிடப்பட்டது\nപണ്മിക് கல்வி த்துறை\nதீண்டாமை மனிதநேயமற்ற செயலும் பெருங்குற்றமும் ஆகும்\n12th computer application tamil version fmindd 19012023 173413",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

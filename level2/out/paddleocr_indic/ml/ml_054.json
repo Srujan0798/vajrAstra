@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_054",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 48,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ecDoBr0\nae\nnoeeoooec\nsw oerg\n\nsoe\n\n \n \n\n\n\n 2\n c c  .c\n, ,   m ar  c 20\no gg m.e\n0\n\n\nm\n\n\n\n2\n\nom d ange crm eowol\n\n.\nlom om, los memeoe\neele\n,\n2\n,",
+      "text_nfc": "ecDoBr0\nae\nnoeeoooec\nsw oerg\n\nsoe\n\n \n \n\n\n\n 2\n c c  .c\n, ,   m ar  c 20\no gg m.e\n0\n\n\nm\n\n\n\n2\n\nom d ange crm eowol\n\n.\nlom om, los memeoe\neele\n,\n2\n,",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

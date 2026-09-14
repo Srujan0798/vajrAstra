@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_084",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 11,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(g)\n(i)\n90613 QD08 906813l608 ogglorogm (O.DTUJ@QJDo.00\nagnolaaps)om 0000000JS0aysjorololdlesymo ?\n(A) oloeglo)os 006nIBGOODS\n(B) 0000108 mlom 01000/s0 dglond pomielemps\n(C) QIEU mlO0g)os 200d0/00)33 bogllelamos\n(D) 60(00608 Nol60 U06nIBGOIODS\n(ii) 90613 QD03 9068131008 6009108 n@nopoloo ?\n(A) dInalafom\n(B) DAJOOs\n(C) 656TD6.0091010)\n(D) 00060IS\n(h)\n(i)\nnloNs (nalopannd ooslm)sglo0 00101 6O6BOol0\nG10U0JO0O\n6>S)0-0000r00s\nmod00l\nagdonloo)\nG0006m ?\n(A) 08201600DmoroerUMBL\n(B) Dooylosd\n(C) GO0DOOJ GOIBlOO\n(D) 66BQo\n(ii) @popngoagmaralod qoepolon drol nB0\n(A) nomles 006male (B) monisloogm Gomunloso\n(C) ADSI ahooool\n(D) 06mlmpBo\n(i)\n(i)\n6 aJ9GOSOO Dasano OMaLOjaQIOQI0000ODTO\nGODdODo >> omloleo)m Q10l0glo8 (nleSaDeniom\nA-J0j0e1000os OGODBDQlo nono ?\n(A) 6306m u@h0n.JG.0r0p5jo neims\nNoeDOG.00p0035)0188 GIOGQIGOQIJO GOGlODmao\n(B) Dosisonls) G.@>D6eloleo)om MDGSDS\nMomriesololelje apomiojoroleno)es nOUSOGOISD\n(C) aourdlesodaps)o a0asie30G.00G010)5)0)89 G1OQ/2610)\n(D) 636D7UBO0gJ603G9DSjo\nADOMIOGOrDSjo\n(UDO\n(0069)5jo 286 aaJo Mlo6roro) OGODBDQlo.\n12\n12\n[]",
+      "text_nfc": "(g)\n(i)\n90613 QD08 906813l608 ogglorogm (O.DTUJ@QJDo.00\nagnolaaps)om 0000000JS0aysjorololdlesymo ?\n(A) oloeglo)os 006nIBGOODS\n(B) 0000108 mlom 01000/s0 dglond pomielemps\n(C) QIEU mlO0g)os 200d0/00)33 bogllelamos\n(D) 60(00608 Nol60 U06nIBGOIODS\n(ii) 90613 QD03 9068131008 6009108 n@nopoloo ?\n(A) dInalafom\n(B) DAJOOs\n(C) 656TD6.0091010)\n(D) 00060IS\n(h)\n(i)\nnloNs (nalopannd ooslm)sglo0 00101 6O6BOol0\nG10U0JO0O\n6>S)0-0000r00s\nmod00l\nagdonloo)\nG0006m ?\n(A) 08201600DmoroerUMBL\n(B) Dooylosd\n(C) GO0DOOJ GOIBlOO\n(D) 66BQo\n(ii) @popngoagmaralod qoepolon drol nB0\n(A) nomles 006male (B) monisloogm Gomunloso\n(C) ADSI ahooool\n(D) 06mlmpBo\n(i)\n(i)\n6 aJ9GOSOO Dasano OMaLOjaQIOQI0000ODTO\nGODdODo >> omloleo)m Q10l0glo8 (nleSaDeniom\nA-J0j0e1000os OGODBDQlo nono ?\n(A) 6306m u@h0n.JG.0r0p5jo neims\nNoeDOG.00p0035)0188 GIOGQIGOQIJO GOGlODmao\n(B) Dosisonls) G.@>D6eloleo)om MDGSDS\nMomriesololelje apomiojoroleno)es nOUSOGOISD\n(C) aourdlesodaps)o a0asie30G.00G010)5)0)89 G1OQ/2610)\n(D) 636D7UBO0gJ603G9DSjo\nADOMIOGOrDSjo\n(UDO\n(0069)5jo 286 aaJo Mlo6roro) OGODBDQlo.\n12\n12\n[]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

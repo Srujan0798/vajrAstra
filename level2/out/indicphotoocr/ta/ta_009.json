@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_009",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/ta/s_tamil0009pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "uggui\n05ਨੂੰਗੁ സ് ഇ. நியமனத்தை ரத்து செய்தல்\nੳਕੁਨੇ    5099 1961 ஆம் ਤਾਂ 6995666676ਗੇ 12 2৷ 622607wu\nபாா்க்கவும்\n1...  \nswillb ollu பேரவைக்கு நடக்கும் தோ்தல்\nதோ்தல் நடத்தும் 94956 55\ncumug தோ்தலில் 6ਹੁਨੇ ഖഖഖാ770662\n616ਗੇਾਈ00 506ਗੇ\n61601551 09156 ஏஜெண்டான\nhourgengot\nநியமனத்தை goornoi 0ੰ5 செய்கிறேன்\nqlio\nவேட்பாளரின் ഇക്കിയത്രകൃതി\n5182",
+      "text_nfc": "uggui\n05ਨੂੰਗੁ സ് ഇ. நியமனத்தை ரத்து செய்தல்\nੳਕੁਨੇ    5099 1961 ஆம் ਤਾਂ 6995666676ਗੇ 12 2৷ 622607wu\nபாா்க்கவும்\n1...  \nswillb ollu பேரவைக்கு நடக்கும் தோ்தல்\nதோ்தல் நடத்தும் 94956 55\ncumug தோ்தலில் 6ਹੁਨੇ ഖഖഖാ770662\n616ਗੇਾਈ00 506ਗੇ\n61601551 09156 ஏஜெண்டான\nhourgengot\nநியமனத்தை goornoi 0ੰ5 செய்கிறேன்\nqlio\nவேட்பாளரின் ഇക്കിയത്രകൃതി\n5182",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

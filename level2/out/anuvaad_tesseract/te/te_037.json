@@ -1,0 +1,41 @@
+{
+  "page_id": "te_037",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0037pro_raw.pdf",
+    "page_index": 27,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "c. Listen and read aloud.\n\nd. Read the passage carefully and complete the following\nFull name : ........................................................................\n\nKMOWD AS 2 ........................................................................\nDate of birth :\nBirth place : ......................................................................\nA MeSSAE 10 SOCICLY : ......................................................\n\nf. Read and observe underlined words.\nGadge Maharaj was a saint in Maharashtra. His name was Debuji. He\nlived a simple life. He taught people to be kind.\n\ng. Now fill in the blanks with the proper words from the box.\nhe they his their she\n\nहि\n\nMeera loves books. Rohan has a bicycle. The birds are in the nest.\nreads every night. ___ rides it every day. are singing.\nfavourite book. bicycle is nest is on the\n\nred. branch.\n\nFor the Teacher :\n\n० Encourage learners to collect information of different saints from Maharashtra.\n@® ० Encourage them to read books about saints.\n\n० Encourage them to talk about the key elements/events, ideas from this lesson.\n\nLs |\n",
+      "text_nfc": "c. Listen and read aloud.\n\nd. Read the passage carefully and complete the following\nFull name : ........................................................................\n\nKMOWD AS 2 ........................................................................\nDate of birth :\nBirth place : ......................................................................\nA MeSSAE 10 SOCICLY : ......................................................\n\nf. Read and observe underlined words.\nGadge Maharaj was a saint in Maharashtra. His name was Debuji. He\nlived a simple life. He taught people to be kind.\n\ng. Now fill in the blanks with the proper words from the box.\nhe they his their she\n\nहि\n\nMeera loves books. Rohan has a bicycle. The birds are in the nest.\nreads every night. ___ rides it every day. are singing.\nfavourite book. bicycle is nest is on the\n\nred. branch.\n\nFor the Teacher :\n\n० Encourage learners to collect information of different saints from Maharashtra.\n@® ० Encourage them to read books about saints.\n\n० Encourage them to talk about the key elements/events, ideas from this lesson.\n\nLs |\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

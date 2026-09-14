@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_096",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "தமிழ்நாடு ATH\n\nமேல்நிலை இரண்டாம் ஆண்டு\n\nகணினி பயன்பாடுகள்\n\nகருத்தியல் & செய்முறை\n\nதமிழ்நாடு அரசு விலையில்லாப் பாடநூல் வழங்கும் திட்டத்தின் கீழ் வவளியிடப்பட்டது\n\nபள்ளிக் கல்வித்துறை\n\nதீண்டாமை மனிதநேயமற்ற செயலும் பெருங்குற்றமும் ஆகும்\n\n| | 12th_Computer_Application_Tamil version FM.indd 1 ® 19-01-2023 17:34:13 | |\n",
+      "text_nfc": "தமிழ்நாடு ATH\n\nமேல்நிலை இரண்டாம் ஆண்டு\n\nகணினி பயன்பாடுகள்\n\nகருத்தியல் & செய்முறை\n\nதமிழ்நாடு அரசு விலையில்லாப் பாடநூல் வழங்கும் திட்டத்தின் கீழ் வவளியிடப்பட்டது\n\nபள்ளிக் கல்வித்துறை\n\nதீண்டாமை மனிதநேயமற்ற செயலும் பெருங்குற்றமும் ஆகும்\n\n| | 12th_Computer_Application_Tamil version FM.indd 1 ® 19-01-2023 17:34:13 | |\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

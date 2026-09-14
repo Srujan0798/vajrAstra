@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_085",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 31,
+    "width": 2200,
+    "height": 853
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        2200,
+        853
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ey BOQ wont rma B D> ect ടൂ\n\nചി റിട്ട കീ ൦-൭ “ടയ 39. O1-* A patie? “3 Z 0\n\nee wa age കാച്ചി se പടി\n",
+      "text_nfc": "ey BOQ wont rma B D> ect ടൂ\n\nചി റിട്ട കീ ൦-൭ “ടയ 39. O1-* A patie? “3 Z 0\n\nee wa age കാച്ചി se പടി\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

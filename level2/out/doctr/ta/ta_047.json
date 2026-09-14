@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_047",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0014pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "safifasil\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n5\n3\nEaft in\n(ST\nofucida\nfgad, HI9T fasit go HTAT IR Yor TICIT 128)\nnou\n-\nfan 4Rau :\n1. SCIRT Toft\n(Wind Pipe)\nTHE PEOPLES\n2. HIUIT Toft\n(Gullet/Food Pipe)\n3. Far in\n(Larynx)\n4. FAR daft\n(Vocal Cord)\nUNIVERSITY\n5. chichel\n(Glottis)\n6. 3chchCT\n(Epiglottis)\n7. Trerfad/gHIfaTEqT (Pharynx)\n8. 3TINEq/CT\n(Uvula)\n9. HRHTfAGR\n(Nasal Cavity)\n10. chiHel dg\n(Soft Palate)\n11. zerf\n(Cerebrum)\n12. ChOk dg\n(Hard Palate)\n13. arf\n(Alveolus)\n14. E\n(Teeth)\n15. 3708\n(Lips)\n16. foieaT 7ch\n(Tip of the Tongue)\n65",
+      "text_nfc": "safifasil\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n5\n3\nEaft in\n(ST\nofucida\nfgad, HI9T fasit go HTAT IR Yor TICIT 128)\nnou\n-\nfan 4Rau :\n1. SCIRT Toft\n(Wind Pipe)\nTHE PEOPLES\n2. HIUIT Toft\n(Gullet/Food Pipe)\n3. Far in\n(Larynx)\n4. FAR daft\n(Vocal Cord)\nUNIVERSITY\n5. chichel\n(Glottis)\n6. 3chchCT\n(Epiglottis)\n7. Trerfad/gHIfaTEqT (Pharynx)\n8. 3TINEq/CT\n(Uvula)\n9. HRHTfAGR\n(Nasal Cavity)\n10. chiHel dg\n(Soft Palate)\n11. zerf\n(Cerebrum)\n12. ChOk dg\n(Hard Palate)\n13. arf\n(Alveolus)\n14. E\n(Teeth)\n15. 3708\n(Lips)\n16. foieaT 7ch\n(Tip of the Tongue)\n65",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

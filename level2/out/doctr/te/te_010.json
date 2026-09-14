@@ -1,0 +1,41 @@
+{
+  "page_id": "te_010",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0010pro_raw.pdf",
+    "page_index": 63,
+    "width": 1659,
+    "height": 2211
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1659,
+        2211
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HERIZ TIVe Hoelytrich Afia a 379211HshH HRTETT HSO, yut.\nVE TIRTA L FRIST 3idHTRdt, serdt Geldt (HRIST STT9TT)\ndSRIN\nN 8P.00\nChoos\n30",
+      "text_nfc": "HERIZ TIVe Hoelytrich Afia a 379211HshH HRTETT HSO, yut.\nVE TIRTA L FRIST 3idHTRdt, serdt Geldt (HRIST STT9TT)\ndSRIN\nN 8P.00\nChoos\n30",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_034",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0035pro_raw.pdf",
+    "page_index": 99,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ee\nenoogd\ne3 Ray gorio aurjase eao 2300 820 eg ngn 8080.\ngeeroea 23000a30000 223 awata bo8t.\nQ\n\"eate! DO deeon geyo. adodes 2J0000 208e? edenb avo\n0\nRboatodeg do3 do ena\" avates dof 20ed.\ngesno R0aJORd00s) vondo, doade abodeas\" eot.\newao \"doag abotwees esot.. ? adodes\" eod.\ngesa eg Roae \"ete dues 20ederots 8daon\" aeed.\n\"aadoe! doas 2edert aon eoc3 ede cso,esee gdo abof\nwoeso? esaded 8s cooeb acag Noe,A toroges ae abezg asesy:\neaô,\ngwe,t es abesabe apon a3 38 2088? abowon\nQ\n2000 enod? 0 Bonaeadas? a\n3 n ds gooes neabéshoon e3 @ e3\nBocg bact enon 20803 1\ndan edo Doboeado... Neyase dea3\neo3 303 2000 NoWadog asés Reo0 Dotonid.. eodon...\"\newr abooo deprie 20230 gdeey. gatde \"Deab Noeoriee\naswaaseat, eser?\" e03\n3\nasts\n230000 coo8d.\n\"ootoo 2J0 aono dodg angea W63 a7F egroensos\"\neoa.\ngon egossates dras5oroge I e08. Stoes 2odigecio e08.\na3o,e 3e9r3063 2308087\" esod.\neano \"ea3o3 aoos\n3\ndeg\nRocto\n3a3! 30068083 e3 2edbco eerior\nO000 asold 300 e3 Ros 2 adoeab. e Boto adoefde\nosbAo 8\nea noeto, eaja toode eo3 20@0n. toadoocs\n000 boeb Rve bo Javoheéss a03\nCa Ruopdegy. esci\nds\naocesoe0. 20a0 noote Ropabonde e avigeed €s 8arde2\n38 cootoes aeed? ead De aongeabeg? aug 2300009 a@rabod..\"",
+      "text_nfc": "ee\nenoogd\ne3 Ray gorio aurjase eao 2300 820 eg ngn 8080.\ngeeroea 23000a30000 223 awata bo8t.\nQ\n\"eate! DO deeon geyo. adodes 2J0000 208e? edenb avo\n0\nRboatodeg do3 do ena\" avates dof 20ed.\ngesno R0aJORd00s) vondo, doade abodeas\" eot.\newao \"doag abotwees esot.. ? adodes\" eod.\ngesa eg Roae \"ete dues 20ederots 8daon\" aeed.\n\"aadoe! doas 2edert aon eoc3 ede cso,esee gdo abof\nwoeso? esaded 8s cooeb acag Noe,A toroges ae abezg asesy:\neaô,\ngwe,t es abesabe apon a3 38 2088? abowon\nQ\n2000 enod? 0 Bonaeadas? a\n3 n ds gooes neabéshoon e3 @ e3\nBocg bact enon 20803 1\ndan edo Doboeado... Neyase dea3\neo3 303 2000 NoWadog asés Reo0 Dotonid.. eodon...\"\newr abooo deprie 20230 gdeey. gatde \"Deab Noeoriee\naswaaseat, eser?\" e03\n3\nasts\n230000 coo8d.\n\"ootoo 2J0 aono dodg angea W63 a7F egroensos\"\neoa.\ngon egossates dras5oroge I e08. Stoes 2odigecio e08.\na3o,e 3e9r3063 2308087\" esod.\neano \"ea3o3 aoos\n3\ndeg\nRocto\n3a3! 30068083 e3 2edbco eerior\nO000 asold 300 e3 Ros 2 adoeab. e Boto adoefde\nosbAo 8\nea noeto, eaja toode eo3 20@0n. toadoocs\n000 boeb Rve bo Javoheéss a03\nCa Ruopdegy. esci\nds\naocesoe0. 20a0 noote Ropabonde e avigeed €s 8arde2\n38 cootoes aeed? ead De aongeabeg? aug 2300009 a@rabod..\"",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

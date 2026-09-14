@@ -1,0 +1,41 @@
+{
+  "page_id": "te_057",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0057pro_raw.pdf",
+    "page_index": 16,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "38e c21m\n3747 3ik fhel\n4s\n    4,\nM 3     f 3 :\n(1 1 714\nfaa\n3T92102 1 714\nfaar ten\na \n qm 3i er aa \nFal faic   1901\n4o 3i   3 \nad ra\no    s a 3a\n8. Eel  3gIR sh4 eR fel :\n?.\n[oh-a aoei i 3ra fal :\n(F) fi ≠ #  ∂i 1 34ET fG41 I\n(\nfafse GheT (EM eft ?\n()[ 2\n357\n \nసాRI\n(ε)\nT\nad\nI-HT{T?\n(π)\nAI-HL,\nF46-H4\ndat\n\n(π)\nGTG\nq\n4\n309\nGeT\na\n(E) Eπ  3T\n\nRTG\n∂1\n$$\n2 \n(ఘే)\nT4-44\nud\nGe\nob12.I\n9T9  3\nA   o iye  fa :\nL1YLGL\nuiclfe  a  e e ay\naffrai\nia\naaT\n{1\natgi\n$\nT\nia\nT",
+      "text_nfc": "38e c21m\n3747 3ik fhel\n4s\n    4,\nM 3     f 3 :\n(1 1 714\nfaa\n3T92102 1 714\nfaar ten\na \n qm 3i er aa \nFal faic   1901\n4o 3i   3 \nad ra\no    s a 3a\n8. Eel  3gIR sh4 eR fel :\n?.\n[oh-a aoei i 3ra fal :\n(F) fi ≠ #  ∂i 1 34ET fG41 I\n(\nfafse GheT (EM eft ?\n()[ 2\n357\n \nసాRI\n(ε)\nT\nad\nI-HT{T?\n(π)\nAI-HL,\nF46-H4\ndat\n\n(π)\nGTG\nq\n4\n309\nGeT\na\n(E) Eπ  3T\n\nRTG\n∂1\n$$\n2 \n(ఘే)\nT4-44\nud\nGe\nob12.I\n9T9  3\nA   o iye  fa :\nL1YLGL\nuiclfe  a  e e ay\naffrai\nia\naaT\n{1\natgi\n$\nT\nia\nT",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

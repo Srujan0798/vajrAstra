@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_015",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0016pro_raw.pdf",
+    "page_index": 499,
+    "width": 1462,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1462,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "೪೪೨\n\n೧೨೪\n\n೧೨೬\n೧೨೩\n\n೧೨೮\n೧೨೯\n೧೩೦\n\n೧೩೧\n\n೩೫೫\n೩೫೬\n\n೩೫೯\n೩೬೨\n೩೬೩\n೩೬೪\n೩೬೬\n೩೭೦\n೩೭೨\n\n೩೭೩\n೩೭೫\n\n೪\n೫\n\n೮\n\n೧೨\n೧೩\n೧೫\n೧೯\n೨೧\n\n25\n೨೪\n\nಒಕ್ಕುದು\n\nಬಸವಣ್ಣನವರ ಹೆಚ್ಚಿಗೆ ದೊರೆತ ವಚನಗಳು\n\nಹೆಚ್ಚಾದುದು, ರಾಶಿಯಾದುದು\n\nಕೊಳುವೋದ ಲಿಂಗ ಕೊಳ್ಳಲು ಹೋದ ಲಿಂಗ\n\nತವಕ\n\nಒಪ್ಪವ ಮಾಡು\nದಂದುಗ\nಮರುಜೀವಣಿ\nಪುಟವಿಡು\nಕಿಂಕಲ\n\nಭೇತಾಳ\nನೇತಾಳ\nತಾರಣ\n\nಹನ್ಬು\n\nದೃಷ್ಟಾಂತ, ಪ್ರತ್ಯಕ್ಷ ಉದಾಹರಣೆ\nಆತುರ\n\nಸರಿ ಮಾಡು, ಹೊಂದಿಸಿಕೋ\nಕಷ್ಟ\n\nಸಂಜೀವಿನಿ\n\nಕಾಂತಿ\n\nಕಿಂಕರ\n\nಭೂತ\n\nತಂಪು\n\nಪ್ರತ್ಯಕ್ಷ ಇದಿರು\n\nಆರಂಭಿಸಿ\n",
+      "text_nfc": "೪೪೨\n\n೧೨೪\n\n೧೨೬\n೧೨೩\n\n೧೨೮\n೧೨೯\n೧೩೦\n\n೧೩೧\n\n೩೫೫\n೩೫೬\n\n೩೫೯\n೩೬೨\n೩೬೩\n೩೬೪\n೩೬೬\n೩೭೦\n೩೭೨\n\n೩೭೩\n೩೭೫\n\n೪\n೫\n\n೮\n\n೧೨\n೧೩\n೧೫\n೧೯\n೨೧\n\n25\n೨೪\n\nಒಕ್ಕುದು\n\nಬಸವಣ್ಣನವರ ಹೆಚ್ಚಿಗೆ ದೊರೆತ ವಚನಗಳು\n\nಹೆಚ್ಚಾದುದು, ರಾಶಿಯಾದುದು\n\nಕೊಳುವೋದ ಲಿಂಗ ಕೊಳ್ಳಲು ಹೋದ ಲಿಂಗ\n\nತವಕ\n\nಒಪ್ಪವ ಮಾಡು\nದಂದುಗ\nಮರುಜೀವಣಿ\nಪುಟವಿಡು\nಕಿಂಕಲ\n\nಭೇತಾಳ\nನೇತಾಳ\nತಾರಣ\n\nಹನ್ಬು\n\nದೃಷ್ಟಾಂತ, ಪ್ರತ್ಯಕ್ಷ ಉದಾಹರಣೆ\nಆತುರ\n\nಸರಿ ಮಾಡು, ಹೊಂದಿಸಿಕೋ\nಕಷ್ಟ\n\nಸಂಜೀವಿನಿ\n\nಕಾಂತಿ\n\nಕಿಂಕರ\n\nಭೂತ\n\nತಂಪು\n\nಪ್ರತ್ಯಕ್ಷ ಇದಿರು\n\nಆರಂಭಿಸಿ\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

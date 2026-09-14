@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_033",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 52,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "7.2 That [Te]ps Creativity?\n[Jave you ever made up ೩ ]eM7 8ame? Cooked somethins by mixins thinss in ೩ new way? That's creativity! [t doesn t only belon8 to artists oT scjentists; [t belon8s to ೩l] o[ us Beavers build dams, birds build nests but they do jt the same Tax errery time. Me, o1 the other hand, can invent [ewT music, chanse the way we dress, even make machines that talk like humans! But what helps us become more creative? And what blocks us?\nStoಣy Time!\nSana [ived i1 ೩ smal] tow]. [er [athe] TTaS Tickshaw pullet; and they had only o3e [oom with [0 8as connection. S]e noticed that the ST]] eated the ti[ Too[ o[ thexz [ouse S0 [uc] that jt coujd bT[]] ]er   finseTs Oe d೩)] , s]e saT] ೩1 o]d shiny plate and Soje bToke]] 8jass pjeces, that 8ave Le] ೩1 jde೩. TTT]at 1f s]e could TSe te su1 s ೊeat to cook? S]e tried differet setups   usin8 ೩ಞ old   shoebox, bLack paint; foi] wTappers; and 8lass; failins many  times . But  she didnt 8ive   1up. After tMo 1eeks 0x testin8 and f1in8, Saa [ade ೩ solat cooker that could ೊcat ೯ater ad coo] [ice! [Jer teachers TTeTe ೩azed Today ; heT   desj8t [S bein8 improved by ೩ ]G0 to use j[ villases with ]0 ೩ccess t0 [1e].\n[ntertaining ditterent ideas experimentin8; exploring\nTalkins to peopLe rith diverse backsrounds\nReadins ೩bout Lot o[ ditterent topics\nFeelins inspired\nMakins unusua[ connectjons between t1O thinss Jatera] thinkins\nTakins inspiration [ೊo[] other s desisns / thoushts\nChoose what helps you be creative:\nA]lowins [deas to arise by themselves, ೊot Torce the.\nApplyins ideas [ೊo[] oe feld to ೩other\nBeins peacefu]\nBeins asry , upset oT irtitated\nBeins stressed\n45\n3LISHED",
+      "text_nfc": "7.2 That [Te]ps Creativity?\n[Jave you ever made up ೩ ]eM7 8ame? Cooked somethins by mixins thinss in ೩ new way? That's creativity! [t doesn t only belon8 to artists oT scjentists; [t belon8s to ೩l] o[ us Beavers build dams, birds build nests but they do jt the same Tax errery time. Me, o1 the other hand, can invent [ewT music, chanse the way we dress, even make machines that talk like humans! But what helps us become more creative? And what blocks us?\nStoಣy Time!\nSana [ived i1 ೩ smal] tow]. [er [athe] TTaS Tickshaw pullet; and they had only o3e [oom with [0 8as connection. S]e noticed that the ST]] eated the ti[ Too[ o[ thexz [ouse S0 [uc] that jt coujd bT[]] ]er   finseTs Oe d೩)] , s]e saT] ೩1 o]d shiny plate and Soje bToke]] 8jass pjeces, that 8ave Le] ೩1 jde೩. TTT]at 1f s]e could TSe te su1 s ೊeat to cook? S]e tried differet setups   usin8 ೩ಞ old   shoebox, bLack paint; foi] wTappers; and 8lass; failins many  times . But  she didnt 8ive   1up. After tMo 1eeks 0x testin8 and f1in8, Saa [ade ೩ solat cooker that could ೊcat ೯ater ad coo] [ice! [Jer teachers TTeTe ೩azed Today ; heT   desj8t [S bein8 improved by ೩ ]G0 to use j[ villases with ]0 ೩ccess t0 [1e].\n[ntertaining ditterent ideas experimentin8; exploring\nTalkins to peopLe rith diverse backsrounds\nReadins ೩bout Lot o[ ditterent topics\nFeelins inspired\nMakins unusua[ connectjons between t1O thinss Jatera] thinkins\nTakins inspiration [ೊo[] other s desisns / thoushts\nChoose what helps you be creative:\nA]lowins [deas to arise by themselves, ೊot Torce the.\nApplyins ideas [ೊo[] oe feld to ೩other\nBeins peacefu]\nBeins asry , upset oT irtitated\nBeins stressed\n45\n3LISHED",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_059",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+    "page_index": 103,
+    "width": 881,
+    "height": 1340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        881,
+        1340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "98\n6019. 20--080\nnunoleiooomelob o0molm 01910g16980. GMJdh09,\nD0J0D00OS 00gabo ooo1 om0 6303 ooQ0las0\no0ologo1 600 G.0ld90603060000m\".\n60300: -6106 6030mDomason\", 2 0D0 ASR lajoon) (G1O 3\n08B0S QOOo Gojoelgppnd. (10603Q0SGODS050000 GOOT\nQ1300 006030000 d O e. aJosomamgplenagllaoab 06013\n@ujaonjaqalgl goaJ0ojalgjoon (@1OGCDJ091om 6013 B0 299\n(UO da 000 20000/690. 01009. nU3d, 41012j101asomo.\nG106 603Q0S ch300 2101gl0d Qum\"oslalomlajo 206030. 6)\n6030m0ooamelob GID nolo G1O 30n2108 Q9log/se\n0060 80J6m0. ooelo 690 060 000 cslg.angbalda.hgl\neno6maloo 20m1060 060608 mujoculmgons\" GQUJOGO!\n000000 npocoumolejo OJ0 gpoloo 200 o06000. GOOT\n06S 601090 016030 0d63 003011d600.\nGQ0Dod @ tamdemmsal 000000 malajc.n 88\nOGmTUO mlablolgo.bosng 003MUJO00l00 0J0600: c 60000\nBOJSOm 000000 Q00 0UG000B0800J01 umogor 0001\nwloldemo. aJelddoo agemos Qelo eoagaaing GOJ\nSo! 000000 lolod Rejoaiomla.so numpelay\nQJ0 QJg0030y01e 60000 600007091 mglo0 010121000\nonslomaoejon 610) 6013 60S Bloolod GQUOGbomposalos\na QJAIOBO goala1so.0m moojlmulelong B2190.\n(0\n60000 00)60360 OGQJGO 0001860 alolad mms\nel2jo0) moo (100J6.00600030101010080760700\nQ1oonlow\nmoo 0001000 B0m0.\nmoOnnola,00.00, 0good a\ne1d000, mloronmealay 8 do agoloswln1omsejain\n6mo Q1600 msomlanoboong\" 00010060 olelo eBomya\n3600 69190. boglej 03 6a9a0mab9980100 010l211s\ndGO.opeic00) 8 : Odomlenonsl mosoils 60300 606013\n60086 lwlagoal 0lol2104ms060300000006a6\nOJOOS alGoo.\"\naD.snb-aogongpo DBap96g 00m100 C00106 Om\nmlenog GUDA 0. GQ0Dobi 6.03 NOodsT OS6030. 8OO0",
+      "text_nfc": "98\n6019. 20--080\nnunoleiooomelob o0molm 01910g16980. GMJdh09,\nD0J0D00OS 00gabo ooo1 om0 6303 ooQ0las0\no0ologo1 600 G.0ld90603060000m\".\n60300: -6106 6030mDomason\", 2 0D0 ASR lajoon) (G1O 3\n08B0S QOOo Gojoelgppnd. (10603Q0SGODS050000 GOOT\nQ1300 006030000 d O e. aJosomamgplenagllaoab 06013\n@ujaonjaqalgl goaJ0ojalgjoon (@1OGCDJ091om 6013 B0 299\n(UO da 000 20000/690. 01009. nU3d, 41012j101asomo.\nG106 603Q0S ch300 2101gl0d Qum\"oslalomlajo 206030. 6)\n6030m0ooamelob GID nolo G1O 30n2108 Q9log/se\n0060 80J6m0. ooelo 690 060 000 cslg.angbalda.hgl\neno6maloo 20m1060 060608 mujoculmgons\" GQUJOGO!\n000000 npocoumolejo OJ0 gpoloo 200 o06000. GOOT\n06S 601090 016030 0d63 003011d600.\nGQ0Dod @ tamdemmsal 000000 malajc.n 88\nOGmTUO mlablolgo.bosng 003MUJO00l00 0J0600: c 60000\nBOJSOm 000000 Q00 0UG000B0800J01 umogor 0001\nwloldemo. aJelddoo agemos Qelo eoagaaing GOJ\nSo! 000000 lolod Rejoaiomla.so numpelay\nQJ0 QJg0030y01e 60000 600007091 mglo0 010121000\nonslomaoejon 610) 6013 60S Bloolod GQUOGbomposalos\na QJAIOBO goala1so.0m moojlmulelong B2190.\n(0\n60000 00)60360 OGQJGO 0001860 alolad mms\nel2jo0) moo (100J6.00600030101010080760700\nQ1oonlow\nmoo 0001000 B0m0.\nmoOnnola,00.00, 0good a\ne1d000, mloronmealay 8 do agoloswln1omsejain\n6mo Q1600 msomlanoboong\" 00010060 olelo eBomya\n3600 69190. boglej 03 6a9a0mab9980100 010l211s\ndGO.opeic00) 8 : Odomlenonsl mosoils 60300 606013\n60086 lwlagoal 0lol2104ms060300000006a6\nOJOOS alGoo.\"\naD.snb-aogongpo DBap96g 00m100 C00106 Om\nmlenog GUDA 0. GQ0Dobi 6.03 NOodsT OS6030. 8OO0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

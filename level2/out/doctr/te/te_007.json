@@ -1,0 +1,41 @@
+{
+  "page_id": "te_007",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0007pro_raw.pdf",
+    "page_index": 1,
+    "width": 1363,
+    "height": 2100
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1363,
+        2100
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "iii. anod ess woDes SJra) J383 esoseDoo.\ne) 3080y808\ne3) eswesjang 3e3s\na) OBOENd03DS\n6a) a85s\niv. SroDs no 000.\ne) Jseso\ne3) S02y352\na) Seo0 303080d\n68) S2005306).\nv. ospobo\n3803 Gogo\ne) no38 3688 853209\ne3) 35)90\na) 850-33338283)\n68) S)a-s8 3888 855320)\n2rho 6 E >\n2. 88 So8 WDODS 38, Donsvoë Jaas) 2585 39 oood.\n1x8=8\ngSoOe S03)5J06ss warë 3.8.005.2.\nS 338363s adof JosoSs NoD 3000\n2385J 55560 as) OASS osse 39.\n3. 88 Sod we3s 580 2s OOO N800 Woo do0a So00 Sa0es\nJTsO oOod.\n1 X 10 = 10\ni. Joroges - ogsoyev.\nii. 2305 soosre\niii. SGe - Jyswgres.\n2rho 6 2 9\n4. soegaw So8 asgeds, Sao 8MS aJav0s 380038 JS)S oOod. 4x1=4\naeaw -\nwa da 20 os ess8 23 awas essjes 383353)6\nSaawr au 5 8 e esdeshss.\"",
+      "text_nfc": "iii. anod ess woDes SJra) J383 esoseDoo.\ne) 3080y808\ne3) eswesjang 3e3s\na) OBOENd03DS\n6a) a85s\niv. SroDs no 000.\ne) Jseso\ne3) S02y352\na) Seo0 303080d\n68) S2005306).\nv. ospobo\n3803 Gogo\ne) no38 3688 853209\ne3) 35)90\na) 850-33338283)\n68) S)a-s8 3888 855320)\n2rho 6 E >\n2. 88 So8 WDODS 38, Donsvoë Jaas) 2585 39 oood.\n1x8=8\ngSoOe S03)5J06ss warë 3.8.005.2.\nS 338363s adof JosoSs NoD 3000\n2385J 55560 as) OASS osse 39.\n3. 88 Sod we3s 580 2s OOO N800 Woo do0a So00 Sa0es\nJTsO oOod.\n1 X 10 = 10\ni. Joroges - ogsoyev.\nii. 2305 soosre\niii. SGe - Jyswgres.\n2rho 6 2 9\n4. soegaw So8 asgeds, Sao 8MS aJav0s 380038 JS)S oOod. 4x1=4\naeaw -\nwa da 20 os ess8 23 awas essjes 383353)6\nSaawr au 5 8 e esdeshss.\"",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

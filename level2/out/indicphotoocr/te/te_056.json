@@ -1,0 +1,41 @@
+{
+  "page_id": "te_056",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0056pro_raw.pdf",
+    "page_index": 0,
+    "width": 1850,
+    "height": 2450
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1850,
+        2450
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "गोंडू\nमराठी\nसुगमभारती 2ો\nइयत्ता सातवी\nintrersangent 17 iiiivi   স্থাপি শ্রী\nપાન nma\nannian ષ",
+      "text_nfc": "गोंडू\nमराठी\nसुगमभारती 2ો\nइयत्ता सातवी\nintrersangent 17 iiiivi   স্থাপি শ্রী\nપાન nma\nannian ષ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

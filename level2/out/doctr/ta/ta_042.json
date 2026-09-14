@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_042",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0008pro_raw.pdf",
+    "page_index": 1,
+    "width": 1654,
+    "height": 2340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2\nUGS-II.\n(sndafdabuce SIgPWG BLOW6T QacCunmrgénangundasmrnd wwdru@ssangug)\nELLO Gugows 05n5800906b8 GCLO\nG5nsgb6n6 Gacurangnad Coniiue OSoTro. Sansot BWosori 6)susGmri.\nGugosus\nGaucunenfoot 6uwr -\nspansisnuldemraut 6)uwr\n9005) 916566 (60 -\n9UGO)LW 6owr\n-ELLO Gug0s 6)506566N6 onéerond ULiqWODGÔT -\nSyi 67600T0DJOTON Unaigo\neyi 6)3nci 6T600T600P60 UBoy\nOstwbuc.Ourongi\nSTNGOT Obs ELLO Gugonag 6)5053U6r andsrenhest croorgb; 6TAJ5G5DLW Ouwrsst EGg\n6p00LGorensung Os GLLO Gugono 6)5n63U6 oréenond Uciqiuods UBo4 Osiwouc.Oohonar\n6760rpi, 835 BW06T305 (OTo)onyausit SIOOLWTONTUNS 856 6TN66P6T a)66)undunusapor EGg\nacbonGono 6reorgyd O566 spoadsr@pai.\nwarOungumhastd oougrusosi\nsjods@5LW mabundudaesé\n0snet (soro)onguasteir\n67600.\nvri Ouwr.\nourEETonT Uciwo 67600T.\n6)s6)undud\nBroit\n6)5m536S6 - aunésnent\nouréarosi\nUciqWosr\nULlqWoDsr\naunaigor\nunéd 67600T.\nOsnci 6T600T.\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.\n9.\n10.\n(5.0.0r.)\nU63 = III.\n060T spou 3130)5m6gwor U3s oundanonhesis ait)onguairsorns\nO66s G660B.",
+      "text_nfc": "2\nUGS-II.\n(sndafdabuce SIgPWG BLOW6T QacCunmrgénangundasmrnd wwdru@ssangug)\nELLO Gugows 05n5800906b8 GCLO\nG5nsgb6n6 Gacurangnad Coniiue OSoTro. Sansot BWosori 6)susGmri.\nGugosus\nGaucunenfoot 6uwr -\nspansisnuldemraut 6)uwr\n9005) 916566 (60 -\n9UGO)LW 6owr\n-ELLO Gug0s 6)506566N6 onéerond ULiqWODGÔT -\nSyi 67600T0DJOTON Unaigo\neyi 6)3nci 6T600T600P60 UBoy\nOstwbuc.Ourongi\nSTNGOT Obs ELLO Gugonag 6)5053U6r andsrenhest croorgb; 6TAJ5G5DLW Ouwrsst EGg\n6p00LGorensung Os GLLO Gugono 6)5n63U6 oréenond Uciqiuods UBo4 Osiwouc.Oohonar\n6760rpi, 835 BW06T305 (OTo)onyausit SIOOLWTONTUNS 856 6TN66P6T a)66)undunusapor EGg\nacbonGono 6reorgyd O566 spoadsr@pai.\nwarOungumhastd oougrusosi\nsjods@5LW mabundudaesé\n0snet (soro)onguasteir\n67600.\nvri Ouwr.\nourEETonT Uciwo 67600T.\n6)s6)undud\nBroit\n6)5m536S6 - aunésnent\nouréarosi\nUciqWosr\nULlqWoDsr\naunaigor\nunéd 67600T.\nOsnci 6T600T.\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.\n9.\n10.\n(5.0.0r.)\nU63 = III.\n060T spou 3130)5m6gwor U3s oundanonhesis ait)onguairsorns\nO66s G660B.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_045",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0005pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ISeries GTDEF\nSet - 4 (జ త్రల్ని వెక్రిా జిండా- Oa 13 QP Code అఖ్యథిFయి వ్రర్ని ఐక్రికి జిండా అన్ను లుక్తం ఐక్రిః   మఖపుటదెల్లి అవర్యవాగి బరియిరి: Candidates must write the QP Code on the title page of the answer-book:\nయాజరి సెంఖ్యు Roll 1o:\nతెల్నిచెశ్రిరియిం 15 మొదిశి పుటగళివెయంబుదన్ను ఐరిలీలలిసి: పెల్ని ఒెక్రిశియి బలభాగదల్లి జింట్టిరువ జఖగడా ~ంఖ్యుయిన్ను లత్తం పెక్ిశియి మఖ వుటదాం భ్యథిగయి బరెయిబిరు: రా వల్నిచెర్రిరియిల్ి 15 వల్నిగళివెఎంబుదన్ను గమెనిసి: లుత్తరినువుదా్య మందలు తుల్నియి ర్మ నెంఖ్యయిన్ను లుత్తం ఎెర్సిరియి యిథాన్ర్థినదల్లి బరియిరి: ఈ పల్న ఐెక్సిరియన్ను ఓదిశఖళ్ళలు 15 నిమిఐగళన్ను శిండెలాగిది ఐల్న ఐర్ిచయన్ను 10.15 a.m: ~విఠరినెలాగువుదు. 10.15 a.m. నింద10.30 a.m రఠిసె విద్యార థిFగళు వుల్నిపెక్ి= శియిన్ను ఒదిడంళ్ళబౌు మశ్తుఈ లవెధియిం యావుదా లుక్తంవెన్ను లక్తం పెక్రిశేయిC బరియిబాందు: Please check that this question paper contains 15 printed pages: QP Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate Please check that this question paper contains 15 questions: Please write down the serial number of the question in the answer: book at the given place before attempting it: 15 minute time has been allotted to read this question paper: The question paper will be distributed at 10.15 &I1 From 10.15 &.11 t0 10.30 &111 - the candidates will read the question paper only and will not write any answer on the answer-book during this period\nశెన్నడె KANNADA\nలనుమకినెలంుద నెమయి 8 గంటె Time duloued 3 hours 13 5111\nగరిష్మ అంశెగళు _ 80 Muxumum Mrks 80 PT.0\nPage 1of 16 * 11",
+      "text_nfc": "ISeries GTDEF\nSet - 4 (జ త్రల్ని వెక్రిా జిండా- Oa 13 QP Code అఖ్యథిFయి వ్రర్ని ఐక్రికి జిండా అన్ను లుక్తం ఐక్రిః   మఖపుటదెల్లి అవర్యవాగి బరియిరి: Candidates must write the QP Code on the title page of the answer-book:\nయాజరి సెంఖ్యు Roll 1o:\nతెల్నిచెశ్రిరియిం 15 మొదిశి పుటగళివెయంబుదన్ను ఐరిలీలలిసి: పెల్ని ఒెక్రిశియి బలభాగదల్లి జింట్టిరువ జఖగడా ~ంఖ్యుయిన్ను లత్తం పెక్ిశియి మఖ వుటదాం భ్యథిగయి బరెయిబిరు: రా వల్నిచెర్రిరియిల్ి 15 వల్నిగళివెఎంబుదన్ను గమెనిసి: లుత్తరినువుదా్య మందలు తుల్నియి ర్మ నెంఖ్యయిన్ను లుత్తం ఎెర్సిరియి యిథాన్ర్థినదల్లి బరియిరి: ఈ పల్న ఐెక్సిరియన్ను ఓదిశఖళ్ళలు 15 నిమిఐగళన్ను శిండెలాగిది ఐల్న ఐర్ిచయన్ను 10.15 a.m: ~విఠరినెలాగువుదు. 10.15 a.m. నింద10.30 a.m రఠిసె విద్యార థిFగళు వుల్నిపెక్ి= శియిన్ను ఒదిడంళ్ళబౌు మశ్తుఈ లవెధియిం యావుదా లుక్తంవెన్ను లక్తం పెక్రిశేయిC బరియిబాందు: Please check that this question paper contains 15 printed pages: QP Code given on the right hand side of the question paper should be written on the title page of the answer-book by the candidate Please check that this question paper contains 15 questions: Please write down the serial number of the question in the answer: book at the given place before attempting it: 15 minute time has been allotted to read this question paper: The question paper will be distributed at 10.15 &I1 From 10.15 &.11 t0 10.30 &111 - the candidates will read the question paper only and will not write any answer on the answer-book during this period\nశెన్నడె KANNADA\nలనుమకినెలంుద నెమయి 8 గంటె Time duloued 3 hours 13 5111\nగరిష్మ అంశెగళు _ 80 Muxumum Mrks 80 PT.0\nPage 1of 16 * 11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

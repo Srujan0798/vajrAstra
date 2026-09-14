@@ -1,0 +1,41 @@
+{
+  "page_id": "te_057",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0057pro_raw.pdf",
+    "page_index": 16,
+    "width": 595.2760009765625,
+    "height": 793.7009887695312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "314 3f 4 ( ( 3    4,\nMy 3   3 :\nHlk lt\nfa\nHlk kniktke\nfaar ter\n4 i   \n122  23 2h\n8. E2l  3THIR shH MTCh fe :\n?. [oh-aaoei i 3ra fe :\n    )\n() faf$ hei (er 2f ?\n  ()\n()\n(π) AL-HL, THC-H4R ∂H  I\n(τ)\n TCI HI PE JOH PI Dd?\n(E) Eπ  3T RG   T \n9O  3i\nL1YL6L",
+      "text_nfc": "314 3f 4 ( ( 3    4,\nMy 3   3 :\nHlk lt\nfa\nHlk kniktke\nfaar ter\n4 i   \n122  23 2h\n8. E2l  3THIR shH MTCh fe :\n?. [oh-aaoei i 3ra fe :\n    )\n() faf$ hei (er 2f ?\n  ()\n()\n(π) AL-HL, THC-H4R ∂H  I\n(τ)\n TCI HI PE JOH PI Dd?\n(E) Eπ  3T RG   T \n9O  3i\nL1YL6L",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_003",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0003pro_raw.png",
+    "page_index": 0,
+    "width": 262.79998779296875,
+    "height": 427.79998779296875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        262.79998779296875,
+        427.79998779296875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "11emdibam\nநehe பால் றி குது\nCmal?\nDueh Ggaiams Alimomeat எcioumb\namaon.\nபeee plmgaong uple\nெர்oma் நராடல் கிறபிபmts\nஹெ்கபாடமரகிள் அ்கதும்\nBில்ionons Gூpக்து ிதgoன.\nஎனaு பூல் eாிmல் மர்ககக\nஎர்படட'றிலaர்்க பால் கறிப்பிம்\n-றதுl.\nகேோணவ்றாம் வகு ஏற்பe.\nபாதிப்புகள் பாtoal?\nதிரib ந்த கந்கடி் வடுவனு\neற மe அழில் பிவு\nவிீனின்இரைகள்ை ல்லாமை ம்ரகmா\nஅHigetவு ealso la மomo\nK\na",
+      "text_nfc": "11emdibam\nநehe பால் றி குது\nCmal?\nDueh Ggaiams Alimomeat எcioumb\namaon.\nபeee plmgaong uple\nெர்oma் நராடல் கிறபிபmts\nஹெ்கபாடமரகிள் அ்கதும்\nBில்ionons Gூpக்து ிதgoன.\nஎனaு பூல் eாிmல் மர்ககக\nஎர்படட'றிலaர்்க பால் கறிப்பிம்\n-றதுl.\nகேோணவ்றாம் வகு ஏற்பe.\nபாதிப்புகள் பாtoal?\nதிரib ந்த கந்கடி் வடுவனு\neற மe அழில் பிவு\nவிீனின்இரைகள்ை ல்லாமை ம்ரகmா\nஅHigetவு ealso la மomo\nK\na",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

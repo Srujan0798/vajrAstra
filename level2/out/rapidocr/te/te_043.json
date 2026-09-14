@@ -1,0 +1,41 @@
+{
+  "page_id": "te_043",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0043pro_raw.pdf",
+    "page_index": 33,
+    "width": 637.2000122070312,
+    "height": 835.9199829101562
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        637.2000122070312,
+        835.9199829101562
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "yad-?\n*\nd-d, -, -, n-, -h, s-, -, fa-4,\nRy-q,\ni{f-cile,\nsis-s, -, -, -, U-G4, -S41\n124\nక\nT\n3i aid ifal\n&\nI Ie jek thke te\nx.\nHuhE/\n h  y\nKhielhh\n3itk foraflon \n2o1d pplklh\nPY",
+      "text_nfc": "yad-?\n*\nd-d, -, -, n-, -h, s-, -, fa-4,\nRy-q,\ni{f-cile,\nsis-s, -, -, -, U-G4, -S41\n124\nక\nT\n3i aid ifal\n&\nI Ie jek thke te\nx.\nHuhE/\n h  y\nKhielhh\n3itk foraflon \n2o1d pplklh\nPY",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

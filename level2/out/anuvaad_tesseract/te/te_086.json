@@ -1,0 +1,41 @@
+{
+  "page_id": "te_086",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ION |॥||||| दि 11\n\n1\nFS So. లభ్యర్థులు BAS So SEH సమాధాసపత్రం\n\nN 1\nRoll No. | Bok, 868 పుటలో రాయాలి .\n1 77 ee Gees es Rees es eres | 1 Us |\n। | | | | | | | 1 ‘Candidates must write the Q.P. Code |\ni---L_-J___-L_--J_--L--J---L--4 ‘on the title page of the answer-book. |\n\nఈ ప్రశ్న పత్రంలో అచ్చు SS 15 పుటలు aw yar SS చూడండి .\nవిద్యార్ధి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన Ge పత్రం SE Sows సమాధాన పత్రంలోని ముఖ పత్రంలో\n\nఉండాలి .\n17 ప్రశ్నలు ఉన్నది GI పరిశీలించండి .\nసమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని పరుస సంఖ్యను రాయండి.\n\nఈ ప్రశ్న Sr) చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది . ప్రశ్న పత్రం ఉదయం 10.16 ని కు\n\nయివ్వబడుతుంది . 10.15 నుండి 10.80 వరకు విద్యార్థులు ప్రశ్న పత్రాన్ని చదవాలి . ఈ కాలంలో సమాధాన\n\nపత్రంలో OB రాయకూడదు .\nPlease check that this question paper contains 15 printed pages.\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\nPlease check that this question paper contains 17 questions.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n\nHZ తెలుగు निशान\nZ Mae TELUGU Z बी\n\nసమయం : 8 గంటలు మొత్తం మార్కులు : 80\nTime allowed : 3 hours Maximum Marks : 80\n11 * Page 1of 16 * P.T.O.\n\n5169\n\n11\n\n",
+      "text_nfc": "ION |॥||||| दि 11\n\n1\nFS So. లభ్యర్థులు BAS So SEH సమాధాసపత్రం\n\nN 1\nRoll No. | Bok, 868 పుటలో రాయాలి .\n1 77 ee Gees es Rees es eres | 1 Us |\n। | | | | | | | 1 ‘Candidates must write the Q.P. Code |\ni---L_-J___-L_--J_--L--J---L--4 ‘on the title page of the answer-book. |\n\nఈ ప్రశ్న పత్రంలో అచ్చు SS 15 పుటలు aw yar SS చూడండి .\nవిద్యార్ధి ప్రశ్న పత్రంలో కుడివైపు ఇచ్చిన Ge పత్రం SE Sows సమాధాన పత్రంలోని ముఖ పత్రంలో\n\nఉండాలి .\n17 ప్రశ్నలు ఉన్నది GI పరిశీలించండి .\nసమాధానాలను రాయడానికి ముందు ప్రశ్న పత్రంలో యథాస్థానంలోని పరుస సంఖ్యను రాయండి.\n\nఈ ప్రశ్న Sr) చదవడానికి 15 నిమిషాలు కేటాయించడం జరిగింది . ప్రశ్న పత్రం ఉదయం 10.16 ని కు\n\nయివ్వబడుతుంది . 10.15 నుండి 10.80 వరకు విద్యార్థులు ప్రశ్న పత్రాన్ని చదవాలి . ఈ కాలంలో సమాధాన\n\nపత్రంలో OB రాయకూడదు .\nPlease check that this question paper contains 15 printed pages.\n\nQ.P. Code given on the right hand side of the question paper should be\nwritten on the title page of the answer-book by the candidate.\n\nPlease check that this question paper contains 17 questions.\n\nPlease write down the serial number of the question in the answer-\nbook at the given place before attempting it.\n\n15 minute time has been allotted to read this question paper. The question\npaper will be distributed at 10.15 a.m. From 10.15 a.m. to 10.30 a.m., the\ncandidates will read the question paper only and will not write any answer\non the answer-book during this period.\n\nHZ తెలుగు निशान\nZ Mae TELUGU Z बी\n\nసమయం : 8 గంటలు మొత్తం మార్కులు : 80\nTime allowed : 3 hours Maximum Marks : 80\n11 * Page 1of 16 * P.T.O.\n\n5169\n\n11\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

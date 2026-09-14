@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_051",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 0,
+    "width": 1529,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1529,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ngb 270163. 0\nPape I Full Test\nSection A\nI.\na.\n(3) 68,5~021\n213on6 menegos. wow z) m%n~13o, 08s\n%~N130,g(3n1w 3, 8, N130 017~ 2110) ~63 270\n(一92212 3,88,071300226.\n022106 ge1(13,73212130100\n223f6 07. 0880g56A0, 00700…025,\nGm, oy, 8u, 30  3.o26o 7zi2\n38Gn63,e 3.S21gorban8~n80007i7\nge(3,01 2172g1o 23 (33)-\n13 bdan. ge (orane '(~\n0 )270 200 23366 037.\nmab 0 ~2\n 2rrm w2m 286\n~26 m2(→ →→→\n(32~ → (137 07010)(13,e\n0m 2ino 2e8 - ye 3 8,\n213oae (w9021 C0000o2s3)2) moornrom-\nmminn oorsio grozbersrmdo oxrsing\n22000 07, 07s .",
+      "text_nfc": "ngb 270163. 0\nPape I Full Test\nSection A\nI.\na.\n(3) 68,5~021\n213on6 menegos. wow z) m%n~13o, 08s\n%~N130,g(3n1w 3, 8, N130 017~ 2110) ~63 270\n(一92212 3,88,071300226.\n022106 ge1(13,73212130100\n223f6 07. 0880g56A0, 00700…025,\nGm, oy, 8u, 30  3.o26o 7zi2\n38Gn63,e 3.S21gorban8~n80007i7\nge(3,01 2172g1o 23 (33)-\n13 bdan. ge (orane '(~\n0 )270 200 23366 037.\nmab 0 ~2\n 2rrm w2m 286\n~26 m2(→ →→→\n(32~ → (137 07010)(13,e\n0m 2ino 2e8 - ye 3 8,\n213oae (w9021 C0000o2s3)2) moornrom-\nmminn oorsio grozbersrmdo oxrsing\n22000 07, 07s .",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

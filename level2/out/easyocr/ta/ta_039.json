@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_039",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0005pro_raw.pdf",
+    "page_index": 9,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(iii)   $ID5rlou   @1ಯ C5/IbLJou   LJGTL/   ಠ 6opu l   /168ಹL ` L 5mಖ]Ii G6Jong] ಹ6L_LILLIಹಹL1LGಣpತ್| ೧ (i)   GI8lJpoಹ 5l 60076070] 6 @JLILD ಠurgಸ   LDofl5iiಹ 66TlILb BoTm, ಣLILT6 T CLToiTp [5TTUIಹGir 676 J@um[] LLIG TLl ( 0 ಶ5l5 @sಹ6mpriisoir ? 560೦೦  (@5rfodT m)@[L ILIL[5IಹoT ಖorflodT ಹ5(555|5ಹoTTo 8Ipu ILJGoL[5607 6760TLJ@ಶ 61@/ri15ಹ.\nSಔCTTTO] D (]o]-Detaj]) ]0 ]೩]]xs L@8) F (5IG6G6ಾTL ILIIL_Lb) ]0 LDSILiGILIGosoi ] ]. L16 T6J(೮o/ 6076umಐloir 67C9590ILb 9([5 56@LIL1@U 516GTL ILITL_ಪ 5LUol] 67(L5]5. ] X ]0 = ]0 (]) LU@U@O@ 90 @51167l (i1) @1687 60 60075 $/6ವTLq/ / 56016ILDL15608 (ijj) LS u I [LDL1560ಹ\nS#CrTTO] } (Ceative TTitins) ]7 Maks L(ತ8 ೨ _ (Lo L_ljurppou) ]7 IDSLiGlL J@ 5oi 12. () 805ಹ[@olLi ಹ[L` g160 uus ಹ6 01@ ಹo1oolp 67(Uತlಹ.\n] X 3 = 3\n[o]  TTisually [mpaized Candidates LTiiooo/smIour LTSIಹಹLILLL LTp೨lsS poTrToifl LೊToooro/riಹoir LDL`Oiub 61(L5 (9GJGಚTLq uI @1o7rT L16oo(ULi LLDGILTLDಹ6@ಶ @I5TL_filoು ೨16L0ಶ9l 61(Uslಹ . (1) ಖ೧[Io L` LT9lLb ಖlop5sl ಗ (ji) @(ULಗ (6uT ಹTLICBLTL .\n10\nPage 10of 12 * 11",
+      "text_nfc": "(iii)   $ID5rlou   @1ಯ C5/IbLJou   LJGTL/   ಠ 6opu l   /168ಹL ` L 5mಖ]Ii G6Jong] ಹ6L_LILLIಹಹL1LGಣpತ್| ೧ (i)   GI8lJpoಹ 5l 60076070] 6 @JLILD ಠurgಸ   LDofl5iiಹ 66TlILb BoTm, ಣLILT6 T CLToiTp [5TTUIಹGir 676 J@um[] LLIG TLl ( 0 ಶ5l5 @sಹ6mpriisoir ? 560೦೦  (@5rfodT m)@[L ILIL[5IಹoT ಖorflodT ಹ5(555|5ಹoTTo 8Ipu ILJGoL[5607 6760TLJ@ಶ 61@/ri15ಹ.\nSಔCTTTO] D (]o]-Detaj]) ]0 ]೩]]xs L@8) F (5IG6G6ಾTL ILIIL_Lb) ]0 LDSILiGILIGosoi ] ]. L16 T6J(೮o/ 6076umಐloir 67C9590ILb 9([5 56@LIL1@U 516GTL ILITL_ಪ 5LUol] 67(L5]5. ] X ]0 = ]0 (]) LU@U@O@ 90 @51167l (i1) @1687 60 60075 $/6ವTLq/ / 56016ILDL15608 (ijj) LS u I [LDL1560ಹ\nS#CrTTO] } (Ceative TTitins) ]7 Maks L(ತ8 ೨ _ (Lo L_ljurppou) ]7 IDSLiGlL J@ 5oi 12. () 805ಹ[@olLi ಹ[L` g160 uus ಹ6 01@ ಹo1oolp 67(Uತlಹ.\n] X 3 = 3\n[o]  TTisually [mpaized Candidates LTiiooo/smIour LTSIಹಹLILLL LTp೨lsS poTrToifl LೊToooro/riಹoir LDL`Oiub 61(L5 (9GJGಚTLq uI @1o7rT L16oo(ULi LLDGILTLDಹ6@ಶ @I5TL_filoು ೨16L0ಶ9l 61(Uslಹ . (1) ಖ೧[Io L` LT9lLb ಖlop5sl ಗ (ji) @(ULಗ (6uT ಹTLICBLTL .\n10\nPage 10of 12 * 11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

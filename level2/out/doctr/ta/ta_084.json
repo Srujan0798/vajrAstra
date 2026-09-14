@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_084",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0018pro_raw.pdf",
+    "page_index": 12,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "RGIVCIT € fey\n4rft à Haferd Tha AT chladrait chT tichelt CAITT 37 STH F ChEg chi 374-1 CH&TT # segr CASTTI\nsHch fey 3714 3747 TRo-T td fRTeTeh 372AT YercheTet AT sarte ch HorIdT sft a Hohd à\nFRRA #\n37747 diciiat 377 Tiget à Recht ERdt n47 Treich N UIHT E7 art 4rft t Hiojer # 46 dach da\n46T1 370 3714 diciiat t q-t t sRERt t fager N 37744 firet t Uoh da TICT t foh-lit TAT\nsidElr chT 373T TiGyI\nUIC de fopR RRCT sid6RH\n43703-3703 hTH chtd VHT, TISIT # h57 fahtIT à chaT 2TTI\nShST, gG, HRHT 377 ChRTE 2 IR STTSI ART Ydb Jedt 309 374-1 dd YR hH chirt sldl\na467 thl 2757 cft det 3Tit, vieoft # GIHT Mohtl\nUoh fat ER à dd Jd HHA dd chT Uoh johlet Yr2 à Bieht CTT TTEI 37 der TEHIT 3TRITI\n347 374-ft aidt à 3H 4ref cht 30157 cft CHIRTST chil VR Ct, 3Hch Ridt 7 Yre VR 45d a\nde # HT # CGT TTEI 377 fox aeeidt Jidt à FT CEd fohtil chi ECHIV ast doft #I Yre 3010\ncsch HrA-HrAt dd VR 3rt àl 3747 fuar 377 ET37T chl Ho ghes Uch HTTT 7 adT adt à TIRT\nHiseIT cht FTTer sft 372ch Jdt à Jedt-drat Ho ER sed bi 388 HICTH 45 Tchl à for 346 ETOT\nN shf HTETRUT Yr2 Toie, YRET à à de chl fotT ENT chl od C à df UIHT CHChT 37ch1 37Ta7\nN THoh R adt àl\nR 3TAT oh 46 THh VIGT a doh Tai fech Tidti chsT chl CHIdT à fop A-HOR TISIT doh #6\ncid 45 6T sleuft 377 da GRH feot TTICHITI at CRIT 76 VIGT 37C89T Tei ETT foh à gn Jilch\nTVIT 4hT Ho ghe adT àl\nfohtHT 3T77 dodl àl fyx 477 ghEs aedT à ds cE ohT Tai afech HHIT chl YRH a B3TTH ShT\nfohtHT G7 JldT àl\nTUIT T TRH ddT à T UiTTI Ho ghes chsT cht a1YH Ad EU chodt à \"GTT3T sere\n378-3175 ChH chtd VIAT, dieia aHd VIHTI\"\n46 chalft Hoef à Uidalftch à Tai HITHI VR ART i TEL HTT T Uoh dod 9\nT 46\nshdalt chT 37131 faardt E f CIIT 4 HT T Tet S àl 467 i HCT TTHCh 877 I TR dod ds dieia\n53\nReprint 2026-27",
+      "text_nfc": "RGIVCIT € fey\n4rft à Haferd Tha AT chladrait chT tichelt CAITT 37 STH F ChEg chi 374-1 CH&TT # segr CASTTI\nsHch fey 3714 3747 TRo-T td fRTeTeh 372AT YercheTet AT sarte ch HorIdT sft a Hohd à\nFRRA #\n37747 diciiat 377 Tiget à Recht ERdt n47 Treich N UIHT E7 art 4rft t Hiojer # 46 dach da\n46T1 370 3714 diciiat t q-t t sRERt t fager N 37744 firet t Uoh da TICT t foh-lit TAT\nsidElr chT 373T TiGyI\nUIC de fopR RRCT sid6RH\n43703-3703 hTH chtd VHT, TISIT # h57 fahtIT à chaT 2TTI\nShST, gG, HRHT 377 ChRTE 2 IR STTSI ART Ydb Jedt 309 374-1 dd YR hH chirt sldl\na467 thl 2757 cft det 3Tit, vieoft # GIHT Mohtl\nUoh fat ER à dd Jd HHA dd chT Uoh johlet Yr2 à Bieht CTT TTEI 37 der TEHIT 3TRITI\n347 374-ft aidt à 3H 4ref cht 30157 cft CHIRTST chil VR Ct, 3Hch Ridt 7 Yre VR 45d a\nde # HT # CGT TTEI 377 fox aeeidt Jidt à FT CEd fohtil chi ECHIV ast doft #I Yre 3010\ncsch HrA-HrAt dd VR 3rt àl 3747 fuar 377 ET37T chl Ho ghes Uch HTTT 7 adT adt à TIRT\nHiseIT cht FTTer sft 372ch Jdt à Jedt-drat Ho ER sed bi 388 HICTH 45 Tchl à for 346 ETOT\nN shf HTETRUT Yr2 Toie, YRET à à de chl fotT ENT chl od C à df UIHT CHChT 37ch1 37Ta7\nN THoh R adt àl\nR 3TAT oh 46 THh VIGT a doh Tai fech Tidti chsT chl CHIdT à fop A-HOR TISIT doh #6\ncid 45 6T sleuft 377 da GRH feot TTICHITI at CRIT 76 VIGT 37C89T Tei ETT foh à gn Jilch\nTVIT 4hT Ho ghe adT àl\nfohtHT 3T77 dodl àl fyx 477 ghEs aedT à ds cE ohT Tai afech HHIT chl YRH a B3TTH ShT\nfohtHT G7 JldT àl\nTUIT T TRH ddT à T UiTTI Ho ghes chsT cht a1YH Ad EU chodt à \"GTT3T sere\n378-3175 ChH chtd VIAT, dieia aHd VIHTI\"\n46 chalft Hoef à Uidalftch à Tai HITHI VR ART i TEL HTT T Uoh dod 9\nT 46\nshdalt chT 37131 faardt E f CIIT 4 HT T Tet S àl 467 i HCT TTHCh 877 I TR dod ds dieia\n53\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

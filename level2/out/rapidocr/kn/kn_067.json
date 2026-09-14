@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_067",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0028pro_raw.pdf",
+    "page_index": 32,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Of course \nthere are some differences in our bodies because of which some\nbiological\nfunctions\nlike\ngiving birth,\nproducing milk etc can\n happen\nonly\nin female\nbodies. We understand that other than that, there\nare no\nlimits\nthat nature\nhas set.\nSociety makes\nthese rules and\nwe, as members\nof the\nsociety can\nchange t\n them!\nMake \ngroups\nof 4 - Discuss which jobs you have been told not to do\nbecause of your gender. How does that make you feel?\nHousehold\nHome builder\nDoctor\nCarpenter\nmanagement\nEP!\nTime\nwith \nTeacher - List what\neach\nperson in the\nclass wants to do\nlearn \n now - and \nwhat job or work t\n they would like \nto do once they\nare an\nadult.\nDiscuss .\n how you can speak with the people\n who are forcing gender\nroles on you in a respectful and assertive manner.\nThink and Do: What would you say to someone who tells you \nthat you can't do something because you're a girl or boy?\nWhat are some respectful and assertive ways to respond?\nAnyone can do\nany\njob.\nGender\ndoes\nnot\ndetermine\nor\nlimit\nwhat we\ncan\ndo\nor achieve.\n25",
+      "text_nfc": "Of course \nthere are some differences in our bodies because of which some\nbiological\nfunctions\nlike\ngiving birth,\nproducing milk etc can\n happen\nonly\nin female\nbodies. We understand that other than that, there\nare no\nlimits\nthat nature\nhas set.\nSociety makes\nthese rules and\nwe, as members\nof the\nsociety can\nchange t\n them!\nMake \ngroups\nof 4 - Discuss which jobs you have been told not to do\nbecause of your gender. How does that make you feel?\nHousehold\nHome builder\nDoctor\nCarpenter\nmanagement\nEP!\nTime\nwith \nTeacher - List what\neach\nperson in the\nclass wants to do\nlearn \n now - and \nwhat job or work t\n they would like \nto do once they\nare an\nadult.\nDiscuss .\n how you can speak with the people\n who are forcing gender\nroles on you in a respectful and assertive manner.\nThink and Do: What would you say to someone who tells you \nthat you can't do something because you're a girl or boy?\nWhat are some respectful and assertive ways to respond?\nAnyone can do\nany\njob.\nGender\ndoes\nnot\ndetermine\nor\nlimit\nwhat we\ncan\ndo\nor achieve.\n25",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

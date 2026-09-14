@@ -1,0 +1,41 @@
+{
+  "page_id": "te_004",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0004pro_raw.pdf",
+    "page_index": 12,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n9. (oô J3005 B085 Wo 056 B08oess 335 2J20n Noow, oobod. 2x1=2\n(i) \"OSOS (35T0589\n(A) 05 05 asoyer\n(B) 500083003335065\n(C) 05 aaai 388 SsaSpés (D) f35 aaais 05a Sowves\n(ii) uposegdos sgess\"\n(A) 53o a08 530 OS6O\n(B) 53 wgrew OStO\n(C) Agpo S08s a2O OS6O\n(D) bô S8\n(iii) ugODE eo asito\"\n(A) sages sto 3595560\n(B) sores so 3595560\n(C) Borsa (Odowlo\n(D) abassto\n10. (308 30056 30&0638 3as a sorsas Soos JSSS oobo&.\n2x1=2\n(i) dswepo\"\n(A) ese, 8003\n(B) 50, essysus\n(C) SONSw, BssOw\n(D) soaw, wra\n(ii) uOsoo\"\n(A) aSp, en\n(B) me, Jows\n(C) 58, 20s0\n(D) woés, AOOO\n(iii) insw\"\n(A) s0s, Saw\n(B) é0, 80703\n(C) swgaw, S8NS\n(D) Josw, eton\n11*\n13 * Page\nEE\nP.T.O.",
+      "text_nfc": "\n9. (oô J3005 B085 Wo 056 B08oess 335 2J20n Noow, oobod. 2x1=2\n(i) \"OSOS (35T0589\n(A) 05 05 asoyer\n(B) 500083003335065\n(C) 05 aaai 388 SsaSpés (D) f35 aaais 05a Sowves\n(ii) uposegdos sgess\"\n(A) 53o a08 530 OS6O\n(B) 53 wgrew OStO\n(C) Agpo S08s a2O OS6O\n(D) bô S8\n(iii) ugODE eo asito\"\n(A) sages sto 3595560\n(B) sores so 3595560\n(C) Borsa (Odowlo\n(D) abassto\n10. (308 30056 30&0638 3as a sorsas Soos JSSS oobo&.\n2x1=2\n(i) dswepo\"\n(A) ese, 8003\n(B) 50, essysus\n(C) SONSw, BssOw\n(D) soaw, wra\n(ii) uOsoo\"\n(A) aSp, en\n(B) me, Jows\n(C) 58, 20s0\n(D) woés, AOOO\n(iii) insw\"\n(A) s0s, Saw\n(B) é0, 80703\n(C) swgaw, S8NS\n(D) Josw, eton\n11*\n13 * Page\nEE\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_079",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0040pro_raw.pdf",
+    "page_index": 949,
+    "width": 1353,
+    "height": 1901
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1353,
+        1901
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "9Z\"\naoredd\naedt sgose n0-043-a ; eqsF. L-92-a\ndoesoupas E 236338 9-38-0\ndorao despe e33F8 a-32-2; 1033.\n0022 i a L.2\ndorsog 0JJ0F00303J0 0-04.9-38 i ao. as.\n38.35 : g. No. V-L-e5-9\ndorso padee sodoedadge 0-Le-2\ndiatsoobgaadat 0-NaF-00\n8ef3odo ag3edxc 0-88-2\naorzodo Aaeane a3s 2 a o 0-385-2\ndopsodo 283000 00-0-35 ;\na-e\n239. 9-9-\ndorsodo 323 gedessae 3-90-9\ndorsgado adoco 23e300ads n0-350-9\naydo d & 300Jds gaJoF odbg 0-39-2\n8 wo a3 dogas Horsogono a-ad-\naaJDISA deod adsodo L-90-3 i 5 29\n9-9-a-00\na odsoDs desso U e oJso 338 2-28-es\ngadosgno 39350 15 ode 0-238-0\ndyaed Setosssodes,oe set, Sare avo xe L3, 3. 1948",
+      "text_nfc": "9Z\"\naoredd\naedt sgose n0-043-a ; eqsF. L-92-a\ndoesoupas E 236338 9-38-0\ndorao despe e33F8 a-32-2; 1033.\n0022 i a L.2\ndorsog 0JJ0F00303J0 0-04.9-38 i ao. as.\n38.35 : g. No. V-L-e5-9\ndorso padee sodoedadge 0-Le-2\ndiatsoobgaadat 0-NaF-00\n8ef3odo ag3edxc 0-88-2\naorzodo Aaeane a3s 2 a o 0-385-2\ndopsodo 283000 00-0-35 ;\na-e\n239. 9-9-\ndorsodo 323 gedessae 3-90-9\ndorsgado adoco 23e300ads n0-350-9\naydo d & 300Jds gaJoF odbg 0-39-2\n8 wo a3 dogas Horsogono a-ad-\naaJDISA deod adsodo L-90-3 i 5 29\n9-9-a-00\na odsoDs desso U e oJso 338 2-28-es\ngadosgno 39350 15 ode 0-238-0\ndyaed Setosssodes,oe set, Sare avo xe L3, 3. 1948",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

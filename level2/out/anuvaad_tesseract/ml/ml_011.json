@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_011",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0012pro_raw.png",
+    "page_index": 0,
+    "width": 385,
+    "height": 564
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        385,
+        564
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "eccmee, mowymogysijpam wintanpied anil Ms Goan\nAigfeleojawje aprmoe emiioneet xgommlane aycanaia wna\nconeqpjemjecis — oanke — aarnanion —mutaaoairi am\npevenfaqesams किन — mIBoniADInayRRON\nruayantecaagmaceao nga cm Camjaforh anasto\n\nepeowenyanaasr\ncreme my ayetanenoaheyt ... ०031... muerunnemeson\n\neovaxsieym ങ് nose ayskuows mesirulsfraenpe The\nwe Tenosy Aion ls, 1977 anes\n\nai Ty Aton 1975p The है\nerowassoigeed. we ७2 munca\naome aston conte as] omen eysagiot meafackonen बाकि\nfemuacianye memeneejecs wesiaons masTichyfwoyerme cir] 9\n(0 ७28००० ata aistoortas means eavaxe maraeb nyeanae\nsonucouates POgRMaD} caniatgnE mM Yow wo\nemail omyeiet\n\n(20 ioomtoas saad oitgycecc exp agommoaise\nstyosion” eoayed emnutaenah mwrmielastacee orupeteany\neoutovoash mia] mtevod मक्का: ci 9 neces\nनयी 2०००,. acemejstoeesd, aor coanite mse afcseemt\noye 00) e008, omugitoorf conse egrooseorney>\ntumouachacenaieceh apuses wimsians Sore\nCaistaceio oemensoa «meh (mara\nwrwetoes तुम asyaah cy em भावी 3 sonieninee\nलिन अर 96) amas\ncontaneacet, cy] 2 (1) evgiteady sancinot, al () ७०७5०\nconsrteeqpet netaaea ayfusie emnnest oom, saiyredtat\n००००० meeumutyy afaionmdt കഞ് 2s,\n\nnomoct pemecivinjasaites  സ wabeyn\naso acon aysiocsie oMevancost: chooseasi *ageaines\nuchonenyy. agmoah ayushilaseen chaos, wet alo) masse\ndacons ajtoomatecie tage cvdghclangis enaianneiet\nayosinoet gewoewet ony eetgrjedies cj a2ge mpoeeeaesl\n",
+      "text_nfc": "eccmee, mowymogysijpam wintanpied anil Ms Goan\nAigfeleojawje aprmoe emiioneet xgommlane aycanaia wna\nconeqpjemjecis — oanke — aarnanion —mutaaoairi am\npevenfaqesams किन — mIBoniADInayRRON\nruayantecaagmaceao nga cm Camjaforh anasto\n\nepeowenyanaasr\ncreme my ayetanenoaheyt ... ०031... muerunnemeson\n\neovaxsieym ങ് nose ayskuows mesirulsfraenpe The\nwe Tenosy Aion ls, 1977 anes\n\nai Ty Aton 1975p The है\nerowassoigeed. we ७2 munca\naome aston conte as] omen eysagiot meafackonen बाकि\nfemuacianye memeneejecs wesiaons masTichyfwoyerme cir] 9\n(0 ७28००० ata aistoortas means eavaxe maraeb nyeanae\nsonucouates POgRMaD} caniatgnE mM Yow wo\nemail omyeiet\n\n(20 ioomtoas saad oitgycecc exp agommoaise\nstyosion” eoayed emnutaenah mwrmielastacee orupeteany\neoutovoash mia] mtevod मक्का: ci 9 neces\nनयी 2०००,. acemejstoeesd, aor coanite mse afcseemt\noye 00) e008, omugitoorf conse egrooseorney>\ntumouachacenaieceh apuses wimsians Sore\nCaistaceio oemensoa «meh (mara\nwrwetoes तुम asyaah cy em भावी 3 sonieninee\nलिन अर 96) amas\ncontaneacet, cy] 2 (1) evgiteady sancinot, al () ७०७5०\nconsrteeqpet netaaea ayfusie emnnest oom, saiyredtat\n००००० meeumutyy afaionmdt കഞ് 2s,\n\nnomoct pemecivinjasaites  സ wabeyn\naso acon aysiocsie oMevancost: chooseasi *ageaines\nuchonenyy. agmoah ayushilaseen chaos, wet alo) masse\ndacons ajtoomatecie tage cvdghclangis enaianneiet\nayosinoet gewoewet ony eetgrjedies cj a2ge mpoeeeaesl\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

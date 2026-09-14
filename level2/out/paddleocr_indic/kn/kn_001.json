@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_001",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "No.?\nKAINHA\nTest Booklet Code\nThis Boollet contains 2 I+ I pages.\nಪಶೈಪುಸಕದಕೋಡ್\nಈಪುಸಕದಲಿ೭ಪುಟಗಳವ\nG\nDo not open this Test Booklet until you are asked to do so.\n\nಈಪಶೈಿಪುಸಕವನುತಮಗಿತೆರೆಯಲುಸೂಚನಿನೀಡುವವರೆಗಿತೆರೆಯಬಾರದು.\nRead carefully the Instructions on the Back Cover of this Test Booklet.\nಈಪಶಿಪುಸಕದ ಹಂಬದಯಳಿರುವಸೂಚನೆಗಳನುೃಬಾಗರೂಕತೆಯಂದಓದರು\nIm portant Instructions ?\nವಶೇಪಗಸೂನಗಳು\nI.. The AnswerSheet is inside this Test Booklet. When.\nಪಶಪುಸಕದ ಒಳಗಡಿಉತರಿಹಾಳೆಯನುಇಡಲಾಗದೆ.ತಮಗಿಈ\nyou are directed to open the Test Booklet- take out\nಪಶೈಪುಸಕವನುತಿರೆಯಲು ಹೀಳದಿನಂತರಿಉತರಿಹಾಳಿಯನು\nThe Answer Sheet and fill in the particular's on\nತೆಗೆದು-ಬದ--ಮತು.ಬದ--೭ನು--ಕೇವಲನೀಲ್ಗಕಪುಬಾಲ್\nSide--I and side 2 carefully with bluelblack ball point\nಪಾಯುಂಟ್ಪೆನೃನಂದಎವರಗಳನು ಚಾಗರೂಕತೆಯಂದಿಭಶವೆ\nPen only.\nಮಾಡಬೇಕು\n2. The testis of 5 hours durationrand Test Booblet.\nಒಪರೀಕೆಯ\nಅವಭ೯ಗಂಟೆಗಳುಮತು.ಪಶೈಪುಸಕದಳಿಃಂ\nContains I so guestions Each guestion carries...\nmark s. For each correct response, the candidate wil!\nಪಶೈಗಳವೆ.--ತೆ\nಪತೆಯೊಂದುಿಪಶೈಗಿ-ಅಂಕಗಳವೆ.--ಪತಿಯೊಂದು\nget d m arks For eachincorrectresponse, one mar k.\nಸರಉತರಕಿಅಭೃಥಗಳಗಿ-ಅಂಕಗಳನುೃನೀಡಲಾಗುತದಿಮತು\nWill be de ducte d from the total scores. The maximum.\nಪತಿಯೊಂದು ತಪು ಉತರಕಿಒಟು ಅಂಕಗಳಂದಿಒಂದುಅಂಕವನು\nmarks are72o.\n3.. Use BluelBlack Ball Point Pen only for writing\nಕಳೆಯಲಾಗುತದೆ.ಗಂಷ ಅಂಕಗಳು ಗ2ಂ\nParticulars on this pagelmarking responses.\n.ಈಪುಟದಳನಏವರಗಳನುತುಂಬಲುಿಮತುಉತರಿಹಾಳೆಯ\nA.. Rough work is to be done on the space provided for\nಮೀಲಿಗುರುತುಗಳನುಮಾಡಲುಕೇವಲಿನೀಲಿಗಕಪು ಬಾಲ್\nThis purpose in the Test Bookletonly.\nಪಾಯಂಟ್-ಪೆನೃನುೃ-ಉಪಯೋಗಸಬೇಕು\n5. On completion of the test, the candidate must.\nI..\nಪಶಿಪುಸಕದಳಿಒದಗದ ಸಳದಲೇರಫ್-ವಕ್ಷಮಾಡಬೇಕು.\nhand over thevAnswer Sheet to the invigilator\nಗ.\nಪರೀಕಿಮುಗದನಂತರ ಅಭಥಯುಪರಕಾಕೋಣಿಗಸಭಾಂಗಣವನು\nbefore leaving the Roomllall. The candidates\nಬಡುವಿಮುನೃಉತರಿಹಾಳೆಯನು ಪರೀಕಾ-ಮೇಲಚಾರಕರಗಿ\nare allowed to take away this Test Booklet with\nಒಪಸಬೇಕು.ಅಭೃಭಯುಪಶೈಪುಸಕವನುೃತಮಚೊತೆಗಿತೆಗೆದುಕೊಂಡು\nThem.\nB. The coDE for this Booklet is Gl. Make sure that.\nಹೋಗಲುಿಅನುಮತಸಲಾಗದ\n.ಈಪುಸಕದಿಕೋಡ್.ಈಪುಸಕದಿಕೋಡ್ಮತು.ಉತರ\nhe coDE printed on Side2 ofthe Answer Sheet is\nhe same as that on'this Test Booklet.  In caseof\nಹಾಳೆಯ ಬವ-ಒರಲಿಮುದಸದಿಕೋಡ್ಒಂದೇಿಆಗದಿಎಂದು\ndiscrepancy, the eandidate should immediately report\nದೃಢಕಂಸಕೊಳಿಒಂದುವೀಳಿಬೇರೆಯಾಗದಲಿಕೂಡಲೀಅಭಥ್ಯು\nThe matter to the Invigilator forre placement ofboth\nಪಯಾಷಯ-ಪಶೈಪುಸಕ ಮತುಿಉತರಿಹಾಳಿಯನುಾಕೊಡಲು\nThe Test Booklet and the Ans werSheet.\nಮೀಲಚಾರಕಂಗಿತಳಸಬೇಕು.\nT. The candidates should ensure that the Answer Sheet\nI. .\nಅಭಥಯುಉತರಹಾಳೆಯುಿವುಡಚರಬಾರದೆಂದು ದೃಢಕರಸಿಕೊಳ\nis not folded. Do not make any stray marks on the.\nಉತರಿಹಾಳಿಯಮಲಿಯಾವದೇತರಹದ್ಚೆಹೈಗಳನುಗುರುತು\nAnswer Shee t. Do not write your Roll No. anywhere\nಮಾಡಬೇಡ.ಅಭಥಯುಪಶಷುಸಕೆಉತರಿಹಾಳೆಯಳಿನಮೂದಸಿದ\nElse except in the specified space in the Test Boolk let.\nಸಾನದಹೊರತುಬೇರಿಕಡಿರೂಲ್ನಂಬರನು-ಬರೆಯಬಾರದು\nAnswer Sheet.\n೯ಉತರ ಹಾಳೆಯಿಮೀಲಿಯಾವದೇತರಹದ ತದುಪಡಗಿವಾಯಟಾ\nS. Use of white fluid for correction is NoTpermissible\nಫೂಡ್ಬಳಸಲುಅನುಮತಿಇರುವದಲ\nOn the. Anewersheet.\nIn case of any ambiguity in translation of any question, English version shall be treated as final.\nಪಶೈಗಳಅನುವಾದದಳಿಏನಾದರೂಅಸಷತೆಯದಳ.-ಅಂತಮವಾಗ ಇಂಗಷ್ಆವೃತಯುಮಾನೃವಾಗರುತದ.\nName of the Candidate in Gapitals?\nಅಭಥ-ಯಹೆಸರುದಪಅಕರಗಳಖ-\nRoll Number\nFin figures\nರೂಲ್ನಂಬರ್\nಅಂರಿಗಳಲ\ninwords\nಅಕರಗಳಲ\nCentre of Examination in Capitals?\nಪರೀಕಾಕೀಂದದಪಿಅಕರಗಳಲ\nCandidate s Signature .\nInuigilator's Signature.\nಅಭಥ೯ಯಸಹಃ\nಮಲಚಾರಕರ-ಸಬಿ-\nFacsimile signature stampof\nCentre Superintendent.",
+      "text_nfc": "No.?\nKAINHA\nTest Booklet Code\nThis Boollet contains 2 I+ I pages.\nಪಶೈಪುಸಕದಕೋಡ್\nಈಪುಸಕದಲಿ೭ಪುಟಗಳವ\nG\nDo not open this Test Booklet until you are asked to do so.\n\nಈಪಶೈಿಪುಸಕವನುತಮಗಿತೆರೆಯಲುಸೂಚನಿನೀಡುವವರೆಗಿತೆರೆಯಬಾರದು.\nRead carefully the Instructions on the Back Cover of this Test Booklet.\nಈಪಶಿಪುಸಕದ ಹಂಬದಯಳಿರುವಸೂಚನೆಗಳನುೃಬಾಗರೂಕತೆಯಂದಓದರು\nIm portant Instructions ?\nವಶೇಪಗಸೂನಗಳು\nI.. The AnswerSheet is inside this Test Booklet. When.\nಪಶಪುಸಕದ ಒಳಗಡಿಉತರಿಹಾಳೆಯನುಇಡಲಾಗದೆ.ತಮಗಿಈ\nyou are directed to open the Test Booklet- take out\nಪಶೈಪುಸಕವನುತಿರೆಯಲು ಹೀಳದಿನಂತರಿಉತರಿಹಾಳಿಯನು\nThe Answer Sheet and fill in the particular's on\nತೆಗೆದು-ಬದ--ಮತು.ಬದ--೭ನು--ಕೇವಲನೀಲ್ಗಕಪುಬಾಲ್\nSide--I and side 2 carefully with bluelblack ball point\nಪಾಯುಂಟ್ಪೆನೃನಂದಎವರಗಳನು ಚಾಗರೂಕತೆಯಂದಿಭಶವೆ\nPen only.\nಮಾಡಬೇಕು\n2. The testis of 5 hours durationrand Test Booblet.\nಒಪರೀಕೆಯ\nಅವಭ೯ಗಂಟೆಗಳುಮತು.ಪಶೈಪುಸಕದಳಿಃಂ\nContains I so guestions Each guestion carries...\nmark s. For each correct response, the candidate wil!\nಪಶೈಗಳವೆ.--ತೆ\nಪತೆಯೊಂದುಿಪಶೈಗಿ-ಅಂಕಗಳವೆ.--ಪತಿಯೊಂದು\nget d m arks For eachincorrectresponse, one mar k.\nಸರಉತರಕಿಅಭೃಥಗಳಗಿ-ಅಂಕಗಳನುೃನೀಡಲಾಗುತದಿಮತು\nWill be de ducte d from the total scores. The maximum.\nಪತಿಯೊಂದು ತಪು ಉತರಕಿಒಟು ಅಂಕಗಳಂದಿಒಂದುಅಂಕವನು\nmarks are72o.\n3.. Use BluelBlack Ball Point Pen only for writing\nಕಳೆಯಲಾಗುತದೆ.ಗಂಷ ಅಂಕಗಳು ಗ2ಂ\nParticulars on this pagelmarking responses.\n.ಈಪುಟದಳನಏವರಗಳನುತುಂಬಲುಿಮತುಉತರಿಹಾಳೆಯ\nA.. Rough work is to be done on the space provided for\nಮೀಲಿಗುರುತುಗಳನುಮಾಡಲುಕೇವಲಿನೀಲಿಗಕಪು ಬಾಲ್\nThis purpose in the Test Bookletonly.\nಪಾಯಂಟ್-ಪೆನೃನುೃ-ಉಪಯೋಗಸಬೇಕು\n5. On completion of the test, the candidate must.\nI..\nಪಶಿಪುಸಕದಳಿಒದಗದ ಸಳದಲೇರಫ್-ವಕ್ಷಮಾಡಬೇಕು.\nhand over thevAnswer Sheet to the invigilator\nಗ.\nಪರೀಕಿಮುಗದನಂತರ ಅಭಥಯುಪರಕಾಕೋಣಿಗಸಭಾಂಗಣವನು\nbefore leaving the Roomllall. The candidates\nಬಡುವಿಮುನೃಉತರಿಹಾಳೆಯನು ಪರೀಕಾ-ಮೇಲಚಾರಕರಗಿ\nare allowed to take away this Test Booklet with\nಒಪಸಬೇಕು.ಅಭೃಭಯುಪಶೈಪುಸಕವನುೃತಮಚೊತೆಗಿತೆಗೆದುಕೊಂಡು\nThem.\nB. The coDE for this Booklet is Gl. Make sure that.\nಹೋಗಲುಿಅನುಮತಸಲಾಗದ\n.ಈಪುಸಕದಿಕೋಡ್.ಈಪುಸಕದಿಕೋಡ್ಮತು.ಉತರ\nhe coDE printed on Side2 ofthe Answer Sheet is\nhe same as that on'this Test Booklet.  In caseof\nಹಾಳೆಯ ಬವ-ಒರಲಿಮುದಸದಿಕೋಡ್ಒಂದೇಿಆಗದಿಎಂದು\ndiscrepancy, the eandidate should immediately report\nದೃಢಕಂಸಕೊಳಿಒಂದುವೀಳಿಬೇರೆಯಾಗದಲಿಕೂಡಲೀಅಭಥ್ಯು\nThe matter to the Invigilator forre placement ofboth\nಪಯಾಷಯ-ಪಶೈಪುಸಕ ಮತುಿಉತರಿಹಾಳಿಯನುಾಕೊಡಲು\nThe Test Booklet and the Ans werSheet.\nಮೀಲಚಾರಕಂಗಿತಳಸಬೇಕು.\nT. The candidates should ensure that the Answer Sheet\nI. .\nಅಭಥಯುಉತರಹಾಳೆಯುಿವುಡಚರಬಾರದೆಂದು ದೃಢಕರಸಿಕೊಳ\nis not folded. Do not make any stray marks on the.\nಉತರಿಹಾಳಿಯಮಲಿಯಾವದೇತರಹದ್ಚೆಹೈಗಳನುಗುರುತು\nAnswer Shee t. Do not write your Roll No. anywhere\nಮಾಡಬೇಡ.ಅಭಥಯುಪಶಷುಸಕೆಉತರಿಹಾಳೆಯಳಿನಮೂದಸಿದ\nElse except in the specified space in the Test Boolk let.\nಸಾನದಹೊರತುಬೇರಿಕಡಿರೂಲ್ನಂಬರನು-ಬರೆಯಬಾರದು\nAnswer Sheet.\n೯ಉತರ ಹಾಳೆಯಿಮೀಲಿಯಾವದೇತರಹದ ತದುಪಡಗಿವಾಯಟಾ\nS. Use of white fluid for correction is NoTpermissible\nಫೂಡ್ಬಳಸಲುಅನುಮತಿಇರುವದಲ\nOn the. Anewersheet.\nIn case of any ambiguity in translation of any question, English version shall be treated as final.\nಪಶೈಗಳಅನುವಾದದಳಿಏನಾದರೂಅಸಷತೆಯದಳ.-ಅಂತಮವಾಗ ಇಂಗಷ್ಆವೃತಯುಮಾನೃವಾಗರುತದ.\nName of the Candidate in Gapitals?\nಅಭಥ-ಯಹೆಸರುದಪಅಕರಗಳಖ-\nRoll Number\nFin figures\nರೂಲ್ನಂಬರ್\nಅಂರಿಗಳಲ\ninwords\nಅಕರಗಳಲ\nCentre of Examination in Capitals?\nಪರೀಕಾಕೀಂದದಪಿಅಕರಗಳಲ\nCandidate s Signature .\nInuigilator's Signature.\nಅಭಥ೯ಯಸಹಃ\nಮಲಚಾರಕರ-ಸಬಿ-\nFacsimile signature stampof\nCentre Superintendent.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

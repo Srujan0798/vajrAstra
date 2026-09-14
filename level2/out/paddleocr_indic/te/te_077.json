@@ -1,0 +1,41 @@
+{
+  "page_id": "te_077",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0077pro_raw.pdf",
+    "page_index": 37,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "superb diamond necklace, and her heart began to beat\nwith uncontrolled desire. Her hands trembled as she\ntook it. She fastened it around her neck and stood\nlost in ecstasy as she looked at herself.\nWhich sentences\nX\nThen she asked anxiously, hesitating, \"Would you\ntell us that\nlend me this, just this?\"\nMathilde greatly\ndesired the\n\"Why, yes, of course.\"\nnecklace?\nShe threw her arms around her friend's neck,\nrapturously, then fled with her treasure.\nThe day of the party arrived. Madame Loisel was\na success. She was prettier than all the other women,\nelegant, gracious, smiling, and full of joy.\nShe danced wildly, with passion, forgetting\neverything in the triumph of her beauty and success,\nfloating in a cloud of happiness.\nMathilde and her husband left at about four\nrapturously : with\no'clock in the morning. When they were finally in the\ngreat joy\nstreet, they could not find a cab. They walked down\nfled with her\ntoward the Seine, till they found one. They were\ntreasure : Here,\ndropped off at their door in the Rue des Martyrs, and\nfled means went\nsadly, it was all over, for her.\naway quickly.\nIn front of the mirror, she took a final look at\npanic\nstricken :\nherself in all her glory. But suddenly she uttered a\nwith\na sudden\ncry. She no longer had the necklace round her neck!\nfeeling\nof fear\n\"What is the matter?\" asked her husband.\ndistraught :\nShe turned towards him, panic-stricken, \"I have..\nworried,\ndisturbed\nI have. I no longer have Madame Forestier's\nnecklace.\"\nHe stood up, distraught, \"What !.. How ! ...That's\nimpossible !\"\nThink and answer:\nWhy\ndid\nMathilde\nnot\nnotice\nthe\nloss\nof\nher\nnecklace?\n26",
+      "text_nfc": "superb diamond necklace, and her heart began to beat\nwith uncontrolled desire. Her hands trembled as she\ntook it. She fastened it around her neck and stood\nlost in ecstasy as she looked at herself.\nWhich sentences\nX\nThen she asked anxiously, hesitating, \"Would you\ntell us that\nlend me this, just this?\"\nMathilde greatly\ndesired the\n\"Why, yes, of course.\"\nnecklace?\nShe threw her arms around her friend's neck,\nrapturously, then fled with her treasure.\nThe day of the party arrived. Madame Loisel was\na success. She was prettier than all the other women,\nelegant, gracious, smiling, and full of joy.\nShe danced wildly, with passion, forgetting\neverything in the triumph of her beauty and success,\nfloating in a cloud of happiness.\nMathilde and her husband left at about four\nrapturously : with\no'clock in the morning. When they were finally in the\ngreat joy\nstreet, they could not find a cab. They walked down\nfled with her\ntoward the Seine, till they found one. They were\ntreasure : Here,\ndropped off at their door in the Rue des Martyrs, and\nfled means went\nsadly, it was all over, for her.\naway quickly.\nIn front of the mirror, she took a final look at\npanic\nstricken :\nherself in all her glory. But suddenly she uttered a\nwith\na sudden\ncry. She no longer had the necklace round her neck!\nfeeling\nof fear\n\"What is the matter?\" asked her husband.\ndistraught :\nShe turned towards him, panic-stricken, \"I have..\nworried,\ndisturbed\nI have. I no longer have Madame Forestier's\nnecklace.\"\nHe stood up, distraught, \"What !.. How ! ...That's\nimpossible !\"\nThink and answer:\nWhy\ndid\nMathilde\nnot\nnotice\nthe\nloss\nof\nher\nnecklace?\n26",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

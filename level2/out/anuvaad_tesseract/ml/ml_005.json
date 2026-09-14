@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_005",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0006pro_raw.png",
+    "page_index": 0,
+    "width": 384,
+    "height": 530
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        384,
+        530
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "कि नि\n**\not nso\nधर\nगम\not\n-. अन्ना ofan, न दा sammie\n\nन्पमड ees noctantae\n‘omens\n\nyer (9 ented com “सपा कपल\nള്ളം\n്്്് --\nള്ള്ള്ളെ menor oo pions\nदि ote ane\nqusioagieund une auerien, ame, encmmoge sevens!\nnym का पर कर snag cetera meinen MeN,\nRoose soso mitogen aaaeoreatoad mci joe somaeese\ncroeome  agsynoce safseenjanceenat Suter) most\nSerotyitanymecote तार (\\) agen excise cat\nलिन न कक NEMET\naye! encleent afianom mnanjaerams Nn (2) के सुानडन\ncuedmenen exmjedeye etodyfseni, fetal ene 2\nSeven बट gsomuousoie oun Huceecsy tite, wee\nronwonusone apenas: «00 edieimeams iyo दफा oS\nपिन moe eacgaetage Satenacnet egy 2 sangria\neamjacceq} ereannenirt mum, परफेक्ट seaniaesterh svete\nere, dectand savers sonmynemneym, emit, पथ\nyer दीन eaysoe सा 2० sacpmet wstundyianj” oes\n",
+      "text_nfc": "कि नि\n**\not nso\nधर\nगम\not\n-. अन्ना ofan, न दा sammie\n\nन्पमड ees noctantae\n‘omens\n\nyer (9 ented com “सपा कपल\nള്ളം\n്്്് --\nള്ള്ള്ളെ menor oo pions\nदि ote ane\nqusioagieund une auerien, ame, encmmoge sevens!\nnym का पर कर snag cetera meinen MeN,\nRoose soso mitogen aaaeoreatoad mci joe somaeese\ncroeome  agsynoce safseenjanceenat Suter) most\nSerotyitanymecote तार (\\) agen excise cat\nलिन न कक NEMET\naye! encleent afianom mnanjaerams Nn (2) के सुानडन\ncuedmenen exmjedeye etodyfseni, fetal ene 2\nSeven बट gsomuousoie oun Huceecsy tite, wee\nronwonusone apenas: «00 edieimeams iyo दफा oS\nपिन moe eacgaetage Satenacnet egy 2 sangria\neamjacceq} ereannenirt mum, परफेक्ट seaniaesterh svete\nere, dectand savers sonmynemneym, emit, पथ\nyer दीन eaysoe सा 2० sacpmet wstundyianj” oes\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

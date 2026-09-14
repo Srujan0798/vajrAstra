@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_043",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 103,
+    "width": 1031,
+    "height": 1651
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1031,
+        1651
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8S\namaol\n(BYR eo 0.915r0r0, B08003000 aus 2006031a0-10001. GQJ0\ndsem00o,\ncG (810822, 600n0 aoaa0lomploasoms Ga10loioog. (BYO\n6069 opajoad 0020060 6M 600900 B1O0 Jlolgo.\" agma\nQ106ro.\n010001001 - GOIDO QJOGm. 000 (OCO60 002mlg 60s.\nDororons\nGOA\nle\n00:000\neneyooo 10.\n000000 Dercolos A OO mo 00000 Dedlo 3.01071\nsoond mpleos\nMoyjoago 0100200023g9\nmo. on modo\nOo0laem00 a 01060m0021000 470.0.00016lgo\nO my alan\na\n2e 60m0 60300 coloco wolonlamle muc0oaglon) al\n0O120Q0 ccogyor dgloogom. mynaolooosm. al Q10010Y0\nmua.1pseiopomp an@nalcooom\n206B000 QJObron amp2ol 003000003r0muarmoss) BOG0O\nB09000 g010 0sm GCD01, BOQBOS Dong@a.1@45cQ0 Q\nQiTujeoalonloangocolsonp goomo dalds0o.e8o no\nd00020080 0nV0500000 0a00020slamp. 80020805000\nq000 0UB03000, B000100, GOOCS mu8 So afm 0101a1\ncuzaopsallao0 60200 emloooma 05000560 nyslaoles\nadsoonslolgo oo, amanlaos 0u@mpooainsmplos a1olaoo\nmumgal8.0o00 003000.00 ojo.dsganalolg ojo 620m0.\n0sng4a.Jm0002003l000lo GONSO00 BC agoilaoley 0091\n0004120 QJOOnOlos 60800 dmoejola lgpoplame.\n600 QJOOCYO: 2odlma eODCealsporos GOOSO 090110 majau\nanpo 0.05m0o. andeouon 0o30 (OS) 2000mlejag 6091\no h0eo mso\n0 0.a2.00J050) ajalolegoda",
+      "text_nfc": "8S\namaol\n(BYR eo 0.915r0r0, B08003000 aus 2006031a0-10001. GQJ0\ndsem00o,\ncG (810822, 600n0 aoaa0lomploasoms Ga10loioog. (BYO\n6069 opajoad 0020060 6M 600900 B1O0 Jlolgo.\" agma\nQ106ro.\n010001001 - GOIDO QJOGm. 000 (OCO60 002mlg 60s.\nDororons\nGOA\nle\n00:000\neneyooo 10.\n000000 Dercolos A OO mo 00000 Dedlo 3.01071\nsoond mpleos\nMoyjoago 0100200023g9\nmo. on modo\nOo0laem00 a 01060m0021000 470.0.00016lgo\nO my alan\na\n2e 60m0 60300 coloco wolonlamle muc0oaglon) al\n0O120Q0 ccogyor dgloogom. mynaolooosm. al Q10010Y0\nmua.1pseiopomp an@nalcooom\n206B000 QJObron amp2ol 003000003r0muarmoss) BOG0O\nB09000 g010 0sm GCD01, BOQBOS Dong@a.1@45cQ0 Q\nQiTujeoalonloangocolsonp goomo dalds0o.e8o no\nd00020080 0nV0500000 0a00020slamp. 80020805000\nq000 0UB03000, B000100, GOOCS mu8 So afm 0101a1\ncuzaopsallao0 60200 emloooma 05000560 nyslaoles\nadsoonslolgo oo, amanlaos 0u@mpooainsmplos a1olaoo\nmumgal8.0o00 003000.00 ojo.dsganalolg ojo 620m0.\n0sng4a.Jm0002003l000lo GONSO00 BC agoilaoley 0091\n0004120 QJOOnOlos 60800 dmoejola lgpoplame.\n600 QJOOCYO: 2odlma eODCealsporos GOOSO 090110 majau\nanpo 0.05m0o. andeouon 0o30 (OS) 2000mlejag 6091\no h0eo mso\n0 0.a2.00J050) ajalolegoda",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

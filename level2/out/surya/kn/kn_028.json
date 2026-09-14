@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4.2 Step into My Story\nEvery day in school, your friends feel different feelings: happy, sad, left out, proud or even embarrassed. Sometimes, we do not notice or we do not know what to say. But when we take a moment to think about how they might be feeling, we start building empathy.\nThese are some ways in which you know you have empathy :\nI helped a friend who was hurt or sad. I shared something because someone did not have it. I noticed someone sitting alone and sat with them. I gave my time and support when someone was upset. I said sorry when I hurt someone's feelings. I listened to a friend when they wanted to talk.\nActivity :\nIn groups of 4 : Discuss and share what you would do in each of these situations\nYour friend is sitting with some other friend during lunch. They did not ask if you wanted to join them and ignored you.\nA classmate painted something really well and the teacher praised them. You also painted well but no one noticed.\nYou fall down while playing and hurt your knee. Your friends noticed and did not help you.\nYou made a mistake while reading in front of the class and a few children laughed.\nRole play Make small groups. Act it out in front of the class. Show how you can care for others and what kind thing can be done.\nEmpathy helps me care, listen, and support others in small but important ways\nWhen we try to understand what someone else is feeling, we become kinder.\nThink and Do: Connect with your family members. Try to understand how they are feeling. Talk to them about it.\n25",
+      "text_nfc": "4.2 Step into My Story\nEvery day in school, your friends feel different feelings: happy, sad, left out, proud or even embarrassed. Sometimes, we do not notice or we do not know what to say. But when we take a moment to think about how they might be feeling, we start building empathy.\nThese are some ways in which you know you have empathy :\nI helped a friend who was hurt or sad. I shared something because someone did not have it. I noticed someone sitting alone and sat with them. I gave my time and support when someone was upset. I said sorry when I hurt someone's feelings. I listened to a friend when they wanted to talk.\nActivity :\nIn groups of 4 : Discuss and share what you would do in each of these situations\nYour friend is sitting with some other friend during lunch. They did not ask if you wanted to join them and ignored you.\nA classmate painted something really well and the teacher praised them. You also painted well but no one noticed.\nYou fall down while playing and hurt your knee. Your friends noticed and did not help you.\nYou made a mistake while reading in front of the class and a few children laughed.\nRole play Make small groups. Act it out in front of the class. Show how you can care for others and what kind thing can be done.\nEmpathy helps me care, listen, and support others in small but important ways\nWhen we try to understand what someone else is feeling, we become kinder.\nThink and Do: Connect with your family members. Try to understand how they are feeling. Talk to them about it.\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

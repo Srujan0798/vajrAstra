@@ -1,0 +1,41 @@
+{
+  "page_id": "te_016",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 1652,
+    "height": 2185
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2185
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "విజాన౦ మరియు సా౦కేతిక శాస్త౦\nపదవ తరగతి\nವಿಭ್ಗಂ 2\n  ૐ નમ શિવાય સુર",
+      "text_nfc": "విజాన౦ మరియు సా౦కేతిక శాస్త౦\nపదవ తరగతి\nವಿಭ್ಗಂ 2\n  ૐ નમ શિવાય સુર",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

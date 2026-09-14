@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_081",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 28,
+    "width": 923,
+    "height": 1356
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        923,
+        1356
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "codoad 0mjoodd\n21\n00220010 0002010/0200) @oslass12ons0nsox0l0.80005elof\n0.1500.10009105 m002010l80000000.10301.\n00803\nSts) Coo000000 20@Jocpo)losmplmp\n1olo@0100\noo 00100). lmls 009 doelo munucoo0 off\nSlad apolasextionoloem.\nQoQo\ndogjola201,\nmose@lomololo.docobano gidogiloomoailonbo 616md\nogloo\n(OBJO d001 66012mjo coomlo 00\ngolejo lmls ddomo mullaolg\nagaquoog/omuoolos 0m1000 @10010.03J203 (YO\n@lo.ailaplosmm.\n0100og_0oleso arolonua.oololejp\n0010000 0000L.01200040951 6010001919/1030001619/1030700.1610\n0gs0 206006030010 doloddo eQoelo 002017000 20\nommolalo.moo./O. 0GO 01S.880lo00x00 02003.86100lom\nd601000 Damlop.m/jooam 6303: a1a9100o\n6m\ncopolglasmled\nQ0 0006m0 2.oplonomjoom @oco.Ing@dupicou Q100\n20on0 00m0 QJOor1ol0sm. 000 DaJ d01oo0 d6NSS\nelo coolom 0.10680l0/losmo. 600 MUIGOQio (B10GG200101\nCO 0381 315loeg19o Donso0losmo.\nDO000ong O 65\n6000000000 doloeloo @oagaoomlampansocolasato. a\nojoila\nel916 ompsm@agos@slop 6O 1601 deljoom?\" 00\n60303 drolowolosa (1080200 olecym mucionlia\n20.30olaglmg\n2000006000 200016000 06g.01\n00\"00 006800000210001000 CG Jomidsejogn)\"qo 6\nG0100210000010000acD01b1o10.\n06n5O Q@22om80a06 3\nrlas",
+      "text_nfc": "codoad 0mjoodd\n21\n00220010 0002010/0200) @oslass12ons0nsox0l0.80005elof\n0.1500.10009105 m002010l80000000.10301.\n00803\nSts) Coo000000 20@Jocpo)losmplmp\n1olo@0100\noo 00100). lmls 009 doelo munucoo0 off\nSlad apolasextionoloem.\nQoQo\ndogjola201,\nmose@lomololo.docobano gidogiloomoailonbo 616md\nogloo\n(OBJO d001 66012mjo coomlo 00\ngolejo lmls ddomo mullaolg\nagaquoog/omuoolos 0m1000 @10010.03J203 (YO\n@lo.ailaplosmm.\n0100og_0oleso arolonua.oololejp\n0010000 0000L.01200040951 6010001919/1030001619/1030700.1610\n0gs0 206006030010 doloddo eQoelo 002017000 20\nommolalo.moo./O. 0GO 01S.880lo00x00 02003.86100lom\nd601000 Damlop.m/jooam 6303: a1a9100o\n6m\ncopolglasmled\nQ0 0006m0 2.oplonomjoom @oco.Ing@dupicou Q100\n20on0 00m0 QJOor1ol0sm. 000 DaJ d01oo0 d6NSS\nelo coolom 0.10680l0/losmo. 600 MUIGOQio (B10GG200101\nCO 0381 315loeg19o Donso0losmo.\nDO000ong O 65\n6000000000 doloeloo @oagaoomlampansocolasato. a\nojoila\nel916 ompsm@agos@slop 6O 1601 deljoom?\" 00\n60303 drolowolosa (1080200 olecym mucionlia\n20.30olaglmg\n2000006000 200016000 06g.01\n00\"00 006800000210001000 CG Jomidsejogn)\"qo 6\nG0100210000010000acD01b1o10.\n06n5O Q@22om80a06 3\nrlas",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

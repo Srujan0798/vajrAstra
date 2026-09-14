@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_062",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0025pro_raw.pdf",
+    "page_index": 51,
+    "width": 1031,
+    "height": 1651
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1031,
+        1651
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(oomr\noe eoea\ngale.\ncewowul c \nuig?\n\nwo rer\nnuwww o ooeog\nw \nw \ncf.\nas  e\nm e \n \ne\n\n \n\n \n010020 020 222.\n.\n6m\nocsgggcrg\nFé  o\norec\no \nm\nooce\noo\n \nyosanocm\"zo sm osmo ay o\nscepeooeesoe\n",
+      "text_nfc": "(oomr\noe eoea\ngale.\ncewowul c \nuig?\n\nwo rer\nnuwww o ooeog\nw \nw \ncf.\nas  e\nm e \n \ne\n\n \n\n \n010020 020 222.\n.\n6m\nocsgggcrg\nFé  o\norec\no \nm\nooce\noo\n \nyosanocm\"zo sm osmo ay o\nscepeooeesoe\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

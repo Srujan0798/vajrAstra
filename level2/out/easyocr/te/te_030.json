@@ -1,0 +1,41 @@
+{
+  "page_id": "te_030",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0030pro_raw.pdf",
+    "page_index": 91,
+    "width": 1652,
+    "height": 2276
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2276
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "36 Hand washing steps\n37\n38 39 Name of the national animal\n40\n35\n34 Rhyming word for *nest'\n33\n32\n3 Five musical instruments\nWord with sound ree '\n24\n25\n2६\nWord starts with Sbr\n23\n2०\n18\nWord starts with `cl\n1२\n13\n5\nWords with *०० ' sound\n5 letter words\nDays of the week\nWords end with st sound\n२ letter words\nStart\nWord starts with C\n३ letter words\nMAHARASHTRA STATE BUREAU OF ढुक्याया फ +\"01 TEXTBOOK PRODUCTIONAND CURRICULUM RESEARCH, PUNE. महाराप्ट् F रनिर्मिती राज्च अभ्यामकम ' पाठ्यपुस्तक : सशोधन मंडळ माय डाग्लश बक ग्रेड टू (For free distribution)\nसमग्र शिक्षा Samagra Shiksha",
+      "text_nfc": "36 Hand washing steps\n37\n38 39 Name of the national animal\n40\n35\n34 Rhyming word for *nest'\n33\n32\n3 Five musical instruments\nWord with sound ree '\n24\n25\n2६\nWord starts with Sbr\n23\n2०\n18\nWord starts with `cl\n1२\n13\n5\nWords with *०० ' sound\n5 letter words\nDays of the week\nWords end with st sound\n२ letter words\nStart\nWord starts with C\n३ letter words\nMAHARASHTRA STATE BUREAU OF ढुक्याया फ +\"01 TEXTBOOK PRODUCTIONAND CURRICULUM RESEARCH, PUNE. महाराप्ट् F रनिर्मिती राज्च अभ्यामकम ' पाठ्यपुस्तक : सशोधन मंडळ माय डाग्लश बक ग्रेड टू (For free distribution)\nसमग्र शिक्षा Samagra Shiksha",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

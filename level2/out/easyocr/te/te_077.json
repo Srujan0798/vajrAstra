@@ -1,0 +1,41 @@
+{
+  "page_id": "te_077",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0077pro_raw.pdf",
+    "page_index": 37,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "superb diamond necklace; and her' heart besan t0 beat with uncontrolled desize. [e] hands   trembled ೩3 She [0Ok jt. She T೩ste]ed jt ೩ound he] [eck ೩d Stood Jost  in ecstasy ೩ she   [ooked ೩t   herselx Then she asked anxiously , hesitatins; *Mould yOu [e]d me   this, just   this ? ( Mhy, yes; 0f course. She thTew he] ೩]]]S ೩round he] [ೊied' $ neck, [apturously ,  then fled   with he]   treasuTe. The d೩y o the party arrived. Madame ]oise] M೩S ೩ SUCCeSs . She M೩s prettier  than ೩ll the other wome], elesant;   sracious;   smilins; ೩nd [u]] 0[ joy . She danced Mildly , with passjon, forsettins everything jn the   triumph o[ her   beauty ೩d   success, floatins 1 ೩ cJoud 0[ happiness. Mathi]de ೩d he] husbad [ext ೩t ೩bout [Ou] ೦ ' clock in the mornins. TThen the)y were finally in the street, they could ೊot   [ind ೩ cab. They walked   dow] towa1d the Seine, [i]] they [oud O]0 They wexe dropped off ೩t their dooT in the Rue des MartyTs; and Sadly , jt M೩s ೩]] Ove], [0]   het. [1 font 0[ the [it[ot, She [0ok ೩ f1na] [00k ೩t hersel{ jn ೩1] her   !lory . But   suddenly She uttered ೩ CTy . She ]0 lonser' had the necklace [ound her' neck ! .sTThat  js the matter ? ೩sked he]   husband. She turned towards him; panic-stricken; &]  have . ] have  [ 10 ]onser have adame Fo]estie]' $ [eck]ace.\nMThich Sentences te]l LS that Mathilde 8eatly desired   the [ecklace ?\nTaptuTous]y ith 81eat joy [led   with   he] tೊeasure [Tee, [led [ea]s went ೩way  quickly. panic stricke]] with ೩ sudden feelins 0t feaT disttausht woT[ied,   disturbed\n[e stood up, distrausht;   .TTThat ! . []Ow impossible ! \nThat' $\nThink ೩nd  ೩iswe[ : Ihy did Mathilde [Ot ೊotice the ]0SS 0 her  necklace?\n26",
+      "text_nfc": "superb diamond necklace; and her' heart besan t0 beat with uncontrolled desize. [e] hands   trembled ೩3 She [0Ok jt. She T೩ste]ed jt ೩ound he] [eck ೩d Stood Jost  in ecstasy ೩ she   [ooked ೩t   herselx Then she asked anxiously , hesitatins; *Mould yOu [e]d me   this, just   this ? ( Mhy, yes; 0f course. She thTew he] ೩]]]S ೩round he] [ೊied' $ neck, [apturously ,  then fled   with he]   treasuTe. The d೩y o the party arrived. Madame ]oise] M೩S ೩ SUCCeSs . She M೩s prettier  than ೩ll the other wome], elesant;   sracious;   smilins; ೩nd [u]] 0[ joy . She danced Mildly , with passjon, forsettins everything jn the   triumph o[ her   beauty ೩d   success, floatins 1 ೩ cJoud 0[ happiness. Mathi]de ೩d he] husbad [ext ೩t ೩bout [Ou] ೦ ' clock in the mornins. TThen the)y were finally in the street, they could ೊot   [ind ೩ cab. They walked   dow] towa1d the Seine, [i]] they [oud O]0 They wexe dropped off ೩t their dooT in the Rue des MartyTs; and Sadly , jt M೩s ೩]] Ove], [0]   het. [1 font 0[ the [it[ot, She [0ok ೩ f1na] [00k ೩t hersel{ jn ೩1] her   !lory . But   suddenly She uttered ೩ CTy . She ]0 lonser' had the necklace [ound her' neck ! .sTThat  js the matter ? ೩sked he]   husband. She turned towards him; panic-stricken; &]  have . ] have  [ 10 ]onser have adame Fo]estie]' $ [eck]ace.\nMThich Sentences te]l LS that Mathilde 8eatly desired   the [ecklace ?\nTaptuTous]y ith 81eat joy [led   with   he] tೊeasure [Tee, [led [ea]s went ೩way  quickly. panic stricke]] with ೩ sudden feelins 0t feaT disttausht woT[ied,   disturbed\n[e stood up, distrausht;   .TTThat ! . []Ow impossible ! \nThat' $\nThink ೩nd  ೩iswe[ : Ihy did Mathilde [Ot ೊotice the ]0SS 0 her  necklace?\n26",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

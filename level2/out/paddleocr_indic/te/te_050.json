@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 1652,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Say\na'\n'to\nZ\nTell\n5\nwords\nTell\n5\nwords\nTell\n5\nwords\nSay\n1\nto\n20\nin\nthat\nend\nthat\nbegin\nthat\nend\nin\n10\nseconds.\nwith\nwith\na'\nwith\nr'\n10\nseconds.\nFrame\nFrame\nFrame\nDo\nwhat\nSing\na\nquestion\na\nquestion\na\nquestion\nyou\nlike\nan\nEnglish\nthat\nbegins\nthat\nbegins\nthat\nbegins\n(in\nEnglish).\nsong.\nwith\nWhat\nwith\n'Who\nwith\n'How\nTell\nTell\nTell\nTell\nTell\n5\nwords\n4\nwords\n5\nwords\n5\nwords\n5\nwords\nthat\nbegin\nthat\nbegin\nthat\nbegin\nthat\nend\nthat\nend\nwith\n'n'\nwith\n'th'.\nwith\nb'.\nwith\nt'\nwith\np'.\nTell\nTell\nSpeak\nTell\nTell\n5\nwords\n5\nwords\nfast\n4\nwords\n5\nwords\nthat\nend\nthat\nbegin\nin\nEnglish\nfor\nthat\nbegin\nthat\nbegin\nwith\nk\nwith\n'\n10\nseconds.\nwith\n'wh'.\nwith\nm\nTell\nMake\nTell\nTell\nTell\n5\nwords\nsentence\n5\nwords\n5\nwords\na\n5\nwords\nthat\nbegin\nthat has\nthat\nend\nthat\nbegin\nthat\nbegin\nwith\np\nand'.\nwith\nn\nwith\nt\nwith\nd\nFrame\nFrame\nFrame\nTell\nTell\nquestion\n0\nquestion\na\nquestion\na\n4\nwords\n5\nwords\nthat\nbegins\nthat\nbegins\nthat\nbegins\nthat\nbegin\nthat\nbegin\nwith\nwith\nwith\nwith\nst'\nwith\nf\n'When'.\n'WI\nhere\n'Why'.\nMAHARASHTRA STATE BUREAU OF TEXTBOOK\nPRODUCTION AND CURRICULUM RESEARCH, PUNE.\nHT4 $2 $E (\n₹ 40.00",
+      "text_nfc": "Say\na'\n'to\nZ\nTell\n5\nwords\nTell\n5\nwords\nTell\n5\nwords\nSay\n1\nto\n20\nin\nthat\nend\nthat\nbegin\nthat\nend\nin\n10\nseconds.\nwith\nwith\na'\nwith\nr'\n10\nseconds.\nFrame\nFrame\nFrame\nDo\nwhat\nSing\na\nquestion\na\nquestion\na\nquestion\nyou\nlike\nan\nEnglish\nthat\nbegins\nthat\nbegins\nthat\nbegins\n(in\nEnglish).\nsong.\nwith\nWhat\nwith\n'Who\nwith\n'How\nTell\nTell\nTell\nTell\nTell\n5\nwords\n4\nwords\n5\nwords\n5\nwords\n5\nwords\nthat\nbegin\nthat\nbegin\nthat\nbegin\nthat\nend\nthat\nend\nwith\n'n'\nwith\n'th'.\nwith\nb'.\nwith\nt'\nwith\np'.\nTell\nTell\nSpeak\nTell\nTell\n5\nwords\n5\nwords\nfast\n4\nwords\n5\nwords\nthat\nend\nthat\nbegin\nin\nEnglish\nfor\nthat\nbegin\nthat\nbegin\nwith\nk\nwith\n'\n10\nseconds.\nwith\n'wh'.\nwith\nm\nTell\nMake\nTell\nTell\nTell\n5\nwords\nsentence\n5\nwords\n5\nwords\na\n5\nwords\nthat\nbegin\nthat has\nthat\nend\nthat\nbegin\nthat\nbegin\nwith\np\nand'.\nwith\nn\nwith\nt\nwith\nd\nFrame\nFrame\nFrame\nTell\nTell\nquestion\n0\nquestion\na\nquestion\na\n4\nwords\n5\nwords\nthat\nbegins\nthat\nbegins\nthat\nbegins\nthat\nbegin\nthat\nbegin\nwith\nwith\nwith\nwith\nst'\nwith\nf\n'When'.\n'WI\nhere\n'Why'.\nMAHARASHTRA STATE BUREAU OF TEXTBOOK\nPRODUCTION AND CURRICULUM RESEARCH, PUNE.\nHT4 $2 $E (\n₹ 40.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

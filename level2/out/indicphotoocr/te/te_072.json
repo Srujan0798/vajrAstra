@@ -1,0 +1,41 @@
+{
+  "page_id": "te_072",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0072pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "విస్తరణ చేయ౦డి\n੪੪੦੦ 1 x2x3 ૐ  x25x6\n੪੪੦੦੦ ଓ y4y3 કમ્પ્રીલના\nਨਾ 3 2a 3b2a 3b 2a3b  3b12a 3b 11 3b\nਸਾ 4a2 0x2a 9b24a2 9b2\nm3m2 m2  2m 3\n4\nx3x7 ਤੰਤੀ 37 10x 21\nఅభ్యాసమాలిక 51\nవిస్తరణ చేయ౦డి\n1a2a1 2m4m6 3p8p3\n413x13 151 3x4y3x5y 69x5t9x 4 3t\n7m2m7 94\nతెలుసుకొ౦దా౦\niia b3 యొక్క విస్తరణ expansion of વ b3\n\naba2ab6\naa2 2ab b2 ba2ab ૧ b2\n 2a2b  ab2  ba2 4 2ab2\n 3a2b  3ab2 4 b3\naba3ab  3ab2 b3\nవిస్తరణ సూత్రాలనుపయోగి౦చి౦చి ਹੇੴ ఉదాహరణలను నేర్చక ੦੦੧੦\nਓਹਾ 1 x33\nab3a3  3a2b  3ab2 b3 ఇచట 051 గలదు\n24",
+      "text_nfc": "విస్తరణ చేయ౦డి\n੪੪੦੦ 1 x2x3 ૐ  x25x6\n੪੪੦੦੦ ଓ y4y3 કમ્પ્રીલના\nਨਾ 3 2a 3b2a 3b 2a3b  3b12a 3b 11 3b\nਸਾ 4a2 0x2a 9b24a2 9b2\nm3m2 m2  2m 3\n4\nx3x7 ਤੰਤੀ 37 10x 21\nఅభ్యాసమాలిక 51\nవిస్తరణ చేయ౦డి\n1a2a1 2m4m6 3p8p3\n413x13 151 3x4y3x5y 69x5t9x 4 3t\n7m2m7 94\nతెలుసుకొ౦దా౦\niia b3 యొక్క విస్తరణ expansion of વ b3\n\naba2ab6\naa2 2ab b2 ba2ab ૧ b2\n 2a2b  ab2  ba2 4 2ab2\n 3a2b  3ab2 4 b3\naba3ab  3ab2 b3\nవిస్తరణ సూత్రాలనుపయోగి౦చి౦చి ਹੇੴ ఉదాహరణలను నేర్చక ੦੦੧੦\nਓਹਾ 1 x33\nab3a3  3a2b  3ab2 b3 ఇచట 051 గలదు\n24",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

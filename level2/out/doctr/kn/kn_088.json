@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_088",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0009pro_raw.pdf",
+    "page_index": 18,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1YE\nFREj\n13. d 88A3 danen dodejF oonto soondodn Qa83:\n2x3=6\n(i)\n(a) woaoao bondoning 08ood\nenao (OR)\n(b) eaoni eadao agsade Weaoohe).\n(ii) (a) owoaa 8wabo3o\nenao (OR)\n(b) 800800 abndwo 2ddan\n14. de d8A3 danen 8-10 sognve 00383 :\n1x4=4\n(a) oa\naodortals\nbeea Boa0nd 20008.\n&\nepao (OR)\n(b)\nauddod erba esewant\nQ\n23r7 Ja b epagaban\nw0008.\n15. de 88A3\ndanen\n8-10 aonnge 00383 :\n1x4=4\n3\n-\n(a)\nNOa aboa Node Brlogaedowa 80\n3\nBaddanad\nedab\n?\nepao (OR)\n(b)\nwoodad Rioedddod 38won BEES arnsan 393.\n\n13/S\n19\n#",
+      "text_nfc": "1YE\nFREj\n13. d 88A3 danen dodejF oonto soondodn Qa83:\n2x3=6\n(i)\n(a) woaoao bondoning 08ood\nenao (OR)\n(b) eaoni eadao agsade Weaoohe).\n(ii) (a) owoaa 8wabo3o\nenao (OR)\n(b) 800800 abndwo 2ddan\n14. de d8A3 danen 8-10 sognve 00383 :\n1x4=4\n(a) oa\naodortals\nbeea Boa0nd 20008.\n&\nepao (OR)\n(b)\nauddod erba esewant\nQ\n23r7 Ja b epagaban\nw0008.\n15. de 88A3\ndanen\n8-10 aonnge 00383 :\n1x4=4\n3\n-\n(a)\nNOa aboa Node Brlogaedowa 80\n3\nBaddanad\nedab\n?\nepao (OR)\n(b)\nwoodad Rioedddod 38won BEES arnsan 393.\n\n13/S\n19\n#",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_050",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0050pro_raw.pdf",
+    "page_index": 99,
+    "width": 594.6300048828125,
+    "height": 793.1719970703125
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.6300048828125,
+        793.1719970703125
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Say\nto\nZ\nTell\n5\nwords\nTell\n5\nwords\nTell\n5\nwords\nSay\n1 to 20\nin\nthat\nend\nthat begin\nthat end\nin\n10\nseconds.\nwith\ne'.\nwith\nwith 'r'.\n10\nseconds.\nFrame\nFrame\nFrame\nDo what\nSing\na question\na question\na question\nthat\nbegins\nyou\nlike\nan\nEnglish\nthat begins\nthat begins\n(in English).\nsong.\nwith 'What\nwith Who\nwith 'How\nTell\nTell\nTell\nTell\nTell\n5\nwords\n4\nwords\n5 words\n5\nwords\nwords\nthat\nbegin\nthat\nbegin\nthat begin\nthat\nend\nthat\nend\nwith 'n'\nwith\nth\nwith\n69\nwith\nt'.\nwith\np'\nTell\nTell\nSpeak\nTell\nTell\n5\nwords\n5 words\nfast\n4\nwords\n5 words\nthat\nend\nthat begin\nin\nEnglish\nfor\nthat\nbegin\nthat\nbegin\nwith 'k'.\nwith\n10\nseconds.\nwith\nwh'.\nwith\n'm'.\nTell\nMake\nTell\nTell\nTell\n5 words\na sentence\n5 words\n5 words\n5 words\nthat begin\nthat has\nthat\nend\nthat begin\nthat begin\nwith 'p'\n'and'\nwith'n'\nwith 't'.\nwithd\nFrame\nFrame\nFrame\nTell\nTell\nquestion\na\nquestion\na question\n4\nwords\n5\nwords\nthat begins\nthat\nbegins\nthat begins\nthat\nbegin\nthat\nbegin\nwith\nwith\nwith\nwith\nst'.\nwith\nf.\n'Where'\n'When'\n'Why'.\nMAHARASHTRA\nSTATE\nBUREAU\nOF\nTEXTBOOK\nPRODUCTION\nAND\nCURRICULUM\nRESEARCH,\nPUNE.\nFZ\n(d)\n₹ 40.00",
+      "text_nfc": "Say\nto\nZ\nTell\n5\nwords\nTell\n5\nwords\nTell\n5\nwords\nSay\n1 to 20\nin\nthat\nend\nthat begin\nthat end\nin\n10\nseconds.\nwith\ne'.\nwith\nwith 'r'.\n10\nseconds.\nFrame\nFrame\nFrame\nDo what\nSing\na question\na question\na question\nthat\nbegins\nyou\nlike\nan\nEnglish\nthat begins\nthat begins\n(in English).\nsong.\nwith 'What\nwith Who\nwith 'How\nTell\nTell\nTell\nTell\nTell\n5\nwords\n4\nwords\n5 words\n5\nwords\nwords\nthat\nbegin\nthat\nbegin\nthat begin\nthat\nend\nthat\nend\nwith 'n'\nwith\nth\nwith\n69\nwith\nt'.\nwith\np'\nTell\nTell\nSpeak\nTell\nTell\n5\nwords\n5 words\nfast\n4\nwords\n5 words\nthat\nend\nthat begin\nin\nEnglish\nfor\nthat\nbegin\nthat\nbegin\nwith 'k'.\nwith\n10\nseconds.\nwith\nwh'.\nwith\n'm'.\nTell\nMake\nTell\nTell\nTell\n5 words\na sentence\n5 words\n5 words\n5 words\nthat begin\nthat has\nthat\nend\nthat begin\nthat begin\nwith 'p'\n'and'\nwith'n'\nwith 't'.\nwithd\nFrame\nFrame\nFrame\nTell\nTell\nquestion\na\nquestion\na question\n4\nwords\n5\nwords\nthat begins\nthat\nbegins\nthat begins\nthat\nbegin\nthat\nbegin\nwith\nwith\nwith\nwith\nst'.\nwith\nf.\n'Where'\n'When'\n'Why'.\nMAHARASHTRA\nSTATE\nBUREAU\nOF\nTEXTBOOK\nPRODUCTION\nAND\nCURRICULUM\nRESEARCH,\nPUNE.\nFZ\n(d)\n₹ 40.00",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

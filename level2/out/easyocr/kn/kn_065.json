@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_065",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0026pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "'3I'\nసౌశా గరి భాలా లిరిణ మెశు సారెంకా ఇలాఖి\nDepartment of School Education & Literacy\nమౌల్య శిక్షణ ? Value Education T8  PUB 01\n1ని శిరెగెళి విద్యాథిFగళ జటువటిరా మెస్త Activity Book for Class 1 Students\n2026 2027\nరాజ్య రీర్షణ నెంలూ(ధని మెత్తు తెరెబితి ఇలాఖి బనెలంశరి 3ని దంఠె, బింగెళురు 560 085.\nశనా Fటా",
+      "text_nfc": "'3I'\nసౌశా గరి భాలా లిరిణ మెశు సారెంకా ఇలాఖి\nDepartment of School Education & Literacy\nమౌల్య శిక్షణ ? Value Education T8  PUB 01\n1ని శిరెగెళి విద్యాథిFగళ జటువటిరా మెస్త Activity Book for Class 1 Students\n2026 2027\nరాజ్య రీర్షణ నెంలూ(ధని మెత్తు తెరెబితి ఇలాఖి బనెలంశరి 3ని దంఠె, బింగెళురు 560 085.\nశనా Fటా",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

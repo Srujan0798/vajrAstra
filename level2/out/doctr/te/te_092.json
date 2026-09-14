@@ -1,0 +1,41 @@
+{
+  "page_id": "te_092",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0008pro_raw.pdf",
+    "page_index": 1,
+    "width": 1343,
+    "height": 2123
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1343,
+        2123
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Code : 007\nSECOND TERM SUMMATIVE ASSESSMENT\n(OCT 2010 - MAR 2011) MARCH 2011\nSAMPLE QUESTION PAPER\nCLASS\nX\nSUBJECT - TELUGU\nTime : 3 Hrs.\nMax. Marks I 80\n25ho - 6 J'\n1. Soô Koyor) 380, S90 aKS Sabeds SS5QJS 38QJs OO0\nJS)SO oobod.\n5x2=10\n\"essssoss byddoss5c0s 253 as JosSw. 2ra\nSosor 2s Joas aaossw. 25a 335020050 es)\n8or5s, srs3600ss asalsnSdsdus)o. as 335200to\nJET0s)g es 355020060 25365 Sedodowd. 205) 3502\nessoodyess es 2p3 Sarerojsor Ss8Or Doravow).\neswosseo, eJô 2eev JETO Syoesd araev JSs\nedazas Ssess 380650 esao 88. J208 \"e5,28\"\n3ajses \"es 2ra O) srerd Spess) rajd 58,\n85436 58.\" aoha es Sre)ara sosdas e3 2r3065\nSNoRo3 38e egss edayaives eesses ess sre)arae\n33)603 Sases)o 3as6ods. 68 3810 ogesor gesA 5S\nJnGo NGSOSS. JoOSoes aoha 3835 830 S035 aveso\n20255 300800 sega.\nSae:-\ni. 2ra JewSoes JOso?\ne. 2r3 623006555 as JOSO\nes. essssos dyrodossScos\na. 2dgos Jeesss.\n68 2ya J86338 25sses esgo 3353003.\n2",
+      "text_nfc": "Code : 007\nSECOND TERM SUMMATIVE ASSESSMENT\n(OCT 2010 - MAR 2011) MARCH 2011\nSAMPLE QUESTION PAPER\nCLASS\nX\nSUBJECT - TELUGU\nTime : 3 Hrs.\nMax. Marks I 80\n25ho - 6 J'\n1. Soô Koyor) 380, S90 aKS Sabeds SS5QJS 38QJs OO0\nJS)SO oobod.\n5x2=10\n\"essssoss byddoss5c0s 253 as JosSw. 2ra\nSosor 2s Joas aaossw. 25a 335020050 es)\n8or5s, srs3600ss asalsnSdsdus)o. as 335200to\nJET0s)g es 355020060 25365 Sedodowd. 205) 3502\nessoodyess es 2p3 Sarerojsor Ss8Or Doravow).\neswosseo, eJô 2eev JETO Syoesd araev JSs\nedazas Ssess 380650 esao 88. J208 \"e5,28\"\n3ajses \"es 2ra O) srerd Spess) rajd 58,\n85436 58.\" aoha es Sre)ara sosdas e3 2r3065\nSNoRo3 38e egss edayaives eesses ess sre)arae\n33)603 Sases)o 3as6ods. 68 3810 ogesor gesA 5S\nJnGo NGSOSS. JoOSoes aoha 3835 830 S035 aveso\n20255 300800 sega.\nSae:-\ni. 2ra JewSoes JOso?\ne. 2r3 623006555 as JOSO\nes. essssos dyrodossScos\na. 2dgos Jeesss.\n68 2ya J86338 25sses esgo 3353003.\n2",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

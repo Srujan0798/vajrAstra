@@ -1,0 +1,41 @@
+{
+  "page_id": "te_087",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0003pro_raw.pdf",
+    "page_index": 4,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "11/8\n\n(ii)\n\n(iii)\n\n(iv)\n\n(v)\n\nపర్యావరణంకు మూలకందం అనదగినవి VO ?\n(A) ప్రక్తివనరులు\n\n(B) మానసిక ఆందోళన\n\n(C) పరిశుధ్జలాలతో నిండిననదులు\n\n(D) A,C\n\nమానవుని అకత్యాలకు ఫలితం ఏమిటి ?\n\n(A) భూమి సమస్త De పాలాలతో నిండడం\n(B) ప్రకతికి, జీవజలాలకి సమతుల్యత\n\n(C) సమతుల్యతలోపించడం\n\n(D) పరిశుద్జలాలు\n\nSr సమస్తం పైరు పాలాలతో నిండిపోకుండా\n\nఉండేందుకు అవసరమరయేే్యవి\n(A) మాంసాహార జంతువులు\n(B) ఉభయచరాలు\n\n(C) సరీసతపాలు\n\n(D) శాకాహార జంతువులు\n\n'మూలకందం '-ఈ జాతీయానికి ७00 రాయండి\n(A) ప్రధానలోపం\n\n(B) ప్రధాన ఆధారం\n\n(C) ప్రముఖదినం\n\n(D) ప్రాముఖ్వతలోపించడం\n\nలేదా (OR)\n\nPage 5 of 19 P.T.O. I\n",
+      "text_nfc": "11/8\n\n(ii)\n\n(iii)\n\n(iv)\n\n(v)\n\nపర్యావరణంకు మూలకందం అనదగినవి VO ?\n(A) ప్రక్తివనరులు\n\n(B) మానసిక ఆందోళన\n\n(C) పరిశుధ్జలాలతో నిండిననదులు\n\n(D) A,C\n\nమానవుని అకత్యాలకు ఫలితం ఏమిటి ?\n\n(A) భూమి సమస్త De పాలాలతో నిండడం\n(B) ప్రకతికి, జీవజలాలకి సమతుల్యత\n\n(C) సమతుల్యతలోపించడం\n\n(D) పరిశుద్జలాలు\n\nSr సమస్తం పైరు పాలాలతో నిండిపోకుండా\n\nఉండేందుకు అవసరమరయేే్యవి\n(A) మాంసాహార జంతువులు\n(B) ఉభయచరాలు\n\n(C) సరీసతపాలు\n\n(D) శాకాహార జంతువులు\n\n'మూలకందం '-ఈ జాతీయానికి ७00 రాయండి\n(A) ప్రధానలోపం\n\n(B) ప్రధాన ఆధారం\n\n(C) ప్రముఖదినం\n\n(D) ప్రాముఖ్వతలోపించడం\n\nలేదా (OR)\n\nPage 5 of 19 P.T.O. I\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

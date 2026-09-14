@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_010",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0011pro_raw.png",
+    "page_index": 0,
+    "width": 408,
+    "height": 586
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        408,
+        586
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Sige nye gamer oabacagrnaet. ~\nSryeus aisionee aque metaym aceon ensmiemeeot\nCenmaconje epauajec mnneommd, easome | OME\nanlaitad eectaooajet cua] एक wuaone कारन OOP\ncerns come angel amgiadd eyiasenon asioosia aamedtat\nलय? wstoaoun ne eoaanyrueeTe eebnnOOe\nदब sy ay waranty] ted widens तप\ncrass conta omsmygenayeage® fag amie\npuenmaccaymecnt, —o accjenk yp aesenjes easiorme\nmueonsyen ssetoneznys goyoryemoyennork कफ. प्राणी\nCecruoinemies epaunjconias rvtscct gemontanes © ay\nmocRasia] matecnymnaycont, go aye ays! seuslarei\nकप coxenyeveheh th «कुएं तप mabacnymoene\n\nIystonde, ejlatsy) epemfinarsen! surveys srmocetee\ngoygaueyomyn esasoo ‘aoe! sgrvont enh qyoueareh\nमत, edt ooops sopusoey gemneeymet. smo\ntua] 740) wus ‘yest eubecod ofauiimaoesiansane”\nnevacite ong] aystoork clases anemacont sargyrme acct\ncasoyyenat a gated लहर mdguslecgoa mays\n‘uni 70 (1A) 022०० on, exnsisde eroroise comes cles\nsoaps eons (wanna) £19000 epee\nJeanie\" ayftocery csecxnayep epuccmioa carujtat\naystooda * ge — teeme, — ennjmee = austin)\ncenoypemtatsejma, cacecet mnited mracaante snBay\nresend. qesbeo clowomenstor gegssonwat nalegpne\nTTeuney canin omomsvoary, onokes eittlo QOD\nmyucomngiet —ontaye oa@rupsies astound\navasoqojomtryem, प्रा 740 8:2805 orca oy eve asians\ncussed nodyomeinods eanaydes aarvacnestenl BO\neenoypjemaslenyn aysiuodanjes cueene  mTinannaoo\n",
+      "text_nfc": "Sige nye gamer oabacagrnaet. ~\nSryeus aisionee aque metaym aceon ensmiemeeot\nCenmaconje epauajec mnneommd, easome | OME\nanlaitad eectaooajet cua] एक wuaone कारन OOP\ncerns come angel amgiadd eyiasenon asioosia aamedtat\nलय? wstoaoun ne eoaanyrueeTe eebnnOOe\nदब sy ay waranty] ted widens तप\ncrass conta omsmygenayeage® fag amie\npuenmaccaymecnt, —o accjenk yp aesenjes easiorme\nmueonsyen ssetoneznys goyoryemoyennork कफ. प्राणी\nCecruoinemies epaunjconias rvtscct gemontanes © ay\nmocRasia] matecnymnaycont, go aye ays! seuslarei\nकप coxenyeveheh th «कुएं तप mabacnymoene\n\nIystonde, ejlatsy) epemfinarsen! surveys srmocetee\ngoygaueyomyn esasoo ‘aoe! sgrvont enh qyoueareh\nमत, edt ooops sopusoey gemneeymet. smo\ntua] 740) wus ‘yest eubecod ofauiimaoesiansane”\nnevacite ong] aystoork clases anemacont sargyrme acct\ncasoyyenat a gated लहर mdguslecgoa mays\n‘uni 70 (1A) 022०० on, exnsisde eroroise comes cles\nsoaps eons (wanna) £19000 epee\nJeanie\" ayftocery csecxnayep epuccmioa carujtat\naystooda * ge — teeme, — ennjmee = austin)\ncenoypemtatsejma, cacecet mnited mracaante snBay\nresend. qesbeo clowomenstor gegssonwat nalegpne\nTTeuney canin omomsvoary, onokes eittlo QOD\nmyucomngiet —ontaye oa@rupsies astound\navasoqojomtryem, प्रा 740 8:2805 orca oy eve asians\ncussed nodyomeinods eanaydes aarvacnestenl BO\neenoypjemaslenyn aysiuodanjes cueene  mTinannaoo\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "te_015",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0015pro_raw.pdf",
+    "page_index": 155,
+    "width": 1644,
+    "height": 2212
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1644,
+        2212
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "પ\nભ\nn2\n૭\nবেবযা మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక ನಿರ್ಮಿ మరియు పాఠ్యపణాళిక పరిశోధన స౦స్థ్ర పుణ\nਸਿਨਾਨਕਰਜਾਜਗੰਗੀ संशोधन मंडळ वि‍ज्ञान आणि तंत्रज्ञान तेलुगु 7500\nवअभ्यासक्रम इयत्ता दहावी भाग ੮੪ माध्यम",
+      "text_nfc": "પ\nભ\nn2\n૭\nবেবযা మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక ನಿರ್ಮಿ మరియు పాఠ్యపణాళిక పరిశోధన స౦స్థ్ర పుణ\nਸਿਨਾਨਕਰਜਾਜਗੰਗੀ संशोधन मंडळ वि‍ज्ञान आणि तंत्रज्ञान तेलुगु 7500\nवअभ्यासक्रम इयत्ता दहावी भाग ੮੪ माध्यम",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

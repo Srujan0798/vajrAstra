@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_013",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 21,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "PAGR NO:\n*aang RG uop aamdire:\n0 Dos dorea 0Ld\ndeta.bidinsog akod\n@ es.00. gedoday\n0 e.e Mend\nO ars, wsodttg 0 Dajord\n@ e - Reotayr\n@ earko tooar\n-F\n6 070p0 ASPOIIR G es\na\n@ 8003r 00158 B C\n@ r Poas. degssmes\n4. @ Do. Ber aune Furi F 00\n(2 DII eO. 80010\n(3 orgas Bog8\n04 8ar 007231005\n(s eD.eos CS 108\n4\nCaovet n02 UOR T\n2.2s, 228\nd\nDATE\n4 0800\nEb eonGNauog\nA 8e\nE WNad - F 4\nBRACA L\nede\nED PSOOBOD Lp\n=P 2907\nAAF\n=D awrsos Lose\n= Oes woano,\nA\nED 088 don\nA 08\ngeegd\na\nL\nA Be don 163\n1 J\n1)\nde 2rde omirae C\nD 230J007\n4 2020\n(18) adkomhd.Rd@ortlas Roa A e 2\n@ R07AN OIGS\nF\n20 deasoge 803800 . DUOBES\neBone eDore 31 navO! de\n(22 oon 02,3010\n28e170.a 80 BO1A\n00:60867010000\nS\n25 in Dayy Une JOTaaed\n22.0802 dBpi U\n27 op.ed. maaina\nEB Beredeme 0616\n(F)\nE eo RU A\nDBesd 00\nDbesge\nA 6a0 Rg\n=\nA DEres\nA 03\nLE\n(2)\nD)\n0 080.30.880\n\nLa\n.e\nA\n1\n- WOR DUES 15 Can\nE\nKn)\n29 apants Bisoabatjono gogDuon A eses\nagaod dooa A\nn08y MONO En\n2n\nà)\nA Nooes\n(Cb\nA DU ONS (\nS2 s00gd ofsadse $ : wr esud Sa\n33 80018 Parrnos\n4) 300) 2ex\nAS\n-oNmE ND\nED Bow1\nE (\nAnuja\nScanned by CamScanner",
+      "text_nfc": "PAGR NO:\n*aang RG uop aamdire:\n0 Dos dorea 0Ld\ndeta.bidinsog akod\n@ es.00. gedoday\n0 e.e Mend\nO ars, wsodttg 0 Dajord\n@ e - Reotayr\n@ earko tooar\n-F\n6 070p0 ASPOIIR G es\na\n@ 8003r 00158 B C\n@ r Poas. degssmes\n4. @ Do. Ber aune Furi F 00\n(2 DII eO. 80010\n(3 orgas Bog8\n04 8ar 007231005\n(s eD.eos CS 108\n4\nCaovet n02 UOR T\n2.2s, 228\nd\nDATE\n4 0800\nEb eonGNauog\nA 8e\nE WNad - F 4\nBRACA L\nede\nED PSOOBOD Lp\n=P 2907\nAAF\n=D awrsos Lose\n= Oes woano,\nA\nED 088 don\nA 08\ngeegd\na\nL\nA Be don 163\n1 J\n1)\nde 2rde omirae C\nD 230J007\n4 2020\n(18) adkomhd.Rd@ortlas Roa A e 2\n@ R07AN OIGS\nF\n20 deasoge 803800 . DUOBES\neBone eDore 31 navO! de\n(22 oon 02,3010\n28e170.a 80 BO1A\n00:60867010000\nS\n25 in Dayy Une JOTaaed\n22.0802 dBpi U\n27 op.ed. maaina\nEB Beredeme 0616\n(F)\nE eo RU A\nDBesd 00\nDbesge\nA 6a0 Rg\n=\nA DEres\nA 03\nLE\n(2)\nD)\n0 080.30.880\n\nLa\n.e\nA\n1\n- WOR DUES 15 Can\nE\nKn)\n29 apants Bisoabatjono gogDuon A eses\nagaod dooa A\nn08y MONO En\n2n\nà)\nA Nooes\n(Cb\nA DU ONS (\nS2 s00gd ofsadse $ : wr esud Sa\n33 80018 Parrnos\n4) 300) 2ex\nAS\n-oNmE ND\nED Bow1\nE (\nAnuja\nScanned by CamScanner",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

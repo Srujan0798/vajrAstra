@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_038",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 258,
+    "width": 1123,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1123,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "టివెణిగాళు\nరిల2\nరిన్నెడ నుడియి జాయమోనవన్ను గమనినెది అదం వ్యారరణ పశియగళన్ను సెంస్యయాె వ్యాశరణద బౌరెట్టిని అళవెడిసిరువుది: ఇంథ గెంందెలగాళిగ రారణవాగిడి ప్రరృరెదెల్లి, మోగFశారను నెంస్యరవ్యారరణదా రరా వ్యవెస్థైం యిన్ను అనునెరిసిరువుదారిందా అవను రౌఠగృవెన్ను రారశానురమదాం సిరిసిల్లవెందు ర్రీ సిటి. వాండురంగియివెరు అభివాయిపెట్టిద్దా్దరి అవరు శిళినువంఠి, సంస్య్యర వ్యారరణద ప్రఠాం ప్రథమో విభర్త రారరాధినవెల్ల దాగా (రామెFణి ప్రయిలగగదా ఠృకియీ విభశియి రరణ శారరవిా రఠగశారశర్టవనన ఒళగూళ్ళుర్తెది మోగగారన రర్తయిన్ను  అవను 8 రిశి నెమథిFసిరువుదు గాదవాగి రండుబందారం, మోగాారను దౌళువె 'రఠణరారఉ రపిఠవాదె ఆరు శారెరెగాళ షెస్టియం సౌరువుదె ఇల్లవె ఎంబ నెమస్యగ లవెరిందె వెరిదాం సెంజిరవాగిల్ల 29 రిరీరాజనూ లరియిగ రలగృరారరల్టవెన్ను దౌళిద్ద్గన కృకియి వె.బిలా వెడగుం రాఠగరెరణ దౌలు సథిరియంలా సుం 296 యదా రావెమెని టెఊ టెట్టుదు) (ఆధునిక భాషా రాస్త్రజ్లం ప్రఠాం; ఉన్నడదల్లి ప్రథమా విభర్తియద్దయం అదన్ను నెంకిారిసవె తరర్యయి నుదియ జాయమోనెక్థ యంంటు నామతరారియిన ప్రెథమేయి అథFదల్లి ప్రయంగగవాగుర్తెద మాగFశాంన లర్ష వెద్యదెల్లియి నెంచెఠి బందాం ఎంబ ప్రయంగగ ఇదకా నిదలిFన అల్లదె; వార్యద\n2 \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven vibhaktis He begins his enumeration with Karmakaraka instead of Kartrkaraka: This is because the order followed is that of vibhaktis: Accoring to Sanskrit grammarians, the first case termination does not convey any Karaka: The second conveys Karma; the Karana and Karta and so on The verbal termination Coll- veys Karta in active construction: Therefore the first case termination is added purely for technocal reasons plan of reference to Karma on this basis cannot hold good t0 Kannada The demarcation of Karakas as in Sanskrit cannot also be applied mutatis mutandis to Kannada_ Influences of Sanskrit and prakrit Grammars on Kannada Grammarians' Paper by Sri K.T Pandurangi, MA. Vide proceedings of the Seminar On Grammatical \"Theories in Kannada (October 1965), Annamalai University; Annamalainagar:",
+      "text_nfc": "టివెణిగాళు\nరిల2\nరిన్నెడ నుడియి జాయమోనవన్ను గమనినెది అదం వ్యారరణ పశియగళన్ను సెంస్యయాె వ్యాశరణద బౌరెట్టిని అళవెడిసిరువుది: ఇంథ గెంందెలగాళిగ రారణవాగిడి ప్రరృరెదెల్లి, మోగFశారను నెంస్యరవ్యారరణదా రరా వ్యవెస్థైం యిన్ను అనునెరిసిరువుదారిందా అవను రౌఠగృవెన్ను రారశానురమదాం సిరిసిల్లవెందు ర్రీ సిటి. వాండురంగియివెరు అభివాయిపెట్టిద్దా్దరి అవరు శిళినువంఠి, సంస్య్యర వ్యారరణద ప్రఠాం ప్రథమో విభర్త రారరాధినవెల్ల దాగా (రామెFణి ప్రయిలగగదా ఠృకియీ విభశియి రరణ శారరవిా రఠగశారశర్టవనన ఒళగూళ్ళుర్తెది మోగగారన రర్తయిన్ను  అవను 8 రిశి నెమథిFసిరువుదు గాదవాగి రండుబందారం, మోగాారను దౌళువె 'రఠణరారఉ రపిఠవాదె ఆరు శారెరెగాళ షెస్టియం సౌరువుదె ఇల్లవె ఎంబ నెమస్యగ లవెరిందె వెరిదాం సెంజిరవాగిల్ల 29 రిరీరాజనూ లరియిగ రలగృరారరల్టవెన్ను దౌళిద్ద్గన కృకియి వె.బిలా వెడగుం రాఠగరెరణ దౌలు సథిరియంలా సుం 296 యదా రావెమెని టెఊ టెట్టుదు) (ఆధునిక భాషా రాస్త్రజ్లం ప్రఠాం; ఉన్నడదల్లి ప్రథమా విభర్తియద్దయం అదన్ను నెంకిారిసవె తరర్యయి నుదియ జాయమోనెక్థ యంంటు నామతరారియిన ప్రెథమేయి అథFదల్లి ప్రయంగగవాగుర్తెద మాగFశాంన లర్ష వెద్యదెల్లియి నెంచెఠి బందాం ఎంబ ప్రయంగగ ఇదకా నిదలిFన అల్లదె; వార్యద\n2 \"In Kavirajamarga Nrpatunga enumerates six Karakas and seven vibhaktis He begins his enumeration with Karmakaraka instead of Kartrkaraka: This is because the order followed is that of vibhaktis: Accoring to Sanskrit grammarians, the first case termination does not convey any Karaka: The second conveys Karma; the Karana and Karta and so on The verbal termination Coll- veys Karta in active construction: Therefore the first case termination is added purely for technocal reasons plan of reference to Karma on this basis cannot hold good t0 Kannada The demarcation of Karakas as in Sanskrit cannot also be applied mutatis mutandis to Kannada_ Influences of Sanskrit and prakrit Grammars on Kannada Grammarians' Paper by Sri K.T Pandurangi, MA. Vide proceedings of the Seminar On Grammatical \"Theories in Kannada (October 1965), Annamalai University; Annamalainagar:",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

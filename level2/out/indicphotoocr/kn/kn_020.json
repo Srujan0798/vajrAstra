@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_020",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 151,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "140 ವಿಜ್ಞಾನ\nchildren be cautious be alert\nyour body belongs only to you you have all the rights\nto keep safe and protect it always\nsafe and unsafe touches on your body\nsee the picture and understand\nthis cautious is for boys and girls\nforehead\ncheeks\nlips\nshoulder\nback\nhand chest\nbottom\nbelow your back\npart between\ntwo legs\nunsafe touch bad touch parts of your body where nobody should touch\nexcept parents and in their presence only doctors 021 touch\nsafe touch good touch 021 touch only when required\nwhen you feel unsafe touch or any other mischief please say loudly\nno dont stop itand scream push the person aside and move to ਕੇ safer place\nbe brave and inform about it to your parents 8 trusted adult and register ੩ complaint\npublished by distict administration 08532229011 zilla panchyat228448\ndepartment ofpolice 205635 235001 235100 100   district child protection unit280670\ndepartmentof women and child develpoment226292 unicef child protection project ౭౦౦౦౦ raichur\n3੦ smart 3੦ safe ੪੦ happy\npicture courtesy prajavani bhoomika 26072014 unicef",
+      "text_nfc": "140 ವಿಜ್ಞಾನ\nchildren be cautious be alert\nyour body belongs only to you you have all the rights\nto keep safe and protect it always\nsafe and unsafe touches on your body\nsee the picture and understand\nthis cautious is for boys and girls\nforehead\ncheeks\nlips\nshoulder\nback\nhand chest\nbottom\nbelow your back\npart between\ntwo legs\nunsafe touch bad touch parts of your body where nobody should touch\nexcept parents and in their presence only doctors 021 touch\nsafe touch good touch 021 touch only when required\nwhen you feel unsafe touch or any other mischief please say loudly\nno dont stop itand scream push the person aside and move to ਕੇ safer place\nbe brave and inform about it to your parents 8 trusted adult and register ੩ complaint\npublished by distict administration 08532229011 zilla panchyat228448\ndepartment ofpolice 205635 235001 235100 100   district child protection unit280670\ndepartmentof women and child develpoment226292 unicef child protection project ౭౦౦౦౦ raichur\n3੦ smart 3੦ safe ੪੦ happy\npicture courtesy prajavani bhoomika 26072014 unicef",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

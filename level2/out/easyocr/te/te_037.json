@@ -1,0 +1,41 @@
+{
+  "page_id": "te_037",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0037pro_raw.pdf",
+    "page_index": 27,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "C Listen] ೩id [ead ೩loud. equality humanity\nsuperstition\ndiscrimination]\nd. Read the Dassase carefully and complete the followins. [u]] [೩me [now] ೩S Date of birth Birth place A messase t0 society\nC\nAdd ~[]eSS t0 the IOrd ೩nd make ೩ neಚ IOrd.\nHot Rxample kid sad d೩[k Teak [೩it\n[]CSS\nkindmess\n+\n[ Read ೩d obser ve underlined IOrdS. Gadse Mahar೩j was ೩ saint in Maharashtr೩. His name was Debuji. He Jived & simple ]ife. He tausht people t0 be kind. 8 Now fil] in the blanks with the proper words [rom the box. ]e they his thejr She hex\nMeer೩ ]oves books . Rohan h೩s ೩ bicycle. The birds ೩re i[ the nest. Teads every nisht. Tides it every d೩) . ೩0 sinsinಔ . [avourite book bicycle jS [est js O] the Ted. b[anch.\n[ox the 'Teache]' Encour೩se ]earmers [0 collect information o[ diffetent saints fTom Maharashtra Encour೩se them [@ [ead books ೩bout saints. Encourase them t0 ta]k ೩bout the key elementslevents, ide೩s from this [esson.\n[8",
+      "text_nfc": "C Listen] ೩id [ead ೩loud. equality humanity\nsuperstition\ndiscrimination]\nd. Read the Dassase carefully and complete the followins. [u]] [೩me [now] ೩S Date of birth Birth place A messase t0 society\nC\nAdd ~[]eSS t0 the IOrd ೩nd make ೩ neಚ IOrd.\nHot Rxample kid sad d೩[k Teak [೩it\n[]CSS\nkindmess\n+\n[ Read ೩d obser ve underlined IOrdS. Gadse Mahar೩j was ೩ saint in Maharashtr೩. His name was Debuji. He Jived & simple ]ife. He tausht people t0 be kind. 8 Now fil] in the blanks with the proper words [rom the box. ]e they his thejr She hex\nMeer೩ ]oves books . Rohan h೩s ೩ bicycle. The birds ೩re i[ the nest. Teads every nisht. Tides it every d೩) . ೩0 sinsinಔ . [avourite book bicycle jS [est js O] the Ted. b[anch.\n[ox the 'Teache]' Encour೩se ]earmers [0 collect information o[ diffetent saints fTom Maharashtra Encour೩se them [@ [ead books ೩bout saints. Encourase them t0 ta]k ೩bout the key elementslevents, ide೩s from this [esson.\n[8",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

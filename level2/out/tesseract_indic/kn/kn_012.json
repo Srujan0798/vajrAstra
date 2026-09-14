@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_012",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+    "page_index": 2,
+    "width": 1654,
+    "height": 2338
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2338
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಇರು\n\nकट फ 5 3\nಲ a e 8B 5 2\nಎ ಗ್ಗೆ Bs 8 wi 8\n3 - कि फट\nBG sf के 2\n8 BR Sx B 3 us] BR\nHD = 9 ಳ್ಳ ane - ce\n| 3 BE SS ww 8\n3 > 3. Be 8 नदी 8 हर\nहै फू ® gp\nNe 8 3 ೫೦\nES ¥e ಇ 6 ಸು दल\nBR ಈ ಡೆ BD\nके ಟು B B 3 ft\nBog & ee\nS2g* B88 Rx 8 4\n೫ ೧೪೫ ಇ ಡಿದ 8388, 35\n४6६४ ४४६६ Bg 8B R\noO Box 8 Kop i cx BLE ರಿ\nBR Se > कई 3 ೮23೫೯೯ के\n8 3 QB BA? 8 QS fe) (| oF\nuae B ; Se Fe oY Be 6\nSEPT 11.1... BE B 3) 12 %\noY ದ eee 8.8 0 B 2) 3 3\nಟ್ಟ pb b fb 9 (en e 38 3) 8\nRK 2 9.3 ae हि iB कै &\nRe WR कर BB \"BB\nಸಭ ಡಿ D Q (ಕೆಂ बट! ¥ Ie\n1g 2 >3 हि है ಟೆ g हि ಓಡ್‌\n3228 B दि sd\n22° BRB BR ¢ 318 8\nog og % oo (03 कि\nಲ ೬.೨... 1೫.೬. 5] 8 @\nS99 ge go है B ಟ್‌ ex\nಎ > > BWR परे हू “Sa. B B. BB\nಬಿಟ್ಟ हु है ७ +, हि Bo\np22 हि 2 Pl 3\ni Ke a » छि\nD BU ea कैं। B 18\nwoo. ಹಗ್‌ = कट कट\nलत w ಎಣ ಇಗ of\nಆ ಬಜ [OF Buda ಳ್‌ ಆ\n\nಡ್‌್‌\nಪ್ರತಿ\n\nಕಡತಕ್ಕೆ.\n\nಣಾ\n\n₹5:\n\n8\noh\n\nಕಾರಿ / ಸಿಬ್ಬಂದಿ / ರ\n\nಪ್ರಾಧಿಕಾರದ ಅಧಿ\n\n6.\n",
+      "text_nfc": "ಇರು\n\nकट फ 5 3\nಲ a e 8B 5 2\nಎ ಗ್ಗೆ Bs 8 wi 8\n3 - कि फट\nBG sf के 2\n8 BR Sx B 3 us] BR\nHD = 9 ಳ್ಳ ane - ce\n| 3 BE SS ww 8\n3 > 3. Be 8 नदी 8 हर\nहै फू ® gp\nNe 8 3 ೫೦\nES ¥e ಇ 6 ಸು दल\nBR ಈ ಡೆ BD\nके ಟು B B 3 ft\nBog & ee\nS2g* B88 Rx 8 4\n೫ ೧೪೫ ಇ ಡಿದ 8388, 35\n४6६४ ४४६६ Bg 8B R\noO Box 8 Kop i cx BLE ರಿ\nBR Se > कई 3 ೮23೫೯೯ के\n8 3 QB BA? 8 QS fe) (| oF\nuae B ; Se Fe oY Be 6\nSEPT 11.1... BE B 3) 12 %\noY ದ eee 8.8 0 B 2) 3 3\nಟ್ಟ pb b fb 9 (en e 38 3) 8\nRK 2 9.3 ae हि iB कै &\nRe WR कर BB \"BB\nಸಭ ಡಿ D Q (ಕೆಂ बट! ¥ Ie\n1g 2 >3 हि है ಟೆ g हि ಓಡ್‌\n3228 B दि sd\n22° BRB BR ¢ 318 8\nog og % oo (03 कि\nಲ ೬.೨... 1೫.೬. 5] 8 @\nS99 ge go है B ಟ್‌ ex\nಎ > > BWR परे हू “Sa. B B. BB\nಬಿಟ್ಟ हु है ७ +, हि Bo\np22 हि 2 Pl 3\ni Ke a » छि\nD BU ea कैं। B 18\nwoo. ಹಗ್‌ = कट कट\nलत w ಎಣ ಇಗ of\nಆ ಬಜ [OF Buda ಳ್‌ ಆ\n\nಡ್‌್‌\nಪ್ರತಿ\n\nಕಡತಕ್ಕೆ.\n\nಣಾ\n\n₹5:\n\n8\noh\n\nಕಾರಿ / ಸಿಬ್ಬಂದಿ / ರ\n\nಪ್ರಾಧಿಕಾರದ ಅಧಿ\n\n6.\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

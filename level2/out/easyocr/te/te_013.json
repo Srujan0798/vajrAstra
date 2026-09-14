@@ -1,0 +1,41 @@
+{
+  "page_id": "te_013",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+    "page_index": 32,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-9ು ತ @೨೬೩೬ (CJl) -ದ: JI~~\n೦ಿ೪ ಅ೨l t ೨೯ `lJ1 '@l ~೬ '| -೨ ಖ5 Ol;೨ ೨೪೬ '( 'ಓ ೨lxೆ1 ಠಘೆ) ~೯~ ೬ ೯ ಕLಿ ರ೫ ರL೨ '@ಧ ) '@u 5J l ತಕೆಜ್ಞ' 'ಓ೩ =,ಡಬ\n೦ಘi =)\n)= _ಡ: ೬  () Jಓಘ J=೩ ಟ J =ವಟ ೆಡ೬ ಜ ರಿlಓ ೨೬1 )= ಅl  ೬ಖ J`3 = ತೊಿ#; ೬J ಲ-L ಅಡ ರಲಮ; (i) ಿ೦ ~ _೨ ಯಯು @ಭ (Cುl) (ಅಹಿ @ತ0 J೨j) ತ೬೨ _ಯ j ೨೦ ೬5೩ <  =,ಡ (ತ) (೬೩j '೨) ಯ೯) ~= )ಘ; Iಭ೯೨೫ (ii) ಯ೦ಣ J`y @~\nJ=, ಯ\n~)#) ೨ $ ೪ಯ೨\n೨೦ ೪l? & ೮~ =೩ (iii) $೬ ಹ = ೯ ಲೆ=ವuು (ಯುI) ೦ ಕಿಇ~ @ಇ ಅ-? _u ಠlಖl J =ೃ+u (ಢ)\n25",
+      "text_nfc": "-9ು ತ @೨೬೩೬ (CJl) -ದ: JI~~\n೦ಿ೪ ಅ೨l t ೨೯ `lJ1 '@l ~೬ '| -೨ ಖ5 Ol;೨ ೨೪೬ '( 'ಓ ೨lxೆ1 ಠಘೆ) ~೯~ ೬ ೯ ಕLಿ ರ೫ ರL೨ '@ಧ ) '@u 5J l ತಕೆಜ್ಞ' 'ಓ೩ =,ಡಬ\n೦ಘi =)\n)= _ಡ: ೬  () Jಓಘ J=೩ ಟ J =ವಟ ೆಡ೬ ಜ ರಿlಓ ೨೬1 )= ಅl  ೬ಖ J`3 = ತೊಿ#; ೬J ಲ-L ಅಡ ರಲಮ; (i) ಿ೦ ~ _೨ ಯಯು @ಭ (Cುl) (ಅಹಿ @ತ0 J೨j) ತ೬೨ _ಯ j ೨೦ ೬5೩ <  =,ಡ (ತ) (೬೩j '೨) ಯ೯) ~= )ಘ; Iಭ೯೨೫ (ii) ಯ೦ಣ J`y @~\nJ=, ಯ\n~)#) ೨ $ ೪ಯ೨\n೨೦ ೪l? & ೮~ =೩ (iii) $೬ ಹ = ೯ ಲೆ=ವuು (ಯುI) ೦ ಕಿಇ~ @ಇ ಅ-? _u ಠlಖl J =ೃ+u (ಢ)\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

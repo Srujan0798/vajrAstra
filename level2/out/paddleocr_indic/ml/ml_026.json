@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_026",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 955,
+    "height": 1387
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        955,
+        1387
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "KOTTAYAM PUBLIC LIBRARY\nMFa\n..Ac. o...1.6.O\nCall o...\nAuthor roanina/rf 1.n\nTleaambmf",
+      "text_nfc": "KOTTAYAM PUBLIC LIBRARY\nMFa\n..Ac. o...1.6.O\nCall o...\nAuthor roanina/rf 1.n\nTleaambmf",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

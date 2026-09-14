@@ -1,0 +1,41 @@
+{
+  "page_id": "te_013",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0013pro_raw.pdf",
+    "page_index": 32,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "-igADl Ugiis (Ci1) -a: Jlgw\nsylasiesl iDgo ypbl wlals U31\n-igo sd ()\nunlgiag igais uila giw ilgmal whr\n-: law Li l BWfurdSt, (4)\n\"onSUssL if JgSn ) ushw gimw USgolis\nunlyl 15y\nI slos P (J)\njlay Sgols\nJSgols 5l\ngf 3lis\nSAST pobyls S3SJ Ng Lo Cwli L ulo Cus(i)\ngalo - urguwsin USN (Ci1)\n(ED1Csb)\ns preojSpl (L)\n(gagasi wgigliliig)\ngS bes lais (ii)\n> e\nD (iii)\nSgwl ois eSjSls (CiJ1)\nLuw SfEg\nSgols\n41 J419 F 15333\nSgf begwherh 6G St UaLjEl (L)\n25",
+      "text_nfc": "-igADl Ugiis (Ci1) -a: Jlgw\nsylasiesl iDgo ypbl wlals U31\n-igo sd ()\nunlgiag igais uila giw ilgmal whr\n-: law Li l BWfurdSt, (4)\n\"onSUssL if JgSn ) ushw gimw USgolis\nunlyl 15y\nI slos P (J)\njlay Sgols\nJSgols 5l\ngf 3lis\nSAST pobyls S3SJ Ng Lo Cwli L ulo Cus(i)\ngalo - urguwsin USN (Ci1)\n(ED1Csb)\ns preojSpl (L)\n(gagasi wgigliliig)\ngS bes lais (ii)\n> e\nD (iii)\nSgwl ois eSjSls (CiJ1)\nLuw SfEg\nSgols\n41 J419 F 15333\nSgf begwherh 6G St UaLjEl (L)\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

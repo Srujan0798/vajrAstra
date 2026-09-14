@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_096",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0019pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾ೯ಟಕಸಕಾ೯ರ\nಗಣಿತ\n10\nUBLISHED\nಹತನಿಂ\nಡರಗ\nಬೀಗ\n-೧\nHuUI s HEHEd!\nNOT TC\nIaHt al a\nNCERT\nರಟೈೀಯ\nಶೈಕಣಿಕಿಸಂಶೋಧನಿಮತುತರಚೀಸಂಳಿ\nತೀ ಅರಅಂದೋ ಮಾಗ೯ ನವದಿಹಅ llಂಂl\nಕನಾ೯ಟಕ\nಪಠೃಪುಸಕಸಂಘಲ\nI\nನೇಅಡರಸ.ಮಲೇಶರಂ\n\nಬಂಗಳೊರು--5೬೦೦೦\n\n\nಜ\nI",
+      "text_nfc": "ಕನಾ೯ಟಕಸಕಾ೯ರ\nಗಣಿತ\n10\nUBLISHED\nಹತನಿಂ\nಡರಗ\nಬೀಗ\n-೧\nHuUI s HEHEd!\nNOT TC\nIaHt al a\nNCERT\nರಟೈೀಯ\nಶೈಕಣಿಕಿಸಂಶೋಧನಿಮತುತರಚೀಸಂಳಿ\nತೀ ಅರಅಂದೋ ಮಾಗ೯ ನವದಿಹಅ llಂಂl\nಕನಾ೯ಟಕ\nಪಠೃಪುಸಕಸಂಘಲ\nI\nನೇಅಡರಸ.ಮಲೇಶರಂ\n\nಬಂಗಳೊರು--5೬೦೦೦\n\n\nಜ\nI",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

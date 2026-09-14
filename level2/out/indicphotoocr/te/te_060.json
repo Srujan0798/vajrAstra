@@ -1,0 +1,41 @@
+{
+  "page_id": "te_060",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0060pro_raw.pdf",
+    "page_index": 115,
+    "width": 1661,
+    "height": 2218
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1661,
+        2218
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహారాష్ట్ర రాష్ట్రపాఠ్యపుస్తక ನಿರ್ಮಿ మరియు పాఠ్యప్రణాళిక పరిశో ధన సంస్థ్ర పుణె౬౪౧ 004\nবহুবলাৰবোৰ तेलुगु गणित इ. वी 4100\nवअभ्यासक्रम संशोधन मंडळ\nx3 4x22x2\n14471 8੦ 12m",
+      "text_nfc": "మహారాష్ట్ర రాష్ట్రపాఠ్యపుస్తక ನಿರ್ಮಿ మరియు పాఠ్యప్రణాళిక పరిశో ధన సంస్థ్ర పుణె౬౪౧ 004\nবহুবলাৰবোৰ तेलुगु गणित इ. वी 4100\nवअभ्यासक्रम संशोधन मंडळ\nx3 4x22x2\n14471 8੦ 12m",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

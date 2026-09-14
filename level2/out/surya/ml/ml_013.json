@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_013",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "surya",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 16,
+    "width": 1608,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1608,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "വിശ്വാസിരാജനം വന്നതായി വിശ്വാസം ചെയ്തു.\nಹೆರ್‌ಹಾಲ್ ಪ್ರಿಗೆಪಿಲ್‌ಹಾಗಿದ್ದ ಪ್ರಾಣಾ-ಗ್ರಹಂ. \"ಹೆರ್\"\nആത്മാവുകൾ അനുസൃതപരിവർത്തനങ്ങൾക്കു\nപാദിത്തന്നെ ഈ മൃതിമിൽ കേരളപത്തിനില്ലെന്ന\nಗಾಜೀವ್ಯ ಸಂಸ್ಥೆ ಸಂಸ್ಥೆ ನಿಜಾಂಸ್ಕಾರ ನ\nHandwritten notes at the top of the page, including the words \"Handwritten notes\" and \"Handwritten notes\".\n2 പച്ചങ്ങളും, 2൦ മീറ്റർ തല ചെറിയ പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്ത\nപദ്രാബോം രാഷ്ട്ര 23 മുതിഷ്ഠ മാധവാ - സ്നേർജ്റ\nQ. N., a Lomo - omionis allei (m.z.) - Concoleronius .\nnominaleyos ozisosemonzoz uziezze\nபயன்பாடு கோணத்திற்கானது\nSignificance\nഉപോഷകം തല കാര്യം ചിറ്റലപ്പമ്പി\nദേശത്ത് വെള്ള സ്ഥലത്തെപ്പുറം ദേവന്തപിള്ള രൂപ\nஉலகம்பல் . 'சமத்தாலும்' - முன்\n- B. ಶ್ರೀರಾಮಾ ಮಾಸ್ತು ಸ್ವಾ ಜ್ಞಾನ ಕರ್ನಾಟಕಾಗಿ -\nThe state of the United States is a state of the United States of America.\nசுவர் குடியரசு",
+      "text_nfc": "വിശ്വാസിരാജനം വന്നതായി വിശ്വാസം ചെയ്തു.\nಹೆರ್‌ಹಾಲ್ ಪ್ರಿಗೆಪಿಲ್‌ಹಾಗಿದ್ದ ಪ್ರಾಣಾ-ಗ್ರಹಂ. \"ಹೆರ್\"\nആത്മാവുകൾ അനുസൃതപരിവർത്തനങ്ങൾക്കു\nപാദിത്തന്നെ ഈ മൃതിമിൽ കേരളപത്തിനില്ലെന്ന\nಗಾಜೀವ್ಯ ಸಂಸ್ಥೆ ಸಂಸ್ಥೆ ನಿಜಾಂಸ್ಕಾರ ನ\nHandwritten notes at the top of the page, including the words \"Handwritten notes\" and \"Handwritten notes\".\n2 പച്ചങ്ങളും, 2൦ മീറ്റർ തല ചെറിയ പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്തിയിലാണ് വിവരങ്ങളും പ്രവൃത്ത\nപദ്രാബോം രാഷ്ട്ര 23 മുതിഷ്ഠ മാധവാ - സ്നേർജ്റ\nQ. N., a Lomo - omionis allei (m.z.) - Concoleronius .\nnominaleyos ozisosemonzoz uziezze\nபயன்பாடு கோணத்திற்கானது\nSignificance\nഉപോഷകം തല കാര്യം ചിറ്റലപ്പമ്പി\nദേശത്ത് വെള്ള സ്ഥലത്തെപ്പുറം ദേവന്തപിള്ള രൂപ\nஉலகம்பல் . 'சமத்தாலும்' - முன்\n- B. ಶ್ರೀರಾಮಾ ಮಾಸ್ತು ಸ್ವಾ ಜ್ಞಾನ ಕರ್ನಾಟಕಾಗಿ -\nThe state of the United States is a state of the United States of America.\nசுவர் குடியரசு",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "surya",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "surya 0.22.1 (surya-2 block mode)"
+  }
+}

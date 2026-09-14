@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_019",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0020pro_raw.pdf",
+    "page_index": 6,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "7\n60long (ola00o\nal6n33 alons, mulodoniodlalgl006300.010 Ollon10oml 00 BnJODQ 6303 mumjomil\nedlollaflogoma.\n630100000, GIOGBnOo mulooonjodlal00609(0rolee106) 016m0(0) 01000JS3.\nGO06108 6303 06ml muorolloo 26n300logmg. 60 3300 alomlseajoud doy\n06m00 0193019321089 000000 63lo8 60093. GIOGGnDO Gmpe6l0Gafoud 6303\noslord 632) mU6oloos 01g6l010d Doleogoma. mumjomil, 2500 Golom 600\n60006033 OS mlecond6) ngoloroog.\nGIOGGODo, 6303 0000600 WO000 OUO09o oldoo @R/LoQooloexorol.\nalomolo moen Q1009166B300 esmsaJ0o1.\n6303 Blaimuo-\nmumiomil 00l0108 6303 (mno QIOOlal Oesonsloleogemioud eocdaloelod\n6303 O6ma (GrOmISQlOgISd 106m/ bool mumjomil 00165 6303 0008 OS061\noglelod Ql21d.\n2500, 6303 6321 mumjomulsaos Goeiol-\n6300000G6TS0, 6D0 036210?\"\nnumiomil 010610103 -\n\"m BoQelo 6303 632/06m. mlomm nonolm 60008 Godoroldlessmho2\"\n632) allomojo vooniaa@rdrorol -\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "text_nfc": "7\n60long (ola00o\nal6n33 alons, mulodoniodlalgl006300.010 Ollon10oml 00 BnJODQ 6303 mumjomil\nedlollaflogoma.\n630100000, GIOGBnOo mulooonjodlal00609(0rolee106) 016m0(0) 01000JS3.\nGO06108 6303 06ml muorolloo 26n300logmg. 60 3300 alomlseajoud doy\n06m00 0193019321089 000000 63lo8 60093. GIOGGnDO Gmpe6l0Gafoud 6303\noslord 632) mU6oloos 01g6l010d Doleogoma. mumjomil, 2500 Golom 600\n60006033 OS mlecond6) ngoloroog.\nGIOGGODo, 6303 0000600 WO000 OUO09o oldoo @R/LoQooloexorol.\nalomolo moen Q1009166B300 esmsaJ0o1.\n6303 Blaimuo-\nmumiomil 00l0108 6303 (mno QIOOlal Oesonsloleogemioud eocdaloelod\n6303 O6ma (GrOmISQlOgISd 106m/ bool mumjomil 00165 6303 0008 OS061\noglelod Ql21d.\n2500, 6303 6321 mumjomulsaos Goeiol-\n6300000G6TS0, 6D0 036210?\"\nnumiomil 010610103 -\n\"m BoQelo 6303 632/06m. mlomm nonolm 60008 Godoroldlessmho2\"\n632) allomojo vooniaa@rdrorol -\nwww.malayalamplus.com\neBooks-459-thinmakal-23",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_097",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0031pro_raw.pdf",
+    "page_index": 90,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6241 break கூற்று\nbreak கூற்று அதை உள்ளடக்கியமடக்கை விட்டு வெளியேறச் செய்கிறது நிரலின் கட்டுப்பாடான thl\nமடக்கின் உடற்பகுதிக்கு வெளியே இ௫க்கும் கூற்றுக்கு பாய்கிறது\nநிபந்தனையின் மதிப்பு தவறு என் ന வ௫ம் ഖബ while அல்லது for மடக்கு செயல்படுத்தப்படும்\nஆனால் break கூற்றை ന பயன்படுத்தி கட்டுப்பாட்டை மடக்கை விட்டு நிறுத்தி வெளியேறச் செய்யமுடியும்\nbreak கூற்று நிறைவேற்றப்படும் போது நிரலின் கட்டுப் பாட்டுபாய்வூ மடக்கை விட்டு வெளியேறி மடக்கு\nஅமைப்பின் ക றுதிக்கு அடுத்து உள்ள குறி ഗ്രണ பகுதியில் இ௫ந்து இயங்க தொடங்கும்\nbreak பின்னலான மடக்கின் உள்ளே இ௫ந்தால் break கூற்று மிக உட்புறமாக inner most\nஅமைந்துள்ள மடக்கை விட்டு வெளியேறும்\nதொடரியல்ஃ\nbreak\nenter loop\nfalse\ncondition\ntrue\nbreak\nyes\nexit loop\nno\nremaining body ofloop\nபடம் 67 break கூற்றின்செயல்பாடு\nfor மடக்கு மற்றும் while மடக்கினுள் break கூற்றின் செயல்பாடு ecy கொடுக்கப்பட்டுள்ளது\nfor var in sequence\nif condition\nbreak\ncode inside for loop\ncode outside for loop\nwhile test expression\ncode inside while loop\nif condition\nbreak\ncode inside while loop\ncode outside while loop\n85 கட்டுப்பாட்டு கட்டமைப்புகள்\n12th computer science tm chapter 6indd 85 11012023 123817",
+      "text_nfc": "6241 break கூற்று\nbreak கூற்று அதை உள்ளடக்கியமடக்கை விட்டு வெளியேறச் செய்கிறது நிரலின் கட்டுப்பாடான thl\nமடக்கின் உடற்பகுதிக்கு வெளியே இ௫க்கும் கூற்றுக்கு பாய்கிறது\nநிபந்தனையின் மதிப்பு தவறு என் ന வ௫ம் ഖബ while அல்லது for மடக்கு செயல்படுத்தப்படும்\nஆனால் break கூற்றை ന பயன்படுத்தி கட்டுப்பாட்டை மடக்கை விட்டு நிறுத்தி வெளியேறச் செய்யமுடியும்\nbreak கூற்று நிறைவேற்றப்படும் போது நிரலின் கட்டுப் பாட்டுபாய்வூ மடக்கை விட்டு வெளியேறி மடக்கு\nஅமைப்பின் ക றுதிக்கு அடுத்து உள்ள குறி ഗ്രണ பகுதியில் இ௫ந்து இயங்க தொடங்கும்\nbreak பின்னலான மடக்கின் உள்ளே இ௫ந்தால் break கூற்று மிக உட்புறமாக inner most\nஅமைந்துள்ள மடக்கை விட்டு வெளியேறும்\nதொடரியல்ஃ\nbreak\nenter loop\nfalse\ncondition\ntrue\nbreak\nyes\nexit loop\nno\nremaining body ofloop\nபடம் 67 break கூற்றின்செயல்பாடு\nfor மடக்கு மற்றும் while மடக்கினுள் break கூற்றின் செயல்பாடு ecy கொடுக்கப்பட்டுள்ளது\nfor var in sequence\nif condition\nbreak\ncode inside for loop\ncode outside for loop\nwhile test expression\ncode inside while loop\nif condition\nbreak\ncode inside while loop\ncode outside while loop\n85 கட்டுப்பாட்டு கட்டமைப்புகள்\n12th computer science tm chapter 6indd 85 11012023 123817",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

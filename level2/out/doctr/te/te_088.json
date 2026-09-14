@@ -1,0 +1,41 @@
+{
+  "page_id": "te_088",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0004pro_raw.pdf",
+    "page_index": 8,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\nDeyXo - 6339 (Section = C)\n4x1=4\n4. Sowess 3085 Boô Js5ven Woos, 885 2s20n Noo0 oobod.\n(i) tscsev 3000053 w' 3830555 565 3og dodsse DeJASh\" 88\nAeSO 5 Soas 30808 ?\n(A) OPADNOR\n(B) eWTANOR\n(C) SosOsod\n(D) Soosdisod\n(ii) lesawer' esT ?\n(A) a, a, 8 e\n(B) a, & e\n(C) es,88, 6 e\n(D) 3,E,e5 eu\n(iii) ina + esey\" 503 OOOT ?\n(A) aNsdev\n(B) asseev\n(C) awaveses\n(D) awwoe\n(iv) DGeos 88 380 5 Soas B0d08 ?\n(A) SorOsod\n(B) OMANOR\n(C) 0,005050500\n(D) EWTASNOR\n11*\n(v) Ses, Wes, SCa, SC, a0 sgy5we es, Co Os esiy Josnos - - ardos\nesoosw edasns 88 MEO 6 NO8s 30808 ?\n(A) a,65650500\n(B) Sowsdasod\n(C) SNOR\n(D) OPANNOR\n9 *Page\nEE\nP.T.O.",
+      "text_nfc": "\nDeyXo - 6339 (Section = C)\n4x1=4\n4. Sowess 3085 Boô Js5ven Woos, 885 2s20n Noo0 oobod.\n(i) tscsev 3000053 w' 3830555 565 3og dodsse DeJASh\" 88\nAeSO 5 Soas 30808 ?\n(A) OPADNOR\n(B) eWTANOR\n(C) SosOsod\n(D) Soosdisod\n(ii) lesawer' esT ?\n(A) a, a, 8 e\n(B) a, & e\n(C) es,88, 6 e\n(D) 3,E,e5 eu\n(iii) ina + esey\" 503 OOOT ?\n(A) aNsdev\n(B) asseev\n(C) awaveses\n(D) awwoe\n(iv) DGeos 88 380 5 Soas B0d08 ?\n(A) SorOsod\n(B) OMANOR\n(C) 0,005050500\n(D) EWTASNOR\n11*\n(v) Ses, Wes, SCa, SC, a0 sgy5we es, Co Os esiy Josnos - - ardos\nesoosw edasns 88 MEO 6 NO8s 30808 ?\n(A) a,65650500\n(B) Sowsdasod\n(C) SNOR\n(D) OPANNOR\n9 *Page\nEE\nP.T.O.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_063",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0030pro_raw.pdf",
+    "page_index": 164,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "२0 35\nLLI १0.1  @l६D@DU I6DIOLIL@ २ 6ाना GITgनorllकठr\n6२l60D6DULI6ODLOLIL६D @६०6oणाBBLILILI GBछi 96]6162]1@5 DooofloofluIo C६D6oruIDb न६णा थl६DUBBLILIGBImgl. 5[64860)6|ा थlpo ILIL|64छ| ९६D CO६O6णTUILD ना6orpio 5!64860)6ा 6LI@|64!g| @६ऊछ C६D6oruIb ना 6ormi JlDUBBLILIGBIpgl. 6२l6OD6DULI6OUDLILI6 २ 6rना,   ६०DनoruImlBनiा थऊन0ा IP @BoilBना   Jo६oi JlJDLUIITनTUD I6oOILILIGBlngl. नDBLIGLIBl, न०ऊऊऊ॰णणीनणfी (Tablet), SoofluIITनiT Doooflनoflऊठाा , 6lLipfluI G#6OD6LUIBIIDना boppio Lin 6२l6OD6DUL]6ODIOLIL|  BIIBoormlBनir   GLIIT6DTO6O6I CO६DD6OTUIIIDनTI छ @७ऊळ nupo. oyoormlऊछi GDLILL मITBoormlBooना YQS8ार @नD6oOILILIgI @lD६DU IनDIOLIL न6णा शlDUऊBLILIGEIpgl.\n10.2 कनण्णfीन्णfी @IबDDबDULIODLDL Loppio @बoन०ठा छंछ्ठीन्oा LIplनooInLo @lनnj ठंठी INTERNET ना 6णTLISIठणr olrl6unBol. INTERconnected NETwork @६०)6ooruILD ना6ठTLIgI BooflLILILL @lJODनDLILOlठठT ठणा 6Dछनीठणा @०oD6o0ILIL ना६णा @lDगTULIO]ऊBLILIGEImgl, @छl B६boll, 6lछntl६, थIB, IBBना Ipmii SoofluIng IlmJolooT IIBनTITSD छoणfl छpooflUIn & @UIBBLILIGEIpg!. ऊLDp #६o थृनणणा GBafl६i, 6O)6OOTUIID IDlB6zo +छछ 6uInuip BनTIoIछ  InD @l(कlpg!. @कl oluInLIngi 6IEUIUID Csomupo, 6gITILTLOIBIT6ाT GBio 6uफ़pl6owIL|L LonmmluIgl. @६D6ooाUIDD LIGDODITUIT DD६OणाऊऊI6णा IOBDऊऊछ, G62]60)6001L_55|@|00, oiLH@b, LloiToflulguo २ ६DऊनTI6२IUI 6२I6ITIRID6DDनाा २ना ऊGolbBlpgl.\nLITLID १० &नण्णी न्णfी @IबDबDUIबOUOLIL @r थpl@sू\n155\n१2th _ Computer Application _ Tamil version CHAPTER १O indd 155\n19-01-2023 17:47:31",
+      "text_nfc": "२0 35\nLLI १0.1  @l६D@DU I6DIOLIL@ २ 6ाना GITgनorllकठr\n6२l60D6DULI6ODLOLIL६D @६०6oणाBBLILILI GBछi 96]6162]1@5 DooofloofluIo C६D6oruIDb न६णा थl६DUBBLILIGBImgl. 5[64860)6|ा थlpo ILIL|64छ| ९६D CO६O6णTUILD ना6orpio 5!64860)6ा 6LI@|64!g| @६ऊछ C६D6oruIb ना 6ormi JlDUBBLILIGBIpgl. 6२l6OD6DULI6OUDLILI6 २ 6rना,   ६०DनoruImlBनiा थऊन0ा IP @BoilBना   Jo६oi JlJDLUIITनTUD I6oOILILIGBlngl. नDBLIGLIBl, न०ऊऊऊ॰णणीनणfी (Tablet), SoofluIITनiT Doooflनoflऊठाा , 6lLipfluI G#6OD6LUIBIIDना boppio Lin 6२l6OD6DUL]6ODIOLIL|  BIIBoormlBनir   GLIIT6DTO6O6I CO६DD6OTUIIIDनTI छ @७ऊळ nupo. oyoormlऊछi GDLILL मITBoormlBooना YQS8ार @नD6oOILILIgI @lD६DU IनDIOLIL न6णा शlDUऊBLILIGEIpgl.\n10.2 कनण्णfीन्णfी @IबDDबDULIODLDL Loppio @बoन०ठा छंछ्ठीन्oा LIplनooInLo @lनnj ठंठी INTERNET ना 6णTLISIठणr olrl6unBol. INTERconnected NETwork @६०)6ooruILD ना6ठTLIgI BooflLILILL @lJODनDLILOlठठT ठणा 6Dछनीठणा @०oD6o0ILIL ना६णा @lDगTULIO]ऊBLILIGEImgl, @छl B६boll, 6lछntl६, थIB, IBBना Ipmii SoofluIng IlmJolooT IIBनTITSD छoणfl छpooflUIn & @UIBBLILIGEIpg!. ऊLDp #६o थृनणणा GBafl६i, 6O)6OOTUIID IDlB6zo +छछ 6uInuip BनTIoIछ  InD @l(कlpg!. @कl oluInLIngi 6IEUIUID Csomupo, 6gITILTLOIBIT6ाT GBio 6uफ़pl6owIL|L LonmmluIgl. @६D6ooाUIDD LIGDODITUIT DD६OणाऊऊI6णा IOBDऊऊछ, G62]60)6001L_55|@|00, oiLH@b, LloiToflulguo २ ६DऊनTI6२IUI 6२I6ITIRID6DDनाा २ना ऊGolbBlpgl.\nLITLID १० &नण्णी न्णfी @IबDबDUIबOUOLIL @r थpl@sू\n155\n१2th _ Computer Application _ Tamil version CHAPTER १O indd 155\n19-01-2023 17:47:31",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

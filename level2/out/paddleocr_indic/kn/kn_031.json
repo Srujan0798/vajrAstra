@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_031",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0032pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಟಕ\nಕನಾ\nಬ\nಇ\nY\nIe.\nನಕಾ೯ರ\nಶಾಲಾ\n೩ಕಣ\nವತು\n\nಸಾಕರತಾಇಲಾಖೆ\nವ\nG\nDepartment of School Education x Literacy\nದಿೀಕ\n೨ಕಣ\n\n೨ಕ೯\nಮಾನಗಿಕ\nವತಡು\nುಂಮಾಜಕ\n೮\nಸಾಸ\nಒಳಗೊಂಡ\nವಿಠ೭\nPhysical Education\nLISHED\nVALU-\nMental and Social wellbeing\nFDUCATION\nIncluding\nT7\nNOT T\nಗನೇತರಗತ\nಏದಾ.ಢ೯ಗಳಚಟುವಟಕಾಪುಸಕ\nActivity Book for Class T Students\n2೦26 -2೦27\n೩ಕಣ\nಸಂಶೋಧನ\nಮತು\nತರಬೇ೩\nಇಲಾಖ\nವ\nಬನಶಂಕರ5ನೇಹಂತ,ಬೆಂಗಳೋರು-ನೀ೧೧೯ನ\n",
+      "text_nfc": "ಟಕ\nಕನಾ\nಬ\nಇ\nY\nIe.\nನಕಾ೯ರ\nಶಾಲಾ\n೩ಕಣ\nವತು\n\nಸಾಕರತಾಇಲಾಖೆ\nವ\nG\nDepartment of School Education x Literacy\nದಿೀಕ\n೨ಕಣ\n\n೨ಕ೯\nಮಾನಗಿಕ\nವತಡು\nುಂಮಾಜಕ\n೮\nಸಾಸ\nಒಳಗೊಂಡ\nವಿಠ೭\nPhysical Education\nLISHED\nVALU-\nMental and Social wellbeing\nFDUCATION\nIncluding\nT7\nNOT T\nಗನೇತರಗತ\nಏದಾ.ಢ೯ಗಳಚಟುವಟಕಾಪುಸಕ\nActivity Book for Class T Students\n2೦26 -2೦27\n೩ಕಣ\nಸಂಶೋಧನ\nಮತು\nತರಬೇ೩\nಇಲಾಖ\nವ\nಬನಶಂಕರ5ನೇಹಂತ,ಬೆಂಗಳೋರು-ನೀ೧೧೯ನ\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

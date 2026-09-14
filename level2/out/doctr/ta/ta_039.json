@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_039",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0005pro_raw.pdf",
+    "page_index": 9,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\n(iii) BLDLprGÔT al5bGsmbLlo LIGOOTLI\n60T60DW SHAU6SLLSBgULD\nGTOJOITMI 560L JugsslugSps ?\n(iv) OFumos G/obroaplonoluftb Quisy LD6015135GDOTU/D GGOTIT,\nOLILITGT\nGLIITGOTD\n5IG50T\nGTOLOIITOI\nLILGTLOSS\nG15TGT@prisor 2\n(v) 560065MGT\nSOnguLLi5Gr\nJoImoot\n55(5551650G\nMULIOOL 155607 61GOTL1605 0oim55.\nSECTION - D (Non-Detail) 10 Marks\nLG3 - FF (5160)G00TLILITL Li) 10 LDSLIOLIGOTE5GIT\n11. Leiaugalenauppisir 6TGJOILD (5 500QULILo 5100G00TLJLITL - os\nBLGGOJ 6T(L515.\n1 x 10 = 10\n(i) 4uoGa (5 G51T607\n(ii) 0900T60G00T3 SITGOOTLQ 5500T60TLDL96500)5\n(iii) 43u 5LDL93605\nSECTION - E (Creative Writing) 17 Marks\nL3 - - 2 (LIGOL Lumpo) 17 LDSLIOLIOOTS5OT\n12. (1) 810551000jLD 5ILPoous 560TG 5096010 6T(LD515.\n1x3=3\n6\nFor Visually Impaired Candidates\n10\n() LImriona1sSDor LBASLULL LDITDDISSDOuTTa LDITGOOTOITT35GIT\nLDLGLD 6TLD5 GOJGOTIQU 0960TIT\nL960TOJC5LD LILpGLOmTIOsODOTs G5IL Mloi Y60LD351 6T(LD515.\n(i)\nAopo OLLITQILD 90B5I 00\n(ii) OI5LD (LOOOT 5ILGLITLD.\n* Page 10of 12 *\n11",
+      "text_nfc": "\n(iii) BLDLprGÔT al5bGsmbLlo LIGOOTLI\n60T60DW SHAU6SLLSBgULD\nGTOJOITMI 560L JugsslugSps ?\n(iv) OFumos G/obroaplonoluftb Quisy LD6015135GDOTU/D GGOTIT,\nOLILITGT\nGLIITGOTD\n5IG50T\nGTOLOIITOI\nLILGTLOSS\nG15TGT@prisor 2\n(v) 560065MGT\nSOnguLLi5Gr\nJoImoot\n55(5551650G\nMULIOOL 155607 61GOTL1605 0oim55.\nSECTION - D (Non-Detail) 10 Marks\nLG3 - FF (5160)G00TLILITL Li) 10 LDSLIOLIGOTE5GIT\n11. Leiaugalenauppisir 6TGJOILD (5 500QULILo 5100G00TLJLITL - os\nBLGGOJ 6T(L515.\n1 x 10 = 10\n(i) 4uoGa (5 G51T607\n(ii) 0900T60G00T3 SITGOOTLQ 5500T60TLDL96500)5\n(iii) 43u 5LDL93605\nSECTION - E (Creative Writing) 17 Marks\nL3 - - 2 (LIGOL Lumpo) 17 LDSLIOLIOOTS5OT\n12. (1) 810551000jLD 5ILPoous 560TG 5096010 6T(LD515.\n1x3=3\n6\nFor Visually Impaired Candidates\n10\n() LImriona1sSDor LBASLULL LDITDDISSDOuTTa LDITGOOTOITT35GIT\nLDLGLD 6TLD5 GOJGOTIQU 0960TIT\nL960TOJC5LD LILpGLOmTIOsODOTs G5IL Mloi Y60LD351 6T(LD515.\n(i)\nAopo OLLITQILD 90B5I 00\n(ii) OI5LD (LOOOT 5ILGLITLD.\n* Page 10of 12 *\n11",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

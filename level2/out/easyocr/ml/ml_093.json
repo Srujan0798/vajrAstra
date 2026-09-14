@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_093",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0022pro_raw.pdf",
+    "page_index": 69,
+    "width": 881,
+    "height": 1340
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        881,
+        1340
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(310 (3UJ೨ಯ'o ೧ Io) 16. 7೨m0 ೧ I@3ಯ12 I@365 ದಿ@೦ \n610)3n0 63 @3   312Jmo 339೧೦ Im1ದon)1m 05503 1QIm Gಯ ೧M೦ @3@01 ೧ m@ 1@) 1೧ೌ  2J1 @೦ 1ವ3ಯಿ @೨@ 10m3 .   (3068J30 6 ೧ @೧I೨೧J (81೧)165 ಹSm <I೧10 63  e೧೧೧ ೧ೊ೦೧೦೧ ೧ J.b @00 @m೦ ೧m15 03 ? Is1.ಿಂ   ದಿ? @೦m 16)  ೨@ {310 3೨m 62 Jb3q10 (೧/1so೧/1s ೧J೧೧1೦ 1ೀ)6013 IR I3@)1. (1ಇ ೧J8 ೧1೧J೨o೧ವMom೧ J@1ಹಡಯ., ೧ I5nJ ೭ !. '%1೧1ogದ೨6$ 0೫ 6fh ವಂ@ 01m ?   (31965.0 ಯ {0 @0) 1 ೧1೧)೨೧೦ ೨೨Gm @೧m(೧೨ c೧ 1 @ G@)@ 18J. m1 J1coeim' @ D೧ಫ೧1ವ ಶಂ @ 7೨ವ ]  Gಣ00 ೧1eJamsl3ಯ G@0) 51R {151 20 (0(s 1೧೨m.010) 1m301 ಹ9j 5m ವಇ೧1 ೧೦೬೧೦ 1೧J15m1 ೧3351036) ಹ೨ons ೧Ju) 1೧J @೧2g೧0 ೧0?'I3 sQmG@asm s1 ೧೦ 0೨m1sರl o ವ3೧6೦೧ 196ಖnsಣ 1EJo 62 J3 @G@೨೮ . 65133 650'0   ೧೨೨೧೨@1  (G79@o೯1.m ೧ I@.5೨ 065 @o  ೧I೨@ 1 ಯ೧೨@06 50o ೧5010) ಖ ವ೧೨೦@g; ೧m@;6na ೧9 0'(2 IS1om) . (310Iಗೊ0೨೨o ೨ ಣ6೦ ಹ೨ 161010   ೧J1on8o ೧೮6೧೦೧ ಯ (೨೦ಯ 10 QImo ಯಿ  1sm6 ಪಿ 36118 (310mo೧Im 63 8@0೨ [೧Qo C೧ 10೨ಐ 63 (03 ೧ I@1ಇಯ೨rm ೧S 07) 1@ು @3 ]393am (10 ಉ೨೦ 0೦ (319 (G10 > J@1೨/10೧ಚ   6m೨6ns೧Im ಯಿ (00) 16೧೧ ಹಿ ಇಖಹಿ ೦ 610೨೧0 @1೧1ಣ @  (310 ಡ3@೧೦ (319 ೧ I@-೨೧೦1 n16eJ@ಐ೨ (G10 @) 251 . .06೧ @mloeJG@೨ 6 ,03 ಹ@೧ IJmu1೧೧@ 23, 60J 3 an3 ೧3, 53೨( ( @r3b೨ ೧ ಣ ?I m೦೨@10 1.6) 6mo ೧೧ 0) ೦೨೦Jo, '310 ೮೧೧ 16೧೦೧ @೧J10 s೨೧lo ೧Jm 1.o ` _~೧ I@೯೨om310b ೧ ೧ಣ 0ಯ೨6 5ಣ 1 00 3m8 q3@   ೧1೧ಯಂ   ೩೫೧J೨c 1. @910 m@@G೧J ro ೧403c1೬Jo@ Gm೧ 19ವ6n5   mcm3@ 18 ೨೧  Q1 6m 6೧mJdDoಹಂ99 1. ಹ೧ o.7 ೧ ೨IO  (m೦ ದ೧೦ 2 6013 ೨m೦೨ಇ1 33m3:",
+      "text_nfc": "(310 (3UJ೨ಯ'o ೧ Io) 16. 7೨m0 ೧ I@3ಯ12 I@365 ದಿ@೦ \n610)3n0 63 @3   312Jmo 339೧೦ Im1ದon)1m 05503 1QIm Gಯ ೧M೦ @3@01 ೧ m@ 1@) 1೧ೌ  2J1 @೦ 1ವ3ಯಿ @೨@ 10m3 .   (3068J30 6 ೧ @೧I೨೧J (81೧)165 ಹSm <I೧10 63  e೧೧೧ ೧ೊ೦೧೦೧ ೧ J.b @00 @m೦ ೧m15 03 ? Is1.ಿಂ   ದಿ? @೦m 16)  ೨@ {310 3೨m 62 Jb3q10 (೧/1so೧/1s ೧J೧೧1೦ 1ೀ)6013 IR I3@)1. (1ಇ ೧J8 ೧1೧J೨o೧ವMom೧ J@1ಹಡಯ., ೧ I5nJ ೭ !. '%1೧1ogದ೨6$ 0೫ 6fh ವಂ@ 01m ?   (31965.0 ಯ {0 @0) 1 ೧1೧)೨೧೦ ೨೨Gm @೧m(೧೨ c೧ 1 @ G@)@ 18J. m1 J1coeim' @ D೧ಫ೧1ವ ಶಂ @ 7೨ವ ]  Gಣ00 ೧1eJamsl3ಯ G@0) 51R {151 20 (0(s 1೧೨m.010) 1m301 ಹ9j 5m ವಇ೧1 ೧೦೬೧೦ 1೧J15m1 ೧3351036) ಹ೨ons ೧Ju) 1೧J @೧2g೧0 ೧0?'I3 sQmG@asm s1 ೧೦ 0೨m1sರl o ವ3೧6೦೧ 196ಖnsಣ 1EJo 62 J3 @G@೨೮ . 65133 650'0   ೧೨೨೧೨@1  (G79@o೯1.m ೧ I@.5೨ 065 @o  ೧I೨@ 1 ಯ೧೨@06 50o ೧5010) ಖ ವ೧೨೦@g; ೧m@;6na ೧9 0'(2 IS1om) . (310Iಗೊ0೨೨o ೨ ಣ6೦ ಹ೨ 161010   ೧J1on8o ೧೮6೧೦೧ ಯ (೨೦ಯ 10 QImo ಯಿ  1sm6 ಪಿ 36118 (310mo೧Im 63 8@0೨ [೧Qo C೧ 10೨ಐ 63 (03 ೧ I@1ಇಯ೨rm ೧S 07) 1@ು @3 ]393am (10 ಉ೨೦ 0೦ (319 (G10 > J@1೨/10೧ಚ   6m೨6ns೧Im ಯಿ (00) 16೧೧ ಹಿ ಇಖಹಿ ೦ 610೨೧0 @1೧1ಣ @  (310 ಡ3@೧೦ (319 ೧ I@-೨೧೦1 n16eJ@ಐ೨ (G10 @) 251 . .06೧ @mloeJG@೨ 6 ,03 ಹ@೧ IJmu1೧೧@ 23, 60J 3 an3 ೧3, 53೨( ( @r3b೨ ೧ ಣ ?I m೦೨@10 1.6) 6mo ೧೧ 0) ೦೨೦Jo, '310 ೮೧೧ 16೧೦೧ @೧J10 s೨೧lo ೧Jm 1.o ` _~೧ I@೯೨om310b ೧ ೧ಣ 0ಯ೨6 5ಣ 1 00 3m8 q3@   ೧1೧ಯಂ   ೩೫೧J೨c 1. @910 m@@G೧J ro ೧403c1೬Jo@ Gm೧ 19ವ6n5   mcm3@ 18 ೨೧  Q1 6m 6೧mJdDoಹಂ99 1. ಹ೧ o.7 ೧ ೨IO  (m೦ ದ೧೦ 2 6013 ೨m೦೨ಇ1 33m3:",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

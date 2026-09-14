@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_083",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0029pro_raw.pdf",
+    "page_index": 5,
+    "width": 1700,
+    "height": 2800
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2800
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(ii) do)slajnmion2o0od 0g0 monoloy 0006100)00001 oINWogjsloleoojom)?\n(A) GM00108\n(B) 02100010\n(C) mosoo\n(D) mlojalimo\n(() \"ollsoon OS68308 aIS901008 myalagagoai.\"mpd @OGOOSO6m 0D63300\n01061000?\n(A) ossqad noalle 00139010gjamos\n(B) 00139000102/00 GOOSaflcoos\n(C) Goosaf mlen 2omoorolaoos\n(D) donsloml 0019900109y0m0s\n(ii) 00G2/0900m 0D63300 0106000?\n(A) bonslomloo 0)0sloceoom) o@molaonGajoud\n(B) 15 2012f0)0 moelmojo 001820010g/18 ossq modcoomons oom\na1061010G21000\n(C) alaionsloog/lmrulos mlom 0(50l006a1001 ogm a1061010G9J008\n(D) GbOSaf Ga100)001001 oaglo.agosjompdgpus\nonil oleono [Section : B]\n5 (a) (OODQ100Jo, Cnoblonago agmloi coudololo-f9jo)d\n[2x1=2]\n(i) a16mJQIo 00LOGeI0Ba.mulapamulrpanjaoo ua.dDaloplexoplos olsm) 001000008\n60008 000U010GP106-63368 COS)o.\n(ii) oamon a1losson) 009100001 emoerolenos agocrom.eolsaapud OOLO0108\n630100ISO @007EloD)@alooel 001990010/03 coomml.\n(b) QnJonlod 010010on38l03 olojonle\n[2x1=2]\n(i) alo-00jomlojos 0g/03olao.oplajogmlo.oplmjogm1los @oel0)0100001 2100108 0300)\n20rdonlaf1slay 0gl08 GGIO coaulcoo oDogm).\n(ii) QjeTs-egjpsoploag QIOmIOn 0008 Oalojalloelo8 allslanoe0ons 0001dhj@dm0s/01)\n@odoawronloog 0l09100g GM00o1 (0031000/S 0000 001990010gj00\n60000).\n(c) lalcoo0o 0081\n[2x1=2]\n(i) 00008 (000108 GIO Bn91s000008 6605J0L01000) do9l Qwlsog/s)\n(ii) a1810105)0)39 00O000d COGaf0ud (10008 (0BOGQI0OS CmD061.\n(d) 0go08le1o 06on5mo GUOQO Q1J00000)0 onlwo OUICOO Q1yo0lo8\n(alcooolao)e\n[2x1=2]\n(i) 01000591.00)00\n(ii) 0S)0000 0010)0\n(iii) conwogles)e\n6(a)006190).00sj0010jonloloogm gooaleno 630) 0llnsx0io00-s0)0la) amoapoonlod\nbo1looo0 Qamyaules)e\n[5]\n(A) apauogoexoplos GOOOO G0d2ela COS63308\n0102/80108\n(B) quogyolaaoujoasmgo alleyodonlago",
+      "text_nfc": "(ii) do)slajnmion2o0od 0g0 monoloy 0006100)00001 oINWogjsloleoojom)?\n(A) GM00108\n(B) 02100010\n(C) mosoo\n(D) mlojalimo\n(() \"ollsoon OS68308 aIS901008 myalagagoai.\"mpd @OGOOSO6m 0D63300\n01061000?\n(A) ossqad noalle 00139010gjamos\n(B) 00139000102/00 GOOSaflcoos\n(C) Goosaf mlen 2omoorolaoos\n(D) donsloml 0019900109y0m0s\n(ii) 00G2/0900m 0D63300 0106000?\n(A) bonslomloo 0)0sloceoom) o@molaonGajoud\n(B) 15 2012f0)0 moelmojo 001820010g/18 ossq modcoomons oom\na1061010G21000\n(C) alaionsloog/lmrulos mlom 0(50l006a1001 ogm a1061010G9J008\n(D) GbOSaf Ga100)001001 oaglo.agosjompdgpus\nonil oleono [Section : B]\n5 (a) (OODQ100Jo, Cnoblonago agmloi coudololo-f9jo)d\n[2x1=2]\n(i) a16mJQIo 00LOGeI0Ba.mulapamulrpanjaoo ua.dDaloplexoplos olsm) 001000008\n60008 000U010GP106-63368 COS)o.\n(ii) oamon a1losson) 009100001 emoerolenos agocrom.eolsaapud OOLO0108\n630100ISO @007EloD)@alooel 001990010/03 coomml.\n(b) QnJonlod 010010on38l03 olojonle\n[2x1=2]\n(i) alo-00jomlojos 0g/03olao.oplajogmlo.oplmjogm1los @oel0)0100001 2100108 0300)\n20rdonlaf1slay 0gl08 GGIO coaulcoo oDogm).\n(ii) QjeTs-egjpsoploag QIOmIOn 0008 Oalojalloelo8 allslanoe0ons 0001dhj@dm0s/01)\n@odoawronloog 0l09100g GM00o1 (0031000/S 0000 001990010gj00\n60000).\n(c) lalcoo0o 0081\n[2x1=2]\n(i) 00008 (000108 GIO Bn91s000008 6605J0L01000) do9l Qwlsog/s)\n(ii) a1810105)0)39 00O000d COGaf0ud (10008 (0BOGQI0OS CmD061.\n(d) 0go08le1o 06on5mo GUOQO Q1J00000)0 onlwo OUICOO Q1yo0lo8\n(alcooolao)e\n[2x1=2]\n(i) 01000591.00)00\n(ii) 0S)0000 0010)0\n(iii) conwogles)e\n6(a)006190).00sj0010jonloloogm gooaleno 630) 0llnsx0io00-s0)0la) amoapoonlod\nbo1looo0 Qamyaules)e\n[5]\n(A) apauogoexoplos GOOOO G0d2ela COS63308\n0102/80108\n(B) quogyolaaoujoasmgo alleyodonlago",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

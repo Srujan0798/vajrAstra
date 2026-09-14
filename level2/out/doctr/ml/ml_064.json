@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_064",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0027pro_raw.pdf",
+    "page_index": 85,
+    "width": 923,
+    "height": 1356
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        923,
+        1356
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "78\nCodond (mjoond\nGroocp2m7ospl0) 1600.02000s\nmounlawolailgaa.g\n6n0 D 00 solejodo OmOS COO 20mOG0J06NO). (BTO\nmuozomjeoslmoalomomaag 600 boilga 00.80000021\n(0000 QAOO belle Groosglwlsons\n002000lm GO\n6y000m2j0000 medo quoRogimeho82-jool GOQ10O0\ncoonpoad 6.0100 myB020 O2000omea0a00000J0001 OICAI\noogolnojmedaone 00200 oelo comlenomomp2gjo\nolomo.\n603 6090800J0D 02J0000006ng01000 0D\nmo (1020000S 0000106010 00300 606molo 6\n00900221 cpooonlodoplam\nJ\nololo.\nGepallelaoon)\nmy\n61QJo n0n0a4203 @1o.aovol-an.00l00 (Y020Q05 OLO\n00300 2000@010001.\n6306M0 aglarrolgoono 0020\ngoooongjool à\nmoloo.\n2500 olol9100.10036>\nQ 60100. 3\nQ1001, DJOOOIO mogin.Jnsla10g-090\no\n6n0 0000 eomlenwo. a\n603 apo@jo.cho@jor) 606m\ncolmo BQonsm muder nu020m6082.0 mudboaGejop\nmuo02od Bonios og)polaflamosal G006! COdOno\n0m/006000 60800Q0 eoolo Qloonejojo!\n0.gpslgorolovolomyoolao 0072/00902-100/q0 OI\ngel OLOOG Qong. awoonJcootymmolod mjoom of\nColomuajo amlg/pamysiaomalap GwoonJomOs\n(joloioseeglo QeOo 21199josmogjo bongo1oo0\n(00660619 BOODO d6060 ainol-ealaamo) omoo\nfno\" 6303 onu2o3lo3ap. aggorolamos\" @oallosoolo20",
+      "text_nfc": "78\nCodond (mjoond\nGroocp2m7ospl0) 1600.02000s\nmounlawolailgaa.g\n6n0 D 00 solejodo OmOS COO 20mOG0J06NO). (BTO\nmuozomjeoslmoalomomaag 600 boilga 00.80000021\n(0000 QAOO belle Groosglwlsons\n002000lm GO\n6y000m2j0000 medo quoRogimeho82-jool GOQ10O0\ncoonpoad 6.0100 myB020 O2000omea0a00000J0001 OICAI\noogolnojmedaone 00200 oelo comlenomomp2gjo\nolomo.\n603 6090800J0D 02J0000006ng01000 0D\nmo (1020000S 0000106010 00300 606molo 6\n00900221 cpooonlodoplam\nJ\nololo.\nGepallelaoon)\nmy\n61QJo n0n0a4203 @1o.aovol-an.00l00 (Y020Q05 OLO\n00300 2000@010001.\n6306M0 aglarrolgoono 0020\ngoooongjool à\nmoloo.\n2500 olol9100.10036>\nQ 60100. 3\nQ1001, DJOOOIO mogin.Jnsla10g-090\no\n6n0 0000 eomlenwo. a\n603 apo@jo.cho@jor) 606m\ncolmo BQonsm muder nu020m6082.0 mudboaGejop\nmuo02od Bonios og)polaflamosal G006! COdOno\n0m/006000 60800Q0 eoolo Qloonejojo!\n0.gpslgorolovolomyoolao 0072/00902-100/q0 OI\ngel OLOOG Qong. awoonJcootymmolod mjoom of\nColomuajo amlg/pamysiaomalap GwoonJomOs\n(joloioseeglo QeOo 21199josmogjo bongo1oo0\n(00660619 BOODO d6060 ainol-ealaamo) omoo\nfno\" 6303 onu2o3lo3ap. aggorolamos\" @oallosoolo20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

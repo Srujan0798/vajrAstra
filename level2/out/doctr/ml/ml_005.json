@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_005",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0006pro_raw.png",
+    "page_index": 0,
+    "width": 384,
+    "height": 530
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        384,
+        530
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "\"aners inas aomyaorad\"\ngetmh à 3 - 2446/2017\naonind\nmuonil abnomd\nanayumman-qoo - 693033\nannoent mo.0471 2322841 2338149\nconlet sibrupn@gmail.com\naloel 04.07.2017\nomuesot\nanninss amodndl\nmud,\n(38\nnminsnd\naontnl oruma\nellojcumegte\nnllasoec- aaog auelaiestem miado, 1963\naceme, enungmungo\nmujaum-\nmanuaoubasion cuojom aatajes ngsdmydngo nowaigaghet\nmunaolaesens msnist - muosumun\n(0 montnil oruma a-malnsmnojes 15.03.2017 aloelalee\n-gamt.myd-emls-25480/9 mmud dod.\n(a) Bonind ocumy taaasmojes 17,01.2017 oei ngedmgd.\nmfe-25460/9 mmut agd.\n(1) Bondra ooumy eahsmajes 3105.2017 nei petmgd.\ne/e-25460/17 mmud ddi\nmujaumaglaesed (uDD thaiemlsojom) noemo, enuoymioge monueoubaoal\ncunym got.mpdnge nomiageglet nfmdntege mbouasolosyemer muceumlal\nauyemaoo aodun midaguoemsus gilleeomnaimons mru mumm nopagagoch\nalojeomo\nn0sjeeoem\npaglatseojeaocemn\nautery\ncwaneist\nmololyhelanymamouls mujam () ab gegsedo Batiololesym amaleb\ntnumiuodlgloleeym) aoemo, ecuojmuogo moshoutooml rungem syela-ghos\nmlejel ascleeond avlmomm auoshaunjeyoeramge mujam (2) a eegseso\nBargimleleayem aomjeglego (aumiuoelafloienyemy nohabnd omkrgolsas 22-00\nsaogerales aademaom gsamunbnuesoubo 2a2 squonmont Gnuojo, ageameon\ngsamunonue0ubo mgommamo agoo euslesommamo m awondeng Gnub\nninubo 23-00 anogolao Gaubenjemoen Cargyimal 23-00 aaogamilees\nGnunjaonecg mansa.oubemsleng muuaonuo, afmiantegne, seanjubmmalent nPeno\nl dlaotdim aaogmalage aiosuon/syenshungm). mygid, aperecos\nsngegles adebni anleyoleer 23-00 cnogmalot lnuimilnuoelafloleeym mlanflees",
+      "text_nfc": "\"aners inas aomyaorad\"\ngetmh à 3 - 2446/2017\naonind\nmuonil abnomd\nanayumman-qoo - 693033\nannoent mo.0471 2322841 2338149\nconlet sibrupn@gmail.com\naloel 04.07.2017\nomuesot\nanninss amodndl\nmud,\n(38\nnminsnd\naontnl oruma\nellojcumegte\nnllasoec- aaog auelaiestem miado, 1963\naceme, enungmungo\nmujaum-\nmanuaoubasion cuojom aatajes ngsdmydngo nowaigaghet\nmunaolaesens msnist - muosumun\n(0 montnil oruma a-malnsmnojes 15.03.2017 aloelalee\n-gamt.myd-emls-25480/9 mmud dod.\n(a) Bonind ocumy taaasmojes 17,01.2017 oei ngedmgd.\nmfe-25460/9 mmut agd.\n(1) Bondra ooumy eahsmajes 3105.2017 nei petmgd.\ne/e-25460/17 mmud ddi\nmujaumaglaesed (uDD thaiemlsojom) noemo, enuoymioge monueoubaoal\ncunym got.mpdnge nomiageglet nfmdntege mbouasolosyemer muceumlal\nauyemaoo aodun midaguoemsus gilleeomnaimons mru mumm nopagagoch\nalojeomo\nn0sjeeoem\npaglatseojeaocemn\nautery\ncwaneist\nmololyhelanymamouls mujam () ab gegsedo Batiololesym amaleb\ntnumiuodlgloleeym) aoemo, ecuojmuogo moshoutooml rungem syela-ghos\nmlejel ascleeond avlmomm auoshaunjeyoeramge mujam (2) a eegseso\nBargimleleayem aomjeglego (aumiuoelafloienyemy nohabnd omkrgolsas 22-00\nsaogerales aademaom gsamunbnuesoubo 2a2 squonmont Gnuojo, ageameon\ngsamunonue0ubo mgommamo agoo euslesommamo m awondeng Gnub\nninubo 23-00 anogolao Gaubenjemoen Cargyimal 23-00 aaogamilees\nGnunjaonecg mansa.oubemsleng muuaonuo, afmiantegne, seanjubmmalent nPeno\nl dlaotdim aaogmalage aiosuon/syenshungm). mygid, aperecos\nsngegles adebni anleyoleer 23-00 cnogmalot lnuimilnuoelafloleeym mlanflees",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

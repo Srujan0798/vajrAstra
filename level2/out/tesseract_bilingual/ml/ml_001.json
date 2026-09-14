@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_001",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_bilingual",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0001pro_raw.pdf",
+    "page_index": 0,
+    "width": 1630,
+    "height": 2019
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1630,
+        2019
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "oerorestre oreo reey@Scree\nദൂര\n,णी(क00010069(0#5 ധ്ട്രജ്രസാടിഉ൭\nധര LW ക5!തടജ്രജധ€ഡ,\n(€)\n(ഇത്രേ ട്ര 99 CHWS) “യയ [ക eyruosre fos Foeystreyo omanGm (0)\n\n(8) teecoch@ tame tow wocefaorcw ന്ഭ്രഡയി tos ട്ലടഭേഴ്്‌ട്ര്ജയഉധരധേോട\nree cwscravyS (ow escw avleg_we_rto tacotolr gopama@racfoyo setBaaxW (5)\n\n]\n\nsavy / (omesyro usa = ടട\n\n(Z) ൽ ൭ ധധ്രയമത്ങ്രയ\ntobe . [७ छल (5 [Flee Swemcr?) gotste [0988 ९9100 16 0 08100110 5\nര 2 [७900 प0(0010008%000 cetow മൃഗേഴടേ ധാദ്രേയമതജ്്രയ WHY ‘y\n\nര) & ധ്രജതേ\nMSD ഭ്രമ ¢ @BBE|PeroypotsGe wiscavbe ദൂുമ്രലമടസയയധഗയയി ടട്രിത്രയയാട/ഗ്രയ 5\nര ८. [०00० ധ്രഗയ്ര്യ൦ ട്വ9്രജടതട്രയധൃഭയ ട്രജഉറ്മായ [യ ००009 റൂമ[ഭയ[5[ൽ 7\nര $ ധ്രരട്ഗ്യര്മ Wweywsusawstory 98% മമരത്രയഗാധ്ര൦ ഡാട്ടാട്ല്ര +\n\nqneaasfycrea\n\nPB wo ao Mcvow[Oreer\n\ntwrawfoscuvonfrrtwo ഠ[ധാതയേമമ tBtuvlesyrEe 59028 wowcurw sstw\nLUDWIYCMO@lwr Mevoryorfro [ലട ടിജ്ജേ MBYwoes “ട്രി (രക\ncorhaup goyawscroe set@recuncrs Gp [1000० (ധട്രജ്രയ5 tmcurusctste tors owcreo\nrsecreatstoeyrer omuLwefoorwos ഠ[ഗ്രയയധിത, ‘uvteeoryr~me cfwomer) [wre\nയേഉഡ WIICWLAOFOD WL NVSTOYCOW താധ്രാജ്രനാഗ്ട ഭോ go DLWHCSTONo\nFeyreconw [nee രര tuwoyacayiste wmuneyy ഡഠട്ടാഴ്്രയ tows Mowa,weoetwam\nയേ£ഉമ് ngs 2൭൦ ടഴിയധ goywwfoces’ wecocmacs micwew (po Bsivor@woro\nfuwesro ceogvato ofracrus goBe Ste wrocs F8tvtuwBesa9w (uscBassnoum TAO\nrusctst uvtecue@crs ctuwwusecumcetunwfretwu town testamduvos omcstow\n‘ouscecralsw omcenmiw wor Bethiewotr യാഴ്‌ otowr) vermcn\ncraefoow quote ger jourlee o@recfeu നഗ wom) wwieetocme|sro\nWO Wsta sro torom@unemD ടട്രതഠ'ത്ഭയ (008 susceelwup crucscwoU GD [19000\nERevcetsamegcr goyotoe ടട്[ത്രലായയ്രയാജ 15%'ന്ദാഡ യയ ०600 suscwe\nഗേളളഭ crarowPD WiOMrocscwoU setmoturTe@ ധള്രയ [യ ‘sust@sLIa@wotory ധേധ്മമ്യ\nior tow താത്ഭ[രഡ ദൂമ്രത്രയഗാധ്്ര൦ awcfacfayo setmWw ട്രജ്ട്രയ 'ധ്രാധ്രധ २8\nഭ്ളടത്ടഠട്രയ ത്രത്തായി t@unteasstm Mom ഭ്ര ധാഴരതാട[ഡയധയേ\nളു eeneafecrra Fymcr oncefen SstSawtscwo രായ |\n\n. SPO) (9ഗാട്രയ Gey y= UORDeS\nSIU EOL WV TVAV IVI 70:\n08 : നത്‌ 1107 - 1001 XI: 55छू3\n113 JUIUISSISSY IANBUILUNG PUuodIS\n\n10] 10105ാ00 [നട\n",
+      "text_nfc": "oerorestre oreo reey@Scree\nദൂര\n,णी(क00010069(0#5 ധ്ട്രജ്രസാടിഉ൭\nധര LW ക5!തടജ്രജധ€ഡ,\n(€)\n(ഇത്രേ ട്ര 99 CHWS) “യയ [ക eyruosre fos Foeystreyo omanGm (0)\n\n(8) teecoch@ tame tow wocefaorcw ന്ഭ്രഡയി tos ട്ലടഭേഴ്്‌ട്ര്ജയഉധരധേോട\nree cwscravyS (ow escw avleg_we_rto tacotolr gopama@racfoyo setBaaxW (5)\n\n]\n\nsavy / (omesyro usa = ടട\n\n(Z) ൽ ൭ ധധ്രയമത്ങ്രയ\ntobe . [७ छल (5 [Flee Swemcr?) gotste [0988 ९9100 16 0 08100110 5\nര 2 [७900 प0(0010008%000 cetow മൃഗേഴടേ ധാദ്രേയമതജ്്രയ WHY ‘y\n\nര) & ധ്രജതേ\nMSD ഭ്രമ ¢ @BBE|PeroypotsGe wiscavbe ദൂുമ്രലമടസയയധഗയയി ടട്രിത്രയയാട/ഗ്രയ 5\nര ८. [०00० ധ്രഗയ്ര്യ൦ ട്വ9്രജടതട്രയധൃഭയ ട്രജഉറ്മായ [യ ००009 റൂമ[ഭയ[5[ൽ 7\nര $ ധ്രരട്ഗ്യര്മ Wweywsusawstory 98% മമരത്രയഗാധ്ര൦ ഡാട്ടാട്ല്ര +\n\nqneaasfycrea\n\nPB wo ao Mcvow[Oreer\n\ntwrawfoscuvonfrrtwo ഠ[ധാതയേമമ tBtuvlesyrEe 59028 wowcurw sstw\nLUDWIYCMO@lwr Mevoryorfro [ലട ടിജ്ജേ MBYwoes “ട്രി (രക\ncorhaup goyawscroe set@recuncrs Gp [1000० (ധട്രജ്രയ5 tmcurusctste tors owcreo\nrsecreatstoeyrer omuLwefoorwos ഠ[ഗ്രയയധിത, ‘uvteeoryr~me cfwomer) [wre\nയേഉഡ WIICWLAOFOD WL NVSTOYCOW താധ്രാജ്രനാഗ്ട ഭോ go DLWHCSTONo\nFeyreconw [nee രര tuwoyacayiste wmuneyy ഡഠട്ടാഴ്്രയ tows Mowa,weoetwam\nയേ£ഉമ് ngs 2൭൦ ടഴിയധ goywwfoces’ wecocmacs micwew (po Bsivor@woro\nfuwesro ceogvato ofracrus goBe Ste wrocs F8tvtuwBesa9w (uscBassnoum TAO\nrusctst uvtecue@crs ctuwwusecumcetunwfretwu town testamduvos omcstow\n‘ouscecralsw omcenmiw wor Bethiewotr യാഴ്‌ otowr) vermcn\ncraefoow quote ger jourlee o@recfeu നഗ wom) wwieetocme|sro\nWO Wsta sro torom@unemD ടട്രതഠ'ത്ഭയ (008 susceelwup crucscwoU GD [19000\nERevcetsamegcr goyotoe ടട്[ത്രലായയ്രയാജ 15%'ന്ദാഡ യയ ०600 suscwe\nഗേളളഭ crarowPD WiOMrocscwoU setmoturTe@ ധള്രയ [യ ‘sust@sLIa@wotory ധേധ്മമ്യ\nior tow താത്ഭ[രഡ ദൂമ്രത്രയഗാധ്്ര൦ awcfacfayo setmWw ട്രജ്ട്രയ 'ധ്രാധ്രധ २8\nഭ്ളടത്ടഠട്രയ ത്രത്തായി t@unteasstm Mom ഭ്ര ധാഴരതാട[ഡയധയേ\nളു eeneafecrra Fymcr oncefen SstSawtscwo രായ |\n\n. SPO) (9ഗാട്രയ Gey y= UORDeS\nSIU EOL WV TVAV IVI 70:\n08 : നത്‌ 1107 - 1001 XI: 55छू3\n113 JUIUISSISSY IANBUILUNG PUuodIS\n\n10] 10105ാ00 [നട\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_bilingual",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (eng+stack)"
+  }
+}

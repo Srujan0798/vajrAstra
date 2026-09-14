@@ -1,0 +1,41 @@
+{
+  "page_id": "te_055",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0055pro_raw.pdf",
+    "page_index": 171,
+    "width": 1658,
+    "height": 2243
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1658,
+        2243
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Jॅ४fo%१ D०४१ ळे॰o९ Qलs NBje JBaiiz ळे॰o९ @६oogs ॅB४ ४ Kop, २)६a बगार्र्ै +07-2 मरागाप्ट् पम्च पाट्यपुस्तक निर्मिती गणित इयत्ता सहावी (तेलुगू माध्यम ) अम्यामयम ' रंशोधन मंडर र 10५.00",
+      "text_nfc": "Jॅ४fo%१ D०४१ ळे॰o९ Qलs NBje JBaiiz ळे॰o९ @६oogs ॅB४ ४ Kop, २)६a बगार्र्ै +07-2 मरागाप्ट् पम्च पाट्यपुस्तक निर्मिती गणित इयत्ता सहावी (तेलुगू माध्यम ) अम्यामयम ' रंशोधन मंडर र 10५.00",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_072",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+    "page_index": 26,
+    "width": 827,
+    "height": 1331
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        827,
+        1331
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "19\n060 (O Q18OS Goo9010.8901000 aupoaleamgnlapsp\n6m\ndo 108eJDJ0 Dgjocolamo. 0ejog0loe Qjela\negangamumuglekeplm aiolojo a -\ncoocg)o00 268\nQolalom 0l00600 S @06m06.2m06n) (083000 8\nololnsmo.\no0lejo 209 allagonlo D0e1olaos\nBroelepoo alogomo (00l060 6000 000005\nà G008000 olajmo.aalalem.\neoppalla3momloooc0eooomos 08do 200007 o0eiol\n6M\nQOS 000 0.160300looon.\na960 (Y06D1000e1\n601300 000 01gla00 060g@a.1m0451 d.9lo1@0db9ongon\n0285 onJeolsdb0ongo, (BO db0000.806ng0, eempo01\n6006030 BOOId sejognolamolemsedgdl 6600J0\nOS G0U00o goiolsonlolasom 06 Q16mo\n3\n6M\ngaunagocols\nmo. BOOId\nQogyoo\n2\n2839160003\neqvoololamo. 3\naa\nnolojomlejo moclovrolejo 810018890300ngucolmgm Q1OCU\n0, Gopoallganoommlapoc0000010803080108010182 60 oanlooal\n6m\n6000 G2/000000901010 alcage12014810 3001000029\n(OS volam6aoong GaJ0alasla6ogigimmmol, 0080\n90 CU3\n(6100 aogypagjalb@smgbajo GIG Qi0U8000l0.21106039000\nG0000090320eJo anelagai@laasgolao,\n206031000\n20l000000 Q0ejolgos alasaoollacco.oyole1ge (310\naoggioo (BYOolgojond aopoalnanagmlapocod 006000\n6m\nOo0o 22000-8160 Boogoglejo 650 emaloagcl\nale 0020a000) 2000010s Boinpayona0.4103900\nmlajog.Smalaolemaleposs, 000 aeisorolad 00e1o\nQoS oolooas) moolaqonsogjopaicejajo mgolmaa",
+      "text_nfc": "19\n060 (O Q18OS Goo9010.8901000 aupoaleamgnlapsp\n6m\ndo 108eJDJ0 Dgjocolamo. 0ejog0loe Qjela\negangamumuglekeplm aiolojo a -\ncoocg)o00 268\nQolalom 0l00600 S @06m06.2m06n) (083000 8\nololnsmo.\no0lejo 209 allagonlo D0e1olaos\nBroelepoo alogomo (00l060 6000 000005\nà G008000 olajmo.aalalem.\neoppalla3momloooc0eooomos 08do 200007 o0eiol\n6M\nQOS 000 0.160300looon.\na960 (Y06D1000e1\n601300 000 01gla00 060g@a.1m0451 d.9lo1@0db9ongon\n0285 onJeolsdb0ongo, (BO db0000.806ng0, eempo01\n6006030 BOOId sejognolamolemsedgdl 6600J0\nOS G0U00o goiolsonlolasom 06 Q16mo\n3\n6M\ngaunagocols\nmo. BOOId\nQogyoo\n2\n2839160003\neqvoololamo. 3\naa\nnolojomlejo moclovrolejo 810018890300ngucolmgm Q1OCU\n0, Gopoallganoommlapoc0000010803080108010182 60 oanlooal\n6m\n6000 G2/000000901010 alcage12014810 3001000029\n(OS volam6aoong GaJ0alasla6ogigimmmol, 0080\n90 CU3\n(6100 aogypagjalb@smgbajo GIG Qi0U8000l0.21106039000\nG0000090320eJo anelagai@laasgolao,\n206031000\n20l000000 Q0ejolgos alasaoollacco.oyole1ge (310\naoggioo (BYOolgojond aopoalnanagmlapocod 006000\n6m\nOo0o 22000-8160 Boogoglejo 650 emaloagcl\nale 0020a000) 2000010s Boinpayona0.4103900\nmlajog.Smalaolemaleposs, 000 aeisorolad 00e1o\nQoS oolooas) moolaqonsogjopaicejajo mgolmaa",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

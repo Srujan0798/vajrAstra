@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_028",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0028pro_raw.pdf",
+    "page_index": 172,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "थ) थIमीLLITODL नDःmनOL फ़ग छंp NaOH २ L६णा ६६ILILILIGछgIDGLIITgI 0 6OD@OLगIछकछी LluJLगIODLQ 6ODःmJOL   (थIEILLITODLIOD)pG&lpgl H Bफ़lul NaOH CH- C + H-CHz - CHO CH3 -CH - CHz CHO\nOH\nJIfLLIT6DLq ६D @n७\nथIBILLISDLI ६ं ६७) @mLगरnB&ी LuLL 6or IT६b\n3\n@l६oनणा @२Iफ़ी @बop JIEILLITODIq नODःmIq ठणT थJनDLLIT६D GmJऊंक नीlनoनOTULIITनणा छl   OOठDT@I LIIQ छनfl६b फ़flकफ&pg!. Lौ 1: छाग्र ऊंफ़्ीठ्ण   २ फ़olu|L ठठा  नD०pLप्रक्व्ण   थषणणl@Iानणा छृl HGJILLITOOII& fBBLLILG छnjLloor ना फ़ीगUIनणfी २ (oIn&lpgl.\nHO + H CH CHO 2\nCH CHO + २ HO\nLIq २: @pp छIjLIनठT   नाफ़्ीगनUIनoflUITनणाgl IjopnG थIUlofluIफ़I   थJनDlq नD०mI @Jlनााना BnjLI6OD6णा 6b छnjLIooनणT  छIछंकी २J६DBI BकDE( थIU lनoflनoUI २  (@I &Gकlpgl H\nCHs C + - CHz CHO\nCHg CH CH CHO\nLII 3: @६loinpl 9 (oIT6णा थJ६DBIBकDE७   थIUlनoflUIIT6णाछl फ़ीl6orn6b HGnILLIOoorppi   alLiol थJ६DLIT6OD६D 2 UoInBGBlpgl. HZOH CHz CH CHz CHO CHz CH- CHz CHO +OH -\nOH ६0D QpLपnछं&ी LuILL6oा 6b\n3\nO१६ILILILILIGSgIDbGLIIgI फ़फ़   थJनDLI६D   @llloगर@In& फjpकoio   JlJoLफ़gl A 0 .loom62|pn थJनDlq 6OD@m६ODL २ GOInBGBlलgl. CH CH- CHO H CHz CH - CH = CH- CHO + Hzo GगILL नणा IT 6Dl ६Dक़p७ 'OH H: (LuL २- ।6णा ६b )\nii) ७0Iकक थJdLI@D G@IककL. @ग॰णगा७   ठl@l६IG@IpI थjनblq 6oक़m(फठाा   थl६D६Dgl &LLGLI6ण छठा   शl६D६Dgl @७ थJनDlq 6o@mt Ioppio @८ BLGLITgOJकछ @ooLullgib थJनDLITOD छलJकक @ीl॰o६णा  क़lBy (IqUJD. थमंफ़नणBUI थJनDLIT६D Gm]कछ @ीl६oDनणUL II6णा छl ७mjकक थJषLIoD ७कlकक भीlन्oवणा थl६Dकoकl कODLL थJJDLIOD छलlकक नीनछनणा ना6णpनoफ़DBLILIGBlpgl  BIाछंफ़ीUIYनTना Jloनणा छंछl ७कlकBOl७oDठणा   @ीlloDनाOlLIITULBGाBID  BODJDD@IULIT8 कlनoLLLILIफ़IgJLD, elbIpoop Lplgog७pफ़६b नानाl छ६D६D ना 6ठTLIछI@JID @ूछ नीl६oDनणTULIITनणा छु।थIफ़ीक LIULlooाmpgl\n169\nXII U१2 Carbonyl Compounds inad 1 ६९\n16-12-2022 20:39:56",
+      "text_nfc": "थ) थIमीLLITODL नDःmनOL फ़ग छंp NaOH २ L६णा ६६ILILILIGछgIDGLIITgI 0 6OD@OLगIछकछी LluJLगIODLQ 6ODःmJOL   (थIEILLITODLIOD)pG&lpgl H Bफ़lul NaOH CH- C + H-CHz - CHO CH3 -CH - CHz CHO\nOH\nJIfLLIT6DLq ६D @n७\nथIBILLISDLI ६ं ६७) @mLगरnB&ी LuLL 6or IT६b\n3\n@l६oनणा @२Iफ़ी @बop JIEILLITODIq नODःmIq ठणT थJनDLLIT६D GmJऊंक नीlनoनOTULIITनणा छl   OOठDT@I LIIQ छनfl६b फ़flकफ&pg!. Lौ 1: छाग्र ऊंफ़्ीठ्ण   २ फ़olu|L ठठा  नD०pLप्रक्व्ण   थषणणl@Iानणा छृl HGJILLITOOII& fBBLLILG छnjLloor ना फ़ीगUIनणfी २ (oIn&lpgl.\nHO + H CH CHO 2\nCH CHO + २ HO\nLIq २: @pp छIjLIनठT   नाफ़्ीगनUIनoflUITनणाgl IjopnG थIUlofluIफ़I   थJनDlq नD०mI @Jlनााना BnjLI6OD6णा 6b छnjLIooनणT  छIछंकी २J६DBI BकDE( थIU lनoflनoUI २  (@I &Gकlpgl H\nCHs C + - CHz CHO\nCHg CH CH CHO\nLII 3: @६loinpl 9 (oIT6णा थJ६DBIBकDE७   थIUlनoflUIIT6णाछl फ़ीl6orn6b HGnILLIOoorppi   alLiol थJ६DLIT6OD६D 2 UoInBGBlpgl. HZOH CHz CH CHz CHO CHz CH- CHz CHO +OH -\nOH ६0D QpLपnछं&ी LuILL6oा 6b\n3\nO१६ILILILILIGSgIDbGLIIgI फ़फ़   थJनDLI६D   @llloगर@In& फjpकoio   JlJoLफ़gl A 0 .loom62|pn थJनDlq 6OD@m६ODL २ GOInBGBlलgl. CH CH- CHO H CHz CH - CH = CH- CHO + Hzo GगILL नणा IT 6Dl ६Dक़p७ 'OH H: (LuL २- ।6णा ६b )\nii) ७0Iकक थJdLI@D G@IककL. @ग॰णगा७   ठl@l६IG@IpI थjनblq 6oक़m(फठाा   थl६D६Dgl &LLGLI6ण छठा   शl६D६Dgl @७ थJनDlq 6o@mt Ioppio @८ BLGLITgOJकछ @ooLullgib थJनDLITOD छलJकक @ीl॰o६णा  क़lBy (IqUJD. थमंफ़नणBUI थJनDLIT६D Gm]कछ @ीl६oDनणUL II6णा छl ७mjकक थJषLIoD ७कlकक भीlन्oवणा थl६Dकoकl कODLL थJJDLIOD छलlकक नीनछनणा ना6णpनoफ़DBLILIGBlpgl  BIाछंफ़ीUIYनTना Jloनणा छंछl ७कlकBOl७oDठणा   @ीlloDनाOlLIITULBGाBID  BODJDD@IULIT8 कlनoLLLILIफ़IgJLD, elbIpoop Lplgog७pफ़६b नानाl छ६D६D ना 6ठTLIछI@JID @ूछ नीl६oDनणTULIITनणा छु।थIफ़ीक LIULlooाmpgl\n169\nXII U१2 Carbonyl Compounds inad 1 ६९\n16-12-2022 20:39:56",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

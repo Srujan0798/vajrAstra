@@ -1,0 +1,41 @@
+{
+  "page_id": "te_034",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0034pro_raw.pdf",
+    "page_index": 75,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "8008 sow '565 d' Nasabos oobna 5008\n- Jeja.\n665 3 ioso 880 eodooss\nSoow. OabrE' wOr n3) s6. 68 503 5530 da2 Daoa Seroaso 28808.\nscoreg oawom cs) 68 s6s JS wO swjod. 68 5 63 wese aaas Dwoa Jaid tod.\nUTTIIDTE 1\n33,508 O!\nOObKE sibs\n> 5080 NOBoows woes seo Doow Nosgor 2380w08.\n> woes ger) NO6000SJ essycs Jeroes ahées SNsad?\n>\ngaoss Josés geo' ardoress 30285 wofogoto sbe asoev egoode Jasabost\n55800 eonge5s wajol.\ndawraws essa, \"go, 222 aaabe 20555 BOJOD. Joes sooes wG6o, ae3\nDoow Be0ns56o, e geress N0080w6o esm woNes gere airé. a50 68 62 5s00\npesonso Josés aes Woo. a0 wdds Beress JOG8000s sosés Dersaivées\nDogdrad. avée Sos JOës arosen adaw 5060 noow wO asoos Beonow. as0\nessas 63)5o0 Jero).\na5o es gere s6o arhéeo SwsS, ess 5W? 68 woes 506ed a50 a5 Sgn\nrasrod. essycs wens Jaosrid. a 25 arogn Sabsrid. eso a5 sosés JOW8 5SS\nW8D a50 5JOsO.",
+      "text_nfc": "8008 sow '565 d' Nasabos oobna 5008\n- Jeja.\n665 3 ioso 880 eodooss\nSoow. OabrE' wOr n3) s6. 68 503 5530 da2 Daoa Seroaso 28808.\nscoreg oawom cs) 68 s6s JS wO swjod. 68 5 63 wese aaas Dwoa Jaid tod.\nUTTIIDTE 1\n33,508 O!\nOObKE sibs\n> 5080 NOBoows woes seo Doow Nosgor 2380w08.\n> woes ger) NO6000SJ essycs Jeroes ahées SNsad?\n>\ngaoss Josés geo' ardoress 30285 wofogoto sbe asoev egoode Jasabost\n55800 eonge5s wajol.\ndawraws essa, \"go, 222 aaabe 20555 BOJOD. Joes sooes wG6o, ae3\nDoow Be0ns56o, e geress N0080w6o esm woNes gere airé. a50 68 62 5s00\npesonso Josés aes Woo. a0 wdds Beress JOG8000s sosés Dersaivées\nDogdrad. avée Sos JOës arosen adaw 5060 noow wO asoos Beonow. as0\nessas 63)5o0 Jero).\na5o es gere s6o arhéeo SwsS, ess 5W? 68 woes 506ed a50 a5 Sgn\nrasrod. essycs wens Jaosrid. a 25 arogn Sabsrid. eso a5 sosés JOW8 5SS\nW8D a50 5JOsO.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

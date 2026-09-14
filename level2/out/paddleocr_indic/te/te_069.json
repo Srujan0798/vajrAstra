@@ -1,0 +1,41 @@
+{
+  "page_id": "te_069",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0069pro_raw.pdf",
+    "page_index": 43,
+    "width": 1653,
+    "height": 2337
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2337
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "FaT\nM41:\nfaeri\naft\nFii\nyash = na\n=\naRaTy\n =\nsn\nq\nd\nyd\ntey\nG = xH5\nfery\ng fy\nFy\n=\nTT!\nTET\n=\n\n\nπ1375\nRGT\nHa\n TET\n=\n3TE\nyay ?: ta yom   f  ya  fat:-\n(&), Hi     ?\n(2)ui qai d hsf nfi?\n(3)   ( s   ?\n(8) TD GS  HE?\nyaiy ?: aaf yam i va ant  faal.\n(8) s   s  e ?\n(2) 4$y   t \n(3) e d s τ 415u st  3?\nyaid 3: n t 3na i fe qfg afal.\n(8) TETI...\n..gighd.\n(R) EαI, πT …..\n..fEgay.\n(3)iaa ...\n..TITTE.\n్ad 8:   3nan i am afal.\n(8 fATI ...\n.....FTET.\n() .......i.fj.\n() FEi  .\nyay:  M     m fa.\n(& ,,\nP3R34B\n(2)H'ai R efsa m faal.\nTioh 3ay\n(8) $   314at :\n491s ta feg aay ..\nT \n(8) afo Cam figh t Hyit y fal.\n(i) ai qai i d.\n(ii) T   I T.\n35",
+      "text_nfc": "FaT\nM41:\nfaeri\naft\nFii\nyash = na\n=\naRaTy\n =\nsn\nq\nd\nyd\ntey\nG = xH5\nfery\ng fy\nFy\n=\nTT!\nTET\n=\n\n\nπ1375\nRGT\nHa\n TET\n=\n3TE\nyay ?: ta yom   f  ya  fat:-\n(&), Hi     ?\n(2)ui qai d hsf nfi?\n(3)   ( s   ?\n(8) TD GS  HE?\nyaiy ?: aaf yam i va ant  faal.\n(8) s   s  e ?\n(2) 4$y   t \n(3) e d s τ 415u st  3?\nyaid 3: n t 3na i fe qfg afal.\n(8) TETI...\n..gighd.\n(R) EαI, πT …..\n..fEgay.\n(3)iaa ...\n..TITTE.\n్ad 8:   3nan i am afal.\n(8 fATI ...\n.....FTET.\n() .......i.fj.\n() FEi  .\nyay:  M     m fa.\n(& ,,\nP3R34B\n(2)H'ai R efsa m faal.\nTioh 3ay\n(8) $   314at :\n491s ta feg aay ..\nT \n(8) afo Cam figh t Hyit y fal.\n(i) ai qai i d.\n(ii) T   I T.\n35",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

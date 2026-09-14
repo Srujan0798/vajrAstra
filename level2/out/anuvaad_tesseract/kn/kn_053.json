@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_053",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0014pro_raw.pdf",
+    "page_index": 32,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "+ Ox ಆಕಗಆ | छत ona |\nअल ನ DOM VOSoOnd = wary Bad revoxky\nBSB, BAY TRS =\"ULONIQ Gx 0! |\n“A we Lvacss Wwoanovs B\\hoty/ Soy ००००४ Bib. apahear, '\n\n) Sous ही ದಂಸೋಗಳ್ಕ, wonra = wero” wefayy eSB 0369 Morse\n\nSohal TEND\n\nही mi Sn) Seaway IID , FoF, FSBO ,NGov oy, oy ag,\n\ne908 = 880, msl > GMT Opw) RO]\n\nQI eTs BASS = mrad VCay ayer\n| Us, wed, “तर, VIO! = “ay, VIOLINS) ee\nnm kos = ಮ चाय Ba ROI <M LOW Owy,\nle, 3 TE, ता ए ७०९४ , (०0८3 एं५3 पर Be 95९९७\nL __] Sipdodos’= smpidn Bodo 5 a macy ಕಾಯಗ Per\nese BD Ky SSVIsS NAL owe =Lreae ' RY ००, = Freer GAD) Cues KFAD BvyYny Ae)\n“seve WAI HG, WOwIwR wy\nSIO BUHWA बाएं uesayy GAT wossspAeF 2  ಬಮರ ಸ WAT, MOS B ACT Sor, 3\n| Bema BRTRO, KS, DY aot WII? डिग्री\nअदा से = gad, न > gach २.3 Byniwor exh, = Bad, Adve\n\nae a caMOg) रू, BUrSn08 Nea pA,\nಜ छु 0८0०0 छपरा ಚುಂನೆ सदर)\n3 af='Gnos FF’ * Iw WBS V= Awe ATMS WAS ली\n\n“a BradRanys = (Khem) = «०8.2 CGO) ಕುಂಡಾ ಪುರ\n\nae\n\nRUTW = MAMA Myr ದು Hi y AVINY , OA, so\n\nಸಕಲಸಗ್ न 0 ०्खए०एवं Susy, tho  उ्तव 2300 AG We\nRad RAOATYSH wom Way , DONG\n@)xnd, 8 Bron’ = Lucy Seow, anew uns ang,\nIse MD \"se\"  ಜಮುಬ aegey = or ee\nनं, AdTY, BS xd HOG , KMMSwsyoKes\nWPS,  ಸವ ನಿಯ , YAF.9 Ded , dB 7 3B\nAVIHL= 0०९००, DIS 40९५४ ं\n(12) RnB WH हो ८४० > :\n| as Fad motes eS ne\nके लक arto,\n\nMTG 4 cy पका,\nI\n\nScanned by CamScanner\n",
+      "text_nfc": "+ Ox ಆಕಗಆ | छत ona |\nअल ನ DOM VOSoOnd = wary Bad revoxky\nBSB, BAY TRS =\"ULONIQ Gx 0! |\n“A we Lvacss Wwoanovs B\\hoty/ Soy ००००४ Bib. apahear, '\n\n) Sous ही ದಂಸೋಗಳ್ಕ, wonra = wero” wefayy eSB 0369 Morse\n\nSohal TEND\n\nही mi Sn) Seaway IID , FoF, FSBO ,NGov oy, oy ag,\n\ne908 = 880, msl > GMT Opw) RO]\n\nQI eTs BASS = mrad VCay ayer\n| Us, wed, “तर, VIO! = “ay, VIOLINS) ee\nnm kos = ಮ चाय Ba ROI <M LOW Owy,\nle, 3 TE, ता ए ७०९४ , (०0८3 एं५3 पर Be 95९९७\nL __] Sipdodos’= smpidn Bodo 5 a macy ಕಾಯಗ Per\nese BD Ky SSVIsS NAL owe =Lreae ' RY ००, = Freer GAD) Cues KFAD BvyYny Ae)\n“seve WAI HG, WOwIwR wy\nSIO BUHWA बाएं uesayy GAT wossspAeF 2  ಬಮರ ಸ WAT, MOS B ACT Sor, 3\n| Bema BRTRO, KS, DY aot WII? डिग्री\nअदा से = gad, न > gach २.3 Byniwor exh, = Bad, Adve\n\nae a caMOg) रू, BUrSn08 Nea pA,\nಜ छु 0८0०0 छपरा ಚುಂನೆ सदर)\n3 af='Gnos FF’ * Iw WBS V= Awe ATMS WAS ली\n\n“a BradRanys = (Khem) = «०8.2 CGO) ಕುಂಡಾ ಪುರ\n\nae\n\nRUTW = MAMA Myr ದು Hi y AVINY , OA, so\n\nಸಕಲಸಗ್ न 0 ०्खए०एवं Susy, tho  उ्तव 2300 AG We\nRad RAOATYSH wom Way , DONG\n@)xnd, 8 Bron’ = Lucy Seow, anew uns ang,\nIse MD \"se\"  ಜಮುಬ aegey = or ee\nनं, AdTY, BS xd HOG , KMMSwsyoKes\nWPS,  ಸವ ನಿಯ , YAF.9 Ded , dB 7 3B\nAVIHL= 0०९००, DIS 40९५४ ं\n(12) RnB WH हो ८४० > :\n| as Fad motes eS ne\nके लक arto,\n\nMTG 4 cy पका,\nI\n\nScanned by CamScanner\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

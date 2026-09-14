@@ -1,0 +1,41 @@
+{
+  "page_id": "te_025",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0025pro_raw.pdf",
+    "page_index": 86,
+    "width": 1675,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1675,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "MAHARASHTRA STATE BUREAU OF TEXTBOOK PRODUCTIONAND CURRICULUM RESEARCH, PUNE.\n५२ २१\nसमग्रा शिक्षा Samagra Shiksha\nमहाराष्ट्र  निर्मिती रअम्चासक्रम रंशुधन मंडळ रन्य पाठयपुस्तका\nमाय इंग्लिश बुक ग्रेड वन\n(For free distribution)",
+      "text_nfc": "MAHARASHTRA STATE BUREAU OF TEXTBOOK PRODUCTIONAND CURRICULUM RESEARCH, PUNE.\n५२ २१\nसमग्रा शिक्षा Samagra Shiksha\nमहाराष्ट्र  निर्मिती रअम्चासक्रम रंशुधन मंडळ रन्य पाठयपुस्तका\nमाय इंग्लिश बुक ग्रेड वन\n(For free distribution)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

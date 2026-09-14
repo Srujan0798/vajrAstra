@@ -1,0 +1,41 @@
+{
+  "page_id": "te_063",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0063pro_raw.pdf",
+    "page_index": 33,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "feifad Elgreil.\naria UGGuIZeI STTEIR HISIT aasal do ET farerer 318 à Gal 311001 fas fmal.\ndi ChEIT dodid.\nHISTT aasal Co\ndold fHOSUIRT 3THG\na los chT g4a RRUTTERITT. RIT doldiet\n31a5a ?\ng4e chleel\ncht dloait ?\nalai.\nGleia 3dRT aai a RIRI ae viroch Gell.\nFrech cedeil uyed yagiara &TUT Hetfr ad 3Tadid. gialeeit a 3STufCe TETIHT a\nfarsgrt HIHR Jdid, a foichuellet 34f4 ardt adeie hTH yuf CRUITHTOT TORIRUT ChlH chidid,\nda 3yeld ZTRT fhooddid. chludial ase gRRerdt gealeil arsqfehal agaiohd Hia. doyeirft gealell\n77 Yaet urTa Ziehlet dlidid; Rg UR 3114U1 4HIa Reit, RR Yolet chef qof chUeTHToT 3714U1 TUR\ndo Tchd Ha. 373TT uRferda CheH 311407 3714reT HHIOR FrIETUT 3TUT 311092ch 31Hd.\nTchRICHch faar CRURTIYIT 371401 tad:ail giaqut 3102ch 3T2. RIITCRICR 3714re HHICIT\nFrIceT Hoeft Miquia 3102ch 38. 3714re HHlCIT aileft Hog MICUt à choiur 37He1, ai 371C HIT\nTorchia HIET! 3714reT 37f 3TYUIRT aileeT Hoeft, ase Hoef-l Jao 13 or Tald. HHICIT arlreT\nfaarient Hog Maeft, TR it Hor CsE faaRigre g-aleil Terchia R dalei.\nPTrHTaT TrEleil chlel TIOET CTETIT daleil Mridet. 3GI., aitet dlaH, arireT faafufien Hd,\nERIdiet Fao3 cerdieit 3THUTR frodlobelld a 3Yrich tioer Fred. 57 GHRIICIT giad Heuft HEHFA\nalat Rea viaHial GRT 37ef choodt. HIHRICh 3TTETR Qoorl, faariza caruecvfct 3714U1 Uchtchld\ngia HEUT Eeth chrn Tehdt.\n372 yegiara THT Trechleel aTyed Hdd dd 3Tudid HIT YT TRTTHT 577 EfRrt HIART sildt, da\nvfiald ZRIEoAt aat.\n000\nP6VNP3\nR3",
+      "text_nfc": "feifad Elgreil.\naria UGGuIZeI STTEIR HISIT aasal do ET farerer 318 à Gal 311001 fas fmal.\ndi ChEIT dodid.\nHISTT aasal Co\ndold fHOSUIRT 3THG\na los chT g4a RRUTTERITT. RIT doldiet\n31a5a ?\ng4e chleel\ncht dloait ?\nalai.\nGleia 3dRT aai a RIRI ae viroch Gell.\nFrech cedeil uyed yagiara &TUT Hetfr ad 3Tadid. gialeeit a 3STufCe TETIHT a\nfarsgrt HIHR Jdid, a foichuellet 34f4 ardt adeie hTH yuf CRUITHTOT TORIRUT ChlH chidid,\nda 3yeld ZTRT fhooddid. chludial ase gRRerdt gealeil arsqfehal agaiohd Hia. doyeirft gealell\n77 Yaet urTa Ziehlet dlidid; Rg UR 3114U1 4HIa Reit, RR Yolet chef qof chUeTHToT 3714U1 TUR\ndo Tchd Ha. 373TT uRferda CheH 311407 3714reT HHIOR FrIETUT 3TUT 311092ch 31Hd.\nTchRICHch faar CRURTIYIT 371401 tad:ail giaqut 3102ch 3T2. RIITCRICR 3714re HHICIT\nFrIceT Hoeft Miquia 3102ch 38. 3714re HHlCIT aileft Hog MICUt à choiur 37He1, ai 371C HIT\nTorchia HIET! 3714reT 37f 3TYUIRT aileeT Hoeft, ase Hoef-l Jao 13 or Tald. HHICIT arlreT\nfaarient Hog Maeft, TR it Hor CsE faaRigre g-aleil Terchia R dalei.\nPTrHTaT TrEleil chlel TIOET CTETIT daleil Mridet. 3GI., aitet dlaH, arireT faafufien Hd,\nERIdiet Fao3 cerdieit 3THUTR frodlobelld a 3Yrich tioer Fred. 57 GHRIICIT giad Heuft HEHFA\nalat Rea viaHial GRT 37ef choodt. HIHRICh 3TTETR Qoorl, faariza caruecvfct 3714U1 Uchtchld\ngia HEUT Eeth chrn Tehdt.\n372 yegiara THT Trechleel aTyed Hdd dd 3Tudid HIT YT TRTTHT 577 EfRrt HIART sildt, da\nvfiald ZRIEoAt aat.\n000\nP6VNP3\nR3",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

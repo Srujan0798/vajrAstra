@@ -1,0 +1,41 @@
+{
+  "page_id": "te_014",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0014pro_raw.pdf",
+    "page_index": 49,
+    "width": 1700,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1700,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "3. 2TTE TT \nmi4\n(8E8-804?\nఘ.)\nfeft3r\ni\n3vily\nP11$\ni gn\nPTT\n3oG\na\nis\nP1S,\nSCRIutT,\n,\nfret\nశే\nchimaT\nsi\nHC\nfl\nπ\n2it.\n. fg-\n\nfHeT$\nae\n+\nad\nqi\nHPTE\n3πTE.\nPTTE\nichM14\n\n(\na\nTTE\n\nRered'\n\n3πT.\nA\nfaH\nfETR\ni\n8.\nకH5\nTs\nక\nisi\nH\nR9\n→\niaRe\nrysf\n?.\nfOH\nfarich\nafeel,\nERT\nasf,\nA\nafael\nπ1\nTich,\n913\n3 4 .\n₹.\n∂s!\ni\nfd,\nqif$i\nT1  f \ni 3  π,\nHgy Ag rlfsrt.\n3401 4\nH (3, Tdc  fuR,\n8.\n348$ E BG #, 4R SETS 4R,\n d\nPTY\nIIR\nH\nifs\nfaET,\n7\nd1fl'\nciet\nt 7 f.\nFai\n141\n-oCoOoooo\n34 = Tl\nfaH = 4gt, efy\n¯ = ₹ౌ\n913 = 4aG, Fsh\nufsei =  Rei\nff = 4U\nTαd = Td\n94 = πj\nq= πsA\n31 = {21\ncinn = yeag\ng = 4GTS\nsri = {mi\nCCCCOCCCCCCCOCCCCCCCO\n329\nDDODODODODODODODODOD\n: a yaa  d f f yha fa :\nyoo\n8.\nf gai of af 3nd?\n?.\nRE ag is as  aad?\n₹.\na'3 f in a feru d ?\n40",
+      "text_nfc": "3. 2TTE TT \nmi4\n(8E8-804?\nఘ.)\nfeft3r\ni\n3vily\nP11$\ni gn\nPTT\n3oG\na\nis\nP1S,\nSCRIutT,\n,\nfret\nశే\nchimaT\nsi\nHC\nfl\nπ\n2it.\n. fg-\n\nfHeT$\nae\n+\nad\nqi\nHPTE\n3πTE.\nPTTE\nichM14\n\n(\na\nTTE\n\nRered'\n\n3πT.\nA\nfaH\nfETR\ni\n8.\nకH5\nTs\nక\nisi\nH\nR9\n→\niaRe\nrysf\n?.\nfOH\nfarich\nafeel,\nERT\nasf,\nA\nafael\nπ1\nTich,\n913\n3 4 .\n₹.\n∂s!\ni\nfd,\nqif$i\nT1  f \ni 3  π,\nHgy Ag rlfsrt.\n3401 4\nH (3, Tdc  fuR,\n8.\n348$ E BG #, 4R SETS 4R,\n d\nPTY\nIIR\nH\nifs\nfaET,\n7\nd1fl'\nciet\nt 7 f.\nFai\n141\n-oCoOoooo\n34 = Tl\nfaH = 4gt, efy\n¯ = ₹ౌ\n913 = 4aG, Fsh\nufsei =  Rei\nff = 4U\nTαd = Td\n94 = πj\nq= πsA\n31 = {21\ncinn = yeag\ng = 4GTS\nsri = {mi\nCCCCOCCCCCCCOCCCCCCCO\n329\nDDODODODODODODODODOD\n: a yaa  d f f yha fa :\nyoo\n8.\nf gai of af 3nd?\n?.\nRE ag is as  aad?\n₹.\na'3 f in a feru d ?\n40",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

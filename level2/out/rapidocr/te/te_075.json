@@ -1,0 +1,41 @@
+{
+  "page_id": "te_075",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0075pro_raw.pdf",
+    "page_index": 65,
+    "width": 596.6254272460938,
+    "height": 796.1658325195312
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        596.6254272460938,
+        796.1658325195312
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "HERy  ooh Aa a a s s, yo.\nHRo 3iaard $ara \n₹ 36.00",
+      "text_nfc": "HERy  ooh Aa a a s s, yo.\nHRo 3iaard $ara \n₹ 36.00",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

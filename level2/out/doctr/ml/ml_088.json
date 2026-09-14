@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_088",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0017pro_raw.pdf",
+    "page_index": 32,
+    "width": 875,
+    "height": 1308
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        875,
+        1308
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "moe1o 810AL,000.\n000200300 0 G10.0100002000 c0\nCa8bo000 afleoomido\nà\n0600 BO mosoilsa.ad oldjooas).\n6)6)652/0210001 201\n8122 cUmonejo 00) baSDo 00006100 ailco.10000000\n6G sQjom 00elle).\npelamo kno 0,00.000l0mo0m a0\ngo218o 01061815.610 9002@0160003 000 a00m0 labero\nQles 30O a0lm0000 avassqonso0o lo00.\n90210000 60600\n#05l63108002.3090 92026000 alleanoss\nablojojoiles\n8\nFm@Ga.J06a1 acpaulma 0100\n\nQiejpoqaqane0-051\nloolgn.\n29\n0000000090 oadoplalamo 001000 bG\n60000009) 200 Ou\nE50 erono@nilidoonaloonini0219 a0m 01l03000j0 000600\n8100101002000 0gh03soa1lon0 ej20 0102100000.13j0 00\n00060 dolmoool 0009160 OO 02 0 .mo0 0k000 0000\n0600 Geogyccdmlaco 0002000)00 leroloo 0010083000\n2000.000209099 aaeloilcoon lejo\nY2000.011 1.08600000.0100,\n2\nB0Q10 01260 01 pruajjaqmagAS) 0121 0000lejo 010160\nm023000002199011\n1886L10 BIOGOGOI laiga9al0os8\nLOddo QJAIDO 03000000000103\nm9SO1SE0 - 10:0:0 80010 0800 00206036)00 035)000\ncU180 00890015500 leto 80802021 30000.80.10200 (BO\ne0bjo01 G0Q10699 Gajonlno Codol OC0) 0060021\n00056081 4039/000)01010 Coleolennn (0000 0002001000\n916002020 msmeo j069.03001000.85921019001850210196r00 Qe160 00\n09\nmo.\nBromo2ga3nco Biadogeipo emletags ajomoutel\n09000B00 @eosmoaja.o e0o 00m012.\n00603600 ag\n60 00021300000001 10000009.0100. 0100g150lbado 0030 B1\nIn0 Gol00oolad b000loe1010.\n01om 6432070000090\nJ0lo (80 agsmionslos c0pple12g 600003 gwom86ti0",
+      "text_nfc": "moe1o 810AL,000.\n000200300 0 G10.0100002000 c0\nCa8bo000 afleoomido\nà\n0600 BO mosoilsa.ad oldjooas).\n6)6)652/0210001 201\n8122 cUmonejo 00) baSDo 00006100 ailco.10000000\n6G sQjom 00elle).\npelamo kno 0,00.000l0mo0m a0\ngo218o 01061815.610 9002@0160003 000 a00m0 labero\nQles 30O a0lm0000 avassqonso0o lo00.\n90210000 60600\n#05l63108002.3090 92026000 alleanoss\nablojojoiles\n8\nFm@Ga.J06a1 acpaulma 0100\n\nQiejpoqaqane0-051\nloolgn.\n29\n0000000090 oadoplalamo 001000 bG\n60000009) 200 Ou\nE50 erono@nilidoonaloonini0219 a0m 01l03000j0 000600\n8100101002000 0gh03soa1lon0 ej20 0102100000.13j0 00\n00060 dolmoool 0009160 OO 02 0 .mo0 0k000 0000\n0600 Geogyccdmlaco 0002000)00 leroloo 0010083000\n2000.000209099 aaeloilcoon lejo\nY2000.011 1.08600000.0100,\n2\nB0Q10 01260 01 pruajjaqmagAS) 0121 0000lejo 010160\nm023000002199011\n1886L10 BIOGOGOI laiga9al0os8\nLOddo QJAIDO 03000000000103\nm9SO1SE0 - 10:0:0 80010 0800 00206036)00 035)000\ncU180 00890015500 leto 80802021 30000.80.10200 (BO\ne0bjo01 G0Q10699 Gajonlno Codol OC0) 0060021\n00056081 4039/000)01010 Coleolennn (0000 0002001000\n916002020 msmeo j069.03001000.85921019001850210196r00 Qe160 00\n09\nmo.\nBromo2ga3nco Biadogeipo emletags ajomoutel\n09000B00 @eosmoaja.o e0o 00m012.\n00603600 ag\n60 00021300000001 10000009.0100. 0100g150lbado 0030 B1\nIn0 Gol00oolad b000loe1010.\n01om 6432070000090\nJ0lo (80 agsmionslos c0pple12g 600003 gwom86ti0",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

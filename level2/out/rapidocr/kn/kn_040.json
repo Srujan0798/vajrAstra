@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_040",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0041pro_raw.pdf",
+    "page_index": 106,
+    "width": 611.0,
+    "height": 842.0
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        611.0,
+        842.0
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕhpeಟಕ ಲಅತಕಲp ಅಕಾದರು\nಕನೃಡ.ಭವನ.ಬೆ.ಸಿ. ರಸ.ಬಿಂಗಳೂರು--ಆಂ.೦ಂ೭\nನಾಟಕ\nದೂರವಾಣಿ.೦$೦-2೭4$೦2೨\nಲ೪\nKarnataka Lalitkala Academy.\nKannada Bhavan, JC. Road, Bengaluru - 56o oo2\nPhone  0s0 - 224s0297",
+      "text_nfc": "ಕhpeಟಕ ಲಅತಕಲp ಅಕಾದರು\nಕನೃಡ.ಭವನ.ಬೆ.ಸಿ. ರಸ.ಬಿಂಗಳೂರು--ಆಂ.೦ಂ೭\nನಾಟಕ\nದೂರವಾಣಿ.೦$೦-2೭4$೦2೨\nಲ೪\nKarnataka Lalitkala Academy.\nKannada Bhavan, JC. Road, Bengaluru - 56o oo2\nPhone  0s0 - 224s0297",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

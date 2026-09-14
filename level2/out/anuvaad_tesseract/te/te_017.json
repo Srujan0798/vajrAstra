@@ -1,0 +1,41 @@
+{
+  "page_id": "te_017",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0017pro_raw.pdf",
+    "page_index": 47,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "sab : సర్‌, దీనిని సాధించే STS పద్ధతి నాకు తోచింది\n(x + 5) - (23 = 0\n(x +5) = (रख)\nWX 452/33 లేదా X + 5 सु\nxX =-5 + 5 Sox =-5- J23\n\nDADA Fa09%8 ఉదాహరణలు AAG\naa. (1) సాధించండి : 5X? - 4x -3=0\nPES : సమీకరణములో పర్గసమాసము Gok, రూపాంతరము రెండింటి smo Gok, SIS రూపములోకి\nతీసుకురావడానికి, X? Book, గుణకమును 1గా చేయుట వీలుగా ఉంటుంది . SAS ఇచ్చిన సమీకరణమును\n53 భాగించగా,\n, 4 3\nv-=x-==0\n5 5\n“ 2 4 2 2 4 2 2\nఇప్పుడు asSeX? -  X + k = (X - d) అయిన X? =  X + k = x2-2ax + दा,\n\nx -  x నిxX - 2ax की పోల్బగా, సమీకరణము X? + bX +c = 0\n5\n1 2 రూపములో ఉన్సచో, అప్పుడు\n-rax=-4x \". a = ర x 42% am ory\n53 5 vane है| - () + c = 0\nk=@= 2 _4 2\n- 5 25 ఈ రూపములో, ;\n24 3 5 बट) ० (3) రూపములో\nఇప్పుడు, अऋ न FAX- 5 =0 అనగా 2) 332 -c ప.\nx 4. 4 4 3_, రాయవచ్చు .\n5 25 25 5\n2 4 3\n2)-(+ 4 2) =0\n[ ) 5 5)\n~ (x2) 2) 20\n(5) 7 G50=\n. 2y 19\n. नई) एक) 5\nवि 2M 5 y 2 2M\nag Oe esa\n.x= 2 . Wen ऋ 2 WY\n. X = 6 దా ear\n2+ V19 2-J19\n5\n2419 —J19\n.'. వర్గసమీకరణము యొక్క మూలాలు  మరియు 2 प्रा\n\na>=ap=p=p=pap=ap=p=papap=p=apap=a 38 Kredi\n",
+      "text_nfc": "sab : సర్‌, దీనిని సాధించే STS పద్ధతి నాకు తోచింది\n(x + 5) - (23 = 0\n(x +5) = (रख)\nWX 452/33 లేదా X + 5 सु\nxX =-5 + 5 Sox =-5- J23\n\nDADA Fa09%8 ఉదాహరణలు AAG\naa. (1) సాధించండి : 5X? - 4x -3=0\nPES : సమీకరణములో పర్గసమాసము Gok, రూపాంతరము రెండింటి smo Gok, SIS రూపములోకి\nతీసుకురావడానికి, X? Book, గుణకమును 1గా చేయుట వీలుగా ఉంటుంది . SAS ఇచ్చిన సమీకరణమును\n53 భాగించగా,\n, 4 3\nv-=x-==0\n5 5\n“ 2 4 2 2 4 2 2\nఇప్పుడు asSeX? -  X + k = (X - d) అయిన X? =  X + k = x2-2ax + दा,\n\nx -  x నిxX - 2ax की పోల్బగా, సమీకరణము X? + bX +c = 0\n5\n1 2 రూపములో ఉన్సచో, అప్పుడు\n-rax=-4x \". a = ర x 42% am ory\n53 5 vane है| - () + c = 0\nk=@= 2 _4 2\n- 5 25 ఈ రూపములో, ;\n24 3 5 बट) ० (3) రూపములో\nఇప్పుడు, अऋ न FAX- 5 =0 అనగా 2) 332 -c ప.\nx 4. 4 4 3_, రాయవచ్చు .\n5 25 25 5\n2 4 3\n2)-(+ 4 2) =0\n[ ) 5 5)\n~ (x2) 2) 20\n(5) 7 G50=\n. 2y 19\n. नई) एक) 5\nवि 2M 5 y 2 2M\nag Oe esa\n.x= 2 . Wen ऋ 2 WY\n. X = 6 దా ear\n2+ V19 2-J19\n5\n2419 —J19\n.'. వర్గసమీకరణము యొక్క మూలాలు  మరియు 2 प्रा\n\na>=ap=p=p=pap=ap=p=papap=p=apap=a 38 Kredi\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

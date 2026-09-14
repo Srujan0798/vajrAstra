@@ -1,0 +1,41 @@
+{
+  "page_id": "te_030",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0030pro_raw.pdf",
+    "page_index": 91,
+    "width": 1652,
+    "height": 2276
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2276
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "38 39 40\nhand name of the\nwashing steps மளிப்பை\nபெப்படி\n3 30\nrhyming five பாயம்\nword for word with instruments\nnest sound ਦਾ\n28\nword starts\nwith br\nword starts\nwith જાર\nwords with 5 letter\n०० sound days of\nwords\nthe week\n8\nwords end 2 letter\nwith sound words\nstart\nword starts 3 letter\nwith words\nmaharashtra state bureau of iils\nવિદ્ય textbookproduction and ਦਸਗ਼ शिक्षा\ncurriculumresearch pune તા samagra shiksha\nਇਨਕਾਰਸਾਨਵਜੀ\nवअभ्यासक्रम संशोधन मंडळ इंग्लिश ग्रेड for free distribution\nमाय बुक ਟ੍ਰ",
+      "text_nfc": "38 39 40\nhand name of the\nwashing steps மளிப்பை\nபெப்படி\n3 30\nrhyming five பாயம்\nword for word with instruments\nnest sound ਦਾ\n28\nword starts\nwith br\nword starts\nwith જાર\nwords with 5 letter\n०० sound days of\nwords\nthe week\n8\nwords end 2 letter\nwith sound words\nstart\nword starts 3 letter\nwith words\nmaharashtra state bureau of iils\nવિદ્ય textbookproduction and ਦਸਗ਼ शिक्षा\ncurriculumresearch pune તા samagra shiksha\nਇਨਕਾਰਸਾਨਵਜੀ\nवअभ्यासक्रम संशोधन मंडळ इंग्लिश ग्रेड for free distribution\nमाय बुक ਟ੍ਰ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

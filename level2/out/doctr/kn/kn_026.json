@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_026",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0027pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6 D 8\nSEOFO\n200 3780 a3 ToE d30 90033\nas\n-o\nas\nDepartment of School Education & Literacy\n\n8580\n-\nValue Education\n-\nU\n-\n- -\n-\n230 3073 dwDFTe 238308350 art\n-\nActivity Book for Class 2 Students\n2026 - 2027\noots\n3780 HOBoCAN a3 302308 90033\n2\na\n2N3078 33c 003, 2on8od I 560 085.\ni",
+      "text_nfc": "6 D 8\nSEOFO\n200 3780 a3 ToE d30 90033\nas\n-o\nas\nDepartment of School Education & Literacy\n\n8580\n-\nValue Education\n-\nU\n-\n- -\n-\n230 3073 dwDFTe 238308350 art\n-\nActivity Book for Class 2 Students\n2026 - 2027\noots\n3780 HOBoCAN a3 302308 90033\n2\na\n2N3078 33c 003, 2on8od I 560 085.\ni",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

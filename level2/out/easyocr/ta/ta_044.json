@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_044",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0011pro_raw.pdf",
+    "page_index": 11,
+    "width": 1251,
+    "height": 1970
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1251,
+        1970
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "८. ऋOnILG# FIID IFa 8IIDJTIषट।ं\n(ii) फ७JILO# FIIlBlD ना ढष@l थoफ़ऊंBiuGuoui थ॰ मIIDDIBIंr थु. Oluflumi 8 - फIफड़ फ॰ GlaiuujBIar\n(iii) R॰ Olढl.JI@o6!8  छIIIBlJ Jloo GBJ ७७lफ़रंफ़्छ्ठl थJ७lGबoLu 9|: छ ढ्षा ढणoD % uफol GoL @oळ ७- 2floow GmIL७t ऋR॰ Hमy GoILL७B\n(iv ) Oluflunflढंाा ढनष्ण Blफ ७ ढir Glppझफ़छ्l थ॰ wnponooगर Jinpgii @॰्i %० wnponooगफं छआppiw @॰ण्L Lonponooग थ७७glऊ७w छ॰ण्गi Rि॰ DITDpIooग DSIऊGD @॰्i\n(v) थ|flion ना ढगp GlBIT ढ७नींढaा OLTGढा 9|: ounlऊGslooग्र थु. GlrlBD 8/ ५७ I॰ IllD @ ६०\n४०\nBy बl७i upझlळui uDऊंषoयष्ं. @क़ळणाऊ्रं olफ़nLLirpgl @lGu uobollooL शीढा\"॰|ऊंछ २flul Bflwnढा ol@L @u] नG ऊgl न@p॰q. (5)\n@%ी, @नी ना ढ७ p Glgफ़pफ७ ऊ७ @DLLwी ६ @p@l७ow @७uugi GuIIoG७I थषpं॰ीढंा WढDLgl @p@lबolBढा 2 ढा ना ढण . Glpuun% @lJ॰ण्ण Oळ 9|@@ 9@@un8 9|ब+फछ! Lp6)&= ढor @ ढoा . @नfीऊछ oigpl@@i #॰ OLIIGनiाr 8 ढir @७l॰ow @७ढn   छ७छूंछi   ७१ी७कढष p॰. @॰, @न upolu   छ मंफ़ २ ठठग @DLDODUU फब्ग@ २ ७णा irpछ्ू #Iाछंक्ू न्णा I I , LD न०्गी GuDनD ढUनo wut 2p\"\n12--",
+      "text_nfc": "८. ऋOnILG# FIID IFa 8IIDJTIषट।ं\n(ii) फ७JILO# FIIlBlD ना ढष@l थoफ़ऊंBiuGuoui थ॰ मIIDDIBIंr थु. Oluflumi 8 - फIफड़ फ॰ GlaiuujBIar\n(iii) R॰ Olढl.JI@o6!8  छIIIBlJ Jloo GBJ ७७lफ़रंफ़्छ्ठl थJ७lGबoLu 9|: छ ढ्षा ढणoD % uफol GoL @oळ ७- 2floow GmIL७t ऋR॰ Hमy GoILL७B\n(iv ) Oluflunflढंाा ढनष्ण Blफ ७ ढir Glppझफ़छ्l थ॰ wnponooगर Jinpgii @॰्i %० wnponooगफं छआppiw @॰ण्L Lonponooग थ७७glऊ७w छ॰ण्गi Rि॰ DITDpIooग DSIऊGD @॰्i\n(v) थ|flion ना ढगp GlBIT ढ७नींढaा OLTGढा 9|: ounlऊGslooग्र थु. GlrlBD 8/ ५७ I॰ IllD @ ६०\n४०\nBy बl७i upझlळui uDऊंषoयष्ं. @क़ळणाऊ्रं olफ़nLLirpgl @lGu uobollooL शीढा\"॰|ऊंछ २flul Bflwnढा ol@L @u] नG ऊgl न@p॰q. (5)\n@%ी, @नी ना ढ७ p Glgफ़pफ७ ऊ७ @DLLwी ६ @p@l७ow @७uugi GuIIoG७I थषpं॰ीढंा WढDLgl @p@lबolBढा 2 ढा ना ढण . Glpuun% @lJ॰ण्ण Oळ 9|@@ 9@@un8 9|ब+फछ! Lp6)&= ढor @ ढoा . @नfीऊछ oigpl@@i #॰ OLIIGनiाr 8 ढir @७l॰ow @७ढn   छ७छूंछi   ७१ी७कढष p॰. @॰, @न upolu   छ मंफ़ २ ठठग @DLDODUU फब्ग@ २ ७णा irpछ्ू #Iाछंक्ू न्णा I I , LD न०्गी GuDनD ढUनo wut 2p\"\n12--",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

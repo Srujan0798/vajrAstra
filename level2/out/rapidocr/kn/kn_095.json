@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_095",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0018pro_raw.pdf",
+    "page_index": 225,
+    "width": 519.4511108398438,
+    "height": 835.031494140625
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        519.4511108398438,
+        835.031494140625
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಎಶೃತುಳುಸಮಳನ\nಎಶೃಿತುಳುಸಮಳನಾ\nಎಶೃಿತುಳುಸಮಳನಾ\nಪರಸರಪರಪೋಕು ಒಂಪನಿಸಮಳನಾ\nIl ec ll eegoog ggpe gpg pegog\nJeeg geeg geeg geeg\n--egooeg Geg ದeg ದeg gg ದeg\nಜಾತಿಧವೊ೯ದಕಟ್,ಕಡಪನಿಸಮಳನ\nಬೇಧ ನತದಗೋಡಿಜಂಪನಿಸಮುಳನ\nLegog pg gyegec gec?\nI eagsg gGug eeag gyegg ag\nಸಮೇಳನಾಿಸಮೇಳನಾ.... I--ಎಶಿI\nಬಾಸೆದನಲೆಬಲೆಿಕೇನೆ--ಗಾದಿಕಸುಬುತೂಲೆಿಬಲೆ\nಊರಗೊಬುೃಕಡಲಪಬI ತುಳುನಾಡಿತನಸಲ್\nJog #0g2 ?'$ -.oog\nಬೆಲೃಬೇಲಿಬೇರಸಾರಿಮಣೃದಕುಸಿ\nಸಮೇಳನಾ.ಸಮಳನಾ....ಗಿ.ಎಶಿ\nಟ\nಡೆನಾನಡೆನಾನಡೆನಾನಿಡೆನಾನ\n....Degooeg geg oeg poeg pg oeg\nಕಾರ.ಬೆದಒಡಪ್ಕುಡೃಬಂಟಾಳಿಬೊಳೇರ್\nಪತೂರುಕುಡುಮತಳಿಸುಳ ಕಾಸೋಡುಯೇ\nನಾಟಕೆಪದೊನಲಕೆದಿನವರಸದಾಟೊಲೆನಾ...\nಅಲಲ.ಕಜೃಕೊಟೈಲೇಸ್ದಿಸರಿಎನದನಾ\nಸಮೇಳನಾಿಸಮೋಳನಾ... I.ಎಶಿ \nI e\nಭಾಸೈರರಿಕುಕುವಳು\nಏಶೃಿತುಳುಸಮೇಳನೊದಪೊತುಡು\nAU 4ಗ? 9.gy qepesg",
+      "text_nfc": "ಎಶೃತುಳುಸಮಳನ\nಎಶೃಿತುಳುಸಮಳನಾ\nಎಶೃಿತುಳುಸಮಳನಾ\nಪರಸರಪರಪೋಕು ಒಂಪನಿಸಮಳನಾ\nIl ec ll eegoog ggpe gpg pegog\nJeeg geeg geeg geeg\n--egooeg Geg ದeg ದeg gg ದeg\nಜಾತಿಧವೊ೯ದಕಟ್,ಕಡಪನಿಸಮಳನ\nಬೇಧ ನತದಗೋಡಿಜಂಪನಿಸಮುಳನ\nLegog pg gyegec gec?\nI eagsg gGug eeag gyegg ag\nಸಮೇಳನಾಿಸಮೇಳನಾ.... I--ಎಶಿI\nಬಾಸೆದನಲೆಬಲೆಿಕೇನೆ--ಗಾದಿಕಸುಬುತೂಲೆಿಬಲೆ\nಊರಗೊಬುೃಕಡಲಪಬI ತುಳುನಾಡಿತನಸಲ್\nJog #0g2 ?'$ -.oog\nಬೆಲೃಬೇಲಿಬೇರಸಾರಿಮಣೃದಕುಸಿ\nಸಮೇಳನಾ.ಸಮಳನಾ....ಗಿ.ಎಶಿ\nಟ\nಡೆನಾನಡೆನಾನಡೆನಾನಿಡೆನಾನ\n....Degooeg geg oeg poeg pg oeg\nಕಾರ.ಬೆದಒಡಪ್ಕುಡೃಬಂಟಾಳಿಬೊಳೇರ್\nಪತೂರುಕುಡುಮತಳಿಸುಳ ಕಾಸೋಡುಯೇ\nನಾಟಕೆಪದೊನಲಕೆದಿನವರಸದಾಟೊಲೆನಾ...\nಅಲಲ.ಕಜೃಕೊಟೈಲೇಸ್ದಿಸರಿಎನದನಾ\nಸಮೇಳನಾಿಸಮೋಳನಾ... I.ಎಶಿ \nI e\nಭಾಸೈರರಿಕುಕುವಳು\nಏಶೃಿತುಳುಸಮೇಳನೊದಪೊತುಡು\nAU 4ಗ? 9.gy qepesg",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

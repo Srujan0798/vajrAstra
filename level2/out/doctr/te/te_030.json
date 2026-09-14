@@ -1,0 +1,41 @@
+{
+  "page_id": "te_030",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0030pro_raw.pdf",
+    "page_index": 91,
+    "width": 1652,
+    "height": 2276
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1652,
+        2276
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Hand\n36\nwashing steps\n35\nWords with\n00' sound\nWords end\nwith 4t sound\nStart\n37\nCn\n34\nRhyming\nword for\n'nest'\n5 letter\nwords\nWord starts\nA888 with ic'\nFETER\nFRERET\ntona PETTISTA IuaT Tuy PAheNCeE\n38\n33\nWord with\nsound ee'\n39\nName of the\nnational\nanimal\n0\n32\n20\nWord starts\nwith 'cl'\n15\n8\n2\n30\nFive musical\ninstruments\n3 letter\nwords\n25\n26\nMAHARASHTRA STATE BUREAU OF\nTEXTBOOK PRODUCTION AND\nCURRICULUM RESEARCH, PUNE.\nHPI STrT geh is a (For free distribution)\n28\nWord starts\nwith br'\nDays of\nthe week\n2 letter\nwords\nRHel ferait\nSamagra Shiksha\n29\n18\n)",
+      "text_nfc": "Hand\n36\nwashing steps\n35\nWords with\n00' sound\nWords end\nwith 4t sound\nStart\n37\nCn\n34\nRhyming\nword for\n'nest'\n5 letter\nwords\nWord starts\nA888 with ic'\nFETER\nFRERET\ntona PETTISTA IuaT Tuy PAheNCeE\n38\n33\nWord with\nsound ee'\n39\nName of the\nnational\nanimal\n0\n32\n20\nWord starts\nwith 'cl'\n15\n8\n2\n30\nFive musical\ninstruments\n3 letter\nwords\n25\n26\nMAHARASHTRA STATE BUREAU OF\nTEXTBOOK PRODUCTION AND\nCURRICULUM RESEARCH, PUNE.\nHPI STrT geh is a (For free distribution)\n28\nWord starts\nwith br'\nDays of\nthe week\n2 letter\nwords\nRHel ferait\nSamagra Shiksha\n29\n18\n)",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

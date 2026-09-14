@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_031",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 0,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "series g7def set4\nqp code 12\ncandidates must write the qp code\nroll no\non the title page of the answerbook\nനിർദേശങ്ങൾ note\nചോദ്യപേപ്പറിൽ അച്ചടിച്ച 15 പുറങ്ങളുണ്ടെന്ന് please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവരുത്തുക contains 15 printed pages\nപരീക്ഷാർത്ഥി ചോദ്യപേപ്പറിൻ്റെ qp code கப்பஸே on the right hand\nവലതുമുകൾഭാഗത്ത് കൊടുത്തിരിക്കുന്ന side ਰਿ the question paper should be\nചോദ്യപേപ്പർ കോഡ് ഉത്തരക്കടലാസിൻ്റെ written on the title page ਰਿ the answer\naosglos പേജിൽ എഴുതേണ്ടതാണ് book by the candidate\nചോദ്യപേപ്പറിൽ 8 ചോദ്യങ്ങൾ 206msm please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവരുത്തുക contains 8 questions\nഉത്തരം എഴുതുന്നതിനു മുമ്പായി please மா் down the serial number\nഉത്തരക്കടലാസ്സിൽ തന്നിട്ടുള്ള ഇടങ്ങളിൽ ੦ਿ the question in the answerbook at\nചോദ്യത്തിൻ്റെ ക്രമമ്പർ എഴുതുക the கப்பஸே place before attempting 1੮\nചോദ്യപേപ്പർ വായിക്കാൻ 15 മിനിട്ടാണ് 15 minute time has been allotted to\nഅനുവദിച്ചിട്ടുള്ളത് രാവിലെ 1015 m2 read this question paper the question\nചോദ്യപേപ്പർ വിതരണം ചെയ്യുന്നതാണ് paper will be distributed at 1015\nരാവിലെ 1015 മുതൽ 1030 am from 1015 am to 1030 am\n2169\nthe candidates will read the question\nവിദ്യാർത്ഥികൾക്ക്‌ ചോദ്യങ്ങൾ paper only and மா் not write any\nവായിച്ചുനോക്കാനുള്ള സമയമാണ് 23 answer on the answerbook during\nസമയം ഉത്തരക്കടലാസ്സിൽ 63108 ഉത്തരവും this period\nഎഴുതാൻ ശ്രമിക്കരുത്\nമലയാളം\nmalayalam\nഅനുവദിച്ച സമയംപ്പ് മണിക്കൂർ ആകെ മാർക്ക് 80\ntime allowed 3 hours பிரிமைஎண்எப்எல் marks 80\n12 pto",
+      "text_nfc": "series g7def set4\nqp code 12\ncandidates must write the qp code\nroll no\non the title page of the answerbook\nനിർദേശങ്ങൾ note\nചോദ്യപേപ്പറിൽ അച്ചടിച്ച 15 പുറങ്ങളുണ്ടെന്ന് please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവരുത്തുക contains 15 printed pages\nപരീക്ഷാർത്ഥി ചോദ്യപേപ്പറിൻ്റെ qp code கப்பஸே on the right hand\nവലതുമുകൾഭാഗത്ത് കൊടുത്തിരിക്കുന്ന side ਰਿ the question paper should be\nചോദ്യപേപ്പർ കോഡ് ഉത്തരക്കടലാസിൻ്റെ written on the title page ਰਿ the answer\naosglos പേജിൽ എഴുതേണ്ടതാണ് book by the candidate\nചോദ്യപേപ്പറിൽ 8 ചോദ്യങ്ങൾ 206msm please check that this question paper\nദയവുചെയ്ത് ഉറപ്പുവരുത്തുക contains 8 questions\nഉത്തരം എഴുതുന്നതിനു മുമ്പായി please மா் down the serial number\nഉത്തരക്കടലാസ്സിൽ തന്നിട്ടുള്ള ഇടങ്ങളിൽ ੦ਿ the question in the answerbook at\nചോദ്യത്തിൻ്റെ ക്രമമ്പർ എഴുതുക the கப்பஸே place before attempting 1੮\nചോദ്യപേപ്പർ വായിക്കാൻ 15 മിനിട്ടാണ് 15 minute time has been allotted to\nഅനുവദിച്ചിട്ടുള്ളത് രാവിലെ 1015 m2 read this question paper the question\nചോദ്യപേപ്പർ വിതരണം ചെയ്യുന്നതാണ് paper will be distributed at 1015\nരാവിലെ 1015 മുതൽ 1030 am from 1015 am to 1030 am\n2169\nthe candidates will read the question\nവിദ്യാർത്ഥികൾക്ക്‌ ചോദ്യങ്ങൾ paper only and மா் not write any\nവായിച്ചുനോക്കാനുള്ള സമയമാണ് 23 answer on the answerbook during\nസമയം ഉത്തരക്കടലാസ്സിൽ 63108 ഉത്തരവും this period\nഎഴുതാൻ ശ്രമിക്കരുത്\nമലയാളം\nmalayalam\nഅനുവദിച്ച സമയംപ്പ് മണിക്കൂർ ആകെ മാർക്ക് 80\ntime allowed 3 hours பிரிமைஎண்எப்எல் marks 80\n12 pto",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_067",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0028pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "O[ course there are some differences i1 ou] bodies because o[ whic] some bjolo8ica] functions ]ike 8ivin8 birth; producin8 milk etc can happen only j] Temale bodies . Te understand that other than that; there ೩e 10 [imits that nature has set. Socjety makes these Tules and Te, ೩s ಔebers of t]e socjety can chanse them!\nJake  8toups  o[ 4 Discuss   whict jobs Jou ]ave  bee] told [ot tO do because o[ JouT 8ende] [[ow does that make Jou fee]?\n[ousehold manaBement\n[ome builder Doctot Carpenter 8 REPಲ Time   with Teachet [ist what each person i1 the class TTa[ts   to do / [ea[]] ]OTTT and That job oT Tork they would [ike t೦ do o]ce tಊey ೩e ೩1 adult. Discuss how Jou can speak with the people who are [orcin8 8ender Toles o1 you i ೩ respectfu] and assertive manne] .\nThink and Do: That 1ould you say to someone w]o tells yOu that you can t do somethins because you ze ೩ 8ir] o[ boy? TTT]at ೩re soe Tespectfu] and assertive ways to Tespond?\nAnone can do ay job . Gende] does ೊot deterಔine O[ [izit 1[at TTe ca[ Q ೦T achieze.\n25",
+      "text_nfc": "O[ course there are some differences i1 ou] bodies because o[ whic] some bjolo8ica] functions ]ike 8ivin8 birth; producin8 milk etc can happen only j] Temale bodies . Te understand that other than that; there ೩e 10 [imits that nature has set. Socjety makes these Tules and Te, ೩s ಔebers of t]e socjety can chanse them!\nJake  8toups  o[ 4 Discuss   whict jobs Jou ]ave  bee] told [ot tO do because o[ JouT 8ende] [[ow does that make Jou fee]?\n[ousehold manaBement\n[ome builder Doctot Carpenter 8 REPಲ Time   with Teachet [ist what each person i1 the class TTa[ts   to do / [ea[]] ]OTTT and That job oT Tork they would [ike t೦ do o]ce tಊey ೩e ೩1 adult. Discuss how Jou can speak with the people who are [orcin8 8ender Toles o1 you i ೩ respectfu] and assertive manne] .\nThink and Do: That 1ould you say to someone w]o tells yOu that you can t do somethins because you ze ೩ 8ir] o[ boy? TTT]at ೩re soe Tespectfu] and assertive ways to Tespond?\nAnone can do ay job . Gende] does ೊot deterಔine O[ [izit 1[at TTe ca[ Q ೦T achieze.\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

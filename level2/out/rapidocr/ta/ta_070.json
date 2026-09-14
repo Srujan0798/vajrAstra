@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_070",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0037pro_raw.pdf",
+    "page_index": 335,
+    "width": 654.2830200195312,
+    "height": 881.0549926757812
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        654.2830200195312,
+        881.0549926757812
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "குறிப்பு\nXII - கணிதவியல்\n328\n12th_Maths_TM_Vol1_Text Book Dev Team.indd 328\n16-12-202215:43:55",
+      "text_nfc": "குறிப்பு\nXII - கணிதவியல்\n328\n12th_Maths_TM_Vol1_Text Book Dev Team.indd 328\n16-12-202215:43:55",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

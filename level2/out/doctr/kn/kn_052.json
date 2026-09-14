@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_052",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0013pro_raw.pdf",
+    "page_index": 5,
+    "width": 1654,
+    "height": 2338
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2338
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "EO2\n-2-\necdogds\n3\nOF\naad\naoo\nTo\n5 26N06F800BO0S> REFOXESCEOE 83F0 a3\naworsones.\nI. abz Deda aog None ddaat,\nWA00OO ddwats conio eosas azoodo\naegats aydeston ondaasd O0008d\n2N0Wr00 Qs0o8t aowra\n828g\n50 Oune\nadosfde adwowen esodasona Xord awoesswoh ayoestoa ayary aowaas.\n8d0 desnea ayoesrien aaproexbod.\nII. ddaaës oyoltoaod Jozd eaneod\n200300000 edearineeseddo ado ONOFE33 Notod Nowne dabaonss 19600 Rabas\nXonev as sasory 2s0wroa aowsa 132(3)(29)(A)\n828 20 aone aworsswon xaDodd\nNowogats No00 Hownen e0da0a\nadaassres 397e0 daaonot\nIII. eosab OOF a300dd aegaoay ONOFESO Notod Nowne 200abriso-1960d Nabab\ncjotsmod.\n138(3)(2) ne ewoosdod 2N0Wto0 Osoott\naowfa N2S 153e a3 epao aworsswoh\ngdesn3gds\n6 883F OFOTT eosdaw 20N0Wr8000OQsonsleoon ONOFE3E Natod Hone Dababrisb-1960d dabab\nsasocdocz38 abzood deodreos modsnat 13a(2)(ii) dos\naas eao Qadnea Aaaanwa.\n7 aawod 2eyo0 aeg 3aOadooas 8NOF88 X00od Hoone dabanes 19600\nens.goorbreach\n88OFOT\neooda dabas-130\napoaone was 20N0W000 AeyOo Jeabrol\nabodes gwonoa.\n8 Aasors 2sowtomh eonozs aodana 2n BNOF83 Notod Hoans dabaones 19600 dabab\naososto0Q0on\n2300Wr00\nweooda 14 aeon Jaton-XI No eQneesaba,\ne00008A003308\naodarsgas,\n9 880FOT egeios endess 2s0roA ONOF838 Notod Noas Qavanes 19600\nsaron-XII d2 DOSFUOE docesers Dewwa Rabas-14(3)()\nde3es Jatod-XII de\nwas deseoad Kogruogledde aas Notod aedaxsidy\nHooa 3e3e8 oono ewsowoad 38 geneg\naaBFAOJOO.",
+      "text_nfc": "EO2\n-2-\necdogds\n3\nOF\naad\naoo\nTo\n5 26N06F800BO0S> REFOXESCEOE 83F0 a3\naworsones.\nI. abz Deda aog None ddaat,\nWA00OO ddwats conio eosas azoodo\naegats aydeston ondaasd O0008d\n2N0Wr00 Qs0o8t aowra\n828g\n50 Oune\nadosfde adwowen esodasona Xord awoesswoh ayoestoa ayary aowaas.\n8d0 desnea ayoesrien aaproexbod.\nII. ddaaës oyoltoaod Jozd eaneod\n200300000 edearineeseddo ado ONOFE33 Notod Nowne dabaonss 19600 Rabas\nXonev as sasory 2s0wroa aowsa 132(3)(29)(A)\n828 20 aone aworsswon xaDodd\nNowogats No00 Hownen e0da0a\nadaassres 397e0 daaonot\nIII. eosab OOF a300dd aegaoay ONOFESO Notod Nowne 200abriso-1960d Nabab\ncjotsmod.\n138(3)(2) ne ewoosdod 2N0Wto0 Osoott\naowfa N2S 153e a3 epao aworsswoh\ngdesn3gds\n6 883F OFOTT eosdaw 20N0Wr8000OQsonsleoon ONOFE3E Natod Hone Dababrisb-1960d dabab\nsasocdocz38 abzood deodreos modsnat 13a(2)(ii) dos\naas eao Qadnea Aaaanwa.\n7 aawod 2eyo0 aeg 3aOadooas 8NOF88 X00od Hoone dabanes 19600\nens.goorbreach\n88OFOT\neooda dabas-130\napoaone was 20N0W000 AeyOo Jeabrol\nabodes gwonoa.\n8 Aasors 2sowtomh eonozs aodana 2n BNOF83 Notod Hoans dabaones 19600 dabab\naososto0Q0on\n2300Wr00\nweooda 14 aeon Jaton-XI No eQneesaba,\ne00008A003308\naodarsgas,\n9 880FOT egeios endess 2s0roA ONOF838 Notod Noas Qavanes 19600\nsaron-XII d2 DOSFUOE docesers Dewwa Rabas-14(3)()\nde3es Jatod-XII de\nwas deseoad Kogruogledde aas Notod aedaxsidy\nHooa 3e3e8 oono ewsowoad 38 geneg\naaBFAOJOO.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

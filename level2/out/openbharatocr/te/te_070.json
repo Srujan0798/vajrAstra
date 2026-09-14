@@ -1,0 +1,41 @@
+{
+  "page_id": "te_070",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "openbharatocr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0070pro_raw.pdf",
+    "page_index": 99,
+    "width": 1638,
+    "height": 2193
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1638,
+        2193
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మితి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, YE.\n\nइतिहास व नागरिकशास्त्र इ. ८ वी (तेलुगु माध्यम ) = 42.00\n",
+      "text_nfc": "మహారాష్ట్ర రాష్ట్ర పాఠ్యపుస్తక నిర్మితి మరియు పాఠ్యప్రణాళిక పరిశోధన సంస్థ, YE.\n\nइतिहास व नागरिकशास्त्र इ. ८ वी (तेलुगु माध्यम ) = 42.00\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "openbharatocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "openbharatocr 0.4.3 (tesseract mirror)"
+  }
+}

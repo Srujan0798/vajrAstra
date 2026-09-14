@@ -1,0 +1,41 @@
+{
+  "page_id": "te_009",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0009pro_raw.pdf",
+    "page_index": 27,
+    "width": 1656,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1656,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "28 lj806\n111 the cost of depreciation generation funds is 116 sales value variance is the difference between\nequal to standard sales and actual sales\ncost of equity\nbudgeted sales and actual sales\ncost of debt\nও standard sales and budgeted sales\noverall cost of capital\nമനുഷ്യട industry sales and firms sales\ncost of retained\n112 the that the 117 when margin of safety is 20 percent and pv\ninterest rate equates present\nvalue of the expected future cash flows the ratio is 60 percent the profit will be\nto\ninitial cost outlay is 30 percent\n1 arr 1\n33 percent\n2৷ npv 3\n631 12 percent\nও irr\npayback 4 16 percent\n118 the difference between fixed and variable\n113 the most important variable while\ncalculating the of debt cost has ੧ special significance in the\ncost is\npreparation of\nearnings\nmaster budget\ndividends\nflexible budget\nওে investment\ncash budget\n188 rate\nfunctional budget\n114 which one of the following will take place\nwhen 1811 119 the time normally taken in replenishing\n૧ return is not realized as\ncapitalization 2 inventory after the order has been placed is\nunder capitalization gestation time\nmoderate capitalization operating time\nover capitalization lead time\nno capitalization replenishing time\n115 the ratio that indicates ੧ firms commitment 120 market risk is measured by\nto meet shortterm liabilities is called\nbeta coefficient\nproprietory ratio\nebit\nturnover ratio\nroi degree of leverage\ncurrent ratio degree of freedom",
+      "text_nfc": "28 lj806\n111 the cost of depreciation generation funds is 116 sales value variance is the difference between\nequal to standard sales and actual sales\ncost of equity\nbudgeted sales and actual sales\ncost of debt\nও standard sales and budgeted sales\noverall cost of capital\nമനുഷ്യട industry sales and firms sales\ncost of retained\n112 the that the 117 when margin of safety is 20 percent and pv\ninterest rate equates present\nvalue of the expected future cash flows the ratio is 60 percent the profit will be\nto\ninitial cost outlay is 30 percent\n1 arr 1\n33 percent\n2৷ npv 3\n631 12 percent\nও irr\npayback 4 16 percent\n118 the difference between fixed and variable\n113 the most important variable while\ncalculating the of debt cost has ੧ special significance in the\ncost is\npreparation of\nearnings\nmaster budget\ndividends\nflexible budget\nওে investment\ncash budget\n188 rate\nfunctional budget\n114 which one of the following will take place\nwhen 1811 119 the time normally taken in replenishing\n૧ return is not realized as\ncapitalization 2 inventory after the order has been placed is\nunder capitalization gestation time\nmoderate capitalization operating time\nover capitalization lead time\nno capitalization replenishing time\n115 the ratio that indicates ੧ firms commitment 120 market risk is measured by\nto meet shortterm liabilities is called\nbeta coefficient\nproprietory ratio\nebit\nturnover ratio\nroi degree of leverage\ncurrent ratio degree of freedom",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

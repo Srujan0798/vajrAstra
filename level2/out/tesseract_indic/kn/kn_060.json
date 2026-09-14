@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_060",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0021pro_raw.pdf",
+    "page_index": 0,
+    "width": 1359,
+    "height": 1859
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1359,
+        1859
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ\n\nಜಾ\n\nಹತ್ತನೇ ತರಗತಿ\n\nಭಾದ - 1\n\nfrom s ತಳಕ.\n\nएन सी हूँ आर टी\n೫೦೧\n\nರಾಷ್ಟ್ರೀಯ ಶೈಕ್ಷಣಿಕ ಸಂಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಸಂಸ್ಥೆ\nಶ್ರೀ ಅರಜ೦ದೋ ಮಾರ್ಗ ನವದೆಹಅ 10016\n\nಕರ್ನಾಟಕ ಪಠ್ಯಪುಸ್ತಕ ಸಂಘ (ರಿ.)\n6ನೇ ಅಡ್ಡರಸ್ತೆ, ಮಲ್ಲೇಶ್ವರಂ, ಬೆ೦ಗಳೂರು - 560003\n\n",
+      "text_nfc": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ\n\nಜಾ\n\nಹತ್ತನೇ ತರಗತಿ\n\nಭಾದ - 1\n\nfrom s ತಳಕ.\n\nएन सी हूँ आर टी\n೫೦೧\n\nರಾಷ್ಟ್ರೀಯ ಶೈಕ್ಷಣಿಕ ಸಂಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಸಂಸ್ಥೆ\nಶ್ರೀ ಅರಜ೦ದೋ ಮಾರ್ಗ ನವದೆಹಅ 10016\n\nಕರ್ನಾಟಕ ಪಠ್ಯಪುಸ್ತಕ ಸಂಘ (ರಿ.)\n6ನೇ ಅಡ್ಡರಸ್ತೆ, ಮಲ್ಲೇಶ್ವರಂ, ಬೆ೦ಗಳೂರು - 560003\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

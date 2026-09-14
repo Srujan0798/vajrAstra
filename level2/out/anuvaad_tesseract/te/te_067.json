@@ -1,0 +1,41 @@
+{
+  "page_id": "te_067",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0067pro_raw.pdf",
+    "page_index": 29,
+    "width": 1653,
+    "height": 2204
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2204
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "e reassuring :\nconfirming\n\nconfide : share a\nsecret\n\nthrill : great joy\n\nके What two relationships\ndid the teacher offer\nSayali?\n\nto stand by\nsomeone : to support\nsomeone\n\npal : friend\n\nlavished : poured in\ngreat quantity\n\nspontaneously : sudden\nimpulse from within\n\nto be beyond\noneself : to lose\ncontrol of oneself\n\nhysterical laughter :\nuncontrolled laughter\n\nreverie : dreamy sleep\n\ne prime : most important\n\n@ Why did Sayali feel\nlike rejoicing a lot?\n\nthe teachers’ room, after the class. Her tone was not\nof annoyance or anger. Yet an unknown fear made me\nnervous. Reassuring myself that she was a kind-hearted\nteacher and would not punish me, I reached the teachers’\nroom with hesitant steps.\n\nThe teacher greeted me with a smile and asked me\nto sit by her side. Her tender tone turned my sighs into\nsobs. She pulled her chair close to mine and patting\nme on the head, said, “What makes you cry, my child?\nI haven’t said a word to you.” After a brief pause, she\ncontinued, “Tell me what your trouble is. Confide in\nme, for am 1 not like a sister to you?” A rare thrill\nran through my entire frame. For a moment I felt I\nshould cling to her and cry and cry. Of course, I did\nnot do so, but I kept gazing at her with tearful eyes.\n\nTenderly, teacher continued, “Do you know the\nmeaning of didi? It means elder sister. Won’t you tell\nyour sister your troubles?” Amid sobs I said, “The\ngitls keep teasing me.” She laughed, ‘‘Why are you\nscared of them? If you cry like this, they will pester\nyou all the more. So ignore them. Who is your friend?”\n\nI shook my head and teacher smiled. It seemed the\nteacher had poured her smile into my eyes. “Like to\nbe my friend?” she said.\n\nThe bell rang. She rose. With a tender pat on my\nback, she said, “Listen! You were a sister alright! Now\nyou are a friend too. But I like my friends to be brave.\nYou’ve got to try to be brave. I’ll always stand by\nyou, rest assured, my little pal. Now rise and hop off\nto your class.”\n\nExcitement made my face flush — red-hot to the\near-tips. Never before had anyone lavished love on me\nthus and here was my teacher who had spontaneously\naccepted me as a sister, a friend! I was beyond myself\nwith joy. I wanted to chuckle — to burst into near-\nhysterical laughter.\n\nOn winged feet I ran to my class. Soon I was lost\nin a rare reverie. I forgot that I was sitting in a class\nof wild girls whose prime pastime was teasing me.\n\nDuring the break, the water bottle that I was\ndrinking from, fell on me and I got fully drenched.\nRight in front stood Maya and Chanda, laughing away\nto their hearts’ content. Chanda teased, “From the\nslippery hands of Slippery, the slippery bottle went slip,\n",
+      "text_nfc": "e reassuring :\nconfirming\n\nconfide : share a\nsecret\n\nthrill : great joy\n\nके What two relationships\ndid the teacher offer\nSayali?\n\nto stand by\nsomeone : to support\nsomeone\n\npal : friend\n\nlavished : poured in\ngreat quantity\n\nspontaneously : sudden\nimpulse from within\n\nto be beyond\noneself : to lose\ncontrol of oneself\n\nhysterical laughter :\nuncontrolled laughter\n\nreverie : dreamy sleep\n\ne prime : most important\n\n@ Why did Sayali feel\nlike rejoicing a lot?\n\nthe teachers’ room, after the class. Her tone was not\nof annoyance or anger. Yet an unknown fear made me\nnervous. Reassuring myself that she was a kind-hearted\nteacher and would not punish me, I reached the teachers’\nroom with hesitant steps.\n\nThe teacher greeted me with a smile and asked me\nto sit by her side. Her tender tone turned my sighs into\nsobs. She pulled her chair close to mine and patting\nme on the head, said, “What makes you cry, my child?\nI haven’t said a word to you.” After a brief pause, she\ncontinued, “Tell me what your trouble is. Confide in\nme, for am 1 not like a sister to you?” A rare thrill\nran through my entire frame. For a moment I felt I\nshould cling to her and cry and cry. Of course, I did\nnot do so, but I kept gazing at her with tearful eyes.\n\nTenderly, teacher continued, “Do you know the\nmeaning of didi? It means elder sister. Won’t you tell\nyour sister your troubles?” Amid sobs I said, “The\ngitls keep teasing me.” She laughed, ‘‘Why are you\nscared of them? If you cry like this, they will pester\nyou all the more. So ignore them. Who is your friend?”\n\nI shook my head and teacher smiled. It seemed the\nteacher had poured her smile into my eyes. “Like to\nbe my friend?” she said.\n\nThe bell rang. She rose. With a tender pat on my\nback, she said, “Listen! You were a sister alright! Now\nyou are a friend too. But I like my friends to be brave.\nYou’ve got to try to be brave. I’ll always stand by\nyou, rest assured, my little pal. Now rise and hop off\nto your class.”\n\nExcitement made my face flush — red-hot to the\near-tips. Never before had anyone lavished love on me\nthus and here was my teacher who had spontaneously\naccepted me as a sister, a friend! I was beyond myself\nwith joy. I wanted to chuckle — to burst into near-\nhysterical laughter.\n\nOn winged feet I ran to my class. Soon I was lost\nin a rare reverie. I forgot that I was sitting in a class\nof wild girls whose prime pastime was teasing me.\n\nDuring the break, the water bottle that I was\ndrinking from, fell on me and I got fully drenched.\nRight in front stood Maya and Chanda, laughing away\nto their hearts’ content. Chanda teased, “From the\nslippery hands of Slippery, the slippery bottle went slip,\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

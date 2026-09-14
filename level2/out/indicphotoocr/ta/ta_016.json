@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_016",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/ta/s_tamil0016pro_raw.pdf",
+    "page_index": 0,
+    "width": 730,
+    "height": 875
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        730,
+        875
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "0181800491955\nਸੰਘਾਨਾਸਿਸਤਿਸਿਲਾਈ\nभारतीय ਵਰਿਵਾਥ\nਕੇ ਕਾਡ विषय\nभाग",
+      "text_nfc": "0181800491955\nਸੰਘਾਨਾਸਿਸਤਿਸਿਲਾਈ\nभारतीय ਵਰਿਵਾਥ\nਕੇ ਕਾਡ विषय\nभाग",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

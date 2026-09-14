@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_078",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0039pro_raw.pdf",
+    "page_index": 387,
+    "width": 1125,
+    "height": 1653
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1125,
+        1653
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "a2k\nBWo8aOTF\netjort 8 WOBTDEOO ; eNwodo Srtese angaoocer,\newadrowodf aogao mo8oae? (ooesg o Nowopaes\naboa Hongaibe eno, wnd 29087 woawa aodee\nenroseetd Reaadedoasor, 390\nA\newa\noouon\nedoc aog NagFooad, eas 2OB7EO ; edgn,\nwnd aosoidoges aedogpaa ace, 2323 e gego dota\nconi, W degae sodo deeboyas aogao mocoae.)\nwNwoa = 8N0 eat aboz. Jnegs = aoeaorb,\n3odocd. angn = 258303 - aoge, aego.\n(asee, doaoo cono WJORFOON et 5742\na es e\naobe0ade, aedo dowa Odto\nsaa adas\n2\ndoorsasess gewwa nosreoas. Joaab Ogto\ne\nas\ne ne2 aocooF -JODOOF OOSFN a00, Q aORFOOON\nas espe\nObto\n2300-382300 goaa doawrdagad.\n(aors d8 aE avoas ooten\n-\ne neo, 'soepacoerr\ngoooeer WowOao 3\nWocers WOW ewwao wotit0a 3\nawoz & cgwa evaavoeoteosod'soa 3o8xesoda).9\n&8. end, gpoasan 203F200000000 eog', coon' wwosol\nenaasoacesing aadoenan, sojoph 3\nDaicoaaod.\nsababyas 2827 300FX00365F223 I\nedeato 033FNO woas 0bpraa80oFo Il - soweeoted : III,aa\n(903, oon, 20003055T6.0000 aea aota aroet wo0o\nsabowodee asaaod eno epagada E.0CQEa0/ba0Ocs\nWEFaOO 203F0000000)\n\"aoad segpont gabave 30300F 3\nooeaaa DWFDO\n263F03000080. woted 220 woangg 2000-3332300 gpoas\nwoa8 gapossode, aode aobde\n-\naaoss\naodes browosdo\nadiFssode Jaenoo gone aOTWa deebsod.\"\ncoll :. 3e aanosf : 8.00w0000ed (ea Badrd) ; ay. 28.",
+      "text_nfc": "a2k\nBWo8aOTF\netjort 8 WOBTDEOO ; eNwodo Srtese angaoocer,\newadrowodf aogao mo8oae? (ooesg o Nowopaes\naboa Hongaibe eno, wnd 29087 woawa aodee\nenroseetd Reaadedoasor, 390\nA\newa\noouon\nedoc aog NagFooad, eas 2OB7EO ; edgn,\nwnd aosoidoges aedogpaa ace, 2323 e gego dota\nconi, W degae sodo deeboyas aogao mocoae.)\nwNwoa = 8N0 eat aboz. Jnegs = aoeaorb,\n3odocd. angn = 258303 - aoge, aego.\n(asee, doaoo cono WJORFOON et 5742\na es e\naobe0ade, aedo dowa Odto\nsaa adas\n2\ndoorsasess gewwa nosreoas. Joaab Ogto\ne\nas\ne ne2 aocooF -JODOOF OOSFN a00, Q aORFOOON\nas espe\nObto\n2300-382300 goaa doawrdagad.\n(aors d8 aE avoas ooten\n-\ne neo, 'soepacoerr\ngoooeer WowOao 3\nWocers WOW ewwao wotit0a 3\nawoz & cgwa evaavoeoteosod'soa 3o8xesoda).9\n&8. end, gpoasan 203F200000000 eog', coon' wwosol\nenaasoacesing aadoenan, sojoph 3\nDaicoaaod.\nsababyas 2827 300FX00365F223 I\nedeato 033FNO woas 0bpraa80oFo Il - soweeoted : III,aa\n(903, oon, 20003055T6.0000 aea aota aroet wo0o\nsabowodee asaaod eno epagada E.0CQEa0/ba0Ocs\nWEFaOO 203F0000000)\n\"aoad segpont gabave 30300F 3\nooeaaa DWFDO\n263F03000080. woted 220 woangg 2000-3332300 gpoas\nwoa8 gapossode, aode aobde\n-\naaoss\naodes browosdo\nadiFssode Jaenoo gone aOTWa deebsod.\"\ncoll :. 3e aanosf : 8.00w0000ed (ea Badrd) ; ay. 28.",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

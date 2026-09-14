@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "42 step into my story\nਤਾਪ੍ਰਪਤੀਆ\nevery day in school your friends feel different feelings happy sad left out\nproud or even embarrassed sometimes we do not notice or we do not know\nwhat to say but when we take ੧ moment to think about how they might be\nfeeling we start building empathy\nthese are some ways in which you know you have empathy\ni helped ૧ friend who was hurt gave my time and support\nor sad when someone was upset\nshared something because i said sorry when i hurt\nsomeone did not have 1੮ someones feelings\ni noticed someone sitting alone ilistened to ੧ friend when they\nand sat with them wanted to 325 talk\nactivity ૬\nin groups of म discuss and share what you would do in each of\nthese situations\nyour friend is sitting a classmate painted\nwith some other friend something really\nduring lunch they did well and the teacher\nnot ask 11ੰ you wanted praised them you\nto join them and also painted well\nignored you but no one noticed role play\nmake small\nyou fall down you made ૧ groups act it out\nwhile playing and mistake while in front of the\nhurt your knee reading in front of class show how\nyour friends the class and ૧ few you can care for\nnoticed and did children laughed others and what\nnot help you kind thing can be\ndone\nempathy helps\nme care listen when we try to understand what someone else is\nand support feeling we become kinder\nothers in small\nbut important think and do connect with your family\nways members try to understand how they are feeling\ntalk to them about it\n25",
+      "text_nfc": "42 step into my story\nਤਾਪ੍ਰਪਤੀਆ\nevery day in school your friends feel different feelings happy sad left out\nproud or even embarrassed sometimes we do not notice or we do not know\nwhat to say but when we take ੧ moment to think about how they might be\nfeeling we start building empathy\nthese are some ways in which you know you have empathy\ni helped ૧ friend who was hurt gave my time and support\nor sad when someone was upset\nshared something because i said sorry when i hurt\nsomeone did not have 1੮ someones feelings\ni noticed someone sitting alone ilistened to ੧ friend when they\nand sat with them wanted to 325 talk\nactivity ૬\nin groups of म discuss and share what you would do in each of\nthese situations\nyour friend is sitting a classmate painted\nwith some other friend something really\nduring lunch they did well and the teacher\nnot ask 11ੰ you wanted praised them you\nto join them and also painted well\nignored you but no one noticed role play\nmake small\nyou fall down you made ૧ groups act it out\nwhile playing and mistake while in front of the\nhurt your knee reading in front of class show how\nyour friends the class and ૧ few you can care for\nnoticed and did children laughed others and what\nnot help you kind thing can be\ndone\nempathy helps\nme care listen when we try to understand what someone else is\nand support feeling we become kinder\nothers in small\nbut important think and do connect with your family\nways members try to understand how they are feeling\ntalk to them about it\n25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

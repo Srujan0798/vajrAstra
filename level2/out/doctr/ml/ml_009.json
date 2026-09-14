@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_009",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0010pro_raw.png",
+    "page_index": 0,
+    "width": 389,
+    "height": 526
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        389,
+        526
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "eednuuomrollent\nniveco,\nOnor a muderymojes nomes mmud gmli\nà\ndlaodeimi aaogmolage\nGaideneme I gmoent lmmo mubonyanted\n(uimiuooleoymes/\n(idaym\nmulghdleng eufleeommnunjes aemiles ngynd.mpd.ngo\nmanistaud\nagdaolaneesos aamujaot eaglelsenjavaugo\ngajacan mumueas nohedna\nosigyoleng 22-00 aaogmaled tnumimye agelajes njdemonumouso\nao smlod\nmem aotmal eaosjesymer\ndee ajautlnalecosm micameen)\nmemm\naloyaumoens.) 0104,964 m auontto gaogaulos\najslmonia mugnaislanon\naloslogymo msap\najslood sjaloles nigdemonuaouse geename\nomodo\naaled mlajmn mscecensel msaj ajshmomonemmjo\nalnigaua.naoc mima\nmlitacemmmlm) autntanujo noloind osiyolne Gaogemees\nmuoammlemio\nnuoendi\najslmonia sgalogos incuaouto sealayes Gninled\nnnao\ngogpasloansjaoymad moa allojanaom lunubaralmoei.\nL nudemaoa gsaminonia-oubo\ngomams autlacnowla aenoujogpsim\ncamjoglos gsamjes, Gnus 22-00 aaogopled\naogupysjamont aaos\ntnmimondal\nmudeojad meaquolesyemyent. deng ajaunlndiencem\nmioomalee aynanl lnmluonlal\nnhnllu cubpaud 0104,1964 my aubriso\no0en.00o ajstood\nagdemocueouto goggnunymoym), mymamons m\nanogmmles\naan/eer e00n0 ajslooent anui nuelaceoula\naneupg/smal\nngol.mgdngje\nmsns\nagemastaclesonogmeoen.\nmogelos\n: 0104.1964 m) duondto aangmalod\najskmoaia mea-ruomlenjevmgo cuma\n72 () inid000 01011970 aubrio naep Ajsluocia galogesao\nennueouto\noonusndeanglos\nmiaailalimaongeago cadim mudlales 22-00 deogonlos\n\"msap ajstmoo snho numla motajmelmoal\nuncuenbeanglos manubouto\nmash.inanachuhdlengmn sgjal\"\nno gmarales gutonsymml\nGalbocongmmpo\n23-00 aiogomlot mlanflees scannays)moent Gnus\nobouon/sjmm\nagod.mad.ngo nidamlmoesl aumn 72 S () (aimilhosleaym\nIndhobo searuubajshmon\nmlajal mssecongemmjaoenr. mngmled\n1 naotru osigyoleei a00gs\nmgjes auosahmlemio auitlaunoulegcom\nalacomymubemie mennmajen auodmo c000ue ajslmod sjalajes\nenwnoute matajm\nomloles\nnged.mpd.ngo\namoellaus mitgynnlaeont",
+      "text_nfc": "eednuuomrollent\nniveco,\nOnor a muderymojes nomes mmud gmli\nà\ndlaodeimi aaogmolage\nGaideneme I gmoent lmmo mubonyanted\n(uimiuooleoymes/\n(idaym\nmulghdleng eufleeommnunjes aemiles ngynd.mpd.ngo\nmanistaud\nagdaolaneesos aamujaot eaglelsenjavaugo\ngajacan mumueas nohedna\nosigyoleng 22-00 aaogmaled tnumimye agelajes njdemonumouso\nao smlod\nmem aotmal eaosjesymer\ndee ajautlnalecosm micameen)\nmemm\naloyaumoens.) 0104,964 m auontto gaogaulos\najslmonia mugnaislanon\naloslogymo msap\najslood sjaloles nigdemonuaouse geename\nomodo\naaled mlajmn mscecensel msaj ajshmomonemmjo\nalnigaua.naoc mima\nmlitacemmmlm) autntanujo noloind osiyolne Gaogemees\nmuoammlemio\nnuoendi\najslmonia sgalogos incuaouto sealayes Gninled\nnnao\ngogpasloansjaoymad moa allojanaom lunubaralmoei.\nL nudemaoa gsaminonia-oubo\ngomams autlacnowla aenoujogpsim\ncamjoglos gsamjes, Gnus 22-00 aaogopled\naogupysjamont aaos\ntnmimondal\nmudeojad meaquolesyemyent. deng ajaunlndiencem\nmioomalee aynanl lnmluonlal\nnhnllu cubpaud 0104,1964 my aubriso\no0en.00o ajstood\nagdemocueouto goggnunymoym), mymamons m\nanogmmles\naan/eer e00n0 ajslooent anui nuelaceoula\naneupg/smal\nngol.mgdngje\nmsns\nagemastaclesonogmeoen.\nmogelos\n: 0104.1964 m) duondto aangmalod\najskmoaia mea-ruomlenjevmgo cuma\n72 () inid000 01011970 aubrio naep Ajsluocia galogesao\nennueouto\noonusndeanglos\nmiaailalimaongeago cadim mudlales 22-00 deogonlos\n\"msap ajstmoo snho numla motajmelmoal\nuncuenbeanglos manubouto\nmash.inanachuhdlengmn sgjal\"\nno gmarales gutonsymml\nGalbocongmmpo\n23-00 aiogomlot mlanflees scannays)moent Gnus\nobouon/sjmm\nagod.mad.ngo nidamlmoesl aumn 72 S () (aimilhosleaym\nIndhobo searuubajshmon\nmlajal mssecongemmjaoenr. mngmled\n1 naotru osigyoleei a00gs\nmgjes auosahmlemio auitlaunoulegcom\nalacomymubemie mennmajen auodmo c000ue ajslmod sjalajes\nenwnoute matajm\nomloles\nnged.mpd.ngo\namoellaus mitgynnlaeont",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

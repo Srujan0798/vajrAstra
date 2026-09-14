@@ -1,0 +1,41 @@
+{
+  "page_id": "te_098",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0014pro_raw.pdf",
+    "page_index": 33,
+    "width": 1750,
+    "height": 2250
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1750,
+        2250
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ai a1\n-oooooo\n3 = AH4 a,\n = ,\n3nfaTansf = 521c1,\nqole ey = Is aou,\nsichfssf = 41,\n s = i,\nARAR = fohRui,\n4els fhy = yad 3aU,\nq = qa,\nజ  y =  a 4ay,\n311  f =  y,\nIor = πis,\nG  = A 4E,\nG41 g ay =   30,\n =fh,\n211CH141 = gRri\ncafri=gj\n32714\nCCOOOCOCCCCCCCCOCOCOO\nDOODODODODODODOOODODD\n: a yaa  d f f ya  fel :\nyad\n8.\nRgh  3iq  es y 3?\n?.\nBicd as A o ae ?\n?.\nslh d  Te 4g Ted a fer ?\n8.\nas 3R    Td  e ds.\nyad ?:  yaa v a   :-\n8.\nye H  h fii g Hr?\n?.\nfff fau as  y do ?\n₹.\nye  Rd qo Ms o Ro fe ?\n\"Ted f ahs\"3af Hi aes Tee fd 2f ?\n8.\nyad :  f  :-\n8.\n TohH  y M fs.\"\n?.\n\"Toi a   f,    yo.\"\n₹.\ni au s  H t,    a.\"\nya :  s   f y    :-\nqele qey,\ncillellhoy,\nG41e go aoy,\nl y,\nya 4: (34) f4 314 :-\n3745,\nts\narGy,\n3TRTY,\n3T1GT,\nHt\n24",
+      "text_nfc": "ai a1\n-oooooo\n3 = AH4 a,\n = ,\n3nfaTansf = 521c1,\nqole ey = Is aou,\nsichfssf = 41,\n s = i,\nARAR = fohRui,\n4els fhy = yad 3aU,\nq = qa,\nజ  y =  a 4ay,\n311  f =  y,\nIor = πis,\nG  = A 4E,\nG41 g ay =   30,\n =fh,\n211CH141 = gRri\ncafri=gj\n32714\nCCOOOCOCCCCCCCCOCOCOO\nDOODODODODODODOOODODD\n: a yaa  d f f ya  fel :\nyad\n8.\nRgh  3iq  es y 3?\n?.\nBicd as A o ae ?\n?.\nslh d  Te 4g Ted a fer ?\n8.\nas 3R    Td  e ds.\nyad ?:  yaa v a   :-\n8.\nye H  h fii g Hr?\n?.\nfff fau as  y do ?\n₹.\nye  Rd qo Ms o Ro fe ?\n\"Ted f ahs\"3af Hi aes Tee fd 2f ?\n8.\nyad :  f  :-\n8.\n TohH  y M fs.\"\n?.\n\"Toi a   f,    yo.\"\n₹.\ni au s  H t,    a.\"\nya :  s   f y    :-\nqele qey,\ncillellhoy,\nG41e go aoy,\nl y,\nya 4: (34) f4 314 :-\n3745,\nts\narGy,\n3TRTY,\n3T1GT,\nHt\n24",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

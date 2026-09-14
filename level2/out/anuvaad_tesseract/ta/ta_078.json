@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_078",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0012pro_raw.pdf",
+    "page_index": 6,
+    "width": 1651,
+    "height": 2181
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1651,
+        2181
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(ख) उपर्युक्त भावों में से आप कौन-से भाव कब-कब अनुभव करते हैं? भावों के नाम लिखकर उन स्थितियों\nके लिए एक-एक वाक्य लिखिए।\n\n(संकेत-- आत्मविश्वास- जब मैं अकेले पड़ोस की दुकान से कुछ खरीदकर ले आता ZI)\n\n& आज की पहेली\n\nकविता में आपने कई पक्षियों के नाम पढ़े। अब आपके सामने पक्षियों से जुड़ी कुछ पहेलियाँ दी गई हैं। पक्षियों\nको पहचानकर सही चित्रों के साथ रेखा खींचकर जोड़िए:---\n\n",
+      "text_nfc": "(ख) उपर्युक्त भावों में से आप कौन-से भाव कब-कब अनुभव करते हैं? भावों के नाम लिखकर उन स्थितियों\nके लिए एक-एक वाक्य लिखिए।\n\n(संकेत-- आत्मविश्वास- जब मैं अकेले पड़ोस की दुकान से कुछ खरीदकर ले आता ZI)\n\n& आज की पहेली\n\nकविता में आपने कई पक्षियों के नाम पढ़े। अब आपके सामने पक्षियों से जुड़ी कुछ पहेलियाँ दी गई हैं। पक्षियों\nको पहचानकर सही चित्रों के साथ रेखा खींचकर जोड़िए:---\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

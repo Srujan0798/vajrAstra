@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_004",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/ta/s_tamil0004pro_raw.png",
+    "page_index": 0,
+    "width": 341,
+    "height": 431
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        341,
+        431
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "உலக் ഇ.ഡി.ണെ\nముభవలు કોઈના વાખાના\n௫கிக்கிர நிலமாடும் aphinjujhultaguefuld\n૧૮ നൽചി పర్తమైన g \nബംഹിളിയോ ഇ.കെ.നികച്ചേരിയോ\nchinpigingleshinghcom\nமிக்க௃பாதிரி chindtaid\nപരിമിറക്കും நெட்டி\ng \nમહાને asnnygjiaircom મુજાની\nsushblogyshanthonwhy இயந்து\nwwwfoodcombecomcom\ncollegendadogebooknet கொள்ஆர் \nഭക്ഷണശാലയിൽ\nഎവി.\nഇ.എ.\n ... വിൽപ്പറമ്പ് এক্সপ্তত\nകാലക പി.പി.സികൂൾ കോം ചരിത\nഇംഎസിപിഐം197 ૐ \nകൊടുക്കുറവിൽ maxishugnetophotoscom\nரசிங்கள் പല മിതികളും എത്തജെ\nబాలయిఎవరకు நாட்கள் വി..   കുഞം\n. ഏപകി ஒரு ஹம்\ngordeorgbillydelcom\nપ્રાવર્કસ wwwcladeralingcom\nശ്രേഷിച്ച color ഭക്ഷണശാല இதுநாள்\nஎத்து காமி ௨கொன்ளறம்\nபோய்",
+      "text_nfc": "உலக் ഇ.ഡി.ണെ\nముభవలు કોઈના વાખાના\n௫கிக்கிர நிலமாடும் aphinjujhultaguefuld\n૧૮ നൽചി పర్తమైన g \nബംഹിളിയോ ഇ.കെ.നികച്ചേരിയോ\nchinpigingleshinghcom\nமிக்க௃பாதிரி chindtaid\nപരിമിറക്കും நெட்டி\ng \nમહાને asnnygjiaircom મુજાની\nsushblogyshanthonwhy இயந்து\nwwwfoodcombecomcom\ncollegendadogebooknet கொள்ஆர் \nഭക്ഷണശാലയിൽ\nഎവി.\nഇ.എ.\n ... വിൽപ്പറമ്പ് এক্সপ্তত\nകാലക പി.പി.സികൂൾ കോം ചരിത\nഇംഎസിപിഐം197 ૐ \nകൊടുക്കുറവിൽ maxishugnetophotoscom\nரசிங்கள் പല മിതികളും എത്തജെ\nబాలయిఎవరకు நாட்கள் വി..   കുഞം\n. ഏപകി ஒரு ஹம்\ngordeorgbillydelcom\nપ્રાવર્કસ wwwcladeralingcom\nശ്രേഷിച്ച color ഭക്ഷണശാല இதுநாள்\nஎத்து காமி ௨கொன்ளறம்\nபோய்",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

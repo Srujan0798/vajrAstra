@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_089",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0010pro_raw.pdf",
+    "page_index": 1,
+    "width": 1695,
+    "height": 2198
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1695,
+        2198
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "2\n(4) atoa Nobed ogsadeg Nee Deegabe sawa epgessola, ewo\nNe aieeos RoEsy 000wo 8003 No800 aogEddeg 3e. 50 803\nseabatona alyy aioeea aeweon esprB Jos Dews eego803\nwowogdew agewelges,\n() Bozts boowato oeabeno eJero8s eplase Ne Deez despab\n30003003 seabatenrd Rosa Boodab 3e. 50 degney epae,\n(29) 3ogts Joowaww oegord eeroo epao Ne Deea daspab\n3003003 desgogd, oebord eJeroord espaso Noe Deea besgab\nworos Bootjaboniy NWo NO500 JOgE awow aarjab 0388003\n30w00do3 Josr JE3 abotew ogowandaiee,\n9. Noras sorisdes aveoende ab, 233d9 esoboo Jodedt eog 30deegs,\neoodo Nargd osony sorigo 33e9 / abowodo 36900003 Sdabadtecseroad.\n10. Nora 3W3gEs eppabab dedee 17 d adedo dagcisoeddes. esodo 33de08\neog 30beegs sorsd / abowodo asgowo 3 e9633e500030.\n11.. .O00s eveg Nesabseab epao 200 abonjie Nerajseada egeswoo Qlwde\nsecab sorigg dagndes. eoodo\ndadede\neg 30deeg,0,\nescios\nSabDddesacogd.\n12. Nosts Ntarigde alonae 50020000, Norts Rtdrigga WONeses / d3000)\nboe08 arugasorges, eodo 030008 eyr 30Betpdedesacbgd / aa escios\nSpbDasdesecogd.\n13. Rorts e90833 abowed egere 093503003 ejed, g3ed segdeon esabo segdg\ntriode poergaor\nWypocaedesende. Om esoto NoweEdeg seswed\nabowodo abbaory ogsersas.\n14: esejat 30500 Sogde enaSosogsdo, Saly wegeabeg g0a, 230NJOE Swgev\n2J08 200a Nogo8 Nowog, NOWOPR 303085 3050d Nogde egpabab,\npababds) obeddo Rogas enapabads 0503003, abowena acy coada\n2983 Narisd abowodo eg: 8983 Sarid / obedlo ageab aosd Jobod Noge\nNO0OR,O3 abowesa ay aooads 33pod8 ooddo gtsders abz esases\nNob0d Noisdgeg abowepa a2g Nogts aopodt aegabnl Babora e3\nescius 3a0003s0g0d. ejegtse Bo0 abowodo aegad 0883Ed, Rogwedd\n23egab aaistdaon Nogas\nNoesserso eioelssseg 3829s,\nde\nesry\nesseziriodepverddie nrdes pap3 espalegd Negrowo 2008S0300P)03.\nabees 2308 aoggabeg, geao@so0deb 303w0f) goabe aajgoad)\n830NONE Jorsesesa0ds abowodo Nogoe aisgabrts sgseria eo Jobed\n3O33ded Rez aodewE Dewwoo Daer 30.\nM\n(OJAJE 2. alopaba)\nNobod 230N00E esawwgd,\nBNJDE 838 Oobg. eJongod.\n2300 :\n1. Sobed Nogo8 Dwoged. #1. eseg eeos d\ndr3. Rodtled-560 052 2300\ndoo gaboot",
+      "text_nfc": "2\n(4) atoa Nobed ogsadeg Nee Deegabe sawa epgessola, ewo\nNe aieeos RoEsy 000wo 8003 No800 aogEddeg 3e. 50 803\nseabatona alyy aioeea aeweon esprB Jos Dews eego803\nwowogdew agewelges,\n() Bozts boowato oeabeno eJero8s eplase Ne Deez despab\n30003003 seabatenrd Rosa Boodab 3e. 50 degney epae,\n(29) 3ogts Joowaww oegord eeroo epao Ne Deea daspab\n3003003 desgogd, oebord eJeroord espaso Noe Deea besgab\nworos Bootjaboniy NWo NO500 JOgE awow aarjab 0388003\n30w00do3 Josr JE3 abotew ogowandaiee,\n9. Noras sorisdes aveoende ab, 233d9 esoboo Jodedt eog 30deegs,\neoodo Nargd osony sorigo 33e9 / abowodo 36900003 Sdabadtecseroad.\n10. Nora 3W3gEs eppabab dedee 17 d adedo dagcisoeddes. esodo 33de08\neog 30beegs sorsd / abowodo asgowo 3 e9633e500030.\n11.. .O00s eveg Nesabseab epao 200 abonjie Nerajseada egeswoo Qlwde\nsecab sorigg dagndes. eoodo\ndadede\neg 30deeg,0,\nescios\nSabDddesacogd.\n12. Nosts Ntarigde alonae 50020000, Norts Rtdrigga WONeses / d3000)\nboe08 arugasorges, eodo 030008 eyr 30Betpdedesacbgd / aa escios\nSpbDasdesecogd.\n13. Rorts e90833 abowed egere 093503003 ejed, g3ed segdeon esabo segdg\ntriode poergaor\nWypocaedesende. Om esoto NoweEdeg seswed\nabowodo abbaory ogsersas.\n14: esejat 30500 Sogde enaSosogsdo, Saly wegeabeg g0a, 230NJOE Swgev\n2J08 200a Nogo8 Nowog, NOWOPR 303085 3050d Nogde egpabab,\npababds) obeddo Rogas enapabads 0503003, abowena acy coada\n2983 Narisd abowodo eg: 8983 Sarid / obedlo ageab aosd Jobod Noge\nNO0OR,O3 abowesa ay aooads 33pod8 ooddo gtsders abz esases\nNob0d Noisdgeg abowepa a2g Nogts aopodt aegabnl Babora e3\nescius 3a0003s0g0d. ejegtse Bo0 abowodo aegad 0883Ed, Rogwedd\n23egab aaistdaon Nogas\nNoesserso eioelssseg 3829s,\nde\nesry\nesseziriodepverddie nrdes pap3 espalegd Negrowo 2008S0300P)03.\nabees 2308 aoggabeg, geao@so0deb 303w0f) goabe aajgoad)\n830NONE Jorsesesa0ds abowodo Nogoe aisgabrts sgseria eo Jobed\n3O33ded Rez aodewE Dewwoo Daer 30.\nM\n(OJAJE 2. alopaba)\nNobod 230N00E esawwgd,\nBNJDE 838 Oobg. eJongod.\n2300 :\n1. Sobed Nogo8 Dwoged. #1. eseg eeos d\ndr3. Rodtled-560 052 2300\ndoo gaboot",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_035",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0036pro_raw.pdf",
+    "page_index": 132,
+    "width": 1653,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1653,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "50 a 288r0 Saos NEs Nar\neng Butdtodd. aomen eroaDe\ngeane 383A003 Soarsagts\nCaEsO w000 Ejoor 758. ACP o303\n250E3h03 aproeoss apene\na0E cobe eRO2st Eg3heEDE\ncaad de8 SDEoEES.\n206D,R023E3C3 S2R BOER\n35 dota EEEmAnondA\naFapa adonene waodo\newr EaEooinAsE.\ndet aoet 88 eea 0e7b2 do3\nadoaoo 2023 5as r9ES aEsO de\nsotsosonte Eoto Honenes.\ne 8820300 0on530\nGEDE 2EPRANOeS3, eto ewd Ae\n3eto Dapt escener s0rs\nJeas00 HOFL ene ROAE e9Es rao\nEwrt Honetop ta. ms\na3nes Se EUDE 23ne0nt\nE2E 23a a B.omnens\nrage 052DEP 2o3o7 Ett 8ee7\n25EA503 BEOor 2ahA0.\n3\nA",
+      "text_nfc": "50 a 288r0 Saos NEs Nar\neng Butdtodd. aomen eroaDe\ngeane 383A003 Soarsagts\nCaEsO w000 Ejoor 758. ACP o303\n250E3h03 aproeoss apene\na0E cobe eRO2st Eg3heEDE\ncaad de8 SDEoEES.\n206D,R023E3C3 S2R BOER\n35 dota EEEmAnondA\naFapa adonene waodo\newr EaEooinAsE.\ndet aoet 88 eea 0e7b2 do3\nadoaoo 2023 5as r9ES aEsO de\nsotsosonte Eoto Honenes.\ne 8820300 0on530\nGEDE 2EPRANOeS3, eto ewd Ae\n3eto Dapt escener s0rs\nJeas00 HOFL ene ROAE e9Es rao\nEwrt Honetop ta. ms\na3nes Se EUDE 23ne0nt\nE2E 23a a B.omnens\nrage 052DEP 2o3o7 Ett 8ee7\n25EA503 BEOor 2ahA0.\n3\nA",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

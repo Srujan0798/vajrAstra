@@ -1,0 +1,41 @@
+{
+  "page_id": "te_082",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/te/s_telugu0082pro_raw.pdf",
+    "page_index": 29,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "A\neepegiso\nW8 1 800s Sosaio 2007 Xo 888056 V M0y (58,3. eoggg 58050N DooD 38 33o0.\nBéjod.\ne) eodoyloss drss gI Soosev 5 eo3es\nespost dnaw?\nqU SorJops\nSoso 25\n005\nes) das Soosev asoosses 208 887 30\nBoswngs 0050 200e0o8?\n5sceso\nJgsNO\n3oreso\na) 288505 28,0003 go Seeozis S80s0\nawsy 5 Bas 288500 boewod?\nJgSSO\nScoso\n30eso\n88) So8 JE35S swtes 3oreso 58?\nJesyo\noredes\n38j3 Swaew\ne) Or00s S8ATD Dozeso 5 OS2s gJo\nSoos0 aws 30850?\nSoges Qoy 2E3505\nppocs 00283505\n300 SaJoeo\n(38,2. 231695 50E9OS oood.\ne) oreove Joe 58 Je So0O0 epssew\nsOooaw. S503SOS swods es\nSKom 3NSS5 avods Sdeaw.\nes) dareds S8TD 8d0 O5LS Beeso\n38,05 SsEoisO 6od.\ne) 80000056 Moss eow Soeeraw.\nes) oredes swtwe aoepOss bOOEs.\na) gudaws WSSEONO 3asyas 801550\nw0Us 3633cs0x506008.\n88) esgoto aoor 288505 boesod.\nW8 4. EUOSOSO Jen Sogosos 555055 So8\n28880080 so00s (55056 esogod.\ne) e6sdee eXo saevesod.\nes) guposes esige em saeveraw.\n3) W580005 SOos0 Ses 8c030 20Des\na008.\n88) 20550 canss Dodsgesg (po8 dpe\n38) geev everaw.\nta) Devs eavs 33 ESOS edone 83056\n2000036008.\n(585. 2380 32500500.\ne) ppois aogeover sdoi awtes Soreen\nes) WG25 ENSOS edorew 8800 drdas\nESOS edonev\na) ESONO sd0i en soreso.\nW8 6. Nosgom sarone oowod.\ne) eusodes BogDosons SOESOED\n352500500.\nes) (3308056 bowg autes soreres 5 SOos0\nSes bogaw?\n3) E1SOS 5158 3800 2ocas STODS6OS\nXo sowogaa?\n88) EUSOJOSON ar6506003s 3800\nSSS 2550 25 sevb 38e5TeN 20?\nta) 2SOS eoome osess 33500500.\nEba) esny 3ogee Ososs dosoesom\n3858050d.\nW8 7. Séso SoSSObOs e35080, JE, EJSOSO asy\nWG0s, adas 8800 e6sdee eoomess\nagod.\na) WOSOS Barse eshy Sorerer arposve Wo 8. 305 Wsow dep 360056 So8 eogess sod.\n3850053 snonaw.\n88) 2J85 apso ausy esdo dOposd\nesewsa.\nés) en 3ogeso 2ifeso Ses asoNeN\nSogossi).\ne) 330e5 885008556\nes) WOS eeroess gUoSOS 5e50\n3) 3065 Ses\n88) (555\nés) 33065 3J0005\n20",
+      "text_nfc": "A\neepegiso\nW8 1 800s Sosaio 2007 Xo 888056 V M0y (58,3. eoggg 58050N DooD 38 33o0.\nBéjod.\ne) eodoyloss drss gI Soosev 5 eo3es\nespost dnaw?\nqU SorJops\nSoso 25\n005\nes) das Soosev asoosses 208 887 30\nBoswngs 0050 200e0o8?\n5sceso\nJgsNO\n3oreso\na) 288505 28,0003 go Seeozis S80s0\nawsy 5 Bas 288500 boewod?\nJgSSO\nScoso\n30eso\n88) So8 JE35S swtes 3oreso 58?\nJesyo\noredes\n38j3 Swaew\ne) Or00s S8ATD Dozeso 5 OS2s gJo\nSoos0 aws 30850?\nSoges Qoy 2E3505\nppocs 00283505\n300 SaJoeo\n(38,2. 231695 50E9OS oood.\ne) oreove Joe 58 Je So0O0 epssew\nsOooaw. S503SOS swods es\nSKom 3NSS5 avods Sdeaw.\nes) dareds S8TD 8d0 O5LS Beeso\n38,05 SsEoisO 6od.\ne) 80000056 Moss eow Soeeraw.\nes) oredes swtwe aoepOss bOOEs.\na) gudaws WSSEONO 3asyas 801550\nw0Us 3633cs0x506008.\n88) esgoto aoor 288505 boesod.\nW8 4. EUOSOSO Jen Sogosos 555055 So8\n28880080 so00s (55056 esogod.\ne) e6sdee eXo saevesod.\nes) guposes esige em saeveraw.\n3) W580005 SOos0 Ses 8c030 20Des\na008.\n88) 20550 canss Dodsgesg (po8 dpe\n38) geev everaw.\nta) Devs eavs 33 ESOS edone 83056\n2000036008.\n(585. 2380 32500500.\ne) ppois aogeover sdoi awtes Soreen\nes) WG25 ENSOS edorew 8800 drdas\nESOS edonev\na) ESONO sd0i en soreso.\nW8 6. Nosgom sarone oowod.\ne) eusodes BogDosons SOESOED\n352500500.\nes) (3308056 bowg autes soreres 5 SOos0\nSes bogaw?\n3) E1SOS 5158 3800 2ocas STODS6OS\nXo sowogaa?\n88) EUSOJOSON ar6506003s 3800\nSSS 2550 25 sevb 38e5TeN 20?\nta) 2SOS eoome osess 33500500.\nEba) esny 3ogee Ososs dosoesom\n3858050d.\nW8 7. Séso SoSSObOs e35080, JE, EJSOSO asy\nWG0s, adas 8800 e6sdee eoomess\nagod.\na) WOSOS Barse eshy Sorerer arposve Wo 8. 305 Wsow dep 360056 So8 eogess sod.\n3850053 snonaw.\n88) 2J85 apso ausy esdo dOposd\nesewsa.\nés) en 3ogeso 2ifeso Ses asoNeN\nSogossi).\ne) 330e5 885008556\nes) WOS eeroess gUoSOS 5e50\n3) 3065 Ses\n88) (555\nés) 33065 3J0005\n20",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

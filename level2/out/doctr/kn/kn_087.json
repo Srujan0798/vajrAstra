@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_087",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0007pro_raw.pdf",
+    "page_index": 3,
+    "width": 1255,
+    "height": 1956
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1255,
+        1956
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "5. Daori 23c50a 200 not aD3A a3or.\n2\n0. e30507 n3 8a83.\n9. Aawon ane a aowon wneze. n\n6. Bend wosan dasegogrt oBosoA 3033E2.\n1\nweinod 23rj035 enoosoa woas.\n7. 68 woBa JEDEE wogoooA 3o3EX.\n1\ngpaas aaasna acaaseh a3s00s3d.\n8. dena 2DEEOnD 2do3 wet DOBE 3833E%.\n1\nAe03 37 anon NPO3R aebaes.\n9. an 5003 2083003 aan 3093 ?- d3 wo8de ooa EGES\ngassoasdasas no0be2 wd008.\n1\n10. 200a - da aoa Daepogrt dowad.\n1\n0) 30wo3. 3).30p.\na) 30300\ne) 3s00\n11. a3230a d8 Boi JEEWJS boon dos.\n1\n0. aegoe.\n9) aoespasas. a) sesood. e) aeswat).\n22507-D (Bone eets.a) : (40 eoones)\nVI. Bend 303000 33no wey eugones dotonnd. ened NOOJOO\news - dan e82 20008.\n14\n1) aados edaon w00 aod.\n0)a3da\nD)m3a\na)oeroz e)wooee\n2) e00ee 83a0 d8 3aab dodabod\n0) Res\n2 geasse\na) der\ne) nono\n3) oodeon 2J0023 NOEO Deaa 332 cats.\n0) AOONE 2) De230E 2300E30\na)ddoege e) sedwnd.\n4) 1993 de aooad 3 d8 sease edotoa Ho23aa30.\n0) aone\n9) soon\na) H30O0\ne) 03O0.\n5) aootdtoorf a 20000 :\n0) aoto\n2) 002803E\na) 322/10 wea\ne) adèe\n6) Rogoasaas aortobbon 20s0an.\n0) Rod3 9) paas\na) 3A003\ne) deads\n7) aonseadz me asswon wond.\n0) adaioen 9) aod soont\na) 20caa woabe\ne) stoeeoate\n*\nPage 4",
+      "text_nfc": "5. Daori 23c50a 200 not aD3A a3or.\n2\n0. e30507 n3 8a83.\n9. Aawon ane a aowon wneze. n\n6. Bend wosan dasegogrt oBosoA 3033E2.\n1\nweinod 23rj035 enoosoa woas.\n7. 68 woBa JEDEE wogoooA 3o3EX.\n1\ngpaas aaasna acaaseh a3s00s3d.\n8. dena 2DEEOnD 2do3 wet DOBE 3833E%.\n1\nAe03 37 anon NPO3R aebaes.\n9. an 5003 2083003 aan 3093 ?- d3 wo8de ooa EGES\ngassoasdasas no0be2 wd008.\n1\n10. 200a - da aoa Daepogrt dowad.\n1\n0) 30wo3. 3).30p.\na) 30300\ne) 3s00\n11. a3230a d8 Boi JEEWJS boon dos.\n1\n0. aegoe.\n9) aoespasas. a) sesood. e) aeswat).\n22507-D (Bone eets.a) : (40 eoones)\nVI. Bend 303000 33no wey eugones dotonnd. ened NOOJOO\news - dan e82 20008.\n14\n1) aados edaon w00 aod.\n0)a3da\nD)m3a\na)oeroz e)wooee\n2) e00ee 83a0 d8 3aab dodabod\n0) Res\n2 geasse\na) der\ne) nono\n3) oodeon 2J0023 NOEO Deaa 332 cats.\n0) AOONE 2) De230E 2300E30\na)ddoege e) sedwnd.\n4) 1993 de aooad 3 d8 sease edotoa Ho23aa30.\n0) aone\n9) soon\na) H30O0\ne) 03O0.\n5) aootdtoorf a 20000 :\n0) aoto\n2) 002803E\na) 322/10 wea\ne) adèe\n6) Rogoasaas aortobbon 20s0an.\n0) Rod3 9) paas\na) 3A003\ne) deads\n7) aonseadz me asswon wond.\n0) adaioen 9) aod soont\na) 20caa woabe\ne) stoeeoate\n*\nPage 4",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

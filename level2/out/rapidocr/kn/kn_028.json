@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_028",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0029pro_raw.pdf",
+    "page_index": 32,
+    "width": 510.2359924316406,
+    "height": 680.3150024414062
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        510.2359924316406,
+        680.3150024414062
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "4.2 Step into My Story\nEpai\nEvery day in school, your friends feel different feelings: happy, sad, left out, \nproud or even embarrassed. Sometimes, we do not notice or we do not know\n&ಛ 1Y8/u We# mou inoge u/ of #ueuou e ae aM uet #ng Aes ou #eU.\nfeeling, we start building empathy.\n: Atpedue &Aey no mou noK ypyM up s&ea auos eIe as?UL\n. I helped a friend who was hurt \nI gave\nmy time and support\nOr sad.\nwhen someone v\nwas upset.\nI?\nshared\nsomething\nbecause\nಲ\nI\nsaid \nsorry\nwhen\nI hurt\nsomeone\ndid not have it.\nsomeone's feelings.\nI noticed someone sitting alone\nI listened to a friend when they\nand sat with them.\nwanted to talk.\nActivity \nIS\nIn groups of 4 : Discuss and share what you would do in each of \nthese situations\n-\nYour friend is sitting\nA classmate painted\nwith some other friend\nsomething really\nduring lunch. They did\nwell and the teacher\nnot ask if you wanted \npraised them. You \nto join them and\nalso painted well \nignored you.\nbut no one noticed.\nRole play\nMake small\nYou fall down\nYou made a\ngroups. Act it out\nwhile playing and\nmistake while\nin front of the\nhurt your knee.\nreading in front of \nClass. Show how\nYour friends\nthe class and a few\nyou can care for\nnoticed and did \nchildren laughed.\nothers and what\nnot help you.\nkind thing can be\ndone.\nEmpathy helps\nme care, listen,\nWhen we try to understand what someone else is\nand support\nfeeling, we become kinder.\nothers in small\nbut important \nThink\nand\nDo:\nConnect with your family\nmembers. Try to understand how they are feeling.\nways\nTalk to them about it.\n25",
+      "text_nfc": "4.2 Step into My Story\nEpai\nEvery day in school, your friends feel different feelings: happy, sad, left out, \nproud or even embarrassed. Sometimes, we do not notice or we do not know\n&ಛ 1Y8/u We# mou inoge u/ of #ueuou e ae aM uet #ng Aes ou #eU.\nfeeling, we start building empathy.\n: Atpedue &Aey no mou noK ypyM up s&ea auos eIe as?UL\n. I helped a friend who was hurt \nI gave\nmy time and support\nOr sad.\nwhen someone v\nwas upset.\nI?\nshared\nsomething\nbecause\nಲ\nI\nsaid \nsorry\nwhen\nI hurt\nsomeone\ndid not have it.\nsomeone's feelings.\nI noticed someone sitting alone\nI listened to a friend when they\nand sat with them.\nwanted to talk.\nActivity \nIS\nIn groups of 4 : Discuss and share what you would do in each of \nthese situations\n-\nYour friend is sitting\nA classmate painted\nwith some other friend\nsomething really\nduring lunch. They did\nwell and the teacher\nnot ask if you wanted \npraised them. You \nto join them and\nalso painted well \nignored you.\nbut no one noticed.\nRole play\nMake small\nYou fall down\nYou made a\ngroups. Act it out\nwhile playing and\nmistake while\nin front of the\nhurt your knee.\nreading in front of \nClass. Show how\nYour friends\nthe class and a few\nyou can care for\nnoticed and did \nchildren laughed.\nothers and what\nnot help you.\nkind thing can be\ndone.\nEmpathy helps\nme care, listen,\nWhen we try to understand what someone else is\nand support\nfeeling, we become kinder.\nothers in small\nbut important \nThink\nand\nDo:\nConnect with your family\nmembers. Try to understand how they are feeling.\nways\nTalk to them about it.\n25",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

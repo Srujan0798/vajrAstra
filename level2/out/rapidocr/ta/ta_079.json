@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_079",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "rapidocr",
+  "engine_meta": {
+    "engine": "rapidocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "rapidocr 3.9.2 (PP-OCRv5/v4 per-lang)"
+  },
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0013pro_raw.pdf",
+    "page_index": 20,
+    "width": 594.239990234375,
+    "height": 785.0399780273438
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        594.239990234375,
+        785.0399780273438
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": " [..] -\n1\ne  - [^] \nh\nTHEE [\n [.] − \n 14h\nh\n'PHPK\n T, TT,\nFf,\nh\n1 [9.i.] −\nET,\nEcTT,\nlh\nt+f [fa.Fsft.] -\n  fTR sT \nfHCT\nTTETT [I.] -\n,FeTl,\n3 \nFRTETT,\nT\nHTS2T\n[ [.51.] -\n317 15 3   31, 315\nThT(T [37.(3.)] - Tid,\n,3TH, ST2TE\nTERTIT\n[4.fsh.]\nl,,\n#  l\nI FSchSTc ATeT, TROTT\n1 [9.i.]-\nTI,\n3TRUT,\n$\n[tt.]\nWal\n, TTHT, GAT, FOR, SRTR\nfo& \n [fa.] − 1\n3T\n$ [4.f5.]  f\n FOTRT,\n,e\nst [t.] -\n|− &T,\nTh2\ndeT [T.] ,  \nad [T.(3.)-\nHT\n [fa.] -\nP$\nH8TC [fa.i.]-\nHTCH\n[π.] -\n fTT,\n3T4OE 8\n$\nHTH [Y.Fi.]-\n ATHT, FRYT,\n, 3rYTGHT, Ff-TEfH,\n, feit, TYl, FHRUT\n148\nReprint 2026-27",
+      "text_nfc": " [..] -\n1\ne  - [^] \nh\nTHEE [\n [.] − \n 14h\nh\n'PHPK\n T, TT,\nFf,\nh\n1 [9.i.] −\nET,\nEcTT,\nlh\nt+f [fa.Fsft.] -\n  fTR sT \nfHCT\nTTETT [I.] -\n,FeTl,\n3 \nFRTETT,\nT\nHTS2T\n[ [.51.] -\n317 15 3   31, 315\nThT(T [37.(3.)] - Tid,\n,3TH, ST2TE\nTERTIT\n[4.fsh.]\nl,,\n#  l\nI FSchSTc ATeT, TROTT\n1 [9.i.]-\nTI,\n3TRUT,\n$\n[tt.]\nWal\n, TTHT, GAT, FOR, SRTR\nfo& \n [fa.] − 1\n3T\n$ [4.f5.]  f\n FOTRT,\n,e\nst [t.] -\n|− &T,\nTh2\ndeT [T.] ,  \nad [T.(3.)-\nHT\n [fa.] -\nP$\nH8TC [fa.i.]-\nHTCH\n[π.] -\n fTT,\n3T4OE 8\n$\nHTH [Y.Fi.]-\n ATHT, FRYT,\n, 3rYTGHT, Ff-TEfH,\n, feit, TYl, FHRUT\n148\nReprint 2026-27",
+      "provenance": "ocr_engine"
+    }
+  ]
+}

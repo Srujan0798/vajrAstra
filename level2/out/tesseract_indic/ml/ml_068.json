@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_068",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 24,
+    "width": 1509,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1509,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ക OOS 6374 ഗായകരും os. ആഴ]\n\nകം Binjasrwt wn) oral ol Qn 6 o>|-\n\nAoyerunr ഛുംഫുമര്‍ടവി പായ AVDIRAZ : ८५९2\n\nകഷണ ടട കമായ) മക “യ H)rep wou\n\nmtr Am) ay) Dears ഉയയ aa-oo asl ക്മത്മയ *\n\n൧൦൭൭ ४८ ഗഹ Sasa pogo\n\n> Narn കാറ്‌ न्न्ठ हि പര്‌ ക്കൽ - മി FAT\n\nPPM BEI BW Seo ബാങ്ങ്‌ ൧൭ CB ANGI Ome\n\nOMeA’> ~~) 4, Qe CH ay ee et She.\n\nBinet mma, (5 |\" 12, =\n\nകി ചിട ledge വക്ക ഹിത\nसूरज डे കി യുട a ae ടമ്മ ൨൦ -£ 3-3\n൧൦-24 കകാ നബ] ഒട ചാ തിയാ ഹിമ\n\nഒട്ട ക്ല : —2-k വിനുത go NAD oy\n\n|\n\n",
+      "text_nfc": "ക OOS 6374 ഗായകരും os. ആഴ]\n\nകം Binjasrwt wn) oral ol Qn 6 o>|-\n\nAoyerunr ഛുംഫുമര്‍ടവി പായ AVDIRAZ : ८५९2\n\nകഷണ ടട കമായ) മക “യ H)rep wou\n\nmtr Am) ay) Dears ഉയയ aa-oo asl ക്മത്മയ *\n\n൧൦൭൭ ४८ ഗഹ Sasa pogo\n\n> Narn കാറ്‌ न्न्ठ हि പര്‌ ക്കൽ - മി FAT\n\nPPM BEI BW Seo ബാങ്ങ്‌ ൧൭ CB ANGI Ome\n\nOMeA’> ~~) 4, Qe CH ay ee et She.\n\nBinet mma, (5 |\" 12, =\n\nകി ചിട ledge വക്ക ഹിത\nसूरज डे കി യുട a ae ടമ്മ ൨൦ -£ 3-3\n൧൦-24 കകാ നബ] ഒട ചാ തിയാ ഹിമ\n\nഒട്ട ക്ല : —2-k വിനുത go NAD oy\n\n|\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

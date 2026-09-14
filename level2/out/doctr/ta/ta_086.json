@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_086",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0020pro_raw.pdf",
+    "page_index": 0,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "IT 6\nLA DOEe\n5LLDBTG 9JT\nBLDOUBOOOU\nOIGOOTLITLD D Ol 600T 6\n556001 ELuslaud\n5LDILDITG SIT aMoGUGam LIITLITOU QILDISLD SLLBBOT Bip GaiaTlugLturL5\nLI6erfla 500055160m\n12th-Accountancy-Front.indd 1\n12/11/2021 11:53:36 PM\nSGOTLITGOLD LDo0f5GBWLDDD QFWQIID OLG5DDULD 25",
+      "text_nfc": "IT 6\nLA DOEe\n5LLDBTG 9JT\nBLDOUBOOOU\nOIGOOTLITLD D Ol 600T 6\n556001 ELuslaud\n5LDILDITG SIT aMoGUGam LIITLITOU QILDISLD SLLBBOT Bip GaiaTlugLturL5\nLI6erfla 500055160m\n12th-Accountancy-Front.indd 1\n12/11/2021 11:53:36 PM\nSGOTLITGOLD LDo0f5GBWLDDD QFWQIID OLG5DDULD 25",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

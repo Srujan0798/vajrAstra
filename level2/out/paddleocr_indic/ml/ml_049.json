@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_049",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0002pro_raw.pdf",
+    "page_index": 0,
+    "width": 1640,
+    "height": 2324
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1640,
+        2324
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "SAMPLE QUESTION PAPER FOR\nSUMMATIVE ASSESSMENT\nSecondTerm - 2010 - 2011\nMALAYALAM\nClass : X\nTime : 3 Hrs.\n2.202\nCode : 012\nMarks : 80\nSECTION - A /A - oo\n8 Marks\n.\n\n,,,.\n2\n\n\nG.\n\n,G\nGrooo.\n2(6(662M020036)S\n60\n\nwc.\n1. ?\n2\n2. GIBB6SGM3MIM2020°(SM6GBB?\n2\n3.?\n2\n4.?\n2\nSECTION - B / B - oo\n14 Marks\n.1):7\na) a.\nb)g\nc) o\n2\nB030933.\n7\nSECTION - C /C - Ooo\n18Marks\nIII. 1) ( 20.:\n1\n2\n23OGOm.\n2\n1\n\n3\n1\nBG\n-1-",
+      "text_nfc": "SAMPLE QUESTION PAPER FOR\nSUMMATIVE ASSESSMENT\nSecondTerm - 2010 - 2011\nMALAYALAM\nClass : X\nTime : 3 Hrs.\n2.202\nCode : 012\nMarks : 80\nSECTION - A /A - oo\n8 Marks\n.\n\n,,,.\n2\n\n\nG.\n\n,G\nGrooo.\n2(6(662M020036)S\n60\n\nwc.\n1. ?\n2\n2. GIBB6SGM3MIM2020°(SM6GBB?\n2\n3.?\n2\n4.?\n2\nSECTION - B / B - oo\n14 Marks\n.1):7\na) a.\nb)g\nc) o\n2\nB030933.\n7\nSECTION - C /C - Ooo\n18Marks\nIII. 1) ( 20.:\n1\n2\n23OGOm.\n2\n1\n\n3\n1\nBG\n-1-",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

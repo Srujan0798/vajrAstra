@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_019",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0020pro_raw.pdf",
+    "page_index": 102,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Nogaseads\n101\nToest: Hogsaseads, P(E) 8 weas00on, eoso (28333 E n endoona\n9O3nes) avowonero e3eas (dep NOR goone N033) 8o3 baa epao\nswwohdad Wowaa,\n-0\naocy\ndocwzea.\n-0\nedood,\n0 S P(E) S 1\n37, egg30 boFRen NOWOQRO woa erapadrsada, anatotpero.\ne830 DOFTS 883004 (deck/pack) docadeoo? qa 52 DOFREN acobdy,\naonea,\n& 8e\n13 BOGFRSOS 4 moanen\n(suits) oeonad. Hets 3\n(A), 0063F\n(V), ajavote (*) aa 0 gey (). gey 2 aa 0 Xetos e N SOUFNS dab 3 Reptoynvonap 83\n003F as tavoter SOOFRS toad w800A0. 20 a\nggadeod modd 5O0FR9O08,\nOT, 008, 0088, 2300, 10, 9, 8, 7, 6, 5, 4, 3 aa o 2. 002, ODE8 aa 230,0 28\nDOFREN a awva TOFNSS (Owdg 3 BOFRES) Qa,cod.\nevwooors 4: 2300A 23020 52 TOOFNS a00 8E3n00 wo0 OF Enabeond.\n83 SOOF\n(i) ao0 OTTO enda,\n(ii) wo0 WT enea Hopaspeatdaoso, dots00000.\naoood: 2o0A 23080 eoao, Naod sogone WOEneS woas 2283w07030. 0\n(i) SOFTS wo0 sune 4 09T9030. \"Enawa TOrF wo0 WTS\" enda\n08333 'E' endo.\nEn entoona goene Nos = 4\nNOT goone Noss = 52 (W8?)\n:\nP(E)- 52 4 = 1\n(ii) wo0 WT egn TOwF Bnawa 0e3 'F\" endo E33 Fn ewdoona\nWOne Nossy = 52 - 4 = 48 (03?)\nNOU goone 20683 Noss, = 52\n:\nP(F) = $8 = 13\nnaog: e F eono E endad. egood NOC P(F) a gendoo Sreesod\naotwaa.\nP(F) = P(E) = 1 - P(E)\n12 13",
+      "text_nfc": "Nogaseads\n101\nToest: Hogsaseads, P(E) 8 weas00on, eoso (28333 E n endoona\n9O3nes) avowonero e3eas (dep NOR goone N033) 8o3 baa epao\nswwohdad Wowaa,\n-0\naocy\ndocwzea.\n-0\nedood,\n0 S P(E) S 1\n37, egg30 boFRen NOWOQRO woa erapadrsada, anatotpero.\ne830 DOFTS 883004 (deck/pack) docadeoo? qa 52 DOFREN acobdy,\naonea,\n& 8e\n13 BOGFRSOS 4 moanen\n(suits) oeonad. Hets 3\n(A), 0063F\n(V), ajavote (*) aa 0 gey (). gey 2 aa 0 Xetos e N SOUFNS dab 3 Reptoynvonap 83\n003F as tavoter SOOFRS toad w800A0. 20 a\nggadeod modd 5O0FR9O08,\nOT, 008, 0088, 2300, 10, 9, 8, 7, 6, 5, 4, 3 aa o 2. 002, ODE8 aa 230,0 28\nDOFREN a awva TOFNSS (Owdg 3 BOFRES) Qa,cod.\nevwooors 4: 2300A 23020 52 TOOFNS a00 8E3n00 wo0 OF Enabeond.\n83 SOOF\n(i) ao0 OTTO enda,\n(ii) wo0 WT enea Hopaspeatdaoso, dots00000.\naoood: 2o0A 23080 eoao, Naod sogone WOEneS woas 2283w07030. 0\n(i) SOFTS wo0 sune 4 09T9030. \"Enawa TOrF wo0 WTS\" enda\n08333 'E' endo.\nEn entoona goene Nos = 4\nNOT goone Noss = 52 (W8?)\n:\nP(E)- 52 4 = 1\n(ii) wo0 WT egn TOwF Bnawa 0e3 'F\" endo E33 Fn ewdoona\nWOne Nossy = 52 - 4 = 48 (03?)\nNOU goone 20683 Noss, = 52\n:\nP(F) = $8 = 13\nnaog: e F eono E endad. egood NOC P(F) a gendoo Sreesod\naotwaa.\nP(F) = P(E) = 1 - P(E)\n12 13",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_070",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0031pro_raw.pdf",
+    "page_index": 0,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "ಕನಾ ౯ట్\nಸರ್ಕಾರ\nಶಾಲಾ ಶಿಕಣ ಮತ್ತು হাত উ  ರತಾ ಇಲಾಖೆ\nવ્ગ\ndepartment of school education  literacy\nದೈಹಿಕ ಶಿಕಣ 68\nಮಾನಸಿಕ ಮತ್ತು ಸಾಮಾಜಕ ಮೌಲ್ಯ ಶಿಕ್ಷಣ ೦9\nಸ್ವಾಸ್ಥ್ಯ ಒಳಗೊಂಡ\nphysical 11150\neducation value\nmental and social wellbeing\neducation\nincluding\n6\n૫૦\n6ನೇ ತರಗತಿ ವಿದ್ಯಾರ್ಥಿಗಳ ಚಟುವಟಿಕಾ ಪುಸ್ತಕ\nactivity book for class 6 students\n2026 2027\nರಾಜ್ಯ ಶಿಕಣ ಸ೦ಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಇಲಾಖೆ\nવ્ગ\nಬನಶಂಕರಿ 3ਲੰ ಹ೦ತ್ತ ಬೆ೦ಗಳೂರು 560 085",
+      "text_nfc": "ಕನಾ ౯ట్\nಸರ್ಕಾರ\nಶಾಲಾ ಶಿಕಣ ಮತ್ತು হাত উ  ರತಾ ಇಲಾಖೆ\nવ્ગ\ndepartment of school education  literacy\nದೈಹಿಕ ಶಿಕಣ 68\nಮಾನಸಿಕ ಮತ್ತು ಸಾಮಾಜಕ ಮೌಲ್ಯ ಶಿಕ್ಷಣ ೦9\nಸ್ವಾಸ್ಥ್ಯ ಒಳಗೊಂಡ\nphysical 11150\neducation value\nmental and social wellbeing\neducation\nincluding\n6\n૫૦\n6ನೇ ತರಗತಿ ವಿದ್ಯಾರ್ಥಿಗಳ ಚಟುವಟಿಕಾ ಪುಸ್ತಕ\nactivity book for class 6 students\n2026 2027\nರಾಜ್ಯ ಶಿಕಣ ಸ೦ಶೋಧನೆ ಮತ್ತು ತರಬೇತಿ ಇಲಾಖೆ\nવ્ગ\nಬನಶಂಕರಿ 3ਲੰ ಹ೦ತ್ತ ಬೆ೦ಗಳೂರು 560 085",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

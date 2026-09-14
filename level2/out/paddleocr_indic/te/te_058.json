@@ -1,0 +1,41 @@
+{
+  "page_id": "te_058",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/te/s_telugu0058pro_raw.pdf",
+    "page_index": 62,
+    "width": 1654,
+    "height": 2205
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2205
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "Language Study\nYou have seen last year that there are four types of sentences - statements,\nquestions, commands and exclamations. Some sentences contain negative words\nlike not, no, never and have a negative meaning.\n Can you turn the following commands / orders into negative ones ?\nExample : Put all the ingredients together.\nNegative : Don't put all the ingredients together.\n Fold the paper in half again.\nWash the guava.\n Mix the ingredients.\n Grind them in a mixer.\n Can you turn the following negative statements into positive (affirmative) ones ?\nExample : I cannot understand.\nPositive : I can understand.\nI do not like that music at my dinner.\nThe other did not know what to do. (Use 'knew'.)\nTravelling from China to India was not an easy task.\nIt made no difference to us. (Use 'a difference')\nNever trust a friend who deserts you at a pinch.\nCan you make the statements positive without changing the meaning?\nWhat do you have to do ? Can all the above sentences be rewritten in this way ?\nDiscuss. Write down any two sentences you could rewrite without changing\nthe meaning.\nTOW\nTwo minutes of Oral Work\nThink of as many commands as possible within two\nminutes, that begin with the following verbs.\ncross\nhelp\nwash\nstudy\ntake\nTOW\nTwo minutes of Oral Work\nThink of as many negative words as possible\nwithin two minutes.\n–\nExample - no one.\nXX7X5X\n53",
+      "text_nfc": "Language Study\nYou have seen last year that there are four types of sentences - statements,\nquestions, commands and exclamations. Some sentences contain negative words\nlike not, no, never and have a negative meaning.\n Can you turn the following commands / orders into negative ones ?\nExample : Put all the ingredients together.\nNegative : Don't put all the ingredients together.\n Fold the paper in half again.\nWash the guava.\n Mix the ingredients.\n Grind them in a mixer.\n Can you turn the following negative statements into positive (affirmative) ones ?\nExample : I cannot understand.\nPositive : I can understand.\nI do not like that music at my dinner.\nThe other did not know what to do. (Use 'knew'.)\nTravelling from China to India was not an easy task.\nIt made no difference to us. (Use 'a difference')\nNever trust a friend who deserts you at a pinch.\nCan you make the statements positive without changing the meaning?\nWhat do you have to do ? Can all the above sentences be rewritten in this way ?\nDiscuss. Write down any two sentences you could rewrite without changing\nthe meaning.\nTOW\nTwo minutes of Oral Work\nThink of as many commands as possible within two\nminutes, that begin with the following verbs.\ncross\nhelp\nwash\nstudy\ntake\nTOW\nTwo minutes of Oral Work\nThink of as many negative words as possible\nwithin two minutes.\n–\nExample - no one.\nXX7X5X\n53",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

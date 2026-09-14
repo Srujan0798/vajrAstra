@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_032",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "tesseract_indic",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0014pro_raw.pdf",
+    "page_index": 8,
+    "width": 1537,
+    "height": 2200
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1537,
+        2200
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "“a 14 Dorie Dporr sy\n\nnome NEM? 470 NI rw D alone\n\n“wr\n(seve Aly ot Om 72 MHA\nBarrer Sue oh yr\"\n\npaid\n\n| 70ar™\n| കൂടു 130 Arjona Cryer\n\nമിക്‌ മുടി ചാകടിമക്ക്‌ नहर १ Chey\n\nOBBn ade ൽ 4\nശരിക്ടട്ത Bago ജിന ബക door\nao idgrlesdlay SA nin A| 279 cov\n— evo \\or\n(25 barren) वि\nകാഥിക പ, Bape omar 32\n\nSNOW’ ഭൂ കമത്തി con algo |\n\nകാക്ക ക Asani है\n\nപാ ൦ തി Neg Dber NO DY Nis Baw vit\na aa Lye e BA ENS യടി ase\n7 <P\n\nറ\n\nmy] iy\n\n",
+      "text_nfc": "“a 14 Dorie Dporr sy\n\nnome NEM? 470 NI rw D alone\n\n“wr\n(seve Aly ot Om 72 MHA\nBarrer Sue oh yr\"\n\npaid\n\n| 70ar™\n| കൂടു 130 Arjona Cryer\n\nമിക്‌ മുടി ചാകടിമക്ക്‌ नहर १ Chey\n\nOBBn ade ൽ 4\nശരിക്ടട്ത Bago ജിന ബക door\nao idgrlesdlay SA nin A| 279 cov\n— evo \\or\n(25 barren) वि\nകാഥിക പ, Bape omar 32\n\nSNOW’ ഭൂ കമത്തി con algo |\n\nകാക്ക ക Asani है\n\nപാ ൦ തി Neg Dber NO DY Nis Baw vit\na aa Lye e BA ENS യടി ase\n7 <P\n\nറ\n\nmy] iy\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "tesseract_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "tesseract 5.5.2 (tel+hin+eng open stack)"
+  }
+}

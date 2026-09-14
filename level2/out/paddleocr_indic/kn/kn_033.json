@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_033",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/kn/s_kannada0034pro_raw.pdf",
+    "page_index": 52,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "T.? what Helps Creativity?\nHave you ever made up a new game? Cooked something by mixing things in a new way?\nThat's creativity! It doesn't only belong to artists or scientists, it belongs to all of us.\nBeavers build dams, birds build nests but they do it the same way every time. We, on the\nOther hand, can invent new music, change the way we dress, even make machines that\nTalk like humans! But what helps us become more creative? And what blocks us?\nStory Time!\nSana lived in a small town. Her father\nWas a rickshaw puller, and they had\nEntertaining\nTalking to\nOnly one room with no gas connection.\ndifferent ideas\nPeople\nExperimenting\nShe noticed that the sun heated the\nWith diverse\nExploring\ntin roof of their house so much that\nback!\ngrounds\nit could burn her fingers. One day.\nShe saw an old shiny plate and some\nBLISHED\nbroken  glass  pieces, that gave her\nan idea. What if she could use the\nSun's heat to cook? She tried different\nSetups using an old shoebox, black\nPaint, foil wrappers, and glass, failing\nmany times. But she didn't give up.\nReading\nFeeling\nabout lot\nAfter two weeks of testing and fixing.\ninspired\nMaking unusua\nOf different\nSana made a solar cooker that could\nConnections\ntopics\nbetween two things,\nheat water and cook rice! Her teachers\nJateral thinking\nwere amazed. Today, her design is\nbeing improved by an NGO to use in\nVillages with no access to fuel.\nTaking\ninspiration\nChoose what helps you be\nfrom other's\nCreative\ndesigns\nAllowing ideas\nApplying\nthoughts\nto arise by\nideas from\nthemselves,\nOne field to\nnot force them\nAnother\nBeing\nBeing angry\nBeing\nPeacefu\nupset or irritated\nStressed\n45",
+      "text_nfc": "T.? what Helps Creativity?\nHave you ever made up a new game? Cooked something by mixing things in a new way?\nThat's creativity! It doesn't only belong to artists or scientists, it belongs to all of us.\nBeavers build dams, birds build nests but they do it the same way every time. We, on the\nOther hand, can invent new music, change the way we dress, even make machines that\nTalk like humans! But what helps us become more creative? And what blocks us?\nStory Time!\nSana lived in a small town. Her father\nWas a rickshaw puller, and they had\nEntertaining\nTalking to\nOnly one room with no gas connection.\ndifferent ideas\nPeople\nExperimenting\nShe noticed that the sun heated the\nWith diverse\nExploring\ntin roof of their house so much that\nback!\ngrounds\nit could burn her fingers. One day.\nShe saw an old shiny plate and some\nBLISHED\nbroken  glass  pieces, that gave her\nan idea. What if she could use the\nSun's heat to cook? She tried different\nSetups using an old shoebox, black\nPaint, foil wrappers, and glass, failing\nmany times. But she didn't give up.\nReading\nFeeling\nabout lot\nAfter two weeks of testing and fixing.\ninspired\nMaking unusua\nOf different\nSana made a solar cooker that could\nConnections\ntopics\nbetween two things,\nheat water and cook rice! Her teachers\nJateral thinking\nwere amazed. Today, her design is\nbeing improved by an NGO to use in\nVillages with no access to fuel.\nTaking\ninspiration\nChoose what helps you be\nfrom other's\nCreative\ndesigns\nAllowing ideas\nApplying\nthoughts\nto arise by\nideas from\nthemselves,\nOne field to\nnot force them\nAnother\nBeing\nBeing angry\nBeing\nPeacefu\nupset or irritated\nStressed\n45",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}

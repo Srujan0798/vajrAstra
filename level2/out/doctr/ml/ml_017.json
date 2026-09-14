@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_017",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0018pro_raw.pdf",
+    "page_index": 13,
+    "width": 827,
+    "height": 1331
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        827,
+        1331
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "6\napolons coelolao 6003 sainjejons)col. BIJSI g00\n6m0lwo G0OGaJ00er arpclavolao.\n00001 (3106031600 aseemololalsolos (8100J36S\nlmooel 60000 Qirm0ons00olamo. 60 CQQJOQJOSN.\n000000 (B0 Soo 0olag000000001090600 qmllo 6\n0000 OSdem allajoo\nigY00leno.\nOSO0\ndb\n2los 2608001am alggioglalgoangma (1OD0Y\na0e1olos Qauc0n oplglaano.asl\n00e1o1 000\ncoDad BY00l0030 6m0 66051 Dassma 66030000085\nalgoad Gooloy.\nTUG\ngoellayo Qbololojq82 O 0210.0-1890000, a\nYoomi poejolo 05o0sploiol. QQ100 ailongo GCOD\neolocoodo (TOQ10006 egeaocologym nooloro0b. BYO\n0000018100100 COSOD alejoo 603 qons allole dls\n0l axgyoa/0r0la000 28glapla 603 ajomeapBoJjo\n00500 coejalaos 02100 W0020 0glo). 0600003\nBo a0SOU Qdelmolsasolgg GOO opoaulo OS\n60 ooejolde 660J0CLO allono. domalyla ecDodo.\n610\n0ondo (OSOO 63 00100 01g062001 603 6010\n01a00000 Doleemo doons (00100 dsomgaleswlao\naolealal. (GYO 1205 Q0lgoo dons 2 1B10 Qooo\n0106100:\n\"gauslo.Bgong. Grooad 0000j0 06000\nam. 00880e 3)\noerol 00000) 20000 aoaiond oloioe a\n889, 61001205 6./0)060800100 601830 ajoolalaag\n0005ns 3m00 alongaioad 110010006 moowlggle-\nvr 22s -",
+      "text_nfc": "6\napolons coelolao 6003 sainjejons)col. BIJSI g00\n6m0lwo G0OGaJ00er arpclavolao.\n00001 (3106031600 aseemololalsolos (8100J36S\nlmooel 60000 Qirm0ons00olamo. 60 CQQJOQJOSN.\n000000 (B0 Soo 0olag000000001090600 qmllo 6\n0000 OSdem allajoo\nigY00leno.\nOSO0\ndb\n2los 2608001am alggioglalgoangma (1OD0Y\na0e1olos Qauc0n oplglaano.asl\n00e1o1 000\ncoDad BY00l0030 6m0 66051 Dassma 66030000085\nalgoad Gooloy.\nTUG\ngoellayo Qbololojq82 O 0210.0-1890000, a\nYoomi poejolo 05o0sploiol. QQ100 ailongo GCOD\neolocoodo (TOQ10006 egeaocologym nooloro0b. BYO\n0000018100100 COSOD alejoo 603 qons allole dls\n0l axgyoa/0r0la000 28glapla 603 ajomeapBoJjo\n00500 coejalaos 02100 W0020 0glo). 0600003\nBo a0SOU Qdelmolsasolgg GOO opoaulo OS\n60 ooejolde 660J0CLO allono. domalyla ecDodo.\n610\n0ondo (OSOO 63 00100 01g062001 603 6010\n01a00000 Doleemo doons (00100 dsomgaleswlao\naolealal. (GYO 1205 Q0lgoo dons 2 1B10 Qooo\n0106100:\n\"gauslo.Bgong. Grooad 0000j0 06000\nam. 00880e 3)\noerol 00000) 20000 aoaiond oloioe a\n889, 61001205 6./0)060800100 601830 ajoolalaag\n0005ns 3m00 alongaioad 110010006 moowlggle-\nvr 22s -",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

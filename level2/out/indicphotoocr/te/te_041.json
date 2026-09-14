@@ -1,0 +1,41 @@
+{
+  "page_id": "te_041",
+  "source": "S5_govt",
+  "lang": "te",
+  "script": "Telu",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "indicphotoocr",
+  "image": {
+    "raw_path": "work/te/s_telugu0041pro_raw.pdf",
+    "page_index": 0,
+    "width": 1794,
+    "height": 2610
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1794,
+        2610
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "मराठी\nसुलभभारती\nइयत्ता पाचवी\nਹੈ",
+      "text_nfc": "मराठी\nसुलभभारती\nइयत्ता पाचवी\nਹੈ",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "indicphotoocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "IndicPhotoOCR IIIT-H parseq"
+  }
+}

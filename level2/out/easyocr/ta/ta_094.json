@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_094",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0028pro_raw.pdf",
+    "page_index": 258,
+    "width": 1818,
+    "height": 2448
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1818,
+        2448
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "1. ऊooflLo LGLILIIUIनृI   Lopoio ९६DBBz@l फ़loopuIplछ६b   GBnछ६o६णा थ५फीU Iठणा ०%Lfग ऊGLIकbीनoा C६DBBozml @InUILILITG CHIzO6 ना६णा BILGBl6orpoor .\n२\nशLj HItopoio Bl@ILIL LIITSंDLIJ6ंD BI6ठणG Q७BGIDGLITgl ०%Llग ऊGLI6jD थJवण छl n ठ@mऊG#ठण (Ll६oBUI6ा64|) Loppio २-OIGUIIGLI नl@mऊG#6णा (@600!556ा6|) BoDpp +६D6D६I६DU| 8 (@IBछBlलgl. @gl,   %%Llp ऊंGLIनDी@|नााना थफ़l   ऊIग्रंLIनDT JIj9|BBGBi @७ग GूjGBILG BIंIDlनDlUIIक LlooD६oणा BBLILILGनाTनाठणा ना6ठTLlooछ   BILGBlpgl. HI / P ०%Lfn कGLIT6ं७ CHz CHz CHz + CHs CH + CHz CHs @७कछi 4 3 0 न@08#6णा २- थGuIIGLI न@0कG#६णा 3. ०Lf,ऊGLITSi७ NHZOH boppio HCN २ L६णा @ी६oनाL|प्री&ीpgl. ०%LinऊGLIGi७ ९६DBBomी६b BIjLIनODनOT6D 6gI७छ @GLILIनoछ   @६loll६omणा छठाा BILGBl6णrpoor .\n4. %Llग ऊGLITOंD थJनणा छ। Llrll ठणT (णT6णfीl6o६DUl६ JIEILIछं थIbी॰o Bफ़lनbluJL6DT @fनoDनOILILILG OLIनDTLIT थमILGLLनoL २_ (oIDG&lpgl. ०LfगऊGLI6i७ C६DBBoml६b   शूऊgl थJlbBomn६b   ६gIछफ़ीछनाा @ULLloछ @६lol७oनणा BILGElpgl\n5. ०Lf,ऊGLITSi७ C६DBBoml LGगILblठo फ़nob थकflgGूoा mpIDनOL@Iफ़l6ं60६D. फ़l६blफ़5!5gl, %%Llग ऊGLITOंD @D६DकB pl६ थJ६Dlq 6o@mक ठछI७फ़ी ( -CHO) @ULILIफ़OBIoOा  BIछंफ़ीUIDl६Do६D नाठणा थImluIDnUb.\n6. GBITIqUID-LIITgJ +छ B6D606| Loppio फ़ग २ Lणा ०%LfगऊGLIGं७ LIGफ़lUIनाा6Y| @७ऊBLDनDLIgl BIjLLITOD Lopoio GLDनOflLLITSD BनD६D६l २ GOI &lpgl. @०o६l @गरoणणGio @गoणणLIib छाjLloofl६b InOILILL थlनOIOLlनOLI OBIनDOL नLlloj छनाा थJGi. थमIा@Igl ९७ Lफ़lul BijsoLouIpp BnjLloor C-2 ७ी६७ २ (OIT &ीU |ना्ना gl. @gl QD६DBBoml६b BLLGLIT ठफ़Iछछी 2 6Tना6oफ़ २ @Iफ़lLIGफglकlpgl.\nCH OH\nCH OH\nCH OH\nC=0\nGBIIUID-LIIgपBD H-COH HO CH क@६D@I / HO + ४[H] HO CH + HO CH\nHO~CH\nHCOH\nHCOH\nHCOH\nHCOH\nHCOH\nHCOH\nCH OH\nCH OH %Lfप BGLIT6७\nCH OH\nBIyLLnob\nIOnTनofILLIO\n7 6oppLLpरl8 थIbl६oi नBI6ठण७   थjमंणlगGaoppi OlBUIUJDDGLIITgl ०%LllnऊGLIGं७ C६DBBozmn6णा gl Bl६oनाऊकI६Dऊ थIbl६oi Loppio LnjLnफ़lB थIIDl६DmंIछ६ODनाा छ७मpgl. @6062] ०%Lin ऊGLIGi७ ९०६DDBz 6ODp@lL 6op62IT60ा BIjLIनDT थlJooJBB६Dना OBI6OOIL QनDBBz MJकनTI GL.\n255\nXII Ul४ Biomolecules New indd 255\n16-12-2022 20:43:53",
+      "text_nfc": "1. ऊooflLo LGLILIIUIनृI   Lopoio ९६DBBz@l फ़loopuIplछ६b   GBnछ६o६णा थ५फीU Iठणा ०%Lfग ऊGLIकbीनoा C६DBBozml @InUILILITG CHIzO6 ना६णा BILGBl6orpoor .\n२\nशLj HItopoio Bl@ILIL LIITSंDLIJ6ंD BI6ठणG Q७BGIDGLITgl ०%Llग ऊGLI6jD थJवण छl n ठ@mऊG#ठण (Ll६oBUI6ा64|) Loppio २-OIGUIIGLI नl@mऊG#6णा (@600!556ा6|) BoDpp +६D6D६I६DU| 8 (@IBछBlलgl. @gl,   %%Llp ऊंGLIनDी@|नााना थफ़l   ऊIग्रंLIनDT JIj9|BBGBi @७ग GूjGBILG BIंIDlनDlUIIक LlooD६oणा BBLILILGनाTनाठणा ना6ठTLlooछ   BILGBlpgl. HI / P ०%Lfn कGLIT6ं७ CHz CHz CHz + CHs CH + CHz CHs @७कछi 4 3 0 न@08#6णा २- थGuIIGLI न@0कG#६णा 3. ०Lf,ऊGLITSi७ NHZOH boppio HCN २ L६णा @ी६oनाL|प्री&ीpgl. ०%LinऊGLIGi७ ९६DBBomी६b BIjLIनODनOT6D 6gI७छ @GLILIनoछ   @६loll६omणा छठाा BILGBl6णrpoor .\n4. %Llग ऊGLITOंD थJनणा छ। Llrll ठणT (णT6णfीl6o६DUl६ JIEILIछं थIbी॰o Bफ़lनbluJL6DT @fनoDनOILILILG OLIनDTLIT थमILGLLनoL २_ (oIDG&lpgl. ०LfगऊGLI6i७ C६DBBoml६b   शूऊgl थJlbBomn६b   ६gIछफ़ीछनाा @ULLloछ @६lol७oनणा BILGElpgl\n5. ०Lf,ऊGLITSi७ C६DBBoml LGगILblठo फ़nob थकflgGूoा mpIDनOL@Iफ़l6ं60६D. फ़l६blफ़5!5gl, %%Llग ऊGLITOंD @D६DकB pl६ थJ६Dlq 6o@mक ठछI७फ़ी ( -CHO) @ULILIफ़OBIoOा  BIछंफ़ीUIDl६Do६D नाठणा थImluIDnUb.\n6. GBITIqUID-LIITgJ +छ B6D606| Loppio फ़ग २ Lणा ०%LfगऊGLIGं७ LIGफ़lUIनाा6Y| @७ऊBLDनDLIgl BIjLLITOD Lopoio GLDनOflLLITSD BनD६D६l २ GOI &lpgl. @०o६l @गरoणणGio @गoणणLIib छाjLloofl६b InOILILL थlनOIOLlनOLI OBIनDOL नLlloj छनाा थJGi. थमIा@Igl ९७ Lफ़lul BijsoLouIpp BnjLloor C-2 ७ी६७ २ (OIT &ीU |ना्ना gl. @gl QD६DBBoml६b BLLGLIT ठफ़Iछछी 2 6Tना6oफ़ २ @Iफ़lLIGफglकlpgl.\nCH OH\nCH OH\nCH OH\nC=0\nGBIIUID-LIIgपBD H-COH HO CH क@६D@I / HO + ४[H] HO CH + HO CH\nHO~CH\nHCOH\nHCOH\nHCOH\nHCOH\nHCOH\nHCOH\nCH OH\nCH OH %Lfप BGLIT6७\nCH OH\nBIyLLnob\nIOnTनofILLIO\n7 6oppLLpरl8 थIbl६oi नBI6ठण७   थjमंणlगGaoppi OlBUIUJDDGLIITgl ०%LllnऊGLIGं७ C६DBBozmn6णा gl Bl६oनाऊकI६Dऊ थIbl६oi Loppio LnjLnफ़lB थIIDl६DmंIछ६ODनाा छ७मpgl. @6062] ०%Lin ऊGLIGi७ ९०६DDBz 6ODp@lL 6op62IT60ा BIjLIनDT थlJooJBB६Dना OBI6OOIL QनDBBz MJकनTI GL.\n255\nXII Ul४ Biomolecules New indd 255\n16-12-2022 20:43:53",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

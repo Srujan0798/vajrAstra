@@ -1,0 +1,41 @@
+{
+  "page_id": "kn_032",
+  "source": "S5_govt",
+  "lang": "kn",
+  "script": "Knda",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "doctr",
+  "image": {
+    "raw_path": "Datasets/kn/s_kannada0033pro_raw.pdf",
+    "page_index": 20,
+    "width": 1418,
+    "height": 1890
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1418,
+        1890
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "31 SEODEE Hore\n3\nO\nEVERYDAY\nJORD awa 0080 avotssed epwo na00 aa sotoe WOWORO wooTea Day asapoen\nwowondo de@ad.0o00e00? a0t e0307 gn woa adadeproat. aa say 3abee adowosos,\nosoae salpoon aoswotagee ad3d. aocawon NoCs daged epwo gpownegt e NodeFReD\na0orDadwon 33 EA 3259 seaboorbads. 63 e0380 gon aoto downea: X500038 gn: deogeal\nca NaAA ageopborogts, w0000r0ad aa soswondes andn3d. 300038 gn: anioods\nsavabdod Nan den oeawst, \"Jeaj ea agasade\" epwo \"Jeay atowonero agpeooroseo\"\nWowoBO N00003E 6 daaoren aeebst.\nD\na tend XowFneO Daz eozoz g SONAA\nDaor Tooos assotsoaosa XE000gE eozoz ghasr\n200533?\ndodtes, a geetdronen we2. ecartenb aeni\n3octad aodes\nwe723eto DORaS endd:\na\n2a0pa ent RRORLOYOOOT\ng3on aee:\n> 83aa0 awod 002, soen aocnoa aodes\nqae 30n800 awod Dan noosoon\nenwo D0S aona awor E8 aonea\nDeay goharse aOoNetaon Baontes ewon\naeedeg\nagad Qaabasedond, Nas e0300 go was\n(1e0o0dt as aFaona wobne W82)\nacebad woesan aoCy TaDreaa, az\neao sooadwa adawad. 33 desab\newwoodron: \"Jond\neswoorood cadoder\"\naoao\nX000038 ecocsoneas opeodcones wOno\ngoaga eon Beebas wdeo, \"soa egaopood\nsdadeorbat.\nages\" woao aFaade aee.\n(NWOs Bconso W82)\nDeay ezoz epwe R0087.000T. 2\nDas e0zo0\n- aORS sopevnea, waona AOWOF acoaded.\n38000 aoeadoges 53 DOERSOA WEAdOg,\no sOa sao a083 ogzdon mdorOde.\ndCA aozo WES eciocesnes awD,\n3aones Jan Boabeo Nooab awotssa.\nNOnD asas 2ey evsa atavoh eadweded.\n2E3s decedrones, w8008.\n1.\n2.\napeedrones wan\n3.\nA\n00o30won gaogtes\n4.\nwa asdades\n38000 detsa.\n5.\noe\n13",
+      "text_nfc": "31 SEODEE Hore\n3\nO\nEVERYDAY\nJORD awa 0080 avotssed epwo na00 aa sotoe WOWORO wooTea Day asapoen\nwowondo de@ad.0o00e00? a0t e0307 gn woa adadeproat. aa say 3abee adowosos,\nosoae salpoon aoswotagee ad3d. aocawon NoCs daged epwo gpownegt e NodeFReD\na0orDadwon 33 EA 3259 seaboorbads. 63 e0380 gon aoto downea: X500038 gn: deogeal\nca NaAA ageopborogts, w0000r0ad aa soswondes andn3d. 300038 gn: anioods\nsavabdod Nan den oeawst, \"Jeaj ea agasade\" epwo \"Jeay atowonero agpeooroseo\"\nWowoBO N00003E 6 daaoren aeebst.\nD\na tend XowFneO Daz eozoz g SONAA\nDaor Tooos assotsoaosa XE000gE eozoz ghasr\n200533?\ndodtes, a geetdronen we2. ecartenb aeni\n3octad aodes\nwe723eto DORaS endd:\na\n2a0pa ent RRORLOYOOOT\ng3on aee:\n> 83aa0 awod 002, soen aocnoa aodes\nqae 30n800 awod Dan noosoon\nenwo D0S aona awor E8 aonea\nDeay goharse aOoNetaon Baontes ewon\naeedeg\nagad Qaabasedond, Nas e0300 go was\n(1e0o0dt as aFaona wobne W82)\nacebad woesan aoCy TaDreaa, az\neao sooadwa adawad. 33 desab\newwoodron: \"Jond\neswoorood cadoder\"\naoao\nX000038 ecocsoneas opeodcones wOno\ngoaga eon Beebas wdeo, \"soa egaopood\nsdadeorbat.\nages\" woao aFaade aee.\n(NWOs Bconso W82)\nDeay ezoz epwe R0087.000T. 2\nDas e0zo0\n- aORS sopevnea, waona AOWOF acoaded.\n38000 aoeadoges 53 DOERSOA WEAdOg,\no sOa sao a083 ogzdon mdorOde.\ndCA aozo WES eciocesnes awD,\n3aones Jan Boabeo Nooab awotssa.\nNOnD asas 2ey evsa atavoh eadweded.\n2E3s decedrones, w8008.\n1.\n2.\napeedrones wan\n3.\nA\n00o30won gaogtes\n4.\nwa asdades\n38000 detsa.\n5.\noe\n13",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "doctr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "doctr 1.1.0 (crnn_vgg16)"
+  }
+}

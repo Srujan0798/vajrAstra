@@ -1,0 +1,41 @@
+{
+  "page_id": "ta_007",
+  "source": "S5_govt",
+  "lang": "ta",
+  "script": "Taml",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "easyocr",
+  "image": {
+    "raw_path": "Datasets/ta/s_tamil0007pro_raw.pdf",
+    "page_index": 3,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(ii)\n4ऊझtlछ Brloor @IVOLIITSU J७८l नoloin2l BITooorLlulGit ? (A) 9|LI5l8l (3) Bouऊl# (0) ७छofloInफ (D) opaToाpolpofloInB\n(iii ) JJpलl olol6iToTti Etlulsi oIntt 2 ulrऊlrऊछ# OlBUloछl ना६ठा6oा ? (A) ७B फIBODनाछं 5७ऊBIDछl (3) IDooToDUDB+O नाछ छ७BloणDछl (C) Gफ GIफकo नाछं छ७BloणrDछl (D) O२I6ITIऊI Booनाछं छकBlooDछl\n(iv)\n७lol6iToTti olqult छOooort नछl ? (A) LDoota थफ़iBणlऊछn QLIIg (3) IDoOgDUIoor BOloon Goopui QLITg (C) (BकOIB60)नाछं छIToooा Glti QLIITgI (D) BOOTLIVooग G Git QLIgI\nथ७pmls ololoiToTti OLIGBI oluGuIngl ना॰ठाठoा oltuiuit ? (A) pol UOooorL JऊBooना##bpछl o७t () OTऊBLooLoouit Blopछl ol७t (0) oltplulQ६v BIILILIOOOIBSOOनाT JIपऊछl ollt (D) GUlJOLIB6O6Tg FIgछlऊं ७lBITooग Gl ollt Page 4 of १५\n10/$",
+      "text_nfc": "(ii)\n4ऊझtlछ Brloor @IVOLIITSU J७८l नoloin2l BITooorLlulGit ? (A) 9|LI5l8l (3) Bouऊl# (0) ७छofloInफ (D) opaToाpolpofloInB\n(iii ) JJpलl olol6iToTti Etlulsi oIntt 2 ulrऊlrऊछ# OlBUloछl ना६ठा6oा ? (A) ७B फIBODनाछं 5७ऊBIDछl (3) IDooToDUDB+O नाछ छ७BloणDछl (C) Gफ GIफकo नाछं छ७BloणrDछl (D) O२I6ITIऊI Booनाछं छकBlooDछl\n(iv)\n७lol6iToTti olqult छOooort नछl ? (A) LDoota थफ़iBणlऊछn QLIIg (3) IDoOgDUIoor BOloon Goopui QLITg (C) (BकOIB60)नाछं छIToooा Glti QLIITgI (D) BOOTLIVooग G Git QLIgI\nथ७pmls ololoiToTti OLIGBI oluGuIngl ना॰ठाठoा oltuiuit ? (A) pol UOooorL JऊBooना##bpछl o७t () OTऊBLooLoouit Blopछl ol७t (0) oltplulQ६v BIILILIOOOIBSOOनाT JIपऊछl ollt (D) GUlJOLIB6O6Tg FIgछlऊं ७lBITooग Gl ollt Page 4 of १५\n10/$",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "easyocr",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "easyocr 1.7.2 (per-script readers)"
+  }
+}

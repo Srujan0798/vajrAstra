@@ -1,0 +1,41 @@
+{
+  "page_id": "ml_092",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "anuvaad_tesseract",
+  "image": {
+    "raw_path": "Datasets/ml/s_malayalam0021pro_raw.pdf",
+    "page_index": 115,
+    "width": 932,
+    "height": 1415
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        932,
+        1415
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "112 १४०10 ഗോറീിയോ\n\nmilano അത്പഥം അവുനു an mie) &91s0 Hm 2m’\n£90, &0o 692210 GIA (3183 600 0000 1-9० പാച്ചു. അവനൻെറ\nMIBIQo ജാഗതൂകമായിർരുന്നു.\n\n“6 മാഡം-? ? അവൻ തുടന്. ** എന്നോടു ക്ഷമക്കണേ.\nബന്ധുത-ത്തിനെറ നേരിയ BB തന്തുഷപഷവൽനിന്നായാലും എന\n28 സംരക്ഷണം ആവപശുമാണു“ . ” :\n\nAIWoe ബൊസെയാ മന്ദഹസ്ീച്ചു . അ മന്ദഹാസത്ത\nലും B@ 609800011 നർഴല1 ച്ചീരുന്നു അടുത്തുവരുന്ന cas\nനയുടെ പ്രതീത ഇല്പോഴേ aa ः\n\n6 «890 लाड़े @glatis! alam.\n\n“agamdoe &Som ple) e201\n\n66) IAAI, + 341 3301 3359 क0लाड़े ५-10\nCOM. 66 ഞാൻ md\n\nBB അകന്ന 6 [) . എന്നാൽ aga ae\" ഈ ബവന്ഡം\nNos ഭവവതിയുടെ grim agacto\nAmo ajowsmMeaacerstols;iam\nകാരുങ്ങാടിപോല്യം ജപ്ലരോഴെനിക്കു ഓമ്യി്ല . പാസ്സിൽ\nഎനിക്കു മററാരേയും പരചയമി്ല. ....ങ് ഹാ, എനിിക്കു ear\nതിയുടെ , സഹായം അവേക്ഷീക്കാൻ MIM AIH AHI അതു\"”-\nഭവതീയുടെ വസ്ത്രത്തുമ്പാൽ 219019415194 161M — ഭവതീക്കു\ncalms) mando ജീപനെത്തന്നെ malaslasomd സന്നദ്ധത\nWaa രരു ശിശുവവിനെയെന്നപോലെ എന്നെ കാത്തുകൊള്ളണ\n\nമെന്നായീരീക്കും.\n\nCoy mes)\n\n",
+      "text_nfc": "112 १४०10 ഗോറീിയോ\n\nmilano അത്പഥം അവുനു an mie) &91s0 Hm 2m’\n£90, &0o 692210 GIA (3183 600 0000 1-9० പാച്ചു. അവനൻെറ\nMIBIQo ജാഗതൂകമായിർരുന്നു.\n\n“6 മാഡം-? ? അവൻ തുടന്. ** എന്നോടു ക്ഷമക്കണേ.\nബന്ധുത-ത്തിനെറ നേരിയ BB തന്തുഷപഷവൽനിന്നായാലും എന\n28 സംരക്ഷണം ആവപശുമാണു“ . ” :\n\nAIWoe ബൊസെയാ മന്ദഹസ്ീച്ചു . അ മന്ദഹാസത്ത\nലും B@ 609800011 നർഴല1 ച്ചീരുന്നു അടുത്തുവരുന്ന cas\nനയുടെ പ്രതീത ഇല്പോഴേ aa ः\n\n6 «890 लाड़े @glatis! alam.\n\n“agamdoe &Som ple) e201\n\n66) IAAI, + 341 3301 3359 क0लाड़े ५-10\nCOM. 66 ഞാൻ md\n\nBB അകന്ന 6 [) . എന്നാൽ aga ae\" ഈ ബവന്ഡം\nNos ഭവവതിയുടെ grim agacto\nAmo ajowsmMeaacerstols;iam\nകാരുങ്ങാടിപോല്യം ജപ്ലരോഴെനിക്കു ഓമ്യി്ല . പാസ്സിൽ\nഎനിക്കു മററാരേയും പരചയമി്ല. ....ങ് ഹാ, എനിിക്കു ear\nതിയുടെ , സഹായം അവേക്ഷീക്കാൻ MIM AIH AHI അതു\"”-\nഭവതീയുടെ വസ്ത്രത്തുമ്പാൽ 219019415194 161M — ഭവതീക്കു\ncalms) mando ജീപനെത്തന്നെ malaslasomd സന്നദ്ധത\nWaa രരു ശിശുവവിനെയെന്നപോലെ എന്നെ കാത്തുകൊള്ളണ\n\nമെന്നായീരീക്കും.\n\nCoy mes)\n\n",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "engine_meta": {
+    "engine": "anuvaad_tesseract",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "anuvaad tessdata + tesseract 5.5.2"
+  }
+}

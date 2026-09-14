@@ -1,0 +1,45 @@
+{
+  "page_id": "ml_084",
+  "source": "S5_govt",
+  "lang": "ml",
+  "script": "Mlym",
+  "modality": "printed",
+  "domain": "unknown",
+  "quality_tier": "T2",
+  "missing": [],
+  "unreadable_reason": null,
+  "ocr_engine": "paddleocr_indic",
+  "image": {
+    "raw_path": "work/ml/s_malayalam0004pro_raw.pdf",
+    "page_index": 11,
+    "width": 1654,
+    "height": 2339
+  },
+  "regions": [
+    {
+      "region_id": "r1",
+      "cls": "paragraph",
+      "bbox_xyxy": [
+        0,
+        0,
+        1654,
+        2339
+      ],
+      "reading_order": 1,
+      "modality": "printed",
+      "text": "(g) (i)\n\n\ng20gm\nSo\ng63s 9g161m?\n(A) IOOIGS SNCS\n(B)\nS5 3m 3  33\n(C)\nLJ ML9S O JO\n6 \n(ii)\n?\n(A))\n(B\n(C)6\n(D) o6\n(h) (i)\n\n」\nJUWL99\n38\nLaggleg\nBoom?\nRG3gG23\n(B)\n2gogglaa\n(C)\ngSDO」GA\n(D)\n66ßΩo\n(ii)\n   B\n(A)33 (B)3 S\n(C)(D)\n“LSGS\n3”933  (LS3\nLS DGe °?\n(A)\n696M 2LG9S8D3\n0M 3\n(B)\nRSGS\n2013-1 53\n(C)\n3USAGSLARG9ISD9\n(D)\nBU6MBBCOS\nLUMG\n(SOE\n332S2L3O9 D3.\n12\n12\n[]",
+      "text_nfc": "(g) (i)\n\n\ng20gm\nSo\ng63s 9g161m?\n(A) IOOIGS SNCS\n(B)\nS5 3m 3  33\n(C)\nLJ ML9S O JO\n6 \n(ii)\n?\n(A))\n(B\n(C)6\n(D) o6\n(h) (i)\n\n」\nJUWL99\n38\nLaggleg\nBoom?\nRG3gG23\n(B)\n2gogglaa\n(C)\ngSDO」GA\n(D)\n66ßΩo\n(ii)\n   B\n(A)33 (B)3 S\n(C)(D)\n“LSGS\n3”933  (LS3\nLS DGe °?\n(A)\n696M 2LG9S8D3\n0M 3\n(B)\nRSGS\n2013-1 53\n(C)\n3USAGSLARG9ISD9\n(D)\nBU6MBBCOS\nLUMG\n(SOE\n332S2L3O9 D3.\n12\n12\n[]",
+      "provenance": "ocr_engine"
+    }
+  ],
+  "limitation": {
+    "engine_limitation": "en_fallback",
+    "note": "paddleocr 3.7.0 has no Malayalam model; read via en stack"
+  },
+  "engine_meta": {
+    "engine": "paddleocr_indic",
+    "policy": "open_any_script",
+    "dpi": 200,
+    "version": "paddleocr 3.7.0"
+  }
+}
