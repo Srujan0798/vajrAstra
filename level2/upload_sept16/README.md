@@ -1,14 +1,14 @@
 # LEVEL 2 — Benchmark Results Package (Sep-16)
 
-This folder is the shareable snapshot of vajrAstra South Level 2: our own-data
+This folder is the results package of vajrAstra South Level 2: our own-data
 OCR benchmark of 10 free engines across 400 real government-textbook pages
 (Telugu/Tamil/Kannada/Malayalam) — the own-data benchmark discussed in the
 Sep-10 sync (a reality check against published numbers).
 
 ## The one-screen summary
 Open **SEP16_ONE_SCREEN.md** — everything on one page: 10/10 engines, 4,000
-packs, coverage, consensus, per-script winners, gap headline, CER leaders,
-latency, failure census.
+packs, coverage, consensus, per-script winners, gap headline, accuracy
+leaders, latency, failure census.
 
 ## What's in this folder
 
@@ -17,15 +17,8 @@ latency, failure census.
 | `SEP16_ONE_SCREEN.md` | the whole benchmark on one screen (start here) |
 | `GAP.md` | the headline number: 7.1% of ground-truth text even the best free engine misses (lower bound) + per-script table |
 | `LEADERBOARD_BY_SCRIPT.md` | per-script winners — ranked within each script, no blended averages |
-| `CER_BY_SCRIPT.md` | accuracy table with confidence intervals + metric verdicts (CER vs AKER) |
-| `SHOWCASE.md` | 6 rule-picked pages × 6 engines side-by-side with ground truth |
 | `LATENCY.md` | ms/page + pages/hour per engine (probe-backed for tesseract family) |
-| `FAILURE_TAXONOMY.md` | how engines fail: empty / loop / leak / thin |
-| `LEVEL2_SEAL.md` | machine-checked seal: 11 gates green, 4,000/4,000 packs verified |
 | `WHATSAPP_SEPT16.md` | the 5-line summary for the group chat |
-| `DECISIONS.log` | every decision made, append-only ledger |
-| `ULTIMATE_HYBRID_CONCERN.md` | the operating law file (how this was run) |
-| `FOLDER_MAP.md` | what lives where in the repo |
 
 ## Headline numbers (all machine-verified, no hand numbers)
 
@@ -40,7 +33,7 @@ latency, failure census.
 - **Consensus (independent engines agreeing): 38/400 word-level, 21/400
   family-deduped, 1/400 strict 5-gram** — disagreement is the training
   signal.
-- **Seal: 11/11 machine gates GREEN** — schema, manifest, freshness,
+- **Seal: 11/11 machine gates green** — schema, manifest, freshness,
   provenance, honesty disclosures.
 
 ## Method in one paragraph
@@ -53,15 +46,10 @@ with corrupted legacy text layers or thin layers are nulled, never ranked
 on. Every report is machine-generated with timestamps; nothing is
 hand-written.
 
-## Reproduce
-
-The repo (pipeline code): `Srujan0798/vajrAstra` on GitHub — clone, `bash
-setup.sh`, then `.venv/bin/python level2/report.py` regenerates every report
-in this folder from the 4,000 packs on disk (nothing is hand-written).
-
-**Raw outputs:** all 4,000 engine packs live in `out/` (one level up from
-this folder — its README has the layout, engine notes, and which JSONs came
-from PNG scans vs PDF pages).
+## Raw outputs
+All 4,000 engine packs (the JSON this analysis is computed from) live in the
+`out/` folder, uploaded alongside this one — its README has the layout,
+engine notes, and which JSONs came from PNG scans vs PDF pages.
 
 Generated 2026-09-14. Level 2 complete & sealed. Next step: Level-3 paid-API
 comparison (Sarvam ≈ ₹100 for our 400 pages).
