@@ -54,16 +54,14 @@ with mojibake or thin text layers are nulled, never ranked on. Every report is
 machine-generated with timestamps; nothing is hand-written.
 
 ## Reproduce
-Repo (code only): https://github.com/Srujan0798/vajrAstra
-```
-git clone https://github.com/Srujan0798/vajrAstra
-cd vajrAstra && bash setup.sh
-.venv/bin/python level2/report.py     # regenerates every report from packs on disk
-```
 
-**Raw outputs:** all 4,000 engine packs live at `level2/out/` (see its README
-for layout, engine notes, and where the PNG/PDF sources are) —
-https://github.com/Srujan0798/vajrAstra/tree/main/level2/out
+The repo (pipeline code): `Srujan0798/vajrAstra` on GitHub — clone, `bash
+setup.sh`, then `.venv/bin/python level2/report.py` regenerates every report
+in this folder from the 4,000 packs on disk (nothing is hand-written).
+
+**Raw outputs:** all 4,000 engine packs live in `out/` (one level up from
+this folder — see its README for the layout, engine notes, and the full
+PDF/PNG source-file listing).
 
 Generated 2026-09-14. Level 2 complete & sealed; Level 3 (paid-API
 comparison, Sarvam ≈₹100 net for 400 pages) approved for post-demo.
