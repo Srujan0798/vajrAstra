@@ -1,24 +1,29 @@
-# Level 2 — Free-OCR Benchmark Output Packs (out/) README
+# Level 2 — Free-OCR Benchmark Outputs (`out/`) README
 
 **Owner:** Srujan Sai (IITGN)
 **Lead:** Vinay Gahlot — Vaultstack AI / BHASHINI AksharDrishti
 **Languages:** Telugu (`te`), Tamil (`ta`), Kannada (`kn`), Malayalam (`ml`)
-**Status:** COMPLETE — 10 engines × 400 pages = **4,000 packs**, machine-sealed (11/11 gates GREEN)
+**Status:** COMPLETE — 10 engines × 400 pages = **4,000 JSON packs**
 
-This file explains the `out/` folder so anyone can open it without confusion.
-Same pack style as Level 1 (`labeled/`) — **1 page = 1 sample = 1 JSON file** —
-but now the text comes from **10 free OCR engines** instead of AI labeling.
+This file explains the `out/` folder the same way the Level-1 README explains
+`labeled/`. **1 page = 1 sample = 1 JSON file per engine.** The text in each
+JSON is the **raw OCR output** — never corrected, never translated.
+
+**Source documents are NOT in this folder.** They are the SAME files the team
+already has on Drive in **`Dataset/`** (Telugu / Tamil / Kannada / Malayalam
+folders). All 400 pages were rendered to PNG at 200 dpi (in the repo at
+`level2/renders_shared/`) before the engines read them.
 
 ---
 
 ## 1. What this folder is
 
-- **Goal (from the Sep-10 sync):** benchmark free OCR engines on OUR data — a
-  reality check vs published numbers. This is exactly that, done.
-- **Unit:** 1 page = 1 JSON pack per engine. 10 engine runs → 4,000 packs.
-- **What's in a pack:** the raw OCR text the engine read from the page
-  (never corrected, never translated — raw output IS the benchmark), the
-  region boxes, and engine provenance (`ocr_engine`, `engine_meta`).
+- **Goal (Sep-10 sync):** benchmark free OCR engines on OUR data — reality
+  check vs published numbers. This is exactly that.
+- Level 1 (`labeled/`) = AI-assisted page labels. Level 2 (`out/`) = the same
+  400 pages run through **10 free OCR engines**.
+- Same page_ids as Level 1: `te_001`–`te_100`, `ta_001`–`ta_100`,
+  `kn_001`–`kn_100`, `ml_001`–`ml_100`.
 
 ---
 
@@ -26,105 +31,112 @@ but now the text comes from **10 free OCR engines** instead of AI labeling.
 
 ```
 out/
-├── <engine>/            ← 10 engine folders (below)
-│   ├── te/              ← language (100 packs each)
-│   │   ├── te_001.json
-│   │   ├── ...
-│   │   └── te_100.json
-│   ├── ta/   kn/   ml/
-└── README.md            ← this file
+├── README.md              ← this file
+├── tesseract_indic/       ← 10 engine folders, each identical in shape:
+│   ├── te/                te_001.json … te_100.json   (100 packs)
+│   ├── ta/                ta_001.json … ta_100.json   (100 packs)
+│   ├── kn/                kn_001.json … kn_100.json   (100 packs)
+│   └── ml/                ml_001.json … ml_100.json   (100 packs)
+├── tesseract_bilingual/   (same 4×100 shape)
+├── anuvaad_tesseract/     (same)
+├── openbharatocr/         (same)
+├── easyocr/               (same)
+├── paddleocr_indic/       (same)
+├── indicphotoocr/         (same)
+├── rapidocr/              (same)
+├── doctr/                 (same)
+└── surya/                 (same)
 ```
 
-So a full path looks like: `out/surya/te/te_001.json` = engine `surya`,
-Telugu page 1.
+Full path example: `out/surya/te/te_001.json` = engine **surya**, page **te_001**.
+To see the benchmark in one click: open `te_001.json` in all 10 engine
+folders — same page, 10 different OCR readings.
+
+**Totals per engine: 400 JSONs. Whole folder: 4,000 JSONs.**
 
 ---
 
-## 3. The 10 engine folders (what each one is)
+## 3. The 10 engine folders
 
-| folder | engine | honest note |
+| folder | engine / setup | honest note |
 |---|---|---|
-| `tesseract_indic/` | tesseract 5.5.2, open script stack (tel+hin+eng etc.) | strong all-rounder |
-| `tesseract_bilingual/` | tesseract 5.5.2, eng-led stack | fastest timed (0.7s/page probe) |
-| `anuvaad_tesseract/` | Anuvaad-tuned tesseract models (project-anuvaad weights) | tier-1 accuracy (CER 0.48) |
-| `openbharatocr/` | **mirror of tesseract_indic** (byte-identical outputs — documented alias) | counts as the SAME family, disclosed |
+| `tesseract_indic/` | tesseract 5.5.2, open script stack (`tel+hin+eng` etc.) | solid all-rounder |
+| `tesseract_bilingual/` | tesseract 5.5.2, eng-led stack | fastest timed (probe 0.7 s/page) |
+| `anuvaad_tesseract/` | Anuvaad-tuned tesseract weights | **tier-1 accuracy (CER 0.48)** |
+| `openbharatocr/` | **mirror of tesseract_indic** — byte-identical | documented alias, same family |
 | `easyocr/` | easyocr 1.7.2, all-Indic open reader | 391/400 pages nonempty |
-| `paddleocr_indic/` | PaddleOCR 3.7.0, per-language models | **no Malayalam model** — ml pages use the English stack (disclosed limitation) |
-| `indicphotoocr/` | IndicPhotoOCR (IIIT-H) | solid 3rd tier |
-| `rapidocr/` | RapidOCR 3.9.2, PP-OCRv5/v4 mobile rec | fastest engine timed (0.44s/page) |
-| `doctr/` | python-doctr 1.1.0 (CRNN) | Latin-only rec on our pages — honest weakness, kept for the record |
+| `paddleocr_indic/` | PaddleOCR 3.7.0, per-language models | **no Malayalam model** — ml pages use English stack (disclosed) |
+| `indicphotoocr/` | IndicPhotoOCR (IIIT-H) | solid mid tier |
+| `rapidocr/` | RapidOCR 3.9.2, PP-OCR mobile rec | **fastest engine timed (0.44 s/page)** |
+| `doctr/` | python-doctr 1.1.0 (CRNN) | Latin-only on our pages — honest weakness, kept for record |
 | `surya/` | surya-ocr 0.22.1 | **tier-1 accuracy leader (CER 0.43)** |
 
-**9 distinct engines, 7 independent families** — the four tesseract variants
-share one binary, so the family count is 7 (never say "10 independent").
+The four tesseract folders share one binary (same engine, different model
+stacks), so the count is **10 engine runs = 9 distinct engines = 7
+independent families**.
 
 ---
 
-## 4. Where the source pages (PNGs) are
+## 4. Where the source pages are (PDFs vs PNGs — open these directly)
 
-**There are NO image files in this folder** — `out/` contains JSON outputs only
-(the packs). The images the engines read live in the repo at
-`level2/renders_shared/` (400 PNGs, one per page, sha1-checksummed).
+**Same sources as Level 1 — the team Drive `Dataset/` folder.** 400 pages
+came from **190 source files: 177 PDFs + 13 PNGs** (Telugu 84 PDF · Tamil
+34 PDF + 4 PNG · Kannada 40 PDF · Malayalam 19 PDF + 9 PNG).
 
-**Source documents** (where the 400 pages came from) are the SAME files the
-team already has on Drive in **`Dataset/`** (4 language folders):
+**PDF → open page `page_index`** (the pack JSON says which page, 0-based).
+**PNG → the file itself is the page** (`page_index` = 0). In every pack:
+`image.raw_path` = source file, `image.page_index` = which page of it.
 
-- **387 of 400 pages come from PDFs** (`s_<language>NNNNpro_raw.pdf`) —
-  these pages were rendered to PNG at 200 dpi before OCR.
-- **13 of 400 pages are born-PNG scans** (`s_<language>NNNNpro_raw.png`) —
-  all in Tamil (ta_001–ta_005 + others) and Malayalam (ml_004 etc.) folders.
-- 190 unique source files total; 308 pages are 2nd/3rd/4th pages of the same
-  PDF (`page_index` in each pack JSON says which page of that file).
+### JSON packs that come from PNG images (each PNG = 1 page sample)
 
-In every pack JSON, `image.raw_path` points to the source file and
-`image.page_index` (0-based) says which page of it. Example:
-`"raw_path": "Datasets/te/s_telugu0001pro_raw.pdf", "page_index": 0` =
-page 1 of the Telugu 1st PDF.
+**Tamil (4 pages):** `ta_001`, `ta_002`, `ta_003`, `ta_004`
+→ `Dataset/Tamil/s_tamil0001pro_raw.png` … `s_tamil0004pro_raw.png`
 
-Mapping (same as Level 1 packs):
-`Datasets/<lang>/<file>` on our side = `Dataset/<LanguageFolder>/<file>` on the
-shared Drive (Telugu / Tamil / Kannada / Malayalam).
+**Malayalam (9 pages):** `ml_004` … `ml_012`
+→ `Dataset/Malayalam/s_malayalam0004pro_raw.png` … `s_malayalam0012pro_raw.png`
+
+### JSON packs that come from PDF pages (per language)
+
+| lang | pages | from PDFs | from PNGs |
+|------|-------|-----------|-----------|
+| `te` Telugu | 100 | 100 | 0 |
+| `ta` Tamil | 100 | 96 | 4 |
+| `kn` Kannada | 100 | 100 | 0 |
+| `ml` Malayalam | 100 | 91 | 9 |
+
+Telugu PDFs: `s_telugu0001…0084pro_raw.pdf` (84 files) — Kannada PDFs:
+`s_kannada0001…0040pro_raw.pdf` (40) — Tamil PDFs: `s_tamil0005…0038pro_raw.pdf`
+(34) — Malayalam PDFs: `s_malayalam0013…0031pro_raw.pdf` (19).
 
 ---
 
-## 5. Pack JSON fields (same schema family as Level 1)
+## 5. What each JSON pack contains
 
 | field | meaning |
 |---|---|
-| `page_id` | e.g. `te_001` — language + page number (1–100) |
+| `page_id` | e.g. `te_001` — language + page number (001–100) |
 | `ocr_engine` | which engine produced this text |
-| `engine_meta` | engine name, model version, policy (`open_any_script`), dpi (200) |
-| `image.raw_path` | source file (PDF or PNG) — see §4 |
+| `engine_meta` | `{engine, version, policy: open_any_script, dpi: 200}` |
+| `image.raw_path` | source file in `Dataset/` (PDF or PNG — see §4) |
 | `image.page_index` | 0-based page number inside that file |
-| `regions[]` | text regions; `bbox_xyxy` box + `text` = the raw OCR text |
-| `missing` / `unreadable_reason` | engine produced nothing / page unreadable — honest empties, never fabricated |
-
-**Important honesty rule:** empty or wrong text is NEVER corrected or
-filled — it stays as-is because the benchmark measures what free engines
-actually read. See `level2/upload_sept16/` for the analysis (gap %, accuracy
-tiers, per-script winners) computed from these packs.
+| `image.width / height` | page pixel size |
+| `regions[].bbox_xyxy` | text-region box on the page |
+| `regions[].text` | **the raw OCR text** — never corrected (raw IS the benchmark) |
+| `missing` / `unreadable_reason` | engine read nothing — honest empties, never fabricated |
 
 ---
 
-## 6. Quick verification anyone can do
+## 6. Quick checks anyone can do
 
-- 10 folders × 4 languages × 100 JSONs = 4,000 packs (check: any folder →
-  count files).
-- Pick a page, e.g. `te_001` — open all 10 engines' `te/te_001.json` and
-  compare what each read of the SAME page (that's the benchmark in one click).
-- Compare with `level2/upload_sept16/GAP.md` (what % of text even the best
-  engine misses) and `LEADERBOARD_BY_SCRIPT.md` (which engine wins per script).
+- Count: any engine folder → 4 language subfolders × 100 JSONs = 400.
+- Cross-engine compare: open `out/surya/te/te_001.json` vs
+  `out/easyocr/te/te_001.json` — same page, different readings.
+- Analysis built from these packs: `level2/upload_sept16/` (gap %, accuracy
+  tiers, per-script winners — all machine-generated).
 
 ---
 
-## 7. What to upload where (Drive)
+## 7. GitHub copies
 
-- ✅ upload this whole `out/` folder (29 MB, 4,000 JSONs) → Drive, next to
-  Level 1's `labeled/` (suggested Drive name: `L2_benchmark_outputs/`)
-- ✅ upload `level2/upload_sept16/` (the stamped summary folder + README)
-- ❌ NOT the source documents (team already has them in `Dataset/`)
-- ❌ NOT the 200-dpi renders (they regenerate from `Dataset/` via the repo code)
-
-GitHub has both folders already:
 - outputs: https://github.com/Srujan0798/vajrAstra/tree/main/level2/out
 - summary: https://github.com/Srujan0798/vajrAstra/tree/main/level2/upload_sept16
