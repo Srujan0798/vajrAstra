@@ -1,0 +1,38 @@
+{
+  "description": "W3 probe row: one (image, model) pair. 20 samples x 18 remaining Eighth-Schedule languages. South 400 stays in level2/out/.",
+  "columns": [
+    "image_id",
+    "language",
+    "script",
+    "print_or_hand",
+    "quality",
+    "has_table",
+    "mixed_script",
+    "gt",
+    "model",
+    "prediction",
+    "CER",
+    "WER",
+    "error_tag"
+  ],
+  "error_tags": [
+    "matra_order",
+    "conjunct",
+    "old_scan",
+    "handwriting",
+    "table",
+    "reading_order",
+    "hallucination",
+    "repetition",
+    "charset",
+    "other"
+  ],
+  "languages_keep_south": ["ta", "te", "kn", "ml"],
+  "languages_probe_20": [
+    "as", "bn", "brx", "doi", "gu", "hi", "ks", "kok",
+    "mai", "mni", "mr", "ne", "or", "pa", "sa", "sat", "sd", "ur"
+  ],
+  "n_per_probe_lang": 20,
+  "sample_source": "sarvamai/indic-ocr-bench",
+  "must_add_models": ["sarvam_vision_2_1", "bodhan_indic_ocr"]
+}

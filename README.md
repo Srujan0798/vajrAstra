@@ -1,50 +1,33 @@
 # vajrAstra — Vaultstack / BHASHINI AksharDrishti (South track)
 
-Private working repo for **Srujan Sai** (Vaultstack AI) on South Indian document OCR.
+Private working repo. **Map of the tree: [`docs/INDEX.md`](docs/INDEX.md).**
 
-## Layout (clean — see level2/FOLDER_MAP.md)
+## Read in this order
+
+1. [`AGENTS.md`](AGENTS.md) — load order for any agent
+2. [`OCR_AGENT_MEMORY_FEED.md`](OCR_AGENT_MEMORY_FEED.md) — process law (W0–W6)
+3. [`SOUTH_CANON.md`](SOUTH_CANON.md) — history, labeling, disk
+4. [`docs/architecture/PPT_SPEC.md`](docs/architecture/PPT_SPEC.md) — existing architecture (diff it)
+5. [`docs/research/W1_RECIPE_REFRESH.md`](docs/research/W1_RECIPE_REFRESH.md) — what changed since mid-August 2026
+6. [`docs/probe/W3_PROBE_SCHEMA.md`](docs/probe/W3_PROBE_SCHEMA.md) — 20 samples × remaining 18 languages
+7. [`level2/ULTIMATE_HYBRID_CONCERN.md`](level2/ULTIMATE_HYBRID_CONCERN.md) — South Level-2 bench law
+
+## Layout
 
 ```
-SOUTH_CANON.md               # the law (read first; L2 ops law: level2/ULTIMATE_HYBRID_CONCERN.md supersedes where conflicting)
-HOW_TO_RUN.txt                # ops card (venvs, one-push commands, 4-page gate, engine socket)
-Datasets/                    # source PDFs (te/ta/kn/ml) — renamed from work/
-arc_level_1/                 # Level-1 labels (frozen) + L1 scripts archive
-scripts/                     # active utilities (inventory, rasterize, verify)
-level2/                      # ALL current work — see level2/FOLDER_MAP.md
-  pages_manifest.json        # 400-page frozen set (+ script tags)
-  renders_shared/            # the 400 PNG renders (single shared copy)
-  run_engine.py              # engine harness (open policy, timeout/retry/heartbeat)
-  orchestrator.py            # one-push: status / fill / migrate
-  verify_all.py              # mass verification vs ground truth
-  deep_verify.py             # per-pack deep verify vs original page
-  out/                       # live engine outputs
-  out_archive/               # superseded runs (kept)
-  models/                    # seal structure per engine
-  reports/                   # verification + seal reports
-  _archive/                 # dead logs/reports/docs (kept, out of the way)
-```
-(Level-2 seal done-line: level2/ULTIMATE_HYBRID_CONCERN.md §10-11)
-
-## Engines (10, free OSS, latest versions)
-tesseract_indic · openbharatocr · easyocr · paddleocr_indic · indicphotoocr ·
-rapidocr · tesseract_bilingual · doctr · surya · anuvaad_tesseract
-
-## Quick start
-```bash
-source .venv311/bin/activate
-python level2/orchestrator.py status   # dashboard
-python level2/orchestrator.py fill     # parallel fills (resumes, skip-existing)
-python level2/verify_all.py            # verification suite
+docs/            law-adjacent current work (architecture, recipe, probe)
+Datasets/        source pages te/ta/kn/ml
+arc_level_1/     Level-1 labels, frozen
+level2/          South 400 × 10 engines (sealed scores + harness)
+  reports/       generated leaderboards (writer: report.py)
+  out/           4000 JSON packs
+scripts/
 ```
 
-## How Level 2 feeds Vaultstack (deck stages)
-- `level2/out/` packs → **Stage-3 SFT** noisy-corpus source (raw engine text is the training input)
-- CER table (vs PDF-layer + L1-gold) → **Stage-3b preference pairs** for SimPO/DPO ranking
-- capture / gap analysis (`reports/GAP_*`) → the **pitch slide** (what all free engines miss)
-- disagreement pages (cross-engine conflict, `reports/REVIEW_QUEUE.md`) → **Stage-1 layout training queue**
-- L1 gold labels → **audit layer** (ground truth the benchmark answers to)
-- Firewall: bench data is **never fine-tuned on** — it stays the referee, not the food
+## State
 
-## Not in git
-Datasets/, out/, out_archive/, models/png, renders — data stays local/Drive.
-GitHub (code only): https://github.com/Srujan0798/vajrAstra
+South scores exist. Architecture PPT exists. No new model has been trained. Do not train until the freeze session after Wednesday 2026-10-01.
+
+## Level-2 ops
+
+See [`HOW_TO_RUN.txt`](HOW_TO_RUN.txt). GitHub is code-only: https://github.com/Srujan0798/vajrAstra

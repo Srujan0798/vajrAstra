@@ -46,6 +46,7 @@ level2/.deps/
 .vision_cache/
 graphify-out/
 scripts/_old_experiments/
+.kilo/
 
 # Machine dumps
 setup_inventory.json

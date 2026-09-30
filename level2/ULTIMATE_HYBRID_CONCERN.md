@@ -152,3 +152,13 @@ Next H-queue (post-demo): L3 kickoff timing; P4 elite items (cascade/distillatio
 - "400 × 10 = 4000 packs. Don't write 20000. Counts from disk."
 - "If a fact lives in two files, delete one."
 - "Your testicles are safe. The system is elite." (Boss-agent verdict, 13 Sep — morale law, kept verbatim.)
+
+---
+
+## PART VIII — 2026-09-25 AMENDMENT (latest § wins)
+
+The six-living-docs cap in §12 is amended. The tree is `docs/INDEX.md`.
+
+Current process law is `OCR_AGENT_MEMORY_FEED.md` (W0–W6). This file remains Level-2 **bench** law: disk truth, 4-page gate, one writer, no training on the eval split.
+
+Operator 2026-09-25: delete superseded history. `_archive/`, `docs/_history/`, `upload_sept16/` duplicates, interrogation MDs, raw meeting transcript, synth-leak PNGs, old logs, and empty smoke clones are gone. Unique facts already live in this file, `docs/research/W1_RECIPE_REFRESH.md`, and `level2/reports/`. Do not reopen Level-3 paid keys or training until W5 freeze.

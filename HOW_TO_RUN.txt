@@ -1,5 +1,7 @@
-vajrAstra — HOW TO RUN (the ops card; one of the six living docs)
-Law: level2/ULTIMATE_HYBRID_CONCERN.md · Map: level2/FOLDER_MAP.md
+vajrAstra — HOW TO RUN (Level-2 ops card)
+Hierarchy: docs/INDEX.md
+Law: OCR_AGENT_MEMORY_FEED.md (process) · level2/ULTIMATE_HYBRID_CONCERN.md (L2 bench)
+Map: level2/FOLDER_MAP.md
 Audience: Srujan + any fresh agent on any machine.
 
 WHAT LEVEL 2 IS (own this explanation)
@@ -46,7 +48,6 @@ WHERE PACKS LIVE
   level2/out/<engine>/{te,ta,kn,ml}/*.json   live outputs (400 per engine)
   level2/renders_shared/                     the single shared 400-PNG set
   level2/models/<engine>/json/               seal structure (via migrate)
-  level2/out_archive/<eng>_vN_<reason>/      superseded runs — never deleted
   level2/reports/                            ALL numbers live here only
   Every pack stamps ocr_engine + engine_meta {engine, policy, dpi, version}.
 
@@ -77,8 +78,8 @@ FRESH MACHINE
   Then: nohup .venv311/bin/python level2/orchestrator.py autoloop 30 &
 
 DO NOT TOUCH
-  arc_level_1/ (frozen Level-1 archive) · Datasets/ (source PDFs) ·
-  out_archive/, _archive/, models/*/json_v0_weak/ (archive law).
+  arc_level_1/labeled/ (frozen Level-1) · Datasets/ (source pages) ·
+  level2/out/ and level2/reports/ (South scores).
 
 APPENDIX — EXPLAIN ENGINES TO THE OWNER (folded from EXPLAIN_FOR_SRUJAN.txt)
   Q: is this a different OCR? A: no — same engines as their official
