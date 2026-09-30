@@ -25,7 +25,7 @@ KEY_ENV = "BHASHINI_API_KEY"
 ENDPOINT = ""  # TODO-VERIFY: ULCA/Anuvaad OCR endpoint (none publicly documented)
 DRY_RUN_TEXT = "<dry-run: bhashini_api not configured — set BHASHINI_API_KEY>"
 
-class BhashiniAPI:
+class BhashiniAPI(BaseEngine):
     name = "bhashini_api"
     version = "bhashini ulca-ocr (endpoint+price TODO-VERIFY)"
     
@@ -42,5 +42,4 @@ class BhashiniAPI:
         # Need: endpoint, auth format, request format, response format, pricing
         raise NotImplementedError("Bhashini API endpoint not verified — implement at kickoff")
 
-from . import register
 register(BhashiniAPI())

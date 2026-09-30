@@ -1,0 +1,29 @@
+name: code-only CI
+
+# Code-only by design (data/renders never go to git — Vinay rule). Runs the
+# stdlib test suite against tracked files: engine socket, Sarvam adapter
+# contract, all 4000 out/ packs, sealed CER basis, L10 protected-file guard.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile all Python
+        run: python -m compileall -q level2 scripts
+      - name: Test suite
+        env:
+          VAJRA_CODE_ONLY: "1"
+          BASE_REF: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || '' }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: python level2/tests/run_tests.py

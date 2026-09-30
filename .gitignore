@@ -35,6 +35,7 @@ level2/models/*/logs/
 level2/logs_active/
 level2/logs_archive/
 level2/out_archive/
+level2/out_level3/
 level2/HEARTBEAT.jsonl
 level2/_archive/
 level2/research/
