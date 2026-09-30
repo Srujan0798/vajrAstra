@@ -3,6 +3,7 @@
 ## START HERE
 - [PLANNER HANDOFF 2026-09-30](handoff-2026-09-30-planner.md) — state, agents, next steps. Memory merge B + C is DONE (2026-09-30 ~23:15, cloud planner); read the lines below for where each merged file now lives
 - [PROJECT FIRST rev 4](proto-104-project-first-critical-path.md) — THE order: R → S → H → D1 → X → C → G → GPU → D2–D5; rulings R-1…R-15; Appendix A = old proto-65/71/75/76/78/80/81/82 verbatim + step Q (GT_DEFECTS.md before D2)
+- [Vinay call + GPU day 1](proto-106-vinay-call-and-gpu-day1.md) — 2026-10-01 call brief (agenda, Plan v3 in 5 lines, 7 questions, what not to claim) + GPU 24 GB day-1 order (continuity → Bodhan CUDA → H3 → X → latency; no training) + HF token handling
 - [Boss rules](boss-rules.md) — the 8 current rules (planner no labour; no subagents; no team mates; portable, MLX never assumed; routed skills; full reads + graphify; lists not tables) + boss-standard, model-tiering, both feedback files verbatim
 
 ## Law, decisions, facts
