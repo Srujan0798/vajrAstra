@@ -52,11 +52,15 @@ def main() -> None:
         print(f"[2] {sid} dry-run (no key) returns labeled synthetic text — OK")
 
     png = ROOT / "level2" / "renders_shared" / "te_001.png"
-    assert png.exists(), f"test page missing: {png}"
-    text = REGISTRY["tesseract_indic"].run(png)
-    assert len(text) > 100, f"tesseract_indic returned only {len(text)} chars"
-    print(f"[3] tesseract_indic real OCR on te_001.png: {len(text)} chars (>100) — OK")
-    print(f"    sample: {text.strip()[:80]!r}")
+    if png.exists():
+        text = REGISTRY["tesseract_indic"].run(png)
+        assert len(text) > 100, f"tesseract_indic returned only {len(text)} chars"
+        print(f"[3] tesseract_indic real OCR on te_001.png: {len(text)} chars (>100) — OK")
+        print(f"    sample: {text.strip()[:80]!r}")
+    elif os.environ.get("VAJRA_CODE_ONLY") == "1":
+        print("[3] SKIP real OCR — code-only checkout (VAJRA_CODE_ONLY=1, no renders_shared/)")
+    else:
+        raise AssertionError(f"test page missing: {png} (set VAJRA_CODE_ONLY=1 on code-only checkouts)")
 
     ids = ", ".join(sorted(REGISTRY))
     print(f"[4] registry: {ids}")
