@@ -1,6 +1,7 @@
 # Memory Index — AksharDrishti / Vaultstack OCR (all 22 languages + English; the boss owns all, solo)
 
 ## START HERE
+- [Concern ledger (cloud session)](concern-ledger-cloud-session-2026-09-30.md) — every boss message 2026-09-30 → raw line → meaning → my response → steps → status; open list at the end
 - [PLANNER CLOSE-OUT 2026-09-30 24:00](handoff-2026-10-01-planner-close.md) — READ FIRST: done, where it lives, running agents, triggers T1–T7, boss actions, open flags
 - [PLANNER HANDOFF 2026-09-30](handoff-2026-09-30-planner.md) — state, agents, next steps. Memory merge B + C is DONE (2026-09-30 ~23:15, cloud planner); read the lines below for where each merged file now lives
 - [PROJECT FIRST rev 4](proto-104-project-first-critical-path.md) — THE order: R → S → H → D1 → X → C → G → GPU → D2–D5; rulings R-1…R-15; Appendix A = old proto-65/71/75/76/78/80/81/82 verbatim + step Q (GT_DEFECTS.md before D2)
