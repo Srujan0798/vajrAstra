@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2607.22917",
+  "date": "2026-07-31",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Team Work Zone roles, lifecycle, and work rules. Naming convention <slug>-<role> (e.g., architect-typesetter) lets idle hook derive workstation path from slug prefix. On CC >= 2.1.178, skills name every teammate in this convention; on prior versions hook read from idle event's team name. Framework-owned paths: skills, agents, role archetypes, scripts, hooks. User-owned paths: projects, workstations. Skills tell them apart at runtime by structure alone - directory ends in _team and contains roundtable/. No configuration file or flag needed; layout itself is the signal. Journal-based tracking records agent work sessions with structured metadata for explainability, meta-orchestration, training data generation. Combined with git commits, provides rich examples for fine-tuning development-focused LLMs.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

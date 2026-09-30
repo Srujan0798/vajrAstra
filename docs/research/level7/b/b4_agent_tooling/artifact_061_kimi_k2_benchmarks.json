@@ -1,0 +1,19 @@
+{
+  "source_url": "http://kimi-k2.com/",
+  "date": "2025-07-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Kimi K2 Benchmarks: SWE-bench Verified 65.8% (single-attempt accuracy, strong), SWE-bench Multilingual 47.3% (best among tested models), Tau2-bench 66.1% (weighted average, high reliability), AceBench (en) 80.1% (excellent in English tasks), AIME 2025 49.5% (solid in advanced math/reasoning). 1T total parameters, 32B activated parameters, 15.5T tokens trained on. Modified MIT License (open-source). Access: Kimi.com, platform.moonshot.ai API, local deployment via GitHub (moonshotai/Kimi-K2) and Hugging Face (moonshotai/Kimi-K2-Base, moonshotai/Kimi-K2-Instruct). Not a car or person - advanced AI model by Moonshot AI.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible",
+  "actionability": "direct"
+}

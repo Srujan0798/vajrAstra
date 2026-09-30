@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/ralphinho-rfc-pipeline/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Ralphinho RFC Pipeline: RFC-driven multi-agent DAG execution with quality gates, merge queues, work unit orchestration. Pipeline stages: 1) RFC intake, 2) DAG decomposition, 3) Unit assignment, 4) Unit implementation, 5) Unit validation, 6) Merge queue and integration, 7) Final system verification. Unit spec: id, depends_on, scope, acceptance_tests, risk_level, rollback_plan. Complexity tiers: Tier 1 (isolated file edits, deterministic tests), Tier 2 (multi-file behavior changes, moderate integration risk), Tier 3 (schema/auth/perf/security changes). Quality pipeline per unit: research, implementation plan, implementation, tests, review, merge-ready report. Merge queue rules: never merge with unresolved dependencies, always rebase on latest integration branch, re-run integration tests after each queued merge. Recovery: evict stalled unit, snapshot findings, regenerate narrowed scope, retry with updated constraints. Outputs: RFC execution log, unit scorecards, dependency graph snapshot, integration risk summary.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

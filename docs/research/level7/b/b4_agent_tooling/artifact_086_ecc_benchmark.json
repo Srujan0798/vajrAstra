@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/thiagomontezuma/ecc",
+  "date": "2026-02-15",
+  "label": "INFERENCE",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC benchmark (inferred): ECC includes benchmark capabilities as part of 3 native custom tools: run-tests, check-coverage, security-audit. Likely provides performance baselines, regression detection before/after PRs, stack alternative comparisons. Integrated with eval-harness for verification loops with grader types and pass@k metrics. 978 internal tests provide validation suite across agents, skills, commands, hooks, rules. PM2 multi-agent orchestration commands enable benchmarking complex workflows.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

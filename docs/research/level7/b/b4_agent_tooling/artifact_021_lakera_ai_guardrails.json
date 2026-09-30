@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.lakera.ai/docs/quickstart.mdx",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Lakera AI Guardrails: Quickstart for AI guardrails. Provides prompt injection prevention, AI red teaming, language-based security risks. Guardrails check for 'flagged' in response body. Covers techniques, prevention methods, tools for prompt injection. Focus on securing unpredictable LLM systems. Hidden AI security risks in language processing. Internet of Agents cybersecurity era.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review"
+}

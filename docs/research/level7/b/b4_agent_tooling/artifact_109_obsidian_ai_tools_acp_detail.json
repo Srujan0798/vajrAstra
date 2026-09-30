@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/UltimateAI-org/aitoolsforobsidian",
+  "date": "2025-09-10",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "AI Tools for Obsidian (ACP) Detail: Built on Agent Client Protocol (ACP) for standardized agent communication. 74 stars, Apache-2.0. Features: Parallel Sessions (4 side-by-side agent sessions, numbered tabs, busy indicator), Message Queueing (type while agent responds, queued messages send automatically), Quick Prompts (saved prompts fired from chips or ! search, reference notes with @[[wikilinks]]), Direct Agent Integration (Claude Agent, Gemini CLI in side panel), Image Attachments (paste/drag-drop), Note Mention Support (active note auto-included). Demo video available. Brings CLI agents directly into Obsidian vault.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible",
+  "actionability": "direct"
+}

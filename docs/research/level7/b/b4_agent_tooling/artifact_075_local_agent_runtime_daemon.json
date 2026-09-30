@@ -1,0 +1,19 @@
+{
+  "source_url": "https://platform.tracxn.com/a/d/company/698a8676402b6e2488bdc016/agents",
+  "date": "2026-01-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Local-First Agent Runtime (agents.hot): Daemon-first runtime for AI agents. Transcripts kept on user's machine. Build own agent network, expose to private mesh or public network when ready. Ingress, discovery, public agent page. Supports runtimes like claude and codex. Agent discovery by capability, runtime, owner. Orchestration of multiple agents through standard protocol. Founded 2026. Local-first design philosophy.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "offline-capable pipeline (no paid APIs)",
+  "actionability": "direct"
+}

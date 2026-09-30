@@ -1,0 +1,19 @@
+{
+  "source_url": "https://claude.com/blog/multi-agent-coordination-patterns",
+  "date": "2026-04-10",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Anthropic coordination patterns compose rather than compete. Generator-verifier, orchestrator-subagent, agent teams, agent swarms, capability-based systems are complementary patterns. Generator-verifier: simplest and most deployed; generator produces output, verifier evaluates against explicit criteria. Orchestrator-subagent: lead agent plans, delegates, synthesizes; subagents handle specific responsibilities. Agent teams: multiple agents work in parallel on independent subtasks with communication. Agent swarms: fluid handoffs between agents. Capability-based systems: routing to specialized agents. Key insight: multi-agent architectures provide value when addressing specific constraints single agent cannot overcome. Decision framework: reserve multi-agent for cases with clear benefits justifying additional cost. Common failure: lost context at handoffs, more tokens coordinating than executing.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

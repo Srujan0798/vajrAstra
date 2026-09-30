@@ -1,0 +1,19 @@
+{
+  "source_url": "https://modelcontextprotocol.io/registry/about",
+  "date": "2025-11-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Registry About: Official centralized metadata repository for publicly accessible MCP servers. Backed by Anthropic, GitHub, PulseMCP, Microsoft. Provides: single place for server metadata publishing, namespace management via DNS verification, REST API for client discovery, standardized installation/config info. Server metadata in server.json: unique name (reverse DNS: io.github.user/server), location (npm package, remote URL), execution instructions (CLI args, env vars), discovery data (description, capabilities). No private servers (private network/registries). Namespace auth via reverse DNS tied to verified GitHub accounts/domains. Moderation: automated scanning, manual takedown.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

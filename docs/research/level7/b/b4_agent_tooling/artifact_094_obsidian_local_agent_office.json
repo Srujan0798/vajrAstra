@@ -1,0 +1,19 @@
+{
+  "source_url": "https://community.obsidian.md/plugins/local-agent-office",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Obsidian Local Agent Office Plugin: Turns vault into team of AI agents built from own notes. Agents chat, act on notes (with approval), remember, and brainstorm together. Local-first approach keeping data in vault. Part of Obsidian community plugin ecosystem.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "offline-capable pipeline (no paid APIs)",
+  "actionability": "indirect"
+}

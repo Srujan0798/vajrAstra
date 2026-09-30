@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-pipeline/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orchestrator Pipeline size classification and phase details. Size tiers: trivial (1 file, few lines, no new deps, no ambiguity) -> phases 4->5->6; small (1 file/function, no new deps, clear once read code) -> (1 light)->4->5->6; standard (2-5 files, maybe new internal module, one real choice) -> 1->2->4->5->6; large (many/cross-cutting, new external dep/public API/spec doc, multiple open questions) -> 1->2->(3)->4->5->6. Tie-breaker: security triggers or public API/contract = at least standard. Phase 0 Intake always runs. Agent/command map: Intake/understand -> code-explorer; Plan -> planner (architect/code-architect for structural); Implement -> tdd-guide (tdd-workflow skill); Review -> code-reviewer/code-review; Security -> security-reviewer; MVP inner loop -> /gan-build (gan-generator -> gan-evaluator). Security-review trigger: auth/authz, user input, DB queries, filesystem paths, external API calls, cryptography, secrets/credentials. Handoff artifacts: task_list from Plan drives Implement loop; larger work emits PRD/architecture/system_design under docs/; review findings CRITICAL/HIGH must be resolved before Gate 2. Verification: size tier stated and matched, Gate 1 and Gate 2 honored, security-reviewer ran iff security trigger touched, commits conventional and scoped, coverage >=80%.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

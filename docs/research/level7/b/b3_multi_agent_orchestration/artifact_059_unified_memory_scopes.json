@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/unified-memory/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Unified Memory three vault scopes and MCP setup. Scopes: project (<repo>/.ecc/memory/project/ - repo-local context protected by fail-closed .gitignore), team (<repo>/.ecc/memory/team/ - context for human review and version-controlled sharing), user (~/.ecc/memory/ - operator context across repos). All harnesses must use same repo working directory or same ECC_MEMORY_PROJECT_ROOT/ECC_MEMORY_USER_ROOT overrides. Normal search recall covers active project and team memories. Direct ID read may inspect non-active entry. Request user scope explicitly with --scope user (never included implicitly). Project-scope initialization and writes fail closed if vault's protective .gitignore exists with unexpected content. MCP Setup: stdio server optional, not enabled by ECC default .mcp.json. Copy ecc-memory-vault entry from mcp-configs/mcp-servers.json into each harness. Server command: ECC_MEMORY_HARNESS=codex ecc-memory-mcp. MCP binds writes and target filtering to ECC_MEMORY_HARNESS; tool callers cannot claim another source identity or override target filter. user scope disabled unless ECC_MEMORY_ALLOW_USER_SCOPE=1 and tool call requests it explicitly. Exposes: memory_save, memory_search, memory_read, memory_doctor. No review, promotion, overwrite, transcript import, or shell-execution tool.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness"
+}

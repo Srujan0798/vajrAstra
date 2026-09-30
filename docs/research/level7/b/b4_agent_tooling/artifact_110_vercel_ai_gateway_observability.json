@@ -1,0 +1,19 @@
+{
+  "source_url": "https://vercel.com/docs/ai-gateway/sdks-and-apis",
+  "date": "2026-08-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Vercel AI Gateway Observability: Observability for AI model usage through Vercel dashboard. Spend tracking with budgets. Zero Data Retention option. Related: authentication and BYOK, model fallbacks, provider filtering/ordering, provider timeouts. AI Gateway provides production-ready reliability: unified access to 100+ models, automatic fallbacks, cost tracking, request/response logging, latency monitoring. Integrates with AI SDK for seamless developer experience.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

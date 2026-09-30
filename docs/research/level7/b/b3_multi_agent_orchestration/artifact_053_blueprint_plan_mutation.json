@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/blueprint/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Blueprint plan mutation protocol and anti-pattern catalog. Plan mutation protocol: steps can be split, inserted, skipped, reordered, or abandoned with formal protocols and audit trail. Zero runtime risk: pure Markdown skill, no hooks/shell scripts/executable code/package.json/build step - nothing runs on install or invocation beyond native Markdown skill loader. Anti-pattern catalog used in adversarial review gate (Phase 4): reviewers check for completeness, dependency correctness, and anti-pattern detection. Branch/PR/CI workflow built into every step, degrades gracefully to direct mode when git/gh absent. Parallel step detection via dependency graph identifies steps with no shared files or output dependencies. Cold-start execution: every step includes self-contained context brief so fresh agent executes without prior context. Example: /blueprint myapp \"migrate database to PostgreSQL\" produces 5 steps with dependencies; /blueprint chatbot \"extract LLM providers into plugin system\" produces parallel steps (implement Anthropic plugin + implement OpenAI plugin run in parallel after plugin interface step).",
+  "status": "PRIMARY",
+  "decision_it_changes": "validation-call kill-criteria (adversarial review gate)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

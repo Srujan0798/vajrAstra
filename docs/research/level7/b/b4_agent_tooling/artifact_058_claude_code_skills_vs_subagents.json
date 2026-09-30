@@ -1,0 +1,19 @@
+{
+  "source_url": "https://code.claude.com/docs/en/features-overview",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Code Features Comparison: CLAUDE.md adds persistent context. Skills add reusable knowledge and invocable workflows. Code intelligence connects to language server for symbol-level navigation and live type errors. MCP connects to external services/tools. Subagents run own loops in isolated context, returning summaries. Dynamic workflows run many subagents from script. Cross-session messaging passes messages between sessions. Hooks run script/HTTP/MCP tool/prompt/subagent at lifecycle events. When to use: Skills for content Claude only needs when relevant; Subagents for side tasks that would flood conversation; MCP when connecting to systems Claude can't see; Code intelligence when reading many files to find symbols; Dynamic workflows for many subagents from script.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness",
+  "actionability": "direct"
+}

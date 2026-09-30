@@ -1,0 +1,19 @@
+{
+  "source_url": "https://dl.acm.org/doi/10.1145/3786335.3813233",
+  "date": "2026-05-26",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Arena MCP Integration: Uses MCP as common tool layer for benchmarking 6 agent frameworks under fixed-model conditions. MCP provides standardized interface between agents and tools. Evaluates frameworks not models. Results: Claude Agent SDK 0.88 median correctness, AWS Strands 0.75, CrewAI 0.75, LangChain lower, LangGraph lower. Isolates framework orchestration performance from model capability. Open-source benchmark tool.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "DIES",
+  "transfer_harness_fact": "no paid keys (no GPT-4, no cloud GPU)",
+  "actionability": "direct"
+}

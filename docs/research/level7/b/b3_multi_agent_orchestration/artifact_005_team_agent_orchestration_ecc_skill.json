@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/team-agent-orchestration/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Team Agent Orchestration skill for reliable team-based orchestration with work items, ownership, agent Kanban, branch isolation, control pane, merge gates. Agent contract: Owner, Scope (files, branch, tool surface, forbidden areas), State (backlog/ready/running/review/blocked/merged/archived), Evidence (tests, screenshots, logs, review notes, eval reports), Merge gate. Kanban columns with exit criteria: Backlog (acceptance criteria written), Ready (owner + branch/worktree assigned), Running (handoff artifact + changed files), Review (tests + diff review + risk check pass), Blocked (blocker owner + next action), Merged (PR merged), Archived (reason recorded). Flow: shape board, pick execution mode, assign boundaries, run agents (write evidence/handoff), review in sequence, merge deliberately (one integrator), extract reusable skill. Control pane: active items + Kanban state, owner/harness/branch/worktree/heartbeat, handoff artifacts/PRs, blockers by owner, merge readiness by gate. Failure modes: agent soup, invisible work, board theater, overlapping writes, no product artifact.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

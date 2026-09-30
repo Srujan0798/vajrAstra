@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/council-multi-model/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Council-multi-model adds optional external Codex critique after council produces decision draft. Runs council workflow first, then builds minimum review packet with raw disagreement and synthesis draft wrapped in UNTRUSTED blocks. Asks explicit consent to send to OpenAI Codex. Runs bounded adapter via node scripts/review-with-codex.js with strict isolation: new empty temp dir, no user config/project rules, Codex CLI 0.146.0 boundary verified, shell/file-execution/browser/app/plugin/multi-agent/image/workspace tools disabled, MCP servers inherited disabled, ephemeral read-only session with approval escalation disabled. Labels provider relationship: cross-provider external critique (Anthropic/Claude host), same-provider external critique (OpenAI/Codex host), or provider relationship unverified. Presents critique verbatim without rewriting. If CLI missing/auth fails/times out/no output: writes 'external review absent' with reason and continues with normal council result.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

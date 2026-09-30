@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.mech.app/articles/agent-teams-ai-kanban-boards-agent-to-agent-messaging-and-peer-review-for-multi-agent-orchestration",
+  "date": "2026-07-28",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Teams AI peer review and structured messaging. Kanban board as single source of truth: agents pull tasks (Backlog -> In Progress -> Review -> Done). Task ownership via lock with timestamp and agent ID. State transitions only forward; backward requires human approval or peer review rejection. Full board visibility for all agents. Structured messaging between agents. Peer review: agents review each other's output. Avoids 'who does what' ambiguity and cascading failures. Framework (1,740 stars, 303 forks) supports 200+ models across 75+ LLM providers. Treats coordination as first-class concern, not afterthought. TypeScript orchestration framework.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

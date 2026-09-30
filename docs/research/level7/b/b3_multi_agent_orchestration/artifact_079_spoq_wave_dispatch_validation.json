@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2606.03115",
+  "date": "2026-06-02",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "SPOQ wave-based dispatch and dual validation details. Wave-based topological dispatch computes parallel execution waves from task dependency graphs. Dual validation gates: planning validation before execution, code validation after execution to reduce rework cycles. Three-tier agent hierarchy: Opus workers, Sonnet reviewers, Haiku investigators for cost-quality optimization. Wave dispatch approaches critical-path lower bound (ratio 1.03-1.11, speedup up to 14.3x). On 2-slot local backend: stable 1.4x speedup. Planning coverage improved from 93.0 to 99.75, cyclic plans eliminated, parallelism lifted from 31.0 to 75.25. Dual validation reduces defect escape rate by 83%. Human-as-an-Agent (HaaA) integration: human specialist participates in decomposition and can be consulted during execution. File-system representation of epics/tasks, journal-based tracking for agent work sessions, skill framework with SKILL.md directories. Skills invoked via slash commands (/epic-planning, /agent-execution) expanding into full prompts with context from epic directory. Source code: gitlab.com/kenth56/spoq.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/microsoft/autogen",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "AutoGen (Microsoft) - framework for creating multi-agent AI applications. Now in maintenance mode; users should migrate to Microsoft Agent Framework (MAF) - enterprise-ready successor with stable APIs, long-term support, multi-provider model support, cross-runtime interoperability via A2A and MCP. Multi-agent orchestration via AgentTool: create AssistantAgent instances and wrap as AgentTool for orchestration. Example shows AssistantAgent with code execution tool, UserProxyAgent, and AgentTool for multi-agent setup. MAF provides production-ready multi-agent orchestration. Key shift: from AutoGen's conversation-centric model to MAF's enterprise-grade orchestration with A2A/MCP integration.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review"
+}

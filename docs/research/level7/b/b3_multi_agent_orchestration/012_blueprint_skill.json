@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/blueprint/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Blueprint: turns one-line objective into step-by-step construction plan for multi-session, multi-agent engineering. 5-phase pipeline: 1) Research (pre-flight checks git/gh auth/remote/default branch, read project structure/existing plans/memory), 2) Design (break into 3-12 one-PR-sized steps with dependency edges, parallel/serial ordering, model tier assignment, rollback strategy), 3) Draft (write self-contained Markdown plan to plans/ with context brief, task list, verification commands, exit criteria per step so fresh agent executes cold), 4) Review (adversarial review by strongest-model sub-agent against checklist and anti-pattern catalog, fix critical findings), 5) Register (save plan, update memory index, present step count and parallelism summary). Key features: cold-start execution, adversarial review gate, branch/PR/CI workflow degrades to direct mode without git/gh, parallel step detection via dependency graph, plan mutation protocol with audit trail. Zero runtime risk: pure Markdown skill, no hooks/shell scripts/executable code/package.json/build step.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

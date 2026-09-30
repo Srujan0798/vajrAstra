@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/loop-design-check/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Loop Design Check worked example: nightly green-keeper loop. Naive goal: 'make all tests pass' -> Step-1 self-check fails (failure mode #3). Decidable goal (fixed): 'all tests green AND no test file deleted or weakened AND coverage not lowered AND a change-list produced' - boundary now defined alongside done-criterion. Type: servo with retry cap of 3. Skeleton: plan/build/judge - judge is CI run independently, never the fixing agent. Review checklist catches what naive version missed: #3 hit (naive lets agent delete failing test to win) fixed by boundary 'no test file deleted/weakened'; #2 hit (fixing agent judging own fix would pass itself) fixed by 'judge = independent CI, deterministic'; #4 hit (ambiguous fix at 2am won't stop to ask) fixed by front-loading ambiguous fixes left for human; Red line: loop opens PR but does NOT auto-merge; human flips last switch (responsibility doesn't transfer). Naive loop and reviewed loop differ by four lines of constraint - difference between 'wakes you to deleted test suite' and 'wakes you to clean PR'.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

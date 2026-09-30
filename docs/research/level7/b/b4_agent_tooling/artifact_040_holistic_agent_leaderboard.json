@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/pdf/2510.11977",
+  "date": "2025-10-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "theoretical",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Holistic Agent Leaderboard (HAL): Unified evaluation framework for reproducible, cost-controlled agent benchmarking with automated log analysis. Unified evaluation harness with distributed orchestration - framework-agnostic, lightweight modifications to integrate scaffolds, auto-instruments cost tracking, logs all API calls, captures complete execution traces. Orchestration across hundreds of VMs reduces evaluation time from weeks to hours. Open General Agent Leaderboard at www.exgentic.ai, total eval cost $20K. Positions relative to agent-eval, HAL, Inspect, BrowserGym, Harbor across axes: multi-protocol benchmark, multi-protocol agent, agent plug-and-play, general-purpose tasks, systematic factorial study.",
+  "status": "MEASURED",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "transfer not derivable from available signals"
+}

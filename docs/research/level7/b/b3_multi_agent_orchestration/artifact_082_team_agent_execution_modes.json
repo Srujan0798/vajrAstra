@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/team-agent-orchestration/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Team Agent Orchestration execution modes and dynamic workflow compatibility. Execution modes: single-agent, dynamic workflow mode, dmux/tmux, worktree fan-out, external desktop orchestrator. Pick based on task needs. Dynamic workflow compatibility: when card needs dynamic workflow mode, put task-local harness under card owner, store inputs and outputs on card, require an eval before moving from Running to Review, promote harness to shared skill only after repeat use. Control pane requirements: active work items with Kanban state, owner/harness/branch/worktree/last heartbeat, links to handoff artifacts/tests/screenshots/PRs, blockers grouped by owner with unblock action, merge readiness by gate not vibes, reusable workflow candidates that should become shared skills. Do not add more automation until operator can answer: who owns this, what changed, what gate failed, what can safely merge? Output standard: finish each orchestration pass with board/card changes, merged or pending branches, tests and eval evidence, blockers with owner and next action, new shared skill candidates.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

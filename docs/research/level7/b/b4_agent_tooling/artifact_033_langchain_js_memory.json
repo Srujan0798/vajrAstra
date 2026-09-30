@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.langchain.com/oss/javascript/concepts/memory",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangChain.js Memory Overview: Memory system remembers previous interactions for personalization, learning from feedback, adapting to preferences. Types: Semantic memory (facts, concepts, relationships - like school learning), Episodic memory (past events/actions - experiences), Procedural memory (rules/skills - how to perform tasks). CoALA paper: facts to semantic, experiences to episodic. AI agents use semantic memory to personalize by remembering facts from past interactions. Episodic memory recalls past events/actions. Memory crucial for agents to remember, learn, adapt.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

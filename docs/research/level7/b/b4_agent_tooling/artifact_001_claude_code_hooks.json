@@ -1,0 +1,19 @@
+{
+  "source_url": "https://code.claude.com/docs/en/hooks",
+  "date": "2026-07-13",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Code hooks reference documents 5 hook types: command, prompt, agent, http, mcp_tool. Hook events include SessionStart, SessionEnd, UserPromptSubmit, Stop, StopFailure, PreToolUse, PostToolUse, PostToolUseFailure, PostToolBatch, PermissionRequest, Notification, ConfigChange, CwdChanged, DirectoryAdded, FileChanged, SubagentStart, SubagentStop, TaskCreated, TaskCompleted, WorktreeCreate, WorktreeRemove, Elicitation, ElicitationResult, PermissionDenied. Hooks communicate via stdin/stdout (command), HTTP POST (http), JSON-RPC (mcp_tool), or LLM prompts (prompt/agent). Exit codes: 0=no decision, 2=block action, other=stdout determines outcome. Settings in .claude/settings.json or ~/.claude/settings.json. MCP tool hooks call tools on connected MCP servers. Prompt hooks send prompts to Claude for single-turn evaluation. Agent hooks spawn subagents with Read/Grep/Glob tools for verification.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

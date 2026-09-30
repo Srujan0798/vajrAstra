@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/loop-design-check/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Loop Design Check loop types and skeletons. Loop types: Servo (clear 'done' test - write to done, batch of images processed) stops on reaching goal; Regulator (no endpoint, must maintain state - inventory alert, scheduled health check) never stops, acts only on change with dead-band suppressing noise; Regulator with exit (periodic sampling, stop on condition - watch PR until CI green) stops when exit condition holds; Scheduled (must 'ensure something happens on time') wraps above in cron. Skeletons: Maintenance type (tend something existing) -> document-driven dispatch: loop reads doc on timer, dispatches only when doc changed; three disciplines: problem column human-write-only, result column loop-write-only, state advances one-way never rolls back; exit code is final; state advances only to 'awaiting verification', 'done' cell flipped by human only. Greenfield type (build from scratch) -> plan/build/judge three roles: Plan breaks goal into spec + decidable acceptance conditions; Build writes to spec, must not change acceptance conditions; Judge runs acceptance independently (pass -> stop, fail -> return failure reason to Build); three iron rules: judge independent (not same agent as Build), deterministic rules (pytest/reconciliation diff/type check), Build may not edit acceptance conditions to pass; three failed retries -> escalate to human.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

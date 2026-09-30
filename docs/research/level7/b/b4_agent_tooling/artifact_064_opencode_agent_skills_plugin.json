@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/elmm-programing/opencode/blob/main/opencode-agent-skills/README.md",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenCode Agent Skills Plugin: Dynamic skills plugin for OpenCode. Requires OpenCode v1.0.110+. Provides 4 tools: skill discovery from .opencode/skills/, .claude/skills/, ~/.config/opencode/skills/, ~/.claude/skills/, ~/.claude/plugins/cache/, ~/.claude/plugins/marketplaces/. Installation: clone to ~/.config/opencode/opencode-agent-skills, symlink plugin.ts to ~/.config/opencode/plugin/skills.ts. Writing skills: My Skill with instructions. References Anthropic Agent Skills documentation. Alternatives: opencode-skills (auto-discovers, registers as dynamic skills_{{name}} tool), superpowers (complete software development workflow on composable skills), skillz (MCP server exposing skills as tools to any MCP client).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness",
+  "actionability": "direct"
+}

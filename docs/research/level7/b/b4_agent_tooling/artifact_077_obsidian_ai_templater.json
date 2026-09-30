@@ -1,0 +1,19 @@
+{
+  "source_url": "https://obsidian.md/plugins?id=ai-templater",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Obsidian AI Templater Plugin: AI Extension for Templater plugin with OpenAI Client Library. Part of thousands of plugins with open API for tailoring Obsidian to personal workflow. Demonstrates AI integration pattern in Obsidian plugin ecosystem.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review",
+  "actionability": "indirect"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2608.18167",
+  "date": "2026-08-16",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Adversarial Review (AR) false-consensus failure mode and prompt fix. On SWE-PRBench, naive AR exposes false-consensus failure mode where agents converge on agreement without sufficient evidence. Single prompt iteration adding disagreement explicitly achieves highest F1 among tested methods. AR builds on test-time refinement but makes two changes: separates reviewer and critic roles, makes disagreement explicit part of protocol rather than optional self-check. Multi-agent debate uses interaction among model instances exchanging arguments before judge/final answer (Du et al., 2024; Liang et al., 2024). MARS (Wang et al., 2025) replaces round-table debate with independent reviewers aggregated by meta-reviewer. AR takes middle position: preserves interaction but restricts communication to single channel with explicit disagreement types. Goal: not open-ended debate, but evidence-grounded pushback before main agent edits/commits. AR also tested in SKILL.md form for autonomous agents without external enforcement.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

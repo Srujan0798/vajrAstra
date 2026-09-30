@@ -1,0 +1,19 @@
+{
+  "source_url": "https://open-code.ai/en/docs/plugins",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenCode Plugins: TypeScript/JavaScript modules extending OpenCode via hooks. npm plugins auto-installed via Bun at startup, cached in ~/.cache/opencode/node_modules/. Local plugins loaded directly from plugin directory. Load order: npm plugins > local plugins. Plugin exports functions receiving context object, returning hooks object. Hook events: tool.execute.before, tool.execute.after, etc. Dependencies via .opencode/package.json, Bun installs at startup. Example: hook into bash tool execution to modify behavior. Plugins enable custom tools, external service integration, behavior modification.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness"
+}

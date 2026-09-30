@@ -1,0 +1,19 @@
+{
+  "source_url": "https://getautonoma.com/blog/ollama-alternatives",
+  "date": "2026-08-04",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Ollama Alternatives: 8 Local LLM Runtimes Compared (Autonoma). Four categories: Desktop GUI apps (LM Studio, Jan, GPT4All), Local API servers (Ollama, raw llama.cpp), Production serving engines (vLLM), OpenAI-API-compatible drop-ins (LocalAI, Llamafile). Key detail: Ollama, LM Studio, Jan, GPT4All all wrap same llama.cpp engine - raw token throughput close to identical on same hardware. Differences are packaging, interface, API surface, not speed. Autonoma runs agentic end-to-end tests on every PR. Choose runtime based on use case, not GitHub stars.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

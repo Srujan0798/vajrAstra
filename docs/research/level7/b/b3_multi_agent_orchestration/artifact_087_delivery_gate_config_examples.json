@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/delivery-gate/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Delivery Gate quality-gate.py configuration and examples. Configuration variables in quality-gate.py: RATIONALIZE (4 patterns), LIBS (5 libraries), COMPLEX_THRESHOLD (3), DISK_WARN_GB (50), DISK_CRIT_GB (15). Learning libraries to create: memory/growth-log/ (daily entries), memory/decisions/log.md, memory/output-index.md, memory/ratings-tracker.md, memory/tooling_capabilities.md. Customize LIBS dict to match file structure. Examples: simple session (edit_count=1 < 3, not complex) -> exit 0; complex task learning captured (edit_count=5, growth-log updated today) -> exit 0; complex task no learning (edit_count=4, all 5 stale) -> BLOCKED exit 2 with stderr 'Blocked: complex task completed but no learning captured today'; low disk space (disk_free=12GB < 15GB critical) -> BLOCKED exit 2 with stderr 'Blocked: disk space at 12GB (threshold: 15GB)'. Limitations: enforces habit of touching learning libraries, not quality of what recorded. If output-index.md updated but growth-log skipped, hook passes (1 of 5 libraries touched). Mechanical gates check machine-verifiable facts; pair with self-audit for content quality.",
+  "status": "MEASURED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "verifiable reward pattern (RLVR)"
+}

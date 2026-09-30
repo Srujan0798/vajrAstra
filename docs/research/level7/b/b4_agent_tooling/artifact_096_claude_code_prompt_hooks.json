@@ -1,0 +1,19 @@
+{
+  "source_url": "https://code.claude.com/docs/en/hooks",
+  "date": "2026-07-13",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Code Prompt Hooks: Type 'prompt' sends prompt to Claude model for single-turn evaluation. Model returns decision as JSON. Used for decisions requiring judgment rather than deterministic rules. Prompt-based hooks and agent-based hooks use Claude model to evaluate conditions. Configured in settings.json. Input/output via JSON. Complements command hooks (deterministic) and agent hooks (subagent verification).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness",
+  "actionability": "direct"
+}

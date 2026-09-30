@@ -1,0 +1,19 @@
+{
+  "source_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic",
+  "date": "2025-06-18",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Capability Negotiation: Part of Lifecycle Management component. Connection initialization includes capability negotiation between client and server. Server Features: resources, prompts, tools. Client Features: sampling, root directory lists. Capabilities advertised during initialization, enabling clients to discover available server functionality. Modular design allows implementations to support exactly the features they need. All implementations MUST support base protocol and lifecycle management.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

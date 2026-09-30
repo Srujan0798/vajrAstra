@@ -1,0 +1,19 @@
+{
+  "source_url": "https://gist.github.com/ruvnet/284f199d0e0836c1b5185e30f819e052",
+  "date": "2025-11-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Developer Specification (Version 2025-11): MCP Server exposes tools via standardized interface. Registry: discoverable index of MCP servers (public/private) with metadata. Transport Layers: STDIO (local dev/IDE), HTTP+SSE (remote async), WebSocket β (live streaming/push). Each transport supports: version '2025-11', client_id, server_id, transport (stdio|http|ws), capabilities [async, registry, code_exec]. Migration Checklist: upgrade version fields to 2025-11, add async job support, refactor tool definitions to file-based discovery, publish metadata to Registry, enable code execution pattern.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

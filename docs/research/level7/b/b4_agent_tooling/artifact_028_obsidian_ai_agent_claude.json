@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/m-rgba/obsidian-ai-agent",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Obsidian AI Agent (m-rgba): Integrated AI agent plugin for Obsidian, currently Claude Code. 50 stars, MIT. Features: Direct AI integration (chat with Claude Code in Obsidian interface), file-first approach (AI reads/edits/creates files in vault), context-aware (auto-includes relevant vault context), real-time collaboration (see AI edits live). Aligns Claude's 'bash is all you need' with Obsidian's 'files over apps' philosophy. No proprietary formats. Created 2025-09-01, 7 commits.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "DIES",
+  "transfer_harness_fact": "license unknown (campaign §9)"
+}

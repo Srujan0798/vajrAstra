@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/loop-design-check/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Loop Design + Review: two actions - WRITE a loop and REVIEW a loop. Write: Step 0 gate (task repeats weekly+, verification automatable, token budget supports it, agent has tools that run/see result), Step 1 machine-decidable goal (done-criterion machine-verifiable, boundary conditions defined, failure fallback with retry cap, goal layered, prefer reconciliation over assertion), Step 2 pick loop type (servo/regulator/regulator with exit/scheduled), Step 3 pick skeleton (maintenance type: document-driven dispatch; greenfield type: plan/build/judge with independent deterministic judge), Step 4 add damping (retry cap, hard stop, human flips last switch), Step 5 land in three stages (run by hand, harden into skill, hang on cron). Review checklist: 5 failure modes (spinning on platitude goal, verification as 'looks ok', only gates on tests pass enabling deletion, counts on agent asking mid-run, bloated CLAUDE.md/stale memory). 3 red lines: keep judgment with human, responsibility doesn't transfer, self-improving loops need stricter human review not looser.",
+  "status": "PRIMARY",
+  "decision_it_changes": "memory-loop architecture for Engine/Verdict/Miss agents",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "self-improvement loop pattern"
+}

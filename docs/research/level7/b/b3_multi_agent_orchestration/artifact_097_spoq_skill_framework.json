@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2606.03115",
+  "date": "2026-06-02",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "SPOQ Skill Framework details. Definition 5.3 (Skill): a directory containing SKILL.md (instructions and metadata, required), scripts/ (executable utilities, optional), references/ (documentation loaded on demand, optional), assets/ (templates and configurations, optional). Core SPOQ Skills: six skills aligned with four-stage pipeline (full inventory in Table B.15 Appendix). Skill Invocation and Anatomy: skills invoked via slash commands (e.g., /epic-planning, /agent-execution) that expand into full prompts with context from referenced epic directory. Each skill's SKILL.md contains YAML frontmatter (name, description) followed by structured documentation covering activation criteria, core patterns, quality standards, and integration points with other skills. Skill Extensibility: skill-maker meta-skill enables creation of new domain-specific skills following established patterns. Allows SPOQ deployments to accumulate organizational knowledge as reusable agent capabilities. Integration: from specification to execution via skill invocations with context from epic directory.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://opencodeguide.com/en/opencode-skills",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenCode Agent Skills Guide: Skills vs MCP distinction. MCP: external tools (browser, design, automation), permission control. Skills: internal workflows, reusable instructions, permission control. Rule: Use MCP when agent needs to do something outside OpenCode; Use Skills when agent needs to know how to do something consistently. Skill creation: .opencode/skills/git-release/SKILL.md. Frontmatter: name (required, matches folder), description (required), license/compatibility/metadata (optional). Naming rules: 1-64 chars, lowercase alphanumeric with single hyphens, no leading/trailing/consecutive hyphens. Skills advertised to agents, loaded on-demand via skill tool.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness",
+  "actionability": "direct"
+}

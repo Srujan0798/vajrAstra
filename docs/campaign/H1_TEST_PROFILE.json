@@ -1,0 +1,737 @@
+{
+  "0-999": {
+    "total": 56,
+    "samples": [
+      {
+        "id": 107,
+        "size": [
+          848,
+          294
+        ],
+        "text_sample": "पुपिएम्द",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 112,
+        "size": [
+          847,
+          299
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 118,
+        "size": [
+          680,
+          294
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 122,
+        "size": [
+          677,
+          295
+        ],
+        "text_sample": "'र्ण्स्िय",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 125,
+        "size": [
+          868,
+          292
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 133,
+        "size": [
+          685,
+          294
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 136,
+        "size": [
+          684,
+          293
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 138,
+        "size": [
+          897,
+          294
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 139,
+        "size": [
+          881,
+          292
+        ],
+        "text_sample": "_ (चियर्हेड",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 146,
+        "size": [
+          701,
+          294
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      }
+    ]
+  },
+  "1000-1999": {
+    "total": 481,
+    "samples": [
+      {
+        "id": 1011,
+        "size": [
+          952,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 1025,
+        "size": [
+          679,
+          296
+        ],
+        "text_sample": "BEIT",
+        "script": "Latin",
+        "tesseract_lang": "eng"
+      },
+      {
+        "id": 1141,
+        "size": [
+          878,
+          295
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 1214,
+        "size": [
+          698,
+          295
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 1290,
+        "size": [
+          920,
+          294
+        ],
+        "text_sample": "क्र खिग्पील",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 1329,
+        "size": [
+          672,
+          295
+        ],
+        "text_sample": "BY 8",
+        "script": "Latin",
+        "tesseract_lang": "eng"
+      },
+      {
+        "id": 1362,
+        "size": [
+          580,
+          291
+        ],
+        "text_sample": "छा?",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 1368,
+        "size": [
+          1188,
+          298
+        ],
+        "text_sample": "घवभिमइबाक शाक हा",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 1384,
+        "size": [
+          955,
+          296
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 1420,
+        "size": [
+          1047,
+          293
+        ],
+        "text_sample": "_ जुर्दूिप्पक",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      }
+    ]
+  },
+  "10000-10999": {
+    "total": 1000,
+    "samples": [
+      {
+        "id": 10027,
+        "size": [
+          1360,
+          297
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 10040,
+        "size": [
+          1198,
+          295
+        ],
+        "text_sample": "वॉजछागएवा्श",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 10440,
+        "size": [
+          677,
+          299
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 10478,
+        "size": [
+          1327,
+          300
+        ],
+        "text_sample": "_ तक्लाषि(सागस तह्नार्शियाग",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 10509,
+        "size": [
+          830,
+          298
+        ],
+        "text_sample": "चुका दिस",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 10598,
+        "size": [
+          590,
+          299
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 10775,
+        "size": [
+          779,
+          296
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 10832,
+        "size": [
+          1373,
+          299
+        ],
+        "text_sample": "फशिए पिहिपणा",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 10888,
+        "size": [
+          986,
+          299
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 10942,
+        "size": [
+          969,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      }
+    ]
+  },
+  "11000-11999": {
+    "total": 1000,
+    "samples": [
+      {
+        "id": 11078,
+        "size": [
+          1169,
+          299
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11086,
+        "size": [
+          937,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11181,
+        "size": [
+          1011,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11357,
+        "size": [
+          608,
+          299
+        ],
+        "text_sample": "5 पाए",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 11384,
+        "size": [
+          898,
+          297
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11545,
+        "size": [
+          445,
+          297
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11628,
+        "size": [
+          829,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11690,
+        "size": [
+          615,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11887,
+        "size": [
+          893,
+          297
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 11946,
+        "size": [
+          698,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      }
+    ]
+  },
+  "12000-12999": {
+    "total": 1000,
+    "samples": [
+      {
+        "id": 12047,
+        "size": [
+          1630,
+          299
+        ],
+        "text_sample": "'अशुावित-उ्ाएाा स्तर कमल नतलरापर बकतरकाललकर नम सरक",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 12066,
+        "size": [
+          636,
+          300
+        ],
+        "text_sample": "1.222",
+        "script": "Other",
+        "tesseract_lang": "kan"
+      },
+      {
+        "id": 12329,
+        "size": [
+          790,
+          297
+        ],
+        "text_sample": "_ छवत्गिका, पत्गि 2477",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 12412,
+        "size": [
+          897,
+          297
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 12801,
+        "size": [
+          835,
+          298
+        ],
+        "text_sample": "ந தடுத்த",
+        "script": "Tamil",
+        "tesseract_lang": "tam"
+      },
+      {
+        "id": 12808,
+        "size": [
+          1408,
+          298
+        ],
+        "text_sample": "_ करिकभएप्वसकिकि",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 12862,
+        "size": [
+          1209,
+          299
+        ],
+        "text_sample": "सत्य ६०१४९] श्व्क",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 12902,
+        "size": [
+          1131,
+          296
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 12919,
+        "size": [
+          956,
+          298
+        ],
+        "text_sample": "को साल सं ताजा का सवा का लव काना ला का का के फेम क",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 12957,
+        "size": [
+          599,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      }
+    ]
+  },
+  "13000-13999": {
+    "total": 1000,
+    "samples": [
+      {
+        "id": 13007,
+        "size": [
+          554,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 13248,
+        "size": [
+          710,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 13285,
+        "size": [
+          1265,
+          298
+        ],
+        "text_sample": "सातिकपडदकटण सतोटु्पहडक (४",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 13455,
+        "size": [
+          840,
+          298
+        ],
+        "text_sample": "_ झाइण्ज़ी लगाज़न",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 13517,
+        "size": [
+          976,
+          297
+        ],
+        "text_sample": "| ि्जण",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 13524,
+        "size": [
+          502,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 13557,
+        "size": [
+          1409,
+          299
+        ],
+        "text_sample": "“्\n4",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 13814,
+        "size": [
+          1113,
+          297
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 13889,
+        "size": [
+          995,
+          298
+        ],
+        "text_sample": "न रा. का",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 13946,
+        "size": [
+          626,
+          298
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      }
+    ]
+  },
+  "14000-14806": {
+    "total": 807,
+    "samples": [
+      {
+        "id": 14102,
+        "size": [
+          843,
+          297
+        ],
+        "text_sample": "द्रोनगारण",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 14168,
+        "size": [
+          788,
+          297
+        ],
+        "text_sample": "aor fee",
+        "script": "Latin",
+        "tesseract_lang": "eng"
+      },
+      {
+        "id": 14207,
+        "size": [
+          1241,
+          297
+        ],
+        "text_sample": "विश्िशकेकल न",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      },
+      {
+        "id": 14275,
+        "size": [
+          796,
+          295
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 14544,
+        "size": [
+          1328,
+          293
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 14633,
+        "size": [
+          778,
+          294
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 14761,
+        "size": [
+          889,
+          296
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 14762,
+        "size": [
+          1019,
+          292
+        ],
+        "text_sample": "7೧6೧77.",
+        "script": "Kannada",
+        "tesseract_lang": "kan"
+      },
+      {
+        "id": 14769,
+        "size": [
+          715,
+          295
+        ],
+        "text_sample": "",
+        "script": "UNKNOWN",
+        "tesseract_lang": "unknown"
+      },
+      {
+        "id": 14791,
+        "size": [
+          1130,
+          293
+        ],
+        "text_sample": "\"छाया टप्युव्टु",
+        "script": "Devanagari",
+        "tesseract_lang": "hin"
+      }
+    ]
+  }
+}

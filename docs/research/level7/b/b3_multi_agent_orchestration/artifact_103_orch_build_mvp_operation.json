@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-build-mvp/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orch Build MVP: orchestrates bootstrapping a working MVP from a design or spec document - ingest the doc, plan thin vertical slices, scaffold the first end-to-end slice, then TDD-implement, review, and gated commit. Use when a design or spec document must become a running MVP through planned vertical slices. Leverages orch-pipeline shared engine with Phase 3 Scaffold unique to this operation. Enables rapid MVP development through systematic vertical slice approach. Composes existing ECC commands: /feature-dev, /plan, /code-review, /build-fix, /refactor-clean, /gan-build, plus tdd-workflow skill. Adds shared size classifier and two gates on top.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

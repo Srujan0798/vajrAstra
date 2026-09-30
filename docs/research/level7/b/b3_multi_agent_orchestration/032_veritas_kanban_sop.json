@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/BradGroux/veritas-kanban/blob/main/docs/SOP-multi-agent-orchestration.md",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Veritas Kanban SOP for Multi-Agent Orchestration (PM + Workers). Squad Chat Protocol: all agents (PM and workers) must post to squad chat (glass box transparency). PM responsibilities: before spawning each worker, log spawn event with model; when worker fails, log failure; coordination updates as regular messages. Worker responsibilities: post progress throughout work including model identifier (shows which AI behind each agent). Example: Opus PM orchestrating Codex workers - Opus reads sprint tasks, assigns to self and Codex, spawns Codex worker with managed-run handoff template. Uses scripts: squad-event.sh for spawn/fail events, squad-post.sh for progress updates. --model flag recommended to show which AI model behind each agent in squad chat UI.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -61,7 +61,7 @@ synthetic + real  (printed, handwritten, forms, tables; Indic + EN)
 
 **How others train.** Winning 2026 Indic OCR is a *system*: layout/reading-order harness around an OCR-specialized VLM, trained synthetic+real, SFT then RLVR. Bodhan splits layout (tiny DETR) and recognition (0.8B). Sarvam keeps a general VLM but harnesses it. Nobody winning ships a bare TrOCR from scratch as the product.
 
-**Fine-tune vs from-scratch.** Chitrapathak-2 is the direct experiment: pairing a generic vision encoder with a strong multilingual LM and training end-to-end lost to fine-tuning Nanonets-OCR2-3B, even though that OCR model had never seen Indic data. Fine-tune existing OCR VLM. PPT box 2’s TrOCR-from-scratch arm is the obsolete piece.
+**Fine-tune vs from-scratch.** Chitrapathak-2 is the direct experiment: pairing a generic vision encoder with a strong multilingual LM and training end-to-end lost to fine-tuning Nanonets-OCR2-3B, even though that OCR model had never seen Indic data. Fine-tune existing OCR VLM. PPT box 2’s TrOCR arm (slide text: seq2seq fine-tune, not random-init) is still the obsolete training target versus an OCR-specialized VLM.
 
 **Script ID / MoE.** Use a router or ScriptMoE for the long tail, not as the default backbone for hi/ta/te. Sarvam 2.1 already >90 on hi/kn/te/mr/ne/mai/kok and still collapses on Santali and Kashmiri. Bodhan’s Santali win (68.30 vs 53.91) is the specialist signal. ScriptMoE is a decoder swap inside PP-OCRv5-class recognizers, not a reason to throw away the VLM harness.
 
@@ -76,4 +76,24 @@ Smallest change that is still a hybrid against *this* PPT, not a new company:
 5. Add Indic OCR Bench to eval. Keep no-FT-on-test.
 6. Plan a specialist (router / extra expert / extra data) for Santali, Kashmiri, Meitei, Nastaliq — after the 20-sample probe, not before.
 
-Deep paper pass continues in the background research run. This file is the living one-pager; append citations, do not fork.
+## Curricula table (research pass 2026-09-25)
+
+| System | Order | Layout | Notes |
+|---|---|---|---|
+| Sarvam Vision 2.1 | SFT then RLVR | semantic parser + pointer reading-order | API harness. Indic bench 87.39 overall. |
+| Bodhan Indic-OCR | two-stage FT; no RL published | 33M PP-DocLayoutV3 then 0.8B block OCR | Open weights. Santali 68.30 (wins that cell). |
+| PaddleOCR-VL-1.6 | CPT 16.8M → SFT 7.3M → GRPO 49K from 1.5 ckpt | PP-DocLayoutV3 frozen | OmniDocBench v1.6 **96.33**. Already in the PPT. |
+| Nanonets-OCR2-3B / Chitrapathak-2 | synth then manual FT; no RL | none published | Fine-tune OCR VLM beats CLIP+LM train. Parichay 89.8% EM on 9 EN govt docs. |
+| olmOCR-2 | 1 ep SFT then 1 ep GRPO | HTML unit tests as rewards | English-centric; olmOCR-7B chrF++ 40.5 on real Devanagari scans. |
+| ScriptMoE | 2-ep from-scratch scene STR | none (not a document stack) | PP-OCRv5 F1 65.71→80.89. Ol Chiki / Meitei Mayek **outside** its 10 scripts. |
+
+## Honest gaps (do not freeze on these)
+
+- No paper ablates PPT TrOCR (ViT/BEiT+RoBERTa) against Nanonets-OCR2-3B. Chitrapathak-1 was CLIP-336+Krutrim-7B. “Drop TrOCR” is analogy + field practice, not a measured TrOCR kill.
+- PPT slide 3 says TrOCR is **seq2seq fine-tune**, not random-init.
+- No 2026 paper ablates the PPT’s akshara-boundary auxiliary loss.
+- Stage 0 binarize is unproven KEEP/DROP for native-resolution VLMs. Geometry/rotation is the part with evidence.
+- Which Stage-2 base wins on **our South 400** is unmeasured.
+- Indic OCR Bench is block word-accuracy on published pages (1800–present), not our citizen old-scans/forms.
+
+**W1 status: CLOSED 2026-09-25.** Recipe choice lives in `docs/architecture/W2_HYBRID.md`. Probe list: `level2/probe22/manifest.json`. No training until W5.

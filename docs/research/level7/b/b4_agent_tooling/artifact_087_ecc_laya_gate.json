@@ -1,0 +1,19 @@
+{
+  "source_url": "https://raw.githubusercontent.com/NandhaKishorM/laya/6a5819129eb220570792e417e49723d697efd76f/laya/__init__.py",
+  "date": "2025-08-15",
+  "label": "INFERENCE",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC laya-gate (inferred): LAYA System-1 decision engine with calibrated probabilities. Modules: agent (Agent, RLAgent), common (confidence_from_probs, ece_score, proper_reward), email (clean_email_body, email_state), lang (detect_language, detect_script, is_english), presets (email_questions, guard_questions, moderation_questions, router_questions, triage_questions), router (DEFAULT_MODELS, RouteDecision, Router). Version 0.3.3. Used for fast System-1 boundaries: inbound email, sheet-row risk, scope/prompt guard, admission gates. Non-autoregressive, calibrated confidence scores for deterministic gating decisions.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "theoretical"
+}

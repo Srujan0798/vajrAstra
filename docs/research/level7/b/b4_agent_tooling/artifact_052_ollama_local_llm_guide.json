@@ -1,0 +1,19 @@
+{
+  "source_url": "https://explore.n1n.ai/blog/comprehensive-guide-ollama-local-llm-2026-02-16",
+  "date": "2026-02-16",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Comprehensive Guide to Ollama (n1n.ai): Landscape shifted from cloud data centers to local machines. Ollama for local development, prototyping, privacy-first workflows. n1n.ai provides stable high-speed API for production scaling. Why Local LLMs: 1) Privacy/Security - proprietary code/docs never leave local environment (enterprise compliance), 2) Zero Inference Costs - infinite tokens after download, 3) Offline Development - functional on flights/secure facilities, 4) Low Latency - limited only by hardware compute. Hybrid approach: local Ollama for testing + unified API (n1n.ai) for production = industry gold standard.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "DIES",
+  "transfer_harness_fact": "license unknown (campaign §9)",
+  "actionability": "direct"
+}

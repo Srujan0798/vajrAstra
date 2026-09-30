@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2607.22917",
+  "date": "2026-07-31",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Team Work Zone treats each agent as a human employee with durable per-agent 'workstation' directories on disk containing state, skills, hooks, and scripts. Central design: agents stay ephemeral (no change to Claude Code runtime) but their reconstitution needs are written to files. Workspace layout: resources/ (skills, agents, role archetypes, scripts, hooks) and docs/ (framework manuals). Naming convention <slug>-<role> (e.g., architect-typesetter) lets idle hook derive workstation path from slug prefix. Journal-based tracking records agent work sessions with structured metadata for explainability and training data. Bootstrap step version-checks environment and syncs framework skills/agent definitions into project's .claude/ creating or merging settings rather than overwriting. Provides continuity, recoverability, and audit trail for long-lived agent teams spanning many sessions.",
+  "status": "MEASURED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

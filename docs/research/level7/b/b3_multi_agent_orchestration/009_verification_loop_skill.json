@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/verification-loop/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Verification Loop: comprehensive verification system for Claude Code sessions with 6 phases. Phase 1: Build verification (npm/pnpm run build). Phase 2: Type check (tsc --noEmit or pyright). Phase 3: Lint check (npm run lint or ruff). Phase 4: Test suite with coverage (target 80% minimum). Phase 5: Security scan (grep for secrets, api_keys, console.log). Phase 6: Diff review (git diff --stat, review changed files for unintended changes, missing error handling, edge cases). Output format: VERIFICATION REPORT with PASS/FAIL per phase, overall READY/NOT READY for PR. Continuous mode: run every 15 minutes or after major changes. Integrates with PostToolUse hooks but provides deeper verification. Hooks catch issues immediately; this skill provides comprehensive review.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "depends on W6 model freeze decision (D1)"
+}

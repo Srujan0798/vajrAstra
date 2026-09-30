@@ -1,0 +1,19 @@
+{
+  "source_url": "https://saisrinivas-samoju.github.io/agentic_architectures/architectures/dag-orchestration",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agentic AI Architectures catalog - DAG Orchestration as pattern 16 in 6-part taxonomy of 30+ patterns. Core Patterns (1-10): Single Agent, Prompt Chaining, Routing, Parallelization, Orchestrator-Worker, Supervisor, Reflection/Self-Correction, Evaluator-Optimizer, Swarm, Hierarchical Teams. Quality & Oversight (11-13): Generator-Verifier, Agent-as-a-Judge, Human-in-the-Loop. Pipelines & Cost (14-18): Map-Reduce Agents, Mixture-of-Agents, DAG Orchestration, Plan-and-Execute, Cascading Agents. Multi-Agent Collaboration (19-26): Blackboard, Market-Based/Bidding, Contract Net Protocol, Debate/Adversarial, Red-Team Agent, Role-Based Collaboration, Conversational Multi-Agent, Event-Driven Multi-Agent. Reasoning Patterns (27-30): Inner Monologue, Speculative Execution, Skeleton of Thought, ReAcTree. Domain Applications (31-34): Agentic RAG, Agentic Coding, Self-Tooling Agent, Dynamic Tool Generation. DAG Orchestration executes data pipeline as dependency graph: extract and config tasks run in parallel, transform waits for both, validate runs in parallel with transform results. Benefits: explicit dependency management, parallelization, fault isolation, observability.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

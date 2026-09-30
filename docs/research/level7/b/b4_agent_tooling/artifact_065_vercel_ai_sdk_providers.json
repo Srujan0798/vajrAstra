@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ai-sdk.dev/providers/ai-sdk-providers/ai-gateway",
+  "date": "2025-11-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Vercel AI SDK Providers - AI Gateway: Part of AI SDK (v5.0.36+). Basic usage: model string 'openai/gpt-5.4' auto-routes through AI Gateway. Provider instance: import { gateway } from 'ai'; model: gateway('openai/gpt-5.4'). Config: baseURL (default https://ai-gateway.vercel.sh/v4/ai), apiKey (AI_GATEWAY_API_KEY env, supports Vercel personal/app access tokens), teamIdOrSlug (for multi-team tokens), custom headers. Observability for AI model usage through Vercel dashboard. Vercel Access Token Authentication for dynamic runtime auth of model requests.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

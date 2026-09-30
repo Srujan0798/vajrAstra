@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.local-agent.dev/ollama-models",
+  "date": "2025-09-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Local Agent Ollama Models: Ollama is only implemented inference runtime. Model picker driven by Ollama live inventory (installed local weights, available Ollama Cloud aliases). Groups by execution location: Local (weights on this instance), Cloud (aliases for manual selection, require exact conversation consent under local-only policy), Remote (models from non-Cloud remote host, visible but not selectable). Rows can be unavailable due to runtime capability, context metadata, privacy policy, local memory guard. Automatic routing and pins: choosing verified local model pins it across restarts. /model auto clears saved choice. Startup --model flag or agent-profile model takes precedence. Cloud consent limited to current conversation, never restored implicitly.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

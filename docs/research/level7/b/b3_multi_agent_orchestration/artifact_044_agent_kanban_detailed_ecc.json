@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/team-agent-orchestration/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Kanban detailed card schema and state management. Card includes: id, title, owner, state, branch, worktree, acceptance criteria array, merge_gate string, handoff path. State transitions: Backlog -> Ready -> Running -> Review -> Merged (with Blocked as side state). Exit criteria per column enforce quality gates. Control pane requirements: active work items with Kanban state, owner/harness/branch/worktree/last heartbeat, links to handoff artifacts/tests/screenshots/PRs, blockers grouped by owner with unblock action, merge readiness by gate not vibes, reusable workflow candidates. Dynamic workflow compatibility: task-local harness under card owner, inputs/outputs on card, eval before Running to Review, promote harness to shared skill after repeat use. Failure modes: agent soup (many agents, no owner/merge gate), invisible work (output only in chat), board theater (Kanban exists but no acceptance criteria), overlapping writes (parallel agents edit same files without worktrees), no product artifact (process produces docs but no runnable surface).",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

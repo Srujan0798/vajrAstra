@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2608.18167",
+  "date": "2026-08-16",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Adversarial Review SKILL.md protocol for SWE-bench Verified. The paper includes AR's SKILL.md embedded between BEGIN VERBATIM SKILL CONTENT and END VERBATIM SKILL CONTENT markers. It instantiates the abstract two-phase workflow from AR's SKILL.md as a concrete SWE-bench routine, including the plan-artifact location (APPROACH.md) and how the inner/outer loops map to the Plan review and Code review phases. AR-specific; MARS has its own concrete workflow embedded in its SKILL.md body. SWE-bench Verified result important: AR still improves performance when expressed only as a SKILL.md protocol, without a Python orchestrator forcing every step. This demonstrates the protocol can be followed by autonomous coding agents without external enforcement.",
+  "status": "PRIMARY",
+  "decision_it_changes": "validation-call kill-criteria (adversarial review gate)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

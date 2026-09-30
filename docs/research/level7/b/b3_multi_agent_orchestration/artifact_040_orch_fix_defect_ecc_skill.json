@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-fix-defect/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orch Fix Defect: orchestrates fixing a bug - reproduce it as a failing regression test, fix to green, review, and gated commit - by delegating each phase to the matching ECC agent. Use when existing behavior is broken or wrong. Leverages orch-pipeline shared engine. First-move rule: reproduce as failing test before any fix attempt. Ensures systematic bug fixing with regression prevention.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

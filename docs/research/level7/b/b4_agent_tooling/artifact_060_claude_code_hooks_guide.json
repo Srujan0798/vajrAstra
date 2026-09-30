@@ -1,0 +1,19 @@
+{
+  "source_url": "https://code.claude.com/docs/en/hooks-guide",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Code Hooks Guide: Hooks run at lifecycle points for deterministic control. Use cases: format files after edits, block commands before execution, send notifications when Claude needs input, inject context at session start. Hook types: command (shell), http (POST to endpoint), prompt (LLM evaluation), agent (subagent verification), mcp_tool (call MCP tool). Settings in ~/.claude/settings.json or .claude/settings.json. Notification hook example: osascript for macOS desktop notification. PostToolUse hook: format files after Edit/Write with prettier. SessionStart hook: direnv export for environment. Hooks in skills and agents: defined in skill/subagent file. Block edits to protected files (.env, package-lock.json, .git/) via PreToolUse hook with script.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness",
+  "actionability": "direct"
+}

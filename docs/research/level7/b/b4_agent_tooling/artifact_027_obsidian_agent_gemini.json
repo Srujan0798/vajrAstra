@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/TheManuelML/obsidian-agent",
+  "date": "2025-09-05",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Obsidian Agent (TheManuelML): Lightweight AI extension for Obsidian. Connects Google Gemini, Anthropic Claude, OpenAI, or local Ollama. Agent can write, edit, create notes/folders. User-friendly UI with chat management as Obsidian notes (rename file to rename chat). Tools: List files in folder, Vault Search across content, Note filtering by criteria, Read note content, Write note content, Create note, Delete note, Move note. Chat files store history and metadata. Hotkey access. Clone to ~/vault/.obsidian/plugins/ to install.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

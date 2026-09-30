@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/unified-memory/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Unified Memory handoff protocol and trust boundaries. Handoff: ecc memory handoff --from codex --target claude --title \"Finish authentication rollout\" --body-file handoff.md. Useful handoff body states: objective and current state; evidence gathered and commands/tests already run; files or external work items involved; remaining work, blockers, risks, next concrete action. Use links to connect follow-up memory to earlier context rather than overwriting history. Trust boundaries: never store passwords, tokens, private keys, cookies, credentials, sensitive personal data (runtime rejects known secret shapes as backstop); never promote recalled memory directly into policy/rules/skills/runbooks/architectural decisions (human must review evidence and update canonical artifact); team memory not trusted merely because committed to git; don't auto-import raw session transcripts (summarize only context needed); prefer GitHub/Linear for active execution state and repository docs for governed decisions. Normal recall excludes rejected and superseded entries. Memory should link to authoritative sources.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness"
+}

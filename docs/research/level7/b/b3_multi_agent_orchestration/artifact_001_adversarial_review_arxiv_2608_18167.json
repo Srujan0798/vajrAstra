@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2608.18167",
+  "date": "2026-08-16",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Adversarial Review (AR) introduces a minimal cooperative code-review protocol with three agents: main coding agent, reviewer, and critic. The reviewer evaluates code while the critic audits the review through structured disagreement before the main agent edits. AR outperforms a five-agent baseline on LiveCodeBench using only three agents. On SWE-PRBench, naive AR exposes a false-consensus failure mode where agents converge on agreement without sufficient evidence, but a single prompt iteration adding explicit disagreement constraints achieves highest F1. Two execution modes tested: Python orchestrator for controlled comparisons, and portable SKILL.md protocol for autonomous agents like Claude Code. Key insight: cooperative code review requires minimal, structured, evidence-grounded disagreement — not more agents. Maps to ECC santa-method dual-reviewer pattern and council adversarial review.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "validation-call kill-criteria (adversarial review gate)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

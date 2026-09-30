@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/eval-harness/SKILL.md",
+  "date": "2025-09-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC agent-eval (eval-harness skill): Agent harness performance optimization system. Covers skills, instincts, memory, security, research-first development for Claude Code, Codex, Opencode, Cursor. Verification loops: checkpoint vs continuous evals, grader types, pass@k metrics. Parallelization: Git worktrees, cascade method, when to scale instances. Subagent orchestration: context problem, iterative retrieval pattern. Continuous learning: auto-extract patterns from sessions into reusable skills. 978 internal tests across agents, skills, commands, hooks, rules. Part of ECC's comprehensive evaluation infrastructure.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "memory-loop architecture for Engine/Verdict/Miss agents",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Cursor OSS-friendly",
+  "actionability": "direct"
+}

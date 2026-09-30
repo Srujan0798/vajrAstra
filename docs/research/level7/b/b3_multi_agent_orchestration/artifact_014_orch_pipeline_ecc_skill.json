@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-pipeline/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orchestrator Pipeline (shared engine for orch-* skills): classifies request size (trivial/small/standard/large) based on files touched, new dependencies, design ambiguity. Five operation skills: orch-add-feature, orch-change-feature, orch-fix-defect, orch-refine-code, orch-build-mvp. Phases: 0 Intake (restate/read spec), 1 Research & Reuse (gh search, Context7, vendor docs, package registries, Exa - prefer proven implementations), 2 Plan (delegate to planner/architect agent, output task_list as thin vertical slices) -> GATE 1, 3 Scaffold (orch-build-mvp only: stand up first end-to-end slice), 4 Implement TDD (tdd-guide agent: red-green-refactor per task) -> GATE 2, 5 Review (code-reviewer + security-reviewer on security triggers), 6 Commit (conventional commits, one per logical chunk). Two gates: Gate 1 after Plan (present task_list, no implementation until user approves), Gate 2 before Commit (present diff summary + proposed messages, no commit until user confirms). Security triggers: auth/authz, user input, DB queries, filesystem paths, external API calls, crypto, secrets.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2605.00410",
+  "date": "2026-05-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Capsules: adaptive execution runtime treating multi-agent pipeline execution as optimization problem with empirical quality constraints. Addresses compound execution (merging agents into fewer calls for token savings) which naively degrades quality through tool loss and prompt compression. Presents escalation ladder: recovers quality through un-merging rather than rewriting merged prompts. Defines pipeline as directed graph of groups, each containing one or more agents. Sequential execution (N separate calls with accumulated context) is structurally correct answer for multi-agent reasoning groups whose merged form fails the gate. Occupies fifth axis (runtime-adaptive execution-mode selection) orthogonal to and composable with existing dimensions. Quality gates enforce empirical constraints before allowing compound execution. Existing frameworks (AutoGen, CrewAI, LangGraph) provide no answer - treat each agent as independent dispatch unit with no provision for batching agents into shared call, leaving cost-quality tradeoff to manual engineering.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/verification-loop/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Verification Loop integration with hooks and continuous mode details. Complements PostToolUse hooks but provides deeper verification. Hooks catch issues immediately; this skill provides comprehensive review. Continuous mode: run every 15 minutes or after major changes - mental checkpoint after completing each function, component, before moving to next task. Run: /verify. Phase commands: Build (npm run build / pnpm build - STOP if fails), Type Check (npx tsc --noEmit / pyright - fix critical), Lint (npm run lint / ruff check), Test (npm run test -- --coverage - 80% minimum), Security (grep for secrets, api_keys, console.log), Diff Review (git diff --stat, review each changed file). Output: VERIFICATION REPORT with PASS/FAIL per phase, overall READY/NOT READY.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible",
+  "actionability": "direct"
+}

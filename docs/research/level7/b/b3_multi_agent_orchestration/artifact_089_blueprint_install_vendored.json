@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/blueprint/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Blueprint ECC install detection and vendored standalone install. Full ECC install: verify skill present with test -f skills/blueprint/SKILL.md. Update: cd /path/to/everything-claude-code; git fetch origin main; git log --oneline HEAD..origin/main (review new commits); git checkout <reviewed-full-sha> (pin to specific reviewed commit). Vendored standalone install: copy reviewed file from ECC repository into ~/.claude/skills/blueprint/SKILL.md. Vendored copies do not have git remote; update by re-copying file from reviewed ECC commit rather than git pull. Blueprint detects git/gh availability automatically; with git+GitHub CLI generates full branch/PR/CI workflow plans; without them switches to direct mode (edit-in-place, no branches). Requirements: Claude Code for /blueprint slash command; Git+GitHub CLI optional (enables full branch/PR/CI workflow). Source: inspired by antbotlab/blueprint - upstream project and reference design.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

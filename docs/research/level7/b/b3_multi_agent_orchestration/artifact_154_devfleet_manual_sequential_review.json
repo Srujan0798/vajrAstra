@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/claude-devfleet/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude DevFleet manual sequential with review workflow. 1) create_project(name=\"...\") -> project_id. 2) create_mission(project_id, title=\"Implement feature\", prompt=\"...\") -> impl_mission_id. 3) dispatch_mission(mission_id=impl_mission_id), poll get_mission_status until complete. 4) get_report(mission_id=impl_mission_id) to review results. 5) create_mission(project_id, title=\"Review\", prompt=\"...\", depends_on=[impl_mission_id], auto_dispatch=true) - auto-starts since dependency already met. Full auto workflow: plan_project -> show plan -> get approval -> dispatch first mission -> remaining auto-dispatch as deps complete -> poll dashboard -> get_report for each terminal mission. Missions form DAG - no circular dependencies. Each agent runs in isolated git worktree, auto-merges on completion. Merge conflicts remain on agent's worktree branch for manual resolution.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
+  "date": "2026-01-23",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Anthropic decision framework for when to use multi-agent systems. Multi-agent architecture: multiple LLM instances with separate conversation contexts coordinated through code. Orchestrator-subagent pattern: hierarchical model where lead spawns and manages specialized subagents. Key findings: teams invest months building elaborate multi-agent architectures only to discover improved prompting on single agent achieved equivalent results. Common failure: lost context at each handoff, spent more tokens coordinating than executing. Multi-agent provides value when addressing specific constraints single agent cannot overcome: 1) Single agent accumulates everything in context (must reason about technical issue while maintaining 20+ files), 2) Parallel workstreams with independent context, 3) Specialization single agent can't sustain. Managed infrastructure can handle orchestration (Claude Managed Agents). Patterns: generator-verifier, orchestrator-subagent, agent teams. Principle: reserve multi-agent for cases with clear benefits justifying cost.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

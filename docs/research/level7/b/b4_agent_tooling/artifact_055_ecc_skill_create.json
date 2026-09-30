@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/.opencode/commands/skill-create.md",
+  "date": "2025-09-20",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC Skill Create Command: Generate skills from git history analysis. Agent: build. Process: 1) Analyze commits (pattern recognition from history), 2) Extract patterns (common practices/conventions), 3) Generate SKILL.md (structured skill documentation), 4) Create instincts (for continuous-learning-v2). Analysis: git log --oneline -100, commits by file type, most changed files. Patterns: commit message prefixes (feat, fix, refactor), naming conventions, co-author patterns, file structure conventions, import organization, error handling approaches, review feedback, recurring fix types, quality gates. Output: SKILL.md with examples, anti-patterns, instincts JSON for continuous-learning-v2.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible",
+  "actionability": "direct"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/anomalyco/opencode/blob/dev/packages/opencode/src/skill/prompt/customize-opencode.md",
+  "date": "2025-09-10",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "customize-opencode skill: configures opencode.json with strict schema validation. Unknown top-level keys rejected with ConfigInvalidError. Schema: snapshot (bool), instructions (array of files), skills (object with paths[] and urls[]), agent (object keyed by agent name with model, mode, description, permission), command (object keyed by command name with description, prompt), mcp (object with local: command[], enabled, env; remote: url, headers), plugin (array of strings or [name, options] tuples). Model always carries provider prefix (anthropic/claude-sonnet-4-6). Skills is object not array. Agent is object not array. Plugin is array not object. MCP command is array of strings, type required.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness"
+}

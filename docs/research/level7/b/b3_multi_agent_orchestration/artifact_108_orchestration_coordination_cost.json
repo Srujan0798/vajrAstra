@@ -1,0 +1,19 @@
+{
+  "source_url": "https://notes.hasanarief.dev/guides/agent-orchestration-patterns",
+  "date": "2026-06-27",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent orchestration patterns conclusion: orchestration is a question of coordination cost rather than framework choice. Most tasks belong on lowest coordination level that works. Token costs scale linearly with agents; coordination failures scale worse than linearly. Cross-model consensus pattern sits outside single-vendor levels: running agents from different vendors against same problem and comparing outputs. Level 2 subagent failure: parallel orchestrator coordinating dozen workers collapsed in production (session limits, lost state, workers dying silently). Rule: move up a level only when current one demonstrably fails, never because parallelism sounds faster.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

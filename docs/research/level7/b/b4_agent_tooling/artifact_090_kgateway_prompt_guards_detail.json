@@ -1,0 +1,19 @@
+{
+  "source_url": "https://kgateway.dev/docs/envoy/2.1.x/ai/prompt-guards",
+  "date": "2025-11-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "kgateway Prompt Guards: AI Gateway feature connecting to moderation model endpoint comparing prompt input to predefined content rules. Blocks unwanted requests to LLM provider, masks sensitive data in responses. Tutorial: block requests with credit card strings in request body, mask credit card numbers returned by LLM. Part of Envoy AI Gateway for production AI traffic management. Moderation allows predefined content rules enforcement at gateway level.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review",
+  "actionability": "indirect"
+}

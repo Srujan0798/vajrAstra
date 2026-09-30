@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.langchain.com/oss/javascript/langchain/overview",
+  "date": "2026-06-22",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangChain.js Overview: Provides create_agent - minimal, highly configurable agent harness. Agent = Model + Harness. Harness = prompt + tools + middleware. Choose framework: Deep Agents (batteries-included: auto context compression, virtual filesystem, subagent spawning), LangChain (customizable harness), LangGraph (low-level orchestration for deterministic + agentic workflows). LangSmith for tracing, debugging, evaluating. Supports Model Context Protocol (MCP) tools within LangChain/LangGraph. Deep Agents memory: filesystem-backed long-term memory, agent reads/writes memory as files, backends control storage/access. Short-term memory managed automatically as part of agent state. Context engineering for session memory.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/council/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Council subagent prompt template and synthesis rules. Subagent prompt: 'You are the [ROLE] on a four-voice decision council. Question: [decision question]. Context: [only relevant snippets/constraints]. Respond with: 1. Position (1-2 sentences), 2. Reasoning (3 concise bullets), 3. Risk (biggest risk in recommendation), 4. Surprise (one thing other voices may miss). Be direct. No hedging. Keep under 300 words.' Roles: Skeptic (challenge framing, question assumptions, propose simplest alternative), Pragmatist (optimize for speed, simplicity, real-world execution), Critic (surface downside risk, edge cases, reasons plan could fail). Synthesis: don't dismiss external view without explaining why; if external voice changed recommendation say so explicitly; always include strongest dissent; if two voices align against initial position treat as real signal; keep raw positions visible before verdict. Output: Consensus, Strongest dissent, Premise check, Recommendation.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

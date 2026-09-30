@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/.opencode/README.md",
+  "date": "2025-09-20",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC plugin for OpenCode: agents, commands, hooks, skills. Two installation methods: npm package (ecc-install CLI) or direct clone/plugin mode. 26 agents: build (primary coding), planner, architect, code-reviewer, security-reviewer, tdd-guide, build-error-resolver, e2e-runner, doc-updater, refactor-cleaner, go-reviewer, go-build-resolver, database-reviewer, docs-lookup (Context7), harness-optimizer, java-reviewer, java-build-resolver. 26 commands: /plan, /tdd, /code-review, /security, /build-fix, /e2e, /refactor-clean, /doc-update, /go-review, /go-build-fix, /db-review, /docs-lookup, /harness-tune. Includes MCP server configs.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness"
+}

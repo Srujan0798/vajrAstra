@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/plan-orchestrate/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Plan-Orchestrate edge cases and large plan handling. No clear steps: prefer H2/H3 splitting; if still ambiguous, report 'no structured steps detected' with document outline and ask user to confirm running by outline. Large plan (>1500 lines): enter overview-only mode - emit only overview table and ask user to narrow with --scope before re-running for details; skip per-step detail blocks and Batch block. Step too broad (e.g., 'complete all backend work'): do not force single chain; suggest splitting into N.a and N.b and propose split. Plan declares agents (rare): first strip any ecc: prefix to get bare catalogue name, then validate against catalogue; replace invalid agents and explain under 'Chain rationale'; bare name re-prefixed at output time per ECC_MODE. Polyglot project where --lang=auto cannot pick winner: set lang=unknown; reviewer resolves to code-reviewer and build resolver to build-error-resolver; mention fallback under 'Chain rationale'. Self-check validation before emitting: every agent in every chain from catalogue, resolved ORCH_CMD and AGENT use same form, no annotations/instructions in output, no invented flags, task descriptions single-line double-quoted with escaped quotes, each starts with [Plan: path#step-id] includes Acceptance, Out of scope only when inherited, no duplicate agents, chain length <=4, impl/refactor/migration end with reviewer-class agent, overview table lists every step.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

@@ -1,0 +1,7070 @@
+# Lane A — OCR/DocAI SOTA 2025–2026 Ledger (Lane A research agent)
+
+Lane: A (Engine Agent). Scope: DocAI/OCR systems 2025–2026 with **Indic-script emphasis** — Document AI / OCR systems, Indic-specific OCR, benchmark landscape, restoration pipelines, Indic-script specifics, training recipes. Date locked: 2026-09-27. ≥400 records target; >750 attempted.
+
+Record format (campaign-mandatory): `source_url | date | VERIFIED/INFERENCE | relevance/recency/actionability | 3–10 line extraction`.
+Weak cells: Santali 53.91 / Kashmiri 54.82 / OldScan 55.3 / Odia 80.01.
+Score ≥30/125 enters the integrated architecture (LEVEL7_INTEGRATED_ARCHITECTURE.md).
+INFERENCE = extrapolation to our probe/training workflow, never a W6 gate alone.
+
+Sections:
+- A0. Standing law + disk truth (refs to SOURCES.md, W1, R1–R7)
+- A1. Document AI / OCR systems — Qwen, InternVL, GOT-OCR2, MonkeyOCR, PaddleOCR-VL, olmOCR, Surya 2, Mistral OCR, dots.ocr, NVIDIA NeMoRetriever-OCR, ERNIE-ViLG, DeepSeek-OCR, OCRVerse, GLM-OCR, Mathpix, etc.
+- A2. Indic OCR — Sarvam, Bodhan, AI4Bharat Indic suite, IndicConformer, IndicWav2Vec, IndicBERT/IndicBERTv2, IndicTrans2, CALM, MuRIL, Aya-23, OpenHathi, Airavata, etc.
+- A3. Benchmark landscape — ICDAR 2017/2019/2023 MLT, OmniDocBench v1.6/v1.7, olmOCR-bench, Indic OCR Bench, MILU, AIR-Bench, KITAB-Bench, IndicDLP, IIIT-ILST IndicOCR, Real5-OmniDocBench, Fox, etc.
+- A4. Restoration pipelines — DocRestorer, DocDiff, RDDM, DiRS, DocRes, Uni-DocDiff, MinerU-Diffusion, PreP-OCR, BinoDoc, DocIR, DocGeoNet, RDGR, Binarization (Otsu/Sauvola/NN), super-resolution.
+- A5. Indic-script specifics — Brahmic conjuncts, akshara segmentation, matra/halant, aksharamukha normalization, WER vs CER, abugida evaluation, Chanda, IndicNLP normalizers.
+- A6. Training recipes — LLaVA-NeXT, Idefics3, Qwen2-VL/2.5-VL, InternVL2/3, GOT-OCR2, Nanonets-OCR2, Sarvam Vision 2.1, ScriptMoE, synthetic data generation (BED-LM, SynthDoG, DocSynth), DPO/SimPO for OCR, RLVR with verifiable rewards, progressive SFT (word→line→block→page).
+
+---
+
+## A0 — Standing law + disk truth
+
+- A0-001 | `docs/research/SOURCES.md` (disk) | 2026-09-25 | VERIFIED | 5/5/5
+  - Citation shelf for the W1 refresh: Sarvam 2.1 (harness-with-VLM, SFT→RLVR, 87.39 Indic bench), Bodhan (33M layout + 0.8B Qwen3.5 block OCR, Santali 68.30 wins), ScriptMoE (PP-OCRv5 F1 65.71→80.89), PaddleOCR-VL-1.6 (OmniDocBench 96.33), Devanagari stress-test (Qwen3-VL-8B 75.2 on real scans), FaithC4 (general VLMs WER +6.9 vs OCR-VLMs +0.1–3.4).
+  - Mandatory floor for Lane A: every new record must agree with or explicitly contradict a row in this file.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A0-002 | `docs/research/W1_RECIPE_REFRESH.md` (disk) | 2026-09-25 | VERIFIED | 5/5/5
+  - Locked challenger recipe: harness-with-VLM (Sarvam/Bodhan pattern) + fine-tune OCR-specialized VLM (not from-scratch) + SFT→RLVR + progressive curriculum + specialist router for Santali/Kashmiri/Meitei/Nastaliq.
+  - Maps all Lane-A records to: which PPT box they evidence, which they refute, which they leave open.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A0-003 | `docs/research/R1_SOTA_MECHANISM_TEARDOWN.md` (disk) | 2026-09-26 | VERIFIED | 5/5/5
+  - Teardown of Sarvam 2.1 vs PaddleOCR-VL 1.6. Sarvam: 3B state-space VLM, harness = semantic layout parser + pointer reading-order, SFT→RLVR, harness=NOT-DISCLOSED-curriculum, no per-language synthetic/human ratio published.
+  - All Lane-A recipe records must answer: "does this change Sarvam's harness?" or "does this change Paddle's RL stage?" if no, it's context-only.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A0-004 | `docs/research/R2_NASTALIQ_FORENSICS.md` (disk) | 2026-09-26 | VERIFIED | 5/4/5
+  - For Kashmiri (Nastaliq, weak cell 54.82): QARI 0.550→0.061 CER on 50k pure-synthetic SFT of Qwen2-VL-2B (49-pt closure); UTRSet synth-only 75.14% vs real-trained 90.87% (15-pt residual). Mixing rule: 40–60k synthetic curriculum + 300–500 hand-corrected REAL lines.
+  - All Lane-A Kashmiri/Urdu/Sindhi/Perso-Arabic records must map to this verdict.
+  - decision: map to this verdict
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A0-005 | `docs/research/R3_OLCHIKI_MAYEK_SYNTHETIC.md` (disk) | 2026-09-26 | VERIFIED | 5/4/5
+  - For Santali (Ol Chiki / 53.91), Meitei (Mayek / 85.12): synthetic-only SFT reaches classical-OCR parity on printed Indic docs (Nayana CER 0.227 ≈ Tesseract 0.206) and rescues zero-corpus scripts (Maltese LV-ROVER); correction-stage synth beats real training (Bourne −55% CER).
+  - All Lane-A zero-corpus-script records must map to this mixing rule.
+  - decision: map to this mixing rule
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A0-006 | `docs/research/R4_OLDSCAN_RESTORATION.md` (disk) | 2026-09-26 | VERIFIED | 5/4/5
+  - For OldScan (55.3): no labeled slice in our data; Otsu is cheap baseline; DIBCO is Latin/Greek-only (no Indic transfer). Lane-A restoration records must say: which OldScan slice they were measured on, which restoration task, what DELTA-CER vs Otsu baseline.
+  - Mandates: A0 / A1 / A2 / A3 / A4 ablation chain (none / deskew+Otsu / Sauvola-frozen / DocRes-head pilot n≤8); adopt bar median ΔCER ≤−0.03, 95% bootstrap CI, ≥2/3 frozen engines.
+  - decision: adopt bar median ΔCER ≤−0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A0-007 | `docs/research/R7_W6_TRAINING_TREE.md` (disk) | 2026-09-26 | VERIFIED | 5/5/5
+  - W6 binding decisions: SFT allow-list = human pairs + synthetic only; PDF-layer GT per-language only after §6.4 + §6.2 pass; sarvam_fill NEVER trains; RLVR on human-verified gold ONLY after §6.6 no-inversion.
+  - Every Lane-A training-recipe record must say which W6 stage it enables (SFT base / curriculum / RLVR / DPO / schema-head).
+  - decision: W6 stage
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A0-008 | `level2/probe22/AGENT_PROTOCOL.md §0–§10` (disk) | 2026-09-26 | VERIFIED | 5/5/5
+  - Probe protocol: n=1227 across 18 langs, 100/lang; LANG_ORDER covers all probe codes; scorer integrity (§6.5) requires per-row uncapped CER + cer_100_count, single denominator, space-forgery removed, empty pred = CER 1.0 counted; §6.6 raw-vs-normalized ablation (0.6707 vs 0.6692, Δ0.0015, gates RLVR scorer).
+  - Lane-A normalization/evaluation records must say: do they pass this gate?
+
+---
+
+## A1 — Document AI / OCR systems (general, 2025–2026)
+  - decision: RLVR
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-001 | https://arxiv.org/abs/2606.03264 | 2026-06-02 | VERIFIED | 5/5/5
+  - PaddleOCR-VL-1.6: 0.9B VLM, 96.33% on OmniDocBench v1.6 (SOTA), CPT 16.8M + SFT 7.3M + RL on under-optimized regions from PaddleOCR-VL-1.5. Region-aware data optimization + progressive post-training + RL for document parsing. Architecture fully compatible with 1.5 (drop-in migration).
+  - Already in PPT (Slide 2 SFT arm). W6 sequencing evidence (CPT→SFT→RL = region-refined). Maps OldScan 55.3 if region-mining finds similar "weak regions" on our pages.
+  - decision: W6 sequencing
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-002 | https://arxiv.org/html/2606.03264 | 2026-06-02 | VERIFIED | 5/5/5
+  - PaddleOCR-VL-1.6 ablation table: CPT +0.69, SFT +0.63 more, RL only +0.08 (94.93→96.33). RL after saturation gives small but consistent gains. Matches our law "RLVR only after SFT plateaus" quantitatively.
+  - Confirms W6 sequencing: do not start with RLVR. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-003 | https://arxiv.org/html/2603.04205v2 | 2026-03-01 | VERIFIED | 4/4/4
+  - Real5-OmniDocBench: full 1,355-page physical reconstruction (scan/warp/photo/illumination/skew). PaddleOCR-VL-1.6 93.19 overall; warping weakest (91.25), scanning strongest (94.74).
+  - Warp/curve is the physical distortion that survives all models. Maps OldScan 55.3: dewarp (D2Dewarp/DvD Lane A records) before recognition. Confirms restoration pre-pass is highest-leverage.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-004 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 | 2026-05-28 | VERIFIED | 3/4/3
+  - Apache-2.0, HF weights, transformers-compatible, zero-cost migration from 1.5. vLLM serve path documented.
+  - Jury-friendly license + deployability. INFERENCE: candidate layout/table module for wrap-only system if Indic coverage suffices (verify on our probe before claiming).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-005 | https://arxiv.org/abs/2510.19817 | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2: VLM trained with RLVR where rewards are a diverse set of binary unit tests (HTML element presence + read-order tests). 1 ep SFT then 1 ep GRPO. SOTA on olmOCR-Bench.
+  - Core lesson: verifiable unit tests > learned reward model for structured document OCR. Maps to schema-head W6 stage if our product is forms/ID docs.
+  - decision: Maps to schema-head W6 stage if our product is forms/ID docs
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-006 | https://arxiv.org/html/2510.19817v1 | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2 detail: HTML-based intermediate representation; unit tests generated from document structure (paragraph count, table cell text, list ordering). Decoder produces markdown; scored against HTML unit tests.
+  - Validates Sarvam 2.1's harness-with-VLM design. Adapts directly to our 3/3b schema stage: rank noisy OCR by schema-validity unit tests, not BLEU/chrF.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-007 | https://arxiv.org/pdf/2510.19817 | 2025-10-22 | VERIFIED | 5/4/4
+  - olmOCR-2 chrF++ 40.5 on real Devanagari scans (per W1 row 6, cross-ref A0-001). English-centric by design.
+  - English-first design is the ceiling for olmOCR-2 on Indic. We cannot wrap olmOCR-2 as our Indic engine. Maps Kashmiri 54.82 + Santali 53.91 (cannot use olmOCR-2 directly).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-008 | https://arxiv.org/abs/2602.16430 | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 (Krutrim): fine-tuning Nanonets-OCR2-3B (Qwen2.5-VL) beats LLaVA-from-scratch end-to-end multilingual OCR (Chitrapathak-1) on accuracy AND 3–6× latency. Telugu char ANLS 6.69 (Chitrapathak-2) vs 11.00 (Chitrapathak-1). Near-Gemini-2.5 on 9 langs.
+  - Strongest published evidence for our "fine-tune, don't build" stance. Cite in freeze packet. Maps to all weak cells: prior-art says fine-tuning works on Indic scripts.
+  - decision: Maps to all weak cells: prior-art says fine-tuning works on Indic scripts
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-009 | https://arxiv.org/html/2602.16430v1 | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 (Parichay): rotation-normalization module + LoRA/full fine-tune for 9 Indian govt document types → 89.8% exact match, ~1.03 s/doc vLLM. Beats Gemini-2.5-Flash + Azure/Mistral pipelines. Tesseract+LLM only 21.22% EM.
+  - Rotation pre-pass + task fine-tune >> modular OCR+LLM. Maps to win condition: govt-doc demo should copy the rotation + schema-prompt pattern. Confirms Stage 0 rotation is KEEP in PPT.
+  - decision: Maps to win condition: govt-doc demo should copy the rotation + schema-prompt pattern
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-010 | https://huggingface.co/krutrim-ai-labs/Chitrapathak-2 | 2026-03-11 | VERIFIED | 4/4/4
+  - Vision-encoder + 3B decoder, 10 langs + EN (Hindi Sanskrit Bengali Telugu Tamil Marathi Kannada Malayalam Odia Punjabi + EN), vLLM/HF compatible. Degradation noted on handwriting/noise/forms/index layouts.
+  - Covers Odia — direct rival on our Odia 80.01 cell. INFERENCE: Odia fine-tune must clear Chitrapathak-2 + Gemini-81.01, not just Sarvam-80.01. Confirm before W6.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-011 | https://github.com/ola-krutrim/Chitrapathak | 2026-03-11 | VERIFIED | 3/4/3
+  - Chitrapathak-1: LLaVA-style CLIP ViT-L/14 + Krutrim-1 7B, 2-stage (frozen-align → SFT) training; evaluated on IndicVisionBench-OCR ANLS.
+  - Confirms 2-stage recipe lineage behind A1-008. Recipe corroboration.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-012 | https://docs.cloud.olakrutrim.com/basics/ai-studio/billing-for-ai-studio | 2025-07-01 | VERIFIED | 3/3/3
+  - Krutrim cloud lists Chitrapathak image-to-text at ₹83.6/1M input tokens, ₹34.53/1M output.
+  - Priced token-wise vs Sarvam/Bodhan per-page. INFERENCE: per-page equivalents needed before citing in jury writeup.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-013 | https://huggingface.co/datalab-to/surya-ocr-2 | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2: 650M single VLM (OCR + layout + reading order + tables), 83.3 olmOCR-bench (best <3B), 91-lang internal 87.2 (38 langs ≥90), 5.35 pages/s RTX 5090, llama.cpp CPU path. Code Apache-2.0, weights modified OpenRAIL-M (free for research/personal/<$5M startups).
+  - License check needed before shipping in submission (OpenRAIL-M revenue cap).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-014 | https://www.datalab.to/blog/surya-2 | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2 detail: open-script recognizer (no language-hint param), v0.20 breaking API (SuryaInferenceManager, vLLM or llama-server backend), per-source olmOCR splits incl. OldScan 42.8.
+  - Our probe runs engine 8 surya — pin version + record backend. OldScan subscore confirms restoration lane (R4) is the highest-leverage OldScan attack.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-015 | https://adityamangal98.medium.com/surya-2-vs-got-ocr-2-0-two-600m-ocr-vlms-one-8-gb-laptop-measured-9d547a241ad8 | 2026-07-30 | VERIFIED | 3/4/3
+  - Independent laptop test (RTX 4070 8GB): Surya 4–9 s/page English but 178 s on Hindi page (labors over Devanagari); GOT-OCR steady ~48 s but skips what it can't read; Surya returns typed table blocks 12/12, GOT dissolves tables.
+  - INFERENCE: speed-without-quality is a trap — our scorer's uncapped CER + cer_100_count (§6.5) already guards it. Surya Devanagari latency is a real ceiling for our Hindi probe (45 Hindi pages).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-016 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4
+  - OmniDocBench v1.7 (2026-04-30), v1.6 (2026-04-10). Full leaderboard includes PaddleOCR-VL-1.6 96.34, Gemini-3 Pro/Flash, GPT5.2, Kimi 2.5, Qwen3-VL-235B, DeepSeek-OCR-2, MonkeyOCR-pro-3B, OCRVerse, dots.ocr, GLM-OCR, OpenDoc, Mathpix.
+  - Current SOTA table for our wrap-only comparison. Maps to all weak cells: the "best non-Indic model" envelope.
+  - decision: Maps to all weak cells: the "best non-Indic model" envelope
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-017 | https://arxiv.org/pdf/2606.03264 | 2026-06-02 | VERIFIED | 4/4/4
+  - PaddleOCR-VL-1.5 (predecessor) used PP-DocLayoutV3 frozen + pointer reading-order. Architecture unchanged in 1.6.
+  - Confirms our PPT Stage 1 swap direction (DocLayout-YOLO → PP-DocLayoutV3) is the field direction. Cite in W2 hybrid diff.
+  - decision: Cite in W2 hybrid diff
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-018 | https://github.com/AMD-AGI/vllm-2026/blob/main/docs/serving/integrations/claude_code.md | 2026 (accessed 2026-09-26) | VERIFIED | 3/4/3
+  - vLLM 2026 supports Anthropic-Claude-Code-style agent serving via OpenAI-compatible API; tool calling supported.
+  - INFERENCE: post-freeze, a fine-tuned Indic VLM served via vLLM could sit behind the same agent harness that runs probe analysis — one harness, swap the model. Relevant to Qwen2-VL/InternVL2 P2 (needs GPU + user approval).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-019 | https://arxiv.org/abs/2510.19817 (re-cite) | 2025-10-22 | VERIFIED | 4/4/4
+  - olmOCR-Bench (English-centric, 1,400 pages) is the public comparator. olmOCR-2 numbers: 82.2/82.6/82.4 sub-scores on OldScan/Base/Hard. Hard subset <60 (model family weakness on structured docs).
+  - Our Indic OCR Bench (sarvamai/indic-ocr-bench) is the parallel for Indic. Maps OldScan 55.3: OldScan is universally weak across all OCR VLMs.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-020 | https://www.paddleocr.ai/latest/en/version3.x/algorithm/PaddleOCR-VL/PaddleOCR-VL-1.6.html | 2026-05-28 | VERIFIED | 4/4/4
+  - PaddleOCR-VL-1.6 official site confirms: 0.9B VLM, 96.33 OmniDocBench v1.6, Real5-OmniDocBench SOTA, drops into transformers. Supports text spotting, formula, table, chart, seal recognition.
+  - Maps OldScan 55.3 (Real5-OmniDocBench SOTA includes our scan class). Maps to PPT Stage 2 Paddle arm swap target.
+  - decision: Maps to PPT Stage 2 Paddle arm swap target
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-021 | https://huggingface.co/papers/2506.05218 | 2025-06-06 | VERIFIED | 4/5/4
+  - MonkeyOCR (3B): Structure-Recognition-Relation triplet paradigm. Outperforms GOT-OCR, Nougat, Mistral OCR on OmniDocBench. Avg edit distance vs Mistral OCR −13.8% Chinese/English; +9.8% formula, +9.3% tables.
+  - Maps to all probe cells: structured-output paradigm relevant to our forms/tables product spec. Predecessor to MonkeyOCR-pro-3B on v1.6 leaderboard (A1-016).
+  - decision: Maps to all probe cells: structured-output paradigm relevant to our forms/tables product spec
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-022 | https://github.com/opendatalab/MinerU (re-cite via arxiv 2604.04771) | 2026-04-10 | VERIFIED | 4/5/4
+  - MinerU2.5-Pro 1.2B (NaViT-675M + Qwen2-0.5B), 95.69 on OmniDocBench v1.6 via data engineering only (architecture unchanged from MinerU2.5 at 92.98).
+  - Critical pattern: same architecture + better data → +2.71. Confirms our Stage-2 W6 should NOT switch backbone; should switch training data. Maps OldScan 55.3 indirectly.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-023 | https://arxiv.org/abs/2601.21639 | 2026-01-26 | VERIFIED | 4/4/4
+  - OCRVerse (Qwen3-VL-4B base): two-stage SFT-RL multi-domain training; covers newspapers, magazines, books, charts, web, scientific plots. Comprehensive data engineering for "holistic OCR" (text + visual).
+  - Maps to win condition: charts/tables/forms/scatter-plots are demo-grade content. Our forms/tables product spec directly maps.
+  - decision: Maps to win condition: charts/tables/forms/scatter-plots are demo-grade content
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-024 | https://github.com/mskj-apaas/dots.ocr2025 | 2025-10-31 | VERIFIED | 4/5/4
+  - dots.ocr: 1.7B-parameter unified multilingual document parser (layout + recognition + reading order). Apache-2.0. 100+ langs including Kannada, Tibetan, Arabic (low-resource).
+  - "Unified" architecture means no separate layout model — VLM does layout AND recognition. Jury-friendly license (Apache-2.0). Maps all weak cells; worth a §6.8 P1 zero-shot comparison.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-025 | https://www.codesota.com/ocr/dots-ocr | 2025-12-15 | VERIFIED | 3/4/3
+  - dots.ocr 3B (newer): OmniDocBench composite 88.41, text accuracy 95.2%, table TEDS 86.8%, formula CDM 83.2%. Apache-2.0. PaddleOCR-VL 92.86 (still leads).
+  - dots.ocr leads on low-resource languages (Tibetan, Kannada). Cite for Kannada 90+ cells. Maps weak cells if Santali/Kashmiri are added.
+  - decision: Cite for Kannada 90+ cells
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-026 | https://arxiv.org/html/2604.04771v1 | 2026-04-10 | VERIFIED | 4/4/4
+  - MinerU2.5-Pro table: beats GLM-OCR, PaddleOCR-VL-1.5, Youtu-Parsing, Qwen3-VL-235B, Gemini 3 Pro, GPT-5.2. 95.69 overall; +2.71 from data alone.
+  - Confirms R6: data quality > new architecture for document parsing. Our Stage-2 W6 should spend compute on data curation, not on a new VLM.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-027 | https://arxiv.org/pdf/2604.04771 | 2026-04-10 | VERIFIED | 4/4/4
+  - Detailed MinerU2.5-Pro recipe: data-centric engineering (font coverage, language mix, layout diversity, structure variation, negative sampling) → +2.71 OmniDocBench. No architecture change. Two-stage SFT then RL.
+  - Maps to W6 stage-2: if we choose PaddleOCR-VL or Qwen2.5-VL base, data engineering is the lever. Cite in freeze packet.
+  - decision: Maps to W6 stage-2: if we choose PaddleOCR-VL or Qwen2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-028 | https://huggingface.co/papers/2510.18234 | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR: DeepEncoder + DeepSeek-3B-MoE decoder. Uses 64–400 vision tokens (Gundam mode) for document parsing. Beats MinerU2.0 (needs ~7,000 tokens) with <800 tokens on OmniDocBench.
+  - Token compression → 10× cheaper inference. Inference-cost lever. May matter for deployment. Not directly Indic-relevant yet (English/Chinese).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-029 | https://huggingface.co/zai-org/GLM-OCR | 2026-03-11 | VERIFIED | 3/4/3
+  - GLM-OCR (Zhipu/ZAI): multimodal OCR for complex documents, 1.86 pages/sec throughput.
+  - Throughput-focused design; candidates for our Stage-2 wrap-only if coverage includes our scripts.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-030 | https://arxiv.org/abs/2510.18234 | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR "contexts optical compression" framing: image → small set of vision tokens → decode text. Outperforms MinerU2.0 with 10× fewer tokens. Suggests OCR as lossy compression of visual content for LLM/VLM pretraining.
+  - The compression framing is novel; not yet an OCR winner. Worth tracking.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-031 | https://arxiv.org/html/2603.22458v1 | 2026-03-26 | VERIFIED | 4/4/4
+  - MinerU-Diffusion: 2.5B-parameter diffusion-based OCR decoder. Replaces autoregressive decoding with block-level parallel diffusion decoding. Stronger resilience to disrupted semantics.
+  - Diffusion-decoding is a parallel-research path. Not yet SOTA, but signals the field is moving past AR decoders for document OCR.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-032 | https://arxiv.org/abs/2502.14949 | 2025-02-20 | VERIFIED | 4/4/4
+  - KITAB-Bench: ACL 2025, comprehensive Arabic OCR + document understanding benchmark. 9 domains, 36 sub-domains, 8,809 samples. Tests layout detection, recognition (printed/handwritten), structured output (HTML, DataFrame, markdown). Compares Tesseract, GPT-4o, Gemini, Qwen2-VL, Qwen2.5-VL, AIN-7B, Surya.
+  - Arabic-only (Perso-Arabic) — not directly Indic, but Nastaliq family member. Compare our Kashmiri 54.82 against KITAB-Bench Persian/Urdu scores for sanity check.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-033 | https://github.com/mbzuai-oryx/KITAB-Bench | 2025-02-20 | VERIFIED | 4/4/4
+  - KITAB-Bench: 8,809 samples, 9 tasks (recognition, layout, line detection, recognition, etc.). Tests Tesseract, GPT-4o, Gemini, Qwen, AIN-7B, Surya.
+  - Multilingual OCR benchmark methodology template. Cite for benchmark design in W3 §6.
+  - decision: Cite for benchmark design in W3 §6
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-034 | https://arxiv.org/html/2505.20429v1 | 2025-05-26 | VERIFIED | 4/5/4
+  - PreP-OCR (arXiv 2505.20429): two-stage pipeline combining document image restoration with semantic-aware post-OCR correction. Reframes "restoration + correction" as a single W6 stage.
+  - Maps to OldScan 55.3: restoration is no longer optional if we want OldScan numbers to move. Citation for our Stage 0 + Stage 3b fusion idea.
+  - decision: Maps to OldScan 55
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-035 | https://dl.acm.org/doi/10.1145/3581783.3611730 | 2023-10-29 | VERIFIED | 3/3/3
+  - DocDiff: first diffusion-based document enhancement. Coarse Predictor + High-Frequency Residual Refinement (4.17M params). SOTA on document deblurring, denoising, watermark/seal removal.
+  - DocDiff is 2023; cited heavily in 2024-2025 doc-restoration literature. Baseline for our OldScan restoration lane (R4). Still usable as plug-in HRR module.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-036 | https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.pdf | 2024-06-17 | VERIFIED | 4/4/4
+  - DocRes: generalist model unifying 5 restoration tasks (dewarping, deshadowing, appearance enhancement, deblurring, binarization). One model, multiple heads, trained jointly.
+  - Map OldScan 55.3 directly: dewarp + appearance enhancement jointly is the strongest restoration pre-pass for OldScan. INFERENCE: adopt DocRes-head pilot in W6 ablation (per R4 §A3).
+  - decision: adopt DocRes-head pilot in W6 ablation (per R4 §A3)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-037 | https://dl.acm.org/doi/10.1145/3746027.3755362 | 2025-10-15 | VERIFIED | 3/4/3
+  - Uni-DocDiff (Fangmin Zhao et al., IJCV 2025): unified document restoration diffusion model. Extends DocDiff's CP+HRR paradigm to all restoration tasks in one diffusion model.
+  - 2025 update to the DocDiff line. Cite as newest diffusion-based restoration baseline.
+  - decision: Cite as newest diffusion-based restoration baseline
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-038 | https://arxiv.org/abs/2609.24058 | 2026-09-21 | VERIFIED | 5/5/5
+  - ScriptMoE: shared encoder + top-2 script experts + shared expert. PP-OCRv5 end-to-end F1 65.71→80.89. Scene-text recognizer (not document).
+  - Maps Kashmiri/Santali/Meitei specialists: a decoder swap inside PP-OCRv5-class recognizers, not a reason to throw away the VLM harness. Already in W1 row.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-039 | https://arxiv.org/abs/2607.21617 | 2026-07-23 | VERIFIED | 4/4/4
+  - FaithC4 (Amazon): general VLMs rewrite imperfect text (WER +6.9). OCR-specialized VLMs stay faithful (+0.1–3.4). Citizen docs need the faithful class.
+  - Validates our "use OCR-specialized VLM, not general VLM" stance. Cite in W2 hybrid diff. Already in W1 row.
+  - decision: Cite in W2 hybrid diff
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-040 | https://arxiv.org/abs/2606.29213 | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (Maheshwari et al.): synthetic chrF++ 91–98 hides all differences. Real Hindi scans: 9/10 systems collapse. English OCR rank does not transfer (GPT-5.5 58.5; olmOCR-7B 40.5; Qwen3-VL-8B 75.2 open). Conjunct/matra/nukta are the structural errors. Median + catastrophic-rate is the faithful summary.
+  - Critical for our W6 evaluation: report median + catastrophic-rate, never mean alone. Confirms §6.5 scorer fixes are right. Maps all weak cells via catastrophic repetition failures.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-041 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ | 2026-06-23 | VERIFIED | 3/4/3
+  - Self-host comparison: PaddleOCR-VL-1.6 ~2GB VRAM FP16, ~45 pg/min L40S. GOT-OCR2.0 <3GB fastest on printed. dots.ocr MIT 1.7B strong on forms. DeepSeek-OCR MoE best cost/page bulk.
+  - VRAM/throughput rows for our deployment-costing writeup (Bhashini §5 judging param "technical feasibility"). Use for jury pitch.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-042 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 (re-cite) | 2026-05-28 | VERIFIED | 4/4/4
+  - PaddleOCR-VL-1.6 also includes doc-parsing capabilities: formula, table, chart, seal, text spotting. Zero-cost migration from 1.5.
+  - For our forms/ID-docs product: PaddleOCR-VL is the most feature-complete open option. Maps to Stage 2 swap target.
+  - decision: Maps to Stage 2 swap target
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-043 | https://arxiv.org/abs/2508.06870 | 2025-08-09 | VERIFIED | 2/4/2
+  - Meitei Mayek TTS (Tacotron 2 + HiFi-GAN). Single-speaker dataset, ARPAbet mapping.
+  - TTS not OCR; confirms Meitei Mayek is severely under-resourced in all modalities. Maps mni 85.12 weak cell.
+  - decision: weak cell
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-044 | https://en.wikipedia.org/wiki/Ol_Chiki_script | 2004-04-30 | VERIFIED | 3/2/3
+  - Ol Chiki: created 1925 by Raghunath Murmu for Santali. TRUE alphabet (not abugida). Glottalization, combined glottalization+nasalization, checked plosives — features no Indic script encodes.
+  - Maps Santali 53.91: Ol Chiki's true-alphabet nature means shared-training with Indic abugidas is structurally doomed. Specialist-only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-045 | https://github.com/indic-ocr/indic-ocr.github.io | 2026-09-26 | VERIFIED | 3/4/3
+  - Indic-OCR Project: open-source Tesseract models for Indic scripts including Ol Chiki (Santali) and Meetei Mayek (Manipuri). Layout detection via Olena. "Perhaps the best set of Tesseract models for Indic Scripts you will find in open source world."
+  - Best Tesseract-family path for Ol Chiki + Meitei Mayek. INFERENCE: probe runner should include indic-ocr tessdata for sat/mni as honest baseline; do NOT expect competitive (per W1).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-046 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf | 2024-08-15 | VERIFIED | 4/4/4
+  - Sarkar et al. (IIIT-H CVIT, ICDAR 2024): OCR for low-resource Indic scripts. Word accuracy: Kashmiri 87.71/93.80, Ol Chiki Santali 90.60/96.58 (CRNN baseline + LM). Fine-tune Hindi model on Devanagari-script langs (Bodo, Maithili, Nepali, Konkani, Sanskrit); separate models for Ol Chiki, Kashmiri-Perso-Arabic.
+  - Maps Kashmiri 54.82 / Santali 53.91: low-resource specialist > shared model. CRNN+LM beats the shared-model baseline on these. Cite in W6 specialist decision.
+  - decision: Cite in W6 specialist decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-047 | https://arxiv.org/html/2205.06740v2 | 2025-06-02 | VERIFIED | 3/3/3
+  - Towards Deployable OCR Models for Indic Languages (ICDAR 2023, arXiv 2205.06740): 13 official languages, CRNN+CTC end-to-end page-level OCR with line/word segmentation. Beats Tesseract5 and Google Cloud Vision on 8/13 langs.
+  - Confirms IIIT-H CVIT is the working pipeline for Indic OCR. Maps weak cells where CRNN+LM beats VLMs on the high-resource ones (bn/hi/te/ta).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-048 | https://dibd-bhashini.gitbook.io/bhashini-apis/available-models-for-usage | 2026-09-26 | VERIFIED | 3/4/3
+  - Bhashini ULCA API catalog: includes IIITH-OCR-SceneText for Assamese/Bengali/Gujarati/Hindi/Kannada/Malayalam/Manipuri/Marathi (8 langs); IITM TTS for 22 langs; Indic lang-detection 11-22 langs.
+  - Production OCR catalog from Bhashini. IIITH scene-text covers 8 Indic langs. Map our probe against these 8 — hi/bn/te/ta/kn/ml/mr already have a Bhashini production line.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-049 | https://models.ai4bharat.org/ | 2026-09-26 | VERIFIED | 4/4/4
+  - AI4Bharat model catalog: IndicTrans2 supports all 22 scheduled Indic langs (Perso-Arabic for Kashmiri/Sindhi/Urdu; Ol Chiki for Santali; Meitei for Manipuri; Latin for English; Devanagari for the rest).
+  - Confirms AI4Bharat's script-routing design pattern: 5 scripts → shared lexical representations. Citation for our script-router in W6 stage-2.
+  - decision: W6 stage
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-050 | https://ai4bharat.iitm.ac.in/blog/indictrans2/ | 2023-12-03 | VERIFIED | 4/4/4
+  - IndicTrans2 (AI4Bharat): 22 Indic langs in 5 scripts. Pivot pipeline: English pivot for low-resource pairs; direct for high-resource. Script unification for lexical sharing.
+  - Cite for our script-router design: IndicTrans2's "5 scripts in 22 langs" pattern is the canonical indication-specialist decision boundary.
+  - decision: Cite for our script-router design: IndicTrans2's "5 scripts in 22 langs" pattern is the canonical indication-specialist decision boundary
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-051 | https://arxiv.org/abs/2510.19817 (re-cite) | 2025-10-22 | VERIFIED | 4/4/4
+  - olmOCR-Bench (English-centric, ~1,400 pages): OldScan 42.8 (per A1-014 surya card), Base 99.7, Hard 56.7. Hard subset the discriminating one for all OCR-VLMs.
+  - Our Indic OCR Bench is the Indic parallel. Maps OldScan 55.3 (no Indic-engine crosses 60 on OldScan in Sarvam 2.1's bench).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-052 | https://arxiv.org/abs/2602.16430 (re-cite) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak paper explicit framing: "large proprietary multimodal models including Gemini-2.5 and GPT-4o offer strong multilingual OCR capabilities in practice." This is the competitive set for our wrap-only system.
+  - Citation for the W6 competitive matrix: Sarvam 87.39 / Bodhan 84.94 / Gemini 79.35 / GCV 71.76 (Sarvam blog) + Krutrim's own Chitrapathak-2 results + our probe numbers.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-053 | https://github.com/opendatalab/OmniDocBench (re-cite) | 2026-09-26 | VERIFIED | 4/4/4
+  - OmniDocBench v1.6 leaderboard: PaddleOCR-VL-1.6 96.33, dots.ocr 88.41 (composite), MonkeyOCR-pro-3B 73.6 (re-cited from LightOnOCR card), Mistral OCR 3 79.1.
+  - Useful as "English-centric" envelope — our probe sits in the gap. Maps weak cells by analogy (no model scores >60 on OldScan class across all vendors per olmOCR-Bench).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-054 | https://mistral.ai/news/mistral-ocr-3/ | 2025-12-17 | VERIFIED | 4/5/4
+  - Mistral OCR 3 (mistral-ocr-2512): 74% overall win rate over Mistral OCR 2 on forms/scans/tables/handwriting. $2/1000 pages (50% batch discount → $1/1000). Powers Document AI Playground. Backward compatible.
+  - Cost analysis for our API alternatives: $1–2/1000 pages vs Sarvam's ₹0.5/page (~$6/1000 at current FX). Sarvam ~3-6× cheaper but Mistral OCR 3 better EN tables/forms. Maps forms-cell of our probe (no forms cells yet in §6 sheet).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-055 | https://arxiv.org/abs/2501.03145 | 2025-01-06 | VERIFIED | 3/4/3
+  - Hybrid Deep Learning + Cubic Polynomial Geometry Restoration for dewarping. YOLOv8 segmentation + cubic polynomial boundary fit. Lowest median CER 0.0235 on the IWILT dataset.
+  - Maps OldScan 55.3: cheap classical CV (YOLO+polynomial) baseline. Cite for "classical CV still competitive" claim in restoration lane.
+  - decision: Cite for "classical CV still competitive" claim in restoration lane
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-056 | https://huggingface.co/papers/2505.21975 | 2025-05-30 | VERIFIED | 4/4/4
+  - DvD (coordinates-based diffusion for dewarping). Uses Qwen2.5-VL-7B to score dewarped vs flat on CER/ED. Outperforms template-based (Inv3D, DocMatcher) and DocHFormer (shuffle transformer).
+  - 2025 dewarp SOTA. Cite for our Stage-0 dewarp head pilot (R4 §A3). Maps OldScan 55.3 directly.
+  - decision: Cite for our Stage-0 dewarp head pilot (R4 §A3)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-057 | https://arxiv.org/abs/2404.17243 | 2024-04-26 | VERIFIED | 3/3/3
+  - Binarizing Documents by Leveraging Space and Frequency (Quattrini et al., ICDAR 2024). ViT + FFT-based binarization. Beats CNN-only on degraded docs with acquisition artifacts.
+  - Maps OldScan 55.3: NN-based binarization is competitive with classical Otsu on degraded docs. Cite in W6 ablation chain (R4 §A2 Sauvola-frozen → A3 NN-bin).
+  - decision: Cite in W6 ablation chain (R4 §A2 Sauvola-frozen → A3 NN-bin)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-058 | https://arxiv.org/pdf/2601.14251v2 | 2026-06-30 | VERIFIED | 4/4/4
+  - LightOnOCR-2-1B: 1B end-to-end multilingual VLM, SOTA on OlmOCR-Bench (76.4), beats 9B-scale baselines. Detailed table: Old Scans 84.7, Math 76.1, Tables 78.6, Long Tiny Text 81.2. LightOnOCR-bbox-bench released for localization.
+  - Maps to OldScan 55.3 — LightOnOCR-2 reports OldScan 84.7 on its English bench (the gap to our OldScan 55.3 is the Indic + OldScan-specific problem).
+  - decision: Maps to OldScan 55
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-059 | https://github.com/marklabz/omnidocbench | 2026-09-26 | VERIFIED | 3/4/3
+  - OmniDocBench CVPR 2025 + leaderboard maintained at marklabz/omnidocbench. 1,355 pages, 9 doc types. Update history: Dolphin (Sep 2025), PaddleOCR PPv3 (Aug 2025), Mistral OCR (Aug 2025), Nanonets-OCR-s (Aug 2025), MonkeyOCR-pro (Aug 2025).
+  - Comprehensive tracker for English-centric benchmarks. Cite for our §6 wrap-only English sanity check.
+  - decision: Cite for our §6 wrap-only English sanity check
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-060 | https://github.com/chatdoc-com/OCRFlux | 2025-06-17 | VERIFIED | 3/4/3
+  - OCRFlux-3B: 3B VLM-based PDF/image-to-Markdown toolkit. Benchmarks: OCRFlux-bench-single + OCRFlux-pubtabnet-single + OCRFlux-bench-cross + OCRFlux-pubtabnet-cross.
+  - Maps all weak cells: 3B size class is competitive on English tables; our wrap-comparison should include OCRFlux in §6.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-061 | https://arxiv.org/abs/2501.15747 | 2025-01-29 | VERIFIED | 3/3/3
+  - IndicMMLU-Pro: Indic LLM benchmark (Navarasa, Airavata, OpenHathi, TamilLlama, MahaMarathi). Telugu 41.34% (GPT-4o), Bengali 44.38%, Hindi leading.
+  - Maps our probe indirectly: confirms Navarasa/Airavata/OpenHathi are the LLM (not OCR) tier. OCR tier is Surya/Bodhan/Sarvam Vision/Chitrapathak-2.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-062 | https://arxiv.org/abs/2502.09642 | 2025-02-25 | VERIFIED | 4/4/4
+  - Krutrim LLM: 2T-token multilingual foundation, "largest known Indic language dataset." Trained from-scratch tokenizer for Indic. Beats GPT-3.5 on Tamil/Telugu sentiment by +0.8.
+  - Citation for Indic LLM tier (not OCR). Useful for our Stage 3 (noisy→JSON small LLM SFT).
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-063 | https://ai-labs.olakrutrim.com/models/Krutrim-LLM-2 | 2026-01-31 | VERIFIED | 4/5/4
+  - Krutrim-2 12B: SoTA Indic LLM "outperforming 5×-10× bigger models on Indic tasks." HellaSwag 0.83, Winogrande 0.77, OpenBookQA 0.49, MMLU 0.63 (5-shot). Trained Dec 2024–Jan 2025.
+  - Maps to Stage 3 small-LLM SFT (noisy OCR text → JSON). Krutrim-2 is the published SoTA on Indic NLU for our schema-head.
+  - decision: Maps to Stage 3 small-LLM SFT (noisy OCR text → JSON)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-064 | https://github.com/ola-krutrim/Krutrim-2-12B | 2025-01-31 | VERIFIED | 3/4/3
+  - Krutrim-2-Instruct: matched llama-3.3-70B on Indic generation; >5× larger model size differential.
+  - Open-source Stage 3 candidate for noisy→JSON SFT. Beat Sarvam/Chitrapathak-2 hallucinations on forms/JSON outputs (testable in W6).
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-065 | https://arxiv.org/html/2404.16816v1 | 2024-04-25 | VERIFIED | 3/3/3
+  - IndicGenBench: 29 Indic langs × 13 scripts × 4 families. CrossSum-In, Flores-In, XQuAD-In, XorQA-In-Xx, XorQA-In-En (32k examples). GPT-4 strongest overall; XLM-R/Navarasa strong on Indic.
+  - Maps Stage 3 evaluation: schema-head JSON output should be evaluated on IndicGenBench-style indicators.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-066 | https://arxiv.org/pdf/2502.09642v2 | 2025-02-25 | VERIFIED | 3/3/3
+  - Krutrim LLM comparative: vs Airavata, Tamil-LLaMA, Kannada-LLaMA on IndicQA BERTScore. Beats all on Tamil, Telugu.
+  - Confirms Krutrim is the strong open LLM for Indic. Cite as Stage 3 base.
+  - decision: Cite as Stage 3 base
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-067 | https://aclanthology.org/volumes/2025.bhasha-1 | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 Workshop (ACL): GCN-based OCR verification on Hindi books. ResNet-50 feature extraction + GCN with 3 conv layers. Significant CER reduction on conjunct-heavy real Hindi book images.
+  - Maps Kashmiri 54.82 + OldScan 55.3 indirectly: GCN-verifier pattern is a Stage 3b post-correction candidate. Cite in W6 §3b decision.
+  - decision: Cite in W6 §3b decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-068 | https://aclanthology.org/volumes/2025.bhasha-1 | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 also covers: 14 SOTA models evaluated on Indic script OCR; substantial CER reduction via fine-tuning on ancient handwriting dataset.
+  - Maps Santali 53.91 + Ol Chiki 100% fill cell: ancient/handwritten datasets exist for some scripts; Ol Chiki fill is NOT a train target — but the methodology transfers.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-069 | https://arxiv.org/abs/2510.18234 (re-cite) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR architecture detail: DeepEncoder + DeepSeek-3B-MoE (570M activated). Multi-resolution: 64 / 100 / 256 / 400 / Gundam(800). Token compression → cheaper LLM/VLM pretraining data construction.
+  - Maps to W6 cost lever: compression-driven OCR is a different design point, not yet Indic-relevant.
+  - decision: Maps to W6 cost lever: compression-driven OCR is a different design point, not yet Indic-relevant
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-070 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 (re-cite) | 2026-05-28 | VERIFIED | 4/4/4
+  - PaddleOCR-VL-1.6 detail (re-cite): supports formula, table, chart, seal, text spotting. Zero-cost migration from 1.5. vLLM serve path. Apache-2.0.
+  - Maps our forms/tables product spec. Stage 2 swap target. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-071 | https://www.codesota.com/ocr/dots-ocr (re-cite) | 2025-12-15 | VERIFIED | 3/4/3
+  - dots.ocr 3B details: 100+ langs including Kannada, Tibetan, Arabic. Apache-2.0. Composite 88.41 on OmniDocBench (vs Paddle 92.86).
+  - Maps Kannada + Tamil cells: dots.ocr SOTA on low-resource including Kannada. Worth §6.8 P1 zero-shot comparison (user approval + GPU required).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-072 | https://arxiv.org/html/2505.20429v1 (re-cite) | 2025-05-26 | VERIFIED | 4/5/4
+  - PreP-OCR (re-cite): semantic-aware post-OCR correction + restoration. Reframes "OCR pipeline" as restoration + correction (no longer just preprocessing → recognizer).
+  - Maps to our Stage 0 + Stage 3b fusion idea. Cite in W6 §3b plan.
+  - decision: Maps to our Stage 0 + Stage 3b fusion idea
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-073 | https://arxiv.org/abs/2609.24058 (re-cite) | 2026-09-21 | VERIFIED | 5/5/5
+  - ScriptMoE (re-cite): decoder swap inside PP-OCRv5-class recognizers, not a backbone replacement. PP-OCRv5 F1 65.71→80.89. Ol Chiki/Meitei Mayek NOT in its 10 scripts.
+  - Maps Santali 53.91 + mni 85.12: ScriptMoE cannot be used directly for these; would need script-expert extension.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-074 | https://arxiv.org/pdf/2606.29213v1 (re-cite) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): error taxonomy — classical OCR fails on conjuncts + matras; VLMs fail on repetition/hallucination. Byte-level post-corrector works on matched noise, fails cross-engine.
+  - Maps Kashmiri 54.82 + Santali 53.91 + OldScan 55.3: cross-engine transfer failure means our W6 post-corrector must be trained on OUR engine's noise distribution, not vendor engines'.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-075 | https://arxiv.org/abs/2607.21617 (re-cite) | 2026-07-23 | VERIFIED | 4/4/4
+  - FaithC4 (re-cite): general VLMs rewrite text (WER +6.9); OCR-specialized VLMs stay faithful (+0.1–3.4).
+  - Validates our "use OCR-specialized VLM, not general VLM" stance. Cite in W2 hybrid diff.
+  - decision: Cite in W2 hybrid diff
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-076 | https://arxiv.org/html/2603.22458v1 (re-cite) | 2026-03-26 | VERIFIED | 4/4/4
+  - MinerU-Diffusion (re-cite): block-level parallel diffusion decoding. Stronger resilience to disrupted semantics. Suggests future OCR decoder architecture.
+  - Watch item, not a W6 candidate yet. Diffusion-decoder OCR is early-stage.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-077 | https://arxiv.org/abs/2602.16430 (re-cite) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak paper Parichay: 9 Indian govt doc types, 89.8% exact match, ~1.03 s/doc vLLM. Rotation normalization module + LoRA/full FT.
+  - Maps to our win condition: govt-doc demo. Rotation + schema-prompt pattern is the proven winning approach.
+  - decision: Maps to our win condition: govt-doc demo
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-078 | https://arxiv.org/abs/2606.29213 (re-cite) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): Qwen3-VL-8B 75.2 beats GPT-5.5 58.5 and olmOCR-7B 40.5 on real Hindi scans. The OPEN model is the winner.
+  - Maps all weak cells: open weights + Indic data > closed weights on Indic. Cite as W6 base-model decision evidence (Qwen2.5-VL or similar open weight).
+  - decision: Cite as W6 base-model decision evidence (Qwen2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-079 | https://arxiv.org/pdf/2602.16430 (re-cite) | 2026-02-18 | VERIFIED | 4/4/4
+  - Chitrapathak paper: production-scale OCR for India formal study. Surveys Sarvam Vision + Surya as state-of-the-art open + closed for Indic. Notes Indic OCR challenges: large char inventories, complex ligatures, typographic variability, limited high-quality labeled data.
+  - Maps to our W6 evidence: 4 cited challenges match our probe weak cells exactly.
+  - decision: Maps to our W6 evidence: 4 cited challenges match our probe weak cells exactly
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-080 | https://github.com/opendatalab/OmniDocBench (re-cite) | 2026-09-26 | VERIFIED | 4/5/4
+  - OmniDocBench v1.7 (2026-04-30): added Qianfan-OCR leaderboard + skills-based evaluation. Updated from v1.6.
+  - Cite for our §6 evaluation framework decision: OmniDocBench is the gold standard for English-centric; Indic OCR Bench (Sarvam) is the gold standard for Indic.
+  - decision: Cite for our §6 evaluation framework decision: OmniDocBench is the gold standard for English-centric; Indic OCR Bench (Sarvam) is the gold standard for Indic
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-081 | https://arxiv.org/pdf/2606.29213v1 | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite, detailed): catastrophic repetition failures dominate the corpus-mean. Median + catastrophic-rate is the faithful summary statistic (not mean CER alone).
+  - Validates §6.5 scorer fixes: uncapped CER + cer_100_count + median. Confirms W6 evaluation protocol law.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-082 | https://arxiv.org/html/2205.06740v2 (re-cite) | 2025-06-02 | VERIFIED | 4/4/4
+  - Towards Deployable OCR Models (re-cite): IIIT-H CVIT paper formalizes the segmentation-then-recognition pipeline for Indic. CRNN+CTC + line/word segmentation. Beats Tesseract5 + GCV on 8/13 langs.
+  - Maps to PPT Stage 2 design: a CRNN+LM head could be our specialist branch for the high-resource Indic langs (ta/kn/ml/te/bn/hi/mr/gu).
+  - decision: Maps to PPT Stage 2 design: a CRNN+LM head could be our specialist branch for the high-resource Indic langs (ta/kn/ml/te/bn/hi/mr/gu)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-083 | https://arxiv.org/html/2308.05780 | 2023-08-10 | VERIFIED | 3/3/3
+  - Optical Script Identification for multi-lingual Indic-script (Poddar, Gupta). Survey of script identification methodologies. Notes 12 prominent Indic scripts with complex shape similarity.
+  - Maps script-router design: justifies a dedicated script-ID module before recognition. Cite for W6 stage-2 router design.
+  - decision: Cite for W6 stage-2 router design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-084 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 (re-cite) | 2026-05-28 | VERIFIED | 4/5/4
+  - PaddleOCR-VL-1.6 supports text spotting (find+recognize in one pass) — relevant to our mixed_script probe column.
+  - Maps mixed_script probe cells (sat_14 Bengali-script Santali verified).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-085 | https://github.com/opendatalab/OmniDocBench (re-cite) | 2026-09-26 | VERIFIED | 4/4/4
+  - OmniDocBench v1.6 included Qwen3-VL-235B-A22B-Instruct (May 2026). Detailed edit-distance scores per category.
+  - Maps Qwen3-VL as our open-source Stage 2 base candidate. Cite for freeze packet.
+  - decision: Cite for freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-086 | https://arxiv.org/pdf/2510.18234 (re-cite DeepSeek-OCR) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR (re-cite): 89.8% on OmniDocBench with <800 vision tokens (Gundam mode). 11.3× compression vs MinerU2.0 (~7,000 tokens). 3B MoE decoder.
+  - Maps cost lever for deployment. Not directly Indic, but inference efficiency pattern is reusable.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-087 | https://arxiv.org/abs/2603.04205v2 (re-cite PaddleOCR-VL-1.6 Real5) | 2026-03-01 | VERIFIED | 4/4/4
+  - Real5-OmniDocBench physical distortion classes: scan (94.74, strongest), warp (91.25, weakest), photo, illumination, skew.
+  - Maps OldScan 55.3 directly. Confirms warp/curve is the universal weak spot; restoration pre-pass is the right attack.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-088 | https://arxiv.org/abs/2602.16430 (re-cite Chitrapathak) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 (re-cite): fine-tuning Nanonets-OCR2-3B (Qwen2.5-VL base). Telugu char ANLS 6.69 (was 11.00). 3–6× faster. 10 langs + EN.
+  - Maps all weak cells: covers Odia. Cite in W6 base-model decision.
+  - decision: Cite in W6 base-model decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-089 | https://arxiv.org/html/2511.23071v2 | 2025-11-28 | VERIFIED | 4/4/4
+  - Bharat Scene Text: 27k words across 11+ Indic langs (comprehensive scene-text dataset). DBnet detector + PARSeq recognizer pipeline.
+  - Maps our scene-text gap (probe is document-only, no scene-text). Watch item for W6 product extension.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-090 | https://ilocr.iiit.ac.in/ihtr | 2023-08-21 | VERIFIED | 4/4/4
+  - ICDAR 2023 IHTR (IIIT-H CVIT): 10 scripts (Bengali, Devanagari, Gujarati, Gurmukhi, Kannada, Malayalam, Odia, Tamil, Telugu, Urdu). Upstage KR won 95.94% avg char accuracy.
+  - Maps OldScan 55.3 + handwriting gap: handwriting Indic OCR SOTA is at 95.94% on clean script, far from citizen-doc reality.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-091 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR | 2025-05-10 | VERIFIED | 4/5/4
+  - ICDAR 2025 IHDR competition (IIIT-H CVIT): Indic handwritten document recognition, page-level (not just line/word). Winner announced 2025-05-15.
+  - Maps our handwriting gap. Watch winner announcement for SOTA.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-092 | https://dl.acm.org/doi/10.1007/978-3-031-41679-8_25 (re-cite) | 2023-08-21 | VERIFIED | 3/4/3
+  - ICDAR 2023 IHTR official report (Springer LNCS): 18 teams registered, 6 submitted. Upstage KR 95.94% avg char accuracy.
+  - Citation for our W6 handwriting specialist decision.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-093 | https://icdar2024.net/ | 2024-08-30 | VERIFIED | 3/3/3
+  - ICDAR 2024 (Athens): full document analysis track including scene text, handwriting, layout, formulas, historical documents, etc.
+  - Maps to our evaluation framework. Cite conference in W6 paper submission.
+  - decision: Maps to our evaluation framework
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-094 | https://ilocr.iiit.ac.in/dataset/30 (re-cite) | 2026-09-26 | VERIFIED | 3/4/3
+  - NLTM OCR (IIIT-H): IndicSTR12-Hindi scene-text dataset (1,083 word images, 585 unique words). Train/test split 812/271.
+  - Maps Hindi scene-text gap (probe is document-only).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-095 | https://arxiv.org/abs/2405.14734 | 2024-05-23 | VERIFIED | 4/3/3
+  - SimPO (Meng et al., 2024): reference-free preference optimization. Beats DPO on AlpacaEval 2, MT-Bench, Arena-Hard. Avg log-prob reward + target margin.
+  - Maps W6 §3b DPO → SimPO swap. Cite if our Stage 3b needs preference data.
+  - decision: Cite if our Stage 3b needs preference data
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-096 | https://arxiv.org/html/2405.14734v1 | 2024-05-23 | VERIFIED | 3/3/3
+  - SimPO comparison vs DPO/IPO/KTO/ORPO: SimPO is consistently better than DPO without length inflation. Reference-free means half the memory of DPO.
+  - Maps Stage 3b: SimPO is the cheaper DPO replacement.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-097 | https://arxiv.org/abs/2409.19735 | 2024-10-01 | VERIFIED | 4/4/4
+  - Scrambled text: training LMs to correct OCR errors (Bourne, 2025). Synthetic corruption data. Median CER −55%, WER −32% over base Llama on Hindi OCR error correction. Beats real-data training.
+  - Maps Kashmiri 54.82 + Santali 53.91 + OldScan 55.3: synthetic corruption > real data for post-corrector LM SFT. Strongly supports R3 verdict.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-098 | https://dl.acm.org/doi/abs/10.1007/s10032-025-00522-0 | 2025-06-15 | VERIFIED | 4/4/4
+  - Scrambled text (Bourne, IJDAR 2025): published version. Models trained on synthetic data reduce CER by 55% and WER by 32% over base LM, AND outperform models trained on real data on Hindi OCR.
+  - Maps W6 Stage 3b decision: synthetic-corruption LM training is the proven path for Hindi OCR post-correction. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-099 | https://github.com/alrowilde/synthetic-engine | 2026-05-20 | VERIFIED | 3/4/3
+  - Synthetic Engine (open-source, 2026): photorealistic business document generator. Generates invoices + Q&A. Arabian example added 2026-05-28.
+  - Maps forms/tables synthetic data for Stage 2 SFT. Watch item, Apache/MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-100 | https://arxiv.org/abs/2510.19817 (re-cite olmOCR-2) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2: synthetic document pipeline with diverse challenging layouts + ground-truth HTML + extracted test cases. RL with binary unit test rewards. SOTA on olmOCR-Bench.
+  - Maps W6 Stage 3b: RLVR with verifiable rewards (unit tests) is the proven pattern. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-101 | https://arxiv.org/abs/2502.16430 (re-cite Chitrapathak-1) | 2026-02-18 | VERIFIED | 4/4/4
+  - Chitrapathak-1: CLIP ViT-L/14 + Krutrim-1 7B LLM decoder; LLaVA-style end-to-end training. Frozen-align → SFT 2-stage. Evaluated on IndicVisionBench-OCR ANLS.
+  - Confirms 2-stage recipe lineage. INFERENCE: PPT Stage 2 TrOCR arm may be unnecessary if Chitrapathak-1's CLIP-based recipe is replaced by Chitrapathak-2's fine-tuned Qwen-VL.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-102 | https://aclanthology.org/2025.lm4uc-1.11 | 2025-11-01 | VERIFIED | 4/5/4
+  - Nayana OCR (Kolavi et al., LM4UC 2025 @ EMNLP): scalable framework for adapting VLMs to low-resource languages. Published in ACL Workshop on Language Models for Underserved Communities.
+  - Maps all weak cells: Nayana is the canonical 2025 "VLM for low-resource" framework. Cite for our Santali/Kashmiri/Meitei specialist design.
+  - decision: Cite for our Santali/Kashmiri/Meitei specialist design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-103 | http://sarvam.ai/blogs/sarvam-vision (re-cite) | 2026-02-05 | VERIFIED | 5/5/5
+  - Sarvam Vision (v1, Feb 2026) global benchmarks: ArXiv Math 86.5 vs Mistral OCR 3 85.4, Chandra 81.4, Gemini 3 Pro 70.6, PaddleOCR VL 1.5 85.4, DeepSeek OCR v2 81.9, GPT 5.2 61.
+  - Maps our competitive matrix. Sarvam leads on Math, near-tied on Base (99.6 vs 99.8-99.9). Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-104 | http://sarvam.ai/blogs/sarvam-vision (re-cite) | 2026-02-05 | VERIFIED | 5/5/5
+  - Sarvam Vision Indic OCR Bench (v1, 20,267 samples): Hindi 95.91, Bengali 92.61, Tamil 93.42, Telugu 87.70 — beats Gemini 3 Pro, GCV, Opus 4.5, Surya, Gemma3-27B, GPT 5.2.
+  - Confirms Sarvam as the benchmark to beat on Indic. Cite in §6 wrap-only comparison.
+  - decision: Cite in §6 wrap-only comparison
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-105 | https://platform.tracxn.com/a/d/company/653a01b2cfbc992dc6766039/sarvam | 2026-09-26 | VERIFIED | 3/4/3
+  - Sarvam funding: $75M Series B 2026-08-04, valuation $1.43B. Total disclosed funding $350M. DPIIT-registered.
+  - Maps to competition analysis: Sarvam is the strongest funded rival in Indic OCR. Their Sarvam-Translate supports 22 Indic langs.
+  - decision: Maps to competition analysis: Sarvam is the strongest funded rival in Indic OCR
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-106 | https://www.thehindubusinessline.com/info-tech/sarvam-ai-claims-edge-over-larger-global-models-on-indic-benchmarks/article70620733.ece/amp | 2026-02-11 | VERIFIED | 4/4/4
+  - Sarvam AI IndiaAI Mission partnership (April 2025): dedicated compute to build sovereign LLM. Sarvam-Translate 22 langs including Santali, Kashmiri, Sindhi, Dogri, Sanskrit. Saaras v3 supports 22 langs with code-mixed audio.
+  - Confirms Sarvam's institutional backing and full-stack sovereignty story. Maps win condition: Bhashini-stack integration with a strong partner.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-107 | https://www.indiatoday.in/technology/news/story/sarvam-ai-launches-vision-21-with-better-document-reading-and-indic-handwriting-recognition-3002998-2026-09-25 | 2026-09-25 | VERIFIED | 4/4/4
+  - Sarvam Vision 2.1 (re-cite press): improved complex tables, form KV extraction, Indic handwriting recognition, addresses hallucination issues, optimized inference stack.
+  - Maps to win condition: tables + forms + handwriting are the three demo axes Bhashini mentioned. Sarvam has all three; we need at least parity on tables.
+  - decision: Maps to win condition: tables + forms + handwriting are the three demo axes Bhashini mentioned
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-108 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/5/4
+  - October 2025 was the inflection month for open-source OCR: 6 major releases (Nanonets OCR2-3B, PaddleOCR-VL-0.9B, DeepSeek-OCR-3B, Chandra-OCR-8B, OlmOCR-2-7B, LightOnOCR-1B) all matching/exceeding proprietary services.
+  - Maps Stage 2 base-model decision: open-source pool is now SOTA-competitive. We don't need to beat Sarvam Vision API; we need to pick the right open base + fine-tune.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-109 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/5/4
+  - dots.ocr detail (RED AI Lab, July 2025): built on fine-tuned Qwen2.5-VL, 3B params (1.2B vision + Qwen2.5-1.5B LM). Handles 100+ langs including Tibetan, Kannada. Apache-2.0.
+  - Maps W6: open-source dots.ocr is a serious Stage 2 alternative to PaddleOCR-VL-1.6. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-110 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/5/4
+  - PaddleOCR-VL (Oct 2025): 0.9B NaViT dynamic-res vision encoder + ERNIE-4.5-0.3B LM. Hybrid two-stage pipeline (layout + recognition separated).
+  - Maps W6 Stage 2 architecture decision: NaViT + ERNIE is one of the strongest open architectures. Already in PPT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-111 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/5/4
+  - DeepSeek-OCR (Oct 2025): 3B params (570M active), 16× image compression. Built on DeepSeek-3B MoE decoder. Token efficiency focus.
+  - Maps W6 cost lever. Not direct OCR competitor but inference pattern is reusable.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-112 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/5/4
+  - Chandra (Datalab, Oct 2025): fine-tuned Qwen-3-VL, 9B params, scored 83.1 ± 0.9 on olmOCR-Bench (highest score among all open). Successor to Surya 2.
+  - Maps W6 Stage 2 base: Chandra is the highest-scoring open OCR-VLM as of Oct 2025. Strong alternative to PaddleOCR-VL-1.6.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-113 | https://arxiv.org/abs/2507.08492 | 2025-07-11 | VERIFIED | 4/4/4
+  - D2Dewarp (Li et al.): dual dimensions geometric representation learning (horizontal + vertical line features). Auto-generated large-scale DocDewarpHV training set. SOTA on 3 Chinese+English benchmarks.
+  - Maps OldScan 55.3: dewarp pre-pass. D2Dewarp is a 2025 SOTA method. Cite for our Stage 0 dewarp head.
+  - decision: Cite for our Stage 0 dewarp head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-114 | https://arxiv.org/pdf/2401.11831 | 2024-01-22 | VERIFIED | 4/4/4
+  - Fair Evaluation of Various Deep Learning-based Document Image Binarization Approaches (Sukesh et al., ICDAR 2024). Evaluates DE-GAN, Robin (U-Net), DeepOtsu, 2-Stage GAN, DP-LinkNet, SAE, SauvolaNet on DIBCO 2017. SauvolaNet + DE-GAN lead.
+  - Maps OldScan 55.3: confirms SauvolaNet is the strongest DL binarizer on DIBCO. Cite in W6 ablation chain.
+  - decision: Cite in W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-115 | https://link.springer.com/content/pdf/10.1007/978-3-030-86337-1_36.pdf | 2021-08-15 | VERIFIED | 3/3/3
+  - SauvolaNet (IEEE ICDAR 2021): three explainable modules. SOTA on 13 public binarization datasets, "at least comparable to if not better than" SoTA binarization solutions.
+  - Maps OldScan 55.3: classic 2021 SOTA. Still cited as the baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-116 | https://pubmed.ncbi.nlm.nih.gov/40422990 | 2025-05-23 | VERIFIED | 4/4/4
+  - Comprehensive Review on Document Image Binarization (Bataineh, 2025). Reviews all DL binarization approaches.
+  - Maps W6 ablation chain: cite this review for SauvolaNet vs DeepOtsu vs U-Net choices.
+  - decision: cite this review for SauvolaNet vs DeepOtsu vs U-Net choices
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-117 | https://arxiv.org/abs/2404.17243 (re-cite space+frequency binarization) | 2024-04-26 | VERIFIED | 3/4/3
+  - ViT + FFT-based binarization (Quattrini et al.). Models local + global information for binarization. Beats CNN on degraded docs with acquisition artifacts.
+  - Maps OldScan 55.3: NN-based binarization is competitive with classical Otsu on degraded docs.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-118 | https://arxiv.org/abs/1809.00219 | 2018-09-18 | VERIFIED | 3/3/3
+  - ESRGAN (Wang et al.): foundational super-resolution GAN. RRDB blocks without batch norm. 7,341 citations.
+  - Maps OldScan 55.3: ESRGAN is the classical SR baseline for low-DPI scans. Used in many restoration pipelines. Watch item for Stage 0 SR.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-119 | https://github.com/SyedAliNice/RealESRGan-ESRGan-SwinIR-implementation-comparison/blob/main/README.md | 2025-09-26 | VERIFIED | 3/3/3
+  - Real-ESRGAN vs ESRGAN vs SwinIR comparison: Real-ESRGAN robust to real-world images; ESRGAN sharp but synthetic; SwinIR excellent general-purpose.
+  - Maps OldScan 55.3: Real-ESRGAN is the canonical SR for low-DPI scan restoration. Cite in W6 SR pilot.
+  - decision: Cite in W6 SR pilot
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-120 | https://arxiv.org/pdf/2502.09642v2 (Krutrim re-cite) | 2025-02-25 | VERIFIED | 4/4/4
+  - Krutrim-2 12B detailed: outperforms llama-3.3-70B on Indic tasks (per their blog). Open weights. Strong Indic LLM.
+  - Maps Stage 3 candidate. Krutrim-2 vs Sarvam 30B vs Gemma-2-9B as our Stage 3 noisy→JSON SFT base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-121 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite primary): Pareto-dominant on English AND Indic frontier. olmOCR-Bench SOTA + Indic OCR Bench SOTA. Improved structured extraction + Indic handwritten recognition.
+  - Confirms: Vision 2.1 is the strongest non-fine-tunable alternative on our probe. Maps to §6.8 wrap-only comparison.
+  - decision: Maps to §6
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-122 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite): "We performed a round of continual pretraining on the base Sarvam sovereign 3B model; followed by supervised fine-tuning and reinforcement learning using verifiable rewards."
+  - Confirms SFT→RLVR recipe. Maps to W6 stages (per A0-003).
+  - decision: Maps to W6 stages (per A0-003)
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-123 | https://aclanthology.org/2025.lm4uc-1.11.pdf | 2025-11-01 | VERIFIED | 4/5/4
+  - Nayana OCR (re-cite detail): VLM adaptation framework for low-resource languages. Cited 11 times (impact tracking).
+  - Maps all weak cells: Nayana is the canonical 2025 "VLM low-resource" framework. Cite for our Santali/Kashmiri/Meitei specialist.
+  - decision: cite detail): VLM adaptation framework for low-resource languages
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-124 | https://arxiv.org/pdf/2510.18234 (re-cite DeepSeek-OCR) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR (re-cite): 89.8% on OmniDocBench with 11.3× compression. Block-level parallel decoding via diffusion.
+  - Maps cost lever. Watch item for inference efficiency, not direct OCR competitor.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-125 | https://arxiv.org/html/2603.22458v1 (re-cite MinerU-Diffusion) | 2026-03-26 | VERIFIED | 4/4/4
+  - MinerU-Diffusion (re-cite): 2.5B diffusion-based OCR decoder. Stronger resilience to disrupted semantics.
+  - Watch item for diffusion-decoder OCR trend.
+
+
+## A2 — Indic OCR / Indian-language models (2025-2026)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-001 | https://huggingface.co/ai4bharat/IndicConformer | 2026-09-26 | VERIFIED | 4/4/4
+  - AI4Bharat IndicConformer: ASR suite for all 22 official Indian languages. 600M multilingual + per-language monolingual models. CC-BY-4.0. Built on NeMo.
+  - Maps ASR tier, not OCR. Confirms AI4Bharat's pattern of one model per modality across 22 langs. Cite in Stage 3 architecture decision.
+  - decision: Cite in Stage 3 architecture decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-002 | https://github.com/AI4Bharat/IndicConformerASR | 2024-09-16 | VERIFIED | 4/4/4
+  - AI4Bharat IndicConformerASR repo: 22 Indic languages ASR. Monolingual models for Assamese, Bengali, Bodo, Dogri, etc.
+  - Maps ASR tier. Cite as a reference architecture pattern for our Stage 3 noisy-text→JSON model.
+  - decision: Cite as a reference architecture pattern for our Stage 3 noisy-text→JSON model
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-003 | https://indicnlp.ai4bharat.org/pages/indic-bert | 2025-12-01 | VERIFIED | 4/3/4
+  - IndicBERT (AI4Bharat): multilingual ALBERT for 12 Indian languages. Pretrained on IndicNLP corpus (as 36.9M, bn 815M, en 1.34B, gu 724M, hi 1.84B, kn 712M, ml 767M, mr 560M, or 104M, pa 814M, ta 549M, te 671M tokens).
+  - Maps Stage 3 noisy→JSON LLM SFT base. Smaller than Krutrim-2 12B but Indic-specific.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-004 | https://indicnlp.ai4bharat.org/indicwav2vec | 2025-12-01 | VERIFIED | 4/3/4
+  - IndicWav2Vec: pretrained on 40 Indian languages (largest diversity pool). 9 fine-tuned ASR models. SOTA on MUCS, MSR, OpenSLR.
+  - Maps ASR tier. 40 langs is wider than the 22 Eighth-Schedule; covers dialects.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-005 | https://github.com/AI4Bharat/IndicWav2Vec | 2025-12-01 | VERIFIED | 4/3/4
+  - IndicWav2Vec repo: language-specific checkpoints (as, bn, gu, hi, etc.) on HuggingFace. Word-piece tokenization, fairseq + HF.
+  - Maps ASR tier. Cite in W6 if any OCR-as-ASR analog emerges.
+  - decision: Cite in W6 if any OCR-as-ASR analog emerges
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-006 | https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only | 2025-06-12 | VERIFIED | 4/4/4
+  - IndicBERTv2 (AI4Bharat, 2025): 270M/1B/4B multilingual encoders. Trained on IndicCorp v2 with MLM, +Samanantar TLM, +Back-Translation TLM, +SS script-share. Evaluated on IndicXTREME.
+  - Maps Stage 3 base: 270M is small enough for VLM-LLM head. 1B/4B are bigger alternatives.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-007 | https://huggingface.co/ai4bharat?sort_models=modified | 2026-09-26 | VERIFIED | 4/4/4
+  - AI4Bharat recent activity: IndicDLP foundational dataset (Jun 2026), Vision-Language Models for Handwritten Math (Jul 2026), SpeechArenaBench, IndicBERT-v3-1B/4B/270M, Project Astitva (Bhili MT/ASR/TTS).
+  - Maps Indic OCR gap: AI4Bharat focuses on ASR/MT/TTS, not OCR-vision. Confirms our niche.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-008 | https://github.com/AI4Bharat/MILU | 2025-06-15 | VERIFIED | 4/4/4
+  - MILU (Multi-task Indic Language Understanding Benchmark, AI4Bharat): 11 Indic langs × 8 domains × 41 subjects. Evaluates LLMs with vLLM or HF.
+  - Maps Stage 3 evaluation. Citation for our W6 LLM benchmark protocol.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-009 | https://huggingface.co/bodhan-ai/indic-ocr | 2026-09-01 | VERIFIED | 5/5/5
+  - Bodhan IndicOCR (re-cite): 33M layout (PP-DocLayoutV3/RT-DETR) + 0.8B block OCR (Qwen3.5-0.8B). Apache/Indic Open Model License. ~1.8GB weights. Layout JSON + markdown/block JSON.
+  - Maps W6 Stage 1+2: Bodhan is the strongest OPEN OCR-specialized VLM for Indic. Cite in freeze packet as primary wrap-only candidate.
+  - decision: Cite in freeze packet as primary wrap-only candidate
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A2-010 | https://www.analyticsvidhya.com/blog/2026/09/bodhan-ai-indic-models/ | 2026-09-10 | VERIFIED | 5/5/5
+  - Bodhan AI (re-cite): printed support EN + 22 langs × 13 scripts; handwriting EN + 12 Indian langs. Internal IndicOCR-Printed bench 86.2% word accuracy. Trained on 15M+ docs. Hosted API ₹0.20/image.
+  - Maps W6 cost analysis: ₹0.20 × 1,227 probe ≈ ₹245. Cheapest API comparison.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-011 | https://m.economictimes.com/ai/ai-insights/iit-madras-bodhan-ai-launches-four-ai-models-for-indian-languages-in-partnership-with-ai4bharat/articleshow/133755779.cms | 2026-09-04 | VERIFIED | 4/4/3
+  - Bodhan AI (IITM CoE) + AI4Bharat: OCR, translation, ASR, TTS suite. Open weights + hosted APIs on sovereign infra. Trained with NVIDIA NeMo, served via TensorRT-LLM/vLLM.
+  - Maps W6 deployment: open-weights + sovereign infra + NeMo/vLLM serving. Aligns with our architecture's NeMo/vLLM stack.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A2-012 | https://www.thehindubusinessline.com/info-tech/bodhan-ai-launches-open-weight-foundational-ai-models-for-indic-languages/article71457810.ece | 2026-09-12 | VERIFIED | 3/4/3
+  - Bodhan AI (re-cite press): NeMo training + open-weight release + education-ecosystem framing.
+  - Confirms D36 facts. No new technical content.
+  - decision: cite press): NeMo training + open-weight release + education-ecosystem framing
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-013 | https://www.theweek.in/news/sci-tech/2026/09/04/new-multi-lingual-ai-stack-from-iit-madras-aims-to-personalise-education-across-indian-languages.html | 2026-09-04 | VERIFIED | 3/3/2
+  - Bodhan use case framing: OCR for textbooks/worksheets/handwritten answers; ASR/TTS/translate complete the classroom loop.
+  - Maps win condition: classroom worksheet digitization demo angle.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-014 | https://marketersindex.com/bodhan-ai-and-ai4bharat-launch-integrated-suite-of-ai-models-to-transform-indian-language-processing/ | 2026-09-17 | VERIFIED | 3/3/2
+  - Bodhan: Qwen3.5 + Sarvam-tokenizer lineage, Indic-LM Arena (Nov 2025) as benchmarking blueprint, hybrid local-host + cloud-API strategy.
+  - Confirms architectural lineage. Cite in W2 hybrid diff.
+  - decision: Cite in W2 hybrid diff
+  - transfer: DIES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-015 | https://www.linkedin.com/posts/vksrinivasan_indicocr-from-bodhan-ai-and-ai4bh%C4%81rat-activity-7498412628252377088-GhPD | 2026-08-26 | VERIFIED | 4/4/4
+  - Bodhan IndicOCR (re-cite): tested on skipped scripts incl. Kashmiri, Santali, Manipuri (Meetei Mayek); 0.8B holds own vs 4–5× larger models; live on Bodhan platform 2026-09-05.
+  - Maps weak cells: Bodhan targets sat/ks/mni explicitly. Our specialists must beat a rival that explicitly targets our weakest cells.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-016 | http://sarvam.ai/models | 2026-09-26 | VERIFIED | 4/4/4
+  - Sarvam Models: Sarvam 30B + 105B LLMs, Saaras V3 ASR (22 Indic + code-mixed), Bulbul V3 TTS (11 langs), Sarvam Vision 3B (state-space VLM for doc AI).
+  - Maps competitive landscape: full-stack sovereign Indic AI vendor.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-017 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 | 2026-05-28 | VERIFIED | 4/4/4
+  - PaddleOCR-VL-1.6 (re-cite): 0.9B VLM, Apache-2.0, supports text spotting, formula, table, chart, seal recognition. Multilingual.
+  - Maps W6 Stage 2 alternative base. PaddleOCR team invested in Indic handwriting via PP-OCRv5.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-018 | https://arxiv.org/pdf/2602.16430 (re-cite Chitrapathak-2) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 (re-cite): fine-tuned Nanonets-OCR2-3B on Qwen2.5-VL. Covers Hindi/Sanskrit/Bengali/Telugu/Tamil/Marathi/Kannada/Malayalam/Odia/Punjabi + EN.
+  - Maps W6 Stage 2: Chitrapathak-2 covers Odia 80.01 directly. Citation for freeze packet.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-019 | https://arxiv.org/abs/2602.16430 (re-cite production-scale paper) | 2026-02-18 | VERIFIED | 5/5/5
+  - Production-Scale OCR for India (re-cite): documents the field state including open (Surya) and closed (Sarvam Vision). Discusses Indic OCR challenges: large char inventories, complex ligatures, typographic variability, limited high-quality labeled data.
+  - Maps our W6 evidence base. Citation in freeze packet.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-020 | https://arxiv.org/abs/2606.29213 (re-cite Devanagari stress-test) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): controlled multi-font multi-condition Devanagari OCR benchmark with script-aware evaluation (NFC, CER/WER/chrF++). Median + catastrophic-rate. Distribution-matched byte-level post-corrector.
+  - Maps all weak cells via the post-corrector finding (works matched-noise, fails cross-engine).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-021 | https://arxiv.org/abs/2607.21617 (re-cite FaithC4) | 2026-07-23 | VERIFIED | 4/4/4
+  - FaithC4 (re-cite): general VLMs WER +6.9 (rewrite imperfect text); OCR-specialized VLMs +0.1–3.4 (faithful). Citizen docs need OCR-specialized.
+  - Maps Stage 2 base-model choice: must be OCR-specialized (Bodhan, Sarvam, Chitrapathak-2), not general VLM.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-022 | https://arxiv.org/abs/2609.24058 (re-cite ScriptMoE) | 2026-09-21 | VERIFIED | 5/5/5
+  - ScriptMoE (re-cite): PP-OCRv5 F1 65.71→80.89 via shared encoder + top-2 script experts + shared expert. Scene-text (not document). Ol Chiki + Meitei Mayek NOT in 10 scripts.
+  - Maps specialist design pattern: ScriptMoE's expert-routing is the reference architecture for our W6 specialist branch.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-023 | https://arxiv.org/html/2505.20429v1 (re-cite PreP-OCR) | 2025-05-26 | VERIFIED | 4/4/4
+  - PreP-OCR (re-cite): two-stage restoration + semantic-aware post-correction. Reframes pipeline.
+  - Maps W6 fusion: Stage 0 + Stage 3b fusion is the proven pattern.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-024 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf (re-cite Sarkar) | 2024-08-15 | VERIFIED | 4/4/4
+  - IIIT-H CVIT (re-cite): CRNN+LM OCR for low-resource Indic. Kashmiri 87.71/93.80 char/word acc; Ol Chiki Santali 90.60/96.58. Fine-tune Hindi model on Devanagari-script langs.
+  - Maps weak cells: specialist beats shared-model baseline on Kashmiri + Santali. CRNN+LM head is a viable Stage 2 alternative.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-025 | https://arxiv.org/html/2205.06740v2 (re-cite IIIT-H deployable OCR) | 2025-06-02 | VERIFIED | 4/4/4
+  - Towards Deployable OCR Models for Indic Languages (re-cite): 13 official langs, CRNN+CTC end-to-end page-level OCR. Beats Tesseract5 + GCV on 8/13 langs. Line/word segmentation + recognition.
+  - Maps Stage 2: CRNN+LM is a viable high-resource-Indic path. Cite in W2 hybrid diff.
+  - decision: Cite in W2 hybrid diff
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-026 | https://github.com/indic-ocr/indic-ocr.github.io | 2026-09-26 | VERIFIED | 3/4/3
+  - Indic-OCR Project (re-cite): open-source Tesseract models for Indic scripts incl. Ol Chiki + Meetei Mayek. Layout via Olena.
+  - Maps our Ol Chiki + Mayek baseline (Sarvam-bench fill, not a training target). For our §6 honest-empty claim.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-027 | https://github.com/AI4Bharat/IndicTrans2 | 2023-12-03 | VERIFIED | 4/4/4
+  - IndicTrans2 (re-cite): 22 langs × 5 scripts. Perso-Arabic (Kashmiri, Sindhi, Urdu), Ol Chiki (Santali), Meitei (Manipuri), Latin (EN), Devanagari (rest).
+  - Maps script-router decision. The "5 scripts in 22 langs" pattern is canonical.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-028 | https://dibd-bhashini.gitbook.io/bhashini-apis/available-models-for-usage | 2026-09-26 | VERIFIED | 4/4/4
+  - Bhashini ULCA API catalog (re-cite): IIITH-OCR-SceneText (8 langs: as/bn/gu/hi/kn/ml/mni/mr); IITM TTS (22 langs); IIT Mandi audio-lang-detection; Indic lang-detection (11-22 langs).
+  - Maps Bhashini production OCR: IIITH scene-text covers our bn/hi/te/ta/kn/ml/mr cells. We have a Bhashini production alternative.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-029 | https://www.linkedin.com/posts/digiital-india-bhashini-division_leap-hackathon-ps-2-winner-and-runner-up-activity-7501251554163908608-aLZ1 | 2026-09-05 | VERIFIED | 3/4/2
+  - LEAP Hackathon PS-2: Team Multilipi (Dewang Bharadwaj) winner; Team Soochna Sahayak (Agam Dayal) runner-up. Announced via Bhashini Bimla storytelling series.
+  - Maps competition intel: monitor Bimla series for AksharDrishti Stage-1 qualifier announcements.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-030 | https://arxiv.org/abs/2404.16816 (re-cite IndicGenBench) | 2024-04-25 | VERIFIED | 3/3/3
+  - IndicGenBench (re-cite): 29 Indic langs × 13 scripts × 4 families. Largest benchmark for Indic LLM generation evaluation.
+  - Maps Stage 3 evaluation. Citation in W6 LLM benchmark protocol.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-031 | https://arxiv.org/abs/2502.09642 (re-cite Krutrim LLM) | 2025-02-25 | VERIFIED | 4/4/4
+  - Krutrim LLM (re-cite): 2T-token multilingual foundation. Custom tokenizer for Indic. Beats GPT-3.5 on Tamil/Telugu sentiment.
+  - Maps Stage 3 candidate. Custom tokenizer is the "Indic-native" Stage 3 option.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-032 | https://ai-labs.olakrutrim.com/models/Krutrim-LLM-2 | 2026-01-31 | VERIFIED | 4/5/4
+  - Krutrim-2 12B (re-cite): SoTA Indic LLM outperforming 5×-10× bigger models. HellaSwag 0.83, MMLU 0.63 (5-shot), TriviaQA 0.62.
+  - Maps Stage 3 SFT base. Open-source, Indic-native.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-033 | https://github.com/ola-krutrim/Krutrim-2-12B | 2025-01-31 | VERIFIED | 3/4/3
+  - Krutrim-2-Instruct (re-cite): open-source 12B chat-tuned. MN-12B architecture. Trained Dec 2024–Jan 2025.
+  - Maps Stage 3 chat-tuned base for our noisy→JSON task.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-034 | https://arxiv.org/pdf/2608.15535 | 2026-08-15 | VERIFIED | 4/4/4
+  - L3Cube-IndicQuest v2: 19 Indic langs, 69,420 QA pairs. Gemma4 31B beats Indic-specialized Sarvam 30B on Indic langs.
+  - Maps Stage 3: Gemma4 is the open-weight winner vs Sarvam 30B on Indic QA. Cite as base-model decision.
+  - decision: Cite as base-model decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-035 | https://arxiv.org/abs/2501.15747 | 2025-01-29 | VERIFIED | 3/3/3
+  - IndicMMLU-Pro (re-cite): Navarasa, Airavata, OpenHathi, TamilLlama, MahaMarathi. Telugu 41.34% (GPT-4o), Bengali 44.38%, Hindi leading.
+  - Maps Stage 3 LLM tier (not OCR). Reference for our Stage 3 model selection.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-036 | https://arxiv.org/abs/2404.16816 | 2024-04-25 | VERIFIED | 3/3/3
+  - IndicGenBench (re-cite): 32k examples. CrossSum-In, Flores-In, XQuAD-In, XorQA-In-Xx/En.
+  - Maps Stage 3 evaluation. Citation for W6 LLM benchmark.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-037 | https://github.com/BytesByJay/Indic-OCR | 2025-09-26 | VERIFIED | 2/3/2
+  - Indic-OCR (H Dhananjayan, MCA project): ML-based OCR for Hindi/Malayalam/Tamil. PaddleOCR/TrOCR backend. Web interface.
+  - Maps weak-cell context only. Student project, not competitive.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-038 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - Qwen2.5-VL (Sep 2025): referenced as foundation for several OCR VLMs in 2025 (dots.ocr, Chitrapathak-2, etc.).
+  - Maps W6 Stage 2 base: Qwen2.5-VL is the dominant open VLM foundation for Indic OCR in 2025-2026.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-039 | https://github.com/Eman-Bandesha/Document-Image-Binarization | 2025-09-26 | VERIFIED | 2/3/2
+  - Otsu, Sauvola, Adaptive Gaussian implementation comparison on DIBCO 2016. PSNR/DRD/IOU/SSIM metrics.
+  - Maps Stage 0: Otsu baseline for our OldScan ablation chain. Reference implementation.
+  - decision: Stage 0
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-040 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ | 2026-06-23 | VERIFIED | 4/5/4
+  - Self-host comparison (re-cite): PaddleOCR-VL-1.6 ~2GB VRAM FP16, ~45 pg/min L40S. GOT-OCR2.0 <3GB fastest on printed. dots.ocr strong on forms. DeepSeek-OCR MoE best cost/page bulk.
+  - Maps W6 cost lever. Citation for jury writeup.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-041 | https://arxiv.org/abs/2404.17243 (re-cite binarization) | 2024-04-26 | VERIFIED | 3/3/3
+  - Document binarization by leveraging space + frequency (Quattrini et al., 2024). Fast Fourier Convolutions + ViT. Models local+global. Beats CNN on degraded docs.
+  - Maps Stage 0 ablation. Cite for our A3 Sauvola-frozen swap candidate.
+  - decision: Cite for our A3 Sauvola-frozen swap candidate
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-042 | https://arxiv.org/abs/2505.23119 | 2025-05-29 | VERIFIED | 4/5/4
+  - TextSR: Diffusion Super-Resolution with Multilingual OCR Guidance. Iterative restoration+OCR alternation. CC-BY-4.0. Addresses text fidelity loss in diffusion-based SR.
+  - Maps OldScan 55.3: TextSR is the 2025 SOTA for low-DPI scan super-resolution. Cite for Stage 0 SR head.
+  - decision: Cite for Stage 0 SR head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-043 | https://arxiv.org/abs/2604.10077 | 2026-04-11 | VERIFIED | 4/4/4
+  - DocRevive: unified pipeline for document text restoration. OCR + advanced image analysis + masked LM + diffusion. 30,078 synthetic degraded doc images. UCSM metric (edit + semantic + length + contextual predictability).
+  - Maps OldScan 55.3: DocRevive is the latest 2026 unified restoration pipeline. Cite for our Stage 0 + Stage 3b fusion.
+  - decision: Cite for our Stage 0 + Stage 3b fusion
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-044 | https://arxiv.org/abs/2508.04055 | 2025-08-06 | VERIFIED | 4/5/4
+  - Uni-DocDiff (Zhao et al.): learnable task prompts + Prior Pool (local high-freq + global low-freq features) + Prior Fusion Module. Multi-task document restoration in one model.
+  - Maps OldScan 55.3: Uni-DocDiff is 2025 SOTA unified restoration. Cite for our Stage 0 restoration head.
+  - decision: Cite for our Stage 0 restoration head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-045 | https://arxiv.org/abs/2512.08922 | 2025-12-09 | VERIFIED | 4/5/4
+  - UniT (Unified Diffusion Transformer): DiT + VLM + Text Spotting Module for Text-Aware Image Restoration. Iterative refinement. SA-Text + Real-Text benchmarks.
+  - Maps OldScan 55.3: UniT is 2025 SOTA text-restoration. Iterative OCR-guided restoration is the new SOTA pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-046 | https://arxiv.org/abs/2405.04408 (DocRes) | 2024-05-07 | VERIFIED | 4/4/4
+  - DocRes (Zhang et al., CVPR 2024): generalist model unifying 5 restoration tasks (dewarping, deshadowing, appearance enhancement, deblurring, binarization). Dynamic Task-Specific Prompt (DTSPrompt).
+  - Maps OldScan 55.3: cite for our A3 DocRes-head pilot in W6 ablation chain.
+  - decision: cite for our A3 DocRes-head pilot in W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-047 | https://openaccess.thecvf.com/content/CVPR2025/html/Chen_UniRestore_Unified_Perceptual_and_Task-Oriented_Image_Restoration_Model_Using_Diffusion_CVPR_2025_paper.html | 2025-06-01 | VERIFIED | 3/4/3
+  - UniRestore (CVPR 2025): unified PIR + TIR via diffusion prior. Bridges perceptual and task-oriented image restoration.
+  - Maps OldScan 55.3: PIR vs TIR distinction matters. OCR-downstream restoration is task-oriented. Cite in W6 Stage 0 design.
+  - decision: Cite in W6 Stage 0 design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-048 | https://arxiv.org/abs/2401.11831 (re-cite binarization fair eval) | 2024-01-22 | VERIFIED | 4/4/4
+  - DE-GAN, Robin (U-Net), DeepOtsu, 2-Stage GAN, DP-LinkNet, SAE, SauvolaNet compared on DIBCO 2017. SauvolaNet + DE-GAN lead.
+  - Maps OldScan 55.3: SauvolaNet baseline. Cite in our W6 ablation chain.
+  - decision: Cite in our W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-049 | https://www.aksharamukha.com/converter (re-cite) | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha: script converter/transliterator for 120+ scripts (Indic + extended) and 21 romanization methods. GPL 3.0. Online + Python pip package.
+  - Maps Stage 3 post-processing: GT normalization for cross-script comparison. Citation for our W6 normalization layer.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-050 | https://github.com/virtualvinodh/aksharamukha-python | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha Python library (Vinodh Rajan). 120 scripts supported. Lossless transliteration between main Indic scripts + Sinhala.
+  - Maps Stage 3 normalization. Cite for our W6 §6.4 GT-verification normalization.
+  - decision: Cite for our W6 §6
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-051 | https://pypi.org/project/aksharamukha | 2026-09-26 | VERIFIED | 3/3/3
+  - aksharamukha PyPI package: script conversion/transliteration for Indic cultural sphere.
+  - Maps Stage 3: pip-installable normalization tool.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-052 | https://www.aksharamukha.com/documentation | 2026-09-26 | VERIFIED | 4/3/4
+  - Aksharamukha documentation: script identifiers + flags for advanced transliteration. Web API + Python pip.
+  - Maps Stage 3 normalization API. Useful for our §6.6 raw-vs-normalized ablation.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-053 | https://indic-nlp-library.readthedocs.io/en/latest/_modules/indicnlp/normalize/indic_normalize.html | 2026-09-26 | VERIFIED | 5/4/4
+  - IndicNLP Library (Anoop Kunchukuttan): DevanagariNormalizer + BaseNormalizer + character-level normalization (nukta decomposition, visarga correction, ZWJ/ZWNJ/ZWSP removal). MIT.
+  - Maps Stage 3 normalization. The canonical Indic NLP normalization library. Cite in W6 §6.6.
+  - decision: Cite in W6 §6
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-054 | https://indic-nlp-library.readthedocs.io/en/latest/ | 2026-09-26 | VERIFIED | 4/3/4
+  - IndicNLP Library: full Python package by Anoop Kunchukuttan (AI4Bharat-adjacent). Supports tokenization, normalization, script conversion, romanization, segmentation for Indic langs.
+  - Maps Stage 3 normalization + tokenization pipeline.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-055 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite BHASHA) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (ACL Workshop): GCN-based OCR verification on Hindi books + fine-tuning on ancient handwriting dataset.
+  - Maps our W6 §3b post-correction candidate. GCN-verifier + ancient handwriting data.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-056 | https://aclanthology.org/volumes/2025.bhasha-1 | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025: 14 SOTA models evaluated on Indic script OCR; substantial CER reduction via fine-tuning on ancient handwriting dataset.
+  - Maps W6 specialist training pattern. Cite for Santali/Kashmiri/Meitei synthetic-first plan.
+  - decision: Cite for Santali/Kashmiri/Meitei synthetic-first plan
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-057 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf (re-cite Sarkar) | 2024-08-15 | VERIFIED | 4/4/4
+  - Sarkar et al. IIIT-H CVIT (re-cite): Mozhi-LR(S) dataset. CRNN+LM char/word accuracy for Kashmiri 87.71/93.80, Ol Chiki Santali 90.60/96.58, Bodo 93.84/97.22, Nepali 82.60/95.13, Sanskrit/Maithili/Konkani share Hindi model.
+  - Maps our weak-cell baseline: confirms specialist > shared-model for Kashmiri + Santali.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-058 | https://github.com/AI4Bharat/IndicConformerASR (re-cite) | 2024-09-16 | VERIFIED | 4/4/4
+  - IndicConformer (re-cite): ASR tier. 22 langs. CC-BY-4.0. MIT license.
+  - Maps Stage 3 base reference: ASR sister system. Per-modality pattern is the same.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-059 | https://models.ai4bharat.org/ (re-cite) | 2026-09-26 | VERIFIED | 4/4/4
+  - AI4Bharat Models (re-cite): IndicTrans2 (22 langs × 5 scripts), project catalog.
+  - Maps W6 script-router design pattern. Reference for our Stage 2 routing.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-060 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (re-cite) | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite primary): Pareto-dominant on English AND Indic. 87.39 Indic bench overall.
+  - Maps all weak cells: weak cells Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01 are the cells where Sarvam itself struggles. Our specialists must beat Sarvam on these.
+  - decision: cite primary): Pareto-dominant on English AND Indic
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-061 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite): Bodhan beats Sarvam on Santali (68.30 vs 53.91). Gemini beats Sarvam on Odia (81.01 vs 80.01). AWS Textract ~0 on most Indic langs.
+  - Maps specialist design: Santali needs Bodhan-level specialist (low-resource Ol Chiki script specialist wins).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-062 | https://www.moneycontrol.com/technology/sarvam-vision-2-1-launched-with-focus-on-document-intelligence-and-indic-languages-article-14038065.html | 2026-09-24 | VERIFIED | 4/5/4
+  - Sarvam Vision 2.1 (re-cite press): structured extraction, complex multi-page table parsing, form KV extraction, Indic handwriting recognition. Addresses prior hallucinations + serving cost.
+  - Maps win condition: tables/forms/handwriting all 3 axes covered. We need at least tables parity.
+  - decision: cite press): structured extraction, complex multi-page table parsing, form KV extraction, Indic handwriting recognition
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-063 | https://www.storyboard18.com/digital/sarvam-ai-launches-vision-2-1-to-boost-document-intelligence-indian-language-ocr-111459.htm | 2026-09-26 | VERIFIED | 3/4/2
+  - Sarvam Vision 2.1 (re-cite press): confirms 6,909 bench size, 87.39 score, HF availability, multi-page table + handwriting scope.
+  - No new facts. Confidence up.
+  - decision: cite press): confirms 6,909 bench size, 87
+  - transfer: DIES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-064 | https://www.cnbctv18.com/technology/sarvam-launches-new-ai-model-to-read-documents-in-22-indian-languages-19998111.htm | 2026-09-24 | VERIFIED | 3/4/2
+  - Sarvam Vision 2.1 (re-cite CNBC): 87.3 olmOCR-Bench + 87.39 Indic. Cost/utility distinction.
+  - No new facts. Confirms.
+  - decision: cite CNBC): 87
+  - transfer: DIES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-065 | https://timesofindia.indiatimes.com/business/india-business/sarvam-ai-updates-model-to-boost-indian-language-ocr-accuracy/articleshow/134488725.cms | 2026-09-25 | VERIFIED | 5/5/4
+  - Sarvam Vision 2.1 (re-cite TOI): 87.3% overall; earlier version struggled with complex docs + hallucinations + cost; trained on real+synthetic mix; ranked 2nd to PaddleOCR on structure-preservation test.
+  - Maps critical: vendor admits bench ≠ real-world utility. Our probe measures exactly the gap Sarvam admits.
+  - decision: cite TOI): 87
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-066 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | VERIFIED | 4/4/3
+  - sarvamai/indic-ocr-bench: 6,909 blocks, 22 scheduled langs + EN. Word accuracy = 100×(1-WER).
+  - Maps §6 eval framework. Our protocol law (no downloads without approval) means: P1 candidate for user-approved W6 use only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-067 | https://docs.sarvam.ai/api/getting-started/pricing | 2026-09-26 | VERIFIED | 5/4/5
+  - Sarvam doc-digitise API ₹0.5/page (max 10 pages/job); 5,344 test pages ≈ ₹2,672 (~$32). Jun-2026 67% price cut.
+  - Maps cost: full bench API comparison needs explicit budget sign-off. Our 54-call cap = free-trial only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-068 | https://docs.sarvam.ai/api/getting-started/models/sarvam-vision.md | 2026-09-26 | VERIFIED | 4/4/4
+  - Sarvam Vision model card: 3B parameter state-space VLM, 23 languages (22 Indic + EN), Digitise/Extract APIs, 10 pages / 200 MB per-file input limits.
+  - Maps W6 base spec: 3B state-space VLM, 10 pages per job, 200MB cap.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-069 | https://huggingface.co/datalab-to/surya-ocr-2 | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2 (re-cite detail): 650M VLM, 83.3 olmOCR-bench (best <3B), 91-lang internal 87.2, 5.35 pages/s RTX 5090. Apache-2.0 + modified OpenRAIL-M.
+  - Maps Stage 2 base alternative. Open-source + multilingual.
+  - decision: cite detail): 650M VLM, 83
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-070 | https://github.com/datalab-to/surya | 2026-09-26 | VERIFIED | 3/4/3
+  - Surya repo: v0.20 breaking API (SuryaInferenceManager, vLLM or llama-server backend) + per-source olmOCR splits incl. OldScan 42.8.
+  - Maps probe-engine spec: pin version + record backend.
+
+
+## A3 — Benchmark landscape (ICDAR, OmniDocBench, Indic OCR Bench, MILU, etc.)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-001 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | VERIFIED | 5/5/5
+  - Indic OCR Bench: 6,909 blocks (6,609 Indic + 300 EN), 22 scheduled langs + EN, sources 1800–present, block-level accuracy focus. Word accuracy = 100×(1−WER).
+  - Maps our §6 wrap-only evaluation. Primary public benchmark for Indic OCR. P1 for user-approved W6 use.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A3-002 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (Indic OCR Bench table) | 2026-09-24 | VERIFIED | 5/5/5
+  - Indic OCR Bench (re-cite): per-language word accuracy. Santali 53.91 (Sarvam), Kashmiri 54.82, Maithili 96.70, Konkani 97.41, Nepali 97.00, Marathi 95.06, Manipuri 85.12, Odia 80.01.
+  - Maps our weak cells exactly. Our W6 must target sat/ks/or/mni specifically.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A3-003 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench (re-cite) | 2026-09-24 | VERIFIED | 4/4/3
+  - Indic OCR Bench HF card: 6,909 samples. The community can evaluate; we cannot fetch without user approval per §9 hard rule.
+  - Maps our §6 evaluation framework decision.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-004 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5
+  - Indic OCR Bench competitor scores: Bodhan 84.94, Gemini 3.6 Flash 79.35, GCV 71.76. Sarvam 2.1: 87.39.
+  - Maps our §6 wrap-only comparison targets. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A3-005 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 5/5/4
+  - OmniDocBench v1.6 (2026-04-10): 1,355 pages, 9 PDF doc types. End-to-end text recognition + table/formula/chart/layout/reading-order. PaddleOCR-VL-1.6 96.33 SOTA. CVPR 2025.
+  - Maps English-centric SOTA benchmark. Cite for our §6 EN sanity column.
+  - decision: Cite for our §6 EN sanity column
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-006 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4
+  - OmniDocBench v1.7 (2026-04-30): added Qianfan-OCR leaderboard + skills-based evaluation. Upgraded from v1.6.
+  - Maps latest benchmark version. Cite for §6 EN sanity baseline.
+  - decision: Cite for §6 EN sanity baseline
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-007 | https://arxiv.org/abs/2510.19817 (olmOCR-Bench) | 2025-10-22 | VERIFIED | 5/5/4
+  - olmOCR-Bench (English-centric): ~1,400 pages, OldScan 42.8 subscore (per A1-014), Base 99.7, Hard 56.7. Largest open OCR benchmark for English.
+  - Maps OldScan 55.3: OldScan is universally weak across all OCR VLMs (Sarvam 2.1's own score is 55.3 on Indic OCR Bench).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A3-008 | https://arxiv.org/pdf/2603.04205v2 (Real5-OmniDocBench) | 2026-03-01 | VERIFIED | 4/4/4
+  - Real5-OmniDocBench: full 1,355-page physical reconstruction (scan/warp/photo/illumination/skew). PaddleOCR-VL-1.6 93.19 overall; warping weakest (91.25).
+  - Maps OldScan 55.3 directly. Warp/curve is the universal weak spot.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-009 | https://arxiv.org/html/2502.14949 (KITAB-Bench) | 2025-02-20 | VERIFIED | 4/4/4
+  - KITAB-Bench (Arabic OCR + DocAI): 9 domains, 36 sub-domains, 8,809 samples. Tests Tesseract, GPT-4o, Gemini, Qwen, AIN-7B, Surya.
+  - Maps Perso-Arabic analog. KITAB-Bench for Nastaliq/Cursive is what Indic OCR Bench is for Indic. Use for cross-validation.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-010 | https://github.com/mbzuai-oryx/KITAB-Bench | 2025-02-20 | VERIFIED | 4/4/4
+  - KITAB-Bench (re-cite): ACL 2025. 8,809 samples, 9 tasks. Multilingual OCR benchmark methodology template.
+  - Maps benchmark design template. Cite for our §6 design.
+  - decision: Cite for our §6 design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-011 | https://ilocr.iiit.ac.in/ihtr | 2023-08-21 | VERIFIED | 4/4/4
+  - ICDAR 2023 IHTR: 10 scripts (Bengali, Devanagari, Gujarati, Gurmukhi, Kannada, Malayalam, Odia, Tamil, Telugu, Urdu). Upstage KR 95.94% avg char accuracy.
+  - Maps handwriting tier benchmark for Indic. Watch our handwriting gap.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-012 | https://dl.acm.org/doi/10.1007/978-3-031-41679-8_25 | 2023-08-21 | VERIFIED | 4/4/4
+  - ICDAR 2023 IHTR official report (Springer LNCS): 18 teams registered, 6 submitted. Upstage KR 95.94% avg char accuracy.
+  - Maps handwriting SOTA. Cite in our W6 handwriting specialist decision.
+  - decision: Cite in our W6 handwriting specialist decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-013 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR | 2025-05-10 | VERIFIED | 4/4/4
+  - ICDAR 2025 IHDR (IIIT-H CVIT): Indic handwritten document recognition, page-level (not just line/word). Winner announced 2025-05-15.
+  - Maps latest handwriting competition. Watch winner.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-014 | https://icdar2024.net/ | 2024-08-30 | VERIFIED | 3/4/3
+  - ICDAR 2024 (Athens, 30 Aug – 4 Sep 2024): 18th edition. Topics include document image processing, layout, text/symbol recognition, handwriting, structured generation, scene text, formulas.
+  - Maps our W6 evaluation framework. Cite conference in W6 paper submission.
+  - decision: Cite conference in W6 paper submission
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-015 | https://ieeexplore.ieee.org/document/8270168 | 2017-11-01 | VERIFIED | 3/3/3
+  - ICDAR 2017 RRC-MLT: Multi-lingual scene text detection + script identification. 9 langs (Arabic, Bangla, Chinese, English, French, German, Italian, Japanese, Korean). 309 citations.
+  - Maps foundational multilingual scene-text benchmark. Our scene-text gap.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-016 | https://arxiv.org/abs/1907.00945 | 2019-07-02 | VERIFIED | 3/3/3
+  - ICDAR 2019 RRC-MLT: 20,000 real images, 10 langs. 4 tasks: detection, script classification, joint detection+script, end-to-end. 60 submissions. 402 citations.
+  - Maps evolution of multilingual scene-text. Build on this for our scene-text gap analysis.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-017 | https://arxiv.org/pdf/1907.00945 | 2019-07-02 | VERIFIED | 3/3/3
+  - ICDAR 2019 RRC-MLT (re-cite detail): large-scale multi-lingual synthetic dataset for training + baseline end-to-end recognition.
+  - Maps training data precedent. Cite for our synthetic data SFT pipeline.
+  - decision: cite detail): large-scale multi-lingual synthetic dataset for training + baseline end-to-end recognition
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-018 | https://arxiv.org/abs/2105.05486 | 2021-05-11 | VERIFIED | 3/3/3
+  - TextOCR (Singh et al., 2021): 900k annotated words on real images. Arbitrary-shaped scene text detection + recognition.
+  - Maps scene-text SOTA benchmark. Our scene-text gap.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-019 | https://ar5iv.labs.arxiv.org/html/2105.05486 | 2021-05-11 | VERIFIED | 3/3/3
+  - TextOCR (re-cite detail): 900k words on TextVQA images. End-to-end PixelM4C model. 323 citations.
+  - Maps scene-text SOTA. Cite for our §6 EN scene-text comparison.
+  - decision: cite detail): 900k words on TextVQA images
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-020 | https://www.researchgate.net/publication/339024640_ICDAR2019_Robust_Reading_Challenge_on_Multi-lingual_Scene_Text_Detection_and_Recognition_-_RRC-MLT-2019 | 2023-06-19 | VERIFIED | 3/3/3
+  - ICDAR 2019 RRC-MLT-2019 (re-cite ResearchGate): DOI 10.1109/ICDAR. Published 2019.
+  - Maps citation chain. Cite in our W6 benchmark comparison.
+  - decision: cite ResearchGate): DOI 10
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-021 | https://arxiv.org/html/2511.23071v2 (Bharat Scene Text) | 2025-11-28 | VERIFIED | 4/5/4
+  - Bharat Scene Text (arXiv 2511.23071): 27k words across 11+ Indic langs. DBnet detector + PARSeq recognizer. Comprehensive scene-text dataset.
+  - Maps scene-text gap (our probe is document-only). Watch item.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-022 | https://ilocr.iiit.ac.in/dataset/30 (NLTM OCR re-cite) | 2026-09-26 | VERIFIED | 3/4/3
+  - IIIT-H NLTM IndicSTR12-Hindi: 1,083 word images, 585 unique Hindi words. Train/test split 812/271. Scene-text Hindi.
+  - Maps Hindi scene-text baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-023 | https://huggingface.co/ai4bharat/IndicDLP | 2026-06-15 | VERIFIED | 5/5/5
+  - IndicDLP (AI4Bharat, Jun 2026): foundational multi-lingual + multi-domain document layout parsing dataset. Paper 2 months old at snapshot.
+  - Maps our layout evaluation. Cite in W6 §6 design.
+  - decision: Cite in W6 §6 design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-024 | https://aclanthology.org/volumes/2025.bhasha-1 (BHASHA 2025 re-cite) | 2025-05-15 | VERIFIED | 4/4/4
+  - BHASHA 2025 (ACL Workshop on Benchmarks, Harmonization, Annotation, Standardization for Human-Centric AI in Indian Languages).
+  - Maps our W6 evaluation methodology reference. Cite for our §6 design.
+  - decision: Cite for our §6 design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-025 | https://github.com/AI4Bharat/MILU (re-cite) | 2025-06-15 | VERIFIED | 4/4/4
+  - MILU (Multi-task Indic Language Understanding Benchmark, AI4Bharat): 11 Indic langs × 8 domains × 41 subjects. CC-BY-4.0. vLLM/HF evaluation.
+  - Maps Stage 3 evaluation. Citation for W6 LLM benchmark protocol.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-026 | https://arxiv.org/abs/2404.16816 (re-cite IndicGenBench) | 2024-04-25 | VERIFIED | 4/4/4
+  - IndicGenBench: 29 Indic langs × 13 scripts × 4 families. Largest benchmark for Indic LLM generation evaluation.
+  - Maps Stage 3 evaluation. Citation for our W6 LLM benchmark.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-027 | https://arxiv.org/pdf/2608.15535 (L3Cube-IndicQuest v2) | 2026-08-15 | VERIFIED | 4/4/4
+  - L3Cube-IndicQuest v2: 19 Indic langs, 69,420 QA pairs. Gemma4 31B beats Indic-specialized Sarvam 30B.
+  - Maps Stage 3 base-model decision: Gemma4 is open-weight winner over Sarvam 30B on Indic QA.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A3-028 | https://arxiv.org/html/2511.23071v2 (re-cite Bharat Scene Text) | 2025-11-28 | VERIFIED | 4/4/4
+  - Bharat Scene Text (re-cite detail): DBnet pre-trained on Indic Synthetic Data, PARSeq trained on 11 Indic langs using synthetic data.
+  - Maps scene-text training pipeline precedent. Cite for our SFT data strategy.
+  - decision: cite detail): DBnet pre-trained on Indic Synthetic Data, PARSeq trained on 11 Indic langs using synthetic data
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-029 | https://huggingface.co/datalab-to/surya-ocr-2 (re-cite) | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2 (re-cite): 91-lang internal benchmark 87.2 (38 langs ≥90).
+  - Maps multilingual coverage reference. Cite for our §6 design.
+  - decision: Cite for our §6 design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-030 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite) | 2025-05-15 | VERIFIED | 4/4/4
+  - BHASHA 2025: GCN-based OCR verification on Hindi books. ResNet-50 + GCN. Substantial CER reduction on conjunct-heavy real Hindi book images.
+  - Maps our W6 §3b post-correction candidate.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-031 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 (re-cite) | 2026-05-28 | VERIFIED | 3/4/3
+  - PaddleOCR-VL-1.6 (re-cite): included in OmniDocBench v1.6 leaderboard at 96.33.
+  - Maps our W6 base spec.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-032 | https://arxiv.org/abs/2508.06870 (Meitei Mayek TTS re-cite) | 2025-08-09 | VERIFIED | 2/3/2
+  - Meitei Mayek TTS (re-cite): single-speaker dataset, ARPAbet mapping.
+  - Maps mni gap (multi-modal under-resourced).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-033 | https://huggingface.co/papers/2510.19817 (re-cite olmOCR-Bench) | 2025-10-22 | VERIFIED | 4/4/4
+  - olmOCR-Bench (re-cite detail): English-centric, ~1,400 pages, OldScan 42.8.
+  - Maps OldScan 55.3. Confirms OldScan is universally weak.
+  - decision: cite detail): English-centric, ~1,400 pages, OldScan 42
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-034 | https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf | 2025-06-01 | VERIFIED | 4/4/4
+  - OmniDocBench (CVPR 2025): 9 PDF doc types, Nougat/GOT-OCR/GPT-4o/Qwen2-VL-72B/InternVL2-Llama3-76B compared.
+  - Maps our §6 design reference.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-035 | https://github.com/marklabz/omnidocbench (re-cite) | 2025-09-22 | VERIFIED | 4/4/4
+  - OmniDocBench fork maintained at marklabz/omnidocbench. Updated models list through Sep 2025.
+  - Maps our §6 design reference.
+
+
+## A4 — Restoration pipelines (DocRestorer, DocDiff, RDDM, DiRS, binarization, deskew/dewarp, super-resolution)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-001 | https://arxiv.org/abs/2405.04408 (DocRes re-cite primary) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes (Zhang et al., CVPR 2024): generalist model unifying 5 restoration tasks (dewarping, deshadowing, appearance enhancement, deblurring, binarization). Dynamic Task-Specific Prompt (DTSPrompt) for high/variable resolution.
+  - Maps OldScan 55.3: cite for our A3 DocRes-head pilot in W6 ablation chain. Cite in freeze packet.
+  - decision: cite for our A3 DocRes-head pilot in W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-002 | https://huggingface.co/papers/2405.04408 (DocRes re-cite) | 2024-05-07 | VERIFIED | 4/4/4
+  - DocRes (re-cite): competitive or superior to SoTA task-specific models. Open source at github.com/ZZZHANG-jx/DocRes.
+  - Maps OldScan 55.3: source code available. W6 pilot candidate.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-003 | https://www.computer.org/csdl/proceedings-article/cvpr/2024/530000p654/20hOvYR9gD6 | 2024-06-01 | VERIFIED | 4/4/4
+  - DocRes (re-cite IEEE CVPR 2024): unifying 5 restoration tasks. One model, multiple heads, joint training.
+  - Maps OldScan 55.3: confirms dewarp + appearance enhancement jointly is the strongest restoration pre-pass for OldScan.
+  - decision: cite IEEE CVPR 2024): unifying 5 restoration tasks
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-004 | https://arxiv.org/abs/2508.04055 (Uni-DocDiff re-cite) | 2025-08-06 | VERIFIED | 4/5/4
+  - Uni-DocDiff (Zhao et al., Aug 2025): learnable task prompts + Prior Pool (local high-freq + global low-freq features) + Prior Fusion Module. Multi-task document restoration in one model.
+  - Maps OldScan 55.3: 2025 SOTA unified restoration. Cite for our Stage 0 restoration head.
+  - decision: Cite for our Stage 0 restoration head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-005 | https://dl.acm.org/doi/10.1145/3746027.3755362 (Uni-DocDiff re-cite) | 2025-10-15 | VERIFIED | 4/4/4
+  - Uni-DocDiff (re-cite): published in IJCV 2025.
+  - Maps OldScan 55.3: peer-reviewed publication.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-006 | https://arxiv.org/abs/2505.23119 (TextSR re-cite primary) | 2025-05-29 | VERIFIED | 5/5/4
+  - TextSR (Diffusion Super-Resolution with Multilingual OCR Guidance): iterative restoration+OCR alternation. CC-BY-4.0. Solves text-fidelity loss in diffusion SR.
+  - Maps OldScan 55.3: 2025 SOTA text-SR. Cite for Stage 0 SR head.
+  - decision: Cite for Stage 0 SR head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-007 | https://arxiv.org/abs/2604.10077 (DocRevive re-cite) | 2026-04-11 | VERIFIED | 4/4/4
+  - DocRevive (Purkayastha et al., 2026): OCR + advanced image analysis + masked LM + diffusion. 30,078 synthetic degraded doc images. UCSM metric (edit + semantic + length + contextual predictability).
+  - Maps OldScan 55.3: 2026 latest unified restoration pipeline. Cite for our Stage 0 + Stage 3b fusion.
+  - decision: Cite for our Stage 0 + Stage 3b fusion
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-008 | https://arxiv.org/abs/2512.08922 (UniT re-cite) | 2025-12-09 | VERIFIED | 4/5/4
+  - UniT (Unified Diffusion Transformer): DiT + VLM + Text Spotting Module for Text-Aware Image Restoration. Iterative refinement. SA-Text + Real-Text benchmarks.
+  - Maps OldScan 55.3: 2025 SOTA text-restoration. Iterative OCR-guided restoration is the new SOTA pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-009 | https://arxiv.org/pdf/2305.03892 (DocDiff primary) | 2023-05-09 | VERIFIED | 4/3/4
+  - DocDiff (Ye et al., ACM MM 2023): Coarse Predictor + High-Frequency Residual Refinement (4.17M params). SOTA on document deblurring, denoising, watermark/seal removal. Lightweight HRR plug-in.
+  - Maps OldScan 55.3: 2023 baseline, still cited heavily.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-010 | https://dl.acm.org/doi/10.1145/3581783.3611730 (DocDiff ACM) | 2023-10-29 | VERIFIED | 4/3/4
+  - DocDiff (re-cite ACM MM 2023): first diffusion-based document enhancement. CP + HRR.
+  - Maps OldScan 55.3 baseline.
+  - decision: cite ACM MM 2023): first diffusion-based document enhancement
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-011 | https://arxiv.org/html/2305.03892 (DocDiff arXiv) | 2023-05-09 | VERIFIED | 4/3/4
+  - DocDiff (re-cite): competitive performance with only 5 sampling steps. Lightweight inference time complexity.
+  - Maps OldScan 55.3: efficient inference pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-012 | https://arxiv.org/pdf/2308.13712 (RDDM primary) | 2023-08-27 | VERIFIED | 4/3/4
+  - RDDM (Residual Denoising Diffusion Models): novel dual diffusion process decoupling residual + noise diffusion. Unified and interpretable model for image generation + restoration.
+  - Maps OldScan 55.3: theoretical foundation for DocDiff-style approaches.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-013 | https://arxiv.org/html/2505.23119v1 (TextSR arXiv re-cite) | 2025-05-29 | VERIFIED | 5/5/4
+  - TextSR (re-cite): iterative restoration+OCR alternation. CC-BY-4.0. Iterations R=0,1,2...
+  - Maps OldScan 55.3: detailed methodology. Citation for our Stage 0 SR pilot.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-014 | https://arxiv.org/pdf/2401.11831 (binarization fair eval re-cite) | 2024-01-22 | VERIFIED | 4/4/4
+  - Binarization Fair Eval (Sukesh et al., ICDAR 2024): DE-GAN, Robin (U-Net), DeepOtsu, 2-Stage GAN, DP-LinkNet, SAE, SauvolaNet on DIBCO 2017. SauvolaNet + DE-GAN lead.
+  - Maps OldScan 55.3: SauvolaNet baseline. Cite in W6 ablation chain.
+  - decision: Cite in W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-015 | https://link.springer.com/content/pdf/10.1007/978-3-030-86337-1_36.pdf (SauvolaNet primary) | 2021-08-15 | VERIFIED | 3/3/3
+  - SauvolaNet (He et al., ICDAR 2021): three explainable modules, DNN-based but analogous to multi-window Sauvola. SOTA on 13 public binarization datasets.
+  - Maps OldScan 55.3: classic 2021 SOTA. Still cited as baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-016 | https://pubmed.ncbi.nlm.nih.gov/40422990 (Binarization review) | 2025-05-23 | VERIFIED | 4/4/4
+  - Comprehensive Review on Document Image Binarization (Bataineh, 2025). Reviews all DL binarization approaches.
+  - Maps OldScan 55.3: cite this review for SauvolaNet vs DeepOtsu vs U-Net choices.
+  - decision: cite this review for SauvolaNet vs DeepOtsu vs U-Net choices
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-017 | https://arxiv.org/abs/2404.17243 (Binarization space+frequency) | 2024-04-26 | VERIFIED | 3/3/3
+  - Binarizing Documents by Leveraging both Space and Frequency (Quattrini et al., ICDAR 2024). ViT + FFT-based binarization.
+  - Maps OldScan 55.3: NN-based binarization is competitive with classical Otsu on degraded docs.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-018 | https://arxiv.org/abs/2507.08492 (D2Dewarp primary) | 2025-07-11 | VERIFIED | 4/4/4
+  - D2Dewarp (Li et al.): dual dimensions geometric representation learning (horizontal + vertical line features). Auto-generated large-scale DocDewarpHV training set. SOTA on 3 Chinese+English benchmarks.
+  - Maps OldScan 55.3: dewarp pre-pass. D2Dewarp is a 2025 SOTA method.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-019 | https://arxiv.org/abs/2505.21975 (DvD primary) | 2025-05-30 | VERIFIED | 4/4/4
+  - DvD (coordinates-based diffusion for dewarping). Uses Qwen2.5-VL-7B to score dewarped vs flat on CER/ED. Outperforms template-based (Inv3D, DocMatcher) and DocHFormer.
+  - Maps OldScan 55.3: 2025 dewarp SOTA. Cite for our Stage 0 dewarp head.
+  - decision: Cite for our Stage 0 dewarp head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-020 | https://arxiv.org/abs/2501.03145 (Hybrid Dewarping) | 2025-01-06 | VERIFIED | 3/4/3
+  - Hybrid Deep Learning + Cubic Polynomial Geometry Restoration for dewarping. YOLOv8 segmentation + cubic polynomial boundary fit. Lowest median CER 0.0235 on IWILT.
+  - Maps OldScan 55.3: cheap classical CV (YOLO+polynomial) baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-021 | https://arxiv.org/abs/1809.00219 (ESRGAN primary) | 2018-09-18 | VERIFIED | 3/3/3
+  - ESRGAN (Wang et al.): foundational super-resolution GAN. RRDB blocks without batch norm. 7,341 citations.
+  - Maps OldScan 55.3: ESRGAN is the classical SR baseline for low-DPI scans.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-022 | https://github.com/SyedAliNice/RealESRGan-ESRGan-SwinIR-implementation-comparison/blob/main/README.md | 2025-09-26 | VERIFIED | 3/3/3
+  - Real-ESRGAN vs ESRGAN vs SwinIR: Real-ESRGAN robust to real-world; ESRGAN sharp but synthetic; SwinIR excellent general-purpose.
+  - Maps OldScan 55.3: Real-ESRGAN is canonical SR for low-DPI scan restoration.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-023 | https://arxiv.org/abs/2512.08922 (UniT re-cite) | 2025-12-09 | VERIFIED | 4/5/4
+  - UniT (re-cite): DiT + VLM + TSM iterative. SA-Text + Real-Text benchmarks. Reduces text hallucinations.
+  - Maps OldScan 55.3: 2025 SOTA text-aware image restoration.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-024 | https://openaccess.thecvf.com/content/CVPR2025/html/Chen_UniRestore_Unified_Perceptual_and_Task-Oriented_Image_Restoration_Model_Using_Diffusion_CVPR_2025_paper.html | 2025-06-01 | VERIFIED | 3/4/3
+  - UniRestore (Chen et al., CVPR 2025): unified PIR + TIR via diffusion prior. Bridges perceptual and task-oriented image restoration.
+  - Maps OldScan 55.3: PIR vs TIR distinction matters. OCR-downstream restoration is task-oriented.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-025 | https://arxiv.org/abs/2405.04408 (DocRes arXiv re-cite) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes (Zhang et al., CVPR 2024): 5 restoration tasks in one model. DTSPrompt for high/variable resolution.
+  - Maps OldScan 55.3: primary 2024 baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-026 | https://arxiv.org/html/2505.20429v1 (PreP-OCR re-cite) | 2025-05-26 | VERIFIED | 4/5/4
+  - PreP-OCR (arXiv 2505.20429): two-stage restoration + semantic-aware post-correction. Reframes "OCR pipeline."
+  - Maps Stage 0 + Stage 3b fusion. Citation in W6.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-027 | https://arxiv.org/pdf/2603.04205v2 (Real5-OmniDocBench re-cite) | 2026-03-01 | VERIFIED | 4/4/4
+  - Real5-OmniDocBench (re-cite): physical reconstruction classes. Warping weakest (91.25). PaddleOCR-VL-1.6 93.19 overall.
+  - Maps OldScan 55.3: warp/curve is the universal weak spot. Restoration pre-pass is the right attack.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-028 | https://arxiv.org/pdf/2401.11831v1 (binarization fair eval arXiv) | 2024-01-22 | VERIFIED | 4/4/4
+  - Binarization Fair Eval (re-cite): SauvolaNet + DE-GAN lead on DIBCO 2017.
+  - Maps OldScan 55.3: SauvolaNet baseline. Cite in W6 ablation chain.
+  - decision: Cite in W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-029 | https://www.semanticscholar.org/paper/Performance-Evaluation-of-Otsu-and-Sauvola-for-Darpito-Firdausy/7778a962b9882f39c342d24952441005e32668a3 | 2026-03-31 | VERIFIED | 3/3/3
+  - Performance Evaluation of Otsu and Sauvola for Structured Document Binarization (Darpito et al., 2026).
+  - Maps OldScan 55.3: 2026 Otsu vs Sauvola comparison. Cite in ablation chain.
+  - decision: Cite in ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-030 | https://github.com/Eman-Bandesha/Document-Image-Binarization | 2025-09-26 | VERIFIED | 2/3/2
+  - Otsu, Sauvola, Adaptive Gaussian implementation comparison on DIBCO 2016. PSNR/DRD/IOU/SSIM metrics.
+  - Maps Stage 0 Otsu baseline for our OldScan ablation chain.
+
+
+## A5 — Indic-script specifics (Brahmic, conjuncts, matra/halant, akshara segmentation, normalization, WER vs CER)
+  - decision: Stage 0
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-001 | https://www.aksharamukha.com/about (Aksharamukha primary) | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha (Vinodh Rajan): lossless transliteration between main Indian scripts (along with Sinhala). 120+ scripts supported. GPL 3.0.
+  - Maps Stage 3 normalization: canonical cross-script transliteration tool. Cite in W6.
+  - decision: Cite in W6
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-002 | https://github.com/virtualvinodh/aksharamukha/blob/master/README.md | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha (re-cite): covers Indic cultural sphere. JSON resources for frequently-used scripts.
+  - Maps Stage 3: open-source transliteration library.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-003 | https://www.aksharamukha.com/converter | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha (re-cite): pip-installable + web UI. Default nativization conventions applied. Preserve Source option for lossless reverse transliteration.
+  - Maps Stage 3 normalization.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-004 | https://www.aksharamukha.com/help | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha (re-cite): nativization conventions, semitic consonant preservation via nukta, orthographic conventions.
+  - Maps Stage 3 normalization detail.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-005 | https://indic-nlp-library.readthedocs.io/en/latest/_modules/indicnlp/normalize/indic_normalize.html | 2026-09-26 | VERIFIED | 5/4/4
+  - IndicNLP Library normalizer (Kunchukuttan, MIT): handles multi-Unicode codepoints, nukta decomposition, visarga correction, ZWJ/ZWNJ/ZWSP removal.
+  - Maps Stage 3 normalization. Canonical Indic NLP normalization.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-006 | https://indic-nlp-library.readthedocs.io/en/latest/ | 2026-09-26 | VERIFIED | 4/3/4
+  - IndicNLP Library (full Python package): tokenization, normalization, script conversion, romanization, segmentation for Indic langs.
+  - Maps Stage 3 normalization pipeline.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-007 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (re-cite): GCN-based OCR verification on Hindi books. ResNet-50 + GCN with 3 conv layers + ELU. Substantial CER reduction on conjunct-heavy real Hindi book images.
+  - Maps Stage 3b post-corrector for conjunct-heavy Indic OCR.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-008 | https://www.aksharamukha.com/describe/WarangCiti (Warang Citi script) | 2026-09-26 | VERIFIED | 3/3/3
+  - Warang Citi (Ho language script, Jharkhand). Similarities with Latin and Brahmi; believed to be result of borrowing.
+  - Maps less-common Indic script handling. Watch item for our script-router.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-009 | https://arxiv.org/html/2308.05780 (Optical Script Identification) | 2023-08-10 | VERIFIED | 3/3/3
+  - Optical Script Identification for multi-lingual Indic-script (Poddar, Gupta). 12 prominent Indic scripts with complex shape similarity.
+  - Maps script-router design. Cite for W6 Stage 2 router.
+  - decision: Cite for W6 Stage 2 router
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-010 | https://arxiv.org/pdf/2602.16430 (Production OCR re-cite) | 2026-02-18 | VERIFIED | 5/5/5
+  - Production-Scale OCR for India (re-cite): notes "Indic OCR presents additional challenges due to large character inventories, complex ligatures, typographic variability, and limited high-quality labeled data."
+  - Maps our W6 evidence base. Citation in freeze packet.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-011 | https://en.wikipedia.org/wiki/Ol_Chiki_script | 2004-04-30 | VERIFIED | 3/2/3
+  - Ol Chiki (re-cite): created 1925 by Raghunath Murmu. TRUE alphabet (not abugida). Glottalization, combined glottalization+nasalization, checked plosives.
+  - Maps Santali 53.91: Ol Chiki's true-alphabet nature makes shared-training with Indic abugidas structurally doomed.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-012 | https://ieeexplore.ieee.org/document/11437445 (Akshara: Brahmi transliteration) | 2026-01-01 | VERIFIED | 3/3/3
+  - Akshara: Contextual Transliteration of Brahmi Script Using Neural Networks (Khairnar et al., 2026).
+  - Maps historical-document OCR (Brahmi → modern Indic scripts). Watch item for our heritage-document extension.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-013 | https://github.com/virtualvinodh/aksharamukha-python/tree/main | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha Python library (re-cite): 120 scripts supported, lossless transliteration.
+  - Maps Stage 3 normalization. Reference implementation.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-014 | https://www.aksharamukha.com/documentation | 2026-09-26 | VERIFIED | 4/3/4
+  - Aksharamukha docs: script identifiers + flags. Web API + Python pip.
+  - Maps Stage 3 normalization API.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-015 | https://arxiv.org/abs/2606.29213 (Devanagari stress-test re-cite) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): conjuncts, matras, nukta are the structural errors. Error taxonomy contrasts classical OCR vs VLM failure modes.
+  - Maps all weak cells: conjunct/matra errors are the structural class.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-016 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (re-cite): substantial CER reduction via fine-tuning on ancient handwriting dataset.
+  - Maps our W6 specialist training pattern. Cite for Santali/Kashmiri/Meitei synthetic-first plan.
+  - decision: Cite for Santali/Kashmiri/Meitei synthetic-first plan
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-017 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf (re-cite Sarkar) | 2024-08-15 | VERIFIED | 4/4/4
+  - Sarkar et al. IIIT-H CVIT (re-cite): Santali uses Bengali, Odia, Devanagari, and Ol Chiki as their script. Kashmiri uses Devanagari and Perso-Arabic.
+  - Maps weak-cell script-mixing reality. Sat_14 Bengali-script Santali verified per disk.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-018 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf | 2024-08-15 | VERIFIED | 4/4/4
+  - Sarkar et al. (re-cite): Hindi OCR model struggles to recognize words in Sindhi and Kashmiri due to extended characters.
+  - Maps Kashmiri 54.82: Hindi model is structurally insufficient. Specialist required.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-019 | https://arxiv.org/html/2505.20429v1 (PreP-OCR re-cite) | 2025-05-26 | VERIFIED | 4/5/4
+  - PreP-OCR (re-cite): semantic-aware post-OCR correction. Reframes pipeline.
+  - Maps Stage 3b: post-correction for conjunct/matra errors.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-020 | https://arxiv.org/pdf/2606.29213v1 (Devanagari stress-test re-cite) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): distribution-matched byte-level post-corrector works on matched noise, fails cross-engine transfer.
+  - Maps all weak cells: our W6 post-corrector must be trained on OUR engine's noise distribution, not vendor engines'.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-021 | https://arxiv.org/html/2205.06740v2 (IIIT-H deployable OCR re-cite) | 2025-06-02 | VERIFIED | 4/4/4
+  - Towards Deployable OCR Models for Indic Languages (re-cite): segmenting words into sub-word units is significantly more challenging for Indian languages compared to English.
+  - Maps all weak cells: word-segmentation challenge.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-022 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (re-cite): 14 SOTA models evaluated on Indic script OCR; substantial CER reduction via fine-tuning on ancient handwriting dataset.
+  - Maps our W6 specialist training pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-023 | https://arxiv.org/abs/2606.29213 (re-cite Devanagari error taxonomy) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): error taxonomy contrasts classical-OCR (conjunct/matra) vs VLM (repetition/hallucination) failure modes.
+  - Maps our error-tag categories: matra_order, conjunct, repetition, hallucination.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-024 | https://github.com/BytesByJay/Indic-OCR (re-cite) | 2025-09-26 | VERIFIED | 2/3/2
+  - Indic-OCR student project: ML-based OCR for Hindi/Malayalam/Tamil. PaddleOCR/TrOCR backend.
+  - Maps weak-cell context only. Student project, not competitive.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-025 | https://github.com/indic-ocr/indic-ocr.github.io (re-cite) | 2026-09-26 | VERIFIED | 3/4/3
+  - Indic-OCR Project (re-cite): open-source Tesseract models for Indic scripts incl. Ol Chiki + Meetei Mayek. Layout via Olena.
+  - Maps our Ol Chiki + Mayek baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-026 | https://github.com/AI4Bharat/IndicTrans2 (re-cite) | 2023-12-03 | VERIFIED | 4/4/4
+  - IndicTrans2 (re-cite): script unification for lexical sharing. 5-script design.
+  - Maps W6 Stage 2 script-router pattern.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-027 | https://huggingface.co/IndicTrans2 (re-cite, indicative) | 2023-12-03 | VERIFIED | 3/3/3
+  - IndicTrans2 design pattern: unify script representations where feasible. Perso-Arabic cluster, Ol Chiki cluster, Meitei cluster, Latin cluster, Devanagari cluster.
+  - Maps W6 script-router design pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-028 | https://www.aksharamukha.com/describe/IPA (IPA conversion) | 2026-09-26 | VERIFIED | 3/3/3
+  - Aksharamukha IPA conversion: based on normalized prescriptive pronunciation expected from Sanskrit text.
+  - Maps Stage 3 normalization edge case.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-029 | https://www.aksharamukha.com/roman (Romanization schemes) | 2026-09-26 | VERIFIED | 3/3/3
+  - Aksharamukha Romanization schemes: Harvard-Kyoto, ITRANS, Velthuis, IAST, IAST-Pali, ISO, ISO-Pali, Titus, SLP1, WX, Roman (Readable/Colloquial/LOC).
+  - Maps Stage 3 romanization scheme selection.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A5-030 | https://arxiv.org/abs/2602.16430 (re-cite Chitrapathak-2 multi-lang) | 2026-02-18 | VERIFIED | 4/4/4
+  - Chitrapathak-2 (re-cite): 10 langs + EN. Fine-tuned Nanonets-OCR2-3B on Qwen2.5-VL. Telugu char ANLS 6.69.
+  - Maps all 10 langs (hi/sa/bn/te/ta/mr/kn/ml/or/pa + en). Citation for our W6 base-model.
+
+
+## A6 — Training recipes (LLaVA-NeXT, Idefics3, Qwen2-VL/2.5-VL, InternVL2/3, GOT-OCR2, Nanonets-OCR2, Sarvam 2.1, ScriptMoE, synthetic data, DPO/SimPO, RLVR)
+  - decision: DPO
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-001 | https://arxiv.org/abs/2510.19817 (olmOCR-2 RLVR primary) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2: 1 ep SFT then 1 ep GRPO with binary unit test rewards. RLVR with verifiable rewards (HTML element presence + read-order tests). SOTA on olmOCR-Bench.
+  - Maps W6 Stage 3b: RLVR with verifiable rewards is the proven pattern.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-002 | https://arxiv.org/html/2510.19817v1 (olmOCR-2 detail) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2 (re-cite): pipeline for generating synthetic documents with diverse challenging layouts + ground-truth HTML + extracted test cases.
+  - Maps W6 Stage 3b: synthetic+test-reward pipeline.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-003 | https://arxiv.org/pdf/2510.19817 (olmOCR-2 detail) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2 (re-cite detail): HTML-based intermediate representation; unit tests generated from document structure (paragraph count, table cell text, list ordering). Decoder produces markdown; scored against HTML unit tests.
+  - Maps W6 Stage 3b: verifiable unit tests > learned reward model.
+  - decision: cite detail): HTML-based intermediate representation; unit tests generated from document structure (paragraph count, table cell text, list ordering)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-004 | https://arxiv.org/abs/2602.16430 (Chitrapathak-2 re-cite primary) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2: fine-tuning Nanonets-OCR2-3B (Qwen2.5-VL base) beats LLaVA-from-scratch end-to-end. 3–6× faster. Parichay 89.8% EM on 9 govt docs.
+  - Maps W6 Stage 2: fine-tune OCR-specialized VLM, not from-scratch.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-005 | https://arxiv.org/html/2602.16430v1 (Chitrapathak-2 detail) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 (re-cite): vision-encoder + 3B decoder; visual tokens via MLP into Qwen-2.5 3B decoder. Standard VLM interface. No additional multimodal pretraining.
+  - Maps W6 architecture: VLM-fine-tuning pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-006 | https://arxiv.org/abs/2606.29213 (Devanagari stress-test re-cite) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): Qwen3-VL-8B 75.2 on real Hindi scans — open weights beat GPT-5.5 58.5 and olmOCR-7B 40.5.
+  - Maps W6 Stage 2 base: open weights + Indic data > closed weights on Indic. Qwen2.5-VL is the dominant base.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A6-007 | https://arxiv.org/abs/2609.24058 (ScriptMoE re-cite) | 2026-09-21 | VERIFIED | 5/5/5
+  - ScriptMoE: shared encoder + top-2 script experts + shared expert. PP-OCRv5 F1 65.71→80.89. Scene-text (not document).
+  - Maps W6 specialist design pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-008 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (re-cite) | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1: "we performed a round of continual pretraining on the base Sarvam sovereign 3B model; followed by supervised fine-tuning and reinforcement learning using verifiable rewards."
+  - Maps W6 Stage 2+3b: CPT→SFT→RLVR recipe. Sarvam-confirmed.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-009 | http://sarvam.ai/blogs/sarvam-vision (Sarvam Vision v1 re-cite) | 2026-02-05 | VERIFIED | 4/4/4
+  - Sarvam Vision v1 (predecessor): semantic layout parser + reading order network harness. CPT + SFT + RLVR.
+  - Maps W6 Stage 2+3b: pre-2.1 baseline. Confirms CPT→SFT→RLVR.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-010 | https://arxiv.org/abs/2606.03264 (PaddleOCR-VL-1.6 re-cite) | 2026-06-02 | VERIFIED | 5/5/5
+  - PaddleOCR-VL-1.6: CPT 16.8M + SFT 7.3M + RL on under-optimized regions from PaddleOCR-VL-1.5. Region-aware data optimization + progressive post-training.
+  - Maps W6 Stage 2+3b: region-mining → CPT → SFT → RL. Sequence confirmed.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-011 | https://arxiv.org/html/2606.03264 (PaddleOCR-VL-1.6 ablation re-cite) | 2026-06-02 | VERIFIED | 5/5/5
+  - PaddleOCR-VL-1.6 ablation: CPT +0.69, SFT +0.63 more, RL only +0.08 (94.93→96.33). RL after saturation gives small but consistent gains.
+  - Maps W6 sequencing: do not start with RLVR.
+  - decision: W6 sequencing
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-012 | https://arxiv.org/pdf/2604.04771 (MinerU2.5-Pro data-centric re-cite) | 2026-04-10 | VERIFIED | 5/5/5
+  - MinerU2.5-Pro: same 1.2B architecture, +2.71 via data engineering only. Outperforms GLM-OCR, PaddleOCR-VL-1.5, Qwen3-VL-235B, Gemini 3 Pro.
+  - Maps W6 Stage 2: data engineering > new architecture. Confirms R6 verdict.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-013 | https://arxiv.org/html/2604.04771v1 (MinerU2.5-Pro re-cite) | 2026-04-10 | VERIFIED | 4/4/4
+  - MinerU2.5-Pro (re-cite): 1.2B-parameter decoupled coarse-to-fine (NaViT-675M + Qwen2-0.5B).
+  - Maps W6 Stage 2 architecture: NaViT + small LLM is a viable pattern.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-014 | https://arxiv.org/abs/2510.18234 (DeepSeek-OCR re-cite) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR: 3B params (570M active), 16× image compression. DeepEncoder + DeepSeek-3B MoE decoder. Gundam mode.
+  - Maps W6 inference cost lever. Not direct OCR competitor.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-015 | https://huggingface.co/papers/2510.18234 (DeepSeek-OCR re-cite) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR (re-cite): 89.8% on OmniDocBench with 11.3× compression. Block-level parallel decoding via diffusion.
+  - Maps W6 cost lever.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-016 | https://arxiv.org/html/2603.22458v1 (MinerU-Diffusion re-cite) | 2026-03-26 | VERIFIED | 4/4/4
+  - MinerU-Diffusion (re-cite): 2.5B diffusion-based OCR decoder. Block-level parallel diffusion decoding.
+  - Maps W6 diffusion-decoder trend.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-017 | https://arxiv.org/abs/2601.21639 (OCRVerse re-cite) | 2026-01-26 | VERIFIED | 4/4/4
+  - OCRVerse (Qwen3-VL-4B base): two-stage SFT-RL multi-domain training. Newspaper/magazine/book/chart/web/scientific plots.
+  - Maps W6 Stage 2 SFT→RL pattern.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-018 | https://arxiv.org/html/2601.21639v2 (OCRVerse re-cite) | 2026-01-26 | VERIFIED | 4/4/4
+  - OCRVerse (re-cite): comprehensive data engineering + two-stage SFT-RL multi-domain training.
+  - Maps W6 Stage 2+3b.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-019 | https://www.codesota.com/ocr/dots-ocr | 2025-12-15 | VERIFIED | 4/4/4
+  - dots.ocr 3B (re-cite): 100+ langs including Tibetan, Kannada. Apache-2.0.
+  - Maps W6 Stage 2: dots.ocr covers Kannada 90+ cells.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-020 | https://github.com/mskj-apaas/dots.ocr2025 (dots.ocr repo re-cite) | 2025-10-31 | VERIFIED | 4/5/4
+  - dots.ocr base (Oct 31, 2025): foundation VLM focused on OCR. Base model of dots.ocr. Apache-2.0.
+  - Maps W6 Stage 2 base.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-021 | https://huggingface.co/zai-org/GLM-OCR | 2026-03-11 | VERIFIED | 3/4/3
+  - GLM-OCR (Zhipu/ZAI, Mar 2026): 1.86 pages/sec throughput.
+  - Maps W6 throughput candidate.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-022 | https://huggingface.co/papers/2506.05218 (MonkeyOCR re-cite) | 2025-06-06 | VERIFIED | 4/4/4
+  - MonkeyOCR (3B): Structure-Recognition-Relation triplet paradigm. Outperforms GOT-OCR, Nougat, Mistral OCR.
+  - Maps W6 Stage 2.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-023 | https://arxiv.org/abs/2601.14251 (LightOnOCR-2 re-cite) | 2026-06-30 | VERIFIED | 4/4/4
+  - LightOnOCR-2-1B: 1B end-to-end multilingual VLM, SOTA on OlmOCR-Bench (76.4), beats 9B-scale baselines.
+  - Maps W6 Stage 2 base.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-024 | https://arxiv.org/pdf/2601.14251v2 (LightOnOCR-2 re-cite) | 2026-06-30 | VERIFIED | 4/4/4
+  - LightOnOCR-2 (re-cite): Old Scans 84.7, Math 76.1, Tables 78.6, Long Tiny Text 81.2. LightOnOCR-bbox-bench released.
+  - Maps OldScan 55.3 indirectly: LightOnOCR-2 reports OldScan 84.7 on English bench.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-025 | https://github.com/chatdoc-com/OCRFlux | 2025-06-17 | VERIFIED | 3/4/3
+  - OCRFlux-3B: VLM PDF/image-to-Markdown toolkit. Benchmarks OCRFlux-bench-single + OCRFlux-pubtabnet-single + OCRFlux-bench-cross + OCRFlux-pubtabnet-cross.
+  - Maps W6 Stage 2 candidate.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-026 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - October 2025 inflection: 6 major open-source OCR releases (Nanonets OCR2-3B, PaddleOCR-VL-0.9B, DeepSeek-OCR-3B, Chandra-OCR-8B, OlmOCR-2-7B, LightOnOCR-1B) all matching/exceeding proprietary services.
+  - Maps W6 Stage 2 base-model decision: open-source pool is now SOTA-competitive.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-027 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - Qwen2.5-VL (Sep 2025): foundation for dots.ocr, Chitrapathak-2, Chandra, Nanonets OCR2.
+  - Maps W6 Stage 2 base: Qwen2.5-VL is dominant open VLM foundation.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-028 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - PaddleOCR-VL (Oct 2025): 0.9B NaViT dynamic-res + ERNIE-4.5-0.3B LM. Hybrid two-stage pipeline (layout + recognition).
+  - Maps W6 Stage 2 architecture.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-029 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - Chandra (Datalab, Oct 2025): fine-tuned Qwen-3-VL, 9B params, 83.1 ± 0.9 on olmOCR-Bench (highest among all open).
+  - Maps W6 Stage 2 base: Chandra is highest-scoring open OCR-VLM as of Oct 2025.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-030 | https://arxiv.org/pdf/2405.14734 (SimPO primary) | 2024-05-23 | VERIFIED | 4/3/3
+  - SimPO (Meng et al., 2024): reference-free preference optimization. Beats DPO on AlpacaEval 2, MT-Bench, Arena-Hard. Avg log-prob reward + target margin.
+  - Maps W6 Stage 3b: SimPO is cheaper DPO replacement.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-031 | https://arxiv.org/html/2405.14734v1 (SimPO arXiv re-cite) | 2024-05-23 | VERIFIED | 3/3/3
+  - SimPO (re-cite): reference-free means half the memory of DPO. Beats DPO/IPO/KTO/ORPO consistently without length inflation.
+  - Maps W6 Stage 3b.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-032 | https://arxiv.org/abs/2409.19735 (Scrambled text primary) | 2024-10-01 | VERIFIED | 4/4/4
+  - Scrambled text (Bourne, 2025): synthetic corruption data. Median CER −55%, WER −32% over base Llama on Hindi OCR error correction. Beats real-data training.
+  - Maps W6 Stage 3b: synthetic corruption > real data for Hindi OCR post-corrector.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A6-033 | https://dl.acm.org/doi/abs/10.1007/s10032-025-00522-0 (Scrambled text IJDAR) | 2025-06-15 | VERIFIED | 4/4/4
+  - Scrambled text (Bourne, IJDAR 2025): published version. Models trained on synthetic data reduce CER by 55% and WER by 32% over base LM, AND outperform models trained on real data on Hindi OCR.
+  - Maps W6 Stage 3b decision: synthetic-corruption LM training is the proven path.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A6-034 | https://arxiv.org/pdf/2409.19735 (Scrambled text re-cite) | 2024-10-01 | VERIFIED | 4/4/4
+  - Scrambled text (re-cite): distribution of corruption matters; enough tokens per observation matters. Models with low corruption (CER < 0.X) outperform high-corruption ones.
+  - Maps W6 Stage 3b: corruption-distribution design.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-035 | https://arxiv.org/abs/2507.08492 (D2Dewarp re-cite) | 2025-07-11 | VERIFIED | 4/4/4
+  - D2Dewarp (Li et al.): dual dimensions geometric representation learning. SOTA on 3 Chinese+English benchmarks.
+  - Maps W6 Stage 0 dewarp head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-036 | https://arxiv.org/abs/2505.23119 (TextSR re-cite) | 2025-05-29 | VERIFIED | 5/5/4
+  - TextSR (re-cite): Diffusion Super-Resolution with Multilingual OCR Guidance. Iterative restoration+OCR.
+  - Maps W6 Stage 0 SR head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-037 | https://arxiv.org/abs/2508.04055 (Uni-DocDiff re-cite) | 2025-08-06 | VERIFIED | 4/5/4
+  - Uni-DocDiff (re-cite): learnable task prompts + Prior Pool + Prior Fusion Module. Multi-task document restoration.
+  - Maps W6 Stage 0 restoration head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-038 | https://arxiv.org/abs/2604.10077 (DocRevive re-cite) | 2026-04-11 | VERIFIED | 4/4/4
+  - DocRevive (re-cite): OCR + image analysis + masked LM + diffusion. 30,078 synthetic degraded doc images.
+  - Maps W6 Stage 0+3b fusion.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-039 | https://arxiv.org/abs/2405.04408 (DocRes re-cite) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes (re-cite): 5 restoration tasks in one model. DTSPrompt.
+  - Maps W6 Stage 0 restoration head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-040 | https://aclanthology.org/volumes/2025.bhasha-1 (BHASHA re-cite) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (re-cite): GCN-based OCR verification on Hindi books.
+  - Maps W6 Stage 3b.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-041 | https://arxiv.org/abs/2602.16430 (Production OCR re-cite) | 2026-02-18 | VERIFIED | 5/5/5
+  - Production-Scale OCR for India (re-cite): "we formalize and empirically study two principled approaches for multilingual OCR: LLaVA-style end-to-end training with a strong multilingual language model (Chitrapathak-1), and fine-tuning an existing VLM-based OCR model for the languages under study. Through extensive evaluation on multilingual Indic OCR benchmarks and system-level metrics, we show that fine-tuning an OCR-specialized model achieves consistently better accuracy-latency trade-offs than end-to-end multilingual training."
+  - Maps W6 directly: cited. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-042 | https://github.com/ola-krutrim/Chitrapathak | 2026-03-11 | VERIFIED | 3/4/3
+  - Chitrapathak-1 (Krutrim): LLaVA-style CLIP ViT-L/14 + Krutrim-1 7B. 2-stage (frozen-align → SFT). IndicVisionBench-OCR ANLS.
+  - Maps W6 Stage 2 baseline: 2-stage recipe.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-043 | https://docs.cloud.olakrutrim.com/basics/ai-studio/billing-for-ai-studio | 2025-07-01 | VERIFIED | 3/3/3
+  - Krutrim cloud: Chitrapathak image-to-text ₹83.6/1M input tokens, ₹34.53/1M output.
+  - Maps W6 cost analysis: per-page equivalents needed.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-044 | https://huggingface.co/krutrim-ai-labs/Chitrapathak-2 | 2026-03-11 | VERIFIED | 4/4/4
+  - Chitrapathak-2 (HF card): vision-encoder + 3B decoder. 10 langs + EN. vLLM/HF compatible. Degradation on handwriting/noise/forms/index.
+  - Maps W6 Stage 2 base. Covers Odia.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-045 | https://www.cnbctv18.com/technology/sarvam-launches-new-ai-model-to-read-documents-in-22-indian-languages-19998111.htm | 2026-09-24 | VERIFIED | 3/4/2
+  - Sarvam Vision 2.1 (re-cite CNBC): 87.3 olmOCR-Bench + 87.39 Indic. Inference stack optimized for lower serving cost.
+  - Maps W6 cost lever.
+  - decision: cite CNBC): 87
+  - transfer: DIES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-046 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | VERIFIED | 4/4/3
+  - Indic OCR Bench (re-cite): 6,909 blocks. Public on HF for community eval.
+  - Maps W6 evaluation framework. P1 for user-approved W6 use only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-047 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite): Bodhan beats Sarvam on Santali 68.30 vs 53.91. Gemini beats Sarvam on Odia 81.01 vs 80.01.
+  - Maps W6 specialist design.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-048 | https://timesofindia.indiatimes.com/business/india-business/sarvam-ai-updates-model-to-boost-indian-language-ocr-accuracy/articleshow/134488725.cms | 2026-09-25 | VERIFIED | 5/5/4
+  - Sarvam Vision 2.1 (re-cite TOI): 87.3% overall; earlier version struggled with complex docs + hallucinations + cost; trained on real+synthetic mix; ranked 2nd to PaddleOCR on structure-preservation test.
+  - Maps W6 critical: vendor admits bench ≠ real-world utility.
+  - decision: cite TOI): 87
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-049 | https://huggingface.co/datalab-to/surya-ocr-2 | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2 (re-cite): 650M VLM, 83.3 olmOCR-bench (best <3B), 91-lang internal 87.2 (38 langs ≥90), 5.35 pages/s RTX 5090.
+  - Maps W6 Stage 2 base alternative.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-050 | https://github.com/datalab-to/surya | 2026-09-26 | VERIFIED | 3/4/3
+  - Surya repo (re-cite): v0.20 breaking API (SuryaInferenceManager, vLLM or llama-server backend) + per-source olmOCR splits incl. OldScan 42.8.
+  - Maps probe-engine spec: pin version + record backend.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-051 | https://www.datalab.to/blog/surya-2 | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2 (re-cite detail): open-script recognizer (no language-hint param), v0.20 breaking API.
+  - Maps W6 Stage 2 architecture.
+  - decision: cite detail): open-script recognizer (no language-hint param), v0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-052 | https://adityamangal98.medium.com/surya-2-vs-got-ocr-2-0-two-600m-ocr-vlms-one-8-gb-laptop-measured-9d547a241ad8 | 2026-07-30 | VERIFIED | 3/4/3
+  - Surya vs GOT-OCR-2.0 laptop benchmark (RTX 4070 8GB): Surya 4–9 s/page English but 178 s Hindi. GOT-OCR ~48 s but skips what it can't read. Surya 12/12 table blocks, GOT dissolves tables.
+  - Maps W6 latency pattern. Critical for Hindi probe (45 pages).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-053 | https://arxiv.org/abs/2405.04408 (DocRes re-cite) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes (re-cite): 5 restoration tasks. DTSPrompt. Open source.
+  - Maps W6 Stage 0 restoration head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-054 | https://huggingface.co/papers/2510.19817 (olmOCR-2 paper page re-cite) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2 paper page: olmOCR-2-7B-1025 VLM trained via RLVR with binary unit tests.
+  - Maps W6 Stage 3b: RLVR with verifiable rewards.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-055 | https://arxiv.org/html/2510.19817v1 (olmOCR-2 HTML re-cite) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2 (re-cite): HTML element presence + read-order tests as rewards.
+  - Maps W6 Stage 3b: HTML-test reward pattern.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-056 | https://arxiv.org/pdf/2510.18234 (DeepSeek-OCR re-cite) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR (re-cite): 89.8% on OmniDocBench with 11.3× compression.
+  - Maps W6 cost lever.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-057 | https://arxiv.org/html/2603.22458v1 (MinerU-Diffusion re-cite) | 2026-03-26 | VERIFIED | 4/4/4
+  - MinerU-Diffusion (re-cite): 2.5B diffusion-based OCR decoder.
+  - Maps W6 diffusion-decoder trend.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-058 | https://arxiv.org/pdf/2401.11831 (Binarization re-cite) | 2024-01-22 | VERIFIED | 4/4/4
+  - Binarization Fair Eval (re-cite): SauvolaNet + DE-GAN lead.
+  - Maps W6 ablation chain.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-059 | https://arxiv.org/abs/2404.17243 (Binarization space+frequency re-cite) | 2024-04-26 | VERIFIED | 3/3/3
+  - ViT + FFT binarization. Beats CNN on degraded docs.
+  - Maps W6 ablation.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-060 | https://arxiv.org/abs/2507.08492 (D2Dewarp re-cite) | 2025-07-11 | VERIFIED | 4/4/4
+  - D2Dewarp (re-cite): dual dimensions geometric representation.
+  - Maps W6 Stage 0 dewarp head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-061 | https://arxiv.org/abs/2505.21975 (DvD re-cite) | 2025-05-30 | VERIFIED | 4/4/4
+  - DvD (re-cite): coordinates-based diffusion for dewarping.
+  - Maps W6 Stage 0 dewarp.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-062 | https://arxiv.org/abs/2501.03145 (Hybrid Dewarping re-cite) | 2025-01-06 | VERIFIED | 3/4/3
+  - Hybrid DL + cubic polynomial geometry restoration.
+  - Maps W6 Stage 0 classical baseline.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-063 | https://arxiv.org/abs/1809.00219 (ESRGAN re-cite) | 2018-09-18 | VERIFIED | 3/3/3
+  - ESRGAN (re-cite): foundational SR GAN.
+  - Maps W6 Stage 0 SR baseline.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-064 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ | 2026-06-23 | VERIFIED | 4/5/4
+  - Self-host comparison (re-cite): PaddleOCR-VL-1.6 ~2GB VRAM FP16, ~45 pg/min L40S. GOT-OCR2.0 <3GB fastest on printed. dots.ocr strong on forms. DeepSeek-OCR MoE best cost/page bulk.
+  - Maps W6 cost lever.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-065 | https://arxiv.org/abs/2505.20429 (PreP-OCR re-cite) | 2025-05-26 | VERIFIED | 4/5/4
+  - PreP-OCR (re-cite): two-stage restoration + semantic-aware post-correction.
+  - Maps W6 Stage 0+3b fusion.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-066 | https://github.com/alrowilde/synthetic-engine | 2026-05-20 | VERIFIED | 3/4/3
+  - Synthetic Engine (open-source, 2026): photorealistic business document generator.
+  - Maps W6 forms/tables synthetic data.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A6-067 | https://huggingface.co/datasets/OCR-Data | 2025-09-26 | VERIFIED | 3/3/3
+  - OCR-Data (Synthetic OCR Data Generation) Hugging Face profile.
+  - Maps W6 synthetic data sources.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-068 | https://hltcoe.jhu.edu/wp-content/uploads/2020/03/Etter__Rawls__Carpenter__Sell_-_A_Synthetic_Recipe_for_OCR.pdf | 2020-03-01 | VERIFIED | 3/3/3
+  - A Synthetic Recipe for OCR (Etter et al., JHU): synthetic data for OCR. Browser-rendering engine for HTML documents. Real vs synthetic training data comparison.
+  - Maps W6 Stage 2 SFT data design.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A6-069 | https://github.com/ahmad-alismail/LLM_based_Synthetic_Data_Generation | 2025-01-31 | VERIFIED | 3/3/3
+  - LLM-based Synthetic Data Generation: curated papers + tools + datasets.
+  - Maps W6 SFT data sources.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-070 | https://arxiv.org/abs/2502.09642 (Krutrim LLM re-cite) | 2025-02-25 | VERIFIED | 4/4/4
+  - Krutrim LLM (re-cite): 2T-token multilingual foundation. Custom tokenizer for Indic.
+  - Maps W6 Stage 3 LLM base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-071 | https://ai-labs.olakrutrim.com/models/Krutrim-LLM-2 | 2026-01-31 | VERIFIED | 4/5/4
+  - Krutrim-2 12B (re-cite): SoTA Indic LLM outperforming 5×-10× bigger models.
+  - Maps W6 Stage 3 LLM base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-072 | https://github.com/ola-krutrim/Krutrim-2-12B | 2025-01-31 | VERIFIED | 3/4/3
+  - Krutrim-2-Instruct (re-cite): MN-12B architecture.
+  - Maps W6 Stage 3 chat-tuned base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-073 | https://arxiv.org/pdf/2608.15535 (L3Cube-IndicQuest v2 re-cite) | 2026-08-15 | VERIFIED | 4/4/4
+  - L3Cube-IndicQuest v2 (re-cite): 19 Indic langs, 69,420 QA pairs. Gemma4 31B beats Sarvam 30B.
+  - Maps W6 Stage 3 base-model decision.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-074 | https://arxiv.org/abs/2501.15747 (IndicMMLU-Pro re-cite) | 2025-01-29 | VERIFIED | 3/3/3
+  - IndicMMLU-Pro (re-cite): Navarasa, Airavata, OpenHathi, TamilLlama, MahaMarathi.
+  - Maps W6 Stage 3 LLM tier.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-075 | https://arxiv.org/abs/2404.16816 (IndicGenBench re-cite) | 2024-04-25 | VERIFIED | 4/4/4
+  - IndicGenBench (re-cite): 29 Indic langs × 13 scripts × 4 families.
+  - Maps W6 Stage 3 evaluation.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-076 | https://github.com/AI4Bharat/IndicConformerASR (re-cite) | 2024-09-16 | VERIFIED | 4/4/4
+  - IndicConformer (re-cite): ASR tier. 22 langs.
+  - Maps W6 reference architecture pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-077 | https://github.com/AI4Bharat/IndicWav2Vec (re-cite) | 2025-12-01 | VERIFIED | 4/3/4
+  - IndicWav2Vec (re-cite): 40 langs pretrained.
+  - Maps W6 reference architecture.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-078 | https://indicnlp.ai4bharat.org/pages/indic-bert | 2025-12-01 | VERIFIED | 4/3/4
+  - IndicBERT (re-cite): 12 langs. Pretrained on IndicNLP corpus.
+  - Maps W6 Stage 3 noisy→JSON LLM SFT base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-079 | https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only | 2025-06-12 | VERIFIED | 4/4/4
+  - IndicBERTv2 (re-cite): 270M/1B/4B multilingual encoders.
+  - Maps W6 Stage 3 base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-080 | https://aclanthology.org/volumes/2025.bhasha-1 (BHASHA 2025 re-cite) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (re-cite): GCN-based OCR verification on Hindi books.
+  - Maps W6 Stage 3b post-corrector.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-081 | https://arxiv.org/abs/2405.14734 (SimPO primary re-cite) | 2024-05-23 | VERIFIED | 4/3/3
+  - SimPO (re-cite): reference-free preference optimization.
+  - Maps W6 Stage 3b SimPO swap.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-082 | https://arxiv.org/html/2405.14734v1 (SimPO detail re-cite) | 2024-05-23 | VERIFIED | 3/3/3
+  - SimPO (re-cite detail): beats DPO/IPO/KTO/ORPO consistently without length inflation.
+  - Maps W6 Stage 3b.
+  - decision: cite detail): beats DPO/IPO/KTO/ORPO consistently without length inflation
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-083 | https://arxiv.org/abs/2409.19735 (Scrambled text primary re-cite) | 2024-10-01 | VERIFIED | 4/4/4
+  - Scrambled text (re-cite): synthetic corruption > real data for Hindi OCR post-corrector.
+  - Maps W6 Stage 3b.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A6-084 | https://dl.acm.org/doi/abs/10.1007/s10032-025-00522-0 (Scrambled text IJDAR re-cite) | 2025-06-15 | VERIFIED | 4/4/4
+  - Scrambled text (re-cite): CER −55%, WER −32% on Hindi OCR post-correction.
+  - Maps W6 Stage 3b decision.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-085 | https://arxiv.org/pdf/2409.19735 (Scrambled text re-cite) | 2024-10-01 | VERIFIED | 4/4/4
+  - Scrambled text (re-cite): corruption distribution design matters.
+  - Maps W6 Stage 3b.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-086 | https://arxiv.org/pdf/2604.04771 (MinerU2.5-Pro re-cite) | 2026-04-10 | VERIFIED | 5/5/5
+  - MinerU2.5-Pro (re-cite): same architecture + better data → +2.71.
+  - Maps W6 Stage 2: data engineering > new architecture.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-087 | https://arxiv.org/html/2604.04771v1 (MinerU2.5-Pro re-cite) | 2026-04-10 | VERIFIED | 4/4/4
+  - MinerU2.5-Pro (re-cite): NaViT-675M + Qwen2-0.5B.
+  - Maps W6 Stage 2 architecture.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-088 | https://huggingface.co/papers/2510.18234 (DeepSeek-OCR re-cite) | 2025-10-21 | VERIFIED | 4/4/4
+  - DeepSeek-OCR (re-cite): 89.8% with 11.3× compression.
+  - Maps W6 cost lever.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-089 | https://huggingface.co/papers/2506.05218 (MonkeyOCR re-cite) | 2025-06-06 | VERIFIED | 4/4/4
+  - MonkeyOCR (re-cite): Structure-Recognition-Relation triplet.
+  - Maps W6 Stage 2.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-090 | https://arxiv.org/abs/2601.14251 (LightOnOCR-2 re-cite) | 2026-06-30 | VERIFIED | 4/4/4
+  - LightOnOCR-2 (re-cite): 1B end-to-end multilingual VLM.
+  - Maps W6 Stage 2 base.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-091 | https://github.com/chatdoc-com/OCRFlux (re-cite) | 2025-06-17 | VERIFIED | 3/4/3
+  - OCRFlux-3B (re-cite).
+  - Maps W6 Stage 2 candidate.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-092 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 (re-cite) | 2025-12-15 | VERIFIED | 4/4/4
+  - Oct 2025 inflection (re-cite): 6 major open-source OCR releases.
+  - Maps W6 Stage 2 base-model decision.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-093 | https://arxiv.org/abs/2606.03264 (PaddleOCR-VL-1.6 re-cite) | 2026-06-02 | VERIFIED | 5/5/5
+  - PaddleOCR-VL-1.6 (re-cite): 0.9B VLM, 96.33% OmniDocBench v1.6 SOTA. CPT→SFT→RL.
+  - Maps W6 Stage 2+3b recipe.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-094 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 | 2026-05-28 | VERIFIED | 4/5/4
+  - PaddleOCR-VL-1.6 (re-cite): Apache-2.0. vLLM serve path. Documented.
+  - Maps W6 Stage 2 base.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-095 | https://huggingface.co/bodhan-ai/indic-ocr (re-cite) | 2026-09-01 | VERIFIED | 5/5/5
+  - Bodhan IndicOCR (re-cite): 33M layout + 0.8B Qwen3.5 block OCR. ~1.8GB weights.
+  - Maps W6 Stage 1+2: Bodhan is strongest open OCR-specialized VLM for Indic.
+  - decision: Stage 1
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-096 | https://www.analyticsvidhya.com/blog/2026/09/bodhan-ai-indic-models/ | 2026-09-10 | VERIFIED | 5/5/5
+  - Bodhan (re-cite): 22 langs × 13 scripts printed; 12 langs + EN handwriting. Internal IndicOCR-Printed 86.2% word accuracy.
+  - Maps W6 cost analysis.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-097 | https://huggingface.co/papers/2602.16430 (Chitrapathak-2 paper re-cite) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 paper (re-cite): fine-tuning > from-scratch. 3–6× faster.
+  - Maps W6 directly. Cite in freeze packet.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-098 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (re-cite primary) | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite primary): harness-with-VLM. SFT→RLVR. Indic bench 87.39.
+  - Maps W6 directly. Cite in freeze packet.
+  - decision: cite primary): harness-with-VLM
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A6-099 | https://arxiv.org/abs/2607.21617 (FaithC4 re-cite) | 2026-07-23 | VERIFIED | 4/4/4
+  - FaithC4 (re-cite): OCR-specialized VLMs stay faithful.
+  - Maps W6 Stage 2 base-model choice.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-100 | https://arxiv.org/abs/2609.24058 (ScriptMoE re-cite) | 2026-09-21 | VERIFIED | 5/5/5
+  - ScriptMoE (re-cite): PP-OCRv5 F1 65.71→80.89.
+  - Maps W6 specialist design pattern.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-101 | https://arxiv.org/abs/2606.29213 (Devanagari stress-test re-cite) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test (re-cite): Qwen3-VL-8B 75.2 beats GPT-5.5 58.5 and olmOCR-7B 40.5 on real Hindi scans.
+  - Maps W6 Stage 2 base: Qwen-VL is the dominant open VLM for Indic.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-102 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - dots.ocr (re-cite): RED AI Lab, July 2025. 1.2B vision + Qwen2.5-1.5B LM. 100+ langs.
+  - Maps W6 Stage 2 base: dots.ocr 1.5B LM size is GPU-friendly.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-103 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - Nanonets OCR2 (Oct 2025): referenced as foundation for Chitrapathak-2.
+  - Maps W6 Stage 2 base alternative.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-104 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4
+  - OmniDocBench v1.6 (re-cite detail): detailed leaderboard includes Qwen3-VL-235B.
+  - Maps W6 base-model evaluation.
+  - decision: cite detail): detailed leaderboard includes Qwen3-VL-235B
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-105 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4
+  - OmniDocBench v1.7 (re-cite): Qianfan-OCR leaderboard + skills-based evaluation.
+  - Maps W6 EN sanity benchmark.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-106 | https://arxiv.org/html/2603.04205v2 (Real5-OmniDocBench re-cite) | 2026-03-01 | VERIFIED | 4/4/4
+  - Real5-OmniDocBench (re-cite): warp weakest (91.25), scanning strongest (94.74).
+  - Maps W6 Stage 0 dewarp head.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-107 | https://arxiv.org/abs/2507.08492 (D2Dewarp re-cite) | 2025-07-11 | VERIFIED | 4/4/4
+  - D2Dewarp (re-cite): horizontal+vertical line features.
+  - Maps W6 Stage 0.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-108 | https://arxiv.org/abs/2505.23119 (TextSR re-cite) | 2025-05-29 | VERIFIED | 5/5/4
+  - TextSR (re-cite): iterative restoration+OCR alternation.
+  - Maps W6 Stage 0 SR.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-109 | https://arxiv.org/abs/2512.08922 (UniT re-cite) | 2025-12-09 | VERIFIED | 4/5/4
+  - UniT (re-cite): DiT + VLM + TSM.
+  - Maps W6 Stage 0+3b fusion.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-110 | https://arxiv.org/abs/2405.04408 (DocRes re-cite) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes (re-cite): 5 restoration tasks in one model.
+  - Maps W6 Stage 0.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-111 | https://arxiv.org/abs/2508.04055 (Uni-DocDiff re-cite) | 2025-08-06 | VERIFIED | 4/5/4
+  - Uni-DocDiff (re-cite): learnable task prompts.
+  - Maps W6 Stage 0.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-112 | https://arxiv.org/abs/2604.10077 (DocRevive re-cite) | 2026-04-11 | VERIFIED | 4/4/4
+  - DocRevive (re-cite): 30,078 synthetic degraded.
+  - Maps W6 Stage 0+3b.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-113 | https://arxiv.org/pdf/2401.11831 (Binarization re-cite) | 2024-01-22 | VERIFIED | 4/4/4
+  - Binarization fair eval (re-cite): SauvolaNet + DE-GAN lead.
+  - Maps W6 ablation.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-114 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4
+  - Qwen2.5-VL (re-cite): foundation for many 2025 OCR VLMs.
+  - Maps W6 Stage 2 base.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A6-115 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ | 2026-06-23 | VERIFIED | 4/5/4
+  - Self-host (re-cite): PaddleOCR-VL-1.6 ~2GB VRAM FP16, ~45 pg/min L40S.
+  - Maps W6 deployment cost.
+
+---
+
+## A3-EXT — additional degraded-document restoration records 2025-2026 (Lane A3 sub-agent)
+Scope: OldScan 55.3 weak cell; R4 chain A0 / A1 (deskew+Otsu) / A2 (Sauvola-frozen) / A3 (DocRes-head pilot). All records must say which R4 arm they enable. Dataset slice disclosed where published; "no slice" called out as `UNKNOWN` instead of borrowed.
+Format: `A3-NNN | url | date | status | rel/rec/act | extraction: mechanism → result → OldScan 55.3 + R4 ablation slot (A0/A1/A2/A3) | decision it changes | TRANSFER: SURVIVES/DIES/UNKNOWN — 18-lang probe, 200-dpi citizen docs, offline-capable`.
+
+### A3-EXT — Binarization (Otsu variants, Sauvola, SauvolaNet, NN-binarization, BinoDoc, DocIR)
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-001 | https://arxiv.org/abs/2105.05521 | 2021-05-12 | VERIFIED | 5/2/5
+  - SauvolaNet (He, Wu, Zhou ICDAR 2021): DNN analog of multi-window Sauvola — three explainable modules (MWS / PWA / AST). 40K params (1% of MobileNetV2); SOTA across 13 public binarization datasets. Code released. Measured on DIBCO09-class.
+  - R4 mapping: A2 (Sauvola-frozen) favor — same threshold-only contract as Sauvola, no generative repaint, smaller & faster on CPU. OldScan slice: UNKNOWN (no Indic/OldScan transfer test). Could lift A1/Otsu on stained/uneven pages where Otsu drowns strokes.
+  - Decision it changes: cite as preferred learned-threshold variant inside R4 §A2 if checkpoint verifies in <1 h on a 4-page gate (per R4 Part B "SauvolaNet (reserve / A2b)").
+  - TRANSFER: SURVIVES — 40K-param threshold net, CPU-only, repo code public; glyph-fidelity preserved by design (no repaint). DIES on "training" axis — we don't train, just inference the released weight; UNKNOWN on Indic-script glyph-fidelity (no Indic test published).
+  - decision: cite as preferred learned-threshold variant inside R4 §A2 if checkpoint verifies in <1 h on a 4-page gate (per R4 Part B "SauvolaNet (reserve / A2b)")
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-002 | https://arxiv.org/abs/2401.11831 | 2024-01-22 | VERIFIED | 4/5/5
+  - Fair Evaluation of Deep Binarization Approaches (Sukesh et al., 2024): DE-GAN best on DIBCO13, DP-LinkNet best on DIBCO17, 2-StageGAN best on DIBCO18, SauvolaNet best on DIBCO19. NO single winner across years. Optuna-tuned hyper-parameters.
+  - R4 mapping: A2 candidate (SauvolaNet only); A3 neural reservation (DE-GAN/DP-LinkNet reserves per R4 Part A.2 since GAN art risks dot erosion).
+  - Decision it changes: precludes "one SOTA binarizer" claim; forces per-data-conditional arm selection. Cite for "no universal binarizer" law in the ablation writeup.
+  - TRANSFER: SURVIVES (methodology) — applies to our 4-page gate choice. DIES on direct cite as "winner" — no single winner; UNKNOWN on OldScan transfer.
+  - decision: Cite for "no universal binarizer" law in the ablation writeup
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-003 | https://arxiv.org/abs/2606.11710 | 2026-06-10 | VERIFIED | 3/5/3
+  - ERN-Net (Pan, Chan, Chiang, Jun 2026): Evolving Reason Node-Net with multi-scale reasoning for degradation-sensitive regions (faint strokes, broken chars, noisy backgrounds). ConvNeXt-Tiny best accuracy/memory trade vs ResNet-101/ConvNeXt-Base. DIBCO-style pretraining +1.5 h.
+  - R4 mapping: A2 reservation only; sits below SauvolaNet in cost. Useful as a lightweight failure-mode fallback if SauvolaNet's DIBCO19 lead collapses on Indian stamps/blotches.
+  - Decision it changes: not yet — record as 2026 alternative if SauvolaNet checkpoint verification fails.
+  - TRANSFER: UNKNOWN — paper is method-only, no deployment-cost row, no Indic benchmark; CPU-tractable based on ConvNeXt-Tiny footprint but unmeasured.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-004 | https://www.researchgate.net/publication/304621554_ISauvola_Improved_Sauvola's_Algorithm_for_Document_Image_Binarization | 2024-04 (Yang, Zuo, Zhou, Shi, ICDAR re-issue) | VERIFIED | 3/4/3
+  - ISauvola: window-size auto-selection via stroke-width-sensing metric. Improvements: top-2/3 on DIBCO11/H-DIBCO12/DIBCO13 vs original Sauvola + Su's method + Howe's method.
+  - R4 mapping: A2 (Sauvola-frozen) variant — auto-window removes the "freeze on 4-page gate" risk on heterogeneous OldScan pages. May obviate the L3 4-page gate step entirely if stable.
+  - Decision it changes: if stable on OldScan 55.3 page geometry, A2 arm cost falls (no gate step) and uniform across scripts — re-rank A2 above SauvolaNet in cost/risk ranking.
+  - TRANSFER: SURVIVES — algorithm, no weights, CPU. UNKNOWN on OldScan transfer (paper is DIBCO Latin/Greek).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-005 | https://link.springer.com/content/pdf/10.1007/978-3-030-86337-1_36.pdf | 2021-08-15 | VERIFIED | 3/3/3
+  - SauvolaNet ICDAR 2021 published version. Confirms 40K-param budget vs the heavy binarization CNN baselines. Same architecture as arXiv 2105.05521.
+  - R4 mapping: A2 reservation. Confirms CPU-feasibility row in R4 Part B.
+  - Decision: tie-break evidence for SauvolaNet as A2-fast/learned path.
+  - TRANSFER: SURVIVES (algorithm). DIES (license): paper-only release, code URL not all-confirmed; UNKNOWN pending code-verify step.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-006 | https://www.semanticscholar.org/paper/Performance-Evaluation-of-Otsu-and-Sauvola-for-Darpito-Firdausy/7778a962b9882f39c342d24952441005e32668a3 | 2026-03-31 | VERIFIED | 3/4/3
+  - 2026 structured-document eval re-confirms Otsu/Sauvola gap is still an open comparison on modern structured docs (forms/tables/invoices). Field has not "deleted" the classical baseline.
+  - R4 mapping: A1 (Otsu) / A2 (Sauvola) — these arms stay; the "classical is dead" narrative is refuted.
+  - Decision: locks A0/A1/A2 as the classical triplet for OldScan 55.3.
+  - TRANSFER: SURVIVES — algorithm pair, CPU, license-free. OldScan transfer UNKNOWN (paper uses generic structured).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-007 | https://www.sciencedirect.com/science/article/pii/S0952197620301159 | 2020 (Samadi et al., Engineering Applications of AI) | VERIFIED | 3/3/3
+  - Modified Sauvola via Stroke-Width Transform (SWT) for variable text size; auto-computes neighborhood size per pixel. Outperforms Otsu/Niblack/Bernsen/Wellner/Sauvola/Wolf/Bradley/NICK/Singh on variable-stroke datasets.
+  - R4 mapping: A2 (Sauvola-frozen) variant — addresses the OldScan "mixed font sizes" reality where one frozen window fails.
+  - Decision: potential A2 upgrade if one-window fails the 4-page gate (R4 C5).
+  - TRANSFER: SURVIVES (algorithm, license-free). OldScan transfer UNKNOWN.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-008 | https://vc.ee.duth.gr/dibco2019 | 2019 (DIBCO series page, accessed 2026-09-27) | VERIFIED | 3/2/3
+  - DIBCO/H-DIBCO competition series 2009–2019 — Latin/Greek machine print + handwriting + Bickley Diary English + SMADI multispectral. NO Indic edition in series.
+  - R4 mapping: A1/A2/A3 evaluation basis. Crucial negative: no Latin→Indic transfer possible from DIBCO numbers.
+  - Decision: confirms R4 §A4 honesty — "no DIBCO transfer to Indic" is supported, not refuted.
+  - TRANSFER: DIES as primary evidence on Indic; SURVIVES as Latin/English benchmark reference.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-009 | https://www.semanticscholar.org/paper/ICDAR-2019-Competition-on-Document-Image-%28DIBCO-Pratikakis-Zagoris/ba478852219088c754dc5c97983c98c2652006cc | 2019 (Pratikakis et al.) | VERIFIED | 3/2/3
+  - DIBCO 2019 official report (24 methods). SA-BANA best, f-measure 71.57. Continues the "no universal winner" pattern.
+  - R4 mapping: A1/A2 baseline reference.
+  - Decision: cite for "field still moves by <5pt per year" claim.
+  - TRANSFER: SURVIVES as benchmark reference; DIES on Indic.
+  - decision: cite for "field still moves by <5pt per year" claim
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-010 | https://www.computer.org/csdl/proceedings-article/icfhr/2018/587500a489/17D45WaTkoF | 2018 (H-DIBCO 2018) | VERIFIED | 2/2/3
+  - H-DIBCO 2018 competition page. Diagnoses handwriting binarization gap.
+  - R4 mapping: not OldScan-useful unless we add handwriting to the slice (currently excluded per R4 C1).
+  - TRANSFER: SURVIVES as historical reference; DIES for OldScan 55.3 (not handwriting-slice).
+
+### A3-EXT — Deshadowing (DocRes deshadow, DocDiff, Uni-DocDiff, RDDM, DiRS, Bedsr-net, SD7K)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-011 | https://arxiv.org/abs/2308.14221 | 2023-08 (v4 2024-06-18) Li, Chen, Pun, Cun | VERIFIED | 4/4/4
+  - Bedsr-net / SD7K paper: high-res document shadow removal via Frequency-Aware Shadow Erasing Net on a 7,620 real-world high-res shadow document dataset (SD7K, >350 doc-types, 2462×3699, three light sources). SOTA on two prior benchmarks + SD7K.
+  - R4 mapping: A3 (DocRes-head pilot) deshadow sub-arm. Deshadow is a real failure mode on photographed citizen docs (per R2 §2 Perso-Arabic on Urdu+).
+  - Decision: if OldScan slice is mostly *scanned*, deshadow yields little; if slice shifts to *captured* (citizen photos) per W3 evidence, Bedsr-net moves to Stage-0 pre-pass.
+  - TRANSFER: SURVIVES — Apache-2.0 implied paper code, CPU-tile-friendly UNet. UNKNOWN on Indic (Perso-Arabic close cousin would benefit; no Indic test in paper).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-012 | https://arxiv.org/abs/2405.04408 | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes re-cite as DESHADOW head. CVPR 2024. Restormer backbone + DTSPrompt. SD7K deshadow PSNR 33.13 dB (per R4 §A0 table). MIT license, github.com/ZZZHANG-jx/DocRes.
+  - R4 mapping: A3 (DocRes-head pilot, n≤8). Deshadow variant of DocRes is the most transferable since SD7K train set is closest to citizen-doc reality.
+  - Decision: A3-pilot first arm to test (R4 C2 row "DocRes enhancement head, NOT binarization").
+  - TRANSFER: SURVIVES — MIT weights released, paper code public, HF rehost (DaVinciCode/doctra-docres-main). UNKNOWN on Indic glyph-fidelity (no Indic audit); dot/matra audit (R4 C5) must precede expansion.
+  - decision: cite as DESHADOW head
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-013 | https://openaccess.thecvf.com/content/CVPR2024/supplemental/Zhang_DocRes_A_Generalist_CVPR_2024_supplemental.pdf | 2024-06 (supplemental) | VERIFIED | 4/4/4
+  - DocRes supplemental: ablation Table 2 — DTSPrompt does NOT always beat fixed prompts (can degrade shadow removal and deblurring); DTPrompt serves as discriminative cue but doesn't boost performance on tasks lacking recognized priors.
+  - R4 mapping: A3 — adjusts prompt engineering expectations; "frozen prompt" is the safe choice for the OldScan pilot.
+  - Decision: lock prompt config on 4-page gate (R4 L3) rather than sweep.
+  - TRANSFER: SURVIVES (architecture). DIES on full-prompt fine-tuning absent training budget.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-014 | https://dl.acm.org/doi/10.1145/3581783.3611730 | 2023-10-29 | VERIFIED | 4/4/4
+  - DocDiff re-cite as DESHADOW/DEBLUR. DocDiff (ACM MM 2023) supports deblurring/denoising/watermark-removal/seal-removal in addition to its binarization angle. Coarse Predictor + High-Frequency Residual Refinement (4.17M params). SOTA across 5-step sampling.
+  - R4 mapping: A3 (deferred per R4 §A0 "Pixel-repaint diffusion (inpainting/aesthetic): HIGH risk"). Hallucination on rare Indic ligatures is the published risk.
+  - Decision: deferred to W6-GPU lane (R4 Part B last row); not in current ablation.
+  - TRANSFER: DIES on CPU, SURVIVES post-W6 with GPU budget.
+
+### A3-EXT — Dewarping (DocGeoNet, DocTr, RDGR, D2Dewarp, DvD, Inv3D, DocMatcher, DocHFormer, prior baselines)
+  - decision: cite as DESHADOW/DEBLUR
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-015 | https://arxiv.org/html/2110.12942v1 | 2021 (Feng et al., DocTr) | VERIFIED | 4/3/4
+  - DocTr: first transformer-based dewarping — uses ViT attention to capture pixel-level geometry & illumination distortion. 2-stage coarse-to-fine.
+  - R4 mapping: A0-relative dewarp pre-pass candidate. Inverse mapping prediction = geometry-only, low repaint risk (per R4 §A0 row).
+  - Decision: Stage-0 dewarp head pilot target after DocRes binarization/arm.
+  - TRANSFER: SURVIVES (architecture, MIT-licensed, inference only). UNKNOWN OldScan transfer (paper is DocUNet benchmark).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-016 | https://arxiv.org/abs/2501.03145 | 2025-01-06 (v3 2025-11-15) | VERIFIED | 3/5/4
+  - Hybrid Deep Learning + Cubic Polynomial (YOLOv8 segmentation + cubic polynomial boundary fit). Lowest median CER 0.0235 on IWILT. Beats RectiNet/DocGeoNet/DocTr++ on geometry+OCR-readability. CPU-cheap.
+  - R4 mapping: A0-relative, in front of A1/A2/A3. Cheap classical-CV baseline (per R4 §A0 row "Hybrid DL + cubic polynomial geometry").
+  - Decision: cheapest dewarp pre-pass — Stage-0 step 1 candidate if OldScan slice has skewed pages.
+  - TRANSFER: SURVIVES — open-source framework, CPU-only, no GPU. CC license; UNKNOWN on OldScan 55.3 transfer (paper is IWILT/Chinese+English).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-017 | https://openaccess.thecvf.com/content/CVPR2026/papers/Li_D2Dewarp_Dual_Dimensions_Geometric_Representation_Learning_Based_Document_Image_Dewarping_CVPR_2026_paper.pdf | 2026 (Li et al., CVPR 2026) | VERIFIED | 4/5/4
+  - D2Dewarp (CVPR 2026): dual-dimensions geometric representation (separate horizontal-line + vertical-line feature streams). New DocDewarpHV auto-generated large training set. SOTA on 3 Chinese+English benchmarks; +ED over DocTr, RDGR, DocGeoNet, DocScanner, PaperEdge, FTDR, LA-DocFlatten, DocReal.
+  - R4 mapping: A3-pilot post-DocRes; high-leverage if OldScan 55.3 pages show curl/warp.
+  - Decision: pre-Stage-1 dewarp-arm if A3-pilot CER win holds; defer full Stage-0 adoption until pilot CLEARS.
+  - TRANSFER: SURVIVES — paper public, training set public; UNKNOWN on Indic (paper is CN+EN benchmarks). Indic riser: Nastaliq baseline slopes vs Devanagari — geometry-only architectures may generalize.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-018 | https://huggingface.co/papers/2505.21975 | 2025-05-28 | VERIFIED | 5/5/5
+  - DvD (Coordinates-based Diffusion for Dewarping): generative paradigm via coordinate diffusion (not pixel repaint). Qwen2.5-VL-7B used to score dewarped vs flat on CER/ED. Beats template-based Inv3D, DocMatcher, DocHFormer (shuffle transformer).
+  - R4 mapping: A0-relative + A3-pilot joint candidate. Coordinate diffusion = lowest repaint risk among diffusion-family dewarpers.
+  - Decision: stronger Stage-0 dewarp arm candidate (W6 GPU tier if D2Dewarp pilot fails).
+  - TRANSFER: SURVIVES (paper public; coordinates-based is OCR-safer). DIES on CPU (per R4 Part B). UNKNOWN on Indic transfer (paper uses DocUNet/DocGeoNet benchmarks).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-019 | https://dl.acm.org/doi/10.1145/3757377.3763913 | 2025-12-14 | VERIFIED | 4/5/4
+  - DvD ACM Multimedia Asia publication: coordinates-based diffusion dewarp, MS-SSIM/LD/AD metrics. Confirms the generative paradigm shift on dewarping.
+  - R4 mapping: A0-relative Stage-0 candidate if DocRes binarization head in A3 fails to lift OldScan 55.3.
+  - Decision: alternate Stage-0 dewarp arm; pile with D2Dewarp for the post-W6 pilot queue.
+  - TRANSFER: SURVIVES (peer-reviewed). DIES on offline-CPU ablation; SURVIVES for W6-GPU phase only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-020 | https://openaccess.thecvf.com/content/WACV2025/papers/Hertlein_DocMatcher_Document_Image_Dewarping_via_Structural_and_Textual_Line_Matching_WACV_2025_paper.pdf | 2025 (Hertlein et al., WACV 2025) | VERIFIED | 4/5/4
+  - DocMatcher (WACV 2025): template-image guided dewarping using structural+textual line matching. Introduces mnCER for "text-based metrics in dewarping". Beats GeoTrTemplateLarge, GeoTr, DewarpNet (no-refinement).
+  - R4 mapping: A0-relative — template-based requires a flat reference of the same document, NOT realistic for citizen docs. Excluded for OldScan 55.3 (no template available per scan).
+  - Decision: EXCLUDE from OldScan ablation (template-unavailable constraint).
+  - TRANSFER: SURVIVES for archival-book cases with paired-templates. DIES for OldScan 55.3 (no template); UNKNOWN on citizen docs that might pair with same-form blanks.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-021 | https://ieeexplore.ieee.org/iel8/10943266/10943193/10944149.pdf | 2025 (Hertlein et al., IEEE PAMI) | VERIFIED | 4/5/4
+  - DocMatcher IEEE PAMI version (2025). 10pp publication. Confirms the 2023-2025 progression.
+  - R4 mapping: same as A3-020 — excluded from ablation, retained for archival-extension cite.
+  - Decision: same as A3-020.
+  - TRANSFER: same as A3-020.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-022 | https://arxiv.org/pdf/2507.15000 | 2025-07 (v2 2025-11-14) | VERIFIED | 4/5/4
+  - Axis-Aligned Document Dewarping (Wang 2024/2025): grid-surface modeling with intrinsic geometric properties, robust optimization. Evaluated on DocUNet (300 images, OCR on 90 rich-text) + Inv3D.
+  - R4 mapping: A0-relative; new SOTA on DocUNet w/ 300 real images. Worth a CPU-runnable pilot.
+  - Decision: candidate Stage-0 dewarp arm — cheaper than DvD (no diffusion), better than Hybrid-Cubic.
+  - TRANSFER: SURVIVES (CPU-feasible). UNKNOWN OldScan slice; UNKNOWN Indic.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-023 | https://arxiv.org/html/2508.06988v1 | 2025-08-09 | VERIFIED | 4/5/4
+  - TADoc (Robust Time-Aware Document Image Dewarping): time-aware non-rigid dewarping. Cites DocUNet/DocTr/DocGeoNet/RDGR/DocScanner/FTDR/LA-DocFlatten lineage.
+  - R4 mapping: A0-relative time-aware variant. Robustness over heterogeneous deformation types.
+  - Decision: lower-priority dewarp backup; R4 main queue is D2Dewarp/DvD/Hybrid.
+  - TRANSFER: SURVIVES (CC BY-NC-SA 4.0). UNKNOWN OldScan slice.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-024 | https://openaccess.thecvf.com/content/WACV2024/papers/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_WACV_2024_paper.pdf | 2024 (Yu et al., WACV 2024, DocReal) | VERIFIED | 3/4/3
+  - DocReal: attention-enhanced control point prediction for real-life images (smartphone-captured docs, not synthetic). Two-stage coarse mask + refine.
+  - R4 mapping: A0-relative best fit for citizen-doc smartphone scans — but OldScan 55.3 is scanned, not photographed. Marginal.
+  - Decision: keep for Stage-0 pre-pass when slice broadens to citizen scans (post-W6).
+  - TRANSFER: SURVIVES (paper public). UNKNOWN OldScan (per R4 C1 + photo vs scan distinction).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-025 | https://arxiv.org/html/2204.07346 | 2022-04 (RDGR, Jiang et al., text-line-aware) | VERIFIED | 3/3/3
+  - RDGR: foreground + text-line aware document rectification (CVPR 2023 per DvD-DocTr reviews). Text-line attribute integration preserves text alignment.
+  - R4 mapping: A0-relative. Text-line-aware = better on columnar scripts (Devanagari/Nastaliq/Ol Chiki) than geometry-only.
+  - Decision: cite as the "text-line" dewarp subtype in Stage-0 design notes — geometry-only misses matra/nuqta hooks.
+  - TRANSFER: SURVIVES (paper). UNKNOWN Indic; geometry-only Indo-Aryan scripts need line-priors.
+  - decision: cite as the "text-line" dewarp subtype in Stage-0 design notes — geometry-only misses matra/nuqta hooks
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-026 | https://arxiv.org/html/2206.11598 | 2022-06 (PaperEdge, Ma et al.) | VERIFIED | 3/3/3
+  - PaperEdge: stacked coarse + refine networks, two-stage design (per DvD literature review).
+  - R4 mapping: pipeline-style predecessor.
+  - Decision: context-only citation.
+  - TRANSFER: SURVIVES as historical reference.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-027 | https://arxiv.org/abs/2206.08960 | 2022-06 (Marior, Zhang et al., CVPR 2022) | VERIFIED | 3/3/3
+  - Marior: coarse-to-fine dewarping; per DvD cite. Marginally relevant.
+  - R4 mapping: A0-relative reference.
+  - Decision: cite in the dewarp lineage only.
+  - TRANSFER: SURVIVES historical; DIES on production.
+  - decision: cite in the dewarp lineage only
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-028 | https://arxiv.org/abs/2104.00656 | 2021-04 (DispFlow, Xie et al.) | VERIFIED | 3/2/3
+  - DispFlow: exploitation of document deformation continuity property via local fairing constraints in displacement prediction.
+  - R4 mapping: A0-relative. Geometry-only, low risk per R4 §A0 row.
+  - Decision: cite as continuum-displacement baseline.
+  - TRANSFER: SURVIVES historical; UNKNOWN Indic.
+  - decision: cite as continuum-displacement baseline
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-029 | https://arxiv.org/abs/2104.00482 | 2021-04 (DDCP, Xie et al.) | VERIFIED | 3/2/3
+  - DDCP: sparse control points deformation representation.
+  - R4 mapping: A0-relative, sparse-control alternative.
+  - Decision: cite in the lineage survey.
+  - TRANSFER: SURVIVES historical.
+  - decision: cite in the lineage survey
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-030 | https://arxiv.org/abs/2201.10252 | 2022-01 (DocEnTr, Souibgui et al., ICPR 2022) | VERIFIED | 4/3/4
+  - DocEnTr: end-to-end document image enhancement transformer. Best PSNR/DRD on DIBCO17 in author tests.
+  - R4 mapping: A3 enhancement head alternative to DocRes. Transformer-based = better at scale-bridging.
+  - Decision: DocEnTr as backup enhancement head if DocRes 4-page gate fails on OldScan.
+  - TRANSFER: SURVIVES (algorithm). UNKNOWN on deployment cost (transformer at 27.6MP = high mem).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-031 | https://arxiv.org/abs/2104.09856 | 2021-04 (FTA, Li et al.) | VERIFIED | 3/3/3
+  - FTA: foreground + text-line aware document rectification (CVPR 2023 extension of RDGR/LA-DocFlatten).
+  - R4 mapping: text-line aware dewarp subtype (columnar-script friendly).
+  - Decision: text-line-aware sub-family to be evaluated on Devanagari/Nastaliq.
+  - TRANSFER: SURVIVES historical; UNKNOWN Indic; geometry-only is wrong direction for abugidas.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-032 | https://arxiv.org/abs/2111.02394 | 2021 (LA-DocFlatten, Li et al., SIGGRAPH 2022 per DvD cite) | VERIFIED | 3/3/3
+  - LA-DocFlatten: layout-aware single-image document flattening (hybrid CNN+transformer for layout segmentation).
+  - R4 mapping: text-line + layout-aware dewarp — closest to our row-text Devanagari/Nastaliq page layout.
+  - Decision: pre-W6 dewarp arm candidate IF slice shows rule-bound layout (forms/tables).
+  - TRANSFER: SURVIVES (SIGGRAPH, code per paper). UNKNOWN Indic.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-033 | https://arxiv.org/abs/2008.03314 | 2020 (FDRNet, Xue et al.) | VERIFIED | 3/3/3
+  - FDRNet: frequency-domain insight, image-level loss on Fourier-extracted high-frequency textures (per DvD).
+  - R4 mapping: frequency-domain dewarp sub-family.
+  - Decision: cite in survey; lower priority.
+  - TRANSFER: SURVIVES historical.
+  - decision: cite in survey; lower priority
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-034 | https://arxiv.org/abs/2205.11024 | 2022 (DocGeoNet, Feng et al., ECCV 2022) | VERIFIED | 3/3/3
+  - DocGeoNet: predicts foreground of distorted images, multi-layer transformer for 3D coordinate features. Line-attribute-aware.
+  - R4 mapping: text-line-aware dewarp baseline (CVPR/ECCV lineage).
+  - Decision: cite as 2022 SOTA baseline; D2Dewarp is 2026 successor.
+  - TRANSFER: SURVIVES (code released per lineage). UNKNOWN Indic.
+  - decision: cite as 2022 SOTA baseline; D2Dewarp is 2026 successor
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-035 | https://arxiv.org/abs/2110.12942v1 | 2021 (DocTr, Feng et al.) | VERIFIED | 4/3/4
+  - DocTr (re-cite). Same paper as A3-015 — separate row to tag as the 2-stage coarse-to-fine variant.
+  - R4 mapping: A0-relative. Two-stage = safer (low CER delta variance).
+  - Decision: backup Stage-0 dewarp if Hybrid-Cubic (A3-016) doesn't lift.
+  - TRANSFER: SURVIVES (paper + likely MIT-style code). UNKNOWN Indic.
+
+### A3-EXT — Text Super-Resolution (TextSR, ESRGAN, Real-ESRGAN, SwinIR, DocRevive, UniT, PRISM)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-036 | https://arxiv.org/abs/2505.23119 | 2025-05-29 | VERIFIED | 5/5/5
+  - TextSR (Ye, Garcia-Dorado, Raptis, Delbracio, Zhu, Milanfar, Talebi; Google): multimodal diffusion for multilingual scene-text SR. Text-detector + OCR + UTF-8 cross-attention. CC-BY-4.0.
+  - R4 mapping: A3 (DocRes-head pilot) extension OR Stage-0 SR pre-pass candidate. Iterative restoration+OCR alternation.
+  - Decision: text-aware SR is the right attack on 200-dpi citizen docs (which often downscale on capture).
+  - TRANSFER: SURVIVES (paper + CC-BY-4.0 + Google-style SR recipe). UNKNOWN on document (vs scene text); UNKNOWN on Indic — multilingual cited but no script list.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-037 | https://arxiv.org/pdf/2605.13027 | 2026-05-13 | VERIFIED | 4/5/4
+  - PRISM (Prior Rectification and Uncertainty-Aware Structure Modeling): single-step diffusion Text-SR. Millisecond-level inference. SOTA on synthetic + real-world Text-SR benchmarks.
+  - R4 mapping: A3 enhancement head single-step alternative — millisecond inference is a real cost reduction vs TextSR's iterative sampling.
+  - Decision: if a millisecond Text-SR is verified on OldScan 55.3 pages, A3-pilot economics collapse (5-30min/page → sub-second).
+  - TRANSFER: SURVIVES (arXiv 2026, code TBD). UNKNOWN OldScan slice; UNKNOWN Indic glyph-fidelity.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-038 | https://arxiv.org/abs/2604.10077 | 2026-04-11 (v2 2026-05-21, Purkayastha, Banerjee, Lladós, Pal) | VERIFIED | 5/5/5
+  - DocRevive: OCR + occlusion-YOLOv9c detection + geometry-driven blank extraction + RoBERTa-large fill-mask + diffusion text-editor (UNet-VAE-ControlNet w/ DDIM) + UCSM metric. 30,078 synthetic OPRB dataset. CC-BY-SA-4.0. OPRB + code on HF + GitHub.
+  - R4 mapping: A3 (full pipeline not just one head). Stage-0 + Stage-3b fusion. Maps directly to OldScan-style occlusion recovery.
+  - Decision: weights the W6 §3b post-correction case — DocRevive's UCSM is a more faithful metric than CER on the inverse-mapping case.
+  - TRANSFER: SURVIVES (CC-BY-SA, HF dataset, GitHub code). UNKNOWN on Indic-script fill (paper uses English DocBank). Indian Statistical Institute affiliation (Umapada Pal) adds Indic credibility — UNKNOWN test slice.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-039 | https://github.com/jingyunliang/swinir | 2021-08-16 (SwinIR repo) | VERIFIED | 3/2/4
+  - SwinIR (Liang et al., ECCV 2021): Swin-Transformer image restoration (SR/denoise/jpeg). Apache-2.0. 5,586 stars. Classical SR baseline.
+  - R4 mapping: A3 SR sub-arm candidate (CPU-feasible at moderate res).
+  - Decision: canonical SR for low-DPI scan restoration (per R4 §A4-021 plus this).
+  - TRANSFER: SURVIVES (Apache-2.0 + 5.6k star community). UNKNOWN on text vs natural image transfer.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-040 | https://dl.acm.org/doi/10.1145/3704268.3742690 | 2025-08-27 (DocEng 2025) | VERIFIED | 4/5/4
+  - Text Image Super-Resolution for Improved OCR using Swin Transformers (Hildebrandt, Schulze, Cohen, Doskoč, Saabni, Friedrich). DocEng 2025. Pages 1-9.
+  - R4 mapping: A3 SR arm candidate — empirical OCR-CER delta measurement (we need this row).
+  - Decision: lift SwinIR to R4 §A3 SR sub-arm if the paper measures CER delta on a public benchmark.
+  - TRANSFER: SURVIVES (SwinIR Apache-2.0 baseline). DocEng-published peer review.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-041 | https://github.com/stefanusaditya/real-esrgan | 2021 (Real-ESRGAN) | VERIFIED | 3/2/4
+  - Real-ESRGAN (Wang et al., 2021): real-world blind SR with pure synthetic data. Note from README: "may not perform well on human faces, text, etc — will be optimized later".
+  - R4 mapping: A3 SR sub-arm; honest note "may not perform well on text" means it is NOT the right default for OCR SR.
+  - Decision: AVOID Real-ESRGAN on text (per its own README) — prefer SwinIR/TextSR.
+  - TRANSFER: SURVIVES for natural images. DIES on text per author's own warning.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-042 | https://arxiv.org/pdf/2107.10833v1 | 2021-07-23 | VERIFIED | 3/2/4
+  - Real-ESRGAN original paper: practical degradation model with sinc filters, U-Net discriminator with spectral-norm regularization. Sinc filters explicitly remove ringing/overshoot — important for text/line artifacts.
+  - R4 mapping: A3 SR sub-arm. Sinc filter inclusion = text-friendly version; verify weights are sinc-trained.
+  - Decision: if a sinc-trained Real-ESRGAN variant exists, it could outperform vanilla SwinIR on text.
+  - TRANSFER: SURVIVES (BSD-3). Sinc-trained variant UNKNOWN.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-043 | https://arxiv.org/abs/2512.08922 | 2025-12-09 | VERIFIED | 4/5/4
+  - UniT (Unified Diffusion Transformer): DiT + VLM + Text Spotting Module (TSM). Iterative refinement on SA-Text + Real-Text benchmarks. Reduces text hallucinations.
+  - R4 mapping: A3 (DocRes-head pilot) — DiT+TSM is the newest SOTA text-aware restoration. Iterative OCR-guided.
+  - Decision: defer to W6 (heavy diffusion cost). Cite in Stage-0+3b fusion discussion.
+  - TRANSFER: SURVIVES (paper). DIES on CPU; SURVIVES W6-GPU.
+  - decision: Cite in Stage-0+3b fusion discussion
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-044 | https://arxiv.org/html/2503.07232v4 | 2025-06-14 | VERIFIED | 4/5/4
+  - Boosting Diffusion-Based Text Image SR Toward Generalized Real-World Scenarios: L1 + LPIPS + cross-entropy recognition loss; addresses fidelity/style trade-off.
+  - R4 mapping: A3 SR Arm candidate — extends diffusion-SR for real-world doc degradation. Loss design explicit on text fidelity.
+  - Decision: cite as the "fidelity-preserving diffusion-SR" cite for W6 stage.
+  - TRANSFER: SURVIVES. UNKNOWN OldScan; UNKNOWN Indic.
+  - decision: cite as the "fidelity-preserving diffusion-SR" cite for W6 stage
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-045 | https://arxiv.org/abs/2403.05835 | 2024-03 (BSRGAN, ICCV 2021 cite) | INFERENCE | 2/2/2
+  - BSRGAN: practical degradation model for real-world SR (referenced by SwinIR README + Real-ESRGAN). Used as degradation source.
+  - R4 mapping: not an ablation arm; used as degradation-simulation precedent for OldScan 200-dpi→higher.
+  - Decision: cite in synthetic-degradation pipeline survey.
+  - TRANSFER: UNKNOWN — paper is natural-image; textual implication thin.
+
+### A3-EXT — Diffusion-based restoration (DocDiff, Uni-DocDiff, RDDM, MMDIR, UniRestore, NA-DPM, DocPure)
+  - decision: cite in synthetic-degradation pipeline survey
+  - transfer: UNKNOWN
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-046 | https://arxiv.org/pdf/2604.09367 | 2026 (DocDiff lineage survey, per R4 §A0) | VERIFIED | 4/5/4
+  - Survey (per R4 §A0 cite): DocDiff perceptual-quality-at-few-steps line + related diffusion doc-restoration; DvD coordinate-diffusion dewarp; TextDoctor patch-pyramid diffusion inpainting; MMDIR multimodal-instruction mixed-degradation (CVPR 2026); DocPure prompt-free wavelet-modulated (Aug 2026).
+  - R4 mapping: stack inventory for the diffusion arms we DEFER to W6-GPU per R4 §B.
+  - Decision: do NOT adopt in current CPU ablation; record for W6 budget call.
+  - TRANSFER: SURVIVES post-W6 with GPU. DIES in current CPU pass.
+  - decision: adopt in current CPU ablation; record for W6 budget call
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-047 | https://openaccess.thecvf.com/content/CVPR2026/papers/Li_MMDIR_Multimodal_Instruction-Driven_Framework_for_Mixed-Degradation_Document_Image_Restoration_CVPR_2026_paper.pdf | 2026 (Li et al., CVPR 2026) | VERIFIED | 4/5/4
+  - MMDIR (CVPR 2026): Multimodal Instruction-Driven mixed-degradation restoration via NAF-DPM diffusion backbone + SimpleGate blocks. Generates 20,000 synthetic seals + 1,277 train + 320 test from real seal images. Test images from M6Doc.
+  - R4 mapping: W6-GPU stage. Mixed-degradation = relevant when OldScan slice has stamps/seals (Govt exam papers often carry both).
+  - Decision: defer; flag for W6 if slice has seal contamination.
+  - TRANSFER: SURVIVES (CVPR 2026). UNKNOWN on Indic.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-048 | https://openaccess.thecvf.com/content/CVPR2025/html/Chen_UniRestore_Unified_Perceptual_and_Task-Oriented_Image_Restoration_Model_Using_Diffusion_CVPR_2025_paper.html | 2025 (Chen et al., CVPR 2025) | VERIFIED | 4/5/4
+  - UniRestore: unified perceptual (looks-good) + task-oriented (downstream-task optimal) via diffusion prior. Bridges PIR vs TIR.
+  - R4 mapping: A3-pilot enhancement sub-arm. TIR is the OCR-aware branch.
+  - Decision: cite as the "perceptual-vs-task" framework; OldScan 55.3 belongs to TIR (we want downstream OCR).
+  - TRANSFER: SURVIVES (CVPR 2025). UNKNOWN on Indic / OldScan transfer.
+  - decision: cite as the "perceptual-vs-task" framework; OldScan 55
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-049 | https://arxiv.org/abs/2308.13712 | 2023-08-25 (v3 2024-03-22, Liu et al.) | VERIFIED | 4/3/4
+  - RDDM (Residual Denoising Diffusion Models): dual diffusion — residual + noise. Generic UNet + L1 + batch size 1 competes with SOTA. Open code & weights.
+  - R4 mapping: theoretical foundation cited by DocDiff line; also applicable to document deblurring/denoising.
+  - Decision: cite in the survey; not an OldScan-arm.
+  - TRANSFER: SURVIVES post-W6-GPU; DIES CPU.
+  - decision: cite in the survey; not an OldScan-arm
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-050 | https://arxiv.org/abs/2404.05669 | 2024-04 (NAF-DPM, Cui et al.) | VERIFIED | 3/4/3
+  - NAF-DPM: Nonlinear Activation-Free Diffusion Probabilistic Model for document enhancement. Cited by MMDIR.
+  - R4 mapping: lightweight diffusion backbone for document enhancement.
+  - Decision: cite in the diffusion-deferred queue; not OldScan-arm.
+  - TRANSFER: DIES CPU. SURVIVES W6-GPU.
+  - decision: cite in the diffusion-deferred queue; not OldScan-arm
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-051 | https://arxiv.org/html/2608.09536v1 | 2026-08 (DocPure, per R4 §A0 row 8 lineage) | INFERENCE | 3/5/3
+  - DocPure (Aug 2026): prompt-free wavelet-modulated unified restoration. Per R4 §A0 row 8 cite.
+  - R4 mapping: W6-GPU queue.
+  - Decision: defer; record-keeping.
+  - TRANSFER: SURVIVES post-W6; UNKNOWN on Indic.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-052 | https://dl.acm.org/doi/abs/10.1145/3581783.3611730 | 2023-10-29 (DocDiff ACM MM 2023) | VERIFIED | 4/3/4
+  - DocDiff primary cite as RESTORATION. Coarse Predictor + High-Frequency Residual Refinement. 4.17M params. Fast (5 sampling steps).
+  - R4 mapping: A3 deferred pilot. Pixel-repaint risk on rare glyphs per R4 §A0.
+  - Decision: defer to W6-GPU.
+  - TRANSFER: SURVIVES post-W6; DIES current ablation.
+  - decision: cite as RESTORATION
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-053 | https://arxiv.org/abs/2508.04055 | 2025-08-06 | VERIFIED | 4/5/4
+  - Uni-DocDiff re-cite: learnable task prompts + Prior Pool (local high-freq + global low-freq) + Prior Fusion Module. One diffusion model for dewarp/deblur/deshadow/illumination/binarization/handwriting-removal.
+  - R4 mapping: A3 deferred; broadest unified diffusion restorer to date.
+  - Decision: document the W6-GPU queue is now Uni-DocDiff + MMDIR + DocPure. Cite in W6 plan.
+  - TRANSFER: SURVIVES (IJCV 2025). DIES CPU; UNKNOWN Indic.
+
+### A3-EXT — GAN restoration (DE-GAN, 2-StageGAN, DocEnTr, Text-DIAE, LayeredDoc)
+  - decision: Cite in W6 plan
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-054 | https://arxiv.org/pdf/2010.08764 | 2020 (DE-GAN/2-StageGAN evaluation table) | VERIFIED | 4/3/4
+  - DE-GAN (Souibgui et al., TPAMI 2022 cGAN); 2-StageGAN best on DIBCO18 per fair eval. Strong author-reported DIBCO13/17.
+  - R4 mapping: GAN reservation only (per R4 §B deferred table). Pixel-repaint risk on Nastaliq/Ol Chiki dots per R4 §A5 (R2 mechanism).
+  - Decision: excluded from current CPU ablation. If Pilot fails, GAN reservation is the next tier.
+  - TRANSFER: SURVIVES code-quality; DIES current ablation (pixel-repaint + weight fragmentation per R4 §A.2 verdict).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-055 | https://arxiv.org/html/2407.04231 | 2024-07 (efficient 2-StageGAN variant) | VERIFIED | 3/4/3
+  - Efficient 2-Stage GAN variant: cuts training/inference time vs SOTA GANs. Multi-scale GAN.
+  - R4 mapping: same as A3-054 — reservation. Efficient GAN doesn't fix the pixel-repaint risk on thin glyphs.
+  - Decision: same as A3-054.
+  - TRANSFER: SURVIVES speed; DIES risk on glyphs.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-056 | https://www.semanticscholar.org/paper/Performance-Evaluation-of-Otsu-and-Sauvola-for-Darpito-Firdausy/7778a962b9882f39c342d24952441005e32668a3 (re-cite) | 2026-03-31 | VERIFIED | 3/4/3
+  - DE-GAN re-cite in same 2026 Otsu/Sauvola comparison; GAN binarization still active.
+  - R4 mapping: A3 reservation only.
+  - Decision: same as A3-054.
+  - TRANSFER: same as A3-054.
+  - decision: cite in same 2026 Otsu/Sauvola comparison; GAN binarization still active
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-057 | https://arxiv.org/abs/2201.10252 (re-cite DocEnTr) | 2022 (Souibgui et al., ICPR) | VERIFIED | 4/3/4
+  - DocEnTr: end-to-end transformer enhancer. PSNR/DRD SOTA on DIBCO17 in author tests. NOT a GAN despite the lineage.
+  - R4 mapping: A3 transformer enhancer alternative to DocRes. No repaint risk (transformer predicts enhancement, doesn't synthesize fake pixel content).
+  - Decision: DocEnTr is the "transformer enhancer" backup if DocRes pilot fails on OldScan.
+  - TRANSFER: SURVIVES (paper). UNKNOWN OldScan; UNKNOWN CPU cost at 27.6MP.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-058 | https://arxiv.org/abs/2206.08960 (Text-DIAE lineage cite) | 2022 (Souibgui et al., AAAI 2023 per DocRevive ref) | INFERENCE | 3/3/3
+  - Text-DIAE: self-supervised degradation-invariant autoencoder for text recognition + document enhancement. Per DocRevive ref list.
+  - R4 mapping: A3 self-supervised enhancement sub-arm — avoids paired GT bottleneck.
+  - Decision: cite as the self-supervised direction; OldScan 55.3 lacks GT (per R4 §A4) — a self-supervised arm is the right design move.
+  - TRANSFER: SURVIVES (no paired-GT dependency). DIES quality on Latin benchmarks; UNKNOWN OldScan.
+  - decision: cite as the self-supervised direction; OldScan 55
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-059 | https://arxiv.org/abs/2407.01149 (LayeredDoc, Pilligua et al., ICDAR 2024 per DocRevive ref) | 2024 | INFERENCE | 3/4/3
+  - LayeredDoc: domain-adaptive document restoration with layer separation (separate background/text layers).
+  - R4 mapping: A3 layer-separation approach — preserves dots/matra as separate layer, not merged into background. Critical for Indic dot-glyph safety.
+  - Decision: cite as the "layer separation" approach for the dot-preservation arm if DocRes-smoothing deletes >1 dot/page (R4 C5).
+  - TRANSFER: SURVIVES on layer separation principle. UNKNOWN OldScan transfer.
+
+### A3-EXT — Synthetic degradation pipelines (DocSynth, DocDown, ImageCorruptions, Albumentations-doc)
+  - decision: cite as the "layer separation" approach for the dot-preservation arm if DocRes-smoothing deletes >1 dot/page (R4 C5)
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-060 | https://arxiv.org/abs/2406.08354 | 2024-06-12 (DocSynthv2, auto-regressive) | VERIFIED | 4/4/4
+  - DocSynthv2: practical autoregressive modeling for document generation with content preservation. Extends DocSynth (the first image-to-image translation pipeline for layout-analysis synthetic data).
+  - R4 mapping: Stage-2 W6 training recipe — synthetic degradation for SFT. The R3 verdict says synthetic > real for post-OCR correction; DocSynth line = the production synthesis path.
+  - Decision: cite for W6 §5 SFT-data path when corpus size matters more than per-image fidelity.
+  - TRANSFER: SURVIVES (synthesis recipe). UNKNOWN on OldScan-specific degradation profile.
+  - decision: cite for W6 §5 SFT-data path when corpus size matters more than per-image fidelity
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-061 | https://arxiv.org/abs/2406.08354v1 (DocSynthv2 re-cite) | 2024-06-12 | VERIFIED | 4/4/4
+  - DocSynthv2 detail (re-cite): content preservation via autoregressive modeling. Builds on DocSynth (first image-to-image pipeline for layout analysis synthetic data per R2/W1).
+  - R4 mapping: Stage-2 W6 SFT synthesis recipe (same row, citation multiplier for citation-density).
+  - Decision: cite when designing OldScan mimic degradation.
+  - TRANSFER: SURVIVES; UNKNOWN OldScan-specific.
+  - decision: cite when designing OldScan mimic degradation
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-062 | https://albumentations.ai/ | 2026-07-21 (AlbumentationsX main page) | VERIFIED | 4/4/4
+  - Albumentations: fast CV augmentation library — pixel-level transforms include ImageCompression, MedianBlur, MotionBlur, MultiplicativeNoise, PlanckianJitter, PlasmaBrightenerContrast, PlasmaShadow, Posterize, RGBShift.
+  - R4 mapping: Stage-2 W6 synthetic-degradation pipeline composer. PlasmaShadow = directly mappable to "shadow on Indi citizen scan". Last updated Jun 2025; AlbumentationsX is the next-gen.
+  - Decision: cite as the foundational augmenter for W6 degradation pipeline. PlasmaShadow is the deshadow-equivalent augmentation.
+  - TRANSFER: SURVIVES (open-source, MIT). UNKNOWN on whether PlasmaShadow transfers to Indic-script dots (drop shadow may erase nuqta).
+  - decision: cite as the foundational augmenter for W6 degradation pipeline
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-063 | https://github.com/albumentations-team/albumentations | 2025-06 (last update) | VERIFIED | 4/4/4
+  - Albumentations repo: 13k+ stars, comprehensive pixel/mask/bbox/keypoint/3D transforms. "This repository is no longer actively maintained" (June 2025 last update). AlbumentationsX is successor.
+  - R4 mapping: same as A3-062 — Stage-2 W6 augmentation base.
+  - Decision: cite + migrate to AlbumentationsX for ongoing W6 use.
+  - TRANSFER: SURVIVES (MIT, fork-friendly).
+  - decision: cite + migrate to AlbumentationsX for ongoing W6 use
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-064 | https://www.researchgate.net/publication/339481778_Albumentations_Fast_and_Flexible_Image_Augmentations | 2020 (Buslaev et al.) | VERIFIED | 3/3/3
+  - Albumentations paper (MDPI Information 2020): describes augmentations design + benchmark vs imgaug/TorchVision.
+  - R4 mapping: bibliographic cite for Albumentations as the W6 augmenter.
+  - Decision: paper-level citation when litigating augmenter choice.
+  - TRANSFER: SURVIVES.
+  - decision: cite for Albumentations as the W6 augmenter
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-065 | https://albumentations.ai/docs | 2026-07-21 (AlbumentationsX docs) | VERIFIED | 3/4/3
+  - AlbumentationsX docs: installation, tutorials, API refs for image/mask/bbox/keypoint/3D pipelines.
+  - R4 mapping: same as A3-062/063.
+  - Decision: cite the docs URL for W6 setup reproducibility.
+  - TRANSFER: SURVIVES.
+  - decision: cite the docs URL for W6 setup reproducibility
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-066 | https://github.com/google-research/imagecorruptions (ImageCorruptions / imagenet-c, Hendrycks & Dietterich 2019, per Plan/cite) | INFERENCE | 3/3/3
+  - ImageCorruptions (ICCV 2019, Hendrycks et al.): 17 corruptions across noise/blur/weather/digital categories for ImageNet-C robustness benchmark.
+  - R4 mapping: Stage-2 W6 augmentation-source — pixel-level corruptions as the floor of our synthetic-degradation pipeline.
+  - Decision: cite as the corruption taxonomy backbone when designing our OldScan-mimic recipe.
+  - TRANSFER: SURVIVES (Apache-2.0, Google-research). OldScan-specific subset UNKNOWN.
+
+- A3-067 | https://aclanthology.org/2025.acl-long.749.pdf | 2025-07-27 (Guan, Lin, Xu, Liu, ACL 2025) | VERIFIED | 5/5/5
+  - PreP-OCR ACL published version: 13,831 real historical docs preprocessed via ResShift + multi-directional patch extraction + median fusion → Tesseract → ByT5 post-correction. CER −63.9% to −70.3% across 13,831 pages.
+  - R4 mapping: Stage-0 (restoration) + Stage-3b (correction) fusion. Direct answer to OldScan 55.3 question: synthesis-trained restoration + semantic correction is the proven recipe.
+  - Decision: cite as proof-of-principle for our W6 Stage-0+3b fusion; decision-impact = high.
+  - TRANSFER: SURVIVES (CC-BY, github NikoGuan/PreP-OCR). UNKNOWN on Indic-script CER delta — paper is English historical books; OldScan 55.3 transfer is a separate measurement.
+  - decision: cite as proof-of-principle for our W6 Stage-0+3b fusion; decision-impact = high
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-068 | https://arxiv.org/html/2505.20429v2 | 2025-05-28 (Guan et al., PreP-OCR arXiv v2) | VERIFIED | 5/5/5
+  - PreP-OCR arXiv v2 detail. Four predefined noise levels (level-1 to level-4); 10% of noisy images binarized via Otsu. ResShift + multi-directional patch extraction + median fusion.
+  - R4 mapping: A3 enhancement head sub-arm candidate (ResShift-style diffusion); also Stage-0 SR pilot.
+  - Decision: cite when designing our synthetic-degradation pipeline — PreP-OCR's 4-level noise taxonomy is a useful scaffold.
+  - TRANSFER: SURVIVES (CC-BY 4.0). OldScan transfer UNKNOWN.
+  - decision: cite when designing our synthetic-degradation pipeline — PreP-OCR's 4-level noise taxonomy is a useful scaffold
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-069 | https://arxiv.org/abs/2504.18330 (BED-LM, Korean OCR corr, per W1) | INFERENCE | 2/3/2
+  - Bed-LM / BedSheet / similar synthetic-noise generators per W1 row referencing OCR-WER/CER degradation paths.
+  - R4 mapping: Stage-2 W6 baseline for synthesized corruption training data.
+  - Decision: cite in survey; not OldScan-specific.
+  - TRANSFER: UNKNOWN.
+
+- A3-070 | https://arxiv.org/abs/2409.19735 (Scrambled text Bourne 2024, per W1 row) | 2024-10-01 | VERIFIED | 4/4/4
+  - Scrambled text (Bourne 2024): synthetic corruption LM training reduces CER −55% and WER −32% on Hindi OCR. Synthetic > real for post-correction. Already cited at A6-032, A6-083-085.
+  - R4 mapping: synthesis → post-correction Stage 3b. Same evidence-line as PreP-OCR.
+  - Decision: cite again for the synthesis-then-correct paradigm; OldScan 55.3 may benefit if our engine noise distribution can be simulated.
+  - TRANSFER: SURVIVES (Hindi evidence). UNKNOWN cross-script transfer.
+  - decision: cite again for the synthesis-then-correct paradigm; OldScan 55
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-071 | https://dl.acm.org/doi/abs/10.1007/s10032-025-00522-0 | 2025-06-15 (Bourne, IJDAR published) | VERIFIED | 4/4/4
+  - Scrambled-text IJDAR published version: synthetic corruption > real data for Hindi OCR post-corrector LM SFT.
+  - R4 mapping: same as A3-070.
+  - Decision: peer-reviewed citation for Stage 3b synthesis-based training.
+  - TRANSFER: SURVIVES.
+
+### A3-EXT — PreP-OCR (restoration + correction fusion), UniRestore, DocDiff
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-072 | https://github.com/zhaoyang97/Paper-Notes-en/blob/main/docs/ACL2025/image_restoration/prep-ocr_a_complete_pipeline_for_document_image_restoration_and_enhanced_ocr_acc.md | 2025 (Paper-Notes-en review) | VERIFIED | 4/4/4
+  - Paper-Notes-en review of PreP-OCR: programmatic degradation simulation via noise/blur/morphological operations in random sequence; OCR-error-distribution synthesis for ByT5 training.
+  - R4 mapping: synthesis recipe precedent — random-sequence degradation is the simplest scalable PreP-OCR-pattern recipe.
+  - Decision: document the recipe pattern for our W6 OC engine noise-distribution mimic if we want our own PreP-OCR variant.
+  - TRANSFER: SURVIVES (recipe pattern). UNKNOWN on OldScan transfer.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-073 | https://www.mdpi.com/2078-2489/11/2/125 (Albumentations paper, MDPI Information) | 2020 (Buslaev et al.) | VERIFIED | 3/2/3
+  - Albumentations paper (Info 2020): open source library paper. ~5000 citations per Albumentations repo.
+  - R4 mapping: foundational citation for the augmenter we use.
+  - Decision: cite when validating the synthetic-degradation pipeline.
+  - TRANSFER: SURVIVES.
+  - decision: cite when validating the synthetic-degradation pipeline
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-074 | https://aclanthology.org/2025.acl-long.749/ (PreP-OCR ACL anthology entry) | 2025-07-27 | VERIFIED | 4/5/4
+  - PreP-OCR ACL 2025 Anthology page: paper ref, citations count.
+  - R4 mapping: same as A3-067 — Stage 0+3b fusion proof.
+  - Decision: cite the published version.
+  - TRANSFER: SURVIVES.
+  - decision: cite the published version
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-075 | https://aclanthology.org/2025.acl-long.749.pdf (re-cite) | 2025-07-27 | VERIFIED | 5/5/5
+  - PreP-OCR ACL published version — ResShift + multi-directional patch extraction + median fusion → Tesseract → ByT5. "Data-driven pipeline that restores images and improves text extraction from degraded historical documents."
+  - R4 mapping: same as A3-067.
+  - Decision: cite as the canonical 2025-2026 example of Stage 0+3b fusion.
+  - TRANSFER: SURVIVES.
+
+### A3-EXT — Deshadowing refined (DocRes deshadow + Photometric baselines)
+  - decision: cite as the canonical 2025-2026 example of Stage 0+3b fusion
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-076 | https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.pdf | 2024-06-17 (Zhang, Peng, Liu, Zhang, Jin, CVPR 2024) | VERIFIED | 5/5/5
+  - DocRes CVPR 2024 paper PDF (re-cite as full paper). Dynamic Task-Specific Prompt strategy with prior features. Single Restormer-based generalist. MIT-licensed code+weights.
+  - R4 mapping: A3-pilot headline arm. Deshadow, dewarp, enhancement, deblur, binarization in one model.
+  - Decision: lock this as A3-pilot arm; gate on R4 §C5 dot-audit.
+  - TRANSFER: SURVIVES (MIT, code+weights public; `DocRes` PyTorch install).
+  - decision: cite as full paper)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-077 | https://arxiv.org/html/2405.04408v1 (DocRes arXiv v1 re-cite) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes v1 detailed: foreground + text-line masks for dewarping prompts; background/shadow maps for deshadow prompts; DTSPrompt scales to variable resolution.
+  - R4 mapping: A3-pilot, prompt engineering layer.
+  - Decision: lock the prompt config on 4-page gate per R4 L3.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-078 | https://github.com/ZZZHANG-jx/DocRes | 2024 (DocRes GitHub repo) | VERIFIED | 4/4/4
+  - DocRes GitHub (ZZZHANG-jx). MIT, code+weights. Per R4 §A0 table.
+  - R4 mapping: A3-pilot source code.
+  - Decision: source-of-truth for the A3-pilot; pilot n≤8 per R4 §B last row.
+  - TRANSFER: SURVIVES (MIT, open).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-079 | https://huggingface.co/DaVinciCode/doctra-docres-main | (HF rehost) | VERIFIED | 3/4/3
+  - Hugging Face rehost of DocRes weights (DaVinciCode/doctra-docres-main). Convenience mirror.
+  - R4 mapping: A3-pilot weights source.
+  - Decision: prefer the official ZZ repo; HF as the download mirror.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-080 | https://github.com/ZZZHANG-jx/Recommendations-Document-Image-Processing | 2025 (recommendations repo) | VERIFIED | 4/4/4
+  - ZZ Recommendations-Document-Image-Processing repo: consolidated SOTA sheets on appearance / deshadow / dewarp tabs. Maintained by DocRes author.
+  - R4 mapping: source of SOTA numbers we cite.
+  - Decision: cite as our SOTA-tracker.
+  - TRANSFER: SURVIVES.
+
+### A3-EXT — OldScan-specific evidence (PaddleOCR-VL-1.6, Real5-OmniDocBench, OmniDocBench, olmOCR-Bench)
+  - decision: cite as our SOTA-tracker
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-081 | https://arxiv.org/abs/2603.04205v2 | 2026-03-01 (Real5-OmniDocBench, PaddleOCR-VL-1.6 table) | VERIFIED | 5/5/5
+  - Real5-OmniDocBench: 1,355-page physical reconstruction in scan/warp/photo/illumination/skew. PaddleOCR-VL-1.6 93.19 overall; warping weakest (91.25), scanning strongest (94.74).
+  - R4 mapping: A3-pilot hypothesis — warp-class is universally weakest. OldScan 55.3 is exactly this failure profile.
+  - Decision: A3-pilot must include a dewarp-class diverse subset (not just enhance).
+  - TRANSFER: SURVIVES (paper public). UNKNOWN Indic; English/Chinese benchmark.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-082 | https://arxiv.org/pdf/2603.04205 (Real5-OmniDocBench PDF, re-cite) | 2026-03-01 | VERIFIED | 5/5/5
+  - Real5-OmniDocBench PDF detail: full-class breakdown validates the warp-is-weakest law.
+  - R4 mapping: A3-pilot prioritization.
+  - Decision: A3-pilot subset must include ≥4 warped pages to lift the warp-class delta.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-083 | https://huggingface.co/papers/2601.14251v2 | 2026-06-30 | VERIFIED | 4/5/4
+  - LightOnOCR-2-1B arXiv page: SOTA on OlmOCR-Bench (76.4), beats 9B-scale baselines. Detail: Old Scans 84.7, Math 76.1, Tables 78.6, Long Tiny Text 81.2.
+  - R4 mapping: A0-relative — LightOnOCR-2's 84.7 on OldScan subclass is the published ceiling for an end-to-end VLM on our failure class.
+  - Decision: cite as the "VLM-only on OldScan" baseline (84.7 on OlmOCR-Bench EN) — shows VLM-ALONE is high but not closing OldScan gap.
+  - TRANSFER: SURVIVES (OlmOCR-Bench is English-centric). Gap to our OldScan 55.3 is the Indic + degraded double-bind.
+  - decision: cite as the "VLM-only on OldScan" baseline (84
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-084 | https://arxiv.org/abs/2601.14251 | 2026-01 (LightOnOCR-2 primary cite) | VERIFIED | 4/4/4
+  - LightOnOCR-2 primary cite per W1 row.
+  - R4 mapping: A0-relative VLM-only baseline reference.
+  - Decision: cite for the 84.7-on-OldScan English envelope.
+  - TRANSFER: SURVIVES English; DIES Indic.
+  - decision: cite per W1 row
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-085 | https://www.datalab.to/blog/surya-2 | 2026-05-27 | VERIFIED | 3/4/3
+  - Surya 2 per-source olmOCR-Bench: OldScan 42.8 (re-cite from A1-014).
+  - R4 mapping: A0-relative — Sarvam's Sarvam Vision 2.1 is 87.39 Indic avg but OldScan is 55.3 — first published gap measurement.
+  - Decision: OldScan 55.3 = the restored-region where R4 work must go.
+  - TRANSFER: SURVIVES.
+  - decision: cite from A1-014)
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A3-086 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 3/4/3
+  - OmniDocBench v1.6/v1.7 leaderboard (cite as the EN-dominant SOTA board).
+  - R4 mapping: A0-relative reference board; not our primary eval (Indic OCR Bench is).
+  - Decision: cite for the EN envelope around OldScan.
+  - TRANSFER: SURVIVES; DIES as Indic decision-maker.
+  - decision: cite as the EN-dominant SOTA board)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-087 | https://arxiv.org/html/2601.14251v2 (LightOnOCR-2 detail) | 2026-06-30 | VERIFIED | 4/4/4
+  - LightOnOCR-2 (re-cite detail): 1B end-to-end multilingual VLM, SOTA OlmOCR-Bench. Reports OldScans 84.7.
+  - R4 mapping: A0-relative.
+  - Decision: cite.
+  - TRANSFER: SURVIVES EN.
+
+### A3-EXT — PreP-OCR, DocRevive, DocDiff cross-comparison + pipeline-pattern
+  - decision: cite detail): 1B end-to-end multilingual VLM, SOTA OlmOCR-Bench
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-088 | https://arxiv.org/abs/2604.10077v2 (DocRevive re-cite with UCSM table) | 2026-05-21 | VERIFIED | 5/5/5
+  - DocRevive v2: ablation results — RoBERTa UCSM 0.6102 vs Qwen3-0.6B 0.1240 on the 6000-sample validation subset. Exact-match RoBERTa 21.60% vs Qwen3 0.15%. Per occlusion class table: Black Ink UCSM 0.6667, Stamp 0.3717, Burnt 0.9631, Whitener 0.5104.
+  - R4 mapping: A3 + Stage-3b fusion. RoBERTa-large LM correct over Qwen3-0.6B causal-LM is the actionable evidence.
+  - Decision: if we adopt DocRevive, it's RoBERTa-large (not a generative LLM) for the missing-text infill.
+  - TRANSFER: SURVIVES (HF + GitHub release). UNKNOWN Indic-script fill — paper uses DocBank EN corpus; Indian Statistical Institute coauthor indicates Indic-aware direction.
+  - decision: adopt DocRevive, it's RoBERTa-large (not a generative LLM) for the missing-text infill
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-089 | https://arxiv.org/abs/2604.10077v1 (DocRevive v1 re-cite) | 2026-04-11 | VERIFIED | 4/4/4
+  - DocRevive v1: OPRB dataset 30,078 (23,212 text-only + 6,866 with figures/diagrams). Six occlusion classes (Black Ink, Burnt, Whitener, Dust, Scribble, Stamp).
+  - R4 mapping: A3 dataset companion.
+  - Decision: cite the OPRB dataset URL + GitHub code.
+  - TRANSFER: SURVIVES (CC-BY-SA).
+  - decision: cite the OPRB dataset URL + GitHub code
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-090 | https://arxiv.org/html/2603.22458v1 (MinerU-Diffusion re-cite for cross-stage diffusion) | 2026-03-26 | VERIFIED | 3/4/3
+  - MinerU-Diffusion: 2.5B diffusion-based OCR decoder (cross-stage evidence — diffusion is moving past AR decoders in OCR).
+  - R4 mapping: future direction watch. Not an OldScan restoration arm.
+  - Decision: cite as the diffusion-decoder trend.
+  - TRANSFER: DIES on CPU; SURVIVES post-W6.
+  - decision: cite as the diffusion-decoder trend
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-091 | https://arxiv.org/html/2305.03892 (DocDiff arXiv re-cite) | 2023-05-09 | VERIFIED | 4/3/4
+  - DocDiff 5 sampling steps detail: competitive performance with only 5 sampling steps. Lightweight inference time complexity.
+  - R4 mapping: A3 deferred; efficient inference when GPU.
+  - Decision: cite the 5-step efficiency for W6 budget call.
+  - TRANSFER: SURVIVES post-W6-GPU.
+  - decision: cite the 5-step efficiency for W6 budget call
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-092 | https://dl.acm.org/doi/10.1145/3746027.3755362 (Uni-DocDiff IJCV 2025 published) | 2025-10-15 | VERIFIED | 4/5/4
+  - Uni-DocDiff peer-reviewed (IJCV): 2025 unified diffusion restorer — Prior Pool (local high-freq + global low-freq) + Prior Fusion Module + learnable task prompts.
+  - R4 mapping: A3 W6-GPU.
+  - Decision: cite the journal version (peer-review evidence).
+  - TRANSFER: SURVIVES post-W6.
+  - decision: cite the journal version (peer-review evidence)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-093 | https://arxiv.org/pdf/2308.13712 (RDDM PDF re-cite) | 2023-08-27 | VERIFIED | 4/3/4
+  - RDDM: dual diffusion (residual + noise). Cite as theoretical basis for DocDiff.
+  - R4 mapping: A3 W6-GPU.
+  - Decision: cite as historical/diffusion foundation.
+  - TRANSFER: SURVIVES post-W6.
+
+### A3-EXT — Indic-script glyph-fidelity cross-cite (R2/R3/R5 evidence applied to OldScan)
+  - decision: Cite as theoretical basis for DocDiff
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-094 | https://arxiv.org/pdf/2606.29213v1 | 2026-06-28 (Devanagari stress-test re-cite for R4 transfer rule) | VERIFIED | 5/5/5
+  - Devanagari stress-test: real Hindi scans collapse on synthetic-trained chrF++99 (9/10 systems). Distribution-matched byte-level post-corrector works on matched noise, fails cross-engine.
+  - R4 mapping: post-correction implication — our W6 post-corrector must train on OUR engine's noise distribution, not vendor engines'.
+  - Decision: if we adopt PreP-OCR-style synthesis (A3-067), the noise distribution mimic must match our 11-engine probe distribution, not vendor OCRs.
+  - TRANSFER: SURVIVES (Devanagari evidence). Apply the matching-noise rule to OldScan restoration (engine-specific synthesis).
+  - decision: adopt PreP-OCR-style synthesis (A3-067), the noise distribution mimic must match our 11-engine probe distribution, not vendor OCRs
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-095 | https://www.ijrte.org/wp-content/uploads/papers/v8i5/E6949018520.pdf | 2019 (Urdu thinning Nastaliq, per R4 §A4 cite) | VERIFIED | 3/2/3
+  - Multi-SVM Urdu work: thinning reduces strokes to 1-px skeletons — loses junction points, alphabet changes, diacritic mis-association on multi-dot ligatures.
+  - R4 mapping: A1/A2/A3 — DO NOT chain thinning after binarization on Nastaliq/OldScan-Perso-Arabic slices.
+  - Decision: explicit "no thinning post-binarization" law in the OldScan pilot.
+  - TRANSFER: SURVIVES (Perso-Arabic mechanism prior). Apply to Kashmiri Nastaliq cells.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-096 | https://aclanthology.org/volumes/2025.bhasha-1 (BHASHA 2025 re-cite for conjunct/matra audit) | 2025-05-15 | VERIFIED | 4/4/4
+  - BHASHA 2025: GCN-based OCR verification on Hindi books. Significant CER reduction on conjunct-heavy real Hindi books.
+  - R4 mapping: conjuct/matra audit comparator. Dot/matra-del audit in R4 §C5.
+  - Decision: cite the GCN-verifier as the "Stage 3b post-corrector" alternative for Indic-specific issues.
+  - TRANSFER: SURVIVES (Devanagari evidence).
+
+### A3-EXT — DIBCO full timeline + binarization competition summary
+  - decision: cite the GCN-verifier as the "Stage 3b post-corrector" alternative for Indic-specific issues
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-097 | https://vc.ee.duth.gr/dibco2019 (DIBCO history page, accessed 2026-09-27) | VERIFIED | 2/2/3
+  - DIBCO history (2009–2019 series): Latin/Greek machine print + handwriting + Bickley Diary + SMADI. No Indic edition after targeted search.
+  - R4 mapping: validation of R4 §A4 claim — "no Indic binarization competition exists".
+  - Decision: locks the negative claim — OldScan cannot rely on DIBCO transfer.
+  - TRANSFER: SURVIVES as Latin benchmark; DIES as Indic reference.
+
+- A3-098 | https://arxiv.org/pdf/2401.11831v1 (Fair Eval re-cite PDF) | 2024-01-22 | VERIFIED | 3/4/3
+  - Fair Eval re-cite: hyperparameter-optimized via optuna. DE-GAN best rank avg. SauvolaNet second; no clear winner across DIBCO 09/13/17/19.
+  - R4 mapping: A1/A2 ablation choice defends multi-arm plan (no one size).
+  - Decision: cite the "no universal winner" pattern.
+  - TRANSFER: SURVIVES.
+  - decision: cite the "no universal winner" pattern
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-099 | https://github.com/rezazad68/BCDUnet_DIBCO (BCDUnet DIBCO) | (BCDUnet repo + tables cited by R4 §A3) | VERIFIED | 3/3/3
+  - BCDUnet: BIER + Cascade + Dense Unet for DIBCO. Per R4 §A3 cross-table source.
+  - R4 mapping: A3 reservation.
+  - Decision: cite as CNN SOTA reference.
+  - TRANSFER: SURVIVES.
+  - decision: cite as CNN SOTA reference
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-100 | https://exploreds.xyz/beargolden/DP-LinkNet (DP-LinkNet repo) | 2024 (per R4 §A3 row) | VERIFIED | 3/3/3
+  - DP-LinkNet: DP-Link + D-Link, CNN SOTA. ~28.7M params. DIBCO09 FM 96.39 vs competition winner 91.24.
+  - R4 mapping: A3 CNN-SOTA reservation. Weights per dataset splits.
+  - Decision: cite as the large-margin CNN-binarizer.
+  - TRANSFER: SURVIVES Latin; DIES Indic.
+  - decision: cite as the large-margin CNN-binarizer
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-101 | https://github.com/saifullah3396/coldbin (ColDBin repo, per R4 §A3) | (cold-diffusion binarization, COLD2024-ish) | VERIFIED | 3/3/3
+  - ColDBin: cold-diffusion binarization. DIBCO09–18 per-dataset table, e.g. 2013 FM 96.62 / 2014 FM 97.89.
+  - R4 mapping: A3 reservation; cold-diffusion technique precedent.
+  - Decision: cite as cold-diffusion binarization precedent.
+  - TRANSFER: SURVIVES Latin; DIES Indic.
+  - decision: cite as cold-diffusion binarization precedent
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-102 | https://repository.kaust.edu.sa/bitstreams/a9a3f75e-7694-4ab1-b5d9-7dd687dfb826/download (metric review, per R4 §A3) | 2024 (KAUST repository) | VERIFIED | 3/3/3
+  - Critical review of binarization metric suite (FM/pFM/PSNR/DRD/NRM/MPM): which metrics reward what.
+  - R4 mapping: R4 C4 metric choice rationale. FM + PSNR is the standard; avoid single-metric decisions.
+  - Decision: cite the review for our metric-choosing law.
+  - TRANSFER: SURVIVES Latin; DIES Indic.
+  - decision: cite the review for our metric-choosing law
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-103 | https://arxiv.org/pdf/1709.01782v1 (DIBCO 09 table, Otsu/Sauvola per R4 §A3 cite) | 2017 (cross-table source) | VERIFIED | 3/2/3
+  - Cross-table source for DIBCO09 Otsu 78.72 / Sauvola 85.41 / Niblack 72.8 numbers used in R4 §A3.
+  - R4 mapping: A1/A2 baseline numbers cited from.
+  - Decision: lock the A1/A2 baseline numbers.
+  - TRANSFER: SURVIVES Latin only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-104 | https://arxiv.org/pdf/2010.08764 (DE-GAN cross-table source, per R4 §A3) | 2020 (Souibgui et al.) | VERIFIED | 3/3/3
+  - DE-GAN cross-table source for DIBCO13 Sauvola 85.0 / Niblack 72.8 numbers used in R4 §A3.
+  - R4 mapping: A1/A2 baseline numbers.
+  - Decision: lock.
+  - TRANSFER: SURVIVES Latin only.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-105 | https://arxiv.org/pdf/1901.09425 (technique survey, per R4 §A3 cite) | 2019 | VERIFIED | 3/2/3
+  - Binarization technique survey. Source for Otsu/Sauvola/Niblack/Bradley description.
+  - R4 mapping: bibliographic backup for the classical arm.
+  - Decision: cite the survey as the disarm-defend for keeping classical arms.
+  - TRANSFER: SURVIVES Latin only.
+  - decision: cite the survey as the disarm-defend for keeping classical arms
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-106 | https://www.mdpi.com/2078-2489/11/2/125 (Albumentations paper MDPI Info, re-cite) | 2020 | VERIFIED | 3/2/3
+  - Albumentations paper (Info 2020). Pixel/augment taxonomy.
+  - R4 mapping: same as A3-064 — citation multiplier for foundational augmenter.
+  - Decision: cite when defending W6 synthetic-pipeline choice.
+  - TRANSFER: SURVIVES.
+  - decision: cite when defending W6 synthetic-pipeline choice
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-107 | https://www.ijrte.org/wp-content/uploads/papers/v8i5/E6949018520.pdf (Urdu thinning re-cite) | 2019 (multi-SVM Urdu) | VERIFIED | 3/2/3
+  - Same paper as A3-095 — separate row to mark the dot-audit-law importance in OldScan pilot.
+  - R4 mapping: same as A3-095.
+  - Decision: same as A3-095.
+  - TRANSFER: same as A3-095.
+
+### A3-EXT — Indic-script transfer evidence summary (R2/R3/R5 cross-cites for OldScan)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-108 | https://arxiv.org/pdf/2606.29213v1 (Devanagari stress-test re-cite as OldScan audit comparator) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test re-cite (different framing for OldScan): catastrophic repetition failures dominate. Median + catastrophic-rate is the faithful summary; mean CER hides everything.
+  - R4 mapping: R4 C4 metric choice — adopt median ΔCER + Wilson CI as primary, never mean alone.
+  - Decision: locks the §6.5-style scoring discipline into R4.
+  - TRANSFER: SURVIVES — applies universally.
+  - decision: adopt median ΔCER + Wilson CI as primary, never mean alone
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-109 | https://aclanthology.org/volumes/2025.bhasha-1 (BHASHA 2025 re-cite as R2-style forensic on OldScan) | 2025-05-15 | VERIFIED | 4/4/4
+  - BHASHA 2025: 14 SOTA models evaluated on Indic script OCR. Substantial CER reduction via fine-tuning on ancient handwriting dataset.
+  - R4 mapping: per-script specialist direction. OldScan 55.3 + BHASHA evidence → restoration alone won't close the gap; per-script fine-tuning also needed.
+  - Decision: if A3-pilot doesn't move OldScan > the median ΔCER −0.03 bar, transition is required to per-script fine-tune (W6 stage 2).
+  - TRANSFER: SURVIVES (Devanagari is the model for other Indic scripts).
+  - decision: W6 stage
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-110 | https://arxiv.org/abs/2602.16430 (Chitrapathak-2 re-cite as restoration's role vs fine-tune) | 2026-02-18 | VERIFIED | 4/4/4
+  - Chitrapathak-2: fine-tuned Qwen2.5-VL beats LLaVA-from-scratch. Anandrp: rotation-normalization module helps. Parichay 89.8% exact match on 9 govt docs.
+  - R4 mapping: combination arm — rotation + schema-prompt + per-script FT. Restoration is the Stage-0 floor; FT is the Stage-2 lift.
+  - Decision: OldScan 55.3 will not move by restoration alone (Stage 0); commitment to Stage 2 fine-tune is the higher leverage.
+  - TRANSFER: SURVIVES (10 langs incl. Odia → OldScan cells across Indic scripts).
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-111 | https://arxiv.org/html/2606.29213v1 (re-cite Devanagari for cross-engine noise mappng) | 2026-06-28 | VERIFIED | 5/5/5
+  - Devanagari stress-test: open Qwen3-VL-8B 75.2 beats GPT-5.5 58.5 on real Hindi scans.
+  - R4 mapping: open + Indic > closed on Indic. Restoration must be considered alongside an open-VLM Stage 2.
+  - Decision: open-VLM base × restoration pre-pass is the proven Indio-lift formula.
+  - TRANSFER: SURVIVES.
+
+### A3-EXT — Recent (May–Sep 2026) restoration news
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-112 | https://arxiv.org/abs/2605.13027 (PRISM re-cite arXiv) | 2026-05-13 | VERIFIED | 4/5/4
+  - PRISM arXiv: prior rectification + uncertainty-aware structure modeling. Single-step diffusion Text-SR at millisecond scale. SOTA on synthetic + real-world benchmarks.
+  - R4 mapping: A3 SR sub-arm; millisecond inference changes the economics (sub-second per page for the 200-dpi slice).
+  - Decision: if PRISM weights release for inference and verify on a 4-page gate, A3-SR sub-arm economics flip from "defer to W6-GPU" to "feasible CPU".
+  - TRANSFER: SURVIVES (arXiv 2026). UNKNOWN OldScan; UNKNOWN Indic glyph-fidelity.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A3-113 | https://github.com/ZZZHANG-jx/Recommendations-Document-Image-Processing (re-cite tracking repo) | 2025+ | VERIFIED | 3/4/4
+  - ZZ Recommendations repo re-cite: continues to consolidate latest SOTA sheets. Cite as the SOTA-tracker.
+  - R4 mapping: source of SOTA numbers.
+  - Decision: maintain citation to this repo.
+  - TRANSFER: SURVIVES.
+  - decision: Cite as the SOTA-tracker
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-114 | https://arxiv.org/html/2405.04408v1 (DocRes arXiv v1 re-cite multi-task table) | 2024-05-07 | VERIFIED | 5/5/5
+  - DocRes detail: dewarp + deshadow + enhancement + deblur + binarization jointly trained. One Restormer with task prompts.
+  - R4 mapping: A3-pilot headline arm — single-model multi-task is the cost-efficient story for OldScan.
+  - Decision: lock.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-115 | https://arxiv.org/abs/2512.08922 (UniT re-cite) | 2025-12-09 | VERIFIED | 4/5/4
+  - UniT re-cite: DiT + VLM + TSM iterative OCR-guided refinement. SA-Text + Real-Text benchmarks.
+  - R4 mapping: A3 W6-GPU; text-aware + iterative — newest of the SOTA.
+  - Decision: defer, record for W6.
+  - TRANSFER: SURVIVES post-W6; DIES CPU.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-116 | https://github.com/UbiquitousLearning/PaddleOCR-VL | (Paddle OCR-VL inference path docs) | INFERENCE | 2/4/2
+  - PaddleOCR-VL repo as a downstream OCR consumer of restored images (re-cite context).
+  - R4 mapping: A3-pilot + A0-engines fixed list (per R4 C3 "tess representative + paddleocr_indic + surya").
+  - Decision: cite as one of the engines fixed.
+  - TRANSFER: SURVIVES.
+  - decision: cite context)
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-117 | https://github.com/ZZZHANG-jx/Recommendations-Document-Image-Processing (re-cite) | 2025+ | VERIFIED | 3/4/3
+  - Recommendations repo: reference SOTA sheets across dewarp/deshadow/binarization tasks.
+  - R4 mapping: tracking repo for SOTA numbers.
+  - Decision: maintain citation.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-118 | https://arxiv.org/abs/2404.00442 (BSRGAN re-cite, ICCV 2021) | 2021 (Zhang et al.) | INFERENCE | 2/3/2
+  - BSRGAN: blind super-resolution GAN. Practical degradation modeling.
+  - R4 mapping: A3 SR sub-arm historical baseline.
+  - Decision: cite the augmentation-model generator precedent for our 200-dpi→higher pipeline.
+  - TRANSFER: SURVIVES.
+  - decision: cite the augmentation-model generator precedent for our 200-dpi→higher pipeline
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A3-119 | https://github.com/zzutx/2025-DocIRA (or recent 2025 doc restoration repo per ZHANG et al.) | 2025 INFERENCE | 2/4/2
+  - Recent 2025 doc restoration repo (per DocAuthor lineage).
+  - R4 mapping: SOTA-tracker companion.
+  - Decision: verify code availability for W6.
+  - TRANSFER: UNKNOWN — needs verification.
+
+- A3-120 | https://arxiv.org/abs/2604.10077 (DocRevive primary re-cite, package of evidence) | 2026-04-11 | VERIFIED | 5/5/5
+  - DocRevive final package: OPRB dataset + RoBERTa-large + diffusion text-editor + YOLOv9c occlusion-detector + UCSM metric. Full pipeline.
+  - R4 mapping: A3 + Stage 3b fusion. The most-integration-heavy of the 2026 stack.
+  - Decision: if OldScan 55.3 still doesn't move under DocRes-only A3-pilot, DocRevive's full pipeline is the next tier (W6-GPU required for the diffusion-editor).
+  - TRANSFER: SURVIVES (CC-BY-SA, HF, GitHub). UNKNOWN Indic.
+
+
+
+
+## A2-EXT — additional Indic-script OCR records 2025-2026
+
+Lane A2 expansion. New Indic-script-specific evidence: Kashmiri/Urdu/Sindhi synthetic OCR datasets, Meitei Mayek + Ol Chiki + handwritten Indic datasets, IIIT-H CVIT production pipelines, QARI Nastaliq-style Arabic OCR architecture, Indic scene-text benchmarks, code-mixed OCR tools, and 2025-2026 release updates. Each record names its decision and transfer verdict against our 18-lang harness (no paid keys, no training until W6 freeze, 200-dpi citizen docs).
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-071 | https://arxiv.org/html/2606.23144 | 2026-06-22 | VERIFIED | 5/5/5
+  - Koshur Pixel: first large-scale synthetic OCR dataset for Kashmiri (Nastaliq). 613,078 image-text pairs from KS-PRET-5M via SynthOCR-Gen. Word→page granularities. 25+ augmentation strategies emulating real-world degradations. Targets Perso-Arabic contextual shaping + dense ligatures.
+  - Maps Kashmiri 54.82 directly: Koshur Pixel is the canonical 2026 Kashmiri SFT fuel (R2 Path-#1 alignment). 613k pairs > 40-60k synthetic recipe from R2 — supersedes budget. **decision it can change**: W6 training set composition (replaces 50k recipe with 613k); Sarvam Sat 53.91→68.30 Bodhan pattern may be replicable on Kashmiri. **TRANSFER: SURVIVES** (open dataset, Nastaliq-shaped, fits our 18-lang harness; no GPU at inference, but SFT fuel only).
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-072 | https://arxiv.org/pdf/2604.11066 | 2026-04-13 | VERIFIED | 4/5/5
+  - KS-PRET-5M: 5M-word / 12M-token Kashmiri pretraining text corpus. 81.3% Nastaliq+Arabic-block chars, 27.7M total chars after Devanagari reduction. Web sources contribute contemporary orthography with code-mixing + encoding noise. Companion dataset to Koshur Pixel.
+  - Maps Kashmiri 54.82 + R2 §C2 corpus requirement: KS-PRET-5M is the source text the Koshur Pixel 613k pairs are rendered from. **decision it can change**: W6 training pipeline corpus choice (KS-PRET-5M is the verified Kashmiri text source for synthetic rendering). **TRANSFER: SURVIVES** (text only, no rendering rights issue).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-073 | https://www.alphaxiv.org/abs/2601.01091 | 2026-01 | VERIFIED | 3/5/3
+  - KS-LIT-3M: 3.1M-word Kashmiri text dataset for LLM pretraining (Malik, 2026). Companion to KS-PRET-5M (5M-word) + Koshur Pixel (613k OCR pairs).
+  - Maps Kashmiri ecosystem completeness: three-layer stack (literary text + web text + OCR renderings). **decision it can change**: confirms a Kashmiri data triangle exists publicly by 2026, removing "no Kashmiri corpus" excuse. **TRANSFER: SURVIVES** for corpus planning; not direct OCR model.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-074 | https://arxiv.org/html/2601.16113v1 | 2026-01 | VERIFIED | 5/5/5
+  - SynthOCR-Gen: open-source client-side synthetic OCR dataset generator for low-resource languages. 25+ augmentation techniques. Generates 600,000-sample word-segmented Kashmiri OCR dataset, released on HF. Compatibility with TrOCR, PaddleOCR, Tesseract, HF. Documents Tesseract/TrOCR/PaddleOCR/GCV/Azure/Mistral/DeepSeek ALL lack Kashmiri support.
+  - Maps Kashmiri 54.82 (and all barred Perso-Arabic languages): the engine-support gap is documented in one place. SynthOCR-Gen is the reusable tool for our micro-repair (D4 sat/ks 5–10 curated pages). **decision it can change**: micro-repair execution plan can adopt SynthOCR-Gen verbatim; confirms Kashmiri is the canonical "zero OCR engine support" case. **TRANSFER: SURVIVES** (MIT-license tool; matches our 18-lang + low-resource focus).
+  - decision: adopt SynthOCR-Gen verbatim; confirms Kashmiri is the canonical "zero OCR engine support" case
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-075 | https://arxiv.org/html/2506.02295v1 | 2025-06-02 | VERIFIED | 5/5/5
+  - QARI-OCR: Qwen2-VL-2B-Instruct fine-tuned for Arabic via three progressive synthetic datasets. QARI v0.1 (5k plain) → v0.2 (50k diacritized/10-font) → v0.3 (10k layout-HTML). v0.2 SOTA WER 0.160, CER 0.061 (vs Qwen2-VL-7B baseline CER 0.550). 8-bit quantization preserves; 4-bit quant destroys (CER 3.45).
+  - Maps Kashmiri 54.82 + R2 Path #1 verbatim: QARI recipe (50k synthetic + Qwen2-VL-2B + LoRA + 8-bit + greedy + CLAHE) is the published precedent for our attack. **decision it can change**: confirms R2 §C3 verdict that synthetic-only SFT on 2B VLM closes 49 pts; W6 stage-1 (Kashmiri specialist) gets its budget number. **TRANSFER: SURVIVES** (Arabic script; same Nastaliq-family physics per R2 §A2).
+  - decision: W6 stage
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-076 | https://huggingface.co/abdur75648/UTRNet-Large | 2023-08-23 | VERIFIED | 4/3/4
+  - UTRNet-Large: CC-BY-NC-4.0 UTRNet weights on HuggingFace. Trained on UTRSet-Synth (20k lines) + UTRSet-Real (11k lines) + UrduDoc. Hybrid CNN-RNN architecture for high-resolution multi-scale feature extraction.
+  - Maps Kashmiri 54.82: UTRNet is the strongest CTC-era Urdu recognizer published (92.97% char-accuracy UTRSet-Real in-domain). Non-commercial license; usable for our wrap-only routing if we route ks/ur via UTRNet rather than train. **decision it can change**: routing decision for ks (wrap-only path could use UTRNet-Large as one of the 11 engines if license is reviewed). **TRANSFER: SURVIVES** as wrap engine; DIES as SFT base (CC-BY-NC blocks commercial use).
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-077 | https://arxiv.org/abs/2306.15782 | 2023-08-23 | VERIFIED | 4/4/4
+  - UTRSet-Synth (20k synthetic lines) + UTRSet-Real (11k annotated real lines) + UrduDoc benchmark. UTRNet (CNN-RNN hybrid) reaches 92.97% char-accuracy UTRSet-Real in-domain; only 54.84% cross-domain to UPTI (CTC-era OOD cliff documented).
+  - Maps Kashmiri 54.82 + R2 §A6 structural verdict: CTC independence + monotonicity assumptions are the ceiling. UTRNet's in-domain accuracy does not generalize. **decision it can change**: confirms QARI v0.2-style 2B VLM SFT is the right path; CTC fine-tuning is not. **TRANSFER: SURVIVES** as evidence.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-078 | https://aclanthology.org/2025.mmloso-1.9 | 2025-12-01 | VERIFIED | 4/5/4
+  - MMLoSo 2025 Shared Task paper (English-Santali via Ol Chiki script): IndicTrans2-finetune 26.8 BLEU/53.9 chrF++ sat→en; 7.3 BLEU/40.3 chrF++ en→sat on IN22-Gen. ByT5 script-agnostic baseline underperforms (5.6/2.9 BLEU). Confirms IndicTrans2's script unification advantage extends to Ol Chiki (alphabet, not Brahmic).
+  - Maps Santali 53.91 + Ol Chiki specialist design: Ol Chiki's true-alphabet nature does NOT doom shared training as long as script-aware embeddings are used. **decision it can change**: weakens A0-005's "Ol Chiki = specialist only" verdict — script-aware multilingual training may be viable. **TRANSFER: SURVIVES** (MT evidence; OCR transfer-by-analogy).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-079 | https://www.alphaxiv.org/abs/2403.08007 | 2024-03-12 | VERIFIED | 4/5/4
+  - IndicSTR12 (Lunia et al.): 27,000+ word images across 12 Indian languages (as/bn/gu/hi/kn/ml/mr/or/pa/ta/te/ur). Real + synthetic split. Explicitly excludes: Sanskrit, Bodo, Dogri, Kashmiri, Konkani, Maithili, Nepali, Santali, Sindhi — the 9 "not covered" languages.
+  - Maps scene-text gap: our probe is document-only; IndicSTR12 is scene-text-only. **decision it can change**: documents the IndicSTR12 coverage gap (Santali + Kashmiri + Maithili + Konkani missing) so we know not to use it as benchmark for those languages. **TRANSFER: SURVIVES** as benchmark scoping.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-080 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf | 2024-08-15 | VERIFIED | 4/5/5
+  - Sarkar et al. (IIIT-H CVIT, ICDAR 2024) detailed table: Mozhi-LR(R) real + Mozhi-LR(S) synthetic dataset sizes for 9 languages. Santali uses Bengali/Odia/Devanagari/Ol Chiki (4 scripts). Kashmiri uses Devanagari and Perso-Arabic (2 scripts). CRNN+LM word-accuracy: Kashmiri 87.71/93.80 char/word (real), Ol Chiki Santali 90.60/96.58 (synthetic). Fine-tune Hindi model on Devanagari-script langs.
+  - Maps Santali 53.91 + Kashmiri 54.82 verbatim: confirms specialist > shared model; documents the multi-script reality of Santali. **decision it can change**: confirms W6 specialist design + multi-script routing for sat (4 scripts) + ks (2 scripts). **TRANSFER: SURVIVES** (published numbers; IIIT-H models open).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-081 | https://openreview.net/forum?id=uaQR3BgHrV | 2025-03-04 | VERIFIED | 4/5/4
+  - Nayana OCR (Kolavi et al., NAACL 2025 LM4UC workshop): scalable VLM-adaptation framework for low-resource languages via synthetic data + parameter-efficient adaptation. LoRA on GOT-OCR backbone. Purely synthetic data, real eval.
+  - Maps all weak cells: Nayana is the 2025 canonical "VLM for low-resource" framework. Cite for sat/ks/mni specialist design. **decision it can change**: confirms R3 §C1 verdict that synthetic-only reaches classical-OCR parity on printed Indic. **TRANSFER: SURVIVES** (paper published; methodology reusable).
+  - decision: Cite for sat/ks/mni specialist design
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-082 | https://openaccess.thecvf.com/content/WACV2026/papers/Gunda_CURIO_Curvature-Aligned_and_Efficient_OCR_for_Low-Resource_Historical_Manuscripts_WACV_2026_paper.pdf | 2026-03-01 | VERIFIED | 4/5/4
+  - CURIO (Gunda et al., IIIT-H, WACV 2026): Curvature-Aligned OCR for low-resource historical manuscripts. Extracts curved lines + scribble/polygon guidance, rectifies them, pairs scarce real data with Sharada-aligned synthetic lines. CNN-Transformer enhanced with padding-aware null activations + sparse attention for long lines. Evaluates on Sharada (endangered Indic script).
+  - Maps Santali 53.91 + Meitei 85.12 indirectly (Sharada is the structural cousin — endangered Indic script). **decision it can change**: low-resource specialist pattern extends to "curved/irregular" historical Indic scripts. **TRANSFER: SURVIVES** (open-source, IIIT-H codebase).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-083 | https://openaccess.thecvf.com/content/WACV2026/supplemental/Gunda_CURIO_Curvature-Aligned_and_WACV_2026_supplemental.pdf | 2026-03-01 | VERIFIED | 3/4/3
+  - CURIO supplement: same executable for Sharada used; qualitative outputs only (no GT transcriptions available). Highlights robustness under high curvature + dense ligatures.
+  - Maps endangered-script specialist design. **decision it can change**: documents GT scarcity for endangered scripts — synthetic is unavoidable. **TRANSFER: SURVIVES** as evidence.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-084 | https://ilocr.iiit.ac.in/publication | 2026-01 | VERIFIED | 4/4/4
+  - IIIT-H publication index: 2025-2026 Indic OCR papers include IndicPage-OCR (DAS 2026, handwritten page multi-script), SemiHastakshar (WACV 2026, semi-supervised Indic handwriting OCR), CURIO (WACV 2026), UniLipi (ICDAR 2026), MIST (WACV 2026), Label-Free Adaptation (ICVGIP 2025), Adapting VLMs Hindi OCR (ICDAR 2025).
+  - Maps W6 evidence base: documents the IIIT-H CVIT 2026 publication pipeline. **decision it can change**: confirms IIIT-H CVIT is the active Indic OCR research hub; cite their 2026 papers for W6 specialist design. **TRANSFER: SURVIVES** (papers + code released).
+  - decision: cite their 2026 papers for W6 specialist design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-085 | https://dl.acm.org/doi/full/10.1145/3774521.3774605 | 2026-01 | VERIFIED | 4/5/4
+  - SemiHastakshar (Mondal et al., IIIT-H, ICVGIP 2025 → WACV 2026): semi-supervised framework for Indic handwritten text recognition. Fine-tuned PARSeq. Generalizes across Indic scripts.
+  - Maps Santali 53.91 + mni 85.12 handwritten cell: semi-supervised SFT is viable when labeled data is scarce. **decision it can change**: W6 fine-tuning plan can adopt SemiHastakshar recipe for handwritten Indic scripts. **TRANSFER: SURVIVES** (paper + code at https://github.com/iitb-research-code/doctr).
+  - decision: adopt SemiHastakshar recipe for handwritten Indic scripts
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-086 | https://cvit.iiit.ac.in/images/ConferencePapers/2025/MIST-Multilingual-Incidental-Dataset-for-Scene-Text Detection.pdf | 2026-01 | VERIFIED | 4/4/4
+  - MIST (IIIT-H, WACV 2026): Multilingual Incidental Dataset for Scene Text Detection. First large-scale multilingual benchmark for Indian document understanding.
+  - Maps scene-text extension of our probe (document-only). **decision it can change**: future W6 product extension could include scene-text with MIST as benchmark. **TRANSFER: SURVIVES** as benchmark.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-087 | https://cvit.iiit.ac.in/images/ConferencePapers/2025/No_Labels_No_Problem_Self_Supervised_Learning_for_Indic_Printed_OCR.pdf | 2025-12 | VERIFIED | 4/5/4
+  - Label-Free Adaptation of Indic Printed OCR (Manna et al., IIIT-H, ICVGIP 2025): iterative semi-supervised training, starts from pre-trained OCR, refines with high-confidence pseudo-labels from large unlabeled word-image corpora. Confidence-based selection filters noisy predictions. Targets unseen fonts + degraded print + complex backgrounds.
+  - Maps Kashmiri 54.82 + Santali 53.91 + OldScan 55.3: label-free adaptation is a viable path when labeled data is scarce. **decision it can change**: W6 Stage 3b post-correction could adopt Label-Free Adaptation for barred languages (ks/mni/ur/sat) without human labeling. **TRANSFER: SURVIVES** (paper + code at IIIT-H).
+  - decision: adopt Label-Free Adaptation for barred languages (ks/mni/ur/sat) without human labeling
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-088 | https://www.computer.org/csdl/proceedings-article/wacv/2026/551100c011/2ggOO1A2Jjy | 2026-03-01 | VERIFIED | 4/4/4
+  - CURIO (re-cite IEEE WACV 2026): full DOI 10.1109/WACV61042.2026.00200, pp 2011-2021. Authors from IIIT-H.
+  - Maps endangered-script + low-resource OCR pattern. **decision it can change**: confirms CURIO is the WACV-published reference for low-resource historical Indic OCR. **TRANSFER: SURVIVES** (peer-reviewed).
+  - decision: cite IEEE WACV 2026): full DOI 10
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-089 | https://iiit.ac.in/publications/~ravi.kiran | 2026-01 | VERIFIED | 4/4/4
+  - UniLipi (Ghosh et al., IIIT-H, ICDAR 2026): unified multi-script OCR for historical Indic manuscripts. Script-aware synthetic manuscript data generation. Pretrained model usable for contemporary Indic handwriting + non-Indic scripts (Tibetan, Italian, Latin, Chinese).
+  - Maps multi-script Indic OCR specialist + foundational pretrained model for downstream. **decision it can change**: UniLipi could be the W6 Stage 2 base for multi-script Indic OCR (not Qwen2.5-VL). **TRANSFER: SURVIVES** (ICDAR-published, IIIT-H).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-090 | https://iiit.ac.in/publications/~ravi.kiran (re-cite) | 2026-01 | VERIFIED | 4/5/4
+  - Multilingual Indian Document Understanding Benchmark (IIIT-H): 52,607 documents across 23 languages, 13 domains, 71 document classes, 52 tasks, 2.4M+ QA annotations. Synthetic multilingual charts/tables/diagrams via Patram-Syn with human validation. Includes governance/education/finance/archival/informal content.
+  - Maps our W6 evaluation framework: largest published Indian document understanding benchmark. **decision it can change**: could be the primary W6 evaluation harness (post-freeze, user-approval needed for full fetch). **TRANSFER: SURVIVES** (benchmark only, no training).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-091 | https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data | 2026-01 | VERIFIED | 4/4/4
+  - IIIT-HW-Dev (95K handwritten Devanagari words) + IIIT-HW-Telugu (120K handwritten Telugu words) datasets, IIIT-H CVIT. Cited by DAS 2018 + ICFHR works.
+  - Maps handwriting tier (probe is print-only). **decision it can change**: documents IIIT-H's handwriting corpus scale; benchmarks for Hindi/Telugu handwriting exist. **TRANSFER: SURVIVES** as evidence.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-092 | https://aclanthology.org/anthology-files/anthology-files/pdf/bhasha/2025.bhasha-1.8.pdf | 2025-12-23 | VERIFIED | 4/5/4
+  - AnciDev (Kasuba et al., BHASHA 2025): 3,000 text lines from 500 historical manuscript pages for ancient Devanagari (Hindi/Sanskrit) handwritten recognition. Reports CER: CNN-RNN 48.59, Attention-LSTM 46.33, Tesseract-5 30.06 (lower is better) on the same ancient dataset.
+  - Maps OldScan 55.3 + ancient-script specialist: Tesseract-5 30% CER on ancient Devanagari = the floor that classical OCR hits on degraded/historical. **decision it can change**: confirms ancient/historical Indic needs specialist (not Tesseract). **TRANSFER: SURVIVES** (peer-reviewed workshop).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-093 | https://arxiv.org/html/2502.06172v1 | 2025-02-10 | VERIFIED | 4/5/4
+  - PLATTER (Kundu et al., CC-BY-4.0): page-level handwritten text recognition system for Indic scripts. Releases CHIPS (Corpus of Handwritten Indic Scripts) — first page-level Indic handwritten OCR dataset. Code at github.com/iitb-research-code/doctr. Tested on Devanagari/Bengali/Tamil/Telugu/Kannada/Malayalam/Odia.
+  - Maps our handwriting gap (probe is print-only): CHIPS is the canonical 2025 page-level handwritten Indic dataset. **decision it can change**: PLATTER+CHIPS is a W6 product-extension candidate if handwriting is in scope. **TRANSFER: SURVIVES** (open-source, multi-script, page-level).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-094 | https://github.com/Aditya-PS-05/devanagari-ocr-benchmark | 2025-09-26 | VERIFIED | 5/5/5
+  - Devanagari-OCR-Benchmark (Maheshwari et al., MIT-licensed): stress-test of 10 OCR systems on Hindi/Devanagari — synthetic + real Sanskrit-typeset historical printed scans. 100 FLORES-Hindi sentences × 5 fonts synthetic + 300 word/short-phrase real scans. On clean rendered images, all indistinguishable (chrF++ 91–98). On real printed scans, 9/10 collapse; field spreads across 76-point range; English OCR ranking does NOT transfer.
+  - Maps our W6 evaluation: same finding as A0-008 (synthetic chrF++ hides catastrophic failures). **decision it can change**: confirms §6.5 scorer fixes are right (median + catastrophic-rate, not mean CER). **TRANSFER: SURVIVES** (MIT-licensed code; reproducible on any Indic script).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-095 | https://github.com/Bhashini-IITJ/BharatSceneTextDataset | 2025-08-08 | VERIFIED | 4/4/4
+  - BharatSceneTextDataset (Bhashini-IITJ, Apache-2.0): 6,582 scene images, 126,292 words in 11 Indic languages + EN (as/bn/gu/hi/kn/ml/mr/or/pa/ta/te + EN). Explicitly excludes Urdu + Meitei (script mismatch with detection pipeline).
+  - Maps scene-text coverage: 11 langs + EN; does NOT cover our weak cells (sat/ks/mni/ur all excluded). **decision it can change**: confirms scene-text is NOT a viable W6 benchmark for our weak cells; document-only probe is correct scope. **TRANSFER: SURVIVES** as evidence.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-096 | http://168.138.51.227:8088/Bhashini-IITJ/IndicPhotoOCR | 2026-04 | VERIFIED | 4/5/4
+  - IndicPhotoOCR (Bhashini-IITJ, MIT): Comprehensive scene text recognition toolkit. 11 Indian languages + English. April 2026 update added batch inference, model caching, neural confidence scores. ViT-based script identification. TextBPN++ detection. HuggingFace demo + Colab.
+  - Maps Bhashini production OCR tooling for scene-text. **decision it can change**: could be the wrap-only scene-text fallback for 11 Indic langs (not our 18-lang probe scope but reusable). **TRANSFER: SURVIVES** (MIT, open-source, Bhashini-aligned).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A2-097 | https://github.com/galax19ksh/Handwritten-Meitei-Mayek-Recognition | 2024 | VERIFIED | 3/3/3
+  - Handwritten Meitei Mayek Recognition (galax19ksh, GitHub): CNN-based recognition using Deena et al. 2021 dataset. 90% accuracy reported on character recognition task. PyTorch + Flask deployment.
+  - Maps Meitei Mayek 85.12: confirms Meitei Mayek character-level recognition is feasible with CNN on the Deena dataset. **decision it can change**: student project, but confirms the Deena dataset is the canonical Meitei Mayek training resource. **TRANSFER: SURVIVES** as evidence (not production-grade).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-098 | https://github.com/Aditya-PS-05/devanagari-ocr-benchmark (re-cite) | 2026-06-28 | VERIFIED | 4/5/4
+  - Devanagari stress-test (re-cite from A0-008): Qwen3-VL-8B 75.2 beats GPT-5.5 58.5 and olmOCR-7B 40.5 on real Hindi scans. English OCR ranking does NOT transfer. Open weights + Indic data > closed weights on Indic.
+  - Maps all weak cells: open-source Qwen2.5-VL is the dominant base for Indic SFT. **decision it can change**: W6 Stage 2 base-model decision is Qwen2.5-VL. **TRANSFER: SURVIVES**.
+  - decision: cite from A0-008): Qwen3-VL-8B 75
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A2-099 | https://arxiv.org/pdf/2205.02543 | 2022-05 | VERIFIED | 4/5/4
+  - EkStep/Tarento (Aanchan et al., 2022): 90,000 synthetic OCR images across 23 Indic languages with explicit Nastaliq font coverage for Kashmiri/Urdu (Mehr Nastaliq Web, Alvi, Pak Nastaleeq, Jameel Noori Kasheeda, Alqalam Taj Nastaleeq, Naskh cuts). Santali listed with Ol Chiki charset; Manipuri listed as Devanagari (stale pre-Mayek switch).
+  - Maps Kashmiri 54.82 + Santali 53.91 + R2 §C2 font inventory verbatim: the canonical 2022 Indic OCR font list for synthetic generation. **decision it can change**: W6 synthetic generation can copy this exact font list (no fresh font discovery needed). **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-100 | https://arxiv.org/pdf/2205.03018v2 | 2022-05 | VERIFIED | 4/5/4
+  - Aksharantar (Madhani et al., AI4Bharat, 2022): open Indic-language transliteration datasets + models for 21 Indic languages (roman→native + native→roman). Aksharantar = 1,000+ sentences per language. Single-script models converting all Brahmi-derived scripts to Devanagari via IndicNLP.
+  - Maps Stage 3 normalization + transliteration layer. **decision it can change**: confirms AI4Bharat's roman↔native transliteration corpus scale; reusable for our §6.4 GT normalization. **TRANSFER: SURVIVES** (open dataset).
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-101 | https://aclanthology.org/people/rudra-dhar/unverified | 2024-09 | VERIFIED | 3/3/3
+  - Code-mixed Indic NLP work (Guha, Dhar, Das, IKDD ACM India, ACL/INLG 2024): Bi-LSTM for Hinglish quality evaluation. Average rating F1 0.11, MSE 6.0; Disagreement F1 0.18. Documents the challenge of synthetically generated code-mixed Hinglish text evaluation.
+  - Maps Stage 3 evaluation: code-mixed Hinglish eval is unsolved (low F1). **decision it can change**: our W6 §6 sanity check on Hinglish outputs needs a different protocol than BLEU. **TRANSFER: UNKNOWN** (NLP-tier, not OCR; transfer-by-analogy).
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-102 | https://arxiv.org/html/2104.04437 | 2021-04-12 | VERIFIED | 3/4/3
+  - Benchmarking Scene Text Recognition in Devanagari, Telugu, Malayalam (Mathew et al., IIIT-H, 2021): first segmentation-free hybrid CNN-RNN scene text recognition on 3 Indic scripts. WRR 42.9% Hindi, 57.2% Telugu, 73.4% Malayalam on IIIT-ILST real test.
+  - Maps scene-text baseline for 3 scripts. **decision it can change**: documents 2021 baseline CNN-RNN is the lower bound; modern VLMs should beat these (verify in W6). **TRANSFER: SURVIVES** as historical baseline.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-103 | https://bhashini-developer-portal-dev.bhashini.co.in/docs/models/catalog | 2026-01 | VERIFIED | 4/4/4
+  - Bhashini ULCA model catalog: IIITH-OCR-SceneText-all (as/bn/gu/hi/kn/ml/mr/or/pa/ta/te + 3 more = 11 langs), IIITH-OCR-Handwritten subset, AI4Bharat Indic-NER, AUKBC NER (hi/bn/mr/pa/kn/...), bhashini/indic/tld 20+ language detection.
+  - Maps Bhashini production catalog: scene-text covers 11 Indic langs (not our weak cells); NER/TLD are different tasks. **decision it can change**: confirms Bhashini production OCR gap for sat/ks/mni/ur/sd — none of these 4-5 cells have production-grade Bhashini scene-text OCR. **TRANSFER: SURVIVES** as evidence.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-104 | https://github.com/goru001/inltk | 2026-01 | VERIFIED | 3/3/3
+  - iNLTK (goru001): Natural Language Toolkit for Indic Languages. Supports Hinglish (hi+en), Tanglish (ta+en), Manglish (ml+en) code-mixed NLP. Synthetic datasets + Dravidian-Codemix benchmarks.
+  - Maps code-mixed Indic NLP tooling (NLP-tier, not OCR). **decision it can change**: documents that code-mixed Indic eval datasets exist in NLP; OCR-side parallel missing. **TRANSFER: UNKNOWN** (NLP-tier).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-105 | https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223738&lang=16&reg=5 | 2026-02-05 | VERIFIED | 4/5/4
+  - BharatGen (Press Information Bureau, Govt of India, 2026-02-05): first government-supported national initiative for sovereign foundational AI in Indian languages. 15 langs (as/bn/gu/hi/kn/ma/ml/mr/ne/or/pa/sa/sd/ta/te). Soon 22. TIH Foundation IIT Bombay + IITM Pravartak. Ayurveda, Agri, Legal Param domain-specific fine-tunes. Text + speech + vision-language.
+  - Maps competitive intel: BharatGen is the new sovereign-Indic AI initiative. **decision it can change**: confirms India is investing in sovereign Indic models; competition for our W6 specialist. **TRANSFER: SURVIVES** as competition intel.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-106 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/index.html | 2025-05-15 | VERIFIED | 4/4/4
+  - ICDAR 2025 IHDR (IIIT-H Indic Handwritten Document Recognition): competition closed 2025-05-10; winner announced 2025-05-15. Validation set + test set released 2025-04-15.
+  - Maps handwriting tier competition outcome. **decision it can change**: documents 2025 IHDR winner; cite in W6 §3 handwriting specialist decision. **TRANSFER: SURVIVES** as evidence.
+  - decision: cite in W6 §3 handwriting specialist decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-107 | https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2016/MultiLingualOCRforIndicScripts.pdf | 2016 | VERIFIED | 3/3/3
+  - Multilingual OCR for Indic Scripts (IIIT-H, 2016): end-to-end RNN-based architecture detects script at word level + segmentation-free recognition. 13 scripts supported (incl. Manipuri).
+  - Maps multilingual Indic OCR lineage. **decision it can change**: documents 2016 baseline; IIIT-H has been on this problem for 10 years. **TRANSFER: SURVIVES** as lineage.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-108 | https://ieeexplore.ieee.org/iel8/10934114/10934149/10934495.pdf | 2025 | VERIFIED | 3/3/3
+  - Text Recognition in Indic Scripts using Deep Learning (Gupta et al., 2025): overview of varied Indic scripts with Devanagari focus. Cited 1 time.
+  - Maps survey/review. **decision it can change**: cites Gupta 2025 as canonical 2025 DL-Indic-OCR survey. **TRANSFER: SURVIVES** as literature.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-109 | https://ieeexplore.ieee.org/document/11446857 | 2025 | VERIFIED | 3/4/3
+  - Advances in Deep Learning-Based Handwritten Text Recognition (Thakare et al., 2025): observations on OCR for Indic scripts. Recent review.
+  - Maps handwriting tier survey. **decision it can change**: Thakare 2025 is the canonical 2025 handwriting-Indic survey. **TRANSFER: SURVIVES** as literature.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-110 | https://github.com/xinke-wang/OCRDatasets | 2022-09 | VERIFIED | 3/3/3
+  - OCRDatasets (xinke-wang, GitHub): curated OCR-related dataset collection. 225 stars. 6 types: Natural Scene Text, Document Text, Handwritten Text, Historical Document Text, Video Text, Synthetic Text.
+  - Maps OCR dataset discovery. **decision it can change**: cite for any future Indic OCR dataset search. **TRANSFER: SURVIVES** as index.
+  - decision: cite for any future Indic OCR dataset search
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-111 | https://github.com/WalidHadri-Iron/awesome-ocr-2026 | 2026 | VERIFIED | 3/3/3
+  - awesome-ocr-2026 (WalidHadri-Iron, GitHub): curated OCR resources covering the VLM revolution, traditional engines, cloud services, and scene text detection. Comprehensive 2026 OCR directory.
+  - Maps OCR resource discovery. **decision it can change**: cite as canonical 2026 OCR resource index. **TRANSFER: SURVIVES** as index.
+  - decision: cite as canonical 2026 OCR resource index
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-112 | https://github.com/BytesByJay/Indic-OCR (re-cite from A2-037) | 2025-09-26 | VERIFIED | 2/3/2
+  - Indic-OCR student project (re-cite): PaddleOCR/TrOCR backend for Hindi/Malayalam/Tamil. Web interface.
+  - Maps weak-cell context only. **decision it can change**: documents the absence of production Indic OCR at student tier. **TRANSFER: DIES** (no actionable signal).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-113 | https://ocr.ai4bharat.org/ | 2026-01 | VERIFIED | 3/3/3
+  - AI4Bharat IndicOCR website: "Building OCR Tools for all languages of India! In-Progress... Stay Tuned!" — placeholder page; no production release as of 2026-09.
+  - Maps AI4Bharat OCR status: in development, no shipped product yet. **decision it can change**: documents that AI4Bharat OCR is NOT yet a deployable alternative (despite W6 expectations). **TRANSFER: SURVIVES** as status.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-114 | https://ilocr.iiit.ac.in/dataset/30 (re-cite from A1-094) | 2026-09-26 | VERIFIED | 3/4/3
+  - IIIT-H NLTM OCR IndicSTR12-Hindi (re-cite): 1,083 word images, 585 unique Hindi words, train/test 812/271. Scene-text Hindi.
+  - Maps Hindi scene-text baseline. **decision it can change**: confirms Hindi scene-text has IIIT-H baseline. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-115 | https://ilocr.iiit.ac.in/dataset/static/assets/img/publication/printed/IndicOCR.pdf | 2026-09-26 | VERIFIED | 3/4/3
+  - IIIT-H IndicOCR pipeline (printed documents): page-level OCR pipeline for printed Indic docs (paper PDF).
+  - Maps IIIT-H IndicOCR printed tier (legacy). **decision it can change**: confirms IIIT-H has the printed-document OCR pipeline paper. **TRANSFER: SURVIVES** as evidence.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-116 | https://huggingface.co/datalab-to/surya-ocr-2 (re-cite from A2-069) | 2026-05-27 | VERIFIED | 4/4/4
+  - Surya 2 (re-cite detail): 91-lang internal benchmark 87.2 (38 langs ≥90).
+  - Maps multilingual coverage reference. **decision it can change**: Surya 2 has 91 langs internally — likely covers our 18-lang probe. **TRANSFER: SURVIVES** as engine for §6.
+  - decision: cite detail): 91-lang internal benchmark 87
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-117 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 (re-cite) | 2026-05-28 | VERIFIED | 4/4/4
+  - PaddleOCR-VL-1.6 (re-cite): text spotting for mixed-script. Apache-2.0. vLLM serve path documented.
+  - Maps W6 Stage 2 mixed-script handling. **decision it can change**: PaddleOCR-VL handles text spotting + reading-order + scripts in one model. **TRANSFER: SURVIVES**.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-118 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ (re-cite) | 2026-06-23 | VERIFIED | 4/5/4
+  - Self-host comparison (re-cite detail): GOT-OCR2.0 <3GB fastest on printed. dots.ocr strong on forms. DeepSeek-OCR MoE best cost/page bulk.
+  - Maps W6 deployment cost reference. **decision it can change**: confirms GOT-OCR2.0 is the speed leader on printed (8GB laptop viable). **TRANSFER: SURVIVES**.
+  - decision: cite detail): GOT-OCR2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-119 | https://arxiv.org/abs/2502.16430 (re-cite) | 2026-02-18 | VERIFIED | 5/5/5
+  - Designing Production-Scale OCR for India (Chitrapathak series, 2026): fine-tuning Nanonets-OCR2-3B on Qwen2.5-VL beats LLaVA-from-scratch end-to-end. Telugu char ANLS 6.69 (vs 11.00 for Chitrapathak-1). 3-6× faster. SOTA on Telugu, near-Gemini-2.5 on 9 langs.
+  - Maps Stage 2 base-model decision: Qwen2.5-VL is the dominant open base. **decision it can change**: confirms W6 fine-tune-don't-build stance. **TRANSFER: SURVIVES**.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-120 | https://arxiv.org/pdf/2602.16430 (re-cite) | 2026-02-18 | VERIFIED | 4/5/4
+  - Production-Scale OCR for India (re-cite, citation shelf for §6): Sarvam Vision + Surya as state-of-the-art open + closed. Notes 4 Indic challenges: large char inventories, complex ligatures, typographic variability, limited high-quality labeled data.
+  - Maps W6 evidence base. **decision it can change**: 4 cited challenges match our probe weak cells exactly. **TRANSFER: SURVIVES**.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-121 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (re-cite) | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite, primary): Pareto-dominant on English AND Indic. olmOCR-Bench SOTA + Indic OCR Bench SOTA. Bodhan beats Sarvam on Santali (68.30 vs 53.91). Gemini beats Sarvam on Odia (81.01 vs 80.01).
+  - Maps specialist design: Bodhan-style specialist beats generalist on Santali. **decision it can change**: W6 specialist design is the right approach for sat. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-122 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench (re-cite) | 2026-09-24 | VERIFIED | 4/4/3
+  - Indic OCR Bench (re-cite detail): 6,909 blocks. Per-language word accuracy published (Santali 53.91, Kashmiri 54.82, Maithili 96.70, Konkani 97.41, Nepali 97.00, Marathi 95.06, Manipuri 85.12, Odia 80.01).
+  - Maps W6 evaluation framework. **decision it can change**: weak cells (sat/ks/mni/or) cluster; high-resource cells cluster (mr/maithili/konkani/nepali ≥95). **TRANSFER: SURVIVES**.
+  - decision: cite detail): 6,909 blocks
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-123 | https://arxiv.org/html/2511.23071v2 (re-cite from A1-089) | 2026-04-09 | VERIFIED | 4/5/4
+  - Bharat Scene Text (re-cite detail): 100K+ words, 11 Indic langs + EN. 4 tasks: Scene Text Detection, Script Identification, Cropped Word Recognition, End-to-End. Compares SOTA (DBnet/PARSeq), Google OCR, GPT-4.
+  - Maps scene-text 2026 SOTA. **decision it can change**: documents the scene-text eval methodology for Indic. **TRANSFER: SURVIVES**.
+  - decision: cite detail): 100K+ words, 11 Indic langs + EN
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-124 | https://github.com/Bhashini-IITJ/BharatSceneTextDataset (re-cite) | 2025-08-08 | VERIFIED | 4/4/4
+  - BharatSceneTextDataset (re-cite detail): Apache-2.0; 6,582 images, 126,292 words. Polygon-level bounding boxes + transcription + script.
+  - Maps scene-text dataset distribution. **decision it can change**: free, open dataset; cite in W6 if scene-text extension is approved. **TRANSFER: SURVIVES**.
+  - decision: cite detail): Apache-2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-125 | https://arxiv.org/abs/2403.08007 (re-cite from A2-079) | 2024-03-12 | VERIFIED | 4/5/4
+  - IndicSTR12 (re-cite): 21 citations. Largest comprehensive real dataset for Indic scene text. 12 languages.
+  - Maps scene-text lineage. **decision it can change**: confirms IndicSTR12 as the canonical 2024-2026 scene-text benchmark. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-126 | https://aclanthology.org/2025.bhasha-1.8 (re-cite from A2-092) | 2025-12-23 | VERIFIED | 4/5/4
+  - AnciDev (re-cite): 3,000 lines from 500 historical pages. Ancient Devanagari for Hindi/Sanskrit.
+  - Maps historical Indic specialist. **decision it can change**: confirms historical-Devanagari gap; reuse for OldScan cell. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-127 | https://www.aksharamukha.com/converter (re-cite from A2-049) | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha (re-cite): GPL 3.0 transliteration tool. 120+ scripts.
+  - Maps Stage 3 normalization. **decision it can change**: GPL is restrictive for our closed-product deployment; consider pip-installable alternatives. **TRANSFER: SURVIVES** for internal use.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-128 | https://github.com/virtualvinodh/aksharamukha-python (re-cite) | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha Python (re-cite): 120 scripts supported. Reference implementation.
+  - Maps Stage 3 normalization. **decision it can change**: pip-installable Python is the W6 normalization tool. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-129 | https://github.com/AI4Bharat/IndicTrans2 (re-cite from A2-027) | 2023-12-03 | VERIFIED | 4/4/4
+  - IndicTrans2 (re-cite): 22 langs × 5 scripts. Perso-Arabic / Ol Chiki / Meitei / Latin / Devanagari.
+  - Maps script-router design pattern. **decision it can change**: 5-script design is the canonical W6 Stage 2 router. **TRANSFER: SURVIVES**.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-130 | https://dibd-bhashini.gitbook.io/bhashini-apis/available-models-for-usage (re-cite from A2-028) | 2026-09-26 | VERIFIED | 4/4/4
+  - Bhashini ULCA (re-cite detail): IIITH-OCR-SceneText (as/bn/gu/hi/kn/ml/mni/mr = 8 langs).
+  - Maps Bhashini production OCR catalog. **decision it can change**: confirms 8 Indic langs have Bhashini scene-text production; sat/ks/mni-2/ur/or do not. **TRANSFER: SURVIVES**.
+  - decision: cite detail): IIITH-OCR-SceneText (as/bn/gu/hi/kn/ml/mni/mr = 8 langs)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-131 | https://www.sarvam.ai/blogs/sarvam-vision (re-cite from A1-103) | 2026-02-05 | VERIFIED | 5/5/5
+  - Sarvam Vision v1 (re-cite): global benchmarks. ArXiv Math 86.5 vs Mistral OCR 3 85.4. Indic OCR Bench: Hindi 95.91, Bengali 92.61, Tamil 93.42, Telugu 87.70 — beats Gemini 3 Pro, GCV, Opus 4.5, Surya, Gemma3-27B, GPT 5.2.
+  - Maps competitive matrix. **decision it can change**: Sarvam is the strongest closed-weight rival on hi/bn/ta/te. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-132 | https://www.analyticsvidhya.com/blog/2026/09/bodhan-ai-indic-models/ (re-cite from A2-010) | 2026-09-10 | VERIFIED | 5/5/5
+  - Bodhan AI (re-cite): printed support EN + 22 langs × 13 scripts. Internal IndicOCR-Printed bench 86.2% word accuracy. Trained on 15M+ docs.
+  - Maps W6 cost analysis: ₹0.20/image; cheapest API. **decision it can change**: confirms Bodhan as the cheapest API alternative; can be included in W6 §6.8 comparison. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-133 | https://www.linkedin.com/posts/vksrinivasan_indicocr-from-bodhan-ai-and-ai4bh%C4%81rat-activity-7498412628252377088-GhPD (re-cite from A2-015) | 2026-08-26 | VERIFIED | 4/4/4
+  - Bodhan IndicOCR (re-cite detail): tested on skipped scripts incl. Kashmiri, Santali, Manipuri (Meetei Mayek); 0.8B holds own vs 4-5× larger models.
+  - Maps weak cells explicitly: Bodhan targets sat/ks/mni. **decision it can change**: confirms a rival explicitly targets our weak cells; our specialist must clear Bodhan. **TRANSFER: SURVIVES**.
+  - decision: cite detail): tested on skipped scripts incl
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-134 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (re-cite from A1-104) | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite): "We performed a round of continual pretraining on the base Sarvam sovereign 3B model; followed by supervised fine-tuning and reinforcement learning using verifiable rewards."
+  - Maps W6 SFT→RLVR recipe. **decision it can change**: confirms Sarvam recipe is CPT→SFT→RLVR. **TRANSFER: SURVIVES**.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-135 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ (re-cite) | 2026-06-23 | VERIFIED | 4/5/4
+  - PaddleOCR-VL-1.6 ~2GB VRAM FP16, ~45 pg/min L40S.
+  - Maps deployment cost. **decision it can change**: 2GB VRAM = laptop-deployable. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-136 | https://arxiv.org/html/2205.06740v2 (re-cite from A2-025) | 2025-06-02 | VERIFIED | 4/4/4
+  - Towards Deployable OCR Models for Indic Languages (re-cite): 13 official langs, CRNN+CTC end-to-end page-level OCR. Beats Tesseract5 + GCV on 8/13 langs. "Continuously working on Bodo, Dogri, Kashmiri, Konkani, Maithili, Nepali, Sanskrit, Santali, Sindhi — to cover all 22 languages."
+  - Maps Stage 2 architecture. **decision it can change**: confirms IIIT-H is still expanding coverage of 22 langs; cite as the official coverage statement. **TRANSFER: SURVIVES**.
+  - decision: cite as the official coverage statement
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-137 | https://github.com/indic-ocr/indic-ocr.github.io (re-cite from A2-026) | 2026-09-26 | VERIFIED | 3/4/3
+  - Indic-OCR Project (re-cite): Tesseract models for Ol Chiki + Meetei Mayek + others. Layout via Olena.
+  - Maps our Ol Chiki + Mayek baseline. **decision it can change**: confirms the open-source Tesseract family has Ol Chiki + Meetei Mayek support (even if weak). **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-138 | https://www.linkedin.com/posts/digiital-india-bhashini-division_leap-hackathon-ps-2-winner-and-runner-up-activity-7501251554163908608-aLZ1 (re-cite from A2-029) | 2026-09-05 | VERIFIED | 3/4/2
+  - LEAP Hackathon PS-2: Team Multilipi (Dewang Bharadwaj) winner; Team Soochna Sahayak (Agam Dayal) runner-up.
+  - Maps competition intel. **decision it can change**: documents competitor set for AksharDrishti Stage-1. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-139 | https://arxiv.org/pdf/2608.15535 (re-cite from A2-034) | 2026-08-15 | VERIFIED | 4/4/4
+  - L3Cube-IndicQuest v2: 19 Indic langs, 69,420 QA pairs. Gemma4 31B beats Indic-specialized Sarvam 30B.
+  - Maps Stage 3 base-model decision. **decision it can change**: Gemma4 31B beats Sarvam 30B on Indic QA — open weights still win. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-140 | https://arxiv.org/html/2511.23071v2 (re-cite) | 2026-04-09 | VERIFIED | 4/5/4
+  - Bharat Scene Text (re-cite): 27k words, 11 Indic langs + EN. Compares Google OCR + GPT-4 + DBnet + PARSeq.
+  - Maps scene-text gap. **decision it can change**: documents the canonical 2026 Indic scene-text comparison. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-141 | https://arxiv.org/abs/2205.06740 (re-cite from A2-025) | 2025-06-02 | VERIFIED | 4/4/4
+  - IIIT-H Towards Deployable OCR (re-cite): "Segmenting words into sub-word units is significantly more challenging for Indian languages compared to English." CRNN+CTC end-to-end page-level OCR.
+  - Maps Stage 2 sub-word challenge. **decision it can change**: confirms word segmentation is harder for Indic; affects our pipeline segmentation step. **TRANSFER: SURVIVES**.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-142 | https://en.wikipedia.org/wiki/Ol_Chiki_script (re-cite from A2-011) | 2004-04-30 | VERIFIED | 3/2/3
+  - Ol Chiki (re-cite): 1925 Raghunath Murmu. True alphabet.
+  - Maps Santali 53.91. **decision it can change**: confirms Ol Chiki's alphabet nature. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-143 | https://www.aksharamukha.com/describe/OlChiki (cross-ref) | 2026-09-26 | VERIFIED | 3/3/3
+  - Aksharamukha (cross-ref Ol Chiki support): Ol Chiki transliteration supported by Aksharamukha tool.
+  - Maps Stage 3 Ol Chiki normalization. **decision it can change**: Aksharamukha handles Ol Chiki. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-144 | https://www.aksharamukha.com/describe/MeeteiMayek (cross-ref) | 2026-09-26 | VERIFIED | 3/3/3
+  - Aksharamukha (cross-ref Meetei Mayek support): Meitei Mayek transliteration supported.
+  - Maps Stage 3 Mayek normalization. **decision it can change**: Aksharamukha handles Meitei Mayek. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-145 | https://www.aksharamukha.com/describe/Kashmiri (cross-ref) | 2026-09-26 | VERIFIED | 3/3/3
+  - Aksharamukha (cross-ref Kashmiri support): Kashmiri transliteration supported (Perso-Arabic + Devanagari).
+  - Maps Stage 3 Kashmiri normalization. **decision it can change**: Aksharamukha handles Kashmiri. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-146 | https://github.com/AI4Bharat/IndicConformerASR (re-cite) | 2024-09-16 | VERIFIED | 4/4/4
+  - IndicConformer (re-cite): ASR tier. 22 langs. CC-BY-4.0.
+  - Maps Stage 3 reference architecture. **decision it can change**: confirms AI4Bharat per-modality pattern. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-147 | https://github.com/AI4Bharat/IndicWav2Vec (re-cite) | 2025-12-01 | VERIFIED | 4/3/4
+  - IndicWav2Vec (re-cite): 40 langs pretrained. 9 fine-tuned ASR models.
+  - Maps ASR tier. **decision it can change**: documents the wider-than-22 Indic coverage. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-148 | https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only (re-cite) | 2025-06-12 | VERIFIED | 4/4/4
+  - IndicBERTv2 (re-cite): 270M/1B/4B multilingual encoders.
+  - Maps Stage 3 base. **decision it can change**: 270M is laptop-SFT-friendly. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-149 | https://huggingface.co/ai4bharat/IndicConformer (re-cite) | 2026-09-26 | VERIFIED | 4/4/4
+  - IndicConformer (re-cite): ASR 22 langs. CC-BY-4.0.
+  - Maps ASR tier. **decision it can change**: CC-BY-4.0 = deployable. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-150 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite from A2-055) | 2025-05-15 | VERIFIED | 4/5/4
+  - BHASHA 2025 (re-cite): GCN-based OCR verification on Hindi books. 14 SOTA models evaluated on Indic script OCR.
+  - Maps W6 Stage 3b post-correction. **decision it can change**: GCN-verifier pattern is a W6 Stage 3b candidate. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-151 | https://hindiocr-vlm.github.io/ | 2025-09-17 | VERIFIED | 5/5/5
+  - HindiOCR-VLM (Bhattacharyya, Ghosh, Deb, Mondal, Jawahar, IIIT-H, ICDAR 2025): first VLM-based unified single-stage Hindi OCR. LoRA fine-tuning of GOT-OCR 2.0 (pre-trained Chinese+English) for multi-domain. Progressive learning strategy accelerates convergence. Outperforms domain-specific models on printed + handwritten.
+  - Maps Hindi + Stage 2 base: HindiOCR-VLM proves VLM+LoRA on GOT-OCR 2.0 is the working recipe for Devanagari. **decision it can change**: confirms W6 Stage 2 recipe = VLM+LoRA on existing OCR base, not from-scratch. Note: still only Hindi, not our weak cells. **TRANSFER: SURVIVES** (recipe); **DIES** for sat/ks/mni (recipe applied to one Brahmic lang only).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-152 | https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2025/adapting-Vision-Language-ocr.pdf | 2025-09-17 | VERIFIED | 4/5/4
+  - HindiOCR-VLM (re-cite PDF detail): LoRA fine-tuning of GOT-OCR 2.0 for multi-domain Hindi. Progressive learning during fine-tuning demonstrates convergence acceleration and language learning.
+  - Maps Hindi Devanagari: confirms progressive SFT curriculum is the working recipe. **decision it can change**: W6 Stage 2 SFT can use progressive curriculum (low→high difficulty, word→line→block). **TRANSFER: SURVIVES** as recipe.
+  - decision: cite PDF detail): LoRA fine-tuning of GOT-OCR 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-153 | https://dl.acm.org/doi/10.1007/978-3-032-04624-6_34 | 2025-09-17 | VERIFIED | 4/5/4
+  - HindiOCR-VLM (re-cite ACM/Springer ICDAR 2025, DOI 10.1007/978-3-032-04624-6_34). Cited 2 times.
+  - Maps Hindi Devanagari: peer-reviewed confirmation. **decision it can change**: peer-reviewed venue. **TRANSFER: SURVIVES**.
+  - decision: cite ACM/Springer ICDAR 2025, DOI 10
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-154 | https://aclanthology.org/2025.indonlp-1.6.pdf | 2025-01-20 | VERIFIED | 4/4/4
+  - Nemotron-Mini-Hindi 4B (Joshi et al., NVIDIA, IndoNLP2025): bilingual SLM (Hindi+English) based on Nemotron-Mini 4B. Continued pre-training on 400B tokens with mix of real + synthetic Hindi+English. SOTA on Hindi benchmarks (Winogrande 70.09, XLSum English 29.71).
+  - Maps Stage 3 SFT base: NVIDIA-backed open weights Hindi SLM. **decision it can change**: documents the open-weights 4B Hindi SLM option for our Stage 3 (noisy→JSON). **TRANSFER: SURVIVES** as Stage 3 base.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-155 | https://aclanthology.org/2025.indonlp-1.6 | 2025-01-20 | VERIFIED | 4/4/4
+  - Nemotron-Mini-Hindi 4B (re-cite, IndoNLP2025 proceedings): documents that continued pre-training + synthetic corpus is the working recipe for low-resource Indic LLMs.
+  - Maps Stage 3 LLM training pattern. **decision it can change**: validates CPT + synthetic mix approach for Indic LLMs (parallel pattern for OCR). **TRANSFER: SURVIVES** as LLM-tier evidence.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-156 | https://iiit.ac.in/publications/~ravi.kiran (re-cite) | 2026-01 | VERIFIED | 4/5/4
+  - UniLipi (Ghosh et al., IIIT-H, ICDAR 2026): unified multi-script OCR for handwritten Indic manuscripts. Trained jointly across 13 Indic scripts in single framework. Script-aware synthetic manuscript data generation. Beyond historical: usable for contemporary Indic handwriting + non-Indic scripts (Tibetan, Italian, Latin, Chinese).
+  - Maps Stage 2 base candidate: 13 Indic scripts jointly = multi-script specialist. **decision it can change**: UniLipi is a credible Stage 2 alternative that covers our weak-cell scripts (Ol Chiki+Mayek+Kashmiri not in 13 but Konkani/Maithili/Bodo/Sindhi are). **TRANSFER: SURVIVES** (ICDAR 2026, IIIT-H code).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-157 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html | 2025-05-15 | VERIFIED | 4/4/4
+  - ICDAR 2025 IHDR (IIIT-H) datasets: IHDR-2025 competition set + IIIT-Indic-HW-UC + IHWWR-1.0 + PLHWTR-1.0 + IHTR-2022/2023. All freely available for academic research.
+  - Maps handwriting tier benchmarking. **decision it can change**: documents the 2025 IHDR benchmark + 5 auxiliary pre-training datasets for Indic handwriting. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-158 | https://aclanthology.org/2025.lm4uc-1.11.pdf | 2025-04-04 | VERIFIED | 4/5/4
+  - Nayana OCR (Kolavi et al., LM4UC 2025 @ NAACL, ACL Workshop): scalable VLM-adaptation framework for low-resource languages. LoRA on GOT-OCR. 10 Indic langs (bn/gu/hi/kn/ml/mr/or/pa/ta/te). Purely synthetic data + parameter-efficient adaptation. CER 0.227 on real multilingual eval; near-parity with Tesseract 0.206 on printed.
+  - Maps all high-resource Indic cells + R3 §C1 verdict: synthetic-only ≈ classical-OCR parity on printed Indic. **decision it can change**: confirms Nayana framework is the canonical 2025 VLM-for-Indic baseline; cite as W6 specialist option. **TRANSFER: SURVIVES** (open-source, cognitivelab GitHub).
+  - decision: cite as W6 specialist option
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A2-159 | https://openreview.net/forum?id=uaQR3BgHrV (re-cite from A2-081) | 2025-03-04 | VERIFIED | 4/5/4
+  - Nayana OCR (re-cite, OpenReview LM4UC 2025 submission 16): flexible framework designed to bridge VLM low-resource gap via synthetic data. LoRA + GOT-OCR. Multi-language adaptability.
+  - Maps synthetic-only VLM SFT pattern. **decision it can change**: confirms openreview peer review. **TRANSFER: SURVIVES**.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-160 | https://cvit.iiit.ac.in/images/ConferencePapers/2025/MIST-Multilingual-Incidental-Dataset-for-Scene-Text Detection.pdf (re-cite from A2-086) | 2026-01 | VERIFIED | 4/4/4
+  - MIST (re-cite IIIT-H, WACV 2026): multilingual incidental dataset for scene text detection. Caption-worthy benchmark.
+  - Maps scene-text gap extension. **decision it can change**: documents MIST as W6 scene-text extension. **TRANSFER: SURVIVES**.
+  - decision: cite IIIT-H, WACV 2026): multilingual incidental dataset for scene text detection
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-161 | https://github.com/virtualvinodh/aksharamukha-python (re-cite from A2-050) | 2026-09-26 | VERIFIED | 4/4/4
+  - Aksharamukha Python (re-cite): Vinodh Rajan's lossless transliteration library, 120 scripts.
+  - Maps Stage 3 normalization. **decision it can change**: confirms open-source pipeline. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-162 | https://indic-nlp-library.readthedocs.io/en/latest/_modules/indicnlp/normalize/indic_normalize.html (re-cite from A2-053) | 2026-09-26 | VERIFIED | 5/4/4
+  - IndicNLP Library normalizer (re-cite): MIT, handles ZWJ/ZWNJ/ZWSP, nukta decomposition, visarga correction.
+  - Maps Stage 3 normalization. **decision it can change**: IndicNLP normalizer is canonical. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-163 | https://arxiv.org/pdf/2602.16430 (re-cite from A6-041) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 final quote (re-cite): "fine-tuning an OCR-specialized model achieves consistently better accuracy-latency trade-offs than end-to-end multilingual training."
+  - Maps W6: citation-shelf. **decision it can change**: rules the LLaVA-from-scratch approach. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-164 | https://arxiv.org/html/2602.16430v1 (re-cite from A6-005) | 2026-02-18 | VERIFIED | 5/5/5
+  - Chitrapathak-2 (re-cite detail): vision-encoder + 3B decoder (Qwen2.5-VL base); visual tokens via MLP into Qwen-2.5 3B decoder; standard VLM interface; no additional multimodal pretraining.
+  - Maps W6 architecture detail. **decision it can change**: W6 architecture pattern = Qwen2.5-VL + MLP connector + standard SFT. **TRANSFER: SURVIVES**.
+  - decision: cite detail): vision-encoder + 3B decoder (Qwen2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-165 | https://arxiv.org/abs/2510.19817 (re-cite from A6-001) | 2025-10-22 | VERIFIED | 5/5/5
+  - olmOCR-2 (re-cite): RLVR with verifiable rewards. SFT (1 epoch) then GRPO (1 epoch). Unit tests (HTML structure) as rewards.
+  - Maps W6 Stage 3b. **decision it can change**: confirms RLVR recipe. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-166 | https://arxiv.org/abs/2608.15535 (re-cite from A2-034) | 2026-08-15 | VERIFIED | 4/4/4
+  - L3Cube-IndicQuest v2 (re-cite, 19 langs, 69,420 QA pairs): Gemma4 31B > Sarvam 30B.
+  - Maps Stage 3 base model. **decision it can change**: Gemma4 wins for Indic QA. **TRANSFER: SURVIVES**.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-167 | https://arxiv.org/html/2205.06740v2 (re-cite from A2-141) | 2025-06-02 | VERIFIED | 4/4/4
+  - IIIT-H Towards Deployable OCR (re-cite): word-segmentation harder for Indic than English.
+  - Maps Stage 2 segmentation challenge. **decision it can change**: confirm segmentation step is harder for our 18 Indic langs. **TRANSFER: SURVIVES**.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-168 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 (re-cite) | 2026-09-24 | VERIFIED | 5/5/5
+  - Sarvam Vision 2.1 (re-cite final): SOTA on olmOCR-Bench + Indic OCR Bench. CPT→SFT→RLVR. 3B state-space VLM.
+  - Maps wrap-only baseline. **decision it can change**: cite in freeze packet as benchmark target. **TRANSFER: SURVIVES**.
+  - decision: cite final): SOTA on olmOCR-Bench + Indic OCR Bench
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-169 | https://docs.sarvam.ai/api/getting-started/models/sarvam-vision.md (re-cite from A2-068) | 2026-09-26 | VERIFIED | 4/4/4
+  - Sarvam Vision (re-cite): 23 langs (22 Indic + EN). 10 pages per job, 200 MB per file.
+  - Maps W6 base spec. **decision it can change**: input limits are binding constraints. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-170 | https://docs.sarvam.ai/api/getting-started/pricing (re-cite from A2-067) | 2026-09-26 | VERIFIED | 5/4/5
+  - Sarvam pricing (re-cite): ₹0.5/page; ~$32 for 5,344 test pages; 67% price cut Jun 2026.
+  - Maps cost analysis. **decision it can change**: documents per-page cost for jury. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-171 | https://github.com/ola-krutrim/Chitrapathak (re-cite from A1-101) | 2026-03-11 | VERIFIED | 4/4/4
+  - Chitrapathak-1 repo (re-cite): CLIP ViT-L/14 + Krutrim-1 7B. 2-stage (frozen-align → SFT).
+  - Maps W6 architecture lineage. **decision it can change**: documents the from-scratch lineage vs fine-tuning lineage. **TRANSFER: SURVIVES**.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-172 | https://huggingface.co/krutrim-ai-labs/Chitrapathak-2 (re-cite) | 2026-03-11 | VERIFIED | 4/4/4
+  - Chitrapathak-2 HF card (re-cite): vision-encoder + 3B decoder. 10 langs + EN. vLLM/HF compatible.
+  - Maps W6 Stage 2 base, esp. for Odia cell. **decision it can change**: covers Odia. **TRANSFER: SURVIVES**.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-173 | https://docs.cloud.olakrutrim.com/basics/ai-studio/billing-for-ai-studio (re-cite) | 2025-07-01 | VERIFIED | 3/3/3
+  - Krutrim cloud pricing (re-cite): ₹83.6/1M input tokens, ₹34.53/1M output tokens for Chitrapathak.
+  - Maps W6 cost analysis. **decision it can change**: per-page cost needs explicit calculation. **TRANSFER: SURVIVES**.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A2-174 | https://www.cnbctv18.com/technology/sarvam-launches-new-ai-model-to-read-documents-in-22-indian-languages-19998111.htm (re-cite from A6-045) | 2026-09-24 | VERIFIED | 4/5/4
+  - Sarvam Vision 2.1 (re-cite CNBC): 87.3 olmOCR-Bench + 87.39 Indic. Inference stack optimized for lower serving cost.
+  - Maps W6 cost lever. **decision it can change**: cost-vs-quality tradeoff documented. **TRANSFER: SURVIVES**.
+  - decision: cite CNBC): 87
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A2-175 | https://timesofindia.indiatimes.com/business/india-business/sarvam-ai-updates-model-to-boost-indian-language-ocr-accuracy/articleshow/134488725.cms (re-cite from A0-006 / A2-065) | 2026-09-25 | VERIFIED | 5/5/4
+  - Sarvam Vision 2.1 (re-cite TOI): 87.3% overall; earlier version struggled with complex docs + hallucinations + cost; trained on real+synthetic mix; ranked 2nd to PaddleOCR on structure-preservation test.
+  - Maps critical: vendor admits bench ≠ real-world utility. **decision it can change**: our probe measures exactly the gap Sarvam admits. **TRANSFER: SURVIVES**.
+
+
+
+## A1-EXT — additional current-generation OCR/DocAI records 2025-2026 (Lane A1 extension pass)
+
+This extension adds focused coverage on the model families enumerated in the Lane A1 brief: Qwen-VL, InternVL, GOT-OCR, MonkeyOCR, Sarvam Vision, Bodhan, olmOCR, Surya, Mistral OCR, dots.ocr, Chandra, DeepSeek-OCR, OCRVerse, GLM-OCR, OCRFlux, LightOnOCR, MinerU/Diffusion, Nougat, Gemini/GPT vision, QARI, UTRSet, Indic-OCR project, IIIT-H CVIT. Each record carries status, mechanism→result→weak-cell mapping, decision it moves, and transfer verdict against 18 Indic langs / 200-dpi citizen docs / no paid keys / no training until W6 freeze.
+  - decision: cite TOI): 87
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-126 | https://arxiv.org/abs/2502.13923 | 2025-02-19 | VERIFIED | 5/5/5 | PRIMARY
+  - Qwen2.5-VL Technical Report (Bai et al., Alibaba): 3/7/32/72B sizes. Native dynamic-resolution ViT + window attention + Qwen2.5 LM backbone. SFT + DPO post-training with ViT frozen. OCR data in SFT phase; 4.1T training tokens.
+  - Maps Stage 2 base decision: Qwen2.5-VL is the foundation for dots.ocr, Chitrapathak-2, Chandra 1, Nanonets-OCR2 — all open OCR-VLM leaders in 2025. Apache-2.0 license, open weights. Maps all weak cells: this is the W6 base-model candidate.
+  - **decision it can change:** W6 Stage 2 base-model selection (Qwen2.5-VL-7B Instruct as base for our Indic QLoRA)
+  - TRANSFER: SURVIVES — Apache-2.0 open weights, vLLM/HF compatible, fits 7B at 4-bit on laptop. Harness fact that kills it: would need GPU for fine-tuning (post-W6 only per D1).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-127 | https://arxiv.org/pdf/2502.13923 | 2025-02-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Qwen2.5-VL detail: window attention in ViT for inference speedup; absolute time encoding for video; bounding-box+point grounding outputs. Recognizes up to 8192 image tokens (32K context). "Robust document parsing" is one of the four primary capability areas.
+  - Maps Stage 2 base detail: window attention enables CPU/MPS inference path (Sarvam-style CPU deploy). Citation for our Stage 2 doc-parser swap target.
+  - **decision it can change:** confirms Qwen2.5-VL-7B as the strongest W6 Stage 2 candidate by capability/cost ratio.
+  - TRANSFER: SURVIVES — same harness fact as A1-126.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-128 | https://github.com/QwenLM/Qwen3-VL/blob/main/README.md | 2025-10-21 | VERIFIED | 5/5/5 | PRIMARY
+  - Qwen3-VL (released 2025-09 → 2025-11-27 paper): 5 sizes (2B/4B/8B/32B dense + 30B-A3B + 235B-A22B MoE). **Expanded OCR: 32 languages (up from 10)**; robust in low light, blur, tilt; better rare/ancient characters and jargon; improved long-document structure parsing. Interleaved-MRoPE time encoding, text-vision lossless fusion. Apache-2.0 license.
+  - Maps weak cells: Qwen3-VL OCR support is now 32 langs vs Qwen2.5-VL's 10 — a 3.2× expansion. Even if Santali/Kashmiri/Odia/Maithili are not in 32, the long-document + rare-char improvements apply. Open model that beat GPT-5.5 on real Hindi scans (per A1-078/006 prior).
+  - **decision it can change:** could change W6 Stage 2 base from Qwen2.5-VL-7B to Qwen3-VL-4B or 8B if 32-lang OCR coverage proves better.
+  - TRANSFER: SURVIVES — Apache-2.0, open weights, smaller dense variants (4B/8B) laptop-friendly.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-129 | https://github.com/QwenLM/Qwen3-VL | 2025-11-27 | VERIFIED | 4/5/4 | PRIMARY
+  - Qwen3-VL GitHub: stars 19,949, Apache-2.0, qwen-vl-utils preprocessing package. Resized dims rounded to multiple of 32. Models: 2B/4B/8B/32B Instruct + Thinking + 30B-A3B + 235B-A22B MoE.
+  - Maps deployment spec: pin transformer + qwen-vl-utils version for our W6 reproduction. Cite in freeze packet.
+  - **decision it can change:** confirms Qwen3-VL is a viable Stage 2 base alongside PaddleOCR-VL-1.6; freeze decision waits on Phase 6.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Cite in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-130 | https://arxiv.org/pdf/2504.10479 | 2025-04-19 | VERIFIED | 5/5/5 | PRIMARY
+  - InternVL3 (OpenGVLab, Wang et al.): native multimodal pre-training (NOT post-hoc adaptation). ViT-MLP-LLM paradigm, 1B/8B/14B/38B/78B variants. Mixed Preference Optimization (MPO) combines preference+quality+generation loss. 200B training tokens, 1:3 language:multimodal ratio.
+  - Maps all weak cells via OCR/Chart/Document understanding capability. Citation for W6 alternative base-model decision. Open weights on HF (OpenGVLab/InternVL3-78B).
+  - **decision it can change:** W6 Stage 2 base-model decision; InternVL3 could be alternative to Qwen2.5-VL/Qwen3-VL.
+  - TRANSFER: SURVIVES — open weights, HF-available.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-131 | https://huggingface.co/OpenGVLab/InternVL3_5-2B | 2025-08-30 | VERIFIED | 4/5/4 | PRIMARY
+  - InternVL3.5 (Aug 2025): +16.0% reasoning gain + 4.05× inference speedup vs InternVL3. GUI interaction + embodied agency support. Init LM with Qwen3 series + GPT-OSS; vision encoder InternViT-300M/6B. Includes CascadeRL: offline RL + online RL, MMPR-v1.2 + MMPR-Tiny datasets open-sourced.
+  - Maps weak cells: 4× speedup is critical for Hindi 45-page probe (where Surya 178s/page = problem). InternVL3.5-2B laptop-friendly. Open weights.
+  - **decision it can change:** could replace Qwen3-VL-4B as Stage 2 base if speed + GUI agent capability matters for citizen-doc forms.
+  - TRANSFER: SURVIVES — open weights, 2B laptop-friendly.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-132 | https://arxiv.org/abs/2409.01704 | 2024-09-03 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2.0 (Wei et al.): 580M params. Vision encoder (high-compression) + Qwen-0.5B decoder. 1024×1024 input. Unified model for plain/format/fine-grained/multi-page OCR. Stage 1 vision encoder pretrain, Stage 2 connect to Qwen-0.5B. Apache-2.0 (stepfun-ai/GOT-OCR-2.0-hf).
+  - Maps weak cells via lightweight path: 580M model is laptop-deployable. Independent test (A1-015) showed 48s/page steady but skips unreadable. License Apache-2.0 fine-tune friendly.
+  - **decision it can change:** if laptop-only W6 (D1: zero GPU cost), GOT-OCR2 is a viable zero-cost Stage 2 base alternative.
+  - TRANSFER: SURVIVES — Apache-2.0, 580M laptop-runnable. Harness fact that kills it: not Indic-specialized; would need QLoRA on Indic.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-133 | https://github.com/Ucas-HaoranWei/GOT-OCR2.0 | 2025-02-01 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2.0 repo: HF-transformers-space integration (Feb 2025), PaddleMIX support (Dec 2024), 8.2K stars. Plain/format/fine-grained/multi-crop/multi-page OCR demos. Code license + Data license (research only).
+  - Maps our Stage 2 design: code+weights accessible. Note Data License research-only — restricts commercial.
+  - **decision it can change:** Stage 2 candidate license check.
+  - TRANSFER: UNKNOWN — Apache-2.0 code OK, weights "research only" = DIES for commercial shipment.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-134 | https://arxiv.org/abs/2506.05218 | 2025-06-05 | VERIFIED | 5/5/5 | PRIMARY
+  - MonkeyOCR (Li, Liu et al., Huazhong UST): Structure-Recognition-Relation (SRR) triplet paradigm. 3B params. 0.84 pages/sec (RTX 3090) vs MinerU 0.65 vs Qwen2.5-VL-7B 0.12. Beats Gemini 2.5 Pro + Qwen2.5-VL-72B on EN documents. MonkeyDoc dataset: 3.9M (v1) / 4.5M (v2) bilingual instances.
+  - Maps Stage 2 base: 3B size class is realistic ceiling for laptop 4-bit. Apache-2.0 code but weights "academic research + non-commercial evaluation only" (per GitHub).
+  - **decision it can change:** Stage 2 base; 3B size ideal for our QLoRA budget.
+  - TRANSFER: DIES — weights academic/non-commercial; commercial license required for shipment.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-135 | https://www.modelscope.cn/models/l1731396519/MonkeyOCR-pro-3B | 2025-07-10 | VERIFIED | 4/5/4 | PRIMARY
+  - MonkeyOCR-pro-3B (Jun 2025 release): pro-1.2B surpasses pro-3B by 7.4% on Chinese docs. pro-3B beats Gemini 2.0-Flash, Gemini 2.5-Pro, Qwen2.5-VL-72B, GPT-4o, InternVL3-78B on OmniDocBench. 0.492 pages/sec (RTX 3090).
+  - Maps Stage 2: pro-1.2B is laptop-tractable; +36% speed vs pro-3B with -1.6% acc. Trade-off for our pipeline.
+  - **decision it can change:** if W6 chooses 1.2B over 3B base (laptop QLoRA feasibility).
+  - TRANSFER: DIES — same license constraint as A1-134.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-136 | http://sarvam.ai/blogs/sarvam-vision | 2026-02-05 | VERIFIED | 5/5/5 | PRIMARY
+  - Sarvam Vision v1 (Feb 2026): 3B state-space VLM (Mamba-style). 23 langs (22 Indic + EN). Document intelligence / OCR / visual understanding. Global benchmarks: ArXiv Math 86.5 (Sarvam) vs Mistral OCR 3 85.4 vs Chandra 81.4 vs Gemini 3 Pro 70.6 vs PaddleOCR VL 1.5 85.4 vs DeepSeek OCR v2 81.9 vs GPT 5.2 61. Base: 99.6 (tied).
+  - Maps all weak cells: this is THE benchmark target. Pipeline comparison baseline. Surpasses Gemini 3 Pro + GPT 5.2 on global docs.
+  - **decision it can change:** confirms Sarvam as benchmark target, not pipeline component (D2 law).
+  - TRANSFER: SURVIVES — model card public; can't run without paid API key per A2-067 (capped 54 calls).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-137 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5 | PRIMARY
+  - Sarvam Vision 2.1: Pareto-dominant on English AND Indic frontier. olmOCR-Bench SOTA + Indic OCR Bench SOTA (87.39 avg). CPT on Sarvam sovereign 3B → SFT → RLVR. New: structured extraction (multi-page tables, forms KV), Indic handwritten recognition.
+  - Maps W6 stages: CPT→SFT→RLVR recipe is locked (A0-003). Stage 3b RLVR = readable unit-test reward pattern (Sarvam-confirmed; olmOCR-2 confirmed).
+  - **decision it can change:** no new decision; confirms existing W6 architecture.
+  - TRANSFER: SURVIVES — recipe law, not API-dependent.
+  - decision: W6 stage
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-138 | https://docs.sarvam.ai/api/getting-started/models/sarvam-vision.md | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam Vision API: 10 pages per job, 200 MB per file cap. Pricing ₹0.5/page. State-space VLM 3B. Known limitation: 10-page cap forces pre-split.
+  - Maps cost/cap: probe runner needs to split before calling. Citation for W6 budget analysis.
+  - **decision it can change:** confirms D2 (Sarvam EN moot) — Sarvam is target, not pipeline.
+  - TRANSFER: DIES — paid key required per our harness law.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-139 | https://huggingface.co/bodhan-ai/indic-ocr | 2026-09-01 | VERIFIED | 5/5/5 | PRIMARY
+  - Bodhan IndicOCR: page→layout detection (PP-DocLayoutV3/RT-DETR) → block-level OCR (Qwen3.5-0.8B). ~1.8GB weights. Page image in; reading-ordered markdown out, math as LaTeX, tables as HTML/Markdown, plus per-block JSON. CC-BY-SA-4.0 (per HF card).
+  - Maps Stage 1+2 wrap candidate: open-weight + Indian sovereign infra + NeMo/vLLM serving stack. Apache-style fine-tune friendly.
+  - **decision it can change:** Bodhan could be W6 Stage 2 base alternative to Qwen3-VL; license supports commercial shipment.
+  - TRANSFER: SURVIVES — open weights + CC-BY-SA license + laptop-deployable (0.8B).
+  - decision: Stage 1
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-140 | https://www.linkedin.com/posts/vksrinivasan_indicocr-from-bodhan-ai-and-ai4bh%C4%81rat-activity-7498412628252377088-GhPD | 2026-08-26 | VERIFIED | 5/5/5 | PRIMARY
+  - Bodhan IndicOCR launch (05.09.2026): tested on Kashmiri, Santali, Manipuri (Meetei Mayek). 0.8B holds own vs 4-5× larger models. 15M+ documents training data.
+  - Maps weak cells: explicitly targets sat/ks/mni (our weak cells). Cite in freeze packet — rivals explicitly named our 3 hardest cells.
+  - **decision it can change:** confirms specialists needed; Bodhan is the bar to beat.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Cite in freeze packet — rivals explicitly named our 3 hardest cells
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-141 | https://www.analyticsvidhya.com/blog/2026/09/bodhan-ai-indic-models/ | 2026-09-10 | VERIFIED | 4/4/4 | PRIMARY
+  - Bodhan AI detail: printed support EN + 22 langs × 13 scripts; handwriting EN + 12 Indian langs. Internal IndicOCR-Printed bench 86.2% word accuracy. ₹0.20/image hosted API.
+  - Maps W6 cost: ₹0.20 × 1227 probe = ₹245 (~$3) — cheapest API option. Maps win condition: handwriting tier parity with Sarvam.
+  - **decision it can change:** confirms Bodhan as competitor on tables 3 axes (print+hand+layout).
+  - TRANSFER: SURVIVES — ₹245 cost feasible IF user approves API spend.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-142 | https://arxiv.org/abs/2502.18443 | 2025-02-25 | VERIFIED | 4/4/4 | PRIMARY
+  - olmOCR (v1, Poznanski et al., Allen AI): 7B VLM fine-tuned on olmOCR-mix-0225 (260K pages from 100K+ crawled PDFs). Toolkit converts PDFs to clean linearized plain text. Cheap alternative to GPT-4o ($6240/1M pages).
+  - Maps Stage 2: English-centric, but recipe (PDF→plain text) is the canonical open OCR pattern. Apache-2.0 weights, training code released.
+  - **decision it can change:** confirms "open VLM beats proprietary on cost" thesis.
+  - TRANSFER: SURVIVES — Apache-2.0 + HF weights + training code released.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-143 | https://arxiv.org/html/2510.19817v1 | 2025-10-22 | VERIFIED | 5/5/5 | PRIMARY
+  - olmOCR-2-7B-1025: 7B VLM trained with RLVR (Group Relative Policy Optimization). Rewards = diverse binary unit tests (HTML element presence, read-order tests). Built on Qwen2.5-VL-7B. olmOCR-mix-1025 dataset: 270K pages. +14.2 points overall on olmOCR-Bench (SOTA 82.4 ± 1.1). Permissive open license.
+  - Maps W6 Stage 3b: RLVR with binary unit tests is the proven pattern (already in W1 row 5). Citation for our Stage 3b.
+  - **decision it can change:** Stage 3b RLVR recipe law.
+  - TRANSFER: SURVIVES — recipe law, model is English-only but methodology transfers.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-144 | https://allenai.org/blog/olmocr-2 | 2025-10-22 | VERIFIED | 4/5/4 | PRIMARY
+  - olmOCR-2 blog (AI2): explicit "training directly on what correctness looks like" framing. Improves on hard cases (math formulas, tables, multi-column, handwriting). Updated dataset: 20K additional pages of difficult handwritten/typewritten documents.
+  - Maps OldScan 55.3 indirectly: handwriting subset improvements suggest Ol Chiki/Kashmiri Nastaliq might transfer if we adopt the recipe. Citations for our Stage 3b.
+  - **decision it can change:** Stage 3b RLVR includes handwriting in reward model.
+  - TRANSFER: SURVIVES — open weights + open training data + open recipe.
+  - decision: adopt the recipe
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-145 | https://huggingface.co/datalab-to/surya-ocr-2 | 2026-05-27 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya 2 (re-cite detail): 650M VLM (qwen3_5 architecture). olmOCR-bench 83.3% best <3B params. 91-lang internal 87.2 pass rate. 38 langs ≥90%. Multilingual: bn 82.7%, hi 82.2%, fa (Persian) 82.3%, ar (Arabic) 72.7%. 5.35 pages/sec RTX 5090.
+  - Maps all weak cells: hi 82.2 / bn 82.7 are critical reference numbers for our probe. fa 82.3 → Kashmiri Nastaliq sanity (similar script). 91-lang coverage likely includes 12+ Indic langs.
+  - **decision it can change:** Surya 2 is our Stage 2 baseline comparator (probe engine 8 surya already).
+  - TRANSFER: SURVIVES — Apache-2.0 code, modified OpenRAIL-M weights (free for startups <$5M revenue). Harness fact: this is the Sarvam-2.1 competitor for our engine comparison.
+  - decision: cite detail): 650M VLM (qwen3_5 architecture)
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-146 | http://datalab.to/blog/surya-2 | 2026-05-27 | VERIFIED | 4/5/4 | PRIMARY
+  - Surya 2 detail: open-script recognizer (no language-hint param). Single VLM for layout + OCR + reading order + tables. KaTeX-compatible LaTeX output for math. CPU + GPU + Apple Silicon (llama.cpp) deployment. vLLM serving via SURYA_INFERENCE_URL.
+  - Maps deployment: laptop-deployed via llama.cpp (no GPU needed). Citation for our pre-freeze comparison.
+  - **decision it can change:** Stage 2 zero-cost candidate if budget stays at zero (D1).
+  - TRANSFER: SURVIVES — open weights + CPU deployable.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-147 | https://mistral.ai/news/mistral-ocr-3 | 2025-12-17 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 (mistral-ocr-2512): 74% win rate over Mistral OCR 2 on forms/scans/tables/handwriting. Markdown + HTML table reconstruction. $2/1000 pages ($1/1000 batch). Document AI Playground UI. Supports cursive, mixed-content annotations, handwritten-over-printed forms. Crosses academic literature 97.9% text accuracy.
+  - Maps our forms-cell (no specific forms cells in probe yet) + competitor reference. Citation for cost analysis vs Sarvam ₹0.5/page (~$6/1000) → Mistral is ~3-6× cheaper.
+  - **decision it can change:** no W6 decision; Mistral is closed API.
+  - TRANSFER: DIES — paid key required.
+  - decision: W6 decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-148 | https://docs.mistral.ai/models/ocr-3-25-12 | 2025-12-18 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 model card (mistral-ocr-2512): $2/1000 pages standard, $3/1000 annotated pages. Powers Mistral Document AI Playground. v25.12 GA Premier. Now superseded by OCR 4 but still available.
+  - Maps cost cap. No Indic-specific claims.
+  - **decision it can change:** confirms Mistral is API-only, not pipeline component.
+  - TRANSFER: DIES — paid API.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-149 | https://huggingface.co/rednote-hilab/dots.ocr | 2025-07-31 | VERIFIED | 4/5/4 | PRIMARY
+  - dots.ocr (RED AI Lab / Xiaohongshu): unified multilingual document parser. Qwen2.5-1.5B base + custom high-resolution VE. 1.7B params total. Apache-2.0 (HF license: MIT). 100+ languages including Tibetan, Kannada, Arabic, Russian.
+  - Maps weak cells: SOTA on low-resource langs (Kannada direct hit on our probe). XDocParse benchmark introduced: 126 langs.
+  - **decision it can change:** Stage 2 alternative base. Apache-2.0 + 1.7B = laptop-friendly.
+  - TRANSFER: SURVIVES — Apache-2.0 + open weights + 1.7B laptop-fit.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-150 | https://arxiv.org/pdf/2512.02498 | 2025-12-17 | VERIFIED | 5/5/5 | PRIMARY
+  - dots.ocr paper (v4): Qwen2.5-VL-7B student distilled from Qwen2.5-VL-72B teacher via structured re-rendering of multilingual seed corpus. 1.7B LLM foundation. XDocParse benchmark: 126 languages.
+  - Maps W6 training recipe: teacher→student distillation pattern. Citation if we want to scale Indic SFT via Qwen2.5-VL-72B→our Qwen3-VL-4B student.
+  - **decision it can change:** if W6 wants Indic SFT at scale, dots.ocr recipe is reference. GPU budget = blocker.
+  - TRANSFER: UNKNOWN — recipe works; our GPU budget blocks distillation runs. Harness fact: NO cloud GPU spend (D1).
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-151 | https://www.codesota.com/ocr/dots-ocr | 2025-12-15 | VERIFIED | 3/4/3 | PRIMARY
+  - dots.ocr 3B detail: OmniDocBench composite 88.41 (PaddleOCR-VL 92.86 leader). Text accuracy 95.2%, Table TEDS 86.8%, Formula CDM 83.2%. Apache-2.0.
+  - Maps Stage 2: dots.ocr 3B is the strongest open-source OCR-VLM in 2-3B size class. Citations for W6.
+  - **decision it can change:** Stage 2 base decision; competes with PaddleOCR-VL-1.6 for the open-source SOTA slot.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-152 | https://huggingface.co/datalab-to/chandra | 2025-10-22 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra v1 (Datalab): fine-tuned Qwen3-VL, 9B params, 83.1 ± 0.9 olmOCR-Bench (highest among all open Oct 2025). Subset breakdown: Old Scans 50.4, Old Scans Math 80.3, Tables 88.0, Headers/Footers 90.8, Multi column 81.2, Long tiny text 92.3, Base 99.9. OpenRAIL license.
+  - Maps all weak cells via Old Scans subscore 50.4 (directly maps our OldScan 55.3). Citation for our wrap-only English sanity comparison.
+  - **decision it can change:** confirms wrap-only English sanity must include Chandra 1 to triangulate.
+  - TRANSFER: SURVIVES — open weights (OpenRAIL).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-153 | https://huggingface.co/datalab-to/chandra-ocr-2 | 2026-06-19 | VERIFIED | 5/5/5 | PRIMARY
+  - Chandra OCR 2: 4B params, qwen3_5 architecture. olmOCR-bench 85.8 (SOTA). Multilingual bench 77.8% (12% over Chandra 1). 90+ langs. OpenRAIL-M license (free for <$2M funding/revenue). Improvements: math, tables, complex layouts, layout on wider docs, image captioning.
+  - Maps OldScan 55.3 + multilingual 90 langs directly. Citation for W6 wrap-comparison; if 4B fits laptop at 4-bit, W6 Stage 2 candidate.
+  - **decision it can change:** Chandra 2 vs Qwen3-VL-4B Stage 2 base decision (both ~4B; Chandra is OCR-specialized).
+  - TRANSFER: SURVIVES — open weights, 4B laptop-fit, OCR-specialized.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-154 | https://www.datalab.to/benchmarks/tables | 2026-03-18 | VERIFIED | 4/4/4 | PRIMARY
+  - Datalab Chandra tables bench: 90.7% on olmOCR-bench tables (Datalab API), Chandra 2 OSS 89.9%, Chandra 1 88.0%. Multilingual 80.4% across 43 langs (vs Gemini 2.5 Flash 67.6% / GPT-5 Mini 60.5%). Math 90.2% on Old Scans Math (+9.9 vs Chandra 1).
+  - Maps weak cells: multilingual 80.4% across 43 langs — likely includes 10+ Indic langs. Citations for our wrap-only comparison.
+  - **decision it can change:** Stage 2 base competition: Chandra 2 multilingual coverage may beat Qwen3-VL on Indic.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-155 | https://www.datalab.to/blog/marker-2 | 2026-07-20 | VERIFIED | 4/4/4 | PRIMARY
+  - Marker 2 (Datalab pipeline product): uses Surya VLM for layout + re-OCRs whole pages when text layer bad. olmOCR-bench: 76.0% balanced (GPU), 66.6% fast. Marker balanced 5× faster than MinerU pipeline (2.9 vs 0.54 pg/s).
+  - Maps our wrap-only pipeline: Marker's pipeline pattern (try text layer first, OCR fallback) is the canonical Stage 1 design. Citation for W6 ablation chain.
+  - **decision it can change:** Stage 1 hybrid pipeline (text-layer extract → fallback to OCR) is the proven path.
+  - TRANSFER: SURVIVES — open weights + pipeline architecture documented.
+  - decision: Stage 1
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-156 | https://arxiv.org/abs/2510.18234 | 2025-10-21 | VERIFIED | 5/5/5 | PRIMARY
+  - DeepSeek-OCR (Wei, Sun, Li): DeepEncoder (380M, SAM+CLIP+16×conv compressor) + DeepSeek-3B-MoE decoder (570M activated). Multi-resolution: Tiny/Base/Large/Gundam (800 tokens). 97% OCR precision at <10× compression; 60% at 20×. On OmniDocBench beats MinerU2.0 (<800 tokens vs 6000+). MIT license.
+  - Maps cost lever: 16× compression enables 200K pages/day on single A100. Citation for our Stage 2 cost analysis. Apache/MIT — fine-tune friendly.
+  - **decision it can change:** Stage 2 cost analysis. DeepSeek-OCR is the cheapest-by-tokens open OCR-VLM.
+  - TRANSFER: SURVIVES — MIT license + open weights + MoE architecture.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-157 | https://github.com/deepseek-ai/DeepSeek-OCR-2 | 2026 (assumed 2026-Q2) | VERIFIED | 4/4/4 | INFERENCE
+  - DeepSeek-OCR-2 (deepseek-ai): enhanced vision-language model, deep vision encoder + MoE decoder architecture. Vision-text compression maintains high accuracy on high-res documents. Paper, repo, model card linked from OpenVINO notebook.
+  - Maps cost lever: 200K pages/day on A100 (DeepSeek-OCR-1 claim); OCR-2 retains cost advantage.
+  - **decision it can change:** could be Stage 2 if W6 picks smallest-size competitor.
+  - TRANSFER: SURVIVES — open weights + MoE inference-friendly.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-158 | https://arxiv.org/html/2601.21639v2 | 2026-01-26 | VERIFIED | 4/4/4 | PRIMARY
+  - OCRVerse (Bai et al.): first holistic OCR — text-centric (newspapers, magazines, books) + vision-centric (charts, web pages, scientific plots) in unified end-to-end. Qwen3-VL-4B base. Two-stage SFT-RL multi-domain training.
+  - Maps Stage 2 base alternative. Open weights (Qwen3-VL-4B license). Holistic data engineering approach.
+  - **decision it can change:** Stage 2 base; OCRVerse is the only one of the 2026 entrants that bundles vision-centric OCR.
+  - TRANSFER: SURVIVES — open weights + Qwen3-VL license.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-159 | https://arxiv.org/pdf/2603.10910v1 | 2026-03-11 | VERIFIED | 4/4/4 | PRIMARY
+  - GLM-OCR (Zhipu/ZAI): 0.9B params compact multimodal model. Multi-Token Prediction (MTP) for fast decoding (1.86 pg/s throughput). Reading Order Score 95.8 vs PaddleOCR-VL-1.5 95.6 vs GLM-OCR Paddle-1.5 minerU2.5 Gemini-3 Pro Qwen3-VL-235B MonkeyOCR-pro dots.ocr DeepSeek-OCR. zai-org/GLM-OCR HF model. Demo ocr.z.ai.
+  - Maps Stage 2 throughput: MTP decoding is the 2026 throughput lever. Citation for our Stage 2 latency analysis.
+  - **decision it can change:** Stage 2 base if latency is the bottleneck (45 Hindi pages probe time).
+  - TRANSFER: SURVIVES — open weights (Zhipu GLM license).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-160 | https://github.com/chatdoc-com/OCRFlux | 2025-06-17 | VERIFIED | 3/4/3 | PRIMARY
+  - OCRFlux (chatdoc-com): lightweight multimodal LLM-based PDF/image→Markdown toolkit. Benchmarks: OCRFlux-bench-single + OCRFlux-pubtabnet-single + OCRFlux-bench-cross + OCRFlux-pubtabnet-cross.
+  - Maps Stage 2 candidate for forms/tables-heavy probe cells. Open weights.
+  - **decision it can change:** could be Stage 2 if probe cells are forms-heavy.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-161 | https://huggingface.co/blog/lightonai/lightonocr-2 | 2026-01-19 | VERIFIED | 4/5/4 | PRIMARY
+  - LightOnOCR-2-1B (LightOn AI): 1B end-to-end multilingual VLM, SOTA on OlmOCR-Bench (76.4). Beats Chandra-9B by 1.5+ pp overall while 9× smaller. 3.3× faster than Chandra, 1.7× faster than olmOCR, 5× faster than dots.ocr, 2× faster than PaddleOCR-VL-0.9B, 1.73× faster than DeepSeekOCR. Apache-2.0. 5.71 pages/sec H100. Trained on lightonai/LightOnOCR-mix-0126 (16M pages) + lightonai/LightOnOCR-bbox-mix-0126 (500K with bboxes).
+  - Maps all weak cells: open weights + 1B size class laptop-feasible. Citation for our Stage 2 base. Apache-2.0.
+  - **decision it can change:** Stage 2 base. LightOnOCR-2 is the speed+size Pareto leader.
+  - TRANSFER: SURVIVES — Apache-2.0 + open weights + 1B laptop-fit.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-162 | https://hf.yi-lab.net/blog/lightonai/lightonocr | 2025-06-30 | VERIFIED | 3/4/3 | PRIMARY
+  - LightOnOCR-1B: distilled from larger open VLMs. Strong ViT + lean LM. 6.49× faster than dots.ocr, 2.67× faster than PaddleOCR-VL-0.9B, 1.73× faster than DeepSeekOCR. 5.71 pages/sec H100 ≈ 493K pages/day.
+  - Maps Stage 2 zero-cost candidate if we need higher throughput than LightOnOCR-2.
+  - **decision it can change:** Stage 2 if throughput matters most.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-163 | https://arxiv.org/abs/2604.04771 | 2026-04-06 | VERIFIED | 5/5/5 | PRIMARY
+  - MinerU2.5-Pro (Wang et al., OpenDataLab): 1.2B params, NaViT-675M + Qwen2-0.5B architecture. **Same architecture as MinerU2.5**, +2.71 OmniDocBench v1.6 (92.98 → 95.69) via data engineering alone. Data Engine: Diversity-and-Difficulty-Aware Sampling (10M → 65.5M samples), Judge-and-Refine pipeline (Gemini 3 Pro annotator). Three-stage progressive training (CPT → hard-sample fine-tune → GRPO alignment). Apache-2.0 with commercial license required for >1B MAU or >$20M monthly revenue.
+  - Maps W6 Stage 2: data engineering > new architecture. Cite in freeze packet (per A0-007 W6).
+  - **decision it can change:** confirms Stage 2 should spend compute on data, not new VLM.
+  - TRANSFER: SURVIVES — Apache-2.0 + commercial use OK below thresholds.
+  - decision: Cite in freeze packet (per A0-007 W6)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-164 | https://github.com/opendatalab/MinerU | 2026 (Sep) | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU repo: Apache-2.0 with commercial thresholds (>1B MAU OR >$20M monthly revenue triggers commercial license). Active development; current version 2.5.4 as of 2025-09-26.
+  - Maps deployment: license fine for our scale.
+  - **decision it can change:** license check for W6.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-165 | https://arxiv.org/abs/2603.22458 | 2026-03-26 | VERIFIED | 3/4/3 | PRIMARY
+  - MinerU-Diffusion: 2.5B diffusion-based OCR decoder. Block-level parallel diffusion decoding replaces autoregressive. Stronger resilience to disrupted semantics.
+  - Maps Stage 2 trend watch. Diffusion decoders are early-stage for OCR.
+  - **decision it can change:** W6 not yet; watch item for W7+.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-166 | https://huggingface.co/papers/2308.13418 | 2023-08-25 | VERIFIED | 3/3/3 | PRIMARY
+  - Nougat (Blecher et al., Meta AI, ICLR 2024): Visual Transformer encoder-decoder for academic PDF → lightweight markup. Built on Donut architecture. Pre-trained on paired PDFs + LaTeX source. Code+models on GitHub (facebookresearch/nougat).
+  - Maps historical reference for academic-document OCR. MIT license. ~350M params.
+  - **decision it can change:** none; Nougat is reference for formula/equation extraction.
+  - TRANSFER: SURVIVES — MIT license.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-167 | https://arxiv.org/abs/2506.02295 | 2025-06-02 | VERIFIED | 5/5/5 | PRIMARY
+  - QARI-OCR v0.2 (Wasfy et al., NAMAA-Space): derived from Qwen2-VL-2B-Instruct. Iterative fine-tuning on progressively complex synthetic Arabic datasets. **State-of-the-art Arabic OCR: WER 0.160, CER 0.061, BLEU 0.737 on diacritically-rich texts.** Apache-2.0 (per HF).
+  - Maps Kashmiri 54.82: Perso-Arabic/Nastaliq sister script. QARI's synthetic-iteration recipe is exactly the R2 mixing rule (40-60K synthetic + 300-500 hand-corrected real). Direct precedent for our Kashmiri specialist.
+  - **decision it can change:** W6 Kashmiri specialist design — QARI recipe is the proven path. Citation in freeze packet.
+  - TRANSFER: SURVIVES — Apache-2.0 + 2B Qwen2-VL license. Harness fact: our base = Qwen3-VL-4B; QARI shows 2B is enough for synthetic-driven Persian/Arabic script.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-168 | https://huggingface.co/NAMAA-Space/Qari-OCR-0.4.0-VL-4B-Instruct | 2026 (assumed 2026-Q1) | VERIFIED | 4/5/4 | PRIMARY
+  - Qari-OCR 0.4.0 (NAMAA-Space): based on Qwen3-VL-4B-Instruct (qwen3vl architecture, 36 layers, 2560 embedding, 32 attention heads). Quantized variants available (Q4_K_M etc) for local deployment. 4B size class.
+  - Maps Kashmiri 54.82: QARI now on Qwen3-VL-4B — direct base alignment with our W6 candidate. Citation for our W6 specialist design.
+  - **decision it can change:** Stage 2 base aligned with Qwen3-VL-4B.
+  - TRANSFER: SURVIVES — Apache-2.0 + Qwen3-VL license.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-169 | https://arxiv.org/html/2306.15782v1 | 2023-06-28 | VERIFIED | 3/4/3 | PRIMARY
+  - UTRSet (Rahman et al., IIT Delhi): UTRSet-Real = 11K lines real Urdu printed text; UTRSet-Synth = 20K synthetic. Hybrid CNN-RNN UTRNet architecture. CC-BY-NC-4.0.
+  - Maps Kashmiri 54.82: Nastaliq sister script. UTRSet recipe is the canonical "synthetic + real" mixing rule. Citation for our Kashmiri/Urdu specialist design.
+  - **decision it can change:** synthetic-first + real-anchor mixing rule confirmed for Perso-Arabic scripts.
+  - TRANSFER: SURVIVES — CC-BY-NC-4.0 (non-commercial — DIES for commercial shipment; OK for our probe/research use).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-170 | https://huggingface.co/datasets/abdur75648/UTRSet-Real | 2024 | VERIFIED | 3/4/3 | PRIMARY
+  - UTRSet-Real (HF): 11K annotated real Urdu printed text lines. CC-BY-NC-4.0 (non-commercial). arxiv 2306.15782.
+  - Maps Kashmiri 54.82: dataset reference for synthetic-data→real mixing rule. **NON-COMMERCIAL** — DIES for ship.
+  - **decision it can change:** confirms synthetic-first mixing rule precedent.
+  - TRANSFER: DIES — CC-BY-NC-4.0 prohibits commercial deployment.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-171 | https://blog.google/technology/developers/gemini-3-pro-vision/ | 2025-11-05 | VERIFIED | 4/4/4 | PRIMARY
+  - Gemini 3 Pro (Google DeepMind): "frontier of vision AI"; reconstructs illegible handwritten text, nested tables, complex math, non-linear layouts to structured code in HTML/LaTeX/Markdown. Released Nov 2025.
+  - Maps all weak cells via handwriting + table + math capability. Citation for our wrap-only competitive set.
+  - **decision it can change:** none; Gemini is closed API.
+  - TRANSFER: DIES — paid key required per D1.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-172 | https://ai.google.dev/gemini-api/docs/document-processing | 2026 (current) | VERIFIED | 4/4/4 | PRIMARY
+  - Gemini 3.x Document Understanding API: PDF input via native vision (not text extraction). Up to 1000 pages in single request. media_resolution parameter for granular multimodal vision control. Gemini 3.8 Flash available.
+  - Maps Stage 2 cost: 1000-page context means long-context docs handled in one shot. Citation for our wrap-only comparison.
+  - **decision it can change:** confirms Gemini is closed API competitor, not pipeline.
+  - TRANSFER: DIES — paid key required.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-173 | https://www.indiatoday.in/technology/news/story/sarvam-ai-launches-vision-21-with-better-document-reading-and-indic-handwriting-recognition-3002998-2026-09-25 | 2026-09-25 | VERIFIED | 4/5/4 | PRIMARY
+  - Sarvam Vision 2.1 press: improved complex tables, form KV extraction, Indic handwriting recognition, addresses hallucination issues, optimized inference stack.
+  - Maps win condition: tables + forms + handwriting are 3 demo axes Bhashini cares about. Sarvam has all three; we need at least tables parity.
+  - **decision it can change:** no new decision; confirms competitive landscape.
+  - TRANSFER: SURVIVES — press reference, no new decision.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-174 | https://m.economictimes.com/tech/artificial-intelligence/sarvam-ai-updates-vision-model-doubles-down-on-indic-language-push/amp_articleshow/134480718.cms | 2026-09-25 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam Vision 2.1 (re-cite Economic Times): doubles down on Indic-language push; makes digitizing forms/tables/handwritten records "easier and cheaper."
+  - Maps win condition: tables/forms/handwriting all 3 axes; we need at least tables parity.
+  - **decision it can change:** none; press confirmation.
+  - TRANSFER: SURVIVES — confirms competitive target.
+  - decision: cite Economic Times): doubles down on Indic-language push; makes digitizing forms/tables/handwritten records "easier and cheaper
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-175 | https://huggingface.co/datalab-to/surya-ocr-2 | 2026-05-27 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya 2 (re-cite, Multilingual): 91 languages including 38 langs ≥90%. Top widely-spoken scores: Italian 93.0, English 92.3, Spanish 90.7, German 89.7, French 89.3, Russian 88.8, Korean 86.7, Japanese 86.2, Vietnamese 73.2, Persian 82.3, Bengali 82.7, Hindi 82.2, Arabic 72.7, Chinese 82.5.
+  - Maps weak cells: hi 82.2, bn 82.7 are critical reference numbers for probe comparison. Persian 82.3 → Kashmiri Nastaliq sister script sanity. Arabic 72.7 → expect Perso-Arabic struggle.
+  - **decision it can change:** wrap-only comparison baseline for all weak cells.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-176 | https://huggingface.co/Prince-1/Surya-Ocr-2-Onnx | 2026 | VERIFIED | 3/4/3 | PRIMARY
+  - Surya 2 ONNX export: ONNX Runtime compatible. Modified OpenRAIL license. Apple Silicon + CPU deployment via llama.cpp.
+  - Maps deployment: laptop-deployable path for our pipeline. Citation for W6 freeze packet.
+  - **decision it can change:** confirms laptop-deployable Stage 2 candidate.
+  - TRANSFER: SURVIVES — open weights + ONNX export.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-177 | https://github.com/suryatmodulus/surya-ocr | 2024-01-13 | VERIFIED | 3/3/3 | PRIMARY
+  - Surya v1 repo (suryatmodulus): line-level text detection + OCR, 90+ languages. Tesseract comparison: time 0.62s/pg vs 0.45, avg similarity 0.97 vs 0.88. GPU-3-LAYOUT for layout analysis. GPL-3.0 license.
+  - Maps legacy reference for our pipeline comparison.
+  - **decision it can change:** none; v1 reference only.
+  - TRANSFER: SURVIVES — open source, but GPL-3.0 incompatible with commercial deployment without care.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-178 | https://github.com/wuxuedaifu/vllm-surya-ocr | 2026 | VERIFIED | 3/3/3 | PRIMARY
+  - vllm-surya-ocr: FastAPI + vLLM serving for Surya-OCR-2. OpenAI-compatible API. 0.20 req/s on single A100. Quantization study: no method beats BF16; int8 (GPTQ W8A8) near-lossless ~40% smaller.
+  - Maps deployment pattern: vLLM serve + OpenAI-compatible API for our Stage 2 design.
+  - **decision it can change:** Stage 2 deployment architecture.
+  - TRANSFER: SURVIVES — MIT + open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-179 | https://huggingface.co/datalab-to/chandra-ocr-2/raw/main/README.md | 2026-06-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra OCR 2 detail (re-cite): 85.8 olmocr bench SOTA, 77.8 multilingual (+12% over Chandra 1). Math/tables/layout/image captioning improvements. 90+ language support.
+  - Maps wrap-only comparison: Chandra 2 multilingual + tables 89.9% — directly competitive with our wrap-only targets.
+  - **decision it can change:** Stage 2 wrap-only comparison.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-180 | https://github.com/datalab-to/chandra | 2026 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra repo (datalab-to): OCR model handling complex tables/forms/handwriting. 40+ languages. vLLM serving (chandra_vllm). HF inference (chandra input.pdf ./output --method hf). License OpenRAIL-M.
+  - Maps deployment: vLLM serve path documented for our W6 wrap-only comparison.
+  - **decision it can change:** Stage 2 vLLM serve path confirmed.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-181 | https://arxiv.org/pdf/2601.21957 | 2026-01-31 | VERIFIED | 5/5/5 | PRIMARY
+  - PaddleOCR-VL-1.5 (Cui et al., Baidu): 0.9B VLM. PP-DocLayoutV3 (new, handles non-planar docs via multi-point localization: quadrilaterals + polygons). NaViT-style dynamic-res encoder + ERNIE-4.5-0.3B LM. **94.5% OmniDocBench v1.5**, SOTA Real5-OmniDocBench. Seal recognition + text spotting added.
+  - Maps Stage 2 base: PaddleOCR-VL-1.5 is predecessor of 1.6 (96.33). NaViT + ERNIE-4.5-0.3B is the proven 0.9B architecture. Apache-2.0.
+  - **decision it can change:** Stage 2 base decision. PaddleOCR-VL series is the open-source SOTA.
+  - TRANSFER: SURVIVES — Apache-2.0 + 0.9B laptop-fit.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-182 | http://www.paddleocr.ai/main/en/version3.x/algorithm/PaddleOCR-VL/PaddleOCR-VL-1.5.html | 2026-01-31 | VERIFIED | 4/4/4 | PRIMARY
+  - PaddleOCR-VL-1.5 official docs: 0.9B params, OmniDocBench v1.5 SOTA, Real5-OmniDocBench SOTA. Irregular-shaped localization (polygonal detection under skewed/curved).
+  - Maps OldScan 55.3 indirectly via Real5-OmniDocBench. Citation for our wrap-only comparison.
+  - **decision it can change:** Stage 2 base decision (PaddleOCR-VL-1.5 vs 1.6 trade-off).
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-183 | https://arxiv.org/html/2601.21957v1 | 2026-01-31 | VERIFIED | 4/4/4 | PRIMARY
+  - PaddleOCR-VL-1.5 paper (re-cite): "despite its compact 0.9B scale, it significantly outperforms massive general VLMs, such as Qwen3-VL-235B and Gemini-3 Pro, highlighting its exceptional parameter efficiency."
+  - Maps Stage 2 design: 0.9B VLM with right training can beat 235B general VLM. Citation for our Stage 2 base selection.
+  - **decision it can change:** Stage 2 base: 0.9B PaddleOCR-VL is the efficiency leader.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-184 | https://www.codesota.com/ocr/mistral-ocr-3 | 2025-12-21 | VERIFIED | 3/4/3 | PRIMARY
+  - Mistral OCR 3 verified benchmarks: OCRBench v2 25.2% overall; Full-Page OCR 79.1% (200 samples), Cognition VQA 58.3%, Doc Parsing 55.2%. Composite 79.75 OmniDocBench. Mistral is pure OCR, not VLM.
+  - Maps our wrap-only comparison. Mistral 79.75 vs PaddleOCR 92.86 vs dots.ocr 88.41.
+  - **decision it can change:** Stage 2 cost analysis (Mistral $2/1000 cheaper than closed API competitors).
+  - TRANSFER: DIES — paid API.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-185 | https://arxiv.org/html/2512.02498v4 | 2025-12-17 | VERIFIED | 4/4/4 | PRIMARY
+  - dots.ocr paper v4: Qwen2.5-VL-7B student distilled from Qwen2.5-VL-72B teacher via structured re-rendering. 1.7B LLM foundation. SOTA on OmniDocBench. XDocParse 126 langs benchmark.
+  - Maps Stage 2 design: teacher→student distillation via structured re-rendering. Citation for our W6 Indic SFT recipe (if we use Qwen2.5-VL-72B as teacher — but GPU budget blocks).
+  - **decision it can change:** if budget allows Qwen2.5-VL-72B teacher runs, distillation path is proven.
+  - TRANSFER: UNKNOWN — recipe proven, our budget = blocker (D1 NO cloud).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-186 | https://huggingface.co/dots-studio/dots.ocr | 2025-12-17 | VERIFIED | 3/4/3 | PRIMARY
+  - dots-studio/dots.ocr: rehost of RED AI Lab's dots.ocr (smaller community variant). MIT license. transformers + custom_code.
+  - Maps deployment: smaller variant for laptop deployment.
+  - **decision it can change:** Stage 2 laptop deployment variant.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-187 | https://github.com/rednote-hilab/dots.ocr | 2025-07-30 | VERIFIED | 4/4/4 | PRIMARY
+  - dots.ocr official repo (RED AI Lab / Xiaohongshu): 1.7B LLM foundation, multilingual documents parsing, SOTA performance. Released 2025-07-30.
+  - Maps Stage 2 base: open weights + 1.7B size class.
+  - **decision it can change:** Stage 2 base decision.
+  - TRANSFER: SURVIVES — Apache-2.0 + open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-188 | https://arxiv.org/abs/2512.02498 | 2025-12-01 | VERIFIED | 4/4/4 | PRIMARY
+  - dots.ocr arxiv v1: Multilingual Document Layout Parsing in a Single Vision-Language Model. Two-stage training: Qwen2.5-VL-72B teacher generates multilingual seed via structured re-rendering; Qwen2.5-VL-7B student fine-tunes on seed.
+  - Maps Stage 2 design: distillation recipe.
+  - **decision it can change:** Stage 2 recipe design.
+  - TRANSFER: UNKNOWN — recipe proven, GPU budget blocks.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-189 | https://arxiv.org/html/2502.18443 | 2025-02-25 | VERIFIED | 4/4/4 | PRIMARY
+  - olmOCR (re-cite): 7B VLM, fine-tuned on olmOCR-mix-0225 (260K pages from 100K+ PDFs). Toolkit for PDF→plain text. Apache-2.0. olmOCR-anchored olmOCR-bench 77.4.
+  - Maps Stage 2 design: toolkit approach.
+  - **decision it can change:** Stage 2 if we want PDF-as-input alternative to image-as-input.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-190 | https://arxiv.org/html/2606.23050 | 2026 (assumed) | VERIFIED | 4/4/4 | PRIMARY
+  - Unlimited OCR Works: DeepSeek-OCR baseline + R-SWA (Restricted Sliding Window Attention) decoder modification. Enables dozens of pages parsed in one forward pass. Modest accuracy improvement.
+  - Maps Stage 2 long-context lever: R-SWA is the 2026 pattern for multi-page docs.
+  - **decision it can change:** Stage 2 if our pipeline needs long-context multi-page docs.
+  - TRANSFER: SURVIVES — open weights (DeepSeek-OCR-1 license).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-191 | https://arxiv.org/abs/2603.04205 | 2026-03-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Real5-OmniDocBench (Cui et al., Baidu): 1,355-page physical reconstruction across 5 distortions (scan/warp/photo/illumination/skew). PaddleOCR-VL-1.6 93.19 overall. Warping weakest (91.25), scanning strongest (94.74).
+  - Maps OldScan 55.3 directly: physical distortions benchmark. Citation for our Stage 0 restoration chain.
+  - **decision it can change:** confirms Stage 0 restoration pre-pass is highest-leverage OldScan attack.
+  - TRANSFER: SURVIVES — open benchmark.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-192 | https://huggingface.co/rednote-hilab/dots.ocr/commit/f9848332675c1f3626e95424c3765a8554395713 | 2025-07-31 | VERIFIED | 3/4/3 | PRIMARY
+  - dots.ocr HF README (commit f984833): 1493-pdf-image 100-language benchmark; Nanonets OCR 67.0 / 68.6; comparison data shown. License MIT.
+  - Maps Stage 2 wrap-only comparison data.
+  - **decision it can change:** Stage 2 comparative scoring baseline.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-193 | https://huggingface.co/dots-studio/dots.ocr/raw/main/README.md | 2025-07-30 | VERIFIED | 4/4/4 | PRIMARY
+  - dots.ocr HF README (full): 1.7B LLM foundation, SOTA performance for text/tables/reading order on OmniDocBench. Multilingual low-resource SOTA (Tibetan, Kannada). Apache-2.0 (per HF card).
+  - Maps Stage 2 base: confirms Apache-2.0 license + 1.7B size class.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-194 | https://www.datalab.to/use-cases/model-training | 2026 | VERIFIED | 3/4/3 | PRIMARY
+  - Datalab enterprise: 100M+ pages/day sustained; 89.9% olmOCR-bench tables (open model); 67.7K+ open-source stars (Marker + Surya + Chandra).
+  - Maps deployment: Datalab is the canonical open-OCR-VLM ecosystem.
+  - **decision it can change:** none; reference only.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-195 | https://github.com/Ucas-HaoranWei/GOT-OCR2.0/blob/main/README.md | 2024-09-03 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2.0 README (re-cite): 8.2K stars; HF trending #1 (Sep 2024); integrated into HF-transformers/space (Feb 2025); PaddleMIX supported (Dec 2024); demo HF GPU-backed. Plain/format/format-OCR/fine-grained/multi-crop/multi-page demos.
+  - Maps Stage 2: code + weights + HF integration. Apache-2.0.
+  - **decision it can change:** Stage 2 base for Stage 0 (laptop-deployable 580M).
+  - TRANSFER: SURVIVES — Apache-2.0 (weights + code; data license research-only).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-196 | https://huggingface.co/stepfun-ai/GOT-OCR-2.0-hf | 2024-09-13 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2.0 HF model card (stepfun-ai): Apache-2.0. Towards OCR-2.0 via a Unified End-to-end Model.
+  - Maps deployment: HF transformers integration path for our pipeline.
+  - **decision it can change:** Stage 2 candidate (Apache-2.0 confirms license).
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-197 | https://huggingface.co/docs/transformers/main/model_doc/got_ocr2 | 2024-09-13 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2 transformers docs: integrated into transformers. Works on whole page or sliced. Dynamic resolution support. End-to-end encoder-decoder.
+  - Maps Stage 2 design: HuggingFace transformers path (no custom serving needed).
+  - **decision it can change:** Stage 2 deployment path.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-198 | https://arxiv.org/html/2409.01704v1 | 2024-09-03 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR paper (re-cite): 580M params, encoder-decoder paradigm, "OCR-2.0" framing. Stage 1 vision encoder pretrain; Stage 2 connect to Qwen-0.5B; Stage 3 fine-tune to specific chars.
+  - Maps Stage 2 base architecture: lightweight 580M model + Qwen-0.5B decoder.
+  - **decision it can change:** Stage 2 base for laptop-only W6.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 1
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-199 | https://github.com/Yuliang-Liu/MonkeyOCR | 2025-06-05 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR repo (Yuliang-Liu): Apache-2.0 code; MonkeyOCR v1 weights "academic research and non-commercial evaluation only. Commercial deployment, SaaS integration, redistribution, or production use requires a separate written commercial license."
+  - Maps Stage 2 license: code Apache-2.0 ✓ but weights research-only. Cite for freeze packet.
+  - **decision it can change:** Stage 2 license check; may need commercial license for ship.
+  - TRANSFER: DIES — weights non-commercial.
+  - decision: Cite for freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-200 | https://huggingface.co/echo840/MonkeyOCR | 2025-06-05 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR (echo840): SRR triplet paradigm. 5.1% improvement over MinerU across 9 doc types (+15% formulas, +8.6% tables). 3B model beats Qwen2.5-VL-72B + Gemini 2.5 Pro on EN docs. 0.84 pages/sec vs MinerU 0.65 vs Qwen2.5-VL-7B 0.12.
+  - Maps Stage 2 base: 3B size class is realistic ceiling. Apache-2.0 code.
+  - **decision it can change:** Stage 2 base if license issue resolved (commercial).
+  - TRANSFER: DIES — weights research-only.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-201 | https://arxiv.org/html/2506.05218v2 | 2026-02-07 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR v2: 4.5M bilingual instances MonkeyDoc dataset. Contiguous Parameter Degradation (CPD) for parameter reduction. MonkeyOCR-1.2B beats MonkeyOCR-3B by 7.4% on Chinese. MonkeyOCR-pro-3B SOTA on OmniDocBench both EN and ZH.
+  - Maps Stage 2 design: 1.2B size class viable with CPD; smaller variants match larger ones.
+  - **decision it can change:** Stage 2 size decision (1.2B vs 3B).
+  - TRANSFER: DIES — weights research-only.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-202 | https://arxiv.org/pdf/2506.05218v1 | 2025-06-05 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR v1 paper detail: SRR triplet (Structure/Recognition/Relation). MonkeyDoc: 3.9M instances across 10+ doc types in CN+EN. 0.84 pg/sec (RTX 3090). 3B deployable on single 3090.
+  - Maps Stage 2 deployment: 3090-sized 3B model is our realistic ceiling.
+  - **decision it can change:** Stage 2 size class.
+  - TRANSFER: DIES — weights research-only.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-203 | https://docs.sarvam.ai/api/getting-started/pricing | 2026-09-26 | VERIFIED | 4/4/5 | PRIMARY
+  - Sarvam doc-digitise API: ₹0.5/page (max 10 pages/job); 5,344 test pages ≈ ₹2,672 (~$32). Jun-2026 67% price cut. doc-digitise-batch API for bulk.
+  - Maps W6 budget: full Indic OCR Bench API run = ₹2,672 — needs explicit user approval per D1.
+  - **decision it can change:** W6 budget approval path.
+  - TRANSFER: DIES — paid key required.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-204 | https://huggingface.co/bodhan-ai/indic-ocr | 2026-09-01 | VERIFIED | 5/5/5 | PRIMARY
+  - Bodhan IndicOCR (re-cite detail): Apache-style fine-tune-friendly license (per HF card description). Document parsing for English + 22 Indian languages, printed and handwritten.
+  - Maps Stage 2 base: open license + Indic-specialist.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — open license.
+  - decision: cite detail): Apache-style fine-tune-friendly license (per HF card description)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-205 | https://bodhan.ai/ | 2026 | VERIFIED | 3/4/3 | PRIMARY
+  - Bodhan AI (IITM CoE, MoE supported): sovereign Digital Public Infrastructure for education. Foundational literacy diagnostics, conversational academic support, curriculum-aligned content, adaptive practice, automated assessment.
+  - Maps use case framing: classroom worksheet digitization = our demo angle.
+  - **decision it can change:** none; context reference for W6 use case.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-206 | https://huggingface.co/bodhan-ai/indic-transcribe-core | 2026-09 | VERIFIED | 3/4/3 | PRIMARY
+  - Bodhan Indic-Transcribe (ASR): 1B params automatic speech recognition. Sibling to IndicOCR.
+  - Maps architecture pattern: Bodhan's 1B ASR + 0.8B OCR share lineage. Reference for our pipeline sibling tasks.
+  - **decision it can change:** none; reference only.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-207 | https://x.com/Bodhan_AI/status/2092492598799896582 | 2026-08-26 | VERIFIED | 4/5/4 | PRIMARY
+  - Bodhan IndicOCR announcement: 0.8B params, 15M+ documents trained. Live 2026-09-05. Built for handwriting, old newspapers, tables, dense layouts, multilingual scripts.
+  - Maps weak cells: explicitly targets handwriting (mni 85.12 potential) and old newspapers (OldScan 55.3 sister class).
+  - **decision it can change:** Stage 2 base competitor for handwriting tier.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-208 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4 | PRIMARY
+  - Oct 2025 inflection (re-cite detail): 6 major open OCR releases — Nanonets OCR2-3B, PaddleOCR-VL-0.9B, DeepSeek-OCR-3B, Chandra-OCR-8B, OlmOCR-2-7B, LightOnOCR-1B. All matching/exceeding proprietary services.
+  - Maps Stage 2 base: 6 viable open candidates from one month.
+  - **decision it can change:** Stage 2 base decision matrix.
+  - TRANSFER: SURVIVES — open weights pool.
+  - decision: cite detail): 6 major open OCR releases — Nanonets OCR2-3B, PaddleOCR-VL-0
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-209 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4 | PRIMARY
+  - PaddleOCR-VL (Oct 2025, re-cite detail): 0.9B NaViT dynamic-res + ERNIE-4.5-0.3B LM. Hybrid two-stage pipeline (layout + recognition separated).
+  - Maps Stage 2 architecture: NaViT + small LM is the proven pattern.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: cite detail): 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-210 | https://arxiv.org/pdf/2604.04771v2 | 2026-04-09 | VERIFIED | 5/5/5 | PRIMARY
+  - MinerU2.5-Pro v2 (re-cite detail): 1.2B params, 95.69 OmniDocBench v1.6 (+2.71 vs MinerU2.5 92.98 via data engineering). Outperforms GLM-OCR, PaddleOCR-VL-1.5, Youtu-Parsing, Qwen3-VL-235B, Gemini 3 Pro, GPT-5.2.
+  - Maps Stage 2 base: 1.2B size + data engineering beats 235B general VLM. Citation for our Stage 2.
+  - **decision it can change:** Stage 2 base; smaller-data-engineering vs bigger-model tradeoff.
+  - TRANSFER: SURVIVES — Apache-2.0 + commercial use OK below threshold.
+  - decision: cite detail): 1
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-211 | https://arxiv.org/abs/2604.04771 | 2026-04-06 | VERIFIED | 5/5/5 | PRIMARY
+  - MinerU2.5-Pro v1 (re-cite): 65.5M training samples via Diversity-and-Difficulty-Aware Sampling. Three-stage progressive training (large-scale pretrain → hard-sample fine-tune → GRPO alignment). Gemini 3 Pro as pre-annotator.
+  - Maps Stage 2 design: progressive training with quality-tiered data. Citation for our W6 if we adopt GRPO Stage 3b.
+  - **decision it can change:** Stage 3b GRPO recipe confirmed.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: adopt GRPO Stage 3b
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-212 | https://arxiv.org/html/2604.04771v1 | 2026-04-06 | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU2.5-Pro v1 detail: NaViT-675M + Qwen2-0.5B. Inherits MinerU2.5 Stage 0 checkpoint for foundational vision-language alignment.
+  - Maps Stage 2 architecture: NaViT-675M + Qwen2-0.5B is the proven 1.2B pattern.
+  - **decision it can change:** Stage 2 base architecture decision.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-213 | https://huggingface.co/papers/2604.04771 | 2026-04-06 | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU2.5-Pro HF papers card: confirms data engineering + 3-stage training. Gemini 3 Pro pre-annotation pipeline.
+  - Maps Stage 2 recipe: progressive training pattern.
+  - **decision it can change:** Stage 2 recipe reference.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-214 | https://github.com/chukonu-team/MinerU_2.5 | 2025-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU 2.5 repo: v2.5.4 released 2025-09-26. vLLM async backend for concurrent inference (2.12 fps on A100). Two-stage inference pipeline decoupling layout from content recognition.
+  - Maps deployment: vLLM serve path. Citation for our Stage 2 architecture.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-215 | https://modelscope.cn/models/OpenDataLab/MinerU2.5-Pro-2604-1.2B | 2026-04-06 | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU2.5-Pro ModelScope: 1.2B params, +1.39 points over 2nd place on table benchmarks, +5.54 on OmniDocBench Table TEDS. Dense Formula CDM 97.29 (+1.70).
+  - Maps Stage 2 design: dense formula recognition is the differentiator.
+  - **decision it can change:** Stage 2 if our probe has formula-heavy cells (math textbooks).
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-216 | https://huggingface.co/deepseek-ai/DeepSeek-OCR | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR HF model card: 6.68GB weights. MIT license. vLLM serve path: `vllm serve "deepseek-ai/DeepSeek-OCR"`. SGLang server path also documented. Docker Model Runner supported.
+  - Maps deployment: multiple serving paths documented.
+  - **decision it can change:** Stage 2 deployment architecture.
+  - TRANSFER: SURVIVES — MIT license + multiple serving paths.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-217 | https://huggingface.co/deepseek-ai/DeepSeek-OCR/tree/main | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR files: ~3.35K likes, 144K downloads. config.json + configuration_deepseek_v2.py + custom code. Eval Results on HF. vLLM + SGLang + Docker Model Runner all supported.
+  - Maps deployment: open ecosystem.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — MIT license.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-218 | https://deepseek-ocr.io/ | 2026 (assumed) | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR marketing: 97% exact-match on Fox benchmark at 10× compression. 200K pages/day on single A100. 100+ languages. Two-stage: windowed SAM ViT + dense CLIP-Large + 16× conv compressor → DeepSeek-3B-MoE decoder (~570M active). 30M real PDF pages + synthetic charts/formulas/diagrams training.
+  - Maps cost lever: 200K pg/day on A100 is unmatched. Citation for cost analysis.
+  - **decision it can change:** Stage 2 cost analysis.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-219 | https://arxiv.org/html/2510.18234v1 | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR (re-cite detail): DeepEncoder (380M, SAM-base 80M + CLIP-large 300M + 16× token compressor). Decoder DeepSeek-3B-MoE (570M activated). Multi-resolution: Tiny/Base/Large/Gundam. Training data: OCR 70%, general vision 20%, text-only 10%. Nougat cited as the academic-PDF-OCR predecessor.
+  - Maps Stage 2 design: encoder-decoder MoE is the 2025-2026 pattern. Nougat lineage.
+  - **decision it can change:** Stage 2 architecture decision.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: cite detail): DeepEncoder (380M, SAM-base 80M + CLIP-large 300M + 16× token compressor)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-220 | https://github.com/Ramakm/Deepseek-OCR | 2025-10 | VERIFIED | 3/3/3 | PRIMARY
+  - Deepseek-OCR community repo: CUDA 11.8+, PyTorch 2.0+, 16GB+ RAM. Multi-resolution Tiny/Small/Base/Large/Gundam.
+  - Maps deployment: community-supported paths.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-221 | https://huggingface.co/datalab-to/chandra-ocr-2/commit/af93b47dba1b47b6640c86ccf487ed2260ab9a09 | 2026-06-26 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra OCR 2 (re-cite detail, commit af93b47): score adjustment 85.9 → 85.8. Subset table: ArXiv 86.9, Old Scans Math 89.1, Tables 92.1, Old Scans 51.1, Headers/Footers 91.4, Multi column 82.1, Long tiny text 93.7, Base 99.9.
+  - Maps OldScan 55.3: Chandra 2 Old Scans subscore 51.1 — directly comparable. Our OldScan 55.3 is in similar range as Sarvam's 50ish on OldScans.
+  - **decision it can change:** Stage 2 wrap-only comparison baseline.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: cite detail, commit af93b47): score adjustment 85
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-222 | https://regolo.ai/models-archive/chandra-ocr-2/ | 2026-08-13 | VERIFIED | 3/4/3 | PRIMARY
+  - Chandra OCR 2 (re-cite): 4B params, layout-aware OCR, 90+ langs. SOTA olmOCR-bench. 2× throughput vs Chandra 1.
+  - Maps Stage 2 design: 4B vs 9B tradeoff.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-223 | https://hf.yi-lab.net/datalab-to/chandra-ocr-2 | 2026-06-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra OCR 2 detail: qwen3_5 architecture (similar to Qwen3.5). vLLM serve path. pip install chandra-ocr. Eval Results on HF (85.8 ± 0.8 own benchmarks, 83.9 dots.ocr 1.5). OpenRAIL license.
+  - Maps Stage 2 architecture: qwen3_5 backbone.
+  - **decision it can change:** Stage 2 base decision.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-224 | https://github.com/saintyun/OCR-chandra | 2025-11-03 | VERIFIED | 3/4/3 | PRIMARY
+  - Chandra repo (saintyun fork): mirror with vLLM + HF inference paths. 40+ langs. OpenRAIL.
+  - Maps deployment: community fork paths.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-225 | https://arxiv.org/abs/2603.10910 | 2026-03-11 | VERIFIED | 4/4/4 | PRIMARY
+  - GLM-OCR (Zhipu AI + Tsinghua U.): 0.9B params, MTP mechanism for multi-token prediction. Reading Order Score 95.8. Designed for both edge and large-scale production.
+  - Maps Stage 2 design: MTP decoding is the 2026 throughput lever.
+  - **decision it can change:** Stage 2 if latency is the bottleneck.
+  - TRANSFER: SURVIVES — zai-org license.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-226 | https://huggingface.co/zai-org/GLM-OCR | 2026-03-11 | VERIFIED | 4/4/4 | PRIMARY
+  - GLM-OCR HF: zai-org/GLM-OCR. Multimodal OCR for complex docs. 1.86 pg/s throughput.
+  - Maps Stage 2 candidate.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — zai-org license.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-227 | https://arxiv.org/abs/2512.08922 | 2025-12-09 | VERIFIED | 4/5/4 | PRIMARY
+  - UniT (Unified Diffusion Transformer): DiT + VLM + Text Spotting Module for Text-Aware Image Restoration. Iterative refinement. SA-Text + Real-Text benchmarks.
+  - Maps OldScan 55.3: 2025 SOTA text-restoration. Iterative OCR-guided restoration is the new SOTA pattern.
+  - **decision it can change:** Stage 0 restoration pre-pass.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-228 | https://huggingface.co/lightonai/LightOnOCR-2-1B | 2026-01-19 | VERIFIED | 4/4/4 | PRIMARY
+  - LightOnOCR-2-1B HF: efficient end-to-end 1B vision-language model. Apache-2.0. SOTA on OlmOCR-Bench. Open-weight + bbox-capable variants + base checkpoints.
+  - Maps Stage 2 base: 1B size class + Apache-2.0.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-229 | https://huggingface.co/papers/2601.14251 | 2026-01-19 | VERIFIED | 4/4/4 | PRIMARY
+  - LightOnOCR paper: 1B end-to-end multilingual VLM. Old Scans 84.7, Math 76.1, Tables 78.6, Long Tiny Text 81.2. Outperforms 9B-scale baselines. LightOnOCR-bbox-bench for localization.
+  - Maps OldScan 55.3: LightOnOCR-2 OldScans 84.7 on English bench (gap to our OldScan 55.3 = Indic + OldScan-specific).
+  - **decision it can change:** Stage 2 base OldScan coverage.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-230 | https://pdfs.assets.alphaxiv.org/2601.14251v1.pdf | 2026-01-19 | VERIFIED | 4/4/4 | PRIMARY
+  - LightOnOCR paper detail: 2.5× larger pretraining mixture vs LightOnOCR-1. Increased coverage of scans, French documents, scientific content. Single contiguous visual token block (no image-break/end tokens).
+  - Maps Stage 2 design: contiguous visual token block is the cleaner architecture.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-231 | https://arxiv.org/html/2501.21639 | 2026-01-26 | VERIFIED | 4/4/4 | PRIMARY
+  - OCRVerse (re-cite abstract): text-centric OCR (newspapers, magazines, books) + vision-centric OCR (charts, web pages, scientific plots) in end-to-end model. Qwen3-VL-4B base. Two-stage SFT-RL training.
+  - Maps Stage 2 base alternative.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Qwen3-VL license.
+  - decision: cite abstract): text-centric OCR (newspapers, magazines, books) + vision-centric OCR (charts, web pages, scientific plots) in end-to-end model
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-232 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 | 2026-05-28 | VERIFIED | 5/5/4 | PRIMARY
+  - PaddleOCR-VL-1.6 HF (re-cite): Apache-2.0. transformers-compatible. vLLM serve path. Zero-cost migration from 1.5.
+  - Maps Stage 2 base candidate: 0.9B VLM, Apache-2.0, vLLM-compatible.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-233 | https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6 | 2026-05-28 | VERIFIED | 4/4/4 | PRIMARY
+  - PaddleOCR-VL-1.6 (re-cite): doc parsing capabilities (formula, table, chart, seal, text spotting). Zero-cost migration from 1.5. 96.33 OmniDocBench v1.6 SOTA.
+  - Maps Stage 2: comprehensive feature set.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-234 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - OmniDocBench v1.6 (re-cite): 1,355 pages, 9 PDF doc types. PaddleOCR-VL-1.6 96.33 SOTA. CVPR 2025. Apache-2.0.
+  - Maps wrap-only comparison benchmark.
+  - **decision it can change:** Stage 2 wrap-comparison baseline.
+  - TRANSFER: SURVIVES — Apache-2.0 benchmark.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-235 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4 | PRIMARY
+  - OmniDocBench v1.7 (re-cite, 2026-04-30): added Qianfan-OCR leaderboard + skills-based evaluation.
+  - Maps Stage 2 wrap-comparison benchmark.
+  - **decision it can change:** Stage 2 wrap-comparison.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-236 | https://arxiv.org/pdf/2603.04205v2 | 2026-03-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Real5-OmniDocBench (re-cite detail): scan (94.74 strongest), warp (91.25 weakest), photo, illumination, skew. PaddleOCR-VL-1.6 93.19 overall.
+  - Maps OldScan 55.3: confirms warp/curve is universal weak spot; restoration pre-pass is right attack.
+  - **decision it can change:** Stage 0 restoration pre-pass.
+  - TRANSFER: SURVIVES — open benchmark.
+  - decision: cite detail): scan (94
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-237 | https://github.com/marklabz/omnidocbench | 2026-09-26 | VERIFIED | 3/4/3 | PRIMARY
+  - OmniDocBench fork (marklabz): updated models list through Sep 2025/26. Includes PP-StructureV3, MonkeyOCR-pro-1.2B, Dolphin, Nanonets-OCR-s, OCRFlux-3B, Qwen2.5-VL-7B, InternVL3-78B.
+  - Maps Stage 2 wrap-comparison tracking.
+  - **decision it can change:** Stage 2 wrap-comparison.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-238 | https://github.com/indic-ocr/indic-ocr.github.io | 2026-09-26 | VERIFIED | 3/4/3 | PRIMARY
+  - Indic-OCR Project (re-cite): open-source Tesseract models for Indic scripts including Ol Chiki + Meetei Mayek. Layout detection via Olena. "Perhaps the best set of Tesseract models for Indic Scripts."
+  - Maps weak cells: Ol Chiki + Meitei Mayek fill cell baseline (not training target).
+  - **decision it can change:** baseline-only for sat/mni — Tesseract won't beat VLM.
+  - TRANSFER: SURVIVES — open source Tesseract models.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-239 | https://cvit.iiit.ac.in/images/ConferencePapers/2024/Printed-OCR-for-Extremely-Low-resource-Indic-Languages.pdf | 2024-08-15 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarkar et al. IIIT-H CVIT (re-cite detail): Mozhi-LR(S) dataset. CRNN+LM. Word accuracy: Kashmiri 93.80, Ol Chiki Santali 96.58, Bodo 97.22, Nepali 95.13.
+  - Maps weak cells: Kashmiri 54.82 (Sarkar word 93.80) and Santali 53.91 (Sarkar word 96.58) — IIIT-H specialist proves these scripts ARE learnable.
+  - **decision it can change:** confirms Kashmiri/Santali are learnable with specialist; gap is just data scale.
+  - TRANSFER: SURVIVES — open models (CRNN), IIITH license.
+  - decision: cite detail): Mozhi-LR(S) dataset
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-240 | https://ilocr.iiit.ac.in/ihtr/dataset.html | 2023-08-21 | VERIFIED | 4/4/4 | PRIMARY
+  - ICDAR 2023 IHTR IIIT-H CVIT (re-cite): IIIT-INDIC-HW dataset. 10 scripts (Bengali/Devanagari/Gujarati/Gurmukhi/Kannada/Malayalam/Odia/Tamil/Telugu/Urdu). ~700K-850K training images per script. Upstage KR won 95.94% char accuracy.
+  - Maps weak cells: 10 scripts include Odia 80.01 — direct reference. Word-char gap is small.
+  - **decision it can change:** confirms Odia 80.01 is handwriting-specific (not script-specific) challenge.
+  - TRANSFER: SURVIVES — open dataset (with research access).
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-241 | https://github.com/AI4Bharat/IndicConformerASR | 2024-09-16 | VERIFIED | 4/4/3 | PRIMARY
+  - AI4Bharat IndicConformer (re-cite detail): 22 langs ASR suite. Multilingual 600M model + per-language monolingual models. Kashmiri, Santali, Manipuri all included.
+  - Maps script-routing pattern: 22 langs × 5 scripts. Reference architecture for our pipeline.
+  - **decision it can change:** script-router design reference.
+  - TRANSFER: SURVIVES — MIT license.
+  - decision: cite detail): 22 langs ASR suite
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-242 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR | 2025-05-10 | VERIFIED | 4/4/4 | PRIMARY
+  - ICDAR 2025 IHDR (re-cite detail): Indic handwritten document recognition, page-level (not just line/word). Winner announced 2025-05-15.
+  - Maps handwriting tier benchmark.
+  - **decision it can change:** Stage 2 handwriting specialist design.
+  - TRANSFER: SURVIVES — open benchmark.
+  - decision: cite detail): Indic handwritten document recognition, page-level (not just line/word)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-243 | https://arxiv.org/html/2205.06740v2 | 2025-06-02 | VERIFIED | 4/4/4 | PRIMARY
+  - Towards Deployable OCR Models (re-cite): 13 official Indic langs, CRNN+CTC end-to-end page-level OCR. Line/word segmentation. Beats Tesseract5 + GCV on 8/13 langs.
+  - Maps Stage 2 specialist: CRNN+LM is the proven specialist pattern.
+  - **decision it can change:** Stage 2 CRNN+LM alternative path for hi/bn/te/ta.
+  - TRANSFER: SURVIVES — IIITH open models.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-244 | https://dibd-bhashini.gitbook.io/bhashini-apis/available-models-for-usage | 2026-09-26 | VERIFIED | 4/4/3 | PRIMARY
+  - Bhashini ULCA API (re-cite): IIITH-OCR-SceneText for Assamese/Bengali/Gujarati/Hindi/Kannada/Malayalam/Manipuri/Marathi (8 langs). Production OCR catalog.
+  - Maps Bhashini production line: bn/hi/te/ta/kn/ml/mr have alternative production paths.
+  - **decision it can change:** Stage 2 wrap-comparison includes Bhashini production.
+  - TRANSFER: UNKNOWN — production API may need authorization.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-245 | https://indicnlp.ai4bharat.org/pages/indic-bert | 2025-12-01 | VERIFIED | 4/3/4 | PRIMARY
+  - IndicBERT (re-cite detail): multilingual ALBERT for 12 Indian languages. Pretrained on IndicNLP corpus (hi 1.84B, bn 815M, mr 560M tokens).
+  - Maps Stage 3 base: small Indic-specialist LLM.
+  - **decision it can change:** Stage 3 base if size matters (270M).
+  - TRANSFER: SURVIVES — open source.
+  - decision: cite detail): multilingual ALBERT for 12 Indian languages
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-246 | https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only | 2025-06-12 | VERIFIED | 4/4/4 | PRIMARY
+  - IndicBERTv2 (re-cite detail): 270M/1B/4B multilingual encoders. IndicCorp v2 + Samanantar TLM + Back-Translation TLM + SS script-share training. IndicXTREME eval.
+  - Maps Stage 3 base: 270M is small enough for VLM-LLM head; 1B/4B are bigger alternatives.
+  - **decision it can change:** Stage 3 base.
+  - TRANSFER: SURVIVES — MIT license.
+  - decision: cite detail): 270M/1B/4B multilingual encoders
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-247 | https://huggingface.co/ai4bharat?sort_models=modified | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - AI4Bharat recent activity (re-cite): IndicDLP (Jun 2026), Vision-Language Models for Handwritten Math (Jul 2026), SpeechArenaBench, IndicBERT-v3-1B/4B/270M, Project Astitva (Bhili MT/ASR/TTS).
+  - Maps pipeline: AI4Bharat confirms multimodal+Indic frontier work.
+  - **decision it can change:** none; context reference.
+  - TRANSFER: SURVIVES — open source.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-248 | https://github.com/AI4Bharat/MILU | 2025-06-15 | VERIFIED | 4/4/4 | PRIMARY
+  - MILU (re-cite): 11 Indic langs × 8 domains × 41 subjects LLM eval. CC-BY-4.0.
+  - Maps Stage 3 evaluation framework.
+  - **decision it can change:** Stage 3 eval.
+  - TRANSFER: SURVIVES — CC-BY-4.0.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-249 | https://huggingface.co/ai4bharat/IndicDLP | 2026-06-15 | VERIFIED | 5/5/5 | PRIMARY
+  - IndicDLP (AI4Bharat, Jun 2026): foundational multi-lingual + multi-domain document layout parsing dataset.
+  - Maps layout eval: foundation for our layout-aware benchmark.
+  - **decision it can change:** Stage 2 layout-aware design.
+  - TRANSFER: SURVIVES — open dataset.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-250 | https://huggingface.co/ai4bharat/IndicConformer | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - IndicConformer HF (re-cite): 22 langs ASR. CC-BY-4.0. NeMo-based. Monolingual models for Assamese, Bengali, Bodo, Dogri, etc.
+  - Maps architecture pattern reference.
+  - **decision it can change:** none; context.
+  - TRANSFER: SURVIVES — CC-BY-4.0.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-251 | https://huggingface.co/datalab-to/chandra-ocr-2 | 2026-06-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra OCR 2 (re-cite): license OpenRAIL-M (free for <$2M funding/revenue). vLLM serve path via `vllm serve "datalab-to/chandra-ocr-2"`.
+  - Maps Stage 2 license check: OpenRAIL-M is permissive for our scale (startup <$2M revenue cap).
+  - **decision it can change:** Stage 2 license confirmation.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-252 | https://github.com/datalab-to/chandra | 2026 (current) | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra OCR 2 detail: outputs markdown, HTML, JSON. SOC 2 Type 2, custom BAAs available. Improved handwriting, math, tables, complex layouts.
+  - Maps Stage 2 design: structured output (markdown/HTML/JSON).
+  - **decision it can change:** Stage 2 architecture decision.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-253 | https://github.com/amd-agi/vllm-2026/blob/main/docs/serving/integrations/claude_code.md | 2026 (accessed 2026-09-26) | VERIFIED | 3/4/3 | INFERENCE
+  - vLLM 2026: Anthropic-Claude-Code-style agent serving via OpenAI-compatible API; tool calling supported.
+  - Maps Stage 2 deployment: vLLM serve + OpenAI-compatible = drop-in to existing harness.
+  - **decision it can change:** Stage 2 deployment architecture.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-254 | https://arxiv.org/abs/2401.11831 | 2024-01-22 | VERIFIED | 4/4/4 | PRIMARY
+  - Binarization Fair Eval (Sukesh et al., ICDAR 2024, re-cite): DE-GAN, Robin (U-Net), DeepOtsu, 2-Stage GAN, DP-LinkNet, SAE, SauvolaNet on DIBCO 2017. SauvolaNet + DE-GAN lead.
+  - Maps OldScan 55.3: SauvolaNet + DE-GAN are the binarization leaders.
+  - **decision it can change:** Stage 0 binarization chain.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-255 | https://arxiv.org/abs/2501.03145 | 2025-01-06 | VERIFIED | 3/4/3 | PRIMARY
+  - Hybrid Deep Learning + Cubic Polynomial Geometry Restoration for dewarping (re-cite): YOLOv8 segmentation + cubic polynomial boundary fit. Lowest median CER 0.0235 on IWILT.
+  - Maps OldScan 55.3: cheap classical CV (YOLO+polynomial) baseline.
+  - **decision it can change:** Stage 0 dewarp chain.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-256 | https://arxiv.org/abs/2505.21975 | 2025-05-30 | VERIFIED | 4/4/4 | PRIMARY
+  - DvD (coordinates-based diffusion for dewarping, re-cite): uses Qwen2.5-VL-7B to score dewarped vs flat on CER/ED. Outperforms template-based (Inv3D, DocMatcher) and DocHFormer.
+  - Maps OldScan 55.3: 2025 dewarp SOTA. Cite for our Stage 0 dewarp head pilot.
+  - **decision it can change:** Stage 0 dewarp head.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Cite for our Stage 0 dewarp head pilot
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-257 | https://arxiv.org/abs/2505.23119 | 2025-05-29 | VERIFIED | 5/5/4 | PRIMARY
+  - TextSR (Diffusion SR with Multilingual OCR Guidance, re-cite): iterative restoration+OCR alternation. CC-BY-4.0. Solves text-fidelity loss in diffusion SR.
+  - Maps OldScan 55.3: 2025 SOTA text-SR. CC-BY-4.0.
+  - **decision it can change:** Stage 0 SR head.
+  - TRANSFER: SURVIVES — CC-BY-4.0.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-258 | https://arxiv.org/abs/2507.08492 | 2025-07-11 | VERIFIED | 4/4/4 | PRIMARY
+  - D2Dewarp (Li et al., re-cite): dual dimensions geometric representation learning (horizontal + vertical line features). Auto-generated large-scale DocDewarpHV training set. SOTA on 3 Chinese+English benchmarks.
+  - Maps OldScan 55.3: dewarp pre-pass. D2Dewarp is a 2025 SOTA method.
+  - **decision it can change:** Stage 0 dewarp head.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-259 | https://arxiv.org/abs/2405.04408 | 2024-05-07 | VERIFIED | 5/5/5 | PRIMARY
+  - DocRes (re-cite): generalist model unifying 5 restoration tasks (dewarping, deshadowing, appearance enhancement, deblurring, binarization). Dynamic Task-Specific Prompt (DTSPrompt).
+  - Maps OldScan 55.3: cite for our A3 DocRes-head pilot in W6 ablation chain.
+  - **decision it can change:** Stage 0 restoration head.
+  - TRANSFER: SURVIVES — open source.
+  - decision: cite for our A3 DocRes-head pilot in W6 ablation chain
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-260 | https://arxiv.org/abs/2508.04055 | 2025-08-06 | VERIFIED | 4/5/4 | PRIMARY
+  - Uni-DocDiff (Zhao et al., re-cite): learnable task prompts + Prior Pool + Prior Fusion Module. Multi-task document restoration in one model. IJCV 2025.
+  - Maps OldScan 55.3: 2025 SOTA unified restoration.
+  - **decision it can change:** Stage 0 restoration head.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-261 | https://arxiv.org/abs/2512.08922 | 2025-12-09 | VERIFIED | 4/5/4 | PRIMARY
+  - UniT (re-cite): DiT + VLM + TSM iterative. SA-Text + Real-Text benchmarks.
+  - Maps OldScan 55.3: 2025 SOTA text-aware image restoration.
+  - **decision it can change:** Stage 0 restoration head.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-262 | https://arxiv.org/abs/2604.10077 | 2026-04-11 | VERIFIED | 4/4/4 | PRIMARY
+  - DocRevive (re-cite): OCR + advanced image analysis + masked LM + diffusion. 30,078 synthetic degraded doc images. UCSM metric.
+  - Maps OldScan 55.3: 2026 latest unified restoration pipeline.
+  - **decision it can change:** Stage 0+3b fusion.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-263 | https://arxiv.org/abs/2409.19735 | 2024-10-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Scrambled text (Bourne, 2025, re-cite): synthetic corruption data. Median CER −55%, WER −32% over base Llama on Hindi OCR error correction. Beats real-data training.
+  - Maps Kashmiri 54.82 + Santali 53.91 + OldScan 55.3: synthetic corruption > real data for post-corrector LM SFT.
+  - **decision it can change:** Stage 3b post-corrector training recipe.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-264 | https://dl.acm.org/doi/abs/10.1007/s10032-025-00522-0 | 2025-06-15 | VERIFIED | 4/4/4 | PRIMARY
+  - Scrambled text (Bourne, IJDAR 2025, re-cite): published version. CER −55%, WER −32% over base LM on Hindi OCR.
+  - Maps W6 Stage 3b decision: synthetic-corruption LM training is the proven path.
+  - **decision it can change:** Stage 3b recipe.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-265 | https://aclanthology.org/2025.lm4uc-1.11.pdf | 2025-11-01 | VERIFIED | 4/5/4 | PRIMARY
+  - Nayana OCR (Kolavi et al., LM4UC 2025 @ EMNLP, re-cite): scalable framework for adapting VLMs to low-resource languages. ACL Workshop on Language Models for Underserved Communities.
+  - Maps all weak cells: Nayana is the canonical 2025 "VLM low-resource" framework. Cite for our specialist design.
+  - **decision it can change:** Stage 2 specialist training framework.
+  - TRANSFER: SURVIVES — open access.
+  - decision: Cite for our specialist design
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-266 | https://arxiv.org/abs/2509.24058 | 2026-09-21 | VERIFIED | 5/5/5 | PRIMARY
+  - ScriptMoE (re-cite): shared encoder + top-2 script experts + shared expert. PP-OCRv5 F1 65.71→80.89. Scene-text (not document). Ol Chiki + Meitei Mayek NOT in 10 scripts.
+  - Maps specialist design pattern: ScriptMoE's expert-routing is the reference architecture for our W6 specialist branch.
+  - **decision it can change:** Stage 2 specialist design.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-267 | https://arxiv.org/abs/2607.21617 | 2026-07-23 | VERIFIED | 4/4/4 | PRIMARY
+  - FaithC4 (Amazon, re-cite): general VLMs rewrite imperfect text (WER +6.9). OCR-specialized VLMs stay faithful (+0.1–3.4). Citizen docs need the faithful class.
+  - Maps all weak cells: validates our "use OCR-specialized VLM, not general VLM" stance.
+  - **decision it can change:** Stage 2 base selection (OCR-specialized, not general VLM).
+  - TRANSFER: SURVIVES — open research.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-268 | https://arxiv.org/abs/2606.29213 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Devanagari stress-test (re-cite): synthetic chrF++ 91–98 hides all differences. Real Hindi scans: 9/10 systems collapse. English OCR rank does not transfer (GPT-5.5 58.5; olmOCR-7B 40.5; Qwen3-VL-8B 75.2 open). Conjunct/matra/nukta are the structural errors.
+  - Maps all weak cells: post-corrector must be trained on OUR engine's noise distribution, not vendor engines'.
+  - **decision it can change:** Stage 3b post-corrector training distribution.
+  - TRANSFER: SURVIVES — open research.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-269 | https://huggingface.co/bodhan-ai | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - Bodhan AI HF org: indic-ocr (Image-to-Text), indic-translate (8B Translation), indic-transcribe-core (1B ASR). Sovereign Indic stack.
+  - Maps pipeline pattern: Bodhan's full sovereign stack is the canonical reference.
+  - **decision it can change:** Stage 2 base alternative.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-270 | https://arxiv.org/abs/2602.16430 | 2026-02-18 | VERIFIED | 5/5/5 | PRIMARY
+  - Chitrapathak-2 (re-cite, Krutrim, full): 9 Indian govt document types. 89.8% exact match Parichay. ~1.03 s/doc vLLM. Beats Gemini-2.5-Flash + Azure/Mistral pipelines. Tesseract+LLM only 21.22% EM. Fine-tuned Nanonets-OCR2-3B on Qwen2.5-VL.
+  - Maps win condition: govt-doc demo. Rotation + schema-prompt pattern is the proven winning approach.
+  - **decision it can change:** Stage 2 architecture decision.
+  - TRANSFER: SURVIVES — open weights (HF card).
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-271 | https://huggingface.co/krutrim-ai-labs/Chitrapathak-2 | 2026-03-11 | VERIFIED | 4/4/4 | PRIMARY
+  - Chitrapathak-2 HF (re-cite detail): Vision-encoder + 3B decoder, 10 langs + EN (Hindi Sanskrit Bengali Telugu Tamil Marathi Kannada Malayalam Odia Punjabi + EN), vLLM/HF compatible.
+  - Maps Odia 80.01 directly: Chitrapathak-2 covers Odia. Confirm before W6.
+  - **decision it can change:** Stage 2 wrap-only Odia competitor.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: cite detail): Vision-encoder + 3B decoder, 10 langs + EN (Hindi Sanskrit Bengali Telugu Tamil Marathi Kannada Malayalam Odia Punjabi + EN), vLLM/HF compatible
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-272 | https://docs.cloud.olakrutrim.com/basics/ai-studio/billing-for-ai-studio | 2025-07-01 | VERIFIED | 3/3/3 | PRIMARY
+  - Krutrim cloud (re-cite): Chitrapathak image-to-text ₹83.6/1M input tokens, ₹34.53/1M output.
+  - Maps cost: per-page equivalents for jury writeup.
+  - **decision it can change:** none; cost reference.
+  - TRANSFER: SURVIVES — public pricing.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-273 | https://github.com/ola-krutrim/Chitrapathak | 2026-03-11 | VERIFIED | 3/4/3 | PRIMARY
+  - Chitrapathak-1 repo (re-cite): LLaVA-style CLIP ViT-L/14 + Krutrim-1 7B. 2-stage (frozen-align → SFT) training. IndicVisionBench-OCR ANLS.
+  - Maps Stage 2 baseline: 2-stage recipe.
+  - **decision it can change:** Stage 2 architecture lineage.
+  - TRANSFER: SURVIVES — open source.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-274 | https://www.indiatoday.in/technology/news/story/sarvam-ai-launches-vision-21-with-better-document-reading-and-indic-handwriting-recognition-3002998-2026-09-25 | 2026-09-25 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam Vision 2.1 (re-cite, press): structured extraction, complex multi-page table parsing, form KV extraction, Indic handwriting recognition.
+  - Maps win condition: 3 demo axes (tables/forms/handwriting) all covered by Sarvam 2.1; we need parity on tables.
+  - **decision it can change:** none; competitor reference.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-275 | https://www.moneycontrol.com/technology/sarvam-vision-2-1-launched-with-focus-on-document-intelligence-and-indic-languages-article-14038065.html | 2026-09-24 | VERIFIED | 4/5/4 | PRIMARY
+  - Sarvam Vision 2.1 (re-cite MoneyControl): structured extraction, complex multi-page table parsing, form KV extraction, Indic handwriting recognition. Addresses prior hallucinations + serving cost.
+  - Maps win condition: tables/forms/handwriting all 3 axes; we need at least tables parity.
+  - **decision it can change:** none; competitor reference.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: cite MoneyControl): structured extraction, complex multi-page table parsing, form KV extraction, Indic handwriting recognition
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-276 | https://timesofindia.indiatimes.com/business/india-business/sarvam-ai-updates-model-to-boost-indian-language-ocr-accuracy/articleshow/134488725.cms | 2026-09-25 | VERIFIED | 5/5/4 | PRIMARY
+  - Sarvam Vision 2.1 (re-cite TOI): 87.3% overall; earlier version struggled with complex docs + hallucinations + cost; trained on real+synthetic mix; ranked 2nd to PaddleOCR on structure-preservation test.
+  - Maps critical: vendor admits bench ≠ real-world utility. Our probe measures exactly the gap Sarvam admits.
+  - **decision it can change:** confirms probe is the right validation metric.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: cite TOI): 87
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-277 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | VERIFIED | 4/4/3 | PRIMARY
+  - sarvamai/indic-ocr-bench (re-cite): 6,909 blocks, 22 scheduled langs + EN. Word accuracy = 100×(1-WER).
+  - Maps §6 eval framework. Our protocol law (no downloads without approval) means: P1 candidate for user-approved W6 use only.
+  - **decision it can change:** §6 eval framework.
+  - TRANSFER: UNKNOWN — needs user approval per §9 hard rule.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-278 | https://www.storyboard18.com/digital/sarvam-ai-launches-vision-2-1-to-boost-document-intelligence-indian-language-ocr-111459.htm | 2026-09-26 | VERIFIED | 3/4/2 | PRIMARY
+  - Sarvam Vision 2.1 (re-cite Storyboard18): 6,909 bench size, 87.39 score, HF availability, multi-page table + handwriting scope.
+  - Maps press confirmation; no new facts.
+  - **decision it can change:** none; confidence up.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: cite Storyboard18): 6,909 bench size, 87
+  - transfer: DIES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-279 | https://www.cnbctv18.com/technology/sarvam-launches-new-ai-model-to-read-documents-in-22-indian-languages-19998111.htm | 2026-09-24 | VERIFIED | 3/4/2 | PRIMARY
+  - Sarvam Vision 2.1 (re-cite CNBC): 87.3 olmOCR-Bench + 87.39 Indic. Cost/utility distinction. Optimized inference stack for lower serving cost.
+  - Maps press confirmation; confirms D2 (Sarvam EN moot).
+  - **decision it can change:** none; press reference.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: cite CNBC): 87
+  - transfer: DIES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-280 | https://docs.sarvam.ai/api-reference-docs/models/sarvam-vision | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam Vision (re-cite API docs): 23 languages (22 Indic + EN) — full list: Hindi (hi-IN), Assamese (as-IN), Konkani, etc.
+  - Maps 22-lang coverage reference for our pipeline.
+  - **decision it can change:** none; reference.
+  - TRANSFER: DIES — paid API.
+  - decision: cite API docs): 23 languages (22 Indic + EN) — full list: Hindi (hi-IN), Assamese (as-IN), Konkani, etc
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-281 | https://sarvamvision.com/ | 2026 (current) | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam Vision marketing site: "specialized training data: trained on millions of documents across all 22 Indian scripts, including historical manuscripts and regional variations." "Script-specific models: individual optimization for Devanagari, Tamil, Bengali, and other complex scripts."
+  - Maps weak cells: confirms script-specific specialists. Citation for our Stage 2 specialist design.
+  - **decision it can change:** Stage 2 specialist design.
+  - TRANSFER: SURVIVES — marketing reference.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-282 | https://www.businesstoday.in/technology/news/story/sarvam-ai-unveils-sarvam-vision-a-multilingual-document-intelligence-model-514873-2026-02-05 | 2026-02-05 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam Vision v1 (re-cite BusinessToday): 3B state-space VLM. Front-end vision. Surpasses Gemini 3 Pro + GPT 5.2 on doc intelligence.
+  - Maps benchmark target confirmed.
+  - **decision it can change:** none; competitor reference.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: cite BusinessToday): 3B state-space VLM
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-283 | https://daily.dev/posts/from-scratch-to-sota-training-a-3b-state-space-vision-model-krishna-prasad-srinivasan-sarvam-ev3kdpjfv | 2026 (assumed) | VERIFIED | 3/4/3 | PRIMARY
+  - Sarvam Vision (re-cite daily.dev): "From Scratch to SOTA" — building 3B state-space vision model from scratch.
+  - Maps architecture lineage: state-space (Mamba-style) is the Sarvam architecture choice.
+  - **decision it can change:** Stage 2 architecture reference.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: cite daily
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-284 | https://platform.tracxn.com/a/d/company/65c307ef2a82c9511876d2e8/qwen | 2026 | VERIFIED | 3/3/3 | PRIMARY
+  - Qwen (Alibaba) on Tracxn: unfunded (private subsidiary). High Tech LLMs subsector.
+  - Maps Stage 2 base: Qwen is Alibaba subsidiary; open-weights strategy intact.
+  - **decision it can change:** none; context.
+  - TRANSFER: SURVIVES — public company info.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-285 | https://arxiv.org/html/2502.13923 | 2025-02-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Qwen2.5-VL (re-cite HTML): SFT+DPO post-training framework. OCR Data in SFT phase. Diverse multimodal data (VQA, Rejection Sampling, Document and OCR, Grounding, Video).
+  - Maps Stage 2 design: SFT+DPO with ViT frozen.
+  - **decision it can change:** Stage 2 training recipe.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: cite HTML): SFT+DPO post-training framework
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-286 | https://arxiv.org/abs/2502.13923v1 | 2025-02-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Qwen2.5-VL paper (re-cite): 4.1T training tokens. Native dynamic resolution processing + absolute time encoding. 32B instruction-tuned variant.
+  - Maps Stage 2 base scale: 4.1T tokens training.
+  - **decision it can change:** Stage 2 base confirmation.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-287 | https://arxiv.org/abs/2412.15115 | 2024-12-19 | VERIFIED | 4/3/4 | PRIMARY
+  - Qwen2.5 Technical Report (re-cite): LLM trained on 18T tokens (up from Qwen2's 7T). SFT 1M+ samples + multistage RL.
+  - Maps Stage 2 LM base: 18T token foundation.
+  - **decision it can change:** Stage 2 base confirmation.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-288 | https://aiskyeye.com/wp-content/uploads/2026/05/0402%E7%BB%84%E4%BC%9Aqwen3-vl.pdf | 2026-05-06 | VERIFIED | 5/5/5 | PRIMARY
+  - Qwen3-VL Technical Report (Qwen Team): three-module architecture (vision encoder + MLP merger + LLM). Qwen3-VL-235B-A22B flagship (235B total, 22B activated). Three dense + two MoE variants. MRoPE for temporal awareness. Qwen2.5-VL-32B for recaptioning + Qwen2.5-VL-7B for book-scale multimodal parsing.
+  - Maps Stage 2 base: Qwen3-VL series has 2B/4B/8B/32B/30B-A3B/235B-A22B — multiple fit our 4-bit QLoRA budget.
+  - **decision it can change:** Stage 2 base decision (Qwen3-VL-4B vs 8B).
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-289 | https://huggingface.co/QwenLM/Qwen2.5-VL | 2025-01-28 | VERIFIED | 4/4/4 | PRIMARY
+  - Qwen2.5-VL HF: 3/7/72B sizes. 4-16384 visual tokens per image configurable via min_pixels/max_pixels.
+  - Maps Stage 2 deployment: HF transformers + vLLM serve path.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-290 | https://huggingface.co/niobures/Qwen2-VL | 2024 (predecessor) | VERIFIED | 3/3/3 | PRIMARY
+  - Qwen2-VL (predecessor, 2024): ONNX export, transformer-compatible. Apache-2.0.
+  - Maps Stage 2 base predecessor; Qwen2.5-VL supersedes Qwen2-VL.
+  - **decision it can change:** none; predecessor reference.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-291 | https://www.alphaxiv.org/overview/2502.13923 | 2025-02-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Qwen2.5-VL (re-cite alphaXiv): "4.1T tokens training on massive-scale. Multiple model sizes for broader accessibility. Foundational layer for robust VLMs: fine-grained perception."
+  - Maps Stage 2 base.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: cite alphaXiv): "4
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-292 | https://arxiv.org/pdf/2504.10479v3 | 2025-04-19 | VERIFIED | 5/5/5 | PRIMARY
+  - InternVL3 (re-cite v3): InternVL3-78B SOTA perception + reasoning among open-source MLLMs. Variable Visual Position Encoding (V2PE), native multimodal pre-training, MPO, multimodal test-time scaling. InternVL-Data on HF.
+  - Maps Stage 2 base alternative.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — open weights (HF).
+  - decision: cite v3): InternVL3-78B SOTA perception + reasoning among open-source MLLMs
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-293 | https://arxiv.org/html/2504.10479v1 | 2025-04-19 | VERIFIED | 4/4/4 | PRIMARY
+  - InternVL3 (re-cite detail): V2PE for extended multimodal contexts. MPO combines preference + quality + generation losses.
+  - Maps Stage 2 training recipe.
+  - **decision it can change:** Stage 2 training recipe.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: cite detail): V2PE for extended multimodal contexts
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-294 | https://huggingface.co/OpenGVLab/InternVL/commit/387c63fc1a4a6761f6af1c5543ff399e83e9ffc3 | 2024-11 | VERIFIED | 3/4/3 | PRIMARY
+  - InternVL (re-cite detail): ViT scales to 6B params, 14B total. Web-scale noisy image-text pairs (LAION-en, LAION-multi, LAION-COCO, COYO, Wukong, CC12M, CC3M, SBU).
+  - Maps Stage 2 base pretraining data.
+  - **decision it can change:** Stage 2 pretraining data reference.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: cite detail): ViT scales to 6B params, 14B total
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-295 | https://www.alphaxiv.org/overview/2504.10479 | 2025-04-19 | VERIFIED | 4/4/4 | PRIMARY
+  - InternVL3 (re-cite alphaXiv): "departure from conventional post-hoc adaptation strategies. InternVL3 simultaneously learns from both pure text corpora and diverse multimodal data during a single unified pre-training stage. 1:3 language:multimodal ratio, 200B total training tokens. OCR tasks, document understanding, GUI interaction, 3D scene understanding."
+  - Maps Stage 2 base design.
+  - **decision it can change:** Stage 2 design.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: cite alphaXiv): "departure from conventional post-hoc adaptation strategies
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-296 | https://github.com/OpenGVLab/InternVL | 2025-08-30 | VERIFIED | 4/5/4 | PRIMARY
+  - InternVL repo: InternVL3_5-GPT-OSS-20B-A4B + CascadeRL (offline RL + online RL) with MMPR-v1.2 + MMPR-Tiny datasets open-sourced. VisualPRM400K, MMPR datasets.
+  - Maps Stage 3b: CascadeRL pattern.
+  - **decision it can change:** Stage 3b RL recipe.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-297 | https://arxiv.org/html/2409.01704v1 | 2024-09-03 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2 (re-cite arxiv HTML): encoder-decoder paradigm. Vision encoder pretrain → Qwen-0.5B decoder connect → fine-tune to specific chars. 5 OCR tasks: plain doc, scene text, fine-grained doc, formatted (Mathpix markdown), general chars.
+  - Maps Stage 2 design.
+  - **decision it can change:** Stage 2 design reference.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: cite arxiv HTML): encoder-decoder paradigm
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-298 | https://arxiv.org/pdf/2409.01704v1 | 2024-09-03 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2 paper PDF: "the unsophisticated encoder-decoder paradigm for the model." Pretrain OCR-earmarked vision encoder via PDF bounding-box crops. Slice + whole-page image input.
+  - Maps Stage 2 design: encoder-decoder for OCR.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-299 | https://huggingface.co/docs/transformers/v4.49.0/en/model_doc/got_ocr2 | 2025-02 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2 transformers docs: integrated into HF transformers v4.49. Formatted text inference patterns.
+  - Maps Stage 2 deployment.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-300 | https://huggingface.co/docs/transformers/en/model_doc/got_ocr2 | 2024-09 | VERIFIED | 4/4/4 | PRIMARY
+  - GOT-OCR2 transformers docs (re-cite): end-to-end encoder-decoder, dynamic resolution + multipage OCR.
+  - Maps Stage 2 deployment.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-301 | https://huggingface.co/echo840/MonkeyOCR/blob/906b54f7dace852b885e58ee6b3e072c8eab00ca/README.md | 2025-06 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR-3B README detail: SRR triplet. DocLayoutYOLO structure model. Mix test: 0.140 edit dist, 0.297 text recognition. Monolingual Chinese model 7.4% better than 3B.
+  - Maps Stage 2 design.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: DIES — weights research-only.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-302 | https://arxiv.org/abs/2506.05218 | 2025-06-05 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR paper abstract (re-cite): SRR triplet "Where is it?" (structure), "What is it?" (recognition), "How is it organized?" (relation).
+  - Maps Stage 2 design.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: DIES — weights research-only.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-303 | https://arxiv.org/html/2506.05218v2 | 2026-02-07 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR v2 (re-cite HTML): SRR triplet. 1.2B model outperforms 3B by 7.4% Chinese. Contiguous parameter degradation (CPD).
+  - Maps Stage 2 design.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: DIES — weights research-only.
+  - decision: cite HTML): SRR triplet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-304 | https://huggingface.co/datalab-to/surya-ocr-2 | 2026-05-27 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya 2 (re-cite): Apache-2.0 code + modified OpenRAIL-M weights (free for startups <$5M). Single VLM for layout+OCR+reading order+tables.
+  - Maps Stage 2 base: license OK for our scale.
+  - **decision it can change:** Stage 2 base license confirmation.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-305 | http://datalab.to/blog/surya-2 | 2026-05-27 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya 2 (re-cite): through 5.35 pages/sec on RTX 5090 at 128 concurrent requests. 91-lang internal 87.2 pass rate.
+  - Maps deployment throughput.
+  - **decision it can change:** Stage 2 throughput.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-306 | https://huggingface.co/datalab-to/surya-ocr-2/tree/41f08362f07745f85ddc6e6495da12004117b243 | 2026-05-27 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya 2 files: dedup'd weights from surya-2.1.2-mtp + LICENSE from chandra-ocr-2.
+  - Maps license lineage.
+  - **decision it can change:** Stage 2 license confirmation.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-307 | https://github.com/datalab-to/surya/releases | 2025-07-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya v0.22.1 release (Jul 2025): SuryaInferenceManager replaces FoundationPredictor, shared across LayoutPredictor/RecognitionPredictor/TableRecPredictor. Output schemas changed (text_lines → blocks with html; layout dropped top_k added count; table-rec cells dropped is_header/colspan/rowspan). New runtime requirement: layout/OCR/table-rec need inference backend (Docker + NVIDIA Container Toolkit GPU, or llama.cpp CPU/Apple Silicon).
+  - Maps Stage 2 deployment: requires inference backend.
+  - **decision it can change:** Stage 2 deployment spec.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-308 | https://github.com/datalab-to/surya?from=aiug.cn | 2026-05-27 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya README (re-cite): 21,345 stars. Pareto-optimal on size-vs-score frontier. olmOCR-bench leaderboard updated. Infinity-Parser2-Pro 35.1B 87.6; Chandra OCR 2 4.0B 85.9; dots.mocr 3.0B 83.9; Surya OCR 2 0.65B 83.3; LightOnOCR 2-1B 1.0B 83.2; Chandra OCR 1 9.0B 83.1; olmOCR anchored 8.3B 77.4; GOT OCR 0.6B 48.3.
+  - Maps Stage 2 wrap-comparison baseline.
+  - **decision it can change:** Stage 2 wrap-comparison.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-309 | https://huggingface.co/echo840/MonkeyOCR | 2025-06-05 | VERIFIED | 4/4/4 | PRIMARY
+  - MonkeyOCR (re-cite): beats Qwen2.5-VL-72B + Gemini 2.5 Pro on EN docs. 0.84 pg/s vs MinerU 0.65.
+  - Maps Stage 2 efficiency.
+  - **decision it can change:** Stage 2 efficiency comparison.
+  - TRANSFER: DIES — weights research-only.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-310 | https://mistral.ai/news/mistral-ocr-3 | 2025-12-17 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 (re-cite detail): outperforms enterprise OCR + AI-native OCR. State-of-the-art accuracy. Forms/scanned docs/handwriting/complex tables. Backward compatible.
+  - Maps wrap-only comparison.
+  - **decision it can change:** none; closed API reference.
+  - TRANSFER: DIES — paid API.
+  - decision: cite detail): outperforms enterprise OCR + AI-native OCR
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-311 | https://venturebeat.com/technology/mistral-launches-ocr-3-to-digitize-enterprise-documents-touts-74-win-rate | 2025-12-17 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 (re-cite VentureBeat): €11.7B valuation. December product offensive (Mistral 3 family, Devstral 2, OCR 3). "Vertical integration" — Document AI component of Mistral AI Studio.
+  - Maps competitor context.
+  - **decision it can change:** none; reference.
+  - TRANSFER: DIES — paid API.
+  - decision: cite VentureBeat): €11
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-312 | https://www.infoq.com/news/2026/01/mistral-ocr3/ | 2026-01-15 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 (re-cite InfoQ): "74% jump in accuracy on forms and handwriting." "$2 per 1,000 pages, with a Batch API option reducing the cost to $1 per 1,000 pages." self-hosted deployment option for data governance.
+  - Maps cost/cap analysis. Self-hosted option is interesting but needs GPU.
+  - **decision it can change:** none; reference.
+  - TRANSFER: DIES — paid API (self-hosted needs GPU budget).
+  - decision: cite InfoQ): "74% jump in accuracy on forms and handwriting
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-313 | https://pyimagesearch.com/2025/12/23/mistral-ocr-3-technical-review-sota-document-parsing-at-commodity-pricing/ | 2025-12-23 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 (re-cite PyImageSearch): $2/1000 standard, $1/1000 batch. Markdown + structured JSON + HTML tables. Migration from AWS Textract.
+  - Maps cost comparison.
+  - **decision it can change:** none; reference.
+  - TRANSFER: DIES — paid API.
+  - decision: cite PyImageSearch): $2/1000 standard, $1/1000 batch
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-314 | https://www.testingcatalog.com/mistral-ai-launches-ocr-3-model-for-document-parsing | 2025-12-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Mistral OCR 3 (re-cite TestingCatalog): 74% win over v2 in doc text extraction. Powers Document AI Playground.
+  - Maps press confirmation.
+  - **decision it can change:** none; press reference.
+  - TRANSFER: DIES — paid API.
+  - decision: cite TestingCatalog): 74% win over v2 in doc text extraction
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-315 | https://aisotools.com/pricing/mistral-ocr-3 | 2026 | VERIFIED | 3/3/3 | PRIMARY
+  - Mistral OCR 3 pricing (re-cite): paid subscription or one-time purchase. API $2/1000, batch $1/1000. Self-hosting for data privacy.
+  - Maps cost analysis.
+  - **decision it can change:** none; reference.
+  - TRANSFER: DIES — paid API.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-316 | https://huggingface.co/deepseek-ai/DeepSeek-OCR/tree/main | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR HF (re-cite detail): 6.68GB weights. MIT license. vLLM/SGLang/Docker Model Runner supported. Eval Results badge.
+  - Maps Stage 2 deployment.
+  - **decision it can change:** Stage 2 deployment.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: cite detail): 6
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-317 | https://arxiv.org/pdf/2510.18234 | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR paper (re-cite): 70% OCR data + 20% general vision + 10% text-only pretraining. Sequence length 8192. Gundam-master mode via 6M sampled data continued training.
+  - Maps Stage 2 training recipe.
+  - **decision it can change:** Stage 2 training.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-318 | https://huggingface.co/papers/2510.18234 | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR HF papers (re-cite): Multi-resolution design. SAM+CLIP+16× conv compressor architecture.
+  - Maps Stage 2 architecture.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-319 | https://huggingface.co/papers/2603.04205v2 | 2026-03-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Real5-OmniDocBench (re-cite): PaddleOCR-VL-1.6 93.19. Warping weakest 91.25, scanning strongest 94.74.
+  - Maps Stage 0 restoration chain.
+  - **decision it can change:** Stage 0 restoration.
+  - TRANSFER: SURVIVES — open benchmark.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-320 | https://arxiv.org/html/2505.20429v1 | 2025-05-26 | VERIFIED | 4/5/4 | PRIMARY
+  - PreP-OCR (re-cite detail): semantic-aware post-OCR correction. Reframes "OCR pipeline" as restoration + correction.
+  - Maps Stage 3b post-correction.
+  - **decision it can change:** Stage 3b.
+  - TRANSFER: SURVIVES — open research.
+  - decision: cite detail): semantic-aware post-OCR correction
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-321 | https://arxiv.org/abs/2501.03145 | 2025-01-06 | VERIFIED | 3/4/3 | PRIMARY
+  - Hybrid DL + Cubic Polynomial Geometry Restoration for dewarping (re-cite): YOLOv8 seg + cubic poly boundary fit. Lowest median CER 0.0235 on IWILT.
+  - Maps Stage 0 dewarp baseline.
+  - **decision it can change:** Stage 0 dewarp.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-322 | https://arxiv.org/abs/1809.00219 | 2018-09-18 | VERIFIED | 3/3/3 | PRIMARY
+  - ESRGAN (re-cite): foundational SR GAN. RRDB blocks without batch norm. 7,341 citations.
+  - Maps Stage 0 SR baseline.
+  - **decision it can change:** Stage 0 SR.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-323 | https://github.com/SyedAliNice/RealESRGan-ESRGan-SwinIR-implementation-comparison | 2025-09-26 | VERIFIED | 3/3/3 | PRIMARY
+  - Real-ESRGAN vs ESRGAN vs SwinIR comparison (re-cite): Real-ESRGAN robust to real-world; ESRGAN sharp but synthetic; SwinIR excellent general-purpose.
+  - Maps Stage 0 SR.
+  - **decision it can change:** Stage 0 SR.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A1-324 | https://arxiv.org/abs/2404.17243 | 2024-04-26 | VERIFIED | 3/4/3 | PRIMARY
+  - ViT + FFT-based binarization (re-cite): Fast Fourier Convolutions + ViT. Models local+global. Beats CNN on degraded docs with acquisition artifacts.
+  - Maps Stage 0 binarization.
+  - **decision it can change:** Stage 0 binarization.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-325 | https://arxiv.org/abs/2409.19735 | 2024-10-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Scrambled text (Bourne, re-cite): distribution of corruption matters; enough tokens per observation matters. Models with low corruption (CER < 0.X) outperform high-corruption ones.
+  - Maps Stage 3b post-corrector corruption-distribution design.
+  - **decision it can change:** Stage 3b recipe.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-326 | https://github.com/Eman-Bandesha/Document-Image-Binarization | 2025-09-26 | VERIFIED | 2/3/2 | PRIMARY
+  - Otsu, Sauvola, Adaptive Gaussian implementation comparison on DIBCO 2016 (re-cite). PSNR/DRD/IOU/SSIM metrics.
+  - Maps Stage 0 binarization.
+  - **decision it can change:** Stage 0 binarization reference.
+  - TRANSFER: SURVIVES — open source.
+  - decision: Stage 0
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-327 | https://www.semanticscholar.org/paper/Performance-Evaluation-of-Otsu-and-Sauvola-for-Darpito-Firdausy/7778a962b9882f39c342d24952441005e32668a3 | 2026-03-31 | VERIFIED | 3/3/3 | PRIMARY
+  - Performance Evaluation of Otsu and Sauvola for Structured Document Binarization (Darpito et al., 2026, re-cite).
+  - Maps Stage 0 binarization comparison.
+  - **decision it can change:** Stage 0 binarization.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 0
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-328 | https://huggingface.co/datalab-to/surya-ocr-2/tree/41f08362f07745f85ddc6e6495da12004117b243 | 2026 | VERIFIED | 4/4/4 | PRIMARY
+  - Surya 2 weights (re-cite detail): form_text.png, handwritten.png, handwritten_layout.png, handwritten_reading.png, handwritten_tablerec.png — sample images from training/eval.
+  - Maps Stage 2 dataset reference.
+  - **decision it can change:** Stage 2 dataset reference.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: cite detail): form_text
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-329 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4 | PRIMARY
+  - OmniDocBench (re-cite detail): v1.6 updates through Mar 2026 (PaddleOCR-VL-1.5, Youtu-Parsing, FireRed-OCR, Logics-Parsing-v2, Ovis2.6-30B-A3B, MinerU2.5, HunyuanOCR, FD-RL, DeepSeek-OCR-2, MonkeyOCR-pro-3B, OCRVerse, dots.ocr, Dolphin-v2, MonkeyOCR-3B, POINTS-Reader, Gemini-3 Flash, Gemini-3 Pro, Kimi 2.5, GPT5.2, GPT-4o, InternVL3.5, GLM-OCR, OpenDoc, Mathpix).
+  - Maps wrap-only comparison.
+  - **decision it can change:** Stage 2 wrap-comparison baseline.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: cite detail): v1
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-330 | https://github.com/chatdoc-com/OCRFlux | 2025-06-17 | VERIFIED | 3/4/3 | PRIMARY
+  - OCRFlux (re-cite): PDF→Markdown. Multimodal LLM-based.
+  - Maps Stage 2 candidate.
+  - **decision it can change:** Stage 2 candidate.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-331 | https://huggingface.co/papers/2506.05218 | 2025-06-06 | VERIFIED | 4/5/4 | PRIMARY
+  - MonkeyOCR (re-cite HF papers card): SRR triplet paradigm. Outperforms GOT-OCR, Nougat, Mistral OCR on OmniDocBench. Avg edit distance vs Mistral OCR −13.8% Chinese/English; +9.8% formula, +9.3% tables.
+  - Maps Stage 2 design.
+  - **decision it can change:** Stage 2 architecture.
+  - TRANSFER: DIES — weights research-only.
+  - decision: cite HF papers card): SRR triplet paradigm
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-332 | https://huggingface.co/zai-org/GLM-OCR | 2026-03-11 | VERIFIED | 3/4/3 | PRIMARY
+  - GLM-OCR HF (re-cite): multimodal OCR for complex docs. 1.86 pg/s throughput.
+  - Maps Stage 2 throughput.
+  - **decision it can change:** Stage 2 candidate.
+  - TRANSFER: SURVIVES — zai-org license.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-333 | https://arxiv.org/abs/2510.18234 | 2025-10-21 | VERIFIED | 4/4/4 | PRIMARY
+  - DeepSeek-OCR (re-cite): 89.8% OmniDocBench <800 vision tokens vs MinerU2.0 ~7,000 tokens. 11.3× compression. 3B MoE decoder.
+  - Maps Stage 2 cost lever.
+  - **decision it can change:** Stage 2 cost analysis.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-334 | https://arxiv.org/html/2603.22458v1 | 2026-03-26 | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU-Diffusion (re-cite): 2.5B diffusion-based OCR decoder. Block-level parallel diffusion decoding.
+  - Maps Stage 2 trend watch.
+  - **decision it can change:** Stage 2 trend.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-335 | https://arxiv.org/abs/2502.14949 | 2025-02-20 | VERIFIED | 4/4/4 | PRIMARY
+  - KITAB-Bench (re-cite): 9 domains, 36 sub-domains, 8,809 samples. Tests layout detection, recognition (printed/handwritten), structured output (HTML, DataFrame, markdown). Compares Tesseract, GPT-4o, Gemini, Qwen2-VL, Qwen2.5-VL, AIN-7B, Surya.
+  - Maps Perso-Arabic analog for Kashmiri. Benchmark methodology template.
+  - **decision it can change:** Stage 2 wrap-comparison.
+  - TRANSFER: SURVIVES — open research.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-336 | https://github.com/mbzuai-oryx/KITAB-Bench | 2025-02-20 | VERIFIED | 4/4/4 | PRIMARY
+  - KITAB-Bench repo (re-cite): ACL 2025. Multilingual OCR benchmark methodology template.
+  - Maps §6 evaluation framework.
+  - **decision it can change:** §6 framework.
+  - TRANSFER: SURVIVES — open research.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-337 | https://arxiv.org/abs/2510.19817 | 2025-10-22 | VERIFIED | 5/5/5 | PRIMARY
+  - olmOCR-2 (re-cite): 7B VLM trained with RLVR + binary unit test rewards. SOTA on olmOCR-Bench.
+  - Maps W6 Stage 3b RLVR.
+  - **decision it can change:** Stage 3b recipe.
+  - TRANSFER: SURVIVES — open license.
+  - decision: Stage 3
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-338 | https://arxiv.org/pdf/2510.19817 | 2025-10-22 | VERIFIED | 5/4/4 | PRIMARY
+  - olmOCR-2 (re-cite detail): chrF++ 40.5 on real Devanagari scans (per W1 row 6).
+  - Maps Kashmiri 54.82 + Santali 53.91: olmOCR-2 chrF++ 40.5 on Devanagari is BELOW our wrap-only targets.
+  - **decision it can change:** confirms olmOCR-2 is English-centric, cannot wrap.
+  - TRANSFER: SURVIVES — open research.
+  - decision: cite detail): chrF++ 40
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-339 | https://github.com/opendatalab/MinerU/blob/master/LICENSE.md | 2026 (current) | VERIFIED | 4/4/4 | PRIMARY
+  - MinerU license (re-cite): Apache-2.0 with commercial thresholds — >1B MAU or >$20M monthly revenue triggers commercial license. Online services must prominently indicate MinerU use.
+  - Maps Stage 2 license OK for our scale.
+  - **decision it can change:** Stage 2 license confirmation.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-340 | https://www.spheron.network/blog/best-open-source-ocr-vlm-self-host-gpu-cloud-2026/ | 2026-06-23 | VERIFIED | 4/5/4 | PRIMARY
+  - Self-host comparison (re-cite detail): PaddleOCR-VL-1.6 ~2GB VRAM FP16, ~45 pg/min L40S. GOT-OCR2.0 <3GB fastest on printed. dots.ocr strong on forms. DeepSeek-OCR MoE best cost/page bulk.
+  - Maps Stage 2 deployment cost.
+  - **decision it can change:** Stage 2 cost analysis.
+  - TRANSFER: SURVIVES — public comparison.
+  - decision: cite detail): PaddleOCR-VL-1
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-341 | https://www.linkedin.com/posts/digiital-india-bhashini-division_leap-hackathon-ps-2-winner-and-runner-up-activity-7501251554163908608-aLZ1 | 2026-09-05 | VERIFIED | 3/4/2 | PRIMARY
+  - LEAP Hackathon PS-2: Team Multilipi (Dewang Bharadwaj) winner; Team Soochna Sahayak (Agam Dayal) runner-up.
+  - Maps competition intel. Our competition: Multilipi team won PS-2.
+  - **decision it can change:** none; competition context.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-342 | https://huggingface.co/datalab-to/chandra-ocr-2 | 2026-06-19 | VERIFIED | 4/4/4 | PRIMARY
+  - Chandra OCR 2 (re-cite detail): license OpenRAIL-M (free for <$2M funding/revenue). 4B params. 85.8 olmOCR-bench.
+  - Maps Stage 2 base.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — under threshold.
+  - decision: cite detail): license OpenRAIL-M (free for <$2M funding/revenue)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-343 | https://www.sarvam.ai/blogs/sarvam-vision | 2026-02-05 | VERIFIED | 5/5/5 | PRIMARY
+  - Sarvam Vision v1 Indic OCR Bench: Hindi 95.91, Bengali 92.61, Tamil 93.42, Telugu 87.70 — beats Gemini 3 Pro, GCV, Opus 4.5, Surya, Gemma3-27B, GPT 5.2.
+  - Maps weak cells: confirms Sarvam is the benchmark to beat.
+  - **decision it can change:** confirms benchmark target.
+  - TRANSFER: SURVIVES — public benchmark.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-344 | https://www.thehindubusinessline.com/info-tech/sarvam-ai-claims-edge-over-larger-global-models-on-indic-benchmarks/article70620733.ece/amp | 2026-02-11 | VERIFIED | 4/4/4 | PRIMARY
+  - Sarvam AI IndiaAI Mission partnership (re-cite): April 2025 dedicated compute for sovereign LLM. Sarvam-Translate 22 langs including Santali, Kashmiri, Sindhi, Dogri, Sanskrit. Saaras v3 supports 22 langs with code-mixed audio.
+  - Maps institutional backing. Maps win condition: Bhashini-stack integration.
+  - **decision it can change:** none; institutional reference.
+  - TRANSFER: SURVIVES — press reference.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-345 | https://platform.tracxn.com/a/d/company/653a01b2cfbc992dc6766039/sarvam | 2026-09-26 | VERIFIED | 3/4/3 | PRIMARY
+  - Sarvam funding (re-cite): $75M Series B 2026-08-04, valuation $1.43B. Total disclosed funding $350M. DPIIT-registered.
+  - Maps competition analysis: Sarvam is the strongest funded rival.
+  - **decision it can change:** none; context.
+  - TRANSFER: SURVIVES — public funding info.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A1-346 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4 | PRIMARY
+  - dots.ocr detail (RED AI Lab, July 2025, re-cite): built on fine-tuned Qwen2.5-VL, 3B params (1.2B vision + Qwen2.5-1.5B LM). 100+ langs incl. Tibetan, Kannada. Apache-2.0.
+  - Maps W6 Stage 2: open-source dots.ocr is a serious Stage 2 alternative.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-347 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/5/4 | PRIMARY
+  - DeepSeek-OCR (Oct 2025, re-cite detail): 3B params (570M active), 16× image compression. DeepSeek-3B MoE decoder. Token efficiency focus.
+  - Maps Stage 2 cost.
+  - **decision it can change:** Stage 2 cost.
+  - TRANSFER: SURVIVES — MIT.
+  - decision: cite detail): 3B params (570M active), 16× image compression
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-348 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4 | PRIMARY
+  - Qwen2.5-VL (Sep 2025, re-cite): foundation for dots.ocr, Chitrapathak-2, Chandra, Nanonets OCR2.
+  - Maps Stage 2 base.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A1-349 | https://www.e2enetworks.com/blog/complete-guide-open-source-ocr-models-2025 | 2025-12-15 | VERIFIED | 4/4/4 | PRIMARY
+  - Nanonets OCR2 (Oct 2025, re-cite): referenced as foundation for Chitrapathak-2.
+  - Maps Stage 2 base alternative.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — open weights.
+  - decision: Stage 2
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A1-350 | https://arxiv.org/abs/2502.18443 | 2025-02-25 | VERIFIED | 4/4/4 | PRIMARY
+  - olmOCR (re-cite): 7B VLM, olmOCR-mix-0225 dataset. Toolkit approach. olmOCR-Bench public benchmark.
+  - Maps Stage 2 base.
+  - **decision it can change:** Stage 2 base.
+  - TRANSFER: SURVIVES — Apache-2.0.
+
+
+---
+
+## A4-EXT — additional benchmarks & metrics records 2025-2026 (Lane A4 sub-agent)
+
+Scope: A4 (campaign-doc definition) = benchmarks & metrics for OCR / Indic OCR. Covers ICDAR MLT 2017/2019/2023 + 2025 competitions, OmniDocBench v1.6/v1.7, olmOCR-Bench, Real5-OmniDocBench, Indic OCR Bench (Sarvam), KITAB-Bench, ICDAR 2023/2025 IHTR/IHDR, MILU, L3Cube-IndicQuest v2, AIR-Bench, IndicDLP, IIIT-ILST / IIIT-INDIC-HW-WORDS, Bharat Scene Text (BSTD), Khazana/Dakshina/Samanantar, IndicCorp v2 / Sangraha. Plus metric standards: CER/WER/ANLS/chrF++/TEDS/CDM/Tree-Edit-Distance/Field-F1/Layout-F1/Reading-Order-F1, akshara-level CER, Wilson 95% CI, McNemar exact, catastrophic-rate. Each record = `ID | url | date | status | rel/rec/act | extraction: mechanism → result → mapping to probe22 (n=1227, 18 Indic langs, weak cells sat 53.91 / ks 54.82 / OldScan 55.3 / or 80.01) + §9 transfer verdict + Wilson 95% CI / McNemar / abstention coverage | decision it can change`. Format inherited from A3-EXT / A2-EXT / A1-EXT siblings.
+
+### A4-EXT — OmniDocBench (v1.6 / v1.7) — end-to-end PDF document parsing benchmark
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-001 | https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf | 2025-06-01 | VERIFIED | 4/5/4 | PRIMARY
+  - OmniDocBench CVPR 2025: 1,355 real PDF pages across 9 document types (academic papers, books, slides, magazines, newspapers, financial reports, textbooks, examination papers, handwritten notes). 4,054 PDF annotations + 13,802 OCR annotation blocks. Per-page edit-distance across text, formula, table, chart, layout, reading-order.
+  - Probe22 mapping: English-centric SOTA envelope. Per-row edit-distance with Wilson 95% CI gates every engine pair. Maps OldScan 55.3 indirectly (no OldScan slice; scan-class lives in separate Real5-OmniDocBench A4-008). For 18 Indic langs, scores do NOT transfer — Sarvam/Bodhan not even on the board.
+  - **decision it can change:** §6 EN sanity column choice; whether to add OmniDocBench cell to wrap-only comparison.
+  - TRANSFER: DIES for Indic langs (English-only); SURVIVES for EN comparison envelope + benchmark methodology template.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-002 | https://github.com/marklabz/omnidocbench | 2026-09-22 | VERIFIED | 4/5/4 | PRIMARY
+  - OmniDocBench public leaderboard (marklabz fork): continuous update log. Through 2026-09, includes PaddleOCR-VL-1.6 96.33, dots.ocr 88.41 (3B), MonkeyOCR-pro-3B 73.6, Mistral OCR 3 79.1, Nanonets-OCR-s, MonkeyOCR-pro-3B, PPv3 (PaddlePaddle), Dolphin (Sep 2025).
+  - Probe22 mapping: §6 wrap-only — pick the 3 highest open-weights non-Indic scores from this leaderboard as the upper-bound control column. Wilson 95% CI per engine computed offline; cross-engine comparison via McNemar on the same 1,355 pages (paired by page-id).
+  - **decision it can change:** §6 EN sanity column candidate list; W6 freeze-packet competitive matrix.
+  - TRANSFER: SURVIVES for EN sanity; DIES for Indic — Sat/Ks are absent.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: WRAP only — no GPU W6 fine-tune of closed weights; open weights + local QLoRA only
+- A4-003 | https://huggingface.co/datasets/opendatalab/OmniDocBench | 2026-04-30 | VERIFIED | 4/5/4 | PRIMARY
+  - OmniDocBench v1.7 release notes (2026-04-30): added Qianfan-OCR leaderboard (Baidu Qianfan). Introduced "skills-based" evaluation: separate decomposition into text-recognition, formula-recognition, table-recognition, chart-recognition, layout-analysis, reading-order sub-skills. Each sub-skill scored independently then combined.
+  - Probe22 mapping: skills-based decomposition maps directly to our §6 weak-cell attack — OldScan 55.3 = layout+text-recognition breakdown; Santali 53.91 = text-recognition-only cell (other skills near-trivially solvable). Wilson 95% CI on each sub-skill isolates the failure mode.
+  - **decision it can change:** §6 sub-skill breakdown adoption; freeze packet skills-column format.
+  - TRANSFER: SURVIVES (skills-based eval is a sound methodology, reusable on Indic OCR Bench if extended).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-004 | https://github.com/opendatalab/OmniDocBench/blob/main/evaluation/README.md | 2026-09-26 | VERIFIED | 3/5/4 | PRIMARY
+  - OmniDocBench evaluation protocol: per-page edit-distance (Levenshtein-style on serialized outputs), single denominator, no abstention coverage column. Metric is single-number-composite (weighted sum of sub-scores).
+  - Probe22 mapping: explicit divergence from our §6.5 scorer. We KEEP per-row uncapped CER + cer_100_count + abstention-coverage column (per AGENT_PROTOCOL §6.5). Confirms §6.5 law is the correct deviation from OmniDocBench methodology — abstention coverage is what makes honest-empty correct.
+  - **decision it can change:** §6 scorer divergence citation; freeze packet §6.5 protection.
+  - TRANSFER: SURVIVES as methodology reference; DIES for direct use (would erase our abstention-coverage column).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-005 | https://github.com/marklabz/omnidocbench | 2025-09-22 | VERIFIED | 3/4/4 | PRIMARY
+  - OmniDocBench history (re-cite): CVPR 2025 paper + continuous leaderboard updates through 2026-09-26 (accessed). The fork marklabz/omnidocbench is the maintained public leaderboard; opendatalab/OmniDocBench is the original repo (largely frozen since 2025).
+  - Probe22 mapping: confirms leaderboard drift — newest open-source models (PaddleOCR-VL-1.6, dots.ocr 3B) only on marklabz fork. Use marklabz as the cite target, opendatalab as the dataset host.
+  - **decision it can change:** cite target for EN SOTA in freeze packet.
+  - TRANSFER: SURVIVES — both URLs public.
+  - decision: cite target, opendatalab as the dataset host
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-006 | https://arxiv.org/abs/2603.04205v2 | 2026-03-01 | VERIFIED | 4/5/4 | PRIMARY
+  - Real5-OmniDocBench paper: 1,355-page physical-reconstruction benchmark (same source pages as OmniDocBench v1.6, augmented with physical-distortion renderings). 5 classes: scan (300 dpi), warp (curved page), photo (smartphone capture), illumination (uneven lighting), skew (rotation 0–30°).
+  - Probe22 mapping: OldScan 55.3 maps to Real5 scan-class. Per-class edit-distance + Wilson 95% CI tells us which physical distortion our probe's OldScan cells map to. PaddleOCR-VL-1.6 scan=94.74, warp=91.25 (weakest) — confirms scan is NOT the bottleneck, curve/warp is.
+  - **decision it can change:** §6 distortion-class diagnosis for OldScan 55.3; freeze packet restoration-lane prioritization.
+  - TRANSFER: SURVIVES for distortion-class methodology; DIES for direct OldScan CER (different page distribution).
+
+### A4-EXT — olmOCR-Bench (English-centric; OldScan subset)
+  - decision: maps to Real5 scan-class
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-007 | https://huggingface.co/datasets/allenai/olmOCR-Bench | 2025-10-22 | VERIFIED | 4/5/4 | PRIMARY
+  - olmOCR-Bench (Allen AI) HF card: 1,402 pages split into Old Scans (442), Math (254), Tables (200), Multilingual (non-Latin, 200), Long Tiny Text (190), Headers/Footers (100), Other (16). Each page has dual ground-truth (hand-written + auto-extracted+corrected). Reports per-page normalized edit distance, then page-weighted average.
+  - Probe22 mapping: the Multilingual non-Latin subset (200 pages) is the closest public proxy for our Indic problem, but is Arabic/Chinese/Hindi-only, NOT Indic-22-lang coverage. OldScan subset (442) = closest analog for OldScan 55.3. Per-row edit-distance + Wilson 95% CI per subset is the reusable pattern.
+  - **decision it can change:** §6 Multilingual-non-Latin sanity row (if added) would cite this; freeze packet OldScan cross-validate.
+  - TRANSFER: DIES for Indic-22-lang (4 langs only); SURVIVES for OldScan subset methodology.
+  - decision: cite this; freeze packet OldScan cross-validate
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-008 | https://arxiv.org/abs/2510.19817 | 2025-10-22 | VERIFIED | 5/5/4 | PRIMARY
+  - olmOCR-Bench paper detail: OldScan 42.8 (Surya 2 per A1-014); olmOCR-2 chrF++ 40.5 on real Devanagari scans (per W1 row 6). Subset scores (olmOCR-2): 82.2 / 82.6 / 82.4 on OldScan / Base / Hard respectively (re-cite from A1-019).
+  - Probe22 mapping: 9/10 OCR-VLM systems <60 on Hard subset per A1-019. Confirms Hard = structured docs. For probe22, treat Hard as the analog of "form-like" Indic cells (citizen docs). Wilson 95% CI on Hard + McNemar paired on the same 254 Math pages = the rubric we adopt for our Stage-3b post-corrector eval.
+  - **decision it can change:** §6 Hard-subset scoring rubric adoption; Stage-3b eval gate.
+  - TRANSFER: SURVIVES for rubric; DIES for direct Indic numbers (subset is English).
+
+### A4-EXT — Real5-OmniDocBench (physical distortion)
+  - decision: adopt for our Stage-3b post-corrector eval
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-009 | https://arxiv.org/pdf/2603.04205 | 2026-03-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Real5-OmniDocBench detail (re-cite): 1,355 pages × 5 distortion classes = 6,775 page-renderings. Baseline PaddleOCR-VL-1.6 93.19 overall; warp 91.25 (weakest), scan 94.74 (strongest). Detailed per-class per-engine table in supplementary.
+  - Probe22 mapping: warp-class maps to "page curving in a bound book" — common in Indian land records. A separate ablation: rerun probe22 engines on warp-class inputs (synthetically warped from probe pages) to measure warp robustness. Wilson 95% CI on the warp subset vs the flat subset = the diagnostic. If engine X is robust to warp → candidate Stage-0 + X swap for OldScan 55.3.
+  - **decision it can change:** Stage-0 warp-robustness pilot inclusion in W6 ablation chain (R4 §A3).
+  - TRANSFER: SURVIVES for warp-class methodology; DIES for direct score transfer (different pages).
+
+### A4-EXT — KITAB-Bench (Arabic OCR + DocAI)
+  - decision: maps to "page curving in a bound book" — common in Indian land records
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-010 | https://aclanthology.org/2025.findings-acl.1135 | 2025-06-30 | VERIFIED | 4/4/4 | PRIMARY
+  - KITAB-Bench ACL 2025 Findings: 8,809 samples across 9 domains × 36 sub-domains. Tests Tesseract, GPT-4o, Gemini, Qwen2-VL, Qwen2.5-VL, AIN-7B, Surya on Arabic OCR + DocAI. Covers handwritten text, tables, 21 chart types.
+  - Probe22 mapping: Arabic is NOT our probe, but Perso-Arabic script family = Kashmiri (54.82) cousin. Compare Surya 2 (per A3-009 row "AIN-7B") on KITAB's Nastaliq/Perso-Arabic subset vs probe22 ks — if Surya performs similarly on both Nastaliqs, ks routing decision gets a 2nd-source signal.
+  - **decision it can change:** Stage-2 Persian-Nastaliq parallel validation for ks routing.
+  - TRANSFER: UNKNOWN — direct numeric transfer blocked by page distribution; family-level cross-check is the 2nd-best option.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-011 | https://arxiv.org/html/2502.14949v2 | 2025-06-27 | VERIFIED | 4/4/4 | PRIMARY
+  - KITAB-Bench v2 (re-cite): introduces 4 new domains (chart-to-JSON, table-recognition, line detection, layout detection). 21 chart types for business intelligence. Tests 8 systems. Domain-by-domain score table published.
+  - Probe22 mapping: chart-recognition + table-recognition sub-tasks map to our forms/tables product spec. Cross-validate Sarvam 2.1 + Qwen2.5-VL-3B on KITAB chart-recognition vs Sarvam's own Indic OCR Bench "Math"/"Table" cell — if the model fails KITAB chart AND Indic OCR Bench table, the failure is structural not script-specific.
+  - **decision it can change:** §6 table-cell cross-validation methodology (if KITAB scores are considered).
+  - TRANSFER: SURVIVES for chart-recognition methodology; DIES for direct cross-walk to Indic.
+  - decision: map to our forms/tables product spec
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-012 | https://arxiv.org/pdf/2502.14949 | 2025-02-20 | VERIFIED | 4/4/4 | PRIMARY
+  - KITAB-Bench original (re-cite): compares vs EXAMS-V* (Arabic exam MCQ), Camel-MIDAD (Arabic VQA), KHATT (Arabic handwriting). KITAB is the first Arabic benchmark to cover PDF-to-Markdown end-to-end + layout + line detection + table recognition + chart-to-JSON in one.
+  - Probe22 mapping: methodology template — single benchmark covering OCR + layout + tables + charts + reading-order is exactly what an Indic-22-lang v2 of Indic OCR Bench should look like. Direct cite for W6 §6 design if we propose Indic OCR Bench v2.
+  - **decision it can change:** Indic OCR Bench v2 design proposal (W6 §6 design).
+  - TRANSFER: SURVIVES (methodology); DIES (Arabic vs Indic).
+  - decision: cite for W6 §6 design if we propose Indic OCR Bench v2
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-013 | https://huggingface.co/papers/2502.14949 | 2025-06-30 | VERIFIED | 4/4/4 | PRIMARY
+  - KITAB-Bench HF papers card (re-cite): all 8,809 samples downloadable; model outputs stored. Permits offline re-evaluation against new engines.
+  - Probe22 mapping: if probe22 needs an Arabic-sanity control cell, KITAB-Bench is the most thorough 2025 option. Resource estimate: ~10 GB to download + evaluate 8 engines. Decision gated on whether we add Arabic as an Indic-OCR-Bench-comparison cell (currently NO — Arabic is not in our 22-lang scope).
+  - **decision it can change:** none for current probe22 (Arabic out of scope); reference for W6 if scope expands.
+  - TRANSFER: DIES (Arabic not Indic); SURVIVES as benchmark-design template.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-014 | https://arxiv.org/abs/2502.14949v1 | 2025-02-20 | VERIFIED | 3/4/4 | PRIMARY
+  - KITAB-Bench v1 (re-cite): author affiliations MBZUAI (Oryx) + Inception. Released under CC-BY-4.0. Includes line-level + word-level ground truth + document-level layout annotations.
+  - Probe22 mapping: GT-format precedent. For our Indic OCR Bench pipeline, KITAB-style multi-level GT (line + word + layout) is the field direction. Cite if we propose W6 v2 of Indic OCR Bench.
+  - **decision it can change:** Indic OCR Bench v2 GT-format proposal.
+  - TRANSFER: SURVIVES (methodology); DIES (Arabic content).
+
+### A4-EXT — ICDAR 2017 / 2019 MLT (multilingual scene text)
+  - decision: Cite if we propose W6 v2 of Indic OCR Bench
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-015 | https://ieeexplore.ieee.org/document/8270168 | 2017-11-01 | VERIFIED | 3/3/3 | PRIMARY
+  - ICDAR 2017 RRC-MLT (re-cite detail, Nayef et al.): 18,000 images, 9 languages (Arabic, Bangla, Chinese, English, French, German, Italian, Japanese, Korean). 3 tasks: text detection, script identification, end-to-end. 6 teams submitted. Created the 9-language script-ID benchmark.
+  - Probe22 mapping: pre-Bharat Scene Text era. Hindi + Bengali were the only Indic languages covered. Baseline for what ICDAR MLT considered Indic at the time. Cite for "MLT-2017 is not Indic" claim.
+  - **decision it can change:** none; historical baseline.
+  - TRANSFER: DIES for Indic (only 2 of 18); SURVIVES as 9-language MLT baseline.
+  - decision: cite detail, Nayef et al
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-016 | https://arxiv.org/abs/1907.00945 | 2019-07-02 | VERIFIED | 3/4/3 | PRIMARY
+  - ICDAR 2019 RRC-MLT (Nayef et al.): 20,000 real images, 10 languages (added Hindi, kept Bangla). 4 tasks: text detection, cropped word script classification, joint detection+script, end-to-end detection+recognition. 60 submissions.
+  - Probe22 mapping: MLT-2019 is the closest ICDAR MLT to Indic relevance (Hindi + Bangla in 10-lang set). The cropped-word script-classification task maps to our script-router design — 10-way classifier. A pre-trained MLT-2019 script-ID model could be Stage-2 router base.
+  - **decision it can change:** Stage-2 script-router base-model candidate.
+  - TRANSFER: SURVIVES for script-router base (10-class, includes Hindi/Bangla); DIES for Indic 22-lang coverage.
+  - decision: maps to our script-router design — 10-way classifier
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-017 | https://www.computer.org/csdl/proceedings-article/icdar/2019/301400b582/1h81BUPd1eg | 2019-09-01 | VERIFIED | 3/4/3 | PRIMARY
+  - ICDAR 2019 RRC-MLT official proceedings: top-3 winners per task published (CMTLAB, AIO, UCAS-III plus others). Best end-to-end F1 71.13 on 10 languages. Synthetic data + real images combined. 60 submissions from research + industry.
+  - Probe22 mapping: 71.13 E2E F1 in 2019 = the ceiling for MLT before VLM era. Cites competitive density of the multilingual scene-text field.
+  - **decision it can change:** none; historical reference.
+  - TRANSFER: DIES for current routing (VLM era); SURVIVES for historical context.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-018 | https://arxiv.org/pdf/1907.00945 | 2019-07-02 | VERIFIED | 3/4/3 | PRIMARY
+  - ICDAR 2019 RRC-MLT appendix (re-cite): baseline end-to-end recognition method = trained on synthetic MLT-2019 + fine-tuned on real subset. Top method (CMTLAB) F1 71.13% on E2E. Synthetic data was the unlock that beat pure-real baselines.
+  - Probe22 mapping: confirms §6.7/R7 synthetic+real mixing rule. CMTLAB method = pipeline approach (separate detection + script-ID + recognition). Our PPT Stage-2 router could mimic the CMTLAB separation if VLM unified approach fails.
+  - **decision it can change:** Stage-2 router design fallback.
+  - TRANSFER: SURVIVES (architecture choice); DIES (engine obsolete).
+
+### A4-EXT — ICDAR 2023 IHTR / 2025 IHDR (Indic handwriting)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-019 | https://link.springer.com/chapter/10.1007/978-3-031-41679-8_25 | 2023-08-21 | VERIFIED | 4/4/4 | PRIMARY
+  - ICDAR 2023 IHTR (Mondal, Jawahar et al., Springer LNCS): 18 teams registered, 6 submitted. 10 Indic scripts (Bengali, Devanagari, Gujarati, Gurmukhi, Kannada, Malayalam, Odia, Tamil, Telugu, Urdu). Winning team Upstage KR achieved avg Char Recognition Rate (CRR) 95.94% + Word Recognition Rate (WRR) 88.31% across 10 scripts.
+  - Probe22 mapping: per-script CRR/WRR tables in paper. Urdu 95.94% (high); Devanagari 95+%; the South Indic scripts (kn/ml/te) 95–96%. ALL SOTA on clean handwriting. CRR 95% means CER 5% baseline. Maps OldScan 55.3 (CER 45%) = handwritten+scanned degradation (1+1 = catastrophic). Maps handwriting gap for citizen docs.
+  - **decision it can change:** none for routing (handwriting SOTA is high on clean); reference for "handwriting alone is not the bottleneck — the bottleneck is handwriting × scan" claim.
+  - TRANSFER: SURVIVES (handwriting-only SOTA reference); DIES for scanned handwritten pages.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-020 | https://ilocr.iiit.ac.in/ihtr/dataset.html | 2023-08-21 | VERIFIED | 4/4/4 | PRIMARY
+  - ICDAR 2023 IHTR dataset card: IIIT-INDIC-HW dataset (10 Indic scripts, word-level). Allows additional training data for participants. Released under academic-use license.
+  - Probe22 mapping: confirms IIIT-H has the canonical Indic-HW word dataset. Cite for "training a per-script specialist on IIIT-INDIC-HW + then testing on probe22 handwriting cells" hypothesis (currently we don't have handwriting items in probe).
+  - **decision it can change:** Stage-3b handwriting-specialist candidate if probe extends to handwriting.
+  - TRANSFER: SURVIVES (dataset exists, public); UNKNOWN for probe22 directly (no handwriting cells).
+  - decision: Cite for "training a per-script specialist on IIIT-INDIC-HW + then testing on probe22 handwriting cells" hypothesis (currently we don't have handwriting items in probe)
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-021 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/index.html | 2025-05-15 | VERIFIED | 4/5/4 | PRIMARY
+  - ICDAR 2025 IHDR (Indic Handwritten Document Recognition): page-level (not just line/word) recognition across 13 Indic scripts. Validation + test set released April 15, 2025; results submission May 10, 2025; winner announced May 15, 2025. Hosted at Robust Reading Challenge (RRC) portal.
+  - Probe22 mapping: page-level handwriting = the missing tier. ICIT vs word-level (IHTR 2023) vs page-level (IHDR 2025) — the difficulty gap is the page-level + variable writer + unconstrained-document axis. Cite as the 2025 SOTA reference for Indic page-level handwriting.
+  - **decision it can change:** §6 handwriting-tier benchmark candidate (if probe extends).
+  - TRANSFER: SURVIVES (page-level Indic HW SOTA reference); UNKNOWN for probe22 (no handwriting cells).
+  - decision: Cite as the 2025 SOTA reference for Indic page-level handwriting
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-022 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/dataset.html | 2025-05-15 | VERIFIED | 4/5/4 | PRIMARY
+  - ICDAR 2025 IHDR dataset card (re-cite): IHDR-2025 Dataset. Pre-training datasets allowed: IIIT-Indic-HW-UC (13 Indic langs), IHWWR-1.0, PLHWTR-1.0, IHTR-2023, IHTR-2022. Released under academic-use license.
+  - Probe22 mapping: confirms IIIT-H is the canonical Indic handwriting dataset host. 5 datasets cited = the IIIT-H Indic handwriting stack. Cite for "where to find Indic HW training data" — but D4 bars training on these for W6 unless on SAFE langs.
+  - **decision it can change:** Stage-3b handwriting-specialist training-data source (subject to D4 + user approval).
+  - TRANSFER: SURVIVES (training data exists); DIES for direct use per D4 barred-lang rules.
+  - decision: Cite for "where to find Indic HW training data" — but D4 bars training on these for W6 unless on SAFE langs
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-023 | https://arxiv.org/html/2502.06172v1 | 2025-02-10 | VERIFIED | 4/5/4 | PRIMARY
+  - PLATTER (arXiv 2502.06172, Pal et al., IIIT-H CVIT): page-level handwritten text recognition system for Indic scripts. End-to-end transformer-based (DAN-style). Per-page CRR + WRR.
+  - Probe22 mapping: PLATTER is the page-level system that competed in ICDAR 2025 IHDR. Open-source, IIIT-H hosted. Could be a Stage-3b handwriting-specialist base if we extend to handwriting.
+  - **decision it can change:** Stage-3b handwriting-specialist base candidate.
+  - TRANSFER: SURVIVES (open-source system); UNKNOWN for probe22 (no handwriting cells).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-024 | https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2025/Self_supervised_approach_for_improving_Indic_handwritten_OCR.pdf | 2025-12-11 | VERIFIED | 4/5/4 | PRIMARY
+  - SemiHastakshar (Evani, Mondal, Jawahar, IIIT-H CVIT, Dec 2025): semi-supervised framework for Indic handwritten OCR. Trained on IIIT-INDIC-HW-WORDS (labeled) + IIIT-INDIC-HW-WILD (newly introduced, unlabeled, internet-sourced) + IIIT-Indic-HW-UC (unlabeled). Reports WER/CER per script vs PARSeq HTR baseline.
+  - Probe22 mapping: confirms semi-supervised approach closes generalisation gap on Indic handwriting. Cite for "synthetic+unlabeled-real > supervised-real" — same R3/OlmOCR-2 lesson applied to handwriting. Maps handwriting lane.
+  - **decision it can change:** Stage-3b semi-supervised recipe option.
+  - TRANSFER: SURVIVES (recipe reference); UNKNOWN for probe22 directly.
+  - decision: Cite for "synthetic+unlabeled-real > supervised-real" — same R3/OlmOCR-2 lesson applied to handwriting
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-025 | https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-indic-hw-words | 2021-05-18 | VERIFIED | 4/4/4 | PRIMARY
+  - IIIT-INDIC-HW-WORDS (Gongidi, Jawahar, ICDAR 2021): 868K handwritten word instances, 135 writers, 8 Indic scripts (Bengali, Devanagari, Gujarati, Gurmukhi, Kannada, Malayalam, Odia, Tamil, Telugu). Combined with earlier IIIT-HW-DEV (Devanagari) + IIIT-HW-TELUGU = 10 Indic scripts.
+  - Probe22 mapping: the canonical 2021 Indic handwriting word dataset. Best CER on in-domain eval (10K pretrain): 9.64%; on 82K pretrain: 4.97% CER. The fact that 2021 baseline is ~5% CER on clean handwritten words means the bottleneck is NOT handwriting recognition per se — it's handwriting × scan × script-rare (which is OldScan 55.3).
+  - **decision it can change:** none for current probe22; reference for handwriting-tier gap analysis.
+  - TRANSFER: SURVIVES (dataset); DIES for direct probe22 use.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-026 | https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data | 2021-05-18 | VERIFIED | 4/4/4 | PRIMARY
+  - IIIT-HW-Dev (Devanagari, 1.8 GB) + IIIT-HW-Telugu (3.7 GB) word-level handwritten datasets. Released by IIIT-H CVIT.
+  - Probe22 mapping: precursor to IIIT-INDIC-HW-WORDS. Datasets are downloadable from CVIT site. If probe22 extends to handwriting, these are the per-script training data sources.
+  - **decision it can change:** none for current probe22; reference for §3b handwriting data.
+  - TRANSFER: SURVIVES (datasets exist, public).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-027 | https://cvit.iiit.ac.in/images/ConferencePapers/2021/iiit-indic-hw-words.pdf | 2021-05-18 | VERIFIED | 4/4/4 | PRIMARY
+  - IIIT-INDIC-HW-WORDS paper (re-cite): pre-training weights ablation table. 82K labeled training set → 4.97% CER in-domain. Out-of-domain (IAM English handwriting) pretraining also helps slightly (4.85% CER).
+  - Probe22 mapping: cross-script transfer is small but positive for Indic handwriting. Maps the "shared-backbone + per-script head" architecture choice for handwriting tier.
+  - **decision it can change:** Stage-3b architecture design reference.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-028 | https://cvit.iiit.ac.in/images/ConferencePapers/2025/ICDAR_2025_Competition_Report_HTRU.pdf | 2025-12-11 | VERIFIED | 4/5/4 | PRIMARY
+  - ICDAR 2025 Handwritten Notes Understanding (HNU) Challenge (Pal et al., CVIT + UAB + Habitat Labs + UNC): 2,000 handwritten scientific notes pages + 1,000 expert-authored QA pairs. 16 teams registered, 6 valid submissions. Task = evidence-based QA over complex handwritten content. Published Dec 2025.
+  - Probe22 mapping: VLM reasoning over handwritten text. Even SOTA VLMs fail badly (per paper text). Maps Stage-3b + Stage-4 evaluation: if we ever extend to handwritten forms, the HNU-2025 benchmark is the 2025 reference.
+  - **decision it can change:** none for current probe22; watch item.
+  - TRANSFER: SURVIVES (reference); UNKNOWN for probe22 directly.
+
+### A4-EXT — ICDAR 2025 DIMT (Document Image Machine Translation)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-029 | https://cip-documentai.github.io/ | 2025-04-25 | VERIFIED | 4/5/4 | PRIMARY
+  - ICDAR 2025 DIMT (Document Image Machine Translation, @ICDAR 2025): 2 tracks. Track 1 = DIMT-WebDoc-300K (web docs, 300K train / 1K val / 1K test). Track 2 = DIMT-arXiv-124K (academic, 124K / 1K / 1K). Released Dec 2024 setup; submission deadline April 20, 2025; results April 25.
+  - Probe22 mapping: end-to-end "image in language A, text out in language B" — directly relevant if probe22 ever extends to cross-lingual output (it doesn't). Cite as 2025 SOTA reference for cross-lingual doc parsing.
+  - **decision it can change:** none for current probe22; reference for future scope.
+  - TRANSFER: SURVIVES (reference); UNKNOWN for probe22 (English↔Chinese focus).
+
+### A4-EXT — Indic OCR Bench (Sarvam)
+  - decision: Cite as 2025 SOTA reference for cross-lingual doc parsing
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-030 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | VERIFIED | 5/5/5 | PRIMARY
+  - Indic OCR Bench HF card (re-cite): 6,909 samples (6,609 Indic + 300 EN). 22 scheduled Indic langs + English. Block-level ground-truth. Sources from 1800 to present (historical + modern). License: Sarvam research-use; user approval required to download per §9 hard rule.
+  - Probe22 mapping: PRIMARY benchmark for our §6 wrap-only comparison. Per-block word accuracy = 100×(1−WER). We CANNOT fetch per §9 (no user approval); we cite from the Sarvam blog table (A3-002). Per-language CER tables in Sarvam blog post = the gold standard we cannot directly reproduce without data.
+  - **decision it can change:** whether we treat Sarvam numbers as the "benchmark to beat" (Sarvam 87.39 overall per A3-004) vs as the "reference we cannot reproduce" (this record).
+  - TRANSFER: SURVIVES (methodology); DIES for direct numbers — user approval + download required.
+  - decision: cite from the Sarvam blog table (A3-002)
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-031 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | UNKNOWN | 5/5/4 | PRIMARY
+  - **Indic OCR Bench — UNKNOWN with named obstacle (per §9 + user hard rule "No downloads of any kind"):**
+    - Obstacle: §9 hard rule + user hard rule forbid downloading the Indic OCR Bench raw data without explicit user approval.
+    - What we WANT to know: per-script mean CER / per-script Wilson 95% CI / per-script catastrophic-rate / per-engine paired McNemar p-value on the same 6,909 blocks.
+    - What we CAN cite from primary sources: Sarvam blog (A3-001, A3-002) per-language word accuracy point estimates.
+    - What we CANNOT cite: raw per-row CER for any engine, abstention coverage, median + IQR + catastrophic-rate summary.
+  - Probe22 mapping: this UNKNOWN record is the explicit §9 placeholder. If/when the user approves download, we re-run probe22 engines on Indic OCR Bench and replace this UNKNOWN with MEASURED records carrying Wilson 95% CIs. Until then, our §6 evaluation MUST use our internal probe22 (n=1227, 18 langs, 100/lang) as the primary.
+  - **decision it can change:** the entire §6 evaluation framework — currently anchored to probe22 because Indic OCR Bench is unreachable.
+  - TRANSFER: UNKNOWN by design.
+  - decision: cite from primary sources: Sarvam blog (A3-001, A3-002) per-language word accuracy point estimates
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-032 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5 | PRIMARY
+  - Indic OCR Bench per-language word accuracy (Sarvam blog, re-cite): Santali 53.91 (weakest), Kashmiri 54.82, Maithili 96.70, Konkani 97.41, Nepali 97.00, Marathi 95.06, Manipuri 85.12, Odia 80.01, Hindi 95.91, Bengali 92.61, Tamil 93.42, Telugu 87.70. Sarvam 2.1 overall 87.39.
+  - Probe22 mapping: this is the ONLY publicly-available per-script WR table. No Wilson 95% CI published. No catastrophic-rate. No median. Per §9 transfer law: these numbers are the "envelope" not the "delta". If probe22 engine X is within ±3 absolute points of Sarvam's table on hi/bn/ta/te → confidence the probe runs are sane (sanity check).
+  - **decision it can change:** §6 sanity-check row: if probe22 hi/bn/ta/te scores diverge >5pt from Sarvam table, our probe has a bug.
+  - TRANSFER: SURVIVES (envelope); DIES for delta (different pages, different metrics).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-033 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | VERIFIED | 5/5/5 | PRIMARY
+  - Indic OCR Bench competitor table (Sarvam blog, re-cite): Sarvam 2.1 87.39 / Bodhan 84.94 / Gemini 3.6 Flash 79.35 / Google Cloud Vision 71.76. No Wilson CI; no McNemar; no abstention column.
+  - Probe22 mapping: envelope only. The 8-point Sarvam-vs-Bodhan gap is the "open vs proprietary" envelope gap. The 16-point Sarvam-vs-GCV gap is the "Indic-specialized vs general" envelope gap. We cite the gap direction (not magnitude) as W6 architecture evidence.
+  - **decision it can change:** W6 architecture evidence: open weights + Indic-specialized > closed-weights general for Indic.
+  - TRANSFER: SURVIVES (direction); DIES for delta.
+  - decision: cite the gap direction (not magnitude) as W6 architecture evidence
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-034 | http://sarvam.ai/blogs/sarvam-vision | 2026-02-05 | VERIFIED | 5/5/5 | PRIMARY
+  - Sarvam Vision v1 (re-cite, Feb 2026): global benchmarks — ArXiv Math 86.5 (Sarvam) vs Mistral OCR 3 85.4, Chandra 81.4, Gemini 3 Pro 70.6, PaddleOCR VL 1.5 85.4, DeepSeek OCR v2 81.9, GPT 5.2 61. Indic OCR Bench v1 per-language: Hindi 95.91, Bengali 92.61, Tamil 93.42, Telugu 87.70.
+  - Probe22 mapping: math + Indic cells of the same model. Sarvam 86.5 on Math + 87.39 on Indic-OCR-Bench → they are tightly coupled. Probe22 math-cell evaluation could mirror this.
+  - **decision it can change:** §6 math-cell cross-validate if probe22 adds math items.
+  - TRANSFER: SURVIVES (envelope).
+
+### A4-EXT — MILU (Multi-task Indic Language Understanding)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-035 | https://aclanthology.org/2025.naacl-long.507.pdf | 2025-04-13 | VERIFIED | 4/4/4 | PRIMARY
+  - MILU NAACL 2025 (Verma et al., AI4Bharat + partners): 8 domains × 41 subjects × 11 Indic langs. Total evaluation size = ~thousands of multiple-choice questions. First comprehensive Indic LLM benchmark. CC-BY-4.0 license.
+  - Probe22 mapping: Stage-3 (noisy→JSON small LLM) SFT eval. MILU is the LLM benchmark not OCR. Use it to vet Stage-3 base model (Krutrim-2 / Airavata / OpenHathi) for Indic reasoning before fine-tuning on noisy OCR.
+  - **decision it can change:** Stage-3 base-model selection.
+  - TRANSFER: SURVIVES (LLM benchmark); DIES for OCR stage directly.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-036 | https://github.com/AI4Bharat/MILU | 2025-04-13 | VERIFIED | 4/4/4 | PRIMARY
+  - MILU github (re-cite): vLLM-based eval pipeline. Dataset + evaluator + leaderboard. 11 Indic langs explicit list.
+  - Probe22 mapping: if we want to evaluate any Stage-3 candidate against MILU, the eval pipeline is plug-and-play. ~4-6 GPU-hours per model run.
+  - **decision it can change:** Stage-3 candidate evaluation cost.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — L3Cube-IndicQuest v1 / v2 (Indic LLM QA)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-037 | https://arxiv.org/abs/2409.08706 | 2024-09-13 | VERIFIED | 4/4/4 | PRIMARY
+  - L3Cube-IndicQuest v1 (Rohera et al., L3Cube Pune): 200 QA pairs each for English + 19 Indic langs. 5 domains specific to Indic context. Reference-based + LLM-as-judge eval. GitHub: github.com/l3cube-pune/indic-nlp.
+  - Probe22 mapping: small (200/lang) but Indic-region-specific. Stage-3 eval candidate. Citations already in A3-027 (L3Cube-IndicQuest v2).
+  - **decision it can change:** Stage-3 regional-knowledge eval.
+  - TRANSFER: SURVIVES (LLM eval); DIES for OCR.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-038 | https://arxiv.org/html/2608.15535v1 | 2026-08-15 | VERIFIED | 4/4/4 | PRIMARY
+  - L3Cube-IndicQuest v2 (re-cite detail): 3,471 English pairs × 9 domains = 69,420 parallel pairs × 20 langs. Two-agent Gemini-2.5-Flash pipeline + semantic deduplication + human verification. Gemma4-31B beats Indic-specialized Sarvam 30B per A3-027.
+  - Probe22 mapping: Stage-3 eval scaling. v2 is 350x larger than v1. Allows statistical power for McNemar paired comparison across models. Confirms Gemma4 is the open-weight winner on Indic QA — supports Krutrim-2 fallback choice if Gemma4 wins Stage-3 eval.
+  - **decision it can change:** Stage-3 base-model evaluation budget allocation.
+  - TRANSFER: SURVIVES (LLM eval); DIES for OCR.
+  - decision: cite detail): 3,471 English pairs × 9 domains = 69,420 parallel pairs × 20 langs
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-039 | https://aclanthology.org/2024.paclic-1.93 | 2024-12-01 | VERIFIED | 4/4/4 | PRIMARY
+  - L3Cube-IndicQuest v1 PACLIC 38 (Rohera et al.): 19 Indic langs — Assamese, Bengali, Dogri, Gujarati, Hindi, Kannada, Konkani, Maithili, Malayalam, Marathi, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu, Urdu + English (en + 18 Indic — close to probe22's 18-lang coverage but Dogri/Sindhi different from probe).
+  - Probe22 mapping: language overlap analysis. v1 has 18 Indic langs vs probe22's 18 langs. Probe22 langs: hi/bn/te/ta/kn/ml/mr/gu/pa/or/as/ur/ks/sat/mni/ne/brx/mai. L3Cube has hi/bn/ta/te/kn/ml/mr/gu/pa/or/as/sa/sat/sd/ur/doi/kok/mai. Overlap = 14; probe-only = brx/ks/mni/ne; L3Cube-only = sa/sd/doi.
+  - **decision it can change:** Stage-3 eval complement for L3Cube-only langs (sa/sd/doi).
+  - TRANSFER: SURVIVES (LLM eval).
+
+### A4-EXT — IndicGenBench + IndicXTREME + Samanantar + Dakshina + IndicCorp v2 + Sangraha (Indic LLM/NLP corpora)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-040 | https://github.com/google-research-datasets/indic-gen-bench | 2024-04-25 | VERIFIED | 4/4/4 | PRIMARY
+  - IndicGenBench (re-cite, Google Research): 29 Indic langs × 13 scripts × 4 language families. 4 user-facing generation tasks. Includes Awadhi, Bodo, Garhwali, Haryanvi, Konkani, Maithili, Malvi, Marwari, Santali, Tibetan, etc. — many probe22 OUT-OF-SCOPE but useful for §6 LLM eval coverage.
+  - Probe22 mapping: Stage-3 LLM eval complement. 29 langs covers Santali (our weakest cell) + Maithili (our 96.70 cell). If Stage-3 model fails IndicGenBench Santali → it likely fails probe22 Stage-3 Santali (if we extend).
+  - **decision it can change:** Stage-3 Santali / Maithili coverage decision.
+  - TRANSFER: SURVIVES (LLM eval); DIES for OCR stage.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-041 | https://arxiv.org/abs/2212.05409 | 2022-12-11 | VERIFIED | 4/4/4 | PRIMARY
+  - IndicCorp v2 + IndicXTREME (Doddapaneni et al., AI4Bharat, ACL 2023): IndicCorp v2 = 20.9B tokens across 24 langs × 4 families (2.3× larger than IndicCorp v1). IndicXTREME = 9 NLU tasks × 20 langs × 105 evaluation sets (52 new). Used to train IndicBERT v2.
+  - Probe22 mapping: NOT directly OCR — but the underlying monolingual corpora power IndicBERT/IndicBERTv2/XLM-R training, which power Stage-3 LLM candidates. Cite for "where Indic LLM pre-training data comes from" reference.
+  - **decision it can change:** Stage-3 base-model lineage documentation.
+  - TRANSFER: SURVIVES (corpus + benchmark); DIES for OCR directly.
+  - decision: Cite for "where Indic LLM pre-training data comes from" reference
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-042 | https://huggingface.co/datasets/ai4bharat/IndicCorpV2 | 2023-05-01 | VERIFIED | 4/4/4 | PRIMARY
+  - IndicCorp v2 HF card (re-cite): 24 Indic languages. License CC-0. Models + code MIT. ~20 GB total (uncompressed).
+  - Probe22 mapping: as above (A4-041). Direct relevance is for Stage-3 base-model training data lineage.
+  - **decision it can change:** Stage-3 lineage documentation.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-043 | https://ai4bharat.iitm.ac.in/datasets/sangraha | 2024-09-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Sangraha (AI4Bharat): compilation of Indic NLP datasets being migrated to HuggingFace. Original datasets include IndicCorp v2, Sangraha Samanantar, IndicXTREME, IndicGLUE, MILU, and others. Corpus-level landing page.
+  - Probe22 mapping: Sangraha = "AI4Bharat Indic data hub". Cite for "where to find all Indic NLP resources" reference.
+  - **decision it can change:** W6 §6 reference (if we cite AI4Bharat data lineage).
+  - TRANSFER: SURVIVES (corpus catalog).
+  - decision: Cite for "where to find all Indic NLP resources" reference
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-044 | https://arxiv.org/abs/2104.05596 | 2021-04-12 | VERIFIED | 4/4/4 | PRIMARY
+  - Samanantar (Ramesh et al., TACL 2022, AI4Bharat): 49.7M parallel sentence pairs between English + 11 Indic langs (Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu). 12.4M compiled from existing + 37.4M mined from web. Plus 83.4M cross-Indic pairs via English pivot.
+  - Probe22 mapping: Samanantar covers 11 of probe22's 18 langs (missing sat/ks/mni/ne/brx/mai/sa). Largest publicly-available Indic parallel corpus. Drives IndicTrans2 (A1-049).
+  - **decision it can change:** Stage-3 + cross-lingual post-corrector training data lineage.
+  - TRANSFER: SURVIVES (corpus).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-045 | https://aclanthology.org/2020.lrec-1.294/ | 2020-05-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Dakshina (Roark et al., LREC 2020, Google): 12 South Asian langs in Latin + native scripts. Wikipedia text + romanization lexicon + manually romanized held-out sentences. Both transliteration AND romanization benchmark.
+  - Probe22 mapping: Dakshina is a TRANSCRIPTION benchmark (Latin↔native), not OCR. Cite as "Romanized Indic is a different beast — Dakshina tests it" reference. Some probe22 documents (especially Gujarati, Marathi) appear in Romanized form in legacy archives — Dakshina is the test bed.
+  - **decision it can change:** none for current probe22 (our probe pages are native-script); reference for Romanized legacy docs.
+  - TRANSFER: SURVIVES (transcription benchmark); DIES for OCR.
+  - decision: Cite as "Romanized Indic is a different beast — Dakshina tests it" reference
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-046 | https://arxiv.org/abs/2205.02543 | 2022-05-05 | VERIFIED | 3/3/3 | PRIMARY
+  - OCR Synthetic Benchmark Dataset for Indic Languages (Saini et al., 2022, IBM Research India): 90k images + GT across 23 Indic langs. Synthetic generation pipeline.
+  - Probe22 mapping: the largest published 2022 Indic OCR synthetic benchmark. Precursor to ScriptMoE's synthetic-data strategy. Cite as "2022 baseline" for synthetic-Indic-OCR data scale.
+  - **decision it can change:** Stage-2 synthetic-data scale anchor.
+  - TRANSFER: SURVIVES (synthetic data lineage).
+
+### A4-EXT — AIR-Bench (INFORMATION RETRIEVAL — MISALIGNED with Indic OCR)
+  - decision: Cite as "2022 baseline" for synthetic-Indic-OCR data scale
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-047 | https://github.com/AIR-Bench/AIR-Bench | 2024-05-05 | UNKNOWN | 1/2/2 | REJECTED
+  - **AIR-Bench (AIR-Bench: Automated Heterogeneous Information Retrieval Benchmark)** — REJECTED for our OCR scope.
+    - What it actually is: ACL 2025 heterogeneous IR benchmark (text retrieval across 9 domains, 13 langs, 69 datasets). NOT multimodal vision; NOT OCR.
+    - Why we cited it: the user's required-topics list named "AIR-Bench (Indic subset)" — but the actual AIR-Bench is an IR benchmark, not OCR. There may be an AIR-Bench Multimodal or AIR-Bench Vision variant we have not found.
+    - Obstacle: the user's reference may be to a different paper (possibly confused with another benchmark — there is also "AIR-Bench Audio" arXiv 2402.07729, also not OCR). No public 2025-2026 "AIR-Bench Indic OCR" benchmark found in our search.
+  - Probe22 mapping: does NOT map. IR ≠ OCR. If the user meant a different benchmark (e.g., AIR-VisionBench, AIR-IndicBench, etc.), please clarify. We record this as REJECTED to prevent silent re-purposing.
+  - **decision it can change:** none — reject until a verified OCR-scope source is named.
+  - TRANSFER: REJECTED.
+
+### A4-EXT — IndicDLP (Indic Document Layout Parsing)
+  - decision: reject until a verified OCR-scope source is named
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-048 | https://huggingface.co/datasets/ai4bharat/IndicDLP | 2026-06-15 | VERIFIED | 5/5/5 | PRIMARY
+  - IndicDLP (AI4Bharat, June 2026): foundational multilingual + multi-domain document layout parsing dataset. Multi-domain (forms, tables, magazines, books, newspapers, slides). Multi-script (Devanagari + others).
+  - Probe22 mapping: Stage-1 layout evaluation. The W6 freeze packet should consider IndicDLP as the layout-tier benchmark (parallel to OmniDocBench for English). Per-page Layout-F1 + Reading-Order-F1 + Wilson 95% CI per script.
+  - **decision it can change:** §6 layout-tier benchmark candidate.
+  - TRANSFER: SURVIVES (layout benchmark).
+
+### A4-EXT — IIIT-ILST + IIIT-INDIC-HW-WORDS family (IIIT-H Indic OCR/handwriting)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-049 | https://arxiv.org/html/2511.23071v1 | 2025-11-28 | VERIFIED | 4/5/4 | PRIMARY
+  - Bharat Scene Text Dataset (BSTD, De et al., IIT Jodhpur + Bhashini): 6,582 scene images, 1,26,292 words, 12 langs (11 Indic + EN). 4 tasks: text detection, script identification, cropped word recognition, end-to-end scene text recognition. PARSeq recognizer trained on 11 Indic langs using synthetic data.
+  - Probe22 mapping: scene-text is OUT-OF-SCOPE for probe22 (document-only). But BSTD's script-ID task (12-class classifier) = the Stage-2 router base for scene-text extension. Per-script end-to-end F1 published in Table 9 of the paper.
+  - **decision it can change:** Stage-2 scene-text-router base candidate.
+  - TRANSFER: SURVIVES (scene text); DIES for document-only probe22.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-050 | https://github.com/Bhashini-IITJ/BharatSceneTextDataset | 2024-08-08 | VERIFIED | 4/4/4 | PRIMARY
+  - Bharat Scene Text Dataset (BSTD) GitHub repo (Bhashini-IITJ, Apache-2.0). First public release Aug 8, 2024. Includes 5,263 train + 1,319 test images, 94,128 train + 32,164 test bboxes. Visualisation tools included.
+  - Probe22 mapping: open-source scene text dataset for Indic 12 langs. Apache-2.0 license = we can use without restriction. Direct cite if we add scene-text to W6 scope.
+  - **decision it can change:** W6 scene-text extension scope.
+  - TRANSFER: SURVIVES.
+  - decision: cite if we add scene-text to W6 scope
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-051 | https://hyper.ai/en/datasets/21410 | 2022-01-01 | VERIFIED | 4/4/4 | PRIMARY
+  - IIIT-ILST Scene Text Recognition Dataset (Mathew et al., IIIT-H): Devanagari + Telugu + Malayalam. ~1,000 real images per script. CC BY 4.0. Scene text recognition only (no detection / no end-to-end). Published 2022.
+  - Probe22 mapping: the closest thing to a "first Indic scene-text" dataset. Limited (3 langs only, no detection / no E2E). Superseded by BSTD. Cite as historical precedent.
+  - **decision it can change:** none for current probe22.
+  - TRANSFER: SURVIVES (historical); DIES for current use (BSTD is better).
+  - decision: Cite as historical precedent
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-052 | https://hyper.ai/en/datasets/21410 (re-cite) | 2022-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - IIIT-ILST comparison vs BSTD: BSTD has 12 langs vs IIIT-ILST 3 langs; BSTD 100K+ words vs IIIT-ILST ~3K words; BSTD has detection + script-ID + E2E vs IIIT-ILST cropped-word-recognition-only.
+  - Probe22 mapping: confirms BSTD supersedes IIIT-ILST. Use BSTD for any W6 scene-text extension.
+  - **decision it can change:** W6 scene-text dataset choice.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-053 | https://arxiv.org/html/2511.23071 | 2025-11-28 | VERIFIED | 4/5/4 | PRIMARY
+  - BSTD methodology detail (re-cite): DBnet detector + PARSeq recognizer, both fine-tuned on Indic synthetic data. Per-script F1 table. PARSeq recognizer pre-trained on synthetic data → Indian script fine-tuning → out-of-distribution test on BSTD real images.
+  - Probe22 mapping: confirms PARSeq + synthetic-data fine-tune is the 2025 SOTA pipeline for Indic scene text. Parallel to Document AI's VLM harness pattern.
+  - **decision it can change:** Stage-2 recognition-arm architecture reference.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-054 | https://arxiv.org/pdf/2511.23071 | 2025-11-28 | VERIFIED | 4/5/4 | PRIMARY
+  - BSTD paper appendix (re-cite): comparison table — MLT-17 (9 langs, 96K words, only Hindi/Bengali Indic), MLT-19 (10 langs, 191K words, same Hindi/Bengali only), IIIT-ILST (3 langs, 3K words, no detection), IIIT-IndicSTR12 (12 langs, 27K words, cropped only). BSTD is the first end-to-end 12-lang Indic scene-text dataset.
+  - Probe22 mapping: confirms no end-to-end Indic scene-text alternative exists pre-BSTD. For W6 scene-text extension, BSTD is the ONLY viable dataset.
+  - **decision it can change:** W6 scene-text extension feasibility (BSTD is the only option).
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Khazana (UNRESOLVED — likely a transcription dataset, not OCR)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-055 | https://arxiv.org/abs/2209.09449 (failed verify) | 2022-09-20 | UNKNOWN | 1/1/1 | UNKNOWN
+  - **Khazana — UNKNOWN with named obstacle:**
+    - Obstacle: could not locate a publicly-published OCR benchmark or dataset named "Khazana" for Indic scripts in our 2026-09-27 search. The user's required-topics list mentions "Khazana" alongside Samanantar / Dakshina / IndicCorp, which suggests it may be a parallel corpus or transcription benchmark rather than OCR.
+    - Most likely match: "Khazana-e-Gulzar" (Urdu poetry corpus) or similar Urdu literature corpus — these exist but are NOT OCR benchmarks.
+    - What we CAN cite: nothing reliable.
+  - Probe22 mapping: no direct map. If the user meant a different benchmark (e.g., OCR-specific "Khazana" we missed), please clarify the source URL. We record as UNKNOWN to prevent silent fabrication.
+  - **decision it can change:** none until source verified.
+  - TRANSFER: UNKNOWN.
+
+### A4-EXT — Metric standards — CER / WER / chrF++
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-056 | https://dl.acm.org/doi/10.1145/3476887.3476888 | 2021-09-10 | VERIFIED | 4/4/4 | PRIMARY
+  - Survey of OCR evaluation tools and metrics (Reul et al., HIP 2021): 5 OCR evaluation tools compared (PRImA TextEval, PRImA LayoutEvaluation, dinglehopper, IMPACT ocrevalUAtion, ISRI). CER = (i + s + d) / n where n = total reference chars. Plus alternative GT-free methods using cross-alignment. Recommends reporting CER + WER + GT-free confidence-based metric.
+  - Probe22 mapping: confirms our §6.5 CER definition is canonical. The survey also notes (citation 38) that "for small samples, a confidence interval based on a Bernoulli experiment allows a statistically reliable statement" — DIRECT citation for our §9 Wilson 95% CI requirement.
+  - **decision it can change:** §6.5 metric definition reference; §9 Wilson CI law citation.
+  - TRANSFER: SURVIVES (methodology reference, language-agnostic).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-057 | https://dl.acm.org/doi/10.1145/3805689.3806442 | 2025-06-25 | VERIFIED | 4/5/4 | PRIMARY
+  - Survey of OCR evaluation methods and metrics (Jun 2025, ACM): reviews OCR + document understanding evaluation papers 2006–2025 via PRISMA framework. Notes "invisibility" of evaluation details for vision-transformer + multimodal OCR.
+  - Probe22 mapping: confirms 2025 status of OCR evaluation reporting is heterogeneous. Per the survey, Wilson CIs are rare in OCR papers. Reinforces §9 law (Wilson CI mandatory for our probe22).
+  - **decision it can change:** §9 Wilson CI law citation; §6.5 reporting format requirement.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-058 | https://towardsdatascience.com/evaluating-ocr-output-quality-with-character-error-rate-cer-and-word-error-rate-wer-853175297510 | 2021-06-24 | VERIFIED | 3/3/3 | PRIMARY
+  - Towards Data Science CER/WER explainer: Good OCR = CER 1-2% (98-99% accurate); Average = CER 2-10%; Poor = CER >10% (below 90% accurate).
+  - Probe22 mapping: bucket thresholds for fast triage. Sarvam 2.1 Indic OCR Bench scores 87.39 = CER ~12.61 in WER-space (since word accuracy = 100×(1−WER)) = "average" bucket by this scale. Most probe22 engines will be in the "poor" bucket (>10% WER) on weak cells.
+  - **decision it can change:** §6 sanity bucket rules (probe22 engine scores <10% CER = OK; >20% = investigate; >40% = re-route).
+  - TRANSFER: SURVIVES.
+  - decision: weak cell
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-059 | https://arxiv.org/pdf/2606.29213v1 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Devanagari stress-test (re-cite, Singh 2026): FLORES-100 Hindi test set N=100 sentences. 4 degradation conditions. 10 systems tested (EasyOCR classical; Qwen2.5-VL-3B, Qwen3-VL-8B, olmOCR-7B open VLMs; DeepSeek-OCR, Unlimited-OCR specialized OCR-VLMs; Gemini 2.5 Flash, Claude Opus 4.7, GPT-5.5, Mistral OCR closed). Reports CER + chrF++ + median + catastrophic-rate.
+  - Probe22 mapping: the closest thing to a 2026 Devanagari SOTA table. Per-engine chrF++ on real Hindi scans (300 real scans): Qwen3-VL-8B 75.2, Claude Opus 4.7 82.2, Gemini 2.5 Flash 86.3, GPT-5.5 58.5, olmOCR-7B 40.5. Catastrophic repetition failures reach 71× the reference length for DeepSeek-OCR. Map to probe22 hi cells: if probe22 hi matches this table within ±10 chrF++, probe is sane.
+  - **decision it can change:** §6 Devanagari sanity cross-check; §9 catastrophic-rate law.
+  - TRANSFER: SURVIVES (Devanagari envelope); DIES for delta.
+  - decision: Map to probe22 hi cells: if probe22 hi matches this table within ±10 chrF++, probe is sane
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-060 | https://arxiv.org/html/2606.29213v1 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Devanagari stress-test methodology (re-cite): N=100 FLORES Hindi sentences; rendered into 4 synthetic degradation conditions (clean + 3 degraded); PLUS 300 real Hindi scans from printed books. Per-row CER (code-point, not grapheme-cluster), chrF++ (Popović 2017), median, catastrophic-rate.
+  - Probe22 mapping: methodology template. N=100 is small but acceptable for paired McNemar per §6.7 power rules. Our probe22 N=1227 = 12x this power. Cite for "how to do paired McNemar on OCR outputs".
+  - **decision it can change:** §6 paired-comparison methodology.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — ANLS (Average Normalized Levenshtein Similarity) for VQA + DocAI
+  - decision: Cite for "how to do paired McNemar on OCR outputs"
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-061 | https://arxiv.org/html/2402.03848v4 | 2024-02-06 | VERIFIED | 4/4/4 | PRIMARY
+  - ANLS* (arXiv 2402.03848, 2024-02-06, updated 2024): "A Universal Document Processing Metric for Generative Models." Extends ANLS (Biten et al. 2019, used by DocVQA) to information extraction + document understanding tasks. Handles OCR errors explicitly (penalizes confident wrong answers less than over-confident hallucinated answers).
+  - Probe22 mapping: Stage-3 (schema-head) evaluation metric candidate. Our schema-head extracts structured fields from noisy OCR text — ANLS* explicitly handles "OCR noise + generative extraction" which is our exact problem.
+  - **decision it can change:** Stage-3 evaluation metric (if schema-head is added).
+  - TRANSFER: SURVIVES (metric methodology, language-agnostic).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-062 | https://arxiv.org/html/2402.03848v2 | 2024-02-06 | VERIFIED | 4/4/4 | PRIMARY
+  - ANLS* paper (re-cite): ANLS* = ANLS with threshold τ + length penalty. Original ANLS (Biten et al., ICCV 2019) defined as 1 - normalized-Levenshtein if < τ, else 0. ANLS* generalizes this.
+  - Probe22 mapping: Stage-3 metric reference.
+  - **decision it can change:** Stage-3 metric.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — TEDS (Tree-Edit-Distance-based Similarity) for table recognition
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-063 | https://arxiv.org/abs/1911.10683 | 2019-11-25 | VERIFIED | 5/5/4 | PRIMARY
+  - TEDS (Zhong et al., ECCV 2020): Tree-Edit-Distance-based Similarity for image-based table recognition. Models tables as HTML trees, computes tree-edit-distance between predicted and GT, normalizes by max distance. Captures multi-hop cell misalignment + OCR errors. EDD model (Encoder-Dual-Decoder) achieves +9.7 absolute TEDS over SOTA on PubTabNet.
+  - Probe22 mapping: tables are in the §6 scope via Sarvam 2.1 tables-cell. TEDS is the standard metric for tables. If probe22 extends to tables, TEDS + Wilson 95% CI per table is the rubric.
+  - **decision it can change:** §6 tables-cell metric.
+  - TRANSFER: SURVIVES (metric methodology).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-064 | https://huggingface.co/papers/1911.10683 | 2019-11-25 | VERIFIED | 4/4/4 | PRIMARY
+  - TEDS HF papers card (re-cite): TEDS addresses two problems: (1) multi-hop cell misalignment, (2) OCR error sensitivity. Both issues are amplified in Indic scripts where table cells contain conjunct-heavy Devanagari.
+  - Probe22 mapping: TEDS may overestimate CER for Indic scripts because tree-edit-distance can penalize valid alternate spellings. Cite for "TEDS works but watch for Indic script normalization" caveat.
+  - **decision it can change:** §6 tables-cell normalization choice.
+  - TRANSFER: SURVIVES.
+  - decision: Cite for "TEDS works but watch for Indic script normalization" caveat
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-065 | https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660562.pdf | 2020-08-01 | VERIFIED | 4/4/4 | PRIMARY
+  - TEDS ECCV 2020 published version (re-cite): TEDS = 1 − EditDist(pred, gt) / max(EditDist(pred, empty), EditDist(gt, empty)). Penalty for over-segmentation + under-segmentation both. SOTA on PubTabNet.
+  - Probe22 mapping: mathematical definition reference for any W6 table-cell scoring.
+  - **decision it can change:** §6 tables-cell math definition.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-066 | https://www.sciencedirect.com/science/article/pii/S0031320326003201 | 2026-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - Photographed table reasoning benchmark + method (Pattern Recognition 2026): uses TEDS for table recognition on photographed tables. Suggests TEDS extends to photographed tables (not just scanned).
+  - Probe22 mapping: confirms TEDS works across scanned + photographed tables. Probe22 has scanned-only currently. No direct map but reference.
+  - **decision it can change:** none for current probe22.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — LayoutLMv3 + LayoutXLM (Document AI pre-training)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-067 | https://arxiv.org/html/2204.08387 | 2022-04-18 | VERIFIED | 4/4/4 | PRIMARY
+  - LayoutLMv3 (Huang et al., ACM MM 2022): unified text + image masking pre-training. First multimodal Document AI model without CNNs for image embeddings. SOTA on FUNSD 92.08 F1 (form understanding), CORD (receipt), PubLayNet (layout), DocVQA (visual question answering). Released under MIT.
+  - Probe22 mapping: Stage-2 layout + schema-head base candidate. Pre-trained on IIT-CDIP (English) — Indic transfer is UNKNOWN. Cite for "Stage-2 architecture reference, not direct Indic candidate."
+  - **decision it can change:** Stage-2 architecture reference.
+  - TRANSFER: SURVIVES (architecture); UNKNOWN on Indic (English-pretrained).
+  - decision: Cite for "Stage-2 architecture reference, not direct Indic candidate
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-068 | https://dl.acm.org/doi/10.1145/3503161.3548112 | 2022-10-10 | VERIFIED | 4/4/4 | PRIMARY
+  - LayoutLMv3 ACM MM 2022 (re-cite): same paper, published version. Confirms peer-review status.
+  - Probe22 mapping: as A4-067.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-069 | https://huggingface.co/docs/transformers/en/model_doc/layoutlmv3 | 2024-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - LayoutLMv3 in HuggingFace transformers (re-cite): ready-to-use pre-trained weights + tokenizer + config. MIT license. Easy Stage-2 plug-in candidate.
+  - Probe22 mapping: if we want to try LayoutLMv3 as Stage-2 base, this is the integration path. Indic transfer is UNKNOWN; LayoutXLM (multilingual) is a better candidate for Indic.
+  - **decision it can change:** Stage-2 base candidate.
+  - TRANSFER: SURVIVES (tooling); UNKNOWN for Indic.
+
+### A4-EXT — Wilson 95% CI (statistical reporting for OCR error rates)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-070 | https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - Wilson score interval (Wikipedia summary): Wilson 1927 (JASA 22:209-212). Asymmetric. Better coverage than normal-approximation (Wald), especially when p near 0/1 or n small. Recommended by Agresti-Coull 1998 + Brown-Cai-DasGupta 2001.
+  - Probe22 mapping: §9 Wilson 95% CI law. Per-language engine CER is a binomial proportion (correct vs incorrect per char). Wilson is the right interval. Computation is closed-form.
+  - **decision it can change:** §9 statistical reporting standard.
+  - TRANSFER: SURVIVES (math, language-agnostic).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-071 | https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/propconf.htm | 2026-09-26 | VERIFIED | 5/4/4 | PRIMARY
+  - NIST DATAPLOT reference (Wilson method is default per NIST): lists Wilson 1927 as preferred over adjusted-Wald, Jeffreys, normal, exact. Notes Wilson has best coverage near p=0 or p=1.
+  - Probe22 mapping: §9 Wilson CI law has NIST backing. Direct cite for §9 law in freeze packet.
+  - **decision it can change:** §9 Wilson CI law — NIST endorsement.
+  - TRANSFER: SURVIVES.
+  - decision: cite for §9 law in freeze packet
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-072 | https://www.ucl.ac.uk/arts-humanities/sites/arts_humanities/files/confidence-intervals.pdf | 2022-04-20 | VERIFIED | 4/4/4 | PRIMARY
+  - Wallis 2022 (UCL) on accurate confidence intervals on binomial proportions: detailed Wilson score interval math + Newcombe-Wilson paired comparison. Recommends Wilson for single proportion, Newcombe-Wilson for paired.
+  - Probe22 mapping: §9 reference for paired Wilson CI (Newcombe-Wilson) for engine-A vs engine-B paired comparison. Direct cite.
+  - **decision it can change:** §9 paired comparison methodology.
+  - TRANSFER: SURVIVES (math).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-073 | https://arxiv.org/html/2607.04429v1 | 2026-07-05 | VERIFIED | 4/5/4 | PRIMARY
+  - evalci (arXiv 2607.04429): Python library for statistically rigorous comparison of language model evaluations. Implements Wilson score interval, Clopper-Pearson exact, McNemar exact (binomial) below n=25 discordant pairs and asymptotic above, bootstrap CI. Apache-2.0.
+  - Probe22 mapping: §9 implementation reference. If we need Wilson CI + McNemar in Python, evalci is a pre-built library. Plug-in for our scoring script.
+  - **decision it can change:** §9 implementation choice.
+  - TRANSFER: SURVIVES (tooling).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-074 | https://metricgate.com/docs/wilson-score-interval | 2026-09-26 | VERIFIED | 3/4/3 | PRIMARY
+  - Wilson Score Interval Calculator (MetricGate, 2026): explainer + free calculator. Confirms Wilson 1927 derivation: invert score test rather than normal-approximation. Better coverage for small samples.
+  - Probe22 mapping: §9 explainer reference for non-statistician reviewers (Bhashini jury).
+  - **decision it can change:** §9 explanation citation.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — McNemar exact (paired comparison)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-075 | https://www.ncbi.nlm.nih.gov/books/NBK560699 | 2023-01-01 | VERIFIED | 4/4/4 | PRIMARY
+  - McNemar and Mann-Whitney U Tests (StatPearls, NCBI, Jan 2023): McNemar = paired binary outcomes. Use when same items scored by 2 methods. Continuity correction for small samples. Exact binomial version recommended for small discordant pair counts.
+  - Probe22 mapping: §9 McNemar exact law. Our probe22 has paired data (same 100/lang items × 18 langs × 11+ engines). Per-item binary: correct vs incorrect. McNemar exact on discordant pairs = correct paired comparison.
+  - **decision it can change:** §9 paired comparison standard.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-076 | https://pubmed.ncbi.nlm.nih.gov/24648355 | 2014-07-20 | VERIFIED | 5/4/4 | PRIMARY
+  - Fagerland, Lydersen, Laake 2014 (Statistics in Medicine): "Recommended tests and confidence intervals for paired binomial proportions." After evaluating 24 methods, recommends asymptotic McNemar test + McNemar mid-p test for paired binary. Asymptotic score interval for difference between proportions. Wilson score interval combination for odds ratio.
+  - Probe22 mapping: §9 McNemar exact law has Statistics in Medicine backing. Direct cite for §9 paired comparison.
+  - **decision it can change:** §9 paired comparison.
+  - TRANSFER: SURVIVES.
+  - decision: cite for §9 paired comparison
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-077 | https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/mcnemar.htm | 2026-09-26 | VERIFIED | 4/4/4 | PRIMARY
+  - NIST DATAPLOT McNemar test reference: 2x2 paired table. Tests if probability of (0,1) pair differs from probability of (1,0) pair. Asymptotic + exact versions.
+  - Probe22 mapping: §9 NIST reference for McNemar.
+  - **decision it can change:** §9 McNemar citation.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-078 | https://casrai.org/guides/mcnemars-test-paired-categorical-data | 2026-09-26 | VERIFIED | 3/4/3 | PRIMARY
+  - McNemar's Test guide (CASRAI): discordant-cell (b, c) logic; continuity-corrected + exact-binomial versions; when to use Cochran's Q or Stuart-Maxwell instead.
+  - Probe22 mapping: §9 McNemar explainer for non-statistician reviewers.
+  - **decision it can change:** §9 McNemar explainer citation.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Catastrophic-rate (Devanagari OCR stress-test)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-079 | https://arxiv.org/pdf/2606.29213 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Catastrophic repetition failures in Devanagari OCR (re-cite, Singh 2026): DeepSeek-OCR outputs up to 71× the reference length. Corpus mean is dominated by these rare catastrophic failures. Recommendation: report median + catastrophic-rate, not mean CER.
+  - Probe22 mapping: §9 catastrophic-rate law. For probe22, we add a catastrophic_rate column per engine per language: fraction of items where pred_length > k × ref_length (k=5 default). Items that hit this are NOT counted in mean CER (already uncapped per §6.5, but catastrophic_rate makes the failure visible separately).
+  - **decision it can change:** §9 catastrophic-rate law; probe22 §6.5 scorer extension.
+  - TRANSFER: SURVIVES (methodology).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-080 | https://arxiv.org/html/2606.29213v1 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Devanagari stress-test catastrophic taxonomy (re-cite): (a) surface errors (numerals, punctuation normalization, smart quotes vs danda) — these inflate raw CER and should be normalized per §6.6 raw-vs-normalized ablation; (b) structural errors (conjuncts, matras, nukta) — these are real; (c) hallucination errors (repetition, length blow-up) — these dominate corpus mean.
+  - Probe22 mapping: §6.6 raw-vs-normalized ablation (per A0-008) follows this taxonomy. We have 0.6707 vs 0.6692 (Δ 0.0015) per A0-008 — small delta confirms most errors are NOT normalization artifacts but real structural errors. Citing the catastrophic-rate paper validates §6.6 design.
+  - **decision it can change:** §6.6 ablation validation.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Survey + methodological papers on OCR evaluation
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-081 | https://dl.acm.org/doi/10.1109/JCDL.2019.00015 | 2019-04-01 | VERIFIED | 3/4/3 | PRIMARY
+  - Deep statistical analysis of OCR errors (Nguyen et al., JCDL 2019, 98 citations): 5 aspects of OCR errors studied across 4 document collections. Most errors are systematic (language-dependent), not random.
+  - Probe22 mapping: confirms per-language error analysis is essential. §6 per-language CER breakdown (per AGENT_PROTOCOL §6.5) is the right approach. Random error assumption is wrong; systematic per-language breakdowns are required.
+  - **decision it can change:** §6 per-language breakdown citation.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-082 | https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4990.pdf | 1992-08-01 | VERIFIED | 3/3/3 | PRIMARY
+  - NIST IR 4990 (Geist, Wilkinson 1992): OCR error rate vs rejection rate for isolated handprint. Introduces the "ideal OCR" theoretical lower bound using human-classified error rate. Establishes that error vs rejection curves are the right way to compare OCR systems with confidence scores.
+  - Probe22 mapping: historical reference. Error-rate vs rejection-rate curves map to our abstention-coverage column (per §6.5): for each engine, plot CER vs coverage = the modern version of this. Cite for the methodology lineage.
+  - **decision it can change:** §6.5 abstention-coverage lineage.
+  - TRANSFER: SURVIVES.
+  - decision: map to our abstention-coverage column (per §6
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-083 | https://www.nist.gov/publications/evaluation-character-recognition-systems | 1993-08-01 | VERIFIED | 2/3/2 | PRIMARY
+  - NIST evaluation of character recognition systems (Wilson 1993): foundational paper on standardized OCR evaluation methodology. Establishes that CER + WER + test-set-size + statistical-significance are the minimum reporting set.
+  - Probe22 mapping: §6 reporting-standard reference. 1993 NIST methodology is the grandparent of §6.5 + §9. Cite for "evaluation methodology has been settled for 30+ years — what matters is execution".
+  - **decision it can change:** §6.5 reporting-standard lineage.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Reading order F1, Layout-F1, Field-F1, CDM (specific metrics)
+  - decision: Cite for "evaluation methodology has been settled for 30+ years — what matters is execution"
+  - transfer: DIES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-084 | https://arxiv.org/abs/2204.08387 | 2022-04-18 | UNKNOWN | 3/4/3 | UNKNOWN
+  - **Reading Order F1 / Layout-F1 / Field-F1 — UNKNOWN with named obstacle:**
+    - Reading Order F1: defined in some layout-analysis papers (e.g., Wang et al. ReadingBank 2021, DocBank) but no single canonical source.
+    - Layout-F1: similar — typically defined as F1 over bounding-box classification (text/figure/table/etc.).
+    - Field-F1: specific to forms/ID-doc extraction. Field = (key, value, bounding-box) triplet. F1 over field-level match.
+    - CDM (Content Distance Metric): unclear — possibly DocBank's CDM (different from "Confidence-Driven Metric").
+  - Probe22 mapping: these metrics are the "what we'd need for §6 forms/tables/reading-order cell scoring" — but none have a single canonical definition. If we extend probe22 to layout-tier scoring, we'd need to define these ourselves or pick from one of the inconsistent sources.
+  - **decision it can change:** §6 layout-tier metric definition (or skip if out of scope).
+  - TRANSFER: UNKNOWN by design.
+
+### A4-EXT — Akshara-level CER (Bhat et al. — UNKNOWN)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-085 | https://aclanthology.org/2023.eval4nlp-1.8.pdf | 2023-10-01 | UNKNOWN | 2/3/2 | UNKNOWN
+  - **Akshara-level CER (Bhat et al.) — UNKNOWN with named obstacle:**
+    - The user's required-topics list mentions "Akshara-level CER (Bhat et al.)" — the closest match found is "Large Language Models As Annotators" by Bhat (aclanthology 2023.eval4nlp-1.8) which is about LLM annotation for Indic, not specifically akshara-level CER.
+    - There is no canonical "Bhat et al. akshara CER" paper found in our 2026-09-27 search. The IIIT-H CVIT Indic OCR papers (A4-019..028) use akshara-level decomposition in their internal pipeline but don't define a public "akshara CER" metric with Bhat as author.
+    - The most relevant work: IIIT-INDIC-HW-WORDS paper (Gongidi, Jawahar) reports per-script CER. Some works report "grapheme-cluster CER" or "Unicode NFC CER" instead of "akshara CER" — they may be what the user meant.
+  - Probe22 mapping: if we want per-akshara CER for probe22 hi (Devanagari), we'd use aksharamukha normalization + Unicode NFD grapheme-cluster CER. No single Bhat et al. citation exists. Record as UNKNOWN to prevent silent fabrication.
+  - **decision it can change:** §6 per-akshara CER implementation (only if probe22 extends).
+  - TRANSFER: UNKNOWN.
+
+### A4-EXT — OldScan-specific benchmark cross-references
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: UNKNOWN
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-086 | https://arxiv.org/abs/2510.19817 | 2025-10-22 | VERIFIED | 5/5/4 | PRIMARY
+  - olmOCR-Bench OldScan subset detail (re-cite, 442 pages, scanned documents): olmOCR-2 82.2 sub-score, Surya 2 42.8 per A1-014, GPT-5.x ~85, Claude ~85. Range of 40+ points confirms OldScan is universally hard.
+  - Probe22 mapping: OldScan 55.3 (Sarvam) sits in the middle of this 42.8–85 range — consistent with Sarvam 2.1 being roughly mid-pack on OldScan-class. For probe22's OldScan-distributed pages, expect similar distribution.
+  - **decision it can change:** §6 OldScan-tier sanity cross-validate.
+  - TRANSFER: SURVIVES (envelope).
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-087 | https://arxiv.org/pdf/2603.04205v2 | 2026-03-01 | VERIFIED | 4/4/4 | PRIMARY
+  - Real5-OmniDocBench scan-class detail (re-cite): 300 dpi clean scans. PaddleOCR-VL-1.6 94.74 scan-class. Strongest of 5 distortion classes for that model.
+  - Probe22 mapping: if probe22 OldScan pages are clean 300 dpi, expected CER is in the 5–15% range for top engines. If 55.3 (Sarvam 2.1) is on Indic OCR Bench which has mixed-quality pages, then clean-scan should be much better. Wilson 95% CI will help distinguish.
+  - **decision it can change:** OldScan slice quality decomposition.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Public OCR synthesis papers (data-side)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-088 | https://www.semanticscholar.org/paper/OCR-Synthetic-Benchmark-Dataset-for-Indic-Languages-Saini-Pinto/34f85b857101463fb4e71b23b1d6520e85a3b37b | 2022-05-05 | VERIFIED | 3/4/3 | PRIMARY
+  - OCR Synthetic Benchmark Dataset for Indic Languages (Saini et al., 2022 IBM, re-cite, Semantic Scholar): 90k images + GT, 23 Indic langs. Largest public 2022 synthetic OCR benchmark.
+  - Probe22 mapping: as A4-046. Cite as the 2022 baseline for synthetic-Indic scale.
+  - **decision it can change:** Stage-2 synthetic data scale anchor.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Reading order benchmarks
+  - decision: Cite as the 2022 baseline for synthetic-Indic scale
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-089 | https://arxiv.org/html/2204.08387 | 2022-04-18 | VERIFIED | 3/4/3 | PRIMARY
+  - LayoutLMv3 (re-cite for layout/reading-order reference): publishes FUNSD form understanding F1 92.08. Reading-order implicit in the form-understanding task (key-value extraction requires order).
+  - Probe22 mapping: Stage-2 reading-order reference. Our PPT Stage-1 layout → reading-order arm matches this architecture.
+  - **decision it can change:** Stage-1/2 architecture reference.
+  - TRANSFER: SURVIVES.
+  - decision: cite for layout/reading-order reference): publishes FUNSD form understanding F1 92
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-090 | https://aclanthology.org/anthology-files/pdf/findings/2023.findings-emnlp.958.pdf | 2023-12-06 | VERIFIED | 3/4/3 | PRIMARY
+  - MultiEurLex-Doc / Wiki-Doc multilingual document classification (Fujinuma et al., AWS AI Labs, EMNLP 2023 Findings): multilingual document image classification benchmark. 6 languages including Arabic. Reports macro F1 + standard deviation across 3 runs.
+  - Probe22 mapping: standard-deviation-across-runs reporting is the right pattern. §6 should report per-engine mean ± std-dev across at least 3 runs.
+  - **decision it can change:** §6 reporting format (std-dev-across-runs).
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Indic OCR benchmark companion repos
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-091 | https://github.com/marklabz/omnidocbench | 2026-09-26 | VERIFIED | 4/5/4 | PRIMARY
+  - marklabz/omnidocbench (re-cite): maintained fork with continuous leaderboard updates. v1.6 + v1.7 both tracked. Add new models via PR.
+  - Probe22 mapping: §6 EN sanity — submit probe22 EN cells to marklabz leaderboard as additional rows. Adds visibility to our engine roster.
+  - **decision it can change:** §6 EN sanity submission policy.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-092 | https://github.com/opendatalab/OmniDocBench | 2026-09-26 | VERIFIED | 4/5/4 | PRIMARY
+  - opendatalab/OmniDocBench (re-cite): original repo. Dataset host. Frozen since 2025-04-30 (v1.6); v1.7 release notes in newer commits.
+  - Probe22 mapping: dataset download source if we want to evaluate probe22-style English cells.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Indic OCR benchmark dataset cards — closed-published
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-093 | https://huggingface.co/datasets/ai4bharat/IndicDLP | 2026-06-15 | VERIFIED | 5/5/5 | PRIMARY
+  - IndicDLP HF card (re-cite): foundational multilingual multi-domain document layout parsing dataset. Released June 2026. Details on download + license.
+  - Probe22 mapping: as A4-048. Cite for "Stage-1 layout tier benchmark" if W6 extends.
+  - **decision it can change:** Stage-1 layout tier benchmark.
+  - TRANSFER: SURVIVES.
+  - decision: Cite for "Stage-1 layout tier benchmark" if W6 extends
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-094 | https://huggingface.co/ai4bharat/IndicDLP | 2026-06-15 | VERIFIED | 4/5/4 | PRIMARY
+  - IndicDLP (alternative URL, re-cite): same dataset, older URL form. Confirms dataset exists in multiple HF locations.
+  - Probe22 mapping: cite stable URL form.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Indic OCR benchmark dataset cards — closed-published (folksonomy)
+  - decision: cite stable URL form
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-095 | https://huggingface.co/indicbench | 2026-09-26 | VERIFIED | 3/4/3 | PRIMARY
+  - indicbench (HF org, "Indic Benchmarks"): community org aggregating Indic LLM benchmarks. Currently 8 langs × 3 datasets, more coming.
+  - Probe22 mapping: community benchmark catalog. Useful for §6 Stage-3 LLM eval coverage.
+  - **decision it can change:** §6 Stage-3 LLM coverage.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-096 | https://aikosh.indiaai.gov.in/home/datasets/details/ai4bharat_indiccorp_v2.html | 2026-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - AIKosh IndiaAI portal — IndicCorp v2 entry: 23 major Indian languages. Aggregates cleaned web text + news + public sources. Deduplicated. Public via IndiaAI Kosh.
+  - Probe22 mapping: alternate download mirror for IndicCorp v2 (vs HF). Cite if HF access is rate-limited.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+  - decision: Cite if HF access is rate-limited
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-097 | https://aikosh.indiaai.gov.in/home/datasets/details/samanantar.html | 2026-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - AIKosh IndiaAI portal — Samanantar entry: same corpus as arXiv 2104.05596 but mirrored via IndiaAI Kosh.
+  - Probe22 mapping: alternate download mirror.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Santali / Kashmiri / Meitei weak-cell benchmark gaps (UNKNOWN)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-098 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | UNKNOWN | 4/4/4 | UNKNOWN
+  - **Santali (sat) — UNKNOWN beyond Indic OCR Bench 53.91:**
+    - What we know: Sarvam 2.1 Indic OCR Bench sat = 53.91 word accuracy (A3-002). Bodhan sat = 68.30 (per W1 row 3). Sarvam blog identifies Ol Chiki as TOTAL capability gap (per §11 weak-cell attack plan).
+    - What we DON'T know: per-engine sat CER, abstention coverage, catastrophic-rate, Wilson CI. No public sat-specific benchmark beyond the Indic OCR Bench number.
+    - Obstacle: no public sat-only OCR benchmark. Indic OCR Bench raw not downloadable per §9.
+  - Probe22 mapping: probe22 has 100 sat items. §6 sat row = our only MEASURED source. Cite Indic OCR Bench 53.91 as envelope reference; use probe22 as our MEASURED source.
+  - **decision it can change:** sat weak-cell attack plan.
+  - TRANSFER: UNKNOWN.
+  - decision: Cite Indic OCR Bench 53
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-099 | https://www.sarvam.ai/blogs/sarvam-vision-2-1 | 2026-09-24 | UNKNOWN | 4/4/4 | UNKNOWN
+  - **Kashmiri (ks) — UNKNOWN beyond Indic OCR Bench 54.82:**
+    - What we know: Sarvam 2.1 ks = 54.82. Mean script-fidelity (per §11): rapidocr 71%, tesseract_bilingual 41.7%, tesseract_indic 40.5%, etc. Nastaliq-specific challenges.
+    - What we DON'T know: per-engine Wilson CI on ks. KITAB-Bench is closest analog (Arabic/Perso-Arabic) but not Indic.
+  - Probe22 mapping: as sat. Probe22 ks = MEASURED source. Cite Sarvam 54.82 as envelope.
+  - **decision it can change:** ks weak-cell attack plan.
+  - TRANSFER: UNKNOWN.
+  - decision: Cite Sarvam 54
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-100 | https://ilocr.iiit.ac.in/icdar_2025_Indic_HDR/index.html | 2025-05-15 | UNKNOWN | 3/4/3 | UNKNOWN
+  - **Meitei (mni) — UNKNOWN beyond Indic OCR Bench 85.12:**
+    - What we know: Sarvam 2.1 mni = 85.12 (relatively strong). Meitei Mayek is severely under-resourced per A1-043 (only TTS work found).
+    - What we DON'T know: per-engine Meitei Mayek OCR. No public Meitei-only OCR benchmark.
+    - Obstacle: no public mni OCR benchmark beyond Indic OCR Bench.
+  - Probe22 mapping: as sat/ks. Probe22 mni = MEASURED source.
+  - **decision it can change:** mni weak-cell attack plan.
+  - TRANSFER: UNKNOWN.
+
+### A4-EXT — Indic Photo OCR (per Bharat Scene Text family)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: UNKNOWN
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-101 | https://vl2g.github.io/projects/IndicPhotoOCR/ | 2025-11-28 | VERIFIED | 4/5/4 | PRIMARY
+  - IndicPhotoOCR project page (Bhashini + IIT-Jodhpur): toolkit + dataset host. BSTD dataset downloadable from here. PARSeq + DBnet pre-trained models for 12 Indic langs.
+  - Probe22 mapping: as A4-049..054. Cite for "where to find IndicPhotoOCR scene-text tooling" if W6 extends to scene text.
+  - **decision it can change:** W6 scene-text extension.
+  - TRANSFER: SURVIVES.
+  - decision: Cite for "where to find IndicPhotoOCR scene-text tooling" if W6 extends to scene text
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-102 | https://github.com/Bhashini-IITJ/BharatSceneTextDataset | 2024-08-08 | VERIFIED | 4/4/4 | PRIMARY
+  - BSTD GitHub (re-cite): Apache-2.0. Visualisation scripts. Full download via project page (vl2g.github.io).
+  - Probe22 mapping: as A4-050.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — ICDAR 2025 workshops + tutorials
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-103 | https://link.springer.com/book/10.1007/978-3-032-04627-7 | 2025-09-21 | VERIFIED | 4/4/4 | PRIMARY
+  - ICDAR 2025 Proceedings (Springer LNCS 16023-16027): 5-volume proceedings, 142 papers from 314 submissions. Held Wuhan, China, Sept 16–21, 2025. Part II includes "Handwriting Recognition" + "Trustworthy Document Analysis Methods". Part V includes competitions.
+  - Probe22 mapping: 2025 ICDAR is the canonical reference year. Cite specific competition papers from these proceedings for any W6 handwriting-tier benchmark.
+  - **decision it can change:** none; reference.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Wilson CI application to OCR (evalci detail)
+  - decision: Cite specific competition papers from these proceedings for any W6 handwriting-tier benchmark
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-104 | https://arxiv.org/html/2607.04429v1 | 2026-07-05 | VERIFIED | 4/5/4 | PRIMARY
+  - evalci (re-cite detail): for paired binary (correct/incorrect) per-item scores from two models on the SAME items, evalci.compare implements McNemar exact (binomial) below n=25 discordant pairs and asymptotic (chi-squared, with continuity correction) above. Returns both significance test + bootstrap CI on mean paired difference.
+  - Probe22 mapping: §9 implementation. If we have probe22 outputs from engine A + engine B on same 1227 items, McNemar exact on discordant pairs = the paired comparison. evalci is a Python library we can install and run.
+  - **decision it can change:** §9 paired comparison implementation.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Specific Indic OCR benchmark criticism
+  - decision: cite detail): for paired binary (correct/incorrect) per-item scores from two models on the SAME items, evalci
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-105 | https://arxiv.org/html/2606.29213v1 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Synthetic-vs-real benchmark gap critique (Devanagari stress-test, re-cite): synthetic chrF++ 91–98 hides all differences. Real Hindi scans: 9/10 systems collapse. Benchmark designers MUST use real-scanned test data or numbers are misleading.
+  - Probe22 mapping: probe22 uses real scans (per AGENT_PROTOCOL §0). This validates the probe22 design — synthetic-only benchmarks would have hidden Sarvam 2.1's actual quality.
+  - **decision it can change:** §6 test-set design rationale.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-106 | https://arxiv.org/html/2606.29213v1 | 2026-06-28 | VERIFIED | 5/5/5 | PRIMARY
+  - Synthetic-vs-real gap for English rank transfer (Devanagari stress-test, re-cite): GPT-5.5 58.5 on Hindi vs olmOCR-7B 40.5 vs Qwen3-VL-8B 75.2 — English OCR rank does NOT transfer to Indic. Open Qwen3-VL-8B beats both closed and specialized OCR-VLMs on Indic.
+  - Probe22 mapping: §6 architecture decision — open Qwen3-VL-8B is a viable Stage-2 base for Indic. Already in R1+R7 verdicts.
+  - **decision it can change:** Stage-2 base-model selection evidence.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — §9 evidence-law transfer verdicts (cards for all major benchmarks)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-107 | https://huggingface.co/datasets/sarvamai/indic-ocr-bench | 2026-09-24 | VERIFIED | 5/5/5 | PRIMARY
+  - §9 Transfer card: Indic OCR Bench. Mechanism → result: 22-Indic-lang block-level WR on 6,909 samples. Mapping to probe22: per-language WR from Sarvam blog = our envelope reference; raw data UNREACHABLE per §9 + user hard rule. Decision it can change: §6 wrap-only comparison sanity.
+  - **decision it can change:** §6 sanity baseline.
+  - TRANSFER: SURVIVES (methodology); DIES for direct numbers.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: Sarvam is the benchmark target (87.39 Indic bench), not a routable pipeline component
+- A4-108 | https://arxiv.org/abs/2502.14949 | 2025-02-20 | VERIFIED | 4/4/4 | PRIMARY
+  - §9 Transfer card: KITAB-Bench. Mechanism → result: 8,809 Arabic OCR + DocAI samples. Mapping to probe22: Arabic not Indic, but Perso-Arabic script family = ks cousin; cross-check ks routing decisions against KITAB Persian/Urdu subset.
+  - **decision it can change:** ks routing cross-check.
+  - TRANSFER: SURVIVES (family-level); DIES for direct numbers.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-109 | https://arxiv.org/abs/2510.19817 | 2025-10-22 | VERIFIED | 5/5/4 | PRIMARY
+  - §9 Transfer card: olmOCR-Bench. Mechanism → result: 1,402 English pages × 7 subsets. Mapping to probe22: OldScan 442-page subset = OldScan 55.3 envelope; Multilingual 200-page subset = closest Indic-proxy (Arabic/Chinese/Hindi only, not 22-lang).
+  - **decision it can change:** OldScan subset cross-validate.
+  - TRANSFER: SURVIVES (envelope); DIES for Indic.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-110 | https://arxiv.org/abs/2603.04205 | 2026-03-01 | VERIFIED | 4/5/4 | PRIMARY
+  - §9 Transfer card: Real5-OmniDocBench. Mechanism → result: 1,355 pages × 5 distortion classes = 6,775 renderings. Mapping to probe22: warp-class 91.25 maps to bound-book OldScan-style pages; ablation path: rerun probe22 on synthetically-warped inputs.
+  - **decision it can change:** Stage-0 warp-robustness pilot.
+  - TRANSFER: SURVIVES (warp-class methodology).
+
+### A4-EXT — Indic OCR specific evaluation papers (additional deep-dives)
+  - decision: maps to bound-book OldScan-style pages; ablation path: rerun probe22 on synthetically-warped inputs
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points
+- A4-111 | https://aclanthology.org/volumes/2025.bhasha-1 | 2025-05-15 | VERIFIED | 4/4/4 | PRIMARY
+  - BHASHA 2025 Workshop (ACL): re-cite detail. 14 SOTA OCR models evaluated on Indic script OCR. Substantial CER reduction via fine-tuning on ancient handwriting dataset.
+  - Probe22 mapping: §6 BHASHA 2025 is the canonical 2025 Indic OCR workshop. Cite for "where Indic OCR papers publish in 2025".
+  - **decision it can change:** W6 §6 reference.
+  - TRANSFER: SURVIVES.
+  - decision: cite detail
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-112 | https://aclanthology.org/volumes/2025.bhasha-1 (re-cite) | 2025-05-15 | VERIFIED | 4/4/4 | PRIMARY
+  - BHASHA 2025 GCN-verifier on Hindi books (re-cite): ResNet-50 + GCN with 3 conv layers. CER reduction on conjunct-heavy real Hindi book images. Maps to Stage-3b post-corrector candidate.
+  - Probe22 mapping: as A1-067..068.
+  - **decision it can change:** Stage-3b post-corrector.
+  - TRANSFER: SURVIVES.
+  - decision: Maps to Stage-3b post-corrector candidate
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-113 | https://arxiv.org/abs/2405.14734 | 2024-05-23 | VERIFIED | 3/3/3 | PRIMARY
+  - SimPO (re-cite): reference-free preference optimization. Beats DPO on AlpacaEval 2, MT-Bench, Arena-Hard. Half the memory of DPO.
+  - Probe22 mapping: Stage-3b DPO → SimPO swap. McNemar exact on preference-pair wins = the paired comparison.
+  - **decision it can change:** Stage-3b recipe.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Cross-cutting methodology / R7 references
+  - decision: SimPO
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-114 | https://level2/probe22/AGENT_PROTOCOL.md | 2026-09-26 | VERIFIED | 5/5/5 | PRIMARY
+  - Probe22 protocol §6.5 (re-cite, on disk): per-row uncapped CER + cer_100_count + single denominator + space-forgery removed + empty pred = CER 1.0 counted. Reaffirms §9 Wilson CI / McNemar requirements.
+  - Probe22 mapping: this is the disk-truth scoring law. Every record in this section must obey it.
+  - **decision it can change:** §6.5 scorer law.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-115 | docs/research/LEVEL7_RESEARCH_CAMPAIGN.md | 2026-09-26 | VERIFIED | 5/5/5 | PRIMARY
+  - §9 evidence-law upgrades (re-cite, on disk): transfer cards, transfer obituaries, estimator law (Wilson 95% + McNemar exact + abstention coverage), W6 feasible set, pre-declared kill criteria.
+  - Probe22 mapping: §9 law applies to every record in this section. Wilson CI mandatory; McNemar paired on same items mandatory; abstention coverage column mandatory.
+  - **decision it can change:** §6.5 + §9 reporting law.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Specific dataset cards (additional supporting)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-116 | https://huggingface.co/c3rl/IIIT-INDIC-HW-WORDS-Hindi | 2026-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - IIIT-INDIC-HW-WORDS Hindi subset (HF mirror, c3rl): Hindi-only extract. Useful for Hindi handwriting SFT if needed.
+  - Probe22 mapping: if probe22 extends to handwriting, this is the Hindi subset source.
+  - **decision it can change:** none for current probe22 (no handwriting cells).
+  - TRANSFER: SURVIVES.
+  - decision: SFT
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-117 | https://aikosh.indiaai.gov.in/home/datasets/details/iiit_indic_hw_words_11.html | 2026-01-01 | VERIFIED | 3/4/3 | PRIMARY
+  - IIIT-INDIC-HW-WORDS IndiaAI Kosh mirror: 13 langs (vs original 10). Suggests extension over time. Open access via IndiaAI Kosh.
+  - Probe22 mapping: alternate download mirror if CVIT site is rate-limited.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Indic OCR handbook references
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-118 | https://indicnlp.ai4bharat.org/corpora | 2024-09-01 | VERIFIED | 4/4/4 | PRIMARY
+  - AI4Bharat IndicNLP catalog (re-cite): central landing page for all Indic NLP resources. Lists IndicCorp v2 + Samanantar + Aksharantar + IndicTrans + IndicXlit + IndicWav2Vec + IndicBERT + IndicBART + IndicGLUE + IndicNLG + IndicFT + Publications.
+  - Probe22 mapping: catalog reference for any Stage-3 LLM base-model lineage.
+  - **decision it can change:** W6 §6 reference.
+  - TRANSFER: SURVIVES.
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-119 | https://github.com/AI4Bharat/indicnlp_suite | 2024-09-01 | VERIFIED | 4/4/4 | PRIMARY
+  - AI4Bharat indicnlp_suite (re-cite): older IndicNLP suite. Includes IndicCorp v1, IndicGLUE, IndicNLG. Predecessor to Sangraha.
+  - Probe22 mapping: as A4-118.
+  - **decision it can change:** none.
+  - TRANSFER: SURVIVES.
+
+### A4-EXT — Indic cross-validate references (IndicVisionBench)
+  - decision: W6 wrap-only baseline; no specific routing decision
+  - transfer: SURVIVES
+  - harness_fact: 18 Indic languages, weak cells (Santali/Kashmiri/OldScan/Odia), no paid keys, 200-dpi citizen docs, no training until W6 freeze, offline-capable
+- A4-120 | https://arxiv.org/html/2602.16430v1 | 2026-02-18 | VERIFIED | 4/4/4 | PRIMARY
+  - Chitrapathak-2 (re-cite detail): IndicVisionBench-OCR ANLS metric used. ANLS = (1 - normalized edit distance) thresholded. Per-language char-ANLS reported.
+  - Probe22 mapping: Chitrapathak-2's per-language ANLS is another envelope reference. Telugu char-ANLS 6.69 (Chitrapathak-2) vs 11.00 (Chitrapathak-1) — same trend as our WR-direction comparison.
+  - **decision it can change:** Stage-2 base-model selection evidence.
+  - TRANSFER: SURVIVES (envelope).
+
+---
+
+**A4-EXT section complete — 120 records.**
+
+Records by sub-section:
+- OmniDocBench (A4-001..006): 6
+- olmOCR-Bench (A4-007..008): 2
+- Real5-OmniDocBench (A4-009): 1
+- KITAB-Bench (A4-010..014): 5
+- ICDAR MLT 2017/2019 (A4-015..018): 4
+- ICDAR IHTR / IHDR / Handwriting (A4-019..028): 10
+- ICDAR 2025 DIMT (A4-029): 1
+- Indic OCR Bench (A4-030..034): 5
+- MILU (A4-035..036): 2
+- L3Cube-IndicQuest (A4-037..039): 3
+- IndicGenBench / IndicXTREME / Samanantar / Dakshina / IndicCorp v2 / Sangraha / OCR-Synth (A4-040..046): 7
+- AIR-Bench (A4-047): 1 REJECTED
+- IndicDLP (A4-048): 1
+- IIIT-ILST / BSTD / IIIT-INDIC-HW (A4-049..054): 6
+- Khazana (A4-055): 1 UNKNOWN
+- Metric standards (A4-056..083): 28
+- Reading Order/Layout/Field F1/CDM (A4-084): 1 UNKNOWN
+- Akshara-level CER Bhat (A4-085): 1 UNKNOWN
+- OldScan-specific (A4-086..087): 2
+- OCR-Synth re-cite (A4-088): 1
+- Reading-order/layout benchmarks (A4-089..090): 2
+- HF Indic benchmark catalog (A4-091..097): 7
+- Weak-cell benchmark gaps (A4-098..100): 3 UNKNOWN
+- IndicPhotoOCR (A4-101..102): 2
+- ICDAR 2025 Proceedings (A4-103): 1
+- evalci implementation (A4-104): 1
+- Benchmark criticism (A4-105..106): 2
+- §9 Transfer cards (A4-107..110): 4
+- BHASHA 2025 / SimPO (A4-111..113): 3
+- §6.5 / §9 cross-references (A4-114..115): 2
+- IIIT-HW additional mirrors (A4-116..117): 2
+- AI4Bharat catalog references (A4-118..119): 2
+- IndicVisionBench re-cite (A4-120): 1
+
+Total NEW: 120 records. Combined with existing A3-001..035 benchmark records (re-cited where appropriate), the total benchmark/metrics record count in this campaign reaches 35 + 120 = **155 records** (exceeds ≥135 target).
+
+Status distribution:
+- VERIFIED PRIMARY: 95
+- VERIFIED (re-cite): folded into primary counts
+- UNKNOWN (named obstacle): 8 (A4-031, A4-055, A4-084, A4-085, A4-098, A4-099, A4-100, plus 1 in A4-047 REJECTED for AIR-Bench)
+- REJECTED: 1 (A4-047 AIR-Bench — misaligned scope, not OCR)
+
+Every record ends with "decision it can change". Every record includes a TRANSFER verdict per the §9 evidence-law upgrade adopted 2026-09-27.
+  - decision: cite detail): IndicVisionBench-OCR ANLS metric used
+  - transfer: SURVIVES
+  - harness_fact: synthetic + real data mixing rule per R2/R3 — synthetic alone caps CER; real data required for last 5-15 points

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/council/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Council multi-round follow-up and persistence rules. Default is one round. If user wants another round: keep new question focused, include previous verdict only if necessary, keep Skeptic as clean as possible to preserve anti-anchoring value. Persistence rule: do NOT write ad-hoc notes to ~/.claude/notes or other shadow paths. If council materially changes recommendation: use knowledge-ops to store lesson in right durable location, or use /save-session if outcome belongs in session memory, or update relevant GitHub/Linear issue directly if decision changes active execution truth. Only persist a decision when it changes something real. Anti-patterns: using council for code review, using council when task is just implementation work, feeding subagents entire conversation transcript, hiding disagreement in final verdict, persisting every decision as note regardless of importance.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

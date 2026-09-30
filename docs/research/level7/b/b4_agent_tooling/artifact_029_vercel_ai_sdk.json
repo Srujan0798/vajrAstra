@@ -1,0 +1,19 @@
+{
+  "source_url": "https://vercel.com/docs/ai-sdk",
+  "date": "2026-09-03",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Vercel AI SDK: Unified TypeScript SDK for building AI apps with modern streaming, multi-model, provider-agnostic capabilities. npm i ai. Core: Multi-provider support (switch providers with one line), streaming that works, built-in fallbacks, AI Gateway compatible. Example: generateText with model 'openai/gpt-5'. Scale with Vercel AI Gateway (100+ models, no markup, no multiple API keys), Vercel Sandbox (secure agent code execution), Workflows (long-running agents that suspend/resume/survive timeouts), AI Elements (UI component library). Framework agnostic: Next.js, React, Svelte, Angular, Vue, Nuxt, Solid. AI SDK Core (unified API for text, structured objects, tool calls, agents), AI SDK UI (framework-agnostic hooks for chat/generative UI).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

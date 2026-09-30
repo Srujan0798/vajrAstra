@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ralphworkflow.com/blog/multi-agent-orchestration-patterns",
+  "date": "2026-05-29",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Ralph Workflow practical multi-agent orchestration patterns. Key insight: one model doing everything vs. clean handoffs between specialized agents. Pipeline pattern that works: 1) Plan - strong reasoning model defines scope, acceptance criteria, 'done' definition, 2) Build - fast coding model implements against spec in isolated workspace, 3) Verify - second model (or same with different prompting) reviews diff, runs checks, flags issues, 4) Fix - targeted corrections on flagged items with tight loop ceiling to prevent drift. Cost arbitrage: expensive model only runs where reasoning adds value. Cheap model handles bulk implementation. Each phase produces reviewable artifact next phase can judge. Not about more agents, but clear phase boundaries. Mentions humanplane style RFC decomposition patterns as inspiration for ralphinho-rfc-pipeline skill.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/opendatahub-io/agent-eval-harness",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Eval Harness (OpenDataHub/Red Hat): Declarative eval.yaml drives analysis → generate cases → run → judge → trace in MLflow → optimize. Same config on laptop, Harbor containers, or EvalHub. Skill mode (test predefined skill implementations) or Prompt mode (test agent capabilities directly via prompts). Robust scoring: LLM + code judges, pairwise A/B, thresholds, HTML reports. MLflow-native traces. Execution mode: case (one invocation per test case, default) or batch (one invocation for all cases via batch.yaml).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

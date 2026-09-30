@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/delivery-gate/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Delivery Gate configuration and blocking conditions. Configuration in quality-gate.py: RATIONALIZE (4 patterns: 'skip tests for now', 'pre-existing bug', 'will fix later', 'good enough for now'), LIBS (5 paths: growth-log/, decisions/log.md, output-index.md, ratings-tracker.md, tooling_capabilities.md), COMPLEX_THRESHOLD=3, DISK_WARN_GB=50, DISK_CRIT_GB=15. Blocking conditions: disk <15GB, >=3 learning libs stale, OR growth-log stale + complex task (>=3 edits). Rationalization patterns warning only (regex heuristics can false-positive). Install: cp quality-gate.py ~/.claude/scripts/; add Stop hook to ~/.claude/settings.json. Examples: simple session (1 edit) -> exit 0; complex task with learning captured -> exit 0; complex task no learning -> BLOCKED; low disk -> BLOCKED. Pair with self-audit for content quality verification.",
+  "status": "MEASURED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

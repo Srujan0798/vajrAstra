@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.langchain.com/oss/javascript/deepagents/overview",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangChain Deep Agents: Batteries-included agents with automatic context compression, virtual filesystem, subagent spawning. Built on LangChain agents. Quickly build agents that tackle any task. Memory: filesystem-backed long-term memory, agent reads/writes memory as files, backends control storage/access. Skills for procedural memory (reusable instructions). Context engineering for short-term memory (conversation history, scratch files within session) managed automatically as part of agent state. Use Model Context Protocol (MCP) tools within Deep Agents. LangGraph for advanced orchestration combining deterministic and agentic workflows.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

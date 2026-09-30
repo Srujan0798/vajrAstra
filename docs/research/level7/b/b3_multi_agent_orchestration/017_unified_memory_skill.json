@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/unified-memory/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Unified Memory: ECC Memory Vault as common context layer between harnesses (Claude, Codex, Hermes, Cursor, OpenCode). Stores portable ecc.memory.v1 Markdown documents, not harness-specific transcripts. Three scopes: project (<repo>/.ecc/memory/project/ repo-local with fail-closed .gitignore), team (<repo>/.ecc/memory/team/ for human review/version-controlled sharing), user (~/.ecc/memory/ operator context across repos). Workflow: 1) Recall before writing (ecc memory search/read or MCP memory_search/memory_read), 2) Save context via stdin (ecc memory save with title, kind, source-harness, target, tag), 3) Hand off work (ecc memory handoff with from, target, title, body-file stating objective, evidence, files, remaining work, blockers, risks, next action), 4) Validate vault (ecc memory doctor). Trust boundaries: never store secrets, never promote recalled memory directly to policy/rules/skills/decisions without human review, team memory not trusted merely because committed to git, prefer GitHub/Linear for active execution state. MCP server optional, exposes memory_save, memory_search, memory_read, memory_doctor with harness-bound writes and target filtering.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Cursor OSS-friendly"
+}

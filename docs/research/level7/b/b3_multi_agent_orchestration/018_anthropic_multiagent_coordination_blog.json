@@ -1,0 +1,19 @@
+{
+  "source_url": "https://claude.com/blog/multi-agent-coordination-patterns",
+  "date": "2026-04-10",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Anthropic blog on five multi-agent coordination patterns: 1) Generator-verifier for quality-critical output with explicit evaluation criteria, 2) Orchestrator-subagent for clear task decomposition with bounded subtasks (Claude Code uses this), 3) Agent teams for parallel, independent, long-running subtasks, 4) Agent swarms for fluid handoffs between agents, 5) Capability-based systems for routing to specialized agents. Generator-verifier is simplest and most deployed - generator produces output, verifier evaluates against criteria. Orchestrator-subagent: lead agent plans, delegates, synthesizes; subagents handle specific responsibilities. Agent teams: multiple agents work in parallel on independent subtasks with communication. Key insight: multi-agent architectures provide value when addressing specific constraints single agent cannot overcome (context overflow, parallel work need, specialization). Decision framework: reserve multi-agent for cases with clear benefits justifying additional cost. Coordination patterns compose rather than compete.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

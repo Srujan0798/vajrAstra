@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.langchain.com/oss/javascript/build-overview",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangChain.js Build Overview: Open source stack for designing, testing, shipping agents in TypeScript. Choose framework: Deep Agents (batteries-included: auto context compression, virtual filesystem, subagent spawning), LangChain (customizable harness: create_agent with model, tools, prompt, middleware), LangGraph (low-level orchestration: deterministic + agentic workflows). LangSmith for tracing, debugging, evaluating agents built with any framework. All three share same stack. Supports MCP tools. Agent Chat UI, observability for production.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

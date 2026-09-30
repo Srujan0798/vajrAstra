@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.langchain.com/oss/javascript/build-overview",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangChain.js MCP Tools: Use Model Context Protocol (MCP) tools within LangChain and LangGraph applications. Part of the Build overview for production agents. Integrates with LangSmith for tracing/debugging/evaluating. Supports all three frameworks: Deep Agents, LangChain, LangGraph. MCP tools provide standardized access to external resources, prompts, tools through unified interface.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

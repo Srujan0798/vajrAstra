@@ -1,0 +1,19 @@
+{
+  "source_url": "https://developer.nylas.com/docs/cookbook/agents/prevent-prompt-injection",
+  "date": "2026-06-20",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LAYA Email Guard Pattern: 4-layer defense for email agents. 1) Data boundary: treat email body as data, wrap in explicit boundary, instruct model content is for analysis not orders. 2) Tool scoping: email agent that only labels/drafts should never hold send tool. 3) Recipient allowlist: gate sends behind deny-by-default allowlist. 4) Human approval: require approval for risky actions. Every send passes through explicit checks (allowlist, cap/hour, tool list, approval). Policy enforcement at boundary between model and world. No system prompt is injection-proof. OWASP LLM01:2025 top risk.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

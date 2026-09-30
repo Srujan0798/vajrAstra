@@ -1,0 +1,19 @@
+{
+  "source_url": "https://cursor.com/docs/sdk/typescript",
+  "date": "2026-09-03",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Cursor TypeScript SDK (@cursor/sdk) lets you call Cursor's agent from your own TypeScript code. Same agent runs in Cursor IDE, CLI, and web app. SDK Bridge is a local server embedding TypeScript SDK exposing agent surface over Connect/protobuf protocol for languages without first-party SDK. MCP servers, subagents, and hooks resolve from inline options > creation-time inline > project files > user files > team/dashboard config. Per-send mcpServers fully replaces creation-time servers. settingSources controls which config layers load: user, project, local, plugins. additionalDirectories (TypeScript) / add_dirs (Python) pass --add-dir to Claude Code. Skills, commands, subagents from flag-added directories load through project setting source.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Cursor OSS-friendly"
+}

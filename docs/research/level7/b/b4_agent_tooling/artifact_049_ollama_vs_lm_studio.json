@@ -1,0 +1,19 @@
+{
+  "source_url": "https://machinelearningmastery.com/ollama-vs-lm-studio-vs-llama-cpp-which-local-ai-runtime-should-you-use-in-2026",
+  "date": "2026-01-10",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Ollama vs LM Studio vs llama.cpp (2026): Three tools dominate local AI runtime landscape. All run same core inference engine (llama.cpp). 5 axes of practitioner comparison: GUI vs CLI, API maturity, model management, resource usage, ecosystem. LM Studio: desktop app (Windows/macOS/Linux) with GUI for downloading, managing, running LLMs. Dead-simple CLI: curl localhost:1234/v1/chat/completions. llama.cpp: raw compiled C++ binary in terminal. Quick answer: GUI + zero CLI → LM Studio; terminal comfort + scriptability → Ollama. Ollama: native OpenAI-compatible API server (ollama serve), excellent for scripting/automation, huge ecosystem integrations.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

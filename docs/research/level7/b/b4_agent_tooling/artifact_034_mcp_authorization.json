@@ -1,0 +1,19 @@
+{
+  "source_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
+  "date": "2025-06-18",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Authorization (2025-06-18 spec): OAuth 2.1 for HTTP-based transports. Authorization OPTIONAL for MCP. HTTP transports SHOULD conform, STDIO SHOULD NOT (use env credentials), alternative transports MUST follow security best practices. Requirements: OAuth 2.1 with security measures for confidential/public clients, Dynamic Client Registration (RFC7591), Protected Resource Metadata (RFC9728), Authorization Server Metadata (RFC8414). Resource parameter (RFC8707) MUST be included in auth/token requests identifying MCP server. Short-lived access tokens, rotate refresh tokens for public clients. HTTPS required for all auth endpoints. PKCE mandatory. Token audience validation critical - servers MUST validate tokens issued for them. Token passthrough forbidden. Confused deputy prevention for proxy servers.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

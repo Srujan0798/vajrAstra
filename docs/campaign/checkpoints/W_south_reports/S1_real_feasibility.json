@@ -1,0 +1,1134 @@
+{
+  "timestamp": "2026-09-30T15:15:29.510625Z",
+  "protocol": "proto-104 rev 2 step S1",
+  "gates": {
+    "MIN_CHARS": 50,
+    "MIN_SCRIPT_RATIO": 0.5,
+    "MAX_LATIN_RATIO": 0.6,
+    "MAX_CTRL_CHARS": 3
+  },
+  "results": [
+    {
+      "lang": "Tamil",
+      "code": "ta",
+      "pdfs_total": 34,
+      "pdfs_with_clean": 0,
+      "pages_scanned": 6606,
+      "pages_clean": 0,
+      "pages_rejected": 6606,
+      "legacy_mojibake": 6542,
+      "per_pdf_stats": {
+        "s_tamil0005pro_raw.pdf": {
+          "pages_scanned": 12,
+          "clean": 0,
+          "rejected": 12,
+          "legacy_mojibake": 0
+        },
+        "s_tamil0006pro_raw.pdf": {
+          "pages_scanned": 12,
+          "clean": 0,
+          "rejected": 12,
+          "legacy_mojibake": 12
+        },
+        "s_tamil0007pro_raw.pdf": {
+          "pages_scanned": 15,
+          "clean": 0,
+          "rejected": 15,
+          "legacy_mojibake": 15
+        },
+        "s_tamil0008pro_raw.pdf": {
+          "pages_scanned": 7,
+          "clean": 0,
+          "rejected": 7,
+          "legacy_mojibake": 0
+        },
+        "s_tamil0009pro_raw.pdf": {
+          "pages_scanned": 1,
+          "clean": 0,
+          "rejected": 1,
+          "legacy_mojibake": 0
+        },
+        "s_tamil0010pro_raw.pdf": {
+          "pages_scanned": 14,
+          "clean": 0,
+          "rejected": 14,
+          "legacy_mojibake": 0
+        },
+        "s_tamil0011pro_raw.pdf": {
+          "pages_scanned": 15,
+          "clean": 0,
+          "rejected": 15,
+          "legacy_mojibake": 0
+        },
+        "s_tamil0012pro_raw.pdf": {
+          "pages_scanned": 12,
+          "clean": 0,
+          "rejected": 12,
+          "legacy_mojibake": 12
+        },
+        "s_tamil0013pro_raw.pdf": {
+          "pages_scanned": 27,
+          "clean": 0,
+          "rejected": 27,
+          "legacy_mojibake": 25
+        },
+        "s_tamil0014pro_raw.pdf": {
+          "pages_scanned": 18,
+          "clean": 0,
+          "rejected": 18,
+          "legacy_mojibake": 18
+        },
+        "s_tamil0015pro_raw.pdf": {
+          "pages_scanned": 130,
+          "clean": 0,
+          "rejected": 130,
+          "legacy_mojibake": 125
+        },
+        "s_tamil0016pro_raw.pdf": {
+          "pages_scanned": 157,
+          "clean": 0,
+          "rejected": 157,
+          "legacy_mojibake": 155
+        },
+        "s_tamil0017pro_raw.pdf": {
+          "pages_scanned": 18,
+          "clean": 0,
+          "rejected": 18,
+          "legacy_mojibake": 16
+        },
+        "s_tamil0018pro_raw.pdf": {
+          "pages_scanned": 16,
+          "clean": 0,
+          "rejected": 16,
+          "legacy_mojibake": 16
+        },
+        "s_tamil0019pro_raw.pdf": {
+          "pages_scanned": 280,
+          "clean": 0,
+          "rejected": 280,
+          "legacy_mojibake": 280
+        },
+        "s_tamil0020pro_raw.pdf": {
+          "pages_scanned": 368,
+          "clean": 0,
+          "rejected": 368,
+          "legacy_mojibake": 367
+        },
+        "s_tamil0021pro_raw.pdf": {
+          "pages_scanned": 288,
+          "clean": 0,
+          "rejected": 288,
+          "legacy_mojibake": 288
+        },
+        "s_tamil0022pro_raw.pdf": {
+          "pages_scanned": 272,
+          "clean": 0,
+          "rejected": 272,
+          "legacy_mojibake": 272
+        },
+        "s_tamil0023pro_raw.pdf": {
+          "pages_scanned": 320,
+          "clean": 0,
+          "rejected": 320,
+          "legacy_mojibake": 319
+        },
+        "s_tamil0024pro_raw.pdf": {
+          "pages_scanned": 312,
+          "clean": 0,
+          "rejected": 312,
+          "legacy_mojibake": 312
+        },
+        "s_tamil0025pro_raw.pdf": {
+          "pages_scanned": 336,
+          "clean": 0,
+          "rejected": 336,
+          "legacy_mojibake": 336
+        },
+        "s_tamil0026pro_raw.pdf": {
+          "pages_scanned": 312,
+          "clean": 0,
+          "rejected": 312,
+          "legacy_mojibake": 312
+        },
+        "s_tamil0027pro_raw.pdf": {
+          "pages_scanned": 328,
+          "clean": 0,
+          "rejected": 328,
+          "legacy_mojibake": 328
+        },
+        "s_tamil0028pro_raw.pdf": {
+          "pages_scanned": 344,
+          "clean": 0,
+          "rejected": 344,
+          "legacy_mojibake": 344
+        },
+        "s_tamil0029pro_raw.pdf": {
+          "pages_scanned": 288,
+          "clean": 0,
+          "rejected": 288,
+          "legacy_mojibake": 288
+        },
+        "s_tamil0030pro_raw.pdf": {
+          "pages_scanned": 328,
+          "clean": 0,
+          "rejected": 328,
+          "legacy_mojibake": 328
+        },
+        "s_tamil0031pro_raw.pdf": {
+          "pages_scanned": 360,
+          "clean": 0,
+          "rejected": 360,
+          "legacy_mojibake": 360
+        },
+        "s_tamil0032pro_raw.pdf": {
+          "pages_scanned": 336,
+          "clean": 0,
+          "rejected": 336,
+          "legacy_mojibake": 336
+        },
+        "s_tamil0033pro_raw.pdf": {
+          "pages_scanned": 240,
+          "clean": 0,
+          "rejected": 240,
+          "legacy_mojibake": 240
+        },
+        "s_tamil0034pro_raw.pdf": {
+          "pages_scanned": 232,
+          "clean": 0,
+          "rejected": 232,
+          "legacy_mojibake": 230
+        },
+        "s_tamil0035pro_raw.pdf": {
+          "pages_scanned": 312,
+          "clean": 0,
+          "rejected": 312,
+          "legacy_mojibake": 312
+        },
+        "s_tamil0036pro_raw.pdf": {
+          "pages_scanned": 272,
+          "clean": 0,
+          "rejected": 272,
+          "legacy_mojibake": 272
+        },
+        "s_tamil0037pro_raw.pdf": {
+          "pages_scanned": 336,
+          "clean": 0,
+          "rejected": 336,
+          "legacy_mojibake": 336
+        },
+        "s_tamil0038pro_raw.pdf": {
+          "pages_scanned": 288,
+          "clean": 0,
+          "rejected": 288,
+          "legacy_mojibake": 288
+        }
+      }
+    },
+    {
+      "lang": "Telugu",
+      "code": "te",
+      "pdfs_total": 84,
+      "pdfs_with_clean": 0,
+      "pages_scanned": 8231,
+      "pages_clean": 0,
+      "pages_rejected": 8231,
+      "legacy_mojibake": 7509,
+      "per_pdf_stats": {
+        "s_telugu0001pro_raw.pdf": {
+          "pages_scanned": 4,
+          "clean": 0,
+          "rejected": 4,
+          "legacy_mojibake": 4
+        },
+        "s_telugu0002pro_raw.pdf": {
+          "pages_scanned": 16,
+          "clean": 0,
+          "rejected": 16,
+          "legacy_mojibake": 0
+        },
+        "s_telugu0003pro_raw.pdf": {
+          "pages_scanned": 19,
+          "clean": 0,
+          "rejected": 19,
+          "legacy_mojibake": 19
+        },
+        "s_telugu0004pro_raw.pdf": {
+          "pages_scanned": 16,
+          "clean": 0,
+          "rejected": 16,
+          "legacy_mojibake": 16
+        },
+        "s_telugu0005pro_raw.pdf": {
+          "pages_scanned": 19,
+          "clean": 0,
+          "rejected": 19,
+          "legacy_mojibake": 19
+        },
+        "s_telugu0006pro_raw.pdf": {
+          "pages_scanned": 16,
+          "clean": 0,
+          "rejected": 16,
+          "legacy_mojibake": 16
+        },
+        "s_telugu0007pro_raw.pdf": {
+          "pages_scanned": 7,
+          "clean": 0,
+          "rejected": 7,
+          "legacy_mojibake": 0
+        },
+        "s_telugu0008pro_raw.pdf": {
+          "pages_scanned": 7,
+          "clean": 0,
+          "rejected": 7,
+          "legacy_mojibake": 0
+        },
+        "s_telugu0009pro_raw.pdf": {
+          "pages_scanned": 36,
+          "clean": 0,
+          "rejected": 36,
+          "legacy_mojibake": 0
+        },
+        "s_telugu0010pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 60
+        },
+        "s_telugu0011pro_raw.pdf": {
+          "pages_scanned": 74,
+          "clean": 0,
+          "rejected": 74,
+          "legacy_mojibake": 70
+        },
+        "s_telugu0012pro_raw.pdf": {
+          "pages_scanned": 188,
+          "clean": 0,
+          "rejected": 188,
+          "legacy_mojibake": 183
+        },
+        "s_telugu0013pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 3
+        },
+        "s_telugu0014pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 2
+        },
+        "s_telugu0015pro_raw.pdf": {
+          "pages_scanned": 156,
+          "clean": 0,
+          "rejected": 156,
+          "legacy_mojibake": 150
+        },
+        "s_telugu0016pro_raw.pdf": {
+          "pages_scanned": 132,
+          "clean": 0,
+          "rejected": 132,
+          "legacy_mojibake": 126
+        },
+        "s_telugu0017pro_raw.pdf": {
+          "pages_scanned": 188,
+          "clean": 0,
+          "rejected": 188,
+          "legacy_mojibake": 184
+        },
+        "s_telugu0018pro_raw.pdf": {
+          "pages_scanned": 180,
+          "clean": 0,
+          "rejected": 180,
+          "legacy_mojibake": 170
+        },
+        "s_telugu0019pro_raw.pdf": {
+          "pages_scanned": 124,
+          "clean": 0,
+          "rejected": 124,
+          "legacy_mojibake": 118
+        },
+        "s_telugu0020pro_raw.pdf": {
+          "pages_scanned": 86,
+          "clean": 0,
+          "rejected": 86,
+          "legacy_mojibake": 80
+        },
+        "s_telugu0021pro_raw.pdf": {
+          "pages_scanned": 112,
+          "clean": 0,
+          "rejected": 112,
+          "legacy_mojibake": 106
+        },
+        "s_telugu0022pro_raw.pdf": {
+          "pages_scanned": 82,
+          "clean": 0,
+          "rejected": 82,
+          "legacy_mojibake": 76
+        },
+        "s_telugu0023pro_raw.pdf": {
+          "pages_scanned": 148,
+          "clean": 0,
+          "rejected": 148,
+          "legacy_mojibake": 142
+        },
+        "s_telugu0024pro_raw.pdf": {
+          "pages_scanned": 48,
+          "clean": 0,
+          "rejected": 48,
+          "legacy_mojibake": 43
+        },
+        "s_telugu0025pro_raw.pdf": {
+          "pages_scanned": 87,
+          "clean": 0,
+          "rejected": 87,
+          "legacy_mojibake": 83
+        },
+        "s_telugu0026pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 96
+        },
+        "s_telugu0027pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 113
+        },
+        "s_telugu0028pro_raw.pdf": {
+          "pages_scanned": 148,
+          "clean": 0,
+          "rejected": 148,
+          "legacy_mojibake": 143
+        },
+        "s_telugu0029pro_raw.pdf": {
+          "pages_scanned": 140,
+          "clean": 0,
+          "rejected": 140,
+          "legacy_mojibake": 135
+        },
+        "s_telugu0030pro_raw.pdf": {
+          "pages_scanned": 92,
+          "clean": 0,
+          "rejected": 92,
+          "legacy_mojibake": 88
+        },
+        "s_telugu0031pro_raw.pdf": {
+          "pages_scanned": 92,
+          "clean": 0,
+          "rejected": 92,
+          "legacy_mojibake": 86
+        },
+        "s_telugu0032pro_raw.pdf": {
+          "pages_scanned": 124,
+          "clean": 0,
+          "rejected": 124,
+          "legacy_mojibake": 117
+        },
+        "s_telugu0033pro_raw.pdf": {
+          "pages_scanned": 96,
+          "clean": 0,
+          "rejected": 96,
+          "legacy_mojibake": 92
+        },
+        "s_telugu0034pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 94
+        },
+        "s_telugu0035pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 94
+        },
+        "s_telugu0036pro_raw.pdf": {
+          "pages_scanned": 140,
+          "clean": 0,
+          "rejected": 140,
+          "legacy_mojibake": 136
+        },
+        "s_telugu0037pro_raw.pdf": {
+          "pages_scanned": 108,
+          "clean": 0,
+          "rejected": 108,
+          "legacy_mojibake": 104
+        },
+        "s_telugu0038pro_raw.pdf": {
+          "pages_scanned": 92,
+          "clean": 0,
+          "rejected": 92,
+          "legacy_mojibake": 82
+        },
+        "s_telugu0039pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 94
+        },
+        "s_telugu0040pro_raw.pdf": {
+          "pages_scanned": 140,
+          "clean": 0,
+          "rejected": 140,
+          "legacy_mojibake": 136
+        },
+        "s_telugu0041pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0042pro_raw.pdf": {
+          "pages_scanned": 50,
+          "clean": 0,
+          "rejected": 50,
+          "legacy_mojibake": 46
+        },
+        "s_telugu0043pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0044pro_raw.pdf": {
+          "pages_scanned": 50,
+          "clean": 0,
+          "rejected": 50,
+          "legacy_mojibake": 45
+        },
+        "s_telugu0045pro_raw.pdf": {
+          "pages_scanned": 148,
+          "clean": 0,
+          "rejected": 148,
+          "legacy_mojibake": 141
+        },
+        "s_telugu0046pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 60
+        },
+        "s_telugu0047pro_raw.pdf": {
+          "pages_scanned": 98,
+          "clean": 0,
+          "rejected": 98,
+          "legacy_mojibake": 94
+        },
+        "s_telugu0048pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 94
+        },
+        "s_telugu0049pro_raw.pdf": {
+          "pages_scanned": 104,
+          "clean": 0,
+          "rejected": 104,
+          "legacy_mojibake": 91
+        },
+        "s_telugu0050pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 91
+        },
+        "s_telugu0051pro_raw.pdf": {
+          "pages_scanned": 124,
+          "clean": 0,
+          "rejected": 124,
+          "legacy_mojibake": 120
+        },
+        "s_telugu0052pro_raw.pdf": {
+          "pages_scanned": 144,
+          "clean": 0,
+          "rejected": 144,
+          "legacy_mojibake": 135
+        },
+        "s_telugu0053pro_raw.pdf": {
+          "pages_scanned": 140,
+          "clean": 0,
+          "rejected": 140,
+          "legacy_mojibake": 135
+        },
+        "s_telugu0054pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 111
+        },
+        "s_telugu0055pro_raw.pdf": {
+          "pages_scanned": 172,
+          "clean": 0,
+          "rejected": 172,
+          "legacy_mojibake": 167
+        },
+        "s_telugu0056pro_raw.pdf": {
+          "pages_scanned": 50,
+          "clean": 0,
+          "rejected": 50,
+          "legacy_mojibake": 46
+        },
+        "s_telugu0057pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0058pro_raw.pdf": {
+          "pages_scanned": 124,
+          "clean": 0,
+          "rejected": 124,
+          "legacy_mojibake": 113
+        },
+        "s_telugu0059pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 111
+        },
+        "s_telugu0060pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 106
+        },
+        "s_telugu0061pro_raw.pdf": {
+          "pages_scanned": 92,
+          "clean": 0,
+          "rejected": 92,
+          "legacy_mojibake": 85
+        },
+        "s_telugu0062pro_raw.pdf": {
+          "pages_scanned": 152,
+          "clean": 0,
+          "rejected": 152,
+          "legacy_mojibake": 146
+        },
+        "s_telugu0063pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0064pro_raw.pdf": {
+          "pages_scanned": 58,
+          "clean": 0,
+          "rejected": 58,
+          "legacy_mojibake": 54
+        },
+        "s_telugu0065pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0066pro_raw.pdf": {
+          "pages_scanned": 58,
+          "clean": 0,
+          "rejected": 58,
+          "legacy_mojibake": 54
+        },
+        "s_telugu0067pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 96
+        },
+        "s_telugu0068pro_raw.pdf": {
+          "pages_scanned": 58,
+          "clean": 0,
+          "rejected": 58,
+          "legacy_mojibake": 1
+        },
+        "s_telugu0069pro_raw.pdf": {
+          "pages_scanned": 58,
+          "clean": 0,
+          "rejected": 58,
+          "legacy_mojibake": 2
+        },
+        "s_telugu0070pro_raw.pdf": {
+          "pages_scanned": 100,
+          "clean": 0,
+          "rejected": 100,
+          "legacy_mojibake": 93
+        },
+        "s_telugu0071pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 110
+        },
+        "s_telugu0072pro_raw.pdf": {
+          "pages_scanned": 132,
+          "clean": 0,
+          "rejected": 132,
+          "legacy_mojibake": 129
+        },
+        "s_telugu0073pro_raw.pdf": {
+          "pages_scanned": 88,
+          "clean": 0,
+          "rejected": 88,
+          "legacy_mojibake": 80
+        },
+        "s_telugu0074pro_raw.pdf": {
+          "pages_scanned": 148,
+          "clean": 0,
+          "rejected": 148,
+          "legacy_mojibake": 142
+        },
+        "s_telugu0075pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0076pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 62
+        },
+        "s_telugu0077pro_raw.pdf": {
+          "pages_scanned": 148,
+          "clean": 0,
+          "rejected": 148,
+          "legacy_mojibake": 143
+        },
+        "s_telugu0078pro_raw.pdf": {
+          "pages_scanned": 148,
+          "clean": 0,
+          "rejected": 148,
+          "legacy_mojibake": 142
+        },
+        "s_telugu0079pro_raw.pdf": {
+          "pages_scanned": 140,
+          "clean": 0,
+          "rejected": 140,
+          "legacy_mojibake": 134
+        },
+        "s_telugu0080pro_raw.pdf": {
+          "pages_scanned": 128,
+          "clean": 0,
+          "rejected": 128,
+          "legacy_mojibake": 122
+        },
+        "s_telugu0081pro_raw.pdf": {
+          "pages_scanned": 108,
+          "clean": 0,
+          "rejected": 108,
+          "legacy_mojibake": 101
+        },
+        "s_telugu0082pro_raw.pdf": {
+          "pages_scanned": 116,
+          "clean": 0,
+          "rejected": 116,
+          "legacy_mojibake": 107
+        },
+        "s_telugu0083pro_raw.pdf": {
+          "pages_scanned": 228,
+          "clean": 0,
+          "rejected": 228,
+          "legacy_mojibake": 221
+        },
+        "s_telugu0084pro_raw.pdf": {
+          "pages_scanned": 132,
+          "clean": 0,
+          "rejected": 132,
+          "legacy_mojibake": 127
+        }
+      }
+    },
+    {
+      "lang": "Kannada",
+      "code": "kn",
+      "pdfs_total": 41,
+      "pdfs_with_clean": 0,
+      "pages_scanned": 5825,
+      "pages_clean": 0,
+      "pages_rejected": 5825,
+      "legacy_mojibake": 3406,
+      "per_pdf_stats": {
+        "s_kannada0001pro_raw.pdf": {
+          "pages_scanned": 24,
+          "clean": 0,
+          "rejected": 24,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0002pro_raw.pdf": {
+          "pages_scanned": 24,
+          "clean": 0,
+          "rejected": 24,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0003pro_raw.pdf": {
+          "pages_scanned": 24,
+          "clean": 0,
+          "rejected": 24,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0004pro_raw.pdf": {
+          "pages_scanned": 24,
+          "clean": 0,
+          "rejected": 24,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0005pro_raw.pdf": {
+          "pages_scanned": 16,
+          "clean": 0,
+          "rejected": 16,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0006pro_raw.pdf": {
+          "pages_scanned": 5,
+          "clean": 0,
+          "rejected": 5,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0007pro_raw.pdf": {
+          "pages_scanned": 5,
+          "clean": 0,
+          "rejected": 5,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0008pro_raw.pdf": {
+          "pages_scanned": 0,
+          "clean": 0,
+          "rejected": 0,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0009pro_raw.pdf": {
+          "pages_scanned": 19,
+          "clean": 0,
+          "rejected": 19,
+          "legacy_mojibake": 19
+        },
+        "s_kannada0010pro_raw.pdf": {
+          "pages_scanned": 3,
+          "clean": 0,
+          "rejected": 3,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0011pro_raw.pdf": {
+          "pages_scanned": 2,
+          "clean": 0,
+          "rejected": 2,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0012pro_raw.pdf": {
+          "pages_scanned": 2,
+          "clean": 0,
+          "rejected": 2,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0013pro_raw.pdf": {
+          "pages_scanned": 10,
+          "clean": 0,
+          "rejected": 10,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0014pro_raw.pdf": {
+          "pages_scanned": 43,
+          "clean": 0,
+          "rejected": 43,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0015pro_raw.pdf": {
+          "pages_scanned": 28,
+          "clean": 0,
+          "rejected": 28,
+          "legacy_mojibake": 28
+        },
+        "s_kannada0016pro_raw.pdf": {
+          "pages_scanned": 500,
+          "clean": 0,
+          "rejected": 500,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0017pro_raw.pdf": {
+          "pages_scanned": 66,
+          "clean": 0,
+          "rejected": 66,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0018pro_raw.pdf": {
+          "pages_scanned": 226,
+          "clean": 0,
+          "rejected": 226,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0019pro_raw.pdf": {
+          "pages_scanned": 168,
+          "clean": 0,
+          "rejected": 168,
+          "legacy_mojibake": 168
+        },
+        "s_kannada0020pro_raw.pdf": {
+          "pages_scanned": 136,
+          "clean": 0,
+          "rejected": 136,
+          "legacy_mojibake": 136
+        },
+        "s_kannada0021pro_raw.pdf": {
+          "pages_scanned": 152,
+          "clean": 0,
+          "rejected": 152,
+          "legacy_mojibake": 152
+        },
+        "s_kannada0022pro_raw.pdf": {
+          "pages_scanned": 144,
+          "clean": 0,
+          "rejected": 144,
+          "legacy_mojibake": 144
+        },
+        "s_kannada0023pro_raw.pdf": {
+          "pages_scanned": 1047,
+          "clean": 0,
+          "rejected": 1047,
+          "legacy_mojibake": 1042
+        },
+        "s_kannada0024pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 17
+        },
+        "s_kannada0025pro_raw.pdf": {
+          "pages_scanned": 88,
+          "clean": 0,
+          "rejected": 88,
+          "legacy_mojibake": 86
+        },
+        "s_kannada0026pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 64
+        },
+        "s_kannada0027pro_raw.pdf": {
+          "pages_scanned": 72,
+          "clean": 0,
+          "rejected": 72,
+          "legacy_mojibake": 72
+        },
+        "s_kannada0028pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 64
+        },
+        "s_kannada0029pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 64
+        },
+        "s_kannada0030pro_raw.pdf": {
+          "pages_scanned": 72,
+          "clean": 0,
+          "rejected": 72,
+          "legacy_mojibake": 72
+        },
+        "s_kannada0031pro_raw.pdf": {
+          "pages_scanned": 80,
+          "clean": 0,
+          "rejected": 80,
+          "legacy_mojibake": 80
+        },
+        "s_kannada0032pro_raw.pdf": {
+          "pages_scanned": 80,
+          "clean": 0,
+          "rejected": 80,
+          "legacy_mojibake": 78
+        },
+        "s_kannada0033pro_raw.pdf": {
+          "pages_scanned": 80,
+          "clean": 0,
+          "rejected": 80,
+          "legacy_mojibake": 80
+        },
+        "s_kannada0034pro_raw.pdf": {
+          "pages_scanned": 104,
+          "clean": 0,
+          "rejected": 104,
+          "legacy_mojibake": 104
+        },
+        "s_kannada0035pro_raw.pdf": {
+          "pages_scanned": 133,
+          "clean": 0,
+          "rejected": 133,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0036pro_raw.pdf": {
+          "pages_scanned": 133,
+          "clean": 0,
+          "rejected": 133,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0037pro_raw.pdf": {
+          "pages_scanned": 54,
+          "clean": 0,
+          "rejected": 54,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0038pro_raw.pdf": {
+          "pages_scanned": 432,
+          "clean": 0,
+          "rejected": 432,
+          "legacy_mojibake": 429
+        },
+        "s_kannada0039pro_raw.pdf": {
+          "pages_scanned": 516,
+          "clean": 0,
+          "rejected": 516,
+          "legacy_mojibake": 507
+        },
+        "s_kannada0040pro_raw.pdf": {
+          "pages_scanned": 950,
+          "clean": 0,
+          "rejected": 950,
+          "legacy_mojibake": 0
+        },
+        "s_kannada0041pro_raw.pdf": {
+          "pages_scanned": 107,
+          "clean": 0,
+          "rejected": 107,
+          "legacy_mojibake": 0
+        }
+      }
+    },
+    {
+      "lang": "Malayalam",
+      "code": "ml",
+      "pdfs_total": 20,
+      "pdfs_with_clean": 0,
+      "pages_scanned": 2339,
+      "pages_clean": 0,
+      "pages_rejected": 2339,
+      "legacy_mojibake": 16,
+      "per_pdf_stats": {
+        "s_malayalam0001pro_raw.pdf": {
+          "pages_scanned": 3,
+          "clean": 0,
+          "rejected": 3,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0002pro_raw.pdf": {
+          "pages_scanned": 3,
+          "clean": 0,
+          "rejected": 3,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0003pro_raw.pdf": {
+          "pages_scanned": 0,
+          "clean": 0,
+          "rejected": 0,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0004pro_raw.pdf": {
+          "pages_scanned": 15,
+          "clean": 0,
+          "rejected": 15,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0014pro_raw.pdf": {
+          "pages_scanned": 32,
+          "clean": 0,
+          "rejected": 32,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0015pro_raw.pdf": {
+          "pages_scanned": 119,
+          "clean": 0,
+          "rejected": 119,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0016pro_raw.pdf": {
+          "pages_scanned": 241,
+          "clean": 0,
+          "rejected": 241,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0017pro_raw.pdf": {
+          "pages_scanned": 64,
+          "clean": 0,
+          "rejected": 64,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0018pro_raw.pdf": {
+          "pages_scanned": 52,
+          "clean": 0,
+          "rejected": 52,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0019pro_raw.pdf": {
+          "pages_scanned": 188,
+          "clean": 0,
+          "rejected": 188,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0020pro_raw.pdf": {
+          "pages_scanned": 9,
+          "clean": 0,
+          "rejected": 9,
+          "legacy_mojibake": 9
+        },
+        "s_malayalam0021pro_raw.pdf": {
+          "pages_scanned": 462,
+          "clean": 0,
+          "rejected": 462,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0022pro_raw.pdf": {
+          "pages_scanned": 138,
+          "clean": 0,
+          "rejected": 138,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0023pro_raw.pdf": {
+          "pages_scanned": 48,
+          "clean": 0,
+          "rejected": 48,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0024pro_raw.pdf": {
+          "pages_scanned": 314,
+          "clean": 0,
+          "rejected": 314,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0025pro_raw.pdf": {
+          "pages_scanned": 206,
+          "clean": 0,
+          "rejected": 206,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0026pro_raw.pdf": {
+          "pages_scanned": 200,
+          "clean": 0,
+          "rejected": 200,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0027pro_raw.pdf": {
+          "pages_scanned": 114,
+          "clean": 0,
+          "rejected": 114,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0028pro_raw.pdf": {
+          "pages_scanned": 124,
+          "clean": 0,
+          "rejected": 124,
+          "legacy_mojibake": 0
+        },
+        "s_malayalam0029pro_raw.pdf": {
+          "pages_scanned": 7,
+          "clean": 0,
+          "rejected": 7,
+          "legacy_mojibake": 7
+        }
+      }
+    }
+  ]
+}

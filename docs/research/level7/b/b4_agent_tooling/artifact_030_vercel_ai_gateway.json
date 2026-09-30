@@ -1,0 +1,19 @@
+{
+  "source_url": "https://vercel.com/docs/ai-gateway/sdks-and-apis",
+  "date": "2026-08-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Vercel AI Gateway: Production-ready reliability for AI apps. Point existing SDK to gateway. AI SDK usage: import { generateText } from 'ai'; const { text } = await generateText({ model: 'anthropic/claude-opus-5', prompt: 'Hello!' }). Chat Completions API compatible. Provider instance: import { gateway } from 'ai'; model: gateway('openai/gpt-5.4'). Config: baseURL (default https://ai-gateway.vercel.sh/v4/ai), apiKey (AI_GATEWAY_API_KEY env var), teamIdOrSlug, custom headers. Supports AI Gateway API keys, Vercel personal/app access tokens. Zero Data Retention option. AI SDK 4.2+, OpenAI Responses API. Observability and spend tracking, budgets.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

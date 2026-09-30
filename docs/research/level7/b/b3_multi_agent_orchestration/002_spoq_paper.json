@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2606.03115",
+  "date": "2026-06-02",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "SPOQ (Specialist Orchestrated Queuing) combines three innovations: (1) wave-based topological dispatch computing parallel execution waves from task dependency graphs, (2) dual validation gates applying quality metrics before execution (planning validation) and after (code validation) to reduce rework cycles, (3) Human-as-an-Agent (HaaA) integration where human specialist participates in decomposition and can be consulted during execution. Uses three-tier agent hierarchy (Opus workers, Sonnet reviewers, Haiku investigators) optimizing cost-quality tradeoffs. Wave dispatch approaches critical-path lower bound (ratio 1.03-1.11, speedup up to 14.3x); on 2-slot local backend delivers stable 1.4x speedup. Improves planning coverage from 93.0 to 99.75, eliminates cyclic plans, lifts parallelism from 31.0 to 75.25. Dual validation reduces defect escape rate by 67%. Skill framework encapsulates reusable agent capabilities as SKILL.md modules with YAML frontmatter.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

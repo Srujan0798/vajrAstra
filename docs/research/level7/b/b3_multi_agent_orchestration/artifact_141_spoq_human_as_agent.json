@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2606.03115",
+  "date": "2026-06-02",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "SPOQ Human-as-an-Agent (HaaA) integration. Human specialist participates in decomposition and can be consulted during execution. Three innovations: wave-based topological dispatch, dual validation gates, HaaA integration. Three-tier agent hierarchy: Opus workers, Sonnet reviewers, Haiku investigators. Wave dispatch approaches critical-path lower bound (ratio 1.03-1.11, speedup up to 14.3x). Dual validation reduces defect escape rate by 83%. Planning coverage improved from 93.0 to 99.75, parallelism lifted from 31.0 to 75.25. Source code: gitlab.com/kenth56/spoq - reference implementation, epic definitions, validation skills, case study artifacts.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

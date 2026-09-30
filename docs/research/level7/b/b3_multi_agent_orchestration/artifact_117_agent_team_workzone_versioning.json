@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2607.22917",
+  "date": "2026-07-31",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Team Work Zone versioning and release. Deployment rests on bootstrap scripts. Bootstrap step version-checks environment and syncs framework skills and agent definitions into project's .claude/ creating or merging settings rather than overwriting. Framework-owned paths (resources/, docs/, comment-marked blocks of README.md) upgraded on version updates. User-owned paths (projects/, workstations/) preserved across upgrades. Lifecycle on CC >= 2.1.178: <slug>-<role> naming convention lets idle hook derive workstation path from slug prefix without ambiguity; on prior versions hook read it from idle event's team name instead. Related work: AutoGen (Wu et al., 2024), MetaGPT (Hong et al., 2024), AgentVerse (Chen et al., 2024), surveys on agent skills (Yang et al., 2026) and multi-agent systems (Guo et al., 2024). What this work adds: file-based conventions with hooks/scripts/skills for persistence layer without modifying agent algorithms.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

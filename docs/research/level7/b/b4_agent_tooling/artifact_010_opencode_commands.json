@@ -1,0 +1,19 @@
+{
+  "source_url": "https://opencode.ai/v2/docs/commands",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenCode Commands: .md files in commands/ directories (~/.config/opencode/commands/, .opencode/commands/). Nested paths create namespaced commands (e.g., team/review.md -> team/review). Frontmatter fields: description (required), agent (optional, e.g., 'plan'), model (optional, provider/model#variant), subagent (optional, boolean for background child session), subtask (deprecated alias for subagent). Markdown body supplies template. Commands executed by specified agent with optional model override. Subagent mode runs in isolated child session.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness"
+}

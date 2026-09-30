@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/claude-devfleet/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude DevFleet mission DAG and orchestration tools. Tools: plan_project(prompt) -> project_id + mission DAG; create_project(name, path?, description?) -> project_id; create_mission(project_id, title, prompt, depends_on?, auto_dispatch?) -> mission; depends_on is list of mission ID strings (e.g., [\"abc-123\"]); auto_dispatch=true auto-starts when deps met. dispatch_mission(mission_id, model?, max_turns?) starts agent; cancel_mission stops agent; wait_for_mission blocks (default 600s); get_mission_status checks progress; get_report returns structured report (files_changed, what_done, errors, next_steps); get_dashboard system overview; list_projects, list_missions. Flow: plan_project -> show plan -> get approval -> dispatch first mission (empty depends_on) -> remaining auto-dispatch as deps complete (auto_dispatch=true). Concurrency: 3 concurrent agents default (DEVFLEET_MAX_AGENTS); missions queue when slots full, auto-dispatch as slots free. Guidelines: confirm plan before dispatch, include mission titles/IDs in status, read report before retrying failed mission, check dashboard for slots, no circular deps, isolated worktrees auto-merge on completion.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

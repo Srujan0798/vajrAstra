@@ -1,0 +1,19 @@
+{
+  "source_url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/server-concepts",
+  "date": "2026-07-28",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Server Concepts: Programs exposing capabilities via standardized protocol. Examples: file system, database, GitHub, Slack, calendar servers. Three building blocks: Resources (document access, data queries - resource pickers with preview, smart suggestions, bulk selection), Prompts (reusable parameterized templates for domain, showcase best usage), Tools (executable functions). Multi-server power: combining specialized capabilities through unified interface. Example: travel planner with weather, booking, calendar servers. AI executes prompt using tools from connected servers.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

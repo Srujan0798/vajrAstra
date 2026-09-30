@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/santa-method/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Santa Method metrics to measure effectiveness. First-pass rate: % of outputs that pass Santa on round 1 (target >70%). Mean iterations to convergence: average rounds to NICE (target <1.5). Issue taxonomy: distribution of failure types (hallucination vs. completeness vs. compliance). Reviewer agreement: % of issues flagged by both reviewers vs. only one (low agreement = rubric needs tightening). Escape rate: issues found post-ship that Santa should have caught (target: 0). Cost analysis: Santa Method costs ~2-3x token cost of generation alone per verification cycle. For batch operations, sampling pattern reduces cost to ~15-20% of full verification while catching >90% of systematic issues. Cost of Santa = generation tokens + 2×(review tokens per round) × (avg rounds). Cost of NOT Santa = reputation damage + correction effort + trust erosion.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

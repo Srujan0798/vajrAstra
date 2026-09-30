@@ -1,0 +1,19 @@
+{
+  "source_url": "https://localllmguide.com/compare",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LocalLLMGuide Comparison: Ollama (terminal and API runtime) vs LM Studio (desktop GUI). Ollama better for API-driven/repeatable workflows. LM Studio easier for first desktop run. Ollama + Open WebUI are complements: Ollama runs local models, Open WebUI provides browser interface. Comparison categories: Tool choice (Ollama vs LM Studio, Open WebUI vs AnythingLLM), Setup choice (Local vs Cloud AI, Mac/Windows setup), Hardware fit (8GB/16GB/32GB RAM). Policy: every comparison includes use case, hardware caveats, privacy caveats, evidence status, clear 'choose this if' section.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

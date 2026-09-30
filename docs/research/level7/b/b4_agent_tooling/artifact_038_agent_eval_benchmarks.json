@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/AgentEvalHQ/AgentEval/blob/main/docs/benchmarks.md",
+  "date": "2025-09-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "AgentEval Benchmarks: Agentic (broad agent quality across ~60 evaluators in ~12 categories: task completion, tool-call accuracy, RAG, safety, memory, reasoning - 11 named presets), EU AI Act (dialog-level conformance against Regulation EU 2024/1689, 6 pillars, high-risk domain packs), NIST AI RMF (14 attacks mapped to NIST AI RMF MEASURE security/privacy/validity sub-actions), LongMemEval (cross-platform long-horizon memory benchmark ICLR 2025, GPT-4o baseline ~57.7%), TypedMemEval (5 embedded corpora isolating prospective, episodic, arithmetic, working-memory, forgetting - typed outcome vector), Memory (native AgentEval memory benchmark across 3/8/12 categories with weighted grading). CLI: agenteval bench <family> --preset X.",
+  "status": "DERIVED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "DIES",
+  "transfer_harness_fact": "no paid keys (no GPT-4, no cloud GPU)"
+}

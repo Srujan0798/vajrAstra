@@ -1,0 +1,19 @@
+{
+  "source_url": "https://laya.aay.sh/index.html",
+  "date": "2025-08-20",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Laya: Open-source, local-first AI notification command center for Slack, Gmail, GitHub, Jira, and 9 connected platforms. Three scope toggles gate client capabilities: Read, Write, Egress. Bearer-token auth or loopback-only mode. Full surface: search cards, semantic search, mutate, trigger outbound actions. Same transport powers Laya's in-app coding agents — one path, one policy. Local-first architecture keeps data on user's machine.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "offline-capable pipeline (no paid APIs)"
+}

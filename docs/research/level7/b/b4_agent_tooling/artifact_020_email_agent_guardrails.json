@@ -1,0 +1,19 @@
+{
+  "source_url": "https://developer.nylas.com/docs/cookbook/agents/prevent-prompt-injection",
+  "date": "2026-06-20",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Email agent prompt injection prevention: 4 defenses. 1) Treat email body as data, never instructions — wrap in explicit data boundary, tell model content inside is for analysis not orders. 2) Scope tools agent can call — email agent that only labels/drafts should never hold send tool. 3) Gate sends behind recipient allowlist — injected 'forward to attacker@evil.com' fails because destination not on list. 4) Require human approval for risky actions — deny-by-default gate around send tool, every send passes through explicit checks (allowlist, cap per hour, tool list, approval requirement). OWASP LLM01:2025 ranks prompt injection as top risk. No system prompt is injection-proof. Policy enforcement belongs at boundary between model and world.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

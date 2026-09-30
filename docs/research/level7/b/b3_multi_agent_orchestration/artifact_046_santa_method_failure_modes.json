@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/santa-method/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Santa Method failure modes and mitigations: Infinite loop (reviewers keep finding new issues after fixes) - max iteration cap (3), escalate; Rubber stamping (both reviewers pass everything) - adversarial prompt 'Your job is to find problems, not approve'; Subjective drift (reviewers flag style preferences) - tight rubric with objective pass/fail only; Fix regression (fixing issue A introduces issue B) - fresh reviewers each round catch regressions; Reviewer agreement bias (both miss same thing) - mitigated by independence, add third reviewer or human spot-check for critical output; Cost explosion (too many iterations on large outputs) - batch sampling pattern, budget caps. Three implementation patterns: Pattern A (Claude Code Subagents - recommended for true context isolation), Pattern B (Sequential Inline - fallback with explicit context resets), Pattern C (Batch Sampling - for 100+ items, stratified sampling 10-15%, categorize failures, apply targeted fixes, re-sample).",
+  "status": "PRIMARY",
+  "decision_it_changes": "validation-call kill-criteria (adversarial review gate)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

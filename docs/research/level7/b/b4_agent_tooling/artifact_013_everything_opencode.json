@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/kevinlupera/everything-opencode",
+  "date": "2025-09-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Everything OpenCode: comprehensive config collection for OpenCode. Top-level: agents/, commands/, mcp-configs/, plugins/, rules/, skills/, AGENTS.md, opencode.jsonc. 9 specialized agents: security-reviewer, build-error-resolver, e2e-runner, refactor-cleaner, doc-updater. 15 custom slash commands for common workflows. 11 skills for backend, frontend, security, testing. MCP Server Configs pre-configured. Quick start: clone, use slash commands. Available agents include language-specific reviewers (go, java, database) and workflow agents (tdd-guide, harness-optimizer, docs-lookup).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness"
+}

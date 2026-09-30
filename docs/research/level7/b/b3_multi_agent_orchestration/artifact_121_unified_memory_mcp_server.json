@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/unified-memory/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Unified Memory MCP server setup. stdio server optional, not enabled by ECC default .mcp.json. After installing ECC, copy ecc-memory-vault entry from mcp-configs/mcp-servers.json into each harness. Replace placeholder with lowercase server identity. Server command: ECC_MEMORY_HARNESS=codex ecc-memory-mcp. MCP process binds writes and target filtering to ECC_MEMORY_HARNESS; tool callers cannot claim another source identity or override target filter. user scope remains disabled unless ECC_MEMORY_ALLOW_USER_SCOPE=1 and tool call explicitly requests that scope. Exposes only: memory_save, memory_search, memory_read, memory_doctor. MCP surface deliberately has no review, promotion, overwrite, transcript import, or shell-execution tool. Runtime prerequisite: npm install -g ecc-universal required for CLI and MCP.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

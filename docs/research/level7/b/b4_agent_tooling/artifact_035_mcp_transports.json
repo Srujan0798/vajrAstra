@@ -1,0 +1,19 @@
+{
+  "source_url": "http://modelcontextprotocol.io/specification/2025-06-18/basic/transports",
+  "date": "2025-06-18",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Transports: JSON-RPC 2.0 over UTF-8. Two standard transports: 1) stdio - communication over stdin/stdout for local development/IDE environments. 2) Streamable HTTP - for remote async operations. WebSocket (β) for live streaming/push updates. Each transport must support capability negotiation: version, client_id, server_id, transport type (stdio|http|ws), capabilities (async, registry, code_exec). STDIO transport SHOULD NOT follow HTTP auth spec, instead retrieve credentials from environment. HTTP transport SHOULD conform to OAuth 2.1 auth spec.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

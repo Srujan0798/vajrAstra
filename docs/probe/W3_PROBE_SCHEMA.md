@@ -7,9 +7,9 @@ Locked 2026-09-25. Probe, not a 400-page replica of South.
 | Set | n | Action |
 |---|---|---|
 | South: te, ta, kn, ml | 400 pages already scored | KEEP `level2/reports/*`. Do not rescore 400. Optional: add Sarvam Vision 2.1 + Bodhan on a **20-page South subset** (5/lang) so new models sit on the same sheet. |
-| Remaining 18 languages | **20 samples each** | New probe only. User lock: 10–20; we take 20. |
+| Remaining 18 languages | **100 samples each** | New probe only. User lock 2026-09-25: 10–20 (took 20); **amended 2026-09-26 by user: 100** (same basis as South 400's 100/lang/engine). |
 
-18 × 20 = 360 blocks. Plus 20 South add-on for new models = 380 new inferences per new engine.
+18 × 100 = 1,800 blocks. Plus 20 South add-on for new models = 1,820 new inferences per new engine.
 
 ## Languages
 
@@ -78,4 +78,4 @@ Do not write probe outputs into `level2/out/` (that tree is the South 400 seal).
 
 ## Status
 
-Schema locked. Samples not yet drawn. Engines not yet run. W4 audit waits for this sheet.
+Schema locked. **SOURCE SWITCHED 2026-09-26 (user decision):** probe draws from the OFFICIAL hackathon dataset at `Datasets/akshardrishti_official/` (user-provided; merged from Downloads, 34,871 files), NOT from the Sarvam bench. The 2026-09-25 Sarvam-bench run was discarded by user order; its 360 images under `level2/probe22/images/` are KEPT as fill for shortfall cells (Dogri, Santali — user approved 2026-09-26). **SIZE AMENDED 2026-09-26 (user): 100 samples per language.** GT audit 2026-09-26: PDF text layers cover 100/lang for 15/18 languages; Dogri (11) and Santali (0) short → Sarvam fill; Bodo layers are legacy-font mojibake → script-validation gate mandatory. Execution by the user's 4-5 agents per `level2/probe22/AGENT_PROTOCOL.md`. W4 waits for predictions on this sheet.

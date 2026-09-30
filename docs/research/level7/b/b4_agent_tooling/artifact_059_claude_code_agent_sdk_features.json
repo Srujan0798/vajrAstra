@@ -1,0 +1,19 @@
+{
+  "source_url": "https://code.claude.com/docs/en/agent-sdk/claude-code-features",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Code Agent SDK Features: SDK agents access same filesystem-based features as CLI: project instructions (CLAUDE.md, rules), skills, hooks, etc. settingSources parameter controls config layers: 'user', 'project', 'local', 'plugins', 'team', 'enterprise'. Omit settingSources to read same filesystem settings as CLI. Pass settingSources: [] to limit to programmatic config only. Python example shows setting_sources mapping: user (~/.claude/), project (<cwd>/.claude/), local (<cwd> and parents for CLAUDE.md/rules, <cwd> and parents up to repo root for skills/commands/subagents). Skills, commands, subagents from flag-added directories load through project setting source.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible",
+  "actionability": "direct"
+}

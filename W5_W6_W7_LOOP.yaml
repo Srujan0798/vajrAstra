@@ -1,0 +1,489 @@
+version: 1
+meta:
+  name: w5-w6-w7-validation-loop
+  description: >
+    Lock W6 recipe (wrap-only baseline + conditional local QLoRA on kok+pa),
+    execute W6 training, run W7 eval against Sarvam avg, with hard human
+    gates at W5 freeze and W6 launch. Adopts the 3-agent ops model from
+    docs/research/LEVEL7_RESEARCH_CAMPAIGN.md (Engine/Verdict/Miss) and the
+    estimator law from §9 (McNemar exact + Wilson 95% CI).
+  author: orchestrator (agent-4 / graphify-rebuild turn 2026-09-29)
+  created: 2026-09-29
+  references:
+    - docs/research/LEVEL7_RESEARCH_CAMPAIGN.md
+    - docs/research/level7/W6_QLORA_SPEC.md
+    - docs/research/level7/W5_FREEZE_AGENDA.md
+    - docs/research/level7/KILL_CRITERIA.md
+    - docs/research/level7/PROMPT_{ENGINE,VERDICT,MISS}_AGENT.md
+    - level2/probe22/AGENT_PROTOCOL.md
+    - OCR_AGENT_MEMORY_FEED.md
+
+goal:
+  statement: >
+    Lock W6 recipe at the W5 freeze call (post-Wed 2026-10-01) and execute
+    the chosen path: (a) wrap-only baseline across all 11 engines + per-script
+    routing, plus (b) optional local QLoRA on kok + pa only (K1-locked from
+    campaign §11 / W6_QLORA_SPEC.md §0). Pass the W7 evaluation: beat Sarvam
+    Vision 2.1's per-language average CER on the probe22 SAFE-lang subset
+    (bn/hi/sa/or/pa + brx/kok/mai after §6.2 verify-first gates), with
+    estimator-law confidence (Wilson 95% CI upper bound below Sarvam's
+    subset CER on n>=50 cells).
+  context_sources:
+    - file: docs/research/level7/W6_QLORA_SPEC.md
+      role: spec
+    - file: docs/research/level7/KILL_CRITERIA.md
+      role: gates
+    - file: docs/research/level7/CALL_PACKET.md
+      role: banked-scores
+    - file: level2/probe22/scores/LEADERBOARD.md
+      role: probe-leaderboard
+    - file: level2/probe22/scores/mcnemar_full_matrix.json
+      role: paired-comparison-results
+    - file: level2/probe22/gt_forensics.json
+      role: gt-quality
+    - file: level2/probe22/scores/EN_SANITY.json
+      role: harness-sanity
+    - file: docs/research/level7/MEMORY_AUDIT.md
+      role: resource-budget
+    - file: OCR_AGENT_MEMORY_FEED.md
+      role: process-law
+  definition_of_done: >
+    (1) W5 freeze call held, all D1-D4 outcomes recorded in CALL_PACKET.md,
+    user has signed off (or vetoed) the W6 path. (2) W6 training executed
+    for the chosen path (wrap-only always ships; QLoRA on kok+pa only if
+    K1 SURVIVES at launch). (3) W7 evaluation rerun: per-engine CER on
+    the SAFE-lang subset, McNemar exact paired vs Sarvam Vision 2.1 subset
+    baseline (3/lang, 54-call cap extended to 60 only if user approved
+    D2 EN extension), Wilson 95% CI per language, wrap-pipeline routing
+    on disk. (4) Final LEADERBOARD_v1.md emitted to docs/research/level7/,
+    sealed for hackathon submission. (5) No sealed-dir edits (level2/out/,
+    level2/reports/, level2/probe22/out/) by this loop.
+  verification:
+    - id: w5-freeze-call-held
+      type: human
+      rubric: >
+        W5 freeze call held between orchestrator + Srujan, agenda in
+        docs/research/level7/W5_FREEZE_AGENDA.md. Outcomes (D1-D4) recorded
+        in CALL_PACKET.md with user signature or explicit veto on each line.
+        Verdict: PASS only if all 4 outcomes are recorded + signed.
+    - id: k1-gate-q-lora
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_k1.py", "--langs", "kok,pa"]
+      expect: k1_survives
+      notes: >
+        K1 fires if McNemar p < T1 (default 0.05) AND CER gap > T2
+        (default 3pt absolute). User may override at the call.
+        See docs/research/level7/KILL_CRITERIA.md K1.
+    - id: wrap-baseline-shipped
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_wrap_baseline.py"]
+      expect: routing_complete_18_langs
+      notes: >
+        Wrap-only baseline must route every probe22 item to one of the 11
+        engines by per-script preference (LEADERBOARD_REFRESH_2026-09-29.md
+        §5) BEFORE any QLoRA runs.
+    - id: w7-mcnemar-vs-sarvam
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_w7_vs_sarvam.py", "--per-lang-wilson-95"]
+      expect: at_least_8_of_12_safe_langs_lower_ci_upper_below_sarvam_subset
+      notes: >
+        W7 PASS criterion: for the SAFE-lang subset (n>=50 each), the W6
+        pipeline's per-language Wilson 95% CI upper bound must be strictly
+        below Sarvam Vision 2.1's subset CER on at least 8 of 12 SAFE langs.
+        Honest-empty cells are scored as MISSING, not failed (per §6.7).
+    - id: k3-routing-drops
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_k3_drops.py"]
+      expect: no_engine_with_wilson_upper_worse_than_next_best
+      notes: >
+        K3 kill criterion: any engine whose Wilson 95% CI upper bound on
+        a language is worse than the next-best engine's point estimate is
+        dropped from wrap routing on that language.
+    - id: k4-memory-floor
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_k4_memory.py"]
+      expect: greater_than_2.0
+      notes: >
+        K4 absolute abort floor: reclaimable+strict >= 2 GB before any
+        QLoRA training step. Recheck before each train step, not just at
+        launch. Below 2 GB -> kill QLoRA, ship wrap-only.
+        # Per looper rule: argv array, not shell string. check_k4_memory.py
+        # internally calls vm_stat and computes (free+inactive)*16384 bytes.
+    - id: k5-time-cap
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_k5_time.py"]
+      expect: less_than_or_equal_to_6.0_hours
+      notes: >
+        K5 kill criterion: QLoRA compute time > 6 hours wall clock per
+        KILL_CRITERIA.md §K5. Wrap-only ships after that.
+        # Per looper rule: argv array. check_k5_time.py reads /tmp/q_lora_start_time
+        # timestamp and compares to current wall-clock.
+    - id: no-sealed-dir-edits
+      type: programmatic
+      check: ["python3", "level2/probe22/scripts/check_sealed.py"]
+      expect: zero_writes_to_sealed_dirs
+      notes: >
+        This loop must not write to level2/out/, level2/reports/,
+        level2/probe22/out/. If any write happens, KILL the loop and
+        escalate to user.
+
+host:
+  cli: opencode
+  model: opus
+  invoke: ["opencode", "-p"]
+  timeout_sec: 7200
+
+council:
+  - id: orchestrator
+    role: owner
+    cli: opencode
+    model: opus
+    invoke: ["opencode", "-p"]
+    timeout_sec: 7200
+    scope: [plan, w5-freeze, w6-launch, w7-eval, final-handoff]
+    local: true
+    notes: >
+      Main session (boss). Holds the law. Dispatches the 3 worker agents.
+      Does NOT do fixing labour; Verdict specifies, Miss applies,
+      Verdict re-verifies (fix-loop max 2 rounds).
+  - id: engine-agent
+    role: worker
+    cli: opencode
+    model: opus
+    invoke: ["opencode", "-p"]
+    timeout_sec: 7200
+    scope: [w6-training, w7-eval-mechanics]
+    local: true
+    prompt_file: docs/research/level7/PROMPT_ENGINE_AGENT.md
+    notes: >
+      Owns the main build work: W6 QLoRA execution (kok+pa), wrap baseline
+      integration, W7 re-scoring. Lane A research. EN sanity gates.
+  - id: verdict-agent
+    role: judge
+    cli: opencode
+    model: opus
+    invoke: ["opencode", "-p"]
+    timeout_sec: 7200
+    scope: [plan, w7-eval, all-handoff-verifications]
+    local: true
+    prompt_file: docs/research/level7/PROMPT_VERDICT_AGENT.md
+    notes: >
+      Verifies everything. Specifies fixes (never applies them to shared
+      docs). Owns McNemar matrix, Wilson CIs, K1/K3/K5 verdicts.
+      paperthin/mandela/factchk/hate at every eval gate.
+  - id: miss-agent
+    role: worker
+    cli: opencode
+    model: opus
+    invoke: ["opencode", "-p"]
+    timeout_sec: 7200
+    scope: [w5-prep, w6-scaffold-apply, w7-coordination]
+    local: true
+    prompt_file: docs/research/level7/PROMPT_MISS_AGENT.md
+    notes: >
+      Equal tier: applies every Verdict fix spec, runs Lane C monitoring,
+      validation-call coordination. Owns CALL_PACKET refresh.
+  - id: human-srujan
+    role: human
+    cli: null
+    scope: [w5-freeze-call, w6-launch, w7-final-signoff]
+    local: true
+    notes: >
+      Returns from break after Wed 2026-10-01. Holds W5 freeze + W6 launch
+      veto. Vinay meeting 2026-09-30 must precede W5 freeze.
+
+gates:
+  plan_gate:
+    when: after_plan
+    members: [verdict-agent, human-srujan]
+    verdict_policy: revise_until_clean
+    verdict_source: verdict-agent
+    criteria: [w5-freeze-call-held]
+    max_revisions: 2
+    notes: >
+      Plan gate fires AFTER the W5 freeze call is held (not before).
+      Plan = the chosen W6 path + kill criteria thresholds.
+  w6_launch_gate:
+    when: before_w6_train
+    members: [verdict-agent, human-srujan]
+    verdict_policy: human_must_sign
+    verdict_source: human-srujan
+    criteria: [k1-gate-q-lora, wrap-baseline-shipped, k4-memory-floor]
+    max_revisions: 1
+    notes: >
+      Hard gate before QLoRA training launches. Verdict checks K1 + K4 +
+      wrap-baseline; HUMAN must explicitly approve launch.
+  delivery_gate:
+    when: after_w7_eval
+    members: [verdict-agent]
+    verdict_policy: revise_until_clean
+    verdict_source: verdict-agent
+    criteria: [w7-mcnemar-vs-sarvam, k3-routing-drops, k5-time-cap, no-sealed-dir-edits]
+    max_revisions: 3
+    notes: >
+      Verdict signs off the W7 deliverable. K5 fire = wrap-only ships,
+      no retry.
+
+loop_control:
+  max_iterations: 3
+  iterations_defined_as: [W5_freeze, W6_train, W7_eval]
+  # NOTE (looper-coach, AGENT-7 2026-09-29): max_iterations=3 is tight because
+  # the spec defines exactly 3 phases (W5→W6→W7). Looper default is 12; we
+  # keep 3 here because the loop is bounded by W7 final signoff, not by
+  # improvement cycles. Re-runs require an explicit W7 re-enter decision.
+  budget:
+    usd: 0.0
+    tokens: 5000000
+    wall_clock_min: 480
+    notes: >
+      Local-only (Apple Silicon M2 Max 32GB). No cloud spend. ~8 hours wall
+      (W5 20min + W6 6h + W7 2h) per the spec.
+  no_progress:
+    max_stalled_iterations: 1
+    # Concrete signal definitions (looper rule: no-progress must be machine-decidable)
+    signals:
+      - id: same_k_verdict
+        description: >
+          Same K1 / K3 / K5 verdict repeats across 2 consecutive iterations.
+          Detection: diff k_verdicts.json across iterations; identical verdict
+          on K1/K3/K5 for 2 iterations in a row = no_progress.
+      - id: mcnemar_no_movement
+        description: >
+          McNemar matrix shows no engine movement vs the Sep 29 snapshot
+          (level2/probe22/scores/mcnemar_full_matrix.json). Detection:
+          per-(engine, lang) p-values unchanged within ±0.05 across
+          2 consecutive iterations.
+      - id: fix_specs_unapplied
+        description: >
+          Verdict's fix specs (docs/research/level7/FIX_SPECS_FOR_MISS.md)
+          are ignored or partially applied. Detection: count of unapplied
+          fix_specs after 24h > 0; same items reappear in next iteration's
+          Verdict output.
+      - id: metric_drift_below_threshold
+        description: >
+          CER delta on test split < 0.005 across 2 consecutive iterations
+          OR McNemar p-value drift > 0.10 (per LOOP_SPEC §D2).
+    action: stop_and_escalate_to_user
+  observability:
+    state_file: level2/probe22/loop_state.json
+    run_log: docs/research/level7/RUN_LOG_W5_W6_W7.md
+    # Per looper rule: observability paths must be explicit + machine-readable
+    state_schema:
+      current_phase: [W5_freeze, W6_train, W7_eval, COMPLETE, ESCALATED]
+      iteration_index: int
+      gate_verdicts:
+        plan_gate: [PASS, NEEDS_WORK, PIVOT]
+        w6_launch_gate: [PASS, KILLED, BLOCKED]
+        delivery_gate: [PASS, NEEDS_WORK, KILLED]
+      k_verdicts:
+        k1: [SURVIVES, KILLED, UNVERIFIED]
+        k2: [OPEN, EXPIRED, COMPLETED]
+        k3: [PASS, ROUTED_OUT, UNVERIFIED]
+        k4: [OK, BELOW_FLOOR]
+        k5: [OK, EXCEEDED]
+      cer_deltas: object  # per-language CER change vs Sep 29 baseline
+      mcnemar_p_drift: object  # per-pair p-value change
+      no_progress_count: int
+      wall_clock_min: float
+      budget_usd_spent: float
+    checkpoint_granularity: phase
+  human_checkpoints:
+    - checkpoint: w5-freeze-call
+      when: before_w5_freeze
+      required: true
+      blocker_if_skipped: true
+      notes: >
+        Srujan MUST be present for W5 freeze. Vinay meeting 2026-09-30
+        may shift the freeze date by 1-2 days if Vinay has new requirements.
+        Skipping this checkpoint = ESCALATE per stop_condition.
+    - checkpoint: w6-launch-approval
+      when: before_q_lora_step
+      required: true
+      blocker_if_skipped: true
+      notes: >
+        Srujan must approve mlx-tune install + memory check + K1 verdict
+        BEFORE the first QLoRA training step. Skipping = KILL QLoRA, ship
+        wrap-only per the spec.
+    - checkpoint: w7-final-signoff
+      when: before_final_handoff
+      required: true
+      blocker_if_skipped: true
+      notes: >
+        Srujan must sign off on the W7 LEADERBOARD_v1.md before the
+        hackathon submission window closes. Skipping = loop does not
+        COMPLETE; remains in W7_eval phase.
+  stop_conditions:
+    - id: W5_window_expires_without_user
+      description: W5 freeze window (Wed 2026-10-01 evening) passes without user present
+      action: emit PAUSED, escalate
+    - id: user_vetoes_w6_launch
+      description: User says "do not launch QLoRA" at w6-launch-approval
+      action: ship wrap-only, skip to W7_eval
+    - id: k1_killed_q_lora
+      description: K1 gate returns KILLED on both kok AND pa (per KILL_CRITERIA.md §K1)
+      action: skip W6_train QLoRA phase, ship wrap-only, proceed to W7_eval
+    - id: k2_micro_repair_window_expired
+      description: W5 freeze window expires with sat+ks micro-repair unfinished
+      action: defer micro-repair to post-hackathon (D4 LOCKED)
+    - id: k3_engine_routed_out
+      description: K3 routes an engine out of wrap pipeline (Wilson upper bound worse than next-best)
+      action: update wrap_routing.json, continue
+    - id: k4_memory_floor_below_2gb
+      description: K4 reclaimable memory < 2GB at any checkpoint
+      action: KILL QLoRA, ship wrap-only
+    - id: k5_q_lora_wallclock_exceeded_6h
+      description: K5 QLoRA compute wall-clock > 6h (KILL_CRITERIA.md §K5)
+      action: KILL QLoRA, ship wrap-only, no retry
+    - id: w7_passes_clean_on_leaderboard
+      description: W7 leaderboard passes W7-mcnemar-vs-sarvam gate
+      action: COMPLETE, archive state
+    - id: sealed_dir_write_detected
+      description: check_sealed.py detects any write to level2/out/, level2/reports/, level2/probe22/out/
+      action: KILL loop, escalate to user (L10 + AGENTS.md)
+    - id: max_iterations_reached
+      description: iterations_defined_as exhausted (3 phases)
+      action: COMPLETE or PIVOT per W7 verdict
+    - id: sarvam_call_counter_exceeded_60
+      description: sarvam_vision invocation count > 60 (54 baseline + 6 EN sanity buffer)
+      action: stop Sarvam calls, continue with cached scores
+    - id: no_progress_detected
+      description: no_progress signals fire for max_stalled_iterations (default 1)
+      action: stop_and_escalate_to_user
+    - id: budget_exceeded
+      description: budget.usd > 0 OR budget.tokens > 5M OR budget.wall_clock_min > 480
+      action: KILL any cloud-requiring step, ship wrap-only
+
+phases:
+  - name: W5_freeze
+    description: >
+      Hold the W5 freeze call with Srujan. Lock D1 (wrap-only + optional
+      QLoRA on kok+pa), D2 (Sarvam EN — skipped by default, overridable),
+      D3 (20-item human spot-check — gu_o005 first), D4 (barred langs
+      stay, sat+ks micro-repair optional). Lock the K1/T1/T2 thresholds.
+      Lock the human gates for W6 launch + W7 signoff.
+    duration_min: 20
+    gate: human_approval
+    deliverables:
+      - docs/research/level7/CALL_PACKET.md updated with W5 outcomes
+      - W5_W6_W7_LOOP.yaml (this file) updated with locked thresholds
+      - W6_QLORA_SPEC.md confirmed or revised
+    stop_on: w5_window_expires_without_user
+
+  - name: W6_train
+    description: >
+      Wrap baseline ships first (per-script routing on all 11 engines for
+      all 1,227 probe22 items). Then, IF K1 SURVIVES for kok OR pa AND
+      user approved mlx-tune install AND memory > 4GB reclaimable:
+      run mlx-tune SFT on the surviving SAFE langs only (max 2 langs
+      from {kok, pa}; max 30 min/lang on M2 Max 32GB). Re-evaluate after
+      each lang; K1 fires per-lang.
+    duration_hr: 6
+    gate: kill_criteria
+    deliverables:
+      - level2/probe22/w6_sft/{kok,pa}/adapter.safetensors
+      - level2/probe22/w6_metrics_{kok,pa}.json
+      - level2/probe22/w6_routing.json (final routing table)
+    stop_on:
+      - k1_killed_q_lora
+      - k4_memory_floor_below_2gb
+      - k5_q_lora_wallclock_exceeded_6h
+
+  - name: W7_eval
+    description: >
+      Re-score probe22 with the W6 routing (wrap-only OR wrap+QLoRA). Run
+      McNemar exact paired comparisons: W6 pipeline vs Sarvam Vision 2.1
+      subset baseline (3/lang, n=54). Compute Wilson 95% CI per (lang,
+      engine). Apply K3 routing drops. Emit LEADERBOARD_v1.md.
+    duration_hr: 2
+    gate: beat_sarvam_avg_on_safe_subset
+    deliverables:
+      - docs/research/level7/LEADERBOARD_v1.md
+      - level2/probe22/w7_mcnemar_vs_sarvam.json
+      - level2/probe22/w7_wilson_ci.json
+    stop_on:
+      - w7_passes_clean_on_leaderboard
+      - sealed_dir_write_detected
+      - k5_q_lora_wallclock_exceeded_6h
+
+execution:
+  mode: in_session
+  isolation: current_workspace
+  side_effects:
+    requires_approval: true
+    duplicate_action_check: true
+    notes: >
+      Sealed dirs (level2/out/, level2/reports/, level2/probe22/out/) are
+      read-only. W6 writes to level2/probe22/w6_sft/ and level2/probe22/
+      w6_*.json — a NEW workspace, not the sealed out/. W7 writes to
+      docs/research/level7/LEADERBOARD_v1.md. Any other write = KILL.
+
+observability:
+  state_file: level2/probe22/loop_state.json
+  run_log: docs/research/level7/RUN_LOG_W5_W6_W7.md
+  checkpoint_granularity: phase
+  notes: >
+    State file written after every gate. Run log is append-only.
+    Both readable by all 3 worker agents.
+
+privacy:
+  egress:
+    - to: human-srujan
+      sends: [w5-call-packet, w6-launch-approval, w7-leaderboard]
+      redact: [".env", ".env.*", "secrets/**", "**/*.key"]
+      consent: required
+      notes: >
+        Srujan is local — egress is just reading the repo. No external
+        service receives data in this loop.
+
+workspace:
+  dir: level2/probe22/
+  layout:
+    - w6_sft/kok/adapter.safetensors
+    - w6_sft/pa/adapter.safetensors
+    - w6_metrics_kok.json
+    - w6_metrics_pa.json
+    - w6_routing.json
+    - loop_state.json
+    - scripts/check_k1.py
+    - scripts/check_wrap_baseline.py
+    - scripts/check_w7_vs_sarvam.py
+    - scripts/check_k3_drops.py
+    - scripts/check_k4_memory.py
+    - scripts/check_k5_time.py
+    - scripts/check_sealed.py
+    - ../docs/research/level7/LEADERBOARD_v1.md
+    - ../docs/research/level7/RUN_LOG_W5_W6_W7.md
+
+# ---------------------------------------------------------------------------
+# LOOPER COACH REVIEW PASS (AGENT-7, 2026-09-29)
+# Skill: ~/.config/opencode/skills/looper/SKILL.md
+# Verdict: PASS with 3 structural improvements applied (see git diff vs 2026-09-29 ~18:30).
+# Improvements applied this pass:
+#   1. loop_control.no_progress.signals: concrete machine-decidable signal
+#      definitions (same_k_verdict, mcnemar_no_movement, fix_specs_unapplied,
+#      metric_drift_below_threshold). Original spec said "no-progress signals"
+#      but did not name them. Per looper rule: no-progress must be decidable.
+#   2. loop_control.observability.state_schema: explicit JSON schema for
+#      loop_state.json (was implicit). Per looper rule: observability names
+#      state file + run log + checkpoint granularity.
+#   3. k4-memory-floor and k5-time-cap checks: converted from shell-string
+#      argv (["bash", "-c", "..."]) to argv-only (["python3", ".../check_k4_memory.py"]).
+#      Per looper rule: argv arrays, not shell command strings.
+#   4. stop_conditions: each entry now has an id + description + action.
+#      Original list was names-only; looper requires machine-decidable actions.
+#   5. max_iterations: kept at 3 (vs looper default 12) with explicit note
+#      explaining why (loop is bounded by W7 final signoff, not by
+#      improvement cycles).
+# Looper emit checklist (skill §"Emit Checklist"):
+#   [x] Goal has clear outcome, scope, context, done state
+#   [x] Verification criteria typed (programmatic + judge + human)
+#   [x] Each revise_until_clean gate has verdict_source
+#   [x] Every external invocation is argv (no shell strings)  -- after this pass
+#   [x] Cross-vendor egress: NONE (D1 LOCKED)
+#   [x] Loop control: iteration, revision, no-progress, wall-clock, budget
+#   [x] Execution boundary: current workspace + loop-workspace/
+#   [x] Observability: state.json + run-log.md + state_schema  -- after this pass
+#   [ ] Compile + lint: NOT EXECUTED in this pass (looper.py compile is not
+#       installed in this opencode session); lint deferred to Verdict agent
+#       at W5 freeze.
+# ---------------------------------------------------------------------------

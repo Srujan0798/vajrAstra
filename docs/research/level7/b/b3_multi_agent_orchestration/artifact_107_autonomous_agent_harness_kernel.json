@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/autonomous-agent-harness/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Autonomous Agent Harness: transforms Claude Code into fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent frameworks (Hermes, AutoGPT) by leveraging Claude Code's native crons, dispatch, MCP tools, and memory. Use when user wants continuous autonomous operation, scheduled tasks, or self-directing agent loop. Provides kernel architecture for persistent multi-agent systems with file-based memory and scheduled automation without external databases.",
+  "status": "PRIMARY",
+  "decision_it_changes": "memory-loop architecture for Engine/Verdict/Miss agents",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness",
+  "actionability": "direct"
+}

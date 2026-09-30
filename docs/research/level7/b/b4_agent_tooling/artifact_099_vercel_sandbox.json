@@ -1,0 +1,19 @@
+{
+  "source_url": "https://vercel.com/ai-sdk",
+  "date": "2026-09-03",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Vercel Sandbox: Run agent generated code securely and at scale. npm i @vercel/sandbox. Part of AI SDK ecosystem. Enables safe execution of code produced by AI agents. Integrates with AI Gateway, Workflows, AI Elements. Provides isolated execution environment for agent-generated code.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/delivery-gate/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Delivery Gate: Stop hook that mechanically blocks Claude from finishing until quality checks pass. Uses only deterministic checks (file mtime, disk usage, regex on transcript). Three checks: 1) Rationalization patterns (regex on transcript tail) - warning only, patterns like 'skip tests for now', 'pre-existing bug', 2) Stale learning libraries (mtime on 5 configurable paths: growth-log/, decisions/log.md, output-index.md, ratings-tracker.md, tooling_capabilities.md) - warning if some stale, BLOCK if >=3 stale OR growth-log stale + complex task (>=3 edits), 3) Disk space - warn <50GB, BLOCK <15GB. Distinct from self-audit: delivery-gate checks machine-verifiable facts (did learning libs get touched?), self-audit checks output quality (correctness, completeness, honesty). Installs as Python script in ~/.claude/scripts/quality-gate.py with Stop hook in settings.json. Complex task + no learning captured = blocked with stderr message.",
+  "status": "MEASURED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "verifiable reward pattern (RLVR)"
+}

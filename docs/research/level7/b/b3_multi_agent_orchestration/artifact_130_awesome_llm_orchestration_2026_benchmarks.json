@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/CuiZHIQ/Awesome-LLM-Agent-Orchestration",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Awesome LLM Agent Orchestration 2026 benchmarks and evaluations. MCP-Bench (ICLR 2026): MCP-server benchmark for tool-using agents. SwarmBench (EMNLP 2026 Findings): evaluation suite for dynamically orchestrated agent swarms. Budget-Aware Tool Use (COLM 2026): budget-aware planning and verification for tool-augmented agents. Learning What to Retain (EMNLP 2026): gated-memory routing for efficient multi-agent collaboration. EvoRoute (ACL 2026): experience-driven self-routing for cost-latency-quality tradeoffs. ACE-Router (ACL 2026): history-aware routing from MCP tools to open Agent Web. ProgRouter (EMNLP 2026 Findings). MAS-Orchestra (ICML 2026): holistic multi-agent orchestration as function-calling RL. Conductor (ICLR 2026): RL-trained natural-language conductor for topology and prompt orchestration. Survey: The Orchestration of Multi-Agent Systems (arXiv 2026).",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review",
+  "actionability": "indirect"
+}

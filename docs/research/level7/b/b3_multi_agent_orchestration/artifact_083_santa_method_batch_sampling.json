@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/santa-method/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Santa Method batch sampling pattern for large batches (100+ items). Full Santa on every item is cost-prohibitive. Pattern: 1) Run Santa on random sample (10-15% of batch, minimum 5 items), 2) Categorize failures by type (hallucination, compliance, completeness, etc.), 3) If systematic patterns emerge, apply targeted fixes to entire batch, 4) Re-sample and re-verify fixed batch, 5) Continue until clean sample passes. Reduces cost to ~15-20% of full verification while catching >90% of systematic issues. Code example: santa_batch function with random.sample, classify_failure, batch_fix, recursive re-sample. Three implementation patterns: Pattern A (Claude Code Subagents - recommended, true context isolation), Pattern B (Sequential Inline - fallback with explicit context resets), Pattern C (Batch Sampling - for large batches).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

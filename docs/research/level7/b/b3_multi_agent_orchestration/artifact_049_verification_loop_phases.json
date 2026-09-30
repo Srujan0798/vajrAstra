@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/verification-loop/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Verification Loop six phases with commands and pass/fail criteria. Phase 1 Build: npm run build / pnpm build - if fails STOP and fix. Phase 2 Type Check: npx tsc --noEmit / pyright - report all type errors, fix critical. Phase 3 Lint: npm run lint / ruff check - report warnings. Phase 4 Test Suite: npm run test -- --coverage - target 80% minimum coverage, report total/passed/failed/coverage%. Phase 5 Security Scan: grep for 'sk-', 'api_key', 'console.log' in source files. Phase 6 Diff Review: git diff --stat, git diff HEAD~1 --name-only - review each changed file for unintended changes, missing error handling, potential edge cases. Output: VERIFICATION REPORT with PASS/FAIL per phase, overall READY/NOT READY. Continuous mode: run every 15 minutes or after major changes (after each function, component, before next task).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "depends on W6 model freeze decision (D1)"
+}

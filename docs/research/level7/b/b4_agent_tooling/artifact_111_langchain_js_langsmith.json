@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.langchain.com/oss/javascript/build-overview",
+  "date": "2025-10-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangSmith: Unified developer platform for building, testing, monitoring LLM applications. Debug poor-performing LLM app runs, evaluate agent trajectories, gain visibility in production, deploy agents with confidence. Integrates with LangChain, LangGraph, Deep Agents. Provides tracing, evaluation, observability for agent workflows. Essential for production agent deployment. Follow tracing quickstart to get set up.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

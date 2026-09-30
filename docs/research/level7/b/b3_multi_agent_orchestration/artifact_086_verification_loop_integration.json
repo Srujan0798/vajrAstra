@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/verification-loop/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Verification Loop integration with hooks and continuous mode. Complements PostToolUse hooks but provides deeper verification. Hooks catch issues immediately; this skill provides comprehensive review. Continuous mode: run every 15 minutes or after major changes - set mental checkpoint after completing each function, component, before moving to next task. Run: /verify. Output format: VERIFICATION REPORT with Build/Types/Lint/Tests/Security/Diff each PASS/FAIL, overall READY/NOT READY for PR. Issues to Fix listed. Phase 1 Build: if fails STOP and fix before continuing. Phase 2 Type Check: report all type errors, fix critical ones. Phase 3 Lint: report warnings. Phase 4 Test: target 80% minimum coverage. Phase 5 Security: grep for secrets, api_keys, console.log. Phase 6 Diff Review: review each changed file for unintended changes, missing error handling, potential edge cases.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "depends on W6 model freeze decision (D1)"
+}

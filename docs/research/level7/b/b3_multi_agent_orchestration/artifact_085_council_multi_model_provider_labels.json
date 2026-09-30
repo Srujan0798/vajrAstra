@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/council-multi-model/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Council Multi-Model provider relationship labels. Current host / Reviewer / Label: Anthropic/Claude -> OpenAI Codex -> 'cross-provider external critique'; OpenAI/Codex -> OpenAI Codex -> 'same-provider external critique'; Unknown -> OpenAI Codex -> 'provider relationship unverified'. Use label in final result. Never claim provider diversity when current host is already OpenAI-backed. Review packet includes only reasoning needed to critique draft, wrapped in UNTRUSTED blocks. Asks explicit consent to send to OpenAI Codex, showing/summarizing contents. Bounded adapter via node scripts/review-with-codex.js with strict isolation. If CLI missing/auth fails/timeout/no output: writes 'external review absent' with concrete reason, continues with normal council result. Final presentation includes raw positions, council synthesis draft, external critique (or absent notice), and decision handed to user.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

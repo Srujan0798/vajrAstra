@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/blueprint/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Blueprint research phase details. Phase 1 Research: pre-flight checks (git, gh auth, remote, default branch), then reads project structure, existing plans, and memory files to gather context. Phase 2 Design: breaks objective into one-PR-sized steps (3-12 typical). Assigns dependency edges, parallel/serial ordering, model tier (strongest vs default), and rollback strategy per step. Phase 3 Draft: writes self-contained Markdown plan file to plans/. Every step includes context brief, task list, verification commands, and exit criteria - so fresh agent can execute cold. Phase 4 Review: delegates adversarial review to strongest-model sub-agent (e.g., Opus) against checklist and anti-pattern catalog. Fixes all critical findings before finalizing. Phase 5 Register: saves plan, updates memory index, presents step count and parallelism summary. Example multi-agent project: /blueprint chatbot \"extract LLM providers into plugin system\" produces plan with parallel steps (implement Anthropic plugin and implement OpenAI plugin run in parallel after plugin interface step), model tier assignments (strongest for interface design, default for implementation), invariants verified after every step (all existing tests pass, no provider imports in core).",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

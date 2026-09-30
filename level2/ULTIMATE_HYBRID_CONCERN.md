@@ -162,3 +162,17 @@ The six-living-docs cap in §12 is amended. The tree is `docs/INDEX.md`.
 Current process law is `OCR_AGENT_MEMORY_FEED.md` (W0–W6). This file remains Level-2 **bench** law: disk truth, 4-page gate, one writer, no training on the eval split.
 
 Operator 2026-09-25: delete superseded history. `_archive/`, `docs/_history/`, `upload_sept16/` duplicates, interrogation MDs, raw meeting transcript, synth-leak PNGs, old logs, and empty smoke clones are gone. Unique facts already live in this file, `docs/research/W1_RECIPE_REFRESH.md`, and `level2/reports/`. Do not reopen Level-3 paid keys or training until W5 freeze.
+
+---
+
+## PART IX — 2026-09-27 AMENDMENT (latest § wins)
+
+This file remains South Level-2 **bench** law (the sealed 400-page South bench: disk truth, 4-page gate, one writer, no training on the eval split). The new era lives in three layers:
+
+1. **Probe law** — `level2/probe22/AGENT_PROTOCOL.md`: remaining-18-language probe on the official hackathon dataset, manifest LOCKED at n=1,227 (100/lang; GT tiers: official_pair 300 / official_pdf 769 / sarvam_fill 158, excluded from SFT/RLVR), 11 engines incl. sarvam_vision at the 54-call cap, scorer law §6.5, §6.4 GT verdicts LOCKED 2026-09-27 04:55: BARRED from W6 = ks, mni, ur, sat, mr, ne-PDF-tier; SAFE pending §6.2 = as, brx, doi, kok, mai, or, pa; VERIFY-FIRST = gu, sd. §10 closed — never re-litigate.
+2. **Campaign law** — `docs/research/LEVEL7_RESEARCH_CAMPAIGN.md` (ACTIVE 48h campaign, ends ~04:23 Tue Sep 29): 3-agent ops model (ENGINE main-build / VERDICT verify+specify / MISS equal-tier apply+monitor), fix-loop FIND→SPEC→FIX→RE-VERIFY (max 2 rounds), lanes A/B/C, evidence law §9 (PRIMARY/MEASURED/DERIVED/CONTRADICTION/UNKNOWN/REJECTED/DEAD; every record names the decision it can change), decisions D1–D4 LOCKED in §10, call prep in §11.
+3. **Master doc** — `FULL TECHNICAL BRIEFING.md` (repo root): Part I technical briefing, Part II current-state briefing. One topic, one file: new facts go to the file that owns them.
+
+Standing verdicts this file still owns (South bench, sealed): tied leaders surya+anuvaad (median CER 0.43/0.48); free-OSS gap 7.1% lower bound; 10 engines × 400 pages = 9 engines, 7 independent families (L6 — unchanged and still quotable). Probe weak-cell forensics (2026-09-27): sat = total capability gap (only sarvam_vision reads Ol Chiki; sat.traineddata verified DEAD upstream); ks = partial (rapidocr best at 71% Arabic median; GT fragmented Nastaliq); tesseract_bilingual ≡ tesseract_indic ≡ openbharatocr on 322/1257 probe packs — count effective engines on the probe leaderboard too.
+
+W6 guard (restated from the 2026-09-25 amendment): no training, no paid keys, no new downloads without explicit operator approval, until the validation call (H44–48, ~04:23 Tue Sep 29) and the W5 freeze (after Wed 2026-10-01). W6 path locked as D1: wrap-only baseline + conditional local QLoRA on SAFE languages, gated on Phase 6 McNemar-significant gaps.

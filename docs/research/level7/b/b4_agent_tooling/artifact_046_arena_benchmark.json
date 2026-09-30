@@ -1,0 +1,19 @@
+{
+  "source_url": "https://dl.acm.org/doi/10.1145/3786335.3813233",
+  "date": "2026-05-26",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Arena: Benchmarking AI Agent Frameworks Under Fixed-Model Conditions (ACM AI and Agentic Systems). Open-source tool evaluating 6 frameworks under fixed-model conditions (same LLM, same MCP). Uses MCP as common tool layer. Existing benchmarks evaluate models, not frameworks orchestrating them. Results: Claude Agent SDK highest median correctness (0.88), AWS Strands and CrewAI (0.75 each), LangChain and LangGraph lower. Isolates framework performance from model performance. MCP provides standardized interface between agents and tools.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "DIES",
+  "transfer_harness_fact": "no paid keys (no GPT-4, no cloud GPU)"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/loop-design-check/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Loop Design + Review: two actions - WRITE a loop (gate whether to build, define machine-decidable goal, pick loop type, pick skeleton) and REVIEW a loop (five failure modes + decidability, boundaries, fallback, judge independence, keep-judgment-with-human red lines). Step 0 gate: task repeats weekly+, verification automatable, token budget supports it, agent has tools that run and see result - miss any = don't build. Step 1: machine-decidable goal with five-point framework (done-criterion machine-verifiable, boundary conditions defined, failure fallback with retry cap, goal layered, prefer reconciliation over assertion). Step 2: loop type - servo (clear done test), regulator (maintain state, no endpoint), regulator with exit (periodic sampling), wrap in schedule (ensure on time). Step 3: skeleton - maintenance type (document-driven dispatch, one-way state, exit code final, done flipped by human) or greenfield type (plan/build/judge with independent deterministic judge). Step 4: damping (retry cap, hard stop, human flips last switch). Step 5: land in three stages (run by hand, harden into skill/sub-agents, hang on cron). Review checklist: 5 failure modes (spinning on platitude goal, verification as 'looks ok', only gates on tests pass enabling deletion, counts on agent asking mid-run, bloated CLAUDE.md/stale memory). 3 red lines: keep judgment with human, responsibility doesn't transfer, self-improving loops need stricter human review not looser.",
+  "status": "PRIMARY",
+  "decision_it_changes": "memory-loop architecture for Engine/Verdict/Miss agents",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "self-improvement loop pattern"
+}

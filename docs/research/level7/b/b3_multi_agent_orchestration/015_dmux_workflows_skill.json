@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/dmux-workflows/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "dmux Workflows: orchestrate parallel AI agent sessions using dmux (tmux pane manager for agent harnesses). Supports Claude Code, Codex, OpenCode, Cline, Gemini, Qwen. Five patterns: 1) Research + Implement (parallel tracks), 2) Multi-File Feature (parallelize independent files), 3) Test + Fix Loop (watcher runs tests, fixer fixes), 4) Cross-Harness (different AI tools for different tasks), 5) Code Review Pipeline (parallel review perspectives). Best practices: independent tasks only, clear boundaries per pane, merge strategically, use git worktrees for file-conflict-prone work, keep total panes under 5-6. ECC helper: node scripts/orchestrate-worktrees.js with plan.json defining sessionName, baseRef, launcherCommand, workers with name/task. Creates branch-backed git worktree per worker, optionally overlays seedPaths, writes per-worker task.md/handoff.md/status.md under .orchestration/<session>/, starts tmux session with one pane per worker, launches worker command in each pane, leaves main pane for orchestrator.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

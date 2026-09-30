@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2406.08979",
+  "date": "2025-06-06",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Cross-Team Orchestration (Croto): scalable multi-team framework enabling orchestrated teams to jointly propose task-oriented solutions and interact with insights in self-independent while cross-team collaboration environment. Each team has same task assignment to communicate in collaborative environment. Multi-team collaboration outperforms individual efforts. Aggregation process: multiple agents from different teams contribute solutions, partitioned into groups, collaboratively aggregated through interactions. Role-assigned aggregate agent proficient in synthesizing solutions extracts strengths/weaknesses of each solution, aggregates superior solution greedily integrating strengths and eliminating weaknesses, explicitly outlines changes. Related work: MAC-NET (Qian et al., 2024d) revealed quality follows logistic growth pattern as agent count scales. Croto envisions multi-agent teams as collaborative units enabling both inter- and intra-team collaborations.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

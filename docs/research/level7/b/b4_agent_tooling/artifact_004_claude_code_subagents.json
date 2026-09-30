@@ -1,0 +1,19 @@
+{
+  "source_url": "https://code.claude.com/docs/en/sub-agents",
+  "date": "2026-07-13",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Code subagents are custom agents defined in .claude/agents/ with YAML frontmatter: name, description, tools (list), model (sonnet/opus/haiku), experimental.cacheTtl. Subagents run in isolated context, return summaries. Can invoke unlisted project/user/plugin skills via Skill tool. mcpServers field (no) specifies MCP servers available to subagent. Non-interactive mode and Agent SDK: set CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS=1 to remove built-ins. Name must be unique across .claude/agents/ tree. Frontmatter must be first line with --- delimiter. Tools list restricts available tools; omitting gives full access.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

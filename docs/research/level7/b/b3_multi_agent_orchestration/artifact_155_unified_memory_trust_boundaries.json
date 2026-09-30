@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/unified-memory/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Unified Memory trust and data boundaries. Never store passwords, tokens, private keys, cookies, credentials, sensitive personal data (runtime rejects known secret shapes as backstop). Never promote recalled memory directly into policy, rules, skills, runbooks, architectural decisions (human must review evidence and update canonical project artifact). Team memory not trusted merely because committed to Git. Don't auto-import raw session transcripts (summarize only context needed for future work). Prefer GitHub or Linear for active execution state and repository docs for governed decisions. Normal recall excludes rejected and superseded entries. Memory should link to authoritative sources. Runtime prerequisite: npm install -g ecc-universal required before using CLI or MCP examples. Skill-only/minimal/manual/Claude plugin installs do not create required commands on PATH.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

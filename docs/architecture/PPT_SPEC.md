@@ -36,4 +36,4 @@ Akshara-aware layout+recognition (conjuncts, matras, sandhi). Calibrated confide
 | 3b SimPO/DPO | KEEP | preference on ranked JSON still valid |
 | Bench set | UPDATE | Add HuggingFace `sarvamai/indic-ocr-bench` (6,909 blocks, 22 langs + EN). Keep no-FT-on-test. |
 
-W2 full KEEP/REPLACE/HYBRID/DROP waits on W1 paper pass + W3 probe sheet. This table is the challenger, not a freeze.
+W2 draft (full table): `docs/architecture/W2_HYBRID.md`. Freeze at W5.

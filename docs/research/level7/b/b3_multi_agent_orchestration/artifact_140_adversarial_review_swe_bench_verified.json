@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2608.18167",
+  "date": "2026-08-16",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Adversarial Review SWE-bench Verified results. AR improves performance when expressed only as a SKILL.md protocol, without a Python orchestrator forcing every step. On SWE-PRBench, naive AR exposes false-consensus failure mode, but single prompt iteration adding explicit disagreement achieves highest F1. On SWE-bench Verified, AR shows improvements over baselines on repository-level coding tasks. Python orchestrator experiments isolate protocol under controlled execution; SWE-bench Verified tests looser skills-form instruction. Two modes answer different questions: controlled workflow vs. autonomous agent following pure-text protocol. SWE-bench Verified result important: demonstrates protocol can be followed by autonomous coding agents without external enforcement.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "validation-call kill-criteria (adversarial review gate)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

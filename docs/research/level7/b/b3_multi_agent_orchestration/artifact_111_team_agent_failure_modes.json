@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/team-agent-orchestration/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Team Agent Orchestration failure modes detailed. Agent soup: many agents running, no owner or merge gate. Invisible work: useful output exists only in chat transcript. Board theater: Kanban board exists but cards have no acceptance criteria. Overlapping writes: parallel agents edit same files without worktrees. No product artifact: process produces docs but no runnable or publishable surface. Output standard for each orchestration pass: board/card changes, merged or pending branches, tests and eval evidence, blockers with owner and next action, new shared skill candidates. Dynamic workflow compatibility: task-local harness under card owner, inputs/outputs on card, eval before Running to Review, promote harness to shared skill after repeat use.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

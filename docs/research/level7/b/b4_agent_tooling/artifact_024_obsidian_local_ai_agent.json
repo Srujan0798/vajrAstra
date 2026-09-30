@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/Wansiteng/obsidian-local-ai-agent",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Obsidian Local AI Agent: local-first plugin powered by Ollama. Autonomous multi-step vault tasks with no cloud services. Natural language tasks (e.g., 'move agent notes to Chats folder'), multi-step planning (list → read → move → synthesize via LLM), vault-aware tools (read, write, move, delete, list notes via Obsidian native API), conversation panel (sidebar UI with real-time progress, clickable task cards), local & private (all inference on machine via Ollama, nothing to cloud), task persistence (checkpoints survive restarts). Beta status, core features functional but not ready for general release. MIT license.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "offline-capable pipeline (no paid APIs)"
+}

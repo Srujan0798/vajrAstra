@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2507.21504",
+  "date": "2025-07-29",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "theoretical",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Survey: Evaluation and Benchmarking of LLM Agents (arXiv:2507.21504). Two-dimensional taxonomy: (1) evaluation objectives - what to evaluate (agent behavior, capabilities, reliability, safety), (2) evaluation process - how to evaluate (interaction modes, datasets/benchmarks, metric computation, tooling). Enterprise challenges: role-based data access, reliability guarantees, dynamic long-horizon interactions, compliance. Future directions: holistic, realistic, scalable evaluation. Aims to bring clarity to fragmented agent evaluation landscape. Authors: Mohammadi, Li, Lo, Yip.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "transfer not derivable from available signals"
+}

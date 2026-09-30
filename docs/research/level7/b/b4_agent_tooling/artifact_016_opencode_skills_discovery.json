@@ -1,0 +1,19 @@
+{
+  "source_url": "https://opencode.ai/docs/skills/",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenCode Skills Discovery: Skills loaded from .opencode/skills/, ~/.config/opencode/skills/, .claude/skills/, ~/.claude/skills/, .agents/skills/, ~/.agents/skills/. Project-local walks up to git worktree. Global from home configs. Skills surfaced via native skill tool. Agents see available skills and load full content when needed. Skills vs MCP: MCP for external tools (browser, design, automation), Skills for internal workflows and reusable instructions. Both support permission control. Rule: Use MCP when agent needs to do something outside OpenCode; Use Skills when agent needs to know how to do something consistently. Frontmatter: name (required, matches folder), description (required), license/compatibility/metadata (optional).",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness"
+}

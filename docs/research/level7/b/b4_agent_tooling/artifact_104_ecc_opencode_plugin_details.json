@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/josecollado/ecc",
+  "date": "2026-02-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC OpenCode Plugin Details: v1.3.0 (Feb 2026) adds full OpenCode integration. 12 agents, 24 commands, 16 skills with hook support via OpenCode's plugin system (20+ event types). 3 native custom tools: run-tests, check-coverage, security-audit. LLM documentation via llms.txt. Cross-platform: Windows, macOS, Linux with Node.js hooks/scripts. Install: npx ecc-agentshield init for secure config generation. Plugin config: 'everything-claude-code@everything-claude-code': true in opencode.jsonc. Scans 5 categories: secrets detection (14 patterns), permission auditing, hook injection analysis, MCP server risk profiling, agent config review.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness",
+  "actionability": "direct"
+}

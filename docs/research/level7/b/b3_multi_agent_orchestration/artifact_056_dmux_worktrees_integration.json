@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/dmux-workflows/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "dmux Workflows git worktree integration and orchestrate-worktrees.js helper. Git worktree isolation: git worktree add -b feat/auth ../feature-auth HEAD; git worktree add -b feat/billing ../feature-billing HEAD; run agents in separate worktrees (cd ../feature-auth && claude); merge branches when done (git merge feat/auth; git merge feat/billing). ECC helper: node scripts/orchestrate-worktrees.js plan.json --execute with plan.json containing sessionName, baseRef, launcherCommand, workers array with name/task. Helper creates branch-backed git worktree per worker, optionally overlays seedPaths from main checkout, writes per-worker task.md/handoff.md/status.md under .orchestration/<session>/, starts tmux session with one pane per worker, launches worker command in each pane, leaves main pane for orchestrator. seedPaths for workers needing access to dirty/untracked local files (local orchestration scripts, draft plans, docs). Complementary tools: dmux (tmux pane management), Superset (terminal IDE for 10+ parallel agents), Claude Code Task tool (in-process subagent spawning), Codex multi-agent (built-in agent roles).",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

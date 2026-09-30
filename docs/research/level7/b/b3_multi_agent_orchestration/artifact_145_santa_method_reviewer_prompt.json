@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/santa-method/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Santa Method reviewer prompt structure and rubric. Reviewer prompt: 'You are an independent quality reviewer. You have NOT seen any other review of this output. Task Specification: {task_spec}. Output Under Review: {output}. Evaluation Rubric: {rubric}. Evaluate each criterion: PASS (criterion fully met) or FAIL (specific issue found, cite exact problem). Return structured JSON: {verdict: \"PASS|FAIL\", checks: [{criterion, result, detail}], critical_issues: [...], suggestions: [...]} Be rigorous. Your job is to find problems, not to approve.' Two reviewers (B and C) run concurrently with context isolation, identical rubric, same inputs. Verdict gate: both must PASS for NICE; otherwise NAUGHTY with merged issues deduplicated. Fix cycle: fix all critical issues, re-run both reviewers with fresh agents (no memory carryover), max 3 iterations then escalate.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

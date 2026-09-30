@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/JSCOP/atc-kanban",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ATC (Agent Task Coordinator) multi-agent task orchestration with kanban board. Coordinates multiple AI agents (Claude Code, Codex, Gemini CLI, OpenCode) working on same codebase. Provides: task locking, branch isolation via git worktrees, real-time dashboard to monitor everything. Addresses coordination as first-class concern rather than afterthought. Most multi-agent frameworks leave coordination to user; ATC provides structured coordination primitives.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

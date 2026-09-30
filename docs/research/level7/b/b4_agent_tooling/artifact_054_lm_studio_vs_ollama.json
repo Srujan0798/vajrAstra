@@ -1,0 +1,19 @@
+{
+  "source_url": "https://getautonoma.com/blog/lm-studio-vs-ollama",
+  "date": "2026-08-04",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LM Studio vs Ollama (Autonoma): Both ship same two inference engines (Apple MLX and llama.cpp). 5x memory gap is idle overhead, not speed - not token throughput. Real decision: interface, deployment model, disk storage. Ollama installs as single binary with minimal idle overhead. LM Studio includes GUI with higher idle memory. Both have OpenAI-compatible APIs. Ollama better for automation/scripting, LM Studio for interactive use. Measured on identical hardware, token throughput nearly identical.",
+  "status": "MEASURED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Apple Silicon native (mlx)",
+  "actionability": "direct"
+}

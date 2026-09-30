@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/crewAIInc/crewAI",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "CrewAI: open-source Python framework for orchestrating role-playing autonomous AI agents (58k+ stars). Two approaches: Crews (optimize for autonomy and collaborative intelligence with role-based agents) and Flows (event-driven automations combining precise workflow control, single LLM calls, native Crew support). Features: tracing & observability (real-time metrics, logs, traces), unified control plane (centralized platform for managing, monitoring, scaling agents). Agents assigned roles like Researcher, Writer, Critic. Sequential and Hierarchical processes. Emphasizes grounding agent answers in real data. Practical tutorials available for multi-agent systems fundamentals and advanced implementations.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2608.18167",
+  "date": "2026-08-16",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MARS (Multi-Agent Review System, Wang et al. 2025): replaces round-table debate with independent reviewers whose comments are aggregated by a meta-reviewer. Author generates candidate solution. Three independent reviewers audit it. Meta-reviewer aggregates three reviews into single decision and revision suggestions. Cycle repeats up to K rounds. MARS reduces overhead of multi-agent debate while preserving independent review. AR takes middle position between full multi-agent debate and MARS: preserves interaction but restricts communication to single channel with explicit disagreement types. Goal: evidence-grounded pushback before main agent edits/commits, not open-ended debate.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

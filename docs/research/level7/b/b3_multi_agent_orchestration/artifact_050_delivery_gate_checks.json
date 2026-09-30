@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/delivery-gate/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Delivery Gate three deterministic checks with blocking logic. Check 1: Rationalization patterns (regex on transcript tail) - patterns: 'skip tests for now', 'pre-existing bug', 'will fix later', 'good enough for now' - WARNING ONLY, never blocks. Check 2: Stale learning libraries (mtime on 5 paths: growth-log/, decisions/log.md, output-index.md, ratings-tracker.md, tooling_capabilities.md) - WARNING if some stale, BLOCK if >=3 stale OR growth-log stale + complex task (>=3 edits). Check 3: Disk space - WARNING <50GB, BLOCK <15GB. Learning libraries config: LIBS dict in quality-gate.py. COMPLEX_THRESHOLD=3 edits to classify as complex. DISK_WARN_GB=50, DISK_CRIT_GB=15. Installs as Stop hook in ~/.claude/settings.json. Distinct from self-audit: delivery-gate checks machine-verifiable facts, self-audit checks output quality.",
+  "status": "MEASURED",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "verifiable reward pattern (RLVR)"
+}

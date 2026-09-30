@@ -1,0 +1,19 @@
+{
+  "source_url": "https://modelcontextprotocol.info/specification/draft/basic",
+  "date": "2025-08-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Base Protocol: Protocol layers - Base Protocol (JSON-RPC message types), Lifecycle Management (connection init, capability negotiation, session control), Auth (HTTP+SSE transport auth framework, STDIO should use env credentials, custom auth strategies allowed), Server Features (resources, prompts, tools), Client Features (sampling, root directories), Utilities (logging, argument completion). Results follow any JSON structure, errors must include error code and message. Join GitHub Discussions to shape future of MCP auth mechanisms.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

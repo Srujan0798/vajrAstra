@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/santa-method/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Santa Method: multi-agent adversarial verification with dual independent reviewers. Four phases: 1) Generator produces deliverable, 2) Two reviewers (B, C) with context isolation, identical rubric, same inputs, structured JSON output evaluate in parallel, 3) Verdict gate: both must PASS for NICE (ship), otherwise NAUGHTY with merged issues, 4) Fix cycle: fix all critical issues, re-run both reviewers with fresh agents (no memory carryover), max 3 iterations then escalate. Rubric design critical: objective pass/fail per criterion (factual accuracy, hallucination-free, completeness, compliance, internal consistency, technical correctness). Domain extensions for content, code, compliance. Cost ~2-3x generation tokens per cycle. Batch sampling for large batches (10-15%). Metrics: first-pass rate >70%, mean iterations <1.5, issue taxonomy, reviewer agreement %, escape rate 0. Integration: verification-loop first (deterministic), Santa second (semantic); results feed eval metrics; findings become instincts via continuous-learning-v2.",
+  "status": "PRIMARY",
+  "decision_it_changes": "memory-loop architecture for Engine/Verdict/Miss agents",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

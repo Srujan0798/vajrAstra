@@ -4,10 +4,10 @@
 # Merged from: BHASHINI proposal, WhatsApp 9 Sep 2026, meeting 10 Sep 2026, Grok labeling thread 9–11 Sep 2026.
 # Live disk: this file + work/ + labeled/ + prompts/ + scripts/. Evidence zips+meeting docx are in Downloads backup.
 
-Last locked: 2026-09-11 (ops section N refreshed)
+Last locked: 2026-09-27 (§P refreshed to current era; history sections unchanged)
 Operator: Srujan Sai (IITGN) — Vaultstack AI, AksharDrishti
 Root on this machine: /Users/srujansai/Desktop/South  (this folder IS south/)
-Live source pages: `Datasets/{te,ta,kn,ml}/` (renamed from `work/`). Hierarchy of docs: `docs/INDEX.md`.
+Live source pages: `Datasets/akshardrishti_official/{Kannada,Malayalam,Tamil,Telugu}/` (old `Datasets/{te,ta,kn,ml}/` folders removed 2026-09-26 after byte-identical checksum verification against the official copies). Hierarchy of docs: `docs/INDEX.md`.
 
 ---
 
@@ -318,7 +318,7 @@ David: Saturday methodology. Do not wait.
 - Stop endless prompt-version / redo theater.
 - Keep good nonempty labels as draft fuel + AI-capability evidence.
 - Orchestrator **reviews only** — must not rewrite model labels while testing AI.
-- Assign all batch prompts fresh. After runs, optional check: `python scripts/verify_labels.py`.
+- Assign all batch prompts fresh. After runs, optional check: `python level2/probe22/gt_forensics.py`.
 
 ### B0 inventory snapshot (at Path A lock)
 - KEEP-ish nonempty (>=50 chars): majority of te/ta/kn/ml B0 (~73/80 class).
@@ -378,24 +378,29 @@ Assign: for each engine, run all 20 prompts (or equivalent scripts), writing int
 
 ---
 
-## P. Standing process after 2026-09-25 (supersedes L2 language freeze for PROBE only)
+## P. Standing process after 2026-09-25 (refreshed 2026-09-27)
 
 Source files (do not re-ask the meeting):
-- `OCR_AGENT_MEMORY_FEED.md` — standing protocol (this is law for method; meeting is distilled here)
+- `OCR_AGENT_MEMORY_FEED.md` — standing protocol (law for method; meeting is distilled here)
+- `FULL TECHNICAL BRIEFING.md` (repo root) — master doc: Part I technical briefing, Part II current-state briefing
+- `docs/research/LEVEL7_RESEARCH_CAMPAIGN.md` — ACTIVE law: 3-agent ops model, lanes, evidence law, locked decisions D1–D4, call prep
 - PPT: `AksharDrishti_Hackathon_Proposal final.pptx` → dump `docs/architecture/PPT_SPEC.md`
 - South scores: `level2/reports/LEADERBOARD.md` + `CER_BY_SCRIPT.md` + `LANG_LEADERBOARD.md`
+- Probe law: `level2/probe22/AGENT_PROTOCOL.md` (§6.4 GT verdicts LOCKED 2026-09-27)
 - Hierarchy: `docs/INDEX.md`
 
-**State.** Architecture PPT exists. Free OCR engines were run on South (te/ta/kn/ml) only. No new model has been trained.
+**State.** Architecture PPT exists. South 400 through 10 engines — sealed bench, kept. probe22 (remaining 18 langs × 100/lang lock, manifest 1,227) in progress: 7 engines clean, sarvam_vision at 54-call cap, indicphotoocr running, surya/easyocr/paddleocr_indic queued. §6.4 GT verification DONE: ks/mni/ur/sat/mr + ne PDF-tier BARRED from W6. Level 7 48h research campaign running (ends ~04:23 Sep 29). No new model trained yet.
 
-**Goal.** Ship an Indic OCR that beats current engines. Not a review paper.
+**Goal.** Ship an Indic OCR that beats Sarvam Vision 2.1 (87.39 avg; weak cells sat 53.91, ks 54.82, OldScan 55.3, or 80.01). Not a review paper.
 
-**Method order (fixed).** W1 research refresh → W2 hybrid vs *this* PPT → W3 22-lang probe → W4 multi-LLM process audit → W5 15–20 min freeze → W6 train. Never reverse.
+**Method order (fixed).** W1 research refresh → W2 hybrid vs *this* PPT → W3 probe (RUNNING) → W4 multi-LLM process audit → W5 freeze (after Wed 2026-10-01) → W6 train. Never reverse.
 
-**Probe size.** South 400 KEEP. Remaining 18 languages = **20 samples each**. Add Sarvam Vision 2.1 and Bodhan Indic-OCR. Schema: `docs/probe/W3_PROBE_SCHEMA.md`.
+**Probe size.** South 400 KEEP. Remaining 18 languages = **100 samples each** (user amended 2026-09-26). 11 engines incl. sarvam_vision. Schema: `docs/probe/W3_PROBE_SCHEMA.md`; execution law: `level2/probe22/AGENT_PROTOCOL.md`.
+
+**Operations.** 3-agent parallel model locked 2026-09-26: ENGINE (probe22 + Phase 6 + Lane A), VERDICT (verification + fix specs + Lane B), MISS (equal tier: applies fix specs + Lane C + monitoring + call coordination). Fix-loop: FIND → SPEC → FIX → RE-VERIFY, max 2 rounds then escalate to user. Orchestrator (main session) plans/monitors/manages only.
 
 **People.** Srujan busy until after Wednesday 2026-10-01. Krishna supports. Aryan TBD. AI does labor. Humans own method and architecture.
 
 **Forbidden until W5 freeze.** Training. Novel backbone. Asking the human to retell the meeting. Full 22-language training corpora. Paid Level-3 keys unless the freeze says so.
 
-**This section unlocks a 22-language probe.** It does not unlock 400-page labeling of the remaining languages. L2 South packs stay sealed as the South score sheet.
+**This section unlocks the 18-language probe and the Level 7 campaign.** It does not unlock 400-page labeling of the remaining languages. L2 South packs stay sealed as the South score sheet.

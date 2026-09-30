@@ -1,0 +1,19 @@
+{
+  "source_url": "https://platform.moonshot.ai/docs/guide/kimi-k2-quickstart",
+  "date": "2025-08-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Kimi K2 Quickstart on Moonshot AI Open Platform. 1T total params, 32B active MoE. Leading coding abilities in China. Full stack support: frontend to backend, code generation, DevOps, debugging, optimization. 12+ built-in tools (web search) with precise tool calling. Agent-building: complex task decomposition, Enforcer & JSON mode for stable tool call formatting, multitool collaboration (10+ built-in tools). Nearly 100% tool call accuracy on official API. Models: kimi-k2, kimi-k3. Enterprise solutions with flexible rate limits, SLA-backed reliability, data compliance, priority support. Pay-as-you-go with tiered usage benefits.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

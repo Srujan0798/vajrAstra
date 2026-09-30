@@ -1,0 +1,19 @@
+{
+  "source_url": "https://zylos.ai/research/2026-05-10-local-first-ai-agents-hybrid-cloud-edge-architectures",
+  "date": "2026-05-10",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Local-First AI Agent Cost Analysis: Production agent 1000 tasks/day × 8 LLM calls × 2000 tokens = 16M tokens/day. At Claude Sonnet 4 pricing ($3/$15 per million input/output) = $150-300/day per agent instance. Local inference on quantized 7B model (RTX 4090): 300+ tokens/sec, sub-millisecond latency vs cloud round-trip. EU AI Act effective Aug 2 2026 adds data residency requirements. Local-first architecture: faster, cheaper, more private, more available. Not a compromise - superior design philosophy for agent platforms.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "offline-capable pipeline (no paid APIs)",
+  "actionability": "theoretical"
+}

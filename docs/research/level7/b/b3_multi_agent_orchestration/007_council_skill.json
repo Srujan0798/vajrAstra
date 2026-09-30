@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/council/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Council skill convenes four voices for ambiguous decisions: in-context Architect, Skeptic subagent, Pragmatist subagent, Critic subagent. For decision-making under ambiguity, not code review or implementation. Workflow: 1) Extract real decision question with constraints and success criteria, 2) Gather minimal necessary context, 3) Form Architect position first (initial position, 3 reasons, main risk), 4) Launch three independent voices in parallel with role-specific prompts (Skeptic challenges framing, Pragmatist optimizes for speed/execution, Critic surfaces downside risk), 5) Synthesize with bias guardrails (don't dismiss external views, include strongest dissent), 6) Present compact verdict with consensus, strongest dissent, premise check, recommendation. Anti-patterns: using for code review, feeding full conversation transcript, hiding disagreement. Persistence only when decision changes durable project truth. Related to santa-method (verification) and architecture-decision-records.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

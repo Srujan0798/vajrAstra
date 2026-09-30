@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/dmux-workflows/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "dmux Workflows troubleshooting and complementary tools. Troubleshooting: pane not responding (switch to pane directly or tmux capture-pane -pt <session>:0.<pane-index>), merge conflicts (use git worktrees to isolate file changes per pane), high token usage (reduce number of parallel panes, each pane is full agent session), tmux not found (brew install tmux / apt install tmux). Complementary tools: dmux (tmux pane management for agents), Superset (terminal IDE for 10+ parallel agents), Claude Code Task tool (in-process subagent spawning), Codex multi-agent (built-in agent roles). Best practices: independent tasks only, clear boundaries per pane, merge strategically, use git worktrees for file-conflict-prone work, resource awareness (keep total panes under 5-6).",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness",
+  "actionability": "direct"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.kimi.com/en-cn/help/new-user-guide/overview",
+  "date": "2025-08-20",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Kimi Agent capabilities: General Agent auto-plans and completes tasks (website generation, PPT creation, Deep Research, document/spreadsheet processing). Agent Swarm supports 4000+ parallel tool calls and autonomously orchestrates up to 300 Sub-agents for large-scale search and batch processing. Models: K2.6 (fast conversation, Standard/High thinking), K3 (most powerful for chat and Agent tasks), K3 Swarm (large-scale search/batch processing). Auto-decides web search based on question. Developer API platform at platform.moonshot.ai with Kimi K2.7 Code (256K context, Tool Calling).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

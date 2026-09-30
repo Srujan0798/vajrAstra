@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-add-feature/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orch Add Feature: orchestrates building a brand-new feature end to end - research, plan, TDD implementation, review, and gated commit - by delegating each phase to the matching ECC agent. Use when adding a capability that does not exist yet. Leverages orch-pipeline shared engine with size classification, two gates (plan approval, commit approval), and agent/command map for each phase. Ensures systematic feature development with quality gates at each stage.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

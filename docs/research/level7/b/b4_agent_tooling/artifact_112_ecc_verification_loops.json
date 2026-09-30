@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/thiagomontezuma/ecc",
+  "date": "2026-02-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC Verification Loops: Checkpoint vs continuous evals, grader types, pass@k metrics. Part of ECC's 48 skills, 13 agents, 32 commands. Continuous learning auto-extracts patterns from sessions into reusable skills. Parallelization via Git worktrees, cascade method, when to scale instances. Subagent orchestration addresses context problem with iterative retrieval pattern. 978 internal tests across agents, skills, commands, hooks, rules. Interactive installation wizard via configure-ecc skill with merge/overwrite detection.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

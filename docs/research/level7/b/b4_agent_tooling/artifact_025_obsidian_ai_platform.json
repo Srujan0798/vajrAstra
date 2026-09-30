@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.obsidian-ai.dev/",
+  "date": "2025-09-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Obsidian AI Platform: Teams build/run AI agents with full control over model, tool, memory, channel. Real-time streaming chat with live tool call visualization. Visual DAG editor: drag-and-drop node editor, parallel fan-out/join, conditional branching, live execution traces per node. Multi-agent teams: coordinator routes, specialists execute, summarizer delivers, shared team context, real-time handoff traces, any LLM per agent. Ship to WhatsApp, webhook, cron with one click. Full streaming traces, per-session memory, audit logs. 1000 free credits on signup. Playground for research, code review, data analysis sessions.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/loop-design-check/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Loop Design Check five-point goal framework. 1) Done-criterion is machine-verifiable. 2) Boundary conditions defined alongside done-criterion (what it must NOT do) - anti-Goodhart; missing boundaries = license to cheat. 3) Has failure fallback - retry cap N + escalate to human when exceeded. 4) Goal is layered. 5) Prefer reconciliation over assertion for done-criterion - anchor to external fact (golden sample / upstream total / financial tie-out / platform back-office numbers) before own assertions. 'All tests pass' can be gamed (loosen asserts, fake mocks, swallow exceptions); 'diff vs reference < 0.01' can't. Self-check: read goal to someone who doesn't know domain - can they run one command and tell whether it's done? If not, it isn't decidable enough. Bad goals: vague ('make it good', 'write it sharper') - comparator can't judge -> either never passes (stuck retrying) or guesses (passes/blocks at random). Good goals: decidable ('all 96 unit tests green AND change-list produced', 'module-02 fields filled, pytest passes, business logic untouched').",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "verifiable reward pattern (RLVR)"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/openai/agents-sdk",
+  "date": "2026-01-01",
+  "label": "INFERENCE",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenAI Agents SDK A2A protocol for cross-vendor orchestration. Before A2A, multi-agent systems required all agents to share same framework and runtime. Agent-to-Agent (A2A) protocol enables cross-vendor orchestration: agents from different frameworks/runtimes can interoperate. Swarms pattern (late 2024): one agent 'hands off' conversation to another via Handoff(TargetAgent). Benefit: no central manager bottleneck, conversation flows naturally between specialized entities. LangGraph remains dominant framework for state-aware hierarchical loops. Google ADK, Microsoft Agent Framework, and OpenAI Agents SDK all support orchestrator-subagent pattern natively as of 2026.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review",
+  "actionability": "indirect"
+}

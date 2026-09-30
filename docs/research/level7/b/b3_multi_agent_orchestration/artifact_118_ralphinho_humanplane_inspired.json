@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/ralphinho-rfc-pipeline/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Ralphinho RFC Pipeline inspired by humanplane style RFC decomposition patterns and multi-unit orchestration workflows. Humanplane (github.com/humanplane) provides reference for RFC-driven multi-agent execution. Pipeline stages: 1) RFC intake, 2) DAG decomposition, 3) Unit assignment, 4) Unit implementation, 5) Unit validation, 6) Merge queue and integration, 7) Final system verification. Quality pipeline per unit: research, implementation plan, implementation, tests, review, merge-ready report. Merge queue rules ensure dependency ordering and rebase/integration test discipline. Recovery mechanism for stalled units. Outputs provide execution traceability and risk summary. ECC skill origin.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

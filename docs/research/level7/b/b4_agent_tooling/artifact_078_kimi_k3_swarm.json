@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.kimi.com/en-cn/help/new-user-guide/overview",
+  "date": "2025-08-20",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Kimi K3 and K3 Swarm: K2.6 (fast conversation, Standard/High thinking), K3 (most powerful model, excels at chat and Agent tasks), K3 Swarm (excels at large-scale search and batch processing, completes large tasks in one go). Auto-decides web search based on question. Agent Swarm: 4000+ parallel tool calls, autonomously orchestrates up to 300 Sub-agents. General Agent: auto-plans and completes tasks (website generation, PPT creation, Deep Research, document/spreadsheet processing).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

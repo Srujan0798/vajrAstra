@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/.opencode/README.md",
+  "date": "2025-09-20",
+  "label": "INFERENCE",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC create-hook (inferred): ECC plugin for OpenCode includes hooks as part of agents, commands, hooks, and skills package. Hook support via OpenCode's plugin system (20+ event types). Hooks likely cover PreToolUse, PostToolUse, Notification, SessionStart, Stop events for deterministic control. Configuration in opencode.jsonc or .opencode/hooks/. ECC provides battle-tested hook configurations from Anthropic hackathon winner.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness",
+  "actionability": "direct"
+}

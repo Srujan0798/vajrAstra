@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/andrewaivn98/multi-agent-repo",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "GitHub repository with resources and examples for building multi-agent systems using modern frameworks: AG2 (AutoGen 2), CrewAI, LangChain/LangGraph, OpenAI Agents SDK, Google ADK. Framework comparison: AG2 frames everything as async conversation between specialized agents with multi-agent collaboration, tool integration, code execution, event-driven architecture for concurrent work. CrewAI: role-based orchestration with agents assigned roles (Researcher, Writer, Critic). LangGraph: represents agent reasoning as DAG for deterministic flows. OpenAI Agents SDK: lightweight runtime with function-calling and agent handoffs, guardrails for safety. Google ADK: agent development kit. Key concepts: memory/context management (persistent state), workflow orchestration (flows, DAGs, event-driven architectures managing order, error handling, retries).",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review"
+}

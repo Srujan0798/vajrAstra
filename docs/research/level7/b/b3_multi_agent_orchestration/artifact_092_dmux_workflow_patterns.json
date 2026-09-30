@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/dmux-workflows/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "dmux Workflows patterns and best practices. Patterns: 1) Research + Implement (parallel tracks: pane 1 researches best practices, writes findings; pane 2 implements, refines after research completes), 2) Multi-File Feature (parallelize independent files: pane 1 DB schema/migrations, pane 2 API endpoints, pane 3 UI components; merge all then integration), 3) Test + Fix Loop (pane 1 watcher runs test suite, summarizes failures; pane 2 fixer fixes based on error output), 4) Cross-Harness (different AI tools: pane 1 Claude Code security review, pane 2 Codex performance refactor, pane 3 Claude Code E2E tests), 5) Code Review Pipeline (parallel review perspectives: pane 1 security vulnerabilities, pane 2 performance issues, pane 3 test coverage gaps; merge all reviews into single report). Best practices: independent tasks only, clear boundaries per pane, merge strategically, use git worktrees for file-conflict-prone work, resource awareness (each pane full agent session, keep under 5-6 panes). Troubleshooting: pane not responding (switch to pane directly or tmux capture-pane), merge conflicts (use git worktrees), high token usage (reduce parallel panes), tmux not found (brew install tmux / apt install tmux).",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

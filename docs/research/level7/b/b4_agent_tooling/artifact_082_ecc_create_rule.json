@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/.opencode/README.md",
+  "date": "2025-09-20",
+  "label": "INFERENCE",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "ECC create-rule (inferred): ECC includes rules as part of top-level files (rules/ directory). Rules provide persistent AI guidance for coding standards, project conventions, file-specific patterns. In OpenCode, rules loaded from rules/ directories. ECC npm package uses ecc-install CLI to set up rules and agents. Rules likely cover code style, security practices, testing conventions, documentation standards. OpenCode rules discovery similar to skills/commands.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OpenCode — installed harness",
+  "actionability": "direct"
+}

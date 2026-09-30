@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/plan-orchestrate/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Plan-Orchestrate chain composition rules and tag triggers. Tag triggers (matched case-insensitively, multi-tag allowed): design (architecture, design, choose, evaluate, RFC) -> planner,architect; plan (plan, breakdown, milestone) -> planner; impl (implement, build, add, create, port) -> tdd-guide,<lang>-reviewer; test (test, coverage, e2e, integration) -> tdd-guide,e2e-runner; refactor (refactor, cleanup, dedupe, split) -> architect,refactor-cleaner,<lang>-reviewer; migration (migrate, upgrade, rewrite, port) -> architect,tdd-guide,<lang>-reviewer; db (schema, migration, index, SQL, Postgres, alembic, sqlmodel) -> database-reviewer,<lang>-reviewer; security (encrypt, auth, secret, OWASP, PII) -> security-reviewer,<lang>-reviewer; build (build, compile, lint failure, CI) -> <lang>-build-resolver; docs (docs, readme, codemap, changelog) -> doc-updater; lookup (lookup, reference, API usage) -> docs-lookup; review (review, audit, verify) -> <lang>-reviewer,code-reviewer; loop (loop, autonomous, watchdog) -> loop-operator. Composition rules: primary tag = first in table order; impl+security -> tdd-guide,<lang>-reviewer,security-reviewer; impl+db -> tdd-guide,database-reviewer,<lang>-reviewer; deduplicate preserving first occurrence; <lang>-reviewer resolves to code-reviewer when lang=unknown; chain length <= 4; impl/refactor/migration end with reviewer-class agent; zero-tag steps -> code-reviewer with 'no tag matched; default review-only chain' rationale.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

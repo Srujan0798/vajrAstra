@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2606.03115",
+  "date": "2026-06-02",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "SPOQ journal tracking system and skill framework details. Journal tracking records agent work sessions with structured metadata enabling explainability, meta-orchestration, and training data generation. Combined with git commits, journal entries provide rich examples for fine-tuning development-focused LLMs. Skill framework: Definition 5.3 (Skill) is a directory containing SKILL.md (required), scripts/ (optional), references/ (optional), assets/ (optional). Core SPOQ Skills: six skills aligned with four-stage pipeline (Table B.15 Appendix). Skill Invocation: via slash commands (/epic-planning, /agent-execution) expanding into full prompts with context from epic directory. Skill SKILL.md contains YAML frontmatter (name, description) followed by structured documentation: activation criteria, core patterns, quality standards, integration points. Skill Extensibility: skill-maker meta-skill enables creation of new domain-specific skills. Allows SPOQ deployments to accumulate organizational knowledge as reusable agent capabilities.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

@@ -1,33 +1,36 @@
-# vajrAstra — Vaultstack / BHASHINI AksharDrishti (South track)
+# South Indic OCR Project
 
-Private working repo. **Map of the tree: [`docs/INDEX.md`](docs/INDEX.md).**
+## Current Status (2026-09-30)
+- **Phase**: proto-102 Incident Repair (A2-A3 in progress)
+- **Gate**: Waiting for "A9 PASS" in W4.md before resuming proto-101
+- **Agent 3**: Paused, read-only until "A9 PASS" in W4.md
 
-## Read in this order
+## Project Structure
+- `level2/benchmark/` - 22-language benchmark (probe22 moved here)
+- `level2/engine_docs/` - Engine documentation (PROMPT.md, RUN.md, metrics.json)
+- `level2/benchmark/` - 22-language benchmark tree
+- `level2/out/` - South v1 packs (SEALED, 4001 files)
+- `level2/reports/` - SEALED (archived)
+- `level2/probe22/out/` - SEALED (13,289 files)
+- `arc_level_1/` - SEALED (413 files)
+- `Datasets/akshardrishti_official/` - SEALED (34,871 files)
 
-1. [`AGENTS.md`](AGENTS.md) — load order for any agent
-2. [`OCR_AGENT_MEMORY_FEED.md`](OCR_AGENT_MEMORY_FEED.md) — process law (W0–W6)
-3. [`SOUTH_CANON.md`](SOUTH_CANON.md) — history, labeling, disk
-4. [`docs/architecture/PPT_SPEC.md`](docs/architecture/PPT_SPEC.md) — existing architecture (diff it)
-5. [`docs/research/W1_RECIPE_REFRESH.md`](docs/research/W1_RECIPE_REFRESH.md) — what changed since mid-August 2026
-6. [`docs/probe/W3_PROBE_SCHEMA.md`](docs/probe/W3_PROBE_SCHEMA.md) — 20 samples × remaining 18 languages
-7. [`level2/ULTIMATE_HYBRID_CONCERN.md`](level2/ULTIMATE_HYBRID_CONCERN.md) — South Level-2 bench law
+## Key Documents
+- `VINAY_MEETING_PACKET.md` - Tomorrow's meeting packet
+- `LIVE_LATEST_2026-09-29.md` - 41 live research sources
+- `PAPERTHIN_AUDIT.md` - 8 mandela findings
+- `LOOP_SPEC_W5_W6_W7.md` - Loop design
+- `docs/research/W6_STRATEGY_UNIFIED.md` - Unified W6 strategy
+- `OCR_AGENT_MEMORY_FEED.md` - Master memory (1,600+ lines)
+- `FULL TECHNICAL BRIEFING.md` - Master briefing (Part I-IV)
 
-## Layout
+## Gate Status
+- **A9 PASS**: NOT YET (waiting on Agent 2)
+- **Agent 3**: Paused, read-only until "A9 PASS" in W4.md
 
-```
-docs/            law-adjacent current work (architecture, recipe, probe)
-Datasets/        source pages te/ta/kn/ml
-arc_level_1/     Level-1 labels, frozen
-level2/          South 400 × 10 engines (sealed scores + harness)
-  reports/       generated leaderboards (writer: report.py)
-  out/           4000 JSON packs
-scripts/
-```
-
-## State
-
-South scores exist. Architecture PPT exists. No new model has been trained. Do not train until the freeze session after Wednesday 2026-10-01.
-
-## Level-2 ops
-
-See [`HOW_TO_RUN.txt`](HOW_TO_RUN.txt). GitHub is code-only: https://github.com/Srujan0798/vajrAstra
+## Key Links
+- `VINAY_MEETING_PACKET.md` - Tomorrow's meeting packet
+- `LIVE_LATEST_2026-09-29.md` - Live research (41 sources)
+- `PAPERTHIN_AUDIT.md` - 8 mandela findings
+- `LOOP_SPEC_W5_W6_W7.md` - Loop design
+- `W6_STRATEGY_UNIFIED.md` - Unified W6 strategy

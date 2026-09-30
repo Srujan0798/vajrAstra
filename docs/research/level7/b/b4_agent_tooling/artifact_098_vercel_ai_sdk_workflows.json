@@ -1,0 +1,19 @@
+{
+  "source_url": "https://vercel.com/ai-sdk",
+  "date": "2026-09-03",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Vercel AI SDK Workflows: Build long-running AI agents and apps that can suspend, resume, and survive function timeouts. npm i workflow. Part of AI SDK ecosystem with AI Gateway (100+ models), Vercel Sandbox (secure agent code execution), AI Elements (UI component library). Framework agnostic: Next.js, React, Svelte, Angular, Vue, Nuxt, Solid. Workflows enable durable execution for agent tasks that exceed serverless function limits.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

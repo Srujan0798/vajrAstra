@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/abs/2607.22917",
+  "date": "2026-07-31",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Team Work Zone workspace layout and persistence details. Workspace layout: framework-owned paths (resources/, docs/, skills/, agents/, scripts/, hooks/) and user-owned paths (projects/, workstations/). Framework-owned upgraded on version updates (resources/, docs/, comment-marked blocks of README.md). User-owned paths preserved across upgrades. Naming convention <slug>-<role> (e.g., architect-typesetter) lets idle hook derive workstation path from slug prefix. Skills name every teammate in this convention. Journal-based tracking records agent work sessions with structured metadata for explainability, meta-orchestration, training data generation. Skill framework: SKILL.md directories with scripts/, references/, assets/. Bootstrap step version-checks environment and syncs framework skills/agent definitions into project's .claude/ creating or merging settings rather than overwriting. Integrates with Claude Code Agent Teams experimental feature (peer-to-peer messaging, shared task lists). Subagents (stable orchestrator-worker pattern using Task tool) always available. CLI Pipelines (headless claude -p invocations composable via Unix pipes) stable. True Agent Teams (experimental, requires flag) with peer-to-peer messaging and shared task lists.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Claude Code — installed harness"
+}

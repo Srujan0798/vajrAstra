@@ -1,0 +1,19 @@
+{
+  "source_url": "https://cursor.com/docs/sdk/bridge",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Cursor SDK Bridge: Small local server embedding TypeScript SDK, exposing same agent surface over stable Connect/protobuf protocol. Use to script Cursor agents from languages without first-party SDK. TypeScript SDK runs in Cursor IDE, CLI, web app. Bridge enables polyglot agent scripting.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "Cursor OSS-friendly",
+  "actionability": "direct"
+}

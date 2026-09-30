@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/claude-devfleet/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude DevFleet setup and workflow guidelines. Setup: DevFleet server separate project (github.com/LEC-AI/claude-devfleet), install and run from its repository, then connect via MCP: claude mcp add devfleet --transport http http://localhost:18801/mcp. Verify process on port 18801 is DevFleet binary (see SECURITY.md on localhost MCP servers). Workflow: plan_project -> project_id + mission DAG -> show plan -> get approval -> dispatch_mission(M1) -> Agent 1 spawns in worktree -> M1 completes -> auto-merge -> auto-dispatch M2 (depends_on M1) -> M2 completes -> auto-merge -> get_report(M2) -> files_changed, what_done, errors, next_steps. Note on wait_for_mission: blocks conversation up to timeout (default 600s); for long missions, prefer polling get_mission_status every 30-60s. Sequential with review: create_mission for Implement, dispatch, poll until complete, get_report, then create_mission for Review with depends_on=[impl_mission_id], auto_dispatch=true. Guidelines: always confirm plan before dispatching unless user said go ahead; include mission titles/IDs in status; if mission fails, read report before retrying; check get_dashboard() for agent slot availability before bulk dispatching; mission dependencies form DAG - no circular dependencies; each agent runs in isolated git worktree and auto-merges on completion; if merge conflict, changes remain on agent's worktree branch for manual resolution.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

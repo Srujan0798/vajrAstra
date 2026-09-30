@@ -1,0 +1,19 @@
+{
+  "source_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic",
+  "date": "2025-06-18",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "MCP Specification Overview (2025-06-18): Components - Base Protocol (JSON-RPC 2.0 message types), Lifecycle Management (connection initialization, capability negotiation, session control), Authorization (HTTP transports), Server Features (resources, prompts, tools), Client Features (sampling, root directory lists), Utilities (logging, argument completion). All implementations MUST support base protocol and lifecycle management. Messages: Requests (client→server or vice versa with id, method, params), Notifications (one-way, no id), Batching (array of requests/notifications, MUST support receiving). JSON-RPC 2.0 spec compliance required.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/claude-devfleet/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude DevFleet: orchestrate multi-agent coding tasks via external DevFleet server (github.com/LEC-AI/claude-devfleet) connected via MCP. Each agent runs in isolated git worktree with full tooling. Flow: plan_project(prompt) -> project_id + mission DAG -> show plan -> get approval -> dispatch_mission(M1) -> Agent 1 spawns in worktree -> M1 completes -> auto-merge -> auto-dispatch M2 (depends_on M1) -> M2 completes -> auto-merge -> get_report(M2) -> files_changed, what_done, errors, next_steps. Tools: plan_project, create_project, create_mission (with depends_on list and auto_dispatch), dispatch_mission, cancel_mission, wait_for_mission, get_mission_status, get_report, get_dashboard, list_projects, list_missions. Default 3 concurrent agents (configurable via DEVFLEET_MAX_AGENTS). Missions with auto_dispatch=true queue when slots full and dispatch automatically as slots free. Guidelines: confirm plan before dispatching, include mission titles/IDs in status, read report before retrying failed mission, check dashboard for slot availability, DAG dependencies no cycles, isolated worktrees auto-merge on completion.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

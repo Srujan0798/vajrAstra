@@ -1,0 +1,19 @@
+{
+  "source_url": "https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration",
+  "date": "2026-06-08",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Claude Cookbook async multi-agent orchestration patterns. Two patterns behind Claude Opus 4.8 system card results: 1) Fixed N-agent team with peer messaging through shared hub, 2) Dynamically spawned async subagents. Reduced to bare messaging and lifecycle mechanics. Uses Anthropic Python SDK + asyncio. Shared building blocks: event dict with asyncio.Event per agent, status dict, ID counter, register/new_name/post methods for messaging. No domain task - just mechanics so users can drop in their own tools/task. Shows exactly which tools fire and in what order. Runs typically under 30 seconds with any API key. Pattern enables understanding of tool firing order before adding domain logic.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "DIES",
+  "transfer_harness_fact": "no paid keys (no GPT-4, no cloud GPU)"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/andrewaivn98/multi-agent-repo",
+  "date": "2026-01-01",
+  "label": "VERIFIED",
+  "relevance": "medium",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Multi-agent repo key concepts across frameworks. Memory and context management: persistent state allows agents to reference previous steps or summarize long conversations. Workflow orchestration: flows, DAGs, or event-driven architectures manage order of actions, error handling, and retries. AG2 (AutoGen 2): async conversation between specialized agents; event-driven architecture allows concurrent work, reduces bottlenecks, supports human-in-the-loop. CrewAI: role-based orchestration with agents assigned roles (Researcher, Writer, Critic). LangGraph: represents agent reasoning as DAG for deterministic flows. OpenAI Agents SDK: lightweight runtime with function-calling and agent handoffs, guardrails for safety. Google ADK: agent development kit. Framework comparison table covers key characteristics and why each is interesting.",
+  "status": "PRIMARY",
+  "decision_it_changes": "memory-loop architecture for Engine/Verdict/Miss agents",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review",
+  "actionability": "indirect"
+}

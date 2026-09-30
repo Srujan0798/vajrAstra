@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/openai/agents-sdk",
+  "date": "2026-01-01",
+  "label": "INFERENCE",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "OpenAI Agents SDK: official framework for building agents using function-calling and agent handoffs. Emphasizes lightweight runtime and guardrails for safety. Key pattern: agent handoffs where one agent 'hands off' conversation to another via Handoff(TargetAgent). Benefit: no central manager bottleneck, conversation flows naturally between specialized entities. Swarms pattern popularized late 2024 focuses on handoffs. Cross-vendor orchestration via A2A (Agent-to-Agent) protocol enables multi-agent pattern where agents from different frameworks/runtimes can interoperate. Before A2A, multi-agent systems required shared framework and runtime. LangGraph remains dominant framework for state-aware hierarchical loops.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review"
+}

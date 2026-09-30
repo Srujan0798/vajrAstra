@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "date": "2026-01-01",
+  "label": "INFERENCE",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "indirect",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LangGraph: represents agent reasoning as Directed Acyclic Graph for deterministic flows. Dominant framework for implementing state-aware hierarchical loops (orchestrator-subagent pattern). Supports supervisor/worker architectures, parallel execution, state persistence, human-in-the-loop. Google ADK, Microsoft Agent Framework, and OpenAI Agents SDK all support this pattern natively as of 2026. Key concept: graph-based orchestration with explicit state management, enabling complex multi-agent workflows with clear handoffs and checkpointing.",
+  "status": "UNKNOWN",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "medium-priority transfer — needs review"
+}

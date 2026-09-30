@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/Siddharth-1001/agent-eval-harness",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Agent Eval Harness (Siddharth-1001): Open-source evaluation framework for agentic systems - not just LLM outputs but full agent behavior. 20 stars, MIT. Lightweight, trace/measure/compare agents in minutes, no vendor lock-in, all data local. Addresses: hallucinated tool arguments (fabricated plausible-but-wrong params), silent latency regressions (model update doubles response time), cost creep (token usage 3x after prompt change), tool failures (success rate 95% to 60% across deployments). Provides structured traces, automated metrics, side-by-side comparisons. Python 3.12+, pyproject.toml, uv.lock.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

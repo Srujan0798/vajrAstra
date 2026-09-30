@@ -1,0 +1,19 @@
+{
+  "source_url": "https://raw.githubusercontent.com/NandhaKishorM/laya/6a5819129eb220570792e417e49723d697efd76f/laya/__init__.py",
+  "date": "2025-08-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "LAYA: Fast, non-autoregressive System 1 decision engine with calibrated probabilities. Core modules: agent (Agent, RLAgent, load), common (QTYPES, QTYPE_NAMES, confidence_from_probs, ece_score, proper_reward, render_options, td_lambda_targets), email (clean_email_body, email_state), lang (detect_language, detect_script, is_english), presets (email_questions, guard_questions, moderation_questions, router_questions, triage_questions), router (DEFAULT_MODELS, RouteDecision, Router). Version 0.3.3. Designed for fast System-1 decisions with calibrated confidence scores, not generative reasoning.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,3 @@
+Untitled-1.sty -> docs/sources/consensus/2026-09-30_Q1_model-and-training.tex sha256 774b6564b8b993a8d74b6b77d598b436f82e15ebb8c3040e5a5cb94c427f204f MATCH
+Untitled-2.sty -> docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex sha256 851bf527914cd2a21395fa21a81297cf710120580e3133f14390284121dac96f MATCH
+Untitled-3.sty -> docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex sha256 b5e48eea105918217a887de9142e867f85c84d76ddd97739951b73f315bd38ed MATCH

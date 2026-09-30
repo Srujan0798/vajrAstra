@@ -1,0 +1,19 @@
+{
+  "source_url": "http://platform.kimi.ai/",
+  "date": "2025-09-01",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Kimi API Platform: Kimi K2.7 Code (trillion-parameter, 256K long context, Tool Calling). Kimi K3 launched. Developer console, user center. Agent Programming: autonomous programming agents for debugging, refactoring, multi-step dev workflows (Kimi K2 instruction following + logical reasoning). Conversation Intelligence: high-fidelity conversation analysis for psychological counseling, public opinion monitoring, customer intent detection, key info extraction. Partners: FunPlus (AIGaming - code gen, automated game testing, performance optimization), Tencent CodeBuddy (AgenticCoding - Kimi K2 Thinking as underlying model), XtalPi (AIforScience - Kimi K2.5 for chemical formulas/charts/literature), AlphaEngine (FinancialResearch - FinGPT Agent, 300+ tool calls, macroeconomic analysis), Verdent (AICoding - Kimi K3 with dedicated agent harness). Pricing: pay-as-you-go, enterprise solutions with SLA, multi-project deployments, dedicated support.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

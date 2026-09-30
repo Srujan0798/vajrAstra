@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/team-builder/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Team Builder: interactive agent picker for composing and dispatching parallel teams. Use when composing and dispatching a parallel team of agents for a task. Provides structured team composition with role definitions, task assignments, and coordination mechanisms. Integrates with ECC orchestration patterns for multi-agent workflows. Enables rapid team assembly for complex tasks requiring diverse specializations.",
+  "status": "PRIMARY",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness"
+}

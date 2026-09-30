@@ -1,0 +1,19 @@
+{
+  "source_url": "https://claude.com/blog/new-in-claude-managed-agents",
+  "date": "2026-05-19",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Anthropic Managed Agents multiagent orchestration: lead agent breaks job into pieces, delegates each to specialist with own model, prompt, and tools. Specialists work in parallel on shared filesystem and contribute to lead agent's overall context. Lead agent can check back mid-workflow because events are persistent and every agent remembers what it did. Full visibility in Claude Console: which agent did what, in what order, why. Dreaming feature: surfaces patterns single agent can't see (recurring mistakes, workflows agents converge on, shared preferences) and restructures memory to stay high-signal as it evolves. Especially useful for long-running work and multiagent orchestration. Outcomes feature: lets agents verify their own work. Teams using: Harvey for complex legal work like long-form drafting, other enterprises for complex multi-step tasks.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "harness choice: parallel-extract-optimizer vs sequential",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

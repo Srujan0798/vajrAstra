@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/blueprint/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Blueprint adversarial review gate and anti-pattern catalog. Phase 4 Review: delegates adversarial review to strongest-model sub-agent (e.g., Opus) against checklist and anti-pattern catalog. Fixes all critical findings before finalizing. Anti-pattern catalog used in review. Key features: cold-start execution (every step includes self-contained context brief), adversarial review gate, branch/PR/CI workflow degrades to direct mode without git/gh, parallel step detection via dependency graph, plan mutation protocol with audit trail. Zero runtime risk: pure Markdown skill, no hooks/shell scripts/executable code/package.json/build step. Example: /blueprint chatbot \"extract LLM providers into plugin system\" produces parallel steps (Anthropic plugin + OpenAI plugin run in parallel after interface step), model tier assignments (strongest for interface design, default for implementation), invariants verified after every step (all existing tests pass, no provider imports in core).",
+  "status": "PRIMARY",
+  "decision_it_changes": "validation-call kill-criteria (adversarial review gate)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

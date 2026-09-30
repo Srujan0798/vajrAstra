@@ -1,0 +1,19 @@
+{
+  "source_url": "https://docs.idemeum.com/endpoint-care-guardrails",
+  "date": "2025-10-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Idemeum Four Gates Architecture: Gate 1 - Intent Screening (rejects off-topic, jailbreak, smuggled instructions). Gate 2 - Plan Validation (agent produces ordered plan validated against skill: allowed tools, diagnostics before fixes). Gate 3 - Policy Evaluation (checks plan against central policy: admin approval, forbidden actions, per-user rules). Gate 4 - Execution Gates (deterministic execution via code-reviewed tools only, AI never writes commands/scripts, audit every step). 5 Security Properties: plan as whitelist, AI never writes running code, consent as mechanism not courtesy, least privilege real boundaries. Model cannot skip or bypass any gate.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established",
+  "actionability": "direct"
+}

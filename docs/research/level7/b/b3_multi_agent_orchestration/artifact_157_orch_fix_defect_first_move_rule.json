@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-fix-defect/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orch Fix Defect first move rule and operation. Trigger: broken/wrong behavior. First-move rule: reproduce as failing regression test before any fix attempt. Leverages orch-pipeline shared engine. Ensures systematic bug fixing with regression prevention. Composes existing ECC commands: /feature-dev, /plan, /code-review, /build-fix, /refactor-clean, /gan-build, plus tdd-workflow skill. Adds shared size classifier and two gates on top.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "ECC — installed harness",
+  "actionability": "direct"
+}

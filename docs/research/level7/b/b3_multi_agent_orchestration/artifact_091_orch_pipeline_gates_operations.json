@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-pipeline/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Orchestrator Pipeline two gates and operation family details. Two gates: Gate 1 after Plan - present task_list, do not write implementation code until user approves; Gate 2 before Commit - present diff summary and proposed messages, do not commit until user confirms. Everything between gates flows without stopping. Operation family: orch-add-feature (feature, capability does not exist, first move: research + plan new slice), orch-change-feature (tweak, works but desired behavior differs, first move: amend existing behavior and its tests), orch-fix-defect (fix, broken/wrong behavior, first move: reproduce as failing test then fix), orch-refine-code (refactor, behavior stays structure improves, first move: restructure keeping tests green), orch-build-mvp (mvp, bootstrap from design/spec doc, first move: ingest doc -> vertical slices). Ceremony scales to blast radius via size classification. Phases delegate to existing ECC agents/commands rather than replacing them. Security-reviewer pulled in when diff touches: authentication/authorization, user-input handling, database queries, file-system paths, external API calls, cryptography, secrets/credentials. Handoff artifacts: task_list from Plan drives Implement loop; larger work emits PRD/architecture/system_design under docs/; review findings CRITICAL/HIGH must be resolved before Gate 2.",
+  "status": "CONTRADICTION",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "SURVIVES",
+  "transfer_harness_fact": "OSS license compatible"
+}

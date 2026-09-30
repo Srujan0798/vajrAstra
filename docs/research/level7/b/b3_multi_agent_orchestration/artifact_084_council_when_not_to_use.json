@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/affaan-m/ECC/blob/main/skills/council/SKILL.md",
+  "date": "2026-06-11",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "direct",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "Council when NOT to use: verifying whether output is correct (use santa-method), breaking feature into implementation steps (use planner), designing system architecture (use architect), reviewing code for bugs/security (use code-reviewer or santa-method), straight factual questions (answer directly), obvious execution tasks (just do the task). Roles and lenses: Architect (correctness, maintainability, long-term implications), Skeptic (premise challenge, simplification, assumption breaking), Pragmatist (shipping speed, user impact, operational reality), Critic (edge cases, downside risk, failure modes). Three external voices launched as fresh subagents with only question and relevant context, not full conversation history (anti-anchoring mechanism). Synthesizer must: not dismiss external view without explaining why, if external voice changed recommendation say so explicitly, always include strongest dissent, if two voices align against initial position treat as real signal, keep raw positions visible before verdict.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "matches harness but specific transfer path not established"
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://arxiv.org/html/2602.22953v2",
+  "date": "2026-02-15",
+  "label": "VERIFIED",
+  "relevance": "high",
+  "recency": "2025-2026",
+  "actionability": "theoretical",
+  "weak_cells": [
+    "Santali 53.91",
+    "Kashmiri 54.82",
+    "OldScan 55.3",
+    "Odia 80.01"
+  ],
+  "extraction": "General Agent Evaluation (Exgentic): Framework gap - no evaluation harness allows any agent to plug into new benchmark unchanged. Three artifacts: (1) Unified Protocol - benchmark-agent mediation protocol bridging agent interfaces (CLI, tool-calling APIs, MCP) and benchmarks through canonical task/context/actions representation, (2) Exgentic - evaluation harness implementing Unified Protocol, surfacing benchmarks through interface accessible to any general-purpose agent with any backbone model, (3) Open General Agent Leaderboard at www.exgentic.ai. Benchmarks 5 prominent agents across 6 environments. General agents generalize across diverse environments achieving performance comparable to domain-specific agents without environment-specific tuning.",
+  "status": "PRIMARY",
+  "decision_it_changes": "weak-cell attack plan (ties to Santali 53.91)",
+  "transfer": "UNKNOWN",
+  "transfer_harness_fact": "transfer not derivable from available signals"
+}
