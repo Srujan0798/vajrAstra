@@ -15,6 +15,237 @@ description: "Re-built per proto-66 on 2026-09-30 from sources: uni_v3 Parts 18�
 
 ---
 
+## Part 0 — CONCERN THEMES K-01…K-30 (merged 2026-09-30 night by the planner; every older ID below maps into exactly one theme)
+How to read this:
+- Status is taken from the latest disk evidence the planner read (W4.md, DISPATCH_LOG.md, NEXT.md at ~22:35 IST, 2026-09-30).
+- Each theme has a **verify** command. The owner re-runs it and pastes the output into W4.md before changing the status.
+- Status words: DONE-VERIFIED · PARTIAL · OPEN · BLOCKED (U#/boss) · STANDING (a rule, never "done") · PARKED (proto-98 cleanup; waits for "resume cleanup").
+- Owner = Agent 1 (Engine) · Agent 2 (Verdict + repair) · Agent 3 (Miss/builder) · planner · boss.
+- The older IDs (CO-###, C#, T#, R0.#, M#, #n, HL#, HC#, H#, S10/S29, EG#) keep their full rows in Part 1 / §A–§I (append-only history).
+
+- **K-01 Win: beat Sarvam Vision 2.1 and every competitor.**
+  - Sources: CO-061, CO-091, #21, E14.2, S4, EG7.
+  - Status: OPEN.
+    - Targets are Sarvam 87.39 on its own bench (weak cells: sat 53.91, ks 54.82, or 80.01, old scans) and Bodhan 84.94.
+    - No number of ours exists yet on the same split.
+  - Rule (proto-104 R-12): a win claim needs the published split + scorer AND a win on an independent set.
+  - Verify: `grep -n "87.39\|84.94" docs/campaign/BODHAN_BASELINE.md docs/campaign/BENCHMARK_22.md`
+  - Owner: Agent 1 (X, D1) → Agent 2 (S5).
+- **K-02 Portable product (Vaultstack): runs anywhere; MLX is only a Mac accelerator.**
+  - Sources: R-13, R-14, U35, B-11, boss 21:3x.
+  - Status: PARTIAL.
+    - `product/` exists (schema, cli, pdf_writer, script_id, tesseract + bodhan recognisers).
+    - Missing: `product/requirements.txt`, the Dockerfile, and a parity number between the official PyTorch weights and the MLX port.
+  - Verify: `ls product/ product/requirements.txt product/Dockerfile 2>&1`
+  - Owner: Agent 3 (P) → Agent 1 (D1 parity, D4).
+- **K-03 Handwriting and the official test set.**
+  - Sources: EG2, EG3, U13, B-12, RQ-2, RQ-10, §H.
+  - Status: PARTIAL.
+    - 5,344 word crops, 296–300 px tall.
+    - The planner viewed 3: handwritten Bengali.
+    - H1 (Tesseract on 70 samples) reads 35.7% as "Devanagari" and 55.7% as unknown. This does not agree with the planner's viewing, so the script mix is still UNKNOWN.
+    - `Bodo/gu` is labelled Gujarati handwriting, but only 4,645 of ~116k images are on disk.
+    - H2, H3 and H4 are open.
+  - Verify: `python3 -c "import json;print(json.load(open('docs/campaign/H1_TEST_PROFILE.json')).keys())"`
+  - Owner: Agent 1 (H1 redo with a vision check, H3) · Agent 2 (H2).
+- **K-04 The lead's method (Sep 29 L1–L14): draft plan → multi-LLM evaluation by the process → 15–20 min session → execute.**
+  - Sources: S29-a..j, D1–D7, A1–A7, B-16, B-17, CO-083.
+  - Status: PARTIAL.
+    - The Plan v3 draft (step G) is not written.
+    - Gate 2.5 (the multi-LLM evaluation) has not been run for v3.
+    - The session with Vinay has not happened.
+  - Verify: `grep -c '```mermaid' docs/campaign/DRAFT_RESEARCH_PLAN.md docs/PLAN.md`
+  - Owner: Agent 2 (G, then Gate 2.5) → boss (session).
+- **K-05 ONE 22-language benchmark, with South merged in.**
+  - Sources: CO-003, CO-025, CO-068, C4, M8, H13, #3, #12, #68, T2.2, T6.4, U10, U11.
+  - Status: PARTIAL.
+    - S2 done: `manifest_v2.json` = 1,683 items, South 4 × 100 from the Sarvam bench (R-7).
+    - S4: tesseract_indic only (400 packs, weighted CER 0.1450); the other 7 local engines wait on A4; Bodhan waits on HF access.
+    - S5 and S6 are open.
+  - Verify: `python3 - <<'E'` / `import json,collections;d=json.load(open('level2/benchmark/manifest_v2.json'));it=d['items'] if isinstance(d,dict) else d;print(len(it),collections.Counter(i.get('language') or i.get('lang') for i in it))` / `E`
+  - Owner: Agent 1 (S4) → Agent 2 (S3, S5, S6).
+- **K-06 100 INDEPENDENT samples per language.**
+  - Sources: CO-020…024, C1, C16, T6.1–T6.3, #9–#11, #49, #50.
+  - Status: PARTIAL.
+    - 7 languages are short in v2: as 19, sat 20, mni 20, gu 24, doi 27, brx 67, or 69.
+    - kok and pa draw from 2 PDFs each.
+    - The honest-n rule applies: never relax a gate.
+  - Verify: the same manifest_v2 Counter as K-05.
+  - Owner: Agent 2 (report honest n) · boss (re-source decision).
+- **K-07 Evidence and honesty: no fake claims.**
+  - Sources: CO-086, CO-073, R0.3, R0.11, C10.1, HL1, HVII.8, boss-rules.
+  - Status: STANDING.
+  - Evidence tags and "done = reproduced" are in proto-01 §B and §C.
+  - Verify: `grep -c "DONE-VERIFIED" BOSS_CONCERNS.md` (Part 1 has 1 DONE-VERIFIED vs 35 bare DONE per proto-66 check D2).
+  - Owner: all agents; Agent 2 audits.
+- **K-08 Leakage and fair evaluation.**
+  - Sources: EG8, R-12, proto-62, C1-3, C3-6, U6, C12.
+  - Status: OPEN, with two new risks:
+    - (a) The South benchmark items ARE Sarvam-bench items. The same blocks sit inside step X's 6,909, so they must never be counted twice or pooled with the `official_pdf` tier.
+    - (b) Sarvam's own bench is home ground for Sarvam and possibly training exposure. The Sep 29 tier table shows local engines only "lead" on PDF-layer GT.
+  - Verify: `grep -n "sarvam_bench\|tier" docs/campaign/BENCHMARK_22.md | head`
+  - Owner: Agent 2 (S5 tiering, X labels).
+- **K-09 Incident safety (proto-102): the untracked scores folder was deleted.**
+  - Sources: H14, rules 17–21, U37.
+  - Status: PARTIAL.
+    - A0, A1 (claims), A2 and A3 PASS.
+    - A4 CONDITIONAL: the approved erratum is not yet applied (R-2/R-3).
+    - A5 and A6 are open; A7 is parked until the boss says "go".
+    - A1's bundle was judged inadequate; `benchmark/pages` has since been bundled.
+    - A second writer wrote into `level2/unified/` during the repair.
+  - Verify: `grep -c probe22 level2/benchmark/pipeline/run_probe.py; ls level2/benchmark/scores/mcnemar_full_matrix.json`
+  - Owner: Agent 2.
+- **K-10 Repo cleanliness and hierarchy.**
+  - Sources: CO-001…019, CO-066…072, C9, T1.x, T2.x, H3, H6–H8, H10, #1–#8, #66–#71.
+  - Status: PARKED (proto-98 master; resume only on the boss's "resume cleanup").
+  - Exception done tonight: the doc hierarchy (AGENTS.md, docs/INDEX.md, README.md), K-14.
+  - Verify: `ls *.md | wc -l`
+  - Owner: Agent 3, when unparked.
+- **K-11 Research: harvest it and use it.**
+  - Sources: H1, H2, CO-045…058, R11.x, proto-95, proto-97, proto-105.
+  - Status: PARTIAL.
+    - `RESEARCH_DECISIONS.md` has RF-01…RF-24.
+    - The Consensus results are stored but not processed (proto-105: target ≥20 C-rows).
+    - The 88 `docs/research` md files were never harvested.
+    - B-01, B-02 and B-12 prep analyses exist.
+  - Verify: `grep -c "^| *RF-\|C[123]-[0-9]" docs/campaign/RESEARCH_DECISIONS.md`
+  - Owner: Agent 2 (proto-105 first, then the un-parked harvest).
+- **K-12 Tools: graphify, ECC, Laya, skills.**
+  - Sources: CO-075…077, CO-088, CO-094, M4, H4, H9, EG9, U26, U30, U31.
+  - Status: PARTIAL.
+    - graphify 0.9.65 is installed, but the graph is the 14:34 version and `graphify update .` is still owed.
+    - ECC is in use.
+    - Laya is NOT used in the pipeline; its file-triage trial is parked.
+  - Verify: `ls -la graphify-out/graph.json`
+  - Owner: Agent 2 (graph update after LAYOUT FROZEN).
+- **K-13 Agent process.**
+  - Sources: CO-026…040, CO-078, C5, C8, C11–C13, T7.x, T8.x, M1, H5, H12, #13–#20.
+  - Status: STANDING.
+  - The rules:
+    - three agents only;
+    - one-line paste lines;
+    - the planner does no labour and runs no subagents;
+    - every writer registers in DISPATCH_LOG;
+    - no "what next".
+  - Verify: `tail -5 DISPATCH_LOG.md`
+  - Owner: all.
+- **K-14 Concerns and memory stored, cold-readable, one connected doc hierarchy.**
+  - Sources: CO-032, CO-065, CO-080, C14, C17, T3.x, M2, M3, M7, HC14.12, H10, boss 22:30 "AGENTS.md is total trash… hierarchy not connected".
+  - Status: PARTIAL. Task B, Task C and the MEMORY rebuild were written tonight. The rewrites of AGENTS.md, INDEX.md and README.md are drafted; Agent 2 applies them.
+  - Verify: `head -20 AGENTS.md`
+  - Owner: planner (memory) → Agent 2 (apply + graphify).
+- **K-15 Meeting truth and the PPT baseline.**
+  - Sources: CO-083, CO-089, C10.3, H15, proto-103 M1–M10, proto-75, L11.
+  - Status: PARTIAL.
+    - The meeting table is in proto-103 §0.
+    - The M1–M10 attribution fixes are unverified in the repo docs.
+    - Whether `VINAY_PLAN_BASELINE.md` exists is unknown.
+  - Verify: `grep -rn "novel backbone\|AI itself is enough\|H44\|Decisions Locked" docs/research/MEETING_2026-09-29_STRUCTURED.md docs/campaign/MENTOR_PLAYBOOK.md VINAY_MEETING_PACKET.md`
+  - Owner: Agent 2.
+- **K-16 Levels in order; no training before validation.**
+  - Sources: CO-059, CO-060, CO-064, CO-043, P12.x, E14.1, F13.x, S29-RL, B-17.
+  - Status: STANDING. The Gate 2.5 red line still holds: no LoRA/RL before the Plan v3 evaluation and the session with Vinay.
+  - Verify: `ls docs/campaign/MULTI_LLM_EVAL.md; grep -n "Plan v3" docs/campaign/MULTI_LLM_EVAL.md`
+  - Owner: boss gate.
+- **K-17 Licences.**
+  - Sources: EG4, U14, U27, U28, RQ-9, proto-83.
+  - Status: PARTIAL.
+    - surya is evaluation-only (OpenRAIL-M §2(c)).
+    - Bodhan as a §3.2 internal component; hosting needs written approval.
+    - 600K-KS is on HOLD (research-only licence embedded).
+    - sat/mni tessdata: Apache-2.0, CLEARED.
+    - The weight licence for the EasyOCR `.pth` is still open.
+  - Verify: `grep -n "CLEARED\|NOT CLEARED\|CONDITIONAL" docs/campaign/checkpoints/W4_reports/RQ9_licences.md | head`
+  - Owner: Agent 2.
+- **K-18 Sealed dirs, locked files, past work.**
+  - Sources: HL4, HL5, R0.6, R0.7, CO-017, CO-044, #36–#38.
+  - Status: STANDING, with a caveat: the sealed set changed during the P4 run and the incident (`level2/reports` and `level2/models` were removed into `_archive/bundles/2026-09-30_south_v1.tar.gz`). The current sealed list is in proto-01 §A (rewritten tonight).
+  - Verify: `for d in level2/out Datasets/akshardrishti_official arc_level_1; do echo $d $(find $d -type f | wc -l); done`
+  - Owner: all; Agent 2 checks.
+- **K-19 GT defects register.**
+  - Sources: proto-65 G1–G9, HC14.1, the South legacy-font finding, the 26-page Sep-16 finding.
+  - Status: OPEN. `docs/campaign/GT_DEFECTS.md` does not exist; step Q must precede D2.
+  - Verify: `ls docs/campaign/GT_DEFECTS.md`
+  - Owner: Agent 2.
+- **K-20 Empty-output patterns: bug or honest-empty.**
+  - Sources: proto-82, HL8, HVII.2, HVII.7, F40, F47, F48.
+  - Status: OPEN.
+    - paddle brx/doi is a mapping bug.
+    - surya sa is image or model side.
+    - Both must be fixed before the X coverage matrix.
+  - Verify: `ls docs/campaign/EMPTY_OUTPUT_DIAGNOSIS.md`
+  - Owner: Agent 1.
+- **K-21 Metric set.**
+  - Sources: proto-80, EG1, HL2, HVII.3, HC14.3, HC14.5, HC14.6, C3-6.
+  - Status: OPEN.
+    - Needed: CER mean + median + bootstrap CI, WER, S/D/I, catastrophic-failure rate (CER > 0.5), an NFC statement, s/page.
+    - The bench's own headline is Word Accuracy = 100 × (1 − WER) after `--normalize`.
+  - Verify: `ls docs/campaign/RUBRIC_REPORT.md level2/unified/rubric_report.py`
+  - Owner: Agent 1 builds, Agent 2 verifies.
+- **K-22 Submission readiness.**
+  - Sources: proto-78, EG3, U2, U35, B-11, RQ-1.
+  - Status: PARTIAL.
+    - The official metric, format and deadline are all UNKNOWN (RQ-1).
+    - The jury scores the product.
+    - No 50-image dry run yet.
+  - Verify: `ls docs/campaign/SUBMISSION_DRYRUN.md`
+  - Owner: Agent 1 (D4), Agent 3 (product).
+- **K-23 The boss can explain everything.**
+  - Sources: proto-85, HVII.5, HC14.10, HL11b.
+  - Status: PARTIAL. `BOSS_EXPLAINER.md` exists; the E–H question bank has not been asked.
+  - Verify: `ls docs/campaign/BOSS_EXPLAINER.md`
+  - Owner: Agent 2 (refresh after S5).
+- **K-24 Other workstreams and concurrent writers.**
+  - Sources: proto-76, CO-033, C15, T8.5, second-writer incident, the vajrAstra cloud session.
+  - Status: OPEN.
+    - Two sessions wrote into level2 during the repair.
+    - The cloud planner session (vajrAstra) owns PR #12 (a reference only, R-6).
+  - Verify: `ps aux | grep -E 'claude|opencode' | grep -v grep | wc -l`
+  - Owner: planner monitors.
+- **K-25 Dates and deadlines.**
+  - Sources: U1, U2, C7, F17, #53–#56, RQ-1.
+  - Status: OPEN.
+    - No official deadline exists; 10 of 12 official timeline rows are TBD.
+    - Ask the organiser (gic.dibd@gmail.com), and only if Vinay agrees.
+  - Verify: `grep -n "deadline" docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md | head -3`
+  - Owner: boss.
+- **K-26 GPU.**
+  - Sources: U33, S10-6, Vinay's answer 1.
+  - Status: BLOCKED on SSH details (24 GB VRAM, arriving 2026-10-01).
+  - Data moves by rsync, never GitHub. Keys go in env vars only.
+  - Verify: the boss confirms receipt.
+  - Owner: Agent 1 (GPU step).
+- **K-27 Sarvam budget: ₹67 free credit, 12 approved South calls (R-8).**
+  - Status: BLOCKER.
+    - 12/12 jobs completed (≈₹6 spent).
+    - None of the 12 predictions could be retrieved: the status response has no `download_url`. Agent 1 tried `/result`, `/output`, `/{id}`, `/download` and `/file`, but not `/download-url`.
+  - The fix must come from the official docs or SDK and must not resubmit anything (no extra spend).
+  - Verify: `python3 -c "import json;d=json.load(open('level2/benchmark/scores/south_sarvam_12_results.json'));print(sum(1 for r in (d if isinstance(d,list) else d.get('results',[])) if (r.get('pred') or r.get('prediction'))))"`
+  - Owner: Agent 2 (investigate), Agent 1 (retrieve).
+- **K-28 Concerns visible in the graph.**
+  - Sources: C3, proto-77, M4.
+  - Status: PARKED with the cleanup.
+  - Verify: `grep -c "K-0" graphify-out/GRAPH_REPORT.md`
+  - Owner: Agent 3, when unparked.
+- **K-29 The Sep-16 correction owed to Vinay.**
+  - The Sep-16 package scores 26 of the 126 CER pages against legacy-font GT, and South v1 is not comparable to the new benchmark.
+  - Status: OPEN. Quote it only after Agent 2 reproduces it (in S5); it goes to Vinay only.
+  - Verify: the vajrAstra reference `level2/research/STRATIFIED_BOOTSTRAP.md` (branch `claude/stoic-keller-xwovqu`) plus Agent 2's own reproduction.
+  - Owner: Agent 2 → boss.
+- **K-30 Time budget and speed.**
+  - Sources: F52, #57–#59, P12.1, HC14.3.
+  - Status: OPEN.
+    - surya ≈ 24 s/page on this Mac, so ≈ 36 h for 5,344 images; rapidocr ≈ 0.4 s/page.
+    - No single-machine latency table exists yet; the GPU step owns it.
+  - Verify: `ls level2/benchmark/logs/RUN_STATE/ 2>&1`
+  - Owner: Agent 1.
+
+**Crosswalk rule:** every older concern ID maps to one theme through its source list above. A concern that fits no theme is a planning bug: add a theme and tell the boss.
+
+Mirror of memory proto-99 §0 (the memory file is the source; the planner re-syncs this Part). Part 1 below stays append-only history.
+
+---
+
 ## Part 1 — Register
 
 | ID | Concern (verbatim or exact quote) | Source | Status | Evidence (command/file:line) | Protocol | Last verified |

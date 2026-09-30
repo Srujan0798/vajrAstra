@@ -41,3 +41,36 @@ A skill that does not fit the moment may be skipped — say why in one line. Nam
 Never: spawn a subagent on Opus (model tiering); use a skill as an excuse to skip the protocol's own checks.
 
 Related: [[proto-00-runbook]], [[proto-30-w3-skill-inventory]], [[proto-01-law-and-guardrails]]
+
+## STATUS 2026-09-30 (planner, night) — what is installed and in use
+- **graphify: USED, but stale.**
+  - The package and skills are 0.9.65 for Claude, OpenCode and agents.
+  - `graphify-out/graph.json` is still the 14:34 build (6,796 nodes; backup `graph.pre-update.json` in the planner scratchpad). `graphify update .` was started and stopped.
+  - Owner: Agent 2 runs `graphify update .` once, after LAYOUT FROZEN and after AGENTS.md/INDEX/README are applied. Then `graphify query "<question>"` for navigation, and GRAPH_REPORT islands/orphans for the hierarchy.
+- **ECC: USED**, with one skill per step:
+  - OpenCode (217 skills): `verification-loop` before every PASS/"done"; `council-multi-model` for Gate 2.5; `deep-research` for the proto-105 papers; `benchmark-methodology` + `eval-harness` for steps X, S5 and H2; `gateguard` before any move/delete; `unified-memory` for handoffs; `paperthin` on the Plan v3 draft; `looper` for night runs.
+  - Claude: the ECC plugin + the `ecc-memory` MCP.
+- **Laya: NOT used** in the OCR pipeline (text-only classifier, cannot read images; U30, formerly proto-31). The file-triage trial (U31) is parked with the cleanup.
+- **Consensus.app: USED**, 3 Deep Searches per day. Results are stored in `docs/sources/consensus/` → proto-105 (Agent 2, not yet processed).
+- **Python environments** (R-14):
+  - `.venv311` (Python 3.11.10: torch, transformers, surya, paddleocr, easyocr, pytesseract, datasets, jiwer, pandas, pyarrow, fitz, mlx 0.32.3, mlx-vlm 0.7.4) = THE env for engines, scoring, bench and data prep.
+  - `.venv` (Python 3.14.3) = only what already runs there. It is never mixed into a result without saying so.
+  - `product/` gets its own pinned requirements + a Linux/CUDA Dockerfile (D4).
+- **MCPs:** `hf-mcp-server` (U26; the HF account is Maya0769; Bodhan repos 403 until the access forms are submitted), `context7`, `github` (read-only use), `opencode`, `ecc-memory`.
+- **Cloud planner sessions** (claude.ai/code, e.g. the vajrAstra session):
+  - They cannot see the Mac or its local skills (readchk/factchk/mandela/ssotize/graphify), so they do those checks by hand and say so.
+  - They read the repo only through a branch the boss pushes (`boss/campaign-docs`, one-off, docs only).
+
+
+## (verbatim from agent-automation-setup, merged 2026-09-30 night)
+
+Set 2026-09-30 after the boss said: "I can't push every time… set it so all agents use all skills and plugins every time."
+
+- **Anchor every tool loads:** repo `AGENTS.md` starts with a "START HERE" block (Claude Code, OpenCode and Cursor all auto-load AGENTS.md; OpenCode v2 ignores the `instructions` config key — context7, 2026-09-30).
+- **Claude Code hooks** in `.claude/settings.local.json`: SessionStart (startup|resume|clear|compact) runs `bash scripts/agent_bootstrap.sh` → prints NEXT step, checkpoint STATUS, open U-decisions, live agent count, graph staleness, rules, skill hints; Stop runs `--sync-only` → copies memory `proto-*.md` into `docs/campaign/protocols/` (memory is the source of truth).
+- **NEXT.md** at `docs/campaign/checkpoints/NEXT.md` = the one next step; whoever finishes a step rewrites it ([[proto-60-monitor-and-checkpoint-discipline]] Rule 1b).
+- **Skills:** [[proto-88-skill-routing]] maps each kind of work to a Claude skill and an OpenCode skill. The ECC plugin (`ecc@ecc`, 292 skills) was installed but DISABLED in Claude Code; enabled 2026-09-30 (user scope) — takes effect in new sessions.
+- **Laptop-wide:** `~/.config/opencode/AGENTS.md` (new, generic skill discipline) and a "Skill discipline (all projects)" block appended to `~/.claude/CLAUDE.md` (backup of the old file in that session's scratchpad).
+- **To change the next step** edit NEXT.md; to change the automation edit the script or run `/hooks`.
+
+Related: [[proto-00-runbook]], [[proto-88-skill-routing]], [[sonnet-handoff]]

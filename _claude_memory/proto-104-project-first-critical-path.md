@@ -151,6 +151,251 @@ metadata:
 
 ---
 
+# APPENDIX A — merged protocols (verbatim; sources archived to `_archive_2026-09-30/`)
+
+- **Step Q (new, before D2):** write `level2/benchmark/docs/GT_DEFECTS.md` per A.1 (proto-65); K-19 closes on it.
+
+
+## A.1 — proto-65-gt-defects-register (verbatim)
+
+# PROTO-65 — GROUND-TRUTH DEFECTS REGISTER (Verdict builds; decisions go to the boss) → `docs/campaign/GT_DEFECTS.md`
+
+**Why:** GT defects are scattered across 1A, 1B, EDGE_THESIS, gt_forensics.json, gt_verification.json and the feed. Every score is only as good as its GT; the boss needs
+one list with scope and decisions. §6.4 stays LOCKED — this register proposes, the boss decides.
+
+## Known entries to verify and measure (starting list)
+| ID | Defect | Source | Scope to measure |
+|---|---|---|---|
+| G1 | Marathi PDF-layer GT with injected Ol Chiki code points; the 18 items are table pages (7.4× Latin, 7.9× digits) | EDGE_THESIS C4, lens reports | count items; CER with/without them per engine |
+| G2 | `gt_thin` threshold: 179 chars (CER_BY_SCRIPT.md, docs) vs 200 (code, 3 places) | BENCHMARK_22 UNRESOLVED #2 | which value ran; how many South pages change basis |
+| G3 | te_024 / te_065 dominant script: `pages_script_map.json` vs `pages_manifest.json` disagree | BENCHMARK_22 UNRESOLVED #3 | Telugu scored n = 6 or 4 |
+| G4 | ne PDF-tier BARRED (R5: ctrl chars, trust 26.6) | gt_forensics.json | unchanged — confirm |
+| G5 | `sarvam_bench` fill GT is human-reviewed twice (HF card) — contradicts protocol's "machine GT"; §6.4 BARRED mni/sat partly on an LLM-vision verifier that cannot read Ol Chiki/Meetei Mayek | COMPETITOR_INTEL §0.1; gt_verification.json | which §6.4 verdicts depend on the "machine GT" premise → U6 |
+| G6 | PDF-text-layer GT may favour layout-literal engines | [[proto-62-gt-tier-stratified-reporting]] | result of the 30-item classification |
+| G7 | `sheet.csv` gt column vs manifest gt byte equality | [[proto-61-sheet-provenance-forensics]] step 2 | mismatch count |
+| G8 | South 274/400 pages without CER (219 thin GT, 55 mojibake) | CER_BY_SCRIPT.md | per language |
+| G9 | Items whose GT came from the same source Sarvam built its bench on (sarvam_bench) — potential home-turf for Sarvam | manifest `gt_source` | count per language; exclude-or-flag rule for comparisons |
+
+## Verdict subagent — TASK (paste after the shared context block)
+> For each entry: reproduce the defect with a command, measure its scope (items, languages, engines affected, effect on mean CER with/without), classify
+> SEVERITY (changes a winner / changes a number / cosmetic), and write the decision it needs (boss / Verdict / none). Add any new defect you find while measuring.
+> Write only `docs/campaign/GT_DEFECTS.md`: summary (≤10 lines) → register table → per-entry evidence → decisions list.
+
+Related: [[proto-61-sheet-provenance-forensics]], [[proto-62-gt-tier-stratified-reporting]], [[proto-92-boss-decisions]]
+
+
+## A.2 — proto-71-south-rerun-same-standard (verbatim)
+
+# PROTO-71 — SOUTH LANGUAGES UNDER THE SAME STANDARD (feasibility by Engine → boss gate U11 → execution)
+> **2026-09-30 evening:** the execution order, owners and end state are in [[proto-101-south-unification-and-level2-tree]] (U10/U11 now). This file stays the reference for its inventory and path-dependency lists.
+
+**Why:** the boss's own words: CO-003 "merge into new **or run them fresh in the same flow**"; CO-025 "rerun under the same standard — delete old versions";
+uni T6.4 "THE SOUTH LANGUAGES meet this exact same bar — same 100-per-language standard, same verification, no leftovers from older standards."
+Today South = 400 self-labelled pages from other sources (Level 1 `arc_level_1/labeled/`, sources like S5_govt), rendered at a different basis, scored by a different writer
+(`verify_v2.py`), and **only 126/400 pages carry a CER** (kn ≈4, ml ≈4, te ≈6 scored). The 18 other languages come from the official hackathon dataset through
+`level2/probe22/` (extract_gt gates → build_manifest → run_probe → metrics). A symlink view cannot fix a standards difference.
+
+## Official-dataset sources for the 4 languages (monitor, 2026-09-30)
+`Datasets/akshardrishti_official/`: Tamil 34 PDF + 4 PNG · Telugu 84 PDF · Kannada 41 PDF · Malayalam 20 PDF + 9 PNG. No image+transcription pairs.
+Unknown: how many PDF pages pass the honesty gates (Gujarati: 3,567 text pages → 10 clean because of legacy font encodings — South PDFs may behave the same).
+
+## Phase A — feasibility (Engine subagent, read-only except candidate files in a scratch folder)
+> 1. Check `level2/probe22/extract_gt.py` and `build_manifest.py` language tables: do they support `ta`, `te`, `kn`, `ml` (script Unicode ranges, codes)? If not, list the exact
+>    additions needed (do not edit yet).
+> 2. Run the extract stage for the 4 languages writing ONLY to `docs/campaign/checkpoints/W_south_reports/candidates_<code>.json` (copy the script to a scratch path or pass an output
+>    flag — never overwrite `level2/probe22/candidates/`). Report per language: PDFs, pages scanned, pages with text, rejected by reason, clean candidates, distinct PDFs among clean.
+> 3. Engines: which of the 10 local engines support each script? Tesseract traineddata for `tam`, `tel`, `kan`, `mal` — `level2/probe22/tessdata/` has none; find what the South run used
+>    (`level2/engines_config.py`, `run_engine.py`, system tessdata e.g. `/opt/homebrew/share/tessdata`, `level2/research/smoke/anuvaad_tesseract/tessdata`). `run_probe.py` (LOCKED) language map:
+>    does it route ta/te/kn/ml? List exact edits needed. No downloads.
+> 4. Time estimate: per engine ms/page from `level2/reports/LATENCY.md` and probe logs × 400 items.
+> 5. Write `docs/campaign/SOUTH_RERUN_FEASIBILITY.md`: per language clean-candidate count vs 100, engine coverage, required code edits (with file:line), time, risks, recommendation.
+
+## Boss gate U11 — APPROVED 2026-09-30 ("Yes, feasibility first"): run Phase A, then Phase B for every language the feasibility report marks feasible; report the rest
+Present: feasible yes/partial/no per language; edits to LOCKED files needed (`run_probe.py`, possibly `AGENT_PROTOCOL.md` scope); compute hours; what happens to old South 400
+(recommended: becomes `benchmark/scores/south400_v1/` history + `_archive/level2_south400_v1/`, cited as "Level 2 v1 (own-labelled, different standard)", never mixed into the 22-language table).
+
+## Phase B — execution (only after U11 yes)
+1. Add the 4 languages to extract/build/run tables (fix-specs, Verdict-verified). 2. Extract → draw 100/lang with the same seed and stratification (SEED 20260926), same gates.
+3. Run all local engines one at a time (AGENT_PROTOCOL engine discipline), outputs into the probe output tree (or `benchmark/packs/` after proto-70). 4. Score with the same `metrics.py`.
+5. Regenerate `BENCHMARK_22.md` so all 22 languages share one standard; old South numbers shown only in a clearly labelled history section.
+6. Where a language cannot reach 100 clean pages: record the honest n and why (same rule as the 8 short languages; no gate relaxation, no fabrication).
+
+## Verdict check
+Visual spot-check of 10 drawn pages per language (GT vs image), gate statistics reproduce, engine outputs complete (counts per engine × lang), no sealed/locked file edited without the approved fix-spec.
+
+Related: [[proto-70-level2-restructure]], [[proto-20-w2-sampling-reconcile]], [[proto-21-w2-variance-and-resource]], [[proto-92-boss-decisions]]
+
+
+## A.3 — proto-75-vinay-plan-baseline (verbatim)
+
+# PROTO-75 — BASELINE AGAINST VINAY'S PLAN (research + Verdict) → `docs/campaign/VINAY_PLAN_BASELINE.md`
+
+**Boss:** CO-089 "First benchmark/analysis: baseline against VINAY'S plan — we must cross his plan to even cross Sarvam and the entire India model field." uni C10.3: "full analysis of
+EVERY relevant model — starting with VINAY'S PLAN… Prove it with analysis, not confidence." CO-090 is superseded by C9 (prove, then claim).
+Note: Vinay is the CEO of the boss's own team; his PPT is the team's baseline architecture — "crossing" it means a demonstrably better plan he will adopt, not a rivalry.
+
+## Inputs
+`AksharDrishti_Hackathon_Proposal.pptx` (root) · `docs/research/…/PPT_FULL_DUMP.md` and `PPT_VS_SPEC_DIFF.md` (now under `_reports/research/`; use `find`) · `docs/architecture/PPT_SPEC.md` ·
+`docs/campaign/BENCHMARK_22.md` · `docs/campaign/COMPETITOR_INTEL.md` · `docs/campaign/EDGE_THESIS.md` · `docs/campaign/MENTOR_PLAYBOOK.md` (flowchart) · research precursors
+(`docs/research/R1_SOTA_MECHANISM_TEARDOWN.md`, `DEEPER_LIVE_RESEARCH_2026-09-29.md`, `LIVE_LATEST_2026-09-29.md`).
+
+## Research subagent — TASK (paste after the shared context block)
+> 1. Decompose the PPT architecture into its stages exactly as written (quote slide text): preprocessing (OpenCV), layout (DocLayout-YOLO), recognition (parallel SFT TrOCR + Qwen-VL + PaddleOCR-VL),
+>    training (SCST/RL), data plan, evaluation plan, languages covered.
+> 2. For each stage: (a) what we have measured on disk that bears on it (engine CERs by script and GT tier, failure taxonomy `level2/reports/FAILURE_TAXONOMY.md`, latency);
+>    (b) what 2025–2026 evidence says (open the sources; e.g. current small OCR VLMs, layout models, RL for OCR) — PRIMARY/DERIVED/UNKNOWN;
+>    (c) risk for Indic specifically (conjuncts, Nastaliq, Ol Chiki, Meetei Mayek, degraded scans); (d) what the plan omits (e.g. script/language ID for unlabelled test images,
+>    confidence routing, normalisation aligned to the evaluation metric, 22-language coverage).
+> 3. A comparison table: stage × {Vinay PPT, Sarvam Vision 2.1 (published architecture), Bodhan, our measured wrap-only routing, Option A, Option D} with evidence per cell.
+> 4. "What crosses his plan": the smallest set of changes to the PPT that the evidence supports, each with its measured or cited basis and cost in days. No claim without evidence.
+> Write only `docs/campaign/VINAY_PLAN_BASELINE.md` (≤2,000 words + tables).
+
+## Verdict check
+Every PPT quote verbatim; every cell sourced; "crosses" claims labelled as hypotheses unless measured.
+
+Related: [[proto-19-w1h-draft-research-plan]], [[proto-14-w1d-competitor-intel]], [[proto-78-submission-readiness]]
+
+
+## A.4 — proto-76-workstreams-and-agent-health (verbatim)
+
+# PROTO-76 — WORKSTREAMS AND AGENT HEALTH (Miss, read-only) → `docs/campaign/WORKSTREAMS.md`
+
+**Boss:** uni T8.1 "Every stream checked every cycle. Silence from a stream = flagged event, not peace." T8.5 "Find the boss's other parallel workstreams, read their concern docs, confirm none
+stalled." C15 "you have 2 parallel works — see one you have done, what about the other." Monitor 2026-09-30: 3 OpenCode processes (since 07:29, 18:56, 21:02 on 09-29), Claude daemon sessions,
+`.kilo/worktrees` (31 MB), untracked `src/`+`tests/` written by an unknown agent, a cleanup agent that moved 27 docs, and duplicates created "for discoverability".
+
+## Miss subagent — TASK (paste after the shared context block)
+> 1. Processes: `ps aux | grep -E 'claude|opencode|kilo|python' | grep -v grep` (start time, command, cwd via `lsof -p <pid> | grep cwd`).
+> 2. OpenCode sessions (read-only MCP): ToolSearch `select:mcp__opencode__opencode_sessions_overview,mcp__opencode__opencode_session_list,mcp__opencode__opencode_session_get`;
+>    list sessions for this repo, their titles/last activity; summarise what each is doing (do not send them messages).
+> 3. Claude sessions: `ls -t ~/.claude/projects/-Users-srujansai-Desktop-South/*.jsonl | head` → title (ai-title rows) + last timestamp (small python, never cat).
+> 4. Kilo: `git worktree list`; for each `.kilo/worktrees/*` branch, last commit date and whether it has unmerged changes.
+> 5. Attribution: for files created/modified in the last 48 h outside `docs/campaign/`, attribute to a workstream (timestamps vs session activity; DISPATCH_LOG entries).
+> 6. Write `docs/campaign/WORKSTREAMS.md`: table `workstream · tool · started · last activity · task (from its own log/title) · files it writes · status ACTIVE / IDLE / STALLED / CONFLICTING ·
+>    owner lane (Engine/Verdict/Miss/boss) · action needed`. Flag every CONFLICTING pair (two streams writing the same files) and every STALLED stream.
+
+## Standing rule (add to every wave's pre-flight)
+Every workstream registers in `DISPATCH_LOG.md` before it writes (who, what files, until when). Unregistered writers are reported to the boss the same turn.
+
+Related: [[proto-60-monitor-and-checkpoint-discipline]], [[proto-74-root-hidden-hygiene]], [[proto-02-preflight-and-checkpoints]]
+
+
+## A.5 — proto-78-submission-readiness (verbatim)
+
+# PROTO-78 — SUBMISSION READINESS (Engine builds, Verdict verifies; gated on U2 for format)
+
+**Why:** uni E14.2 "COMPLETE the project". `Datasets/akshardrishti_official/test/test/` = 5,344 unlabelled JPGs (numbered `0.jpg`…), described in `FULL TECHNICAL BRIEFING.md:37` as the
+hackathon eval set — "NEVER train on it". `docs/research/R6_COMPETITION_INTEL.md:62` "Submission format — NOT published". Every plan so far routes by a KNOWN language label (per-language
+routing table); the test images carry no label → the pipeline needs script/language identification first. No protocol covered this.
+
+## Step 1 — requirements (Miss) → `docs/campaign/SUBMISSION_REQUIREMENTS.md`
+Collect everything known about the submission: output format, metric, languages in test, deadline, page vs block unit, file naming. Sources: official hackathon pages (live, opened),
+`SOUTH_CANON.md`, `FULL TECHNICAL BRIEFING.md`, `R6_COMPETITION_INTEL.md` §4, `_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md` F1, the boss (U2). UNKNOWN is allowed; list questions for the boss/Vinay.
+
+## Step 2 — test-set profile (Engine, read-only, no training, no labels created)
+Sample 200 test images (seed 20260926): image sizes, colour/greyscale, printed vs handwritten (visual check of 30), and **script distribution** estimated by running the existing engines'
+script detection or a Unicode-block vote over 2–3 fast engines' outputs on the sample. Output `docs/campaign/TEST_SET_PROFILE.md`. Never write predictions for the test set into any training asset.
+
+## Step 3 — pipeline dry run (Engine)
+For the chosen path (U4): script/language ID → route → engine(s) → normalisation → output writer in the (assumed) format. Run on 50 test images: wall time per image per engine on this Mac,
+failure modes, memory. Extrapolate to 5,344. Output `docs/campaign/SUBMISSION_DRYRUN.md` with the exact command, timings, and the gap list (e.g. no engine for Ol Chiki/Meetei Mayek → U7).
+
+## Verdict check
+No test image used for training or tuning; timings reproducible; format assumptions labelled ASSUMED until U2 confirms.
+
+Related: [[proto-75-vinay-plan-baseline]], [[proto-51-w5-architecture-freeze]], [[proto-92-boss-decisions]]
+
+
+## A.6 — proto-80-hackathon-metric-alignment (verbatim)
+
+# PROTO-80 — A COMPLETE, DEFENSIBLE METRIC SET (Engine writes the writer, Verdict verifies)
+
+**CORRECTION 2026-09-30 (factchk, Opus): the sentence "CER with a bootstrap 95% CI, WER, substitution/deletion/insertion breakdown, and seconds per page" comes from a student B.Tech project repo (github.com/Ayush-04-spec/akshardrishti, K. K. Wagh Institute) describing ITS OWN evaluation — it is NOT the official AksharDrishti rubric. The official scoring rules are UNKNOWN (not found on any opened official page). Never state them as the hackathon's rules; ask Vinay/the organisers (U2).**
+The metric set below is still worth building: confidence intervals, error-type breakdown and speed are what any serious reviewer asks for, and speed matters for a 5,344-image test set.
+
+**Evidence withdrawn:** the rubric quote previously here was from a student project (see correction above). Official rules: UNKNOWN — U2.
+**Gap:** `docs/campaign/BENCHMARK_22.md` has mean/median CER but no bootstrap CI, no S/D/I, no seconds/page. Law L2 (one writer, one truth) and L9b (freshness stamped): numbers come from a script, never by hand.
+
+## Engine subagent — TASK (paste after the shared context block)
+> Write `level2/unified/rubric_report.py` (stdlib + `level2/probe22/metrics.py` only; deterministic; `generated_at` stamp) producing `docs/campaign/RUBRIC_REPORT.md`:
+> 1. For every engine × language (and overall, and per GT tier per proto-62): n, CER mean, **CER bootstrap 95% CI** (1,000 resamples over items, seed 20260926; report the method),
+>    CER median, **abstention rate** (empty predictions; see proto-82 table), WER, and **S/D/I counts and rates** from the character alignment (edit-operation breakdown; if `metrics.py`
+>    has no op breakdown, implement Levenshtein backtrace and test it on 5 hand-checked pairs).
+> 2. **Seconds per page** per engine: from run logs (`level2/probe22/logs/`, `engine_health_log.jsonl`, pack JSON `engine_meta` timing fields) and South `level2/reports/LATENCY.md`;
+>    state n timed and the hardware (Apple M2 Max). Never re-run engines for timing in this step.
+> 3. Input CER source: `sheet.csv` (v1) and, if present, `level2/unified/sheet_v2.csv` from proto-61 — report both side by side until U9 decides.
+> 4. Consistency: overall numbers must reproduce `BENCHMARK_22.md` means within rounding; print PASS/FAIL.
+> Writes only the script and `docs/campaign/RUBRIC_REPORT.md`.
+
+## Verdict check
+Re-run; hand-check S/D/I on 5 items; check CI width is plausible for n (e.g. n=3 Sarvam cells must show very wide intervals); confirm no hand-typed numbers.
+
+Related: [[proto-12-w1b-benchmark22]], [[proto-61-sheet-provenance-forensics]], [[proto-62-gt-tier-stratified-reporting]], [[proto-82-engine-empty-output-patterns]]
+
+
+## A.7 — proto-81-handwriting-degraded-coverage (verbatim)
+
+# PROTO-81 — HANDWRITING + DEGRADED-DOCUMENT COVERAGE (Engine measures, Verdict checks, boss decides scope)
+
+**Facts (monitor 2026-09-30):** `level2/probe22/manifest.json` → `print_or_hand`: printed 1,283 · `has_table`: False 1,283 · `quality`: unknown 983, clean 300. `sheet.csv` `mixed_script` False on all rows.
+Search summaries say the AksharDrishti challenge targets "handwritten and low-quality texts" — UNVERIFIED (the official page could not be opened; the X post returns HTTP 402). The test-set profile (step 2) is the independent truth. Sarvam's bench is reported as 0% handwriting / 0% tables (COMPETITOR_INTEL). Bodhan publishes
+a handwriting bench (IndicOCR-HW) per 1D. So neither our probe nor Sarvam's bench measures what the hackathon emphasises. It is unknown whether these fields were measured or defaulted.
+
+## Engine subagent — TASK (read-only; no training; no labels created for the test set)
+> 1. **Field provenance:** find where `print_or_hand`, `quality`, `has_table` were set (`build_manifest.py`, `extract_gt.py`) — measured or defaulted? Report file:line.
+> 2. **Test-set profile** (joins [[proto-78-submission-readiness]] step 2): view 60 random test images (`Datasets/akshardrishti_official/test/test/`, seed 20260926) and classify each:
+>    printed / handwritten / mixed; clean / degraded (blur, stains, low contrast, skew); tables yes/no; script (by eye + Unicode block of a fast engine's output). Report counts with n.
+> 3. **Our data vs that profile:** do any official pair images look handwritten (view 20 each of bn, hi, sa, en pairs)? How many probe items are visibly degraded (view 50)? Any handwritten items in
+>    `arc_level_1/labeled/` or South renders?
+> 4. **Honest options (no downloads without approval):** (a) handwritten items already on disk with GT; (b) public handwriting benches (name, licence, size, URL opened) — download needs the boss;
+>    (c) engines with handwriting support among the 10 (evidence from their docs). Output `docs/campaign/COVERAGE_GAP.md`: profile tables, our coverage, options with cost, recommendation.
+
+## Boss decision U13
+Include handwriting/degraded evaluation in scope before the freeze? Recommendation depends on step 2: if the test set has a material handwritten share (say >10%), yes — at least an evaluation slice.
+
+Related: [[proto-78-submission-readiness]], [[proto-80-hackathon-metric-alignment]], [[proto-92-boss-decisions]]
+
+
+## A.8 — proto-82-engine-empty-output-patterns (verbatim)
+
+# PROTO-82 — EMPTY-OUTPUT PATTERNS: BUG OR HONEST-EMPTY? (Engine diagnoses, Verdict classifies, boss approves re-runs)
+
+**Laws that apply:** L8 open policy ("engines read any script on any page; lang tag = ID label, never a content constraint"); L3 4-page gate ("no engine/config change touches the full set until it
+wins on 4"); honest-empty is correct ONLY when the engine truly has no model for the script; operator law "Useless ⇒ engine is wrong ⇒ fix ⇒ re-run; keep old in json_vN; never fake counts."
+
+## Measured (monitor, `sheet.csv`, % empty predictions, cells with ≥20 rows; ≥80% marked *)
+| engine | 100%-empty languages | partial | reading |
+|---|---|---|---|
+| paddleocr_indic | bn*, brx*, doi*, gu*, ks*, mni*, or*, pa*, sat* (overall 43%) | — | **brx and doi are Devanagari**, yet hi/kok/mai/mr/ne (Devanagari) are 0% empty → likely a language→model mapping bug, not missing capability |
+| surya | sa* (100%) | mni 55, doi 14, gu 12, sat 10, ne 8, brx 5 | **sa is Devanagari** and surya reads hi at 0% empty, but surya ignores the language code (see code evidence below) → cause is image/model-side, not mapping; the "fusion ceiling" is 67% this one bug (EDGE_THESIS) |
+| anuvaad_tesseract | bn*, gu*, ks*, mni*, or*, pa*, sat*, sd*, ur* (overall 50%) | — | only kan/mal/tam/tel/hin/eng traineddata exist → mostly honest-empty; verify it isn't run with the wrong traineddata for Devanagari languages (brx/doi/kok/mai/mr/ne are 0% empty → fine) |
+| rapidocr | bn*, gu*, mni*, or*, pa*, sat* (overall 27%) | ne 2 | check its model list for Bengali/Gujarati/Gurmukhi/Odia |
+| others | — | doctr, easyocr, indicphotoocr, tesseract family ≤4% | fine |
+
+## Code evidence already found by the monitor (2026-09-30 ~05:15)
+- **paddleocr_indic — confirmed MAPPING-BUG for brx and doi:** `level2/probe22/run_probe.py:84-88` `PADDLE_LANG` maps hi/mr/ne/mai/sa/kok(gom) to paddle's Devanagari models but omits
+  `brx` and `doi`; the comment at `run_probe.py:80-83` wrongly lists them among "languages without any paddle model … honest-empty". Both are Devanagari-script → map them to a Devanagari
+  model (e.g. `hi` or `mr`) per law L8. (as/bn/gu/pa/or/ks/mni/sat: check paddle 3.7 `_utils/langs.py` for Bengali/Gujarati/Gurmukhi/Odia models before accepting honest-empty.)
+- **surya — NOT a language-mapping bug:** `level2/run_engine.py` `ocr_surya(image_path, lang)` never uses `lang` (layout → block recognition, full-page fallback if <5 chars). So the 100% empty
+  output on `sa` comes from the images or the model path, not codes. The `sa` items are official pair JPEGs (`Datasets/akshardrishti_official/Sanskrit/Images and Transcription/*pro_labelled.jpeg`)
+  — check size/aspect, whether they are line crops or annotated ("labelled") images, EXIF rotation, and what layout returns (0 blocks?) on 4 items; same for `mni` (55% empty).
+
+## Engine subagent — TASK (diagnosis read-only; then 4-page tests only)
+> 1. For each * cell: find how `level2/probe22/run_probe.py` (LOCKED — read only) maps the language code to the engine's model/language argument (file:line). Classify:
+>    NO-MODEL (the engine has no model for that script — honest-empty, document it) · MAPPING-BUG (a model for the script exists but the code isn't mapped, e.g. paddle brx/doi → Devanagari) ·
+>    OTHER (crash/timeout — check logs `level2/probe22/logs/`).
+> 2. For each MAPPING-BUG: run the engine with the corrected script argument on **4 items** of that language (L3 gate) in a scratch output folder (never `level2/probe22/out/`), score with `metrics.py`,
+>    and report CER before/after. No full re-run.
+> 3. Write `docs/campaign/EMPTY_OUTPUT_DIAGNOSIS.md`: the table above re-measured, per-cell classification with evidence, 4-page results, the exact `run_probe.py` edits needed (fix-spec format),
+>    expected impact on the benchmark cell, and the re-run cost (items × engine time).
+
+## Gate and execution
+A full re-run of a fixed cell changes `level2/probe22/out/` and `sheet.csv` (sealed/locked) → it rides on the boss's U5 approval (score/re-score after the meeting) — old outputs kept as `out_archive/<engine>_v1/`
+(law L5 "reruns versioned"). The Sanskrit/surya cell is the highest-value item (the plan's "only real engineering item").
+
+Related: [[proto-80-hackathon-metric-alignment]], [[proto-61-sheet-provenance-forensics]], [[proto-70-level2-restructure]], [[proto-92-boss-decisions]]
+
+
 # HISTORY — rev 1–3 text (superseded by rev 4 above; kept for audit, do not execute from it)
 
 # PROTO-104 (rev 3) — PROJECT FIRST, SOUTH INCLUDED, HANDWRITING CENTRAL
