@@ -1,0 +1,601 @@
+{
+ "partition": "P48",
+ "files": [
+  {
+   "path": "/home/user/boss/_claude_memory/proto-98-clean-repo-master.md",
+   "total_lines": 1073,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-102-incident-repair-and-verdict-fixes.md",
+   "total_lines": 156,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-107-gold-repo-consolidation.md",
+   "total_lines": 266,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss 2026-10-01 ~14:30 IST ordered a NO-LOSS consolidation of the repo into a startup-grade 'gold' repo; read all lines, merge relevant md, 30-40 parallel subagents.",
+   "numbers": "30-40 subagents; 56,000 files complaint",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:13-18",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Measured repo = 203,380 files (excl .git); most are data/envs, only ~2,000 authored files are the real document mess; 557 md in project areas.",
+   "numbers": "203,380 files; ~2,000 authored; 557 md",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:27-29,48",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "File breakdown: .venv311 83,263; .venv 47,576; Datasets 34,871; level2 22,382 (benchmark 17,838, out 4,001, models_bodhan 387); .claude 4,119; .kilo 4,117; .opencode 3,650; _archive 952 + 17,297 dead symlinks; graphify-out 827; docs 744; arc_level_1 413; .deps 259 files 4.4 GB.",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:30-43",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hazard H-1: level2/level2 -> . self-symlink created 2026-09-30 20:39, probably to satisfy run_probe.py parents[2] path bug; A4 PASS may depend on it; must be proven removable (rename aside + smoke test) before GO-D.",
+   "numbers": "level2/level2 -> .",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:63-65",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hazard H-2: 15,789 untracked level2/benchmark files not git-ignored; one git add -A would violate Vinay's no-data-in-GitHub rule; W0 adds .gitignore rules (benchmark/pages, packs, models_bodhan, out_level3, caches).",
+   "numbers": "15,789 files; ~15,800 drop expected",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:66,116",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Git state: main=origin/main 8fec177 with 4,116 tracked; 34,350 untracked non-ignored; 174,557 ignored; origin/boss/campaign-docs ahead (2ae8a5b) of local (41de158); 5 extra worktrees; claude/stoic-keller-xwovqu = PR #12 reference only.",
+   "numbers": "4,116 tracked; 34,350 untracked; 174,557 ignored",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:52-60",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "NO-LOSS LAW: read every line (lines_read==wc -l), extract atomic fact ledger JSONL {fact_id,topic,kind,text,source,line,date,status_hint,verify}, each fact INCLUDED or REJECTED with closed-list reason (DUPLICATE/SUPERSEDED/CONTRADICTED-BY-DISK/OUT-OF-SCOPE/UNVERIFIABLE).",
+   "numbers": "closed reason list of 5",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:72-81",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Contradictions resolved by disk evidence or latest boss ruling (proto-104/proto-92), else BOSS_DECISIONS_PENDING.md; delete only for sha-identical twins, caches, dead symlinks, empty files/dirs, H-1 link.",
+   "numbers": "",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:82-87",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Single writer rule: 30-40 subagents read/propose; ONE executor (lead Agent 3) mutates; Agent 2 blind-verifies each wave; Agent 1 stays on project (S4/D1/H3). Boss gives GO-A (archive), GO-D (deletes), GO-G (git: local branch gold/2026-10-01, no push).",
+   "numbers": "3 GO gates",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:89-106",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "10 gated waves W0-W9: W0 safety+sha manifest+tar bundle; W1 inventory ~35 shards of <=60 files; W2 variant clusters; W3 fact extraction (recall >=98% blind check); W4 finals to staging; W5 boss review; W6 execute; W7 links; W8 official shape; W9 final verify.",
+   "numbers": "W1 >=95% agreement; W3 recall>=98%",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:108-251",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Gold targets: root md <=4 (+LICENSE/NOTICE), README<=60 lines, AGENTS.md<=60 lines, docs/{INDEX,PLAN,STATE,LAW,MEETINGS,TOOLS,HISTORY}.md; T1-T14 finals; scripts gold_fact_check.py and gold_link_check.py must show 0 unaccounted/0 dead.",
+   "numbers": "root md <=4; README<=60",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:164-179,223-258",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Proposed T1 final docs/PLAN.md = 'proto-104 rev 4 + Plan v3'; T14 RESEARCH_DECISIONS harvests all 88 + 554 research files. The gold repo's plan lineage is proto-104 rev 4/Plan v3, NOT the handwriting-only Plan v4 (proto-108).",
+   "numbers": "T1, T14",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:165,178",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Proto-107 supersedes the PARKED status of proto-98 and reuses its T1-T14, WORTH formula and tree; NOTICE/LICENSE must carry Bodhan attribution, Apache tessdata, Sarvam bench Apache-2.0.",
+   "numbers": "",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:3,229,236",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W8 env decision: .venv311 is THE env + requirements.lock; .venv (47k files, Py3.14+mlx) retire-or-keep is boss call. Plan v4 says 'portable PyTorch, MLX Mac-only' - env split matters.",
+   "numbers": ".venv 47,576; .venv311 83,263",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:30-31,237",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "level2/out (4,001 files, South v1) retires at proto-104 S6; models_bodhan 387 files hold Bodhan weights + Sarvam bench; .deps (IndicPhotoOCR, 4.4 GB) may move to third_party/.",
+   "numbers": "",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:33-35,41",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INCIDENT 2026-09-30 16:36:44-16:39:05: Agent 3 (MiniMax-M3) ran proto-101 in ~3 min with no P0 bundle/manifest, no P1 feasibility; 'mv scores scores_tmp; rm -rf scores_tmp' with 2>/dev/null permanently deleted level2/probe22/scores (~143 MB, untracked).",
+   "numbers": "~143 MB; 3 min",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:15-25",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lost with scores/: probe LEADERBOARD.md, mcnemar_full_matrix.json, mcnemar_summary.md, metrics_<engine>_normalized.json (11 engines), abstention_audit.md, santa_method_cross_check.md, fix_specs FS-VERDICT-H48-001..010; 12 live docs cite them (KILL_CRITERIA, SANTA_METHOD_FINAL, W6_QLORA_SPEC, ...).",
+   "numbers": "11 engines; 12 citing docs",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:25-26",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Live data wrongly archived (sheet_v2.csv, manifest_22.json, metrics_80.csv); packs nested at packs/out/<engine>/<lang>; run_probe.py still referenced probe22 4 times so every engine run broken; 17,289+400 dead symlinks and 400 PNG/545 MB South v1 renders (only copy) re-created.",
+   "numbers": "4 refs; 545 MB; 17,689 symlinks",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:27-39",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Repair plan A0-A10: pre-image bundle, restore live data, finish layout (packs/ scores/ QLORA to docs, w6 sets to training_assets/w6_sets), fix paths (grep probe22/level2/unified/renders_shared/pages_400 must be 0), regenerate scores via metrics.py/mcnemar/build_sheet_v2/build_benchmark_22, recover docs from OpenCode DB/transcripts.",
+   "numbers": "grep must be 0",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:46-97",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "U3 decided by boss: archive untracked src/, tests/ and configs/ (OpenCode-built trainer/pipeline that routes on ground truth, broken Laya router) after A9 under rule 17; scripts/evaluation/* not in U3 (proto-74 rules).",
+   "numbers": "src 46-49 files",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:99-104",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Binding rules proto-01 17-21: destructive commands need pre-op sha manifest + verified bundle + log line; forbidden 'mv X X_tmp; rm -rf X_tmp' and 2>/dev/null on mv/rm/cp/tar; phase DONE only with check output pasted in W4.md; archive = verified bundle + INDEX line; one inventory script; looping/truncated subagent is dead.",
+   "numbers": "rules 17-21",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:122-141",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "RF-13: 62.9% of sheet.csv stored CER cells do not re-derive, but every headline survives recomputation; recommendation adopt sheet_v2.csv for all reporting (boss decides, U9).",
+   "numbers": "62.9%",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:116",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "RF-18: S/D/I column of proto-80 invalid (sampling cap per language, not per language x engine); re-run build_metrics_80.py with cap per (language x engine).",
+   "numbers": "",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:115",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "RF-15: surya 24.3 s/page ~ 36 h for the 5,344 test images; submission time budget uses Bodhan's measured Day-1 speed; Day-4 gate unchanged.",
+   "numbers": "24.3 s/page; ~36 h; 5,344 imgs",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:117",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "No official deadline exists; 'qualifiers 30/09' is Rajasthan's; 'Oct 4'/'Oct 15' have no source (RF-02/04). Weekday errors: 2026-09-30 is Wednesday, 2026-10-01 Thursday. Organisers contact gic.dibd@gmail.com is a boss outward action.",
+   "numbers": "RF-02,RF-04",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:112",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "'22 languages' is not an official requirement (RF-03); official dataset has 24 language folders (22 scheduled + English + Mixed). Wording: 'our scope'.",
+   "numbers": "24 folders",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:113",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "RF-24 corrected: Sep 10 transcript says 'just start with 100 samples for each language'; keep proto-100 B-14 'start with 100 samples per language'.",
+   "numbers": "100/lang",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:114",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Licence rulings (proto-92 updates): U7 cleared (Apache-2.0, download in U34); U14 blocker = OpenRAIL-M Modified s2(c) no competing product + s8 share-alike to outputs, not $5M cap -> surya evaluation-only; U27 600K-KS-OCR HOLD (card says CC-BY-4.0 but embeds 'Controlled Research Access License'); U28 Bodhan attribution for user-facing product (s2.2",
+   "numbers": "U7,U14,U27,U28",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:144-149",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "proto-89: Day-4 fallback engines must be licence-cleared for shipping (surya evaluation-only); script read from Bodhan's output text via Unicode ranges, not an image classifier. proto-100: IndicPhotoOCR script-ID has no sat/mni classes, so B-04/B-07 route by output-text Unicode script.",
+   "numbers": "",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:151-152",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "proto-100 B-03 Kashmiri data = OFL fonts + open text (600K-KS-OCR on HOLD).",
+   "numbers": "KS",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:152",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-98 Phase-0 died: Agent 1's GLM-5.3-flash subagent looped ('lock...lock...') and hit output limit at 16:31 producing nothing.",
+   "numbers": "",
+   "source": "_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:120",
+   "status": "DEAD",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-98 PARKED by proto-104 (boss 2026-09-30 18:15 'complete the project first'); status audit: proto-98 NOT DONE, proto-95 PARTIAL (20 RF rows), 96/72/73/74/77/84/63/50 NOT DONE, 101 PARTIAL, 70 PARTIAL.",
+   "numbers": "20 RF rows",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:12,20-33",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "proto-107 (2026-10-01) un-parks it"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Graph measures 2026-09-30: graphify 6,796 nodes/7,633 edges/597 communities; 367 md in graph, 101 md not; 204 md islands. Later 2026-10-01: 8,669 nodes/9,890 edges/802 communities.",
+   "numbers": "6,796/7,633/597 -> 8,669/9,890/802",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:47-49",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "proto-107:24"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "WORTH score = C(0-30 cited)+D(25/10/0 decision value)+U(15/5/0)+F(10/5/0)+T(10/5/0)+G(10/6/2/0); bands >=70 KEEP, 45-69 MERGE, 20-44 ARCHIVE, <20 ARCHIVE/DELETE-DUP.",
+   "numbers": "6 components, 0-100",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:106-128",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "14 topic finals T1-T14 (plan, state, law, results, sampling, competitors, edge, mentor, tools, concerns, map, audit, status, research); research-file target <=15 live md in docs/research from 86; docs/research held 571 files 4.7 MB (86 md, 446 json, 36 jsonl).",
+   "numbers": "86 md; 571 files",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:130-151,245,287",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Primary sources are sacred: Sep 10 mentor meeting docx (sync - ocr - September 10.docx) and boss's Untitled-1.ini (47 KB) were filed as junk in _archive/cleanup_2026-09-28/root_clutter; to move to docs/sources/ and never bundled.",
+   "numbers": "47 KB",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:52,59,196-205",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Laya triage trial (U31): bar accuracy >=0.80 AND precision >=0.95 at conf >=0.9; swa-erp's own eval 0.75 on n=12; base checkpoints near-chance zero-shot; Laya never used in OCR model (proto-31/U30), never decides alone.",
+   "numbers": "acc>=0.80; prec>=0.95; 0.75 n=12",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:170-184",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Known traps for readers: 'we beat Sarvam' needs same GT tier+metric; proto-62: on human GT Sarvam 0.064 vs best local 0.243, locals lead only on PDF-layer GT; per-language n<=5 directional; '11 independent engines' false (openbharatocr ~ tesseract_indic 1,225/1,227); Punjabi K1 tie p=1.0; rubric UNKNOWN (CER/WER/S-D-I list from a student repo, F43)",
+   "numbers": "0.064 vs 0.243; 1,225/1,227",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:346-351",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe = 1,227 scored / 1,283 manifest (+56 additions; 12,324 sheet rows); South scored n=126/400 pages (CER-scorable); Sarvam bench n appears as 6,609 and 6,909 - do not repeat until proto-97 RQ-7 settles; 11 engines w/ 10 independent.",
+   "numbers": "1,227/1,283; 126/400; 6,609 vs 6,909",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:350-352,895,1060-1061",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "G3 research lanes R1-R7 directly relevant to Plan v3: R2 Nastaliq forensics (Kashmiri), R3 Ol Chiki/Mayek synthetic (sat/mni), R4 OldScan restoration (degraded scans), R6 competition intel/hackathon rules, R7 W6 training tree; ~140 KB total.",
+   "numbers": "~140 KB",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:259",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-95 harvest fate for R-lane/ledger files is CONDENSE into RESEARCH_DECISIONS rows (RF-###); ledger a/LEDGER is 655 KB/7,070 lines; level7 ledgers ~1.15 MB; 34 of 35 Lane-B md are format copies (DELETE-CONVERSION). Risk: harvest could drop R2/R3/R4/R7 content the plan needs.",
+   "numbers": "655 KB; 7,070 lines; 1.15 MB",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:261-262,374-381",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "G9 ruling: QLORA_* and MLX_INSTALL_RESULT findings (install steps, memory limits, smoke-test outcome) ADOPTED into proto-89 sec C; B12 ensemble voting becomes a Day-4 routing row with numbers.",
+   "numbers": "",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:396-399",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "KILL_CRITERIA (Punjabi line corrected by proto-86) either merges into proto-89 gates or stays the W6 gate file; HUMAN_SPOTCHECK_PACKET (20 items for boss) if never reviewed becomes an OPEN boss item, not silent archive.",
+   "numbers": "20 items",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:369-372",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "proto-101 South v1 facts: 4,000 packs (10 engines x 400 pages kn/ml/ta/te), GT = PDF text layer of Level-1 sources, ~45% legacy-font mojibake so only 126/400 carry CER; official South PDFs: 0/23,001 pages clean (P1 feasibility); B12: 52/115 'clean' South pages had legacy-font GT.",
+   "numbers": "0/23,001; 126/400; 52/115",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:587,25,595",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Official South sources: Datasets/akshardrishti_official Tamil 38, Telugu 84, Kannada 41, Malayalam 29 files; system tessdata has tam/tel/kan/mal; run_probe.py language maps (PADDLE_LANG etc.) need entries for South.",
+   "numbers": "38/84/41/29",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:595,634",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-101 end state: level2/benchmark (renamed from probe22, 18 langs + en), manifest_v1 (locked 1,283) + manifest_v2 (v1 + South, origin official|south_v1_regated), pages/ packs/ scores/ pipeline/ docs/; model weights outside repo in HF cache; third_party/ for IndicPhotoOCR+tessdata. Probe images 1,194 (158 jpg+1,036 png); 13,289 packs, 11 engines",
+   "numbers": "1,194 images; 13,289 packs",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:592,599-617",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "South re-gate uses extract_gt.py gates MIN_CHARS 50, MIN_SCRIPT_RATIO 0.5, MAX_LATIN_RATIO 0.6, MAX_CTRL_CHARS 3; draw 100/language seed 20260926; no gate relaxation, no fabrication; no v1 number mixed into v2 tables; per GT tier reporting (proto-62).",
+   "numbers": "50/0.5/0.6/3; seed 20260926",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:635,657,742-745",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "P3 engine run order: Bodhan, surya, tesseract_indic, rapidocr, doctr, easyocr, indicphotoocr, paddleocr_indic, anuvaad_tesseract; openbharatocr alias of tesseract_indic; sarvam_vision 'not run - cap spent'.",
+   "numbers": "9 engines",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:660-670",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Official test data: Datasets 27 GB sealed incl. test/test (5,344 unlabelled); AGENT_PROTOCOL gates n_total==1227 though manifest 1,283 since 2026-09-29 02:45; 'one engine at a time'.",
+   "numbers": "5,344 unlabelled; 27 GB",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:716,1061,671",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Model asset scatter: .deps/IndicPhotoOCR 4.7 GB, probe22/tessdata 133 MB, research/smoke/anuvaad_tesseract/tessdata (read by run_probe.py:218, must keep), ~/.cache/huggingface (surya), level2/models_bodhan (Bodhan indic-ocr, mlx-bf16, mlx-4bit).",
+   "numbers": "4.7 GB; 133 MB",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:593-594,773",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Archive compaction: _archive 519 files + _reports 58, 0 in git; 69 exact-duplicate md/txt groups; 61/73 of campaign_drafts sha-identical to live; cleanup_2026-09-28 335 files ~215 MB incl 45 probe JSONs 194 MB; target <=7 bundles; deletion U29 limited to sha twins, conversions, git-blob twins, empties, .DS_Store.",
+   "numbers": "519; 58; 69 groups; 215 MB",
+   "source": "_claude_memory/proto-98-clean-repo-master.md:53,476-526",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "proto-107 (203,380-file remeasure; _archive 952)"
+  },
+  {
+   "theme": "handwriting",
+   "claim": "No handwriting-specific data, PARSeq, IIIT-INDIC-HW, ICDAR'23 or 5,344 handwritten Bengali words appear anywhere in these three files; the repo cleanup memories predate/ignore Plan v4's handwriting pivot.",
+   "numbers": "",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:1-266",
+   "status": "UNKNOWN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Leak/hygiene relevance: Vinay's rule 'no data in GitHub' (H-2); probe22 tessdata and sealed Datasets/arc_level_1 are out-of-scope data dirs; src/ (U3) routes on ground truth - an eval-leak pattern to avoid in the HW0 hash gate.",
+   "numbers": "",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:66,88; _claude_memory/proto-98-clean-repo-master.md:722",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-107 W4 staged T2 docs/STATE.md replaces FULL TECHNICAL BRIEFING + PROJECT_COMPLETE; T3 LAW includes ULTIMATE_HYBRID_CONCERN HL1-HL12; Level-1 'two 12 standing laws' lists differ and L6 'never claim 10 independent' etc. (proto-84).",
+   "numbers": "HL1-HL12; L1-L12",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:167; _claude_memory/proto-98-clean-repo-master.md:987-989",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "NEXT.md rev 5 was written by Agent 2 against rule 19 and has errors; only planner/boss writes NEXT.md; live files (checkpoints, DISPATCH_LOG, NEXT, BOSS_CONCERNS Part 1) never touched mid-run.",
+   "numbers": "rev 5",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:70,91-94; _claude_memory/proto-102-incident-repair-and-verdict-fixes.md:119",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 never mentions the gold-repo consolidation (proto-107: 10 waves W0-W9, GO-A/GO-D/GO-G gates, fact-ledger no-loss law); any restructure of level2/ or docs/ must fit it, and H-1 level2/level2 self-symlink may be load-bearing for run_probe.py parents[2] (_claude_memory/proto-107-gold-repo-consolidation.md:63-65).",
+  "Plan v4 has no data-hygiene gate: 15,789 untracked level2/benchmark files not git-ignored (H-2) - pushing Bodhan-HW/IIIT-INDIC-HW data would violate Vinay's no-data-in-GitHub rule (_claude_memory/proto-107-gold-repo-consolidation.md:66).",
+  "Licence ledger missing from Plan v4: surya is evaluation-only (OpenRAIL-M s2(c)/s8), 600K-KS-OCR on HOLD (CC-BY-4.0 card vs Controlled Research Access License), Bodhan attribution s2.2/hosting s3.1/internal use s3.2; Plan v4 cites IIIT-INDIC-HW CC-BY-4.0 and Bodhan but not these constraints on fallback engines (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:144-152).",
+  "Tesseract fallback in Plan v4 must be script-routed by Bodhan OUTPUT-text Unicode ranges (IndicPhotoOCR script-ID lacks sat/mni) - proto-89/100 rules (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:151-152).",
+  "Time budget: surya 24.3 s/page ~36 h for 5,344 images (RF-15); Plan v4 compute for Page Expert + HW expert should be checked against measured per-page speeds (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:117).",
+  "Deadline claims: no official deadline; Oct 4/Oct 15 unsourced; weekday errors (2026-10-01 is Thursday) - Plan v4 timeline must not cite them (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:112).",
+  "Eval discipline traps not carried into Plan v4 gates: same-GT-tier comparisons, n<=5 directional, rubric UNKNOWN (student-repo list), Sarvam bench n 6,609 vs 6,909 unresolved - Plan v4 cites Sarvam bench numbers (~86.4 word-acc) without these caveats (_claude_memory/proto-98-clean-repo-master.md:346-352).",
+  "Weak-cell research R2 Nastaliq, R3 Ol Chiki/Mayek synthetic, R4 OldScan, R7 training tree sit in docs/research and risk being condensed away by the harvest (proto-95 CONDENSE) unless Plan v4 cites them (_claude_memory/proto-98-clean-repo-master.md:259,374-381).",
+  "Destructive-op rules 17-21 (sha manifest + verified bundle + log; no 2>/dev/null on mv/rm; check output pasted before phase DONE) must govern any Plan v4 repo work; the 2026-09-30 incident lost ~143 MB of untracked scores (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:15-26,122-141).",
+  "Test-set facts: 5,344 unlabelled official test images in Datasets/test/test; AGENT_PROTOCOL pinned n_total==1227 while manifest 1,283; Plan v4 HW0 hash gate should reuse the sealed-dir policy (Datasets, arc_level_1 read-only) (_claude_memory/proto-98-clean-repo-master.md:716,1061).",
+  "South (ta/te/kn/ml) official PDF pages: 0/23,001 clean due to legacy-font mojibake (52/115 'clean' pages bad) - GT trust for South printed cells is poor; Plan v4 doesn't mention (_claude_memory/proto-98-clean-repo-master.md:25,595)."
+ ],
+ "contradictions": [
+  "proto-107 T1 plan = 'proto-104 rev 4 + Plan v3' vs current Plan v4 (proto-108) handwriting-first; gold-repo finals would encode the superseded plan (_claude_memory/proto-107-gold-repo-consolidation.md:165).",
+  "proto-98 says root md target 7 (README, AGENTS + 5 uni deliverables, root stays per C5) vs proto-107 target <=4 (+LICENSE/NOTICE) (_claude_memory/proto-98-clean-repo-master.md:213 vs _claude_memory/proto-107-gold-repo-consolidation.md:256).",
+  "proto-98 says .venv/.venv311 KEEP and README states which runs what vs proto-107 W8 'one env .venv311 + lock', .venv retire is boss call (_claude_memory/proto-98-clean-repo-master.md:725 vs _claude_memory/proto-107-gold-repo-consolidation.md:237).",
+  "proto-98 tree puts docs/BRIEFING.md and keeps AUDIT_REPORT/CLEANUP_EXECUTION_LOG at root; proto-107 uses docs/STATE.md, docs/HISTORY.md and archives them (_claude_memory/proto-98-clean-repo-master.md:69-79 vs _claude_memory/proto-107-gold-repo-consolidation.md:167,177).",
+  "Sarvam bench n appears as 6,609 and 6,909 across repo files (_claude_memory/proto-98-clean-repo-master.md:352); probe size 1,227 vs 1,283 vs 1,800 (_claude_memory/proto-98-clean-repo-master.md:895).",
+  "proto-102 B2 vs earlier BOSS_CONCERNS #71: models/ vs out/ declared DIFFERENT; disk shows 4,000 byte-identical copies (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:110)."
+ ],
+ "open_items": [
+  "Does run_probe.py need level2/level2 -> . symlink (H-1)? W0 proof pending (_claude_memory/proto-107-gold-repo-consolidation.md:63-65).",
+  "Boss decisions pending: GO-A/GO-D/GO-G; whether .venv is retired; U37 delete-ask guard; U9 adopt sheet_v2.csv; U12 .env location.",
+  "Recovery status of deleted scores docs (LEADERBOARD.md, abstention_audit.md, mcnemar_summary.md, santa_method_cross_check.md, FS-VERDICT-H48-001..010) from OpenCode DB/transcripts unknown (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:75-81).",
+  "Whether proto-107 W0-W4 were ever executed (state unknown as of 2026-10-01 14:40 IST); remote origin/boss/campaign-docs ahead of local (_claude_memory/proto-107-gold-repo-consolidation.md:57).",
+  "Laya triage trial (U31) never run/measured; Sarvam bench n resolution (proto-97 RQ-7) open.",
+  "Ledger a/LEDGER (7,070 lines) harvest into RESEARCH_DECISIONS not done; only 20 RF rows exist (_claude_memory/proto-98-clean-repo-master.md:24,261)."
+ ]
+}

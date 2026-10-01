@@ -1,0 +1,318 @@
+{
+ "theme": "product_jury_competition",
+ "established": [
+  {
+   "fact": "Official AksharDrishti page publishes NO metric (0 hits for CER/WER/S-D-I/latency/score/weight on rendered 4 tabs + modal). Evaluation = 6 qualitative, unweighted parameters: approach, business use case, technical feasibility, product roadmap, team, addressable market (incl. 4-yr deployment/customization cost).",
+   "sources": "docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:20-42; docs/campaign/checkpoints/W4.md:13"
+  },
+  {
+   "fact": "Only named evaluation target: 'Establishing Standardized Evaluation Pipelines or accuracy, layout detection, and multilingual text handling' - three dimensions, no formula/threshold. Rubric is product/business weighted, not accuracy weighted.",
+   "sources": "docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:44-50,478-480"
+  },
+  {
+   "fact": "The 'CER+bootstrap CI/WER/S-D-I/sec-per-page' rubric came from a student B.Tech repo (Ayush-04-spec/akshardrishti, K.K. Wagh), not the hackathon; official scoring rules UNKNOWN (U2). Never state it as official.",
+   "sources": "docs/campaign/checkpoints/W1.md:246,175; docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:116"
+  },
+  {
+   "fact": "No official deadline: 10 of 12 timeline rows TBD; only launch 12/02/2026 and pitch screening 23/07/2026 dated. 'Qualifiers 30/09' is the Rajasthan hackathon's; 'Oct 4' and 'Oct 15' have no source (Oct 4 2026 is a Sunday).",
+   "sources": "docs/campaign/checkpoints/W4.md:15; _claude_memory/proto-102-incident-repair-and-verdict-fixes.md:112"
+  },
+  {
+   "fact": "Official page promotes open-source models, names baselines Tesseract/EasyOCR/TrOCR/PaddleOCR and architectures LayoutLM/Donut/DocTR; asks layout-preserving JSON + searchable PDF, language detection, transliteration, context-based correction (as a Focus Area, not a stated submission format). '22 languages' appears nowhere on the page.",
+   "sources": "docs/campaign/checkpoints/W4.md:14,16; docs/campaign/RESEARCH_DECISIONS.md:37; docs/research/level7/c/c2/LEDGER.md:7"
+  },
+  {
+   "fact": "Official page is a client-rendered SPA; static fetch returns only Timeline. Evaluation/Eligibility/Contact tabs need a rendered browser; Gate-1 licensing cannot close from public pages alone. Organiser contact gic.dibd@gmail.com is a boss outward action.",
+   "sources": "docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:11-18; docs/campaign/RESEARCH_DECISIONS.md:46,71"
+  },
+  {
+   "fact": "Bhashini funnel analogues: screening top-5, prototype top-3 (INR 1 Lakh build), deployment contract; LEAP: INR 10L winner + 4-yr govt deployment; judged on innovation, replicability, scalability, usability, ease of deployment, risks. Real prize = deployment contract. AksharDrishti purse unknown.",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:13,26,27,290"
+  },
+  {
+   "fact": "Eligibility: Indian company or DPIIT startup; employer NOC required; registration can complete at prototype submission. Vinay's side is a registered company (U36 YES).",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:12,286,289; .ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md:20"
+  },
+  {
+   "fact": "Writeup must carry a 4-year support/cost sketch, IPR section and deployment+O&M costing; mirror LEAP's six criteria. Demo should lead with governance/archive use case, not a CER table.",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:10,28,287,298"
+  },
+  {
+   "fact": "No verified AksharDrishti OCR-track winner exists; the Plenome win was healthcare voice-to-prescription (different hackathon). One uncorroborated post says VaultStack AI reached Finals - must confirm stage before any finalist claim.",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:20,21,24,184,279,299"
+  },
+  {
+   "fact": "Bhashini deployment shape: Udyat OCR dhruva-api with serviceIds iiith-bhasha-ocr / iiith-ocr-sceneText-all / iiith-ocr-hw-all; PoC use free, production needs paid tiers. Bhashini throughput cited as 15M vs 24M daily - cite neither.",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:154,155,284,292-295"
+  },
+  {
+   "fact": "Winning archetype across 2026 Bhashini hackathons: offline, open-source, native-language, working prototype, citizen service - matches our offline portable harness.",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:280,283"
+  },
+  {
+   "fact": "Sarvam Vision 2.1 (2026-09-24): Indic OCR Bench overall 87.39 = unweighted macro word accuracy over 22 Indic languages, n=6,609 (English 300 excluded; total 6,909), per-language n 207-471; self-scored on its own Apache-2.0 bench; exact word_accuracy vs valid_word_accuracy unknown.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:10; docs/research/level7/c/c3/LEDGER.md:955"
+  },
+  {
+   "fact": "Leaderboard on Sarvam's bench (run by Sarvam): Sarvam 87.39, Bodhan 84.94, Gemini 3.6 Flash 79.35, Google Cloud Vision 71.76, Surya OCR 2 69.96, Mistral OCR4 69.16, Opus 5 68.81. Sarvam bench GT reviewed twice by human experts; overlap-with-training is an unverified allegation only.",
+   "sources": "_claude_memory/history-completed-protocols.md:1068-1069,309-319; docs/research/level7/a/LEDGER.md:1269-1272"
+  },
+  {
+   "fact": "84.94 is SARVAM's score for Bodhan on Sarvam's bench; Bodhan's own bench number is 86.2 (Sarvam's 86.6 on that bench). 8 of 22 per-language winners flip between the two vendor benches (Kashmiri 54.82/48.04 vs 43.3/52.2). Neither bench is a third-party arbiter.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:14,16,28-42; docs/campaign/MONITOR_2026-09-30.md:46"
+  },
+  {
+   "fact": "Sarvam published weak cells: Kashmiri 54.82, Santali 53.91, Odia 80.01. 'OldScan 55.3' is an English olmOCR-Bench category, not a language, and not ours. Konkani 97.41 is Sarvam's BEST cell, not a weak one.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:12; docs/campaign/checkpoints/W1_reports/1H_verify.md:30,46; docs/campaign/checkpoints/W1_reports/1G_verify.md:204-213"
+  },
+  {
+   "fact": "Bodhan IndicOCR is ~0.83B (33M IndicDocLayout + 0.8B IndicBlockOCR Qwen3.5), released 5 Sep 2026, Rs 0.20/image API. Licence is Indic Open Model License v1.0, NOT open source: hosting needs written approval (3.1), internal-component carve-out (3.2), share-alike, 500M MAU/$250M cap; earlier '~3B' and Sep 4/12 dates are wrong.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:16; docs/campaign/RESEARCH_DECISIONS.md:42"
+  },
+  {
+   "fact": "Bodhan beats Sarvam on Santali on Sarvam's bench (68.30 vs 53.91) and Bodo (90.69 vs 90.48); Bodhan loses 11 of 13 handwriting languages to Gemini 3.1 Pro (72.0 vs 66.7 mean) and 14 of 22 printed languages to Sarvam. Plan v4's Bodhan-HW bn 71.3/Gemini 74.8/Sarvam 58.3 are from the Bodhan card (v4_notes), not in campaign files.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:30-42; docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (Bodhan card line)"
+  },
+  {
+   "fact": "Sarvam 2.1 harness: 3B state-space VLM + semantic layout parser + pointer reading-order net, SFT then RLVR incl. KV-extraction and handwriting corpora; self-admits saturated benchmarks, no decontamination, no per-language CIs. Handwriting is its weakest area on Bodhan's HW bench (Sarvam 55.4 overall).",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:24; docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (Bodhan card line)"
+  },
+  {
+   "fact": "Nobody publishes handwriting, tables or code-mixed Indic conditions on Indic OCR Bench; handwriting coverage by field benches is only 12 Indic languages. Our own 1,283 printed-benchmark items are 0% table, 0% mixed-script, 100% printed.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:42,77-83; docs/campaign/EDGE_THESIS.md:55"
+  },
+  {
+   "fact": "On 18 human-verified items Sarvam CER 0.171 vs our best local 0.430 = Sarvam 2.51x better (3.70x vs surya-always; 2.02x excl. mni/sat). All 21 item-level local wins are in the PDF-text-layer GT tier; pooled 'we lead 10/18' is a GT artefact.",
+   "sources": "docs/campaign/BOSS_EXPLAINER.md:7,13; docs/campaign/checkpoints/W1.md:92; FULL TECHNICAL BRIEFING.md:574-586"
+  },
+  {
+   "fact": "Paired Sarvam comparison is only n=54 (3/lang x 18; Sarvam EN cap 57 spent): Sarvam mean CER 0.2640 (0.2400 on probe table), best local 0.2956, surya 0.3944; McNemar p<0.05 in only 5 languages. No further Sarvam calls without explicit boss approval.",
+   "sources": "docs/campaign/CHATGPT_EVAL_PROMPT.md:31,35,50; docs/research/level7/c/c4/LEDGER.md:1168-1176"
+  },
+  {
+   "fact": "Edge hunt on printed 22-language: 4 candidates x 3 adversarial lenses, 0 survived; estimated printed position ~Surya 2 69.96, ~6th of 14, ~17 pts behind Sarvam (ESTIMATE only; superseded for the handwriting test).",
+   "sources": "docs/campaign/BOSS_EXPLAINER.md:26-32; docs/campaign/checkpoints/W1.md:208"
+  },
+  {
+   "fact": "Sarvam pricing Rs0.5/page (cut from Rs1.5 in Jun 2026; Rs1.50 also quoted for Vision 2.1), ~Rs2,672 (~$32) for 5,344 pages; Bodhan Rs0.20/image; Mistral OCR 3 $2/1000. Rs100 in the Sep-16 package was free credit, not a price.",
+   "sources": "docs/research/level7/a/LEDGER.md:882-885,4109; _claude_memory/proto-103-meeting2-verbatim-truth-and-application.md:32-42"
+  },
+  {
+   "fact": "Local compute economics: engines on 5,344 images range 0.6 h (rapidocr) to ~36 h (surya 24.3 s/page) to ~25 h (indicphotoocr); paddleocr_indic 95.6 s/page = ~26.5 h per 1000 pages CPU. Best printed engine is slowest by ~60x.",
+   "sources": "docs/campaign/checkpoints/W1.md:245; _reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:307-309"
+  },
+  {
+   "fact": "Surya weights: modified OpenRAIL-M, free under ~$5M funding/revenue, s2(c) competing-product and s8 output share-alike clauses; code Apache-2.0. Treat as eval/research only, not a shipped component or label source; CEO decision U14 open.",
+   "sources": "docs/campaign/RESEARCH_DECISIONS.md:40-42; level2/engine_docs/surya/PROMPT.md:27-29; docs/campaign/BOSS_EXPLAINER.md:44"
+  },
+  {
+   "fact": "Test set = Datasets/akshardrishti_official/test/test: 5,344 unlabelled JPGs, 'NEVER train on it'; no language label so script/language ID is needed. Submission format unpublished.",
+   "sources": "_claude_memory/proto-78-submission-readiness.md:13-15; _claude_memory/proto-98-clean-repo-master.md:716"
+  },
+  {
+   "fact": "Product skeleton on disk (2026-10-01): product/requirements.txt, Dockerfile, B-21 synthetic-lines spec, product.cli CPU dry run PASS (6 pages ta/te/kn, JSON+PDF+MD, Tesseract only, Bodhan stub), CI 6 tests, registry 12/12 engines. Missing: official-PyTorch vs MLX parity number, torch pin, 50-image dry run.",
+   "sources": "docs/campaign/checkpoints/DISPATCH_LOG.md:548,579,605,624,627; .ecc/memory/project/handoffs/mem_20260930_90b4cc2b9dac4242b4f1.md:20"
+  },
+  {
+   "fact": "Boss rules: Vaultstack main product (to organisers 'or else for everyone'); standard hardware, never assume MLX; every claimed result must reproduce on PyTorch path (CUDA, CPU fallback) with pinned requirements and Docker; free budget only; 'win at any cost' = effort, never law-breaking.",
+   "sources": "_claude_memory/boss-rules.md:21-27; _claude_memory/user-profile.md:26-31; _claude_memory/proto-01-law-and-guardrails.md:47"
+  },
+  {
+   "fact": "Plan v4 jury layer on disk: cost story Rs0 offline vs Sarvam Rs0.5/page and Bodhan Rs0.20/image; 5-min demo camera photo -> JSON + searchable PDF in Bengali; claims discipline (never 'we beat 87.39', no pooled printed win without GT tier, no winners n<50).",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:75,155-159,176-187"
+  },
+  {
+   "fact": "B-11 product build Day 4-5 (boss YES, U35): JSON schema (type, bbox, reading order, language, script, text, handwritten flag, confidence), PyMuPDF searchable PDF, per-block LID (RQ-8 required), offline package with vendored weights + attribution, throughput/cost for 5,344, pitch deck, 50-image dry run gate.",
+   "sources": "_claude_memory/proto-100-research-to-build.md:43"
+  },
+  {
+   "fact": "Vinay (CEO) gates: multi-LLM eval of plan (OpenCode + fresh hostile Sonnet + ChatGPT paste) then 15-20 min D5 session before any Day-3 training; multi-LLM eval never executed for v3; Vinay wants all-22-language breadth, hybrid of existing models, no novel backbone, honest n for every number.",
+   "sources": "_claude_memory/proto-100-research-to-build.md:49; docs/campaign/CAMPAIGN_DIRECTIVE.md:33-48,253-254,282-287"
+  },
+  {
+   "fact": "Disqualified/penalised pitch moves: 'agentic AI', unexplained 'combine X and Y', novel backbone; an edge survives only if <2 of 3 adversarial lenses refute it. Honesty law: no fake claims, evidence or silence.",
+   "sources": "docs/campaign/CAMPAIGN_DIRECTIVE.md:269-280; docs/research/uni_v3_ORIGINAL_2026-09-29.md:336-368"
+  },
+  {
+   "fact": "The handwriting edge (planner finding, 2026-10-01): test is Bengali handwritten word crops; IIIT-INDIC-HW-WORDS is CC BY 4.0 (train OK); ICDAR'23 Bengali best WRR 96.10 (Upstage) vs general doc VLMs 58-75 on Bodhan HW bench; HW0 hash check vs IIIT/ICDAR sets must precede any training.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (THE EDGE section)"
+  },
+  {
+   "fact": "Bodhan D1 (MLX) measured: bench small_rep CER 0.054 / WER 0.1356 (~86.4 word-acc vs published 84.94); 300 gold pairs CER 0.4034 vs surya 0.5660; sample-100 pages CER 0.69 (unexplained); Gate 1 CONDITIONAL PASS only, official-path CUDA parity blocked.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (STATE); docs/campaign/handoff_2026-10-01_v4_integration/corpus_extract.md (Bodhan D1)"
+  },
+  {
+   "fact": "Bodhan model size sources disagree (MLX 4-bit 633 MB vs 767 MB; bf16 1.7 GB vs 1868 MB); 4-bit ~ bf16 on overall metric.",
+   "sources": "docs/campaign/DRAFT_RESEARCH_PLAN.md:32"
+  },
+  {
+   "fact": "Laya (text-only, near-random on non-Latin: Hindi 0.100) and JEV (closed, paid, 236-276 ms) are ruled NOT used; reopen only if oracle gap >=0.02 CER AND deterministic bad-output check misses >=0.02 recoverable CER.",
+   "sources": "docs/campaign/SKILL_STACK.md:48-63; docs/campaign/CAMPAIGN_DIRECTIVE.md:108-111"
+  },
+  {
+   "fact": "Printed per-engine CER (probe, 18 langs): surya 0.3849 best non-Sarvam, tesseract-bilingual 0.4853, tess_indic 0.4870, easyocr 0.4941, indicphotoocr 0.5586; surya wins 9 of 13 n>=50 langs; sat/mni have no open engine emitting the script. Directional, GT-tier dependent.",
+   "sources": "PROJECT_COMPLETE.md:100-112; level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:335-348,360"
+  },
+  {
+   "fact": "Scorer comparability: our metrics.py counts empties/loops as CER 1.0 and drops GT<50 chars; Sarvam drops loops/empties. A vendor word-accuracy claim and our CER are not comparable without one stated scorer (U16: run Sarvam's public scorer on its Apache-2.0 bench, needs boss approval for download).",
+   "sources": "docs/campaign/checkpoints/W1.md:207; docs/campaign/COMPETITOR_INTEL.md:10,14"
+  },
+  {
+   "fact": "Competitor/field intel: Sarvam $75M Series B at $1.43B (2026-08-04); Gnani Evon 3.3 is a text-only LLM, not an OCR competitor; PaddleOCR-VL 1.6 leads OmniDocBench v1.6 (96.01 vs Sarvam 94.97); Chitrapathak-2/Parichay is the govt-doc demo pattern (rotation pre-pass + schema prompt).",
+   "sources": "docs/research/level7/a/LEDGER.md:123-126,699-702; docs/campaign/COMPETITOR_INTEL.md:44; docs/campaign/checkpoints/W1_reports/1G_verify.md:386"
+  }
+ ],
+ "decisions_current": [
+  "Beat-Sarvam is defined per weak cell and jury demo, NOT headline average: 'don't lose more than Sarvam on weak cells, beat on juried demos'; 87.39 is directional only / DEAD for build decisions. (MISS_MONITOR.md:652; FULL TECHNICAL BRIEFING.md:586; BOSS_CONCERNS.md:314)",
+  "Honest framing: own benchmark on own data is the defensible position since the official page publishes no metric; report CER/CI/WER/catastrophic rate on own labelled terms with n stated; credibility edge, not accuracy edge. (MENTOR_PLAYBOOK.md:225; RQ1_official_rules.md:478-480)",
+  "Win-claim law R-12: a win claim needs a published split + scorer AND a win on an independent set; n>=50 per language, same items/metric, per GT tier, with CI. (proto-99-concern-crosswalk.md:22-29)",
+  "Product deliverables are boss-approved (U35 YES): JSON schema, PyMuPDF searchable PDF, per-block LID, offline package with vendored weights, throughput/cost sheet, pitch deck, 50-image dry run. (proto-100-research-to-build.md:43)",
+  "Submission shaped as an internal component of the product (Bodhan s3.2 carve-out); no hosted Bodhan API without written approval (s3.1). (RESEARCH_DECISIONS.md:42)",
+  "Portable product: PyTorch/CUDA/CPU + Docker, MLX only a Mac accelerator; nothing may exist only on MLX (R-13/R-14, Rule 24). (proto-99-concern-crosswalk.md:30-36; boss-rules.md:21-23)",
+  "Sarvam API: 54-call cap spent, no further calls without explicit boss approval; paid/Sarvam output is referee-only and never a training label. (c4/LEDGER.md:1168-1176; VAJRASTRA_INTERROGATION_PROTOCOL.md:299)",
+  "Multi-LLM evaluation (OpenCode + fresh hostile Sonnet + ChatGPT paste) and the 15-20 min Vinay D5 session gate any Day-3 training. (proto-100-research-to-build.md:49)",
+  "Cost story for jury: Rs0 offline vs Sarvam Rs0.5/page and Bodhan Rs0.20/image; lead demo with governance/archive handwriting use case. (proto-108-plan-v4-final.md:75,155-159; c2/LEDGER.md:10,298)"
+ ],
+ "superseded": [
+  "Plan v3 (Base=Bodhan 84.94, 1,683-item 22-lang benchmark, Bodhan+LoRA, GRPO last) superseded by Plan v4 (proto-108) handwriting-expert centre. (VINAY_CALL_AND_GPU_DAY1.md:19-23)",
+  "Printed-position estimate (~69.96, ~6th of 14, ~17 pts behind Sarvam) and 'pass 71.76 in 5 days' targets: superseded for the handwritten test, ESTIMATE only. (history-completed-protocols.md:1070-1071,1108)",
+  "Rubric 'CER+CI/WER/S-D-I/sec-per-page' as official: erratum F43/ERRATUM-F3; also launch 'Rs1.10 crore' unverified. (proto-93-measured-facts.md:65; checkpoints/W1.md:246)",
+  "Beat-Sarvam Option D (Sarvam API subsidy for sat/mni, target 85-88): superseded in v4 by Bodhan open weights (sat 68.30, mni 82.85 on Sarvam bench); Sarvam calls need boss anyway. (corpus_extract.md line 61; CALL_PACKET.md:99)",
+  "Bodhan 'Sep 4/Sep 12', '~3B', 'Apache with threshold clause': wrong; correct = ~0.83B, 5 Sep 2026, Indic Open Model License v1.0. (COMPETITOR_INTEL.md:16)",
+  "Sep-16 package to Vinay (10 engines x 400 pages, GAP 7.1%, Sarvam ~Rs100/400 pages) is owed a correction (26/126 legacy-font GT; Rs100 was free credit). (proto-103-meeting2-verbatim-truth-and-application.md:32-42)",
+  "'Sarvam weak cell Konkani/OldScan' and 'olmOCR 87.3 as Indic bench' claims: corrected (Konkani 97.41 is Sarvam's best; OldScan is English-only; 87.3 is TOI overall). (1G_verify.md:204-213; a/LEDGER.md:4239)",
+  "Plenome / 'AksharDrishti winner' press claims: rejected as source. (c2/LEDGER.md:20,21,184)"
+ ],
+ "contradictions": [
+  "Competitive target metric: Plan v4 competes on handwriting (Bodhan-HW bn 71.3/Gemini 74.8/Sarvam 58.3; ICDAR'23 96.10 WRR) while the 87.39 target is printed block word-accuracy; they are different benches. Resolution: never compare across benches; define one same-scorer protocol per claim. (uni_v3_ORIGINAL_2026-09-29.md:469-473; OBITUARIES.md:1-8)",
+  "Pooled 'we lead 10/18 vs Sarvam' vs human-verified tier 'Sarvam 2.51x ahead'. Resolution: tier result governs; wins exist only in PDF-layer GT tier. (BOSS_EXPLAINER.md:13; W1.md:92)",
+  "Hackathon deadline: Oct 4 vs Oct 15 vs 'qualifiers 30/09'. Resolution: none officially published; open, ask organiser only if Vinay agrees. (proto-102:112; proto-92-boss-decisions.md:16)",
+  "Bhashini throughput 15M vs 24M inferences daily: unresolved, cite neither. (c2/LEDGER.md:284)",
+  "Bodhan size 633 MB vs 767 MB (MLX 4-bit): open. (DRAFT_RESEARCH_PLAN.md:32)",
+  "Sarvam EN CER 0.1078: FINAL_REPORT says not run, refresh says restored from disk (57 calls incl. 3 EN executed per D2). Resolution: treat as 57 calls; label EN separately. (FINAL_REPORT.md:153; LEADERBOARD_REFRESH:73)",
+  "Sarvam bench size 6,909 (6,609 + 300 EN) vs Feb-2026 blog 20,267 samples: unexplained; use 6,909 as current. (1E_lensA.md:33,156-158)",
+  "Sarvam overall printed CER 0.24 (n=51) vs 0.2640 (n=54) vs 0.1078 (EN): different subsets; quote only 'directional, n=3/lang'. (H48_HOSTILE_PASS.md:55; FIX_SPECS_R2_LEADERBOARD.md:60,74)",
+  "Surya licence: package metadata Apache-2.0 vs LICENSE text modified OpenRAIL-M $5M cap. Resolution: licence text governs; eval-only. (docs/legal/LICENSE_AUDIT.md:21)",
+  "Vinay's 'Sarvam as end benchmark' framing vs jury product weighting; plan resolves toward jury + weak cells (D5 default). (VINAY_MEETING_PACKET.md:138)"
+ ],
+ "recommendations": [
+  {
+   "rec": "Rewrite plan section 1 competition claim as: 'We do not claim to beat Sarvam 87.39; we compete on handwriting (where Sarvam is weakest), independent evaluation, offline cost and deployability.' Cite no cross-bench number as a head-to-head.",
+   "evidence": "BOSS_CONCERNS.md:314; proto-108-plan-v4-final.md:176-187; COMPETITOR_INTEL.md:14",
+   "priority": "P0"
+  },
+  {
+   "rec": "Add a jury/product section scored against the 6 official criteria with an artifact per criterion (approach, business use case, feasibility, roadmap, team, addressable market with 4-yr costing/IPR/O&M); this is the only published scoring.",
+   "evidence": "RQ1_official_rules.md:30-42; c2/LEDGER.md:27,28,287",
+   "priority": "P0"
+  },
+  {
+   "rec": "Plan v4 must not present the CER/WER/S-D-I rubric as official; mark HW2 92%/85% gates as internal self-set bars and state the official metric as UNKNOWN (U2).",
+   "evidence": "checkpoints/W1.md:246; proto-80-hackathon-metric-alignment.md:13-16",
+   "priority": "P0"
+  },
+  {
+   "rec": "Per-claim evidence-tier labels on every competitor number (PRIMARY/MEASURED/DERIVED/DEAD-for-decision); apply the transfer-obituary rule (language/scan/harness/metric mismatch) to ICDAR'23 96.10, Bodhan-HW 74.8/71.3/58.3 and 86.4 small_rep.",
+   "evidence": "level2/benchmark/docs/transfer_obituaries.md:8-22,169-184; OBITUARIES.md:133-149",
+   "priority": "P0"
+  },
+  {
+   "rec": "Add a licence matrix gate for the shipped product: Bodhan Indic Open Model License (hosting approval, share-alike, no-output-derivative), surya OpenRAIL-M (eval only), IndicPhotoOCR weights (unverified), PARSeq Apache-2.0, IIIT-HW CC-BY-4.0, BN-HTRd; Tesseract Apache-2.0 fallback.",
+   "evidence": "RESEARCH_DECISIONS.md:40-42; docs/legal/LICENSE_AUDIT.md:21,36-37; v4_notes.md",
+   "priority": "P0"
+  },
+  {
+   "rec": "Wire the win-claim law (n>=50, same items and scorer, per GT tier, independent writers, bootstrap CI, paired McNemar) into HW1/HW2 reporting; never report pooled tiers.",
+   "evidence": "proto-99-concern-crosswalk.md:28,174-180; W1.md:92",
+   "priority": "P0"
+  },
+  {
+   "rec": "Run the 50-image dry run on the portable path (CPU/CUDA) producing JSON + searchable PDF + MD, with s/page and memory, extrapolated to 5,344; pin torch and publish parity vs MLX.",
+   "evidence": "proto-99-concern-crosswalk.md:30-36,188; DISPATCH_LOG.md:548-627",
+   "priority": "P0"
+  },
+  {
+   "rec": "Build the pitch around what nobody publishes: Indic handwriting + abstention rates + CIs + independent writers; add the 12-HW-language coverage gap as a differentiator but only claim languages we measure.",
+   "evidence": "COMPETITOR_INTEL.md:42,79-83; proto-108-plan-v4-final.md:155-159",
+   "priority": "P1"
+  },
+  {
+   "rec": "Cost/throughput table for the jury: measured s/page for the final pipeline vs Sarvam Rs0.5/page, Bodhan Rs0.20/image, Mistral $2/1000, Google $1.50/1000; 5,344-image wall time.",
+   "evidence": "a/LEDGER.md:882-885,4109; EXTERNAL_BENCHMARK_MAP.md:114-126; W1.md:245",
+   "priority": "P1"
+  },
+  {
+   "rec": "Frame deployability on the Bhashini Udyat/dhruva-api shape (serviceId-compatible endpoint) plus offline Docker; this matches the winning archetype and the deployment-contract prize.",
+   "evidence": "c2/LEDGER.md:154,155,280,283,292-295",
+   "priority": "P1"
+  },
+  {
+   "rec": "Keep competitor intel honest: do not call Gnani an OCR competitor; do not cite Sarvam 'weak cells' Konkani/OldScan; quote only Kashmiri 54.82, Odia 80.01, Santali 53.91 with source.",
+   "evidence": "COMPETITOR_INTEL.md:12,44; 1G_verify.md:204-213",
+   "priority": "P1"
+  },
+  {
+   "rec": "Do not train or fine-tune on any surya/Sarvam/Bodhan output (competing-clause and Derivative terms); Bodhan used as unmodified internal component; boss approval before any Sarvam call or download (U16 scorer run).",
+   "evidence": "RESEARCH_DECISIONS.md:42; c4/LEDGER.md:1168-1176",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add a multi-LLM evaluation pass (OpenCode, hostile Sonnet, ChatGPT paste) of Plan v4 and record accept/reject per critique before the Vinay D5 session; owed to Vinay since v3.",
+   "evidence": "CAMPAIGN_DIRECTIVE.md:282-287; proto-100-research-to-build.md:49",
+   "priority": "P1"
+  },
+  {
+   "rec": "Prepare corrected Sep-16 numbers and the 'Do-NOT-claim' list for Vinay (no 'we beat Sarvam', no number without a command, Sep-25 date open).",
+   "evidence": "VINAY_CALL_AND_GPU_DAY1.md:29; proto-103-meeting2-verbatim-truth-and-application.md:32-42",
+   "priority": "P1"
+  },
+  {
+   "rec": "Ask Vinay (not the organiser directly) whether to email gic.dibd@gmail.com about metric/format/deadline; state in plan that the deadline is unknown and which internal date governs.",
+   "evidence": "RESEARCH_DECISIONS.md:46; proto-99-concern-crosswalk.md:201-206",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add an experiment registry and reproducible sheet generator (inputs+hashes, config, outputs, metrics) so every reported number has a command; reconcile sheet.csv non-reproducibility (62.9%).",
+   "evidence": "MENTOR_PLAYBOOK.md:224-226; SHEET_V2_FORENSICS.md:14-28",
+   "priority": "P1"
+  },
+  {
+   "rec": "Keep a one-page EXPLAIN_CARD and 25-question QA drill with <=3-line evidence answers for the jury cold room (objections: no trained model, repo-as-diary, 1 test file).",
+   "evidence": "proto-85-boss-explainer-and-question-bank.md:12-22; DISPATCH_LOG.md:180,328",
+   "priority": "P2"
+  },
+  {
+   "rec": "Retain printed 22-language results as a secondary slide only (surya 0.3849 routing, per-GT-tier, weak-cell table) labelled eval-only and directional; keep Tesseract per-script fallback (tess wins or/mr/ne).",
+   "evidence": "PROJECT_COMPLETE.md:100-112; LEADERBOARD_REFRESH_2026-09-29.md:335-348",
+   "priority": "P2"
+  },
+  {
+   "rec": "Track Bhashini/Bimla LinkedIn qualifier posts and per-track screening PDFs for stage announcements; confirm VaultStack stage before any finalist claim.",
+   "evidence": "c2/LEDGER.md:25,36,299,307",
+   "priority": "P2"
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 lacks a product/jury section mapped to the 6 official criteria, 4-year costing, IPR and DPIIT/NOC paperwork (P10, P24, P33).",
+  "Plan v4 states or implies CER/WRR rubric and 92/85 gates without marking official metric UNKNOWN (P17, P18, P23).",
+  "Plan v4 cites Bodhan-HW 71.3/74.8/58.3, ICDAR 96.10 and Sarvam 86.4 without transfer-obituary/tier labels (P02, P12, P15, P26).",
+  "Plan v4 has no licence matrix for Bodhan, surya, IndicPhotoOCR weights, BN-HTRd (P15, P17, P38, P44).",
+  "Plan v4 omits the 2.51x human-GT gap and the GT-tier discipline needed for any claim vs Sarvam (P17, P18, P19, P30).",
+  "Plan v4 has no cost/throughput economics (Sarvam Rs0.5, Bodhan Rs0.20, Mistral, s/page for 5,344) for the jury (P06, P07, P19, P38, P40).",
+  "Plan v4 has no deadline/organiser-contact/format handling and no 50-image dry run (P15, P32, P44).",
+  "Plan v4 lacks multi-LLM eval and Vinay-gate logistics (B-17) (P01 area, proto-100).",
+  "Plan v4 does not reference the validation-call material (W5_BEAT_SARVAM_PLAN, CALL_PACKET) as the product/jury layer (P43).",
+  "Post-correction must be product-only and kept off scoring (HL7); Plan v4 does not say so (P46)."
+ ],
+ "open_questions": [
+  "Official scoring rules, submission format and deadline (U2/K-22/K-25): who asks the organiser and when?",
+  "Does the official test set (5,344 Bengali HW crops) overlap IIIT-INDIC-HW-WORDS / ICDAR'23 sets (HW0 hash check pending)?",
+  "Bodhan hosted-API / weights-hosting written approval (U28 unanswered); acceptable as internal component only?",
+  "Surya $5M OpenRAIL-M: CEO decision U14; is surya excluded from the shipped product?",
+  "Is VaultStack AI actually a finalist/qualifier in AksharDrishti (single uncorroborated post)?",
+  "Can the boss approve running Sarvam's public scorer on its Apache-2.0 bench (U16) to convert 'not comparable' into 'not yet measured'?",
+  "Why does Bodhan score page CER 0.69 vs crop CER 0.054 (O-1)? It undermines the Page Expert product claim.",
+  "Raise the Sarvam call cap for matched n>=50/lang? Unasked budget item; third-party arbiter undefined.",
+  "Whether Sarvam's bench word_accuracy or valid_word_accuracy produced 87.39 (unknown)."
+ ]
+}

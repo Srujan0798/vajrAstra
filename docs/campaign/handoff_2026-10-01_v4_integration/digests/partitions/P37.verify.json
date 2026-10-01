@@ -1,0 +1,197 @@
+{
+ "checked": 34,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Audit counted 54 FS- fix-spec headers (19 BLOCKER/28 MAJOR/7 MINOR); author's reported 41/61 were wrong (already partly captured).",
+   "numbers": "54; 19/28/7",
+   "source": "level2/benchmark/docs/fix_specs/W1A_PACKET_AUDIT.md:38",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "brx corrected: surya 0.165 vs easyocr 0.340, delta 0.175 (n=67); McNemar p=1.57e-04 vs tesseract_bilingual; EVIDENCE_SUMMARY had 0.153/0.330/0.177.",
+   "numbers": "0.165/0.340/0.175; p=1.57e-04",
+   "source": "level2/benchmark/docs/fix_specs/W1A_PACKET_AUDIT.md:455-460",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

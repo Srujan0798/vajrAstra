@@ -1,0 +1,247 @@
+{
+ "checked": 40,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "SUPERSEDED SCOPE: these docs lock QLoRA to kok+pa; DISPATCH_LOG later drops pa (tesseract_indic vs surya tie, p=1.00) so W6 QLoRA = Konkani only",
+   "numbers": "kok only",
+   "source": "DISPATCH_LOG.md:253,293",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 inputs must stay within 56 new mr/pa/sd items + 1,227 baseline packs; disk 98% used, no bulk downloads",
+   "numbers": "56; 1,227",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:70",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Weights for W6 backbone not downloaded; needs separate user approval gate",
+   "numbers": "",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:105",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Eval spec secondary 'held-out 160' is actually 20/lang = 40 items; stated 160 is arithmetically inconsistent",
+   "numbers": "40 vs 160",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:36-58",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

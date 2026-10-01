@@ -1,0 +1,523 @@
+{
+ "partition": "P32",
+ "files": [
+  {
+   "path": "/home/user/boss/BOSS_CONCERNS.md",
+   "total_lines": 602,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "product_jury_competition",
+   "claim": "K-01: targets are Sarvam 87.39 on its own bench (weak cells sat 53.91, ks 54.82, or 80.01, old scans) and Bodhan 84.94; no number of ours exists on the same split.",
+   "numbers": "Sarvam 87.39; Bodhan 84.94; sat 53.91; ks 54.82; or 80.01",
+   "source": "BOSS_CONCERNS.md:29",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Rule proto-104 R-12: a win claim needs the published split + scorer AND a win on an independent set.",
+   "numbers": "R-12",
+   "source": "BOSS_CONCERNS.md:31",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "'Beat Sarvam 87.39 avg is UNPROVABLE'; 87.39 is directional only / DEAD for cite (LIVE_LATEST_2026-09-29, W6_STRATEGY_UNIFIED).",
+   "numbers": "87.39",
+   "source": "BOSS_CONCERNS.md:314",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "#42 Sarvam 87.39 directional only; #43 Sarvam weakest cells (sat, ks, OldScan, or) per W6_STRATEGY_UNIFIED \u00a73.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:498",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "K-02 Vaultstack portable product: runs anywhere, MLX only a Mac accelerator. product/ exists (schema, cli, pdf_writer, script_id, tesseract + bodhan recognisers), requirements.txt and Dockerfile exist; missing parity number official PyTorch weights vs MLX port.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:36",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "K-03: official test set 5,344 word crops, 296-300 px tall; planner viewed 3: handwritten Bengali. Script mix for full set still UNKNOWN. H2,H3,H4 open.",
+   "numbers": "5,344; 296-300 px; 3 viewed",
+   "source": "BOSS_CONCERNS.md:45",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H1 Tesseract on 70 samples reads 13/13 as Bengali (100%), NOT 35.7% 'Devanagari' - the 35.7% was a misread.",
+   "numbers": "13/13; 35.7% misread; 70 samples",
+   "source": "BOSS_CONCERNS.md:47",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bodo/gu is labelled Gujarati handwriting, but only 4,645 of ~116k images are on disk.",
+   "numbers": "4,645 of ~116k",
+   "source": "BOSS_CONCERNS.md:48",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-04 lead method (Sep 29 L1-L14): draft plan -> multi-LLM evaluation -> 15-20 min session -> execute. Plan v3 draft (step G) not written; Gate 2.5 multi-LLM eval not run; Vinay session not held.",
+   "numbers": "Gate 2.5",
+   "source": "BOSS_CONCERNS.md:54",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "K-05 ONE 22-language benchmark: manifest_v2.json = 1,683 items, South 4x100 from Sarvam bench (R-7). S4 only tesseract_indic run (400 packs, weighted CER 0.1450); 7 other local engines wait on A4; Bodhan waits on HF access.",
+   "numbers": "1,683 items; 400 packs; CER 0.1450",
+   "source": "BOSS_CONCERNS.md:63",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "K-06: 7 languages short of 100 in manifest_v2: as 19, sat 20, mni 20, gu 24, doi 27, brx 67, or 69; kok and pa each draw from only 2 PDFs. Honest-n rule: never relax a gate.",
+   "numbers": "as 19; sat 20; mni 20; gu 24; doi 27; brx 67; or 69",
+   "source": "BOSS_CONCERNS.md:71",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "K-08 risk (a): South benchmark items ARE Sarvam-bench items; same blocks sit inside step X's 6,909 so must not be double counted or pooled with official_pdf tier.",
+   "numbers": "6,909",
+   "source": "BOSS_CONCERNS.md:85",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "K-08 risk (b): Sarvam's own bench is home ground for Sarvam and possibly training exposure; Sep 29 tier table shows local engines only 'lead' on PDF-layer GT.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:86",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-09 incident (proto-102): untracked scores folder deleted. A0,A1,A2,A3 PASS; A4 CONDITIONAL (erratum not applied); A5,A6 open; A7 parked until 'go'. A second writer wrote into level2/unified/ during repair.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:89",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-10 repo cleanup PARKED (proto-98) until boss says 'resume cleanup'; doc hierarchy (AGENTS.md, INDEX.md, README.md) exception done.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:101",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-11 research: RESEARCH_DECISIONS.md has RF-01..RF-24; Consensus results stored but unprocessed (target >=20 C-rows); 88 docs/research md files never harvested.",
+   "numbers": "RF-01..24; >=20 C-rows; 88 files",
+   "source": "BOSS_CONCERNS.md:107",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-12: graphify 0.9.65 installed but graph is 14:34 version; Laya NOT used in pipeline (file-triage trial parked).",
+   "numbers": "graphify 0.9.65",
+   "source": "BOSS_CONCERNS.md:116",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-16 STANDING Gate 2.5 red line: no LoRA/RL before Plan v3 evaluation and session with Vinay.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:148",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-17 licences: surya evaluation-only (OpenRAIL-M 2(c)); Bodhan only as 3.2 internal component, hosting needs written approval; 600K-KS on HOLD (research-only licence embedded); sat/mni tessdata Apache-2.0 CLEARED; EasyOCR .pth weight licence open.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:153",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-18: sealed set changed during P4 run and incident; level2/reports and level2/models removed into _archive/bundles/2026-09-30_south_v1.tar.gz.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:163",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "K-19 GT defects register docs/campaign/GT_DEFECTS.md does not exist; step Q must precede D2.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:168",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "K-20 empty-output patterns: paddle brx/doi is a mapping bug; surya sa is image/model side; both must be fixed before X coverage matrix.",
+   "numbers": "brx, doi, sa",
+   "source": "BOSS_CONCERNS.md:173",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "K-21 metric set needed: CER mean+median+bootstrap CI, WER, S/D/I, catastrophic-failure rate (CER>0.5), NFC statement, s/page. Bench headline is Word Accuracy = 100x(1-WER) after --normalize.",
+   "numbers": "CER>0.5",
+   "source": "BOSS_CONCERNS.md:182",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "K-22 submission readiness: official metric, format, deadline all UNKNOWN (RQ-1); jury scores the product; no 50-image dry run yet.",
+   "numbers": "50-image dry run",
+   "source": "BOSS_CONCERNS.md:189",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-25: no official deadline; 10 of 12 official timeline rows TBD; ask organiser gic.dibd@gmail.com only if Vinay agrees.",
+   "numbers": "10 of 12 TBD",
+   "source": "BOSS_CONCERNS.md:209",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "K-26 GPU: 24 GB VRAM arriving 2026-10-01, BLOCKED on SSH details; data moves by rsync never GitHub; keys in env vars only.",
+   "numbers": "24 GB; 2026-10-01",
+   "source": "BOSS_CONCERNS.md:215",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-27 Sarvam budget: Rs67 free credit, 12 approved South calls; 12/12 jobs completed (~Rs6) but none of 12 predictions retrievable (status has no download_url; tried /result,/output,/{id},/download,/file, not /download-url). Must not resubmit.",
+   "numbers": "Rs67; 12 calls; ~Rs6",
+   "source": "BOSS_CONCERNS.md:222",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "K-29 Sep-16 package scores 26 of 126 CER pages against legacy-font GT; South v1 not comparable to new benchmark; correction owed to Vinay only after reproduction.",
+   "numbers": "26 of 126 pages",
+   "source": "BOSS_CONCERNS.md:232",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "K-30 speed: surya ~24 s/page on Mac so ~36 h for 5,344 images; rapidocr ~0.4 s/page; no single-machine latency table yet.",
+   "numbers": "24 s/page; 36 h; 0.4 s/page",
+   "source": "BOSS_CONCERNS.md:239",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "#58 surya MLX/MPS ~13.9 s/image (3 images, 41.6s); #59 wrap-only runtime ~8 h for 18 langs x 100 items (13.9x100x18/3600=6.95 h + overhead). Conflicts with K-30 ~24 s/page.",
+   "numbers": "13.9 s/img; 6.95 h; ~8 h",
+   "source": "BOSS_CONCERNS.md:514",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Manifest/probe22: 1,283 manifest / 1,227 scored of 2,200 target (22x100); original target 18x100=1,800 superseded.",
+   "numbers": "1,283; 1,227; 2,200; 1,800",
+   "source": "BOSS_CONCERNS.md:273",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Arithmetic error: '11 engines x 1,283 x 18 langs = 14,138' is wrong, 11x1,283=14,113; sheet.csv 12,324 lines = 10x1,228 + 54 Sarvam; mixes manifest with scored set.",
+   "numbers": "14,113 vs 14,138; 12,324",
+   "source": "BOSS_CONCERNS.md:495",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "HL6/#31: 'effective independent engines = 10' overclaimed; tesseract_bilingual differs from tesseract_indic on 857/1227; correct phrasing '9 engines, 7 independent families'.",
+   "numbers": "857/1227; 9 engines; 7 families",
+   "source": "BOSS_CONCERNS.md:450",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Per-language shortfalls cited: as 19, mni 20, sat 20, gu 24, ne 37, doi 27; or 69; mr +21, pa +10, sd +25 re-sourced (56 items).",
+   "numbers": "as 19; mni 20; sat 20; gu 24; ne 37; doi 27; +56",
+   "source": "BOSS_CONCERNS.md:353",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sampling shortcut finding: bn/hi/sa = 100 tiles of 1 page each; ur 34% page<=1 but 38 unique PDFs (best spread); kok, pa 2 PDFs each. Pair tier disproven.",
+   "numbers": "ur 34%; 38 PDFs",
+   "source": "BOSS_CONCERNS.md:276",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "#29 Surya does NOT support Santali (Ol Chiki): not in Surya 2's 91-language benchmark.",
+   "numbers": "91 langs",
+   "source": "BOSS_CONCERNS.md:485",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "#28 ne PDF-tier BARRED (AGENT_PROTOCOL 6.4 LOCKED); #27 four ceiling-sample items brx_o045/mr_o005/ne_o038/sd_o002 reconciled.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:483",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "#40 inference_call Sarvam 0.2400 CER on 51-item subset; surya 1257/1227, indicphotoocr 1257/1227 with 0 errors.",
+   "numbers": "CER 0.2400; 51 items; 1257/1227",
+   "source": "BOSS_CONCERNS.md:496",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "HL7: no training in L2, no invented GT, no spell-correction (raw is the benchmark). HL3: 4-page gate before touching full set. HL9 consensus law.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:451",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "10-day hackathon: W5 freeze opens Wed 2026-10-01 evening; W6 training Oct 2-8; jury 2026-10-11 to 15; W6 = wrap-only + QLoRA kok+pa (PAUSED).",
+   "numbers": "Oct 2-8; Oct 11-15",
+   "source": "BOSS_CONCERNS.md:508",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Training not started (git log shows no training commits; src/models only QwenVL wrapper); untracked src/ W6 artifacts archived.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:296",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Laya never integrated (proto-31/U30 NOT used; U31 advisory triage only); Jev not installed; src/inference/laya_router.py skeleton. 'Council of Kang reviewed 7 decisions' overclaimed.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:519",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Model ops rules: Opus plans, Sonnet executes, three agents only (Engine/Verdict/Miss), planner no labour, one-line prompts, no 'what next'.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:437",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Vinay (team CEO) meeting Tue 2026-09-30: packet defines 3 options and 5 decisions; no baseline analysis vs Vinay's actual plan (C10.3/CO-089); Sept 10 DOCX meeting missing.",
+   "numbers": "3 options; 5 decisions",
+   "source": "BOSS_CONCERNS.md:344",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Research corpus only 26 sources vs 1,000-5,000 target (2.6%); 4 hidden-frontier candidates found, 0 survived factchk; LinkedIn URL not fetched. Plan-freeze at ~80% corpus.",
+   "numbers": "26 sources; 2.6%; 4 candidates, 0 survived",
+   "source": "BOSS_CONCERNS.md:430",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "KEEP-AS-REFERENCE engines: MLX, GLM-OCR, MonkeyOCRv2, dots.mocr, Unlimited-OCR, light-ocr, HunyuanOCR-1.5; ECC 215 skills, paperthin 28.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:347",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Doc state: AUDIT_REPORT.md 250 lines directory-level only; 59,769 files; graph 6,796 nodes / 7,633 edges; 17,289 symlinks in level2/unified; _archive 215M.",
+   "numbers": "59,769; 6,796/7,633; 17,289",
+   "source": "BOSS_CONCERNS.md:258",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Nothing in this register mentions IIIT-INDIC-HW-WORDS, PARSeq, ICDAR'23, handwriting experts, or HW0/HW1/HW2 gates; handwriting appears only as K-03 test-set profiling.",
+   "numbers": "",
+   "source": "BOSS_CONCERNS.md:43",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 must reconcile K-03: test-set script mix still UNKNOWN for full 5,344 (BOSS_CONCERNS.md:47); H1 profile only 70 samples.",
+  "Plan lacks a same-split number vs Sarvam 87.39/Bodhan 84.94 and the R-12 independent-set win rule (:29-31).",
+  "Plan lacks metric set: CER mean/median/bootstrap CI, WER, catastrophic rate CER>0.5, NFC statement, s/page (:182).",
+  "Plan lacks licence gate: surya eval-only, Bodhan hosting needs written approval, 600K-KS on hold (:153-158); plan relies on Bodhan IndicDocLayout/IndicBlockOCR.",
+  "Plan lacks latency table / speed budget (surya ~24 s/page = ~36 h for 5,344; rapidocr 0.4 s) and GPU 24GB arrival 2026-10-01 SSH-blocked (:215,239).",
+  "Plan lacks leakage risk: Sarvam bench home-ground/training exposure and South items duplicating X's 6,909 (:85-86).",
+  "Plan lacks GT defects register (GT_DEFECTS.md missing) and Sep-16 legacy-font GT correction (26 of 126 pages) (:168,232).",
+  "Plan lacks empty-output bug fixes (paddle brx/doi mapping, surya sa) before coverage matrix (:173-177).",
+  "Plan lacks weak-cell sample sizes: as 19, sat 20, mni 20, gu 24, doi 27 - honest-n reporting (:71).",
+  "Gate 2.5 red line and Vinay session precede any training (:148); plan's G-2.5 matches but Plan v3 draft/multi-LLM eval not done (:54-57).",
+  "Submission metric/format/deadline UNKNOWN; no 50-image dry run (:189-192,209)."
+ ],
+ "contradictions": [
+  "K-03 35.7% Devanagari vs 13/13 Bengali for Tesseract H1 (:47) - resolved to Bengali.",
+  "Surya speed 13.9 s/img (:514) vs ~24 s/page (:239).",
+  "11x1,283 arithmetic 14,138 vs 14,113 (:495).",
+  "Engines '10 independent' vs 9 engines/7 families (:450).",
+  "Status counts Part 2 (:547) 'DONE-VERIFIED 95' vs K-07 'Part 1 has 1 DONE-VERIFIED' (:80).",
+  "Root MD count: 12/20/19 claimed vs 18 actual (:517,522,523).",
+  "Test-set/K-03 says 'South 4x100' while #68 says South 400/lang and 126/0.30 (:524,525)."
+ ],
+ "open_items": [
+  "Script mix of the 5,344 test images (:47)",
+  "Retrieve 12 Sarvam South predictions via /download-url (:222)",
+  "Official metric/format/deadline (:189)",
+  "GPU SSH details (:215)",
+  "Plan v3 draft and Gate 2.5 (:54)",
+  "Weight licence of EasyOCR .pth (:158)",
+  "Parity PyTorch vs MLX (:39)"
+ ]
+}

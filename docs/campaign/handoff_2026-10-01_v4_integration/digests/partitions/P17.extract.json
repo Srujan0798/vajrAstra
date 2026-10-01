@@ -1,0 +1,710 @@
+{
+ "partition": "P17",
+ "files": [
+  {
+   "path": "/home/user/boss/docs/campaign/TEST_SET_PROFILE.md",
+   "total_lines": 100,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/B01_4BIT_ANALYSIS.md",
+   "total_lines": 90,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/B02_ARABIC_NORMALIZATION.md",
+   "total_lines": 139,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/B12_HANDWRITING_SHARE.md",
+   "total_lines": 119,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/BODHAN_BASELINE.md",
+   "total_lines": 28,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/VINAY_CALL_AND_GPU_DAY1.md",
+   "total_lines": 72,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/SKILL_STACK.md",
+   "total_lines": 77,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/P4_ELITE_SEQUENCING.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/SHEET_V2_FORENSICS.md",
+   "total_lines": 65,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/VAJRASTRA_SHEET_AUDIT.md",
+   "total_lines": 46,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/BOSS_EXPLAINER.md",
+   "total_lines": 66,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/HF_ACCESS_REQUEST.md",
+   "total_lines": 70,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/H3_ISSUE_CLEANUP.md",
+   "total_lines": 35,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/MONITOR_2026-09-30.md",
+   "total_lines": 92,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/audit/BUNDLE_PLAN_2026-10-01.md",
+   "total_lines": 87,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/audit/DEDUP_CYCLE2_REOPENED.md",
+   "total_lines": 205,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/audit/MD_COUNT_2026-10-01.md",
+   "total_lines": 18,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/drafts/AGENTS.draft.md",
+   "total_lines": 48,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/drafts/INDEX.draft.md",
+   "total_lines": 68,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/drafts/README.draft.md",
+   "total_lines": 16,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Official test set = 5,344 JPEG crops (IDs 0-14,806 with gaps), all ~291-300 px tall, widths 445-1,630 (mean 902) on a 70-image sample: word/line crops, not pages.",
+   "numbers": "5,344 files; h 291-300 mean 297; w 445-1630 mean 902",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:8-15",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "ID bucket distribution is uneven: 0-999=56, 1000-1999=481, 10000-14000 four full buckets of 1,000, 14000-14806=807. Test IDs are sparse in the low range (possible hint of different source batches).",
+   "numbers": "56/481/1000x4/807",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:19-28",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Tesseract (eng/hin/kan/mal/tam/tel) on 70 stratified test images: 55.7% UNKNOWN, Devanagari 35.7%, Latin 4.3%, Tamil 1.4%, Kannada 1.4%, Other 1.4%. Script-id by Tesseract is unreliable on handwriting; the 35.7% Devanagari is likely misread Bengali (shared headline)",
+   "numbers": "39/25/3/1/1/1 of 70",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:35-43",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Planner viewed 3 test images (10001, 12407, 1361): each one handwritten word in Bengali script, blue pen, ~300 px tall. Only 3 images viewed directly in this doc.",
+   "numbers": "n=3 visual",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:47",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Only labelled handwriting set on disk is Datasets/akshardrishti_official/Bodo/gu (Gujarati handwritten words, IIIT-HW format): train 82,563 / val 17,643 / test 16,490 lines, vocab 10,963 words.",
+   "numbers": "82,563/17,643/16,490/10,963",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:51-62",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "DATA-INTEGRITY: Bodo/gu label files list 82,563 train entries but only 4,645 image files exist on disk (~77,918 missing, ~5%). Training would silently use 5% of labels; must be verified against source (IIIT-HW-Dev/-Telugu/-INDIC-HW-WORDS). Note folder named Bodo but script Gujarati.",
+   "numbers": "4,645 imgs vs 82,563; gap ~77,918",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:60-70",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "No other handwriting set found in akshardrishti_official; South-language folders (Tamil/Telugu/Kannada/Malayalam) are PDFs only (0/23,001 clean pages, proto-104 S1), no handwriting labels. No Bengali HW labelled data on disk at all.",
+   "numbers": "0/23,001 clean",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:72-74",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Boss-side expectation recorded: a vision-capable Bodhan would read 90%+ of test images; Tesseract UNKNOWN ceiling 55.7% holds until HF access. H3 plan: run Bodhan on same 70-sample, compare CER vs Tesseract on the Devanagari-read subset. Estimate only, unmeasured.",
+   "numbers": "90%+ (unverified estimate)",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:87-94",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Test profile is read-only, seeded (20260930), 70 images (10/bucket); previous heuristic profile REJECTED per R-11 (PIL heuristics meaningless without OCR).",
+   "numbers": "seed 20260930",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:4,76-81",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "RQ-2 (vision subagent, seed 20260930, n=300 of 5,344): 273 handwritten (91.0%), 27 mixed (9.0%), 0 printed. Conclusion: handwriting IS the test set; RQ-10 handwriting fallback MANDATORY.",
+   "numbers": "273/300 HW; 27 mixed; 0 printed",
+   "source": "docs/campaign/B12_HANDWRITING_SHARE.md:43-66",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Degradation of the 300-sample: clean 2 (0.7%), mild 179 (59.7%), severe 119 (39.7%) (severe = mojibake/cutoff/skew>15deg). 99.3% degraded. NOTE: 'mojibake' criterion contradicts TEST_SET_PROFILE which rejected such heuristics as meaningless without OCR; per-script all 300 UNKNOWN.",
+   "numbers": "clean 2, mild 179, severe 119",
+   "source": "docs/campaign/B12_HANDWRITING_SHARE.md:51-69",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "B12 says 300 images were all script=UNKNOWN (vision classification claimed to need OCR), yet TEST_SET_PROFILE says planner viewed 3 images as Bengali. Plan v4's 'all inspected = Bengali' rests on a few images; no 300-sample script labelling exists in this doc.",
+   "numbers": "UNKNOWN 300/300",
+   "source": "docs/campaign/B12_HANDWRITING_SHARE.md:22-41",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bodhan official card HW languages (verified 2026-09-30): 12 Indic + EN = Hindi, Bengali, Tamil, Telugu, Kannada, Malayalam, Gujarati, Marathi, Odia, Punjabi, Assamese, Urdu. Bengali IS covered.",
+   "numbers": "12 Indic + EN",
+   "source": "docs/campaign/B12_HANDWRITING_SHARE.md:73-74",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Languages missing from Bodhan HW: brx, doi, kok, ks, mai, mni, ne, sa, sat, sd (10 listed; doc text says 9 and 'covers 13/22 (59%)' and '5 of 9 missing have no fallback' while listing 6 - arithmetic inconsistent). Plan: ks/ur/sd -> B-02; sat/mni -> Day-3 synthetic Ol Chiki/Meetei Mayek (B-03); brx/doi/kok/mai/ne/sa -> nothing scheduled.",
+   "numbers": "10 listed missing; 13/22",
+   "source": "docs/campaign/B12_HANDWRITING_SHARE.md:75-112",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "brx/doi/kok/mai/ne/sa have no fallback plan and 'will score poorly on Day-1' (Devanagari-script langs; sa distinct vocabulary). Directly relevant to weak cells sa/doi.",
+   "numbers": "6 langs no plan",
+   "source": "docs/campaign/B12_HANDWRITING_SHARE.md:107,112",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "B-01 rule (proto-100): report Bodhan 4-bit vs bf16 per script, Perso-Arabic (ks/ur/sd) separately; for ks/ur/sd inference AND LoRA base must be bf16 or 8-bit unless 4-bit is within 1 CER point.",
+   "numbers": "<=1 CER pt gate",
+   "source": "docs/campaign/B01_4BIT_ANALYSIS.md:5,78",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan weight revisions pinned: 4-bit hari31416/indic-ocr-mlx-4bit @6882ee7a21bfc3d2cfb384ce669f2bfdcea3a36e; bf16 hari31416/indic-ocr-mlx-bf16 @bb091d3a6366a0defe79f0f252c16a790fc8d74b; official bodhan-ai/indic-ocr is gated (auto).",
+   "numbers": "revisions as written",
+   "source": "docs/campaign/B01_4BIT_ANALYSIS.md:37-38,52-53",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Perso-Arabic script-id heuristic: Arabic-block chars >50% -> Perso-Arabic then disambiguate by manifest language tag; Kashmiri may also use Devanagari. Detection by Unicode range only.",
+   "numbers": "50% threshold",
+   "source": "docs/campaign/B01_4BIT_ANALYSIS.md:81-90",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B-02: up to 3-8 pts of Kashmiri 'failure' may be a scoring artifact (yeh/kaf variants, Persian vs Arabic-Indic digits, Arabic punctuation, bidi isolates U+2066-2069). Fix = opt-in scoring_extensions/normalize_arabic.py; default metrics.py stays locked; gate: reduces CER gap >=3pts on ur/ks/sd.",
+   "numbers": "3-8 pts; >=3pt gate",
+   "source": "docs/campaign/B02_ARABIC_NORMALIZATION.md:5-12,132",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Constraint: Sarvam-bench comparison numbers always use Sarvam's unchanged metrics.py; Arabic-normalised scorer is reported as a second column only. Draft code maps ي,ئ,ى->ی and Persian digits->Arabic-Indic; ه/ة 'heh' mapping comment is not actually implemented (ة not mapped).",
+   "numbers": "default scorer locked",
+   "source": "docs/campaign/B02_ARABIC_NORMALIZATION.md:25,43-47,135-139",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan on disk: indic-ocr 1868 MB, mlx-4bit 767 MB, mlx-bf16 1868 MB, all Apache-2.0 (indic-ocr-bench and mlx-8bit show 0 safetensors/0 MB despite 'on disk').",
+   "numbers": "1868/767/1868 MB",
+   "source": "docs/campaign/BODHAN_BASELINE.md:5-11",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Gate 1 (Mac MLX): sample-100 (99 items) 4-bit CER 0.6878 vs bf16 0.6863 (delta 0.0015, B-01 PASS); pair-only 300 gold 4-bit 0.4034 vs bf16 0.4010, beats surya 0.5660; Sarvam bench small_rep n=1173 4-bit CER 0.0540 (WER 0.1356), 0.52 s/crop. Verdict CONDITIONAL PASS; official-path parity waits GPU day.",
+   "numbers": "0.6878/0.6863; 0.4034/0.4010; 0.0540; 0.52 s/crop",
+   "source": "docs/campaign/BODHAN_BASELINE.md:15-22",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Plan v4 cites Bodhan CER 0.4034 vs surya 0.566 on 300 gold; but sample-100 CER is 0.688 (poor) and surya baseline on 1,227 items is weighted CER 0.3956 (HF_ACCESS_REQUEST) - Bodhan is not uniformly better than surya on the benchmark; 0.4034 is on only 300 pair gold (bn/hi/sa). Note BODHAN_BASELINE says surya 0.5660 vs 0.566.",
+   "numbers": "0.688 vs 0.3956",
+   "source": "docs/campaign/BODHAN_BASELINE.md:17-18; HF_ACCESS_REQUEST.md:68",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Plan v3 five lines (for Vinay): Base=Bodhan (84.94 on Sarvam bench) layout IndicDocLayout + Qwen3.5-0.8B block OCR; PPT stages kept (layout->Bodhan layout, VLM SFT->Bodhan+LoRA, RL->GRPO last/optional, LLM->JSON->post-correction B-18); 1,683-item 22-lang+EN benchmark; handwriting centre (5,344 HW word crops, HW LoRA B-19); portable PyTorch/CUDA/CPU",
+   "numbers": "84.94; 1,683 items",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:19-23",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "Plan v4 (proto-108, 2026-10-01) re-centres on handwriting expert"
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Do-NOT-claim list for Vinay: any 'we beat Sarvam' line (R-12 needs independent set), any number without a W4 command, other session's Sarvam South numbers (wrong, F78), Sep-25 meeting date (contradiction open).",
+   "numbers": "R-12; F78",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:29",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Honest status 2026-09-30: benchmark v2 1,683 items; first South score tesseract CER 0.145; Sarvam 12 South calls on free credit, Rs67 left; Bodhan weights pending HF gate.",
+   "numbers": "0.145; Rs67; 12 calls",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:26-28",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Seven questions for Vinay: GPU access/quota/data-copy; training gate (LoRA on Bodhan train split only, leak-audited vs multi-LLM review first, Gate 2.5); official test set contents/dev split/submission format; metric (jury accuracy vs product criteria; CER/WER/word acc); Bodhan licence section 3.1 hosting approval; '10 days no communication'; Sep-1",
+   "numbers": "26/126; Rs100",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:31-38",
+   "status": "OPEN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "GPU day-1: 24 GB VRAM SSH box; setup <=1h (git clone code only; rsync level2/benchmark + Sarvam bench test split; Python 3.11 CUDA env). Run order: continuity check -> Bodhan D1 on CUDA (--sample 100 --pair-only then full manifest_v2) -> H3 (Bodhan+surya+Tesseract on HW slice after H2) -> X (Bodhan+paddle on Sarvam bench test 6,909, labelled home b",
+   "numbers": "24 GB; 6,909; 5,344",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:45-66",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "HF token (Maya0769) given in chat; store only in Mac .env; rotate after Bodhan download; cloud planner cannot reach huggingface.co (CONNECT rejected) - all HF work on Mac or GPU box. Plan v4 uses local IndicPhotoOCR checkpoints/IIIT HW data: HF reachability from the cloud remains blocked.",
+   "numbers": "token valid to 2026-10-30",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:68-72; HF_ACCESS_REQUEST.md:5",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Gate 2.5: nothing trains until the multi-LLM review / Vinay cross-question session; training only on train split, leak-audited, data by rsync never GitHub.",
+   "numbers": "Gate 2.5",
+   "source": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:32,41-42,63",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D1 downloads BLOCKED: token reads repo_info but 403 on all file downloads for hari31416/indic-ocr-mlx-4bit, -bf16 and bodhan-ai/indic-ocr (gated=auto, need Agree-and-access click). sarvamai/indic-ocr-bench downloaded (714 MB, 29 files). Yet BODHAN_BASELINE reports weights on disk and CER numbers - status ordering unclear (later in time).",
+   "numbers": "714 MB, 29 files",
+   "source": "docs/campaign/HF_ACCESS_REQUEST.md:4-18",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Reference baseline surya weighted CER 0.3956 over 1,227 items; mlx 0.32.3 + mlx-vlm 0.7.4 installed; mlx-tune NOT installed.",
+   "numbers": "0.3956; 1,227",
+   "source": "docs/campaign/HF_ACCESS_REQUEST.md:63-68",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "sheet.csv (12,324 rows, all leaderboard numbers) has no generator and was never committed. Recompute from manifest gt + out packs: exact 2,220 (18.0%), within 1e-4 4,578 (37.1%), MISMATCH 7,746 (62.9%); per-model exact from 2.3% (easyocr) to 54.9% (anuvaad_tesseract). Cause UNKNOWN.",
+   "numbers": "62.9% mismatch of 12,324",
+   "source": "docs/campaign/SHEET_V2_FORENSICS.md:3-30",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Despite mismatch, headlines survive full recompute: 12 languages with n>=50 winner, same winner tally (surya 9, tesseract_bilingual 1, openbharatocr 1, easyocr 1), Konkani surya 0.4248->0.4286, surya<Sarvam same-item paired 10/18, item-level 21/28/5. 8/18 was a method error (full-language surya vs 3 Sarvam items).",
+   "numbers": "10/18; 21/28/5",
+   "source": "docs/campaign/SHEET_V2_FORENSICS.md:32-50",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Rule adopted: sheet_v2.csv (build_sheet_v2.py, numpy Levenshtein validated 400/400 vs metrics.edit_distance) for all future reporting (U9=YES with caveat); one committed generator always; never present sheet.csv as independently checkable. Metrics: metrics.edit_distance is O(nm) pure Python (no rapidfuzz) - GPU box needs fast scorer.",
+   "numbers": "400/400 agreement",
+   "source": "docs/campaign/SHEET_V2_FORENSICS.md:14-16,52-56",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Monitor M1 earlier measurement: re-scoring 400-row sample matched stored CER in only 66/400 (1e-9) and 100/400 (5e-4); implied reference length median 1.336x stored GT.",
+   "numbers": "66/400; 1.336x",
+   "source": "docs/campaign/MONITOR_2026-09-30.md:18",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "SHEET_V2_FORENSICS.md:20-26 full recompute 18.0% exact"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT-tier artefact: on 54 Sarvam-paired items, official_pair_txt (human gold bn/hi/sa, n=9) Sarvam 0.064 vs surya 0.535 vs best local 0.243; official_pdf_layer (n=36) Sarvam 0.311 vs surya/best 0.229; sarvam_bench (n=9) Sarvam 0.278 vs surya 0.730 vs best 0.617. Locals lead only on PDF-text-layer GT.",
+   "numbers": "0.064/0.311/0.278",
+   "source": "docs/campaign/MONITOR_2026-09-30.md:20-26",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "BOSS_EXPLAINER: on 18 human-verified items Sarvam CER 0.171 vs our best 0.430 = 2.51x behind; all 21 item-level wins on PDF-text-layer GT; paired comparison only 54 items (3/lang). No edge thesis survived (4 candidates x 3 adversarial reviewers, all died). Estimated position near Surya OCR 2 69.96, ~6th of 14, ~17 pts behind Sarvam 87.39.",
+   "numbers": "0.171 vs 0.430; 2.51x; 69.96; 87.39",
+   "source": "docs/campaign/BOSS_EXPLAINER.md:7,13,26-32",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "0/200 local predictions on Santali contain any Ol Chiki character; no local engine reads Ol Chiki or Meetei Mayek; only mni and sat lack Tesseract traineddata; indic-ocr pack claims both (licence unverified, tessdata page states NO licence). Only surviving edge = coverage gap.",
+   "numbers": "0/200",
+   "source": "docs/campaign/BOSS_EXPLAINER.md:14-15; MONITOR_2026-09-30.md:45,91",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "System tessdata has kan/mal/tam/tel and 2 Meetei Mayek font families (two EDGE_THESIS/plan claims wrong). 18/79 Marathi scored items carry injected Ol Chiki code points (table pages); gt_thin threshold 179 (docs) vs 200 (code); te_024/te_065 dominant-script contradiction. Punjabi K1 is a tie (surya vs tesseract_indic n=90, 3 discordant, p=1.0) -> Q",
+   "numbers": "18/79; p=1.0; n=90",
+   "source": "docs/campaign/MONITOR_2026-09-30.md:44-46,64-66",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "8 probe22 languages sit at n 19-37; Malayalam has only 5 scored pages; gt_thin and mojibake gates nulled 274 of 400 South pages; own-script pool n=66 (ta 53/te 5/kn 4/ml 4).",
+   "numbers": "274/400; ml=5; 66",
+   "source": "docs/campaign/BOSS_EXPLAINER.md:50; VAJRASTRA_SHEET_AUDIT.md:37",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Speed measured: surya 24.3 s/page = ~36 h for 5,344 images (p90 72 s ~107 h); rapidocr 0.40 s/page = 0.6 h; Tesseract-family 3.8 h. Abstention: anuvaad 59.4% empty, paddleocr 56.1%, rapidocr 39.7%, surya 17.4%.",
+   "numbers": "24.3 s/page; 36 h; 0.6 h; 3.8 h",
+   "source": "docs/campaign/BOSS_EXPLAINER.md:16-17,47",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Licences: surya package metadata Apache-2.0 but licence text is modified OpenRAIL-M capped at $5M funding/revenue (boss call); 8 licence checks never done; Bodhan s3.1 needs approval to host weights.",
+   "numbers": "$5M cap",
+   "source": "docs/campaign/BOSS_EXPLAINER.md:44; MONITOR_2026-09-30.md:66; VINAY_CALL_AND_GPU_DAY1.md:36",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Official AksharDrishti scoring rules UNKNOWN: the CER+bootstrap CI/WER/S-D-I/sec-per-page rubric came from a student B.Tech repo (Ayush-04-spec/akshardrishti, KK Wagh); 'targets handwritten/low-quality' unverified; V6 deadline/scoring confirmation open.",
+   "numbers": "UNKNOWN",
+   "source": "docs/campaign/MONITOR_2026-09-30.md:88-91; BOSS_EXPLAINER.md:53",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Fusion/pseudo-GT killed: G-B12 0/115 beat best single engine; union 3.92 worse than worst single on 115/115; consensus pseudo-GT 0.144 off gold vs 0.132 best single (F8). Sealed n=126: surya 0.4300 vs anuvaad 0.4751 CIs overlap (tied); bootstrap CI [-0.086,+0.018]; Tamil anuvaad 0.301 ties surya.",
+   "numbers": "0/115; 0.4300 vs 0.4751",
+   "source": "docs/campaign/VAJRASTRA_SHEET_AUDIT.md:9-10,29,34-38",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam on 18 human-verified items CER 0.171 vs best local 0.430; own-script clean 66 pages ~Rs33 (not Rs200). Sarvam cap law: 54 calls; sarvam_api.py bugs: silent te-IN default (line 87), str(result) fallback (93), one page/job, SarvamBatchAPI name collision.",
+   "numbers": "Rs33; 54-call cap",
+   "source": "docs/campaign/VAJRASTRA_SHEET_AUDIT.md:11-18,34",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "M12: vendor benchmarks disagree - Bodhan IndicOCR-PR vs Sarvam bench flips 8/22 per-language winners; both self-built; supports independent-evaluation framing only if own table reproducible.",
+   "numbers": "8/22 flips",
+   "source": "docs/campaign/MONITOR_2026-09-30.md:46",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Engine-independence overclaim: openbharatocr == tesseract_indic on 1,225/1,227 items; all three identical on 370/1,227; tesseract_bilingual differs on 857/1,227; '10 independent engines' false. M2: sarvam_bench GT is human-reviewed twice, so BARRED mni/sat verdicts (LLM verifier cannot read Ol Chiki/Meetei) were weak.",
+   "numbers": "1,225/1,227; 370; 857",
+   "source": "docs/campaign/MONITOR_2026-09-30.md:28-30",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Laya ruled NOT used and JEV NOT used (proto-31): Laya is text-only, near-random on non-Latin (Hindi 0.100, Tamil 0.113 vs random 0.050), script detection is a Unicode lookup; JEV closed/paid 236-276 ms p50. Reopen only if Day-4 oracle gap >=0.02 CER AND deterministic bad-output check misses >=0.02 recoverable CER.",
+   "numbers": "0.02 CER gates",
+   "source": "docs/campaign/SKILL_STACK.md:48-63",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Tool stack: 6 used (graphify stale 35 md, factchk, mandela, context7, parallel-search, github/opencode), ~30 should-use, 6 BROKEN MCPs; top-10 gaps incl. verification-loop, unified-memory, council, ssotize. HF MCP AUTH-BLOCKED. Untracked src/ LayaRouter routes on gt_text (answer key leakage) - archived.",
+   "numbers": "6/30/6 broken",
+   "source": "docs/campaign/SKILL_STACK.md:9-16,19-30,58",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "P4 Elite sequencing (older Level-3 cascade): C1 cheap engine->surya->Sarvam with 4-page gates; C2 Sarvam on 66 own-script pages ~Rs33; C3 distillation student only if Sarvam clearly beats surya; C4 active learning (>=0.01 median CER gain/iteration). Pre-Bodhan; each step needs Srujan approval.",
+   "numbers": "Rs33; 0.01",
+   "source": "docs/campaign/P4_ELITE_SEQUENCING.md:5-10",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "Plan v3/v4 Bodhan-based plan"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "H3 issue cleanup draft: close #2/#3/#4 (fusion), rewrite #6/#7, fold #5, rescope #8-10 to code-only CI (L10 guard), #11 = Sarvam 66-page Rs33 gate (Rs2 gate first); H-1 Sarvam key, H-2 native Kannada/Malayalam reviewers, H-3 execute. Not applied without boss.",
+   "numbers": "66 pages; Rs33",
+   "source": "docs/campaign/H3_ISSUE_CLEANUP.md:6-34",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "Bodhan Plan v3/v4"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Repo state audit 2026-10-01: 601 live md (BUNDLE_PLAN) vs 306 live md / 805 total (MD_COUNT) - conflicting counts; X PREP 5-item dry run hin CER 0.104, kan 0.056, tel 0.008; S1 South feasibility 0/23,001 clean, 76% legacy mojibake; Rs67 Sarvam credit expended.",
+   "numbers": "601 vs 306 vs 805; 0.104/0.056/0.008",
+   "source": "docs/campaign/audit/BUNDLE_PLAN_2026-10-01.md:26,37-40,85; audit/MD_COUNT_2026-10-01.md:7-9",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Pending gates 2026-10-01: A4 PASS (Agent 1), A9 PASS (Agent 2, proto-101), Vinay call morning, proto-104 Day 5 cleanup resume; no commits, no training, no downloads performed by Agent 3.",
+   "numbers": "A4/A9",
+   "source": "docs/campaign/audit/BUNDLE_PLAN_2026-10-01.md:61-67",
+   "status": "OPEN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "DEDUP cycle2 reopened: 15 topic groups, 156 files, 6 low + 7 medium + 4 archive merges, all unchanged; note doc is pure bookkeeping (no model/data finding); contains stale 'tomorrow 2026-09-30' wording.",
+   "numbers": "15/156",
+   "source": "docs/campaign/audit/DEDUP_CYCLE2_REOPENED.md:11-19",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Draft AGENTS.md law: GT tiers (official_pair/official_pdf/sarvam_bench) never pooled; South bench items also inside step X's 6,909 so never double-count; locked files (AGENT_PROTOCOL.md, manifest_v1.json, sheet_v1.csv, run_probe.py, default metrics.py); step order R->S->H->D1->X->C->G->GPU->Q->D2-D5; product portable, MLX never assumed; ₹67 credit ",
+   "numbers": "6,909",
+   "source": "docs/campaign/drafts/AGENTS.draft.md:9,32-41",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Draft README goal: beat Sarvam Vision 2.1 (87.39 Word Accuracy) and Bodhan (84.94) on one fair 22-language benchmark; status lives only in W4.md/DISPATCH_LOG.md. Draft INDEX: manifest_v2 1,683 items; sarvam bench rev 84ce7ce4 Apache-2.0; step Q GT_DEFECTS due before D2; .venv311 the env.",
+   "numbers": "87.39; 84.94; 1,683",
+   "source": "docs/campaign/drafts/README.draft.md:6; drafts/INDEX.draft.md:24-30",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 gate HW0/HW2 cite IIIT-INDIC-HW-WORDS but the only on-disk labelled HW set (Bodo/gu, Gujarati) has 4,645 of 82,563 labelled images and no Bengali; no Bengali HW training data is local (TEST_SET_PROFILE.md:60-74).",
+  "Plan v4 asserts all 5,344 are Bengali, but direct evidence in these files is 3 viewed images; the 300-sample (B12) has script UNKNOWN for all 300 and 27 'mixed'. Needs a measured script-ID pass (Bengali vs Assamese/other) before a per-script PARSeq is chosen (B12_HANDWRITING_SHARE.md:22-41; TEST_SET_PROFILE.md:47).",
+  "Plan v4 omits the 2.51x human-GT gap vs Sarvam and the GT-tier split rule (never pool official_pair/official_pdf/sarvam_bench) - Page Expert numbers (CER 0.4034 on 300 gold, 86.4 small_rep) must carry tier labels (BOSS_EXPLAINER.md:13,26; MONITOR_2026-09-30.md:20-26).",
+  "Plan v4 lacks a sheet reproducibility rule: all reporting must come from a committed generator (sheet_v2/build_benchmark_22); stored sheet.csv 62.9% non-reproducible; metrics.edit_distance is slow pure Python so GPU eval needs validated fast scorer (SHEET_V2_FORENSICS.md:14-28,56).",
+  "Plan v4 does not carry the B-01 bf16-for-Perso-Arabic rule or B-02 Arabic normalisation (opt-in scorer, 3-8 pt Kashmiri artefact) - R2 Nastaliq cell unaddressed (B01_4BIT_ANALYSIS.md:5; B02_ARABIC_NORMALIZATION.md:5-12).",
+  "Plan v4 ignores weak-cell languages with no HW or printed coverage: brx/doi/kok/mai/ne/sa have no fallback; sat/mni need synthetic Ol Chiki/Meetei Mayek (R3) and 0/200 Santali preds contain Ol Chiki (B12_HANDWRITING_SHARE.md:104-112; BOSS_EXPLAINER.md:14).",
+  "Plan v4 has no speed budget: surya 24.3 s/page = 36 h for 5,344 test images; Bodhan latency 0.52 s/crop on Mac; the submission time budget table (GPU day-1 item 5) is missing (BOSS_EXPLAINER.md:16,47; VINAY_CALL_AND_GPU_DAY1.md:61).",
+  "Plan v4 should record the 40% 'severe' degradation in sample (R4 OldScan relevance) and abstention (empty output) as a scoring risk: anuvaad 59.4%/paddle 56.1% empty (B12_HANDWRITING_SHARE.md:51-69; BOSS_EXPLAINER.md:17).",
+  "Licence gaps: surya $5M OpenRAIL-M, Bodhan s3.1 hosting approval, Ol Chiki/Meetei tessdata no licence stated; Plan v4 lists CC-BY-4.0 data but not Bodhan/Qwen/surya licence constraints for a shipped product (BOSS_EXPLAINER.md:44; VINAY_CALL_AND_GPU_DAY1.md:36).",
+  "Official scoring rules/metric (CER vs WRR vs jury criteria) still UNKNOWN (V6); Plan v4 HW2 gate thresholds (92%/85%) are self-set with no official metric (MONITOR_2026-09-30.md:88-91; VINAY_CALL_AND_GPU_DAY1.md:34).",
+  "Plan v4 lacks a deterministic bad-output check (empty, wrong-script share, invalid Unicode, repetition loops, low log-prob) which is the pre-registered precondition for any learned gate (SKILL_STACK.md:61).",
+  "Leakage: untracked src/ LayaRouter routed on gt_text (answer key); Plan v4 HW0 hash gate should also cover answer-key use in routing code (SKILL_STACK.md:58)."
+ ],
+ "contradictions": [
+  "B12 says 99.3% degraded/39.7% 'severe (mojibake/cutoff)' while TEST_SET_PROFILE rejects such heuristics as meaningless without OCR (B12:56 vs TEST_SET_PROFILE.md:4).",
+  "B12 says all 300 samples script UNKNOWN; TEST_SET_PROFILE says viewed images are Bengali; Tesseract says 35.7% Devanagari (B12:39; TEST_SET_PROFILE.md:36-47).",
+  "B12 missing-language count: text says 9 and '5 of 9' but lists 10 (and 6) langs; HW coverage '13/22' (B12:104-112).",
+  "HF_ACCESS_REQUEST says Bodhan downloads 403-blocked; BODHAN_BASELINE reports on-disk weights and CER results (HF_ACCESS_REQUEST.md:11-14 vs BODHAN_BASELINE.md:5-19).",
+  "BUNDLE_PLAN 601 live md vs MD_COUNT 306 live / 805 total (BUNDLE_PLAN:26; MD_COUNT:7-9).",
+  "Bodhan 4-bit 99-item sample CER 0.688 vs 300-gold 0.4034 vs surya 1,227-item 0.3956: Bodhan advantage depends on subset (BODHAN_BASELINE.md:17-18; HF_ACCESS_REQUEST.md:68).",
+  "BOSS_EXPLAINER says 22 languages / 1,683 items and 1,227 run; SHEET forensics manifest has 1,283 items (K-conflict '1,227 vs 1,283' in SKILL_STACK:24)."
+ ],
+ "open_items": [
+  "Which scripts actually appear in the 5,344 test images (Bengali only? run measured script-ID on larger sample).",
+  "Why 77,918 Bodo/gu label images are missing; source re-download.",
+  "Official metric/scoring rules and deadline (V6).",
+  "Cause of sheet.csv 62.9% non-reproducibility (writer not on disk).",
+  "B-01 per-script 4-bit vs bf16 table on GPU (official PyTorch path parity) and B-02 normalisation effect on ur/ks/sd.",
+  "Bodhan HW coverage verification against actual outputs on HW test items; brx/doi/kok/mai/ne/sa fallback.",
+  "Licence of Ol Chiki/Meetei tessdata and surya/Bodhan hosting terms.",
+  "A4/A9 PASS postings; Vinay call answers (GPU, test-set format, metric)."
+ ]
+}

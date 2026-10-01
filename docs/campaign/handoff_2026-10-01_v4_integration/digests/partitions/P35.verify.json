@@ -1,0 +1,357 @@
+{
+ "checked": 52,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "mr visual-verification pass rate is stated inconsistently: 42.9% in the locked 6.4 result vs 37.5% in verify_unaccounted (after 233->237 ceiling fix); both still BARRED",
+   "numbers": "42.9% vs 37.5%",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:316-335; level2/benchmark/docs/verify_unaccounted.md:188",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Refresh claims surya wins 9 of 13 n>=50 langs, but only 12 langs have n>=50 (bn hi ks kok mai sa ur 100, pa 90, mr 79, sd 75, or 69, brx 67); its list of 9+mr+or=11 omits sa (surya all-empty)",
+   "numbers": "12 vs 13",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:348",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 construction log says D6 honored (no ur/ks/sd/sat/mni in any jsonl) yet w6_sft_conditional.jsonl contains 75 sd (Perso-Arabic) items, violating the stated akshara-aux scope",
+   "numbers": "sd 75",
+   "source": "level2/benchmark/docs/w6_set_construction_log.md:30,46",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam EN sanity: FINAL_REPORT says not run (N/A, skipped by user decision) but refresh reports sarvam EN CER 0.1078 / WER 0.2459 ('EN column restored from disk')",
+   "numbers": "0.1078",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:153,167; level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:73,131",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam per-tier CER on subset: pair 0.0641 (n=9), pdf 0.3105 (n=36), fill 0.0810 (n=6); sarvam beats local engines on human pairs but not on PDF tier",
+   "numbers": "0.0641/0.3105/0.0810",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:143",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K1-K3 thresholds (T1 0.05, T2 3pp, K2 6h) are defaults only; user has not set them at the freeze call",
+   "numbers": "",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:41",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Cross-partition: protocol records 5,344 unlabeled test jpgs, but W1H D11 re-count of Datasets/akshardrishti_official found 20,656 png/jpg files; test-set size unreproduced",
+   "numbers": "5,344 vs 20,656",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:94-95",
+   "status": "CONTRADICTION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Unconditional SFT/RLVR sets are small: sft_unconditional 458 incl. 19 or sarvam_fill rows needing runtime EXCLUDE-D1 filter (effectively 439 usable); rlvr 300",
+   "numbers": "458-19=439",
+   "source": "level2/benchmark/docs/w6_set_construction_log.md:9-11,41",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Wilson CI examples: surya bn 0.4844 [0.4779,0.4909], hi 0.2306, mai 0.0286; paddleocr_indic ur 0.8925 worst (char-level trials, CI very narrow vs item-level uncertainty)",
+   "numbers": "",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:116-125",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

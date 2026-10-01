@@ -1,0 +1,495 @@
+{
+ "partition": "P13",
+ "files": [
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md",
+   "total_lines": 127,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_210_langgraph_crewai_autogen_openai.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_220_ecc_skills_orchestration.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_230_ecc_skills_continued.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_240_arxiv_papers_advanced.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_250_ecc_autonomous_arxiv.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_260_anthropic_blogs_detailed.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_270_ecc_final_batch.md",
+   "total_lines": 351,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/claude_code_detailed.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/claude_code_sdk.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/kimi_agents.md",
+   "total_lines": 85,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/laya_detailed.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/laya_gates.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/mcp_detailed.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/mcp_servers.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/obsidian_detailed.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/opencode_ecc.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/opencode_ecc_detailed.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/ts_ai_sdks.md",
+   "total_lines": 127,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b4_agent_tooling/ts_ai_sdks_detailed.md",
+   "total_lines": 113,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "OrchestraBench: keyword/flag router 0% vs intent-reasoning router 100% on adversarial cases; recovery tiers tool faults 1.0, ambiguous delegation 0.30, latent/semantic 0.0; cascade radius 0.9 to 4.7 over depth 3-7; blind retry reproduces latent faults.",
+   "numbers": "0%/100%; 1.0/0.30/0.0; 0.9-4.7",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:12",
+   "status": "PRIMARY",
+   "date": "2026-08-05",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Source record maps OCR weak cells to the older 18-lang probe: Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01 (CER-like scores in the 18x100 lock); argues intent-reasoning routing for ambiguous script delegation.",
+   "numbers": "Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:12",
+   "status": "DERIVED",
+   "date": "2026-08-05",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "AdaptOrch: orchestration topology dominates model capability when LLMs converge; 4 topologies (parallel, sequential, hierarchical, hybrid); routing O(|V|+|E|); 12-23% over static single-topology baselines on SWE-bench/GPQA/RAG (not OCR).",
+   "numbers": "12-23%",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:26",
+   "status": "PRIMARY",
+   "date": "2026-02-18",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Adversarial Review (3 agents: coder, reviewer, critic) tops LiveCodeBench vs a 5-agent baseline; naive AR shows false-consensus failure; explicit disagreement constraints fix it. Insight: shape of disagreement matters more than agent count.",
+   "numbers": "3 vs 5 agents",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:40",
+   "status": "PRIMARY",
+   "date": "2026-08-16",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Campaign operating model (locked per 'campaign law'): 3-agent Engine/Verdict/Miss; Verdict specifies fixes, Miss applies, Verdict re-verifies; fix-loop max 2 rounds; human validation call at H44-48.",
+   "numbers": "3 agents; fix-loop max 2",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:41",
+   "status": "DECISION",
+   "date": "2026-06-11",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Anthropic Managed Agents: stateless harness + durable session log + containers as cattle; p50 TTFT -~60%, p95 >90%. Mapped to unified-memory vault + isolated worktrees for crash recovery.",
+   "numbers": "p50 -60%, p95 >90%",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:54",
+   "status": "PRIMARY",
+   "date": "2026-04-08",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Anthropic multi-agent research: Opus lead + Sonnet subagents beat single Opus by 90.2%; agents ~4x tokens vs chat, multi-agent ~15x. Early errors: 50 subagents for simple queries.",
+   "numbers": "90.2%; 4x; 15x",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:68",
+   "status": "PRIMARY",
+   "date": "2025-06-13",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Anthropic 5 coordination patterns: generator-verifier, parallel teammates, orchestrator-workers, message bus, shared state; subagents sequential unless explicitly parallelized.",
+   "numbers": "5 patterns",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:82",
+   "status": "PRIMARY",
+   "date": "2026-04-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Multi-agent only justified when context exceeded, distinct skills, or parallelizable work; teams often find better single-agent prompting equals elaborate systems. Relevant caution for a small ~2-expert OCR plan.",
+   "numbers": "3 scenarios",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:96",
+   "status": "PRIMARY",
+   "date": "2026-01-23",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Agent Capsules: against LangGraph 14-agent pipeline 51% fewer fine-mode tokens, 42% fewer compound tokens at +0.020/+0.017 quality; vs DSPy 5-agent 19% fewer at parity, 68% fewer than MIPROv2 at +0.052. Source maps to 18x100=1800 calls.",
+   "numbers": "51%/42%; 19%/68%; 1800 calls",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:110",
+   "status": "PRIMARY",
+   "date": "2026-05-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Self-Evaluation Bias (arXiv 2607.25152): agent self-grading 'progress mirage': 54 cycles, claimed improvement every cycle, 56% had measured delta<=0; self-verdict gate eroded best state 19%; strong in-band judge accepted 44% regressions, rejected 38% improvements; vanished with artifact-verifiable success.",
+   "numbers": "54 cycles; 56%; 19%; 44%; 38%",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:124",
+   "status": "PRIMARY",
+   "date": "2026-07-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Implication for plan: gates must be out-of-band artifact-verifiable (hash leak gate HW0, held-out writers), not LLM self-judgement; Engine cannot self-verify.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:125",
+   "status": "DERIVED",
+   "date": "2026-07-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Framework selection recorded: LangGraph chosen over CrewAI/AutoGen for deterministic offline pipeline; CrewAI DIES (memory embedder needs training data, blocked until W6 freeze); OpenAI Agents SDK needs paid keys but pattern transfers (Agents-as-Tools).",
+   "numbers": "LangGraph v1.0 late 2025",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_210_langgraph_crewai_autogen_openai.md:55",
+   "status": "DECISION",
+   "date": "2025-08-09",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Pipeline design recorded: code-driven main pipeline (PPT_SPEC fixed DAG) with LLM-driven per-language engine selection only inside Engine; 'God Agent' (single agent for all langs) rejected.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_210_langgraph_crewai_autogen_openai.md:83",
+   "status": "DECISION",
+   "date": "2025-06-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Council-multi-model external critique (Codex/OpenAI) DIES: no paid keys; honest-empty (mark review absent) is correct; no local alternative specified.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_220_ecc_skills_orchestration.md:68",
+   "status": "REJECTED",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Probe22 execution law: sec 6.4 GT verdicts LOCKED, sec 10 closed; RFC pipeline must respect locked verdicts; engine configs fixed per language.",
+   "numbers": "probe22 sec6.4, sec10",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_220_ecc_skills_orchestration.md:26",
+   "status": "DECISION",
+   "date": "2026-06-11",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Loop-design-check: 5 failure modes (spinning, Goodhart-gaming verifier, wrong answer to completion, decidability etc.); machine-decidable goal = CER per language; judge independence; human red-line at validation call.",
+   "numbers": "5 failure modes",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_220_ecc_skills_orchestration.md:96",
+   "status": "DERIVED",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Gate timeline recorded: Gate 1 = validation call H44-48 (W6 training go/no-go decided AT the call); Gate 2 = W6 freeze after Wed 2026-10-01; campaign end ~04:23 IST Tue Sep 29; 'no training until W6 freeze' constraint.",
+   "numbers": "H44-48; 2026-10-01; 04:23 IST Sep 29",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_230_ecc_skills_continued.md:43",
+   "status": "DECISION",
+   "date": "2026-06-11",
+   "currency": "superseded",
+   "superseded_by": "Plan v4 (2026-10-01) now plans training with gates HW0/HW1/G-2.5/HW2"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Engine builds use existing backbones (indicphotoocr / sarvam_vision); indicphotoocr was 'in progress' as first MVP slice; replicate to 17 remaining langs.",
+   "numbers": "18 langs",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_230_ecc_skills_continued.md:57",
+   "status": "DERIVED",
+   "date": "2026-06-11",
+   "currency": "superseded",
+   "superseded_by": "Plan v4 scope: single-script handwritten Bengali + page expert"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Evidence law sec 9: every record tagged PRIMARY/MEASURED/DERIVED/CONTRADICTION/UNKNOWN/REJECTED/DEAD and names decision it can change; honest-empty (unified-memory stores only measured evidence); 18x100 = 1800 evidence records.",
+   "numbers": "1800",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_230_ecc_skills_continued.md:96",
+   "status": "DECISION",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Parallel lanes A (Engine 18 langs), B (Verdict), C (Miss+monitoring), up to 3x18=54 parallel agents with isolated worktrees.",
+   "numbers": "54 agents",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_270_ecc_final_batch.md:253",
+   "status": "DERIVED",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Formal-verification agent papers (2511.17330, VMAO 2603.11445) rejected for OCR: quality is empirical CER, not provable; verification-driven iterative loop pattern retained.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_240_arxiv_papers_advanced.md:40",
+   "status": "REJECTED",
+   "date": "2026-03-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "AOrchestra dynamic sub-agent creation REJECTED: fixed per-language engine configs preferred (probe22 locked verdicts).",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_240_arxiv_papers_advanced.md:68",
+   "status": "REJECTED",
+   "date": "2026-02-03",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "SPOQ prompt self-optimization treated as training-adjacent: prompt fixes applied by Miss, max 2 iterations, not Engine self-optimization.",
+   "numbers": "max 2 iterations",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_240_arxiv_papers_advanced.md:124",
+   "status": "DECISION",
+   "date": "2026-06-03",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Long-context benchmarks (Oolong 2511.02817, LongBench Pro 2601.02872) DEAD for OCR: per-sample independent, no aggregation.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_250_ecc_autonomous_arxiv.md:68",
+   "status": "DEAD",
+   "date": "2026-01-02",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "GAN-style continuous iteration rejected: campaign has fix-loop max 2 and is time-bounded (~04:23 Sep 29), not quality-bounded. Prime Agent self-improving harness: patterns survive, self-improvement blocked until W6.",
+   "numbers": "fix-loop max 2",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_250_ecc_autonomous_arxiv.md:138",
+   "status": "REJECTED",
+   "date": "2026-08-23",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Synchronous Engine->Verdict->Miss chosen for determinism; async rejected (coordination complexity), though Anthropic notes sync bottleneck.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_260_anthropic_blogs_detailed.md:40",
+   "status": "DECISION",
+   "date": "2026-03-24",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Eval thresholds stated for weak cells: Santali >55, Kashmiri >55, OldScan >55, Odia >80 (CER-per-language scorer; per Anthropic 'Demystifying evals': task+scorer+threshold).",
+   "numbers": "Santali>55, Kashmiri>55, OldScan>55, Odia>80",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_260_anthropic_blogs_detailed.md:54",
+   "status": "PLAN",
+   "date": "2026-01-09",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Infrastructure noise quantification: controlled environments, repeated runs; Probe22 18x100 lock = controlled baseline; honest-empty for unknown noise.",
+   "numbers": "18x100",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_260_anthropic_blogs_detailed.md:68",
+   "status": "DERIVED",
+   "date": "2026-02-05",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Budget constraints recorded: local models only, no paid keys; Sarvam vision capped at 54 calls; 1800 total calls (18x100); cost-tracking report required at validation call.",
+   "numbers": "54-call Sarvam cap; 1800 calls",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_270_ecc_final_batch.md:124",
+   "status": "DECISION",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "benchmark-optimization-loop (variant search per language) rejected because probe22 GT verdicts locked; Skill-comply/automation-audit-ops UNKNOWN, only if evidence of need.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_270_ecc_final_batch.md:110",
+   "status": "REJECTED",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "AdaptOrch per-language topology proposal: weak cells (Santali, Kashmiri, OldScan) hierarchical/more supervision; Odia parallel; routing from probe22 CER baseline. Speculative; not measured.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_270_ecc_final_batch.md:292",
+   "status": "UNKNOWN",
+   "date": "2026-02-18",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Verdict dual verification (santa-method): two independent passes e.g. CER + visual inspection or two different CER scorers; both must pass.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_270_ecc_final_batch.md:348",
+   "status": "PLAN",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent SDK facts (docs dated 2026-09-27): Python/TS SDK, AgentDefinition fields, hooks (command/http/mcp_tool/prompt/subagent), SubagentHandback v2.1.271+, skills discovery. Generic tooling; no OCR evidence.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b4_agent_tooling/claude_code_detailed.md:12",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Kimi K2 (1T/32B active), K3 (2.8T params, 1M ctx, open weights) judged DIES for offline: too large / needs paid API key; Kimi K2/K3 listed as UNKNOWN for weak-cell validation, no OCR evidence.",
+   "numbers": "1T/32B; 2.8T",
+   "source": "docs/research/level7/b/b4_agent_tooling/kimi_agents.md:54",
+   "status": "REJECTED",
+   "date": "2026-07-20",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Laya (NandhaKishorM) non-autoregressive System-1 router ~33ms, 100+ langs, detect_script, ece_score: candidate for script routing / confidence gating; unmeasured on OCR. Layla is a different project. ScopeGate: capability gating != per-call authorization.",
+   "numbers": "~33ms; 100+ langs",
+   "source": "docs/research/level7/b/b4_agent_tooling/laya_detailed.md:12",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MCP registry/OAuth 2.1, Obsidian agent plugins, OpenCode skills/ECC agents (26 agents/26 cmds vs variant 12 agents/31 cmds), Vercel AI SDK/LangChain.js/Cursor SDK: generic tooling docs with no OCR content; Cursor SDK DIES (paid key).",
+   "numbers": "26 agents; 12 agents; 31 cmds",
+   "source": "docs/research/level7/b/b4_agent_tooling/opencode_ecc.md:68",
+   "status": "DEAD",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 lacks an out-of-band, artifact-verifiable eval gate design; Self-Evaluation Bias shows self/in-band LLM judges accept 44% regressions and reject 38% improvements (artifact_200:124). HW0 hash gate is good; add rule that no LLM self-grading decides model promotion.",
+  "Plan v4 does not carry the 'fix-loop max 2 rounds' + independent Verdict + human validation-call discipline or the evidence-status law (PRIMARY/MEASURED/DERIVED...) from the campaign (artifact_230:96, artifact_220:82).",
+  "Weak-cell thresholds (Santali>55, Kashmiri>55, OldScan>55, Odia>80) and baselines (Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01) from the 18x100 probe are absent from Plan v4 (artifact_200:12, artifact_260:54).",
+  "Plan v4 should state budget/cost caps if any API experts are used (Sarvam 54-call cap, 1800-call lock; artifact_270:124) and the no-paid-key constraint's effect on Gemini/Sarvam comparators.",
+  "Plan v4 dates (2026-10-01) postdate the 'W6 freeze after Wed 2026-10-01 / no training until W6' campaign law (artifact_230:43); the plan should explicitly record that W6 training is now authorised via G-2.5 and what superseded the freeze.",
+  "This partition contains almost no OCR-model research; B3/B4 are agent-orchestration/tooling and give no printed-architecture, handwriting, or training-recipe evidence. Orchestration needs for Plan v4 are small (2 experts + fallback); Anthropic guidance warns multi-agent coordination often not worth it (artifact_200:96)."
+ ],
+ "contradictions": [
+  "Campaign law 'no training until W6 freeze' (artifact_230:43, artifact_210:42) vs Plan v4 training PARSeq/Handwriting Expert after G-2.5 gate.",
+  "artifact_200:12 and artifact_250:54 state cascade radius 0.9 to 4.7 (depth 3-7) but artifact_250/270 later claim depth-3 radius '~0.9-1.5' (artifact_270:306), an unsupported extrapolation.",
+  "artifact_270:253 cites '3 lanes x 18 langs = 54 parallel agents' while the Sarvam cap is also 54 calls (artifact_270:124); distinct quantities with same number, easy to conflate."
+ ],
+ "open_items": [
+  "Whether Laya router or intent-reasoning routing helps script/page routing is untested (UNKNOWN).",
+  "Local-model alternative to external critique at validation call not specified (artifact_220:71).",
+  "Source of weak-cell numbers (probe22 metric: CER vs accuracy; 'Santali 53.91') not defined in this partition; verify against probe22 files."
+ ]
+}

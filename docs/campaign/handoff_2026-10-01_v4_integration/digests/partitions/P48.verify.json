@@ -1,0 +1,292 @@
+{
+ "checked": 55,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": "17,689 is derived (17,289+400 dead symlinks, proto-102:35-36), not stated literally."
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "corrected",
+   "correction": "Cited lines 99-104 say only that untracked src/, tests/ and configs/ are archived under rule 17; the '46-49 files' count is not in the cited text or anywhere in the three files. Drop the number."
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "corrected",
+   "correction": "Graph counts 8,669/9,890/802 (2026-10-01 04:47) are at proto-107-gold-repo-consolidation.md:22, not proto-98; 6,796/7,633/597 figures are in proto-98:47-49."
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-107 records graphify 8,669 nodes / 9,890 edges / 802 communities built 2026-10-01 04:47.",
+   "numbers": "8,669/9,890/802",
+   "source": "_claude_memory/proto-107-gold-repo-consolidation.md:22",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

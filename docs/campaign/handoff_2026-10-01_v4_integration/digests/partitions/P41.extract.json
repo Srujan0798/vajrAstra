@@ -1,0 +1,431 @@
+{
+ "partition": "P41",
+ "files": [
+  {
+   "path": "/home/user/boss/_reports/analysis/DUPLICATE_MAP.md",
+   "total_lines": 164,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_reports/analysis/FILE_INVENTORY.md",
+   "total_lines": 353,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_reports/analysis/MD_CONSOLIDATION_PLAN.md",
+   "total_lines": 262,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_reports/analysis/MEMORY_CONSOLIDATION.md",
+   "total_lines": 192,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_reports/analysis/MEMORY_FINAL.md",
+   "total_lines": 138,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Only one hard duplicate in 203 MD files: 'OCR_AGENT_MEMORY_FEED copy.md' (11,173 B) vs master (167,059 B); recommended delete after SHA256 archive (L4).",
+   "numbers": "203 files; 1 delete; ~11 KB",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:7-14",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Root vs docs/architecture pairs (W5_STRATEGY_OPTIONS 3,754 vs 19,443 B; W5_BEAT_SARVAM_PLAN 3,652 vs 14,324 B; VINAY_MEETING_PACKET 24,427 vs 5,899 B) kept as different audiences.",
+   "numbers": "3 pairs",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:18-47",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "STRATEGY_VINAY_TOMORROW.md + VINAY_CTA.md merged into VINAY_MEETING_PACKET.md (24,427 B) in Phase 2 cleanup; sources archived with SHA256 then deleted.",
+   "numbers": "24,427 B",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:51-55",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INTEGRATED-ELITE-STACK.md (13,275 B, wiring) vs b5 ELITE_REPO_REFRESH_2026-09-27 (245 lines, source survey): keep both.",
+   "numbers": "25+ elite repos",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:59-66",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "b4_agent_tooling: 32/179 records exact duplicates across X.md/X_detailed.md pairs; merge would remove ~84 records + ~13 files; advisory only.",
+   "numbers": "32/179; ~84 records; 13 files",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:70-83",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "level2/models/<engine>/json (4,000 JSON) vs level2/out (4,001 JSON + README) SHA256-verified identical; keep both (Phase 6, 2026-09-29).",
+   "numbers": "4,000 vs 4,001",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:120-124",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "12 W6-prep files carry identical W6 PAUSE banner (Miss agent, 2026-09-29, user directive): 9 probe22 QLORA/MLX/MEMORY/LEADERBOARD_REFRESH files + W6_QLORA_SPEC + KILL_CRITERIA + W6_HANDOFF.",
+   "numbers": "12 files",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:128-146",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W6 PAUSE per BOSS_CONCERNS \u00a759: do NOT execute training/mlx-tune/mlx_vlm/QLoRA; after Vinay: resume on Option A, archival on Option B, superseded on Option C.",
+   "numbers": "",
+   "source": "_reports/analysis/MD_CONSOLIDATION_PLAN.md:~170-195",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MD corpus in scope: 203 files; KEEP 184, KEEP(PAUSED) 12, MERGE->archive 7, DELETE 1; ~2.5 MB MD excluding sealed and LEDGERs (~1.7 MB alone).",
+   "numbers": "203;184;12;7;1",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~330-345",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Count discrepancy: FINAL_VERDICT_2026-09-27 claims b2 lane 258 records; b2_all_artifacts.jsonl has 129. Unresolved, deferred to Verdict agent.",
+   "numbers": "258 vs 129",
+   "source": "_reports/analysis/MD_CONSOLIDATION_PLAN.md:~Action 11; FILE_INVENTORY.md:KEY FLAGS 1",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Sealed directories (never edit, L10): level2/out 4,001 files; level2/reports 48; level2/probe22/out 13,289 (1,227 x 11 engine packs); arc_level_1 413; Datasets/akshardrishti_official 34,871.",
+   "numbers": "4,001/48/13,289/413/34,871",
+   "source": "_reports/analysis/MEMORY_FINAL.md:104-112",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe manifest = 1,227 items LOCKED; 11 engines scored; sheet.csv 12,324 rows LOCKED.",
+   "numbers": "1,227 items; 11 engines; 12,324 rows",
+   "source": "_reports/analysis/MEMORY_FINAL.md:38-39",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Section 6.4 GT verdicts LOCKED: BARRED = ks/mni/ur/sat/mr + ne-PDF (ne R5 lock; gt_forensics trust scores) - GT unreliable for these languages.",
+   "numbers": "BARRED: ks,mni,ur,sat,mr,ne-PDF",
+   "source": "_reports/analysis/MEMORY_FINAL.md:36",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam 87.39 headline is DEAD for direct citation per OBITUARIES O-02..O-05 (benchmark numbers do not transfer to probe22).",
+   "numbers": "87.39",
+   "source": "_reports/analysis/MEMORY_FINAL.md:40",
+   "status": "DEAD",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Weak cells (sat, ks, OldScan, or) canonical at LEVEL7_RESEARCH_CAMPAIGN \u00a711 + EVIDENCE_SUMMARY \u00a74; R2 Nastaliq (ks/ur), R3 Ol Chiki/Mayek synthetic (sat/mni, NO execution per \u00a79), R4 OldScan restoration are the attack briefs.",
+   "numbers": "R2 32,008 B; R3 28,165 B; R4 26,216 B",
+   "source": "_reports/analysis/MEMORY_CONSOLIDATION.md:~85; FILE_INVENTORY.md:~100-103",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "R7_W6_TRAINING_TREE (15,898 B): parameterized W6 training decision tree with N0-N4 gates.",
+   "numbers": "N0-N4",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~104",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "KILL_CRITERIA.md (16,058 B): K1-K4/K5 pre-declared gates with USER-set parameters; W6 QLoRA scope is Kok + Pa only (K1-LOCKED 2026-09-29).",
+   "numbers": "K1-K5",
+   "source": "_reports/analysis/MEMORY_CONSOLIDATION.md:~30-33",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 plan if Option A approved: 2026-10-01 to 10-03 QLoRA on Kok+Pa subset; 10-04 freeze + final deliverable. Vinay meeting 2026-09-30 was the gate (Option A/B/C + budget).",
+   "numbers": "",
+   "source": "_reports/analysis/MEMORY_FINAL.md:127-132",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": "Plan v4 2026-10-01 (HW training)"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QLoRA training data plan: 200-row SFT jsonl 80/10/10; eval gate McNemar + Wilson 95% CI; MLX stack installed mlx 0.32.3 + mlx-vlm 0.7.4 + mlx-tune 0.6.0 (Mac-only).",
+   "numbers": "200 rows; 80/10/10",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~236-241",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Compute budget file COMPUTE_BUDGET_ESTIMATE.md (7,166 B): tiers wrap-only / QLoRA / cloud; $0 default for Vinay; VINAY packet earlier cited ~INR 1005 budget ask.",
+   "numbers": "$0 default; ~INR 1005",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~26; DUPLICATE_MAP.md:45",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "c1 notes: NOTE_LORA_VRAM (2B VLM VRAM math), NOTE_QUANT_INDIC (quant x Indic script threat), NOTE_SERVE_COST ($/1M pages), NOTE_TRTLLM, NOTE_EDGE (Jetson) exist as research inputs.",
+   "numbers": "",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~section 8 c1",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "R6_COMPETITION_INTEL (18,841 B) and c2 LEDGER (77,241 B; 106 records) hold Bhashini AksharDrishti hackathon intel (VERIFIED vs INFERENCE).",
+   "numbers": "106 records",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~102, section 8 c2",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "docs/legal/LICENSE_AUDIT.md (R60) audits licences for 10 engines + training-data risk; canonical licence audit.",
+   "numbers": "10 engines",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~section 2",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Probe is 22 Eighth-Schedule languages (W3_PROBE_SCHEMA, locked 2026-09-25), 18-lang sample plan: 1,227 items post-purge; PER_LANG_ROUTING = 18-lang wrap-only routing (winners + W6 GT verdict).",
+   "numbers": "22 langs; 18 langs; 1,227",
+   "source": "_reports/analysis/FILE_INVENTORY.md:~section 1-2",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "W5 Option A (RECOMMENDED): wrap-only + QLoRA on kok+pa; 2-stage recipe; docs/ version 'Concrete Plan to Beat 87.39' with 4 scenarios.",
+   "numbers": "",
+   "source": "_reports/analysis/DUPLICATE_MAP.md:29-36; FILE_INVENTORY.md:section 1",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": "Plan v4 (handwriting pivot)"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Lane ledgers: Lane A OCR SOTA LEDGER 984+ records (670,783 B); Lane B ~659; Lane C 436 (c1 ~110, c2 106, c3 115, c4 100); R1 teardown Sarvam 2.1 vs PaddleOCR-VL 1.6.",
+   "numbers": "984/659/436",
+   "source": "_reports/analysis/FILE_INVENTORY.md:section 4,6,8",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "level2 gates B1 DocTr+ParSeq, B3 tessdata_best, B4 paddle server det, B12 ensemble voting exist as gate notes in level2/research/gates.",
+   "numbers": "",
+   "source": "_reports/analysis/FILE_INVENTORY.md:section 13",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Evidence law statuses PRIMARY/MEASURED/DERIVED/CONTRADICTION/UNKNOWN/REJECTED/DEAD canonical at OCR_AGENT_MEMORY_FEED \u00a79 + LEVEL7_RESEARCH_CAMPAIGN \u00a79; hard rules: no downloads (L9), 54-call Sarvam cap, honest-empty.",
+   "numbers": "54-call cap",
+   "source": "_reports/analysis/MEMORY_FINAL.md:35,42; MEMORY_CONSOLIDATION.md:~SSOT map",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "3-agent ops model (Engine/Verdict/Miss), fix-loop max 2 rounds; D1-D4 locked decisions at OCR_AGENT_MEMORY_FEED \u00a712 / campaign \u00a710.",
+   "numbers": "D1-D4",
+   "source": "_reports/analysis/MEMORY_FINAL.md:34,37,41",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "24h cleanup DONE: 97.3 MB freed, 234 files archived (earlier CLEANUP_EXECUTION_LOG: 95 files, 117 MB freed); graph 3990 nodes/4681 edges.",
+   "numbers": "97.3 MB; 234; 3990/4681",
+   "source": "_reports/analysis/MEMORY_FINAL.md:45; FILE_INVENTORY.md:section 1,15",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Memory surface ~750 KB across 30+ files (9 canonical files ~376 KB, 4,388 lines); OCR_AGENT_MEMORY_FEED grew 167,059 B/1,046 lines to 174,260+ B/1322 lines with \u00a719 SSOT map (44 facts).",
+   "numbers": "750 KB; 376 KB; 44 facts",
+   "source": "_reports/analysis/MEMORY_FINAL.md:15,24; MEMORY_CONSOLIDATION.md:~15,60",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MEMORY_FINAL (2026-09-29 22:30) says repo MD files are SSOT and no external memory needed - conflicts with Plan v4 memory proto-108 dated 2026-10-01 and its handwriting pivot.",
+   "numbers": "",
+   "source": "_reports/analysis/MEMORY_FINAL.md:118",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": "Plan v4 proto-108"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "L1 do not re-ask 2026-09-25 meeting; L4 archive-never-delete; L9 no downloads without approval; L10 sealed files. L9 conflicts with Plan v4 plan to use IndicPhotoOCR checkpoints / IIIT-INDIC-HW-WORDS.",
+   "numbers": "",
+   "source": "_reports/analysis/MEMORY_FINAL.md:67-70",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Consolidation actions: banner W6_HANDOFF superseded by W6_QLORA_SPEC (2026-09-29 07:30 IST newer, K1-locked); cross-link BOSS_CONCERNS<->SESSION_DIRECTIVES; move root W5 files to docs/research/level7 - recommended not executed.",
+   "numbers": "",
+   "source": "_reports/analysis/MEMORY_CONSOLIDATION.md:~120-140",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open: MD_CONSOLIDATION_PLAN says execute Action 1 only, asks user yes before delete; also lists LAYA_GATE_DECISIONS.md and PAPERTHIN_AUDIT.md as sibling outputs.",
+   "numbers": "",
+   "source": "_reports/analysis/MD_CONSOLIDATION_PLAN.md:end",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "FINAL_VERDICT_2026-09-27 (14,899 B) is locked zero-tolerance snapshot: 9 layers verified, all 11 engines DONE; H48 hostile pass + SANTA_METHOD adversarial review (R1 FOR + R2 AGAINST) of LEADERBOARD; 20-item HUMAN_SPOTCHECK_PACKET (gu_o005 first).",
+   "numbers": "11 engines; 20 items",
+   "source": "_reports/analysis/MEMORY_FINAL.md:22; FILE_INVENTORY.md:section 4",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Eval discipline artefacts: McNemar full matrix, abstention_audit, santa_method_cross_check, transfer_obituaries, FIX_SPECS (10 active FS-VERDICT-H48-001..010; R2 leaderboard 8 specs).",
+   "numbers": "10; 8",
+   "source": "_reports/analysis/FILE_INVENTORY.md:section 10-11,4",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "PROTOCOL_1_RESEARCH (Gemma-4 competition protocol) and VAJRASTRA_INTERROGATION_PROTOCOL (12-Sep) flagged merge->archive; PPT_FULL_DUMP, DEEP_LIVE_RESEARCH likewise superseded.",
+   "numbers": "27,356 B;33,394 B",
+   "source": "_reports/analysis/FILE_INVENTORY.md:section 1,3",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 omits the BARRED GT list (ks/mni/ur/sat/mr + ne-PDF) and the sealed-dir/L10 rules (MEMORY_FINAL.md:36,70,104-112); any eval touching them needs the leak gate.",
+  "Plan v4 does not cite KILL_CRITERIA K1-K5 or R7 N0-N4 gates (MEMORY_CONSOLIDATION.md:~30; FILE_INVENTORY.md:~104); HW0-HW2 gates should be reconciled with them.",
+  "Weak-cell attack briefs R2/R3/R4 exist (FILE_INVENTORY.md:~100-103) but Plan v4 has no printed 22-language track using them.",
+  "L9 no-downloads law (MEMORY_FINAL.md:69) vs Plan v4 checkpoint/dataset use: needs explicit user approval gate.",
+  "Evidence-status law and Sarvam 87.39 DEAD status (MEMORY_FINAL.md:40) should govern Plan v4 benchmark citations (e.g. 86.4 Sarvam small_rep, Bodhan numbers)."
+ ],
+ "contradictions": [
+  "b2 records 258 (FINAL_VERDICT) vs 129 (disk) - FILE_INVENTORY.md KEY FLAGS 1",
+  "MEMORY_FINAL says MD files SSOT / W6 QLoRA Kok+Pa plan vs Plan v4 handwriting pivot 2026-10-01",
+  "BOSS_CONCERNS counts differ: 50+/52 items vs 73 vs ~80/81 across files (MEMORY_CONSOLIDATION.md vs FILE_INVENTORY.md vs MEMORY_FINAL.md:17)",
+  "FINAL_REPORT vs FINAL_VERDICT byte sizes (16,317 vs 14,899) - different files"
+ ],
+ "open_items": [
+  "Vinay meeting 2026-09-30 outcome (Option A/B/C) not recorded in these files",
+  "W6 PAUSE state: resume/archival/superseded undecided",
+  "b2 record count reconciliation",
+  "Delete of OCR_AGENT_MEMORY_FEED copy.md awaiting user yes"
+ ]
+}

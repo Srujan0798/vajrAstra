@@ -1,0 +1,584 @@
+{
+ "partition": "P03",
+ "files": [
+  {
+   "path": "docs/research/level7/CALL_PACKET.md",
+   "total_lines": 483,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "W6 fine-tuning PAUSED; Vinay meeting 2026-09-30 is gating step; W5 freeze after Wed 2026-10-01; no training/mlx/QLoRA scripts to run until then",
+   "numbers": "W5 freeze 2026-10-01; W6 freeze 2026-10-04",
+   "source": "docs/research/level7/CALL_PACKET.md:4",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Vinay options: A = W6 QLoRA kok+pa + wrap-only (~3-4h, $0, low risk, recommended); B wrap-only (~30min); C full QLoRA 4 SAFE langs + backbone swap (~7-8h, medium-high risk, highest ceiling)",
+   "numbers": "A 3-4h/$0; B 30min; C 7-8h",
+   "source": "docs/research/level7/CALL_PACKET.md:64",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Backbone candidates if A/C: GLM-OCR 0.9B (primary) / Qwen2.5-VL-3B / MonkeyOCRv2; Option C = backbone swap supersedes this file's spec",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:80",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Verdict agent annotation recommends Alt-D (hybrid wrap + script router with specialists, R4 restoration + Sarvam-API subsidy on sat/mni) over A; 5 alternatives A-E; realistic target 85-88 avg word-acc NOT 90+",
+   "numbers": "85-88 avg word-acc; budget $0-12",
+   "source": "docs/research/level7/CALL_PACKET.md:98",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Beat-Sarvam analysis: we win OldScan via R4 and brx/or/mai via tesseract/surya; lose sat/mhi (Sarvam-only physics), hi/ur/sa; tie Tamil/Hindi/ks narrow",
+   "numbers": "target 85-88 vs Sarvam Vision 2.1 87.39",
+   "source": "docs/research/level7/CALL_PACKET.md:99",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam Vision 2.1 headline 87.39 Indic OCR Bench (confirmed via ETEnterpriseAI 2026-09-26 + Times of India); also cites 84.3 olmOCR-Bench English subset, 87.3 olmOCR-Bench",
+   "numbers": "87.39; 84.3; 87.3",
+   "source": "docs/research/level7/CALL_PACKET.md:322",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Per-language Sarvam scores (Santali 53.91 / Kashmiri 54.82 / OldScan 55.3 / Odia 80.01) are publicly unverifiable; DEAD-for-decisions per OBITUARIES O-02..O-05 (transfer obituary law 9.2)",
+   "numbers": "53.91/54.82/55.3/80.01",
+   "source": "docs/research/level7/CALL_PACKET.md:322",
+   "status": "DEAD",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Weak-cell agenda still cites Santali 53.91 / Kashmiri 54.82 / OldScan 55.3 / Odia 80.01 as 'directional only' despite obituaries declaring them dead",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:108",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Project scope here: 18 langs x 100 samples = 1,227 items; 11 engines scored; sheet.csv 12,324 rows (10x1227+54 sarvam main) LOCKED; manifest 1,283 items",
+   "numbers": "1227 items; 12,324 rows; 1,283",
+   "source": "docs/research/level7/CALL_PACKET.md:35",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Best non-Sarvam engine = surya overall CER 0.3849 (WER 0.5956), 1257 packs (1227+30 EN); Sarvam Vision 0.2400 CER on only 54-call cap (3/lang), directional",
+   "numbers": "surya 0.3849; sarvam 0.2400",
+   "source": "docs/research/level7/CALL_PACKET.md:127",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-engine overall CER: tesseract_bilingual 0.4853, tesseract_indic 0.4870 (= openbharatocr byte-identical), easyocr 0.4941, indicphotoocr 0.5586, paddleocr_indic 0.6562, rapidocr 0.6692, anuvaad_tesseract 0.7114, doctr 0.8691",
+   "numbers": "see claim",
+   "source": "docs/research/level7/CALL_PACKET.md:140",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Effective independent engines = 10 (openbharatocr exact byte-identical duplicate of tesseract_indic; tesseract_bilingual byte-identical family)",
+   "numbers": "10 effective of 11",
+   "source": "docs/research/level7/CALL_PACKET.md:129",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "paddleocr_indic honest-empty on 12 langs (536 missing); rapidocr 343 missing, 7 langs honest-empty; anuvaad_tesseract 617 missing, Devanagari+Eng only; doctr Latin-mojibake gated per G-B1",
+   "numbers": "536/343/617 missing",
+   "source": "docs/research/level7/CALL_PACKET.md:149",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya wins 9 langs n>=50 (bn,brx,hi,kok,ks,mai,pa,sd,ur); tesseract-family wins mr,or,ne; easyocr wins sa; as/doi/mni/sat have n<50 so no winner claim",
+   "numbers": "9 / 3 / 1 / 4",
+   "source": "docs/research/level7/CALL_PACKET.md:223",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "line 156 says surya wins 5/18 langs statistically (brx,ks,kok,hi,mai) - internal inconsistency"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya per-lang CER: brx 0.153, mai 0.030, pa 0.145, hi 0.220, sd 0.315, bn 0.476, kok 0.425, ks 0.589, ur 0.623",
+   "numbers": "see claim",
+   "source": "docs/research/level7/CALL_PACKET.md:225",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-lang CER table highlights (tesseract_indic): hi 0.877 (surya 0.220), mai 0.058 (surya 0.030), mr 0.205, ne 0.122, or 0.256, pa 0.226 (surya 0.145), sd 0.468 (surya 0.315), ur 0.792 (surya 0.623)",
+   "numbers": "n=100 hi/mai/ur; or 66; pa 90; sd 75",
+   "source": "docs/research/level7/CALL_PACKET.md:177",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam Vision 3-sample per-lang CER: hi 0.084, sa 0.019, mni 0.026 (n=2), as 0.001 (n=2), doi 0.056, pa 0.160, gu 0.222, kok 0.239, mai 0.257, or 0.447, ks 0.630, ur 0.533, sat 0.216 (n=2)",
+   "numbers": "n=2-3",
+   "source": "docs/research/level7/CALL_PACKET.md:173",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya on sa = 1.000 honest-empty (no Ol Chiki support noted; 99 items); easyocr 0.168, paddleocr 0.171, tesseract_bilingual 0.237 best on sa",
+   "numbers": "sa n=99",
+   "source": "docs/research/level7/CALL_PACKET.md:186",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "sat (n=18): all local engines poor - indicphotoocr 0.613 best local, tesseract 0.865, surya 0.736; sarvam 0.216 (n=2). mni (n=14): tesseract 0.845, surya 0.967, sarvam 0.026 (n=2)",
+   "numbers": "sat 18; mni 14",
+   "source": "docs/research/level7/CALL_PACKET.md:187",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ks (Kashmiri, Nastaliq): surya 0.589 best local (McNemar p<0.0006, beats 9/9 opponents), easyocr 0.678, tesseract 0.781, indicphotoocr 0.926; rapidocr emits 71% Arabic share, tesseract 41-42%",
+   "numbers": "n=100",
+   "source": "docs/research/level7/CALL_PACKET.md:275",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Zero local engines emit Ol Chiki on sat; only sarvam_vision does -> sat/mni are Sarvam-only cells; D4 'no repair for mni' = hidden Sarvam subsidy, user must consent",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:331",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia: GT usable (91.7% visual pass); tesseract-family wins (0.256) vs surya 0.276 vs indicphotoocr 0.353; QLoRA candidate only if estimator-law gap exists (n=66)",
+   "numbers": "or n=66",
+   "source": "docs/research/level7/CALL_PACKET.md:277",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan 55.3 cell is cross-language; restoration lane (A3/R4) maps directly; best Delta candidates GLM-OCR / dots.mocr / Unlimited-OCR per INTEGRATED-ELITE-STACK.md; verdict wrap-only, restoration post-hackathon",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:276",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya Odia 0.276 and surya pa 0.145: 'Surya 0/100 pa honest-empty' alarm raised in santa pass 2 (pre-completion) but final table shows surya pa 0.145 -> earlier concern resolved",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:349",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "line 185 final surya pa 0.145 n=90"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ks Nastaliq/gu/ne PDF tiers: R5 Kashmiri PDF trust 45.0/100 (earlier wrong 29); ne trust 26.6",
+   "numbers": "45.0; 26.6",
+   "source": "docs/research/level7/CALL_PACKET.md:319",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT verification (237 visuals, machine-assisted; 233 stratified + 4 ceiling): BARRED tier-complete FAIL: ks PDF 100%, gu PDF 100%, ne PDF 100%, mni fill 100%, sat fill 85%, ur PDF 90%, mr PDF 62.5%",
+   "numbers": "237 items",
+   "source": "docs/research/level7/CALL_PACKET.md:282",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Tier-complete PASS: as 0%, brx 20% borderline, doi 0%, kok 0%, mai 10%, ne fill 5%, or 0-10.5%, pa 0%, sd 12.5%; mni/sat fill-only garbage GT so leaderboard rows are agreement-only",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:283",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "No language has both pair and PDF tiers -> section 6.2 falsification (gap) test inapplicable by design; tesseract hi/bn pairs fail on native-res scans but pdf renders near-perfect (resolution confound)",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:285",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "mr fail rate rose 57.1%->62.5% (3/7 -> 3/8) after ceiling-sample fix, strengthening BAR; per_language_summary corrected brx 24->25, mr 7->8, ne 21->22, sd 7->8",
+   "numbers": "62.5%",
+   "source": "docs/research/level7/CALL_PACKET.md:378",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Scorer rules 6.5: uncapped CER, empty=1.0 counted, single denominator; 6.6 ablation raw 0.6707 vs normalized 0.6692 (delta 0.0015), normalization masks nothing",
+   "numbers": "0.6707/0.6692",
+   "source": "docs/research/level7/CALL_PACKET.md:159",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam 3-sample 0.24 CER is below its own 87.39 indicator, suggesting harness/scorer differs from Sarvam's; Wilson CI at n=3 enormous (half-width >50pp); not comparable to 1227-item engines",
+   "numbers": "n=3",
+   "source": "docs/research/level7/CALL_PACKET.md:341",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "LEADERBOARD flaws: coverage table not CER table, '19/18 langs' labelling bug (5 rows, EN sanity counted), no Wilson CIs, 'non-empty' conflates Latin gibberish with correct script (needs script-correct column), orchestrator not Engine generated it",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:346",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Resolution confound/graph audit: GRAPH_REPORT hit mandela patterns #4 tautology, #6 shared-pool bias (167 files ~339K words), #2 partial; graph = navigation only, god-node claims need disk-truth numbers",
+   "numbers": "167 files/339K words",
+   "source": "docs/research/level7/CALL_PACKET.md:309",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Factchk: 35 numbers verified, 4 FAILs fixed (stale status 994/1227, 7,416 rows, 6/10 engines; Kashmiri trust 29->45.0; 10,434->10,432 human pairs = 2938 bn+3500 hi+494 sa+3500 en)",
+   "numbers": "10,432",
+   "source": "docs/research/level7/CALL_PACKET.md:313",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hate on D3: 20-item spot-check at 30s/item is a stamp; mni 100% fail may be agent vision mislabeling; target high-risk items (e.g. ks_o061 pipe_danda_ratio 1.00); gu_o005 first",
+   "numbers": "20 items/10 min",
+   "source": "docs/research/level7/CALL_PACKET.md:330",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "D1 locked: QLoRA on SAFE langs, but two versions conflict: kok/mai/or/pa (n>=50) in sec 4/5 vs UPDATED kok+pa ONLY (mai+or killed by K1) at line 36",
+   "numbers": "kok/mai/or/pa -> kok+pa",
+   "source": "docs/research/level7/CALL_PACKET.md:36",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": "line 232/246 not updated"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Hate on D1: SAFE set with n>=50 is only 4 langs (as 19, brx 67 borderline, doi 27 are n<50) so QLoRA moves <=4 of 18 cells; collapses to wrap-only if no >3pt gap on SAFE langs",
+   "numbers": "4 of 18",
+   "source": "docs/research/level7/CALL_PACKET.md:328",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 feasible: 3-4B @ 4-bit ~3GB MLX local QLoRA; system ~43% free, swap ~97%; 459-801 W6 SFT-eligible items; memory VERIFY at call time; reclaim 11.5 GB inactive -> 12.6 GB available; K4 memory peak T9=12.6 GB, install T8=5min",
+   "numbers": "459-801 items; 12.6 GB",
+   "source": "docs/research/level7/CALL_PACKET.md:256",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Infeasible under rules: cloud GPU rental (no budget), new backbone invention (section 9), paid APIs beyond Sarvam 57-cap, training on barred langs (ks/mni/mr/sat/ur + ne PDF-tier), sarvam_fill in SFT/RLVR",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:257",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Wrap-only baseline = section 6.2 tier routing + per-script engine routing + restoration pre-pass (R4); no compute; guaranteed deliverable before W5 freeze",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:255",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Kill criteria K1-K5 listed with blank thresholds: K1 RLVR if raw-vs-normalized rank inverts; K2 PDF-tier SFT if 6.4 fail >___% (protocol 20%); K3 Otsu vs Sauvola; K4 script router; K5 obituary-driven decisions",
+   "numbers": "thresholds blank; K2 20%",
+   "source": "docs/research/level7/CALL_PACKET.md:286",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "K4 later redefined as install/memory/smoke-test gates (T8=5min, T9=12.6 GB), conflicting with K4 'kill script router' on line 289",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:46",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D2: Sarvam EN column 3 calls executed (en_s001-3); EN CER 0.1078 WER 0.2459 word_acc 75.41%; Wilson 95% CI [0.188,0.468]; broken_flag true (>0.05)",
+   "numbers": "57 packs = 54+3",
+   "source": "docs/research/level7/CALL_PACKET.md:402",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D4: ks/mni/sat/ur/mr + ne PDF-tier barred from W6 fine-tune; sat+ks micro-repair 5-10 pages each W5 only if freeze safe; mni/mr/ur no repair; ne fill-tier usable",
+   "numbers": "5-10 pages",
+   "source": "docs/research/level7/CALL_PACKET.md:235",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-script routing Tier-1: Devanagari->surya then tesseract fallback; Perso-Arabic (ur/sd/ks)->surya; Bengali-Assamese -> surya/indicphotoocr for bn, sarvam for sat/mni; or & pa -> tesseract-family (surya 0.145 on pa); EN -> surya 0.1514",
+   "numbers": "McNemar p<0.008",
+   "source": "docs/research/level7/CALL_PACKET.md:260",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "EN sanity CER: sarvam 0.1078, surya 0.1514, paddleocr_indic 0.2495, doctr 0.3957, rapidocr 0.4535 (restored from 1.0, run_probe.py:291), easyocr 0.6036, indicphotoocr 0.6710, tesseract 0.8077, anuvaad 1.0000",
+   "numbers": "word acc surya 73.99%",
+   "source": "docs/research/level7/CALL_PACKET.md:437",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya 'EN best 0.1514' vs table where doctr 0.3957 is better than easyocr/indicphotoocr/tesseract; line 268 claims surya beats tess 0.81/easyocr 0.60/indic 0.67 (consistent)",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:268",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Packet contains NO handwriting evidence: all 1,227 probe items are printed/PDF/scan pages across 18 langs; no word-level handwritten Bengali metrics, no IIIT-INDIC-HW, no PARSeq",
+   "numbers": "bn only 0.476 surya / 0.657 indicphotoocr",
+   "source": "docs/research/level7/CALL_PACKET.md:250",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "bn page-level CER: surya 0.476 (n=100), indicphotoocr 0.657 runner-up; tesseract/other not listed in winners table",
+   "numbers": "bn n=100",
+   "source": "docs/research/level7/CALL_PACKET.md:206",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Process: orchestrator-built LEADERBOARD flagged as roles-conflict; hard laws: section 9 no downloads, section 8 no training until W5 freeze; Verdict CANNOT-edit list level2/out, level2/reports, W6 spec files",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:18",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Pending user approvals at end of packet: mlx-tune+mlx-vlm install and memory reclaim (though line 44-45 say already APPROVED+EXECUTING) - status inconsistency",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:480",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Disk-truth anchors: sheet.csv, manifest.json, LEADERBOARD_REFRESH_2026-09-29.md, QLORA_READINESS.md, PER_LANG_ROUTING.md, COMPUTE_BUDGET_ESTIMATE.md ($0), EVIDENCE_SUMMARY.md",
+   "numbers": "",
+   "source": "docs/research/level7/CALL_PACKET.md:84",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Lane B 9 compliance record counts inconsistent: 436 records (line 313/361) vs 258 records (line 467); fix-specs 1,032 fields added (line 130)",
+   "numbers": "436 vs 258",
+   "source": "docs/research/level7/CALL_PACKET.md:467",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Project framed as Bhashini AksharDrishti hackathon, team Vaultstack AI, target 'Beat Sarvam Vision 2.1'; benchmark framed as 18 printed/page languages incl. 6 barred",
+   "numbers": "18 langs, 6 barred",
+   "source": "docs/research/level7/CALL_PACKET.md:56",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "docs/research/level7/CALL_PACKET.md:35 Entire packet is a printed-page 18-language probe (1,227 items, 11 engines); Plan v4 (handwritten Bengali words, PARSeq) does not reuse any of this engine leaderboard, routing table, or GT-tier bars",
+  "docs/research/level7/CALL_PACKET.md:127-223 Measured printed baselines (surya 0.3849 best non-Sarvam, wins 9 langs; tesseract-family 0.485) exist as fallback/Page-Expert comparison but Plan v4 cites only Sarvam bench/surya 0.566; plan should adopt this per-lang engine routing for Page Expert/fallback",
+  "docs/research/level7/CALL_PACKET.md:274-331 Ol Chiki/sat/mni are Sarvam-only cells (no local engine emits Ol Chiki); Plan v4 has no sat/mni synthetic (R3) path stated here; D4 bars repair",
+  "docs/research/level7/CALL_PACKET.md:282-285 GT-tier bars (ks/gu/ne PDF, mni/sat fill, ur, mr) show GT can be garbage; Plan v4 needs an equivalent GT audit/hash gate beyond HW0 (visual verification, Wilson CIs, n>=50 rule)",
+  "docs/research/level7/CALL_PACKET.md:286-290 Kill criteria K1-K5 have blank thresholds; Plan v4 gates (HW2 92%/85%) should state numeric kill thresholds and K5 obituary rule for external numbers (Gemini 74.8 etc.)",
+  "docs/research/level7/CALL_PACKET.md:322 External per-language numbers must pass obituary/transfer rule; Plan v4 relies on Bodhan-HW 74.8/71.3/58.3, ICDAR 96.10, ~86.4 word-acc without stated verification",
+  "docs/research/level7/CALL_PACKET.md:341 Sarvam harness differs from own scorer; Plan v4 comparisons to Sarvam need a same-scorer re-run with CIs",
+  "docs/research/level7/CALL_PACKET.md:98-99 Verdict's realistic target 85-88 not 90+ and Alt-D Sarvam-API subsidy for sat/mni; Plan v4 target and API stance not aligned",
+  "docs/research/level7/CALL_PACKET.md:276 OldScan restoration (R4) only deferred post-hackathon here; Plan v4 mentions none",
+  "docs/research/level7/CALL_PACKET.md:256 Local compute limit: 3-4B @4-bit ~3GB MLX, 12.6 GB RAM, $0 budget, no cloud GPU; Plan v4 'portable PyTorch, MLX Mac-only' must fit this memory/swap 97% state"
+ ],
+ "contradictions": [
+  "line 156 says surya wins 5/18 langs; lines 193/223 say 9/18",
+  "D1 SAFE langs kok/mai/or/pa (lines 232,246,256) vs kok+pa only (line 36, mai+or killed by K1)",
+  "K4 meaning: kill script router (line 289) vs install/memory/smoke gate (line 46)",
+  "Sarvam per-lang numbers declared DEAD (line 322) yet still in agenda (line 108)",
+  "mlx install/memory reclaim APPROVED+EXECUTING (lines 44-45) vs pending user approval (lines 480-482)",
+  "Lane B records 436 (313/361) vs 258 (467)",
+  "engine count: 10 effective vs 9 nominal/8 effective (line 337, pre-surya)",
+  "sheet rows: 11,097 (line 114) vs 12,324 (line 35, added 10th engine + EN)",
+  "Sarvam n_packs 51 in table (line 143) vs 54 main + 3 EN = 57",
+  "line 263 says surya WINS hi/bn/ks/mai/pa/sd/ur for Devanagari row and 'mr/or tesseract'; line 267 or/pa 'tesseract-family' vs pa winner surya 0.145 in line 217"
+ ],
+ "open_items": [
+  "Vinay decision A/B/C and backbone choice (GLM-OCR 0.9B / Qwen2.5-VL-3B / MonkeyOCRv2) - outcome of 2026-09-30 meeting not in this file",
+  "K1-K5 thresholds blank",
+  "W6 memory headroom (Chrome/Brave/WhatsApp quit ~3.5 GB) unconfirmed",
+  "sat/ks micro-repair approve/defer",
+  "Surya Odia/Sarvam EN n=3 are directional only; need larger Sarvam sample",
+  "LEADERBOARD Wilson CI column and 19/18 label fix owed by Engine"
+ ]
+}

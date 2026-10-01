@@ -1,0 +1,919 @@
+{
+ "partition": "P45",
+ "files": [
+  {
+   "path": "_claude_memory/proto-100-research-to-build.md",
+   "total_lines": 66,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-97-research-still-to-do.md",
+   "total_lines": 165,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-105-consensus-results-to-decisions.md",
+   "total_lines": 95,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-93-measured-facts.md",
+   "total_lines": 108,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-92-boss-decisions.md",
+   "total_lines": 91,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "weak_cells",
+   "claim": "4-bit quantisation destroys Arabic-script OCR: QARI (2B VLM) CER 3.45 at 4-bit vs 0.091 at 8-bit; B-01 bans 4-bit for ks/ur/sd unless Day 1 shows within 1 CER point",
+   "numbers": "3.45 vs 0.091",
+   "source": "_claude_memory/proto-100-research-to-build.md:33",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Consensus C1-2 says 4-bit LoRA often preserves gains (QARI optional 4-bit; Elkousy 2026 4-bit Qwen2.5-VL -29% CER Arabic print): flagged CONTRADICTION-CHECK vs B-01; separate 4-bit QLoRA training from 4-bit inference",
+   "numbers": "-29% CER",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:21",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Up to 3-8 pts of Kashmiri 'failure' may be a scoring artifact (NFKC, yeh/kaf variants, digit forms, punctuation map, LRI/PDI bidi isolation); B-02 adds opt-in --normalize-arabic in a NEW scorer module, report raw AND normalized for ur/ks/sd",
+   "numbers": "3-8 pts",
+   "source": "_claude_memory/proto-100-research-to-build.md:34",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri track B-03: QARI recipe 0.55->0.061 CER with 50k synthetic lines on 2B VLM; needs OFL Nastaliq fonts (Awami Nastaliq>=3.300, Gulzar, Noto Nastaliq Urdu v4) + 300-500 real lines; gate ks CER on held-out real lines <=0.20, abort if >0.30 after stage 2; Jameel Noori excluded",
+   "numbers": "0.55->0.061; 50k lines; <=0.20; abort >0.30",
+   "source": "_claude_memory/proto-100-research-to-build.md:35",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "600K-KS-OCR (~602k Kashmiri word images 256x64, CC-BY-4.0, ~10.6 GB) put on HOLD: card embeds a 'Controlled Research Access License'; no use for product until authors confirm in writing (supersedes boss's earlier YES, U27)",
+   "numbers": "602k images; 10.6 GB",
+   "source": "_claude_memory/proto-92-boss-decisions.md:34",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ks PDF tier is BARRED at trust ~29 (R7); real ks lines only if hand-verified; ks is the worst cell for everyone: Bodhan 48.04 vs Sarvam 54.82",
+   "numbers": "48.04/54.82; trust ~29",
+   "source": "_claude_memory/proto-100-research-to-build.md:35",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Manipuri specialist NE-OCR (MWire Labs, CC-BY-4.0, 86M ViTSTR) reports 95.56% char-acc on Meitei Mayek vs EasyOCR 2.50%, Tesseract 2.24%; evaluate vs Bodhan on 20 mni probe items; router sends U+ABC0-ABFF blocks to it if it wins; verify card before download",
+   "numbers": "95.56 / 2.50 / 2.24; 20 items",
+   "source": "_claude_memory/proto-100-research-to-build.md:36",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Santali: Bodhan already beats Sarvam (68.30 vs 53.91); accept Bodhan unless Day 1 shows charset errors on 20 sat items; synthetic Ol Chiki only then (script-ratio gate >=80%, one OFL font)",
+   "numbers": "68.30 vs 53.91; >=80%",
+   "source": "_claude_memory/proto-100-research-to-build.md:37",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Bodhan vs Sarvam per language: ks 48.04/54.82 \u00b7 or 75.45/80.01 \u00b7 gu 83.26/88.87 \u00b7 bn 90.87/93.47 \u00b7 hi 90.99/93.52 \u00b7 pa 86.51/89.16 \u00b7 mni 82.85/85.12 \u00b7 kok 95.99/97.41 \u00b7 sat 68.30/53.91",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-93-measured-facts.md:80",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Old scans are field-wide worst column: Sarvam OldScan 55.3, surya 42.8. B-06 ablation A0 none/A1 deskew+Otsu/A2 deskew+Sauvola/A3 DocRes pilot n<=8; adopt iff median dCER<=-0.03, CI excludes 0, >=2/3 engines, no dot regression, CPU<=60 s/page; run on our probe, never test",
+   "numbers": "55.3; 42.8; -0.03; 60 s",
+   "source": "_claude_memory/proto-100-research-to-build.md:38",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "RQ-6 restoration pre-pass only if RQ-2 shows >=10% degraded pages; A/B on degraded subset of our probe",
+   "numbers": "10%",
+   "source": "_claude_memory/proto-97-research-still-to-do.md:74",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Restoration evidence: PreP-OCR -63.9% to -70.3% relative CER on 13,831 real historical pages (restoration+post-correction); super-resolution helped low-res pages but HURT high-res (Rawat 2021) -> gated pre-pass only",
+   "numbers": "-63.9..-70.3%; 13,831 pages",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:63",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Literature gaps: Kashmiri Nastaliq no CER paper; Ol Chiki digits only (99.13%); Meitei Mayek no OCR paper; Odia char-level only -> no published baseline for sat/mni/or page OCR; own measurement is reference",
+   "numbers": "99.13%",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:49",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Best published CERs: Urdu printed Nastaliq 0.91% (Nasir 2024, synthetic multi-font); Urdu handwritten 5.27%; Hindi handwritten words 2.14% (Kumar 2026); degraded Sanskrit print 3.71%",
+   "numbers": "0.91/5.27/2.14/3.71",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:44",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "surya scores CER 1.000 on all 3 paired sa items (sa is Devanagari; 'Ol Chiki bug' label is wrong); surya ignores lang; Sarvam sa 0.019 vs best local 0.124; mni 0.023 vs surya 1.000",
+   "numbers": "1.000; 0.019; 0.124; 0.023",
+   "source": "_claude_memory/proto-93-measured-facts.md:19",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Empty predictions: paddleocr_indic 100% empty on bn,brx,doi,gu,ks,mni,or,pa,sat; surya 100% on sa, 55% mni; anuvaad 100% on 9 langs; rapidocr 100% on 6; PADDLE_LANG lacks brx/doi",
+   "numbers": "100%",
+   "source": "_claude_memory/proto-93-measured-facts.md:62",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Tesseract tessdata: indic-ocr tessdata for Ol Chiki/Meetei cleared as Apache-2.0 (U7, RF-05) though F53 earlier said page states none; macOS ships Noto Sans Meetei Mayek, Ol Chiki font not found; 0/200 local sat predictions contain Ol Chiki",
+   "numbers": "~2-4 MB; 0/200",
+   "source": "_claude_memory/proto-92-boss-decisions.md:21",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Same-script LID: Devanagari hi/mr/sa/ne/mai/kok/doi/brx and Bengali-Assamese bn/as/mni need IndicLID/GlotLID (not Laya); product per-block language = IndicLID on recognised text + Unicode-range script",
+   "numbers": "",
+   "source": "_claude_memory/proto-97-research-still-to-do.md:92",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Laya rejected for OCR/model use (U30): text-only; own code reports near-random on Indic (Hindi 0.100, Tamil 0.113 vs 0.050 random); PyPI laya 0.3.22 Apache-2.0; only a TRIAL for file triage (bar acc>=0.80, precision>=0.95 at conf>=0.9)",
+   "numbers": "0.100; 0.113; 0.050",
+   "source": "_claude_memory/proto-92-boss-decisions.md:37",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Frozen detector + per-block fallback (B-07): run every fallback engine on Bodhan's layout crops, triggered by deterministic bad-output check (empty, wrong-script share, invalid sequences, repetition loop, low log-prob)",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:39",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Voting is not a text source (B12): full ensemble beats all singles on 0/115 pages; >=3-family agreement 5-gram precision 0.598 vs 0.355 but recall 0.046 (~5% coverage). REJECT ensemble text; ADOPT agreement only as per-block confidence/review flag",
+   "numbers": "0/115; 0.598 vs 0.355; 0.046",
+   "source": "_claude_memory/proto-93-measured-facts.md:97",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Zhang 2026: adaptive engine SELECTION +23.7% over single engines on 15k government docs; selection != voting; RQ-11 oracle gap decides if router worth building (if gap <0.02 everywhere, no router/gate)",
+   "numbers": "+23.7%; 15k; <0.02",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:60",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Weak-region mining B-09 (PaddleOCR-VL): embed probe + test-profile sample, cluster, list tail clusters; no training, optional Day 2",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:41",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Layout+reading order strong evidence (8/10): IndicDLP arXiv 2512.20236, dots.ocr arXiv 2512.02498 justify Bodhan layout stage",
+   "numbers": "8/10",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:68",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan card: IndicDocLayout 33M + IndicBlockOCR 0.8B (Qwen3.5-0.8B, Sarvam-30B tokenizer); printed EN+22, handwriting EN+12; IndicOCR-PR 86.2, IndicOCR-HW 66.7; Indic Open Model License v1.0 (commercial+finetune OK, attribution, same-licence derivatives, hosted API needs written approval, commercial licence above 500M MAU/$250M revenue)",
+   "numbers": "86.2; 66.7; 500M MAU; $250M",
+   "source": "_claude_memory/proto-93-measured-facts.md:81",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "MLX port hari31416/indic-ocr-mlx-4bit: 4-bit 636 MB ~391 ms/crop; 8-bit 1.0 GB; bf16 1.6 GB; input = block crops. mlx-vlm supports Qwen2/3/3.5-VL LoRA/QLoRA; dataset needs images+messages",
+   "numbers": "636 MB; 391 ms",
+   "source": "_claude_memory/proto-93-measured-facts.md:82",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan licence: attribution is for user-facing product not every OCR output (S2.2); hosting as service needs prior written approval (S3.1); internal-component use (S3.2) is design target",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:35",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan weights return 403 for HF user Maya0769 (access forms never submitted; boss must request on each of 3 repos); mlx 0.32.3 + mlx-vlm 0.7.4 installed; served Sarvam model version never recorded",
+   "numbers": "403",
+   "source": "_claude_memory/proto-93-measured-facts.md:106",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam blog market table: Sarvam 87.39, Bodhan 84.94, Gemini 3.6 Flash 79.35, Google Vision 71.76, Surya OCR 2 69.96, Mistral OCR4 69.16, Opus 5 68.81, Gemma 4 65.53, Chandra-OCR2 64.56, GPT 6 Astra 63.69, Infinity-Parser2 Pro 49.83, Azure 41.29, Textract 4.64",
+   "numbers": "87.39/84.94",
+   "source": "_claude_memory/proto-93-measured-facts.md:73",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam Vision 2.1 per-language: ta 87.70 te 91.55 ml 90.24 kn 90.54 bn 93.47 hi 93.52; earlier numbers ta 93.42/te 87.70/ml 91.60/kn 89.89 are WRONG; surya vs Sarvam bn 81.79/93.47 hi 86.12/93.52 kok 90.81/97.41 pa 83.06/89.16",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-93-measured-facts.md:104",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": "corrects earlier F-values"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bench headline metric: Word Accuracy=100x(1-WER) after --normalize (NFKC->NFC + punctuation folding); runaway repetitions flagged/excluded; macro over 22 Indic excl English; F28 says n=6,609 vs F51/F76 6,909 test (+1,173 small_representative) - count discrepancy",
+   "numbers": "6,609 vs 6,909; 1,173",
+   "source": "_claude_memory/proto-93-measured-facts.md:103",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bench per-language counts: kn 300 ml 300 ta 299 te 300; ks 262 sat 274 mni 207; Apache-2.0, rev 84ce7ce4, GT reviewed twice by human experts; 23 languages",
+   "numbers": "262/274/207",
+   "source": "_claude_memory/proto-93-measured-facts.md:102",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Speed on Mac: surya median 16.3 s/page, tesseract 0.7-3.5 s, easyocr 30.7 s, paddle 95.2 s; surya on 5,344 test images ~24 h",
+   "numbers": "16.3 s; ~24 h",
+   "source": "_claude_memory/proto-93-measured-facts.md:76",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya licence: OpenRAIL-M Modified; real blocker is S2(c) no competing product + S8 share-alike to outputs, not the $5M cap -> surya evaluation-only, never in shipped product",
+   "numbers": "$5M",
+   "source": "_claude_memory/proto-92-boss-decisions.md:27",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": "supersedes F44 framing ($5M cap)"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Post-OCR LM correction strong (8/10): Bhandari 2026 CER hi 10.20->6.73, gu 6.10->1.39, mr 8.19->3.29; Sanskrit +23 pts; RoundTripOCR synthetic pairs hi/mr/ne/kok/brx/sa; caveat: corrector did not transfer across engines (Singh 2026)",
+   "numbers": "10.20->6.73; 6.10->1.39; 8.19->3.29",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:70",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "B-18 post-correction trained only on Bodhan's own train-split error pairs, never bench items; gate: Word Accuracy gain on held-out split, 0 bench overlap; B-13 ByT5-class corrector (synthetic corruptions, -55% to -69% CER in R3) stretch after Day 5",
+   "numbers": "-55..-69%",
+   "source": "_claude_memory/proto-100-research-to-build.md:50",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Fusion moderate (6/10); raw confidence unreliable proxy (Jhala 2026) -> keep agreement flag only",
+   "numbers": "6/10",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:75",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Chitrapathak-2 (Faraz 2026) near Gemini-2.5-Flash on 9 Indic langs, SOTA Telugu, struggles on forms/index layouts; Parichay 89.8% exact-match fields; also add LightOnOCR-2-1B, HunyuanOCR-1.5, GlotOCR Bench (OCR fails beyond a handful of scripts); Qwen3-VL-8B beat GPT-5.5 on real Devanagari scans",
+   "numbers": "89.8%",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:34",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Initialisation dominates: Indic print same-language pretraining 92% WRR vs cross-lingual 51% vs scratch 6%; OCR-specialised base + LoRA beats generic VLM (supports Bodhan base)",
+   "numbers": "92/51/6",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:18",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Synthetic necessary but insufficient: Baseer 300k synthetic + 200k real; Singh 2026: clean renders look tied, real scans make 9/10 collapse (EasyOCR chrF++ 93.6->58.3). Our official_pdf tier is clean renders and can overstate quality",
+   "numbers": "93.6->58.3; 300k+200k",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:25",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Data needs: 100-1,000 labelled lines help cross-script transfer (Al-Azzawi 2026); pick Day-3 target languages only where >= few hundred real lines/words; label cleaning alone improved CER up to 1.8 pts -> run proto-65 GT-defect checks",
+   "numbers": "100-1,000 lines; 1.8 pts",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:28",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "RLVR/GRPO moderate (4/10), mostly cuts hallucination; hard-example mining weak (2/10) -> do not build; B-10 RL only after SFT with validity-gated reward Valid x Struct x Sim, rollouts on human-verified gold only, NFKC/bidi before reward",
+   "numbers": "4/10; 2/10",
+   "source": "_claude_memory/proto-100-research-to-build.md:42",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Vinay's GPUs: 'we have our own GPU resources' (Sep 10); U33 ask Vinay for Day-3 access; Mac MLX path is fallback; B-01/B-03 slow on Mac",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:40",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "B-21 synthetic lines (GlotOCR-style) for ks/sat/mni before D3: licensed Unicode text, many fonts/degradations; set card, no bench text reused. Koshur Pixel (arXiv 2606.23144) and synthocr-gen (2601.16113) need licence check",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:53",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "B-19 handwriting LoRA triggered (RQ-10): LoRA on recogniser with IIIT-HW-format data (Bodo/gu on disk) + licensed HW set, word crops; after H1 + Gate 2.5; gate = HW split score vs zero-shot; needs boss GPU+data licence",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:51",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Untracked src/ training tree (QLoRA, GRPO, SFT, 6 model wrappers, created 2026-09-29 19:53-20:07) -> boss DECIDED ARCHIVE (U3); LayaRouter has defects (routes from gt_text leak, Meetei Mayek mapped to 'Mend' not 'Mtei')",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:17",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Strategy doc DEEP_RESEARCH_STRATEGY_2026-09-29 had errors: licence 'Apache 2.0', cloud budget, unsourced P(beat), RL on benchmark split (leakage)",
+   "numbers": "",
+   "source": "_claude_memory/proto-93-measured-facts.md:85",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Rules: no item may train/tune on any benchmark split or test image (proto-89); downloads need U-row approval; Sonnet subagents only",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:26",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Cleaning decision: U25 install mlx-vlm[train] if datasets missing; U34 approve fonts + NE-OCR now, DocRes/Ol Chiki only when triggered",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:41",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Official test set = 5,344 JPEG word crops 296-300 px tall, IDs 0-14806; planner viewed 10001/12407/1361.jpg = single handwritten Bengali-script word each (blue pen); H1 Tesseract '35.7% Devanagari' CONTRADICTS viewing; script mix UNKNOWN",
+   "numbers": "5,344; 296-300 px",
+   "source": "_claude_memory/proto-93-measured-facts.md:99",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "RQ-2 test-set profile MOVED to H1 and OPEN: resolve with stratified vision check of a sample, not Tesseract",
+   "numbers": "",
+   "source": "_claude_memory/proto-97-research-still-to-do.md:156",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Handwriting is in official eval scope (full-page handwritten, cursive, mixed typed+handwritten) per R6 3 (B-12, U13); all 1,283 probe items are printed, 0 tables (proto-81)",
+   "numbers": "1,283 printed",
+   "source": "_claude_memory/proto-92-boss-decisions.md:26",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Labelled handwriting on disk: Datasets/akshardrishti_official/Bodo/gu/ Gujarati handwritten words IIIT-HW format; train 82,563, val 17,643, test 16,490 lines; vocab 10,963; only 4,645 images on disk",
+   "numbers": "82,563/17,643/16,490; 4,645 imgs",
+   "source": "_claude_memory/proto-93-measured-facts.md:100",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bodhan HW score IndicOCR-HW 66.7; RQ-10 compare licensed HW sets (IIIT-INDIC-HW-WORDS) vs this",
+   "numbers": "66.7",
+   "source": "_claude_memory/proto-97-research-still-to-do.md:113",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Handwriting literature: PARSeq-style printed->handwritten transfer strongest across 10 Indic languages (Lalitha 2025); ICDAR 2023 Indic HTR winner 95.94% CRR / 88.31% WRR (Mondal 2023); SemiHastakshar; PLATTER page-level HTR arXiv 2502.06172",
+   "numbers": "95.94 CRR; 88.31 WRR",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:54",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Follow-up searches queued: Chitrapathak-2 per-language results; handwritten word recognition Bengali Gujarati SOTA CER dataset licence; legacy-font Tamil/Telugu/Kannada to Unicode",
+   "numbers": "",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:89",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "B-14: Sep 10 labelling pipeline (free-tier VLM APIs label) - layout labelling SUPERSEDED by IndicDocLayout; LLM labels REJECTED as ground truth; keep principles page=sample, own benchmark, lab records",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:46",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Fair evaluation strong (9/10): report CER AND WER, state NFC normalisation, test on real scans, report median + catastrophic-failure rate (e.g. CER>0.5) not only means; ADD to proto-80 metric set",
+   "numbers": "9/10; CER>0.5",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:79",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "sheet.csv: 12,324 rows, 11 models; no writer script on disk; 62.9% of stored CER cells don't re-derive but every headline survives recomputation -> boss DECIDED sheet_v2.csv for all reporting (U9)",
+   "numbers": "62.9%; 12,324",
+   "source": "_claude_memory/proto-92-boss-decisions.md:23",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam paired result only 54 items (3/lang): surya mean CER<Sarvam in 10/18 langs; item-level surya 21 / Sarvam 28 / tie 5; by tier pair_txt n=9 Sarvam 0.064 vs local 0.243, pdf_layer n=36 0.311 vs 0.229, sarvam_bench n=9 0.278 vs 0.617; 'beats Sarvam 9/18' unsupported (C9)",
+   "numbers": "54 items; 21/28/5",
+   "source": "_claude_memory/proto-93-measured-facts.md:18",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "KILL_CRITERIA Punjabi K1 wrong: tesseract_indic vs surya pa n=90, ties 87, discordant 3, p=1.0 (not p<0.0001, 88 discordant); Konkani K1 surya wins at p~0.0033-0.011 with 5 engines sharing identical 7-vs-24 pattern (artefact?); McNemar pass = CER<0.5; U15 accept QLoRA scope Konkani only",
+   "numbers": "n=90; p=1.0; p~0.0033-0.011",
+   "source": "_claude_memory/proto-93-measured-facts.md:58",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "F24: openbharatocr ~ tesseract_indic on 1,225/1,227; three tesseract-family identical only 370/1,227 - '10 independent engines' not established",
+   "numbers": "1,225/1,227; 370",
+   "source": "_claude_memory/proto-93-measured-facts.md:44",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT contradiction C12: sarvam_fill 'machine GT' vs bench card 'human-reviewed twice'; boss decided re-verify mni/sat (U6) by human check; 6.4 changes only on boss yes",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:20",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "South official PDFs: 0/23,001 pages pass gates (76% legacy-font encodings) -> South GT = Sarvam-bench fill (R-7); B-20 font-map converters parked until S6; first South score tesseract_indic CER 0.1450",
+   "numbers": "0/23,001; 76%; 0.1450",
+   "source": "_claude_memory/proto-93-measured-facts.md:101",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Nepali 'Images and Transcriptions' 193 XML are Pascal-VOC boxes (176 text boxes), no transcription -> detection GT only",
+   "numbers": "193; 176",
+   "source": "_claude_memory/proto-93-measured-facts.md:49",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Official dataset counts: bn 3,108 txt, hi 3,500, sa 496, en 3,500 pairs; ta 34 PDF, te 84, kn 41, ml 20; as 40, gu 220, pa 697, ur 106, sd 80; doi 6, mni 10, sat 3, kok 3, ks 12, mai 12 PDFs; test/test 5,344 unlabelled (never train)",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-93-measured-facts.md:50",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe: 1,283 items (+56 additions sd25 mr21 pa10); short langs as 19, mni 20, sat 20, gu 24, doi 27, ne 37, brx 67, or 69; kok/pa 100 pages from only 2 PDFs; ks 10 PDFs; South scored n=126/400; manifest_v2 1,683 items",
+   "numbers": "1,283; 20/20 mni/sat",
+   "source": "_claude_memory/proto-93-measured-facts.md:22",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Bench/data split contamination rule: bench for eval only (U24 full 6,909 + 1,173); 600K-KS never in eval set; B-01 per-script precision table",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:31",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Official judging VERIFIED (page snapshot 2026-09-26): no accuracy metric published; jury = innovation, business use case, technical feasibility, product roadmap, team, addressable market; outputs layout-preserving JSON, searchable PDF, language detection, transliteration, context-based correction; eval scope handwriting, forms, multi-script, degrad",
+   "numbers": "",
+   "source": "_claude_memory/proto-93-measured-facts.md:95",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "F43 correction: 'CER+CI/WER/S-D-I/sec-per-page' rubric is a student project's (Ayush-04-spec/akshardrishti), not hackathon's; launch 12 Feb 2026, Rs1.10 crore, registration to 30 Mar - UNVERIFIED search summaries",
+   "numbers": "Rs1.10 crore",
+   "source": "_claude_memory/proto-93-measured-facts.md:65",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "F69 official page snapshot"
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "B-11 product build Day 4-5: JSON schema (blocks: type,bbox,reading order,language,script,text,handwritten flag,confidence), searchable PDF (PyMuPDF), per-block LID (RQ-8 REQUIRED), offline package with vendored weights + attribution, throughput/cost for 5,344, pitch deck; gate 50-image dry run. Boss DECIDED YES (U35)",
+   "numbers": "50 images; 5,344",
+   "source": "_claude_memory/proto-100-research-to-build.md:43",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Deadline unknown: feed 'Oct 4 (Sat)' (Oct 4 2026 is Sunday); INTEGRATION_REPORT.md:146 '2026-10-15 Bhashini qualifier'; feed R132 'qualifiers close 30/09' (U2 open); RQ-1 DONE says no metric published",
+   "numbers": "Oct 4/Oct 15/30-09",
+   "source": "_claude_memory/proto-92-boss-decisions.md:16",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Structured-output literature: IndicOCR pipeline (Tulsyan 2024), bbOCR; no standard for JSON/PDF evaluation - our schema fine",
+   "numbers": "",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:78",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Vinay gates (B-17): multi-LLM eval of Plan v3 (OpenCode + fresh Sonnet + ChatGPT paste) then 15-20 min D5 session before any Day-3 training; F21 multi-LLM eval never executed for v3; boss: WhatsApp Vinay for GPU, next deadline, submission format",
+   "numbers": "15-20 min",
+   "source": "_claude_memory/proto-100-research-to-build.md:49",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Test of Tamil references for South: Sivashanth 2026 Tamil benchmark; Jayatilleke 2025 zero-shot Sinhala/Tamil arXiv 2507.18264",
+   "numbers": "",
+   "source": "_claude_memory/proto-105-consensus-results-to-decisions.md:81",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss decisions: U23 download BOTH Bodhan bf16 + MLX 4-bit; U24 full bench eval-only; U26 HF MCP yes; U10 restructure level2 after meeting; U11 re-run South through probe pipeline; U29 deletion rule (only twins/conversions/in-git/empty/junk, else sha-verified bundle); U37 OpenCode ask-before-delete after rm -rf incident 2026-09-30 16:36",
+   "numbers": "",
+   "source": "_claude_memory/proto-92-boss-decisions.md:30",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss 2026-09-30 21:05: Sarvam on South approved 3 items/lang x 4 = 12 calls (~Rs6 of Rs67); no team mates in plans; Vinay inputs folded in when they arrive. F81: 12 calls done, predictions NOT retrieved, never resubmit",
+   "numbers": "12 calls; Rs6/Rs67",
+   "source": "_claude_memory/proto-92-boss-decisions.md:61",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "U30/U31 Laya: not used in model; trial for file triage advisory only; Laya not working in South env (import fails Homebrew py3.14); src LayaRouter does not import laya",
+   "numbers": "",
+   "source": "_claude_memory/proto-93-measured-facts.md:87",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Conflicts C1-C15 settled: meeting-first; bounded waves <=5 subagents; evidence-per-entry no paper quota; keep 100x18 -> 22 languages 2,200 target; no new md at root; Option A vs D, Qwen2.5-VL-3B vs GLM-OCR 0.9B left to boss/Vinay (C10, U4) - pre-Bodhan-era",
+   "numbers": "2,200 target",
+   "source": "_claude_memory/proto-92-boss-decisions.md:66",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "RQ status 2026-09-30 23:00: RQ-1 DONE, RQ-2 moved to H1 OPEN, RQ-3 done on paper (blocked on HF), RQ-4/RQ-5 OPEN, RQ-6 conditional, RQ-7 DONE (F77), RQ-8 conditional, RQ-9 DONE, RQ-10 TRIGGERED, RQ-11 OPEN before Day 4, RQ-12 run done",
+   "numbers": "",
+   "source": "_claude_memory/proto-97-research-still-to-do.md:154",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "RQ-12 Consensus: 3 combined queries (model; hardest cases; system+fair proof); free plan may have only 3 Deep Searches/month (unconfirmed third-party); summary is a LEAD: open each paper before quoting, UNVERIFIED-SUMMARY otherwise; done when grep C[123]- >=20 rows",
+   "numbers": "3 queries; >=20 rows",
+   "source": "_claude_memory/proto-97-research-still-to-do.md:128",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Repo hygiene facts: docs/research 571 files 4.7 MB; _archive 519 files ~215 MB and _reports 58 files 0 tracked in git; 69 dup md/txt groups; AGENTS.md dead pointers; competing plan docs W6_STRATEGY_UNIFIED, PROBE22_EDGE_ANALYSIS ('Where We Beat Sarvam'), ACTUAL_PROBE22_RESULTS unreconciled",
+   "numbers": "571; 519; 58",
+   "source": "_claude_memory/proto-93-measured-facts.md:91",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "B-15 lab-style experiment registry (id, question, data, result, verdict); B-16 Plan v3 flowchart with nodes coloured BUILT/SPEC/PAUSED in docs/PLAN.md",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:47",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Calendar: 2026-09-29 Tue, 09-30 Wed (boss: 'Wednesday means today'), 10-01 Thu, 10-04 Sun; 43+ docs wrongly say Wed 2026-10-01",
+   "numbers": "",
+   "source": "_claude_memory/proto-93-measured-facts.md:31",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Script-ID on disk: IndicPhotoOCR CLIP_identifier.py (weights anikde/STscriptdetect, licence TODO); .deps/IndicPhotoOCR 4.4 GB; no image script classifier covers mni/sat (RF-09)",
+   "numbers": "4.4 GB",
+   "source": "_claude_memory/proto-93-measured-facts.md:67",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 gate for per-script 4-bit vs bf16 precision (QARI 3.45 vs 0.091 CER) - B-01 matters for any Perso-Arabic (ur/ks/sd) path, and contradicts Consensus C1-2; plan does not mention (proto-100:33; proto-105:21)",
+  "Perso-Arabic scoring normalization (NFKC, yeh/kaf, digits, LRI/PDI) with raw vs normalized reporting - up to 3-8 pts of ks 'failure' may be scoring artifact (proto-100:34)",
+  "Report median + catastrophic-failure rate (CER>0.5) + NFC statement in every table; report real-image tiers separately since clean official_pdf renders overstate (proto-105:27,79)",
+  "Test-set profile (RQ-2) is still unresolved: Tesseract 35.7% Devanagari vs planner viewing Bengali handwriting; plan v4 asserts 'all inspected = Bengali' - need stratified vision check of script mix (proto-93:99; proto-97:156)",
+  "Oracle-gap analysis RQ-11 (<0.02 => no router) not run; Page Expert routing/fallback unjustified until measured (proto-97:120)",
+  "Kashmiri/Manipuri/Santali tracks (B-03/B-04/B-05), NE-OCR 95.56% on Meitei Mayek, 600K-KS HOLD licence: absent from v4 (proto-100:35-37; proto-92:34)",
+  "Old-scan A0-A3 ablation with adoption thresholds (B-06) and RQ-6 trigger >=10% degraded pages (proto-100:38; proto-97:74)",
+  "Voting rejected 0/115; agreement flag only as review triage (B-08); B-18 post-correction on Bodhan's own errors with 0 bench overlap (proto-100:40,50)",
+  "Product deliverables for jury (JSON schema, searchable PDF, per-block LID, offline package, pitch deck, 50-image dry run) - U35 boss YES (proto-100:43)",
+  "Licence constraints: surya evaluation-only (OpenRAIL-M S2(c)/S8); Bodhan hosted API needs written approval; 600K-KS HOLD; Jameel Noori font excluded (proto-92:27,34,35)",
+  "Bodhan weights 403 for HF user - access forms never submitted; v4 Page Expert depends on them (proto-93:106)",
+  "Handwriting data on disk is Gujarati (Bodo/gu, IIIT-HW 82,563 train lines but only 4,645 images on disk) - not Bengali; v4's Bengali HW training data licence/availability needs verification (proto-93:100)",
+  "Vinay gates (G-2.5 multi-LLM eval + 15-20 min session) and Vinay GPU access (U33) are prerequisites; ICDAR Indic HTR winner 95.94 CRR/88.31 WRR cited here vs v4's 96.10 WRR for Bengali - different figures (proto-105:54)",
+  "Sarvam bench count 6,609 vs 6,909 unresolved; bench scoring uses --normalize and excludes runaway repetitions - v4 must replicate for parity (proto-93:103,48)",
+  "Sarvam South predictions not retrieved (12 calls, never resubmit); South GT only via bench fill (proto-93:107,101)"
+ ],
+ "contradictions": [
+  "4-bit: B-01 bans 4-bit for Arabic-script (QARI 3.45 vs 0.091) vs Consensus C1-2 'often preserves gains' (-29% CER Arabic print) (proto-100:33 vs proto-105:21)",
+  "Test set script: planner viewing = handwritten Bengali vs H1 Tesseract 35.7% Devanagari (proto-93:99)",
+  "Bench size 6,609 (F28) vs 6,909 (F51/F76)",
+  "Adaptive selection +23.7% (Zhang 2026) vs own voting 0/115 (proto-105:60)",
+  "F43 student rubric vs F69 official page: official page says no metric; F44 surya $5M cap vs U14 reframed to OpenRAIL S2(c)",
+  "U27 earlier YES to 600K-KS download vs later HOLD for embedded research-only licence; U7 tessdata 'no licence' (F53) vs Apache-2.0 cleared",
+  "sarvam_fill machine GT vs bench card 'human reviewed twice' (C12)"
+ ],
+ "open_items": [
+  "RQ-4 Kashmiri go/no-go and RQ-5 sat/mni invest decisions",
+  "RQ-8 LID conditional",
+  "RQ-11 oracle gap",
+  "U2 real deadline / submission format",
+  "Meitei NE-OCR card verification",
+  "HF access to 3 Bodhan repos",
+  "Whether Vinay GPUs granted (U33)",
+  "Consensus papers to open: Faraz 2026, QARI, Singh 2026, Bhandari 2026, etc.; RESEARCH_DECISIONS rows C1-C3 >=20",
+  "Bengali-specific handwriting data/licence (not covered here)"
+ ]
+}

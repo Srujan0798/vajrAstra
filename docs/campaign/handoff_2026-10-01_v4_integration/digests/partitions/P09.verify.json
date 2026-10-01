@@ -1,0 +1,367 @@
+{
+ "checked": 48,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "corrected",
+   "correction": "Rule confirmed but currency is partly superseded: C1-154 (LEDGER:1031) reprices A100-80GB to $1.00-1.19 (from $1.49), spot $0.47; the $53.64 vs $43.04 figures are Apr-2026 inputs only."
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "corrected",
+   "correction": "Currency is current, not superseded: C1-151 (LEDGER:1022) is the superseding row (supersedes spec-only C1-096); Thor kit $3,499->$5,499 (+57%), partner ~$5,500 Sep 2026; C1-152 (1025) Nano Super $249->$399, AGX Orin $1,999->$3,499."
+  },
+  {
+   "index": 37,
+   "verdict": "corrected",
+   "correction": "Currency is current: C1-143 (LEDGER:998) is the superseding row (supersedes C1-110 size-trivia); Qwen3-VL-2B-Instruct-FP8 official, 3.48GB (1059), caveat HF discussion Dec 2025 Blackwell vLLM repetition degeneration."
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "corrected",
+   "correction": "Baseline numbers verified (LEDGER:11), but 'no Bengali data anywhere in lane C1' is wrong: NOTE_LORA_VRAM.md says bn/hi/sa gold pairs exist at 3-3.5K each. No handwriting evidence found by grep; no Bengali quant/OCR evidence."
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "corrected",
+   "correction": "TRT-LLM 1.1 (not 1.2) fixed Qwen2.5-VL CUDA-graph-padding failure; 1.2 fixed KV-cache corruption (LEDGER:787-790). The 78% FP8 regression was on densenet121; the 55% MHA regression is the ViT one (TRT 10.16 notes, LEDGER:810-814)."
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": "Absence confirmed by grep (no disjoint/held-out/leak wording); this is an extractor inference, not a source fact."
+  }
+ ],
+ "missed": [
+  {
+   "theme": "training_compute",
+   "claim": "Gold pairs per weak script: bn/hi/sa pairs exist at ~3-3.5K each; 2-5K gold pairs per weak script plus CER gate is the QLoRA analog",
+   "numbers": "2-5K pairs; 3-3.5K bn/hi/sa",
+   "source": "NOTE_LORA_VRAM.md:27-29",
+   "status": "DERIVED",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Triangulated VRAM: LoRA fp16 base ~8-11GB, QLoRA NF4+Unsloth ~5-8GB, full-FT ~18-24GB on 2B VLM; community numbers for budgeting, NeMo for process",
+   "numbers": "8-11/5-8/18-24GB",
+   "source": "NOTE_LORA_VRAM.md:10-24",
+   "status": "DERIVED",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Escalation ladder: multilingual PTQ -> QAT on rec head (C1-052) -> LCD adapters; keep attention/KV high precision (C1-002/023/039)",
+   "numbers": "3 votes KV high precision",
+   "source": "NOTE_QUANT_INDIC.md:21-26",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Tier list for Qwen2-VL-2B: SQ W8A8 default, INT8 weight-only safe default, FP8 (BF16 KV, +0.6GB) approved with guard, INT4/NVFP4 bulk transcription only, INT4-AWQ barred; guards G1-G5",
+   "numbers": "+0.6GB dyn VRAM",
+   "source": "NOTE_TRTLLM.md:11-27",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "LLM-Compressor/vLLM FP8: 2x memory cut, up to 1.6x throughput, dynamic per-token needs no calibration but still gate on Indic CER",
+   "numbers": "2x mem, 1.6x thr",
+   "source": "LEDGER.md:163-166",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "NIM-ON tuning worth ~2x (1201 vs 613 tok/s, C1-056); replicate via continuous batching in Triton; NIM wrapper only if enterprise support needed",
+   "numbers": "1201 vs 613 tok/s",
+   "source": "NOTE_SERVE_COST.md:25-27",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Edge optimization stack: INT4 Nano / FP8-NVFP4 Thor, LiteVLM token pruning 2.5x, Jetson AI Lab bench on CER slices",
+   "numbers": "2.5x",
+   "source": "NOTE_EDGE.md:16-23",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MEASURED rows: 0 in lane; no disk compute, MEASURED arrives with Phase 6; no REJECTED rows",
+   "numbers": "0 MEASURED",
+   "source": "LEDGER.md:640-643",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "GPU index Aug 2026: H100 median $3.38, A100 ~$1.86, L40S $1.54, RTX 4090 $0.43; small-GPU T4 $0.35-0.53, L4 $0.17-0.70, A10G $1.00-1.12",
+   "numbers": "$3.38/$1.86/$1.54/$0.43",
+   "source": "LEDGER.md:401-408",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Roofline: API parity ~1-2x raw compute; Llama-3-8B ~$0.20/M, 70B $0.90/M; +25% tok/s per GPU generation",
+   "numbers": "$0.20/M",
+   "source": "LEDGER.md:385-388",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR HPI: --enable_hpi auto-selects backend, FP16; needs TRT 8.6.1.6/CUDA11.8",
+   "numbers": "TRT 8.6.1.6",
+   "source": "LEDGER.md:283-285",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Dynamo/disagg docs: for small models, short prompts, low concurrency aggregated may be simpler and faster",
+   "numbers": "n/a",
+   "source": "LEDGER.md:356-359",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

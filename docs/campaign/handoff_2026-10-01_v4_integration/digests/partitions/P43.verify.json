@@ -1,0 +1,267 @@
+{
+ "checked": 46,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "corrected",
+   "correction": "Substance holds (18 langs at uni_v3:225; S4 'all 22 scheduled languages' at 390-391, not 393; '4 South languages' is CO-025 at line 571, not 242)."
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "corrected",
+   "correction": "DEDUP:29-49,153-169 describes these, but in the current snapshot level7/W5_STRATEGY_OPTIONS.md and level7/W5_BEAT_SARVAM_PLAN.md do NOT exist (only W5_FREEZE_AGENDA.md); the 5 boss_directives files (2026-09-28) do exist."
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "corrected",
+   "correction": "DEDUP says DEEP_LIVE_RESEARCH 468 / LIVE_LATEST 295 / DEEPER 499 lines, but in the snapshot DEEP_LIVE_RESEARCH.md and LIVE_LATEST_2026-09-29.md do not exist and DEEPER_LIVE_RESEARCH_2026-09-29.md is 1056 lines. The quoted DEDUP claim (corrigendum on LIVE_LATEST sat/mni; DEEPER current) is at DEDUP:21-25."
+  },
+  {
+   "index": 39,
+   "verdict": "corrected",
+   "correction": "DEDUP claims 86 MD files (DEDUP:5); the snapshot has 88 .md under docs/research. 0 byte-identical / 12 groups / 0 deletes are DEDUP's own unverified claims."
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Snapshot drift: DEDUP-listed files absent from repo now: docs/research/DEEP_LIVE_RESEARCH.md, LIVE_LATEST_2026-09-29.md, level7/W5_STRATEGY_OPTIONS.md, level7/W5_BEAT_SARVAM_PLAN.md; _archive/directives/ absent although plan v4 cites _archive/directives/uni_v3_ORIGINAL_2026-09-29.txt (uni_v3 lives at docs/research/uni_v3_ORIGINAL_2026-09-29.md, 713 lines).",
+   "numbers": "4 missing files",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:21-23,45-46",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "uni_v3 mentor files are external Mac paths (/Users/srujansai/Desktop/South/MEETING_2026-09-29_STRUCTURED.md, 'sync - ocr - September 10.docx'); a repo copy docs/research/MEETING_2026-09-29_STRUCTURED.md exists.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:710-713",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "uni_v3 CO-025/T6.4: the 4 South languages (ta/te/kn/ml) must meet the same 100-per-language standard; no leftovers from older standards (basis of the later South rebuild in proto-104).",
+   "numbers": "4 langs; 100/lang",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:242-243,571",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

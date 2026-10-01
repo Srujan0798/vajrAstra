@@ -1,0 +1,267 @@
+{
+ "checked": 42,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "corrected",
+   "correction": "Bundle is 151,599,725 B / 230 entries; 19,202 is the count of hashed manifest lines/files (A1 verification), not bundle entries. L442"
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam South credit use: 12 pages x Rs0.5 = ~Rs6 of Rs67 free credit",
+   "numbers": "Rs6 of Rs67",
+   "source": "DISPATCH_LOG.md:525",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Bodhan gate threshold (reproduce ~84.9 +-2 on bench AND beat surya on 300 pairs) was unevaluable pre-weights; Day-1 later gave only conditional pass on different metrics",
+   "numbers": "84.9 +-2",
+   "source": "DISPATCH_LOG.md:432,699-708",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A2 restored sheet_v2.csv (853,307 B), metrics_80.csv (24,514 B), manifest_22.json (749,957 B) to level2/benchmark/scores|; sha-matched",
+   "numbers": "853,307 B",
+   "source": "DISPATCH_LOG.md:453",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 gu test manifest: pipeline scorer CER+WER+median+catastrophic-failure rate; Plan v3 Q2-3 handwriting consensus item added",
+   "numbers": "16,490",
+   "source": "DISPATCH_LOG.md:748-750",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "anuvaad_tesseract ml: 45 of 100 items errored (malayalam tessdata gap), honest-empty",
+   "numbers": "45/100",
+   "source": "DISPATCH_LOG.md:684-686",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

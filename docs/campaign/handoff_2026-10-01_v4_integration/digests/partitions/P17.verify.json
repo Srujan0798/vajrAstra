@@ -1,0 +1,322 @@
+{
+ "checked": 57,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 53,
+   "verdict": "corrected",
+   "correction": "BUNDLE_PLAN lines 61-67 list A4 PASS and A9 PASS as NOT YET POSTED in W4.md (pending: Agent 1 / Agent 2 must post), not as passed. (Note: NEXT.md in P18 later records A4 = PASS 02:15.)"
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 56,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "weak_cells",
+   "claim": "SHEET_AUDIT: law counts stale - disk shows 50 mojibake / 224 thin (vs 55/219 in law); mojibake gate reproduced 25 flagged pages (13 kn/10 te/3 ta) vs 26; Tamil 'surya wins decisively' false (anuvaad 0.301 ties).",
+   "numbers": "50/224; 25 (13/10/3)",
+   "source": "docs/campaign/VAJRASTRA_SHEET_AUDIT.md:20-33",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "HF gating: three repos (hari31416 4bit/bf16, bodhan-ai/indic-ocr) are gated=auto; token alone gives 403 on downloads until boss clicks Agree-and-access; token valid until 2026-10-30.",
+   "numbers": "valid to 2026-10-30",
+   "source": "docs/campaign/HF_ACCESS_REQUEST.md:5-18",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Gap in TEST_SET_PROFILE: Tesseract install has only eng/hin/kan/mal/tam/tel so Bengali cannot be read by it; 55.7% UNKNOWN is a Tesseract limit, not evidence against handwriting.",
+   "numbers": "6 langs",
+   "source": "docs/campaign/TEST_SET_PROFILE.md:85-87",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

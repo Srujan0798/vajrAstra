@@ -1,0 +1,342 @@
+{
+ "checked": 65,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 56,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 57,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 58,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 59,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 60,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 61,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 62,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 63,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 64,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "weak_cells",
+   "claim": "sat has n=20 scored and n=20 labelled; no larger sat set on disk, so the Ol Chiki share cannot be validated beyond 20 items.",
+   "numbers": "n=20",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:387",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

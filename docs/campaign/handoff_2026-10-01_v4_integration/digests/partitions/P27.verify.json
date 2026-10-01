@@ -1,0 +1,252 @@
+{
+ "checked": 31,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Rules also: no Opus subagents; NEXT.md planner/boss only; never say done without a reproducing command; .env Sarvam key never printed.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:99-106",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "After tasks B and C: rebuild MEMORY.md, run agent_bootstrap.sh --sync-only, then MOVE stale docs/campaign/protocols mirrors to protocols/_archive_2026-09-30/.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:75",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Un-park the 88-file docs/research harvest for Agent 2 after proto-105.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:96",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "level2/ULTIMATE_HYBRID_CONCERN.md (HL1-HL12 South-era operator law) stays binding where not superseded and must be in the law chain.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:81",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent 3 product/ layer exists (built 20:43); AGENTS.md start block + agent_bootstrap.sh point to proto-104.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:40,57",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "HF access check command: .venv/bin/python -c \"from huggingface_hub import auth_check; auth_check('bodhan-ai/indic-ocr')\"; boss must submit forms as Maya0769.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:46",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Close-out says 21 sources moved to _archive_2026-09-30 (handoff said 37 originals earlier), proto-92 has C1-C15 (handoff planned C1-C17), proto-93 F73-F82 (planned F73-F80): counts differ between the two handoffs.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:32-37",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Push only to boss/campaign-docs; no subagents; agents copy memory back to Mac ~/.claude/projects/*South*/memory/ (COPY-BACK DONE in W4.md).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:18,77",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "SSH details go to Agent 1 (T6) with keys only in env vars; GPU day-1 plan = proto-106 section 2.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:56,62",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

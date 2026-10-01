@@ -1,0 +1,392 @@
+{
+ "checked": 59,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": "Minor: ~Rs 2 lakh is at LEDGER.md:282 (R110), explicitly 'never cite as fact'."
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": "Minor: DeepSeek-OCR MIT is at LEDGER.md:148 (O100), not cited lines; Paddle Apache-2.0 at :61. Substance holds."
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 56,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 57,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 58,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "product_jury_competition",
+   "claim": "Rajasthan sister hackathon model-training deadline 05/10/2026; Stage 2&3 eval 24-29 Sep, qualifiers 30/09 (timing context only, different rules)",
+   "numbers": "05/10/2026",
+   "source": "docs/research/level7/c/c2/LEDGER.md:306",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sanrakshan Screening Result PDF names Kaithi OCR qualifiers (MultiLipi Jaipur); proves Bhashini publishes per-track screening PDFs",
+   "numbers": "",
+   "source": "docs/research/level7/c/c2/LEDGER.md:307",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "LEAP PS-2 winner Team Multilipi, runner-up Soochna Sahayak announced via Bimla LinkedIn series",
+   "numbers": "",
+   "source": "docs/research/level7/c/c2/LEDGER.md:25",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya 2: 650M single VLM, 83.3 olmOCR-bench, code Apache-2.0, weights modified OpenRAIL-M (free <$5M startups); license check before shipping; pin v0.20 API",
+   "numbers": "650M; 83.3",
+   "source": "docs/research/level7/c/c2/LEDGER.md:67,68",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Bodhan Odia 75.45 below Sarvam 80.01 and Gemini 81.01; Chitrapathak-2 covers Odia and degrades on handwriting/noise/forms",
+   "numbers": "",
+   "source": "docs/research/level7/c/c2/LEDGER.md:76,126",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "DeepSeek-OCR 2 and Chandra hallucinate on unseen scripts; Bodo lowest NE-OCR 83.38 due to limited data; NE-OCR needs external detector for pages",
+   "numbers": "83.38",
+   "source": "docs/research/level7/c/c2/LEDGER.md:92,93",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Odia LoRA recipe early-stopped at 1.5 epochs, errors on conjuncts and long-vowel matras, long compounds truncate",
+   "numbers": "12.7h H100",
+   "source": "docs/research/level7/c/c2/LEDGER.md:121",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Bhashini PoC API use free but production or end-user charging requires paid version; cost writeup at paid tier, build on PoC, no paid keys now",
+   "numbers": "",
+   "source": "docs/research/level7/c/c2/LEDGER.md:294",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Employer NOC required (company gets no prize/IPR); 10 screened BSV teams had to show startup-registration proof at prototype submission",
+   "numbers": "",
+   "source": "docs/research/level7/c/c2/LEDGER.md:12,289",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

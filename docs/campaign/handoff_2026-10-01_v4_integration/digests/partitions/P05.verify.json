@@ -1,0 +1,382 @@
+{
+ "checked": 55,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": "Line 55 only supports routing/QLoRA/SAFE 91.7%; the tesseract_indic 0.256 n=66 and bilingual 0.258 figures are from BOSS_HANDOFF:53."
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "corrected",
+   "correction": "Contradiction is real, but pa n=90 comes from VALIDATION_CALL_SCRIPT:53 (and handoff:54), not SESSION_DIRECTIVES:294-295; that table lists only sd=75 and mr=79 (pa absent). Script:53 lists pa among 7 langs with 100 distinct pages while also saying pa reaches 90."
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": "Verified as stated in source, but note source arithmetic is off: 459+342=801 already, so adding 24 gu would be 825 (handoff:14, cheatsheet:87 both say '= up to 801')."
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "printed_architecture",
+   "claim": "W6 arithmetic error: 459 + 342 + 24 gu is 825, yet handoff/cheatsheet state 'up to 801' (459+342=801 excludes gu).",
+   "numbers": "459+342+24=825 vs 801",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:14",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Handoff counts tesseract family as winning ne (3 langs: mr,ne,or) although ne n=34 <50 and D4 says no winner claims for n<50; mr is a tie 0.205 vs 0.205.",
+   "numbers": "ne n=34; mr 0.205 tie",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:51-52,62",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Cheatsheet section 6 surya row is stale: says 17/18 coverage, 1098 non-empty, several langs partial-not-run; superseded by the 19:33 update and handoff (surya complete 1227+30 EN).",
+   "numbers": "17/18; 1098",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:77,134",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Cheatsheet table labels 'as' BARRED (line 38) but section 8 and handoff section 7 list as as SAFE-FOR-SFT; internal contradiction on as status.",
+   "numbers": "as BARRED vs SAFE",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:38,101",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 FEASIBLE NOW also includes te/ta/kn/ml South-400 baseline carryover (not counted in 459 items).",
+   "numbers": "459 + baseline",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:72",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Handoff BARRED list also includes 'mni/sat fill'; 6.4 BARRED set stated as 6 langs (ks,mni,mr,sat,ur,ne-PDF) and SAFE 7 (as,brx,doi,kok,mai,or,pa), pending 6.2 falsification test.",
+   "numbers": "6 barred; 7 safe",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:100-102",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Master results sheets stated as 11,097 rows = 9x1227 + 54 sarvam + EN extras.",
+   "numbers": "11,097",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:41",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "FINAL_VERDICT referenced as having 'locked D1-D6' (handoff:119) while handoff section 6 says locked set is D1-D4 per campaign 10; D-label ambiguity persists.",
+   "numbers": "D1-D6 vs D1-D4",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:96,119",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Worktree/hygiene items: .kilo/worktrees/screeching-shallot 31 MB (4115 files) deferred per FINAL_VERDICT 10; .git/worktrees/subdued-quince prunable; manifest.json.pre-* 15 MB (3 files) and manifest_fragments pre-purge 5.19 MB (17 files) deferred; manifest_deduped.json 4.06 MB kept as failed-attempt record.",
+   "numbers": "31 MB; 15 MB; 5.19 MB",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:102-110,150-152",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Weak-cell scores 53.91/54.82/55.3/80.01 are Sarvam-bench-style scores (percent), not probe22 CER; probe22 ks CER is 0.589 (surya) and sat has only n=2 sarvam, so the two scales must not be mixed.",
+   "numbers": "ks 0.589 vs 54.82",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:33,50-55",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

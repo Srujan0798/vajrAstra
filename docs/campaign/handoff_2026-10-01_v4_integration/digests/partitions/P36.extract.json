@@ -1,0 +1,396 @@
+{
+ "partition": "P36",
+ "files": [
+  {
+   "path": "/home/user/boss/level2/benchmark/docs/MEMORY_AUDIT.md",
+   "total_lines": 168,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/level2/benchmark/docs/MEMORY_RECLAIM_RESULT.md",
+   "total_lines": 167,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/level2/benchmark/docs/MLX_INSTALL_RESULT.md",
+   "total_lines": 320,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md",
+   "total_lines": 51,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md",
+   "total_lines": 89,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "training_compute",
+   "claim": "Dev machine is a 24 GB-class Mac (1,572,864 pages x 16,384 B = 25,769,803,776 B); raw free pages only 272 MB, but inactive+purgeable ~9.7 GB reclaimable on demand",
+   "numbers": "free 16,628 pages=272 MB; inactive 618,131=9,662 MB; purgeable 16,132=252 MB; total ~23.0 GB; reclaimable 9,914 MB",
+   "source": "level2/benchmark/docs/MEMORY_AUDIT.md:40",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Memory gate for QLoRA launch: re-run vm_stat before mlx_vlm import; abort if free x page size < 3 GB after inactive reclamation (script STRICT threshold was 4 GB and fails)",
+   "numbers": "<3 GB abort; strict <4 GB fails",
+   "source": "level2/benchmark/docs/MEMORY_AUDIT.md:126-129",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Disk on the Mac is 97% full: 17 GB avail of 460 GiB; QLoRA cache needs >=5 GB (PASS). Earlier audit 14 GB; MLX install run saw 12 GB avail",
+   "numbers": "17 GB / 14 GB / 12 GB; 417Gi used",
+   "source": "level2/benchmark/docs/MEMORY_AUDIT.md:42,100-105; level2/benchmark/docs/MLX_INSTALL_RESULT.md:44",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Memory audit found zero kill candidates in top-20 RSS (all agent/editor/system protected); manual cleanup would free only ~3.5 GB (Chrome ~2.2, Brave ~1.0, WhatsApp 273 MB). Top RSS: opencode 1,494 MB, Cursor 732, Chrome 614",
+   "numbers": "0 candidates; ~3.5 GB manual",
+   "source": "level2/benchmark/docs/MEMORY_AUDIT.md:38,84-92,131-135",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "sudo purge not permitted; reclaim_memory.sh gave no delta (3 runs: -59 MB free, then partial: reclaimable dropped 6 MB, post free 1384 MB, reclaimable 9396 MB). Machine is memory-tight; cannot free RAM programmatically",
+   "numbers": "reclaimable 9719 MB (run2), 9396 MB (run4); free 257 MB / 1384 MB",
+   "source": "level2/benchmark/docs/MEMORY_RECLAIM_RESULT.md:38-45,103-107,162-166",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hard law: no downloads/kills without explicit user yes; no training until W5 freeze; W6 fine-tuning prep PAUSED pending Vinay meeting 2026-09-30, W5 freeze after Wed 2026-10-01. Option A=resume scaffold, B=wrap-only ships, C=backbone swap (new spec)",
+   "numbers": "W5 freeze after 2026-10-01",
+   "source": "level2/benchmark/docs/MEMORY_AUDIT.md:1-24",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "MLX stack installed on the Mac: mlx 0.32.3, mlx-vlm 0.7.4, mlx-lm 0.31.3, mlx-tune 0.6.0 (cloned ARahim3/mlx-tune to /tmp/mlx-tune); Python 3.11.10 .venv311; transformers 5.17.0. USER-APPROVED at W5 freeze call 2026-09-29; smoke tests PASS (mlx.__version__ absent is harmless)",
+   "numbers": "mlx 0.32.3; mlx-vlm 0.7.4; mlx-tune 0.6.0",
+   "source": "level2/benchmark/docs/MLX_INSTALL_RESULT.md:26-28,30-33,47-62,300-320",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "MLX install broke the shared venv: indicphotoocr 1.3.1 pins numpy==1.26.4, opencv 4.10.0.84, hf-hub 0.26.1, safetensors 0.4.5 etc, now numpy 2.2.6, opencv 5.0.0.93, hf-hub 1.31.0; openbharatocr 0.4.3 similar; datasets 3.1.0 vs fsspec. Pip resolver conflicts unresolved (IndicPhotoOCR is the HW expert in Plan v4)",
+   "numbers": "12 indicphotoocr conflicts; 4 openbharatocr; fsspec rolled back to 2024.9.0",
+   "source": "level2/benchmark/docs/MLX_INSTALL_RESULT.md:103-122,267-286",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MLX is Mac-only; install ran in the same .venv311 as IndicPhotoOCR (no env isolation) - Plan v4 portable-PyTorch requirement means HW expert must be re-verified after dependency drift",
+   "numbers": "",
+   "source": "level2/benchmark/docs/MLX_INSTALL_RESULT.md:103-122",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "ERRATUM-K1: Punjabi does NOT survive K1. tesseract_indic vs surya on pa: n_common 90, n_ties 87, n_discordant 3, p=1.0, winner tie. The '88 discordant' belongs to rapidocr pairs. KILL_CRITERIA.md:56 and feed 12.2 wrong",
+   "numbers": "pa n=90, 87 ties, 3 discordant, p 1.0; kok 31 discordant p 0.003327",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:12,25-26",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Konkani is the only language that passes K1 (31 discordant, p=0.003327, winner b); QLoRA scope = Konkani only",
+   "numbers": "kok 31, p 0.003327",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:12,25",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Unresolved K2 provenance conflict: audit says pa p=1.00 vs tesseract_indic (n=90) while W6_QLORA_SPEC.md:75 says p<0.0001 SURVIVES; escalated, not asserted",
+   "numbers": "",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:136-137",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar pass criterion is per-item CER < 0.5 (mcnemar_full_matrix.json meta.cer_threshold = 0.5)",
+   "numbers": "cer_threshold 0.5",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:13,39",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Missing Tesseract traineddata: only mni and sat genuinely missing (kan/mal/tam/tel exist in homebrew tessdata and anuvaad_tesseract); ask shrinks from 6 languages to 2. Fonts: 10 Meetei Mayek, 1 Ol Chiki (fc-list) - 'one typeface each' was wrong",
+   "numbers": "mni, sat missing; 10 Meetei fonts; 1 Ol Chiki",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:16,41",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Indic-OCR pack README states it includes Ol Chiki + Meetei Mayek but licence UNVERIFIED; pack contents for sat/mni never opened (blocks U7 value estimate)",
+   "numbers": "",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:15,40; level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:140",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Corpus coverage gap: all 1,283 benchmark items are print_or_hand=printed, has_table=False, mixed_script=False; quality 983 unknown / 300 clean. No handwriting, tables, mixed script measured",
+   "numbers": "1,283 printed; 983 unknown; 300 clean",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:18,42",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Surya licence conflict: metadata says Apache-2.0 but LICENSE text is modified AI Pubs OpenRAIL-M free for research/personal/startups under $5M funding/revenue; CEO decision (U14). Source docs/legal/LICENSE_AUDIT.md:21",
+   "numbers": "$5M cap",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:19,43",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Test-set size NOT reproduced: monitor said 5,344 unlabelled test images; find on Datasets/akshardrishti_official returned 20,656 png/jpg files. Both reported, neither asserted as test-set size (contradicts Plan v4 5,344 only if that came from same monitor claim)",
+   "numbers": "5,344 vs 20,656",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:20,44",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "IndicPhotoOCR has a CLIP script identifier on disk (.deps/IndicPhotoOCR/IndicPhotoOCR/script_identification/CLIP_identifier.py), weights licence TODO",
+   "numbers": "",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:20",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Hackathon rubric noted: bootstrap 95% CI, WER, S/D/I, sec/page (pointer to proto-80)",
+   "numbers": "",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:17,42",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam Kok 97.41 mixes Sarvam word accuracy with our CER; demoted to labelled footnote/parenthetical",
+   "numbers": "97.41",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:21,45",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Pooled cross-tier comparison forbidden (proto-62 rule 1). On 18 human-verified items Sarvam CER is 2.5x lower than best local (0.171 vs 0.430); our engines lead only on PDF-text-layer GT (n=36); all 21 item-level wins over Sarvam are in PDF-layer tier, none in human-verified tiers",
+   "numbers": "18 items; 0.1711 vs 0.4296; 2.51x; 21 wins",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:68-73 (file lines 8-22)",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Per-GT-tier CER over 54 Sarvam-paired items: official_pair_txt n=9 sarvam 0.064/surya 0.535/best-local 0.243; official_pdf_layer n=36 0.311/0.229/0.229; sarvam_bench n=9 0.278/0.730/0.617. 'best local' is an oracle (per-item best)",
+   "numbers": "n=9/36/9",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:70-72",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT source tiers (official_pair_txt, official_pdf_layer, sarvam_bench) from manifest.json gt_source; PDF-text-layer GT may favour layout-literal output - GT provenance biases engine ranking",
+   "numbers": "",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:68 (file line 18); level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:10",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Manifest 1,283 items; 1,227 scored base set; manifest_additions.json (56 ids) is a SUBSET of manifest (0 genuinely new); never add (would give 1,339)",
+   "numbers": "1,283; 1,227; 56; 1,339",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:78-80 (file lines 28-30)",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam's own published weak cells: Kashmiri 54.82, Odia 80.01, Santhali 53.91 (Indic OCR Bench); Konkani 97.41",
+   "numbers": "ks 54.82; or 80.01; sat 53.91",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:68",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya CER band: exactly 7 of 12 languages listed: pa 0.145, brx 0.165, sa 0.175, mr 0.205, hi 0.220, or 0.259, sd 0.315",
+   "numbers": "7 of 12",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:114",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Pooled 'surya-always beats Sarvam 10/18' reproduced by lead and directive A3 (also best-fixed-per-language 10/18); one reviewer got 8/18, did not reproduce; plan no longer uses pooled figure",
+   "numbers": "10/18 vs 8/18",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:138",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "GLM-OCR presence in OmniDocBench v1.6 disputed between two reviewers (absent vs present at 94.71 rank 3); backbone cell says table does not list it",
+   "numbers": "94.71 rank 3",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:139,114",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "W5 strategy options: docs/architecture/W5_STRATEGY_OPTIONS.md = 5 ranked options A-E, ranks D first (Verdict edition); docs/research/level7 copy = 3-option shortlist recommending A. Two conflicting strategy docs",
+   "numbers": "5 vs 3 options",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:84,91 (file 34,41)",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Process: concurrent editors overwrote DRAFT_RESEARCH_PLAN.md/VINAY_MEETING_PACKET.md (plan 19,398->23,526->27,346 B; packet 32,113 B); ownership ambiguous; fix loop capped at 2 rounds; Verdict specifies, Miss applies; pre-images archived in _archive/pre_fix_2026-09-30",
+   "numbers": "23,526 B sha 1a5bed37...",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:32,49-51; level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:57",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Dead anchor paths in the Vinay packet fixed (EVIDENCE_SUMMARY, LEVEL7_RESEARCH_FINDINGS, COMPUTE_BUDGET_ESTIMATE moved to _reports/ on 2026-09-29): repo-reorg broke citations; Plan v4 citations should be path-verified",
+   "numbers": "4+2+1 dead paths",
+   "source": "level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:82-106 (file 32-56)",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Decided/open questions: U7/U6/U10/U11 DECIDED; U1,U2,U4,U5,U8 open; U13 (coverage gap) and U14 (surya licence) added",
+   "numbers": "",
+   "source": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:39",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Mac Metal install note: Overall disk 12 GB, installs added opencv 5.0.0.93 (48 MB) and mlx_metal 67.7 MB; downloads speeds ~1.5-1.9 MB/s",
+   "numbers": "",
+   "source": "level2/benchmark/docs/MLX_INSTALL_RESULT.md:44,58-62",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 uses 5,344 test images; W1H D11 could not reproduce it (20,656 image files under Datasets/akshardrishti_official) - confirm provenance of 5,344 and whether the extra files are train/leak risk (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:20)",
+  "Plan lacks GT-tier stratification discipline: never pool human-verified vs PDF-text-layer GT; report best-local oracle disclosure (level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:68-74)",
+  "Dev machine is 24 GB Mac with 97% disk; portable PyTorch plan must budget for <=9.7 GB reclaimable RAM, 3 GB abort gate, 5 GB cache, 12-17 GB free disk (level2/benchmark/docs/MEMORY_AUDIT.md:40-42,126)",
+  "MLX install conflicted with IndicPhotoOCR pinned deps (numpy 1.26.4 etc.) - HW expert environment must be isolated/re-verified (level2/benchmark/docs/MLX_INSTALL_RESULT.md:103-122)",
+  "Plan omits mni/sat tessdata gap (only 2 missing) and Ol Chiki/Meetei fonts (1 / 10) for synthetic R3 data (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:16)",
+  "Surya licence conflict ($5M cap OpenRAIL-M) is not in Plan v4 licence gate; IndicPhotoOCR CLIP weights licence TODO; Indic-OCR pack licence unverified (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:19-20)",
+  "K1 erratum: only Konkani survives McNemar (pa tie); plan weak-cell targeting should not assume pa QLoRA (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:25)",
+  "Corpus coverage gap: benchmark is 100% printed, 0 handwriting/tables/mixed-script, so no measured baseline for handwriting exists in this campaign (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:18)"
+ ],
+ "contradictions": [
+  "K2 pa p=1.00 (audit) vs p<0.0001 (W6_QLORA_SPEC.md:75)",
+  "Pooled 10/18 vs 8/18",
+  "GLM-OCR in OmniDocBench v1.6 absent vs present 94.71",
+  "5,344 vs 20,656 test images",
+  "W5_STRATEGY_OPTIONS 5 options (D first) vs 3 options (A)"
+ ],
+ "open_items": [
+  "Licence of Indic-OCR pack, surya, CLIP weights",
+  "Indic-OCR pack sat/mni contents never opened",
+  "Second-reviewer re-verification of round-2 fixes",
+  "Independent re-derivation of CER in sheet.csv in progress",
+  "W6 reactivation depends on Vinay Option A/B/C"
+ ]
+}

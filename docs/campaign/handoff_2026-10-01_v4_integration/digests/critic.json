@@ -1,0 +1,102 @@
+{
+ "missing_files": {
+  "note": "71 files in all_docs.txt (not excluded) have NO per-partition coverage entry and no same-basename file in coverage (basename mirrors such as _claude_memory/proto-* are credited separately below). Partition files are a subset of the doc list; coverage.json lists 50 partitions only.",
+  "research_docs_unread": [
+   "docs/research/W6_STRATEGY_UNIFIED.md",
+   "docs/research/R7_W6_TRAINING_TREE.md",
+   "docs/research/ACTUAL_PROBE22_RESULTS.md",
+   "docs/research/DEEPER_LIVE_RESEARCH_2026-09-29.md",
+   "docs/research/DEEP_RESEARCH_STRATEGY_2026-09-29.md",
+   "docs/research/LEVEL7_RESEARCH_CAMPAIGN.md",
+   "docs/research/MEETING_2026-09-29_STRUCTURED.md",
+   "docs/research/R1_SOTA_MECHANISM_TEARDOWN.md",
+   "docs/research/R2_NASTALIQ_FORENSICS.md",
+   "docs/research/R3_OLCHIKI_MAYEK_SYNTHETIC.md",
+   "docs/research/R4_OLDSCAN_RESTORATION.md",
+   "docs/research/R6_COMPETITION_INTEL.md",
+   "docs/research/SURYA_LIVE_INFERENCE_RESULTS.md",
+   "docs/research/PROBE22_EDGE_ANALYSIS.md",
+   "docs/research/W1_RECIPE_REFRESH.md",
+   "docs/research/SOURCES.md",
+   "docs/research/TEST_STATUS_NOTE.md"
+  ],
+  "architecture_unread": [
+   "docs/architecture/W2_HYBRID.md",
+   "docs/architecture/W5_BEAT_SARVAM_PLAN.md",
+   "docs/architecture/W5_STRATEGY_OPTIONS.md"
+  ],
+  "protocols_docs_copy_unread_(only _claude_memory mirrors may have been read; confirm identical)": [
+   "docs/campaign/protocols/proto-00..21 (00,01,02,10,11,12,13,14,15,16,17,18,19,20,21)",
+   "proto-30,31,40,50,51",
+   "proto-60..66 (60,61,63,64,66; 62,65 mirrored only)",
+   "proto-70..77 (70,72,73,74,77)",
+   "proto-83,84,86,87,94,95,96",
+   "proto-101,107-gate1-and-s5-ssot,107-gold-repo? (107-gate1 listed), 108-md-consolidation",
+   "sonnet-handoff.md"
+  ],
+  "other": [
+   "_reports/research/PPT_FULL_DUMP.md",
+   "_reports/research/PPT_VS_SPEC_DIFF.md (PPT original architecture claim in digest_decisions_ops cites PPT_FULL_DUMP Slide 2 with no read)",
+   "OCR_AGENT_MEMORY_FEED.md",
+   "AGENTS.md",
+   "docs/sources/consensus/MOVE_LOG.txt",
+   "_archive/directives/CAMPAIGN_DIRECTIVE_v4_2026-09-29.md",
+   "_archive/directives/uni_v3_ORIGINAL_2026-09-29.txt",
+   "_archive/root_md_dedupe_2026-09-29/W5_BEAT_SARVAM_PLAN.md",
+   "_archive/south_pages_400_symlinks_2026-09-30/page_ids.txt",
+   "_archive/stray_2026-09-30/profile_test_images_sha256.txt",
+   "requirements.txt",
+   "product/requirements.txt",
+   "level2/research/smoke/anuvaad_tesseract/te_001.txt (+.stderr.txt)"
+  ],
+  "handoff_folder_inputs_not_in_coverage": [
+   "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md",
+   "corpus_extract.md",
+   "HANDOFF.md (digests cite v4_notes.md and corpus_extract.md as primary sources for the Bengali-handwriting edge and Bodhan D1 numbers; no coverage entry)"
+  ],
+  "path_hygiene": "coverage.json mixes relative, /home/user/boss and unnormalised paths; LEDGER.md appears as three '(lines a-b)' pseudo-paths; the two ECC mem files mem_20261001_7328735a... and mem_20261001_6af40ba4... are in P50 but absent from all_docs.txt (list is stale vs corpus)."
+ },
+ "not_fully_read": {
+  "flagged_by_coverage": [],
+  "caveats": [
+   "coverage.json reports fully_read=true for all 320+ entries including 7069-line level7/a/LEDGER.md (split 3 ways) and P45 (85 findings); fully_read is self-reported, not independently checked.",
+   "P49 (22 memory files) and P50 (34 ECC mem notes) were extracted but never fact-checked: effectively read-once, unverified.",
+   "Truncated ledger sections: only lines 1-7069 read; no check that the file has no content beyond."
+  ]
+ },
+ "weak_themes": [
+  "handwriting: digest rests on 13/13 viewed test crops (0.24%) and v4_notes.md; no coverage of image-level overlap, writer/ID split, or any measured HW CER on the actual test distribution; Plan v4 HW branch numbers largely come from ledger literature (P08, 22/54 findings corrected on line anchors) and snippet-only licences.",
+  "licensing/ship-ability: IIIT-INDIC-HW-WORDS, PARSeq/IndicPhotoOCR weights, BN-HTRd, IndicLID all 'unverified' in 5 of 7 digests; Bodhan/surya conditional. The ship/train decision cannot be made from the corpus.",
+  "product_jury_competition: official metric absent; deadline/format unknown; competitor numbers (Sarvam 87.39, 6,609 vs 6,909) open; mostly outside-in intel.",
+  "decisions_ops: 21 contradictions of which ~8 still OPEN (backbone/Option A/D, surya speed 24 vs 36h, memory 24 vs 32GB, abstention rates, W1 stopped vs gate met, gold-repo T1/T14 stale, meeting date).",
+  "training_compute: no measured GPU throughput/cost on target hardware; 24GB GPU SSH access unconfirmed (U33/O-3); Bodhan HF gated 403 unresolved; compute plan rests on ledger estimates (~3h QLoRA, 1.2GB).",
+  "weak_cells: Ol Chiki/Meitei local engine emission is n=20 per language; Plan gap 'no printed 22-language track' remains a design decision not evidence.",
+  "memory/ECC layer (P49/P50) is the only source of latest-session state and was not verified."
+ ],
+ "unverified_load_bearing": [
+  "Anything sourced to P49/P50 (proto-82 empty-output patterns cited 'per P49' in digest_printed_architecture; ECC mem_* handoffs for the Vinay call, 2026-10-02 10:00 session, 24 GB GPU SSH U33/O-3/K-26 in digest_decisions_ops open_questions).",
+  "PPT original architecture already had a handwriting branch (IIIT-HW-Dev/Telugu/INDIC-HW-WORDS, 872K word images): cited to PPT_FULL_DUMP.md (Slide 2), MEETING_2026-09-29_STRUCTURED.md - neither file in coverage; filename-only.",
+  "Handwriting edge claim and Bodhan D1 MLX numbers (bench CER 0.054/WER 0.1356; 300 gold CER 0.4034 vs surya) cited only to v4_notes.md section names (no line, file not in coverage) - planner-authored, not primary.",
+  "Official judging criteria + named eval target in digest_handwriting cites v4_notes.md 'More facts' only, while product digest cites RQ1_official_rules.md (read) - treat the former as secondary.",
+  "pa K1: KILL_CRITERIA.md:56 / W6_QLORA_SPEC:75 (p<0.0001, 88 discordant) is WRONG per ERRATUM-K1 and mcnemar_full_matrix; P01 verifier marked superseded but human ruling on authoritative source still open; any plan keeping kok+pa SAFE-QLoRA relies on it. mcnemar_full_matrix.json itself is a JSON not in the doc list.",
+  "mr visual GT pass 42.9% vs 62.5%; P04 verifier: the other six tier-FAIL rows (ks/gu/ne PDF etc.) are not marked superseded despite the 233-item visual lock; 'solved-class CER<0.10' label contradicted by sa 0.26 and hi/bn lines (P04 idx 11).",
+  "Surya licence 'eval-only' resolution and Bodhan 'conditional' rest on RQ9_licences.md alone; a Datalab commercial waiver (U14) is unresolved.",
+  "IIIT-INDIC-HW-WORDS CC BY 4.0: P08 verifier found the ledger states NO licence for it (academic-use is on IHTR-2023/IHDR-2025 cards); CC BY 4.0 comes from AIKosh via Plan v4 only; HW training legality unverified.",
+  "Sarvam competitor numbers (sat 53.91, ks 54.82, OldScan 55.3, or 80.01, 87.39 word-acc) are marked dead/directional; CALL_PACKET still cites them. Verified 'P08 idx 41/42': Sarvam v1/v2.1 and Mistral 74% claims spread across re-cites and conflate two 74% figures.",
+  "P08 corrected 22/54 and P04 14/41: wide line-anchor drift; any plan citation copied from the raw extracts (not the verify-corrected text) may point to the wrong record (e.g. DeepSeek-OCR at 4950 is GLM-OCR; MonkeyOCR 4734 is a header; Surya v0.22.1 'hurts offline CPU' overstates since llama.cpp CPU/Apple Silicon path exists).",
+  "Surya runtime 24.3 s/page (~36 h) vs 16.3 s (~24 h) for 5,344 images and memory 32 GB vs 24 GB are OPEN: inference-time budget unsound until measured.",
+  "Abstention rates (paddle 43.7/56.1, anuvaad 50.3/59.4) OPEN; 1,227 vs 1,283 and 11,097 vs 12,324 resolved only by 'latest-dated wins'.",
+  "Test-set script mix verified on 13/13 viewed crops; Tesseract-based script-ID claim and the 5,344 vs 20,656 'not reproduced withdrawn' flip depend on PROTO86_VERIFY and W1.md single viewings; HW0 hash overlap with IIIT splits not run.",
+  "Hackathon deadline (Oct 4 / Oct 15 / 30/09) all void; no official metric or submission format known.",
+  "Decision-law drift: docs/INDEX.md does not list proto-108 in law chain; proto-107 T1/T14 still cite proto-104 rev 4; verified rankings of Plan v3/v4 as law rely on proto-108-plan-v4-final read only via the _claude_memory mirror, with docs/campaign/protocols copy unread."
+ ],
+ "next_round": [
+  "Read and extract the 71 unread files, priority: docs/research/{W6_STRATEGY_UNIFIED,R7_W6_TRAINING_TREE,ACTUAL_PROBE22_RESULTS,R1,R2,R3,R4,R6,PROBE22_EDGE_ANALYSIS,SURYA_LIVE_INFERENCE_RESULTS,MEETING_2026-09-29_STRUCTURED,W1_RECIPE_REFRESH}.md, docs/architecture/*, _reports/research/PPT_*; diff the docs/campaign/protocols/* copies against _claude_memory mirrors and read only those that differ (md5), then the remaining protocols.",
+  "Add v4_notes.md, corpus_extract.md, HANDOFF.md to a partition and fact-check every digest claim that cites them against primaries (RQ1_official_rules, TEST_SET_PROFILE, W4.md).",
+  "Run the verifier on P49 and P50 (unblock it); rebuild digests citing 'per P49' and ECC mem notes after verification; check whether 2026-10-01/02 call and GPU SSH outcomes appear in any dated mem note.",
+  "Re-apply verify corrections to digests: P04 (14 corrected) and P08 (22 corrected) line anchors; add superseded marks for six FAIL GT tiers; change HW licence claim to 'unverified'.",
+  "Resolve OPEN items with measurement not reading: surya s/page on target HW, abstention-rate recompute, HW0 hash overlap of 5,344 test vs IIIT/BN-HTRd, a larger script-ID sample on the test crops, licence lookup for IIIT-INDIC-HW-WORDS/PARSeq/IndicPhotoOCR/BN-HTRd.",
+  "Add a dedicated handwriting partition set (IIIT-INDIC-HW-WORDS, BN-HTRd, ICDAR'23, SemiHastakshar, Upstage) and a compute/GPU measured-cost partition: both themes are mostly inferred from the ledger and planner notes.",
+  "Normalise coverage.json paths, sync all_docs.txt with the two missing ECC mem files, and independently confirm fully_read flags (line-count check on LEDGER 7069 lines)."
+ ]
+}

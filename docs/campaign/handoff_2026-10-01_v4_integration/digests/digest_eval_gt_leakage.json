@@ -1,0 +1,335 @@
+{
+ "theme": "eval_gt_leakage",
+ "established": [
+  {
+   "fact": "Official test = 5,344 unlabelled JPEG crops at Datasets/akshardrishti_official/test/test/ (never train/tune); 20,656 is the whole official dataset, so the earlier 'not reproduced' claim is withdrawn. Sample: heights 291-300 px, widths 445-1,630 (70 images).",
+   "sources": "docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:94; docs/campaign/checkpoints/W1.md:169; docs/campaign/TEST_SET_PROFILE.md:8-15"
+  },
+  {
+   "fact": "Test-set script mix is verified only visually on 13/13 viewed crops (Bengali handwriting); a Tesseract-based H1 read of 70 samples gave 35.7% Devanagari, unresolved. No full 5,344 script-ID audit exists.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:17; docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67; docs/campaign/BOSS_CONCERNS.md:47"
+  },
+  {
+   "fact": "Official scoring metric, submission format and deadline are UNKNOWN; the 'CER+bootstrap CI+WER+S/D/I+s/page' rubric came from a student B.Tech repo, and '>95% WLA, <1 s/page' is the 2023 Bhashini challenge, not AksharDrishti. No official dataset/split/sample is published.",
+   "sources": "docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:55-76,284-292; _claude_memory/history-completed-protocols.md:1037,1076"
+  },
+  {
+   "fact": "Only labelled handwriting on disk is Datasets/akshardrishti_official/Bodo/gu = IIIT-INDIC-HW-WORDS Gujarati (4,645 images present vs 82,563 train / 16,490 H2 slice); visually Bodo/gu/test/test/1.jpg is Gujarati handwriting with a valid label. No Bengali handwriting labelled set is local.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/corpus_extract.md:8-9; docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:19; docs/campaign/checkpoints/W4.md:746"
+  },
+  {
+   "fact": "H2 Gujarati slice has no writer_id/page_id, so writer-disjointness cannot be proven from the manifest; images on disk are mispathed (test/test/ resolution needed).",
+   "sources": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:23,35"
+  },
+  {
+   "fact": "IIIT-INDIC-HW-WORDS licence = CC BY 4.0 (AIKosh); Bengali train 82,554 / val 12,947 (IHTR-2022 page also lists test 18,574, summary says 17,575); IHTR-2022 page is 'All Rights Reserved' and IHTR-2023/IHDR-2025 are academic-use, so those are eval-only.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:19-20,30"
+  },
+  {
+   "fact": "ICDAR 2023 IHTR: train = IIIT-INDIC-HW-WORDS; NEW val 1,000 + test 5,000 words/lang from 100 writers. PERO used IIIT val/test as extra training, so its numbers are not clean. Bengali WRR 96.10 (Upstage) is a vendor-style top score, not a gate transfer.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:21-22"
+  },
+  {
+   "fact": "Independent Bengali handwriting eval candidates: BN-HTRd (108,181 words, 150 writers, 786 pages; licence unchecked) and ICDAR'23 test (100 new writers, obtainability unknown). Mandela rule: perceptual-hash the 5,344 test images against all IIIT-HW bn splits and ICDAR'23 sets before any training.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:26,32"
+  },
+  {
+   "fact": "Plan v4 kill (c): if official images are a subset of IIIT train, exclude and disclose; gate G-HW0 = pHash+SHA of the 5,344 vs every candidate set; mandela patterns mapped: #1 contamination, #6 shared-pool bias (IIIT train/val/test share protocol), #3/#4/#5 verifier=designer.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:86,131,189-194"
+  },
+  {
+   "fact": "Hard law: test/test and any benchmark split or test image is never trained or tuned on; RL on Sarvam small_representative was rejected as eval leakage; no LoRA/QLoRA/GRPO before Gate 2.5 AND boss go. Sealed read-only: level2/out, Datasets, arc_level_1, _archive/bundles.",
+   "sources": "_claude_memory/proto-99-concern-crosswalk.md:430; _claude_memory/proto-01-law-and-guardrails.md:27,30-35; _claude_memory/proto-89-plan-v3-bodhan-base.md:22-23"
+  },
+  {
+   "fact": "B21 hard rule: no text from Sarvam bench, Indic OCR Bench, IIIT-HW, IIIT-HW-words, BSTD or any public benchmark may seed synthetic text; gate G2 = grep for sarvam/indic-ocr-bench in product/synthetic/ must be empty.",
+   "sources": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:20,32,136"
+  },
+  {
+   "fact": "Past leak patterns: untracked src/ LayaRouter routed on gt_text (answer key); QLoRA eval pseudocode scored on the full set incl. 160 train rows (only 20/lang held out) and train/val/test were pages of the same 2 PDFs; dedup on null source_pdf destroyed 447 items.",
+   "sources": "_claude_memory/proto-98-clean-repo-master.md:722; docs/benchmark_docs/QLORA_EVAL_SPEC.md:36-58,309-312; docs/benchmark_docs/QLORA_TRAINING_DATA.md:272; _claude_memory/history-completed-protocols.md:593"
+  },
+  {
+   "fact": "Self-evaluation bias (arXiv 2607.25152): over 54 cycles agents claimed improvement every cycle, 56% had measured delta<=0; an in-band judge accepted 44% regressions and rejected 38% improvements; gates must be artifact-verifiable and out-of-band.",
+   "sources": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:124-125"
+  },
+  {
+   "fact": "probe22 manifest = 1,227 scored items over 18 langs (GT tiers 300 human pair + 769 PDF text layer + 158 sarvam_fill); manifest.json later 1,283 (+56 unscored additions sd25 mr21 pa10, a subset); manifest_v2 = 1,683 incl. South 400. Per-lang table sums to 1,646, a 37-item gap unreconciled.",
+   "sources": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:45-51; docs/campaign/checkpoints/W1.md:93; docs/campaign/checkpoints/W4.md:384-395"
+  },
+  {
+   "fact": "probe22 and South-400 are 100% printed (0 tables, 0 mixed-script, 983/1,283 quality unknown); no handwriting was ever measured, so none of the 22-language engine tables transfers to the Bengali-handwriting test.",
+   "sources": "docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:92; level2/benchmark/docs/AGENT_PROTOCOL.md:103-106"
+  },
+  {
+   "fact": "GT verification (237 items, machine-assisted agent vision, not human; 165 pass/72 fail): BARRED ks 0%, mni 0%, sat 15%, ur 10%, mr 42.9% (later 3/8=37.5% pass), ne PDF-tier (R5 trust 26.6); SAFE as/brx/doi/kok/mai/or/pa; VERIFY-FIRST gu/sd 85.7%. Locked 2026-09-27.",
+   "sources": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:55-77; level2/benchmark/docs/verify_unaccounted.md:4-47"
+  },
+  {
+   "fact": "R5 GT trust: ne 26.6, ks 45.0 (not 29), mr 46.8, gu 51.4, ur 59.0, brx/doi/pa/or/kok/mai 71.6-75.0, sd 97.8. W6 eligibility needs verification pass + pair-vs-pdf gap <=10pp + trust>=70; sarvam_fill never trains; SFT/RLVR on unverified PDF GT forbidden.",
+   "sources": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:67-77; docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:98-101"
+  },
+  {
+   "fact": "GT extraction gates (never relaxed): MIN_CHARS 50, script ratio>=0.5, Latin<=0.6, control chars<=3; 1,340 drawn -> 111 control-char-purged -> 2 noise = 1,227. South official PDFs: 0/23,001 pages pass (76% legacy-font); 52/115 'clean' South pages were mojibake.",
+   "sources": "docs/campaign/MENTOR_PLAYBOOK.md:208; _claude_memory/proto-93-measured-facts.md:101; level2/research/gates/B12_ensemble_voting.md:88-98"
+  },
+  {
+   "fact": "Pseudo-GT/extractor mirroring: pair-vs-pdf gap -0.25 for surya (pair 0.5639 n=299 vs pdf 0.3135 n=769) flags PDF-layer GT as suspect; resolution confound (native 4250x6500 vs 200-dpi renders). Falsification test inapplicable by design (no language has both tiers).",
+   "sources": "level2/benchmark/docs/FINAL_REPORT.md:127-147; docs/research/level7/CALL_PACKET.md:285"
+  },
+  {
+   "fact": "Tier split on 54 Sarvam-paired items: pair_txt n=9 Sarvam 0.064 vs best-local 0.243; pdf_layer n=36 0.311 vs 0.229; sarvam_bench n=9 0.278 vs 0.617. Pooled human-verified n=18: Sarvam 0.171 vs 0.430 (2.51x); excl. mni/sat (12 items) 0.1315 vs 0.2295. All 21 local wins are in the PDF-layer tier.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1H_verify.md:131-136; docs/campaign/checkpoints/W1_reports/1F_sonnet.md:11-33"
+  },
+  {
+   "fact": "'Beats Sarvam 9/18' is unsupported: 9 = surya wins over 12 langs with n>=50; paired on 3 items/lang gives surya lower mean CER in 10/18 (item-level surya 21 / Sarvam 28 / tie 5). Sarvam mean CER 0.2640 on n=54 (0.2400 is n=50, loop rows dropped).",
+   "sources": "level2/benchmark/docs/fix_specs/W1A_PACKET_AUDIT.md:46-77,169,403-407; docs/campaign/BENCHMARK_22.md:25,263"
+  },
+  {
+   "fact": "Sarvam 87.39 = unweighted mean of the 22 Indic rows on Sarvam's blog (87.3909, n=6,609 excl. 300 English; 6,909 total); metric word-accuracy 100x(1-WER) per card but 87.39 literally being it is UNKNOWN; no CER of ours is comparable. Declared DEAD-for-decisions (OBITUARIES O-02..O-05).",
+   "sources": "docs/campaign/checkpoints/W1_reports/1H_verify.md:25-56,36,225; docs/research/level7/c/c4/OBITUARIES.md:1-8,350-351"
+  },
+  {
+   "fact": "Sarvam indic-ocr-bench (rev 84ce7ce4, Apache-2.0): 6,909 blocks + 1,173 small_representative (51/lang), GT 'reviewed twice by human language experts', ambiguous-GT and runaway-repetition samples excluded; handwriting never benchmarked. Sarvam built the bench; contamination status UNKNOWN.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:18,26; docs/INDEX.md:30; docs/campaign/checkpoints/W1_reports/1E_hunt.md:51,68"
+  },
+  {
+   "fact": "Scorer divergence: our metrics.py scores empties/loops as CER 1.0 and drops GT<50 chars (Sarvam excludes loops/empties); Sarvam's word-split fallback returns gt2,gt2 (CER 0 on real errors). Normalisation (NFC/NFKC) causes 0 exact-match flips over 12,324 rows. No head-to-head vs 87.39 until one scorer.",
+   "sources": "docs/campaign/BENCHMARK_22.md:26,331-344; docs/campaign/MULTI_LLM_EVAL.md:30,65"
+  },
+  {
+   "fact": "sheet.csv (12,324 rows) stored CER is not re-derivable: 66/400 exact; full recompute exact 18.0%, within 1e-4 37.1%, mismatch 62.9%; no generator, never in git. Headlines survive on rebuilt sheet_v2.csv (winners surya 9/tess_bi 1/openbharat 1/easyocr 1; kok 0.4248->0.4286); boss adopted sheet_v2 (U9).",
+   "sources": "docs/campaign/SHEET_V2_FORENSICS.md:3-56; docs/campaign/checkpoints/W1.md:218-226; _claude_memory/proto-92-boss-decisions.md:23"
+  },
+  {
+   "fact": "'Best local' is an argmin over 10 engines x 22 langs on the same items (oracle, no held-out split, no CI); '10/9 independent engines' is false: openbharatocr == tesseract_indic on 1,225/1,227, all three identical on 370/1,227; tesseract_bilingual differs on 857/1,227.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:45-57; docs/campaign/MONITOR_2026-09-30.md:28-30; docs/campaign/BENCHMARK_22.md:364-370"
+  },
+  {
+   "fact": "Estimator law: Wilson 95% on per-language CER, McNemar exact on paired items, coverage + conditional CER separately, no winner claims n<50 (as,gu,ne,doi,mni,sat), min-detectable gap ~8pp at n=100 and ~19pp at n=20. McNemar pass = per-item CER<0.5 (binary, two-sided), 606 triples computed/439 skipped.",
+   "sources": "docs/research/level7/PROMPT_ENGINE_AGENT.md:42; level2/benchmark/docs/AGENT_PROTOCOL.md:360-366; docs/research/level7/KILL_CRITERIA.md:222-238"
+  },
+  {
+   "fact": "K1 erratum: Punjabi does NOT survive (pa n=90, 87 ties, 3 discordant, p=1.0); Konkani survives (31 discordant, p=0.003327, 19.4pt gap). QLoRA scope = Konkani only; 5 engines share an identical 7-vs-24 kok pattern (possible artefact). K1 T1=0.05, T2=3pt are operator-set defaults.",
+   "sources": "level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:12,25-26; _claude_memory/proto-93-measured-facts.md:58; docs/campaign/PAPERTHIN_AUDIT.md:116"
+  },
+  {
+   "fact": "Mean CER is inflated by abstention: empty rate paddleocr_indic 43.7%, anuvaad 50.3%, rapidocr 28.0%, surya 10.5% (surya mean 0.3944 vs median 0.3058; 13.2% items CER>=0.999); median flips the winner in 6/18 langs. Report median, catastrophic rate (CER>0.5), abstain rate.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:31-35; docs/campaign/checkpoints/W1_reports/1E_lensC.md:159-169,216-233"
+  },
+  {
+   "fact": "Synthetic/clean-render benchmarks hide failure: Devanagari stress test chrF++ 91-98 on rendered text while 9/10 systems collapse on 300 real Hindi scans (EasyOCR 93.6->58.3). Median + catastrophic-failure rate is the faithful summary; raw-vs-normalised delta 0.6707 vs 0.6692.",
+   "sources": "docs/research/level7/a/LEDGER.md:6463,6643; docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:376"
+  },
+  {
+   "fact": "EN sanity gate: 30 gold EN pairs per engine, CER>~5% on clean renders = broken harness; all 11 engines failed it (surya 0.1514, sarvam 0.1078) because EN images are 3120x4160 noisy scans, i.e. harness mismatch not broken engines.",
+   "sources": "level2/benchmark/docs/FINAL_REPORT.md:151-169; docs/research/level7/SANTA_METHOD_FINAL.md:222-235"
+  },
+  {
+   "fact": "Sampling concentration: bn/hi/sa pair tier clean (100 distinct images), but kok 100 pages from 2 PDFs (50/50), pa 90/10 from 2 PDFs, ur 34% on page<=1, doi 86% first-page, gu 83%/or 72%/ne 54% top-1 doc; South 100% one source (S5_govt). Hash split across pages of one PDF is not independence.",
+   "sources": "docs/campaign/SAMPLING_PLAN.md:12-16,61-76; docs/benchmark_docs/QLORA_TRAINING_DATA.md:95-101,272"
+  },
+  {
+   "fact": "Marathi GT carries injected Ol Chiki on 18/79 items (table pages, 7.4x Latin, 7.9x digits); clean CER 0.1055 vs contaminated 0.5411, but stripping the Ol Chiki moves CER only +0.004. Dropping the 18 is cherry-picking; report split mr_prose 0.106 (n=61) | mr_table 0.541 (n=18).",
+   "sources": "docs/campaign/EDGE_THESIS.md:17,27; docs/campaign/checkpoints/W1_reports/1E_lensB.md:294-338"
+  },
+  {
+   "fact": "GT defect register G1-G9 (Marathi Ol Chiki, gt_thin 179 vs 200, te_024/te_065 script map, ne barred, sarvam_bench home-turf, sheet vs manifest gt equality unchecked); docs/campaign/GT_DEFECTS.md does not exist and step Q must precede D2.",
+   "sources": "_claude_memory/proto-65-gt-defects-register.md:19-27; docs/campaign/BOSS_CONCERNS.md:168"
+  },
+  {
+   "fact": "South-400: only 126/400 pages have a CER (219 gt_thin + 55 legacy mojibake nulled); sealed medians surya 0.430 vs anuvaad 0.475 CIs overlap; 26/126 scored pages used legacy-font GT (K-29 correction to Vinay still owed). South items sit inside the 6,909 and must be counted once.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1F_onepager.md:12; docs/campaign/VAJRASTRA_SHEET_AUDIT.md:9-10,29; docs/campaign/BOSS_CONCERNS.md:85,232"
+  },
+  {
+   "fact": "Fusion/consensus pseudo-GT is dead: ensemble voting beat the best single engine on 0/115 pages; consensus pseudo-GT 0.144 off gold vs 0.132 best single; LLM/free-tier VLM labels as GT REJECTED (B-14). A VLM may only pre-fill for human review.",
+   "sources": "docs/campaign/VAJRASTRA_SHEET_AUDIT.md:9-10,34-38; docs/campaign/MENTOR_PLAYBOOK.md:201-210"
+  },
+  {
+   "fact": "Vendor numbers need transfer obituaries (language/scan/harness/metric): 13 obituaries, 13 DEAD, 0 revived; e.g. IndicPhotoOCR paper CER 0.085 vs 0.6589 on our manifest. Bodhan bench small_rep CER 0.054/WER 0.1356 and Bodhan HW bench (bn 74.8/71.3/58.3) are vendor-bench figures on other distributions.",
+   "sources": "docs/research/level7/c/c4/OBITUARIES.md:1-8,350-351; level2/benchmark/docs/transfer_obituaries.md:169-184; docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:23-24"
+  },
+  {
+   "fact": "Bodhan D1 gate is CONDITIONAL PASS only: 300 gold pairs CER 0.4034 vs surya 0.5660 (printed South/Sarvam-bench items), sample-100 pages CER 0.69; official-path parity BLOCKED (CUDA vendor assert).",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:11; docs/campaign/checkpoints/W4_reports/blind_verify_gate1.md:45"
+  },
+  {
+   "fact": "PARSeq re-init with an Indic vocab gave script ratio 0.53 but Jaccard 0.00 (fake pass): script ratio alone is not a content metric; gates must use CER/WRR vs GT plus a Jaccard floor.",
+   "sources": "level2/engine_docs/B1_doctr_parseq.md:43-52,76-79 (per gaps P38)"
+  },
+  {
+   "fact": "Official judging is product-weighted (approach, technical feasibility, product roadmap, team, addressable market); no scoring formula exists and accuracy is only one input.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/corpus_extract.md (official judging line, RQ1); docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:34-42"
+  },
+  {
+   "fact": "Evaluation hygiene incidents in past work: 6/10 fix-specs hallucinated from stale text, 5/9 claimed winners false, 'ur p<0.05 vs 9/10' false (0/9), '19/18 langs' label bug, stale copies cost 100 sa packs; rule 'done = reproduced by a command', pack-count==manifest-n assertion hook.",
+   "sources": "_claude_memory/history-completed-protocols.md:Past-agent failure line; level2/benchmark/docs/fix_specs/W1A_PACKET_AUDIT.md:66-73; docs/research/level7/c/c4/LEDGER.md:1189-1198"
+  },
+  {
+   "fact": "Label-noise and unlabeled-writer evidence from consensus: cleaning labels alone gave up to 1.8 CER pts; SemiHastakshar uses unlabeled IIIT-INDIC-HW-WILD/UC to close the writer-generalisation gap vs PARSeq; consensus numbers are unverified summaries until papers are opened.",
+   "sources": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:448,470; docs/research/level7/a/LEDGER.md:6153 (per gaps P08,P42)"
+  }
+ ],
+ "decisions_current": [
+  "Official test images are never trained/tuned on and never GT; G-HW0 = pHash+SHA of the 5,344 vs every IIIT-HW bn split and ICDAR'23 set BEFORE any training (src: _claude_memory/proto-108-plan-v4-final.md:86,131; docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:26).",
+  "Section 6.4 GT verdict lock stays (BARRED ks/mni/ur/sat/mr/ne-PDF; SAFE 7; VERIFY-FIRST gu/sd) unless the boss reopens; U6 = boss decided human re-verify of mni/sat (src: docs/campaign/EDGE_THESIS.md; _claude_memory/proto-92-boss-decisions.md:20).",
+  "D1-D4 locked: sarvam_fill never trains (probe-scoring only); no SFT/RLVR on unverified PDF GT; GT<10 chars purged; n<50 cells carry no winner claims (src: docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:98-101).",
+  "Win-claim law R-12: same items, same metric, n>=50, significance test or explicit 'directional', and a win on an independent set; never pool across GT tiers (src: docs/campaign/BOSS_CONCERNS.md:31; _claude_memory/proto-01-law-and-guardrails.md:80-81,196-204).",
+  "sheet_v2.csv (committed generator, numpy Levenshtein validated 400/400) is the only reporting basis (U9=YES); sheet.csv never presented as independently checkable (src: docs/campaign/SHEET_V2_FORENSICS.md:14-16,52-56).",
+  "Sarvam-bench comparisons use Sarvam's unchanged metrics.py as the headline column; any normalised scorer is a second column only (src: docs/campaign/B02_ARABIC_NORMALIZATION.md:25,43-47).",
+  "H2 scorer: CER + WER + median + catastrophic-failure rate; leak rule: writer/page never in both train and eval (src: docs/campaign/checkpoints/W4.md:754).",
+  "Bench data (Sarvam 6,909 + 1,173 small_rep) is eval-only (U24); 600K-KS never in an eval set; no RL on any benchmark split (src: _claude_memory/proto-92-boss-decisions.md:31; _claude_memory/proto-89-plan-v3-bodhan-base.md:22-23).",
+  "Sarvam API: 54-call cap (3/lang) spent; no further Sarvam calls without boss approval; full 1,227 run default SKIP ($12-37 est.) (src: docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:47,72; docs/research/level7/H48_HOSTILE_PASS.md:54,131).",
+  "LLM/free-tier VLM output is never GT (B-14 Ruling 1); correctors/post-correction must be trained on the engine's own errors only and scored as a separate stage (src: docs/campaign/MENTOR_PLAYBOOK.md:201-210; docs/campaign/RESEARCH_DECISIONS.md:101)."
+ ],
+ "superseded": [
+  "'Bodo/gu is a 4,645-image copy of the test set, not GT' and c3 'Bodo-gu/test-test as GT = do not collect': superseded for Bodo/gu (now identified as labelled IIIT Gujarati, vocab-indexed); test/test stays never-GT (src: docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:34; _claude_memory/proto-108-plan-v4-final.md:213 vs level2/benchmark/docs/AGENT_PROTOCOL.md:94-95).",
+  "'5,344 not reproduced / test size is 20,656': withdrawn; 20,656 is the whole dataset (src: docs/campaign/checkpoints/W1.md:169; _claude_memory/history-completed-protocols.md:1040,1050).",
+  "'tesseract_indic/bilingual/openbharatocr byte-identical': false (ERRATUM 2026-09-30); only openbharatocr ~ tesseract_indic (1,225/1,227) (src: docs/campaign/BENCHMARK_22.md:364-370).",
+  "'Punjabi survives K1 (p<0.0001)' and 'pa out of QLoRA scope due to p=1.00' provenance: superseded by ERRATUM-K1 (pa is a tie, p=1.0); QLoRA scope = Konkani only (src: level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:12,25).",
+  "sarvam_fill described as 'machine GT': superseded by C12 (card says human-reviewed twice); BARRED mni/sat verdicts may be a verifier-competence artefact but 6.4 stays locked (src: docs/campaign/COMPETITOR_INTEL.md:8; docs/campaign/CAMPAIGN_DIRECTIVE.md:91-93).",
+  "mcnemar_results.json (382 triples, 10 engines) and surya_spotcheck total_predictions=726: superseded by mcnemar_full_matrix.json (606 triples, 11 engines) and 1,227 (src: docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:82-83).",
+  "'18x100=1,800 / 18 langs x 100 samples' lock: wrong (scored n 19-100); 22x100=2,200 target live; 'W4 all 22 langs >=100' overclaim struck (src: docs/campaign/CAMPAIGN_DIRECTIVE.md:68-74; docs/campaign/checkpoints/W4_reports/blind_verify_100strike.md:9-67).",
+  "EVIDENCE_SUMMARY basis brx 0.153/or 0.256/sa 0.168 and surya 0.3849: stale; sheet-based 0.165/0.259/0.175 and surya 0.3944 current (src: docs/campaign/checkpoints/W1.md:53; docs/campaign/checkpoints/W1_reports/1G_verify.md:124-126,279-315).",
+  "Hunt F5 'script-block mismatch detector surya 0.313 vs 0.963': superseded by Lens C (Latin included gives empty mismatch set; excl. Latin 0.2382 vs 0.6676, n=886) (src: docs/campaign/checkpoints/W1_reports/1E_lensC.md:173-190).",
+  "'Sarvam EN 3-sample Wilson CI [0.188,0.468]' around point 0.1078 and 'half-width >50pp': internally inconsistent; do not reuse (src: docs/research/level7/CALL_PACKET.md:404; docs/campaign/checkpoints/W4_reports/A6_staging/santa_method_cross_check.md:113-122)."
+ ],
+ "contradictions": [
+  "Bodo/gu: 'copy of the test set, never use' (AGENT_PROTOCOL:94-95, FULL TECHNICAL BRIEFING:49) vs 'labelled IIIT Gujarati handwriting' (corpus_extract:8, proto-108:213). Resolution: later primary viewing wins, but HW0 must still hash Bodo/gu against test/test since the early warning came from shared folder structure; image-level overlap unverified.",
+  "Surya-beats-Sarvam pooled 10/18 (1G, 1H round1, lead) vs 8/18 (1H round2) on the same sheet.csv: resolved in leads as same-3-item 10/18 vs mismatched 8/18, but the cross-report disagreement is recorded as unresolved; never present either as a win (n=3/lang). (src: docs/campaign/checkpoints/W1_reports/1H_verify.md:90; 1H_verify_round2.md:308-328; W1.md:222)",
+  "sarvam_fill GT: 'machine GT' (protocol) vs 'human-reviewed twice' (HF card). Resolved toward human (C12); BARRED mni/sat verdicts therefore weak. OPEN: whether 6.4 is reopened is a boss decision (U6). (src: docs/campaign/COMPETITOR_INTEL.md:8; _claude_memory/proto-104-project-first-critical-path.md:43)",
+  "Sarvam bench size: 6,909 vs 6,609 (6,609 = 6,909 minus 300 English; macro n is 6,609, no exclusion mechanism); older plan glosses attach the wrong mechanism. Proto-98 still marks it unsettled. (src: docs/campaign/checkpoints/W1_reports/1H_verify.md:25,56; _claude_memory/proto-98-clean-repo-master.md:350-352)",
+  "tesseract_bilingual differs from the other two on 778 (verifier) vs 857 (lead) of 1,227: OPEN, same direction (not byte-identical). (src: docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:117; docs/campaign/checkpoints/W1.md:176)",
+  "mr visual pass 42.9% (6.4 lock) vs 37.5% (after 233->237 fix; PROJECT_COMPLETE says 62.5% which is the FAIL rate). Both BARRED; use 3/8 pass = 37.5% as current. (src: level2/benchmark/docs/verify_unaccounted.md:188; docs/research/level7/CALL_PACKET.md:378)",
+  "McNemar on pass/fail CER<0.5 vs mean-CER gap: kok 19.4pt is a mean gap while p=0.0033/0.0107 tests discordant counts; kok max over 45 pairwise comparisons lacks multiplicity adjustment; ks/ur wins are engine-only vs barred GT. OPEN methodological caveat. (src: docs/campaign/checkpoints/W1_reports/1F_sonnet.md:138,236; docs/research/level7/SANTA_METHOD_FINAL.md:99-120)",
+  "Plan v4 premise 'all 5,344 are single Bengali handwritten words' rests on 13 viewed crops (H1 also reported 35.7% Devanagari), while RQ1 rules text names full-page handwriting, forms, tables and publishes no test set. OPEN: no measured script-ID over all 5,344. (src: docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:17; docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:243-292)",
+  "Counts: manifest 1,227 vs 1,283 vs 1,280 (W5 plan) vs 1,683; sheet.csv 12,324 = 10x1,227+54; H2 slice 16,490 vs 4,645 on disk vs ECC '16490 items' vs test 5,344; per-lang n sums 1,646 vs 1,683. Resolve by always stating set, n and basis. (src: docs/campaign/BOSS_CONCERNS.md:273; level2/benchmark/docs/W5_FREEZE_PLAN.md:127; docs/campaign/checkpoints/W4.md:384-395)",
+  "Reproduction counts for sheet.csv: 100 vs 111 of 400 within tolerance (5e-4 vs 1e-4), 110 at 1e-4; reconciled 66 exact / 111 within 1e-4; Lens B normalised 128/400, Lens C 156/400 (39%). All say not re-derivable. (src: docs/campaign/checkpoints/W1_reports/1H_verify.md:49; docs/campaign/checkpoints/W1_reports/1E_lensC.md:24-36)",
+  "Dates/identifiers: 2026-10-01 is a Thursday (43+ docs wrote 'Wed'); decision IDs D1-D4 (locked data rules) collide with D1-D6 (call gates). (src: _claude_memory/history-completed-protocols.md:146-147,1141; docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:82-101)"
+ ],
+ "recommendations": [
+  {
+   "rec": "Keep G-HW0 as P0 but widen it: pHash (multi-scale/crop-tolerant) + SHA of all 5,344 vs IIIT-HW bn train/val/test, ICDAR'23, BN-HTRd and Bodo/gu; also sweep any mis-labelled folders and fail closed on any hit (exclude hit images from train, disclose).",
+   "evidence": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:26; docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:23",
+   "priority": "P0"
+  },
+  {
+   "rec": "Add an explicit HW0 clause: no benchmark/test-derived text or images anywhere (synthetic text seeds, RL rewards, prompts, routing code, answer-key reads); wire the B21 grep gate and a pre-report hook asserting pack count == manifest n and no src/ reads of gt_text.",
+   "evidence": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:20,32,136; _claude_memory/proto-98-clean-repo-master.md:722; docs/research/level7/c/c4/LEDGER.md:1189-1198",
+   "priority": "P0"
+  },
+  {
+   "rec": "Replace the 85% 'independent writers' gate with a real writer-disjoint Bengali set: obtain ICDAR'23 test (100 writers) if legally free, else BN-HTRd (licence check); store writer_id/page_id; forbid same-source or same-PDF splits; state n and CI. Without it HW2 is unproven.",
+   "evidence": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:26,32; docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:23,35; docs/benchmark_docs/QLORA_TRAINING_DATA.md:272",
+   "priority": "P0"
+  },
+  {
+   "rec": "Run a full measured script/language-ID pass over all 5,344 test crops (vision-verified sample for audit) before choosing per-script PARSeq; keep the Bengali-only premise labelled ASSUMPTION until then and reconcile the 35.7% Devanagari reading.",
+   "evidence": "docs/campaign/BOSS_CONCERNS.md:47; docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67",
+   "priority": "P0"
+  },
+  {
+   "rec": "Wire the estimator law into HW1/HW2: report n, set, CER+WER, median, catastrophic rate (CER>0.5), abstain/coverage, Wilson/bootstrap 95% CI (seed fixed); promotion only if paired McNemar/bootstrap on the same items favours the candidate and gap >= pre-declared T2.",
+   "evidence": "docs/research/level7/PROMPT_ENGINE_AGENT.md:42; docs/campaign/RESEARCH_DECISIONS.md:50-51; docs/research/level7/KILL_CRITERIA.md:38-47",
+   "priority": "P0"
+  },
+  {
+   "rec": "Treat internal gates (>=92% IIIT val, >=85% independent) as proxies: IIIT val shares protocol/writers with train (mandela #6), so headline claims use independent writers only; map proxy to official metric as UNKNOWN until organisers answer (email gic.dibd@gmail.com).",
+   "evidence": "_claude_memory/proto-108-plan-v4-final.md:189-194,218-219; docs/research/level7/H48_HOSTILE_PASS.md:113",
+   "priority": "P0"
+  },
+  {
+   "rec": "Never cite vendor/bench numbers as plan evidence or targets without a transfer obituary: Sarvam 87.39, Bodhan 84.94/86.4, Bodhan HW 71.3, ICDAR 96.10 are DEAD-for-decisions until re-measured with our scorer on our split; mark them directional in the plan text.",
+   "evidence": "docs/research/level7/c/c4/OBITUARIES.md:1-8,350-351; docs/research/level7/H48_HOSTILE_PASS.md:47-52,71",
+   "priority": "P0"
+  },
+  {
+   "rec": "Adopt a single committed, self-validating scorer (numpy Levenshtein, uncapped CER, empty=1.0, single denominator, NFC statement, danda whitelist); regenerate every plan number from it; no hand-typed numbers; use sheet_v2 semantics.",
+   "evidence": "docs/campaign/SHEET_V2_FORENSICS.md:14-16,52-56; docs/research/level7/FINAL_VERDICT_2026-09-27.md:81-90",
+   "priority": "P0"
+  },
+  {
+   "rec": "Carry the GT-trust lock into the plan: no training on barred/verify-first GT; sarvam_fill never trains; each weak cell needs independent human GT before any claim; write GT_DEFECTS.md (step Q) before training; add garbage_GT flag on mni/sat rows.",
+   "evidence": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:98-112; docs/campaign/BOSS_CONCERNS.md:168",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add pre-registered kill criteria per script/cell (K1 McNemar p<0.05 AND gap>=3pt, n>=30 floor, keep wrap-only fallback, 5-item smoke test); do not assume Punjabi gains; QLoRA scope per evidence is Konkani only for printed.",
+   "evidence": "docs/research/level7/KILL_CRITERIA.md:99-118; level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:25; docs/benchmark_docs/QLORA_EVAL_SPEC.md:135-157",
+   "priority": "P1"
+  },
+  {
+   "rec": "Do not let the engine/designer grade itself: promotion gates are artifact-verifiable and out-of-band (hash gate, held-out writers), a separate verifier re-runs every number from scripts it did not write, fix loops capped at 2 rounds; no LLM self-judgement decides model promotion.",
+   "evidence": "docs/research/level7/b/b3_multi_agent_orchestration/artifact_200_orchestra_bench.md:124-125; _claude_memory/proto-108-plan-v4-final.md:189-194",
+   "priority": "P1"
+  },
+  {
+   "rec": "Include a 50-image timed dry run and a metric-agnostic output (JSON/PDF/MD), plus a latency table per engine (surya ~24 s/page = ~36 h for 5,344) so the eval run itself is not the deadline risk.",
+   "evidence": "docs/campaign/BOSS_CONCERNS.md:189-192,215; docs/campaign/RESEARCH_DECISIONS.md:49",
+   "priority": "P1"
+  },
+  {
+   "rec": "For any comparison vs Sarvam/Bodhan, run both on the same split and same scorer (R-12), per GT tier with n, and re-derive Sarvam's scorer quirks (gt2,gt2 bug, empty/loop exclusion); keep Sarvam calls within the 54 cap unless the boss approves.",
+   "evidence": "docs/campaign/BENCHMARK_22.md:331-344; docs/campaign/BOSS_CONCERNS.md:29-31",
+   "priority": "P1"
+  },
+  {
+   "rec": "Run the printed 22-language engine tables only as Page Expert/fallback routing evidence and label them printed-only; for the Page Expert add a Bengali-handwriting-free sanity set and an old-scan slice with reported median/catastrophic rate rather than reusing probe22 mean CER.",
+   "evidence": "docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:92; docs/research/level7/a/LEDGER.md:6643",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add content gates beside script gates in HW1/HW2 (CER/WRR vs GT + Jaccard floor); require a per-script abstain-rate column so a half-empty engine cannot win on median; keep raw output and post-correction as separately scored stages.",
+   "evidence": "level2/engine_docs/B1_doctr_parseq.md:43-52 (per gaps P38); docs/campaign/checkpoints/W1_reports/1F_sonnet.md:87",
+   "priority": "P1"
+  },
+  {
+   "rec": "Sampling-proof requirement for any eval set we build: per-source/page/writer distribution table, top-1 share <=50%, no first-page-only, no one-document sets; apply to Bengali HW eval and to any printed cell used for weak-cell claims.",
+   "evidence": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:225-246; docs/campaign/SAMPLING_PLAN.md:12-16,61-76",
+   "priority": "P1"
+  },
+  {
+   "rec": "Label-noise step on IIIT-HW bn train (detect/clean mislabelled words, up to 1.8 CER pts reported) and a semi-supervised unlabeled-writer option (SemiHastakshar idea) as a P2 lever for writer generalisation; both must pass HW0 and the no-test-data rule.",
+   "evidence": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:448,470",
+   "priority": "P2"
+  },
+  {
+   "rec": "Report ci-bearing per-cell tables with a Perso-Arabic raw vs normalised column (3-8pt artefact) and grapheme-cluster/akshara error rate as secondary metrics; footnote that barred-language rows are agreement rates, not capability.",
+   "evidence": "docs/campaign/B02_ARABIC_NORMALIZATION.md:5-12; docs/campaign/checkpoints/W1_reports/1F_sonnet.md:121; docs/research/level7/H48_HOSTILE_PASS.md:126,178-182",
+   "priority": "P2"
+  },
+  {
+   "rec": "Record in the plan an evidence-status column (PRIMARY/MEASURED/DERIVED/UNKNOWN) and mark UNKNOWN items (official metric, deadline, test script mix, Sarvam contamination) explicitly; never write the student-repo rubric or the 2023 Bhashini targets as official.",
+   "evidence": "_reports/research/PROTOCOL_1_RESEARCH.md:42-66; docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:55-76",
+   "priority": "P1"
+  },
+  {
+   "rec": "Back up and freeze eval assets (benchmark pages 1,194 PNGs 599,788,380 B untracked, test hash manifest, scorer, sheet_v2) with checksums before training starts, so every gate is reproducible and tamper-evident.",
+   "evidence": "docs/campaign/checkpoints/W4_reports/A1_verify.md:101-129; docs/campaign/checkpoints/W4_reports/A3A4_verify.md:34-46",
+   "priority": "P2"
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no per-item pass definition, no paired significance test, no n/CI thresholds on HW0-HW2 (kill-criteria K1-K4 framework absent) (KILL_CRITERIA.md:38-47,99-118,238).",
+  "HW2 independent-writer gate has no Bengali writer-disjoint dataset or writer metadata on disk; only Bodo/gu Gujarati (4,645 images) is local (W4.md:746; blind_verify_H2.md:23,35).",
+  "No full-set script-ID audit of the 5,344 test crops; premise rests on 13 viewed images (HANDOFF_PLANNER_CLOSE_2026-09-30.md:67; BOSS_CONCERNS.md:47).",
+  "Plan v4 cites Sarvam/Bodhan/ICDAR vendor numbers without transfer obituaries or same-scorer re-runs (OBITUARIES.md:1-8; 1F_onepager.md:16).",
+  "No GT-trust/barred-language lock, GT_DEFECTS.md, or sealed-dir law referenced in v4 (FINAL_VERDICT_2026-09-27.md:55-77; proto-01-law-and-guardrails.md:30-35).",
+  "No metric set beyond word-acc: missing median, catastrophic rate, abstention/coverage, WER/CER pair, bootstrap CI, NFC statement (BOSS_CONCERNS.md:182; RESEARCH_DECISIONS.md:50-51).",
+  "No scorer-provenance rule: stored sheet.csv CER 62.9% non-reproducible; v4 harness must be one committed script (SHEET_V2_FORENSICS.md:3-30).",
+  "Official metric/format/deadline UNKNOWN yet gates are self-set (92%/85%); no organiser question or 50-image dry run in plan (RQ1_official_rules.md:284-292; BOSS_CONCERNS.md:189-192).",
+  "Printed 22-language evidence (all printed, probe22/South) is not mapped as non-transferable to handwriting; no handwriting baseline exists (PROTO86_VERIFY.md:92; AGENT_PROTOCOL.md:103-106).",
+  "No self-evaluation-bias guard (out-of-band verifier, fix-loop cap) or mandela eval-leakage audit step beyond HW0 hash (artifact_200_orchestra_bench.md:124-125; LOOP_SPEC_W5_W6_W7.md:79-99)."
+ ],
+ "open_questions": [
+  "Does any official test image overlap IIIT-HW bn train/val/test, ICDAR'23 or BN-HTRd? (G-HW0 never run; needs boss-approved downloads.)",
+  "Is the ICDAR'23 IHTR Bengali test (100 writers) or BN-HTRd obtainable free with a licence that allows evaluation use?",
+  "What is the real script/language mix of all 5,344 crops (35.7% Devanagari vs Bengali-only)?",
+  "What metric, format and deadline does the organiser use (CER vs WRR vs jury only)? Organiser email not yet sent.",
+  "Did Sarvam train on data overlapping its own indic-ocr-bench? (no decontamination statement; contamination UNKNOWN).",
+  "Will the boss reopen section 6.4 for mni/sat given human-reviewed fill GT (U6), and will sheet.csv be regenerated (U5)?",
+  "Cause of sheet.csv CER mismatch (62.9%) remains unknown; is the 1.336x implied-reference-length clue a scorer or GT-version difference?",
+  "Does the 10/18 vs 8/18 disagreement (1H round2) need a rerun, and is the 778 vs 857 tesseract difference figure settled?",
+  "H2 slice size: 16,490 vs 4,645 on disk vs the 5,344 test; which images lack paths and why?"
+ ]
+}

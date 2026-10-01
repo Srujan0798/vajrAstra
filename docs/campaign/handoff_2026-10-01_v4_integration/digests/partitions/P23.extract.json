@@ -1,0 +1,512 @@
+{
+ "partition": "P23",
+ "files": [
+  {
+   "path": "docs/campaign/checkpoints/W4.md",
+   "total_lines": 840,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "product_jury_competition",
+   "claim": "Official hackathon page publishes NO metric (zero hits for CER/WER/S-D-I/seconds/latency/score/weight); evaluation is product-weighted (innovation, business use case, feasibility, roadmap, team, market).",
+   "numbers": "metric UNKNOWN; 0 hits",
+   "source": "docs/campaign/checkpoints/W4.md:13",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Submission format unspecified: JSON / searchable PDF appear only as a Focus Area, not a requirement.",
+   "numbers": "format UNKNOWN",
+   "source": "docs/campaign/checkpoints/W4.md:14",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "No official deadline exists: 10 of 12 timeline rows TBD; only launch 12/02/2026 and Pitch Screening 23/07/2026 dated. Internal 'qualifiers 30/09' belongs to RAJASTHAN hackathon; Oct 4 and Oct 15 have no source.",
+   "numbers": "10/12 rows TBD",
+   "source": "docs/campaign/checkpoints/W4.md:15",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Official page publishes no test set; names handwriting, low-quality scans, code-mixing. '22 languages' appears nowhere on the page. Open-source models promoted; third-party data, hosted APIs, paid models unstated.",
+   "numbers": "22 languages: 0 hits",
+   "source": "docs/campaign/checkpoints/W4.md:16",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Organiser contact gic.dibd@gmail.com; page is an SPA needing rendered read; nothing changed A01-A09 since 09-26. U2 recommendation: ask organiser, treat internal Oct dates as void.",
+   "numbers": "gic.dibd@gmail.com",
+   "source": "docs/campaign/checkpoints/W4.md:18",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "False claim 'hackathon rubric is CER with bootstrap 95% CI, WER, S/D/I and seconds per page' (withdrawn student-repo metric) removed from DRAFT_RESEARCH_PLAN.md:18.",
+   "numbers": "grep count now 0",
+   "source": "docs/campaign/checkpoints/W4.md:39",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Licences: indic-ocr tessdata sat/mni CLEARED (Apache-2.0, sat 1,546,915 B, mni 2,843,488 B; not downloaded). U7 unblocked at licence level.",
+   "numbers": "Apache-2.0",
+   "source": "docs/campaign/checkpoints/W4.md:27",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "surya NOT CLEARED for commercial product: weights under OpenRAIL-M Modified; s2(c) forbids product competing with licensor (no research carve-out); s8 share-alike extends to Output, so training on surya transcriptions inherits terms. $5M cap is not the blocker.",
+   "numbers": "$5M cap irrelevant",
+   "source": "docs/campaign/checkpoints/W4.md:28",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Kashmiri 600k SynthOCR dataset tags CC-BY-4.0 but embeds Controlled Research Access License forbidding commercial products/APIs/SaaS: NOT CLEARED; do not use commercially (U27).",
+   "numbers": "600k",
+   "source": "docs/campaign/checkpoints/W4.md:29",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "IndicPhotoOCR script-ID is MIT but a ViT (not CLIP) with 12 classes containing NO sat and NO mni; cannot route those cells. EasyOCR code MIT but .pth is JaidedAI release asset (weight licence open).",
+   "numbers": "12 classes",
+   "source": "docs/campaign/checkpoints/W4.md:30",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Bodhan licence CONDITIONAL: no attribution in OCR output; s3.1 hosting needs prior written approval (use s3.2 internal-component shape); s0 makes anything trained substantially on Output a Derivative; repo gated. Plan v4 PARSeq/IndicBlockOCR route should check derivative clause.",
+   "numbers": "s3.1/s3.2/s0",
+   "source": "docs/campaign/checkpoints/W4.md:31",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Mentor Sep-10 proposal ruling: VLM-labelled text as ground truth REJECTED (sarvam_bench fill tier assumed machine GT but card says reviewed twice by humans; B12: full ensemble beat all singles on 0 of 115 pages so consensus != truth). VLM output = proposal for human review only.",
+   "numbers": "0 of 115 pages",
+   "source": "docs/campaign/checkpoints/W4.md:105",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe corpus: all 1,283 items has_table=False, mixed_script=False, printed; 983 quality unknown. Layout/tables/mixed-script never exercised.",
+   "numbers": "1,283 items; 983 unknown",
+   "source": "docs/campaign/checkpoints/W4.md:106",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "B-14 correction: '100 per language' not in Sep-10 transcript (0 hits); agenda says 'Krishna to create 20-sample sets'. Mentor red line: 'No training before research validation'.",
+   "numbers": "20-sample sets",
+   "source": "docs/campaign/checkpoints/W4.md:111",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "B-17 (multi-LLM eval of plan + 15-20 min cross-question with Vinay) = Gate 2.5; done for Plan v2 only, not v3; docs/PLAN.md was stale 09-26 variant (2,268 B, 0 mermaid blocks). Red line: Engine Day-3 B-03 Kashmiri training could start before Gate 2.5.",
+   "numbers": "2,268 B; 0 mermaid",
+   "source": "docs/campaign/checkpoints/W4.md:117",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B-03 Kashmiri gate: ks CER on held-out real lines <= 0.20.",
+   "numbers": "ks CER <= 0.20",
+   "source": "docs/campaign/checkpoints/W4.md:129",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "CLEANUP_EXECUTION_LOG queued 172 DELETE + 4,082 MERGE marked 'Blockers: None'; audit already had 2 false positives (verify_visual vs visual_verify; level2/models vs level2/out). Verdict recommends holding all until counted full-read rows exist.",
+   "numbers": "172 DELETE; 4,082 MERGE",
+   "source": "docs/campaign/checkpoints/W4.md:88",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-66 BOSS_CONCERNS check: CO 96/96, C 17/17, M 8/8, HL 12/12 present; but zero S10/S29 meeting rows (red line 'No training before research validation' absent), 0 DONE-VERIFIED vs 35 bare DONE (7 of 15 sampled have command), 22 undefined status words.",
+   "numbers": "296 rows; 64,363 B",
+   "source": "docs/campaign/checkpoints/W4.md:205",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INCIDENT: level2/benchmark/scores/ deleted (untracked, no bundle); packs nested at packs/out; 13,689 broken symlinks unrecoverable; second concurrent writer rewrote run_bodhan.py 17:01:15 and 17:03:19 during repair.",
+   "numbers": "19,202 files hashed; 13,689 symlinks",
+   "source": "docs/campaign/checkpoints/W4.md:251",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A1 pre-image bundle 151,599,725 B, 230 entries, verified 207/207, but blind verifier ruled FAIL on adequacy: 14,961 files (1.22 GB) in neither tar nor git; benchmark/pages 599,788,380 B (1,194 GT PNGs) unprotected; South v1 renders 400 PNGs 545 MB only copy.",
+   "numbers": "19,201 OK/1 FAILED",
+   "source": "docs/campaign/checkpoints/W4.md:300",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Pages bundle created: 2026-09-30_benchmark_pages.tar.gz 577,846,848 B, 1,194 files, extract-verified. A2 restored sheet_v2.csv (853,307 B), metrics_80.csv (24,514 B), manifest_22.json (749,957 B) by sha match.",
+   "numbers": "1,194 files",
+   "source": "docs/campaign/checkpoints/W4.md:324",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A3 layout: packs 13,289 before/after across 11 engines; benchmark 14,663 -> 14,655 (8 legit moves), zero deletions.",
+   "numbers": "13,289",
+   "source": "docs/campaign/checkpoints/W4.md:336",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 path erratum done (19 files, 103 lines) but smoke gate blocked: first by dangling parents[2] constants (needs U10), later by ModuleNotFoundError surya (engine not installed). 'A4 PASS' posted 2026-10-01 02:45 despite smoke not passing.",
+   "numbers": "19 files; 103 lines",
+   "source": "docs/campaign/checkpoints/W4.md:528",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "South feasibility S1: 179 PDFs (ta34/te84/kn41/ml20), 23,001 pages, 0 clean, 17,473 legacy mojibake; rejection Tamil 99.0%, Telugu 91.2%, Kannada 58.5%, Malayalam 0.7%. Official PDFs unusable as GT; fill from Sarvam bench.",
+   "numbers": "0/23,001 clean",
+   "source": "docs/campaign/checkpoints/W4.md:358",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "S2 South draw: 400 items (ta/te/kn/ml x100) from Sarvam Indic OCR Bench, seed 20260926; manifest_v2 1,683 items (v1 1,283 + 400). Per-lang n: as19 bn100 brx67 doi27 gu24 hi100 kn100 kok100 ks100 mai100 ml100 mni20 mr100 or69 pa100 sa100 sat20 sd100 ta100 te100 ur100.",
+   "numbers": "1,683; sat 20 mni 20 as 19",
+   "source": "docs/campaign/checkpoints/W4.md:386",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Inconsistency: S2 first reports 400 images (100 per language) but later 'verified' entry says 800 rendered images (200 each) and 6,909 Sarvam-bench split; P3-prep says 1,283 v2 items.",
+   "numbers": "400 vs 800; 1,683 vs 1,283",
+   "source": "docs/campaign/checkpoints/W4.md:723",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H1 vision check: 13/13 viewed test images (7 ID buckets) are Bengali handwritten words, blue pen, word-level. Official test = Bengali handwriting word benchmark.",
+   "numbers": "13/13",
+   "source": "docs/campaign/checkpoints/W4.md:431",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Earlier '35.7% Devanagari' script-mix figure INVALID: Tesseract hin forces Devanagari output on any Brahmic input; only direct viewing separates Bengali/Devanagari. Do not quote; patched as K-03 in BOSS_CONCERNS.",
+   "numbers": "35.7% invalid",
+   "source": "docs/campaign/checkpoints/W4.md:449",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Plan under test's Bengali handwriting premise is consistent with H1; handwriting track is the product critical path. Gujarati set (Bodo/gu, 4,645 images, 5% of labels) is only a second-script slice, not test coverage.",
+   "numbers": "4,645 images",
+   "source": "docs/campaign/checkpoints/W4.md:451",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 proxy slice from IIIT-HW Gujarati: splits train 82,563 / val 17,643 / test 16,490 lines, vocab 10,964; writer/page-disjoint leak check 0 overlap on all pairs; manifest 16,490 items (script gujarati, gt_source iiit_hw). Bengali slice NOT built.",
+   "numbers": "82,563/17,643/16,490",
+   "source": "docs/campaign/checkpoints/W4.md:746",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "H2 scorer: same as benchmark (proto-105 C3-6): CER + WER + median + catastrophic-failure rate. Leak rule: writer/page never in both train and eval.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4.md:754",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Only 4,645 of ~116k Gujarati IIIT-HW images on disk; remaining ~111k need U23/U24/U25 boss approvals. H2 manifest lists 16,490 test items while few images exist (images-vs-manifest gap).",
+   "numbers": "4,645 of ~116k",
+   "source": "docs/campaign/checkpoints/W4.md:782",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 next steps: H3 baseline Bodhan handwriting mode + surya/Tesseract on slice; H4 Day-3 B-19 handwriting LoRA (PEFT on CUDA, train split only); public sets (PARSeq transfer, ICDAR-2023 Indic HTR) need licence checks + download approval.",
+   "numbers": "B-19",
+   "source": "docs/campaign/checkpoints/W4.md:794",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Contradictory H1 restatement: line 786 says Tesseract on 70 samples reads 13/13 as Bengali, whereas H1 section says 13 images viewed directly with no OCR.",
+   "numbers": "70 vs 13",
+   "source": "docs/campaign/checkpoints/W4.md:786",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B-21 synthetic lines spec: 3 scripts (ks/sat/mni), licensed Unicode text, Noto fonts (OFL), degradation pipeline seed 20260926, validation gates G1-G4, no bench text reused. No Ol Chiki/Mayek model trained yet.",
+   "numbers": "ks/sat/mni; G1-G4",
+   "source": "docs/campaign/checkpoints/W4.md:462",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Product layer scaffold: requirements CPU/CUDA base with MLX optional (mlx>=0.1.0; darwin only), multi-stage Dockerfile (MLX_INSTALL=1, CUDA via base image, no GPU assumption).",
+   "numbers": "mlx>=0.1.0",
+   "source": "docs/campaign/checkpoints/W4.md:460",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "CPU dry run of product CLI on 6 South pages: Tesseract tam/tel/kan works; Bodhan is a stub placeholder block; outputs JSON+PDF(PyMuPDF invisible text)+MD valid vs page.schema.json. Conf avg tam 0.20, tel 0.86, kn 0.78.",
+   "numbers": "6 pages",
+   "source": "docs/campaign/checkpoints/W4.md:551",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "run_bench_x.py dry run (5 items, tesseract_indic): hi CER 0.104, kn 0.056, te 0.008; doi and sa have no traineddata -> CER 1.000 (honest empty). Avg 0.433 overall, 0.056 on items with traineddata. Sarvam bench 8,082 items in 3 parquet parts.",
+   "numbers": "8,082 items",
+   "source": "docs/campaign/checkpoints/W4.md:613",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "S5 per-tier CER (South, tiers never pooled): tesseract_indic n=400 0.1450; easyocr te 0.2437, kn 0.2096, ta broken (tamil.pth mismatch), ml skipped; anuvaad_tesseract n=355 0.1956 (ml 45 empty); rapidocr n~395 0.8427; doctr n=400 0.8236.",
+   "numbers": "0.1450/0.8427/0.8236",
+   "source": "docs/campaign/checkpoints/W4.md:763",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan pair-only on 300 gold: 4-bit CER 0.4034, bf16 CER 0.4010 (from section 36).",
+   "numbers": "0.4034/0.4010",
+   "source": "docs/campaign/checkpoints/W4.md:775",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Sarvam digitise: 12 paid jobs (2026-09-30 ~16:20 IST) all completed but local pred_sample empty; results retrievable read-only via get_download_links(job_id) then GET file_url. Retrieval not done.",
+   "numbers": "12 jobs",
+   "source": "docs/campaign/checkpoints/W4.md:657",
+   "status": "UNKNOWN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "HF token stored; access confirmed to bodhan-ai/indic-ocr (39 files), hari31416/indic-ocr-mlx-4bit (30), mlx-bf16 (30).",
+   "numbers": "39/30/30 files",
+   "source": "docs/campaign/checkpoints/W4.md:499",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "GOLD W0 safety/freeze: manifest 1,277 authored files; bundle 2026-10-01_pre_gold.tar.gz 172 MB verified; untracked 34,358 -> 18,809; origin boss/campaign-docs 2ae8a5b ahead of local 41de158. Planner verdict CONDITIONAL PASS (85 pyc lines in manifest); W1 blocked until clean PASS; W6 closed.",
+   "numbers": "1,277; 172 MB",
+   "source": "docs/campaign/checkpoints/W4.md:805",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hazards: H-3 17,297 dead symlinks and H-4 5 extra worktrees deferred to W6 (GO-D, GO-G); level2/level2 self-link kept; layout FROZEN (no mv/rename/delete under level2 until S6); model weights never inside level2.",
+   "numbers": "17,297 symlinks",
+   "source": "docs/campaign/checkpoints/W4.md:820",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "PROTO-105 consensus: 13+ RF rows (RF-21..RF-37) added, total 50 RF rows; Plan v3 draft extended with OCR-specialised base+LoRA, 4-bit caveats, synthetic+real, layout, post-correction, handwriting, best CERs.",
+   "numbers": "50 RF rows",
+   "source": "docs/campaign/checkpoints/W4.md:741",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Mentor-red-line/process: engine run order Bodhan, surya, tesseract, rapidocr, doctr, easyocr, indicphotoocr, paddle, anuvaad (11 engines, 12,324 mcnemar rows still running).",
+   "numbers": "12,324 rows",
+   "source": "docs/campaign/checkpoints/W4.md:758",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "santa_method_cross_check.md recovered only partially (143/173 lines); 13 deleted docs recovered from OpenCode DB.",
+   "numbers": "143/173",
+   "source": "docs/campaign/checkpoints/W4.md:579",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "docs/campaign/checkpoints/W4.md:105 Plan v4 must not use VLM/Gemini outputs as ground truth; any pseudo-labels from Gemini/Bodhan are proposals for human review only (B12 consensus != truth).",
+  "docs/campaign/checkpoints/W4.md:28 Plan v4 uses/trains on model outputs; surya and Bodhan output-derivative and competition clauses (s2(c), s8, s0) are unaddressed; Tesseract fallback fine (Apache-2.0).",
+  "docs/campaign/checkpoints/W4.md:31 Bodhan IndicDocLayout/IndicBlockOCR Page Expert: s3.1 hosting needs written approval; Plan v4 lacks a licence gate for it.",
+  "docs/campaign/checkpoints/W4.md:746 No Bengali handwriting eval slice exists; H2 proxy is Gujarati (16,490 lines) with only 4,645 images on disk. Plan HW2 '>=85% independent writers' has no Bengali independent-writer set built.",
+  "docs/campaign/checkpoints/W4.md:449 Plan must not cite 35.7% Devanagari figure; script mix of the 5,344 test images was only checked visually on 13 images, not all 5,344.",
+  "docs/campaign/checkpoints/W4.md:117 Gate 2.5 (Vinay cross-question) not yet run for Plan v3/v4; mentor red line forbids training before it (matches G-2.5).",
+  "docs/campaign/checkpoints/W4.md:13 No official metric or deadline: Plan v4 gates (92%/85%) are internal; product/jury criteria (innovation, business, roadmap) need a deliverable.",
+  "docs/campaign/checkpoints/W4.md:30 Printed 22-language and sat/mni routing: IndicPhotoOCR script-ID lacks sat/mni; only 20 sat and 20 mni benchmark items exist.",
+  "docs/campaign/checkpoints/W4.md:358 South (ta/te/kn/ml) official PDFs are 0 clean of 23,001 pages: no usable South GT from official data.",
+  "docs/campaign/checkpoints/W4.md:763 Printed baselines: rapidocr 0.8427 / doctr 0.8236 CER are unusable; tesseract_indic 0.1450 and Bodhan 0.4034 on South are the reference numbers.",
+  "docs/campaign/checkpoints/W4.md:300 Backup/provenance discipline: large data assets (benchmark pages, renders) were unprotected; Plan v4 lacks a bundle/freeze step before training."
+ ],
+ "contradictions": [
+  "docs/campaign/checkpoints/W4.md:449 vs 786: H1 script evidence method (direct viewing of 13 vs 'Tesseract on 70 samples').",
+  "docs/campaign/checkpoints/W4.md:528 vs 524: A4 PASS posted while smoke gate blocked.",
+  "docs/campaign/checkpoints/W4.md:723 vs 384: South 400 images vs 800 rendered images; 1,683 vs 1,283 manifest sizes.",
+  "docs/campaign/checkpoints/W4.md:111: Sep-10 '100/lang' attribution wrong (0 hits).",
+  "docs/campaign/checkpoints/W4.md:834: manifest includes 85 pyc lines vs protocol exclude."
+ ],
+ "open_items": [
+  "Ask gic.dibd@gmail.com for deadline, metric, test-set details (U2).",
+  "Retrieve 12 Sarvam job outputs read-only via get_download_links.",
+  "mcnemar_full_matrix.json still running in background (12,324 rows, 11 engines).",
+  "U10: authorise run_probe.py edit or engine install for smoke gate.",
+  "U23/U24/U25 approvals for remaining ~111k Gujarati images / Sarvam bench / public HW sets.",
+  "B-17/Gate 2.5 eval + Vinay session for Plan v3; hold Day-3 training until then.",
+  "Bodhan s3.1 written approval; surya not cleared; Kashmiri dataset research-only.",
+  "A7 destructive cleanup parked pending boss 'go'; W1 blocked pending clean GOLD W0 PASS."
+ ]
+}

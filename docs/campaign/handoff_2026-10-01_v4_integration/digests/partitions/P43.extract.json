@@ -1,0 +1,503 @@
+{
+ "partition": "P43",
+ "files": [
+  {
+   "path": "docs/research/uni_v3_ORIGINAL_2026-09-29.md",
+   "total_lines": 713,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/DEDUP_DOCS_RESEARCH.md",
+   "total_lines": 234,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "uni_v3 declares itself the single source of truth: supersedes ALL previous prompts/directives/md fragments; where anything conflicts, this doc wins (Version 3.0-FINAL, authority ABSOLUTE).",
+   "numbers": "v3.0-FINAL",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:2-17",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Rule 0 (binding): read all md first; persist everything to md on disk (repo md = eternal memory); no vibe coding, every deletion/merge carries written evidence; no foolish deletions: KEEP/MERGE/DELETE verdict per file before removal.",
+   "numbers": "R0.1-R0.11",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:29-80",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "R0.7: past work is declared '100% gold', locked, no re-litigating done work; proceed forward only. Tension with the later erratum/corrigendum culture (DEEPER corrigendum on LIVE_LATEST sat/mni claim).",
+   "numbers": "R0.7, CO-044, CO-062",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:64-66",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Locked 3-agent architecture: Engine (OCR engines, probes, scoring, GPU, downloads only with explicit boss approval), Verdict (GT verification, forensics, scorer rules, hostile audits, leaderboards; must counter the boss with evidence), Miss (hygiene, doc merges, BOSS_CONCERNS, DISPATCH_LOG). No 4th top-level agent.",
+   "numbers": "exactly 3 agents",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:83-111",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "File-based append-only interfaces: level2/probe22/engine_health_log.jsonl (Engine), level2/probe22/fix_specs/ (anyone proposes, Miss applies, Verdict verifies), DISPATCH_LOG.md, BOSS_CONCERNS.md (read every turn), PROTOCOL_UPGRADES.md. Cross-check law: no output counts as truth until checked by another agent.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:113-123",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "T1 cleanup marathon: 24-hour authorized, 10-15 sub-agents + 4-5 monitors, cycle-graph dispatch->report->verify->implement->re-audit; scope 10,000-50,000+ files; per-file WHAT/WHY/WHERE/WHO/worth answers; output AUDIT_REPORT.md.",
+   "numbers": "24h; 10-15 sub-agents; 4-5 monitors; 10,000-50,000+ files",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:129-159",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Flag classes for hygiene: duplicates, variant copies, trash, misleading names, ordering violations, orphans. Monitors re-open random sample of verdicts and link-check every MERGE/DELETE.",
+   "numbers": "6 flag classes",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:145-159",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "T2: resolve 'old' folder at level 2 (no side-by-side stale copies); merge South-language outputs into main flow, same hierarchy/standard; ingest then DELETE external /Users/srujansai/Desktop/South/Untitled; one authoritative md per topic; FINAL_REPO_MAP.md after linkage verification.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:165-205",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "T4 sample coverage fix: required 100 samples per language x ALL 18 languages = 1,800 minimum packs; current ~1,200-1,300 declared BELOW standard (boss-flagged deficiency). Applies to South languages too.",
+   "numbers": "100/lang; 18 langs; 1,800 min; current 1,200-1,300",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:225-245",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sampling forbidden shortcuts: only first page of a paper, one paper per file, clustered/unrepresentative patterns. Must document per-language source-document distribution and page-offset distribution; output SAMPLING_PLAN.md; never fabricate, source only from existing PDFs.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:230-246",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sampling basis is 18 languages while the directive elsewhere says all 22 scheduled languages (S4) and mentions '4 South languages' merged separately: language-count basis inconsistent inside the same document.",
+   "numbers": "18 vs 22; 4 South",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:225,393,242",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Protocol upgrades adopted as mandatory: verify_engine_readiness.py preflight, spot_check_engine.py post-run, self_audit.py, section-9 schema gates at write time, briefing format DECISIONS|DELIVERED|BLOCKERS|RISKS|NEXT (tables, <=2,000 tokens, exact file:line), fix-specs <1hr, engine_agent_contract.json.",
+   "numbers": "<=2,000 tokens; <1hr fix-specs",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:257-272",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Council-style multi-reviewer deliberation required for every significant md/audit decision; no single-agent fiat on load-bearing docs.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:274-278",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "T7 skill/tool stack war: inventory every skill/plugin/repo (Claude, OpenCode, ...), output SKILL_STACK.md; boss preliminary ruling LAYA better and free, JEV possibly a classifier layer; must be verified by test and a binding verdict. ECC and 'GrapyThoy(?)' also evaluated.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:308-330",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Honesty law (C10.1): no fake claims; 'assume we beat them' is nonsense; an EDGE/tactic must be cracked and evidence-backed (D12 EDGE_THESIS.md) which gates the architecture freeze.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:336-368",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Mandatory competitor recon list: Sarvam Vision 2.1 blog, sarvamai/indic-ocr-bench dataset, Gnani (gnani-evon-v3.3-30B-A3B), Consensus, two LinkedIn briefs; for each architecture, data strategy, benchmark numbers, weaknesses and what they overlooked.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:345-355",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Baseline war: first benchmark is a full analysis of Vinay's plan (must cross his plan to cross Sarvam and the Indian field); opposing side described as settled toward a million-dollar funding hackathon.",
+   "numbers": "million-dollar funding hackathon",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:357-363",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "End goal stated: beat Sarvam (87.39), Vinay's plan and every India-model competitor truthfully via a cracked edge. 87.39 is the only benchmark number in the directive and is given without metric/benchmark name.",
+   "numbers": "Sarvam 87.39",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:469-473",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hidden-frontier research war: 48-hour continuous streams, 1,000-5,000+ papers, 2025-2026 only; 12 sub-domains S1-S12 (agentic, self-improving, OCR->VLM, Indic OCR all 22 scheduled languages, RVL, NVIDIA, Jais-class, layout, KG memory, Kimi/Claude/Hermes, LAYA&JEV, Gnani MoE evon v3.3 30B-A3B).",
+   "numbers": "48h; 1,000-5,000+ papers; S1-S12; 22 languages",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:378-401",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hidden-frontier mandate: most of the edge is claimed to live in submerged/understated/overlooked work and non-obvious integrations (pattern: how JEV/LAYA-class tools crossed into relevance); generic surveys worthless.",
+   "numbers": "CO-087, CO-088",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:403-412",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Mentor's playbook (R11.6): a PPTX and meeting detail from the mentor must be located, read completely and implemented as a standing order (D13 MENTOR_PLAYBOOK.md); file paths given only at end: MEETING_2026-09-29_STRUCTURED.md and 'sync - ocr - September 10.docx'.",
+   "numbers": "D13",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:414-419,710-713",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Corpus (RESEARCH_CORPUS.md + S1-S12) and nothing else feeds the architecture freeze; verdict ranks/verifies every artifact.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:421-429",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Campaign position as of directive: 10-day hackathon, ~Day 1; phase = data collection/preparation; model training NOT started (do not rush); ~1% complete; ~5 active development days carry 99% of value.",
+   "numbers": "Day 1 of 10; ~1% done; ~5 active days",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:435-439,57",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Plan v4 time contrast: v3 (2026-09-29) says training not started, ~5 active dev days remain; plan v4 (2026-10-01) already schedules training gates HW2 etc. Remaining-time budget for training is not restated anywhere in these files.",
+   "numbers": "~5 active days",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:437-439",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Architecture freeze (Level 7) triggers when corpus ~80% and EDGE_THESIS evidence-backed; all-agent call synthesizes ONE architecture (novel methods, 'competitors would want to steal it'); freeze becomes sole build spec; Level 7 stays frozen until then; active focus Levels 1-2 to gold.",
+   "numbers": "~80% corpus; Levels 1-2",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:447-466",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Life-stakes standard: boss staked entire life; bar = survive most brutal hostile audit from best competitor.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:479-484",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Deliverables D01-D13: BOSS_CONCERNS, AUDIT_REPORT, CLEANUP_EXECUTION_LOG, SAMPLING_PLAN, PROTOCOL_UPGRADES, DISPATCH_LOG, FINAL_REPO_MAP, RESEARCH_CORPUS+S1-S12, ARCHITECTURE_FREEZE, SKILL_STACK, COMPETITOR_INTEL, EDGE_THESIS, MENTOR_PLAYBOOK; 4 waves (wave 4 = freeze at corpus>=80% + D12).",
+   "numbers": "13 deliverables; 4 waves",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:490-515",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Concern register: CO-001..CO-064 (Part 18) and CO-065..CO-096 (Part 19) = 96 concerns; none concerns specific model/recipe, all are process/hygiene/research-scope/competition honesty. Header cites 'CO-096 (full register: Part 20)' but no Part 20 exists.",
+   "numbers": "96 concerns",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:211,540,620",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Internal numbering inconsistencies in v3: task labels T1-T9 vs part numbering (Part 6 uses T6.x, Part 7 T7.x conflicts with Part 9 T7.x); 'Task T4' in Part 6 title but T6.1 clauses. Risk of mis-cited rule IDs.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:222-225,249-252,306-308",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "v3 directive contains no mention of handwriting, Bengali, PARSeq, IIIT-INDIC-HW, ICDAR'23, training recipes or GPU/compute figures; it is entirely governance. Handwriting-only test finding of plan v4 postdates it (2026-10-01).",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:1-713",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "v3 does not name weak cells (sat/ks/mni/or/sa/doi) or R2/R3/R4 workstreams; those exist only as files catalogued in DEDUP doc.",
+   "numbers": "",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:1-713",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Research catalogue: R2_NASTALIQ_FORENSICS.md (324 lines; why Kashmiri cell fails + attack surface for Nastaliq under <=2B VLM), R3_OLCHIKI_MAYEK_SYNTHETIC.md (200; Ol Chiki + Meitei Mayek synthetic-training brief), R4_OLDSCAN_RESTORATION.md (268; old-scan restoration SOTA + cost + ablation spec).",
+   "numbers": "324/200/268 lines",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:99-107",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "R7_W6_TRAINING_TREE.md (123 lines) = parameterized W6 decision tree for OUR training: gates, base selection, data, curriculum, RLVR, weak cells, inference. W1_RECIPE_REFRESH.md = closed 2026-09-25 recipe survey. Plan v4 W6 tree is sourced here. R7 'superseded by R7 in subsequent revisions' is circular wording.",
+   "numbers": "123 lines; W1 closed 2026-09-25",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:107,178,199",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "level7/W6_QLORA_SPEC.md and level7/KILL_CRITERIA.md (W6 kill criteria) exist and are cited as load-bearing; c1 ledger covers NVIDIA stack (TensorRT-LLM, NIM, NeMo, quant, Jetson, serving cost, LoRA VRAM) with NOTE_EDGE/TRTLLM/QUANT_INDIC/SERVE_COST/LORA_VRAM.",
+   "numbers": "c1 LEDGER 142,350 bytes",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:115-123,163-164",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "R6_COMPETITION_INTEL.md (158 lines) = Bhashini AksharDrishti hackathon official intel; c2 ledger = Competition Intel (77,241 bytes). R1_SOTA_MECHANISM_TEARDOWN.md (168 lines) = Sarvam Vision 2.1 vs PaddleOCR-VL 1.6 mechanism teardown.",
+   "numbers": "158; 168 lines; c2 77,241",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:102-106,116-118",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Validation-call artifacts: CALL_PACKET.md, HUMAN_SPOTCHECK_PACKET.md, boss_directives (SESSION_DIRECTIVES, CONSOLIDATED_PARALLEL_WORK, VALIDATION_CALL_SCRIPT 5-min, CHEATSHEET, BOSS_HANDOFF), W5_STRATEGY_OPTIONS (top-3), W5_BEAT_SARVAM_PLAN, W5_FREEZE_AGENDA (15-20 min, sections A-F). All dated 2026-09-28 pre-call.",
+   "numbers": "5-min script; 15-20 min agenda",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:29-49,153-169",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Verdict hostile-audit lane: H48_HOSTILE_PASS (4 paper-thin skills: mandela/factchk/hate/santa-method), H48_ENGINE_SPOTCHECK (Engine spot-check of Verdict weak-cell claims), SANTA_METHOD_FINAL (adversarial review of LEADERBOARD), FIX_SPECS_R2_LEADERBOARD (post-santa-method RED pass on LEADERBOARD_REFRESH_2026-09-29). Indicates leaderboard had a RED pass requiring fixes.",
+   "numbers": "",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:53-69,165",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "R5 (GT forensics) file lives in level2/reports/ (sealed per AGENTS.md), not in docs/research; referenced by level7/PROMPT_*.md. Plan reading docs/research alone will miss GT forensics.",
+   "numbers": "",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:109",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "DEEPER_LIVE_RESEARCH_2026-09-29.md (499 lines, AGENT-8, current) contains a corrigendum on the LIVE_LATEST (295 lines, AGENT-1) sat/mni claim; DEEP_LIVE_RESEARCH.md (468 lines) first pass. LIVE_LATEST sat/mni weak-cell claim is therefore superseded.",
+   "numbers": "468/295/499 lines",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:21-25",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": "DEEPER_LIVE_RESEARCH_2026-09-29.md corrigendum"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Dedup audit result: 86 MD files in docs/research (+level7), all unique SHA256; 0 byte-identical pairs; 12 topic-variant groups all judged distinct; 0 deletes recommended; only merge candidate = live-research triplet (needs authorization; campaign s9 'no retroactive edits').",
+   "numbers": "86 files; 0 identical; 12 groups",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:5-12,187-193",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "DEDUP internal inconsistency: header says '3 MERGE candidates' but table/summary says 1 MERGE candidate and 19 KEEP; many Lines columns are '~?' (boss_directives, W5 docs unmeasured).",
+   "numbers": "3 vs 1",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:187,231",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Dedup places uni_v3 in docs/research while stating it is archived per AGENTS.md to _archive/directives/ and 'sealed'; and describes it as 19 parts with R0.1-R0.4, T1-T9 whereas file has 19 parts plus final word and R0.1-R0.11. Location/description mismatch.",
+   "numbers": "19 parts",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:182,205",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Lane A ledger: level7/a/LEDGER.md 670,783 bytes (~984 records, OCR/DocAI SOTA 2025-2026) + MANIFEST.md 5,640 bytes; c3 LEDGER 131,281 B (data-collection strategy, quality-first, remaining langs) + STRATEGY.md; c4 LEDGER 111,809 B (tooling, 100 records) + OBITUARIES.md; b3 8 orchestration artifacts; b4 agent-tooling (6 pairs); b5 elite repos (4 pairs).",
+   "numbers": "984 records; 670,783 B; 100 records",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:113-149",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "c4/OBITUARIES.md exists (tool kills/obituaries) and level7/KILL_CRITERIA.md exists; neither content is in these two files, plan must read them directly.",
+   "numbers": "",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:121,163,212",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "b4/b5 md files were regenerated from .jsonl after earlier duplicate deletion (FINAL_VERDICT_2026-09-27 Class A/B cleanup; Class C regeneration); overview/_detailed pairs flagged as future merge if campaign extends past W5.",
+   "numbers": "Class A/B/C",
+   "source": "docs/research/DEDUP_DOCS_RESEARCH.md:12,95",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Plan v4 gap: v3 treats Vinay's plan as the first baseline and Sarvam as end-benchmark (87.39); plan v4 bench numbers (Bodhan-HW bn Gemini 74.8/Bodhan 71.3/Sarvam 58.3) are a different benchmark than 87.39, so the competitive target needs one defined metric.",
+   "numbers": "87.39 vs 58.3",
+   "source": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:469-473",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 lacks the honesty/edge-thesis gate: v3 C10.1-C10.4 requires an evidence-backed EDGE_THESIS (D12) before freeze; v4 should state its edge explicitly with evidence (uni_v3:336-368).",
+  "Plan v4 lacks eval sampling discipline: 100 per language x 18 languages = 1,800 packs, with per-language source/page-offset distribution proof and a ban on first-page-only/one-paper-per-file sampling (uni_v3:225-246); a handwriting-only test must apply analogous writer/page coverage proof.",
+  "Plan v4 should reuse the existing weak-cell/R2/R3/R4/R7 research (docs/research R2_NASTALIQ_FORENSICS, R3_OLCHIKI_MAYEK_SYNTHETIC, R4_OLDSCAN_RESTORATION, R7_W6_TRAINING_TREE, level7/KILL_CRITERIA, W6_QLORA_SPEC) rather than rebuild; catalogued at DEDUP_DOCS_RESEARCH.md:99-107,163-164.",
+  "Plan v4 needs the cross-check law and protocol gates (verify_engine_readiness, spot_check_engine, self_audit, schema gates at write time, engine_agent_contract.json) at uni_v3:122-123,257-265; HW0/HW1 gates should be mapped onto them.",
+  "R5 GT forensics lives in level2/reports (sealed); plan v4 HW0 leak gate should read it (DEDUP_DOCS_RESEARCH.md:109).",
+  "Validation-call material (W5_BEAT_SARVAM_PLAN, W5_FREEZE_AGENDA, CALL_PACKET, HUMAN_SPOTCHECK_PACKET) is the product/jury layer plan v4 does not reference (DEDUP_DOCS_RESEARCH.md:36-49,153-169).",
+  "Mentor PPTX/MEETING_2026-09-29_STRUCTURED.md (D1-D7 decisions, A1-A5 actions) is a standing order to implement; confirm plan v4 reflects D1-D7 (uni_v3:414-419,710-713; DEDUP:181).",
+  "Time budget: v3 states ~5 active dev days remaining and training not started; plan v4 training gates need a compute/day schedule consistent with that (uni_v3:437-439)."
+ ],
+ "contradictions": [
+  "uni_v3 says 18 languages (100 each) vs S4 all 22 scheduled languages (uni_v3:225,393).",
+  "uni_v3 header references Part 20 register that does not exist; Part 18/19 hold the 96 concerns (uni_v3:211).",
+  "DEDUP header '3 MERGE candidates' vs summary '1 MERGE candidate' (DEDUP:187,231).",
+  "LIVE_LATEST sat/mni claim superseded by DEEPER corrigendum (DEDUP:25).",
+  "uni_v3 'NO OTHER DOCUMENT SUPERSEDES' (uni_v3:4) vs DEDUP calling it sealed/archived under AGENTS.md (DEDUP:182,205) and plan v4 of 2026-10-01 which post-dates it.",
+  "R0.7 'past work 100% gold, no re-litigating' vs existence of corrigenda/hostile passes (RED pass on leaderboard)."
+ ],
+ "open_items": [
+  "Is Sarvam 87.39 a word-accuracy, which benchmark? Not stated (uni_v3:469).",
+  "Binding LAYA vs JEV verdict and SKILL_STACK.md content not in these files.",
+  "Content of EDGE_THESIS (D12) and COMPETITOR_INTEL (D11) not present.",
+  "Whether live-research triplet merge was authorized (DEDUP:193).",
+  "Meaning of 'GrapyThoy(?)' unresolved (uni_v3:320).",
+  "Line counts for boss_directives and W5 docs unmeasured ('~?')."
+ ]
+}

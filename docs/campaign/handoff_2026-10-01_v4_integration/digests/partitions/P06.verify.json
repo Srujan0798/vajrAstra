@@ -1,0 +1,347 @@
+{
+ "checked": 58,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": "fact present (also CRR 95.94 vs WRR 88.31 at ~6114); cited lines drift - actual 610,622"
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 616"
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 711"
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": "fact present; actual line 883"
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 130"
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 478"
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 604,1372"
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 634"
+  },
+  {
+   "index": 8,
+   "verdict": "corrected",
+   "correction": "True only for LEDGER lines 1-2360. Ledger-wide it does contain handwriting evidence: IIIT-INDIC-HW-WORDS (A4-025, ~LEDGER:6162: 868K word instances, 135 writers, 8 scripts incl Bengali; best CER 4.97% with 82K pretrain), PLATTER/CHIPS (~6146, 3647), SemiHastakshar (~6154, PARSeq HTR baseline), IHTR WRR 88.31% (~6114). Still no Bengali-specific WRR number (WRR 96.10 not found)."
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 36,1231"
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 877"
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 913"
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 76,316"
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 148,154"
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 118,124,130"
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 214,496"
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 202"
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 742"
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 310,514"
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 304"
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 352,358"
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1987,1696"
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": "fact present; actual 166,1276 (96.33 on v1.6 vs 96.34 on leaderboard); line drift"
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1258"
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1189,131"
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 346,1165"
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 42"
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 48"
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 334,335"
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 298,508"
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 340,341"
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 328,329"
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 55,377,1289"
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 280,400,1081"
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 274"
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 652,658"
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 82"
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 100"
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 60"
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 66"
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 647"
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 394,142,586,1225"
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 98"
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1252,694"
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1213"
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 154"
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1270,694"
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1225,884"
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 700"
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 125"
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1027,1015"
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 1141,1672"
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": "fact present; cited line numbers drift - actual line(s): 30"
+  },
+  {
+   "index": 56,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 57,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2023 IHTR winner Upstage KR: avg CRR 95.94% but WRR only 88.31% across 10 scripts.",
+   "numbers": "CRR 95.94; WRR 88.31",
+   "source": "docs/research/level7/a/LEDGER.md:6114",
+   "status": "PRIMARY",
+   "date": "2023",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "IIIT-INDIC-HW-WORDS (Gongidi, Jawahar, ICDAR 2021): 868K handwritten word instances, 135 writers, 8 scripts incl Bengali; best CER 9.64% (10K pretrain) / 4.97% (82K pretrain).",
+   "numbers": "868K; 135 writers; 4.97% CER",
+   "source": "docs/research/level7/a/LEDGER.md:6162",
+   "status": "PRIMARY",
+   "date": "2021-05-18",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "PLATTER + CHIPS (IIIT-H/IITB, arXiv 2502.06172): page-level Indic handwriting recognizer, tested on Bengali among 7 scripts; competed ICDAR 2025 IHDR; Stage-3b handwriting base candidate.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:3647;docs/research/level7/a/LEDGER.md:6146",
+   "status": "PRIMARY",
+   "date": "2025-02",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "SemiHastakshar (IIIT-H, Dec 2025): semi-supervised Indic handwriting OCR on IIIT-INDIC-HW-WORDS + HW-WILD + HW-UC, reports WER/CER vs PARSeq HTR baseline.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:6154",
+   "status": "PRIMARY",
+   "date": "2025-12",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hybrid dewarp (YOLOv8 + cubic polynomial) lowest median CER 0.0235 on IWILT; Mistral OCR 3 $2/1000 pages ($1 batch) at LEDGER:394 (cited range 393-396 correct).",
+   "numbers": "0.0235",
+   "source": "docs/research/level7/a/LEDGER.md:400",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "checked": 47,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": "content verified; cited lines drift ~3 (actual 1F:116,162)"
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": "content verified; actual line 1F:118"
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": "content verified; actual lines 1F:120,226"
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "corrected",
+   "correction": "1F:189 says '43 files carry a wrong weekday' (files, not sites); 1G:138 only confirms the calendar and 1G:154-155 counts 6 'Wed 2026-10-01' sites in the packet (Fri 2026-10-03 also wrong at :290/:331). 1H_verify:223 greps 49 files, so '43 files, at least'. '43 wrong-weekday sites' is not stated in either file."
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "1F: sheet.csv CER column cannot regenerate; Q9 asks to re-score 56 items, regenerate LOCKED sheet and adopt sheet_v2 (judged most important operational question).",
+   "numbers": "56 items",
+   "source": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:142,197",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam call cap reached at 3/lang (BENCHMARK_22:353); every paired claim rests on 54 items; price of API unknown ($12 unsourced).",
+   "numbers": "3/lang; 54 items",
+   "source": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:179,236",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "1G: Wed 2026-10-01 appears in 6 packet sites (Miss reported 5); :290 and :331 also say 'Fri 2026-10-03' which is a Saturday.",
+   "numbers": "6 sites",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:152-155",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "1G: FS-50 fix pass introduced a self-contradiction; R2-08 mandatory: band is 7 of 12 incl hi 0.220, others mai 0.030 kok 0.425 bn 0.476 ks 0.589 ur 0.623.",
+   "numbers": "7 of 12",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:256-266",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "1G: OmniDocBench v1.6 table in Sarvam blog: PaddleOCR-VL 96.01, Sarvam 94.97, GLM-OCR 'absent' (1G) - but 1H_verify:51 finds GLM-OCR at 94.71 rank 3 on the same page: unresolved cross-report contradiction.",
+   "numbers": "94.71 vs absent",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:53,137",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "1G reproduces pooled paired 10/18 (surya<Sarvam) from sheet.csv while 1H_verify_round2:308-328 gets 8/18 from the same unchanged sheet.csv: unresolved cross-report contradiction.",
+   "numbers": "10/18 vs 8/18",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:118",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "1G: OCR_AGENT_MEMORY_FEED.md section 12.2 still carries stale gap 0.32, 'kok 32pt', and false 'pa SURVIVES K1 p<0.0001 (n=90)'; left alone by design (ERRATUM-1).",
+   "numbers": "p=1.00 measured",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:336-338",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "1G: EV/OPT docs carry stale numbers surviving fix pass: brx 0.153->0.165, or n=66/0.256->n=69/0.259, sa n=99/0.168->n=100/0.175, surya 0.3849->0.3944, '11 engines' -> 11 model strings/9 independent.",
+   "numbers": "R2-10..R2-14",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:279-315",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "1G: 8 of 8 pre-image sizes match audit and archive byte-perfect; 'collateral' hunk 24a25,26 provenance unknown (directive A6: two OpenCode processes live).",
+   "numbers": "8/8; 1 of 53 hunks",
+   "source": "docs/campaign/checkpoints/W1_reports/1G_verify.md:349-351,404-409",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "1F: Option A cost 0; recommended A+gap-gated routing; if sa is coverage not bug, week has ~3 days slack to spend on synthesising ml/kn/te pages.",
+   "numbers": "3 days slack",
+   "source": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:160-164",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "1F: plan section 7 conflates 3 LLM evaluators with 3 adversarial lenses; '12 critiques' vs 'seven of eleven'.",
+   "numbers": "12; 7/11",
+   "source": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:140",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

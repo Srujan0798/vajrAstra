@@ -1,0 +1,282 @@
+{
+ "checked": 41,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "corrected",
+   "correction": "Numbers verified at line 27, but only the mr row is superseded (42.9% under the 233-item visual lock, lines 83/204); the other six FAIL rows are not marked superseded."
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "corrected",
+   "correction": "Line 89 is a header reading 'ai/sa/hi/bn solved-class'; the text says 'ai 0.20' (not as); sa 0.26 and the hi/bn collapse (line 90) contradict the 'CER<0.10' solved label. Only mai 0.06 (tess) and mai 0.05 (paddle) are actually <0.10."
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": "Line 97 numbers match; internally inconsistent with line 102 (tess-family 0.485 vs 0.491); surya 0.385 supersedes ranking."
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "corrected",
+   "correction": "Lines are 508 (surya wins 9/18) and 509 (primary routing, in PER_LANG_ROUTING bullet), not one line."
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "corrected",
+   "correction": "Byte-identical to tesseract_indic at lines 48/129; 340/1313 at R2-J ~line 379-380 (applied spec)."
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "corrected",
+   "correction": "Cause text is at line 17 (not 19); fix spec at line 19; EN 0.4535 restoration at lines 225/293."
+  },
+  {
+   "index": 22,
+   "verdict": "corrected",
+   "correction": "CER 0.1078/en_sanity_broken at line 194; WER/word_acc at 198; Wilson CI [0.188,0.468] at 180. 'n=3 statistically meaningless' is extractor commentary."
+  },
+  {
+   "index": 23,
+   "verdict": "corrected",
+   "correction": "Line 136 shows 54-cap, 3/lang, directional only; 57 = 54+3 EN at lines 177/200. 'beats every local engine on weak cells' from 91-92."
+  },
+  {
+   "index": 24,
+   "verdict": "corrected",
+   "correction": "12,324 at 111; 11,097=9x1227+54 at 97; 1,283 at 404; 233 verdicts at 204; 111+2 at 40."
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "corrected",
+   "correction": "Decisions at lines 289-293 (288 is blank). Superseded by W6 pause (494) for QLoRA parts."
+  },
+  {
+   "index": 28,
+   "verdict": "corrected",
+   "correction": "10,432 pairs at 116; ~3h compute / ~1.2GB adapter at line 273."
+  },
+  {
+   "index": 29,
+   "verdict": "corrected",
+   "correction": "T1=0.05/T2=3.0pt at 277; K4 T8 5min/T9 12.6GB at 387-388."
+  },
+  {
+   "index": 30,
+   "verdict": "corrected",
+   "correction": "43%/97% swap at 298; 1.10GB/11.5GB at 378; 9.4GB, 12GB disk, 16:22 IST at 511."
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": "Line 35 B2 1063 vs 0 in 258 records; HF_TOKEN throttle at 75."
+  },
+  {
+   "index": 38,
+   "verdict": "corrected",
+   "correction": "ETA ~4h at line 52 (~3h at 58); HF_TOKEN throttle at 75; 0 pack errors at 58; 'MEM 47%' appears in the 113-pack surya watch line (~24)."
+  },
+  {
+   "index": 39,
+   "verdict": "corrected",
+   "correction": "No single role-law line: append-only at line 1; no downloads at 76/297; Engine owns LEADERBOARD at 118/172; Miss owns Lane C at ~367."
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "printed_architecture",
+   "claim": "surya 1257 packs, 129 honest-empty, DONE 2026-09-28 19:31",
+   "numbers": "129",
+   "source": "docs/research/level7/MISS_MONITOR.md:135",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "rapidocr 1370 packs, 486 honest-empty; EN restored to 0.4535",
+   "numbers": "1370; 486; 0.4535",
+   "source": "docs/research/level7/MISS_MONITOR.md:225",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "paddle routing: AGENT_PROTOCOL said 9/18, scoring shows 6 covered langs signal",
+   "numbers": "9/18; 6",
+   "source": "docs/research/level7/MISS_MONITOR.md:69",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "mr FINAL_VERDICT row BARRED at 42.9% per section 6.4 visual lock (FINAL_VERDICT_2026-09-27.md:73)",
+   "numbers": "42.9%",
+   "source": "docs/research/level7/MISS_MONITOR.md:83",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam beats locals on weak cells: ks 0.63, ur 0.53, sat 0.48, mni 0.02 (n=3 each)",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:91",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "6 user decisions pending at one point: GPU budget, Sarvam EN, 20-item spot-check, rapidocr EN fix, GT repair vs exclude for barred langs, call time",
+   "numbers": "6",
+   "source": "docs/research/level7/MISS_MONITOR.md:144",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "D1-D4 locked (line 287+)"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Validation call HELD 2026-09-29 06:51 IST past H48 04:23 deadline",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:301",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "partition": "P44",
+ "files": [
+  {
+   "path": "_claude_memory/proto-104-project-first-critical-path.md",
+   "total_lines": 586,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-108-plan-v4-final.md",
+   "total_lines": 239,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-106-vinay-call-and-gpu-day1.md",
+   "total_lines": 72,
+   "fully_read": true
+  },
+  {
+   "path": "_claude_memory/proto-89-plan-v3-bodhan-base.md",
+   "total_lines": 57,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "handwriting",
+   "claim": "Official test set = 5,344 Bengali handwritten word images; planner viewed 3, Agent 1 viewed 13 across ID ranges: 13/13 Bengali handwriting.",
+   "numbers": "5,344; 13/13",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:32",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Official test crops are JPEG word crops 296-300 px tall, IDs 0-14806; 10001/12407/1361.jpg each one handwritten Bengali word in blue pen. Script mix across buckets was UNKNOWN in rev4 (before 13/13).",
+   "numbers": "296-300 px; IDs 0-14806",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:37-39",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "proto-108 (13/13 Bengali)"
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bodhan IndicOCR-HW bench word accuracy overall: Gemini 3.1 Pro 72.0, Bodhan 66.7, Sarvam 55.4; Bengali 74.8/71.3/58.3.",
+   "numbers": "72.0/66.7/55.4; bn 74.8/71.3/58.3",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:34-36",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bodhan HW bench per language (Gemini/Bodhan/Sarvam): as 71.6/66.1/47.8; gu 60.0/55.9/39.2; hi 83.1/77.6/72.3; kn 73.8/69.6/57.7; ml 63.9/60.5/45.6; mr 79.0/70.2/61.8; or 66.7/68.2/40.6; pa 70.1/69.4/54.8; ta 80.5/76.8/60.5; te 72.0/53.5/59.1; ur 54.4/46.4/44.4.",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:54-64",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2023 IHTR Bengali words WRR: Upstage PARSeq 96.10, PERO 92.02, light(TrOCR) 91.62, SRUKR 88.06; organisers' CVIT baseline 75.34. PARSeq>TrOCR on Bengali.",
+   "numbers": "96.10/92.02/91.62/88.06/75.34",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:37-39,106",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2023 IHTR other-script WRR: Devanagari 93.16, Gurmukhi 95.28, Kannada 94.54, Malayalam 97.16, Odia 83.38, Tamil 98.08, Telugu ~91.4, Gujarati 62.80 (hard); winner avg 88.31 WRR / 95.94 CRR; 5,000 new test words/language from 100 writers.",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:65-68",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "IIIT-INDIC-HW-WORDS licensed CC BY 4.0 (AIKosh); Bengali splits train 82,554 / val 12,947 / test 17,575 (ilocr/PLATTER) vs ICFHR page test 18,574 (to confirm from zip README). CVIT page: 872K words, 135 writers; ICFHR page says 'All Rights Reserved'.",
+   "numbers": "82,554/12,947/17,575 vs 18,574; 872K; 135 writers",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:41,119-121,201-202",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Gujarati IIIT-HW already on disk (Bodo/gu): train 82,563, val 17,643, test.txt 16,490 lines, vocab 10,963; only 4,645 images present (under test/test/). Only labelled handwriting set on disk before Bengali download.",
+   "numbers": "82,563/17,643/16,490/10,963/4,645",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:40,431",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Handwriting Expert recipe: PARSeq per script initialised from 11 IndicPhotoOCR checkpoints on disk (.deps/IndicPhotoOCR, MIT); fine-tune on IIIT HW with ICDAR winner recipe synthetic/scene init -> multilingual real -> per-script FT; optional train-lexicon LM rescoring.",
+   "numbers": "11 ckpts",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:43-44,99-103",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Pre-registered kill (a): test set not IIIT-like if stratified 100-image view shows <80% single handwritten words (13/13 so far).",
+   "numbers": "<80%; 100 images",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:84",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Pre-registered kill (b): specialists don't transfer to new writers; kill if fine-tune <85% WRR on independent-writer set (BN-HTRd or ICDAR test). ICDAR'23 test is 100 new writers yet scored 96.10.",
+   "numbers": "<85% WRR",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:85",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Kill (c) leakage: if official images subset of IIIT train split, exclude and disclose; edge then rests on independent-writer numbers only (G-HW0 pHash+SHA of 5,344 vs every candidate set).",
+   "numbers": "5,344",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:86,131",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Independent-writer eval sets: BN-HTRd (Mendeley 743k6dm543; 108,181 Bangla words, 150 writers; licence TO CHECK) and ICDAR 2023 IHTR val/test ('academic-use' per ledger) = EVAL ONLY. Synthetic Pango/HarfBuzz+OFL fonts = pretraining only.",
+   "numbers": "108,181 words; 150 writers",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:125-126",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Licence contradiction: AIKosh says CC BY 4.0 vs ledger 'academic-use' for competition sets -> train only on AIKosh CC-BY release; competition sets eval-only. PARSeq Apache-2.0, BN-HTRd, IIIT bn test count, IndicPhotoOCR weight licence are snippet-only/unverified.",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:205-212",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "HW2 gates: target >=92% WRR IIIT bn val and >=85% independent writers; <85% after 2 epoch-equivalents -> switch to CRNN+LM (PERO-style) or PARSeq-base; Mac MPS feasible, 24 GB GPU faster; LM rescoring kept only if WRR rises. Gujarati needs extra care (ICDAR best 62.80).",
+   "numbers": "92/85/62.80",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:138-142,165-168",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam bench (word acc 100*(1-WER), macro 22 langs, Sarvam blog 2026-09-24): Sarvam Vision 2.1 87.39, Bodhan 84.94, Gemini 3.6 Flash 79.35, GCV 71.76, surya 69.96. Sarvam per-lang bn 93.47 hi 93.52 ta 87.70 te 91.55 ml 90.24 kn 90.54.",
+   "numbers": "87.39/84.94/79.35/71.76/69.96",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:48-50",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam weak cells: sat 53.91, ks 54.82, or 80.01 (also 'old scans' per boss goal). Bodhan per-language vs Sarvam: ks 48.04 vs 54.82; or 75.45 vs 80.01; gu 83.26 vs 88.87; bn 90.87 vs 93.47; hi 90.99 vs 93.52; pa 86.51 vs 89.16; mni 82.85 vs 85.12; kok 95.99 vs 97.41; sat 68.30 vs 53.91 (Bodhan ahead).",
+   "numbers": "see claim",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:15-16;_claude_memory/proto-108-plan-v4-final.md:51;_claude_memory/proto-104-project-first-critical-path.md:18",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan's own IndicOCR-PR bench: Sarvam 86.6, Bodhan 86.2, Gemini 80.4; 8 of 22 per-language winners flip between the two vendor benches.",
+   "numbers": "86.6/86.2/80.4; 8 of 22",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:52",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Ours measured (MLX): Bodhan on Sarvam small_rep (1,173 items) CER 0.054, WER 0.1356 -> word acc ~86.4 (vs 84.94, +1.5); on 300 human gold pairs CER 0.40 vs surya 0.57; on 99 full benchmark pages CER 0.69 (unexplained page-level gap O-1); 4-bit ~ bf16; 0.52 s/crop. PyTorch official path not run (vendor asserts CUDA).",
+   "numbers": "0.054/0.1356/86.4/0.40/0.57/0.69/0.52 s",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:70-74",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan architecture: IndicDocLayout 33M (PP-DocLayoutV3/RT-DETR, 37 classes, reading order) + IndicBlockOCR 0.8B (Qwen3.5-0.8B, Sarvam-30B tokenizer); printed English+22 langs; handwriting English+12 languages. MLX 4-bit 636 MB ~391 ms/crop; port-reported CER 4.83% on its own crops.",
+   "numbers": "33M; 0.8B; 636 MB; 391 ms; 4.83%",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:17,20",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Bodhan licence: Indic Open Model License v1.0; commercial/finetune/self-host OK with attribution 'Built with ...'; derivatives same licence; hosted APIs need written approval (\u00a73.1); commercial licence only >500M MAU or >$250M revenue. Safer than surya $5M cap; surya eval-only.",
+   "numbers": "500M MAU; $250M",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:18;_claude_memory/proto-104-project-first-critical-path.md:71",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Plan v3 (proto-89) = base on Bodhan, fine-tune 0.8B recogniser where it trails Sarvam; gate Day1: Bodhan reproduces ~84.9 (+-2) on small_rep AND beats surya on 300 gold, else fall back to Plan v2 (surya). Plan v4 supersedes v3 strategy; proto-89 stays Bodhan technical detail.",
+   "numbers": "84.9 +-2",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:29;_claude_memory/proto-108-plan-v4-final.md:18",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Bodhan LoRA recipe (proto-89 \u00a7C): rank 16, alpha 32, lr 2e-4, 1-2 epochs, grad checkpointing, 5-item smoke test; target order Bengali, Hindi, then Gujarati/Odia/Punjabi/Konkani where clean blocks exist; never 4-bit for ks/ur/sd without parity; evaluate on held-out docs with paired bootstrap; GRPO RL (reward 1-CER) only after SFT passes and time rem",
+   "numbers": "r16 a32 lr2e-4",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:51-52",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Block-level training data (proto-89 \u00a7B): official pairs bn ~2.9k, hi 3.5k, sa ~0.5k, en 3.5k + PDF text-layer blocks via PyMuPDF at 200 dpi, split by source document; exclude probe items, near-dups, Sarvam bench, 5,344 test images, barred GT.",
+   "numbers": "bn 2.9k hi 3.5k sa 0.5k en 3.5k; 10,432 total (proto-108)",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:44-47;_claude_memory/proto-108-plan-v4-final.md:127",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Rejected from DEEP_RESEARCH_STRATEGY: licence 'Apache 2.0' (wrong), cloud budget $50-150 (breaks $0), 'P(beat)~0.65' and '88.5-90.0 projected' (unsourced), and RL on Sarvam small_representative (eval leakage: never train/tune on any split of the reported benchmark).",
+   "numbers": "",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:22-23",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri data option: 600K-KS-OCR (CC-BY-4.0, 10.6 GB, word images) only if boss approves; only weak-cell data lever named in these files.",
+   "numbers": "10.6 GB",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:51",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Plan v4 architecture: quality gate (restore only low-quality; SR hurts high-res, Rawat 2021) -> route (crop vs page by aspect/height; IndicPhotoOCR ViT script-ID 12 classes MIT, no sat/mni; IndicLID) -> recognise (HW expert / Bodhan page expert / Tesseract fallback) -> optional RL -> post-correction B-18 (Bhandari 2026 hi CER 10.20->6.73) -> JSON/P",
+   "numbers": "12 classes; 10.20->6.73",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:88-115",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Script ID has no sat/mni classes; script must be read from Bodhan output by Unicode range (IndicPhotoOCR script-ID classes lack sat/mni, RF-09). Test-time sat/mni routing gap.",
+   "numbers": "",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:33;_claude_memory/proto-108-plan-v4-final.md:96",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Product output schema (SOUTH_CANON \u00a7G): page meta; blocks with bbox, reading order, modality, script/language, NFC text, provenance, confidence; plus searchable PDF, Markdown, per-block language; CLI+Python API+Docker (PyTorch CUDA/CPU)+NOTICE (Bodhan \u00a72.2, IIIT CC-BY, Apache tessdata).",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:112-115;_claude_memory/proto-104-project-first-critical-path.md:27-32",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Portable product rule R-13: MLX is Mac accelerator only; shipped Bodhan = official bodhan-ai/indic-ocr weights on PyTorch; LoRA trained with PEFT on CUDA; MLX adapter counts only after conversion + PyTorch parity; claims must reproduce on PyTorch path.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:22-25,68-71",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "R-12 bench fairness: Sarvam-bench items tier sarvam_bench, never pooled into overall; 'we beat Sarvam' needs published split+scorer AND a win on an independent set (official human pairs, official handwriting slice). Sarvam bench = home bench.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:63-67",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "South (ta/te/kn/ml) official PDFs: 0/23,001 pages pass gates (76% legacy-font): ta 6,542/6,606, te 7,509/8,231, kn 3,406/5,825, ml 16/2,339 legacy. Gates MIN_CHARS 50, MIN_SCRIPT_RATIO 0.5, MAX_LATIN 0.6, MAX_CTRL 3. R-7: South GT = Sarvam-bench fill, <=100/lang, seed 20260926, eval-only forever.",
+   "numbers": "0/23,001; 76%",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:41,413-414,423,495",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "South v1 invalid for 22-lang table: only 126/400 pages carry CER (kn~4, ml~4, te~6); 26/126 CER pages had legacy-font GT; 274/400 without CER (219 thin GT, 55 mojibake); South tesseract CER 0.145 (first South score).",
+   "numbers": "126/400; 26/126; 274/400; 0.145",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:198-199,519,177;_claude_memory/proto-106-vinay-call-and-gpu-day1.md:26",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam on South: 12 calls (3/lang x4), ~Rs6 of Rs67 free credit; Sarvam bench per-language item counts: as 471 bn 271 brx 238 doi 319 en 300 gu 300 hi 228 kn 300 ks 262 kok 266 mai 279 ml 300 mni 207 mr 300 ne 437 or 300 pa 300 sa 325 sat 274 sd 248 ta 299 te 300 ur 385 (6,909 test; small_rep 1,173 = 51/lang).",
+   "numbers": "12 calls; 6,909; 1,173",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:44,61,426",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam indic-ocr-bench: Apache-2.0, human-reviewed twice, headline Word Accuracy=100*(1-WER) after --normalize (NFKC->NFC, folding), runaway-repetition outputs excluded. Contradicts protocol's 'machine GT' premise; sat/mni BARRED verdicts partly relied on LLM-vision verifier that cannot read Ol Chiki/Meetei Mayek (G5).",
+   "numbers": "rev 84ce7ce4",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:43-45,175",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT defects register (G1-G9): Marathi PDF GT with injected Ol Chiki code points (18 table items); gt_thin threshold 179 vs 200; te_024/te_065 script map disagree; ne PDF-tier BARRED (ctrl chars, trust 26.6); PDF-text GT may favour layout-literal engines; sarvam_bench home-turf; sheet.csv vs manifest equality. Step Q: write GT_DEFECTS.md.",
+   "numbers": "179 vs 200; trust 26.6",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:169-179",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Engine empty-output patterns: paddleocr_indic 100% empty bn,brx,doi,gu,ks,mni,or,pa,sat (overall 43%); brx/doi are Devanagari -> confirmed mapping bug (run_probe.py:84-88 PADDLE_LANG omits them); surya 100% empty on sa, mni 55%, doi 14, gu 12, sat 10, ne 8, brx 5 (surya ignores lang); anuvaad_tesseract only kan/mal/tam/tel/hin/eng (50% empty); rapi",
+   "numbers": "43%; 55%; 50%; 27%",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:371-383",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Official scoring rules UNKNOWN; the rubric 'CER bootstrap CI, WER, S/D/I, s/page' came from a student B.Tech repo (Ayush-04-spec/akshardrishti), not the official rubric. Submission format NOT published (O-4).",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:315;_claude_memory/proto-108-plan-v4-final.md:218-219",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Contest is product-weighted: jury scores approach/innovation, technical feasibility, product roadmap, team, addressable market; only named evaluation target 'accuracy, layout detection, multilingual text handling' (RQ-1). No metric/deadline published.",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:33",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Cost story/pitch: Rs0 offline vs Sarvam Rs0.5/page and Bodhan API Rs0.20/image; 5-min demo camera photo -> JSON + searchable PDF in Bengali; 'what nobody publishes': handwriting+tables+code-mixed together, independent benchmarks, abstention rates, CIs.",
+   "numbers": "Rs0.5/page; Rs0.20/image",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:75,155-159",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Claims discipline: Now claimable: test set is Bengali HW words; specialists 92-96 WRR vs general VLMs 58-75; Bodhan reproduces ~86.4 vs 84.94; Bodhan 0.40 vs surya 0.57 CER on gold. Never: 'we beat 87.39', pooled printed win without GT tier, winners n<50, '1000% we win'.",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:176-187",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Competitor set to beat: Sarvam Vision 2.1 (87.39), Bodhan 84.94, Chitrapathak-2, Gemini 3.6 Flash 79.35, surya 69.96. Vinay's PPT stages (OpenCV pre, DocLayout-YOLO+IndicDLP LoRA, TrOCR+Qwen3.5-VL+PaddleOCR-VL SFT, SCST/RL, LLM->JSON) mapped to Bodhan layout, Bodhan+LoRA, GRPO last, post-correction.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:18,109-115;_claude_memory/proto-106-vinay-call-and-gpu-day1.md:19-21",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Gate G-2.5: no training before Vinay OK/15-20 min session + multi-LLM check (proto-17 method) - his red line L10/L12; U-HW3 send Plan v4 one-pager by WhatsApp. Boss decisions U-HW1 (download IIIT bn, recommend YES), U-HW2 (eval-only sets), U-HW4 (other scripts after HW2).",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:136,222-227;_claude_memory/proto-89-plan-v3-bodhan-base.md:31",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Plan v4 gates: G-HW0 overlap=0; G-P1 Bodhan LoRA lowers held-out CER with CI excl 0 and no language regresses >1 pt; G-SHIP: 50-image dry run fits budget, JSON/PDF valid, licences+NOTICE, every number has reproducing command. Open items O-1..O-5 (O-2 Sarvam 12-call re-run needs boss yes, O-3 GPU SSH).",
+   "numbers": "1 point; 50 images",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:161-174,215-220",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "GPU day-1 plan (24 GB VRAM SSH): continuity check (1 item/lang/engine Mac vs GPU) -> D1 official Bodhan PyTorch CUDA sample 100 -> H3 handwriting slice -> X Sarvam bench test 6,909 -> latency table x 5,344 -> downloads (dots.ocr, PaddleOCR-VL) need boss; NO LoRA/SFT/RL day 1. Data by rsync, keys env vars, HF_TOKEN env.",
+   "numbers": "24 GB; 6,909; 5,344",
+   "source": "_claude_memory/proto-106-vinay-call-and-gpu-day1.md:45-71",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Night-run rules R-15: caffeinate+nohup/tmux, stop if disk <20 GB, resumable per-item outputs, RUN_STATE json, device tag (mac-m4-cpu/mps/gpu-24gb), heartbeat 5 min, 10-min stall kill, HANDOFF.md. Free disk 32 GiB at 20:50; mlx 0.32.3 + mlx-vlm 0.7.4 installed.",
+   "numbers": "20 GB; 5 min; 10 min",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:76-81,470",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Env rules: .venv311 (Py 3.11.10) is THE env for engines/scoring; .venv (3.14.3) not mixed; product/ gets pinned requirements.txt + Dockerfile (Linux/CUDA). HF: Bodhan repos 403 for Maya0769 (gated forms need browser); cloud planner cannot reach huggingface.co; HF token to rotate after download.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:73-75,132-137;_claude_memory/proto-106-vinay-call-and-gpu-day1.md:68-72",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Vinay call questions (proto-106): GPU SSH/quota/may Datasets go on it; training gate; is test set only handwritten words, which scripts, dev split, submission format; does jury score accuracy; Bodhan hosting approval; '10 days' item; Sep-16 correction. Do NOT say 'we beat Sarvam', numbers without commands, other session's Sarvam South numbers (wron",
+   "numbers": "",
+   "source": "_claude_memory/proto-106-vinay-call-and-gpu-day1.md:29-38",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Other session's Sarvam South numbers (ta 93.42, te 87.70, ml 91.60, kn 89.89 'character accuracy') are WRONG; dropped: A0-A10 roster, 'South sealed', Laya router (text-only), code-exec rewards. Pseudo-GT from engine agreement worse than best single engine (F8); reading order is where paddle/rapidocr lose (F7).",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:47,145-152,561-562",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Process rules: planner no subagents/no team mates; 3 agents do labour; no commit/push/merge without boss; local main had 44 tracked files deleted (35 level2/models docs) - careless push would delete; PR #12 reference only; Sarvam free credit Rs67 left.",
+   "numbers": "44 deleted; 35 docs; Rs67",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:14,59,476",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-104 rev4 steps still the execution order; add HW0-HW3, P1, R1, E1; PARKED: cleanup protos 95/96/98/101/72-74/77/84/63/66, 102 A6/A7/A8/A10, GitHub housekeeping. Tools: graphify stale (0.9.45 vs 0.9.65), ECC, Consensus 3/day, Laya not used.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:10,122-129",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Test-set profile heuristics (TEST_SET_PROFILE.md) REJECTED (R-11); H1 must profile >=10 images per ID bucket; H2 labelled official_hw slice writer/page-disjoint; H4 handwriting LoRA Day 3 (B-19). Handwriting priority arrived late: rev3 only 2026-09-30 21:15.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:429,433-442",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Submission readiness (proto-78): test images carry no language label -> need script/language ID; dry run on 50 images, extrapolate to 5,344; test images NEVER trained/tuned on; 'FULL TECHNICAL BRIEFING.md:37' calls it eval set.",
+   "numbers": "50; 5,344",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:289-303",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Mandela patterns in plan: #1 contamination (G-HW0 hash gate), #6 shared-pool bias (IIIT train/val/test share protocol -> headline on independent writers), #4/#5 verifier=designer, #3 shared hallucination (Agent 2 re-runs every number from scripts it did not write).",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:189-194",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "proto-81: probe manifest print_or_hand all printed 1,283, has_table False 1,283; Sarvam bench 0% handwriting/0% tables; neither probe nor Sarvam bench measures handwriting; U13 decision on handwriting scope (>10% HW share -> yes).",
+   "numbers": "1,283; 0%",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:342-343,356",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Artifacts published 2026-10-01 ~16:15 IST: Showcase for Vinay and Plan v4 (final); 3-hour integration loop refreshes them from HW1 numbers, HW0 overlap, licence checks, proto-107 gold facts.",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:236-239",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "No printed 22-language plan inside v4's core: v4 routes printed to Bodhan only; sat/ks/mni/or/sa/doi weak cells get no per-cell recipe beyond 'LoRA where it trails' (proto-108:104; proto-89:51). Kashmiri 600K-KS-OCR download (10.6 GB) is the only weak-cell data lever and is not in v4 decisions.",
+  "Script ID (IndicPhotoOCR ViT) has no sat/mni classes (proto-108:96; proto-89:33): v4 relies on Unicode ranges after first pass and IndicLID; sat/mni routing and Ol Chiki/Meetei Mayek recognition have no plan.",
+  "Perso-Arabic/Nastaliq (ur, ks, sd): proto-89 requires non-4-bit and raw+Arabic-normalized CER (proto-89:29,51); v4 mentions Urdu only in the HW table; no R2 Nastaliq plan.",
+  "v4 drops the old-scan/restoration lane: quality gate only (proto-108:89-92) though Sarvam's weak cells include old scans (proto-104:18).",
+  "v4 says it is Bengali-only handwriting first; the ICDAR winner recipe mentions multilingual real stage but only Bengali has data (proto-108:102,123); Gujarati ICDAR best only 62.80, Odia 83.38 - no plan beyond 'extra care'.",
+  "Test-set label unknown for 5,344 images: no dev split, no metric, no format (proto-108:218-219; proto-106:34-35) -> HW2 gates measured on IIIT val and independent writers only; kill (a) rests on a 100-image view.",
+  "BN-HTRd licence, PARSeq LICENSE, IndicPhotoOCR weight licence, IIIT test count unverified (proto-108:205-209) while plan trains on them.",
+  "Compute: v4 gives no GPU-hours/time budget for HW2/HW3/P1; GPU SSH (O-3) still unknown; Vinay's 24 GB box not confirmed (proto-108:218; proto-106:30).",
+  "Page CER 0.69 vs crop 0.054 (O-1) unexplained, undermining the 'Page Expert wins product' claim (proto-108:73,217).",
+  "Kill criteria beyond (a)-(c) and G-HW2 are not pre-registered for printed/Page Expert or router (only G-P1, G-SHIP) (proto-108:161-174).",
+  "Bodhan hosted-API approval (\u00a73.1) and weights-hosting question unresolved for the product (proto-106:36; proto-89:18).",
+  "Merge of old plan's benchmark/GT discipline: GT_DEFECTS (G1-G9) and R-12 tiering are in proto-104 appendix but v4 E1 only mentions tiering briefly (proto-104:169-179; proto-108:154)."
+ ],
+ "contradictions": [
+  "IIIT Bengali test count 17,575 (ilocr/PLATTER) vs 18,574 (ICFHR page) - proto-108:120-121",
+  "AIKosh CC BY 4.0 vs 'academic-use'/'All Rights Reserved' for competition and ICFHR copies - proto-108:202,212",
+  "proto-104 rev4 says script mix UNKNOWN (:38) vs proto-108 13/13 Bengali (:32)",
+  "proto-89 says handwriting not measured/Bodhan HW 66.7; proto-106 says official test set 'handwritten word crops' with Plan v3 'handwriting is the centre' while proto-89 Plan v3 routes everything via Bodhan",
+  "Sarvam bench GT 'human-reviewed twice' vs protocol 'machine GT' (G5) - proto-104:175",
+  "Bodhan reproduces 84.94 at ~86.4 on small_rep yet page-level CER 0.69 - proto-108:70-73",
+  "Sep 25 meeting date contradiction open - proto-106:29",
+  "Ledger 'Bodo/gu test/test as GT' do-not-collect vs labelled IIIT Gujarati - proto-108:213"
+ ],
+ "open_items": [
+  "O-1 order-invariant CER on Bodhan pages",
+  "O-2 Sarvam 12 South call re-run only on boss yes",
+  "O-3 GPU SSH",
+  "O-4 submission format unknown",
+  "O-5 proto-107 gold must not touch level2/benchmark or HW data",
+  "HW0 leak check pending download",
+  "U-HW1..U-HW4 boss decisions",
+  "G-2.5 Vinay OK before any training",
+  "Bodhan HF gate/hosting approval",
+  "BN-HTRd licence",
+  "Consensus processing to proto-105"
+ ]
+}

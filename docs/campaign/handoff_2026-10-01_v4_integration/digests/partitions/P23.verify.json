@@ -1,0 +1,322 @@
+{
+ "checked": 47,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "corrected",
+   "correction": "The 'VERIFIED DONE' S2 entry (W4.md ~719-731) says 400 manifest items / 800 rendered images (200 per lang); the 6,909 Sarvam-split figure is NOT in that entry (it is in the earlier S2 entry ~384/415 and S5 line 763); 1,283 is from P3-prep (line ~176, before South was added), whereas the earlier S2 entry reports 1,683 (v1 1,283 + 400). Earlier S2 entries say 400 PNGs (100/lang). So the 400-vs-800 render conflict is real; 1,283 vs 1,683 is a timeline progression plus an unreconciled inconsistency."
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": "Core numbers verified (splits, vocab, 0 overlaps, 16,490 manifest). 'Bengali slice NOT built' is extractor inference, not stated in the file."
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Per-language n table in the S2 entry sums to 1,646, not the stated manifest_v2 total of 1,683 (as19 bn100 brx67 doi27 gu24 hi100 kn100 kok100 ks100 mai100 ml100 mni20 mr100 or69 pa100 sa100 sat20 sd100 ta100 te100 ur100). 37-item gap unreconciled; file says 'honest n is the per-lang table'.",
+   "numbers": "1,646 vs 1,683",
+   "source": "docs/campaign/checkpoints/W4.md:384-395",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Official test set per H2 spec = Datasets/akshardrishti_official/test/test, 5,344 word crops (handwritten); H1 only viewed 13 of them.",
+   "numbers": "5,344",
+   "source": "docs/campaign/checkpoints/W4.md:784",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "P4 Retire South v1 executed 2026-09-30: 4000 duplicate JSONs deleted after sha vs git, symlink views deleted (unified 17,289; pages_400 400; renders_shared 400), level2/models and level2/reports removed (archived in 2026-09-30_south_v1.tar.gz) - precursor to the scores/ deletion incident.",
+   "numbers": "17,289; 4000",
+   "source": "docs/campaign/checkpoints/W4.md:184-197",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "P0 pre-image sha256 SKIPPED (30+ min) and bundle deferred; sealed dirs: level2/out 4001, reports 48, probe22/out 13289, arc_level_1 413, akshardrishti_official 34871 files.",
+   "numbers": "4001/48/13289/413/34871",
+   "source": "docs/campaign/checkpoints/W4.md:160-170",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Phase 2 research readers gate NOT MET: proto-98 Phase 1 artefacts (research_inventory.tsv, graph_signals.tsv, INVENTORY.csv, pre-cleanup bundle) missing at 16:2x IST 2026-09-30; Phase 2 prepared but not fired.",
+   "numbers": "6 slots",
+   "source": "docs/campaign/checkpoints/W4.md:53-70",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss decision table: U2 ask organiser; U7 sat/mni tessdata cleared at licence level (needs download approval); U14 re-ask surya as competition clause or price Datalab licence; U27 Kashmiri 600K research-only; U28 Bodhan s3.2 internal-component shape.",
+   "numbers": "U2,U7,U14,U27,U28",
+   "source": "docs/campaign/checkpoints/W4.md:44-51",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "S5 note: South 400 items sit inside Sarvam-bench split (6,909), counted once; GT tiers (tess_bi/sarvam_bench/official_pdf) never pooled.",
+   "numbers": "6,909",
+   "source": "docs/campaign/checkpoints/W4.md:763",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A5: mcnemar_full_matrix.json timed out at 6 min and was restarted in background; A5 metrics already existed in scores/ (copied from archive).",
+   "numbers": "6-minute timeout",
+   "source": "docs/campaign/checkpoints/W4.md:586",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "checked": 52,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "corrected",
+   "correction": "Only openbharatocr is an exact byte-identical duplicate of tesseract_indic (LEADERBOARD.md:8,19,112; identical CER 0.4870). LEADERBOARD.md:182 also names tesseract_bilingual as byte-identical, but its own tables contradict that (tesseract_bilingual overall CER 0.4853, 1259 packs vs 1257, per-lang differences e.g. or 0.258 vs 0.256, ne 0.116 vs 0.122). Effective independent engines = 10 is stated at :8 and :182."
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "corrected",
+   "correction": "Sarvam Wilson interval [0.151, 0.329] has half-width ~0.089 (FS-VERDICT-H48-010.md:25), not +-0.15 as santa_method_cross_check.md:115 says (and :122 says half-width '>50pp'); the source is internally inconsistent. Surya CI +-0.013 [0.372,0.398] is correct (FS-010:30). The conclusion (Sarvam 54-sample vs surya 1227 headline invalid without CIs, needs full 1,227 Sarvam run per LEADERBOARD.md:139) stands."
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "All A6_staging files are recovered-from-OpenCode-DB copies (header 'any later edits are lost'); LEADERBOARD was generated 2026-09-28 19:33 and refreshed 2026-09-29 05:30 after the H48 hostile pass and EN re-score; santa_method_cross_check is PARTIAL (header) and FS-VERDICT specs are all 'READY FOR ... APPLICATION' with no record of application.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:1,142; docs/campaign/checkpoints/W4_reports/A6_staging/santa_method_cross_check.md:1; docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-001.md:6",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam per-lang n in leaderboard: as 2, mni 2, sat 2, all others 3 (54-call cap, 48 valid), so every sarvam per-lang CER is n<=3.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:70-86,98",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "LEADERBOARD 'missing' counts in the overall table (rapidocr 343, anuvaad 617, over 1227 packs) differ from coverage-table honest-empties (486 over 1370; 647 over 1257) because EN-sanity/extra packs are included in the latter; the 647 at LEADERBOARD:116 is anuvaad's count, mislabelled on the rapidocr row.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:15,21,99-100,116",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Leaderboard per-lang table shows bn row missing (no bn row in CER table, only in winners table: surya 0.476, indicphotoocr 0.657) and the table header has 11 engine columns but 13 separators; leaderboard states a 'verified' winners table without Wilson CIs.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:34,68-69",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Overall engine ranking table: McNemar CER<0.5 per-item pass threshold; surya EN sanity CER 0.1514 is best of 30 EN items; paddleocr_indic best-local on hi runner-up 0.504; sarvam_vision not run on EN per D2 (cap 54).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:34-38,164-176; docs/campaign/checkpoints/W4_reports/A6_staging/mcnemar_summary.md:6-9",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ledger C-12/C-03: GitHub issues #1 (epic) .. #11 and draft PR #12 (reference-only, CI green, not merged; proto-104 R-6 no merge without boss) on Srujan0798/vajrAstra; recommended close #2,#3,#4,#6, keep #5,#7,#11, rescope #8-#10 to CI; boss never said close.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:40-46,115-118",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ledger C-25/C-26: planner push is a docs+memory snapshot at commit 41de158 on boss/campaign-docs (GitHub main untouched); later commits 7709781 (Task B/C), 0be5420 (proto-106), f92af79 (NEXT.md triggers T1-T7), 90b2713 (close-out handoff).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:222,233,284,294,298",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Ledger C-21: night-run rules adopted as proto-104 R-15 (caffeinate/tmux, resumable --skip-existing, RUN_STATE, device tags, heartbeat, 20 GB disk floor); GPU day-1 order (proto-106 s2): specs, code clone + rsync data, CUDA env, continuity check, Bodhan CUDA, H3, X, latency; no training.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:191-196,283-289",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ledger permanent rules: planner does no labour; everything free (Sarvam only on the Rs67 credit); solo operator, all 22 langs + en, no teammates; done = output in W4.md + reproducing command; builder never self-certifies; secrets never on GitHub; never delete; lists not tables.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:330-339",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Ledger: sarvamai/indic-ocr-bench is Apache-2.0 with human GT, 22 languages + en, and became step X plus the South GT source (R-7); GRPO/CER reward kept only as last optional stage; Laya not used (proto-88).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:179-184",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ledger open list: Agent 2 (copy-back, apply drafts, A4, A5, LAYOUT FROZEN, graphify, archive stale protocol mirrors, Sarvam endpoint read-only /download-url, HF token .env), Agent 1 (H1, S4, retrieve 12 Sarvam outputs T3, D1), Agent 3 (requirements.txt+Dockerfile+X runner T7); later: S5 score, S6 retire South v1, H2/H3, X, step G, step Q before D2, Gate 2.5.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:310-328",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

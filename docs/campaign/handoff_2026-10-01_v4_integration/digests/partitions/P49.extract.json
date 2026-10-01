@@ -1,0 +1,524 @@
+{
+ "partition": "P49",
+ "files": [
+  {
+   "path": "/home/user/boss/_claude_memory/proto-00-runbook.md",
+   "total_lines": 40,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-02-preflight-and-checkpoints.md",
+   "total_lines": 47,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-60-monitor-and-checkpoint-discipline.md",
+   "total_lines": 42,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-62-gt-tier-stratified-reporting.md",
+   "total_lines": 41,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-65-gt-defects-register.md",
+   "total_lines": 34,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-71-south-rerun-same-standard.md",
+   "total_lines": 48,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-75-vinay-plan-baseline.md",
+   "total_lines": 36,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-76-workstreams-and-agent-health.md",
+   "total_lines": 30,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-78-submission-readiness.md",
+   "total_lines": 32,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-79-council-briefing-prompts.md",
+   "total_lines": 30,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-80-hackathon-metric-alignment.md",
+   "total_lines": 33,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-81-handwriting-degraded-coverage.md",
+   "total_lines": 29,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-82-engine-empty-output-patterns.md",
+   "total_lines": 46,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-90-templates.md",
+   "total_lines": 72,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/proto-91-verdict-cross-check.md",
+   "total_lines": 38,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/campaign-law.md",
+   "total_lines": 35,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/boss-standard.md",
+   "total_lines": 32,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/model-tiering.md",
+   "total_lines": 20,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/conflicts-register.md",
+   "total_lines": 34,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/agent-automation-setup.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/feedback-no-subagents-boss-assigns.md",
+   "total_lines": 15,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/feedback-no-team-mates.md",
+   "total_lines": 12,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "On the 54 Sarvam-paired items, Sarvam beats local engines on human-verified GT tiers but local engines lead only on PDF-text-layer GT; pooled comparisons are forbidden, must report per GT tier with n.",
+   "numbers": "official_pair_txt n=9 Sarvam CER 0.064 vs surya 0.535 vs best local 0.243; official_pdf_layer n=36 Sarvam 0.311 vs surya 0.229 vs best local 0.229; sarvam_bench n=9 Sarvam 0.278 vs surya 0.730 vs best local 0.617",
+   "source": "_claude_memory/proto-62-gt-tier-stratified-reporting.md:13-22",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Rule: never pool engine-vs-engine or us-vs-Sarvam comparisons across GT tiers; any winner claim at n>=50 states tier mix; PDF-layer-decided winners labelled 'PDF-layer GT'. Hypothesis (not conclusion): PDF-layer GT favours layout-literal engines.",
+   "numbers": "Sarvam 2-4x lower CER on 18 human-verified items; n=3 per language",
+   "source": "_claude_memory/proto-62-gt-tier-stratified-reporting.md:20-28",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT defects register G1: Marathi PDF-layer GT has injected Ol Chiki code points; 18 items are table pages.",
+   "numbers": "18 items; 7.4x Latin, 7.9x digits",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:19",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "G2: gt_thin threshold inconsistent: 179 chars in docs (CER_BY_SCRIPT.md) vs 200 in code (3 places).",
+   "numbers": "179 vs 200",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:20",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "G3: te_024/te_065 dominant script disagrees between pages_script_map.json and pages_manifest.json, so Telugu scored n = 6 or 4.",
+   "numbers": "n=6 or 4",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:21",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "G4: Nepali PDF tier BARRED (R5: control chars, trust 26.6).",
+   "numbers": "trust 26.6",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:22",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "G5/C12: sarvam_bench fill GT is human-reviewed twice per HF card, contradicting the 'machine GT' premise; sec 6.4 BARRED mni/sat partly on an LLM-vision verifier that cannot read Ol Chiki/Meetei Mayek. Section 6.4 stays LOCKED unless boss reopens.",
+   "numbers": "",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:23 ; conflicts-register.md:24",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "G9: items whose GT came from the same source Sarvam built its bench on (sarvam_bench) are potential home-turf for Sarvam; needs exclude-or-flag rule.",
+   "numbers": "",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:27",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "G8: South 274/400 pages have no CER (219 thin GT, 55 mojibake); G7 sheet.csv gt vs manifest gt byte equality unchecked.",
+   "numbers": "274/400; 219 thin; 55 mojibake",
+   "source": "_claude_memory/proto-65-gt-defects-register.md:25-26",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "South (ta/te/kn/ml) was 400 self-labelled pages from other sources, different basis and scorer, only 126/400 carry a CER (kn ~4, ml ~4, te ~6 scored). Boss wants South rerun under the same 100-per-language probe standard (SEED 20260926); old South becomes history, never mixed into the 22-language table.",
+   "numbers": "126/400 CER; kn~4 ml~4 te~6; SEED 20260926; 100/lang",
+   "source": "_claude_memory/proto-71-south-rerun-same-standard.md:16-18,35-44",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "proto-101-south-unification-and-level2-tree (per proto-71:12; not in this partition)"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Official dataset sources for South: Tamil 34 PDF+4 PNG, Telugu 84 PDF, Kannada 41 PDF, Malayalam 20 PDF+9 PNG; no image+transcription pairs; honesty-gate yield unknown (Gujarati 3,567 text pages gave only 10 clean due to legacy font encodings).",
+   "numbers": "ta34+4, te84, kn41, ml20+9; gu 3,567->10",
+   "source": "_claude_memory/proto-71-south-rerun-same-standard.md:20-22",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Tesseract traineddata for tam/tel/kan/mal absent from level2/probe22/tessdata; run_probe.py (LOCKED) language map may not route ta/te/kn/ml.",
+   "numbers": "",
+   "source": "_claude_memory/proto-71-south-rerun-same-standard.md:29-31",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Boss gate U11 APPROVED 2026-09-30 'Yes, feasibility first'; where a language cannot reach 100 clean pages record honest n, no gate relaxation, no fabrication.",
+   "numbers": "",
+   "source": "_claude_memory/proto-71-south-rerun-same-standard.md:35,43",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "paddleocr_indic is 100% empty on bn, brx, doi, gu, ks, mni, or, pa, sat (overall 43%); brx and doi are Devanagari yet hi/kok/mai/mr/ne are 0% empty: confirmed MAPPING-BUG (PADDLE_LANG omits brx, doi; run_probe.py:84-88, wrong comment 80-83).",
+   "numbers": "overall 43% empty",
+   "source": "_claude_memory/proto-82-engine-empty-output-patterns.md:17,26-28",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "surya 100% empty on Sanskrit (sa), mni 55%, doi 14, gu 12, sat 10, ne 8, brx 5; surya ignores lang code so cause is image/model side; the 'fusion ceiling' of 67% is this one bug (EDGE_THESIS); sa/surya is 'the plan's only real engineering item'. sa items are official pair JPEGs *pro_labelled.jpeg.",
+   "numbers": "sa 100%, mni 55%",
+   "source": "_claude_memory/proto-82-engine-empty-output-patterns.md:18,29-31,44",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "anuvaad_tesseract 100% empty on bn, gu, ks, mni, or, pa, sat, sd, ur (overall 50%): mostly honest-empty (only kan/mal/tam/tel/hin/eng traineddata). rapidocr 100% empty on bn, gu, mni, or, pa, sat (overall 27%).",
+   "numbers": "50%; 27%",
+   "source": "_claude_memory/proto-82-engine-empty-output-patterns.md:19-21",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Operator law: find 1 problem, assume 1000, fix pattern-wide; engine/config change must win on 4 items (L3 gate) before touching full set; L8 open policy: lang tag is ID label, never a content constraint; reruns versioned (out_archive/<engine>_v1).",
+   "numbers": "4-page gate",
+   "source": "_claude_memory/proto-82-engine-empty-output-patterns.md:13,33-44",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "All 1,283 probe items are printed: print_or_hand printed 1,283; has_table False 1,283; quality unknown 983 / clean 300; mixed_script False everywhere. Unknown whether fields measured or defaulted. Neither our probe nor Sarvam bench (0% handwriting/0% tables) measures handwriting.",
+   "numbers": "1,283; 983 unknown; 300 clean",
+   "source": "_claude_memory/proto-81-handwriting-degraded-coverage.md:13-14",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Proto-81 notes hackathon 'targets handwritten and low-quality texts' as UNVERIFIED (official page unopenable, X post HTTP 402); Bodhan publishes a handwriting bench (IndicOCR-HW); boss decision U13: include handwriting eval if test set handwritten share >10%.",
+   "numbers": "60 random test images, seed 20260926; >10% threshold",
+   "source": "_claude_memory/proto-81-handwriting-degraded-coverage.md:14,19-27",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "Plan v4 (proto-108): inspected test = all single handwritten Bengali words"
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Test set: Datasets/akshardrishti_official/test/test = 5,344 unlabelled JPGs (0.jpg...), 'NEVER train on it' (FULL TECHNICAL BRIEFING.md:37); submission format NOT published (R6_COMPETITION_INTEL.md:62). Older plans route by known language label, test has none, so script/language ID is needed.",
+   "numbers": "5,344 images",
+   "source": "_claude_memory/proto-78-submission-readiness.md:13-15",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Proto-78 plan: step1 SUBMISSION_REQUIREMENTS.md; step2 profile 200 test images (seed 20260926; 30 visual) -> TEST_SET_PROFILE.md; step3 dry run on 50 images, extrapolate to 5,344, wall time/memory per engine on Mac, gap list (e.g. no engine for Ol Chiki/Meetei Mayek); never write test predictions into training assets.",
+   "numbers": "200 sample; 50 dry-run",
+   "source": "_claude_memory/proto-78-submission-readiness.md:17-30",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "CORRECTION: the rubric sentence 'CER with bootstrap 95% CI, WER, S/D/I, seconds per page' came from a student B.Tech project (github.com/Ayush-04-spec/akshardrishti, K.K. Wagh), NOT the official AksharDrishti rubric; official scoring rules UNKNOWN (U2). Never state as hackathon rules.",
+   "numbers": "",
+   "source": "_claude_memory/proto-80-hackathon-metric-alignment.md:13-16",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Proto-80 metric writer spec: rubric_report.py with CER mean, bootstrap 95% CI (1,000 resamples over items, seed 20260926), median, abstention rate, WER, S/D/I via Levenshtein backtrace tested on 5 hand-checked pairs, seconds/page (Apple M2 Max), reproduce BENCHMARK_22 means; no hand-typed numbers (L2, L9b).",
+   "numbers": "1,000 resamples; seed 20260926; M2 Max",
+   "source": "_claude_memory/proto-80-hackathon-metric-alignment.md:19-31",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Vinay baseline analysis spec: decompose PPT 4-stage architecture (OpenCV preprocessing, DocLayout-YOLO, parallel SFT TrOCR + Qwen-VL + PaddleOCR-VL, SCST/RL training, data/eval plan); stage x {Vinay, Sarvam Vision 2.1, Bodhan, measured routing, Option A, Option D}; list omissions (script/lang ID, confidence routing, metric-aligned normalisation, 22-language coverage). Boss CO-089: 'must cross his plan to cross Sarvam'; Vinay is the CEO, crossing = plan he adopts.",
+   "numbers": "<=2,000 words",
+   "source": "_claude_memory/proto-75-vinay-plan-baseline.md:13-31",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Conflicts register C1-C15 (settled, do not re-litigate): C2 bounded waves <=5 subagents; C3 no paper quota; C4 100/lang x 22 = 2,200 target; C7 2026-10-01 is Thursday (43+ docs say Wednesday); C8 1,227 scored vs 1,283 manifest; C9 'beats Sarvam 9/18' unsupported at n=3/lang; C10 Option A vs D, Qwen2.5-VL-3B vs GLM-OCR 0.9B (U4); C11 untracked src/ training tree stays unrun (U3); C14 DELETE means sha-verified bundle (_archive/_reports 0% in git).",
+   "numbers": "1,227 vs 1,283; 2,200; n=3/lang",
+   "source": "_claude_memory/conflicts-register.md:13-32",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Campaign law: exactly 3 top-level agents (Engine, Verdict, Miss), file-based append-only interfaces (engine_health_log.jsonl, fix_specs/, DISPATCH_LOG.md, BOSS_CONCERNS.md, PROTOCOL_UPGRADES.md); cross-check law: no output counts as truth until checked by another agent; council deliberation for load-bearing docs.",
+   "numbers": "3 agents",
+   "source": "_claude_memory/campaign-law.md:8-29",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss standard: life-stakes bar, no vibe coding, no fake claims (CO-086), no foolish deletions, past work locked, counter the boss with evidence, one-line prompts, everything traceable; read whole files (graphify query before cleanup); wrong-fast worse than slow-correct.",
+   "numbers": "",
+   "source": "_claude_memory/boss-standard.md:10-31",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Model tiering: Opus never spawns subagents (boss: 'i will kill u if u use opus for sub agent'); Opus plans/writes protocols/memory only; Sonnet executes. 2026-09-30 reinforcement: planner must not edit repo files/scripts even for 2-line fixes; write as fix-spec.",
+   "numbers": "",
+   "source": "_claude_memory/model-tiering.md:8-18",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Later 2026-09-30 ~20:45 IST ruling: planner uses NO subagents/workflows at all (not even Sonnet read-only); boss assigns work to his 3 OpenCode agents; planner gives paste-ready lines. Also ~21:05: never plan around teammates (Krishna, Aryan, David); boss+AI agents do everything; Vinay is lead to inform, not blocker (except L12 pre-training plan session gate).",
+   "numbers": "",
+   "source": "_claude_memory/feedback-no-subagents-boss-assigns.md:11-15 ; feedback-no-team-mates.md:8-12",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Contradiction in rules: proto-79/proto-91/proto-90 prescribe dispatching 3 Sonnet reviewers and Sonnet subagents, whereas later boss rulings forbid planner subagent use; proto-79 council = 3 blind Sonnet reviewers (evidence/feasibility/boss-concern lenses).",
+   "numbers": "",
+   "source": "_claude_memory/proto-79-council-briefing-prompts.md:22-25 ; feedback-no-subagents-boss-assigns.md:11",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Briefing format DECISIONS|DELIVERED|BLOCKERS|RISKS|NEXT (<=2,000 tokens, file:line); never end with 'what should I do'; prompt maintenance: rewrite protocol if subagent re-asks twice, log PROMPT-FIX; Verdict has autonomy to counter boss.",
+   "numbers": "<=2,000 tokens",
+   "source": "_claude_memory/proto-79-council-briefing-prompts.md:13-28",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Verdict 10-point cross-check: default FAIL; re-derive >=15 numbers; every performance number states set, n, metric; wins/SOTA need same items+metric+n>=50 (D4)+named test; quotes verbatim (grep -F); weekday matches ISO date; 2-round fix loop then escalate as PARTIAL.",
+   "numbers": "n>=50; 15 numbers; 2 rounds",
+   "source": "_claude_memory/proto-91-verdict-cross-check.md:19-33",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Checkpoint discipline: monitor found agents skipped W1.md updates between 09-29 21:00 and 09-30 03:10 (1A-1E and most 1F/1G done but all unchecked); Rule 1 tick after every step; NEXT.md holds one next step; reconcile stale checkpoint from disk; one lead per wave; no file moves/copies during a wave.",
+   "numbers": "W1 state 03:25: 1A-1E DONE, 1F in progress, 1G partial (54/54 round-1 PASS, 39 round-2 specs), 1H not started",
+   "source": "_claude_memory/proto-60-monitor-and-checkpoint-discipline.md:13-34",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Pre-flight reference values (2026-09-29): sealed counts level2/out 4,001; level2/reports 48; level2/probe22/out 13,289; arc_level_1 413; any change = STOP and report; concurrency rule: do not edit files another agent is editing.",
+   "numbers": "4,001/48/13,289/413",
+   "source": "_claude_memory/proto-02-preflight-and-checkpoints.md:28-32",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Runbook: read order AGENTS.md -> proto-104 (THE plan; later-dated boss ruling in proto-104 wins) -> proto-01 law -> proto-88 tools -> BOSS_CONCERNS Part 0 -> proto-103 meetings; 74 memory files consolidated into ~18 on 2026-09-30; proto-98 cleanup PARKED until boss says 'resume cleanup'; agents: Engine ses_f12a7b89, Verdict ses_f1233a0a, Miss ses_f16bc20e.",
+   "numbers": "74 -> ~18 files",
+   "source": "_claude_memory/proto-00-runbook.md:12-39",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Automation: AGENTS.md START HERE block, SessionStart hook runs scripts/agent_bootstrap.sh (prints NEXT, open U-decisions, graph staleness), Stop hook syncs memory proto-*.md to docs/campaign/protocols/; ECC plugin (292 skills) enabled 2026-09-30.",
+   "numbers": "292 skills",
+   "source": "_claude_memory/agent-automation-setup.md:10-13",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Templates: wave checkpoint, subagent report footer (Sources relied on / UNRESOLVED), fix-spec FS row (OLD/NEW/EVIDENCE/WHY), evidence record tags PRIMARY/MEASURED/DERIVED/CONTRADICTION/UNKNOWN/REJECTED/DEAD, <=10-line boss report; DISPATCH_LOG hard laws (no training, downloads, Sarvam calls).",
+   "numbers": "",
+   "source": "_claude_memory/proto-90-templates.md:13-70",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Workstream health: 3 OpenCode processes, untracked src/+tests/ by an unknown agent, a cleanup agent moved 27 docs, .kilo/worktrees 31 MB; standing rule: every writer registers in DISPATCH_LOG before writing; silence from a stream = flagged event.",
+   "numbers": "27 docs; 31 MB; 3 processes",
+   "source": "_claude_memory/proto-76-workstreams-and-agent-health.md:13-28",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 handwriting-only framing ignores proto-81 requirement to measure real test-set profile and field provenance (print_or_hand/quality may be defaulted): all prior probe stats (1,283 printed) say nothing about handwriting; cite proto-81:13-14.",
+  "Plan v4 lacks GT-tier stratified reporting and bootstrap CI / abstention / S/D/I / seconds-per-page metric set; HW-gates HW2 (>=92% IIIT val / >=85% independent) should state n, tier, CI (proto-62:24-28, proto-80:19-28).",
+  "Plan lacks the Verdict cross-check (10-point, n>=50 for win claims, re-derive numbers) and Verdict-verified fix-spec discipline for training/eval claims (proto-91:19-33).",
+  "Plan lacks empty-output / abstention diagnosis: surya sa 100% empty, paddle brx/doi mapping bug, anuvaad_tesseract/rapidocr 100% empty cells; needed for the Tesseract fallback and any printed 22-language plan (proto-82:17-31).",
+  "Plan does not carry GT defect register (G1-G9: Marathi Ol Chiki injection, gt_thin 179 vs 200, te script conflict, ne barred, sarvam_bench home-turf) into HW0 leak-hash gate design (proto-65:19-27).",
+  "South ta/te/kn/ml standard (100 clean pages, SEED 20260926, same gates, honest n) and U11 approval are absent from v4; weak-cell lists in plan do not mention it (proto-71:35-44).",
+  "Submission readiness (script/language ID routing for unlabelled test, dry-run throughput on 5,344, format U2 unknown) is underweighted; v4 should record submission format/rubric as UNKNOWN not assumed (proto-78:13-30, proto-80:13).",
+  "Ops rules not in plan: no planner subagents (boss-assigns), never plan around teammates, checkpoint-after-every-step + NEXT.md, DISPATCH_LOG registration, Opus no-subagent rule (feedback files, proto-60:17-21).",
+  "Baseline-against-Vinay's-plan requirement (stage-by-stage, omissions: language ID, confidence routing, metric-aligned normalisation) is not reflected in v4 (proto-75:13-31)."
+ ],
+ "contradictions": [
+  "proto-79/91/90 instruct dispatching Sonnet subagents/council vs feedback-no-subagents-boss-assigns (planner uses none; boss assigns to his 3 agents).",
+  "gt_thin threshold 179 (docs) vs 200 (code) (proto-65:20); te_024/te_065 script map conflict (proto-65:21).",
+  "sarvam_bench GT 'machine' vs human-reviewed twice (proto-65:23, conflicts C12).",
+  "Proto-81 (hackathon = handwriting/low-quality UNVERIFIED, probe all printed) vs Plan v4 (inspected test all handwritten Bengali words).",
+  "Proto-71 execution order superseded by proto-101 (U10/U11).",
+  "1,227 scored vs 1,283 manifest vs 1,227 items in proto-62 task (C8)."
+ ],
+ "open_items": [
+  "U2 submission format/official rubric unknown.",
+  "U13 handwriting scope decision (proto-81) pending test-set profile.",
+  "U5 re-score/rerun approval for fixed cells (paddle brx/doi, surya sa).",
+  "U6 which sec 6.4 verdicts depend on 'machine GT' premise.",
+  "U4 Option A vs D architecture; U3 untracked src/ training tree.",
+  "Result of 30-item PDF-layer GT bias classification (GT_TIER_ANALYSIS.md) not in these files."
+ ]
+}

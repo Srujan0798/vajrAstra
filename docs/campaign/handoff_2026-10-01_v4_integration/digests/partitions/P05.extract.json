@@ -1,0 +1,611 @@
+{
+ "partition": "P05",
+ "files": [
+  {
+   "path": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md",
+   "total_lines": 143,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md",
+   "total_lines": 204,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md",
+   "total_lines": 327,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md",
+   "total_lines": 158,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md",
+   "total_lines": 77,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "product_jury_competition",
+   "claim": "Primary objective: Indic OCR beating Sarvam Vision 2.1 (87.39 avg Indic bench).",
+   "numbers": "87.39",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:13",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Boss-stated weak cells: Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01.",
+   "numbers": "sat 53.91; ks 54.82; OldScan 55.3; or 80.01",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:14",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Weak-cell attack: sat = Ol Chiki, 0 engines emit it, vision-LLM-only or W6 fine-tune target; BARRED per 6.4.",
+   "numbers": "sat 53.91",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:52",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ks = Nastaliq; rapidocr 71% Arabic share, easyocr CER 0.678, R5 trust 45.0; BARRED per 6.4.",
+   "numbers": "ks 54.82; trust 45.0; easyocr 0.678; 71%",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:53",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan weak cell attack: dots.mocr Old-scans 48.2 plus Unlimited-OCR long-horizon; image-quality not language (no restoration plan stated).",
+   "numbers": "55.3; dots.mocr 48.2",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:54",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia: real-CER routing + QLoRA candidate; SAFE 91.7% pass; local best = tesseract_indic CER 0.256 (n=66), bilingual 0.258.",
+   "numbers": "or 80.01; 91.7%; 0.256 n=66",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:55",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Eleven engines scored on probe22 manifest (1227 items x 18 langs + EN sanity); effective 10 independent since openbharatocr is byte-identical dup of tesseract_indic.",
+   "numbers": "1227; 11 engines; 10 effective",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:11",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Overall CER ranking: sarvam_vision 0.2400 (n=54 directional), surya 0.3849 (best local), tesseract_bilingual 0.4853, tesseract_indic 0.4870, easyocr 0.4941, indicphotoocr 0.5586, paddleocr_indic 0.6562, rapidocr 0.6692, anuvaad_tesseract 0.7114, doctr 0.8691.",
+   "numbers": "see claim",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:21-32",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "surya wins 9 langs (bn,brx,hi,kok,ks,mai,pa,sd,ur); tesseract family 3 (mr,ne,or); easyocr 1 (sa); 4 langs n<50 no winner claim (as,doi,mni,sat).",
+   "numbers": "9/3/1/4",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:61-64",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-lang winners (n>=50): bn surya 0.476 n100 (indicphotoocr 0.657); brx surya 0.153 n66; hi surya 0.220 n100; kok surya 0.425; ks surya 0.589; mai surya 0.030 (easyocr 0.038); mr tess_bilingual 0.205 n79; or tess_indic 0.256 n66; pa surya 0.145 n90; sa easyocr 0.168 n99 (paddleocr 0.171); sd surya 0.315 n75; ur surya 0.623.",
+   "numbers": "see claim",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:39-58",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sparse cells (n<50, no winner per D4): as sarvam 0.001 n2; doi sarvam 0.056 n3; gu surya 0.181 n20; mni sarvam 0.026 n2; ne tess_bilingual 0.116 n34; sat sarvam 0.216 n2.",
+   "numbers": "n=2,3,20,2,34,2",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:41-56",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya EN CER 0.1514 beats all engines on EN (tesseract family 0.8077, easyocr 0.6036, indicphotoocr 0.6710, paddleocr 0.2495). Surya completed 1227+30 EN=1257 entries, 0 hard fail, 129 honest-empty (sa mostly).",
+   "numbers": "0.1514; 129 empty",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:134-136",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya McNemar significance: brx p<0.012, ks p<0.0006, kok p<0.008 (also hi 0.220, mai 0.030 wins).",
+   "numbers": "p values",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:138",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya sa=1.000 honest-empty: Surya 2 has no Ol Chiki as claimed (note: sa is Sanskrit; the 'no Ol Chiki' explanation is mislabeled/confused); 99/100 sa honest-empty for surya.",
+   "numbers": "sa CER 1.000; 99/100",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:77,80",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Engine coverage: bn/hi/kok/ks/mai/pa/sd/ur at 100%; brx/mr/or ~75%; gu/doi/ne ~50%; as/mni/sat 17-20% (sarvam_fill only). rapidocr 11/18 (647 honest-empty); paddleocr_indic 13/18 (536 empty); anuvaad_tesseract 8/18 (hin+eng only); doctr Latin-mojibake.",
+   "numbers": "see claim",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:67-80",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "EN sanity: harness-spec mismatch, all engines >5% CER (per en_sanity_surya.json); rapidocr EN fix applied (_RAPID_LANGV['en']=('EN','PPOCRV4')) at run_probe.py line 291; unblocks 30 EN packs.",
+   "numbers": "30 EN packs; >5% CER",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:26,38-39,71",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam subset: 54 calls (3/lang cap), CER 0.2400 on that subset; 'Beat Sarvam 87.39' claim stays directional per OBITUARIES.md O-02..O-05; all 4 per-lang Sarvam scores DEAD-for-decisions.",
+   "numbers": "54 calls; 0.2400",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:13; docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:46,72",
+   "status": "DEAD",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Full Sarvam API run (1227 calls) default SKIP; cost estimate $0.01-0.03/call = $12-37 (also stated ~$15-30).",
+   "numbers": "$12-37; $15-30",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:47,72",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "LOCKED D1: sarvam_fill GT NEVER for training (probe-scoring only). D2: SFT/RLVR against unverified PDF GT forbidden (6.4+9). D3: GT<10 char items purged. D4: n<50 cells carry no winner claims (as,gu,ne,doi,mni,sat).",
+   "numbers": "D1-D4 locked",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:98-101",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "NOTE decision-ID collision: locked D1-D4 (campaign 10) differ from the call's user-decision gates D1-D6 (GPU budget, Sarvam EN, spot-check, rapidocr EN, full Sarvam, sampling); same labels, different meaning.",
+   "numbers": "D1-D6 vs D1-D4",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:82-101",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "6.4 lock: BARRED (PDF GT unfit for SFT): ks (0% pass), mni (0%), sat (15%), ur (10%), mr (42.9%), ne (R5 lock). VERIFY-FIRST: gu 85.7%, sd 85.7%. SAFE: as,brx,doi,kok,mai,or,pa. Gold-only: sa.",
+   "numbers": "ks 0%; mni 0%; sat 15%; ur 10%; mr 42.9%; gu/sd 85.7%",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:107-112; docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:100-102",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "ne 90.5% visual pass rate is on a biased sample (20 sarvam_fill + 1 PDF); R5 full-set forensics on 17 PDF items trust 26.6 is source of truth (ne BARRED).",
+   "numbers": "90.5%; trust 26.6; 17 items",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:100",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Manifest = 1227 items: 300 official_pair + 769 official_pdf + 158 sarvam_fill; NOT 100/lang everywhere (as=19, mni=20, sat=20).",
+   "numbers": "300+769+158=1227",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:56",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sampling reality: bn/hi/sa = 100 tiles of 1 page (1 PDF); as/mni/sat 1 page sarvam_fill; kok 2 PDFs; ks 10; mai 8; ur 38 PDFs (best spread); sd 16 (n75); mr 7 (n79). Cheatsheet/script say only 7 langs hit 100 distinct pages (kok,ks,mai,mr,pa,sd,ur) while table lists sd=75/mr=79 pages.",
+   "numbers": "bn/hi/sa 1 PDF 1 page; ur 38",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:282-295; docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:53",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Internal inconsistency on independent-page claim: V:53 says 7 langs hit 100 distinct pages incl sd, mr, pa but S:294-295 gives sd n=75, mr n=79 pages and pa n=90.",
+   "numbers": "7 vs 75/79/90",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:53; docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:294-295",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Resampling for independence requires new downloads, blocked by hard rule 'no downloads w/o approval'; default D6 = accept 1227 manifest with caveat.",
+   "numbers": "D6",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:54-55",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Manifest dedup attempt was wrong and reverted: manifest.json byte-identical to manifest.json.1227items.backup (sha ad70a277..30a9, 5,044,933 B). rapidocr has 113 extras beyond 1257 lock (as/gu/mr/ne/or/pa/sd).",
+   "numbers": "113 extras; 5,044,933 B",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:24-25,101,123",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Spot-check items: brx_o045 PASS, mr_o005 FAIL, ne_o038 FAIL, sd_o002 PASS, gu_o005 pending; 20-item human check deferred to W6 (critique: 20 items/10 min = stamp not verification).",
+   "numbers": "4 of 5 verified",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:33,70; docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:95",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Stale artifacts: surya_spotcheck.json total_predictions=726 vs actual 1227; mcnemar_results.json (382 triples,10 engines) superseded by mcnemar_full_matrix.json (606 triples, 11 engines).",
+   "numbers": "726 vs 1227; 382 vs 606",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:82-83",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 feasible SFT set: 459 items NOW (bn100,hi100,sa100 gold,or69,pa90) + 342 conditional (brx67,kok100,mai100,sd75) + 24 gu = up to 801 (~65% of probe22); INFEASIBLE: as,mni,sat,ne-PDF,mr,ks,ur,doi.",
+   "numbers": "459/342/24/801",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:70-78",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Cheatsheet W6 FEASIBLE NOW alt: Qwen2-VL-2B QLoRA SFT on 10,432 human pairs (bn 2,938 + hi 3,500 + sa 494 + en 3,500), needs 16GB cap-1MP; conflicts with 459-item set.",
+   "numbers": "10,432 pairs",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:61",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Contradiction on W6 size: 459/801 items (H:78) vs 10,432 human pairs (K:61).",
+   "numbers": "459-801 vs 10,432",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:61; docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:78",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 pre-staged sets (not yet trained): w6_sft_unconditional.jsonl 459, w6_sft_conditional.jsonl 342, w6_rlvr_unconditional.jsonl 300.",
+   "numbers": "459/342/300",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:125",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "D1 GPU budget for W6: default $0 wrap-only baseline; mlx-tune+GLM-OCR references only; 459-item SFT trains in ~90 min on M2 Max 32GB (Qwen2-VL-2B fits mlx-vlm) if approved.",
+   "numbers": "$0; ~90 min; M2 Max 32GB",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:16-21,68",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "INFEASIBLE list: training before W5 freeze; 400-page remaining-language collection; sarvam_fill GT for training; akshara-aux on ur/ks/sd/sat/mni; RLVR on unverified PDF GT; cloud spend without budget.",
+   "numbers": "",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:63",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QLoRA target order by CER: mai > as > brx > doi > pa > or > kok. Critique: SAFE-lang n>=50 only 4 (kok/mai/or/pa); QLoRA may move <=4/18 cells.",
+   "numbers": "4 of 18",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:46,93",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Campaign clock: H48 deadline 2026-09-29 ~04:23 IST; validation call H44-48 opens 2026-09-28 22:00 IST; W5 freeze Wed 2026-10-01; W6 after freeze; hard rule no training before W6 freeze.",
+   "numbers": "W5 freeze 2026-10-01",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:214-217,20; docs/research/level7/boss_directives/VALIDATION_CALL_SCRIPT_2026-09-28.md:62",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "HF_TOKEN would unthrottle surya HF Hub fetches; user decision (downloads rule).",
+   "numbers": "",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:157",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Training assets: reports/training_data/sft_noisy_to_gold.jsonl 32.3MB OLD schema (gold_json) vs training_assets/ 11.5MB NEW schema (gold_source+generated_at); keep both until W6 freeze. pages_400/INDEX.json canonical but 7 scripts still load old pages_manifest.json (pipeline trap).",
+   "numbers": "32.3MB vs 11.5MB; 7 scripts",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:62-63",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hard rules: no downloads w/o approval; no training before W6 freeze; level2/out and level2/reports sealed; counts from disk; honest-empty is correct; no new md essays at root/level2/research; reconciled work=gold; no Sarvam calls beyond 54 cap; never re-ask 2026-09-25 meeting.",
+   "numbers": "9 rules",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:20-28",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ops model: 3 equal agents (Engine build, Verdict verify/specify, Miss apply/monitor/Lane C) + Orchestrator; fix-loop FIND-SPEC-FIX-RE-VERIFY max 2 rounds; boss pastes prompts, orchestrator does not dispatch.",
+   "numbers": "max 2 rounds",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:34-40; docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:11-13",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Six user-decision gates at the call with orchestrator defaults: D1 $0 wrap-only; D2 skip Sarvam EN; D3 defer spot-check; D4 rapidocr EN approved (applied 21:13); D5 skip full Sarvam; D6 accept 1227 caveat. Outcome of call not recorded in these files.",
+   "numbers": "D1-D6",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:84-91",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Cheatsheet (19:25) lists D4 rapidocr EN as OPEN with EN sanity 0/30 honest-empty; handoff (22:06) says APPROVED/applied 21:13: cheatsheet section 2 superseded.",
+   "numbers": "",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:17",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:89"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Cheatsheet says all 6 gates OPEN with 'Recommended default' while handoff has them applied; plan must treat handoff (22:06) as newer.",
+   "numbers": "",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:10-19",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:82-91"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "File audit (7 sub-agents): ~34 MB safe-to-delete, ~80 MB total incl user-gated; 20-file P0 delete list ~27MB; 86 findings in backups; all sha256-verified; earlier audit deleted 5 files ~12.23 MB.",
+   "numbers": "34 MB; 80 MB; 86 findings",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:86,106,138,200",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "docs/research/R5_*.md MISSING though cited in 5+ canonical files; highest-priority defer; also b3 artifact_051 missing. R5 forensics is the source of truth for ne BARRED and ks trust 45.0 / ne 26.6.",
+   "numbers": "5+ citing files",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:73,156-160",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Stale pointers: PROMPT_MISS_AGENT.md says 7 effective engines (should be 10); AGENTS.md graph note 1198/1554 vs 1324/1665/52/206; .audit/ not gitignored.",
+   "numbers": "7->10; 1198->1324",
+   "source": "docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:74,91,170-176",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Knowledge graph state: 1324 nodes/1665 edges/52 hyperedges/206 communities over 146 files (21 code+125 doc), 0 dangling source_file pointers (was 355).",
+   "numbers": "1324/1665/52/206",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:274-276,74",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Fix Specs 1-4 applied: ne BARRED text (AGENT_PROTOCOL.md 309-313); B2 s9 compliance (1,063 missing fields, 1,032 added); mr row in FINAL_VERDICT line 73; CALL_PACKET refresh.",
+   "numbers": "1,063; 1,032",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:249-254",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss behaviours/lessons: persist directives to disk, no meta-verdicts, verify shasums before delete, Verdict must not re-ask (surface findings+impact), check both parallel tracks, honest reporting ('u canot lie').",
+   "numbers": "17 concerns C1-C17 from 77 turns",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:299-311",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Boss requires ALL 18 langs handled, nothing skipped; 18x100=1800 one-shot run across all engines was boss ask; reality 1227 (shortfalls filled by sarvam_fill).",
+   "numbers": "1800 vs 1227",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:46-56,78",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Integrated elite stack: paperthin (28 skills), looper, graphify, ECC (215 skills); GLM-OCR, mlx-tune, liteparse, dots.mocr, MonkeyOCRv2, Unlimited-OCR, light-ocr, HunyuanOCR-1.5 are KEEP-AS-REFERENCE only in /tmp/elite_skills_install (slated deletion).",
+   "numbers": "28; 215",
+   "source": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:236-243; docs/research/level7/boss_directives/CONSOLIDATED_PARALLEL_WORK_2026-09-28.md:131",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "These five files contain no handwriting-specific content; all measurements are printed-page probe22 (PDF/page-style), no word-level HW, IIIT-INDIC-HW or PARSeq results.",
+   "numbers": "none",
+   "source": "docs/research/level7/boss_directives/BOSS_HANDOFF_2026-09-28.md:1-143",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Elite-stack candidates referenced for OldScan/long-horizon: dots.mocr Old-scans 48.2, Unlimited-OCR, HunyuanOCR-1.5, MonkeyOCRv2, GLM-OCR; none scored in probe22.",
+   "numbers": "48.2",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:54; docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:242",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Cheatsheet paperthin critique D4: if only sarvam_vision emits Ol Chiki on sat, mni/sat are hidden Sarvam subsidy; mni = 100% fill-only GT with no repair; mni/sat n=20 fill-only.",
+   "numbers": "mni 100% fill-only",
+   "source": "docs/research/level7/boss_directives/VALIDATION_CALL_CHEATSHEET_2026-09-28.md:96",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no measured printed-page baseline: probe22 shows surya CER 0.3849 best local, 10 effective engines, per-lang winners (H:21-58); v4 Page Expert numbers (IndicBlockOCR) are not compared against these on the same manifest.",
+  "Plan v4 lacks the 6.4 BARRED/VERIFY-FIRST/SAFE GT-trust lock (ks 0%, mni 0%, sat 15%, ur 10%, mr 42.9%, ne R5 26.6) governing which langs may be trained on PDF-tier GT (H:107-112; K:100-102).",
+  "Locked D1-D4: sarvam_fill GT never for training, no SFT/RLVR on unverified PDF GT, GT<10 char purged, n<50 no winner claims; v4 must carry these into HW0 leak gate and eval reporting (H:98-101).",
+  "Weak cells sat/ks/or/OldScan and their attack notes (Ol Chiki zero engines emit, Nastaliq rapidocr 71% Arabic, R5 trust 45.0) are absent from v4's Handwriting-centric scope (K:50-55).",
+  "Sampling-integrity caveat (bn/hi/sa = 1 PDF/1 page, 100 tiles) matters for any val/test split and leakage gating; v4 HW2 'independent writers' gate needs equivalent page/writer-independence check (S:282-295).",
+  "Sarvam comparison is directional only (54 calls, 0.2400); v4 must not claim beating Sarvam 87.39 without full-run or a valid comparison (H:13; V:44-47).",
+  "Compute constraints: D1 default $0 GPU, 459-801 SFT items, M2 Max 32GB MLX ~90 min; v4 training/portable-PyTorch plan needs explicit GPU-budget decision (V:16-21,68).",
+  "R5 forensics docs are missing from repo (C:73,156) yet underpin ne/ks verdicts; v4 cannot cite them without recovering.",
+  "Hard rules (no downloads without approval, no training before W6 freeze 2026-10-01, sealed level2/out and reports) apply to v4 checkpoint/dataset downloads (IndicPhotoOCR, IIIT-INDIC-HW) (S:20-28)."
+ ],
+ "contradictions": [
+  "Surya sa=1.000 'NO Ol Chiki' explanation (K:77,80) conflates Sanskrit (sa) with Santali Ol Chiki (sat).",
+  "W6 training size: 459-801 items (H:78) vs 10,432 human pairs (K:61).",
+  "Only 7 langs hit 100 distinct pages (V:53) vs sd=75 and mr=79 pages listed in S:294-295 and pa n=90.",
+  "Cheatsheet (19:25) marks D4 OPEN; Handoff (22:06) marks APPROVED 21:13 (K:17 vs H:89).",
+  "Decision IDs D1-D4 (locked campaign rules) collide with D1-D6 (call gates) (H:82-101); V:27 says 'D2 already locked' referring to the locked rule, not the gate.",
+  "Handoff section 3 text 'D4: n<50' vs section 5 'D4: rapidocr EN fix' - same label different meaning.",
+  "Effective engines 10 (H:11) vs PROMPT_MISS_AGENT still 7 (C:74)."
+ ],
+ "open_items": [
+  "Outcome of the validation call (D1-D6 overrides) is not recorded in these files.",
+  "gu_o005 spot-check pending; 20-item review deferred to W6.",
+  "HF_TOKEN for surya fetch is an open user decision.",
+  "Missing docs/research/R5_*.md and b3 artifact_051.",
+  "Whether ~$15-30 full Sarvam run will ever be approved.",
+  "D6 approval of downloads for missing source PDFs to fix sampling independence.",
+  "W6 conditional 342 items depend on 6.4 verify-first for brx,kok,mai,sd."
+ ]
+}

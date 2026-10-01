@@ -1,0 +1,309 @@
+{
+ "theme": "handwriting",
+ "established": [
+  {
+   "fact": "Official test = 5,344 unlabelled JPEG word crops, 296-300 px tall, IDs 0-14806 (sparse); no labels, dev split, metric or format published.",
+   "sources": "docs/campaign/TEST_SET_PROFILE.md:35-47; _claude_memory/proto-104-project-first-critical-path.md:37-39; proto-108-plan-v4-final.md:32"
+  },
+  {
+   "fact": "Vision check: 13/13 viewed test images (7 ID buckets) are single handwritten Bengali words, blue pen. Only 13 of 5,344 viewed (0.24%); the full script mix is NOT measured.",
+   "sources": "docs/campaign/checkpoints/W4.md:431; DISPATCH_LOG.md:467,505-508"
+  },
+  {
+   "fact": "Tesseract '35.7% Devanagari / 55.7% unknown' on 70 samples is a method artefact (tess hin forces Devanagari; install has only eng/hin/kan/mal/tam/tel, no Bengali). Retired; never quote as script mix.",
+   "sources": "docs/campaign/checkpoints/W4.md:449; docs/campaign/TEST_SET_PROFILE.md:85-87; BOSS_CONCERNS.md:47"
+  },
+  {
+   "fact": "Earlier heuristic profile of n=300 (seed 20260930): 273 handwritten (91.0%), 27 mixed, 0 printed; degradation clean 2 / mild 179 / severe 119 (99.3% degraded); script UNKNOWN for all 300. Heuristic-grade; precedes the 13/13 check.",
+   "sources": "docs/campaign/B12_HANDWRITING_SHARE.md:43-69"
+  },
+  {
+   "fact": "Official hackathon text names full-page handwritten/cursive, mixed typed+handwritten and regional handwriting styles, so page-level handwriting is in the stated scope, beyond the word-crop test.",
+   "sources": "docs/campaign/checkpoints/W4_reports/RQ1_official_rules.md:257-260,280"
+  },
+  {
+   "fact": "All 1,283 probe22 items are printed (0 handwritten, 0 tables; 983 quality unknown). Sarvam bench is 0% handwriting. No printed leaderboard/routing number transfers to the Bengali-handwriting test.",
+   "sources": "_claude_memory/proto-81-handwriting-degraded-coverage.md:13-14; docs/campaign/MENTOR_PLAYBOOK.md:217; _claude_memory/history-completed-protocols.md:1038"
+  },
+  {
+   "fact": "Only labelled handwriting on disk is Datasets/akshardrishti_official/Bodo/gu = Gujarati IIIT-HW: train 82,563 / val 17,643 / test 16,490 lines, vocab 10,963 (blind_verify says 10,964) - but only 4,645 images on disk (~5%); no Bengali labelled HW on disk.",
+   "sources": "docs/campaign/TEST_SET_PROFILE.md:51-74; docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:7-35"
+  },
+  {
+   "fact": "H2 Gujarati manifest (official_hw_gu_test_manifest.json, 16,490 items) has no writer_id/page_id; disjointness is path-level only; manifest paths gu/test/N.jpg vs real gu/test/test/N.jpg; train/ and val/ absent on disk.",
+   "sources": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:19-35"
+  },
+  {
+   "fact": "Bodo/gu/test/test/1.jpg is Gujarati (vocab[8831]); official test/test/1.jpg is Bengali: same filename, different set - a hash sweep must treat the mis-named folder explicitly.",
+   "sources": "/home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/corpus_extract.md:8"
+  },
+  {
+   "fact": "IIIT-INDIC-HW-WORDS (Gongidi & Jawahar ICDAR 2021): 868K words (CVIT page: 872K), 135 writers; best in-domain CER 9.64% (10K pretrain) / 4.97% (82K pretrain); IAM pretrain gives 4.85%.",
+   "sources": "docs/research/level7/a/LEDGER.md:6161-6177; _claude_memory/proto-108-plan-v4-final.md:41"
+  },
+  {
+   "fact": "Bengali splits of IIIT-INDIC-HW-WORDS: train 82,554 / val 12,947 / test 17,575 (ilocr/PLATTER); the ICFHR-2022 page says test 18,574. Train count confirmed by ICDAR'23 Table 1; test count unresolved.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:41,119-121"
+  },
+  {
+   "fact": "ICDAR 2023 IHTR (Mondal & Jawahar): 10 scripts; new manually annotated val 1,000 + test 5,000 words/lang from 100 writers; 18 teams registered, 6 submitted.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:37-39; docs/research/level7/a/LEDGER.md:6113; docs/research/level7/a/LEDGER.md:186-197"
+  },
+  {
+   "fact": "ICDAR'23 Bengali word results (CRR/WRR): Upstage KR 98.99/96.10 (PARSeq + SwinV2, synthetic then real pretrain, multilingual then per-language FT, ensemble); PERO 98.11/92.02; light (TrOCR) 97.54/91.62; SRUKR 96.01/88.06; CRNN baseline 93.46/75.34.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:37-39,106 (planner read paper Table 2)"
+  },
+  {
+   "fact": "ICDAR'23 10-script winner averages: 95.94 CRR / 88.31 WRR (ledger). Other-script best WRR: Devanagari 93.16, Gurmukhi 95.28, Kannada 94.54, Malayalam 97.16, Odia 83.38, Tamil 98.08, Telugu ~91.4, Gujarati 62.80.",
+   "sources": "docs/research/level7/a/LEDGER.md:6113-6114; _claude_memory/proto-108-plan-v4-final.md:65-68"
+  },
+  {
+   "fact": "The ledger holds no per-language Bengali WRR; 96.10 is traceable only to the planner's read of the ICDAR'23 paper (not to ledger, consensus corpus or RESEARCH_DECISIONS).",
+   "sources": "docs/research/level7/a/LEDGER.md:6113; docs/campaign/RESEARCH_DECISIONS.md:97"
+  },
+  {
+   "fact": "Bodhan IndicOCR-HW (vendor bench, word acc): overall Gemini 72.0 / Bodhan 66.7 / Sarvam 55.4; Bengali 74.8 / 71.3 / 58.3; Gujarati 60.0/55.9/39.2; Telugu Sarvam 59.1 > Bodhan 53.5.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:34-36,54-64"
+  },
+  {
+   "fact": "Bodhan handwriting covers EN + 12 Indic (hi bn ta te kn ml gu mr or pa as ur); none for sat/mni/ks/brx/doi/kok/mai/ne/sa/sd; vendor admits handwriting 'still being improved'; Bodhan loses 11 of 13 to Gemini on its own HW bench.",
+   "sources": "docs/campaign/COMPETITOR_INTEL.md:14,28,42,79; docs/campaign/B12_HANDWRITING_SHARE.md:73-74"
+  },
+  {
+   "fact": "Bodhan numbers measured locally are printed only (300 gold pairs CER 0.4034 vs surya 0.5660; bench small_rep CER 0.054); no Bodhan handwriting-word run exists locally; PyTorch path needs CUDA.",
+   "sources": "DISPATCH_LOG.md:699-708; /home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (STATE)"
+  },
+  {
+   "fact": "Printed Bengali is weak locally: probe22 bn n=100 surya CER 0.476, IndicPhotoOCR 0.657, Tesseract 0.888 (printed, not handwriting) - Tesseract fallback for Bengali handwriting is not credible.",
+   "sources": "docs/campaign/BENCHMARK_22.md:95; docs/campaign/COMPETITOR_INTEL.md:52"
+  },
+  {
+   "fact": "IndicPhotoOCR (Bhashini-IITJ, repo MIT) is a SCENE-TEXT toolkit: 11 Indic langs + EN PARSeq/ViT recognisers (bengali.ckpt etc. on disk); not handwriting-trained; no local accuracy figures, only non-emptiness on printed pages; weight licence unverified.",
+   "sources": "docs/research/level7/a/LEDGER.md:3665; level2/engine_docs/indicphotoocr/RUN.md:4-7; /home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md; RQ9:199-201,436-438"
+  },
+  {
+   "fact": "IndicPhotoOCR script-ID is a 12-class ViT (MIT, weights licence TODO) with no sat/mni classes; same-script language ID (Bengali/Assamese/Manipuri) is unsolved in OCR.",
+   "sources": "DISPATCH_LOG.md:334; level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:20; docs/sources/consensus/2026-09-30_Q3 (see P42 note)"
+  },
+  {
+   "fact": "Fake-pass lesson: doctr-PARSeq with re-initialised Indic-vocab head scored script ratio 0.5337 but Jaccard-5 vs GT 0.0000 (glyph salad). Script-ratio gates are gameable; require CER/WRR plus a content floor (Jaccard-5 >=0.3).",
+   "sources": "level2/research/gates/B1_doctr_parseq.md:43-52,76-79"
+  },
+  {
+   "fact": "PARSeq-style printed-to-handwritten transfer is strongest on most of 10 Indic HW benchmarks (Lalitha 2025); SemiHastakshar (IIIT-H, WACV 2026) adds unlabeled IIIT-INDIC-HW-WILD + HW-UC to close the writer-generalisation gap vs PARSeq HTR baseline.",
+   "sources": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:448; docs/research/level7/a/LEDGER.md:6153,3599"
+  },
+  {
+   "fact": "PLATTER + CHIPS (arXiv 2502.06172, IIIT-H/IITB): page-level Indic handwriting (CC-BY-4.0 dataset per ledger), tested on Bengali among 7 scripts; ICDAR 2025 IHDR (13 scripts, winner 2025-05-15, no winner/score logged); UniLipi (13 scripts) - page-level assets plan v4 ignores.",
+   "sources": "docs/research/level7/a/LEDGER.md:3647,6129-6146,3623"
+  },
+  {
+   "fact": "Label cleaning alone gave up to 1.8 CER pts on Arabic-script HTR; cross-script transfer helps most at 100-1000 target lines and shrinks as data grows; no Bengali HW CER in corpus (best: Kannada 1.5% CER, Hindi 2.14% CER / 7.96% WER).",
+   "sources": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:334,350,470; Q2:442,457"
+  },
+  {
+   "fact": "Cross-script/English: IAM English HW pretraining gives small positive transfer (4.85 vs 4.97 CER), supporting shared backbone with per-script heads.",
+   "sources": "docs/research/level7/a/LEDGER.md:6177"
+  },
+  {
+   "fact": "Licence status: IIIT-INDIC-HW-WORDS = CC BY 4.0 per AIKosh/IndiaAI (planner); ICFHR-2022 page 'All Rights Reserved'; IHTR-2023/IHDR-2025 cards 'academic-use' (eval-only); ledger states no licence for the WORDS card itself. BN-HTRd licence unchecked.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:41,115,201-202; docs/research/level7/a/LEDGER.md:6121-6142"
+  },
+  {
+   "fact": "Independent-writer eval candidates: BN-HTRd (Mendeley 743k6dm543; 108,181 Bangla words, 150 writers; licence TO CHECK) and ICDAR'23 test (100 new writers, academic-use, eval-only). Synthetic Pango/HarfBuzz+OFL fonts = pretraining only.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:125-126"
+  },
+  {
+   "fact": "Plan v4 gates as written: HW0 hash test images vs IIIT bn train/val/test + ICDAR'23 before any training; HW1 zero-shot (IndicPhotoOCR bn, Bodhan HW, Tesseract ben) on IIIT bn val + 200 official test images (viewed only); G-2.5 before HW2; HW2 >=92% WRR IIIT bn val and >=85% independent writers.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:84-85,132-142,165-168"
+  },
+  {
+   "fact": "Pre-registered kills: (a) test not IIIT-like if a stratified 100-image view shows <80% single handwritten words; (b) fine-tune <85% WRR on independent writers; <85% after 2 epoch-equivalents -> switch to CRNN+LM (PERO) or PARSeq-base.",
+   "sources": "_claude_memory/proto-108-plan-v4-final.md:84-85,138-142"
+  },
+  {
+   "fact": "PPT slide 2 already lists IIIT-HW / INDIC-HW-WORDS (10 scripts, ~872K words) as 'Handwriting branch pretrain/fine-tune'; Sarvam Vision 2.1 claims Indic handwriting (from videos) - continuity, and a named rival axis.",
+   "sources": "/home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/corpus_extract.md:48-49,69; docs/architecture/PPT_SPEC.md:21,25"
+  },
+  {
+   "fact": "Zero handwriting in the 400-page benchmark (L1 ~2 handwritten-span labels) while the deck promises handwritten exam scripts: biggest data-pitch gap; earlier plan was IIIT-HW crops as parallel mini-bench.",
+   "sources": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:236-238,322-323"
+  },
+  {
+   "fact": "PARSeq code is Apache-2.0 (baudm/parseq); IndicPhotoOCR recognition weights come from anikde/STocr releases V2.0.0 with licence unverified (only script-ID weights closed MIT).",
+   "sources": "/home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (More facts); RQ9:199-201"
+  },
+  {
+   "fact": "Official scoring is undefined: metric (CER vs WRR vs jury criteria) UNKNOWN; HW2 92%/85% thresholds are self-set.",
+   "sources": "docs/campaign/MONITOR_2026-09-30.md:88-91; VINAY_CALL_AND_GPU_DAY1.md:34"
+  },
+  {
+   "fact": "Compute for HW2 is unstated: 24 GB GPU unconfirmed (second-hand, arriving 2026-10-01), GPU SSH unknown (O-3); plan says Mac MPS feasible; training also needs per-item boss approval for downloads.",
+   "sources": "proto-108-plan-v4-final.md:138-142; _claude_memory/proto-99-concern-crosswalk.md:208-213; proto-01:28"
+  },
+  {
+   "fact": "Official judging criteria (approach/innovation, technical feasibility, product roadmap, team, addressable market); named eval target 'accuracy, layout detection, multilingual text handling'; Focus 5 = layout-preserving JSON + searchable PDF + transliteration + language detection.",
+   "sources": "/home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (More facts)"
+  },
+  {
+   "fact": "Sarvam Vision 2.1 headline 87.39 is declared DEAD for decisions in the ledger (printed/mixed block level) and contains no handwriting figure; Sarvam bn printed 93.47 is not handwriting.",
+   "sources": "docs/research/level7/a/LEDGER.md:166; /home/user/boss/docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md"
+  },
+  {
+   "fact": "Harness law for any HW claim: n<50 no winner; Wilson 95% CIs; McNemar exact / paired bootstrap; report median CER + abstain rate (empty = CER 1.0); public WRR numbers are not harness scores (transfer obituary).",
+   "sources": "docs/research/level7/a/LEDGER.md:1035-1077,1057-1066; docs/research/level7/VAJRASTRA_INTERROGATION_PROTOCOL.md:236-238 (see P12,P34,P40)"
+  }
+ ],
+ "decisions_current": [
+  "Handwriting Expert = PARSeq per script, initialised from the 11 on-disk IndicPhotoOCR checkpoints, fine-tuned on IIIT-INDIC-HW-WORDS (Bengali first), ICDAR winner staging synthetic -> real -> per-script FT, optional train-lexicon LM rescoring kept only if WRR rises (_claude_memory/proto-108-plan-v4-final.md:43-44,99-103,138-142).",
+  "HW0 perceptual-hash the 5,344 official test images against IIIT-HW bn train/val/test and ICDAR'23 sets before any training; exclude on overlap; never train on test (_claude_memory/proto-108-plan-v4-final.md:84; v4_notes MANDELA).",
+  "Evaluation sets: IIIT bn val (in-domain) + independent writers (BN-HTRd, ICDAR'23 test) EVAL ONLY; synthetic = pretraining only; G-2.5 Vinay OK before training (_claude_memory/proto-108-plan-v4-final.md:125-126,132-142).",
+  "Handwriting is the critical path and RQ-10 handwriting fallback is mandatory (docs/campaign/B12_HANDWRITING_SHARE.md:43-66; docs/campaign/checkpoints/W4.md:451).",
+  "Next steps logged: H3 baseline (Bodhan HW mode + surya/Tesseract on Gujarati slice), H4 Day-3 B-19 handwriting LoRA (PEFT, CUDA, train split only); public sets need licence check + download approval (docs/campaign/checkpoints/W4.md:794)."
+ ],
+ "superseded": [
+  "RQ-2 'script mix UNKNOWN / H1 Tesseract 35.7% Devanagari' -> superseded by 13/13 Bengali vision check (docs/campaign/checkpoints/W4.md:431,449; proto-104:37-39).",
+  "V7/U13 'handwriting in scope after the test-set profile (>10% HW share)' -> superseded: test set is handwritten; plan v4 (history-completed-protocols.md:1080,1088; proto-81:19-27).",
+  "c3 STRATEGY 'Bodo-gu/test-test as GT' under WHAT NOT TO COLLECT -> superseded: Bodo/gu = IIIT-HW Gujarati labelled; usable per split, official test/test stays unlabelled (v4_notes More facts).",
+  "Heuristic TEST_SET_PROFILE '91% handwritten / 99.3% degraded' (mojibake criterion) -> superseded by vision checks (DISPATCH_LOG.md:583).",
+  "Older recommendation 'wrap-only, no QLoRA, no downloads' -> superseded by Bodhan Gate 1 + GPU + handwriting finding (corpus_extract.md:131), but downloads still need boss go.",
+  "R7 default backbone Qwen2-VL-2B for weak cells -> superseded by Bodhan base in v3 (v4_notes More facts)."
+ ],
+ "contradictions": [
+  "Licence: plan/planner say IIIT-INDIC-HW-WORDS CC BY 4.0 (AIKosh) vs ledger 'academic-use' on IHTR-2023/IHDR-2025 cards and ICFHR page 'All Rights Reserved'. Partial resolution: those are different cards/sets; WORDS card licence not in ledger. OPEN until the AIKosh page/zip README is read (docs/research/level7/a/LEDGER.md:6121-6142; _claude_memory/proto-108-plan-v4-final.md:41).",
+  "Bengali best WRR: plan 96.10 (ICDAR'23 Table 2, Upstage KR) vs ledger/RESEARCH_DECISIONS 88.31 WRR. Resolved: 88.31 is the 10-script average, 96.10 is Bengali-only, but 96.10 is sourced only from the planner's paper read - cite Table 2 explicitly (docs/research/level7/a/LEDGER.md:6113; docs/campaign/RESEARCH_DECISIONS.md:97).",
+  "Script mix: Tesseract 35.7% Devanagari vs planner Bengali viewing. Resolved to Bengali for the viewed 13 (method artefact); full 5,344 still unmeasured (docs/campaign/checkpoints/W4.md:449; BOSS_CONCERNS.md:47). Line W4.md:786 wrongly says Tesseract read 13/13 as Bengali.",
+  "B12 'all 300 UNKNOWN script' + heuristic '91% handwritten / 99.3% degraded (mojibake criterion)' vs the vision 13/13 Bengali; the heuristic profile is weaker and should not be quoted (docs/campaign/B12_HANDWRITING_SHARE.md:22-69; TEST_SET_PROFILE.md).",
+  "Campaign laws 'no training until W6 freeze' / PROTOCOL_UPGRADES 'no training' vs plan v4 HW2 training after G-2.5. Resolution requires explicit boss/Vinay go; unrecorded as of snapshot (artifact_230:43; artifact_210:42; docs/INDEX.md PROTOCOL_UPGRADES).",
+  "Plan assumes official test = single word crops only, but official rules name full-page/mixed handwriting (RQ1:257-260). Resolved for the test file on disk (word crops, 13/13) but the product claim and jury scope remain page-level.",
+  "Bengali IIIT test size 17,575 (ilocr/PLATTER) vs 18,574 (ICFHR page): open, confirm from dataset README (_claude_memory/proto-108-plan-v4-final.md:41,119-121).",
+  "Law L7 forbids spell-correcting OCR output as benchmark vs plan's post-correction stage: resolve by scoring post-correction as a separate stage with raw and corrected CER both reported (ULTIMATE_HYBRID_CONCERN.md:36).",
+  "H2 status inconsistent: marked DONE (16,490 items) in overlay vs H2 heading missing in W4 (.ecc/memory/project/facts/mem_20261001_7e213f0ac9334790ba0b.md:21); manifest exists, images 4,645 of 16,490, so effectively partial.",
+  "Gujarati vocab 10,963 (TEST_SET_PROFILE) vs 10,964 (W4.md:746); IIIT-HW script count '8 scripts' list of 9 names vs 10 (HW-Dev, Telugu added) vs IndiaAI mirror 13 langs (docs/research/level7/a/LEDGER.md:6161,6986). Cosmetic.",
+  "P30 note that Bodo/gu is a '4,645-image copy of the test set' conflicts with TEST_SET_PROFILE/blind_verify (Gujarati labelled images, official set is Bengali 5,344). Treat Bodo/gu as a distinct Gujarati set and hash-check anyway (FULL TECHNICAL BRIEFING.md:37,49)."
+ ],
+ "recommendations": [
+  {
+   "rec": "Do HW0 first and extend it: perceptual-hash AND exact-hash the 5,344 test images against IIIT bn train/val/test, ICDAR'23, BN-HTRd and the mis-named Bodo/gu folder; also sweep routing/prompt code for answer-key use (gt_text) and forbid any sarvam/test data in training.",
+   "evidence": "proto-108-plan-v4-final.md:84; level2 SKILL_STACK.md:58; FULL TECHNICAL BRIEFING.md:37,49",
+   "priority": "P0"
+  },
+  {
+   "rec": "Replace 'all 5,344 are Bengali' with a measured script-ID/word-vs-multiword audit over all 5,344 (vision-verified stratified sample of >=300 plus a Bengali-script-block check), before choosing the per-script PARSeq; reword kill (a) to use that sample, not 100.",
+   "evidence": "docs/campaign/B12_HANDWRITING_SHARE.md:22-41; proto-99-concern-crosswalk.md:37-46; proto-108:84",
+   "priority": "P0"
+  },
+  {
+   "rec": "Verify licences before any HW2 download: read the AIKosh CC-BY-4.0 page for IIIT-INDIC-HW-WORDS and the zip README (bn val/test counts), IndicPhotoOCR/STocr weight licence, BN-HTRd licence; record in a licence ledger with NC-lineage tags. Training on 'academic-use' sets (ICDAR'23/IHDR) is barred (eval-only).",
+   "evidence": "L:6121-6142; proto-108:201-202; RQ9:199-201; proto-102:144-152",
+   "priority": "P0"
+  },
+  {
+   "rec": "Request explicit boss + Vinay approval rows for every download (IIIT bn 82,554 train, BN-HTRd, ICDAR'23) and for HW2 training; log the conflict with 'no training until W6 freeze' and resolve it in the plan.",
+   "evidence": "proto-01:28; artifact_230:43; docs/INDEX.md",
+   "priority": "P0"
+  },
+  {
+   "rec": "Make HW1 the real baseline: zero-shot IndicPhotoOCR bn PARSeq (scene-text weights, no HW accuracy known), Bodhan HW (CUDA/PyTorch, MLX never assumed), Tesseract ben (not installed locally - add tessdata) on IIIT bn val + independent writers, reporting WRR/CRR/median/failure rate/s-per-word with Wilson CIs.",
+   "evidence": "proto-108:132-136; TEST_SET_PROFILE.md:85-87; level2 indicphotoocr/RUN.md:4-7",
+   "priority": "P0"
+  },
+  {
+   "rec": "Add numeric kill criteria beyond (a)-(b): paired McNemar-exact/bootstrap vs the zero-shot or Bodhan baseline with n>=50, K1-style T1=0.05/T2=3pt, 'keep wrap baseline' fallback, and kill/replace rule for LM rescoring and post-correction.",
+   "evidence": "docs/research/level7 KILL_CRITERIA.md:38-47,99-118; QLORA_EVAL_SPEC.md:135-157,289; proto-108:85",
+   "priority": "P0"
+  },
+  {
+   "rec": "State the proxy-to-official mapping: HW2 92%/85% are internal-proxy gates; official metric is unknown. Report WRR and CRR (WRR counts whole-word exact, 88.31 avg vs 95.94 CRR at ICDAR'23), publish expected official-score band with CIs, and keep Gemini/Bodhan HW numbers labelled vendor-bench not comparable.",
+   "evidence": "docs/campaign/MONITOR_2026-09-30.md:88-91; L:6113; ULTIMATE_HYBRID_CONCERN.md:85",
+   "priority": "P0"
+  },
+  {
+   "rec": "Cite the Bengali 96.10 WRR to ICDAR'23 Table 2 with 98.99 CRR and the recipe that produced it (ensemble, synthetic+IAM+Bengali.AI pretrain, extra data) - a single PARSeq-from-scene-weights run should not be promised 96.10; set expected range from PERO 92.02 / light 91.62 / baseline 75.34.",
+   "evidence": "proto-108:37-39,106; v4_notes ICDAR bullet",
+   "priority": "P1"
+  },
+  {
+   "rec": "Build the independent-writer eval before training: BN-HTRd (150 writers, licence check) plus ICDAR'23 test (eval-only, if obtainable); require writer-level split metadata (IIIT manifests lack writer_id) and forbid same-source splits.",
+   "evidence": "proto-108:125-126; blind_verify_H2.md:19-23,35; QLORA_TRAINING_DATA.md:272",
+   "priority": "P0"
+  },
+  {
+   "rec": "Use the Gujarati slice (Bodo/gu, 4,645 images) as a free local wiring/regression test and second-script check only; fix manifest paths (gu/test/test/N.jpg) and do not count it as Bengali evidence; Gujarati is hard (ICDAR best 62.80) so no claim without evidence.",
+   "evidence": "TEST_SET_PROFILE.md:51-74; blind_verify_H2.md:34-35; proto-108:65-68",
+   "priority": "P2"
+  },
+  {
+   "rec": "Add semi-supervised stage (SemiHastakshar recipe) using unlabeled writers only if licence allows (IIIT-INDIC-HW-WILD/UC) to close the writer gap behind the 85% gate; keep as P1 optional after HW2 baseline.",
+   "evidence": "L:6153,3599; Q2.tex:448",
+   "priority": "P1"
+  },
+  {
+   "rec": "Gate every HW pass on content metrics (CER/WRR vs GT + Jaccard floor), never script ratio alone; add label-error cleaning on IIIT train (up to 1.8 CER pts) and a script-purity histogram with danda whitelist.",
+   "evidence": "B1_doctr_parseq.md:43-52,76-79; Q1.tex:470; W1E script-purity note (P20)",
+   "priority": "P1"
+  },
+  {
+   "rec": "Post-correction: train per-expert, Bengali-specific; word crops give little LM context so expect small gain; score raw vs corrected separately and keep only if it wins (Devanagari corrector did not transfer across engines).",
+   "evidence": "Q3 tex:479; ULTIMATE_HYBRID_CONCERN.md:36",
+   "priority": "P1"
+  },
+  {
+   "rec": "Calibrate expert/fallback routing and confidence on held-out writers (raw confidences unreliable); report coverage and conditional CER; empty = CER 1.0.",
+   "evidence": "Q3 tex:474; L:1057-1066",
+   "priority": "P1"
+  },
+  {
+   "rec": "Page Expert and handwriting claims for the jury: keep the page-level tier visible (PLATTER/CHIPS, IHDR-2025, UniLipi) as a roadmap item and state honestly that word-crop test accuracy does not measure page performance; Bodhan page CER 0.69 on sample-100 pages is a warning.",
+   "evidence": "L:3647,6129-6146; RQ1:257-260; v4_notes (STATE)",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add a cheap synthetic stage: Pango/HarfBuzz OFL-font Bengali words with handwriting-like and aging augmentations (B21 degradations) as pretraining only; check B21 forbids IIIT-HW text as synthetic source.",
+   "evidence": "B21_SYNTHETIC_LINES_SPEC.md:32,49-69; proto-108:125-126",
+   "priority": "P2"
+  },
+  {
+   "rec": "Add akshara-boundary auxiliary loss / SCST-RL on CER as optional P2 after HW2 (PPT_SPEC KEEP items); do not add before the baseline gates pass.",
+   "evidence": "docs/architecture/PPT_SPEC.md:13,34",
+   "priority": "P2"
+  },
+  {
+   "rec": "Define compute budget: GPU-hours per stage, device (24 GB GPU unconfirmed; MPS only as a dev fallback, product path PyTorch/CUDA/CPU), per-job cost rule, data moved by rsync, no data in GitHub.",
+   "evidence": "proto-99-concern-crosswalk.md:208-213; LEDGER:444-447,1062-1068; proto-107:66",
+   "priority": "P1"
+  },
+  {
+   "rec": "State fallback scope: IndicPhotoOCR script-ID has no sat/mni; if test crops contain non-Bengali scripts, route to the right per-script PARSeq or flag; same-script Bengali/Assamese/Manipuri LID not assumed solved.",
+   "evidence": "DISPATCH_LOG.md:334; Q3 tex:484,614",
+   "priority": "P2"
+  },
+  {
+   "rec": "Write the printed 22-language evidence into the plan explicitly as 'not handwriting evidence' (probe22 1,283 printed) and keep it for the Page Expert/Tesseract fallback only; do not cite it for HW gates.",
+   "evidence": "BENCHMARK_22.md:95; MENTOR_PLAYBOOK.md:217",
+   "priority": "P1"
+  }
+ ],
+ "plan_v4_gaps": [
+  "No Bengali labelled handwriting is on disk; HW2 training and the IIIT bn val set need downloads that are not yet approved (TEST_SET_PROFILE.md:72-74).",
+  "Plan has no measured script-ID over all 5,344 (13 viewed) and no word-vs-line audit (W4.md:431; B12:22-41).",
+  "HW gates lack Wilson CIs, n thresholds, McNemar/bootstrap, abstention reporting and the K1-K5 kill framework (KILL_CRITERIA.md:38-47).",
+  "No independent-writer set built and IIIT manifests lack writer_id; Bengali independent-writer eval absent (W4.md:746).",
+  "No compute/time budget or GPU access for HW2/HW3 (proto-108:218; proto-99:208-213).",
+  "Licence ledger incomplete: weights of IndicPhotoOCR, BN-HTRd, ICDAR/IHDR sets, surya eval-only (proto-102:144-152).",
+  "No semi-supervised, synthetic or label-cleaning stage; no calibration of fallback/post-correction on held-out writers.",
+  "Page-level handwriting (PLATTER/IHDR-2025) and forms/mixed typed+handwritten are named in official rules but not in the plan (RQ1:257-260).",
+  "No eval of Bodhan IndicBlockOCR on handwriting words; Bodhan numbers on disk are printed (DISPATCH_LOG.md:699-708).",
+  "Expected-score statement missing: no mapping from IIIT-val/independent WRR to official test score."
+ ],
+ "open_questions": [
+  "What is the official metric (CER, WER/WRR, exact-match, jury only) and output format for the 5,344 crops? (MONITOR_2026-09-30.md:88-91)",
+  "Is the official test a subset of any public IIIT/ICDAR split or from new writers? HW0 decides.",
+  "Is IIIT-INDIC-HW-WORDS truly CC BY 4.0 on AIKosh and does it cover Bengali val 12,947 / test 17,575 or 18,574?",
+  "Do IndicPhotoOCR STocr bengali.ckpt weights carry a licence permitting fine-tune and product use?",
+  "Will Vinay/boss approve downloads (IIIT bn, BN-HTRd) and HW2 training, and is the 24 GB GPU available?",
+  "Do the 5,344 crops contain non-Bengali scripts or multi-word crops? Only 13 viewed so far.",
+  "Can ICDAR'23 test (100 writers) be obtained legally for eval?",
+  "Does Bodhan IndicBlockOCR handwriting mode do better than a zero-shot Bengali PARSeq on word crops (HW1)?"
+ ]
+}

@@ -1,0 +1,506 @@
+{
+ "partition": "P29",
+ "files": [
+  {
+   "path": "/home/user/boss/LOOP_SPEC_W5_W6_W7.md",
+   "total_lines": 291,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/INTEGRATED-ELITE-STACK.md",
+   "total_lines": 170,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/W5_FREEZE_PLAN.md",
+   "total_lines": 170,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/PROJECT_COMPLETE.md",
+   "total_lines": 234,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/SAMPLE_PLAN_18_LANGS.md",
+   "total_lines": 159,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "product_jury_competition",
+   "claim": "Loop goal: beat Sarvam Vision 2.1 87.39 avg accuracy on Sarvam Indic OCR Bench (6,909 blocks, 22 langs+EN) using comparable probe22 subset (18 langs, 100/lang); may not train on Sarvam bench nor use Sarvam beyond 54-call cap.",
+   "numbers": "87.39; 6,909 blocks; 1,227 items; 18 langs; 54 calls",
+   "source": "LOOP_SPEC_W5_W6_W7.md:34",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Primary outcome: W6 model/wrap routing per-lang CER >=3 pp lower than Sarvam's worst measured cells (KS, mni, sat, or, OldScan).",
+   "numbers": "3 pp; KS/mni/sat/or/OldScan",
+   "source": "LOOP_SPEC_W5_W6_W7.md:38",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Loop IN/OUT scope: backbone GLM-OCR 0.9B primary; QLoRA kok+pa (Option A); metrics McNemar+Wilson+Ph6; OUT: new backbone invention (S9), training on barred langs (S6.4), Sarvam beyond 54 cap (D2), cloud GPU without budget (D1), swap to Qwen3.5-9B without QLoRA eval.",
+   "numbers": "GLM-OCR 0.9B; 54-cap",
+   "source": "LOOP_SPEC_W5_W6_W7.md:44-51",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Done state requires: per-lang winner only when n>=50 and McNemar p<0.05 vs >=5/10 opponents; >=3 SAFE langs with |dCER|>=3pt vs Sarvam; K1 McNemar p<0.05 vs Sarvam_on_3_per_lang.",
+   "numbers": "n>=50; p<0.05; >=5/10; >=3 langs; 3pt",
+   "source": "LOOP_SPEC_W5_W6_W7.md:67-70,83",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Eval discipline in loop: paperthin/mandela eval-leakage audit at Gate C; factchk at every measurement; hate objection at gate A; Wilson CI upper < next engine point; McNemar paired exact; Reviewer/Judge split.",
+   "numbers": "mandela 8-pattern",
+   "source": "LOOP_SPEC_W5_W6_W7.md:17-22,79-99",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Loop termination guards: max_iterations 12, revise cap 3/gate, no-progress stop after 2 iterations (CER delta <0.005 or McNemar drift >0.10), wall clock 8h/iteration, budget $0 (D1 LOCKED no cloud), cross-vendor egress NONE.",
+   "numbers": "12 iter; 3; 2; 0.005; 0.10; 8h; $0",
+   "source": "LOOP_SPEC_W5_W6_W7.md:107-120",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Gate C kill: K4 memory peak >12 GB kills QLoRA -> wrap-only; no metric improvement in 2 iterations kills QLoRA. Gate A options: A=wrap+QLoRA, B=wrap-only, C=new backbone (escalate redesign). Loop timeline W6 Oct 2-8, W7 eval Oct 9-10.",
+   "numbers": "12 GB; Oct 2-8; Oct 9-10",
+   "source": "LOOP_SPEC_W5_W6_W7.md:47-48,155-193",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Loop explicitly encodes 6/18 langs BARRED from training per S6.4 GT verdicts; Sarvam comparison benchmark differs from probe (different benchmark). Sat/ks/mni GT integrity needs 10-min human spot-check.",
+   "numbers": "6/18 barred",
+   "source": "LOOP_SPEC_W5_W6_W7.md:86,282-286",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Loop host is opencode MiniMax-M3; hardware assumption macOS/MLX; mlx-tune install failure -> ship wrap-only; Sarvam bench download needs user approval (S9).",
+   "numbers": "MiniMax-M3; mlx-tune",
+   "source": "LOOP_SPEC_W5_W6_W7.md:15,134-137,271-276",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "GLM-OCR (0.9B, OmniDocBench #1, official MLX deploy) chosen as D1 W6 recipe primary candidate, replacing Qwen2.5-VL-3B in R7 W6 training tree; mlx-tune (1.4k stars, MLX-native SFT/DPO/GRPO, ships CER/WER, Apache-2.0) is QLoRA tool.",
+   "numbers": "0.9B; 1.4k stars",
+   "source": "INTEGRATED-ELITE-STACK.md:29-30,151-152",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "dots.mocr (3B, MIT, multilingual Elo 1124.7, Old-scans 48.2) = head-to-head vs GLM-OCR for OldScan 55.3 weak cell.",
+   "numbers": "3B; Elo 1124.7; Old-scans 48.2; OldScan 55.3",
+   "source": "INTEGRATED-ELITE-STACK.md:32,154",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "MonkeyOCRv2 (0.7B Apache-2.0 code+weights, MDPBench 83.3, Hindi 71.9) flagged smallest strong fine-tune backbone; evaluate on Indic subset.",
+   "numbers": "0.7B; 83.3; Hindi 71.9",
+   "source": "INTEGRATED-ELITE-STACK.md:33",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Other keep-as-reference OCR: liteparse (12.7k stars Rust PDF front end, M2 Max measured), HunyuanOCR-1.5 (ancient-script data flow, license review), Unlimited-OCR (26.4k stars long-horizon for OldScan), light-ocr CoreML PP-OCRv6, anydoc, datalab lift 9B JSON.",
+   "numbers": "12.7k; 26.4k; 22k; 9B",
+   "source": "INTEGRATED-ELITE-STACK.md:31-38",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "HunyuanOCR (Tencent Hunyuan Community License, not pure OSS) is a license risk flag; REVIEW before any use. Do NOT migrate harness mid-campaign.",
+   "numbers": "license flag",
+   "source": "INTEGRATED-ELITE-STACK.md:53,166",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "DeepSeek-OCR-2 MLX is a CONTRADICTION: repo claims runnable, mlx-tune README says not loadable; do not block W6 on it.",
+   "numbers": "",
+   "source": "INTEGRATED-ELITE-STACK.md:156",
+   "status": "CONTRADICTION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Honest-empty: no new dedicated Ol Chiki / Nastaliq / Meitei-Mayek OCR repos in 6-month scan; sat/ks/OldScan/or remain vision-LLM-only or W6 fine-tune targets; no OldScan restoration repos; no new Indic doc layout beyond IndicPhotoOCR.",
+   "numbers": "",
+   "source": "INTEGRATED-ELITE-STACK.md:162-164",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Tooling: paperthin (28 skills; mandela/factchk/hate/sip/catchup/nba) and looper installed; npx global install failed (PromptScript), manual git clone + cp to ~/.config/opencode/skills; graph 3990 nodes/4681 edges/420 communities over 18,239 files; ECC 215 skills.",
+   "numbers": "28 skills; 3990/4681/420; 18,239 files",
+   "source": "INTEGRATED-ELITE-STACK.md:13-14,89,165",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "rtk token reduction 60-90% claim contradicts JetBrains +7.6% median cost; registered as call-agenda contradiction.",
+   "numbers": "60-90% vs +7.6%",
+   "source": "INTEGRATED-ELITE-STACK.md:19,155",
+   "status": "CONTRADICTION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "sheet.csv frozen at 12,324 rows (1,227 items x ~10 engines + sarvam 54); 11 engines scored 0 error packs; level2/out South 400 sealed.",
+   "numbers": "12,324 rows; 11 engines; 54 sarvam",
+   "source": "W5_FREEZE_PLAN.md:25-29",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Engine overlap: tesseract_bilingual = tesseract_indic = openbharatocr byte-identical on 340/1313 packs; effective engine count 9 not 11 here (PROJECT_COMPLETE says 10).",
+   "numbers": "340/1313; 9 vs 10",
+   "source": "W5_FREEZE_PLAN.md:34",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "S6.4 GT verification (visual pass): BARRED ks 0%, mni 0%, ur 10%, sat 15%, mr 42.9% (PROJECT_COMPLETE says 62.5%), ne PDF-tier. SAFE: as 100, brx 95.8, doi 100, kok 100, mai 90, or 91.7, pa 100. VERIFY-FIRST gu 85.7, sd 85.7.",
+   "numbers": "ks0 mni0 ur10 sat15 mr42.9",
+   "source": "W5_FREEZE_PLAN.md:31",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Santali (Ol Chiki) 53.91: total capability gap; only indicphotoocr (0.504) and sarvam (0.41 cap) have signal; micro-repair 5-10 pages only local lever.",
+   "numbers": "53.91; 0.504; 0.41",
+   "source": "W5_FREEZE_PLAN.md:75",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri (Nastaliq) 54.82: partial; rapidocr 71% Arabic share, tesseract family ~40-42%; plan micro-repair 5-10 pages plus easyocr urdu.pth Nastaliq route.",
+   "numbers": "54.82; 71%; 40-42%",
+   "source": "W5_FREEZE_PLAN.md:77",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Wrap-only baseline routing: surya primary everywhere except Ol Chiki where indicphotoocr wins (LEADERBOARD_REFRESH 2026-09-29 S5). Wrap-only is D1 stage-1 deliverable shipped before QLoRA.",
+   "numbers": "",
+   "source": "W5_FREEZE_PLAN.md:63",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Kill criteria: K1 QLoRA McNemar p (T1=0.05, T2=3pt), K2 micro-repair time gate (6h window), K3 Wilson CI routing drop (upper bound > next-best point -> drop engine).",
+   "numbers": "0.05; 3pt; 6h",
+   "source": "W5_FREEZE_PLAN.md:71,95",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 QLoRA estimate: mlx-tune installed (mlx 0.32.3, mlx-vlm 0.7.4, mlx-tune 0.6.0, mlx-lm 0.31.3); GLM-OCR download ~5 min 4-bit; QLoRA kok+pa ~6 h; eval probe22 ~30 min; total ~7-8 h; disk 17 GB; reclaimable memory ~9.4 GB OK for 3-4B 4-bit.",
+   "numbers": "6 h; 7-8 h; 17 GB; 9.4 GB",
+   "source": "W5_FREEZE_PLAN.md:37,43,124-131",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INFEASIBLE under rules: cloud GPU rental (no budget), new backbone invention (S9), fine-tune on barred langs, sarvam_fill in SFT/RLVR (machine GT never training data), API beyond 54 calls.",
+   "numbers": "",
+   "source": "W5_FREEZE_PLAN.md:108-116",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W6 backbone weights download is a separate user approval gate; Qwen2.5-VL-3B or MonkeyOCRv2 alternates swappable at freeze call.",
+   "numbers": "",
+   "source": "W5_FREEZE_PLAN.md:47,104,152",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "20-item human spot-check (D3) first item gu_o005 (only W6-relevant VERIFY-FIRST lang); EN sanity column 0/30 for rapidocr routing reasons (_RAPID_LANGV lacks en), later fixed run_probe.py:291.",
+   "numbers": "gu_o005; 0/30",
+   "source": "W5_FREEZE_PLAN.md:36,83,153",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Timeline: Mon 09-29 H48 end; Wed 10-01 human lead returns freeze call; +2-3 d QLoRA scaffold; +4-5 d fine-tune+eval for hackathon submission. Doc dated pre-freeze.",
+   "numbers": "10-01",
+   "source": "W5_FREEZE_PLAN.md:9-16",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Per-engine overall CER (probe, n=1200 non-sarvam): sarvam 0.2400 (n=51, bench target not pipeline), surya 0.3849, tess_bilingual 0.4853, tess_indic 0.4870 (=openbharatocr), easyocr 0.4941, indicphotoocr 0.5586, paddleocr_indic 0.6562, rapidocr 0.6692, anuvaad 0.7114, doctr 0.8691.",
+   "numbers": "surya 0.3849; sarvam 0.2400",
+   "source": "PROJECT_COMPLETE.md:100-112",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-lang CER winners (n>=50): bn surya 0.476; brx surya 0.153; hi surya 0.220; kok surya 0.425; ks surya 0.589; mai surya 0.030; mr tess_bilingual 0.205; or tess_indic 0.256; pa surya 0.145; sa easyocr 0.168; sd surya 0.315; ur surya 0.623. Note: indicphotoocr wins Ol Chiki per W5 plan.",
+   "numbers": "bn 0.476; mai 0.030; ur 0.623",
+   "source": "PROJECT_COMPLETE.md:127-144",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bengali (bn) probe printed/human-pair row: n=100, best engine surya CER 0.476 (human pairs 100). Bengali is still poor on printed engines. Not handwriting measurement; no HW test data in these files.",
+   "numbers": "0.476",
+   "source": "PROJECT_COMPLETE.md:131;SAMPLE_PLAN_18_LANGS.md:18",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam EN column (n=3 after D2 execution): CERs 0.0514/0.1655/0.1197, avg CER 0.1078, WER 0.2459; Wilson CI [0.188,0.468] (inconsistent with avg 0.1078); contradicts W5_FREEZE_PLAN D2 SKIPPED.",
+   "numbers": "0.1078; 0.2459; [0.188,0.468]",
+   "source": "PROJECT_COMPLETE.md:116-125;W5_FREEZE_PLAN.md:49,96",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D1: QLoRA on SAFE langs kok+pa only; mai and or KILLED at K1. D4: barred ks/mni/ur/sat/mr + ne PDF-tier stay barred; sat+ks micro-repair W5 only. K2: sat KILLED K2(b), ks DEFERRED (K2(c) needs user download approval). K3 no-op.",
+   "numbers": "kok+pa; mai,or killed",
+   "source": "PROJECT_COMPLETE.md:75-78,168-174",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "K4 gates: install timeout T8=5 min, memory peak T9=12.6 GB (tight), smoke-test fail; first failure aborts QLoRA and ships wrap-only. W6 trigger ~Oct 2-3 if K1+K4 clear.",
+   "numbers": "T8=5min; T9=12.6 GB",
+   "source": "PROJECT_COMPLETE.md:22-23,89-92,171-174",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "PROJECT_COMPLETE headline says surya wins 8 langs but lists 9 (bn/brx/hi/kok/ks/mai/pa/sd/ur); 4 langs n<50 no winner claim (as/doi/mni/sat); mr visual pass reported 62.5% vs W5 plan 42.9%.",
+   "numbers": "8 vs 9; 62.5 vs 42.9",
+   "source": "PROJECT_COMPLETE.md:144,155;W5_FREEZE_PLAN.md:31",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Manifest correction: final 1,283 items (not 1,227) after mr/pa/sd re-source to 100; W5 plan notes 56 new items deferred to re-run; sheet.csv stays 12,324 rows (1,227-based) so sheet and manifest differ.",
+   "numbers": "1,283 vs 1,227; 56",
+   "source": "PROJECT_COMPLETE.md:233-234;W5_FREEZE_PLAN.md:26-27",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "R5 trust scores: ks 45.0, ur 59.0, mr 46.8, ne PDF-tier 26.6; ne fill-tier usable 90.5% pass.",
+   "numbers": "45.0;59.0;46.8;26.6;90.5",
+   "source": "PROJECT_COMPLETE.md:152-156",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Deliverables D1-D7 (BOSS_CONCERNS 50+ concerns, audit 54,000+ files, 95 files archived 117 MB, 77 turns->17 concerns->5 clusters) all DONE; Lane A 984 records, Lane B 346, Lane C 436->471.",
+   "numbers": "54,000; 95; 117 MB; 984; 346; 436",
+   "source": "PROJECT_COMPLETE.md:29-37,56,61;W5_FREEZE_PLAN.md:32-33",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe sample counts per lang (SUPERSEDED): as19 bn100 brx67 doi27 gu24 hi100 ks100 kok100 mai100 mni20 mr79 ne37 or69 pa90 sa100 sat20 sd75 ur100 = 1,227; 300 human pairs (bn,hi,sa), 769 PDF layer, 158 Sarvam fill.",
+   "numbers": "1,227; 300/769/158",
+   "source": "SAMPLE_PLAN_18_LANGS.md:15-35",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "docs/campaign/SAMPLING_PLAN.md (2026-09-30) and 1,283 correction"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Low-n permanent cells: as 19, doi 27, gu 24, mni 20, sat 20 (accept as final, no winner claims). Santali gap structural: 0 clean PDF upstream; needs W6 fine-tune or vision-LLM. mni script metadata fail, needs Meitei Mayek pages.",
+   "numbers": "as19 doi27 gu24 mni20 sat20",
+   "source": "SAMPLE_PLAN_18_LANGS.md:45-54,101-111",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "docs/campaign/SAMPLING_PLAN.md"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Source rules: no downloads, no fabrication, strict gates (no relaxing MAX_CTRL_CHARS), random page offsets, stratified round-robin; Bodo/gu/ is a copy of test set (4,645 images) NOT GT, excluded. Re-source pools: mr 1,071 pp, ne 464, or 1,625, pa 23,372, sd 4,342.",
+   "numbers": "4,645; 1,071; 464; 1,625; 23,372; 4,342",
+   "source": "SAMPLE_PLAN_18_LANGS.md:63-82",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "docs/campaign/SAMPLING_PLAN.md"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Official-test leakage note: Datasets/akshardrishti_official/Bodo/gu is a copy of the test split (4,645 images) flagged not-GT; shows the official test dir mixes with Bodo/gu data.",
+   "numbers": "4,645",
+   "source": "SAMPLE_PLAN_18_LANGS.md:72",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Projected re-source outcome: 13/18 langs at 100, 5 at 19-27, total ~1,350-1,400 items vs 1,227.",
+   "numbers": "13/18; 1,350-1,400",
+   "source": "SAMPLE_PLAN_18_LANGS.md:150-155",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "P*_corr 1,283 final"
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 never mentions the 18-lang printed probe (surya CER 0.3849 best non-Sarvam, sarvam 0.2400) or the engine leaderboard; no printed routing table (surya everywhere except Ol Chiki -> indicphotoocr) despite being the delivered wrap-only baseline (W5_FREEZE_PLAN.md:63,PROJECT_COMPLETE.md:100-112)",
+  "Weak cells sat/ks/mni/or/ur with GT-barred status and K2/K1 kills (sat K2(b) killed, ks deferred, mai/or killed) are absent from v4 (PROJECT_COMPLETE.md:168-174)",
+  "Eval discipline missing: McNemar+Wilson, n>=50 winner rule, mandela leakage audit, no-progress stops, Reviewer/Judge split (LOOP_SPEC_W5_W6_W7.md:79-99)",
+  "Compute/kill criteria K1-K4 (T1=0.05, 3pt, T8=5min, T9=12.6 GB) not carried into v4 gates (PROJECT_COMPLETE.md:168-174)",
+  "Backbone candidates GLM-OCR 0.9B, dots.mocr 3B, MonkeyOCRv2 0.7B, Unlimited-OCR for OldScan not considered by v4 (INTEGRATED-ELITE-STACK.md:29-38)",
+  "HunyuanOCR license risk and no-cloud/no-download/no-sarvam-as-training-data laws not reflected in v4 (INTEGRATED-ELITE-STACK.md:53,W5_FREEZE_PLAN.md:108-116)",
+  "No handwriting-specific data or eval anywhere in these root docs; whole corpus is printed PDF pages, so HW claims in v4 have no support from here"
+ ],
+ "contradictions": [
+  "Effective engine count 9 (W5_FREEZE_PLAN.md:34) vs 10 (PROJECT_COMPLETE.md:114)",
+  "mr visual pass 42.9% (W5_FREEZE_PLAN.md:31) vs 62.5% (PROJECT_COMPLETE.md:159 line 154)",
+  "D2 SKIPPED (W5_FREEZE_PLAN.md:49) vs D2 EXECUTED n=3 (PROJECT_COMPLETE.md:77)",
+  "Manifest 1,227 vs 1,283; sheet.csv 12,324 stays 1,227-based",
+  "Sarvam EN Wilson CI [0.188,0.468] inconsistent with avg CER 0.1078 (PROJECT_COMPLETE.md:125)",
+  "surya wins 8 vs 9 langs listed (PROJECT_COMPLETE.md:144)",
+  "Loop spec claims Sarvam aggregate 87.39 accuracy but probe metric is CER; different benchmarks (LOOP_SPEC_W5_W6_W7.md:34,286)"
+ ],
+ "open_items": [
+  "Whether user approved W6 backbone download (GLM-OCR) and sat/ks micro-repair; W5 freeze call outcome after 2026-10-01 unknown",
+  "mlx-tune smoke test (K4c) result and final memory peak unknown",
+  "Gu/sd VERIFY-FIRST status (gu_o005 spot-check) unresolved",
+  "dots.mocr vs GLM-OCR OldScan head-to-head not run"
+ ]
+}

@@ -1,0 +1,535 @@
+{
+ "partition": "P14",
+ "files": [
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md",
+   "total_lines": 245,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/browser_use_001.md",
+   "total_lines": 125,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/claude_mem_001.md",
+   "total_lines": 122,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/composio_awesome_skills_001.md",
+   "total_lines": 127,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/deepseek_harness_001.md",
+   "total_lines": 125,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ecc_001.md",
+   "total_lines": 115,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ecc_002.md",
+   "total_lines": 144,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/graphify_001.md",
+   "total_lines": 117,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/graphify_002.md",
+   "total_lines": 121,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/hermes_agent_001.md",
+   "total_lines": 127,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ponytail_001.md",
+   "total_lines": 122,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ponytail_002.md",
+   "total_lines": 120,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ralph_wiggum_001.md",
+   "total_lines": 115,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/ralph_wiggum_002.md",
+   "total_lines": 121,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/b/b5_elite_repos/rtk_001.md",
+   "total_lines": 122,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "printed_architecture",
+   "claim": "GLM-OCR (zai-org): 0.9B OCR VLM, built-in two-stage pipeline (PP-DocLayout-V3 + parallel recognition) matching the layout+recognizer wrap architecture; official mlx-vlm deploy guide + LLaMA-Factory FT guide; Apache-2.0 code / MIT weights. Proposed W6 recipe primary candidate. No Indic score given.",
+   "numbers": "0.9B; 94.62 OmniDocBench v1.5; 7.5k stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:15",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "dots.mocr (rednote-hilab mirror): 3B multilingual parse-anything VLM, MIT, Kannada/Tibetan demos; olmOCR-bench 83.9 with Old-scans 48.2 and Old-scans-math 85.5; vLLM CUDA-only, MLX UNKNOWN. Proposed head-to-head vs GLM-OCR (needs Indic bench first).",
+   "numbers": "3B; Elo avg 1124.7; olmOCR 83.9; Old-scans 48.2; Old-scans-math 85.5; 351 stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:23",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Unlimited-OCR (Baidu): one-shot multi-page parsing up to 32,768 output tokens; cross-page context floated as a lift for OldScan 55.3 weak cell. CUDA transformers, local UNKNOWN. Candidate only, untested.",
+   "numbers": "<=32,768 tokens; 26.4k stars; arXiv 2606.23050; OldScan 55.3",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:31",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "MonkeyOCRv2-B-Parsing 0.7B: #1 MDPBench 83.3 across 17 languages incl. Hindi 71.9; Apache-2.0 code AND weights; CPU support 2026-08-22; FT instructions. Proposed smallest strong fine-tunable backbone (fits 32GB).",
+   "numbers": "0.7B; MDPBench 83.3; Hindi 71.9; ViT-S 28M/ViT-B 113M",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:37",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "HunyuanOCR 1.5 (0.9B, 4K res): 'Agentic Data Flow' targets low-resource + ancient-script OCR (analogue to Ol Chiki/Nastaliq); llama.cpp GGUF local; Tencent Hunyuan Community License (not pure OSS) - license review REQUIRED before use.",
+   "numbers": "0.9B; 128K ctx; 2.0k stars; 1.5 released 2026-07-07",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:43",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "mlx-tune (ARahim3): MLX-native SFT/DPO/GRPO fine-tuning for VLMs incl. GLM-OCR, DOTS-OCR, olmOCR-2, DeepSeek-OCR; ships CER/WER metrics; Apache-2.0, Apple Silicon. Named 'THE QLoRA tool' for W6 conditional-training path (D1); replaces hand-rolled scripts. Note: Mac/MLX-only vs plan's portable PyTorch.",
+   "numbers": "1.4k stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:51",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "DeepSeek-OCR-2 (3B): CONTRADICTION on local runnability - repo README says runnable; mlx-tune README says needs mlx-vlm>=0.4 -> transformers>=5.0, 'not loadable anywhere'. Verdict: watch, do not block W6.",
+   "numbers": "3B; 3.4k stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:57",
+   "status": "CONTRADICTION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "light-ocr (arcships): PP-OCRv6 packaged with CoreML for Apple Silicon, proposed as fast local detection stage; details UNKNOWN (existence only).",
+   "numbers": "508 stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:62",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "liteparse (run-llama): Rust model-free PDF parsing (PDFium), pluggable OCR-server backends, worker pool; benchmarked on M2 Max 32GB; Apache-2.0. Proposed PDF front-end for wrap pipeline (relevant to searchable-PDF output).",
+   "numbers": "12.7k stars; benchmarks updated 2026-09-09",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:77",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "deepseek-ocr.rs (Rust multi-backend OCR/VLM server, OpenAI-compatible, no Python) noted as lean local-serving option; created 2025-10-25 outside scan window.",
+   "numbers": "2.2k stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:65",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Post-OCR/output layer candidates: firecrawl/anydoc (docs->Markdown, Python bindings; 22.1k stars) and datalab-to/lift (9B JSON extraction, OpenRAIL-M weights, needs quant on 64GB). Both deferred post-hackathon per shortlist.",
+   "numbers": "22.1k; 910 stars; 9B",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:73",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Production serving/monitoring refs (production-ocr-course, superlog telemetry, eve-software-factory) classed POST-HACKATHON, not critical.",
+   "numbers": "416; 1.5k; 1.1k stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:221",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "paperthin `mandela` skill = 8-pattern eval-leakage audit; flagged ADOPT NOW to audit the CER harness against self-confirming evals; plus `factchk` (two-way source verification) and `hate` (the one objection that kills the plan + cheapest test). Strengthens H44-48 kill criteria. MIT, pure markdown.",
+   "numbers": "25 skills; 8 patterns; 1.1k stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:109",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "opensquilla SquillaRouter: on-device LightGBM+ONNX routes per-turn to cheapest capable model (C0-C3). Measured PinchBench 1.2.1, 25 tasks: 0.9251 avg at $0.688 vs OpenClaw 0.9255 at $6.233 (~9x cheaper). Candidate for subagent token control.",
+   "numbers": "7.1k stars; 0.9251 vs 0.9255; $0.688 vs $6.233",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:99",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "looper (ksimback): designs review-gated loops with typed verification, cross-model reviewer, termination guards; adopt only if a new loop is designed. Also reverify (VERIFIED/REFUTED ledger), open-code-review, codex-plugin-cc (cross-vendor adversarial review) for fix-loop verification.",
+   "numbers": "710 stars",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:118",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "eve-software-factory ('Foreman'): independent Reviewer sees only the diff, not implementer reasoning - external validation of FIND->SPEC->FIX->RE-VERIFY judge-independence law; full pipeline needs Vercel (conflicts no-cloud-spend).",
+   "numbers": "1.1k stars; created 2026-08-12",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:149",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Memory-layer options (hindsight 34.6k stars, TencentDB-Agent-Memory 27.3k, ai-memory stars UNKNOWN) classed watch / post-hackathon; no install mid-campaign.",
+   "numbers": "34.6k; 27.3k",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:125",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Vendor-harness trend: deepseek-harness 237.3k stars (~5.5k/day for 6 weeks, created 2026-08-13), orca 79.2k, ponytail 146.7k, archify 72.5k, laya 26.2k. Decision: reference only, do NOT migrate mid-campaign.",
+   "numbers": "237.3k; 79.2k; 146.7k; 72.5k; 26.2k",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:138",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "laya (NandhaKishorM): non-autoregressive typed decision engine, 100+ languages, per-request ModernBERT checkpoint router; idea mapped to Indic script-detection pre-processing and LAYA System-1 gates (we run laya-gate).",
+   "numbers": "26.2k stars; created 2026-09-18",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:169",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "cloudflare/security-audit-skill recommended as pre-W5-freeze security audit (machine-readable findings). browser-use/jev-ultrafast cited as cost-cap reference for the 54-call Sarvam cap.",
+   "numbers": "22.1k stars; 54-call cap",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:144",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ranked ADOPT NOW: 1 paperthin, 2 GLM-OCR, 3 mlx-tune, 4 liteparse, 5 light-ocr, 6 archify/security-audit. H44-48 call items: dots.mocr vs GLM-OCR, MonkeyOCRv2 0.7B backbone, Unlimited-OCR for OldScan, HunyuanOCR license, rtk keep/drop, opensquilla. WATCH: DeepSeek-OCR-2.",
+   "numbers": "15 shortlist items",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:199",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Contradiction register E1: rtk claim 60-90% token reduction vs agent-harness scan JetBrains study +7.6% median cost; both quotes stored, no winner; deferred to H44-48 call (A/B test).",
+   "numbers": "60-90% vs +7.6%",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:226",
+   "status": "CONTRADICTION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "HONEST-EMPTY F1: no dedicated Ol Chiki / Nastaliq / Meitei-Mayek OCR repos in window 2026-03-27..09-27; indirect only (dots.mocr demos, HunyuanOCR ancient-script, MonkeyOCRv2 Hindi 71.9). sat/ks remain vision-LLM-only or W6 fine-tune targets, verdict unchanged.",
+   "numbers": "window 2026-03-27 to 2026-09-27",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:236",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "HONEST-EMPTY F2/F3: no new OldScan restoration repos (best signals dots.mocr Old-scans 48.2 / math 85.5, Unlimited-OCR); no new Indic doc-layout beyond known IndicPhotoOCR.",
+   "numbers": "Old-scans 48.2; 85.5",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:240",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "The whole B5 scan contains NO handwriting/HTR repo, no Bengali handwritten benchmark, nothing on PARSeq/IIIT-INDIC-HW-WORDS. All OCR engines found are printed/document-parsing VLMs; relevance to Plan v4 handwriting expert is nil.",
+   "numbers": "0 handwriting records",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:13",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Scan method: 4 parallel subagents, ~30 github searches, ~25 README fetches, no downloads/clones/installs; window 2026-03-27..2026-09-27; Aug-Sep weighted 10x. Stars/benchmarks are README self-claims, not reproduced.",
+   "numbers": "~30 searches; ~25 fetches",
+   "source": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:3",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "ECC 2.2.2 (MIT) installed locally: 68 agents, 292 skills, 94 commands, unified memory vault, continuous-learning-v2; orch-pipeline (Research-Plan-TDD-Review-Commit, two human gates) mapped to FIND->SPEC->FIX->RE-VERIFY; 3-agent model = orch-pipeline instantiation, gates H44-48 call + W5 freeze. ECC Pro $19/seat/mo not needed.",
+   "numbers": "68/292/94; $19/seat/mo",
+   "source": "docs/research/level7/b/b5_elite_repos/ecc_001.md:12",
+   "status": "PRIMARY",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "ECC skills mapped to ops laws: verification-loop (max 2 fix rounds Verdict->Miss->re-verify), eval-harness (eval-driven dev; Verdict CER measurement/regression), loop-design-check REVIEW mandatory on Engine Ralph loop (five failure modes incl. Goodhart-gaming, judge independence).",
+   "numbers": "max 2 rounds",
+   "source": "docs/research/level7/b/b5_elite_repos/ecc_002.md:40",
+   "status": "PLAN",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "ECC mandatory gates proposed: tdd-workflow (80%+ coverage, tests first), security-review before W5 freeze, agent-architecture-audit (12-layer) before freeze, intent-driven-development for task specs. ECC MCP policy (2026-06-15): ONE default connector (chrome-devtools).",
+   "numbers": "80%+; 12-layer",
+   "source": "docs/research/level7/b/b5_elite_repos/ecc_002.md:12",
+   "status": "PLAN",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ralph Wiggum loop (Huntley): bash loop + IMPLEMENTATION_PLAN.md on disk, plan/build modes, 1 task per loop, subagents as memory (plan prompt 250+250+500 Sonnet subagents), sandbox (Docker/Fly/E2B). Official Claude Code plugin ralph-wiggum@ghuntley. Plan-work mode scopes at plan creation vs 70-80% runtime-filter reliability.",
+   "numbers": "70-80%; 259 PRs/30 days (Cherny)",
+   "source": "docs/research/level7/b/b5_elite_repos/ralph_wiggum_002.md:12",
+   "status": "PRIMARY",
+   "date": "2026-01-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Ralph playbook: Acceptance-Driven Backpressure derives required tests from spec acceptance criteria so agent cannot 'cheat' done; Non-Deterministic Backpressure = LLM-as-judge binary pass/fail (fast Gemini 3.0 Flash / smart GPT 5.1). Mapped to Verdict specs and subjective quality gates.",
+   "numbers": "binary pass/fail",
+   "source": "docs/research/level7/b/b5_elite_repos/ralph_wiggum_002.md:44",
+   "status": "PLAN",
+   "date": "2026-01-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ponytail YAGNI skill (MIT, 7-rung ladder): benchmark 12 tasks, Haiku 4.5, n=4 vs baseline LOC -54%, tokens -22%, cost -20%, time -27%, safety 100% (yagni-oneliner safety 95%). Plan to use full for Engine, ultra for Verdict review. Maps to 'do not invent a novel backbone'. Small n; self-reported.",
+   "numbers": "LOC -54%; tokens -22%; cost -20%; time -27%; n=4",
+   "source": "docs/research/level7/b/b5_elite_repos/ponytail_001.md:12",
+   "status": "MEASURED",
+   "date": "2026-08-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Ponytail FAQ analogy: 'the 120-line cache class' = our temptation to build custom Ol Chiki/Nastaliq models; guidance is buy/reuse not build for weak cells.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b5_elite_repos/ponytail_002.md:102",
+   "status": "DERIVED",
+   "date": "2026-08-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "RTK (rtk-ai/rtk v0.28.2, Apache-2.0, 56.8k stars): cuts up to 90% of bash OUTPUT (not bill), tokens est. bytes/4; does not break prompt cache; telemetry decision NO (RTK_TELEMETRY_DISABLED=1). Contradicted by JetBrains +7.6% median cost (E1). Resolve via A/B at H44-48.",
+   "numbers": "up to 90%; 60-90%; +7.6%",
+   "source": "docs/research/level7/b/b5_elite_repos/rtk_001.md:12",
+   "status": "CONTRADICTION",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "claude-mem v13.28.0 (Apache-2.0, SQLite+Chroma, worker :37777): ~10x token savings via 3-layer search; but historian comparison (270+ sessions) says 95% of sessions never query history and claude-mem costs 5-8k tokens/session always-on vs historian 0 idle; hook conflict with ECC untested. Cloud sync DECISION NO.",
+   "numbers": "5-8k tokens/session; 95%; 270+ sessions",
+   "source": "docs/research/level7/b/b5_elite_repos/claude_mem_001.md:114",
+   "status": "CONTRADICTION",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Rejected/dies under no-paid-keys law: Composio MCP Gateway (cloud), Hermes Nous Portal (paid subscription) and Hermes runtime, Browser Use cloud/BU2 (needs BROWSER_USE_API_KEY; $0.02/browser-hr), claude-mem cloud sync, deepseek-harness (developer preview, breaking changes). Local browser+Ollama only free path.",
+   "numbers": "$0.02/browser-hr",
+   "source": "docs/research/level7/b/b5_elite_repos/composio_awesome_skills_001.md:49",
+   "status": "REJECTED",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Graphify v8 (YC S26): tree-sitter AST code graph, 0 LLM credits; LOCOMO recall@10 0.497 vs mem0 0.048 / supermemory 0.149; LOCOMO QA 45.3% vs supermemory 49.7% (graphify lower); LongMemEval-S n=50 76% tied with dense RAG; judge agreement 90.6%, kappa 0.81. Use --code-only and ollama backend; avoid Kimi backend (China routing).",
+   "numbers": "0.497; 45.3%; 76%; 90.6%; kappa 0.81",
+   "source": "docs/research/level7/b/b5_elite_repos/graphify_001.md:28",
+   "status": "MEASURED",
+   "date": "2026-08-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Graphify .graphifyignore planned to exclude sealed dirs level2/out/ and level2/reports/ per AGENTS.md; ECC graphify wraps ~/.local/bin/graphify.",
+   "numbers": "",
+   "source": "docs/research/level7/b/b5_elite_repos/graphify_002.md:88",
+   "status": "PLAN",
+   "date": "2026-08-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "ComposioHQ/awesome-claude-skills catalog (1000+ skills, 34.9k stars): decision to prefer ECC's 292 curated skills; lean-ctx competes with RTK; skills load lazily (~100 tokens/skill name+description, ~5000 body).",
+   "numbers": "1000+; 34.9k; ~100/~5000 tokens",
+   "source": "docs/research/level7/b/b5_elite_repos/composio_awesome_skills_001.md:63",
+   "status": "DECISION",
+   "date": "2026-08-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hermes Agent (NousResearch, MIT): separate runtime w/ own deps (Python 3.14, Node), self-improving skills; classed DIES; ClawPier cites CVE-2026-25253 (CVSS 8.8) prompt injection, supporting sandboxing of agent runtimes.",
+   "numbers": "CVSS 8.8",
+   "source": "docs/research/level7/b/b5_elite_repos/hermes_agent_001.md:93",
+   "status": "REJECTED",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Every transfer_harness_fact in these files hardcodes '18 Indic langs, weak cells, 200-dpi citizen docs, no paid keys, no training until W6 freeze, offline pipeline' - the printed 18-language/200-dpi frame, not the handwritten Bengali 5,344-image test of Plan v4.",
+   "numbers": "18 langs; 200-dpi",
+   "source": "docs/research/level7/b/b5_elite_repos/browser_use_001.md:19",
+   "status": "CONTRADICTION",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Campaign timing assumptions: 48h hackathon window, campaign ends ~Sep 29, H44-48 validation call, W5 freeze, hardware M2 Max 32GB (liteparse benchmarked) / 64GB mentioned for lift; mlx-tune/CoreML picks are Mac-only.",
+   "numbers": "48h; H44-48; 32GB; 64GB",
+   "source": "docs/research/level7/b/b5_elite_repos/deepseek_harness_001.md:15",
+   "status": "DERIVED",
+   "date": "2026-08-31",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Date anomalies: Ralph records cite a 2025-07-15 tweet and ponytail_001 cites 2025-07-15 Huntley reference to Ponytail, yet Ponytail was created 2026-06-12 per ELITE refresh; ralph_wiggum_001 date 2026-01-08 for plugin. Provenance dates unreliable.",
+   "numbers": "2025-07-15 vs created 2026-06-12",
+   "source": "docs/research/level7/b/b5_elite_repos/ponytail_001.md:111",
+   "status": "CONTRADICTION",
+   "date": "2026-08-30",
+   "currency": "unclear",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "No handwriting research in this lane at all; Plan v4's handwriting expert cannot draw on B5 (all repos are printed/doc VLMs or dev-process tooling).",
+  "Plan v4 omits an eval-leakage audit tool: paperthin `mandela` (8-pattern) is flagged ADOPT NOW to audit the CER harness; HW0 hash gate should be complemented (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:109).",
+  "Plan v4 Page Expert uses Qwen3.5-0.8B IndicBlockOCR; scan proposes GLM-OCR 0.9B (94.62 OmniDocBench) and MonkeyOCRv2 0.7B (Hindi 71.9 MDPBench, Apache weights) as fine-tune backbones; no head-to-head on an Indic bench exists (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:15,37,199).",
+  "Weak cells (sat/ks/mni/or/sa/doi, Ol Chiki/Nastaliq/Mayek, OldScan 55.3) get NO new engine from B5; F1 says verdict unchanged - plan must not assume repo rescue (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:236).",
+  "Mac-only tooling (mlx-tune, CoreML light-ocr, MLX) conflicts with plan's portable PyTorch requirement; DeepSeek-OCR-2 MLX unrunnable (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:51,62,230).",
+  "Licence flags the plan should carry: HunyuanOCR Tencent community licence (review required), lift OpenRAIL-M weights, GLM-OCR MIT weights, MonkeyOCRv2 Apache (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:43,82).",
+  "Kill-criteria discipline: loop-design-check REVIEW (Goodhart-gaming, judge independence), verification-loop max 2 rounds, hate skill 'one objection that kills the plan' are available but unreferenced by plan (ecc_002.md:84; ecc_001.md:70)."
+ ],
+ "contradictions": [
+  "rtk: 60-90% token reduction vs JetBrains +7.6% median cost (E1) - unresolved, A/B at H44-48.",
+  "DeepSeek-OCR-2: repo says runnable vs mlx-tune says not loadable (E2).",
+  "claude-mem 'about 10x token savings' vs historian testing showing 5-8k tokens/session always-on tax with 95% of sessions never querying.",
+  "Ponytail/Ralph source dates 2025-07-15 predate Ponytail creation 2026-06-12.",
+  "Graphify LOCOMO QA 45.3% is below supermemory 49.7% despite recall@10 0.497 lead; headline claims selective."
+ ],
+ "open_items": [
+  "Indic head-to-head: dots.mocr vs GLM-OCR vs MonkeyOCRv2 (needs Indic bench first).",
+  "HunyuanOCR-1.5 licence review and local runnability test.",
+  "Unlimited-OCR local runnability and OldScan effect.",
+  "rtk A/B and claude-mem hook conflict with ECC untested.",
+  "light-ocr, ai-memory details UNKNOWN; star counts unverified."
+ ]
+}

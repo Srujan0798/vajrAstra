@@ -1,0 +1,302 @@
+{
+ "checked": 45,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "PROJECT_COMPLETE per-engine table says surya wins 5/18 langs (line 103) while headline says 8 and lists 9; three different surya win counts in one file",
+   "numbers": "5/18 vs 8 vs 9",
+   "source": "PROJECT_COMPLETE.md:103,144",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W5 checklist counts disagree: W5_FREEZE_PLAN says 18 items (14 PASS, 3 PENDING, 1 honest-empty) vs PROJECT_COMPLETE cross-ref says 12 PASS, 5 PENDING",
+   "numbers": "18 items; 14 PASS vs 12 PASS",
+   "source": "W5_FREEZE_PLAN.md:22; PROJECT_COMPLETE.md:227",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "W6 eval step in freeze plan states probe22 n=1280 items, a third manifest figure beside 1,227 and 1,283",
+   "numbers": "n=1280",
+   "source": "W5_FREEZE_PLAN.md:127",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Loop spec secondary outcome: public sarvamai/indic-ocr-bench cross-bench check is optional and needs user approval for download; skipped with limitation noted if refused",
+   "numbers": "approval needed",
+   "source": "LOOP_SPEC_W5_W6_W7.md:39,273",
+   "status": "PLAN",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "K1 QLoRA trigger requires Phase 6 McNemar-significant gap on SAFE langs (kok/mai/or/pa) plus memory check via vm_stat before any model load; fallback if mlx-tune fails is hand-rolled mlx script",
+   "numbers": "T1=0.05",
+   "source": "W5_FREEZE_PLAN.md:65-69,140",
+   "status": "DECISION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "PROJECT_COMPLETE says D2 (3 extra Sarvam EN calls) EXECUTED with avg CER 0.1078 while W5 plan says D2 SKIPPED; also W5 plan says sat micro-repair needs download approval (D4)",
+   "numbers": "D2",
+   "source": "PROJECT_COMPLETE.md:76; W5_FREEZE_PLAN.md:49,96",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "SAMPLE_PLAN: official test split must never be used as GT; sample drawn only from Datasets/akshardrishti_official PDFs and human pairs with no downloads; South 400 in level2/out SEALED",
+   "numbers": "",
+   "source": "SAMPLE_PLAN_18_LANGS.md:59-66,115-123",
+   "status": "DECISION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

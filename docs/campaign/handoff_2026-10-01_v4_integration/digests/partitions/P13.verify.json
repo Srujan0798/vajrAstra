@@ -1,0 +1,212 @@
+{
+ "checked": 37,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "corrected",
+   "correction": "Cited line 200:41 only supports the 3-agent Engine/Verdict/Miss structure ('locked per campaign law' is at line 43). Fix-loop max 2 and H44-48 are not in artifact_200; they appear in artifact_230:43 (H44-48) and artifact_270/260 (fix-loop max 2 rounds)."
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "corrected",
+   "correction": "'LangGraph v1.0 late 2025' is wrong attribution: 'v1.0 late 2025' is stated for CrewAI (artifact_210:40); LangGraph v1.0 Python support appears at line 127. Rest (LangGraph chosen, CrewAI memory embedder blocked until W6, OpenAI SDK needs paid keys) verified."
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "corrected",
+   "correction": "Content is real but cited line is off: H44-48 / 2026-10-01 at artifact_230:43; the 04:23 IST Sep 29 end time is at artifact_230:141. Source says 'W6 freeze after 2026-10-01' (also 'W5 freeze after 2026-10-01' at :127, inconsistent)."
+  },
+  {
+   "index": 18,
+   "verdict": "corrected",
+   "correction": "Content verified at artifact_230:57 and :71 (cited line 57 is a transfer_harness_fact; 71 mentions indicphotoocr in progress as MVP slice, 17 langs replication)."
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "corrected",
+   "correction": "Cited line 12 lists SDK/AgentDefinition fields; hooks types are at claude_code_detailed.md:54 and SubagentHandback v2.1.271+ at :40."
+  },
+  {
+   "index": 34,
+   "verdict": "corrected",
+   "correction": "Kimi K3 DIES at kimi_agents.md:54 (2.8T too large); K2 1T/32B at :12; 'needs paid API key' DIES reasoning is at :27 and :69; transfer UNKNOWN at :14/:42. Mixed: K2 UNKNOWN, K3 DIES."
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "corrected",
+   "correction": "Cited line 68 only shows ECC for OpenCode 26 agents; variant 12 agents at opencode_ecc.md:82; Cursor SDK 'needs API key' is in ts_ai_sdks_detailed.md:41; DEAD/DIES status for Cursor not verified at cited line; bundles several files' claims."
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Kimi K2.6 open-sourced 2026-04-20, K2.5 2026-01-27; none have OCR evidence (UNKNOWN).",
+   "numbers": "2026-04-20",
+   "source": "docs/research/level7/b/b4_agent_tooling/kimi_agents.md:82",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Every b3/b4 transfer_harness_fact hardcodes the printed 18-Indic-lang/200-dpi/no-paid-keys/no-training-until-W6 frame, not Plan v4 handwritten Bengali; all b3 'W6 architecture' decisions are for the superseded 18-lang campaign.",
+   "numbers": "18 langs; 200-dpi",
+   "source": "docs/research/level7/b/b4_agent_tooling/kimi_agents.md:15",
+   "status": "DERIVED",
+   "date": "2026-09-27",
+   "currency": "superseded",
+   "superseded_by": "Plan v4"
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "checked": 52,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": "Verified (README table lines 5-9)."
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": "Content verified in the file; cited line numbers are approximate/off (actual lines differ by up to ~30; e.g. Q1 content at 306-476, Q2 at 418-607, Q3 at 483-617)."
+  }
+ ],
+ "missed": [
+  {
+   "theme": "model_training",
+   "claim": "Q1 summary: Indic results more mixed than Arabic; clean synthetic text exaggerates performance and real scans remain much harder.",
+   "numbers": "",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:306",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "system",
+   "claim": "Hybrid TrOCR+Tesseract+EasyOCR gives higher aggregate multilingual accuracy than any one constituent engine (supports Q3 fusion finding).",
+   "numbers": "",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:489",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval",
+   "claim": "Benchmark conclusions can flip with median + catastrophic-failure rate instead of means (Singh2026).",
+   "numbers": "",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:572",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

@@ -1,0 +1,447 @@
+{
+ "partition": "P04",
+ "files": [
+  {
+   "path": "/home/user/boss/docs/research/level7/MISS_MONITOR.md",
+   "total_lines": 744,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "weak_cells",
+   "claim": "probe22 GT verification (237 visual verdicts): tier-complete FAIL (>20%) for ks PDF, gu PDF, ne PDF, mni fill, sat fill, ur PDF, mr PDF",
+   "numbers": "ks PDF 100% (10/10); gu PDF 100% (1/1); ne PDF 100% (2/2); mni fill 100% (20/20); sat fill 85% (17/20); ur PDF 90% (9/10); mr PDF 62.5% (5/8)",
+   "source": "docs/research/level7/MISS_MONITOR.md:27",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "superseded",
+   "superseded_by": "line 83: mr barred at 42.9% under 233-item lock; 237 vs 233 count differs"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "mni/sat GT is fill-only so leaderboard CERs there measure against garbage GT; garbage_GT flag required on those rows",
+   "numbers": "mni, sat fill-only",
+   "source": "docs/research/level7/MISS_MONITOR.md:29",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Tier-complete PASS list: brx PDF 20% borderline, as fill 0%, doi 0%, kok PDF 0%, mai PDF 10%, ne fill 5%, or 0-10.5%, pa PDF 0%, sd PDF 12.5%",
+   "numbers": "brx 20%; mai 10%; sd 12.5%; ne fill 5%",
+   "source": "docs/research/level7/MISS_MONITOR.md:28",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "No language has both GT tiers (bn/hi/sa pair-only; brx/kok/mai/mr/pa/ur/sd pdf-only), so the section 6.2 falsification test is inapplicable by design (probe22 architecture)",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:30",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Excluding failed-verdict items barely moves PDF CERs, so engine scores are not artifacts of bad GT (rapidocr example)",
+   "numbers": "ks 0.872->0.869; ur 0.921->0.920",
+   "source": "docs/research/level7/MISS_MONITOR.md:31",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hindi/Bengali collapse on local engines (CER 0.85-0.89) is an input-resolution confound (native-resolution scans vs pdf renders); Sarvam API on subset reads clean",
+   "numbers": "local CER 0.85-0.89; Sarvam hi/bn 0.08/0.09",
+   "source": "docs/research/level7/MISS_MONITOR.md:90",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "NOTE: no handwriting evidence in this log; all probe22 evidence is printed/scan OCR (hi/bn pairs are native scans). Bengali handwriting not tested",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:90",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Perso-Arabic (ks/ur/sd): every local engine CER 0.78-0.94; Sarvam API ks 0.63, ur 0.53 leads by ~15-30 pts; Nastaliq specialist costed in R2",
+   "numbers": "local 0.78-0.94; Sarvam ks 0.63 ur 0.53",
+   "source": "docs/research/level7/MISS_MONITOR.md:91",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Santali (Ol Chiki) and Manipuri (Mayek): every local engine >=0.85 CER; Sarvam sat 0.48 / mni 0.02 leads ~40 pts; synthetic flood per R3",
+   "numbers": "local >=0.85; Sarvam sat 0.48, mni 0.02",
+   "source": "docs/research/level7/MISS_MONITOR.md:92",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan (proxy = low-gt-density pdf pages) has no per-engine breakdown yet; tracked via R4 ablation spec",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:93",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia: tesseract/paddle CER 0.26-0.17, rapidocr 1.0; solvable via tesseract+paddle routed lang (later K1 kill of or QLoRA)",
+   "numbers": "tess/paddle 0.26-0.17; rapidocr 1.0",
+   "source": "docs/research/level7/MISS_MONITOR.md:94",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Solved-class (CER<0.10) within routed engines: tesseract family (as 0.20/sa 0.26/mai 0.06 as written; text says ai), paddle mai 0.05",
+   "numbers": "as 0.20; sa 0.26; mai 0.06; paddle mai 0.05",
+   "source": "docs/research/level7/MISS_MONITOR.md:89",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Final engine CER ranking on probe22: sarvam 0.264 (54-cap) < tess-family 0.491 < easyocr 0.501 < indicphotoocr 0.563 < paddleocr 0.663 < rapidocr 0.675 < anuvaad 0.715 < doctr 0.870",
+   "numbers": "sarvam 0.264; tess 0.491; easyocr 0.501; IPO 0.563; paddle 0.663; rapid 0.675; anuvaad 0.715; doctr 0.870",
+   "source": "docs/research/level7/MISS_MONITOR.md:97",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "line 102: surya 0.385 lands as best local"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya DONE: overall CER 0.385 (0.3849), BEST local engine on probe22, beats tess-family 0.485 and easyocr 0.501; wins brx 0.15, mai 0.03, pa 0.14, hindi 0.22, mr 0.22",
+   "numbers": "0.385/0.3849; brx 0.15 mai 0.03 pa 0.14 hi 0.22 mr 0.22",
+   "source": "docs/research/level7/MISS_MONITOR.md:102",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "surya sa = 1.0 (all 99 sa items errored); use tesseract/sarvam for sa",
+   "numbers": "99 items",
+   "source": "docs/research/level7/MISS_MONITOR.md:104",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya wins 9/18 langs; primary routing: surya (Devanagari/Perso-Arabic/Gurmukhi), sarvam (mni/sat), tesseract-family (or/mr/ne-fill), indicphotoocr (as)",
+   "numbers": "9/18 langs",
+   "source": "docs/research/level7/MISS_MONITOR.md:508",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "easyocr DONE 1227/1227 0 errors: overall CER 0.494; best as 0.16, mai 0.04, mr 0.21, ne 0.17, sa 0.17; worst sat 0.88, gu 0.75",
+   "numbers": "0.494",
+   "source": "docs/research/level7/MISS_MONITOR.md:66",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "paddleocr_indic CER 0.656; only hi 0.50/mai 0.05/mr 0.21/ne 0.13/sa 0.17 give signal; rest 1.0 honest-empty by routing (PADDLE_LANG ~6 langs; 12/18 honest-empty, 536 empties)",
+   "numbers": "0.656; 536 honest-empty",
+   "source": "docs/research/level7/MISS_MONITOR.md:67",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "indicphotoocr (IPO) scored 0.559 overall; EN sanity 30/30 packs CER 0.6710 / WER 0.9433; pattern tess ~1.22 / doctr 0.40 / IPO 0.67 on ornate pub_raw scans",
+   "numbers": "0.559; EN CER 0.6710 WER 0.9433",
+   "source": "docs/research/level7/MISS_MONITOR.md:22",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "openbharatocr output is byte-identical to tesseract_indic (exact duplicate); 340/1313 byte-identical engine-overlap quoted in R2-J",
+   "numbers": "340/1313",
+   "source": "docs/research/level7/MISS_MONITOR.md:379",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "anuvaad_tesseract only Devanagari+English: 647 of 1257 honest-empty; doctr gives Latin-mojibake, gated per G-B1",
+   "numbers": "647 empty",
+   "source": "docs/research/level7/MISS_MONITOR.md:130",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "rapidocr EN 0/30 root cause: _RAPID_LANGV lacks 'en' key in run_probe.py:280-301 (harness routing gap, not engine failure); engine fine (mai CER 0.10); fix = add EN PPOCRV5; later EN restored to CER 0.4535 (was 1.0)",
+   "numbers": "0/30; mai 0.10; EN 0.4535",
+   "source": "docs/research/level7/MISS_MONITOR.md:19",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": "fix applied run_probe.py:291 (line 293)"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam EN extension: 3 calls, CER 0.1078 WER 0.2459 word_acc 75.41%, Wilson CI [0.188,0.468] n=3, en_sanity_broken flag (>0.05 threshold) attributed to ornate pub_raw layouts, not harness; n=3 is statistically meaningless",
+   "numbers": "CER 0.1078; WER 0.2459; word_acc 75.41%; CI [0.188,0.468]",
+   "source": "docs/research/level7/MISS_MONITOR.md:194",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam vision capped at 57 calls (54 main = 3/lang + 3 EN); directional only; Sarvam beats every local engine on weak cells but only on 3 items per language",
+   "numbers": "54+3=57 packs",
+   "source": "docs/research/level7/MISS_MONITOR.md:136",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "sheet.csv = 12,324 rows (10x1227 + 54 sarvam); earlier 11,097 = 9x1227+54; manifest 1,283 items locked after purge (111 + 2 noise drops; 233 visual verdicts); 83 pre-purge orphans on disk",
+   "numbers": "12,324; 1,283; 111+2; 83",
+   "source": "docs/research/level7/MISS_MONITOR.md:111",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Control-char GT corruption: 113 rapidocr extra packs = 30 EN + 83 pre-purge orphans (sd 25, mr 21, ne 29, as 12, or 10, pa 10, gu 6); ne R5 lock: 32 control chars, script_adherence 0.933, trust 26.6; ks PDF trust 45.0 (not 29)",
+   "numbers": "83 orphans; 32 ctrl chars; 0.933; trust 45.0",
+   "source": "docs/research/level7/MISS_MONITOR.md:40",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar gaps used to kill/survive QLoRA targets: kok 32pt p=0.0033 SURVIVES; pa 8pt p<0.0001 SURVIVES; mai 0.8pt p=1.0 KILLED; or KILLED (K1)",
+   "numbers": "kok 32pt p=0.0033; pa 8pt p<0.0001; mai 0.8pt p=1.0",
+   "source": "docs/research/level7/MISS_MONITOR.md:508",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "User decisions: D1 QLoRA on SAFE langs updated to kok+pa only (mai+or killed at K1); D2 Sarvam EN executed; D3 20-item spot-check approved (gu_o005 first); D4 barred langs stay barred (ks/mni/sat/ur/mr + ne PDF); sat+ks micro-repair W5 only",
+   "numbers": "kok+pa only",
+   "source": "docs/research/level7/MISS_MONITOR.md:288",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "line 494: W6 PAUSED 2026-09-29"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 QLoRA scaffold kok+pa only, ~3h compute, ~1.2 GB adapter; Qwen2-VL-2B QLoRA SFT on 10,432 human pairs (bn 2,938 + hi 3,500 + sa 494 + en 3,500)",
+   "numbers": "10,432 = 2938+3500+494+3500; 3h; 1.2GB",
+   "source": "docs/research/level7/MISS_MONITOR.md:116",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "line 494 W6 PAUSED; line 510 backbone GLM-OCR 0.9B"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Kill criteria: KILL_CRITERIA T1-T7 user-set (defaults T1=0.05, T2=3.0pt); K4 kill QLoRA at runtime if memory peak exceeds budget or mlx install fails: T8 install timeout 5min, T9 memory peak 12.6 GB (8-12 GB peak est), smoke-test fail",
+   "numbers": "T1 0.05; T2 3.0pt; T8 5min; T9 12.6GB",
+   "source": "docs/research/level7/MISS_MONITOR.md:386",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Memory constraint: system ~43% free, swap ~97% (R2-I refreshed to 1.10GB free / 11.5GB reclaimable; later ~9.4GB reclaimable); mlx stack installed 2026-09-29 16:22 IST; disk 12GB free; Mac/MLX environment",
+   "numbers": "~43% free; swap 97%; 9.4GB reclaim; 12GB disk",
+   "source": "docs/research/level7/MISS_MONITOR.md:298",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W5 strategy options: A = wrap-only + QLoRA kok+pa (~3-4h, $0, marginal-medium potential, LOW risk, RECOMMENDED); B wrap-only (~30min, zero risk); C full QLoRA 4 safe langs + backbone swap (~7-8h, highest potential, MEDIUM-HIGH risk). Total cost $0 local",
+   "numbers": "A 3-4h $0; B 30min; C 7-8h",
+   "source": "docs/research/level7/MISS_MONITOR.md:499",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "LEVEL7 findings: top methods = OCR-specialised VLM + layout harness, ScriptMoE, progressive SFT, RLVR after SFT, fine-tune Sarvam/Bodhan/Nanonets; backbone GLM-OCR 0.9B primary, Qwen2.5-VL-3B / MonkeyOCRv2 alternatives (earlier backbone was Qwen2-VL-2B)",
+   "numbers": "GLM-OCR 0.9B",
+   "source": "docs/research/level7/MISS_MONITOR.md:510",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W6 fine-tuning PAUSED by user directive 2026-09-29; Vinay meeting 2026-09-30 is gating step; resume on Option A, archive on B, superseded on C; 12 W6 prep files bannered",
+   "numbers": "12 files",
+   "source": "docs/research/level7/MISS_MONITOR.md:494",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Beat-Sarvam defined cell-by-cell on weak cells, NOT headline average; Vinay questions: Bodhan posture, Bhashini timing, post-hackathon roadmap; budget ask $0; backbone GLM-OCR 0.9B",
+   "numbers": "$0",
+   "source": "docs/research/level7/MISS_MONITOR.md:652",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W5 freeze opens after Wed 2026-10-01 evening: recipe locked, no new training inputs/engines/data; W6 QLoRA ~Oct 2-3 (superseded by pause)",
+   "numbers": "2026-10-01",
+   "source": "docs/research/level7/MISS_MONITOR.md:305",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "line 494 pause"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Lane record counts: A 420, B 346, C 436 -> 472/471 (c1 160, c3 160, c4 122+13 obituaries, c2 29 R-series); A2 drift 7/175 (4%) speech/MT records; B labels qualitative need numeric map (C4 s8 proposal); campaign graph 1198 nodes/1554 edges",
+   "numbers": "420/346/436/471; 7/175",
+   "source": "docs/research/level7/MISS_MONITOR.md:4",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Process pathologies: Verdict fix-specs repeatedly stale/duplicated (B2 s9 claimed 1063 missing, 0 actually missing in 258 records; #1-5 obsolete); surya restart loop lacks PID dedup; HF_TOKEN unauth throttling slowed surya 4 resumes",
+   "numbers": "1063 claimed vs 0; 258 records",
+   "source": "docs/research/level7/MISS_MONITOR.md:35",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya runtime: ~4h ETA, heavy MEM 47%, layout-parse WAD noise 'text-align: right' errors with 0 pack errors; HF_TOKEN absent throttles",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:75",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent role law: Miss owns Lane C/monitoring; Engine owns LEADERBOARD.md; no downloads without user approval (section 9); no rewrite of already-true content; append-only",
+   "numbers": "",
+   "source": "docs/research/level7/MISS_MONITOR.md:118",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "LEADERBOARD labeling bug '19/18' and Wilson 95% CI column pending Engine; R2-A McNemar leak warning on BARRED langs; cer_threshold=0.5 surfaced in K1",
+   "numbers": "19/18; cer 0.5",
+   "source": "docs/research/level7/MISS_MONITOR.md:118",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "docs/research/level7/MISS_MONITOR.md:27 Weak-cell GT is unreliable (ks/mni/sat/ur/mr/gu/ne barred); plan v4 does not carry the barred-language GT lock or garbage_GT flag",
+  "docs/research/level7/MISS_MONITOR.md:92 Sat Ol Chiki / mni Mayek: all local engines >=0.85 CER, only Sarvam works; plan lacks synthetic route (R3) and Sarvam-comparison cell",
+  "docs/research/level7/MISS_MONITOR.md:91 Nastaliq/Perso-Arabic (ks/ur/sd) 0.78-0.94 CER on all local engines; plan has no R2 specialist",
+  "docs/research/level7/MISS_MONITOR.md:102 Surya (0.385) is best local printed engine, sa=1.0 (fails); plan uses IndicBlockOCR/Tesseract only, not surya routing for Devanagari/Perso-Arabic/Gurmukhi",
+  "docs/research/level7/MISS_MONITOR.md:386 Kill criteria K1-K4 / T1-T9 thresholds (T1 0.05, T2 3.0pt, T9 12.6GB) absent from plan gates",
+  "docs/research/level7/MISS_MONITOR.md:508 McNemar significance gating for per-language training targets not in plan",
+  "docs/research/level7/MISS_MONITOR.md:90 No handwriting evidence in this campaign; plan's handwriting claims rest on external sources",
+  "docs/research/level7/MISS_MONITOR.md:652 Beat-Sarvam defined per weak cell not average; plan's jury framing lacks that",
+  "docs/research/level7/MISS_MONITOR.md:298 Memory/swap-limited Mac environment (12.6GB peak budget) vs plan's portable PyTorch claim"
+ ],
+ "contradictions": [
+  "docs/research/level7/MISS_MONITOR.md:27 says 237 visual verdicts vs docs/research/level7/MISS_MONITOR.md:204 says 233 items; mr 62.5% (5/8) vs 42.9% at line 83",
+  "docs/research/level7/MISS_MONITOR.md:97 sarvam 0.264 headline vs line 136 54-cap/3-per-lang directional only",
+  "docs/research/level7/MISS_MONITOR.md:116 QLoRA backbone Qwen2-VL-2B with 10,432 pairs vs line 510 GLM-OCR 0.9B primary vs line 288 kok+pa only (pairs for bn/hi/sa/en)",
+  "docs/research/level7/MISS_MONITOR.md:89 text says 'ai' where 'as' presumably meant; hi/bn 'solved-class' vs line 90 hi/bn collapse 0.85-0.89"
+ ],
+ "open_items": [
+  "HF_TOKEN for surya (line 76)",
+  "mlx-tune install result / memory headroom (line 298)",
+  "Vinay meeting outcome 2026-09-30 (line 494)",
+  "OldScan per-engine breakdown (line 93)",
+  "sat+ks micro-repair W5 (line 291)",
+  "LEADERBOARD Wilson CI + 19/18 fix by Engine (line 118)"
+ ]
+}

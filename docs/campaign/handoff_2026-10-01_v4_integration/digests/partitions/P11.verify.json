@@ -1,0 +1,302 @@
+{
+ "checked": 47,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "superseded",
+   "correction": "Line 65 states CC-BY-4.0; C3-153 (line 937) shows HF card cc-by-sa-4.0 and C3-116/KS-PRET-5M (line 765-766) supersedes it as default ks render-string base."
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": "minor: header at 765; detail lines 766-768, vocab 295,433 at line 930."
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": "minor: header at 769; details lines 770-772."
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": "minor: 'UNKNOWN' status not per se in file; parity unverified is inferred."
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": "minor: cited line 465 is TRDG MIT v1.8.0 (line 464); shear<=0.2 is at line 476."
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Falsification: pair-vs-pdf CER gap >10pp on same engine = PDF GT suspect; W6 eligibility per-language needs verification pass + gap<=10pp + R5 trust>=70; failing languages revert share to L1 pairs, never fill.",
+   "numbers": ">10pp; trust>=70",
+   "source": "docs/research/level7/c/c3/LEDGER.md:618",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "UTRSet-Real HF mirror is near-empty (4.21 kB) vs claimed 11k+ printed-Urdu lines; CC-BY-NC-4.0, approval-gated; paired UTRNet models NC, eval-baseline only.",
+   "numbers": "4.21 kB; 11k+",
+   "source": "docs/research/level7/c/c3/LEDGER.md:90",
+   "status": "PRIMARY",
+   "date": "2023-2025",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Hueiyen Lanpao Mayek precedent: ~59k pairs x 3ep ~4 GPU-h at 3B; plan S3 (50:20:30, <=30 GPU-h at <=2B) conservative; 98/2 split eval-thin (1,155 lines), keep eval separate.",
+   "numbers": "~59k; ~4 GPU-h; 1,155",
+   "source": "docs/research/level7/c/c3/LEDGER.md:379",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "NC rule: hackathon research use allowed; product deployment/commercial API/weights-transfer BARRED without re-license; NC-lineage tag in provenance sidecar for UTRSet, Odia-Lipi, IndicCorp, SEACrowd mirror.",
+   "numbers": "",
+   "source": "docs/research/level7/c/c3/LEDGER.md:434-436",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sindhi Open Lexicon: 88,947 native words + Mewaram 29,514 + official terms 37,599; entry script mixed (Devanagari/Sindhi-English 16,519 rows); bespoke attribution terms, product reuse UNKNOWN.",
+   "numbers": "88,947; 16,519",
+   "source": "docs/research/level7/c/c3/LEDGER.md:782-783",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "No off-shelf Paddle-Arabic collection for ks (0.5-0.8 CER band = incumbent); VLM branch (PaddleOCR-VL-0.9B + SFT) only; ceilings: 300-500 real ks lines and >=100k synthetic renders, no 400-page sets.",
+   "numbers": "0.5-0.8 CER; >=100k",
+   "source": "docs/research/level7/c/c3/LEDGER.md:588,611",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

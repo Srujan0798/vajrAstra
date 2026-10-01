@@ -1,0 +1,317 @@
+{
+ "checked": 42,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Protocol-1 scoring target: fraction of hidden tasks whose patch applies and passes harness tests inside a 12-hour patch-submission budget; locked checkpoint gemma-4-31b-it-qat-w4a16-ct; no training/submission in the 7 days",
+   "numbers": "12 h",
+   "source": "_reports/research/PROTOCOL_1_RESEARCH.md:36-40",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Protocol-1 specimen bundle end state and oath; seed ledger S1-S18 all REJECTED until verified (S12 test_patch visibility = highest-priority unknown)",
+   "numbers": "18 seeds",
+   "source": "_reports/research/PROTOCOL_1_RESEARCH.md:246-309",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "D7: how the 400 pages were sampled from dumps is undocumented ('first N openable' bias risk); D8: te pages may be entirely English (language purity unchecked)",
+   "numbers": "400",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:248-252",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "D12: per-language leaderboards pool scripts silently (te page containing Marathi stored as lang=te); SCENARIO_BEST should be primary leaderboard",
+   "numbers": "",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:261-264",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "B9/debate motion 3: openbharatocr is an honest alias of tesseract path; decide to REMOVE from leaderboard (double-counting) or keep with warning",
+   "numbers": "",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:152-153,428",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "A5/A6/A8: 92 hallucination events never fully eyeballed; per-engine empties GT-blank vs failure unknown; wrapper-level caps (easyocr reader-combo bug, binarized-retry overwrite) may distort benchmark",
+   "numbers": "92",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:96-104",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Ten structured debate motions incl. #6 PaddleOCR-VL-1.6 self-hosted beats paid Indian APIs, #9 switch to akshara error rate, #10 data-over-models; winner = more disk evidence",
+   "numbers": "10 motions",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:425-437",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "E7 firewall: bench data never fine-tuned on; extend explicitly so paid-API outputs are referee-only; E8 data residency: textbook scans are public, state in writing",
+   "numbers": "",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:298-301",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "G3/G4 north-language replication via Krishna (pa/gu) and schema bridge to Aryan's ingest-VLM pipeline unresolved; G12 90-day language count must be modelled from ms/page",
+   "numbers": "",
+   "source": "_reports/research/VAJRASTRA_INTERROGATION_PROTOCOL.md:358-362,381-383",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Protocol-1 daily hostile pass: any day under 2 h means specimen too small; competitor notebooks UNTRUSTED until re-derived",
+   "numbers": "2 h",
+   "source": "_reports/research/PROTOCOL_1_RESEARCH.md:235-244",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "partition": "P27",
+ "files": [
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md",
+   "total_lines": 108,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md",
+   "total_lines": 79,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/MONITOR_2026-09-30.md",
+   "total_lines": 7,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/handoff-2026-09-30-planner.md",
+   "total_lines": 108,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/_claude_memory/handoff-2026-10-01-planner-close.md",
+   "total_lines": 79,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Goal: win, beating Sarvam Vision 2.1 and every competitor, with a PORTABLE product (PyTorch/CUDA/CPU; MLX only Mac accelerator); free-only budget; no team mates; Vinay is lead to inform.",
+   "numbers": "free only",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:12-14",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Official test set = handwritten word crops; planner viewed 3 = Bengali script (step H).",
+   "numbers": "3 viewed",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:27",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Plan proto-104 rev 4 step order: R repair -> S South from Sarvam-bench fill (R-7) -> H handwriting -> D1 Bodhan (PyTorch + MLX parity) -> X external bench all 22 languages -> C Consensus (proto-105) -> G Plan v3 draft for Vinay -> GPU when SSH -> D2-D5; rulings R-1..R-15.",
+   "numbers": "R-1..R-15",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:23-28",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Read order: proto-00, proto-104, proto-01, proto-88, BOSS_CONCERNS.md, proto-103. Routed skills (proto-88): readchk, factchk, mandela, ssotize, verification-before-completion, graphify.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:20,30",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Three OpenCode agents: Agent1 Engine, Agent2 Verdict+repair lead, Agent3 Miss/builder; planner does no labour unless told; subagents only on request, Sonnet only.",
+   "numbers": "3 agents",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:15-19",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Agent 3 S1 done: 0/23,001 official South PDF pages clean. S2 (South from Sarvam-bench fill, <=100 per language) paused awaiting U9/U24 (already approved).",
+   "numbers": "0/23,001; <=100/lang",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:38-39",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan weights blocked: 403 for Maya0769 (gated=auto, access form never submitted); repos bodhan-ai/indic-ocr, hari31416/indic-ocr-mlx-4bit, hari31416/indic-ocr-mlx-bf16. Boss must submit forms in browser.",
+   "numbers": "403",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:46; docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:60",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Vinay (second-hand): 24 GB GPU over SSH arrives 2026-10-01; call morning 2026-10-01.",
+   "numbers": "24 GB",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:47",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent 2 A0-A3 PASS; A4 CONDITIONAL (run_probe.py parents[2] path fix approved erratum R-2; PASS = 0 old-path hits + smoke test); A5 open, then LAYOUT FROZEN, gitignore level2/models_bodhan/, archive strays out_level3/ W4_reports/, verify S2, proto-105, step G.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:34-36",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent 1: D0 done; H1 in progress (H1_TEST_PROFILE.json, B12_HANDWRITING_SHARE.md); Sarvam bench downloaded to level2/models_bodhan/indic-ocr-bench; mlx + mlx-vlm installed.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:42-45",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Memory consolidation done: history-completed-protocols (26 protocols), proto-98 clean-repo master (parked), 37 originals archived to _archive_2026-09-30/, proto-00 rewritten, graphify 0.9.65.",
+   "numbers": "26 protocols; 37 originals",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:52-56",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Task B concern themes K-01..K-30 draft list incl. 'one 22-language benchmark with South merged', '100 independent samples per language', leakage/fair eval, GT defects register (GT_DEFECTS.md missing), empty-output patterns, metric set, Sep-16 correction owed to Vinay.",
+   "numbers": "CO-001..096, C1-C17, M1-M8, #1-#81, HL1-HL12, H1-H15",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:60-64",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": "done per close-out"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Task C: proto-01 absorbs proto-02/60/62/79/90/91; boss-rules.md; proto-97 RQ statuses (RQ-1/3/7/9/12 DONE, RQ-2 -> H1, RQ-10 TRIGGERED); proto-100 B-18 post-correction, B-19 handwriting LoRA, B-20 legacy-font->Unicode South GT, B-21 synthetic lines; proto-104 Appendix A + step Q = GT_DEFECTS.md before D2.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:65-73",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": "marked done in docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:28-38"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Repo md hierarchy stale (AGENTS.md below START HERE, docs/INDEX.md, README.md); 12+ root md files misleading (PROJECT_COMPLETE.md says complete but is not). Scale: docs/research 88 md, docs/campaign 127, _reports 50+, _archive 150+.",
+   "numbers": "88/127/50+/150+",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:78-88",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "graphify update was stopped; graph.json still 14:34 version, 6,796 nodes.",
+   "numbers": "6,796 nodes",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:89",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Research use honest: RESEARCH_DECISIONS.md = 24 RF rows; Consensus answers stored in docs/sources/consensus/ and mapped in proto-105 but NOT processed by Agent 2; B-01/B-02/B-12 prep analyses exist; the 88 docs/research files never harvested (proto-95, parked). Boss wants research used.",
+   "numbers": "24 RF rows; 88 files",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:90-96",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hard rules: no commit/push without boss; never delete (archive+log); no downloads/Sarvam spend/training without boss (only 12 approved South Sarvam calls, R-8); sealed dirs level2/out, level2/reports, Datasets/ read-only; .env holds Sarvam key.",
+   "numbers": "12 Sarvam calls",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:99-106",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Branch boss/campaign-docs on GitHub is the transfer channel; commits 41de158, 7709781, 0be5420, f92af79 + close-out. Separate repo srujan0798/vajrastra branch claude/stoic-keller-xwovqu PR #12 reference only (hardened Sarvam adapter + research scripts).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:12-22",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Doc hierarchy drafts docs/campaign/drafts/{README,AGENTS,INDEX}.draft.md (README -> AGENTS -> docs/INDEX -> level2/ULTIMATE_HYBRID_CONCERN.md); 16 root files marked history.",
+   "numbers": "16 files",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:39",
+   "status": "DECISION",
+   "date": "2026-09-30 ~24:00",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Triggers T1 HF access -> D1 (Bodhan 100 samples PyTorch+MLX parity); T2 A4 PASS -> S4; T3 Sarvam endpoint -> retrieve 12 outputs; T4 H1 counts -> H2 then H3; T5 LAYOUT FROZEN -> step G Plan v3; T6 SSH -> GPU day 1 (proto-106 s2); T7 product dry run -> X runner.",
+   "numbers": "T1-T7",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:50-57",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-106 = Vinay call brief (7 questions, answers to proto-92 as U-rows) + GPU day-1 plan + HF token handling; HF token must never be in memory/repo/W4.md; rotate after Bodhan downloads.",
+   "numbers": "7 questions",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:41,60-63",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "OPEN FLAG: H1's '35.7% Devanagari' contradicts the planner's viewing (Bengali handwriting).",
+   "numbers": "35.7%",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "OPEN FLAG: South 400 items are a subset of step X's 6,909; never pool or double-count.",
+   "numbers": "400 subset of 6,909",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:68",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "12 Sarvam South outputs not retrieved; 67 rupee credit left; never resubmit.",
+   "numbers": "12 outputs; Rs67",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:66",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Other open: Sep-25 vs Sep-29 meeting date discrepancy; A4 CONDITIONAL, A5-A6 open; step Q GT_DEFECTS.md due before D2; Sep-16 correction owed (K-29); graphify stale since 14:34.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:69-73",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Cloud planner cannot reach huggingface.co (network policy) or the Mac; works via branch + paste lines.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:78",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agents dispatched: Agent2 copy-back/apply drafts/A4/A5/LAYOUT FROZEN/graphify/sync/Sarvam endpoint/proto-105 + HF token; Agent1 H1 vision check, S4, Sarvam retrieval, D1; Agent3 product/requirements.txt + Dockerfile (CPU/CUDA, MLX optional) then B-21 spec.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:43-48",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan IndicOCR scores 84.94 on Sarvam's bench (surya 69.96); official licence Indic Open Model License v1.0 (commercial + fine-tune OK, attribution, hosted API needs written approval); strategy doc's 'Apache 2.0' is wrong.",
+   "numbers": "84.94 vs 69.96",
+   "source": "docs/campaign/checkpoints/MONITOR_2026-09-30.md:4",
+   "status": "MEASURED",
+   "date": "2026-09-30 ~14:45",
+   "currency": "unclear",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "MLX 4-bit Bodhan port 636 MB, ~391 ms per crop; mlx-vlm LoRA supports Qwen3.5 so local $0 fine-tuning feasible.",
+   "numbers": "636 MB; ~391 ms",
+   "source": "docs/campaign/checkpoints/MONITOR_2026-09-30.md:5",
+   "status": "MEASURED",
+   "date": "2026-09-30 ~14:45",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Strategy doc DEEP_RESEARCH_STRATEGY_2026-09-29.md proposed RL-on-benchmark-split = leakage, rejected; doc was unread/never integrated into directive, packet or Plan v2.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/MONITOR_2026-09-30.md:3-5",
+   "status": "REJECTED",
+   "date": "2026-09-30 ~14:45",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Earlier proto-89 'Plan v3, Bodhan base, 5 days / 5 gates' and proto-94 tool shortlist; U23-U28; F54-F60; later plan numbering is proto-104 rev 4 / Plan v3 draft at step G.",
+   "numbers": "5 days / 5 gates",
+   "source": "docs/campaign/checkpoints/MONITOR_2026-09-30.md:6",
+   "status": "DECISION",
+   "date": "2026-09-30 ~14:45",
+   "currency": "superseded",
+   "superseded_by": "proto-104 rev 4 (H:23)"
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 omits step X (external bench on all 22 languages) and step Q (GT_DEFECTS.md before D2): docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:27,73",
+  "Plan v4 doesn't mention the South 400 subset of X's 6,909 no-pool rule: docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:68",
+  "H1's 35.7% Devanagari vs Bengali-only viewing is unresolved; plan asserts all 5,344 Bengali: docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67",
+  "Bodhan access (403 gated) is a hard blocker for Page Expert; plan lacks fallback: docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:46",
+  "Research harvest of 88 docs/research files never done; Consensus answers unprocessed: docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:90-96",
+  "Bodhan licence requires written approval for hosted API; plan outputs product for organisers: docs/campaign/checkpoints/MONITOR_2026-09-30.md:4",
+  "Rule: no downloads/training/Sarvam spend without boss; only 12 approved Sarvam calls, Rs67 left: docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:102; docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:66"
+ ],
+ "contradictions": [
+  "H1 35.7% Devanagari vs planner Bengali viewing (docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67)",
+  "Strategy doc 'Apache 2.0' vs official Indic Open Model License v1.0 (docs/campaign/checkpoints/MONITOR_2026-09-30.md:4)",
+  "Sep-25 vs Sep-29 meeting date (docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:69)",
+  "Note: the two _claude_memory files are byte-identical to the checkpoint copies"
+ ],
+ "open_items": [
+  "HF forms as Maya0769",
+  "Vinay call 2026-10-01 (7 questions)",
+  "SSH GPU details to Agent 1",
+  "rotate HF token",
+  "retrieve 12 Sarvam outputs",
+  "A4/A5/A6",
+  "step Q",
+  "Sep-16 correction",
+  "graphify refresh"
+ ]
+}

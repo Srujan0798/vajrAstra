@@ -1,0 +1,362 @@
+{
+ "checked": 67,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "corrected",
+   "correction": "The 88.31 WRR / 95.94 CRR ICDAR'23 figures are in RESEARCH_DECISIONS.md:97, but '96.10 WRR Bengali best' does not appear in any cited P18 file; it is an unsourced cross-reference to Plan v4. Treat the conflict note as unverifiable here."
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 56,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 57,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 58,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 59,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 60,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 61,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 62,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 63,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 64,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 65,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 66,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "NEXT.md REV 6 corrections: A-steps are proto-102 (not 101); Bodhan weights ARE on disk (D1 ran, Gate 1 CONDITIONAL PASS); Sarvam bench already downloaded (U24); run_probe.py path fix already approved (R-2).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/NEXT.md:5",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Bodhan model size disagreement: DRAFT_RESEARCH_PLAN:32 says MLX 4-bit 633 MB; BODHAN_BASELINE.md:9 says 767 MB (bf16 1.7 GB vs 1868 MB).",
+   "numbers": "633 vs 767 MB",
+   "source": "docs/campaign/DRAFT_RESEARCH_PLAN.md:32",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "unclear",
+   "superseded_by": null
+  }
+ ]
+}

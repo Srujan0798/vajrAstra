@@ -1,0 +1,623 @@
+{
+ "partition": "P06",
+ "files": [
+  {
+   "path": "docs/research/level7/a/LEDGER.md (lines 1-2360 only)",
+   "total_lines": 2360,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/a/MANIFEST.md",
+   "total_lines": 60,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2023 IHTR (IIIT-H): 10 scripts incl Bengali; Upstage KR won with 95.94% avg char accuracy; 18 teams registered, 6 submitted. Ledger frames this as clean-script SOTA far from citizen-doc reality.",
+   "numbers": "95.94% avg char acc; 18 reg/6 sub",
+   "source": "docs/research/level7/a/LEDGER.md:186-197",
+   "status": "PRIMARY",
+   "date": "2023-08-21",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2025 IHDR (IIIT-H): page-level Indic handwritten document recognition; winner announced 2025-05-15 but ledger records no winner or score (watch item left open).",
+   "numbers": "winner date 2025-05-15; no score",
+   "source": "docs/research/level7/a/LEDGER.md:190-193",
+   "status": "UNKNOWN",
+   "date": "2025-05-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Sarvam Vision 2.1 (2026-09-24/25) claims improved Indic handwriting recognition, form KV and multi-page tables; ledger treats tables+forms+handwriting as the 3 Bhashini demo axes.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:254-257",
+   "status": "PRIMARY",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bodhan IndicOCR supports handwriting for EN + 12 Indian langs (printed: EN + 22 langs x 13 scripts); internal IndicOCR-Printed bench 86.2% word accuracy; trained on 15M+ docs; API Rs0.20/image.",
+   "numbers": "86.2% WA; 15M+ docs; Rs0.20/image; 12 HW langs",
+   "source": "docs/research/level7/a/LEDGER.md:882-885",
+   "status": "PRIMARY",
+   "date": "2026-09-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Chitrapathak-2 HF card notes degradation on handwriting/noise/forms/index layouts (so not a handwriting engine).",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:129-132",
+   "status": "PRIMARY",
+   "date": "2026-03-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "BHASHA 2025: 14 SOTA models evaluated on Indic script OCR; substantial CER reduction via fine-tuning on an ancient-handwriting dataset (no numbers given).",
+   "numbers": "14 models",
+   "source": "docs/research/level7/a/LEDGER.md:471-476",
+   "status": "PRIMARY",
+   "date": "2025-05-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bharat Scene Text: 27k words across 11+ Indic langs; DBnet detector + PARSeq recognizer trained on synthetic Indic data (PARSeq on 11 langs). Precedent for synthetic-trained PARSeq word recognizers.",
+   "numbers": "27k words; 11+ langs",
+   "source": "docs/research/level7/a/LEDGER.md:603-605;docs/research/level7/a/LEDGER.md:1371-1373",
+   "status": "PRIMARY",
+   "date": "2025-11-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "IIIT-H NLTM IndicSTR12-Hindi scene-text word set: 1,083 word images, 585 unique words, split 812/271 (word-level dataset precedent; Hindi, not Bengali).",
+   "numbers": "1,083 imgs; 585 uniq; 812/271",
+   "source": "docs/research/level7/a/LEDGER.md:202-205",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Ledger has NO Bengali handwritten-word-specific recognizer, WRR benchmark or IIIT-INDIC-HW-WORDS entry; handwriting coverage limited to ICDAR23 IHTR and ICDAR25 IHDR pointers plus Bodhan/Sarvam claims.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:186-193",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Harness-with-VLM is the dominant 2025-26 pattern (Sarvam Vision 2.1, Bodhan, PaddleOCR-VL-1.6, MonkeyOCR); a single VLM is no longer competitive.",
+   "numbers": "",
+   "source": "docs/research/level7/a/MANIFEST.md:33",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam Vision 2.1: 3B state-space VLM, 23 langs (22 Indic + EN), harness = semantic layout parser + pointer reading-order; CPT on sovereign 3B -> SFT -> RL with verifiable rewards; per-language synth/human ratio and curriculum NOT disclosed. API only, not routable.",
+   "numbers": "3B; 23 langs; 10 pages/200MB limit",
+   "source": "docs/research/level7/a/LEDGER.md:35-40;docs/research/level7/a/LEDGER.md:1230-1233",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan IndicOCR: 33M layout (PP-DocLayoutV3/RT-DETR) + 0.8B block OCR (Qwen3.5-0.8B), ~1.8GB weights, Apache/Indic Open Model License, layout JSON + markdown/block JSON; lineage Qwen3.5 + Sarvam tokenizer; NeMo-trained, TensorRT-LLM/vLLM served.",
+   "numbers": "33M + 0.8B; ~1.8GB",
+   "source": "docs/research/level7/a/LEDGER.md:876-881;docs/research/level7/a/LEDGER.md:894-899",
+   "status": "PRIMARY",
+   "date": "2026-09-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan explicitly targeted skipped scripts incl Kashmiri, Santali, Manipuri (Meetei Mayek); 0.8B holds its own vs 4-5x larger models; live 2026-09-05. Rival aims at our weakest cells.",
+   "numbers": "0.8B vs 4-5x larger",
+   "source": "docs/research/level7/a/LEDGER.md:912-915",
+   "status": "PRIMARY",
+   "date": "2026-08-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR-VL-1.6: 0.9B (NaViT + ERNIE-4.5-0.3B), 96.33 OmniDocBench v1.6, Apache-2.0, vLLM path, drop-in from 1.5; CPT 16.8M + SFT 7.3M + RL; Real5-OmniDocBench 93.19 (warp 91.25 weakest, scan 94.74 best); ~2GB VRAM FP16, ~45 pg/min L40S.",
+   "numbers": "96.33; 93.19; 91.25; 94.74; 2GB; 45 pg/min",
+   "source": "docs/research/level7/a/LEDGER.md:75-93;docs/research/level7/a/LEDGER.md:183-185;docs/research/level7/a/LEDGER.md:318-321",
+   "status": "PRIMARY",
+   "date": "2026-06-02",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya 2: 650M, 83.3 olmOCR-bench (best <3B), 91-lang internal 87.2 (38 langs >=90), 5.35 pg/s RTX 5090; code Apache-2.0 but weights modified OpenRAIL-M (revenue cap <$5M) -> licence check before shipping; no language-hint param; 178 s on a Hindi page on 8GB laptop.",
+   "numbers": "83.3; 87.2; 178 s; OpenRAIL-M",
+   "source": "docs/research/level7/a/LEDGER.md:147-162",
+   "status": "PRIMARY",
+   "date": "2026-05-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Chitrapathak-2 (Krutrim): fine-tune Nanonets-OCR2-3B (Qwen2.5-VL) beats LLaVA-from-scratch Chitrapathak-1 on accuracy and 3-6x latency; Telugu char ANLS 6.69 vs 11.00; Parichay 9 govt-doc types 89.8% EM ~1.03 s/doc with rotation-normalisation pre-pass; Tesseract+LLM only 21.22% EM. Covers 10 langs+EN incl Bengali, Odia.",
+   "numbers": "6.69 vs 11.00; 89.8% EM; 21.22%",
+   "source": "docs/research/level7/a/LEDGER.md:117-132",
+   "status": "PRIMARY",
+   "date": "2026-02-18",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "dots.ocr: 1.7B-3B Qwen2.5-VL-based unified parser, 100+ langs incl Kannada/Tibetan, Apache-2.0 (also reported MIT); OmniDocBench composite 88.41 vs Paddle 92.86 in codesota; ledger recommends zero-shot comparison.",
+   "numbers": "88.41; 92.86",
+   "source": "docs/research/level7/a/LEDGER.md:213-222",
+   "status": "PRIMARY",
+   "date": "2025-12-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "MinerU2.5-Pro 1.2B (NaViT-675M + Qwen2-0.5B): 95.69 OmniDocBench v1.6 vs 92.98 for MinerU2.5 via data engineering only (+2.71) -> keep backbone, spend on data.",
+   "numbers": "95.69; +2.71",
+   "source": "docs/research/level7/a/LEDGER.md:201-206;docs/research/level7/a/LEDGER.md:225-230",
+   "status": "PRIMARY",
+   "date": "2026-04-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Chandra (Datalab, Qwen3-VL 9B): 83.1 +/- 0.9 olmOCR-Bench, highest open as of Oct 2025; LightOnOCR-2-1B 76.4 olmOCR-Bench (OldScan 84.7 English); olmOCR-2 Devanagari chrF++ 40.5; olmOCR-2 is English-centric and cannot be the Indic engine.",
+   "numbers": "83.1; 76.4; 84.7; 40.5",
+   "source": "docs/research/level7/a/LEDGER.md:111-116;docs/research/level7/a/LEDGER.md:417-420;docs/research/level7/a/LEDGER.md:741-744",
+   "status": "PRIMARY",
+   "date": "2025-10-22",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Devanagari stress-test (Maheshwari et al.): synthetic chrF++ 91-98 hides differences; on real Hindi scans 9/10 systems collapse; Qwen3-VL-8B 75.2 beats GPT-5.5 58.5 and olmOCR-7B 40.5; report median + catastrophic rate not mean; byte-level post-corrector works only on matched noise, fails cross-engine.",
+   "numbers": "75.2; 58.5; 40.5; 9/10 collapse",
+   "source": "docs/research/level7/a/LEDGER.md:309-312;docs/research/level7/a/LEDGER.md:513-516",
+   "status": "PRIMARY",
+   "date": "2026-06-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "FaithC4 (Amazon): general VLMs rewrite imperfect text (WER +6.9); OCR-specialised VLMs stay faithful (+0.1-3.4) -> use OCR-specialised VLMs for citizen docs.",
+   "numbers": "+6.9 vs +0.1-3.4",
+   "source": "docs/research/level7/a/LEDGER.md:303-308",
+   "status": "PRIMARY",
+   "date": "2026-07-23",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "IIIT-H deployable OCR (ICDAR 2023): CRNN+CTC page OCR for 13 languages beats Tesseract5 and Google Cloud Vision on 8/13 langs; Bhashini catalog has IIITH-OCR-SceneText for 8 langs (as/bn/gu/hi/kn/ml/mni/mr) as production line.",
+   "numbers": "8/13 langs; 8 langs",
+   "source": "docs/research/level7/a/LEDGER.md:351-354;docs/research/level7/a/LEDGER.md:363-366",
+   "status": "PRIMARY",
+   "date": "2023",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Training recipe consensus (MANIFEST): SFT->RLVR universal; fine-tune OCR-specialised VLM > from-scratch; open pool SOTA-competitive since Oct 2025; data engineering > architecture; synthetic+real mixture; restoration pre-pass for OldScan; specialists for low-resource scripts.",
+   "numbers": "",
+   "source": "docs/research/level7/a/MANIFEST.md:32-49",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Candidate bases listed for W6 freeze: PaddleOCR-VL-1.6 (Apache, 0.9B), Qwen2.5-VL family (foundation of dots.ocr/Chitrapathak-2/Chandra/Nanonets), Bodhan IndicOCR; script-router justified by IndicTrans2 5-script design and Poddar optical script ID (12 Indic scripts).",
+   "numbers": "",
+   "source": "docs/research/level7/a/MANIFEST.md:51-53;docs/research/level7/a/LEDGER.md:375-381",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "OmniDocBench v1.6 (2026-04-10) / v1.7 (2026-04-30): 1,355 pages, 9 doc types; PaddleOCR-VL-1.6 96.33-96.34; ledger itself notes Paddle 96.33 vs 96.34 and 92.86 in different sources (minor inconsistency).",
+   "numbers": "1,355 pages",
+   "source": "docs/research/level7/a/LEDGER.md:154-158;docs/research/level7/a/LEDGER.md:1293-1296",
+   "status": "MEASURED",
+   "date": "2026-04-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam Vision 2.1 per-language Indic OCR Bench word accuracy: Santali 53.91, Kashmiri 54.82, Manipuri 85.12, Odia 80.01; OldScan 55.3; high cells Maithili 96.70, Konkani 97.41, Nepali 97.00, Marathi 95.06.",
+   "numbers": "sat 53.91; ks 54.82; mni 85.12; or 80.01; OldScan 55.3",
+   "source": "docs/research/level7/a/LEDGER.md:1257-1260",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Bodhan beats Sarvam on Santali 68.30 vs 53.91; Gemini beats Sarvam on Odia 81.01 vs 80.01; AWS Textract ~0 on most Indic langs. Odia fine-tune must beat Chitrapathak-2 + Gemini 81.01, not just Sarvam.",
+   "numbers": "68.30 vs 53.91; 81.01 vs 80.01",
+   "source": "docs/research/level7/a/LEDGER.md:1188-1191;docs/research/level7/a/LEDGER.md:129-132",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarkar et al. (IIIT-H, ICDAR 2024) Mozhi-LR(S): CRNN+LM char/word acc Kashmiri 87.71/93.80, Ol Chiki Santali 90.60/96.58, Bodo 93.84/97.22, Nepali 82.60/95.13; Sanskrit/Maithili/Konkani share a Hindi model; Hindi model fails on Sindhi/Kashmiri extended chars -> specialist required for Ol Chiki and Kashmiri Perso-Arabic.",
+   "numbers": "ks 87.71/93.80; sat 90.60/96.58; bo 93.84/97.22; ne 82.60/95.13",
+   "source": "docs/research/level7/a/LEDGER.md:345-348;docs/research/level7/a/LEDGER.md:1164-1167;docs/research/level7/a/LEDGER.md:1495-1503",
+   "status": "PRIMARY",
+   "date": "2024-08-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "R2 Nastaliq (via A0-004): QARI CER 0.550->0.061 with 50k pure-synthetic SFT of Qwen2-VL-2B; UTRSet synth-only 75.14% vs real-trained 90.87% (15-pt residual). Mixing rule 40-60k synthetic + 300-500 hand-corrected REAL lines.",
+   "numbers": "0.550->0.061; 75.14 vs 90.87; 40-60k + 300-500",
+   "source": "docs/research/level7/a/LEDGER.md:41-46",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "R3 Ol Chiki/Mayek (via A0-005): synthetic-only SFT reaches classical-OCR parity (Nayana CER 0.227 vs Tesseract 0.206); rescues zero-corpus scripts (Maltese LV-ROVER); correction-stage synthetic beats real (Bourne -55% CER). Synthetic alone caps CER; real data needed for last 5-15 pts.",
+   "numbers": "0.227 vs 0.206; -55% CER",
+   "source": "docs/research/level7/a/LEDGER.md:47-52",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Ol Chiki is a true alphabet (not abugida; glottalization, checked plosives); ledger inference: shared training with abugidas structurally doomed -> specialist-only. Santali also written in Bengali, Odia, Devanagari scripts (sat_14 Bengali-script Santali).",
+   "numbers": "created 1925",
+   "source": "docs/research/level7/a/LEDGER.md:333-336;docs/research/level7/a/LEDGER.md:1494-1497",
+   "status": "DERIVED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ScriptMoE: shared encoder + top-2 script experts + shared expert; PP-OCRv5 end-to-end F1 65.71->80.89 (scene text); Ol Chiki and Meitei Mayek are NOT among its 10 scripts so cannot be used directly for sat/mni.",
+   "numbers": "65.71->80.89",
+   "source": "docs/research/level7/a/LEDGER.md:297-302;docs/research/level7/a/LEDGER.md:525-528",
+   "status": "PRIMARY",
+   "date": "2026-09-21",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Indic-OCR project provides Tesseract models incl Ol Chiki and Meetei Mayek; ledger says include as honest baseline for sat/mni but expect non-competitive.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:339-344",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Meitei Mayek is under-resourced in all modalities (TTS dataset single-speaker, ARPAbet); Warang Citi, Brahmi transliteration noted as watch items for script router.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:1080-1083",
+   "status": "UNKNOWN",
+   "date": "2025-08-09",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan: olmOCR-Bench Surya-2 OldScan sub-score 42.8; Sarvam 2.1 own OldScan 55.3 on Indic bench; ledger claims no Indic engine crosses 60 on OldScan. R4 mandate: ablation chain A0 none / A1 deskew+Otsu / A2 Sauvola-frozen / A3 DocRes-head pilot n<=8; adopt bar median dCER <= -0.03, 95% bootstrap CI, >=2/3 frozen engines; DIBCO is Latin/Greek only.",
+   "numbers": "42.8; 55.3; dCER<=-0.03",
+   "source": "docs/research/level7/a/LEDGER.md:53-58;docs/research/level7/a/LEDGER.md:375-378",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Restoration SOTA catalogue (all English/Chinese-measured, none Indic): DocRes CVPR24 (5 tasks), Uni-DocDiff, DocDiff (4.17M HRR), TextSR, DocRevive (30,078 synthetic degraded images), UniT, DvD, D2Dewarp, SauvolaNet+DE-GAN lead DIBCO17; Hybrid dewarp median CER 0.0235 IWILT; warp is weakest distortion (Real5 91.25).",
+   "numbers": "0.0235; 30,078; 91.25",
+   "source": "docs/research/level7/a/LEDGER.md:1560-1620;docs/research/level7/a/LEDGER.md:405-410",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "PreP-OCR (arXiv 2505.20429) reframes pipeline as restoration + semantic post-OCR correction; ledger proposes Stage 0 + Stage 3b fusion.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:273-276",
+   "status": "PRIMARY",
+   "date": "2025-05-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Post-correction: Scrambled-text (Bourne, IJDAR 2025) synthetic-corruption trained LM cuts Hindi OCR median CER 55% and WER 32% vs base LM and beats real-data training; corruption distribution matters. BHASHA 2025 GCN verifier (ResNet-50 + 3-conv GCN) helps conjunct-heavy Hindi.",
+   "numbers": "-55% CER; -32% WER",
+   "source": "docs/research/level7/a/LEDGER.md:651-656;docs/research/level7/a/LEDGER.md:471-474",
+   "status": "PRIMARY",
+   "date": "2025-06-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "PaddleOCR-VL-1.6 ablation: CPT +0.69, SFT +0.63 more, RL only +0.08 (94.93->96.33). RLVR only after SFT plateau.",
+   "numbers": "+0.69; +0.63; +0.08",
+   "source": "docs/research/level7/a/LEDGER.md:81-86",
+   "status": "MEASURED",
+   "date": "2026-06-02",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "olmOCR-2: 1 epoch SFT then 1 epoch GRPO with binary unit-test rewards (HTML element presence + read-order tests); verifiable unit tests > learned reward model.",
+   "numbers": "1 ep SFT + 1 ep GRPO",
+   "source": "docs/research/level7/a/LEDGER.md:93-99",
+   "status": "PRIMARY",
+   "date": "2025-10-22",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "R7 W6 training tree binding decisions: SFT allow-list = human pairs + synthetic only; PDF-layer GT per-language only after sec 6.4 + 6.2 pass; sarvam_fill NEVER trains; RLVR on human-verified gold ONLY after sec 6.6 no-inversion.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:59-62",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Probe scorer law (A0-008): n=1227 over 18 langs 100/lang; per-row uncapped CER + cer_100_count, single denominator, empty pred = CER 1.0; raw-vs-normalized ablation 0.6707 vs 0.6692 (delta 0.0015) gates RLVR scorer.",
+   "numbers": "0.6707 vs 0.6692",
+   "source": "docs/research/level7/a/LEDGER.md:65-67",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "SimPO (reference-free, half the memory of DPO) proposed as cheaper DPO replacement for Stage 3b preference tuning.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:206-213",
+   "status": "PLAN",
+   "date": "2024-05-23",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Inference cost refs: Mistral OCR 3 $2/1000 pages ($1 batch); Sarvam doc API Rs0.5/page (Jun-2026 67% price cut); Bodhan Rs0.20/image; Krutrim Chitrapathak Rs83.6/1M in, Rs34.53/1M out; DeepSeek-OCR 64-400 vision tokens, 11.3x compression, 89.8% OmniDocBench.",
+   "numbers": "$2/1000; Rs0.5/page; Rs0.20/img",
+   "source": "docs/research/level7/a/LEDGER.md:393-396;docs/research/level7/a/LEDGER.md:1224-1227;docs/research/level7/a/LEDGER.md:882-885",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Constraints recorded in ledger harness_fact: 'WRAP only - no GPU W6 fine-tune of closed weights; open weights + local QLoRA only'; 'no training until W6 freeze'; offline-capable; no paid keys; 200-dpi citizen docs.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:123-126",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam Indic OCR Bench (sarvamai/indic-ocr-bench): 6,909 blocks (6,609 Indic + 300 EN), 22 langs + EN, word accuracy = 100x(1-WER); fetch requires user approval per sec 9 hard rule. v1 blog quoted 20,267 samples.",
+   "numbers": "6,909; 20,267 (v1)",
+   "source": "docs/research/level7/a/LEDGER.md:1218-1221;docs/research/level7/a/LEDGER.md:1257-1260;docs/research/level7/a/LEDGER.md:242-245",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "MANIFEST open item: data label audit - machine-GT trust scores (ne BARRED 26.6; ks/mr/gu/ur VERIFY-FIRST per R5).",
+   "numbers": "ne 26.6",
+   "source": "docs/research/level7/a/MANIFEST.md:60",
+   "status": "OPEN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam admits (TOI) bench != real-world utility: earlier version struggled with complex docs + hallucinations; trained on real+synthetic mix; ranked 2nd to PaddleOCR on structure-preservation.",
+   "numbers": "87.3%",
+   "source": "docs/research/level7/a/LEDGER.md:1212-1215",
+   "status": "PRIMARY",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Evaluation discipline: report median + catastrophic-repetition rate; synthetic chrF++ hides differences; word-acc vs CER caveats; pin Surya version/backend (v0.20 breaking API).",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:309-312;docs/research/level7/a/LEDGER.md:153-158",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Competitive matrix on Indic OCR Bench: Sarvam 2.1 87.39 / Bodhan 84.94 / Gemini 3.6 Flash 79.35 / GCV 71.76; Sarvam Vision v1: Hindi 95.91, Bengali 92.61, Tamil 93.42, Telugu 87.70 beating Gemini 3 Pro, GCV, Opus 4.5.",
+   "numbers": "87.39/84.94/79.35/71.76; bn 92.61",
+   "source": "docs/research/level7/a/LEDGER.md:1269-1272;docs/research/level7/a/LEDGER.md:242-245",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Cost: Sarvam Rs0.5/page, 5,344 test pages ~ Rs2,672 (~$32); Bodhan Rs0.20 x 1,227 probe ~ Rs245; 54-call cap = free-trial only; full-bench API compare needs budget sign-off.",
+   "numbers": "Rs2,672 (~$32); Rs245",
+   "source": "docs/research/level7/a/LEDGER.md:882-885;docs/research/level7/a/LEDGER.md:1224-1227",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam funding $75M Series B 2026-08-04 at $1.43B valuation, total $350M; strongest funded Indic OCR rival. Bhashini LEAP hackathon PS-2 winners Multilipi, runner-up Soochna Sahayak; monitor Bimla series for AksharDrishti Stage-1 announcements.",
+   "numbers": "$75M; $1.43B; $350M",
+   "source": "docs/research/level7/a/LEDGER.md:699-702;docs/research/level7/a/LEDGER.md:1043-1046",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Govt-doc demo pattern: rotation pre-pass + schema prompt + task fine-tune (Chitrapathak-2 Parichay); jury judging 'technical feasibility' - use VRAM/throughput rows (Paddle ~2GB, 45 pg/min).",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:123-126;docs/research/level7/a/LEDGER.md:327-330",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Stage 3 LLM options (noisy OCR -> JSON): Krutrim-2 12B (MMLU 0.63, HellaSwag 0.83), Gemma4 31B beats Sarvam 30B on L3Cube-IndicQuest v2 (19 langs, 69,420 QA), IndicBERTv2 270M/1B/4B.",
+   "numbers": "MMLU 0.63; 69,420 QA",
+   "source": "docs/research/level7/a/LEDGER.md:447-452;docs/research/level7/a/LEDGER.md:1026-1029",
+   "status": "PRIMARY",
+   "date": "2026-08-15",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Normalisation tools: Aksharamukha (GPL 3.0, 120+ scripts) and IndicNLP normalizer (MIT: nukta decomposition, ZWJ/ZWNJ removal) proposed for GT/cross-script normalisation; error tags matra_order, conjunct, repetition, hallucination.",
+   "numbers": "GPL 3.0; MIT",
+   "source": "docs/research/level7/a/LEDGER.md:1126-1141;docs/research/level7/a/LEDGER.md:1665-1668",
+   "status": "PLAN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W1 locked challenger recipe: harness-with-VLM + fine-tune OCR-specialised VLM + SFT->RLVR + progressive curriculum (word->line->block->page) + specialist router for Santali/Kashmiri/Meitei/Nastaliq.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:29-34",
+   "status": "DECISION",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MANIFEST open questions for W6 freeze: base model, recipe (CPT->SFT->RLVR vs fine-tune), specialists via synthetic-first + real anchor, restoration A0-A3, Stage 3 LLM, post-correction, evaluation, inference cost, Indic OCR Bench fetch approval, GT label audit.",
+   "numbers": "",
+   "source": "docs/research/level7/a/MANIFEST.md:49-60",
+   "status": "OPEN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ledger headline: 984 records (979 with all 10 sec 9 fields); MANIFEST upgrade date 2026-09-29; ledger date 2026-09-27; Sarvam is the benchmark target not a routable pipeline component.",
+   "numbers": "984 records",
+   "source": "docs/research/level7/a/MANIFEST.md:5-9",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Ledger contains no handwritten-Bengali-word evidence (no IIIT-INDIC-HW-WORDS, PARSeq-HW, WRR numbers): plan v4 handwriting claims (96.10 WRR, Bodhan-HW bench) are not corroborated in Lane A; only ICDAR23 IHTR 95.94% char acc (LEDGER:186-197) and Bodhan HW 12 langs (:882).",
+  "Plan v4 Page Expert depends on Bodhan; ledger says Bodhan explicitly targets sat/ks/mni and wins Santali 68.30 (:912, :1188) but licence is 'Apache/Indic Open Model License' (:876) - licence must be verified; Surya weights OpenRAIL-M revenue cap (:147).",
+  "Plan lacks specialist router for weak cells (Santali Ol Chiki specialist-only, Kashmiri Perso-Arabic Nastaliq, Meitei Mayek) with R2/R3 mixing rule 40-60k synthetic + 300-500 real lines (:41-52).",
+  "Plan lacks OldScan restoration ablation chain A0-A3 with adopt bar dCER<=-0.03, 95% CI, >=2/3 engines (:53-58) and dewarp/DocRes pre-pass (Real5 warp weakest 91.25, :183-185).",
+  "Post-correction must be trained on OUR engine's noise distribution (cross-engine byte-level corrector fails, :513-516) and synthetic corruption beats real (:651-656); plan's generic 'post-correction' is underspecified.",
+  "Evaluation discipline missing: median + catastrophic repetition rate, uncapped CER, single denominator, empty pred = CER 1.0, raw-vs-normalised ablation 0.6707 vs 0.6692 (:65-67, :309-312).",
+  "RLVR sequencing: only after SFT plateau (+0.08 in Paddle ablation, :81-86); W6 allow-list: sarvam_fill never trains, RLVR on human-verified gold only (:59-62).",
+  "Cost/competition rows for jury: 5,344 test pages ~ Rs2,672 on Sarvam (:1224), Mistral OCR 3 $2/1000 (:393) - not in plan.",
+  "Scene-text/Hindi word datasets (IndicSTR12 1,083 imgs, Bharat Scene Text 27k words) suggest word-level precedent and synthetic-trained PARSeq recipe (:603, :1371)."
+ ],
+ "contradictions": [
+  "OldScan: A1-019 (LEDGER:183-185) says olmOCR-2 sub-scores 82.2/82.6/82.4 on OldScan/Base/Hard while A1-051 (:375-377) says OldScan 42.8, Base 99.7, Hard 56.7 for olmOCR-Bench; 42.8 is attributed to a Surya card (:153-158) yet used as generic OldScan figure.",
+  "dots.ocr size/licence inconsistent: 1.7B Apache-2.0 (:213), 1.7B MIT (:321), 3B (:219, :762) ; OmniDocBench 88.41 vs Paddle 92.86 (:219) vs 96.33 elsewhere.",
+  "DeepSeek-OCR compression stated as 10x, 11.3x and 16x across records (:171,:271,:294).",
+  "LightOnOCR-2 arXiv 2601.14251 dated 2026-06-30 (:417) vs Jan 2026 id; Sarvam 87.3 vs 87.39 (:1204-1209).",
+  "Bench size 6,909 blocks (:1218) vs 20,267 samples for Sarvam Vision v1 (:242) - different versions, not reconciled.",
+  "Ledger says 'no Indic engine crosses 60 on OldScan' (:378) but Bodhan/Gemini OldScan scores are not recorded."
+ ],
+ "open_items": [
+  "ICDAR 2025 IHDR winner and scores not recorded (:190-193).",
+  "Indic OCR Bench fetch needs user approval (MANIFEST:59; LEDGER:1218).",
+  "Machine-GT trust audit (ne barred 26.6; ks/mr/gu/ur verify-first) unresolved (MANIFEST:60).",
+  "Bodhan and Gemini per-language OldScan/Bengali handwriting scores not in ledger.",
+  "Per-page cost equivalents for Krutrim token pricing not computed (:135-138)."
+ ]
+}

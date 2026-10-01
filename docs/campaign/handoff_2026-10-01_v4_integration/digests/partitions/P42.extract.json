@@ -1,0 +1,573 @@
+{
+ "partition": "P42",
+ "files": [
+  {
+   "path": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex",
+   "total_lines": 544,
+   "fully_read": true
+  },
+  {
+   "path": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex",
+   "total_lines": 615,
+   "fully_read": true
+  },
+  {
+   "path": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex",
+   "total_lines": 651,
+   "fully_read": true
+  },
+  {
+   "path": "docs/sources/consensus/README.md",
+   "total_lines": 11,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Consensus files are summaries, not primary: any number must be verified against the cited paper (DOI) before entering RESEARCH_DECISIONS, plan or slides; licence personal non-commercial, never publish/attach.",
+   "numbers": "3 queries; sha256 all MATCH",
+   "source": "docs/sources/consensus/README.md:3",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Q1 feeds proto-89 Day2-3 and proto-100 B-01/B-13; Q2 feeds B-03/04/05/06/12, U13, RQ-6, RQ-10; Q3 feeds B-07/08/11, RQ-8, proto-80 metrics, Gate 1; processing order in proto-105.",
+   "numbers": "old 22-query #1-5,#21,#22 / #6-12 / #13-20",
+   "source": "docs/sources/consensus/README.md:7-9",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QARI-OCR (Qwen2-VL-2B, rank-16 LoRA on vision+language modules, optional 4-bit) reached 6.1% CER on diacritic-rich Arabic, open-source SOTA.",
+   "numbers": "6.1% CER; rank 16",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:304,331",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "4-bit LoRA on Qwen2.5-VL cut Arabic CER 29% on modern print and beat standard OCR engines on KITAB-Bench.",
+   "numbers": "29% CER reduction",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:331",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "AtlasOCR: 3B Qwen2.5-VL with QLoRA, synthetic+real, challenges larger Arabic-family systems.",
+   "numbers": "3B",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:331",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Initialization dominates data efficiency: Indic printed OCR same-language pretrain 92% WRR vs cross-lingual 51% vs random 6% (Q2 gives 92.35/51.93/6.01 for Hindi-pretrained, Punjabi target).",
+   "numbers": "92 / 51 / 6 % WRR",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:334",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Chitrapathak-2 (fine-tune of OCR-specialised model) beat an end-to-end generic VLM trained on more data: OCR priors lower labelled-data needs.",
+   "numbers": "qualitative",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:334",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Cross-script Arabic-script HTR helps at 100-1000 labelled lines; Persian reached 9.99 CER without full target data; benefits shrink as target data grows.",
+   "numbers": "100/500/1000 lines; 9.99 CER",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:334,350",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Quantization: 4-bit LoRA usually preserves quality but few controlled 4-bit vs 8-bit vs full-FT OCR ablations exist; largest gains come from model choice and data realism, not quantization. Evidence 6/10.",
+   "numbers": "Moderate 6/10",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:362,455",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Synthetic-only can transfer if degradations realistic: Manchu VLMs trained on 60,000 synthetic words kept 87-93% real-document word accuracy; CRNN baseline collapsed on scans.",
+   "numbers": "60,000 words; 87-93%",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:374",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Devanagari: clean-render benchmarks cluster tightly but 9 of 10 systems collapse on real scans; EasyOCR chrF++ 93.6 -> 58.3; 76-point spread; synthetic-only eval overstates quality.",
+   "numbers": "93.6 -> 58.3; 76 pts; 9/10",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:376",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Mixed synthetic+real beats synthetic alone: Baseer 300k synthetic + 200k real mixture and Cross-Lingual SynthDocs beat base Qwen variants, narrowed gap to Gemini on Arabic OCR.",
+   "numbers": "300k synth + 200k real",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:376",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "RLVR: LightOnOCR-2-1B uses RLVR against repetition loops, format failures, layout consistency, plus checkpoint averaging/task arithmetic; evidence for CER gains in low-resource Indic is weak (4/10); hard-example mining for CER 2/10.",
+   "numbers": "RLVR 4/10; mining 2/10",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:403,455-456",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "OCR-aware SFT with large synthetic multilingual data cut hallucination 18.3% -> 5.5% and raised OCR completeness 71.3 -> 84.6.",
+   "numbers": "18.3->5.5; 71.3->84.6",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:403",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Frontier proprietary models still lead many real-scan multilingual evals (Gemini best on Pashto, among strongest on Devanagari); GlotOCR: all systems degrade sharply beyond well-covered scripts, most low-resource scripts below 10% acceptance.",
+   "numbers": "<10% acceptance",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:407",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Chitrapathak-2 near Gemini-2.5 Flash on nine Indic languages, SOTA Telugu, faster than generic VLM; struggles on forms/index layouts (ordering, missed/merged lines).",
+   "numbers": "9 languages",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:407; docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:519",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Label budget: extreme low-resource Indic treats <10,000 real images as ceiling, supplements with <250,000 synthetic; few-shot 5 samples/class works for characters but full OCR needs hundreds of lines or thousands of word images unless strong pretrained OCR exists.",
+   "numbers": "<10k real; <250k synth",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:470",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Label cleaning alone improves Arabic-script HTR CER by up to 1.8 points (human-in-the-loop label error detection) -> relevant to noisy GT/IIIT-HW labels.",
+   "numbers": "up to 1.8 CER pts",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:470",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Evidence strengths Q1: domain-adapted small VLMs reduce Arabic error 8/10; synthetic necessary but insufficient 8/10; 4-bit LoRA 6/10; RLVR 4/10; hard-example mining 2/10. Indic evidence weaker than Arabic, mostly WRR/ANLS not CER.",
+   "numbers": "8,8,6,4,2 /10",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:455-459",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Q1 open questions unresolved: 4-bit vs 8-bit on real scans; min synthetic/real mix per script; whether RLVR reduces CER or only hallucination/format failures.",
+   "numbers": "3 open Qs",
+   "source": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:520-530",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Urdu printed Nastaliq lowest CER: Efficient CRNN (separable conv+BiGRU+CTC) 0.91% CER, 1.49% WER on 245,000-line synthetic multi-font corpus; older MDLSTM 94.97% acc, CNN+MDLSTM UPTI 98.12% acc.",
+   "numbers": "0.91% CER; 1.49% WER; 245,000 lines",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:425,431",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Urdu handwritten SOTA: ET-Network 5.27% CER / 19.09% WER on NUST-UHWR, UPTI2.0, MMU-OCR-21; BharatOCR paragraph CRR 96.24/92.05/94.80.",
+   "numbers": "5.27 CER; 19.09 WER",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:433",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri Nastaliq: no paper in corpus reports direct end-to-end CER; only synthetic corpora and Urdu-like cross-domain support (R2 gap confirmed).",
+   "numbers": "none",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:436",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Hindi handwritten words: augmented CRNN with synthetic half-characters/conjunct-rich words 2.14% CER / 7.96% WER vs ResNet-50 3.27/11.82; few-shot Hindi ResNet-Transformer 6% CER / 13.0% WER.",
+   "numbers": "2.14/7.96; 3.27/11.82; 6/13.0",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:442",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2023 Indic HTR competition winner averaged 95.94% CRR and 88.31% WRR across ten languages (page-scale); PLATTER two-stage page HTR flags evaluation inconsistency, detection and data scarcity.",
+   "numbers": "95.94 CRR; 88.31 WRR; 10 languages",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:446",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "PARSeq-style transfer models are strongest across most of ten Indic handwriting benchmarks, with benefit from printed->handwritten transfer; SemiHastakshar shows small labelled + large unlabelled pools improves cross-writer robustness.",
+   "numbers": "PARSeq SOTA most of 10 langs",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:448",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Eight-script Indic word recognition best 1.5% CER in Kannada (CNN-Transformer); no Bengali-specific number in the corpus.",
+   "numbers": "1.5% CER Kannada",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:457",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Ancient Devanagari/Maithili hybrid CNN-RNN 96.97/95.83% char acc; semi-self-supervised +2.27/+3.48 over prior SOTA with 5% labels + 60% unlabeled.",
+   "numbers": "96.97/95.83; +2.27/+3.48",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:458,468",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Ol Chiki: only handwritten digit recognition (stacked CNN+SIFT 99.13% val acc, 5,200 samples); no full-line OCR evidence. Meitei Mayek: no OCR benchmark at all.",
+   "numbers": "99.13%; 5,200 samples",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:473-478",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia: only isolated/compound character accuracy (DenseNet-121 96.64%, EfficientNet-B0 92.29% cross-writer, CNN 95.6%, compound 86.56-88.76% on 112-120 classes); no CER; printed Odia nested CNN best without number.",
+   "numbers": "96.64; 92.29; 95.6; 86.56-88.76",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:480-484",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surveys: coverage highly uneven; mature for Devanagari, Bangla, Telugu, Urdu; sparse for lesser-resourced scripts. Gap table rows all GAP for Urdu Nastaliq, Odia, Ol Chiki, Govt forms, Degraded scans.",
+   "numbers": "qualitative",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:486,490-500",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Degraded classical Sanskrit print: attention-LSTM with synthetic augmentation 3.71% CER / 15.97% WER; archived Indian govt docs fine-tuned TrOCR+line detection+SymSpell 7.01 CER / 14.21 WER (proprietary val set).",
+   "numbers": "3.71 CER; 7.01 CER",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:420,536",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Forms: Parichay 89.8% exact match on nine govt document types with ~21,000 annotated samples (not CER); YOLO layout+CNN recognizer CER 0.01 Devanagari vs 0.63 PP-OCRv3 with tables.",
+   "numbers": "89.8% EM; 21,000; 0.01 vs 0.63",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:514-519",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Adaptive OCR engine selection across 15,000 govt documents improved accuracy 23.7% over single engine; TC-OCR 78% acc (~25% over Table Transformer); ClusTi F1 87.5-98.5%.",
+   "numbers": "23.7%; 15,000 docs",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:521",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Label-free domain adaptation of Indic printed OCR: Hindi 92% WRR, Kannada 93%, Punjabi 77% on degraded targets, far above EasyOCR/Tesseract; Hindi-init 92.35 vs cross-lingual Punjabi-init 51.93 vs scratch 6.01 WRR.",
+   "numbers": "92/93/77; 92.35/51.93/6.01",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:540",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Restoration before OCR (R4 evidence): PreP-OCR cut CER 63.9-70.3% relative on 13,831 real historical pages (restoration + post-OCR correction); NAF-DPM deblur CER 1.55 vs DocDiff 2.78, Hradis 5.44, DE-GAN 6.87.",
+   "numbers": "63.9-70.3%; 13,831 pages; 1.55",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:567-569",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Restoration on forms/receipts: template-guided tax-form restoration CER 0.1091, +4.15 to +18.05 pts word coverage on 37 docs; retail bills CER 18.4% (26.4% better than raw Tesseract, WER -31.2%); receipts up to 11-pt CER drop; Tesseract 0.134 -> 0.616 (+359%); deskew/layout +23%.",
+   "numbers": "0.1091; 37 docs; 18.4%; 0.134->0.616",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:572-573",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Restoration caveat: Garhwali super-resolution helped low-res pages (87.44% ImageMagick+SR) but hurt high-res (88.13% Otsu without SR) -> restoration must be conditional; manuscripts 10-20 pt acc gain, 10-25% CER reduction; BiLSTM-CycleGAN +23.32% Tesseract word acc; geometric cleanup +2.8%.",
+   "numbers": "87.44 vs 88.13; +23.32%",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:597-599",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Q2 bottom line lowest CERs: 0.91% printed Urdu, 5.27% handwritten Urdu, 2.14% handwritten Hindi words, 3.71% degraded Sanskrit; Odia/Ol Chiki/Meitei under-benchmarked; biggest open question is low-CER on truly low-resource scripts and real degraded pages.",
+   "numbers": "0.91/5.27/2.14/3.71",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:612",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Real degraded Devanagari scans: open Qwen3-VL-8B outperformed GPT-5.5 on script-specific benchmark (model scale not decisive).",
+   "numbers": "Qwen3-VL-8B > GPT-5.5",
+   "source": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:542",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Layout analysis is a prerequisite for multilingual Indian OCR; word/line-level script handling needed because whole-line monoscript assumptions fail; evidence strength 8/10; IndicDLP gives Indic layout data; reading order now supervised (dots.ocr) but rarely measured on Indian pages.",
+   "numbers": "8/10",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:451-462,607",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Multi-engine fusion (TrOCR+Tesseract+EasyOCR) beats any single constituent in aggregate, but not necessarily the best tuned engine; raw OCR confidence is an unreliable proxy for correctness (Indian medical docs). Evidence 6/10.",
+   "numbers": "6/10",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:474-475,613",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "LM post-OCR correction CER: Hindi 10.20 -> 6.73, Gujarati 6.10 -> 1.39, Marathi 8.19 -> 3.29; Sanskrit post-correction +23 pts (byte-level + phonetic); RoundTripOCR millions of synthetic correction pairs for Hindi/Marathi/Nepali/Konkani/Bodo/Sanskrit.",
+   "numbers": "10.20->6.73; 6.10->1.39; 8.19->3.29; +23 pts",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:479",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Post-corrector transfer caveat: a Devanagari byte-level post-corrector helped a cheap engine on matched noise but did not transfer across engines -> corrector must be trained per engine noise.",
+   "numbers": "not transferable",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:479",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Same-script language ID: IndicLID native-script covers 22 languages; Devanagari-family XLM-R+BiLSTM F1 0.9974 (text); Bangla script shared by Bengali, Assamese, Manipuri - OCR-page evidence absent, evidence 3/10; claim 'solved for OCR pages' rated weak.",
+   "numbers": "F1 0.9974; 3/10",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:482-484,614",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Structured outputs: IndicOCR 22-language pipeline (LID, segmentation, recognition, post-correction); bbOCR Bengali layout+HTML reconstruction; few papers standardise provenance, confidence semantics or evaluation of JSON/PDF reconstruction.",
+   "numbers": "22 languages",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:491,640",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Fair evaluation: report CER and WER plus normalized edit distance/ANLS/chrF++; low CER can coexist with poor word formation; Unicode NFC normalization and script purity at data creation; median plus catastrophic-failure rate, not just mean; evidence 9/10.",
+   "numbers": "9/10; NFC",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:493-497,611",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Benchmark builders avoid contamination/circularity using human-reviewed sources and expert-corrected GT; release tools/configs; no single OCR paradigm dominates across printed/structured/handwritten/multilingual.",
+   "numbers": "qualitative",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:499",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Benchmark conclusions can flip between rendered pages and real scans (Devanagari stress test); production papers often omit normalization detail.",
+   "numbers": "qualitative",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:611",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Top contributors in Indic OCR corpus: C. V. Jawahar (IIIT-H), A. Ramakrishnan, U. Pal; Chitrapathak/Parichay are the production-OCR-for-India anchors.",
+   "numbers": "3 authors",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:545-550",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Q3 conclusion: best design = layout-aware, script/language-routed, post-corrected pipeline evaluated on real scans with multiple metrics; weakest evidence: same-script LID in OCR and confidence-only fusion.",
+   "numbers": "qualitative",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:629",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Q3 open questions: LID Hindi/Marathi/Sanskrit/Nepali/Bengali/Assamese from noisy page images; evaluating reading order + JSON reconstruction; when fusion beats best single engine after calibration and post-correction.",
+   "numbers": "3 open Qs",
+   "source": "docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:637-646",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 uses ICDAR'23 Bengali best 96.10 WRR; this corpus only gives the 10-language average 95.94 CRR / 88.31 WRR (Q2:446) - cite per-language source, and do not read average as Bengali.",
+  "Corpus has no Bengali handwritten word CER; best per-script handwriting numbers are Kannada 1.5% CER, Hindi 2.14% CER (Q2:457,442). Plan's HW2 gate (>=92%) lacks an external anchor in these files.",
+  "Label noise: cleaning labels alone gave up to 1.8 CER pts (Q1:470); plan has HW0 leak gate but no label-error detection/cleaning step on IIIT-HW train.",
+  "PARSeq-style printed->handwritten transfer benefit (Q2:448) supports plan's PARSeq choice; semi-supervised use of unlabeled writers (SemiHastakshar, Q2:448) is not in plan.",
+  "Post-correction must be per-engine: Devanagari byte-level corrector did not transfer across engines (Q3:479); plan's single post-correction layer needs Bengali-specific, per-expert noise training; word-level handwritten input gives little context for LM correction (inference).",
+  "Restoration (R4) is conditional: SR helped low-res, hurt high-res (Q2:598); plan lacks conditional-restoration gate; PreP-OCR 63.9-70.3% CER gain applies to pages (Page Expert), not 5,344 word crops.",
+  "Evaluation: plan should add median + catastrophic-failure rate, CER and WER together, NFC normalization (Q3:493-497,611); real-scan (not synthetic) validation required (Q1:376).",
+  "Confidence-based fusion: raw confidences unreliable (Q3:474); plan's expert routing/Tesseract fallback needs calibration against held-out writers.",
+  "Same-script LID Bengali vs Assamese vs Manipuri is unsolved in OCR (Q3:484,614); plan's per-script routing must not assume script==language for the 22-language product.",
+  "Weak cells sat/ks/mni/or have zero CER-level published evidence (Q2:473-484); any plan claim for them must come from own synthetic/R3 pipeline and be labelled UNKNOWN until measured.",
+  "Synthetic-only data overstates (Q1:376); Ol Chiki/Mayek synthetic (R3) needs a real-scan validation set, and mixed synthetic+real (300k+200k Baseer) is the evidence-backed recipe.",
+  "RLVR/hard-example mining have weak evidence for CER (Q1:455-456); plan should not budget compute on them as CER levers.",
+  "All Consensus numbers are unverified summaries (README:11); plan must open cited papers before quoting."
+ ],
+ "contradictions": [
+  "Q1:334 says cross-lingual pretrain 51% WRR vs Q2:540 51.93 for cross-lingual Punjabi-init: same paper (Manna2025), consistent, but Q1 rounds numbers.",
+  "Q2:420/536 give '7.01 CER' without percent sign for archived govt docs vs 3.71% elsewhere; units ambiguous.",
+  "Plan's Bodhan/IIIT-HW numbers (74.8/71.3/58.3; 96.10) are not in these files; unverifiable from this partition."
+ ],
+ "open_items": [
+  "Verify per-language Bengali WRR in ICDAR'23 paper (Mondal2023) vs plan's 96.10.",
+  "Q1 open: 4-bit vs 8-bit LoRA on real scans; min synthetic/real mix per script; RLVR effect on CER.",
+  "Q3 open: same-script LID on noisy pages; reading-order/JSON eval; fusion vs best single engine after calibration.",
+  "No Meitei Mayek, Ol Chiki full-line, Kashmiri Nastaliq CER evidence exists in corpus."
+ ]
+}

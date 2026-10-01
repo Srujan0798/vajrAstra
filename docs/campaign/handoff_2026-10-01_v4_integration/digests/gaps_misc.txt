@@ -1,0 +1,1147 @@
+GAPS:
+P01: Plan v4 doesn't use the K1-K4 kill-criteria framework (McNemar p<0.05, gap >3pt, Wilson CI, min n 30/50, memory/install gate); HW0-HW2 gates lack statistical-significance and n thresholds (KILL_CRITERIA.md:38-47,99-118)
+P01: Plan v4 has no per-item-pass definition or paired test; prior eval used CER<0.5 binary McNemar two-sided exact (KILL_CRITERIA.md:238)
+P01: GT trust/barred-language discipline (sec 6.4, R5 trust, sarvam_fill never for SFT, RLVR gold only) is absent from v4; ks/mni/mr/sat/ur/ne-PDF barred (FINAL_VERDICT:55-77,152-156)
+P01: Weak cells sat/ks: no engine emits Ol Chiki, ks Nastaliq GT fragmented; v4 should adopt 600k-ks-ocr (602k synthetic, CC-BY-4.0, 10.6GB) and sat synthetic route rather than micro-repair of 5-10 pages (W6_QLORA_SPEC:240-247,K:198)
+P01: Earlier pipeline wins: surya best non-Sarvam CER 0.3849 and per-lang routing (kok/pa/or tess_i etc.); v4's Tesseract fallback ignores that tess_i beats surya on or (K:55) and surya lacks sat (FINAL_VERDICT:126)
+P01: Sarvam 87.39 declared TRANSFER-DEAD; v4 cites ~86.4 word-acc on Sarvam bench as target - same transfer risk (K:41,208)
+P01: Compute stance: earlier work assumed $0, local M2 Max MLX 24-32GB, QLoRA ~3h; v4 PyTorch training budget/hardware not reconciled (W6_QLORA_SPEC:63-72,194; FINAL_VERDICT:135)
+P01: Smoke-test (5 items) and abort if >2x wall-clock, plus K1 McNemar closure eval before adopting an adapter, are missing from v4 HW gates (W6_QLORA_SPEC:219; K:212)
+P01: Alternate backbone candidates LightOnOCR-2-1B, PaddleOCR-VL 1.6 (96.33 OmniDocBench), GLM-OCR-0.9B not weighed against Bodhan IndicBlockOCR (W6_QLORA_SPEC:53-57,231-267)
+P01: OldScan 55.3 restoration lane unmeasured; v4 has no restoration preprocessing step despite being the only cross-language weak cell with direct lane (W5_FREEZE_AGENDA:108-112)
+P01: Scorer integrity fixes (empty preds count as CER 1.0, uncapped CER, single denominator) must carry into v4 harness (FINAL_VERDICT:81-90)
+P02: Plan v4 ignores the 'internal probe vs official benchmark are different evals' root finding (H48_HOSTILE_PASS.md:113): HW gates (92% IIIT val, 85% independent writers) are internal-proxy gates; need an explicit mapping from them to the 5,344-image official score.
+P02: Plan v4 lacks an eval-discipline block: Wilson 95% CI on every cell, McNemar exact on paired items, coverage vs conditional CER separately, no winner claims n<50 (PROMPT_ENGINE_AGENT.md:42; H48_HOSTILE_PASS.md:182).
+P02: Plan v4 cites competitor numbers (Gemini 74.8/Bodhan 71.3/Sarvam 58.3, ICDAR'23 96.10 WRR, Sarvam 86.4) without transfer obituaries; the campaign's obituary law makes cross-harness numbers DEAD-for-decisions until proven to transfer (H48_HOSTILE_PASS.md:71,179; PROMPT_ENGINE_AGENT.md:44).
+P02: Kill criteria absent from plan: K1 (T1=0.05 McNemar, T2=0.03 CER gap) killed mai and or QLoRA and kept kok/pa; K2 killed ks micro-repair; plan v4 has no analogous per-script kill gate beyond HW2 (FIX_SPECS_R2_LEADERBOARD.md:284-318; HUMAN_SPOTCHECK_PACKET.md:54).
+P02: Weak-cell script facts not in plan: only sarvam_vision emits Ol Chiki/Mayek; every open engine emits Latin/Ethiopic/Thai garbage on sat and mni; ks/Nastaliq is readable by surya only; plan v4's R3 Ol Chiki/Mayek synthetic path must be justified against 0 open-engine capability (H48_ENGINE_SPOTCHECK.md:14-24; H48_HOSTILE_PASS.md:105-111).
+P02: GT barred set (ks, mni, ur, sat, mr, ne PDF-tier) means any evaluation/training on those cells is invalid until independent GT exists; plan v4 should state an independent-GT requirement per weak cell and use script-adherence (>=0.95) and honest-empty as separate metrics (FIX_SPECS_FOR_MISS.md:92-98; H48_HOSTILE_PASS.md:182).
+P02: Surya runner bug / honest-empty semantics: engine comparisons on sa (OldScan proxy, 4250x6500 scans) are invalid for surya; plan's printed-expert comparisons must treat honest-empty as MISSING and keep a script-correct column (H48_ENGINE_SPOTCHECK.md:42-51).
+P02: Plan v4 omits the tesseract-family byte-identical trio (340/1313 packs) which collapses engine counts; any ensemble/fallback evaluation must dedupe tesseract_bilingual/tesseract_indic/openbharatocr (FIX_SPECS_R2_LEADERBOARD.md:101-115).
+P02: Compute envelope for local training is concrete in this partition (24 GiB laptop, 8-16GB QLoRA peak, kill >24GB, 1.10GB strict free) while plan v4 assumes PyTorch portable training with no compute budget/kill threshold stated (FIX_SPECS_R2_LEADERBOARD.md:185-216).
+P02: Human verification: stamped 30s/item spot-checks were judged worse than none; plan G-2.5 'Vinay OK' gate should specify targeted high-risk items and logged verdicts (H48_HOSTILE_PASS.md:97-103; HUMAN_SPOTCHECK_PACKET.md:22,48-60).
+P02: Evidence-law fields (status PRIMARY/MEASURED/DERIVED/..., transfer SURVIVES/DIES/UNKNOWN, decision_it_changes) are mandatory for every record in the campaign; plan v4 numbers lack them (PROMPT_VERDICT_AGENT.md:125).
+P02: No handwriting data in this partition: nothing here supports or refutes the PARSeq/IIIT-INDIC-HW or Bengali handwriting claims; all probe evidence is printed/PDF scans (whole partition).
+P03: docs/research/level7/CALL_PACKET.md:35 Entire packet is a printed-page 18-language probe (1,227 items, 11 engines); Plan v4 (handwritten Bengali words, PARSeq) does not reuse any of this engine leaderboard, routing table, or GT-tier bars
+P03: docs/research/level7/CALL_PACKET.md:127-223 Measured printed baselines (surya 0.3849 best non-Sarvam, wins 9 langs; tesseract-family 0.485) exist as fallback/Page-Expert comparison but Plan v4 cites only Sarvam bench/surya 0.566; plan should adopt this per-lang engine routing for Page Expert/fallback
+P03: docs/research/level7/CALL_PACKET.md:274-331 Ol Chiki/sat/mni are Sarvam-only cells (no local engine emits Ol Chiki); Plan v4 has no sat/mni synthetic (R3) path stated here; D4 bars repair
+P03: docs/research/level7/CALL_PACKET.md:282-285 GT-tier bars (ks/gu/ne PDF, mni/sat fill, ur, mr) show GT can be garbage; Plan v4 needs an equivalent GT audit/hash gate beyond HW0 (visual verification, Wilson CIs, n>=50 rule)
+P03: docs/research/level7/CALL_PACKET.md:286-290 Kill criteria K1-K5 have blank thresholds; Plan v4 gates (HW2 92%/85%) should state numeric kill thresholds and K5 obituary rule for external numbers (Gemini 74.8 etc.)
+P03: docs/research/level7/CALL_PACKET.md:322 External per-language numbers must pass obituary/transfer rule; Plan v4 relies on Bodhan-HW 74.8/71.3/58.3, ICDAR 96.10, ~86.4 word-acc without stated verification
+P03: docs/research/level7/CALL_PACKET.md:341 Sarvam harness differs from own scorer; Plan v4 comparisons to Sarvam need a same-scorer re-run with CIs
+P03: docs/research/level7/CALL_PACKET.md:98-99 Verdict's realistic target 85-88 not 90+ and Alt-D Sarvam-API subsidy for sat/mni; Plan v4 target and API stance not aligned
+P03: docs/research/level7/CALL_PACKET.md:276 OldScan restoration (R4) only deferred post-hackathon here; Plan v4 mentions none
+P03: docs/research/level7/CALL_PACKET.md:256 Local compute limit: 3-4B @4-bit ~3GB MLX, 12.6 GB RAM, $0 budget, no cloud GPU; Plan v4 'portable PyTorch, MLX Mac-only' must fit this memory/swap 97% state
+P04: docs/research/level7/MISS_MONITOR.md:27 Weak-cell GT is unreliable (ks/mni/sat/ur/mr/gu/ne barred); plan v4 does not carry the barred-language GT lock or garbage_GT flag
+P04: docs/research/level7/MISS_MONITOR.md:92 Sat Ol Chiki / mni Mayek: all local engines >=0.85 CER, only Sarvam works; plan lacks synthetic route (R3) and Sarvam-comparison cell
+P04: docs/research/level7/MISS_MONITOR.md:91 Nastaliq/Perso-Arabic (ks/ur/sd) 0.78-0.94 CER on all local engines; plan has no R2 specialist
+P04: docs/research/level7/MISS_MONITOR.md:102 Surya (0.385) is best local printed engine, sa=1.0 (fails); plan uses IndicBlockOCR/Tesseract only, not surya routing for Devanagari/Perso-Arabic/Gurmukhi
+P04: docs/research/level7/MISS_MONITOR.md:386 Kill criteria K1-K4 / T1-T9 thresholds (T1 0.05, T2 3.0pt, T9 12.6GB) absent from plan gates
+P04: docs/research/level7/MISS_MONITOR.md:508 McNemar significance gating for per-language training targets not in plan
+P04: docs/research/level7/MISS_MONITOR.md:90 No handwriting evidence in this campaign; plan's handwriting claims rest on external sources
+P04: docs/research/level7/MISS_MONITOR.md:652 Beat-Sarvam defined per weak cell not average; plan's jury framing lacks that
+P04: docs/research/level7/MISS_MONITOR.md:298 Memory/swap-limited Mac environment (12.6GB peak budget) vs plan's portable PyTorch claim
+P05: Plan v4 has no measured printed-page baseline: probe22 shows surya CER 0.3849 best local, 10 effective engines, per-lang winners (H:21-58); v4 Page Expert numbers (IndicBlockOCR) are not compared against these on the same manifest.
+P05: Plan v4 lacks the 6.4 BARRED/VERIFY-FIRST/SAFE GT-trust lock (ks 0%, mni 0%, sat 15%, ur 10%, mr 42.9%, ne R5 26.6) governing which langs may be trained on PDF-tier GT (H:107-112; K:100-102).
+P05: Locked D1-D4: sarvam_fill GT never for training, no SFT/RLVR on unverified PDF GT, GT<10 char purged, n<50 no winner claims; v4 must carry these into HW0 leak gate and eval reporting (H:98-101).
+P05: Weak cells sat/ks/or/OldScan and their attack notes (Ol Chiki zero engines emit, Nastaliq rapidocr 71% Arabic, R5 trust 45.0) are absent from v4's Handwriting-centric scope (K:50-55).
+P05: Sampling-integrity caveat (bn/hi/sa = 1 PDF/1 page, 100 tiles) matters for any val/test split and leakage gating; v4 HW2 'independent writers' gate needs equivalent page/writer-independence check (S:282-295).
+P05: Sarvam comparison is directional only (54 calls, 0.2400); v4 must not claim beating Sarvam 87.39 without full-run or a valid comparison (H:13; V:44-47).
+P05: Compute constraints: D1 default $0 GPU, 459-801 SFT items, M2 Max 32GB MLX ~90 min; v4 training/portable-PyTorch plan needs explicit GPU-budget decision (V:16-21,68).
+P05: R5 forensics docs are missing from repo (C:73,156) yet underpin ne/ks verdicts; v4 cannot cite them without recovering.
+P05: Hard rules (no downloads without approval, no training before W6 freeze 2026-10-01, sealed level2/out and reports) apply to v4 checkpoint/dataset downloads (IndicPhotoOCR, IIIT-INDIC-HW) (S:20-28).
+P06: Ledger contains no handwritten-Bengali-word evidence (no IIIT-INDIC-HW-WORDS, PARSeq-HW, WRR numbers): plan v4 handwriting claims (96.10 WRR, Bodhan-HW bench) are not corroborated in Lane A; only ICDAR23 IHTR 95.94% char acc (LEDGER:186-197) and Bodhan HW 12 langs (:882).
+P06: Plan v4 Page Expert depends on Bodhan; ledger says Bodhan explicitly targets sat/ks/mni and wins Santali 68.30 (:912, :1188) but licence is 'Apache/Indic Open Model License' (:876) - licence must be verified; Surya weights OpenRAIL-M revenue cap (:147).
+P06: Plan lacks specialist router for weak cells (Santali Ol Chiki specialist-only, Kashmiri Perso-Arabic Nastaliq, Meitei Mayek) with R2/R3 mixing rule 40-60k synthetic + 300-500 real lines (:41-52).
+P06: Plan lacks OldScan restoration ablation chain A0-A3 with adopt bar dCER<=-0.03, 95% CI, >=2/3 engines (:53-58) and dewarp/DocRes pre-pass (Real5 warp weakest 91.25, :183-185).
+P06: Post-correction must be trained on OUR engine's noise distribution (cross-engine byte-level corrector fails, :513-516) and synthetic corruption beats real (:651-656); plan's generic 'post-correction' is underspecified.
+P06: Evaluation discipline missing: median + catastrophic repetition rate, uncapped CER, single denominator, empty pred = CER 1.0, raw-vs-normalised ablation 0.6707 vs 0.6692 (:65-67, :309-312).
+P06: RLVR sequencing: only after SFT plateau (+0.08 in Paddle ablation, :81-86); W6 allow-list: sarvam_fill never trains, RLVR on human-verified gold only (:59-62).
+P06: Cost/competition rows for jury: 5,344 test pages ~ Rs2,672 on Sarvam (:1224), Mistral OCR 3 $2/1000 (:393) - not in plan.
+P06: Scene-text/Hindi word datasets (IndicSTR12 1,083 imgs, Bharat Scene Text 27k words) suggest word-level precedent and synthetic-trained PARSeq recipe (:603, :1371).
+P07: Handwriting Expert plan relies on IndicPhotoOCR checkpoints: ledger identifies it as scene-text PARSeq (11 langs), not handwriting-trained (3665); handwriting-specific assets (SemiHastakshar PARSeq recipe 3599, IIIT-HW-Dev/Telugu 3635, PLATTER/CHIPS 3647, UniLipi 13 scripts 3623, IHDR 2025 3725) are barely used.
+P07: Plan lacks R4 OldScan restoration chain (A0/A1 Otsu/A2 Sauvola/A3 DocRes, 4-page gate, dot/matra audit, thin-banned) at 3414-3422.
+P07: Plan lacks weak-cell specialist recipe: Koshur Pixel 613k pairs (3515), SynthOCR-Gen (3533), QARI recipe (4479), label-free adaptation (3611); sat/ks/mni/or numbers (3821).
+P07: Eval discipline missing: report median dCER + Wilson CI + catastrophic rate, not mean (3404); synthetic chrF++ ~99 hides failure (3290).
+P07: Bodhan is both a component (Page Expert) and a rival that already beats Sarvam on Santali 68.30 vs 53.91 (3815) and targets ks/sat/mni (4263); licence CC-BY-SA-4.0 (4255) conflicts with 'commercial-friendly' assumption; verify.
+P07: Cost anchors for jury: Sarvam ~$32 for 5,344 pages (4109), Bodhan Rs0.20/image, Mistral $2/1000; 10-page/job cap (4247).
+P07: Licence traps: UTRSet CC-BY-NC, MonkeyOCR weights non-commercial, GOT-OCR data research-only, Aksharamukha GPL-3.0 (3852, 4207, 4216, 4504).
+P07: English OCR rankings do not transfer to Indic (3677); Qwen-VL open base beats closed; consider Qwen3-VL (32 langs) as handwriting/page fallback base (4167).
+P08: Plan cites IIIT-INDIC-HW-WORDS as CC-BY-4.0 but ledger shows academic-use license on IHTR/IHDR dataset cards and a D4 rule barring training on them except SAFE langs (LEDGER.md:6137, 6121). Verify license before HW2.
+P08: Plan has no semi-supervised/unlabeled-real step; SemiHastakshar uses IIIT-INDIC-HW-WILD + HW-UC unlabeled to close writer generalisation gap vs PARSeq baseline (LEDGER.md:6153) - relevant to HW2 >=85% independent writers.
+P08: Plan lacks eval discipline: Wilson 95% CI, McNemar exact, catastrophic-rate (pred_len > 5x ref), abstention-coverage column, median CER (LEDGER.md:6643, 6960, 6635).
+P08: Plan relies on handwriting-tier numbers but ledger shows English/synthetic benchmarks do not transfer to Indic real scans (chrF++ 91-98 synthetic vs 9/10 collapse) (LEDGER.md:6463, 6886).
+P08: Plan's Bodhan/Sarvam comparators come from Sarvam's own bench: Bodhan 84.94 vs Sarvam 87.39 vs Gemini 79.35 vs GCV 71.76, no CI (LEDGER.md:6233); cannot be reproduced without user-approved download (LEDGER.md:6205).
+P08: Weak cells sat 53.91 / ks 54.82 / mni 85.12 / or 80.01 and OldScan 55.3 not addressed in HW-only plan; ledger has Tesseract Ol Chiki/Mayek models and 93-97% printed specialist baselines (LEDGER.md:5046, 5054, 6225).
+P08: Restoration (R4) options absent: DocRes, TextSR, dewarping; warp is weakest distortion (91.25) (LEDGER.md:6027, 5190).
+P08: Surya 2 now needs an inference backend (Docker/GPU), conflicting with portable offline claim; Chandra 2 OpenRAIL-M $2M limit; MonkeyOCR weights non-commercial (LEDGER.md:5594, 4910, 4734).
+P08: Page-level handwriting (PLATTER, IHDR-2025 13 scripts) and handwriting QA (HNU-2025) are tiers the plan ignores (LEDGER.md:6129, 6145, 6185).
+P08: Post-correction: scrambled-text synthetic corruption gives CER -55% on Hindi (LEDGER.md:5238), FaithC4 warns general VLMs rewrite text (LEDGER.md:5278), BHASHA GCN verifier option (LEDGER.md:6934); plan's post-correction lacks a faithfulness check.
+P09: Plan v4 has no quantization policy: lane says multilingual calibration (Ol Chiki/Nastaliq/Mayek/Odia; Bengali would need adding) is mandatory for any AWQ/GPTQ/NVFP4 of the Qwen-based Page Expert (LEDGER:237-240) and AWQ is barred for script-heavy work (LEDGER:34-37)
+P09: Plan lacks a KV-cache guard: FP8 KV on VLMs cost -8.8pp VQAv2; Page Expert (Qwen3.5-0.8B) must keep KV BF16 and ViT/projector high precision (LEDGER:29-32,700,891)
+P09: Plan lacks per-GPU serve/format lookup (T4 INT8 only, L4 FP8, Thor NVFP4) and portable-PyTorch vs vLLM/TRT-LLM decision; MLX Mac-only has no coverage here (LEDGER:894-898)
+P09: Plan lacks a cost model: quote utilization with every $/1M-page figure; spans 36x on identical H100 (LEDGER:380-383); NIM licence $4.5K/GPU/yr kills NIM self-host under no-paid constraint (LEDGER:326-329)
+P09: Plan has no training-compute budget for the HW2 fine-tune: lane gives 2B-class QLoRA on single 16GB T4/L4, Unsloth stack, per-job costing rule, Sep-2026 rates (LEDGER:444-447,469-472,1062-1068); note PaddleOCR-VL cannot be fine-tuned, PARSeq/Qwen are not covered here
+P09: Plan relies on Qwen3.5-0.8B (IndicBlockOCR) but lane has zero OCR/CER evidence for Qwen3.5 (C1-144 UNKNOWN, LEDGER:1001-1002) and a Blackwell FP8 degeneration report (LEDGER:1059)
+P09: Plan has no per-script adapter architecture or router (one frozen base + N adapters via Triton LoRA, LEDGER:79-82,479-482) nor edge deployment story (Orin Nano INT4, JetPack>=6.2.2, Thor BOM $5.5K; LEDGER:534-536,1022)
+P09: No evidence in this lane addresses handwriting, Bengali, or the 5,344-image test; all quant evidence is English DocVQA/MME so Bengali handwriting CER gate must be built (LEDGER:176,665)
+P09: PaddleOCR-VL/PP-OCRv6 109-language claim (Hindi) is a competitor/baseline needing Bengali/Ol Chiki coverage check (LEDGER:936-940)
+P10: Plan v4 has no per-weak-cell specialist track: sat (53.91, Bodhan 68.30), ks (54.82 Nastaliq synthetic render recipe), mni (NE-OCR Mayek 95.56%), or (80.01) and the sourcing already mapped (C3 STRATEGY.md:13-38)
+P10: Plan lacks the C3 mixing curriculum S1/S2/S3 + RLVR<=20 GPU-h on verified gold and the word->line->block 50/35/15 rule (STRATEGY.md:10)
+P10: Plan lacks OldScan restoration ablation (Otsu/Sauvola/DocRes, bar dCER<=-0.03) and PreP-OCR/ByT5 post-correction evidence (STRATEGY.md:41-43; LEDGER.md:138)
+P10: Plan lacks GT-quality gates: 100% fill verify, 10% PDF verify, falsification gap>10pp, dual-blind, purge thresholds (STRATEGY.md:8-9,46)
+P10: Plan lacks jury/product layer: product-weighted criteria, 4-yr costing, IPR, DPIIT/NOC paperwork, Udyat/dhruva serviceId deployability, pricing tiers (LEDGER.md:8,154,292-295)
+P10: Plan lacks GPU budget ask ($15-30 spot, checkpointing) and RLVR-after-SFT sequencing evidence (LEDGER.md:60,160)
+P10: Plan treats Bodhan/Sarvam benches as handwriting evidence; the ledger's Sarvam 87.39 is declared DEAD for decisions (printed/mixed block-level) and contains no handwriting-specific numbers (LEDGER.md:166)
+P10: Plan lacks closed do-not-collect list and licence tagging (NC hackathon-only, copyleft quarantine) (STRATEGY.md:11,49)
+P10: Plan lacks the ScriptMoE router option and NE-OCR/Mayek specialist for sat/ks/mni (LEDGER.md:82,91)
+P11: Plan v4 handwriting-only framing ignores that this ledger's weak-cell program (sat/ks/mni/or) is printed synthetic-first; no mapping from IIIT-INDIC-HW-WORDS to these scripts, and HW sets here (ICDAR-2023, Mayek HW, Oriya HW 101,467) are eval-pointers with unverified terms (lines 246,291-298,847).
+P11: Plan lacks licence firewall: NC-lineage tagging (UTRSet, Odia-lipi, IndicCorp) and CC-BY-SA minority-share rule; IIIT-INDIC-HW CC-BY-4.0 fine but any NC data must not flow to product weights (433-439).
+P11: Plan lacks per-language W6 eligibility gates (verification pass, falsification gap<=10pp, R5 trust>=70) and ne BARRED lock (21,618).
+P11: Plan lacks scorer-side Urdu/Perso-Arabic normalization gate (3-8 pts CER artifact) (188).
+P11: Plan lacks QARI binding rules: no layout-mix in line-CER stage, no 4-bit recognizer quant (500-502).
+P11: Plan lacks Wilson/McNemar estimator law and n<50 no-winner rule (872-874).
+P11: Plan lacks shaping/raqm gates and U+0620/Mayek script-ratio gates for synthetic renders (170,342,603).
+P11: Plan lacks OldScan ablation protocol (A0-A3, dCER<=-0.03, 40-page slice) and Sarvam OldScan 55.3 vs Bodhan 45.8 comparison (51,948).
+P11: Plan Bodhan figures (Bodhan-HW bench 71.3) not reconciled with ledger Bodhan numbers: sat 68.30, olmOCR 78.8, OmniDocBench 92.17 (592,948-949).
+P11: Plan ignores kill-criteria thresholds and GPU-budget answer still missing (875-878).
+P12: Plan v4 has no vendor-number obituary discipline: it cites ICDAR'23 96.10 WRR, Bodhan-HW bn 74.8/71.3/58.3, Sarvam bench ~86.4 small_rep and CER 0.4034 vs surya 0.566 without four-mismatch (language/scan/harness/metric) kill or fail-condition (OBITUARIES.md:1-8,133-149).
+P12: Plan v4 gates (HW2 >=92% / >=85%) lack Wilson 95% CIs, McNemar exact pairing and n<50 no-winner rule (LEDGER.md:1035-1077).
+P12: No abstention reporting (coverage + conditional CER) specified for Page/Handwriting experts; empty = CER 1.0 scorer rule (LEDGER.md:1057-1066,1134-1143; OBITUARIES.md:315-328).
+P12: No EN-sanity-style harness check (30 gold pairs, CER>~5 = broken harness) before trusting any number (LEDGER.md:872-879).
+P12: Tier-split GT scoring and two-stage GT gate (forensics triage + ~2h human verification, >20% fail barred) are absent; plan's HW0 leak hash gate covers only leakage (LEDGER.md:1145-1165).
+P12: No pre-declared kill criteria with operator thresholds and no FEASIBLE NOW/IF/INFEASIBLE training-tree presentation (LEDGER.md:1101-1121).
+P12: No tooling guardrails: stale-copy hash-verify hook, pack-count==manifest-n assertion, sequential-engine rule, permission encoding of hard rules (LEDGER.md:1178-1198,239-255).
+P12: Weak cells sat/ks/mni/or/sa/doi and OldScan restoration (Real5 distortion axes for stratification) not reflected in plan (LEDGER.md:821-828; OBITUARIES.md:184-200).
+P12: Sarvam credit-cap discipline (54 calls, approval gate) not in plan if Sarvam is used as benchmark (LEDGER.md:1168-1176).
+P13: Plan v4 lacks an out-of-band, artifact-verifiable eval gate design; Self-Evaluation Bias shows self/in-band LLM judges accept 44% regressions and reject 38% improvements (artifact_200:124). HW0 hash gate is good; add rule that no LLM self-grading decides model promotion.
+P13: Plan v4 does not carry the 'fix-loop max 2 rounds' + independent Verdict + human validation-call discipline or the evidence-status law (PRIMARY/MEASURED/DERIVED...) from the campaign (artifact_230:96, artifact_220:82).
+P13: Weak-cell thresholds (Santali>55, Kashmiri>55, OldScan>55, Odia>80) and baselines (Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01) from the 18x100 probe are absent from Plan v4 (artifact_200:12, artifact_260:54).
+P13: Plan v4 should state budget/cost caps if any API experts are used (Sarvam 54-call cap, 1800-call lock; artifact_270:124) and the no-paid-key constraint's effect on Gemini/Sarvam comparators.
+P13: Plan v4 dates (2026-10-01) postdate the 'W6 freeze after Wed 2026-10-01 / no training until W6' campaign law (artifact_230:43); the plan should explicitly record that W6 training is now authorised via G-2.5 and what superseded the freeze.
+P13: This partition contains almost no OCR-model research; B3/B4 are agent-orchestration/tooling and give no printed-architecture, handwriting, or training-recipe evidence. Orchestration needs for Plan v4 are small (2 experts + fallback); Anthropic guidance warns multi-agent coordination often not worth it (artifact_200:96).
+P14: No handwriting research in this lane at all; Plan v4's handwriting expert cannot draw on B5 (all repos are printed/doc VLMs or dev-process tooling).
+P14: Plan v4 omits an eval-leakage audit tool: paperthin `mandela` (8-pattern) is flagged ADOPT NOW to audit the CER harness; HW0 hash gate should be complemented (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:109).
+P14: Plan v4 Page Expert uses Qwen3.5-0.8B IndicBlockOCR; scan proposes GLM-OCR 0.9B (94.62 OmniDocBench) and MonkeyOCRv2 0.7B (Hindi 71.9 MDPBench, Apache weights) as fine-tune backbones; no head-to-head on an Indic bench exists (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:15,37,199).
+P14: Weak cells (sat/ks/mni/or/sa/doi, Ol Chiki/Nastaliq/Mayek, OldScan 55.3) get NO new engine from B5; F1 says verdict unchanged - plan must not assume repo rescue (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:236).
+P14: Mac-only tooling (mlx-tune, CoreML light-ocr, MLX) conflicts with plan's portable PyTorch requirement; DeepSeek-OCR-2 MLX unrunnable (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:51,62,230).
+P14: Licence flags the plan should carry: HunyuanOCR Tencent community licence (review required), lift OpenRAIL-M weights, GLM-OCR MIT weights, MonkeyOCRv2 Apache (docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:43,82).
+P14: Kill-criteria discipline: loop-design-check REVIEW (Goodhart-gaming, judge independence), verification-loop max 2 rounds, hate skill 'one objection that kills the plan' are available but unreferenced by plan (ecc_002.md:84; ecc_001.md:70).
+P15: Plan v4 omits the 22-language measured baseline: only probe22 18 langs + South-400 exist, with surya best on 14/22 and tesseract-family on mr/or/doi/mni/ne/sat; a 22-language per-script routing table should be the printed-expert backbone (BENCHMARK_22.md:94-115).
+P15: Plan v4 does not carry the weak-cell numbers: best local CER mni 0.858, sat 0.651, ks 0.589, ur 0.623 vs Sarvam paired mni 0.023, sat 0.477 (n=3) - these define where wrapping/Sarvam-subsidy vs synthetic data matter (BENCHMARK_22.md:94-115,279-299).
+P15: Plan v4 ignores scorer differences: our metrics.py counts empties/loops as 1.0 and drops GT<50 chars; Sarvam drops loops/empties, has gt2,gt2 bug; any WRR/word-accuracy claim must use one stated scorer (BENCHMARK_22.md:331-344).
+P15: Plan v4 cites ICDAR'23 96.10 and Bodhan-HW numbers but not that Sarvam 87.39 is a 22-language macro word-accuracy on block crops (English excluded) and vendor benches flip 8/22 winners; eval discipline needs 'never compare across benches' rule (COMPETITOR_INTEL.md:10,14,50-67).
+P15: Plan v4 should reflect Bodhan licence constraints: Indic Open Model License v1.0 is not open source (share-alike, ask-before-hosting, 500M MAU/$250M cap, contact click-through gate, Sarvam-30B tokenizer); Page Expert dependence on IndicBlockOCR/IndicDocLayout needs licence gate (COMPETITOR_INTEL.md:16).
+P15: Plan v4 lacks handwriting coverage gaps: field benchmarks cover 12 Indic HW languages; none for Santali, Manipuri, Kashmiri, Bodo, Dogri, Konkani, Maithili, Nepali, Sanskrit, Sindhi - an independent HW eval on those would be a differentiator (COMPETITOR_INTEL.md:42,79).
+P15: Plan v4 gates (HW0 leak hash) should include the Sarvam-bench overlap/decontamination question and the human-reviewed-twice GT fact; independent evaluation edge using 300 human gold pairs not in plan (CAMPAIGN_DIRECTIVE.md:273-275; COMPETITOR_INTEL.md:18).
+P15: Plan v4 should record sample-quality caveats: PDF-tier concentration (kok/pa from 2 PDFs, ur 34% page<=1), South-400 only 126/400 scored with Latin/Deva pages mixed into kn/te, so tier-level confidence is weak (CAMPAIGN_DIRECTIVE.md:79-90; BENCHMARK_22.md:206).
+P15: Plan v4 should note Santali has no local engine and surya is empty on all sa items (100/100) and 11/20 mni: Ol Chiki / Meetei Mayek need synthetic data (R3) or Sarvam subsidy (Option D); plan omits this (CAMPAIGN_DIRECTIVE.md:117; BENCHMARK_22.md:148-165).
+P15: Plan v4 should carry directive's lead constraints: no novel backbone, hybrid integration of existing models, 5-10 samples x 22 languages, multi-LLM evaluation by process; U4 Option A vs D still unresolved - plan v4 appears to choose neither explicitly (CAMPAIGN_DIRECTIVE.md:33-38,141-142,366).
+P15: Date/deadline unknown: hackathon deadline (Oct 4 vs Oct 15 vs 30/09) unresolved; Plan v4 dated 2026-10-01 should state which governs (CAMPAIGN_DIRECTIVE.md:26).
+P16: Plan v4 has zero measured evidence for handwriting: every probe22 item (1,283) is print_or_hand=printed (MENTOR_PLAYBOOK.md:217); the earlier campaign never touched handwriting, so HW0-HW2 gates have no prior local baseline.
+P16: Plan v4 omits the sheet.csv CER non-reproducibility (66/400 exact, 100/400 within 5e-4) and the rule that the scorer must regenerate headline numbers; any v4 eval harness must be re-derivable from gt/prediction columns (EDGE_THESIS.md:42-50).
+P16: Plan v4 should report median CER + abstain rate, not mean: abstention inflates means (paddleocr_indic 43.7%, anuvaad 50.3%, rapidocr 28.0%, surya 10.5% empty) and surya emits 100% empty on sa - a 1-day bug fix worth 67% of fusion oracle gap (EDGE_THESIS.md:25,56).
+P16: Plan v4 fallback 'Tesseract' lacks sat/mni/kan/mal/tam/tel traineddata (only 12 files on disk: asm ben eng guj hin mar nep ori pan san snd urd); Ol Chiki/Meetei Mayek need download (~40-70 MB) and fonts (1 each) for R3 synthetic (EDGE_THESIS.md:34-36; MULTI_LLM_EVAL.md:66).
+P16: Plan v4 should not depend on akshara-validity fusion or script-mismatch routers (measured 61% worse; -0.0351 routing gain; recall 0-5.2%); consensus agreement is a confidence signal not a label (B12 0/115 pages) (EDGE_THESIS.md:15-16; MENTOR_PLAYBOOK.md:207).
+P16: Plan v4 must keep GT discipline: no free-tier VLM labels as ground truth (B-14 Ruling 1), keep extract_gt.py gates (50/0.5/0.6/3), no winner claims at n<50, document-level independence (clustered/first-page bias confirmed for ur, doi, pa, gu, ne, or) (MENTOR_PLAYBOOK.md:201-210; SAMPLING_PLAN.md:61-76).
+P16: Plan v4 independent-writer split (>=85% independent writers) must heed the sampling-plan lesson: single-source/clustered sets (top-1 share >50%) masquerade as diversity; South is 100% one source S5_govt (SAMPLING_PLAN.md:15,63).
+P16: Mentor process gates absent from v4: multi-LLM evaluation (OpenCode+Claude+ChatGPT, A3 still PARTIAL), draft plan cross-question session (15-20 min) rather than 5-minute menu, Consensus.app searches, flowchart of training (MENTOR_PLAYBOOK.md:21,148-154).
+P16: Plan v4 should carry B-15 lab-style experiment registry (inputs+hashes, config, outputs, metrics, one registry row) and Sarvam comparison caveats: self-scored macro-22, English excluded, 87.39 not comparable, own 22-language table is the defensible asset (MENTOR_PLAYBOOK.md:224-226).
+P16: Plan v4's reliance on Sarvam bench numbers (86.4 word-acc) should note Bodhan own 86.2 vs Sarvam-scored 84.94 and the n=54 (3/lang) Sarvam sample limit; Sarvam call cap spent, raising it is an unasked budget item (MULTI_LLM_EVAL.md:32,70).
+P16: Per-script reality for weak cells: Kashmiri/Urdu Nastaliq gain zero from script-mismatch; ur 0/9 McNemar significant; restoration (R4) evidence only on Latin historical pages and could hurt Nastaliq (CHATGPT_EVAL_PROMPT.md:35,50; MULTI_LLM_EVAL.md:69).
+P17: Plan v4 gate HW0/HW2 cite IIIT-INDIC-HW-WORDS but the only on-disk labelled HW set (Bodo/gu, Gujarati) has 4,645 of 82,563 labelled images and no Bengali; no Bengali HW training data is local (TEST_SET_PROFILE.md:60-74).
+P17: Plan v4 asserts all 5,344 are Bengali, but direct evidence in these files is 3 viewed images; the 300-sample (B12) has script UNKNOWN for all 300 and 27 'mixed'. Needs a measured script-ID pass (Bengali vs Assamese/other) before a per-script PARSeq is chosen (B12_HANDWRITING_SHARE.md:22-41; TEST_SET_PROFILE.md:47).
+P17: Plan v4 omits the 2.51x human-GT gap vs Sarvam and the GT-tier split rule (never pool official_pair/official_pdf/sarvam_bench) - Page Expert numbers (CER 0.4034 on 300 gold, 86.4 small_rep) must carry tier labels (BOSS_EXPLAINER.md:13,26; MONITOR_2026-09-30.md:20-26).
+P17: Plan v4 lacks a sheet reproducibility rule: all reporting must come from a committed generator (sheet_v2/build_benchmark_22); stored sheet.csv 62.9% non-reproducible; metrics.edit_distance is slow pure Python so GPU eval needs validated fast scorer (SHEET_V2_FORENSICS.md:14-28,56).
+P17: Plan v4 does not carry the B-01 bf16-for-Perso-Arabic rule or B-02 Arabic normalisation (opt-in scorer, 3-8 pt Kashmiri artefact) - R2 Nastaliq cell unaddressed (B01_4BIT_ANALYSIS.md:5; B02_ARABIC_NORMALIZATION.md:5-12).
+P17: Plan v4 ignores weak-cell languages with no HW or printed coverage: brx/doi/kok/mai/ne/sa have no fallback; sat/mni need synthetic Ol Chiki/Meetei Mayek (R3) and 0/200 Santali preds contain Ol Chiki (B12_HANDWRITING_SHARE.md:104-112; BOSS_EXPLAINER.md:14).
+P17: Plan v4 has no speed budget: surya 24.3 s/page = 36 h for 5,344 test images; Bodhan latency 0.52 s/crop on Mac; the submission time budget table (GPU day-1 item 5) is missing (BOSS_EXPLAINER.md:16,47; VINAY_CALL_AND_GPU_DAY1.md:61).
+P17: Plan v4 should record the 40% 'severe' degradation in sample (R4 OldScan relevance) and abstention (empty output) as a scoring risk: anuvaad 59.4%/paddle 56.1% empty (B12_HANDWRITING_SHARE.md:51-69; BOSS_EXPLAINER.md:17).
+P17: Licence gaps: surya $5M OpenRAIL-M, Bodhan s3.1 hosting approval, Ol Chiki/Meetei tessdata no licence stated; Plan v4 lists CC-BY-4.0 data but not Bodhan/Qwen/surya licence constraints for a shipped product (BOSS_EXPLAINER.md:44; VINAY_CALL_AND_GPU_DAY1.md:36).
+P17: Official scoring rules/metric (CER vs WRR vs jury criteria) still UNKNOWN (V6); Plan v4 HW2 gate thresholds (92%/85%) are self-set with no official metric (MONITOR_2026-09-30.md:88-91; VINAY_CALL_AND_GPU_DAY1.md:34).
+P17: Plan v4 lacks a deterministic bad-output check (empty, wrong-script share, invalid Unicode, repetition loops, low log-prob) which is the pre-registered precondition for any learned gate (SKILL_STACK.md:61).
+P17: Leakage: untracked src/ LayaRouter routed on gt_text (answer key); Plan v4 HW0 hash gate should also cover answer-key use in routing code (SKILL_STACK.md:58).
+P18: Plan v4 omits the stratified Sarvam-vs-local tier result: on human gold Sarvam CER 0.064 vs best local 0.243/surya 0.535; local 'wins' only on PDF-layer GT (docs/campaign/DRAFT_RESEARCH_PLAN.md:105-117) - relevant to any claim of beating Sarvam.
+P18: Plan v4 lacks the surya licence block (OpenRAIL-M sec 2(c) competing-product clause, sec 8 share-alike on Output) and Kashmiri 600K and Bodhan sec 3.1/3.2 hosting limits (docs/campaign/RESEARCH_DECISIONS.md:40-42): submission must be an internal component, and no surya-derived training data.
+P18: Plan v4 has no sat/mni plan: Apache-2.0 indic-ocr sat/mni traineddata (1.5/2.8 MB) is the only candidate; script-ID ViT has 12 classes without sat/mni (docs/campaign/RESEARCH_DECISIONS.md:39,43,44).
+P18: Plan v4 lacks evaluation discipline: report CER+WER, NFC statement, median, catastrophic-failure rate (CER>0.5), bootstrap CIs, abstention rate (empty = CER 1.0), n for every claim (docs/campaign/RESEARCH_DECISIONS.md:50,51,105).
+P18: Plan v4 lacks kill criteria/K1 McNemar discipline: pa tie, mai/or killed, kok only QLoRA scope (docs/campaign/DRAFT_RESEARCH_PLAN.md:163).
+P18: Speed budget: surya ~36 h for 5,344 images; rapidocr 0.6 h; any page engine must be timed against test set (docs/campaign/RESEARCH_DECISIONS.md:49).
+P18: Leak-free rules: split by source document, 10% held-out, 300 gold pairs external; sheet.csv CER not re-derivable - use sheet_v2 (docs/campaign/DRAFT_RESEARCH_PLAN.md:121,188).
+P18: Post-correction (B-18) must be trained on Bodhan's own errors only, leak-free; correctors did not transfer across engines (Singh 2026) (docs/campaign/RESEARCH_DECISIONS.md:101) - Plan v4 post-correction should state this.
+P18: Restoration (R4) evidence is only Latin-script; A/B on degraded subset required; SR hurts high-res (docs/campaign/RESEARCH_DECISIONS.md:99; docs/campaign/DRAFT_RESEARCH_PLAN.md:160).
+P18: Hackathon rubric unknown/product-weighted; no metric/deadline; organiser contact gic.dibd@gmail.com unasked (docs/campaign/RESEARCH_DECISIONS.md:35,36,46) - plan's Gate 'ICDAR 96.10 WRR' bar is our own choice.
+P18: Bodhan 4-bit vs bf16 per-script decision (B-01) and Gate 1 official-path parity pending GPU day (docs/campaign/DRAFT_RESEARCH_PLAN.md:29,30,82).
+P19: Plan v4 is handwriting-only; this corpus (probe22/South) is 100% printed (docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:92) with no handwriting GT, so none of the 22-language CER/engine tables transfer to the Bengali-handwriting official test; the printed 22-lang evidence has no leak-gate analogue.
+P19: Plan v4 lacks the GT-tier discipline: any head-to-head vs Sarvam/Bodhan must be stratified by GT source (human-verified vs PDF-text-layer); pooled wins were an artefact (docs/campaign/checkpoints/W1.md:92).
+P19: Plan v4 cites Bodhan-HW bench / Sarvam numbers; this research warns vendor headline metrics (87.39 word-acc macro, 84.94 Sarvam-scored Bodhan) are not comparable to own CER (docs/campaign/checkpoints/W1_reports/1F_onepager.md:16; docs/campaign/checkpoints/W1.md:24); plan needs same-scorer runs (U16/docs/campaign/checkpoints/W1.md:207).
+P19: Plan lacks abstention/empty-output reporting and bootstrap CIs; empty prediction scores CER 1.0 and winners only valid where CIs separate (docs/campaign/checkpoints/W1.md:243-244).
+P19: Plan lacks throughput budget: measured s/page for 5,344 images ranges 0.6 h (rapidocr) to 36 h (surya); a Page Expert VLM must fit the deadline (docs/campaign/checkpoints/W1.md:245).
+P19: Plan should require every reported number to come from a committed, self-validating script (sheet.csv CER not reproducible; 62.9% mismatch) (docs/campaign/checkpoints/W1.md:218,226).
+P19: Do not state hackathon rubric as official; official scoring UNKNOWN (U2) (docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:116).
+P19: Weak cells sat/mni: no local engine emits Ol Chiki; tessdata pack with Ol Chiki/Meetei Mayek viable but licence unverified and ~40-70 MB (docs/campaign/checkpoints/W1.md:48,94,237); R4 restoration unmeasured on non-Latin (docs/campaign/checkpoints/W1_reports/1F_onepager.md:30).
+P19: Single-editor ownership / locked-file and concurrency discipline absent; tree was archived mid-day (docs/campaign/checkpoints/W1.md:183-185).
+P19: Surya licence (OpenRAIL-M $5M cap vs Apache METADATA) and IndicPhotoOCR/pack licences need audit before shipping (docs/campaign/checkpoints/W1_reports/PROTO86_VERIFY.md:93).
+P20: Plan v4 gates only handwritten Bengali; these W1E files show printed-cell measurement discipline absent: report median_CER + abstain_rate + n>=50 gate (C:216-233, H:31-35) before quoting any mean.
+P20: Plan lacks a GT script-purity / mixed-script audit step (sheet.csv mixed_script False on all 12,324 rows; sat labelled single-script though ~57% non-Ol-Chiki) - A:58-61,110-112; HW0 leak hash gate should be extended with script histogram check with danda whitelist (Bb:315-328).
+P20: Weak cells sat/mni: no local engine emits any Ol Chiki (0/1755) and only 1 font each for Ol Chiki/Meetei Mayek; plan's R3 synthetic Ol Chiki/Mayek must solve font diversity; indic-ocr.github.io Tesseract mni/sat traineddata unverified and needs download approval (H:41-43,69; Bb:61-71).
+P20: Plan lacks cheap routing fix: sa surya returns empty 100/100; routing sa to any tesseract captures ~80% of the whole fusion gain (0.3944->0.3296) with no training (Bb:235-262; C:106-131). Fusion ceiling ex-sa only 0.0332.
+P20: Naive ROVER/char vote worse than best single (0.5519 vs 0.5229) and akshara-validity argmax 0.6766 vs 0.4190: plan's post-correction/fusion must not be rule-verifier voting; ByT5 post-correction does not transfer across engines (H:27,51; Bb:106-135).
+P20: R2 Nastaliq (ks/ur/sd): script-agreement is invariant (wrong-but-Arabic output), 0 gain; needs dedicated Nastaliq model, not routing (Bb:243-254).
+P20: Eval scorer provenance unresolved: sheet.csv CER reproduces only 39% (156/400) from repo metrics.py; 12,324 vs 10,560 valid denominators - plan's eval harness must pin one normaliser/denominator first (C:24-36).
+P20: Competition landscape the plan under-cites: Sarvam Indic OCR Bench (6,909 blocks, Vision 2.1 SOTA 24 Sep 2026), IndicVisionBench (876 doc images), UniLipi per-script HTR CER, GlotOCR ScriptAcc, Consensus Entropy CVPR 2026 (A:83-99).
+P20: Unmeasured: OCR benchmark contamination (H:51,68); Bodhan/DocAI/Azure/Textract/LightOn/PaddleOCR-VL not checked (A:102).
+P21: Plan v4 has no abstention/empty-prediction headline column or CI/bootstrap per cell; 1F says every claim in the prior corpus was a noiseless point estimate (1F_sonnet.md:128).
+P21: Plan v4 should carry the dead-script cells (sat/Ol Chiki, mni/Meetei Mayek) explicitly: 10 local engines emit 0.000 Ol Chiki; Tesseract sat/mni traineddata (~70 MB for 6 langs) was the only $0 CER mover (1F_sonnet.md:89,175; 1G_verify.md:133).
+P21: Plan v4 does not mention surya sa = 100/100 empty (coverage gap, not bug) and easyocr/paddle at sa 0.175 (1F_sonnet.md:91; 1G_verify.md:132).
+P21: Plan v4 lacks synthetic page generation from IndicCorp/Sangraha for thin langs (ta/te/kn/ml; ml n=5) (1F_sonnet.md:119,165).
+P21: Plan v4 lacks the 'same-GT-tier vs language-difficulty' confound warning and the pp-gap-not-ratio rule for any Sarvam/Bodhan comparison (1F_sonnet.md:131,136).
+P21: Plan v4 should avoid claiming Konkani/OldScan as Sarvam weak cells (Konkani 97.41; OldScan is English-only olmOCR-Bench) and quote only Kashmiri 54.82, Odia 80.01, Santhali 53.91 (1G_verify.md:204-213).
+P21: Plan v4 should take the McNemar/pa lesson: pa p=1.00 tie n=90 so Punjabi not a verified QLoRA target; kok verified p=0.0033 n=100 (1G_verify.md:129-131,268-277).
+P21: Plan v4 needs gap-gated routing rather than blanket routing (blanket was -0.0351 CER) for any multi-engine fallback (1F_sonnet.md:158-164).
+P21: Plan v4 should record R4 restoration and akshara-boundary loss as unsuitable for Nastaliq/Ol Chiki/Meetei Mayek, and OpenCV binarisation as likely harmful on thin-stroke scans (1F_sonnet.md:83,93-102).
+P21: Plan v4 should carry olmOCR/olmOCR-Mix, DeepSeek-OCR, MinerU 2.5, Nanonets-OCR2-3B, tessdata_best indic as unverified candidates (1F_sonnet.md:110-118).
+P21: Plan v4 should not use Sarvam API output inside its own table without labelling; no third-party arbiter named (1F_sonnet.md:85,211).
+P21: Plan v4 must keep a 'no claim without n' rule: reported 'best local' is an argmin/oracle on the same items; use held-out selection (1F_sonnet.md:45-57).
+P22: Plan v4 (handwritten-only) does not carry forward the measured printed per-language ordering (ur 0.6232, ks 0.5894, bn 0.4763, kok 0.4248 ... mai 0.0298) or the 9/2/1 winner split: docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:58
+P22: Plan lacks the GT-tier discipline: PDF-layer GT is not human-verified; on human-verified tiers Sarvam is 2.5x ahead (0.1711 vs 0.4296); never report pooled wins: docs/campaign/checkpoints/W1_reports/1H_verify.md:136
+P22: Kill-criteria evidence conflict (pa K1 tie p=1.0 vs 'SURVIVES p<0.0001') and K2 label confusion not resolved; QLoRA scope should be Konkani only: docs/campaign/checkpoints/W1_reports/1H_verify.md:154; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:377
+P22: No handling of Ol Chiki/Meetei Mayek: 0/200 Santali predictions use Ol Chiki, surya sa 100% empty, only 1 font each; download of sat/mni tessdata needs licence check: docs/campaign/checkpoints/W1_reports/1H_verify.md:88,221
+P22: Metric comparability: 87.39 is unweighted mean of 22 rows, n=6,609, English excluded, exact metric UNKNOWN; McNemar here is pass/fail at CER<0.5: docs/campaign/checkpoints/W1_reports/1H_verify.md:25,36
+P22: Probe set is 100% printed with 983/1,283 quality unknown; degraded scans untested (U13) - plan's handwriting focus needs its own eval set with leak hash gate: docs/campaign/checkpoints/W1_reports/1H_verify.md:172
+P22: Licence gate: surya modified OpenRAIL-M $5M cap (U14) must be a decision for any product use: docs/campaign/checkpoints/W1_reports/1H_verify.md:172
+P22: Fusion/verifier routing was measured negative (-0.0351; verifier 0.6766 vs 0.4190) so ensemble/post-correction claims need measured gain: docs/campaign/checkpoints/W1_reports/1H_verify.md:94-96
+P22: Citation hygiene: verify source lines before citing (W6_QLORA_SPEC.md:55 OmniDocBench #1 is v1.5; LV-ROVER not a winner; GlotOCR conclusion reversed): docs/campaign/checkpoints/W1_reports/1H_verify.md:53,157
+P23: docs/campaign/checkpoints/W4.md:105 Plan v4 must not use VLM/Gemini outputs as ground truth; any pseudo-labels from Gemini/Bodhan are proposals for human review only (B12 consensus != truth).
+P23: docs/campaign/checkpoints/W4.md:28 Plan v4 uses/trains on model outputs; surya and Bodhan output-derivative and competition clauses (s2(c), s8, s0) are unaddressed; Tesseract fallback fine (Apache-2.0).
+P23: docs/campaign/checkpoints/W4.md:31 Bodhan IndicDocLayout/IndicBlockOCR Page Expert: s3.1 hosting needs written approval; Plan v4 lacks a licence gate for it.
+P23: docs/campaign/checkpoints/W4.md:746 No Bengali handwriting eval slice exists; H2 proxy is Gujarati (16,490 lines) with only 4,645 images on disk. Plan HW2 '>=85% independent writers' has no Bengali independent-writer set built.
+P23: docs/campaign/checkpoints/W4.md:449 Plan must not cite 35.7% Devanagari figure; script mix of the 5,344 test images was only checked visually on 13 images, not all 5,344.
+P23: docs/campaign/checkpoints/W4.md:117 Gate 2.5 (Vinay cross-question) not yet run for Plan v3/v4; mentor red line forbids training before it (matches G-2.5).
+P23: docs/campaign/checkpoints/W4.md:13 No official metric or deadline: Plan v4 gates (92%/85%) are internal; product/jury criteria (innovation, business, roadmap) need a deliverable.
+P23: docs/campaign/checkpoints/W4.md:30 Printed 22-language and sat/mni routing: IndicPhotoOCR script-ID lacks sat/mni; only 20 sat and 20 mni benchmark items exist.
+P23: docs/campaign/checkpoints/W4.md:358 South (ta/te/kn/ml) official PDFs are 0 clean of 23,001 pages: no usable South GT from official data.
+P23: docs/campaign/checkpoints/W4.md:763 Printed baselines: rapidocr 0.8427 / doctr 0.8236 CER are unusable; tesseract_indic 0.1450 and Bodhan 0.4034 on South are the reference numbers.
+P23: docs/campaign/checkpoints/W4.md:300 Backup/provenance discipline: large data assets (benchmark pages, renders) were unprotected; Plan v4 lacks a bundle/freeze step before training.
+P24: Plan v4 states official test = 5,344 images single handwritten Bengali words, but RQ1 shows no official test set/dataset/held-out split is published and the domain text names full-page handwriting, mixed typed+handwritten, forms, tables, low-quality scans (RQ1:243-292). Source of 5,344 must be cited elsewhere or flagged.
+P24: Plan lists no licence gate: Bodhan Indic Open Model License (hosting approval s3.1, attribution UI notice s2, derivative-on-Output s0) applies to Page Expert Bodhan IndicDocLayout/IndicBlockOCR and any distillation (RQ9:265-314).
+P24: Plan lacks surya policy: surya weights RAIL-M s2(c) competing-product and s8 output share-alike bar surya as shipped component or label source; use only for research/eval (RQ9:147-173).
+P24: IndicPhotoOCR PARSeq recognition weights (STocr/SceneTextDetection repos) licence unverified; only script-ID weights (MIT) closed (RQ9:199-201,436-438).
+P24: Plan has no plan for sat/mni except tessdata backstop; indic-ocr tessdata (Apache-2.0, 1.48 MB / 2.71 MB) is the only licence-clean candidate and quality is untested; script-ID 12-class model cannot route Ol Chiki/Mayek (RQ9:226,316-321).
+P24: Plan does not use tessdata Apache-2.0 attribution requirement (s4a copy of licence) nor Noto OFL provenance check (RQ9:60,67-70,423-425).
+P24: Do not adopt the 2023 '>95% word-level accuracy / <1 sec/page' targets or Rajasthan dates as AksharDrishti rules; DRAFT_RESEARCH_PLAN.md:18 still asserts the withdrawn rubric (RQ1:55-76,400-423).
+P24: Rubric is product/business weighted (6 parameters incl. deployment cost per person per month, 4-year resource rate, go-to-market); plan v4 is accuracy-centric and lacks a business-case/addressable-market/cost narrative (RQ1:34-42).
+P24: Official focus areas named (blur/fading/folds/stamps/seals, skew correction, code-mixing detection, transliteration, language detection, forms/tables, LayoutLM/Donut/DocTR) are not all covered in v4 (RQ1:247-271).
+P24: Email gic.dibd@gmail.com for rubric and Stage-2 date has not been done per the report; plan lacks it as an action (RQ1:311-317,480-482).
+P24: Prize and Stage structure are image-only; a human must open the page visually; plan does not record this (RQ1:328-339).
+P25: Plan v4 has no incident/backup discipline: A1 shows 13,689 dangling symlinks, 600 MB GT pages and run_bodhan.py untracked and unrecoverable (A1_verify.md:103-129). Plan needs git-tracked/bundled eval GT+code before any training.
+P25: Plan v4 uses Bodhan CER 0.4034 vs surya 0.566 on 300 gold (South/Sarvam bench, printed), but Gate 1 official-path parity is BLOCKED (CUDA vendor assert) and verdict is only CONDITIONAL PASS (blind_verify_gate1.md:45; BODHAN_BASELINE).
+P25: Plan v4 omits South (ta/te/kn/ml) GT reality: PDFs yield 0 clean pages of 23,001; South GT is Sarvam-bench fill and per-engine CERs (tesseract 0.1450, doctr 0.8236, rapidocr 0.8427) live only in packs JSONs (SOUTH_RERUN_FEASIBILITY.md:20; blind_verify_S5.md:27).
+P25: Weak-cell n counts must be honest per language (as19 brx67 doi27 gu24 sat20 mni20 or69); any plan claim of >=100 per language is struck (blind_verify_100strike.md:33-59). Plan v4 weak cells need these n for CIs.
+P25: IIIT-HW slice has no writer_id/page_id so HW0 leak gate cannot be proven writer-disjoint from the manifest; on-disk images are 4,645 of 16,490 and mispathed (blind_verify_H2.md:23,35). Plan HW2 independent-writer gate needs real writer metadata.
+P25: Meeting red lines (no training before research validation; one standard one page one sample) are absent from the register (PROTO66_VERDICT_CHECK.md:25-29); Plan v4 training gates must encode them (G-2.5).
+P25: Layout frozen until S6; locked run_probe.py/AGENT_PROTOCOL.md need erratum U10 before engine smoke re-runs; plan must account for this (A4_paths.md:96-104).
+P25: Model weights must never go inside level2 (A6_recovery.md:71); portable PyTorch plan must keep weights outside the benchmark tree.
+P25: Many retired-source gates (b1/b3/b4 research gates, seal_gen) read absent renders_shared: earlier measured engine-gate results cannot be reproduced without restoring the 400 renders (A4_paths.md:41-52).
+P26: Plan v4 lacks the barred-cell list (ks, mni, mr, sat, ur, ne-PDF) and no-training-on-barred-langs rule; per-lang CER on those cells is unreliable (LEADERBOARD.md:66,129-131,150).
+P26: No abstention policy: report coverage + conditional CER separately and suppress winner claims at n<50 or high-abstention cells (abstention_audit.md:111,138).
+P26: No Wilson/CI and McNemar-exact paired-comparison requirement for comparing engines; Bodhan 71.3 vs Gemini 74.8 style deltas need CIs (FS-VERDICT-H48-010.md:79; mcnemar_summary.md:6-12; santa_method_cross_check.md:122).
+P26: Printed-engine baselines missing: surya CER 0.3849 overall, per-script routing (Devanagari/Perso-Arabic surya; Odia/Gurmukhi tesseract), sat/mni Sarvam-only (LEADERBOARD.md:152-160); Plan v4 only has Tesseract fallback and ignores surya as printed baseline.
+P26: Plan has no sat/mni/ks micro-repair path (easyocr urdu.pth for ks, synthetic for Ol Chiki) and does not note tesseract sat.traineddata 404 (abstention_audit.md:115-124).
+P26: Evidence law: external numbers (e.g., Bodhan-HW 74.8/71.3/58.3, ICDAR 96.10) need obituary/source verification; per-lang Sarvam numbers 53.91/54.82/55.3/80.01 are DEAD-for-decisions (FS-VERDICT-H48-008.md:24).
+P26: Stale-status risk: docs asserted engine completion contradicting disk truth (16 issues in H48 hostile pass); plan needs a disk-truth verification step and 'done = output + reproducing command' rule (santa_method_cross_check.md:126-138; CONCERN_LEDGER:95).
+P26: Plan does not carry the 'no best-of-N fusion' kill (G-B12 0/115) or LLM-made-GT (rule L7) prohibition (CONCERN_LEDGER:29-31).
+P26: Free-only/Sarvam Rs67 budget and the unretrieved 12 Sarvam outputs, HF gated-repo forms, and token rotation are not in Plan v4 ops (CONCERN_LEDGER:149,163,270-281).
+P26: Sep-16 correction (26/126 legacy-font GT pages) and double-counting of South items within X's 6,909 not addressed (CONCERN_LEDGER:105-111,328).
+P26: Restoration pre-pass (R4) and sec 6.2 tier routing named as 'feasible now' no-cost baseline but absent from Plan v4 (LEADERBOARD.md:148).
+P27: Plan v4 omits step X (external bench on all 22 languages) and step Q (GT_DEFECTS.md before D2): docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:27,73
+P27: Plan v4 doesn't mention the South 400 subset of X's 6,909 no-pool rule: docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:68
+P27: H1's 35.7% Devanagari vs Bengali-only viewing is unresolved; plan asserts all 5,344 Bengali: docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67
+P27: Bodhan access (403 gated) is a hard blocker for Page Expert; plan lacks fallback: docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:46
+P27: Research harvest of 88 docs/research files never done; Consensus answers unprocessed: docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:90-96
+P27: Bodhan licence requires written approval for hosted API; plan outputs product for organisers: docs/campaign/checkpoints/MONITOR_2026-09-30.md:4
+P27: Rule: no downloads/training/Sarvam spend without boss; only 12 approved Sarvam calls, Rs67 left: docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:102; docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:66
+P28: Plan v4 cites Bodhan 71.3/Sarvam 58.3 on HW bench but this research shows Sarvam's per-lang bn on its OCR bench is 93.47 (printed blocks) and bench is self-built/leak-suspect (LIVE_LATEST:17); do not mix benchmarks (PAPERTHIN_AUDIT:96).
+P28: Plan lacks metrics normalization match (NFC, ZWJ/ZWNJ strip, quote/dash, Indic punct) with Sarvam metrics.py; unverified (LIVE_LATEST:65-66).
+P28: Plan needs McNemar/Wilson discipline and kill gates K1 (p<0.05 or >=3pt) with operator-signed T1/T2 thresholds; ties flagged as ties (PAPERTHIN_AUDIT:116,181).
+P28: Plan does not carry weak-cell attack data: 600k-ks-ocr 602,000 CC-BY-4.0 (LIVE_LATEST:118), Koshur Pixel 613k (VINAY:372), Ol Chiki cross-script transfer (LIVE_LATEST:128), Odia route to Gemini 81.01 (LIVE_LATEST:92).
+P28: Mni/Meitei and Sat/Ol Chiki are Sarvam/Bodhan-only: plan must route these to Bodhan/Sarvam or exclude (LIVE_LATEST:89,189); no local engine emits them (VINAY:77).
+P28: Bodhan Indic-OCR licence 'Indic Open Model License' and 84.94 Indic bench / OldScan 45.8 numbers (LIVE_LATEST:136-141) should be reconciled with plan's Bodhan IndicBlockOCR 0.8B; param counts conflict (0.8B vs ~3B).
+P28: R4 OldScan restoration pre-pass (OpenCV+Sauvola CPU) and olmOCR OldScan 55.3 not reflected (VINAY:199,271).
+P28: Plan uses surya as baseline? Evidence: surya wins 9/12 n>=50 langs on probe22 but only 0.566 CER-type comparators; competing eval-set caveats (VINAY:71).
+P28: Gnani RL warning: RLVR with non-Indic rewards drops Indic doc QA up to 11 pts; plan must restrict any RL stage to Indic-aware rewards (LIVE_LATEST:27,246).
+P28: Qwen3-VL-8B/Qwen3.5 family and GLM-OCR as fine-tune backbones with BrahmicTokenizer option are not mentioned in plan (LIVE_LATEST:116,150-153).
+P28: Plan should state submission deadline is unknown (Oct 4 / Oct 15 / Sep 30 qualifier close) (VINAY:138).
+P29: Plan v4 never mentions the 18-lang printed probe (surya CER 0.3849 best non-Sarvam, sarvam 0.2400) or the engine leaderboard; no printed routing table (surya everywhere except Ol Chiki -> indicphotoocr) despite being the delivered wrap-only baseline (W5_FREEZE_PLAN.md:63,PROJECT_COMPLETE.md:100-112)
+P29: Weak cells sat/ks/mni/or/ur with GT-barred status and K2/K1 kills (sat K2(b) killed, ks deferred, mai/or killed) are absent from v4 (PROJECT_COMPLETE.md:168-174)
+P29: Eval discipline missing: McNemar+Wilson, n>=50 winner rule, mandela leakage audit, no-progress stops, Reviewer/Judge split (LOOP_SPEC_W5_W6_W7.md:79-99)
+P29: Compute/kill criteria K1-K4 (T1=0.05, 3pt, T8=5min, T9=12.6 GB) not carried into v4 gates (PROJECT_COMPLETE.md:168-174)
+P29: Backbone candidates GLM-OCR 0.9B, dots.mocr 3B, MonkeyOCRv2 0.7B, Unlimited-OCR for OldScan not considered by v4 (INTEGRATED-ELITE-STACK.md:29-38)
+P29: HunyuanOCR license risk and no-cloud/no-download/no-sarvam-as-training-data laws not reflected in v4 (INTEGRATED-ELITE-STACK.md:53,W5_FREEZE_PLAN.md:108-116)
+P29: No handwriting-specific data or eval anywhere in these root docs; whole corpus is printed PDF pages, so HW claims in v4 have no support from here
+P30: Plan v4 omits the sealed prior evidence that Sarvam beats local engines 2.51x on the pooled human-verified tier (n=18; Sarvam 0.171 vs best-local 0.430) and that local wins exist only in the PDF-layer tier (FULL TECHNICAL BRIEFING.md:574-586); jury/pitch framing 'don't lose more than Sarvam on weak cells' absent.
+P30: Plan v4 ignores the GT verdict lock (barred ks/mni/ur/sat/mr/ne-PDF; safe as/brx/doi/kok/mai/or/pa; verify-first gu/sd) which determines which languages may be trained or evaluated (FULL TECHNICAL BRIEFING.md:266-270; ULTIMATE_HYBRID_CONCERN.md:172).
+P30: Weak cells (sat/ks/or/OldScan) and Script Router (Ol Chiki, Nastaliq, Meitei Mayek) not present in v4; Santali tesseract model verified DEAD so only synthetic/VLM routes exist (ULTIMATE_HYBRID_CONCERN.md:176; FULL TECHNICAL BRIEFING.md:166-168).
+P30: Test-set leakage: Bodo/gu/ is a 4,645-image copy of the test set (vs 5,344 official test); HW0 leak hash gate should explicitly sweep such mislabeled folders (FULL TECHNICAL BRIEFING.md:37,49).
+P30: Evidence-law and process laws (4-page gate, one writer, family=1 vote, never spell-correct OCR raw benchmark) conflict with v4 'post-correction' stage: law L7 forbids spell-correcting OCR output as benchmark; post-correction must be a separate scored stage (ULTIMATE_HYBRID_CONCERN.md:36; FULL TECHNICAL BRIEFING.md:221).
+P30: Ensemble voting measured as NO (0/115 beat best single; union worse than worst single); v4 combining multiple experts/Tesseract fallback needs a router rather than voting (ULTIMATE_HYBRID_CONCERN.md:72).
+P30: Training recipe gaps: progressive SFT word->line->block->page, akshara-boundary aux loss, RLVR after SFT plateau, preprocessing only on old scans (Otsu beats deep denoisers) not reflected (FULL TECHNICAL BRIEFING.md:138-172).
+P30: GPU budget decision for W6 (fine-tune vs wrap-only) is unresolved and gates training; locked D1 = wrap-only + conditional QLoRA on SAFE langs gated on McNemar-significant gaps (ULTIMATE_HYBRID_CONCERN.md:178; FULL TECHNICAL BRIEFING.md:285).
+P30: Eval honesty: South bench is old-scan-class; never claim comparability with IIIT-IndicHW-Word/MLITS/IndicDLP until side-by-side run; v4 quotes ICDAR'23/Bodhan-HW numbers as if comparable (ULTIMATE_HYBRID_CONCERN.md:85).
+P30: Reported sample shortfall: required 1,800 probe items (100 x 18) vs 1,283 achieved; shortfall langs ne, as, mni, gu, or, brx need human labeling (FULL TECHNICAL BRIEFING.md:136,500-505,574).
+P31: Plan v4 has no reference to the H1 gate list K-01..K-30 / settled conflicts C1-C15 (docs/INDEX.md:15,22); check Plan v4 does not re-open settled conflicts.
+P31: PPT_SPEC lists akshara-boundary auxiliary loss as Indic-specific KEEP and SCST/RL after SFT (docs/architecture/PPT_SPEC.md:13,34); Plan v4 PARSeq handwriting plan has no akshara-aware loss or RL stage.
+P31: OldScan restoration weak (Sarvam 2.1 OldScan 55.3, PPT_SPEC.md:31); Plan v4 Page Expert has no preprocessing/restoration stage (OpenCV box 0).
+P31: GT gaps for Santali (0), Dogri (11), Bodo mojibake PDF layers need script-validation gate (docs/PLAN.md:20); Plan v4 weak-cell handling should include these.
+P31: GT_DEFECTS.md step Q due before D2 (docs/INDEX.md:29); Plan v4 gates HW0-HW2 omit GT defect audit.
+P31: Sarvam bench licence/pin: rev 84ce7ce4 Apache-2.0, 6,909 blocks (INDEX.md:30; PPT_SPEC.md:37); Plan v4 quotes 'Sarvam bench small_rep' without pin.
+P31: README still points at proto-104 rev 4 as the plan (README.md:11, INDEX.md:6) not proto-108/Plan v4; docs unsynced.
+P31: Agent-process rules (5-section briefing, 10-field §9 gate, rejection criteria incl. self-confirming evals, PROTOCOL_UPGRADES.md:69-118) not mirrored in Plan v4 eval discipline.
+P32: Plan v4 must reconcile K-03: test-set script mix still UNKNOWN for full 5,344 (BOSS_CONCERNS.md:47); H1 profile only 70 samples.
+P32: Plan lacks a same-split number vs Sarvam 87.39/Bodhan 84.94 and the R-12 independent-set win rule (:29-31).
+P32: Plan lacks metric set: CER mean/median/bootstrap CI, WER, catastrophic rate CER>0.5, NFC statement, s/page (:182).
+P32: Plan lacks licence gate: surya eval-only, Bodhan hosting needs written approval, 600K-KS on hold (:153-158); plan relies on Bodhan IndicDocLayout/IndicBlockOCR.
+P32: Plan lacks latency table / speed budget (surya ~24 s/page = ~36 h for 5,344; rapidocr 0.4 s) and GPU 24GB arrival 2026-10-01 SSH-blocked (:215,239).
+P32: Plan lacks leakage risk: Sarvam bench home-ground/training exposure and South items duplicating X's 6,909 (:85-86).
+P32: Plan lacks GT defects register (GT_DEFECTS.md missing) and Sep-16 legacy-font GT correction (26 of 126 pages) (:168,232).
+P32: Plan lacks empty-output bug fixes (paddle brx/doi mapping, surya sa) before coverage matrix (:173-177).
+P32: Plan lacks weak-cell sample sizes: as 19, sat 20, mni 20, gu 24, doi 27 - honest-n reporting (:71).
+P32: Gate 2.5 red line and Vinay session precede any training (:148); plan's G-2.5 matches but Plan v3 draft/multi-LLM eval not done (:54-57).
+P32: Submission metric/format/deadline UNKNOWN; no 50-image dry run (:189-192,209).
+P33: Plan v4 states ICDAR'23 Bengali WRR and Bodhan-HW bench but this log shows NO Bengali handwriting data or Bengali-labelled HW eval set on disk: only 'Bodo/gu' gujarati HW set (82,563/16,490 test, only 4,645 images present) (DISPATCH_LOG.md:508,748) -> HW0 leak gate / HW2 val needs Bengali independent writers.
+P33: Plan relies on Bodhan IndicBlockOCR, but our measured Bodhan numbers are printed-page only (300 gold pair CER 0.4034; bench small_rep CER 0.0540); no handwriting-word Bodhan run logged (DISPATCH_LOG.md:699-708); PyTorch official path needs CUDA (L706).
+P33: Plan's 'Sarvam 58.3' comparison: our Sarvam reference on South unretrievable (12/12 Forbidden, key 401), and Sarvam per-language public numbers are a different harness (DISPATCH_LOG.md:157,759,763).
+P33: Plan must cite GT-tier-stratified scoring, never pooled; headline wins were PDF-text-layer artefacts (DISPATCH_LOG.md:226) -> HW eval must use human-verified GT only.
+P33: sheet.csv CER column non-reproducible; use sheet_v2.csv for any reported number (DISPATCH_LOG.md:207,279,282).
+P33: Licence gates missing from plan: surya not commercially cleared (OpenRAIL-M s2(c)), Kashmiri 600K not commercial, Bodhan hosting s3.1 needs written approval, so product/jury plan cannot use surya weights or Kashmiri data (DISPATCH_LOG.md:331-333).
+P33: Official rules: no metric/deadline exist and judging is product-weighted (innovation, business use case, feasibility, roadmap, team, market) (DISPATCH_LOG.md:328); plan optimises CER/WRR gates and lacks roadmap/market/product narrative.
+P33: Speed/latency: surya 24.3 s/page (~36 h on 5,344) vs rapidocr 0.40 s; Bodhan 0.52 s/crop on Mac; compute budget for 5,344-image inference and GPU day not in plan (DISPATCH_LOG.md:299,706).
+P33: Weak cells: Tesseract lacks sat/mni traineddata (Apache-2.0 pack available, U7 needs download approval) and IndicPhotoOCR script-ID has no sat/mni class (DISPATCH_LOG.md:253,334); plan under-uses printed 22-language weak-cell work.
+P33: Mentor red line 'No training before research validation' vs plan's HW training (G-2.5 Vinay OK gate matches, but Engine lane had Day-3 Kashmiri training) (DISPATCH_LOG.md:352).
+P33: Antipattern lessons for ops: backup adequacy, concurrency lanes, no 2>/dev/null, DONE-VERIFIED requires runnable command (DISPATCH_LOG.md:382,401,442).
+P34: B21 synthetic ks/sat/mni line spec (fonts, degradations, licensed text, gates G1-G4, 5,000 lines/script) exists but Plan v4 (Bengali handwriting) has no synthetic-data stage; Ol Chiki/Nastaliq/Meitei cells are unaddressed (product/docs/B21_SYNTHETIC_LINES_SPEC.md:5-20,102-139)
+P34: B21 aging degradations (coffee stains, fold lines, JPEG 40-95, Otsu/Sauvola) could be reused as augmentation for Bengali handwriting word images; Plan v4 lists none (B21:49-69)
+P34: Kill/gate discipline: McNemar exact + Wilson 95% + T1=0.05/T2=3pt + n<30 INCONCLUSIVE rule + hard-coded paired-eval; Plan v4 gates (HW0-HW2, G-2.5) lack paired significance testing and a 'keep wrap baseline' fallback (QLORA_EVAL_SPEC.md:135-157,289)
+P34: Eval leakage trap: QLoRA eval pseudocode scores on full set including training rows (QLORA_EVAL_SPEC.md:309-312) and train/val/test are pages of the same 2 PDFs; Plan v4 HW2 'independent writers' gate is right but should explicitly forbid same-source splits (QLORA_TRAINING_DATA.md:272)
+P34: GT provenance: machine PDF-layer GT and sarvam_fill (158 rows) must never train; Plan v4 should add a gt_source field guard (QLORA_TRAINING_DATA.md:257-262)
+P34: Plan v4 Page Expert uses Qwen3.5-0.8B on a portable stack while prior W6 scaffold is MLX/Qwen2.5-VL-3B Mac-only with 8-12GB peak, 12GB free disk and tiny n=80/lang; training compute path for Plan v4 not tied to measured hardware (QLORA_READINESS.md:39-85)
+P34: Smoke-test-before-train gate (5 items, <=10 min, 5-of-6 criteria, abort to wrap-only) is a ready template that Plan v4 lacks before HW training (QLORA_SMOKE_TEST.md:162-177)
+P34: Level-2 SFT/DPO/disagreement assets (1760 SFT lines, 126 DPO pairs, 50-page queue) could seed a post-correction learner but are South-Indian printed; plan has no use for them (level2/training_assets/README.md:14-18)
+P34: Sindhi in bench is Devanagari so Nastaliq coverage = ur+ks only; plan must not assume sd tests Nastaliq (LIST.md:7)
+P35: Plan v4 lacks the K1-K3 kill criteria (T1 0.05 McNemar, T2 3pp, K3 Wilson drop): level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:32-41
+P35: Plan v4 has no per-GT-tier scoring / falsification-test discipline (pair vs PDF gap < -0.10 flag): level2/benchmark/docs/FINAL_REPORT.md:127-147
+P35: No power statement / no-winner-for-n<50 rule and McNemar CER<0.5 methodology in plan: level2/benchmark/docs/AGENT_PROTOCOL.md:360-366
+P35: Plan relies on Bodhan/Sarvam bench numbers; research says external numbers are directional only, never head-to-head, and obituaries show paper CERs do not transfer (IndicPhotoOCR 0.085 vs 0.6589): level2/benchmark/docs/transfer_obituaries.md:169-184
+P35: Plan names Tesseract as fallback but disk shows tess family needs script coverage; surya (or Page Expert) is primary printed engine and fails on sat/mni/sa wrapper; Plan v4 has no routing by script (surya, indicphotoocr for sat): level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:335-348
+P35: Weak cells ks/ur/sd/sat/mni/ne/mr GT barred; plan must not train on PDF-layer or sarvam_fill GT; no mention of GT verification gating: level2/benchmark/docs/AGENT_PROTOCOL.md:316-335
+P35: Raw-vs-normalized ablation as RLVR gate and abstention scoring (empty=1.0, honest-empty) absent from plan: level2/benchmark/docs/AGENT_PROTOCOL.md:337-358
+P35: Akshara-boundary aux loss scope limits (not Perso-Arabic, Ol Chiki, Mayek) absent: level2/benchmark/docs/AGENT_PROTOCOL.md:434-437
+P35: Compute constraints: M2 Max 32GB, peak <=24GB, no cloud GPU/no-money law, GLM-OCR 0.9B / Qwen2.5-VL-3B backbone in prior W6 plan; plan v4 must reconcile (Qwen3.5-0.8B) : level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:59-73,155
+P35: Official test set 5,344 unlabeled: eval harness there cannot measure; no handwriting labelled probe exists; Otsu/denoise and old-scan slice unverified: level2/benchmark/docs/AGENT_PROTOCOL.md:94-95,438-440
+P36: Plan v4 uses 5,344 test images; W1H D11 could not reproduce it (20,656 image files under Datasets/akshardrishti_official) - confirm provenance of 5,344 and whether the extra files are train/leak risk (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:20)
+P36: Plan lacks GT-tier stratification discipline: never pool human-verified vs PDF-text-layer GT; report best-local oracle disclosure (level2/benchmark/docs/fix_specs/W1_ROUND2_MEETINGDAY.md:68-74)
+P36: Dev machine is 24 GB Mac with 97% disk; portable PyTorch plan must budget for <=9.7 GB reclaimable RAM, 3 GB abort gate, 5 GB cache, 12-17 GB free disk (level2/benchmark/docs/MEMORY_AUDIT.md:40-42,126)
+P36: MLX install conflicted with IndicPhotoOCR pinned deps (numpy 1.26.4 etc.) - HW expert environment must be isolated/re-verified (level2/benchmark/docs/MLX_INSTALL_RESULT.md:103-122)
+P36: Plan omits mni/sat tessdata gap (only 2 missing) and Ol Chiki/Meetei fonts (1 / 10) for synthetic R3 data (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:16)
+P36: Surya licence conflict ($5M cap OpenRAIL-M) is not in Plan v4 licence gate; IndicPhotoOCR CLIP weights licence TODO; Indic-OCR pack licence unverified (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:19-20)
+P36: K1 erratum: only Konkani survives McNemar (pa tie); plan weak-cell targeting should not assume pa QLoRA (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:25)
+P36: Corpus coverage gap: benchmark is 100% printed, 0 handwriting/tables/mixed-script, so no measured baseline for handwriting exists in this campaign (level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:18)
+P37: Plan v4 Handwriting/Page experts have no per-language printed routing table; this audit's corrected 18-language probe22 routing (surya wins 9/12 n>=50 langs, tess-family mr/or, easyocr sa) is absent (W1A_PACKET_AUDIT.md:64,213).
+P37: Plan v4 must not quote 'beats Sarvam 9/18' or Sarvam-weak claims; use only 'directional, n=3/lang, best-local 0.2956 vs Sarvam 0.2640' - Sarvam leads overall on paired items (W1A_PACKET_AUDIT.md:53,270).
+P37: Weak cells sat/mni need Sarvam-API or synthetic Ol Chiki/Meitei Mayek generation: zero local engines emit these scripts (0.00 codepoint fraction), so any local-engine plan scores zero there (W1A_PACKET_AUDIT.md:142-147).
+P37: Statistical discipline lacking in plan: McNemar vs runner-up per language (kok only verified QLoRA target; pa and ur not significant); eval claims need n>=50 and named opponent (W1A_PACKET_AUDIT.md:66-73,198).
+P37: Eval-set accounting: 1,227 scored vs 1,283 manifest vs 12,324 rows vs per-language n 19-100; plan v4 should state exact sets and not assume 100/lang (W1A_PACKET_AUDIT.md:79-89,171).
+P37: Sarvam loop-failure rows (CER 1.0) must be handled explicitly; reported 0.2400 vs 0.2640 depends on excluding them (W1A_PACKET_AUDIT.md:169).
+P37: OldScan 55.3 is English-only olmOCR-Bench; R4 OldScan restoration has no probe22 subset to measure against, so plan needs its own old-scan eval set (W1A_PACKET_AUDIT.md:175,608-609).
+P37: Sarvam published weak cells to target: Santhali 53.91, Kashmiri 54.82, Odia 80.01; Konkani (97.41) is NOT weak for Sarvam so kok QLoRA justification must rest on local gap only (W1A_PACKET_AUDIT.md:175-176).
+P37: Backbone/download approvals: no candidate VLM weights on disk in the audited Mac environment; cost/time claims of '$0, 3-4h' were not executable (W1A_PACKET_AUDIT.md:131,223).
+P38: Plan lacks the doctr-PARSeq lesson: reinit-head PARSeq with an Indic vocab produced script ratio 0.53 but Jaccard 0.00 (fake pass); HW1/HW2 gates should require content metrics (CER/WRR vs GT + Jaccard floor), not script ratio (B1_doctr_parseq.md:43-52,76-79).
+P38: Plan has no GT-hygiene gate for legacy-font mojibake text layers: 52/115 'clean' South pages and Bodo layers were mojibake; any PDF-layer GT used for page-expert eval or post-correction needs a legacy-font detector (B12_ensemble_voting.md:88-98; W3_PROBE_SCHEMA.md:81).
+P38: Plan ignores the four-gate negative ledger (ensemble voting 0/115, tessdata_best 0/12, paddle server-det no gain, rapidocr no server Indic) -- Tesseract fallback should stay FAST models psm3 and no ensemble/voting layer should be added (INDEX.md:16-20).
+P38: Plan lacks a licence gate for training/outputs: surya weights OpenRAIL-M $5M cap, EasyOCR CRAFT non-commercial, IndicPhotoOCR weight repos unlicensed locally; plan builds on IndicPhotoOCR checkpoints and Qwen/Bodhan without recorded licence verification (LICENSE_AUDIT.md:21,36-37,79-83).
+P38: Plan's printed side (22-language, weak cells sat/ks/mni/or/sa/doi) is not scoped: W3 probe schema lists must-include failure cells, Nastaliq/Ol Chiki/Meitei routing, error-tag taxonomy and Sarvam/Bodhan public numbers to beat (W3_PROBE_SCHEMA.md:20-33,63-69).
+P38: Plan lacks a metric-comparability layer: CER_omni normalization needed to compare to published 1-edit-distance tables; own CER vs pass-rate not comparable (EXTERNAL_BENCHMARK_MAP.md:106,25-29).
+P38: Plan's Tesseract fallback ignores that ml has 16/100 empty on tess family and rapidocr 100% empty; Malayalam empty on every engine; 300dpi rescue 0/10 (EMPTY_PAGES.md:9-17,28).
+P38: PaddleOCR-VL-1.6 (0.9B Apache, MLX path, 109 langs) is a documented candidate engine/page-expert alternative; plan does not mention it (EXTERNAL_BENCHMARK_MAP.md:54,65-76).
+P38: Plan omits economics/pricing benchmark (Sarvam Rs0.50/page, Google Rs0.13, Mistral Rs0.35) useful for jury/product framing (EXTERNAL_BENCHMARK_MAP.md:112-126).
+P38: Plan's portable PyTorch / MLX-Mac-only choice should cite that doctr zoo and rapidocr have no Indic server weights; Paddle on Mac via CPU-Paddle or mlx-vlm only (llama.cpp in-progress, vLLM/SGLang not on Apple) (EXTERNAL_BENCHMARK_MAP.md:67).
+P39: Plan v4 Tesseract fallback: these docs show Tesseract (any stack) leaves 7.8% of te/ta/kn/ml pages empty, concentrated in ml; fallback must handle empties (tesseract_indic/RUN.md:4-7,20)
+P39: Tesseract open stack incl. hin+eng, anuvaad variants and bilingual ordering give identical counts - no gain from stack variants; skip them (tesseract_bilingual/RUN.md:4-7)
+P39: IndicPhotoOCR as used here is a line/word scene engine on full pages (10 empty); plan's Handwriting Expert reuses its PARSeq checkpoints but docs give no accuracy, only non-emptiness (indicphotoocr/RUN.md:4-7)
+P39: No Bengali anywhere in these engine docs: smoke covers only te/ta/kn/ml; Bengali engine behaviour is unmeasured here (tesseract_indic/PROMPT.md:4)
+P39: No CER/WER or GT in engine docs; any engine comparison must use a real gold set, not char counts (easyocr/RUN.md:12)
+P39: Surya weights licence limits (~$5M, no competing use) matter if product/jury use is commercial (surya/PROMPT.md:27-29)
+P39: Skew correction was never implemented in the harness; plan R4 OldScan restoration/deskew has no baseline (tesseract_indic/PROMPT.md:18)
+P40: Plan v4 omits the Level7 locked W6 recipe sequencing (CPT->SFT->RL, never start with RL; RL only +0.08 on PaddleOCR-VL ablation) - _reports/research/LEVEL7_RESEARCH_FINDINGS.md:30-36,112
+P40: Plan v4 does not cite R4 restoration adoption bar (median dCER <= -0.03 vs Otsu, 95% bootstrap CI, >=2/3 frozen engines) for degraded handwriting/old scans - LEVEL7_RESEARCH_FINDINGS.md:90
+P40: Bodhan Santali 68.30 vs Sarvam 53.91 and surya Ol Chiki unsupported (sat honest-empty) are weak-cell evidence Plan v4 cites only for Bengali handwriting; sat/ks routing absent - LEVEL7_RESEARCH_FINDINGS.md:60,62-68
+P40: Akshara-boundary auxiliary loss and akshara error rate (AKER) metric recommended for Indic; Plan v4 uses WRR/word-acc only - LEVEL7_RESEARCH_FINDINGS.md:74; VAJRASTRA_INTERROGATION_PROTOCOL.md:189-192
+P40: Eval discipline missing from plan: bootstrap CIs, pre-registered falsification conditions, Wilson/McNemar paired tests, human spot-check protocol with second annotator, evidence standard (file/gate/ASSUMPTION) - VAJRASTRA_INTERROGATION_PROTOCOL.md:74-76,130,199-206; PROTOCOL_1_RESEARCH.md:182-188
+P40: Handwriting is an acknowledged zero-coverage gap in earlier benchmark; the earlier plan was IIIT-HW crops as mini-bench; Plan v4 should reuse transfer-obituary logic (public WRR/leaderboard numbers are not harness scores) - VAJRASTRA_INTERROGATION_PROTOCOL.md:236-238; PROTOCOL_1_RESEARCH.md:180
+P40: Licence checks: surya modified OpenRAIL-M (<$5M), HunyuanOCR licence risk, easyocr GPL; Plan v4 lists CC-BY-4.0 for IIIT-HW only - LEVEL7_RESEARCH_FINDINGS.md:56,106; VAJRASTRA_INTERROGATION_PROTOCOL.md:353-355
+P40: Throughput/cost numbers (Sarvam Rs0.5/page, 10 req/min; paddle 26.5 h/1000 pages) are the product/jury economics anchor not reflected in Plan v4 - VAJRASTRA_INTERROGATION_PROTOCOL.md:285-309
+P40: Consensus pseudo-GT / family-dedup independence caveat (shared training corpora like IIIT data) bears on HW1 leak gate and any pseudo-labelling - VAJRASTRA_INTERROGATION_PROTOCOL.md:93-97,159-161
+P40: Kill criteria rule (threshold on MEASURED statistic with baseline first) from protocol-1 not present as explicit kill list in Plan v4 gates - PROTOCOL_1_RESEARCH.md:231
+P41: Plan v4 omits the BARRED GT list (ks/mni/ur/sat/mr + ne-PDF) and the sealed-dir/L10 rules (MEMORY_FINAL.md:36,70,104-112); any eval touching them needs the leak gate.
+P41: Plan v4 does not cite KILL_CRITERIA K1-K5 or R7 N0-N4 gates (MEMORY_CONSOLIDATION.md:~30; FILE_INVENTORY.md:~104); HW0-HW2 gates should be reconciled with them.
+P41: Weak-cell attack briefs R2/R3/R4 exist (FILE_INVENTORY.md:~100-103) but Plan v4 has no printed 22-language track using them.
+P41: L9 no-downloads law (MEMORY_FINAL.md:69) vs Plan v4 checkpoint/dataset use: needs explicit user approval gate.
+P41: Evidence-status law and Sarvam 87.39 DEAD status (MEMORY_FINAL.md:40) should govern Plan v4 benchmark citations (e.g. 86.4 Sarvam small_rep, Bodhan numbers).
+P42: Plan v4 uses ICDAR'23 Bengali best 96.10 WRR; this corpus only gives the 10-language average 95.94 CRR / 88.31 WRR (Q2:446) - cite per-language source, and do not read average as Bengali.
+P42: Corpus has no Bengali handwritten word CER; best per-script handwriting numbers are Kannada 1.5% CER, Hindi 2.14% CER (Q2:457,442). Plan's HW2 gate (>=92%) lacks an external anchor in these files.
+P42: Label noise: cleaning labels alone gave up to 1.8 CER pts (Q1:470); plan has HW0 leak gate but no label-error detection/cleaning step on IIIT-HW train.
+P42: PARSeq-style printed->handwritten transfer benefit (Q2:448) supports plan's PARSeq choice; semi-supervised use of unlabeled writers (SemiHastakshar, Q2:448) is not in plan.
+P42: Post-correction must be per-engine: Devanagari byte-level corrector did not transfer across engines (Q3:479); plan's single post-correction layer needs Bengali-specific, per-expert noise training; word-level handwritten input gives little context for LM correction (inference).
+P42: Restoration (R4) is conditional: SR helped low-res, hurt high-res (Q2:598); plan lacks conditional-restoration gate; PreP-OCR 63.9-70.3% CER gain applies to pages (Page Expert), not 5,344 word crops.
+P42: Evaluation: plan should add median + catastrophic-failure rate, CER and WER together, NFC normalization (Q3:493-497,611); real-scan (not synthetic) validation required (Q1:376).
+P42: Confidence-based fusion: raw confidences unreliable (Q3:474); plan's expert routing/Tesseract fallback needs calibration against held-out writers.
+P42: Same-script LID Bengali vs Assamese vs Manipuri is unsolved in OCR (Q3:484,614); plan's per-script routing must not assume script==language for the 22-language product.
+P42: Weak cells sat/ks/mni/or have zero CER-level published evidence (Q2:473-484); any plan claim for them must come from own synthetic/R3 pipeline and be labelled UNKNOWN until measured.
+P42: Synthetic-only data overstates (Q1:376); Ol Chiki/Mayek synthetic (R3) needs a real-scan validation set, and mixed synthetic+real (300k+200k Baseer) is the evidence-backed recipe.
+P42: RLVR/hard-example mining have weak evidence for CER (Q1:455-456); plan should not budget compute on them as CER levers.
+P42: All Consensus numbers are unverified summaries (README:11); plan must open cited papers before quoting.
+P43: Plan v4 lacks the honesty/edge-thesis gate: v3 C10.1-C10.4 requires an evidence-backed EDGE_THESIS (D12) before freeze; v4 should state its edge explicitly with evidence (uni_v3:336-368).
+P43: Plan v4 lacks eval sampling discipline: 100 per language x 18 languages = 1,800 packs, with per-language source/page-offset distribution proof and a ban on first-page-only/one-paper-per-file sampling (uni_v3:225-246); a handwriting-only test must apply analogous writer/page coverage proof.
+P43: Plan v4 should reuse the existing weak-cell/R2/R3/R4/R7 research (docs/research R2_NASTALIQ_FORENSICS, R3_OLCHIKI_MAYEK_SYNTHETIC, R4_OLDSCAN_RESTORATION, R7_W6_TRAINING_TREE, level7/KILL_CRITERIA, W6_QLORA_SPEC) rather than rebuild; catalogued at DEDUP_DOCS_RESEARCH.md:99-107,163-164.
+P43: Plan v4 needs the cross-check law and protocol gates (verify_engine_readiness, spot_check_engine, self_audit, schema gates at write time, engine_agent_contract.json) at uni_v3:122-123,257-265; HW0/HW1 gates should be mapped onto them.
+P43: R5 GT forensics lives in level2/reports (sealed); plan v4 HW0 leak gate should read it (DEDUP_DOCS_RESEARCH.md:109).
+P43: Validation-call material (W5_BEAT_SARVAM_PLAN, W5_FREEZE_AGENDA, CALL_PACKET, HUMAN_SPOTCHECK_PACKET) is the product/jury layer plan v4 does not reference (DEDUP_DOCS_RESEARCH.md:36-49,153-169).
+P43: Mentor PPTX/MEETING_2026-09-29_STRUCTURED.md (D1-D7 decisions, A1-A5 actions) is a standing order to implement; confirm plan v4 reflects D1-D7 (uni_v3:414-419,710-713; DEDUP:181).
+P43: Time budget: v3 states ~5 active dev days remaining and training not started; plan v4 training gates need a compute/day schedule consistent with that (uni_v3:437-439).
+P44: No printed 22-language plan inside v4's core: v4 routes printed to Bodhan only; sat/ks/mni/or/sa/doi weak cells get no per-cell recipe beyond 'LoRA where it trails' (proto-108:104; proto-89:51). Kashmiri 600K-KS-OCR download (10.6 GB) is the only weak-cell data lever and is not in v4 decisions.
+P44: Script ID (IndicPhotoOCR ViT) has no sat/mni classes (proto-108:96; proto-89:33): v4 relies on Unicode ranges after first pass and IndicLID; sat/mni routing and Ol Chiki/Meetei Mayek recognition have no plan.
+P44: Perso-Arabic/Nastaliq (ur, ks, sd): proto-89 requires non-4-bit and raw+Arabic-normalized CER (proto-89:29,51); v4 mentions Urdu only in the HW table; no R2 Nastaliq plan.
+P44: v4 drops the old-scan/restoration lane: quality gate only (proto-108:89-92) though Sarvam's weak cells include old scans (proto-104:18).
+P44: v4 says it is Bengali-only handwriting first; the ICDAR winner recipe mentions multilingual real stage but only Bengali has data (proto-108:102,123); Gujarati ICDAR best only 62.80, Odia 83.38 - no plan beyond 'extra care'.
+P44: Test-set label unknown for 5,344 images: no dev split, no metric, no format (proto-108:218-219; proto-106:34-35) -> HW2 gates measured on IIIT val and independent writers only; kill (a) rests on a 100-image view.
+P44: BN-HTRd licence, PARSeq LICENSE, IndicPhotoOCR weight licence, IIIT test count unverified (proto-108:205-209) while plan trains on them.
+P44: Compute: v4 gives no GPU-hours/time budget for HW2/HW3/P1; GPU SSH (O-3) still unknown; Vinay's 24 GB box not confirmed (proto-108:218; proto-106:30).
+P44: Page CER 0.69 vs crop 0.054 (O-1) unexplained, undermining the 'Page Expert wins product' claim (proto-108:73,217).
+P44: Kill criteria beyond (a)-(c) and G-HW2 are not pre-registered for printed/Page Expert or router (only G-P1, G-SHIP) (proto-108:161-174).
+P44: Bodhan hosted-API approval (§3.1) and weights-hosting question unresolved for the product (proto-106:36; proto-89:18).
+P44: Merge of old plan's benchmark/GT discipline: GT_DEFECTS (G1-G9) and R-12 tiering are in proto-104 appendix but v4 E1 only mentions tiering briefly (proto-104:169-179; proto-108:154).
+P45: Plan v4 gate for per-script 4-bit vs bf16 precision (QARI 3.45 vs 0.091 CER) - B-01 matters for any Perso-Arabic (ur/ks/sd) path, and contradicts Consensus C1-2; plan does not mention (proto-100:33; proto-105:21)
+P45: Perso-Arabic scoring normalization (NFKC, yeh/kaf, digits, LRI/PDI) with raw vs normalized reporting - up to 3-8 pts of ks 'failure' may be scoring artifact (proto-100:34)
+P45: Report median + catastrophic-failure rate (CER>0.5) + NFC statement in every table; report real-image tiers separately since clean official_pdf renders overstate (proto-105:27,79)
+P45: Test-set profile (RQ-2) is still unresolved: Tesseract 35.7% Devanagari vs planner viewing Bengali handwriting; plan v4 asserts 'all inspected = Bengali' - need stratified vision check of script mix (proto-93:99; proto-97:156)
+P45: Oracle-gap analysis RQ-11 (<0.02 => no router) not run; Page Expert routing/fallback unjustified until measured (proto-97:120)
+P45: Kashmiri/Manipuri/Santali tracks (B-03/B-04/B-05), NE-OCR 95.56% on Meitei Mayek, 600K-KS HOLD licence: absent from v4 (proto-100:35-37; proto-92:34)
+P45: Old-scan A0-A3 ablation with adoption thresholds (B-06) and RQ-6 trigger >=10% degraded pages (proto-100:38; proto-97:74)
+P45: Voting rejected 0/115; agreement flag only as review triage (B-08); B-18 post-correction on Bodhan's own errors with 0 bench overlap (proto-100:40,50)
+P45: Product deliverables for jury (JSON schema, searchable PDF, per-block LID, offline package, pitch deck, 50-image dry run) - U35 boss YES (proto-100:43)
+P45: Licence constraints: surya evaluation-only (OpenRAIL-M S2(c)/S8); Bodhan hosted API needs written approval; 600K-KS HOLD; Jameel Noori font excluded (proto-92:27,34,35)
+P45: Bodhan weights 403 for HF user - access forms never submitted; v4 Page Expert depends on them (proto-93:106)
+P45: Handwriting data on disk is Gujarati (Bodo/gu, IIIT-HW 82,563 train lines but only 4,645 images on disk) - not Bengali; v4's Bengali HW training data licence/availability needs verification (proto-93:100)
+P45: Vinay gates (G-2.5 multi-LLM eval + 15-20 min session) and Vinay GPU access (U33) are prerequisites; ICDAR Indic HTR winner 95.94 CRR/88.31 WRR cited here vs v4's 96.10 WRR for Bengali - different figures (proto-105:54)
+P45: Sarvam bench count 6,609 vs 6,909 unresolved; bench scoring uses --normalize and excludes runaway repetitions - v4 must replicate for parity (proto-93:103,48)
+P45: Sarvam South predictions not retrieved (12 calls, never resubmit); South GT only via bench fill (proto-93:107,101)
+P46: Plan v4 centres on handwriting and the 5,344-image test, but the memory crosswalk still lists script mix as UNKNOWN (K-03: Tesseract H1 read 35.7% Devanagari / 55.7% unknown on 70 samples) - plan needs a vision-verified script-ID audit over all 5,344, not 3 viewed (proto-99:37-46).
+P46: Plan v4 has a 'post-correction' stage; HL7 (proto-99:393) and proto-01 never-list forbid spell-correction and invented GT in the benchmark (raw is the benchmark). Must be scoped to product output only and kept off scoring.
+P46: Plan v4 cites Bodhan-HW bench / Sarvam bench numbers but does not apply the GT-tier rule (proto-01:196-204): never pool tiers, report per tier with n; Sarvam bench is home ground (K-08b, proto-99:81).
+P46: Weak-cell targets (sat 53.91, ks 54.82, or 80.01, old scans) and short-n languages (as 19, sat 20, mni 20, gu 24, doi 27, brx 67, or 69) are absent from Plan v4 although they are where Sarvam is beatable (proto-99:25,66).
+P46: Win-claim law (n>=50 per language, same items/metric, independent set, per-tier, CI) and K-21 metric set (CER mean+median+bootstrap CI, WER, S/D/I, catastrophic rate, NFC, s/page) should be wired into the HW gates (proto-99:28,174-180; proto-01:80-81).
+P46: K-02 product gaps: requirements.txt, Dockerfile, PyTorch-vs-MLX parity number missing; Plan v4 says 'MLX Mac-only' but needs the parity number and Linux/CUDA image (proto-99:30-36).
+P46: K-26: 24GB GPU not confirmed (second-hand, arriving 2026-10-01); plan training stages (HW2 >=92%/>=85%) need compute stated and data move by rsync, keys in env vars only (proto-99:208-213).
+P46: Law prohibits downloads without a per-item U-row and boss go; Plan v4 dependencies (IndicPhotoOCR checkpoints, IIIT-INDIC-HW-WORDS CC-BY-4.0, Bodhan IndicDocLayout, Qwen3.5-0.8B) need approvals/licence rows (proto-01:28; K-17 Bodhan s3.1/s3.2 hosting approval, proto-99:146-155).
+P46: Bodhan licence: s3.2 internal component only; hosting needs written approval via registered company (proto-103:62) - plan uses Bodhan in a shipped product.
+P46: Sarvam 12 South predictions unretrievable (K-27, /download-url untried) - any Sarvam comparison in Plan v4 must not assume them (proto-99:214-220).
+P46: Gate 2.5 (multi-LLM evaluation + Vinay 15-20 min session, L6/L8/L12) is a hard pre-training gate; Plan v4 G-2.5 is 'Vinay OK' only - must include the multi-LLM-by-process evaluation with data package (proto-103:137; proto-99:142-145).
+P46: Plan should include the per-stage table 'PPT recipe -> Plan v4 choice -> why better' (L5/L10; proto-103:136) and Vinay-facing quotes must be L-rows only (M1-M10 attribution fixes).
+P46: Submission metric/format/deadline UNKNOWN (RQ-1; 10 of 12 timeline rows TBD) and no 50-image dry run - plan lacks a dry-run and a metric-agnostic output (proto-99:181-188,201-206).
+P46: Time/latency: surya ~24 s/page (~36 h for 5,344 on this Mac); plan needs a latency table per engine and a GPU run plan (K-30, proto-99:231-236).
+P46: Empty-output bugs (paddle brx/doi mapping, surya sa) and GT_DEFECTS register (26/126 legacy-font pages) must precede any coverage matrix; plan has no GT-defect step (proto-99:161-173).
+P46: Plan has no explicit SIGNED-OFF rule that DONE requires reproduced check output pasted in W4.md (proto-01:68) and no Verdict cross-check for each gate.
+P46: Boss rules: no team mates as owners, lists not tables, routed skills named in reports, full-file reads + graphify - Plan v4 wording should comply (boss-rules.md:94-104).
+P47: Plan v4 lacks the printed 22-language benchmark/routing evidence (BENCHMARK_22, PER_LANG_ROUTING, probe22 1,283 items, 10 engines) - all of it is printed, none handwritten (history-completed-protocols.md:1038), so it cannot be used as handwriting gate evidence; plan should say so explicitly.
+P47: HW0 leak gate must reuse the lessons here: split by source document, remove probe/test items + perceptual-hash neighbours, hold out 10% docs, never fine-tune on Sarvam bench (1098-1105); 447-item dedup-on-null disaster (593) warns against hash dedup on null fields.
+P47: Plan v4 states the Bodhan-HW bench numbers but not that vendor benches flip winners (8/22 per-language flips) and that Sarvam 87.39 is word accuracy macro over 22 langs, so no CER is comparable (911-913); the HW leaderboard claims need the same comparability table.
+P47: Licence gates missing: surya OpenRAIL-M Modified = eval-only/startup cap $5M (1018, 1014); Bodhan Indic Open Model License needs written approval for hosted API (1119); 600K-KS-OCR research-only HOLD (1018); EasyOCR .pth weight licence UNKNOWN. Plan v4 should list per-component licences.
+P47: Weak cells (sat, ks, mni, or) are not addressed by a handwriting-only plan: IndicPhotoOCR script-ID has no sat/mni (1018), no local engine emits Ol Chiki/Meetei (911-912), indic-ocr Tesseract tessdata Apache-2.0 cleared (1018). If 5,344 test images include these scripts, route fallback is needed.
+P47: Plan v4 scoring: official metric and deadline remain UNKNOWN (1037, 1076, 1141) and the student-project rubric must not be cited as official; need an organiser question and CER+WER+CI reporting by default.
+P47: Sheet provenance: any stored CER from sheet.csv is unreproduced (66/400 match) - plan must use sheet_v2 or re-score from scripts (860-865); Plan v4 gate numbers must be script-regenerated.
+P47: Kill criteria and K1/K2 McNemar bucket were mis-evaluated for Punjabi; plan's HW2 gates (>=92% IIIT val / >=85% independent writers) should use paired bootstrap on CER (1104) and named significance test, with n>=50 rule (D4).
+P47: Plan v4's Page Expert estimate (~86.4 word-acc small_rep, CER 0.4034 vs surya 0.566) conflicts with printed-estimate history: our routed system was estimated ~69.96 on the bench and surya 69.96 (1070-1071); check that 0.566 surya CER and surya-licence-eval-only restriction are consistent.
+P47: Speed/throughput: surya 16.3 s/page => ~24 h for 5,344 images (1074); plan v4 has no stated throughput/time budget or timed 50-image dry run (1088).
+P47: Plan v4 omits the deterministic bad-output checks (empty, wrong-script, invalid Unicode sequences, repetition loops, low token log-prob) and fallback chain proven useful (741-750, 1088).
+P48: Plan v4 never mentions the gold-repo consolidation (proto-107: 10 waves W0-W9, GO-A/GO-D/GO-G gates, fact-ledger no-loss law); any restructure of level2/ or docs/ must fit it, and H-1 level2/level2 self-symlink may be load-bearing for run_probe.py parents[2] (_claude_memory/proto-107-gold-repo-consolidation.md:63-65).
+P48: Plan v4 has no data-hygiene gate: 15,789 untracked level2/benchmark files not git-ignored (H-2) - pushing Bodhan-HW/IIIT-INDIC-HW data would violate Vinay's no-data-in-GitHub rule (_claude_memory/proto-107-gold-repo-consolidation.md:66).
+P48: Licence ledger missing from Plan v4: surya is evaluation-only (OpenRAIL-M s2(c)/s8), 600K-KS-OCR on HOLD (CC-BY-4.0 card vs Controlled Research Access License), Bodhan attribution s2.2/hosting s3.1/internal use s3.2; Plan v4 cites IIIT-INDIC-HW CC-BY-4.0 and Bodhan but not these constraints on fallback engines (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:144-152).
+P48: Tesseract fallback in Plan v4 must be script-routed by Bodhan OUTPUT-text Unicode ranges (IndicPhotoOCR script-ID lacks sat/mni) - proto-89/100 rules (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:151-152).
+P48: Time budget: surya 24.3 s/page ~36 h for 5,344 images (RF-15); Plan v4 compute for Page Expert + HW expert should be checked against measured per-page speeds (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:117).
+P48: Deadline claims: no official deadline; Oct 4/Oct 15 unsourced; weekday errors (2026-10-01 is Thursday) - Plan v4 timeline must not cite them (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:112).
+P48: Eval discipline traps not carried into Plan v4 gates: same-GT-tier comparisons, n<=5 directional, rubric UNKNOWN (student-repo list), Sarvam bench n 6,609 vs 6,909 unresolved - Plan v4 cites Sarvam bench numbers (~86.4 word-acc) without these caveats (_claude_memory/proto-98-clean-repo-master.md:346-352).
+P48: Weak-cell research R2 Nastaliq, R3 Ol Chiki/Mayek synthetic, R4 OldScan, R7 training tree sit in docs/research and risk being condensed away by the harvest (proto-95 CONDENSE) unless Plan v4 cites them (_claude_memory/proto-98-clean-repo-master.md:259,374-381).
+P48: Destructive-op rules 17-21 (sha manifest + verified bundle + log; no 2>/dev/null on mv/rm; check output pasted before phase DONE) must govern any Plan v4 repo work; the 2026-09-30 incident lost ~143 MB of untracked scores (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:15-26,122-141).
+P48: Test-set facts: 5,344 unlabelled official test images in Datasets/test/test; AGENT_PROTOCOL pinned n_total==1227 while manifest 1,283; Plan v4 HW0 hash gate should reuse the sealed-dir policy (Datasets, arc_level_1 read-only) (_claude_memory/proto-98-clean-repo-master.md:716,1061).
+P48: South (ta/te/kn/ml) official PDF pages: 0/23,001 clean due to legacy-font mojibake (52/115 'clean' pages bad) - GT trust for South printed cells is poor; Plan v4 doesn't mention (_claude_memory/proto-98-clean-repo-master.md:25,595).
+P49: Plan v4 handwriting-only framing ignores proto-81 requirement to measure real test-set profile and field provenance (print_or_hand/quality may be defaulted): all prior probe stats (1,283 printed) say nothing about handwriting; cite proto-81:13-14.
+P49: Plan v4 lacks GT-tier stratified reporting and bootstrap CI / abstention / S/D/I / seconds-per-page metric set; HW-gates HW2 (>=92% IIIT val / >=85% independent) should state n, tier, CI (proto-62:24-28, proto-80:19-28).
+P49: Plan lacks the Verdict cross-check (10-point, n>=50 for win claims, re-derive numbers) and Verdict-verified fix-spec discipline for training/eval claims (proto-91:19-33).
+P49: Plan lacks empty-output / abstention diagnosis: surya sa 100% empty, paddle brx/doi mapping bug, anuvaad_tesseract/rapidocr 100% empty cells; needed for the Tesseract fallback and any printed 22-language plan (proto-82:17-31).
+P49: Plan does not carry GT defect register (G1-G9: Marathi Ol Chiki injection, gt_thin 179 vs 200, te script conflict, ne barred, sarvam_bench home-turf) into HW0 leak-hash gate design (proto-65:19-27).
+P49: South ta/te/kn/ml standard (100 clean pages, SEED 20260926, same gates, honest n) and U11 approval are absent from v4; weak-cell lists in plan do not mention it (proto-71:35-44).
+P49: Submission readiness (script/language ID routing for unlabelled test, dry-run throughput on 5,344, format U2 unknown) is underweighted; v4 should record submission format/rubric as UNKNOWN not assumed (proto-78:13-30, proto-80:13).
+P49: Ops rules not in plan: no planner subagents (boss-assigns), never plan around teammates, checkpoint-after-every-step + NEXT.md, DISPATCH_LOG registration, Opus no-subagent rule (feedback files, proto-60:17-21).
+P49: Baseline-against-Vinay's-plan requirement (stage-by-stage, omissions: language ID, confidence routing, metric-aligned normalisation) is not reflected in v4 (proto-75:13-31).
+P50: Plan v4 states Bodhan-HW bench / ~86.4 Sarvam small_rep but ECC measured Bodhan bench small_rep CER 0.0540 WER 0.1356 n=1173 and pair-only gold CER 0.4034 vs surya 0.5660 (facts/mem_20260930_7b7725ee541446ceb655.md:17); sample-100 CER 0.6878 shows Page Expert is very weak on hard cases.
+P50: Plan v4 omits S4 engine baselines: tesseract 0.1450 vs rapidocr 0.8427 / doctr 0.8236 on South 400 (facts/mem_20260930_7b7725ee541446ceb655.md:17); supports Tesseract fallback but shows other engines unusable for Indic.
+P50: Plan lacks honest-n leftover caveat: as19 brx67 doi27 gu24 sat20 mni20 or69 (decisions/mem_20261001_3306cccc54db41b9ad0c.md:17); weak-cell claims on these langs are statistically thin.
+P50: Plan v4 not mentioning Vinay constraints: 24GB VRAM SSH not yet provided, organiser deadline unknown (~10 days), jury metric/test-set shape unanswered (decisions/mem_20260930_c7018b59ce7d491a9907.md:18-21).
+P50: Official-vs-MLX parity (K-02) and PyTorch official path blocked on Mac (CUDA assert) - Plan v4 says portable PyTorch but parity not measured (contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:17).
+P50: Sarvam benchmark results for 12 jobs unrecoverable (401, no download_url); any plan reliance on Sarvam bench numbers is unverified locally (handoffs/mem_20261001_a77cb25fe74f43fcaeae.md:19).
+P50: GT_DEFECTS.md missing / step Q (GT defects proto-65) before D2 not in plan (runbooks/mem_20261001_06d1c4936d3448c089a0.md:47).
+P50: Licence open items U14 surya eval-only, U27 Kashmiri HOLD, U28 hosting; Plan v4 lists only CC-BY-4.0 for IIIT (contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:18).
+P50: Plan v4's handwriting-only framing rests on H1 13/13 viewed samples; H2 (full 5,344 scan) status inconsistent (DONE 16490 items vs heading missing) (facts/mem_20261001_7e213f0ac9334790ba0b.md:21; facts/mem_20261001_ed755c4d7e514c06a93f.md:17).
+P50: Plan v4 says 'official test = 5,344 images'; the ECC notes' H2 count is 16490 items - the numbers differ and need reconciliation (facts/mem_20261001_7e213f0ac9334790ba0b.md:21).
+
+CONTRADICTIONS/OPEN:
+P01 CONTRADICTION: pa K1: SURVIVES (K:56, W5:80, W6:76) vs ERRATUM n_discordant 3 p=1.0 tie (K:234); QLoRA scope kok only.
+P01 CONTRADICTION: kok gap: 0.32 (K:53) vs 19.4pt (W6:75) vs 0.219 arithmetic.
+P01 CONTRADICTION: Memory: 24 GiB measured vs 'M2 Max 32GB' (W6:63,194).
+P01 CONTRADICTION: Sheet rows 11,097 (F:124) vs 12,324 (S:26); engines 11 vs 10 effective.
+P01 CONTRADICTION: Final verdict says paddleocr_indic missing (F:41) yet table shows DONE 2026-09-27 21:55 (F:122).
+P01 CONTRADICTION: Artifact count 654 vs 659 (F:94,104).
+P01 CONTRADICTION: W5 agenda D1 says kok+pa while K1 erratum says kok only.
+P02 CONTRADICTION: Effective engine count: 10 (H48_HOSTILE_PASS.md:121, PROMPT_MISS_AGENT.md:33) vs 9 (FIX_SPECS_R2_LEADERBOARD.md:103).
+P02 CONTRADICTION: ks GT trust: 45.0 (H48_HOSTILE_PASS.md:63; FIX_SPECS_FOR_MISS.md:34) vs 26.6 (H48_ENGINE_SPOTCHECK.md:37; HUMAN_SPOTCHECK_PACKET.md:123 for ne).
+P02 CONTRADICTION: Sarvam overall CER 0.24 (H48_HOSTILE_PASS.md:55) vs 0.2640 (FIX_SPECS_R2_LEADERBOARD.md:60,74) vs 0.1078 (R2:303).
+P02 CONTRADICTION: Manifest n=1227 (H48_HOSTILE_PASS.md:148) vs n=1283 re-sourced (H48_ENGINE_SPOTCHECK.md:98).
+P02 CONTRADICTION: 340/1313 byte-identical breakdown does not sum (299 or 241) in FIX_SPECS_R2_LEADERBOARD.md:231-270.
+P02 CONTRADICTION: Surya completion time 19:33 (H48) vs 20:30 (engine/miss prompts); prompt surya entries 726 partial vs complete.
+P02 CONTRADICTION: kok/pa/or K1 gap numbers differ inside FIX_SPECS_R2_LEADERBOARD.md (lines 170-175 vs 291-315).
+P03 CONTRADICTION: line 156 says surya wins 5/18 langs; lines 193/223 say 9/18
+P03 CONTRADICTION: D1 SAFE langs kok/mai/or/pa (lines 232,246,256) vs kok+pa only (line 36, mai+or killed by K1)
+P03 CONTRADICTION: K4 meaning: kill script router (line 289) vs install/memory/smoke gate (line 46)
+P03 CONTRADICTION: Sarvam per-lang numbers declared DEAD (line 322) yet still in agenda (line 108)
+P03 CONTRADICTION: mlx install/memory reclaim APPROVED+EXECUTING (lines 44-45) vs pending user approval (lines 480-482)
+P03 CONTRADICTION: Lane B records 436 (313/361) vs 258 (467)
+P03 CONTRADICTION: engine count: 10 effective vs 9 nominal/8 effective (line 337, pre-surya)
+P03 CONTRADICTION: sheet rows: 11,097 (line 114) vs 12,324 (line 35, added 10th engine + EN)
+P03 CONTRADICTION: Sarvam n_packs 51 in table (line 143) vs 54 main + 3 EN = 57
+P03 CONTRADICTION: line 263 says surya WINS hi/bn/ks/mai/pa/sd/ur for Devanagari row and 'mr/or tesseract'; line 267 or/pa 'tesseract-family' vs pa winner surya 0.145 in line 217
+P04 CONTRADICTION: docs/research/level7/MISS_MONITOR.md:27 says 237 visual verdicts vs docs/research/level7/MISS_MONITOR.md:204 says 233 items; mr 62.5% (5/8) vs 42.9% at line 83
+P04 CONTRADICTION: docs/research/level7/MISS_MONITOR.md:97 sarvam 0.264 headline vs line 136 54-cap/3-per-lang directional only
+P04 CONTRADICTION: docs/research/level7/MISS_MONITOR.md:116 QLoRA backbone Qwen2-VL-2B with 10,432 pairs vs line 510 GLM-OCR 0.9B primary vs line 288 kok+pa only (pairs for bn/hi/sa/en)
+P04 CONTRADICTION: docs/research/level7/MISS_MONITOR.md:89 text says 'ai' where 'as' presumably meant; hi/bn 'solved-class' vs line 90 hi/bn collapse 0.85-0.89
+P05 CONTRADICTION: Surya sa=1.000 'NO Ol Chiki' explanation (K:77,80) conflates Sanskrit (sa) with Santali Ol Chiki (sat).
+P05 CONTRADICTION: W6 training size: 459-801 items (H:78) vs 10,432 human pairs (K:61).
+P05 CONTRADICTION: Only 7 langs hit 100 distinct pages (V:53) vs sd=75 and mr=79 pages listed in S:294-295 and pa n=90.
+P05 CONTRADICTION: Cheatsheet (19:25) marks D4 OPEN; Handoff (22:06) marks APPROVED 21:13 (K:17 vs H:89).
+P05 CONTRADICTION: Decision IDs D1-D4 (locked campaign rules) collide with D1-D6 (call gates) (H:82-101); V:27 says 'D2 already locked' referring to the locked rule, not the gate.
+P05 CONTRADICTION: Handoff section 3 text 'D4: n<50' vs section 5 'D4: rapidocr EN fix' - same label different meaning.
+P05 CONTRADICTION: Effective engines 10 (H:11) vs PROMPT_MISS_AGENT still 7 (C:74).
+P06 CONTRADICTION: OldScan: A1-019 (LEDGER:183-185) says olmOCR-2 sub-scores 82.2/82.6/82.4 on OldScan/Base/Hard while A1-051 (:375-377) says OldScan 42.8, Base 99.7, Hard 56.7 for olmOCR-Bench; 42.8 is attributed to a Surya card (:153-158) yet used as generic OldScan figure.
+P06 CONTRADICTION: dots.ocr size/licence inconsistent: 1.7B Apache-2.0 (:213), 1.7B MIT (:321), 3B (:219, :762) ; OmniDocBench 88.41 vs Paddle 92.86 (:219) vs 96.33 elsewhere.
+P06 CONTRADICTION: DeepSeek-OCR compression stated as 10x, 11.3x and 16x across records (:171,:271,:294).
+P06 CONTRADICTION: LightOnOCR-2 arXiv 2601.14251 dated 2026-06-30 (:417) vs Jan 2026 id; Sarvam 87.3 vs 87.39 (:1204-1209).
+P06 CONTRADICTION: Bench size 6,909 blocks (:1218) vs 20,267 samples for Sarvam Vision v1 (:242) - different versions, not reconciled.
+P06 CONTRADICTION: Ledger says 'no Indic engine crosses 60 on OldScan' (:378) but Bodhan/Gemini OldScan scores are not recorded.
+P07 CONTRADICTION: Stage-2 base: A2-098 (3678) says Qwen2.5-VL decided; A1-128 (4169) says Qwen3-VL-4B/8B may replace it; A1-129 (4177) says freeze waits on Phase 6.
+P07 CONTRADICTION: Bodhan licence: A1-139 (4255-4257) cites CC-BY-SA-4.0 yet 'license supports commercial shipment/Apache-style fine-tune friendly'.
+P07 CONTRADICTION: A3-046 (2898-2900) text says 'do NOT adopt in current CPU ablation' but the decision tag reads 'adopt in current CPU ablation' (truncated tag artefact).
+P07 CONTRADICTION: Bodhan launch date: 05.09.2026 in text (4263) vs record date 2026-08-26 (LinkedIn post), HF card 2026-09-01.
+P07 CONTRADICTION: Chitrapathak-2 arXiv id given as 2502.16430 in A2-119 (3802) vs 2602.16430 elsewhere (2406).
+P07 CONTRADICTION: Ledger OldScan 55.3 is Sarvam-weak-cell number but A3-085 (3236) attributes it as first published gap measurement while Surya 2 OldScan is 42.8 on EN olmOCR-Bench: different benchmarks/units conflated.
+P07 CONTRADICTION: Chandra 4B Old Scans: Chandra 1 50.4 vs LightOnOCR 84.7 on same olmOCR-Bench subset; large spread.
+P07 CONTRADICTION: Qwen3-VL OCR language count 32 (4167) vs Qwen2.5-VL 10; dots.ocr params 1.7B vs 3B (4351) vs 1.2B vision+1.5B LM (2437).
+P08 CONTRADICTION: IIIT-INDIC-HW license: plan CC-BY-4.0 vs ledger academic-use (LEDGER.md:6137).
+P08 CONTRADICTION: IIIT-INDIC-HW-WORDS script count: 'Bengali..Telugu' list shows 9 names but says 8 scripts (LEDGER.md:6161); IndiaAI mirror says 13 langs (LEDGER.md:6986).
+P08 CONTRADICTION: Chandra Old Scans 51.1 vs LightOnOCR 84.7 vs Surya 2 42.8 on olmOCR OldScan: differing benchmark versions/subsets (LEDGER.md:4910, 4974, 6706).
+P08 CONTRADICTION: Bodhan Indic OCR Bench 84.94 (LEDGER.md:6233) vs plan Bodhan-HW bench 71.3: different benchmarks, handwriting is much lower.
+P08 CONTRADICTION: A4-004 states Sarvam OldScan 55.3 mapping while A4-087 expects clean scans better; OldScan 55.3 source is Indic OCR Bench blog, not a ledger row (LEDGER.md:6706).
+P09 CONTRADICTION: C1-021 4/6 vs GPTQ: v2 (-34.6% widening) vs v3 (mostly improved), unresolved (LEDGER:128-131)
+P09 CONTRADICTION: C1-140 vLLM v0.29.0 stable claim vs PyPI latest 0.28.0 (LEDGER:989 vs 1058)
+P09 CONTRADICTION: H100 price anchors disagree: $3.38 median (Aug) / $3.37 / <$2 floor / Vast $3.45 / $1.79 / $0.90-2.27 (LEDGER:400,918,1028,1062-1068)
+P09 CONTRADICTION: NOTE_SERVE_COST arithmetic: 1.5K tok/s sustained over 3K tok/page = ~43M pages/day not 1.8M; $0.50/hr x24 = $12 not $7 (NOTE_SERVE_COST.md:14-18); treat $4-8/1M as unreliable
+P09 CONTRADICTION: C1-110 'Qwen3-VL-2B drop-in same envelope' vs C1-143 official FP8 and C1-144 Qwen3.5-2B; NOTE_EDGE still cites C1-110 (NOTE_EDGE.md:23-24)
+P09 CONTRADICTION: Spec-decode: C1-097 Thor EAGLE-3 2.5x vs C1-006/113/116 do-not-budget for OCR (LEDGER:528-531 vs 49-52)
+P10 CONTRADICTION: B12/B15: Plenome healthcare win vs press claiming AksharDrishti OCR win (LEDGER.md:21,24)
+P10 CONTRADICTION: R112: 15M vs 24M daily inferences (LEDGER.md:284)
+P10 CONTRADICTION: R110 Rs 2 lakh VYOMA prize uncorroborated vs R109 up to INR 80 Lakh (LEDGER.md:281,282)
+P10 CONTRADICTION: Probe-derived C3 'ks trust 29-45 / ur 59.0 VERIFY-FIRST' vs Sarvam ur 91.21 (STRATEGY.md:15; LEDGER.md:116)
+P11 CONTRADICTION: KS-LIT-3M licence: paper CC-BY-4.0 vs HF card cc-by-sa-4.0 (937).
+P11 CONTRADICTION: Odia FT precedent GPU: A100-80GB (378) vs H100 (834); dataset size 58,720 vs 73k (838).
+P11 CONTRADICTION: UTRSet-Real HF copy near-empty (4.21 kB) vs claimed 11k+ lines (90); Odia merged 'Mozhi' license academic vs 10,000+ words.
+P11 CONTRADICTION: Sarvam Vision 2.1 score quoted 87.3 (olmOCR-Bench) and 87.39 (Indic) - distinct benchmarks (949,956).
+P12 CONTRADICTION: C4-078 DeepEval dataset synthesis CONTRADICTS protocol 0 rule 2 / section 9 (no synthetic data for GT or W6): allowed only for harness fixtures (LEDGER.md:685-691,998). Relevant tension with plan's R3 synthetic Ol Chiki/Mayek.
+P12 CONTRADICTION: Stale-copy failure cited as 100 sa packs (LEDGER.md:69) vs 102-pack bilingual FileNotFoundError (LEDGER.md:1192).
+P12 CONTRADICTION: Rank summary says 62 entering from C4-001-100 but upgrade tally 62 SURVIVES counts incl. 2 split rows; DIES 8 listed incl. 078-GT-use (LEDGER.md:894,1022-1023); minor tally ambiguity.
+P12 CONTRADICTION: C4-052 contains stray garbled text 'MCPCompose телефон' (LEDGER.md:463) - ledger quality flag.
+P13 CONTRADICTION: Campaign law 'no training until W6 freeze' (artifact_230:43, artifact_210:42) vs Plan v4 training PARSeq/Handwriting Expert after G-2.5 gate.
+P13 CONTRADICTION: artifact_200:12 and artifact_250:54 state cascade radius 0.9 to 4.7 (depth 3-7) but artifact_250/270 later claim depth-3 radius '~0.9-1.5' (artifact_270:306), an unsupported extrapolation.
+P13 CONTRADICTION: artifact_270:253 cites '3 lanes x 18 langs = 54 parallel agents' while the Sarvam cap is also 54 calls (artifact_270:124); distinct quantities with same number, easy to conflate.
+P14 CONTRADICTION: rtk: 60-90% token reduction vs JetBrains +7.6% median cost (E1) - unresolved, A/B at H44-48.
+P14 CONTRADICTION: DeepSeek-OCR-2: repo says runnable vs mlx-tune says not loadable (E2).
+P14 CONTRADICTION: claude-mem 'about 10x token savings' vs historian testing showing 5-8k tokens/session always-on tax with 95% of sessions never querying.
+P14 CONTRADICTION: Ponytail/Ralph source dates 2025-07-15 predate Ponytail creation 2026-06-12.
+P14 CONTRADICTION: Graphify LOCOMO QA 45.3% is below supermemory 49.7% despite recall@10 0.497 lead; headline claims selective.
+P15 CONTRADICTION: CAMPAIGN_DIRECTIVE.md:90 says kn=4/ml=4 scored pages; BENCHMARK_22.md:206 shows lang-tag view kn=25, ml=5 (script view kn=4, ml=4).
+P15 CONTRADICTION: CAMPAIGN_DIRECTIVE.md:118 'tesseract aliases byte-identical' vs BENCHMARK_22.md:366 erratum (differ on 857/1,227 items).
+P15 CONTRADICTION: CAMPAIGN_DIRECTIVE.md:91-93 sarvam_fill machine GT vs HF card 'reviewed twice by human experts' (resolved at COMPETITOR_INTEL.md:8).
+P15 CONTRADICTION: gt_thin threshold 179 (CER_BY_SCRIPT, directive) vs 200 (verify_v2.py code).
+P15 CONTRADICTION: EVIDENCE_SUMMARY s3 brx/or/sa values stale vs sheet.csv (0.153 vs 0.1653, 0.256 vs 0.2588, 0.168 vs 0.1751).
+P15 CONTRADICTION: Bodhan size/date: LIVE_LATEST ~3B and Sep 4 / DEEPER Sep 12 wrong vs ~0.83B, 5 Sep 2026.
+P15 CONTRADICTION: Gnani 'beats gpt-5.4-nano' wrong (79.46 vs 79.69); '11 Indic langs' wrong (English + 10).
+P15 CONTRADICTION: Option A (Miss) vs Option D (Verdict); Qwen2.5-VL-3B vs GLM-OCR 0.9B primary backbone.
+P15 CONTRADICTION: Sarvam 94.97 vs 90.08 for same model on OmniDocBench v1.6; PaddleOCR-VL 1.6 96.01 vs 96.33/96.36; Surya OldScan 41.8 vs 42.8.
+P15 CONTRADICTION: Plan v4 states Page Expert ~86.4 word-acc on Sarvam bench small_rep; COMPETITOR_INTEL shows these are vendor-built benches with 8/22 ranking flips (not strictly contradictory but flag).
+P16 CONTRADICTION: sheet.csv CER column vs metrics.py recomputation (66/400 exact) - EDGE_THESIS.md:42-50.
+P16 CONTRADICTION: K2 Punjabi McNemar: audit p=1.00 n=90 vs W6_QLORA_SPEC.md:75 'p<0.0001 SURVIVES' (MULTI_LLM_EVAL.md:68).
+P16 CONTRADICTION: Option A (Miss, level7 W5) vs Option D (Verdict, architecture W5) recommendation conflict (CHATGPT_EVAL_PROMPT.md:51).
+P16 CONTRADICTION: Two Vinay meeting packets (root 337 L vs docs/architecture 116 L) - which is handed over undecided (MENTOR_PLAYBOOK.md:191).
+P16 CONTRADICTION: Backbone Qwen2.5-VL-3B (W6 spec) vs GLM-OCR 0.9B alternate vs Plan v4 Qwen3.5-0.8B (U4) (CHATGPT_EVAL_PROMPT.md:53).
+P16 CONTRADICTION: Submission deadline contradicted across 43 files (U2) (CHATGPT_EVAL_PROMPT.md:69).
+P16 CONTRADICTION: SAMPLING_PLAN says 1,283 = scored + unscored (56 subset), contradicting earlier '1,227 + 56 additions' framing; and n>=50 count 12 vs 13 (MULTI_LLM_EVAL.md:67; SAMPLING_PLAN.md:49).
+P17 CONTRADICTION: B12 says 99.3% degraded/39.7% 'severe (mojibake/cutoff)' while TEST_SET_PROFILE rejects such heuristics as meaningless without OCR (B12:56 vs TEST_SET_PROFILE.md:4).
+P17 CONTRADICTION: B12 says all 300 samples script UNKNOWN; TEST_SET_PROFILE says viewed images are Bengali; Tesseract says 35.7% Devanagari (B12:39; TEST_SET_PROFILE.md:36-47).
+P17 CONTRADICTION: B12 missing-language count: text says 9 and '5 of 9' but lists 10 (and 6) langs; HW coverage '13/22' (B12:104-112).
+P17 CONTRADICTION: HF_ACCESS_REQUEST says Bodhan downloads 403-blocked; BODHAN_BASELINE reports on-disk weights and CER results (HF_ACCESS_REQUEST.md:11-14 vs BODHAN_BASELINE.md:5-19).
+P17 CONTRADICTION: BUNDLE_PLAN 601 live md vs MD_COUNT 306 live / 805 total (BUNDLE_PLAN:26; MD_COUNT:7-9).
+P17 CONTRADICTION: Bodhan 4-bit 99-item sample CER 0.688 vs 300-gold 0.4034 vs surya 1,227-item 0.3956: Bodhan advantage depends on subset (BODHAN_BASELINE.md:17-18; HF_ACCESS_REQUEST.md:68).
+P17 CONTRADICTION: BOSS_EXPLAINER says 22 languages / 1,683 items and 1,227 run; SHEET forensics manifest has 1,283 items (K-conflict '1,227 vs 1,283' in SKILL_STACK:24).
+P18 CONTRADICTION: ICDAR'23 Indic HTR winner stated 95.94% CRR / 88.31% WRR (docs/campaign/RESEARCH_DECISIONS.md:97) vs Plan v4 'Bengali best 96.10 WRR' - different language/metric unreconciled.
+P18 CONTRADICTION: Abstention figures differ: Plan draft paddleocr_indic 43.7%/anuvaad 50.3% (docs/campaign/DRAFT_RESEARCH_PLAN.md:165) vs register anuvaad 59.4%/paddleocr 56.1% (docs/campaign/RESEARCH_DECISIONS.md:50).
+P18 CONTRADICTION: RESEARCH_DECISIONS reuses RF-21..RF-37 numbers twice (B-14 rows vs RQ-12 consensus rows) - IDs not unique (docs/campaign/RESEARCH_DECISIONS.md:70,81).
+P18 CONTRADICTION: Plan draft counts: Konkani rank 'fourth-worst' but README 'kok 0.425' vs bootstrap 0.428; stored vs rebuilt Konkani 0.4248 vs 0.4286 (docs/campaign/DRAFT_RESEARCH_PLAN.md:99; docs/campaign/RESEARCH_DECISIONS.md:47,51).
+P18 CONTRADICTION: Surya engine verdicts: 'Gate 1 pair-only 300 gold Bodhan 0.4034 beats surya 0.5660' vs tier table surya 0.535 on 9 pair items - different n (docs/campaign/DRAFT_RESEARCH_PLAN.md:28,107).
+P19 CONTRADICTION: Ol Chiki share on Santali: five measurements (0.543/0.443/0.543/0.4331/0.6764) - W1.md:48
+P19 CONTRADICTION: GLM-OCR present/absent in OmniDocBench v1.6 (94.71 rank 3) - W1.md:87
+P19 CONTRADICTION: tesseract_bilingual vs indic differ on 778 (PROTO86:117) vs 857 (W1.md:176) of 1,227
+P19 CONTRADICTION: stored-CER reproduction 100/400 vs 111/400 vs 110 - PROTO86_VERIFY.md:121
+P19 CONTRADICTION: Option A vs D recommendation split between two W5_STRATEGY_OPTIONS docs - 1F_onepager.md:31
+P19 CONTRADICTION: D11: lead 20,656 vs monitor 5,344 - resolved to 5,344 (W1.md:169)
+P20 CONTRADICTION: sat Ol Chiki share: hunt 0.543 (H:12) / lens B 0.5430 mean-per-item (Bb:35) vs lens A 0.443 (A:59) vs lens C 0.4331 (C:46-60); lens C cannot find source of 0.543 (C:336).
+P20 CONTRADICTION: Best local sat CER: hunt 0.459 (H:13) vs lens B/C 0.6514 indicphotoocr, 0.7621 surya (Bb:44, C:59); 0.459 not in data.
+P20 CONTRADICTION: mr Ol Chiki chars: hunt 645 (H:20) vs lens A/B/C 64 on scored 79 (A:66, Bb:286, C:245); manifest 916.
+P20 CONTRADICTION: mr causal story: hunt says Ol Chiki mojibake adds +0.098 (H:21) vs lens B/C: arithmetic ceiling 0.0071/0.00324, delta from difficulty/Latin-heavy content (Bb:284-313, C:252-277); lens A said gate 'improves' scores, lens B/C say it is cherry-picking.
+P20 CONTRADICTION: Fusion sample numbers: hunt surya 0.5229/oracle 0.4277 (H:26) vs lens B/C 0.4190/0.3213 on same seed (Bb:97-100, C:99).
+P20 CONTRADICTION: surya mismatch CER: hunt 0.313/0.963 n=1098 (H:37) vs lens C 0.2382/0.6676 n=886 (C:173-186); lens B 0.311/0.901 n=1076/22 (Bb:189).
+P20 CONTRADICTION: Directive A8 tesseract_bilingual == tesseract_indic wrong: 370/1227 identical (C:104).
+P20 CONTRADICTION: arXiv 2409.04117 date ID Sep 2024 vs displayed 2026-08-24 (A:94).
+P20 CONTRADICTION: Sarvam bench size: 20,267 (Feb 2026 blog) vs 6,909 (Sep 2026) (A:156-158).
+P21 CONTRADICTION: 1F: plan Q5 says tam/tel/kan/mal traineddata already on disk vs plan section 6 and filesystem (12 files, none of those) (1F_sonnet.md:36-42).
+P21 CONTRADICTION: 1F: n>=50 count 13 (table) vs 12 (prose); 1G reproduces 12 for the 18-lang probe22 set, excluding ta (1F_sonnet.md:55-60; 1G_verify.md:124).
+P21 CONTRADICTION: 1F says K2 pa p=1.00 is arithmetically impossible; 1G reproduces p=1.00 with disc=3 n=90 (1F_sonnet.md:137; 1G_verify.md:131).
+P21 CONTRADICTION: FS-50 applied text said '7 of the 12' but listed 6 and concluded '6 in band'; true count 7 incl hi 0.220 (1G_verify.md:258-266).
+P21 CONTRADICTION: Packet stated Konkani is a Sarvam weak cell while Sarvam scores 97.41 (1G_verify.md:208-213).
+P21 CONTRADICTION: Packet said Qwen2.5-VL-3B PRIMARY at L129 but GLM-OCR 0.9B 'confirmed' at L221/289/330 (1G_verify.md:239-240).
+P21 CONTRADICTION: Two W5_STRATEGY_OPTIONS docs recommend opposite options D vs A (1G_verify.md:427-429).
+P21 CONTRADICTION: 1F plan section 7 claims 'two critiques raised by all three reviewers' while one of three evaluators could not run (1F_sonnet.md:143).
+P22 CONTRADICTION: pa K1: matrix p=1.0 vs KILL_CRITERIA.md:56 / W6_QLORA_SPEC.md:75 p<0.0001 (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:169-181)
+P22 CONTRADICTION: Pooled 10/18 (round 1) vs 8/18 (round 2) on same sheet.csv (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:323-328)
+P22 CONTRADICTION: GLM-OCR in/absent from OmniDocBench v1.6 (94.71 rank 3 per blog) (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:147)
+P22 CONTRADICTION: Sarvam kok rank: blog says 97.41 rank 1; Bodhan table disagrees (FLIP) (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:65-68)
+P22 CONTRADICTION: Option A defined three ways across packet, level-7 W5, docs/architecture W5 (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:122)
+P22 CONTRADICTION: gt_thin threshold <200 (JSON) vs <179 (directive) vs observed max 178 (docs/campaign/checkpoints/W1_reports/1H_verify.md:32)
+P23 CONTRADICTION: docs/campaign/checkpoints/W4.md:449 vs 786: H1 script evidence method (direct viewing of 13 vs 'Tesseract on 70 samples').
+P23 CONTRADICTION: docs/campaign/checkpoints/W4.md:528 vs 524: A4 PASS posted while smoke gate blocked.
+P23 CONTRADICTION: docs/campaign/checkpoints/W4.md:723 vs 384: South 400 images vs 800 rendered images; 1,683 vs 1,283 manifest sizes.
+P23 CONTRADICTION: docs/campaign/checkpoints/W4.md:111: Sep-10 '100/lang' attribution wrong (0 hits).
+P23 CONTRADICTION: docs/campaign/checkpoints/W4.md:834: manifest includes 85 pyc lines vs protocol exclude.
+P24 CONTRADICTION: DRAFT_RESEARCH_PLAN.md:18 / W1.md:145 / proto-99:194 assert the withdrawn CER/WER/S-D-I/sec-per-page rubric as official vs proto-80, proto-86 D8 and RQ1 (not official).
+P24 CONTRADICTION: INTEGRATION_REPORT.md:146 '2026-10-15 Bhashini qualifier deadline' and internal Oct 4 / '30/09 qualifiers' vs RQ1: no official AksharDrishti date; 30/09 is Rajasthan.
+P24 CONTRADICTION: LICENSE_AUDIT.md surya 'self-contradicting package' and CRAFT 'non-commercial' vs RQ9 (two scopes; CRAFT-pytorch MIT).
+P24 CONTRADICTION: Kashmiri 600k dataset: HF tag CC-BY-4.0 vs embedded Controlled Research Access License.
+P24 CONTRADICTION: 'CLIP script identifier' naming vs actual ViT-base fine-tune (RQ9:223-226).
+P24 CONTRADICTION: RQ9 s5 (hackathon rules unreadable, UNKNOWN) vs RQ1 (rendered, no licence/attribution rule published).
+P25 CONTRADICTION: A6 says A4 smoke gate 'BLOCKED on missing surya engine, not a path bug' (A6_recovery.md:36-37) but A4 and the verifier show it is structurally a path bug (parents[2], A4_paths.md:77-88; A3A4_verify.md:50).
+P25 CONTRADICTION: A1 reports 545 MB for renders_shared; verifier measures 570,147,487 B / 572 MB (A1_preimage.md:142 vs A1_verify.md:101,122) - MB vs MiB difference.
+P25 CONTRADICTION: A3 executor FAIL on equality (14,655 vs 14,663) vs verifier 'VERIFIED with amendment' (14,673 incl. 18 pyc) - not a data loss, framing difference.
+P25 CONTRADICTION: SOUTH_RERUN_FEASIBILITY option 4 lists '5 probe langs' but names 6 (as, gu, ne, doi, mni, sat) and includes ne 37, absent from the W4 n table (SOUTH_RERUN_FEASIBILITY.md:35 vs blind_verify_100strike.md:36-44).
+P25 CONTRADICTION: Verifier found H2 manifest paths inconsistent with disk (test/N.jpg vs test/test/N.jpg) yet scored PASS (blind_verify_H2.md:35).
+P25 CONTRADICTION: Gate 1 label 'BLOCKED' paraphrased to 'vendor assert' in BODHAN_BASELINE (blind_verify_gate1.md:47).
+P26 CONTRADICTION: LEADERBOARD.md:6 (all 11 engines scored, surya done) vs FS-VERDICT-H48-001/002/003 and Santa cross-check (8/11, surya RUNNING, paddle not in queue) - timing/staleness; leaderboard later refreshed 2026-09-29.
+P26 CONTRADICTION: abstention_audit.md:14,58 says surya sa empty because 'no Ol Chiki' but sa=Sanskrit; Ol Chiki=sat.
+P26 CONTRADICTION: Abstention/leaderboard n and empty counts differ (rapidocr 486 vs 647 empty; or 66 vs 69; ne 34 vs 37; paddle '12 langs empty' vs 8/18 coverage).
+P26 CONTRADICTION: FS-005 evidence cites 963 packs vs 1257 packs.
+P26 CONTRADICTION: LEADERBOARD.md:156 says surya dominates Devanagari yet sa surya 1.000 and mr/or tesseract wins; lines 159-160 call pa tesseract-tied winner while winner table has surya 0.145 vs tesseract 0.226.
+P26 CONTRADICTION: Surya/winner claims on barred langs (ks, ur) despite barred status.
+P26 CONTRADICTION: LEADERBOARD.md:66-69 table header has 11 engine columns but 13 separators; LEADERBOARD header says winners table verified but Wilson CIs not yet added.
+P27 CONTRADICTION: H1 35.7% Devanagari vs planner Bengali viewing (docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:67)
+P27 CONTRADICTION: Strategy doc 'Apache 2.0' vs official Indic Open Model License v1.0 (docs/campaign/checkpoints/MONITOR_2026-09-30.md:4)
+P27 CONTRADICTION: Sep-25 vs Sep-29 meeting date (docs/campaign/checkpoints/HANDOFF_PLANNER_CLOSE_2026-09-30.md:69)
+P27 CONTRADICTION: Note: the two _claude_memory files are byte-identical to the checkpoint copies
+P28 CONTRADICTION: Sarvam 87.39 self-built bench vs 'state-of-the-art' claim (LIVE_LATEST:245).
+P28 CONTRADICTION: Punjabi QLoRA survives K1 (KILL_CRITERIA.md:56, feed 12.2, paperthin p<0.0001) vs McNemar tie p=1.00 (VINAY:53).
+P28 CONTRADICTION: Konkani gap 32pt (W5 plan) vs 19.4pt (EVIDENCE_SUMMARY).
+P28 CONTRADICTION: Packet 'Konkani-only QLoRA' (VINAY:64-66) vs post-update Option B 'Kok + Pa QLoRA' (VINAY:383).
+P28 CONTRADICTION: Packet says Sarvam per-lang unpublished vs actual published (PAPERTHIN_AUDIT:92).
+P28 CONTRADICTION: Backbone: Qwen2.5-VL-3B PRIMARY (W6_QLORA_SPEC:53) vs GLM-OCR default (VINAY:237) conflict U4.
+P28 CONTRADICTION: PaddleOCR-VL 1.6 size 0.9B (packet:83) vs 34.5M (LIVE_LATEST:163); OmniDocBench 96.01 vs 96.33.
+P28 CONTRADICTION: Submission deadline Oct 4 vs Oct 15 vs qualifiers closed 30/09 (VINAY:138).
+P28 CONTRADICTION: Packet header says weak-cell win in OldScan/Kashmiri/Odia on probe22, yet OldScan is not on probe22 (VINAY:76 vs VINAY:184).
+P29 CONTRADICTION: Effective engine count 9 (W5_FREEZE_PLAN.md:34) vs 10 (PROJECT_COMPLETE.md:114)
+P29 CONTRADICTION: mr visual pass 42.9% (W5_FREEZE_PLAN.md:31) vs 62.5% (PROJECT_COMPLETE.md:159 line 154)
+P29 CONTRADICTION: D2 SKIPPED (W5_FREEZE_PLAN.md:49) vs D2 EXECUTED n=3 (PROJECT_COMPLETE.md:77)
+P29 CONTRADICTION: Manifest 1,227 vs 1,283; sheet.csv 12,324 stays 1,227-based
+P29 CONTRADICTION: Sarvam EN Wilson CI [0.188,0.468] inconsistent with avg CER 0.1078 (PROJECT_COMPLETE.md:125)
+P29 CONTRADICTION: surya wins 8 vs 9 langs listed (PROJECT_COMPLETE.md:144)
+P29 CONTRADICTION: Loop spec claims Sarvam aggregate 87.39 accuracy but probe metric is CER; different benchmarks (LOOP_SPEC_W5_W6_W7.md:34,286)
+P30 CONTRADICTION: Manifest size: 1,340 (Part I) vs 1,227 (Part II, SOUTH_CANON, ULTIMATE_HYBRID Part IX) vs 1,283 (Part IV, 2026-09-30); Part IV latest wins (FULL TECHNICAL BRIEFING.md:8,574).
+P30 CONTRADICTION: Part I lists gu/ks/mni/ur/sat/mr/ne PDF text layers as 'clean, usable' while Part II bars ks/mni/ur/sat/mr/ne-PDF and treats gu as mojibake/verify-first (FULL TECHNICAL BRIEFING.md:46-47 vs 266-269).
+P30 CONTRADICTION: Pipeline stage 2 backbone: deck says TrOCR + Qwen3.5 VL + PaddleOCR-VL; ULTIMATE_HYBRID says Qwen3-VL-8B + 'SCCT RL'; briefing says drop TrOCR, Bodhan 0.8B primary (SOUTH_CANON.md:26; ULTIMATE_HYBRID_CONCERN.md:18; FULL TECHNICAL BRIEFING.md:250,152).
+P30 CONTRADICTION: Sarvam weak cells (sat 53.91, ks 54.82) are Sarvam's lowest cells, yet Part IV pooled results show Sarvam still 2.51x better than best-local, 2.02x excluding mni/sat; 'beat Sarvam where it is weak' is not supported by validated data (FULL TECHNICAL BRIEFING.md:20,583-585).
+P30 CONTRADICTION: '87.39 word accuracy' (Part I line 18) vs 'bench avg Indic CER 87.39' (Part II line 199): metric type inconsistent.
+P30 CONTRADICTION: Project scope: SOUTH_CANON/ULTIMATE_HYBRID say Srujan limited to te/ta/kn/ml and no 22-lang; Part I says now lead 22-language probe (SOUTH_CANON.md:252 vs FULL TECHNICAL BRIEFING.md:18; unlocked by sec P).
+P30 CONTRADICTION: Part III says ~1% of campaign done and Day 1 of 10-day hackathon vs Part II W5 freeze Oct 1; timeline internal-inconsistent (FULL TECHNICAL BRIEFING.md:359-366).
+P31 CONTRADICTION: AUDIT_REPORT says merge level2/models into out; CLEANUP_EXECUTION_LOG reverts (false positive) - CLEANUP_EXECUTION_LOG.md:148-152 vs AUDIT_REPORT.md:83.
+P31 CONTRADICTION: PROTOCOL_UPGRADES 'no training' vs Plan v4 training gates HW2/G-2.5; PLAN.md W3 100/lang x18 vs INDEX manifest_v2 1,683 items.
+P31 CONTRADICTION: README/INDEX plan = proto-104 rev 4 vs memory Plan v4 proto-108.
+P31 CONTRADICTION: INDEX.md:55 says PROJECT_COMPLETE claim false.
+P32 CONTRADICTION: K-03 35.7% Devanagari vs 13/13 Bengali for Tesseract H1 (:47) - resolved to Bengali.
+P32 CONTRADICTION: Surya speed 13.9 s/img (:514) vs ~24 s/page (:239).
+P32 CONTRADICTION: 11x1,283 arithmetic 14,138 vs 14,113 (:495).
+P32 CONTRADICTION: Engines '10 independent' vs 9 engines/7 families (:450).
+P32 CONTRADICTION: Status counts Part 2 (:547) 'DONE-VERIFIED 95' vs K-07 'Part 1 has 1 DONE-VERIFIED' (:80).
+P32 CONTRADICTION: Root MD count: 12/20/19 claimed vs 18 actual (:517,522,523).
+P32 CONTRADICTION: Test-set/K-03 says 'South 4x100' while #68 says South 400/lang and 126/0.30 (:524,525).
+P33 CONTRADICTION: Tesseract aliases: 'byte-identical' declared FALSE (857/1,227 differ, L263) yet openbharatocr South copied as byte-identical alias of tesseract_indic (L603).
+P33 CONTRADICTION: Surya baseline CER 0.3956 weighted (L496) vs 0.1514 overall (L432) vs dropped 0.3849 (L158).
+P33 CONTRADICTION: Bodhan vs Sarvam Kashmiri ordering differs by bench (L429).
+P33 CONTRADICTION: Pair-only surya CER 0.5660 (L704) vs gold-300 ref in plan CER 0.566 consistent; but BODHAN beats surya on pair printed only.
+P33 CONTRADICTION: Section numbering duplicates; timestamps out of order (e.g. 2026-30T20:49).
+P33 CONTRADICTION: Earlier 'A6 PASS' claim false (L439) then later A6 PASS (L663).
+P33 CONTRADICTION: Sarvam South: 12 submissions reported SUBMITTED/completed but 0 predictions; later key 401.
+P33 CONTRADICTION: Wave 1 STOPPED by boss 21:05 (L186) vs same-day 'Wave 1 exit gate MET' (L247).
+P34 CONTRADICTION: Backbone: INTEGRATED-ELITE-STACK GLM-OCR 0.9B primary vs W6 spec Qwen2.5-VL-3B (QLORA_READINESS.md:146; QLORA_TRAINING_DATA.md:244)
+P34 CONTRADICTION: Eval '160 validation' vs 200 paired items incl. training rows (QLORA_EVAL_SPEC.md:36-58)
+P34 CONTRADICTION: QLoRA_SMOKE: 3 epochs both smoke and prod yet 'half of real run' (QLORA_SMOKE_TEST.md:94,108)
+P34 CONTRADICTION: Readiness: NEEDS_USER_APPROVAL (QLORA_READINESS.md:202) vs READY (QLORA_READINESS.md:91); the FINAL REFRESH supersedes
+P34 CONTRADICTION: B21 license label PD vs CC-BY-SA text source (B21:29-30,95-96)
+P34 CONTRADICTION: Physical memory: M2 Max 32GB (QLORA_TRAINING_DATA.md:271) vs ~23 GB total in vm_stat (QLORA_READINESS.md:168)
+P35 CONTRADICTION: FINAL_REPORT (2026-09-28) overall means differ from LEADERBOARD_REFRESH (2026-09-29): surya 0.3849 vs 0.3944, sarvam 0.2400 vs 0.2640 (different basis)
+P35 CONTRADICTION: README says n_total 1229, or 70, as 20 and expects 1,800 merge; AGENT_PROTOCOL says 1227; refresh says manifest 1,283
+P35 CONTRADICTION: FINAL_REPORT claims or/pa 'SAFE for SFT', but AGENT_PROTOCOL says pending 6.2 falsification; surya -0.25 gap flags PDF tier
+P35 CONTRADICTION: Obituary claims paddle '7 of 11' honest-empty listing 10 languages; 'ks' listed as paddle-less vs McNemar notes
+P35 CONTRADICTION: Boss draft routing for Bengali/Gurmukhi/Odia contradicted by disk (surya wins); transfer_obituaries cites surya sat 0.7357 vs refresh 0.613 median
+P35 CONTRADICTION: mcnemar_summary 600/445 vs FINAL_REPORT 606/439
+P35 CONTRADICTION: EN sanity: protocol expected clean pairs, disk shows noisy 3120x4160 scans
+P36 CONTRADICTION: K2 pa p=1.00 (audit) vs p<0.0001 (W6_QLORA_SPEC.md:75)
+P36 CONTRADICTION: Pooled 10/18 vs 8/18
+P36 CONTRADICTION: GLM-OCR in OmniDocBench v1.6 absent vs present 94.71
+P36 CONTRADICTION: 5,344 vs 20,656 test images
+P36 CONTRADICTION: W5_STRATEGY_OPTIONS 5 options (D first) vs 3 options (A)
+P37 CONTRADICTION: Packet 9/18 vs audit 9/12 (n>=50) vs 10/18 paired vs 5/12 McNemar-clear (W1A_PACKET_AUDIT.md:60-77).
+P37 CONTRADICTION: Option A/B letters differ between root packet and architecture W5_STRATEGY_OPTIONS; recommendations A vs D (W1A_PACKET_AUDIT.md:105-116).
+P37 CONTRADICTION: Backbone GLM-OCR (packet) vs Qwen2.5-VL-3B (W6_QLORA_SPEC, feed) (W1A_PACKET_AUDIT.md:118-129).
+P37 CONTRADICTION: kok 0.32 (feed) vs 0.194 measured; pa p<0.0001 vs p=1.00 vs runner-up (W1A_PACKET_AUDIT.md:151-160,646).
+P37 CONTRADICTION: surya 0.3849 (LEADERBOARD:94) vs 0.3944 from sheet.csv (W1A_PACKET_AUDIT.md:177).
+P37 CONTRADICTION: SAFE/BARRED label sets differ between packet and EVIDENCE_SUMMARY (W1A_PACKET_AUDIT.md:209).
+P37 CONTRADICTION: Budget $0 vs $12 recommended vs $17-72 ceiling; Sarvam cap 54 vs 57 (W1A_PACKET_AUDIT.md:172,179).
+P38 CONTRADICTION: EMPTY_PAGES.md:3 corrects the 2026-09-25 seal write-up that claimed te/ta/kn were 0-empty on every engine (tess-family has te 13, ta 2 empty).
+P38 CONTRADICTION: B12 shows 'clean' GT list is 45% mojibake, contradicting CER_CLEAN_GT_RECOMPUTE clean-ness; all CER rankings (surya #1) carry caveat (B12_ensemble_voting.md:134-137).
+P38 CONTRADICTION: level2/README.md:21 says probe22 covers 18 langs while UNIFIED_INDEX says 19 langs/23 distinct; and W3 schema header says '20 each' while amended to 100.
+P38 CONTRADICTION: W3_PROBE_SCHEMA.md:69 says surya writer-basis CER 0.43 overall while EXTERNAL_BENCHMARK_MAP.md:17 gives surya overall CER med 0.633 (different basis: clean-GT vs dense).
+P38 CONTRADICTION: Chandra weight licence cap $2M (EXTERNAL_BENCHMARK_MAP.md:56) vs surya $5M (LICENSE_AUDIT.md:21); and surya license listed as OpenRAIL-M yet package Apache-2.0.
+P39 CONTRADICTION: ta_ page ids labelled Telugu in notes (tesseract_indic/RUN.md:11)
+P39 CONTRADICTION: RapidOCR 3.9.x vs rapidocr-onnxruntime 1.4.4 (rapidocr/PROMPT.md:4 vs RUN.md:23)
+P39 CONTRADICTION: PaddleOCR PROMPT says ml falls back to en yet ml pages empty; fallback produces nothing useful (paddleocr_indic/RUN.md:15-17)
+P40 CONTRADICTION: Surya per-page latency: 16,925 ms/page median (400-page Level2, 2026-09-13) vs '4-9 s/page English, 178 s Hindi page' (Level7) - VAJRASTRA_INTERROGATION_PROTOCOL.md:25 vs LEVEL7_RESEARCH_FINDINGS.md:58
+P40 CONTRADICTION: OldScan weak cell cited as 55.3 (items 3,9) vs surya OldScan subscore 42.8 (item 6) in same file - LEVEL7_RESEARCH_FINDINGS.md:34,57,82
+P40 CONTRADICTION: PaddleOCR-VL languages: '100+' vs '109+' within the interrogation protocol - VAJRASTRA_INTERROGATION_PROTOCOL.md:279 vs 450
+P40 CONTRADICTION: Sarvam Document AI cited as 'Vision 1.5' (Sep-13 protocol) vs Sarvam Vision 2.1 (Level7, 2026-09-29) - later supersedes - VAJRASTRA_INTERROGATION_PROTOCOL.md:277 vs LEVEL7_RESEARCH_FINDINGS.md:13
+P40 CONTRADICTION: Level7 labels Chitrapathak-2 ANLS 6.69 vs 11.00 as both 'better' and DIES row says 'ANLS 11.00 vs 6.69' - lower ANLS used as better; consistent but ANLS direction ambiguous - LEVEL7_RESEARCH_FINDINGS.md:25,100
+P40 CONTRADICTION: PROTOCOL_1_RESEARCH.md is about Gemma-4 SWE agent competition, not Bengali handwriting/OCR; Level7 and Vajrastra both target 18/22-language printed OCR - scope mismatch with Plan v4
+P41 CONTRADICTION: b2 records 258 (FINAL_VERDICT) vs 129 (disk) - FILE_INVENTORY.md KEY FLAGS 1
+P41 CONTRADICTION: MEMORY_FINAL says MD files SSOT / W6 QLoRA Kok+Pa plan vs Plan v4 handwriting pivot 2026-10-01
+P41 CONTRADICTION: BOSS_CONCERNS counts differ: 50+/52 items vs 73 vs ~80/81 across files (MEMORY_CONSOLIDATION.md vs FILE_INVENTORY.md vs MEMORY_FINAL.md:17)
+P41 CONTRADICTION: FINAL_REPORT vs FINAL_VERDICT byte sizes (16,317 vs 14,899) - different files
+P42 CONTRADICTION: Q1:334 says cross-lingual pretrain 51% WRR vs Q2:540 51.93 for cross-lingual Punjabi-init: same paper (Manna2025), consistent, but Q1 rounds numbers.
+P42 CONTRADICTION: Q2:420/536 give '7.01 CER' without percent sign for archived govt docs vs 3.71% elsewhere; units ambiguous.
+P42 CONTRADICTION: Plan's Bodhan/IIIT-HW numbers (74.8/71.3/58.3; 96.10) are not in these files; unverifiable from this partition.
+P43 CONTRADICTION: uni_v3 says 18 languages (100 each) vs S4 all 22 scheduled languages (uni_v3:225,393).
+P43 CONTRADICTION: uni_v3 header references Part 20 register that does not exist; Part 18/19 hold the 96 concerns (uni_v3:211).
+P43 CONTRADICTION: DEDUP header '3 MERGE candidates' vs summary '1 MERGE candidate' (DEDUP:187,231).
+P43 CONTRADICTION: LIVE_LATEST sat/mni claim superseded by DEEPER corrigendum (DEDUP:25).
+P43 CONTRADICTION: uni_v3 'NO OTHER DOCUMENT SUPERSEDES' (uni_v3:4) vs DEDUP calling it sealed/archived under AGENTS.md (DEDUP:182,205) and plan v4 of 2026-10-01 which post-dates it.
+P43 CONTRADICTION: R0.7 'past work 100% gold, no re-litigating' vs existence of corrigenda/hostile passes (RED pass on leaderboard).
+P44 CONTRADICTION: IIIT Bengali test count 17,575 (ilocr/PLATTER) vs 18,574 (ICFHR page) - proto-108:120-121
+P44 CONTRADICTION: AIKosh CC BY 4.0 vs 'academic-use'/'All Rights Reserved' for competition and ICFHR copies - proto-108:202,212
+P44 CONTRADICTION: proto-104 rev4 says script mix UNKNOWN (:38) vs proto-108 13/13 Bengali (:32)
+P44 CONTRADICTION: proto-89 says handwriting not measured/Bodhan HW 66.7; proto-106 says official test set 'handwritten word crops' with Plan v3 'handwriting is the centre' while proto-89 Plan v3 routes everything via Bodhan
+P44 CONTRADICTION: Sarvam bench GT 'human-reviewed twice' vs protocol 'machine GT' (G5) - proto-104:175
+P44 CONTRADICTION: Bodhan reproduces 84.94 at ~86.4 on small_rep yet page-level CER 0.69 - proto-108:70-73
+P44 CONTRADICTION: Sep 25 meeting date contradiction open - proto-106:29
+P44 CONTRADICTION: Ledger 'Bodo/gu test/test as GT' do-not-collect vs labelled IIIT Gujarati - proto-108:213
+P45 CONTRADICTION: 4-bit: B-01 bans 4-bit for Arabic-script (QARI 3.45 vs 0.091) vs Consensus C1-2 'often preserves gains' (-29% CER Arabic print) (proto-100:33 vs proto-105:21)
+P45 CONTRADICTION: Test set script: planner viewing = handwritten Bengali vs H1 Tesseract 35.7% Devanagari (proto-93:99)
+P45 CONTRADICTION: Bench size 6,609 (F28) vs 6,909 (F51/F76)
+P45 CONTRADICTION: Adaptive selection +23.7% (Zhang 2026) vs own voting 0/115 (proto-105:60)
+P45 CONTRADICTION: F43 student rubric vs F69 official page: official page says no metric; F44 surya $5M cap vs U14 reframed to OpenRAIL S2(c)
+P45 CONTRADICTION: U27 earlier YES to 600K-KS download vs later HOLD for embedded research-only licence; U7 tessdata 'no licence' (F53) vs Apache-2.0 cleared
+P45 CONTRADICTION: sarvam_fill machine GT vs bench card 'human reviewed twice' (C12)
+P46 CONTRADICTION: K-03 script mix UNKNOWN (H1: 35.7% Devanagari, 55.7% unknown) vs planner's viewing of 3 images as handwritten Bengali vs Plan v4 claim 'all inspected = Bengali' (proto-99:41-42).
+P46 CONTRADICTION: Meeting-2 date: feed says 2026-09-25, transcript content matches Sep 29 (proto-103:43-48).
+P46 CONTRADICTION: Docs attribute 'hybrid integration' and 'AI-only team' to Vinay but they are the boss's S5/S2 (proto-103 M1-M10).
+P46 CONTRADICTION: Sarvam '~Rs100 for 400 pages' in Sep-16 package was free credit, price Rs0.5/page (proto-103:37-41).
+P46 CONTRADICTION: HL6/HC14.7 '9 engines, 7 independent families' vs probe docs saying '10 independent' (proto-99:392,405).
+P46 CONTRADICTION: Sealed-dir counts (2026-09-29) superseded: level2/reports and level2/models removed into a bundle (proto-99:158 vs proto-01:129).
+P46 CONTRADICTION: 2026-09-29 law 'no Sarvam calls, 57-call cap spent' vs 2026-09-30 R-8 allowing 12 South calls on free credit (proto-01:29,54).
+P46 CONTRADICTION: Local engines 'ahead of Sarvam 10/18' vs human-verified tiers where Sarvam is 2-4x better (proto-01:196-198).
+P46 CONTRADICTION: HL7 no spell-correction vs Plan v4 post-correction stage (proto-99:393).
+P47 CONTRADICTION: Option A (wrap-only routing + QLoRA kok+pa) vs Option D (restoration + script-router + Sarvam subsidy) vs later Plan v3 Bodhan base (superseded by 89/104).
+P47 CONTRADICTION: Backbone: Qwen2.5-VL-3B (feed 12.2) vs GLM-OCR 0.9B (packet) - unresolved at this file's time, then Bodhan-base.
+P47 CONTRADICTION: Punjabi K1: KILL_CRITERIA.md:56 'survives p<0.0001, 88 discordant' vs mcnemar_full_matrix.json tie p=1.0, 3 discordant (history file:1032).
+P47 CONTRADICTION: kok gap 0.32 / 32pt->5pt (feed 12.2) vs 0.194 (EVIDENCE_SUMMARY section 3) vs 0.425 CER.
+P47 CONTRADICTION: indic-ocr tessdata: factchk 'no licence stated -> all-rights-reserved' vs RQ-9 'Apache-2.0 cleared' (1010 vs 1018; RQ-9 wins).
+P47 CONTRADICTION: Surya licence summarised as 'free for startups under $5M' (999) vs RQ-9 'evaluation-only' (1018).
+P47 CONTRADICTION: Date confusion: 43+ docs 'Wed 2026-10-01' vs real Thursday; deadline Oct 4 vs Oct 15 vs 'qualifiers 30/09' (1141).
+P47 CONTRADICTION: Effective engine count 10 vs 11; tesseract_bilingual identical vs differs on 857/1,227 (1A) (158, 962).
+P47 CONTRADICTION: Memory says 1,227 vs 1,283 vs 1,683 vs 2,200 target counts in different docs (1153,957).
+P48 CONTRADICTION: proto-107 T1 plan = 'proto-104 rev 4 + Plan v3' vs current Plan v4 (proto-108) handwriting-first; gold-repo finals would encode the superseded plan (_claude_memory/proto-107-gold-repo-consolidation.md:165).
+P48 CONTRADICTION: proto-98 says root md target 7 (README, AGENTS + 5 uni deliverables, root stays per C5) vs proto-107 target <=4 (+LICENSE/NOTICE) (_claude_memory/proto-98-clean-repo-master.md:213 vs _claude_memory/proto-107-gold-repo-consolidation.md:256).
+P48 CONTRADICTION: proto-98 says .venv/.venv311 KEEP and README states which runs what vs proto-107 W8 'one env .venv311 + lock', .venv retire is boss call (_claude_memory/proto-98-clean-repo-master.md:725 vs _claude_memory/proto-107-gold-repo-consolidation.md:237).
+P48 CONTRADICTION: proto-98 tree puts docs/BRIEFING.md and keeps AUDIT_REPORT/CLEANUP_EXECUTION_LOG at root; proto-107 uses docs/STATE.md, docs/HISTORY.md and archives them (_claude_memory/proto-98-clean-repo-master.md:69-79 vs _claude_memory/proto-107-gold-repo-consolidation.md:167,177).
+P48 CONTRADICTION: Sarvam bench n appears as 6,609 and 6,909 across repo files (_claude_memory/proto-98-clean-repo-master.md:352); probe size 1,227 vs 1,283 vs 1,800 (_claude_memory/proto-98-clean-repo-master.md:895).
+P48 CONTRADICTION: proto-102 B2 vs earlier BOSS_CONCERNS #71: models/ vs out/ declared DIFFERENT; disk shows 4,000 byte-identical copies (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:110).
+P49 CONTRADICTION: proto-79/91/90 instruct dispatching Sonnet subagents/council vs feedback-no-subagents-boss-assigns (planner uses none; boss assigns to his 3 agents).
+P49 CONTRADICTION: gt_thin threshold 179 (docs) vs 200 (code) (proto-65:20); te_024/te_065 script map conflict (proto-65:21).
+P49 CONTRADICTION: sarvam_bench GT 'machine' vs human-reviewed twice (proto-65:23, conflicts C12).
+P49 CONTRADICTION: Proto-81 (hackathon = handwriting/low-quality UNVERIFIED, probe all printed) vs Plan v4 (inspected test all handwritten Bengali words).
+P49 CONTRADICTION: Proto-71 execution order superseded by proto-101 (U10/U11).
+P49 CONTRADICTION: 1,227 scored vs 1,283 manifest vs 1,227 items in proto-62 task (C8).
+P50 CONTRADICTION: H1 13/13 Bengali vs earlier 35.7% Devanagari (retired as method artifact) (handoffs/mem_20260930_e83af51b74f74e5ea6f7.md:44).
+P50 CONTRADICTION: H2 'DONE 16490 items' (facts/mem_20261001_7e213f0ac9334790ba0b.md:21) vs 'H2 heading missing in W4' (facts/mem_20261001_ed755c4d7e514c06a93f.md:17) vs Plan v4 5,344 test images.
+P50 CONTRADICTION: Agent 2 claimed all done while BODHAN_BASELINE was still stub (handoffs/mem_20261001_a16b7b5f391b4b60978b.md:17); later landed.
+P50 CONTRADICTION: graphify counts 8380/9577/775 vs 8669/9890/802 across ticks.
+P50 CONTRADICTION: GOLD W0 manifest includes pyc despite protocol exclusion (FAIL-minor) (facts/mem_20261001_d5d1b198f84647ffaf2d.md:17).
+P01 OPEN: MLX install approval (K4a) pending; Vinay meeting outcome Option A/B/C unknown
+P01 OPEN: gu_o005 spot-check verdict (gu SAFE or BARRED)
+P01 OPEN: User approval for sat/ks source downloads and 600k-ks-ocr 10.6GB
+P01 OPEN: GPU budget cap for any non-local training
+P01 OPEN: Whether W5 freeze record was written (W5_FREEZE_RECORD.md) and thresholds signed (k1_signoff.json)
+P01 OPEN: Full Sarvam run on 1,227 items not done; 'beat 87.39' only directional
+P02 OPEN: gu_o005 human verdict (gu SAFE vs BARRED) pending user.
+P02 OPEN: 20-item human spot-check unreviewed; W5 freeze opens 2026-10-01.
+P02 OPEN: D5 full Sarvam API run budget undecided; EN column skipped for Sarvam.
+P02 OPEN: mlx-tune/mlx-vlm install and paddleocr_indic download pending user approval.
+P02 OPEN: Whether surya sa honest-empty is a routing bug (SURYA_LANG/TESS_SAT mapping) not fixed.
+P02 OPEN: as/brx/doi SAFE langs have n<50: no winner claims, QLoRA candidacy unresolved.
+P02 OPEN: Complete 340-pack breakdown for tesseract-family overlap not produced.
+P03 OPEN: Vinay decision A/B/C and backbone choice (GLM-OCR 0.9B / Qwen2.5-VL-3B / MonkeyOCRv2) - outcome of 2026-09-30 meeting not in this file
+P03 OPEN: K1-K5 thresholds blank
+P03 OPEN: W6 memory headroom (Chrome/Brave/WhatsApp quit ~3.5 GB) unconfirmed
+P03 OPEN: sat/ks micro-repair approve/defer
+P03 OPEN: Surya Odia/Sarvam EN n=3 are directional only; need larger Sarvam sample
+P03 OPEN: LEADERBOARD Wilson CI column and 19/18 label fix owed by Engine
+P04 OPEN: HF_TOKEN for surya (line 76)
+P04 OPEN: mlx-tune install result / memory headroom (line 298)
+P04 OPEN: Vinay meeting outcome 2026-09-30 (line 494)
+P04 OPEN: OldScan per-engine breakdown (line 93)
+P04 OPEN: sat+ks micro-repair W5 (line 291)
+P04 OPEN: LEADERBOARD Wilson CI + 19/18 fix by Engine (line 118)
+P05 OPEN: Outcome of the validation call (D1-D6 overrides) is not recorded in these files.
+P05 OPEN: gu_o005 spot-check pending; 20-item review deferred to W6.
+P05 OPEN: HF_TOKEN for surya fetch is an open user decision.
+P05 OPEN: Missing docs/research/R5_*.md and b3 artifact_051.
+P05 OPEN: Whether ~$15-30 full Sarvam run will ever be approved.
+P05 OPEN: D6 approval of downloads for missing source PDFs to fix sampling independence.
+P05 OPEN: W6 conditional 342 items depend on 6.4 verify-first for brx,kok,mai,sd.
+P06 OPEN: ICDAR 2025 IHDR winner and scores not recorded (:190-193).
+P06 OPEN: Indic OCR Bench fetch needs user approval (MANIFEST:59; LEDGER:1218).
+P06 OPEN: Machine-GT trust audit (ne barred 26.6; ks/mr/gu/ur verify-first) unresolved (MANIFEST:60).
+P06 OPEN: Bodhan and Gemini per-language OldScan/Bengali handwriting scores not in ledger.
+P06 OPEN: Per-page cost equivalents for Krutrim token pricing not computed (:135-138).
+P07 OPEN: Does PRISM / SauvolaNet / DocRes checkpoint verify within 1 hour on 4-page gate (3531, 3440)?
+P07 OPEN: Is Ol Chiki/Meetei Mayek/Kashmiri covered by any candidate base VLM (Qwen3-VL 32 langs list unknown) (4168)?
+P07 OPEN: Indic handwriting numbers: Sarvam 2.1 and Bodhan HW per-language results not in this section; need primary bench (4527, 4271).
+P07 OPEN: DocRevive/PreP-OCR Indic transfer unknown (3069, 2833).
+P07 OPEN: IIIT-H multilingual doc benchmark use needs approval post-freeze (3630).
+P07 OPEN: MIST, BharatScene, IndicSTR12 scene-text sets exclude weak cells so cannot evaluate them (3660).
+P08 OPEN: Sarvam Indic OCR Bench download needs user approval (D1, Rs2,672 for API run) (LEDGER.md:4766, 6213).
+P08 OPEN: Per-script ICDAR 2023 Bengali WRR (96.10 in plan) is not in this ledger part; verify from paper (LEDGER.md:6113).
+P08 OPEN: Probe22 MEASURED rows for sat/ks/mni (A4-098..100) UNKNOWN pending runs (LEDGER.md:6814).
+P08 OPEN: Verify IIIT-INDIC-HW license and D4 SAFE-lang list (LEDGER.md:6137).
+P09 OPEN: Indic-gated PTQ CER on Ol Chiki/Nastaliq/Odia untested (no MEASURED rows in lane; LEDGER:642)
+P09 OPEN: English DocVQA delta predicting tail-script CER delta unestablished (LEDGER:691)
+P09 OPEN: Customizer VLM LoRA support probe (post-freeze) (LEDGER:743,849)
+P09 OPEN: Nemotron-OCR-v2 multilingual coverage of Ol Chiki/Nastaliq (LEDGER:707,826)
+P09 OPEN: PaddleOCR-VL-1.6 accuracy on Indic scripts (LEDGER:934)
+P09 OPEN: QAD cost on 2B VLM with Indic data (LEDGER:880)
+P09 OPEN: A100/Thor/BF16/FP4 quotes not refreshed in last pass (LEDGER:1068-1070)
+P09 OPEN: Verdict full-fetch sample: C1-112,118,127,140,143,151 (LEDGER:966,1055)
+P10 OPEN: AksharDrishti Stage-1 qualifier list (R127)
+P10 OPEN: Purse unknown (R128)
+P10 OPEN: Scoring metric unpublished (R129)
+P10 OPEN: Our official finalist status unconfirmed (R107)
+P10 OPEN: Confirm UNB host/license, CLE Nastaliq split, printed-Mayek bench terms at freeze (STRATEGY.md:17,30)
+P10 OPEN: IndicCorpV2 or-coverage TODO-verify (STRATEGY.md:34)
+P10 OPEN: Surya license; Mozhi-Oriya CVIT terms
+P10 OPEN: Re-check Bengali->Mayek switchover at freeze (STRATEGY.md:31)
+P11 OPEN: Repo vs HF parity for 600k-ks (76,646)
+P11 OPEN: sat router decision (Bodhan sat 68.30)
+P11 OPEN: BY-SA scope on renders/weights (433)
+P11 OPEN: IndicCorpV2 or coverage (399)
+P11 OPEN: CVIT Mozhi mirror licence unresolved (560)
+P11 OPEN: Operator kill thresholds and GPU budget (875)
+P11 OPEN: Transliteration gate sample >=95%/500 lines (273)
+P11 OPEN: Urdu OCR Multi Source Dataset terms (963)
+P11 OPEN: Hackathon non-commercial status (439)
+P12 OPEN: Own-manifest paired McNemar + Wilson re-measure of any vendor cell (Sarvam/Bodhan sat/ks/or) needs download approval + GPU (P1/P2).
+P12 OPEN: User-approved full-manifest Sarvam run with EN column explicitly deferred (OBITUARIES.md:345-346).
+P12 OPEN: ~2h human GT verification of 158 fill + ~77 PDF items outstanding (LEDGER.md:1162).
+P12 OPEN: Operator thresholds for kill criteria to be set at H44-48 call (LEDGER.md:1120).
+P12 OPEN: 30 UNKNOWN C4 rows are a permission queue for the validation call (LEDGER.md:1273).
+P13 OPEN: Whether Laya router or intent-reasoning routing helps script/page routing is untested (UNKNOWN).
+P13 OPEN: Local-model alternative to external critique at validation call not specified (artifact_220:71).
+P13 OPEN: Source of weak-cell numbers (probe22 metric: CER vs accuracy; 'Santali 53.91') not defined in this partition; verify against probe22 files.
+P14 OPEN: Indic head-to-head: dots.mocr vs GLM-OCR vs MonkeyOCRv2 (needs Indic bench first).
+P14 OPEN: HunyuanOCR-1.5 licence review and local runnability test.
+P14 OPEN: Unlimited-OCR local runnability and OldScan effect.
+P14 OPEN: rtk A/B and claude-mem hook conflict with ECC untested.
+P14 OPEN: light-ocr, ai-memory details UNKNOWN; star counts unverified.
+P15 OPEN: U1 meeting/join date; U2 real submission deadline; U3 src/ training tree fate; U4 Option A vs D and backbone; U5 score the 56 additions and re-draw kok/pa.
+P15 OPEN: Whether Sarvam 87.39 uses word_accuracy or valid_word_accuracy; how many rows hit Sarvam's gt2,gt2 branch.
+P15 OPEN: Whether overlap exists between Sarvam training data and its own bench.
+P15 OPEN: Bodhan IndicOCR-PR unit (block vs page); Sarvam Vision 2.1 param count; Bodhan '15M+ docs' vendor claim.
+P15 OPEN: Consensus.app free-tier quota.
+P15 OPEN: Multi-LLM evaluation (D15) not done as of this snapshot; edge thesis (D12) pending refutation rounds.
+P15 OPEN: Metrics parity: re-score both sides through one scorer before any head-to-head.
+P16 OPEN: ChatGPT evaluator leg not run (PENDING BOSS paste); OpenCode leg unavailable; no evaluator reviewed the composed DRAFT_RESEARCH_PLAN itself (MULTI_LLM_EVAL.md:52-54).
+P16 OPEN: Whether indic-ocr pack actually contains sat/mni traineddata (listing never opened) (EDGE_THESIS.md:36).
+P16 OPEN: Cause of sheet.csv non-reproducibility not established (EDGE_THESIS.md:48).
+P16 OPEN: Whether Consensus.app is actually JS-gated (untested) (MENTOR_PLAYBOOK.md:189).
+P16 OPEN: A6 Krishna/Aryan support: no artifact (MENTOR_PLAYBOOK.md:190).
+P16 OPEN: U1-U7 boss decisions unresolved (SAMPLING_PLAN.md:133-139).
+P17 OPEN: Which scripts actually appear in the 5,344 test images (Bengali only? run measured script-ID on larger sample).
+P17 OPEN: Why 77,918 Bodo/gu label images are missing; source re-download.
+P17 OPEN: Official metric/scoring rules and deadline (V6).
+P17 OPEN: Cause of sheet.csv 62.9% non-reproducibility (writer not on disk).
+P17 OPEN: B-01 per-script 4-bit vs bf16 table on GPU (official PyTorch path parity) and B-02 normalisation effect on ur/ks/sd.
+P17 OPEN: Bodhan HW coverage verification against actual outputs on HW test items; brx/doi/kok/mai/ne/sa fallback.
+P17 OPEN: Licence of Ol Chiki/Meetei tessdata and surya/Bodhan hosting terms.
+P17 OPEN: A4/A9 PASS postings; Vinay call answers (GPU, test-set format, metric).
+P18 OPEN: U-HW1/U-HW2/U-HW3 boss approvals; Sarvam 12 South call re-run; GPU SSH (docs/campaign/checkpoints/NEXT.md:6).
+P18 OPEN: Surya licence competitive clause needs ruling; EasyOCR weight licence; Kashmiri 600K licence; Koshur Pixel/synthocr-gen licence (docs/campaign/RESEARCH_DECISIONS.md:40,41,45,94).
+P18 OPEN: Whether 87.39 is word accuracy; RQ-7 not closed (docs/campaign/RESEARCH_DECISIONS.md:54).
+P18 OPEN: SAMPLING_PLAN section 4 independent re-verify open; SKILL_STACK numbers patch (docs/campaign/checkpoints/W2.md:23; docs/campaign/checkpoints/W3.md:14).
+P18 OPEN: IndicLID licence + eval; organiser tabs unrendered (docs/campaign/RESEARCH_DECISIONS.md:46,103).
+P19 OPEN: U1 dates, U2 deadline, U3 src/ tree, U4 A vs D + backbone, U5 sheet regen
+P19 OPEN: U16-U22 recording slots unanswered
+P19 OPEN: ChatGPT evaluator leg pending boss
+P19 OPEN: GLM-OCR in OmniDocBench v1.6
+P19 OPEN: Indic Tesseract pack licence and mni/sat contents
+P19 OPEN: Wave 2 paused; proto-87 Day 1 not started
+P19 OPEN: S/D/I re-run needed
+P19 OPEN: Canonical location of docs/campaign (archive duplicate)
+P20 OPEN: Which code produced sheet.csv CER column and intended denominator (12,324 vs 10,560 valid) (C:326).
+P20 OPEN: Does indic-ocr pack contain mni/sat traineddata (H:69)?
+P20 OPEN: Why 18 mr items score 0.44 worse (tables? scan tier?) - open a page image (Bb:391, C:337).
+P20 OPEN: Does a learned router (script-coverage + is-empty features) close the residual 0.0182 gap (Bb:388)?
+P20 OPEN: Latin_only surya outputs (212 rows) classification undefined (C:340).
+P20 OPEN: Median-flip robustness via bootstrap (C:343); partial-CER sensitivity to NFC/NFKC (H:65).
+P20 OPEN: Does any Sarvam block contain more than one script (A:159-161)?
+P20 OPEN: indicphotoocr routing +0.3536 overlap with sa/Devanagari gaps (C:342).
+P20 OPEN: Is OCR benchmark contamination present in competitor corpora (H:68)?
+P21 OPEN: Confirm which 6 languages the 18 human-verified items cover (bn,hi,sa,as,mni,sat reconstruction) against sheet.csv (1F_sonnet.md:230).
+P21 OPEN: Does indic-ocr.github.io contain sat/mni/tam/tel/kan/mal traineddata and at what size (free check) (1F_sonnet.md:238).
+P21 OPEN: Was the per-script routing table fitted on the labelled items (optimistic bias) (1F_sonnet.md:240).
+P21 OPEN: Sarvam API pricing unknown; call cap reached at 3/lang (1F_sonnet.md:239,179).
+P21 OPEN: R2 specs (39) written but not applied: Konkani L56, pa McNemar L228, GLM-OCR cells, weekday dates (1G_verify.md:394-403).
+P21 OPEN: U1/U2 boss decisions on dates and submission deadline (1G_verify.md:423-426).
+P21 OPEN: Provenance of collateral insertion (24a25,26) unknown (1G_verify.md:404-409).
+P21 OPEN: docs/research/level7/W5_BEAT_SARVAM_PLAN.md (3,652-byte copy) unread (1G_verify.md:410-413).
+P21 OPEN: arXiv IDs in live-research block unverified (1G_verify.md:420-422; 1F_sonnet.md:229).
+P21 OPEN: Surya sa root cause untested (coverage vs bug) (1F_sonnet.md:234).
+P22 OPEN: Authoritative source on Punjabi K1 (matrix vs prose) - human decision docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:377
+P22 OPEN: Pooled 10/18 vs 8/18 discrepancy docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:381
+P22 OPEN: GlotOCR 'median 1 font per family' source docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:379
+P22 OPEN: indic-ocr pack licence/size/file listing docs/campaign/checkpoints/W1_reports/1H_verify.md:221
+P22 OPEN: CVPR venue for 2504.11101; 57 Maltese pages docs/campaign/checkpoints/W1_reports/1H_verify.md:218-219
+P22 OPEN: Whether fonts are really the constraint for Ol Chiki/Meetei synthetic data (R3) - suggestive only docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:215
+P22 OPEN: Sarvam rank of kok cell across disagreeing tables docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:66
+P23 OPEN: Ask gic.dibd@gmail.com for deadline, metric, test-set details (U2).
+P23 OPEN: Retrieve 12 Sarvam job outputs read-only via get_download_links.
+P23 OPEN: mcnemar_full_matrix.json still running in background (12,324 rows, 11 engines).
+P23 OPEN: U10: authorise run_probe.py edit or engine install for smoke gate.
+P23 OPEN: U23/U24/U25 approvals for remaining ~111k Gujarati images / Sarvam bench / public HW sets.
+P23 OPEN: B-17/Gate 2.5 eval + Vinay session for Plan v3; hold Day-3 training until then.
+P23 OPEN: Bodhan s3.1 written approval; surya not cleared; Kashmiri dataset research-only.
+P23 OPEN: A7 destructive cleanup parked pending boss 'go'; W1 blocked pending clean GOLD W0 PASS.
+P24 OPEN: Official metric/rubric weighting: email gic.dibd@gmail.com.
+P24 OPEN: Stage-2/3 submission format and dates; current stage status.
+P24 OPEN: Prize amount and stage structure (image-only content).
+P24 OPEN: Whether third-party data/hosted APIs/closed models are permitted.
+P24 OPEN: Noto OFL link for indic-ocr tessdata; google/vit-base-patch16-224-in21k licence; JaidedAI craft_mlt_25k and EasyOCR Indic weights licence.
+P24 OPEN: SynthOCR-Gen tool licence (HF 401); which licence governs the Kashmiri dataset (maintainer not asked).
+P24 OPEN: Datalab commercial licence pricing and whether it waives s2(c).
+P24 OPEN: anuvaad_tesseract licence; tessdata upstream; PP-OCR/RapidOCR-ONNX/doctr weight chains; IndicPhotoOCR STocr+SceneTextDetection.
+P24 OPEN: Bodhan hosting approval path (s3.1/s3.2/s4) for a judge-facing endpoint.
+P25 OPEN: mcnemar_full_matrix.json pending (timed out at 6 min, restarted) (A6_recovery.md:47-55).
+P25 OPEN: santa_method_cross_check.md ## RESOLVED section (30 lines) LOST (A6_recovery.md:25-28).
+P25 OPEN: Boss approval for U10 locked-file errata and Sarvam bench download (U9/U24) (A4_paths.md:96; SOUTH_RERUN_FEASIBILITY.md:41).
+P25 OPEN: Add S10-*/S29-* meeting rows; normalise 35 bare DONE and 22 nonstandard status words (PROTO66_VERDICT_CHECK.md:47-50).
+P25 OPEN: Official-path Bodhan parity waits GPU day (blind_verify_gate1.md:45).
+P25 OPEN: Backup bundle for _archive/south_renders_shared, unified/, pages (A1_verify.md:126-129).
+P25 OPEN: proto-108 MD consolidation parked until A7 go (blind_verify_archive.md:22).
+P26 OPEN: Whether FS-001..010 were ever applied (status 'READY FOR APPLICATION').
+P26 OPEN: Vinay '10 days' meaning unconfirmed; Sep-25 vs Sep-29 meeting date.
+P26 OPEN: GPU budget/W6 QLoRA on kok/mai/or/pa; full 1,227-item Sarvam run for the 87.39 claim; 20-item human spot-check (gu_o005).
+P26 OPEN: H1 vision check (35.7% Devanagari vs Bengali), Gate 2.5, step Q GT_DEFECTS.md.
+P26 OPEN: GitHub issues #2/#3/#4/#6 close decision and PR #12 keep-as-reference.
+P27 OPEN: HF forms as Maya0769
+P27 OPEN: Vinay call 2026-10-01 (7 questions)
+P27 OPEN: SSH GPU details to Agent 1
+P27 OPEN: rotate HF token
+P27 OPEN: retrieve 12 Sarvam outputs
+P27 OPEN: A4/A5/A6
+P27 OPEN: step Q
+P27 OPEN: Sep-16 correction
+P27 OPEN: graphify refresh
+P28 OPEN: Verify probe22 metrics.py matches Sarvam normalization before freeze.
+P28 OPEN: Benchmark GLM-OCR, PaddleOCR-VL 1.6, Qwen3.5-9B on probe22 / Indic OCR Bench (needs download approval).
+P28 OPEN: Re-verify K1 (kok/pa McNemar) at W5 freeze; verify mcnemar_full_matrix.json.
+P28 OPEN: Author build_qlaora_data.py; measure mlx-tune time/memory.
+P28 OPEN: Real submission deadline U1/U2; Vinay answers on A/B/C, budget, success metric X/Y/Z.
+P28 OPEN: Verify mlx install record and Sarvam trial cap (57 calls) not exceeded; Rs1005 subsidy approval.
+P28 OPEN: Approve 600k-ks-ocr / Koshur Pixel download; decide tokenizer (BrahmicTokenizer-131K).
+P29 OPEN: Whether user approved W6 backbone download (GLM-OCR) and sat/ks micro-repair; W5 freeze call outcome after 2026-10-01 unknown
+P29 OPEN: mlx-tune smoke test (K4c) result and final memory peak unknown
+P29 OPEN: Gu/sd VERIFY-FIRST status (gu_o005 spot-check) unresolved
+P29 OPEN: dots.mocr vs GLM-OCR OldScan head-to-head not run
+P30 OPEN: GPU budget for W6 (fine-tune vs wrap-only).
+P30 OPEN: Repair vs exclude barred languages ks/mni/sat/ur/mr (and ne-PDF).
+P30 OPEN: 20-item human spot-check of flagged GT failures (gt_verification.json).
+P30 OPEN: Verify-first languages gu and sd.
+P30 OPEN: 3 extra Sarvam EN calls beyond the 54 cap.
+P30 OPEN: Native-reader acceptance for ta/kn/ml labels; annotator hiring for L1-gold expansion.
+P30 OPEN: Side-by-side run vs MLITS/IIIT-IndicHW-Word/IndicDLP to establish comparability (TODO-VERIFY).
+P30 OPEN: Level-3 paid Sarvam run timing and price verification (LEVEL3_COST_ESTIMATE, prices TODO-VERIFY).
+P30 OPEN: Probe items shortfall vs 1,800 target; ne/as/mni/gu/or/brx need human GT labeling.
+P31 OPEN: Cleanup phases A-J all PENDING; SHA256 verification TBD (CLEANUP_EXECUTION_LOG.md:124-137).
+P31 OPEN: Orchestrator to verify Sarvam key still works after .env move (CLEANUP_EXECUTION_LOG.md:29).
+P31 OPEN: Draft PPT box labels freeze at W5 (PPT_SPEC.md:27,39).
+P31 OPEN: D7 post-cleanup hierarchy map pending.
+P32 OPEN: Script mix of the 5,344 test images (:47)
+P32 OPEN: Retrieve 12 Sarvam South predictions via /download-url (:222)
+P32 OPEN: Official metric/format/deadline (:189)
+P32 OPEN: GPU SSH details (:215)
+P32 OPEN: Plan v3 draft and Gate 2.5 (:54)
+P32 OPEN: Weight licence of EasyOCR .pth (:158)
+P32 OPEN: Parity PyTorch vs MLX (:39)
+P33 OPEN: HW eval/training data for Bengali (none logged); Bodo/gu images only ~5% on disk.
+P33 OPEN: U2 deadline/scoring unknown; U3/U8 src/ tree; U4 backbone; U5 sheet regeneration vs sheet_v2; U10 run_probe.py paths; U14/U27/U28 licence items.
+P33 OPEN: Sarvam API key dead; South Sarvam reference empty; needs boss.
+P33 OPEN: mcnemar_full_matrix.json regeneration; A7 cleanup parked pending boss go.
+P33 OPEN: easyocr ta/ml, paddle, surya, indicphotoocr South runs held (R-16).
+P33 OPEN: GLM-OCR in OmniDocBench v1.6 escalation; official PyTorch Bodhan run awaiting GPU day.
+P33 OPEN: Vinay meeting outcome not recorded in this log.
+P34 OPEN: Vinay meeting outcome (Option A/B/C) not recorded in these files
+P34 OPEN: Whether product.tools.gen_synthetic_lines exists / was run
+P34 OPEN: K1 for QLoRA vs wrap never measured (spec only)
+P34 OPEN: mlx-tune recipe grad-accum 8 production referenced to W6_QLORA_SPEC.md (not in partition)
+P34 OPEN: Bench probe images not downloaded; engines not run on probe list
+P35 OPEN: 20-item human spot-check of verification pending user (gu_o005 first)
+P35 OPEN: Full 1,227-item Sarvam API run unfunded; head-to-head vs 87.39 never established
+P35 OPEN: Manual old-scan/table stratification slice (~100 pages) not done
+P35 OPEN: Vinay meeting 2026-09-30 / W5 freeze 2026-10-01 decide Options A/B/C; K1-K3 thresholds not yet user-set
+P35 OPEN: Engine reruns on 56 new manifest items deferred
+P35 OPEN: Surya sa wrapper bug (HONEST_EMPTY_SURYA_NO_OLCHIKI) unresolved
+P35 OPEN: Full PDF-tier visual verification for brx/kok/mai/sd pending; gu needs n boost
+P36 OPEN: Licence of Indic-OCR pack, surya, CLIP weights
+P36 OPEN: Indic-OCR pack sat/mni contents never opened
+P36 OPEN: Second-reviewer re-verification of round-2 fixes
+P36 OPEN: Independent re-derivation of CER in sheet.csv in progress
+P36 OPEN: W6 reactivation depends on Vinay Option A/B/C
+P37 OPEN: Real hackathon deadline unknown (U2); freeze date meaning of 'after next Wednesday' (U1) (W1A_PACKET_AUDIT.md:685-686).
+P37 OPEN: Canonical W5_STRATEGY_OPTIONS (A vs D) is a boss call (W1A_PACKET_AUDIT.md:688).
+P37 OPEN: level7 W5_BEAT_SARVAM_PLAN.md (3,652 B) not read line-by-line; may repeat 32pt gap (W1A_PACKET_AUDIT.md:689).
+P37 OPEN: Sarvam subsidy price (INR 0.5/page vs 0.20/image) unsourced (W1A_PACKET_AUDIT.md:687).
+P37 OPEN: gt_verification.json label sets and sealed level2/reports South-400 numbers unverified (W1A_PACKET_AUDIT.md:680,683).
+P37 OPEN: Concurrent editor risk before applying fix-specs (W1A_PACKET_AUDIT.md:691).
+P38 OPEN: C2 successor gate: recompute clean-GT with legacy-font detector and see if engine ranking flips (B12:134-137).
+P38 OPEN: Q-B12.1 region-level voting; Q-B12.2 disagreement as difficulty proxy; Q-B12.3 growth of pseudo-GT set with Sarvam/Bhashini at L3.
+P38 OPEN: C3: ml psm1 rescue on 10 ml pages (B3:110-112).
+P38 OPEN: Q-B3.2 tessdata_best on degraded scans.
+P38 OPEN: B4.1 load-stress threshold for server det (parked LOW).
+P38 OPEN: LICENSE_AUDIT 8 TODO-VERIFY items.
+P38 OPEN: CER_omni metric addition.
+P38 OPEN: SarvamBench methodology unretrieved.
+P38 OPEN: Hand-writing / Bengali word data not covered by these files.
+P39 OPEN: Which accuracy metric/gold exists for these 400 pages (docs have none)
+P39 OPEN: Whether surya ml empties are real failure or timeout
+P40 OPEN: Whether DocRes-head pilot (n<=8) vs Otsu was run (R4 mandate A0-006) - LEVEL7_RESEARCH_FINDINGS.md:90
+P40 OPEN: QLoRA per-script adapters cost-benefit (GLM-OCR 0.9B candidate) UNKNOWN - LEVEL7_RESEARCH_FINDINGS.md:50,116
+P40 OPEN: Whether Bodhan beats surya on non-weak cells UNKNOWN - LEVEL7_RESEARCH_FINDINGS.md:67
+P40 OPEN: 31 historically-empty pages GT-blank or engine failure; 300-DPI probe adequacy (C9) - VAJRASTRA_INTERROGATION_PROTOCOL.md:47-49
+P40 OPEN: BHASHINI evaluation metric/eval-set definition and Sep-16 outcome unknown - VAJRASTRA_INTERROGATION_PROTOCOL.md:227-230,316
+P40 OPEN: Surya licence check (OpenRAIL-M <$5M) before Vinay demo - LEVEL7_RESEARCH_FINDINGS.md:58
+P41 OPEN: Vinay meeting 2026-09-30 outcome (Option A/B/C) not recorded in these files
+P41 OPEN: W6 PAUSE state: resume/archival/superseded undecided
+P41 OPEN: b2 record count reconciliation
+P41 OPEN: Delete of OCR_AGENT_MEMORY_FEED copy.md awaiting user yes
+P42 OPEN: Verify per-language Bengali WRR in ICDAR'23 paper (Mondal2023) vs plan's 96.10.
+P42 OPEN: Q1 open: 4-bit vs 8-bit LoRA on real scans; min synthetic/real mix per script; RLVR effect on CER.
+P42 OPEN: Q3 open: same-script LID on noisy pages; reading-order/JSON eval; fusion vs best single engine after calibration.
+P42 OPEN: No Meitei Mayek, Ol Chiki full-line, Kashmiri Nastaliq CER evidence exists in corpus.
+P43 OPEN: Is Sarvam 87.39 a word-accuracy, which benchmark? Not stated (uni_v3:469).
+P43 OPEN: Binding LAYA vs JEV verdict and SKILL_STACK.md content not in these files.
+P43 OPEN: Content of EDGE_THESIS (D12) and COMPETITOR_INTEL (D11) not present.
+P43 OPEN: Whether live-research triplet merge was authorized (DEDUP:193).
+P43 OPEN: Meaning of 'GrapyThoy(?)' unresolved (uni_v3:320).
+P43 OPEN: Line counts for boss_directives and W5 docs unmeasured ('~?').
+P44 OPEN: O-1 order-invariant CER on Bodhan pages
+P44 OPEN: O-2 Sarvam 12 South call re-run only on boss yes
+P44 OPEN: O-3 GPU SSH
+P44 OPEN: O-4 submission format unknown
+P44 OPEN: O-5 proto-107 gold must not touch level2/benchmark or HW data
+P44 OPEN: HW0 leak check pending download
+P44 OPEN: U-HW1..U-HW4 boss decisions
+P44 OPEN: G-2.5 Vinay OK before any training
+P44 OPEN: Bodhan HF gate/hosting approval
+P44 OPEN: BN-HTRd licence
+P44 OPEN: Consensus processing to proto-105
+P45 OPEN: RQ-4 Kashmiri go/no-go and RQ-5 sat/mni invest decisions
+P45 OPEN: RQ-8 LID conditional
+P45 OPEN: RQ-11 oracle gap
+P45 OPEN: U2 real deadline / submission format
+P45 OPEN: Meitei NE-OCR card verification
+P45 OPEN: HF access to 3 Bodhan repos
+P45 OPEN: Whether Vinay GPUs granted (U33)
+P45 OPEN: Consensus papers to open: Faraz 2026, QARI, Singh 2026, Bhandari 2026, etc.; RESEARCH_DECISIONS rows C1-C3 >=20
+P45 OPEN: Bengali-specific handwriting data/licence (not covered here)
+P46 OPEN: Run the 3 Consensus.app Deep Searches and process into proto-105 (>=20 C-rows) (U36).
+P46 OPEN: Draft Plan v3/v4 flowchart + per-stage table, run Gate 2.5 and hold the 15-20 min session (B-17, U36-5).
+P46 OPEN: Redo H1 script-ID with vision check, H2, H3, H4 on the 5,344 images (K-03).
+P46 OPEN: Retrieve the 12 Sarvam South predictions via /download-url without resubmitting (K-27).
+P46 OPEN: Confirm GPU SSH receipt (K-26) and the 2026-10-01 call outcome.
+P46 OPEN: Create GT_DEFECTS.md and EMPTY_OUTPUT_DIAGNOSIS.md; reproduce Sep-16 correction (K-19, K-20, K-29).
+P46 OPEN: Build product requirements.txt, Dockerfile and PyTorch/MLX parity number (K-02).
+P46 OPEN: Ask organiser (gic.dibd@gmail.com) for metric/format/deadline only if Vinay agrees (K-25).
+P46 OPEN: Build EXPLAIN_CARD.md and QA_DRILL.md (proto-85); ask the E-H question bank.
+P46 OPEN: Resolve weight licence for EasyOCR .pth; Bodhan hosting approval; 600K-KS HOLD (K-17).
+P46 OPEN: Run graphify update after LAYOUT FROZEN (K-12).
+P47 OPEN: U2 real submission deadline and official scoring rules - UNKNOWN.
+P47 OPEN: U3 untracked src/ training tree (LayaRouter leakage) - boss decision pending.
+P47 OPEN: U5 score the 56 additions / re-draw kok/pa.
+P47 OPEN: U13 handwriting/degraded coverage in test set (now answered by plan v4: handwritten words) - confirm with organisers.
+P47 OPEN: U14 ship surya under $5M cap or permissive fallback.
+P47 OPEN: ChatGPT leg of multi-LLM eval pending boss; COMPETITOR_INTEL update with proto-105 C1-8 pending.
+P47 OPEN: Normalisation diff vs Sarvam metrics.py: result not in this file (lives in BENCHMARK_22.md).
+P47 OPEN: Oracle gap RQ-11 not measured here.
+P48 OPEN: Does run_probe.py need level2/level2 -> . symlink (H-1)? W0 proof pending (_claude_memory/proto-107-gold-repo-consolidation.md:63-65).
+P48 OPEN: Boss decisions pending: GO-A/GO-D/GO-G; whether .venv is retired; U37 delete-ask guard; U9 adopt sheet_v2.csv; U12 .env location.
+P48 OPEN: Recovery status of deleted scores docs (LEADERBOARD.md, abstention_audit.md, mcnemar_summary.md, santa_method_cross_check.md, FS-VERDICT-H48-001..010) from OpenCode DB/transcripts unknown (_claude_memory/proto-102-incident-repair-and-verdict-fixes.md:75-81).
+P48 OPEN: Whether proto-107 W0-W4 were ever executed (state unknown as of 2026-10-01 14:40 IST); remote origin/boss/campaign-docs ahead of local (_claude_memory/proto-107-gold-repo-consolidation.md:57).
+P48 OPEN: Laya triage trial (U31) never run/measured; Sarvam bench n resolution (proto-97 RQ-7) open.
+P48 OPEN: Ledger a/LEDGER (7,070 lines) harvest into RESEARCH_DECISIONS not done; only 20 RF rows exist (_claude_memory/proto-98-clean-repo-master.md:24,261).
+P49 OPEN: U2 submission format/official rubric unknown.
+P49 OPEN: U13 handwriting scope decision (proto-81) pending test-set profile.
+P49 OPEN: U5 re-score/rerun approval for fixed cells (paddle brx/doi, surya sa).
+P49 OPEN: U6 which sec 6.4 verdicts depend on 'machine GT' premise.
+P49 OPEN: U4 Option A vs D architecture; U3 untracked src/ training tree.
+P49 OPEN: Result of 30-item PDF-layer GT bias classification (GT_TIER_ANALYSIS.md) not in these files.
+P50 OPEN: U2 deadline/jury metric
+P50 OPEN: U4 LoRA gate with Vinay
+P50 OPEN: U13 test-set shape
+P50 OPEN: U14 surya eval-only licence
+P50 OPEN: U27 Kashmiri HOLD
+P50 OPEN: U28 Bodhan hosting
+P50 OPEN: U33 SSH login details
+P50 OPEN: K-29 Sep-16 SPEC_100 correction
+P50 OPEN: 12 Sarvam pred_sample empty
+P50 OPEN: GOLD W0 Agent 2 verification; W1 blocked; W6 needs boss GO
+P50 OPEN: proto-00 107/108 pointer not landed
+P50 OPEN: step Q GT defects
+P50 OPEN: HF token rotation
+P50 OPEN: official-vs-MLX parity

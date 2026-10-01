@@ -1,0 +1,292 @@
+{
+ "checked": 45,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "corrected",
+   "correction": "Numbers (human GT pairs only for Bengali, Hindi, English, Sanskrit = 10,434 pairs) are correct at line 45; the added gloss that Bengali pairs are 'in-domain handwriting-adjacent gold' is not in the source, which only says 'image + human transcription' gold."
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "corrected",
+   "correction": "sat.traineddata DEAD and 0 Santali PDF pages are supported (ULTIMATE:176, FULL:48); the clause that 'R3 Ol Chiki synthetic must create its own GT' appears in none of the three files (no R3 Ol Chiki reference found)."
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 41,
+   "verdict": "corrected",
+   "correction": "Mixed dump and B0 ~73/80 supported; but source (SOUTH_CANON.md ~100-102) says Srujan can personally gold-check Telugu and ta/kn/ml text is T3 until a native reader accepts; 'Telugu T1 by Srujan, ta/kn/ml T2/T3' is not stated."
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Cross-file mismatch: effective-engine overlap quoted as 322/1257 packs here vs 340/1313 in W5_FREEZE_PLAN (different snapshot dates)",
+   "numbers": "322/1257 vs 340/1313",
+   "source": "level2/ULTIMATE_HYBRID_CONCERN.md:176; W5_FREEZE_PLAN.md:34",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "FULL TECHNICAL BRIEFING Part I says target 87.39 'word accuracy' (line 18) but line 199 calls it 'bench avg Indic CER 87.39': metric of Sarvam headline is ambiguous",
+   "numbers": "87.39",
+   "source": "FULL TECHNICAL BRIEFING.md:18,199",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "South 400 clean-GT leaderboard is dated 14 Sep writer basis; probe22 (Part IV, 30 Sep) shows best-local pooled CER 0.430 on human-verified tier, same number as South median surya 0.430, possible reuse worth checking",
+   "numbers": "0.430",
+   "source": "level2/ULTIMATE_HYBRID_CONCERN.md:77; FULL TECHNICAL BRIEFING.md:585",
+   "status": "UNKNOWN",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "L7 law: no training in L2, no paid keys, no new languages; Level 3 paid APIs locked until L2 sealed and budget approved; W6 guard: no new downloads without explicit operator approval",
+   "numbers": "",
+   "source": "level2/ULTIMATE_HYBRID_CONCERN.md:25,36,177",
+   "status": "DECISION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Stage 2 backbone options in Part I recipe: Bodhan 0.8B or Qwen 3.5 VL / PaddleOCR-VL 1.6; reward designed for 0.8-3B size",
+   "numbers": "0.8-3B",
+   "source": "FULL TECHNICAL BRIEFING.md:150-165",
+   "status": "PLAN",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Part IV: 'We do NOT lead on 10/18' and pooled human-verified win is Sarvam 2.51x, not us",
+   "numbers": "10/18",
+   "source": "FULL TECHNICAL BRIEFING.md:584",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

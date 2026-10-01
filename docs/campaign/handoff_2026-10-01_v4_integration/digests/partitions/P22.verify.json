@@ -1,0 +1,337 @@
+{
+ "checked": 44,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:82,209,225"
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:55 (also 25)"
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:27,208"
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:33,225"
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:58,166,217"
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:58,217"
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:51,151,209"
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: also 1H:29"
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:59,31"
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": "content verified; cited line off: actual 1H:31,145"
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Cross-report conflict: 1G_verify:118 reproduces pooled paired 10/18 from sheet.csv; 1H round2 gets 8/18 (as brx ks mai mr or pa sd) on same file; 1H round1 also 10/18.",
+   "numbers": "10/18 vs 8/18",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:308-328",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Cross-report conflict: 1G_verify:53,137 says GLM-OCR absent from OmniDocBench v1.6 table; 1H_verify:51,151,209 finds GLM-OCR 94.71 rank 3 on same blog.",
+   "numbers": "94.71 vs absent",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:51",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Cross-report conflict: 1F says tam/tel/kan/mal traineddata not on disk (probe22/tessdata only); 1H finds them in /opt/homebrew/share/tessdata and anuvaad smoke tessdata (a different machine path), so only sat/mni need download.",
+   "numbers": "4 of 6 on disk",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:57,160",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "pa K1 verdict: matrix says tie p=1.0 (87 ties,3 discordant); KILL_CRITERIA.md:56 and W6_QLORA_SPEC.md:75 say p<0.0001, 88 discordant, gap 0.081; VINAY packet :44 still 'Konkani + Punjabi QLoRA'.",
+   "numbers": "p=1.0 vs <0.0001",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:154,222",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Round-2 residual fixes list: dead citation docs/research/level7/W5_STRATEGY_OPTIONS.md; row label '8 of 22' should be 9; tag 'median 1 font per family'; section 6 still says 6-language ~2-4MB single download; '111 exact' wrong (66 exact).",
+   "numbers": "66 exact; 110@1e-4; 111@5e-4",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:97-124,140-143,228-252,266-271",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Round 2: McNemar is per-item pass/fail at CER<0.5 (cer_threshold 0.5) not mean-CER; surya vs tesseract-family kok gap is 0.2194 (21.9pt) not 22.0.",
+   "numbers": "threshold 0.5",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:25; 1H_verify_round2.md:76",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Konkani is Sarvam rank 1 of 22 (97.41 > ne 97.00 > mai 96.70), but our rank of that cell is UNKNOWN because Sarvam and Bodhan tables disagree (FLIP).",
+   "numbers": "97.41",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:65-68",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Fusion ceiling reproduced: seed 20260926, 300 images: surya 0.4190, oracle 0.3213, gap 0.0977; best single tesseract_bilingual 0.5230; original 0.4277/0.5229 withdrawn.",
+   "numbers": "0.0977",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:263,280-284",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Round 2 mermaid check: K1/K2 nodes well-formed, but K2 mislabelled (KILL_CRITERIA K2 = micro-repair gate) and 'pa out of QLoRA scope' unsupported; needs human decision on authoritative source.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:187-207,377",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Untracked src+tests = 1,834 + 161 = 1,995 lines; plan assumes no training and $0.",
+   "numbers": "1,995",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:50,170",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Pooled human-verified tier mix: official_pair_txt n=9 (bn,hi,sa), sarvam_bench n=9; PDF-layer n=36 holds all 21 surya wins; gt_source manifest 825/300/158.",
+   "numbers": "21W/13L/2T",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:136,205",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

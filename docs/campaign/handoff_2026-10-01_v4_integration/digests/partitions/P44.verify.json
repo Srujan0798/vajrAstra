@@ -1,0 +1,327 @@
+{
+ "checked": 56,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "proto-104 rev4 is 'THE ONE PLAN' execution order; proto-108 (plan v4) is strategy; proto-104 top note: add HW0-HW3, P1, R1, E1 and the handwriting expert is the lead track. Rev 1-3 text kept as history.",
+   "numbers": "",
+   "source": "_claude_memory/proto-104-project-first-critical-path.md:3,10",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Bodo/gu is labelled IIIT Gujarati: c3 STRATEGY 'Bodo-gu/test-test as GT' (do-not-collect) is superseded for Bodo/gu; test/test stays never-GT.",
+   "numbers": "",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:213",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "HW1 spec: IndicPhotoOCR bengali PARSeq (local), Bodhan HW mode (MLX), Tesseract ben on IIIT bn val + 200 official test images (viewed only); report WRR/CRR, median, failure rate, s/word. G-2.5 (Vinay OK) required before HW2 training.",
+   "numbers": "200 images",
+   "source": "_claude_memory/proto-108-plan-v4-final.md:132-136",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "proto-89 five-day gated schedule: Day1 Bodhan ~84.9 (+-2) AND beats surya on 300 gold; Day2.5 multi-LLM check + Vinay 15-20 min before any training; Day3 LoRA with no language regressing >1pt; Day5 full 6,909 test rescoring. Strategy superseded by proto-108.",
+   "numbers": "5 days",
+   "source": "_claude_memory/proto-89-plan-v3-bodhan-base.md:25-34",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": "proto-108 (strategy)"
+  }
+ ]
+}

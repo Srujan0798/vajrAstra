@@ -1,0 +1,462 @@
+{
+ "checked": 85,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 54,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 55,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 56,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 57,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 58,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 59,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 60,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 61,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 62,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 63,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 64,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 65,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 66,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 67,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 68,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 69,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 70,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 71,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 72,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 73,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 74,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 75,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 76,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 77,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 78,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 79,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 80,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 81,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 82,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 83,
+   "verdict": "corrected",
+   "correction": "The '43+ docs wrongly say Wed 2026-10-01' part is not at proto-93:31 (F17 gives only the weekday dates); it is at _claude_memory/conflicts-register.md:19 (C7) and history-completed-protocols.md:1141."
+  },
+  {
+   "index": 84,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "weak_cells",
+   "claim": "B-08: >=3-family agreement is 1.7x cleaner per character but covers ~5%; ADOPT only as per-block confidence/review triage flag, REJECT ensemble text",
+   "numbers": "1.7x; ~5%",
+   "source": "_claude_memory/proto-100-research-to-build.md:40",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "plan_gates",
+   "claim": "B-16: docs/PLAN.md opens with a Plan v3 flowchart (data>layout>recogniser>fallback>outputs>eval), nodes coloured BUILT/SPEC/PAUSED from disk",
+   "numbers": "",
+   "source": "_claude_memory/proto-100-research-to-build.md:48",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "legacy_fonts",
+   "claim": "B-20: legacy-font to Unicode converters for South GT parked until S6 (76% of South PDFs legacy encodings)",
+   "numbers": "76%",
+   "source": "_claude_memory/proto-100-research-to-build.md:52",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

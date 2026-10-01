@@ -1,0 +1,416 @@
+{
+ "partition": "P12",
+ "files": [
+  {
+   "path": "/home/user/boss/docs/research/level7/c/c4/LEDGER.md",
+   "total_lines": 1283,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/c/c4/OBITUARIES.md",
+   "total_lines": 232,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/c/c4/LEDGER_FORMAT.md",
+   "total_lines": 119,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "C4 enforcement law: external vendor numbers (Sarvam bench cells, Bodhan, PaddleOCR-VL) get transfer obituaries and are DEAD-for-decisions unless re-measured on own manifest with same gates.",
+   "numbers": "13 obituaries O-01..O-13; 13 DEAD, 0 revived",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:1-8,350-351",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam Vision 2.1 overall 87.39 (6,909 samples = 6,609 x 22 langs + 300 EN) is block-level accuracy in vendor layout-parser harness; does not transfer to our CER/WER tiers; 'beat 87.39' directional only.",
+   "numbers": "87.39; 6,909 samples; revive only on n=1,227 manifest SEED=20260926",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:133-149",
+   "status": "DEAD",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Santali weak cell: Sarvam 53.91 (global bench minimum), Bodhan 68.30 on same cell (14.4-pt gap) - vendor slice script mix (Ol Chiki/Bengali) undisclosed; our sat cell n=20, 100% sarvam_fill.",
+   "numbers": "53.91; 68.30; 14.4 pt; n=20",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:151-166,218-232",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri 54.82 (prior gen 55.93 = flat across generations; Urdu 91.21 / Sindhi 91.44 strong on same bench) indicates Nastaliq-Kashmiri-specific failure; our ks cell is PDF-tier VERIFY-FIRST trust 45.0, barred from W6 (D4).",
+   "numbers": "54.82; 55.93; Urdu 91.21; Sindhi 91.44; trust 45.0",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:168-182",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan 55.3 (Sarvam 2.1) is the field-wide worst column for every model (olmOCR-bench framing R1:72; Surya old_scan 42.8 R6:141); degradation mix differs from our 200-dpi renders so no vendor number transfers; decisions use own old-scan slice + Otsu-baseline deltas (R4).",
+   "numbers": "55.3; Surya 42.8; 200-dpi",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:184-200",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia: Sarvam 80.01, Gemini 3.6 Flash 81.01, Bodhan 75.45 - three-way race within ~5 pts with no CIs; our or-cell is PDF-tier + 19 fill with script-ratio gate; judged winnable by wrap/ensemble only via paired on-manifest numbers.",
+   "numbers": "80.01; 81.01; 75.45; 19 fill; 69-item or-cell",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:202-216; docs/research/level7/c/c4/LEDGER.md:1044",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Bodhan overall 84.94 vs Sarvam 87.39, Gemini 79.35, GCV 71.76 on Indic OCR Bench; vendor-vs-vendor means are competition intel only, never a W6 feasible-set input.",
+   "numbers": "84.94; 87.39; 79.35; 71.76",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:234-244",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR-VL-1.6 (0.9B VLM, NaViT + ERNIE-4.5-0.3B, PP-DocLayoutV3; 109 langs incl. Devanagari/Arabic; Apache-2.0) scores 96.33% OmniDocBench v1.6 (CPT +0.69/SFT +0.63/RL +0.08 from 94.93; Real5 93.19); EN/CJK-heavy, no Ol Chiki/Nastaliq/Mayek claim; model = P2 (GPU+approval), method (Real5 axes, CPT->SFT->RL) alive.",
+   "numbers": "96.33; 94.93; 93.19; 0.9B; v1.5 94.5",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:246-264; docs/research/level7/c/c4/LEDGER.md:821-837",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Real5-OmniDocBench five distortion axes (scan/skew/warp/screen-photo/illumination) proposed as template for our missing old-scan stratification slice (~100 hand-tagged pages, section 6.8).",
+   "numbers": "5 axes; ~100 pages",
+   "source": "docs/research/level7/c/c4/LEDGER.md:821-828",
+   "status": "DERIVED",
+   "date": "2026-05-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "PP-OCRv6 (Jun 2026): PPLCNetV4, 1.5M-34.5M tiers, +4.6% det/+5.1% rec, 50 langs Latin+CJK only; no Indic claim -> context only.",
+   "numbers": "1.5M-34.5M; +4.6%; +5.1%; 50 langs",
+   "source": "docs/research/level7/c/c4/LEDGER.md:847-853",
+   "status": "MEASURED",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Our probe rapidocr CER 0.6692 (n=1,227 scored; 343 missing, 15 loop-failures, 347 CER-100 rows) vs valid-samples CER 0.5417; raw-vs-normalized delta 0.0015 (0.6707 vs 0.6692); bare scalar citation is 'forgery-adjacent'.",
+   "numbers": "0.6692; 0.5417; 343 missing; 347 CER-100; delta 0.0015",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:266-283; docs/research/level7/c/c4/LEDGER.md:1140",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe tesseract_indic CER 0.4870 (bilingual 0.4853; valid-only 0.4199; 102 CER-100 rows); timeouts 300s (bn_d014 ~78s, hi_d066 ~82s) are part of the number; tesseract ~122% CER on ornate EN scans.",
+   "numbers": "0.4870; 0.4853; 0.4199; 102 CER-100; EN ~122%",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:285-298",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe doctr CER 0.8691 (valid-only 0.8638, 47 CER-100 rows) - honestly bad on Indic; doctr ~42% on EN sanity column; claim only 'scored 0.869 on our manifest', not 'doctr bad at OCR'.",
+   "numbers": "0.8691; 0.8638; 47 CER-100; EN ~42%",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:300-313",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe anuvaad_tesseract CER 0.7114 pooled vs 0.3162 valid-only on 503 valid of 1,227 (672 CER-100 rows): must be reported as coverage + conditional CER pair, never scalar.",
+   "numbers": "0.7114; 0.3162; 503/1227; 672 CER-100",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:315-328",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe sarvam_vision subset CER 0.2400 is n=54 (3/lang x 18 langs, credit cap; valid 0.2185 n=48), no EN column; cannot be compared with 0.487 at n=1,227; Sarvam is benchmark target not routable component (D2).",
+   "numbers": "0.2400; n=54; 0.2185 n=48; 3/lang",
+   "source": "docs/research/level7/c/c4/OBITUARIES.md:330-346; docs/research/level7/c/c4/LEDGER.md:1168-1176",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Estimator law (campaign 9.3): Wilson 95% intervals on every per-language CER; McNemar exact on paired same-item engine comparisons; coverage + conditional CER for abstention; n<50 cells no-winner (sat n=20; sarvam-subset 3/lang).",
+   "numbers": "Wilson 95%; McNemar exact; n<50 floor",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1035-1077",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Scorer integrity 6.5 gates: empty pred = CER 1.0 counted, uncapped per-row CER with cer_100_count, single denominator, space-forgery removed; to be TDD-gated and asserted by a pre-report hook.",
+   "numbers": "empty=1.0; raw 0.6707 vs norm 0.6692",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1134-1143,36-43",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "EN sanity column: 30 gold EN pairs (same gates, seed 20260926) per engine; CER>~5 on clean renders = broken harness; permanent gate before any weak-cell claim; tesseract ~122%, doctr ~42%.",
+   "numbers": "30 pairs; seed 20260926; >~5 CER = broken",
+   "source": "docs/research/level7/c/c4/LEDGER.md:872-879,1123-1132",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Tier-split falsification 6.2: pair-GT / pdf-GT / fill-GT scored independently (no blended CER across tiers); this split is what barred ne (trust 26.6) and flagged ks/mr/gu/ur VERIFY-FIRST - judged highest-ROI scoring decision.",
+   "numbers": "ne 26.6; ks 45.0; gu 51.4",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1145-1154,863-870",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Two-stage GT gate: gt_forensics triage (control chars, glyph breakage, script ratios) then ~2h human verification on 158 fill + ~77 PDF sample; >20% fail = barred; D4 holds ks/mni/ur/sat/mr + ne-pdf barred from W6; sole exception micro-repair of 5-10 curated sat/ks pages (W5).",
+   "numbers": "ne 26.6; ks 45.0; gu 51.4; 158 fill; ~77 PDF; >20% fail",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1156-1165,863-870,646-649",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Control-char GT corruption example ne_o037 (PDF-layer extractor corruption) - PDF-extracted GT is a leakage/mirroring risk; MAX_CTRL_CHARS=3 gate exists.",
+   "numbers": "MAX_CTRL_CHARS=3",
+   "source": "docs/research/level7/c/c4/LEDGER.md:25,96",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Training guard: machine GT never trains; RLVR reward only on human-verified gold; synthesis allowed for harness self-test fixtures only, never probe GT or W6 training (DeepEval-generate contradiction C4-078).",
+   "numbers": "none beyond rule",
+   "source": "docs/research/level7/c/c4/LEDGER.md:685-691,1266-1275",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Raw-vs-normalized CER ablation (0.6707 vs 0.6692, delta 0.0015) gates the RLVR scorer choice.",
+   "numbers": "0.6707; 0.6692",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1140",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Sequential-engine rule 5: one heavy engine at a time; measured runtimes paddle ~2h/15GB peak RSS (13.6s/page), surya ~1h (47.9s), indicphotoocr ~12h (299.6s); worst-case scans 4250x6500; parallel-engine violation 2026-09-26.",
+   "numbers": "paddle 15GB/13.6s; surya 47.9s; indicphotoocr 299.6s; ~12h",
+   "source": "docs/research/level7/c/c4/LEDGER.md:836,1178-1187",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Stale-copy failure 2026-09-26: bilingual sa run on stale run_probe.py gave 100 sa packs FileNotFoundError (102-pack in C4-115); fix = hash-verify hook + pre-report assertion pack count == manifest n.",
+   "numbers": "100 sa packs (102 cited C4-115)",
+   "source": "docs/research/level7/c/c4/LEDGER.md:69,1189-1198",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Probe ops proposed as versioned skill (score-engine, verify-gt-sample, rank-lane) + pre-report hook asserting pack count==manifest n, scorer rules, EN column green, Wilson CI, obituary check; build deferred post-freeze (H30-40).",
+   "numbers": "3 skills",
+   "source": "docs/research/level7/c/c4/LEDGER.md:318-324,599-606,1200-1209",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Permissions encoding of protocol 0 hard rules (deny writes to level2/out, level2/reports, Datasets/; deny network installs; ask on sarvam_vision beyond --limit-per-lang 3); Verdict/Miss agents run read-only plan-mode shape.",
+   "numbers": "--limit-per-lang 3",
+   "source": "docs/research/level7/c/c4/LEDGER.md:239-255",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam credit cap: 54 calls (3/lang x 18), Sarvam EN skipped (saves 3 calls), no further sarvam_vision calls without explicit user approval; file sheet.sarvam_bench.discarded.csv.",
+   "numbers": "54 calls; 0 errors",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1168-1176",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W6 feasible-set presentation: FEASIBLE NOW / FEASIBLE IF / INFEASIBLE; C4 inventory 62 SURVIVES / 8 DIES / 30 UNKNOWN of C4-001-100; P2 GPU/approval rows C4-008/045/093/095; paid-key rows INFEASIBLE.",
+   "numbers": "62/8/30",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1022-1023,1101-1110",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Kill criteria 9.5 pre-declared on MEASURED numbers before results read; thresholds are operator parameters, set at H44-48 call, never agent-invented; >20%-fail bar is template.",
+   "numbers": "H44-48; >20%",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1112-1121",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Ledger QA: 10% live-source sampling (every 10th record), >20% sampled failure voids ledger; contradictions logged not dropped; score >=30/125 enters architecture (62 of first 100 enter; top 125/125: C4-067/068/099/100).",
+   "numbers": "62 of 100 >=30; 22 T9 all enter; 122 records",
+   "source": "docs/research/level7/c/c4/LEDGER_FORMAT.md:47-73; docs/research/level7/c/c4/LEDGER.md:894-902,1279-1283",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "C4 lane constraints: no downloads, no training until W6 freeze, no paid keys, offline pipeline; downloads/GPU items (Bodhan, PaddleOCR-VL, Qwen2-VL/InternVL2 P2) need user approval.",
+   "numbers": "none",
+   "source": "docs/research/level7/c/c4/LEDGER_FORMAT.md:83; docs/research/level7/c/c4/LEDGER.md:1266-1275",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Kimi K2 line discontinued 2026-05-25 (use K2.6/K2.7-code); K2.7-code Sep 2026 cache-hit $0.19 vs $0.95 miss per 1M input, 262K ctx; analysis-tooling only (needs paid key) - INFEASIBLE under no-paid-keys.",
+   "numbers": "$0.19 vs $0.95; 262K",
+   "source": "docs/research/level7/c/c4/LEDGER.md:144-160,211-218",
+   "status": "MEASURED",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "MCP security: pin servers by hash, read-scoped probe tools, re-validate after approval; MCP spec 2026-07-28 registry; frozen recognizer could be served as MCP tool (LitServe) post-W6.",
+   "numbers": "MCP 2026-07-28",
+   "source": "docs/research/level7/c/c4/LEDGER.md:388-395,424-431",
+   "status": "PLAN",
+   "date": "2026-07-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "No C4 content addresses handwriting, Bengali word-level HWR, IIIT-INDIC-HW-WORDS, PARSeq, or the 5,344-image test; all C4 evidence is printed 18-lang probe22 (1,227-item manifest).",
+   "numbers": "n/a",
+   "source": "docs/research/level7/c/c4/LEDGER.md:1-1283",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Weak-cell mapping is mandatory for ranking: Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01; notes sat 100% sarvam_fill n=20; or-cell 69 items; ks PDF-tier VERIFY-FIRST trust 45.0.",
+   "numbers": "53.91; 54.82; 55.3; 80.01",
+   "source": "docs/research/level7/c/c4/LEDGER_FORMAT.md:32-45",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Compounding pitch: Real5 pattern + sheet.csv-as-eval-dataset schema (image_id/language/script/.../CER/WER/error_tag) documented for leaderboard/validation-call dashboard; reports are sealed flat files, no auto-publish.",
+   "numbers": "none",
+   "source": "docs/research/level7/c/c4/LEDGER.md:793-800,776-782,1244-1253",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no vendor-number obituary discipline: it cites ICDAR'23 96.10 WRR, Bodhan-HW bn 74.8/71.3/58.3, Sarvam bench ~86.4 small_rep and CER 0.4034 vs surya 0.566 without four-mismatch (language/scan/harness/metric) kill or fail-condition (OBITUARIES.md:1-8,133-149).",
+  "Plan v4 gates (HW2 >=92% / >=85%) lack Wilson 95% CIs, McNemar exact pairing and n<50 no-winner rule (LEDGER.md:1035-1077).",
+  "No abstention reporting (coverage + conditional CER) specified for Page/Handwriting experts; empty = CER 1.0 scorer rule (LEDGER.md:1057-1066,1134-1143; OBITUARIES.md:315-328).",
+  "No EN-sanity-style harness check (30 gold pairs, CER>~5 = broken harness) before trusting any number (LEDGER.md:872-879).",
+  "Tier-split GT scoring and two-stage GT gate (forensics triage + ~2h human verification, >20% fail barred) are absent; plan's HW0 leak hash gate covers only leakage (LEDGER.md:1145-1165).",
+  "No pre-declared kill criteria with operator thresholds and no FEASIBLE NOW/IF/INFEASIBLE training-tree presentation (LEDGER.md:1101-1121).",
+  "No tooling guardrails: stale-copy hash-verify hook, pack-count==manifest-n assertion, sequential-engine rule, permission encoding of hard rules (LEDGER.md:1178-1198,239-255).",
+  "Weak cells sat/ks/mni/or/sa/doi and OldScan restoration (Real5 distortion axes for stratification) not reflected in plan (LEDGER.md:821-828; OBITUARIES.md:184-200).",
+  "Sarvam credit-cap discipline (54 calls, approval gate) not in plan if Sarvam is used as benchmark (LEDGER.md:1168-1176)."
+ ],
+ "contradictions": [
+  "C4-078 DeepEval dataset synthesis CONTRADICTS protocol 0 rule 2 / section 9 (no synthetic data for GT or W6): allowed only for harness fixtures (LEDGER.md:685-691,998). Relevant tension with plan's R3 synthetic Ol Chiki/Mayek.",
+  "Stale-copy failure cited as 100 sa packs (LEDGER.md:69) vs 102-pack bilingual FileNotFoundError (LEDGER.md:1192).",
+  "Rank summary says 62 entering from C4-001-100 but upgrade tally 62 SURVIVES counts incl. 2 split rows; DIES 8 listed incl. 078-GT-use (LEDGER.md:894,1022-1023); minor tally ambiguity.",
+  "C4-052 contains stray garbled text 'MCPCompose телефон' (LEDGER.md:463) - ledger quality flag."
+ ],
+ "open_items": [
+  "Own-manifest paired McNemar + Wilson re-measure of any vendor cell (Sarvam/Bodhan sat/ks/or) needs download approval + GPU (P1/P2).",
+  "User-approved full-manifest Sarvam run with EN column explicitly deferred (OBITUARIES.md:345-346).",
+  "~2h human GT verification of 158 fill + ~77 PDF items outstanding (LEDGER.md:1162).",
+  "Operator thresholds for kill criteria to be set at H44-48 call (LEDGER.md:1120).",
+  "30 UNKNOWN C4 rows are a permission queue for the validation call (LEDGER.md:1273)."
+ ]
+}

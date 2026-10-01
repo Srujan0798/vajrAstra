@@ -1,0 +1,687 @@
+{
+ "partition": "P38",
+ "files": [
+  {
+   "path": "level2/README.md",
+   "total_lines": 265,
+   "fully_read": true
+  },
+  {
+   "path": "level2/research/README.md",
+   "total_lines": 11,
+   "fully_read": true
+  },
+  {
+   "path": "level2/research/gates/B12_ensemble_voting.md",
+   "total_lines": 145,
+   "fully_read": true
+  },
+  {
+   "path": "level2/research/gates/B1_doctr_parseq.md",
+   "total_lines": 83,
+   "fully_read": true
+  },
+  {
+   "path": "level2/research/gates/B3_tessdata_best.md",
+   "total_lines": 116,
+   "fully_read": true
+  },
+  {
+   "path": "level2/research/gates/B4_paddle_server_det.md",
+   "total_lines": 30,
+   "fully_read": true
+  },
+  {
+   "path": "level2/research/gates/INDEX.md",
+   "total_lines": 29,
+   "fully_read": true
+  },
+  {
+   "path": "docs/south/EXTERNAL_BENCHMARK_MAP.md",
+   "total_lines": 137,
+   "fully_read": true
+  },
+  {
+   "path": "docs/south/EMPTY_PAGES.md",
+   "total_lines": 45,
+   "fully_read": true
+  },
+  {
+   "path": "docs/legal/LICENSE_AUDIT.md",
+   "total_lines": 83,
+   "fully_read": true
+  },
+  {
+   "path": "docs/probe/W3_PROBE_SCHEMA.md",
+   "total_lines": 81,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engines/README.md",
+   "total_lines": 73,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "South bench sealed: level2/out has 4001 files (4000 JSON + README); models/ view 4035 files, SHA256-identical (30/30 sample match). Agents never edit sealed dirs (L10).",
+   "numbers": "4001; 4035; 30/30",
+   "source": "level2/README.md:15-16",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "probe22: 1227 items x 11 engines, 18 langs, 100/lang where data allows; sealed out has 13289 packs; unified view 17,289 symlinks = 4,000 + 13,289, 23 distinct langs.",
+   "numbers": "1227; 13289; 17,289; 23 langs",
+   "source": "level2/README.md:21",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Level-3 paid APIs (Sarvam, Bhashini) LOCKED until Level 2 seals; engine socket BaseEngine/REGISTRY lets L3 drop in; keys in env only.",
+   "numbers": "",
+   "source": "level2/engines/README.md:8-9",
+   "status": "DECISION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Repo law: numbers live in reports/ only (one writer); new markdown goes in docs/; research/ holds generators and gates only, no essays; L2 engines are programs, not prompted.",
+   "numbers": "",
+   "source": "level2/README.md:34-51",
+   "status": "DECISION",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "South 400 pages, 100/lang for te/ta/kn/ml, frozen manifest; cleanup 2026-09-25 cleared synth-leak PNGs and superseded essays at operator request; graphify graph 3990 nodes/4681 edges, corpus 18239 files.",
+   "numbers": "400 pages; 3990/4681/420/50; 18239",
+   "source": "level2/README.md:6-45",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "G-B1: doctr 1.1.0 ships PARSeq but zoo weights (crnn_vgg16_bn and parseq) are French-vocab Latin only; NO Indic checkpoint for any recognition arch. Both give 0.000 script ratio on te/ta/kn/ml pages (100% Latin mojibake).",
+   "numbers": "0/4 pages ratio 0.000; parseq +7% chars all wrong-script",
+   "source": "level2/research/gates/B1_doctr_parseq.md:19-41",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "PARSeq rebuilt with VOCABS[telugu] and reinit head gave script ratio 0.5337 but Jaccard-5 vs GT 0.0000 (glyph salad) - a FAKE PASS; script-ratio alone is gameable. Proposal: pass needs ratio plus Jaccard-5 floor >=0.3 or human eyeball. Relevant to any PARSeq-per-script from-scratch/head-reinit plan.",
+   "numbers": "chars 9009; script 4808; ratio .5337; Jaccard 0.0000",
+   "source": "level2/research/gates/B1_doctr_parseq.md:43-52,76-79",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "doctr PARSeq pretrained backbone loads with reinit head for Indic vocab mechanically; ocr_predictor(reco_arch=parseq) does not forward vocab kwargs in 1.1.0 (manual OCRPredictor(det,reco) needed). Doctr Indic vocabs defined: tamil 98/telugu 119/kannada 114/malayalam 116 chars.",
+   "numbers": "98/119/114/116",
+   "source": "level2/research/gates/B1_doctr_parseq.md:21-24,51-52;docs/south/EXTERNAL_BENCHMARK_MAP.md:87",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "doctr detect_layout=True leaves text byte-identical (1481 chars), +~5% time (2556 vs 2435 ms), adds layout regions only (lw_detr_s 59 MB, low conf ~0.53-0.61 List-item).",
+   "numbers": "+5%; 2556 vs 2435 ms; 59MB",
+   "source": "level2/research/gates/B1_doctr_parseq.md:54-61",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "IndicPhotoOCR has its own different parseq checkpoint (parseq-bb5792a6.pt, 95MB) distinct from doctr's parseq-56125471.pt; do not confuse. IndicPhotoOCR weights come from anikde/STocr (parseq), Bhashini-IITJ/SceneTextDetection, anikde/STscriptdetect.",
+   "numbers": "95 MB",
+   "source": "level2/research/gates/B1_doctr_parseq.md:16-18;docs/legal/LICENSE_AUDIT.md:19",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Q-B1.1 parked: fine-tuning parseq heads on training_assets for a real Indic doctr -- cost/benefit vs surya unresolved, L3 candidate.",
+   "numbers": "",
+   "source": "level2/research/gates/B1_doctr_parseq.md:80-82",
+   "status": "UNKNOWN",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "G-B3: tessdata_best vs homebrew fast loses 0/12 configs (chars -0..-9%, ratio +-.03 noise, 1.4-1.7x slower). Keep FAST models, psm3. Homebrew mal.traineddata md5 8de6fa79... already equals best.",
+   "numbers": "0/12; 1.4-1.7x; mal md5 8de6fa791db70e78aaa727c99bba46e4",
+   "source": "level2/research/gates/B3_tessdata_best.md:12-16,66,87-96",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Tesseract PSM1 == PSM3 output on all tested pages; PSM6 page-dependent: te_001 +17% chars (2015 vs 1723), ta_001 -4.4%, kn_001 -2.3% (2x slower). Per-page PSM chooser projected only +1-2% global chars; parked Q-B3.1.",
+   "numbers": "te +17%; ta -4.4%; kn -2.3%; +1-2%",
+   "source": "level2/research/gates/B3_tessdata_best.md:72-96,113-114",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Malayalam tesseract anomaly: ml_001 fast psm1 gave 2231 chars ratio .7696 vs psm3 1980/.2465 and best psm1 1795/.3008 - unstable (OSD path flipping layout); possible rescue of ml pages, never confirmed (C3).",
+   "numbers": "2231/.7696 vs 1795/.3008",
+   "source": "level2/research/gates/B3_tessdata_best.md:44-47,73-77,110-112",
+   "status": "UNKNOWN",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Tesseract fast psm3 timing: te 2.1s, ta 1.9s, kn 4.3s, ml 5.7s => ~3.5s/page, 400 pages ~0.4 h; best ~5.6s/page ~0.6 h; kn psm6 best worst at 12.1 s/page.",
+   "numbers": "3.5 s/page; 0.4 h; 5.6 s; 0.6 h; 12.1 s",
+   "source": "level2/research/gates/B3_tessdata_best.md:99-102",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Tesseract per-script script-ratio on 200dpi renders (fast psm3): te_001 .7986, ta_001 .8242, kn_001 .3889 (mixed Devanagari/Latin booklet), ml_001 .2465 (psm3).",
+   "numbers": "te .7986; ta .8242; kn .3889; ml .2465",
+   "source": "level2/research/gates/B3_tessdata_best.md:23-42",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Q-B3.2 open: do tessdata_best models win on DEGRADED/scan pages (weakest class)? Untested because only clean 200dpi renders were used.",
+   "numbers": "",
+   "source": "level2/research/gates/B3_tessdata_best.md:115-116",
+   "status": "UNKNOWN",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "G-B4: PaddleOCR server-det retest = NO-GAIN; full mode byte-identical to shipped packs on 4/4 pages (te_053 1827 chars ratio .783, te_001 1989/.797, ta_001 1477/.874, kn_001 3307/.358); timeouts were load-transients, 7-79 s/page unloaded.",
+   "numbers": "4/4 identical; 7-79 s/page",
+   "source": "level2/research/gates/B4_paddle_server_det.md:9-20",
+   "status": "MEASURED",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "G-B2: rapidocr 3.9.2 every _rec_server model is ch_* (Chinese); te/ta/ka mobile-only rec weights; no server Indic. Closed negative.",
+   "numbers": "",
+   "source": "level2/research/gates/INDEX.md:18",
+   "status": "MEASURED",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "rapidocr 20-page v1 Chinese config: 400/400 zero Indic chars (WASH); v5 multilang 3-page: te 78%, ta 87%, kn real; ml honest-empty (no Malayalam weights, 100/100 empty).",
+   "numbers": "400/400 zero Indic; te 78%/ta 87%",
+   "source": "level2/research/gates/INDEX.md:6-8;docs/south/EMPTY_PAGES.md:22",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "300-dpi empty-page rescue probe: 0/10 recovered - blank/photo pages. Surya grammar-400 fixed via SURYA_GUIDED_LAYOUT=false (upstream issue #542). Timing probe 21 measurements: tesseract-family 2x faster than heartbeat.",
+   "numbers": "0/10; 21 measurements",
+   "source": "level2/research/gates/INDEX.md:9-11",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "G-B12 ensemble voting REJECTED: on 115 clean-GT pages full ROVER union median CER 3.921, agreement(>=3 families) 0.8973, skeleton 0.7671, best-single oracle 0.6278; full ensemble beats all singles on 0/115 and is worse than worst single on 115/115.",
+   "numbers": "3.921; 0.8973; 0.7671; 0.6278; 0/115; 115/115",
+   "source": "level2/research/gates/B12_ensemble_voting.md:31-47",
+   "status": "REJECTED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Ensemble failure mechanism = line-segmentation granularity mismatch (te_001 surya 15 lines vs tesseract 32 vs paddle 46; kn_014 surya 3 mega-lines vs doctr 44); Jaccard-5 line clustering cannot align. Region-level voting (Q-B12.1) untested.",
+   "numbers": "15/32/46 lines; 3 vs 44",
+   "source": "level2/research/gates/B12_ensemble_voting.md:49-54,138-140",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Agreement text (>=3 families) is a precision instrument: 5-gram precision 0.598 vs best single 0.355 but recall 0.046 vs 0.276; 17/115 pages precision>=0.9; only 6/115 pseudo-GT-grade (kn_033, kn_066, kn_067, kn_073, te_012, te_077). Use as confidence marker only.",
+   "numbers": "0.598 vs 0.355; 0.046 vs 0.276; 6/115; 17/115",
+   "source": "level2/research/gates/B12_ensemble_voting.md:71-86,120-124",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Poisoned-GT census: 52 of 115 'clean' PDF-text-layer pages (45%) are legacy-font mojibake (>=5% Latin-1 symbols; e.g. te_022, ml_028, kn_026); engines reading correctly get CER 0.85-1.0, so CER ranking is inverted on ~45% of basis. FFFD/PUA<0.5% filter misses it.",
+   "numbers": "52/115; ~45%",
+   "source": "level2/research/gates/B12_ensemble_voting.md:88-98,134-137",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "On non-mojibake 63 pages best-single median CER 0.306, agreement 0.645; precision advantage of agreement evaporates (0.741 vs 0.747) - was engines agreeing against broken GT. C2 (P0) successor gate: rerun clean-GT recompute with legacy-font detector.",
+   "numbers": "63 pages; 0.306; 0.645; 0.741/0.747",
+   "source": "level2/research/gates/B12_ensemble_voting.md:96-98,134-137",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Per-script best-single median CER on 115 clean pages: Tamil 0.3311 (n24), Devanagari 0.3769 (24), Latin-bucket 0.8225 (34), Kannada 0.8589 (17), Malayalam 0.8513 (4), Telugu 0.8407 (12); agreement coverage Malayalam 0.00, Kannada 0.13, Devanagari 0.15.",
+   "numbers": "Tamil .3311; Dev .3769; Kn .8589; Ml .8513; Te .8407",
+   "source": "level2/research/gates/B12_ensemble_voting.md:58-66",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Worst ensemble pages: te_022 7.22 (surya 0.864, bad GT), kn_014 5.30 (surya 0.159 reads Sanskrit shloka page in 3 mega-lines), ml_028 5.41 (paddle 0.765, rapidocr emits zero lines). Recomputed surya CER on ta_012/kn_014/ml_028 matches CER_STAGE3B to 4 decimals.",
+   "numbers": "7.22; 5.30; 5.41; 0.159",
+   "source": "level2/research/gates/B12_ensemble_voting.md:9-10,102-106",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Paper claim to avoid/allow: do not say '10 engines vote = free ground truth'; defensible mini-result: >=3-family consensus is ~1.7x cleaner per char but covers ~5% of GT; 45% of clean PDF text layers in S-Indian gov/textbook scans are legacy-font mojibake. Honest pipeline: CER-vs-PDF-layer preference pairs + L1 human labels for gold.",
+   "numbers": "1.7x; ~5%; 45%",
+   "source": "level2/research/gates/B12_ensemble_voting.md:119-130",
+   "status": "DECISION",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Gate law: 4-page gate before any 400-page claim; win rule = >=10% more chars at same-or-better fidelity (or >=5% median CER win for ensembles); Latin mojibake on Indic page = instant fail; check disk truth first (C2 B3 preamble).",
+   "numbers": "10%; 5%; 4-page",
+   "source": "level2/research/gates/B1_doctr_parseq.md:4-6;level2/research/gates/B3_tessdata_best.md:107-109",
+   "status": "DECISION",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Empty counts per 100 pages: tesseract-family te 13, ta 2, kn 0, ml 16 (31 total); easyocr ml 9; paddleocr ml 7; indicphotoocr ml 10; surya ml 11; doctr ml 11; rapidocr ml 100. Kannada 0 empty on all 10 engines; Malayalam empty on every engine.",
+   "numbers": "31; 9; 7; 10; 11; 11; 100",
+   "source": "docs/south/EMPTY_PAGES.md:9-17",
+   "status": "MEASURED",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "paddleocr has no lang=ml model: nonempty ml median 175 chars vs ~1100 on others (thin en fallback, not reading Malayalam). doctr flagged English-leak on 263/400 pages. openbharatocr = tesseract_indic byte twin.",
+   "numbers": "175 vs ~1100 chars; 263/400",
+   "source": "docs/south/EMPTY_PAGES.md:23-25",
+   "status": "MEASURED",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Folder names lie: some te/ta pages are Latin/Devanagari books; coverage >=6 engines nonempty = 382/400; remaining 18 shared-hard/empty cell. 2026-09-25 seal write-up falsely said te/ta/kn 0-empty on every engine; corrected.",
+   "numbers": "382/400; 18",
+   "source": "docs/south/EMPTY_PAGES.md:3,29-30",
+   "status": "CONTRADICTION",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Empty-page doc: accuracy on nonempty pages is the product gap: surya median CER 0.43, easyocr 0.90, te/kn still ~0.75+ on thin clean-GT slice. Tried-and-closed: 300dpi re-render, tessdata_best x PSM, paddle server-det, rapidocr Chinese config, ensemble union.",
+   "numbers": "surya 0.43; easyocr 0.90; te/kn ~0.75+",
+   "source": "docs/south/EMPTY_PAGES.md:36-38",
+   "status": "MEASURED",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Empty-page doc order: do not rerun the 400 to chase empty%; Level-3 APIs freeze/W5; training/hybrid per docs/architecture/W2_HYBRID.md freeze/W6; new preprocessing needs a 4-page gate; next labor was W3 probe images.",
+   "numbers": "",
+   "source": "docs/south/EMPTY_PAGES.md:40-45",
+   "status": "DECISION",
+   "date": "2026-09-14",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Surya published vs ours: surya 91-lang pass rate te 79.2/ta 89.9/kn 79.2/ml 84.7; our CER med te 0.890/ta 0.346/kn 0.835/ml 0.820/overall 0.633 (n=50/75/42/9). Not comparable (snippet pass-rate vs full-page CER vs PDF-layer GT) but ordinal ranking matches (ta best, te/kn worst).",
+   "numbers": "79.2/89.9/79.2/84.7; 0.890/0.346/0.835/0.820",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:11-29",
+   "status": "DERIVED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya OldScan category in olmOCR-bench = 41.8 vs Base 99.7, overall 83.3 - the single worst row; our corpus is old-scan-class 200dpi. Gemini 2.5 Flash on Datalab multilingual te 33.3/kn 24.5/ml 23.8; GPT-5 Mini te 9.9/ml 11.9.",
+   "numbers": "41.8; 99.7; 83.3; te 33.3/kn 24.5/ml 23.8",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:13,25,30",
+   "status": "PRIMARY",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "olmOCR-bench top: Infinity-Parser2-Pro 87.6 (35.1B), chandra-ocr-2 85.8, dots.mocr 83.9 (3B MIT), surya-ocr-2 83.3 (0.65B), LightOnOCR-2-1B 83.2*, chandra 9B 83.1, Infinity-Parser-7B 82.5, Falcon-OCR 80.3*, Qianfan-OCR 79.8.",
+   "numbers": "87.6; 85.8; 83.9; 83.3; 83.2; 83.1",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:38-49",
+   "status": "PRIMARY",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Candidate engine #11 PaddleOCR-VL-1.6: 0.9B, Apache-2.0, OmniDocBench v1.6 96.3, 109 languages, official Apple Silicon (MLX-VLM + CPU Paddle paddlepaddle==3.2.1, mlx-vlm>=0.3.11); verified on M4 only; est 4-6GB peak, 8-20 s/page, 400 pages 1-2.5 h; integration 2-4 h. Recommended.",
+   "numbers": "0.9B; 96.3; 109 langs; 8-20 s/page; 1-2.5 h",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:54,65-76",
+   "status": "DERIVED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Other engine #11 options: dots.mocr MIT 3B (HF transformers CPU/MPS, est 30-90 s/page, 3-10 h per 400); Chandra OCR 2 modified OpenRAIL-M (free <$2M revenue, cannot compete with Datalab API), ~5B, 10-12GB; Falcon-OCR 1B Apache no Indic claims.",
+   "numbers": "30-90 s/page; <$2M; 10-12 GB",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:55-58",
+   "status": "DERIVED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR 3.0 paper (arXiv:2507.05595) has NO per-language Indic scores; Indic comes from PP-OCRv5 multilingual rec (109 langs, ~+40%). Chandra 2 local te 58.6/ta 77.7/kn 63.2/ml 64.3 (API te 69.4). Our paddle CER 0.89/0.64/0.92/0.87; doctr 0.86/0.86/0.84/0.91; easyocr 0.90/0.93/0.91/0.90; tess_indic 0.89/0.38/0.84/0.89.",
+   "numbers": "Chandra 58.6/77.7/63.2/64.3; paddle .89/.64/.92/.87",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:84-89",
+   "status": "MEASURED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Our CER normalization (NFC+lowercase+whitespace-collapse) differs from OmniDocBench; recommended single add: CER_omni (NFC, casefold, strip ALL whitespace, strip markdown/HTML punct) on same 176-177 dense pages, zero engine reruns, 1-2 h. Doctr's 'better' te/kn CER partly from fewer chars emitted.",
+   "numbers": "176-177 pages; 1-2 h",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:28,87,106",
+   "status": "DECISION",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "olmOCR-bench = pass-rate on human snippets (MoE +-1.1); OmniDocBench = 1-edit-distance (PaddleOCR-VL 96.3, dots.mocr 0.969, MinerU 0.953). SarvamBench methodology NOT retrievable on 2026-09-13 - do not cite its numbers unverified.",
+   "numbers": "+-1.1; 0.969; 0.953",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:98-100,107",
+   "status": "UNKNOWN",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Pricing per page (2026-09-13): Sarvam Document Digitization Rs0.50 (max 10 pages/job); Google Doc AI Enterprise OCR $1.50/1000 (~Rs0.13); Mistral OCR 4.1 $4/1000 (~Rs0.35); Gemini 3 Flash $0.50/1M in + $3/1M out (~Rs0.02-0.10 est). Azure, Bhashini/ULCA, Bodhan, Datalab UNVERIFIABLE. Rate ~Rs88/$.",
+   "numbers": "Rs0.50; $1.50/1k; $4/1k; Rs88/$",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:114-124",
+   "status": "PRIMARY",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Economic headline: local OSS fleet amortizes to Rs0/page compute vs API Rs0.13-0.50/page; Sarvam ~4x Google OCR price, ~1.4x Mistral.",
+   "numbers": "Rs0 vs Rs0.13-0.50",
+   "source": "docs/south/EXTERNAL_BENCHMARK_MAP.md:126",
+   "status": "DERIVED",
+   "date": "2026-09-13",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "LICENSE_AUDIT (R60): training-data use of engine outputs SAFE 3 (tesseract_indic, tesseract_bilingual, openbharatocr, tessdata Apache needs verify), CAUTION 6 (anuvaad, paddleocr_indic, rapidocr, indicphotoocr, doctr, easyocr), blocked/conditional 1 (surya).",
+   "numbers": "3 / 6 / 1",
+   "source": "docs/legal/LICENSE_AUDIT.md:25-27",
+   "status": "DERIVED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Surya weights = modified AI Pubs OpenRAIL-M (free for research, personal, startups under $5M funding/revenue; METADATA line 99): biggest IP risk if surya outputs used as training labels. Note EXTERNAL_BENCHMARK_MAP says Chandra cap $2M vs surya $5M (different models).",
+   "numbers": "$5M cap",
+   "source": "docs/legal/LICENSE_AUDIT.md:21,29-37",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "EasyOCR CRAFT detector (craft_mlt_25k.pth) matches clovaai CRAFT release, historically non-commercial research; no LICENSE beside weights -> training blocked until verified. IndicPhotoOCR package MIT but 3 weight repos (STocr, SceneTextDetection, STscriptdetect) have no local licence. Anuvaad traineddata no licence -> BLOCK.",
+   "numbers": "",
+   "source": "docs/legal/LICENSE_AUDIT.md:14,16,19,36-37",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Audit TODO-VERIFY list of 8 upstream licence checks (tessdata, anuvaad, EasyOCR/CRAFT, PP-OCR, RapidOCR modelscope, IndicPhotoOCR weight repos, doctr weights, surya full RAIL text); priority: surya and easyocr-CRAFT first, anuvaad and IndicPhotoOCR second, PP-OCR third. Not legal advice; covers only the 10 engines, NOT PARSeq IndicPhotoOCR training",
+   "numbers": "8 items",
+   "source": "docs/legal/LICENSE_AUDIT.md:39-60,79-83",
+   "status": "UNKNOWN",
+   "date": "",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "W3 probe schema: 18 non-South languages x 100 samples (amended 2026-09-26 from 20) = 1,800 blocks + 20 South add-on (5/lang) = 1,820 inferences per new engine; South 400 not rescored.",
+   "numbers": "18x100=1,800; +20; 1,820",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:6-12",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Must-include failure cells from public SOTA: Santali, Kashmiri, Manipuri (Meitei Mayek; Gemini 3.6 Flash 0.55 on Manipuri), Odia, old scans, handwriting, tables, mixed script. Script routing: Devanagari (hi,mr,ne,sa,kok,brx,mai,doi), Bengali-Assamese (bn,as, mni if Bengali), gu, pa, or, Perso-Arabic/Nastaliq (ur,sd,ks), Ol Chiki (sat), Meitei Mayek",
+   "numbers": "Gemini 3.6 Flash 0.55 mni",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:20-33",
+   "status": "PLAN",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam Indic OCR Bench (2026-09-24) overall word accuracy: Sarvam Vision 2.1 87.39, Bodhan 84.94, Gemini 3.6 Flash 79.35, Google Cloud Vision 71.76, Surya 2 69.96. Bench test split 6,909 (300 English), small_representative 1,170.",
+   "numbers": "87.39; 84.94; 79.35; 71.76; 69.96; 6,909; 1,170",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:37,63-65",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Long-tail Sarvam 2.1 / Bodhan: Santali 53.91/68.30 (Bodhan wins), Kashmiri 54.82/48.04, Manipuri 85.12/82.85 (frontier VLMs ~0), Odia 80.01/75.45. South: kn 90.54/86.51, ml 90.24/86.38, ta 87.70/84.21, te 91.55/86.92.",
+   "numbers": "Sat 53.91/68.30; ks 54.82/48.04; mni 85.12/82.85; or 80.01/75.45",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:67-69",
+   "status": "PRIMARY",
+   "date": "2026-09-24",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Our South 400 is harder than public bench (old-scan 200 dpi; writer-basis CER surya 0.43 overall; te/kn thin-n).",
+   "numbers": "surya 0.43",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:69, docs/south/EMPTY_PAGES.md:36",
+   "status": "DERIVED",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe source SWITCHED 2026-09-26: draws from OFFICIAL hackathon dataset Datasets/akshardrishti_official (34,871 files), not Sarvam bench; Sarvam run discarded but 360 images kept as fill for Dogri, Santali. GT audit: PDF text layers cover 100/lang for 15/18 langs; Dogri 11, Santali 0 short; Bodo layers legacy-font mojibake -> script-validation gate",
+   "numbers": "34,871 files; 360 images; 15/18; Dogri 11; Santali 0",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:81",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Probe sheet columns: image_id, language, script, print_or_hand, quality, has_table, mixed_script, gt, model, prediction, CER, WER, error_tag; tags matra_order|conjunct|old_scan|handwriting|table|reading_order|hallucination|repetition|charset|other.",
+   "numbers": "",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:45-49",
+   "status": "PLAN",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Probe model list: keep 9 South engines; must add Sarvam Vision 2.1 and Bodhan Indic-OCR (bodhan-ai/indic-ocr); optional PaddleOCR-VL 1.6, Chitrapathak-2, Nanonets-OCR2-3B; paid APIs wait for W5.",
+   "numbers": "",
+   "source": "docs/probe/W3_PROBE_SCHEMA.md:55-61",
+   "status": "PLAN",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Engine roster at seal: 10 L2 engines (tesseract_indic, tesseract_bilingual, anuvaad_tesseract, openbharatocr alias, easyocr, paddleocr_indic, rapidocr, indicphotoocr, doctr, surya) + sarvam_vision probe-only; tesseract family = 1 vote (4 tess ids), openbharatocr byte-identical alias.",
+   "numbers": "10 engines; 11 in probe22",
+   "source": "level2/research/gates/B12_ensemble_voting.md:9-11;level2/README.md:191-199 (unified)",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "None of the 12 files measure handwriting: all engines benchmarked only on printed te/ta/kn/ml pages and printed probe22; no handwritten word-level benchmark, no PARSeq-HW results, no Bengali word recognition numbers here. Plan's HW gates have no support or contradiction in this partition.",
+   "numbers": "",
+   "source": "level2/README.md:1-51",
+   "status": "UNKNOWN",
+   "date": "",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan lacks the doctr-PARSeq lesson: reinit-head PARSeq with an Indic vocab produced script ratio 0.53 but Jaccard 0.00 (fake pass); HW1/HW2 gates should require content metrics (CER/WRR vs GT + Jaccard floor), not script ratio (B1_doctr_parseq.md:43-52,76-79).",
+  "Plan has no GT-hygiene gate for legacy-font mojibake text layers: 52/115 'clean' South pages and Bodo layers were mojibake; any PDF-layer GT used for page-expert eval or post-correction needs a legacy-font detector (B12_ensemble_voting.md:88-98; W3_PROBE_SCHEMA.md:81).",
+  "Plan ignores the four-gate negative ledger (ensemble voting 0/115, tessdata_best 0/12, paddle server-det no gain, rapidocr no server Indic) -- Tesseract fallback should stay FAST models psm3 and no ensemble/voting layer should be added (INDEX.md:16-20).",
+  "Plan lacks a licence gate for training/outputs: surya weights OpenRAIL-M $5M cap, EasyOCR CRAFT non-commercial, IndicPhotoOCR weight repos unlicensed locally; plan builds on IndicPhotoOCR checkpoints and Qwen/Bodhan without recorded licence verification (LICENSE_AUDIT.md:21,36-37,79-83).",
+  "Plan's printed side (22-language, weak cells sat/ks/mni/or/sa/doi) is not scoped: W3 probe schema lists must-include failure cells, Nastaliq/Ol Chiki/Meitei routing, error-tag taxonomy and Sarvam/Bodhan public numbers to beat (W3_PROBE_SCHEMA.md:20-33,63-69).",
+  "Plan lacks a metric-comparability layer: CER_omni normalization needed to compare to published 1-edit-distance tables; own CER vs pass-rate not comparable (EXTERNAL_BENCHMARK_MAP.md:106,25-29).",
+  "Plan's Tesseract fallback ignores that ml has 16/100 empty on tess family and rapidocr 100% empty; Malayalam empty on every engine; 300dpi rescue 0/10 (EMPTY_PAGES.md:9-17,28).",
+  "PaddleOCR-VL-1.6 (0.9B Apache, MLX path, 109 langs) is a documented candidate engine/page-expert alternative; plan does not mention it (EXTERNAL_BENCHMARK_MAP.md:54,65-76).",
+  "Plan omits economics/pricing benchmark (Sarvam Rs0.50/page, Google Rs0.13, Mistral Rs0.35) useful for jury/product framing (EXTERNAL_BENCHMARK_MAP.md:112-126).",
+  "Plan's portable PyTorch / MLX-Mac-only choice should cite that doctr zoo and rapidocr have no Indic server weights; Paddle on Mac via CPU-Paddle or mlx-vlm only (llama.cpp in-progress, vLLM/SGLang not on Apple) (EXTERNAL_BENCHMARK_MAP.md:67)."
+ ],
+ "contradictions": [
+  "EMPTY_PAGES.md:3 corrects the 2026-09-25 seal write-up that claimed te/ta/kn were 0-empty on every engine (tess-family has te 13, ta 2 empty).",
+  "B12 shows 'clean' GT list is 45% mojibake, contradicting CER_CLEAN_GT_RECOMPUTE clean-ness; all CER rankings (surya #1) carry caveat (B12_ensemble_voting.md:134-137).",
+  "level2/README.md:21 says probe22 covers 18 langs while UNIFIED_INDEX says 19 langs/23 distinct; and W3 schema header says '20 each' while amended to 100.",
+  "W3_PROBE_SCHEMA.md:69 says surya writer-basis CER 0.43 overall while EXTERNAL_BENCHMARK_MAP.md:17 gives surya overall CER med 0.633 (different basis: clean-GT vs dense).",
+  "Chandra weight licence cap $2M (EXTERNAL_BENCHMARK_MAP.md:56) vs surya $5M (LICENSE_AUDIT.md:21); and surya license listed as OpenRAIL-M yet package Apache-2.0."
+ ],
+ "open_items": [
+  "C2 successor gate: recompute clean-GT with legacy-font detector and see if engine ranking flips (B12:134-137).",
+  "Q-B12.1 region-level voting; Q-B12.2 disagreement as difficulty proxy; Q-B12.3 growth of pseudo-GT set with Sarvam/Bhashini at L3.",
+  "C3: ml psm1 rescue on 10 ml pages (B3:110-112).",
+  "Q-B3.2 tessdata_best on degraded scans.",
+  "B4.1 load-stress threshold for server det (parked LOW).",
+  "LICENSE_AUDIT 8 TODO-VERIFY items.",
+  "CER_omni metric addition.",
+  "SarvamBench methodology unretrieved.",
+  "Hand-writing / Bengali word data not covered by these files."
+ ]
+}

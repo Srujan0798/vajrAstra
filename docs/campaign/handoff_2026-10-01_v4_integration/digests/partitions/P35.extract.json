@@ -1,0 +1,607 @@
+{
+ "partition": "P35",
+ "files": [
+  {
+   "path": "level2/benchmark/docs/AGENT_PROTOCOL.md",
+   "total_lines": 484,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/FINAL_REPORT.md",
+   "total_lines": 258,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md",
+   "total_lines": 370,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/transfer_obituaries.md",
+   "total_lines": 185,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/w6_feasible_set.md",
+   "total_lines": 88,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/w6_set_construction_log.md",
+   "total_lines": 72,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/verify_unaccounted.md",
+   "total_lines": 49,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/README.md",
+   "total_lines": 28,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/docs/orchestrator_briefing_template.md",
+   "total_lines": 34,
+   "fully_read": true
+  },
+  {
+   "path": "level2/benchmark/scores/mcnemar_summary.md",
+   "total_lines": 56,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "probe22 final manifest n=1227 over 18 langs (printed pages, NOT handwriting); tiers official_pair 300 gold (bn100/hi100/sa100), official_pdf 769 silver, sarvam_fill 158 machine",
+   "numbers": "1227; 300/769/158",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:55-89",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Per-lang n: bn/hi/ks/kok/mai/sa/ur 100, pa 90, mr 79, sd 75, or 69, brx 67, ne 37, gu 24, doi 27, as 19, mni 20, sat 20; n<50 cells flagged low-confidence",
+   "numbers": "as19 gu24 ne37 doi27 mni20 sat20",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:184-188",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Honesty gates for GT: >=50 chars, script-ratio>=0.5, Latin<=0.6, control chars<=3; 111 control-char-corrupt items purged from 1,340 drawn; 2 noise items (GT<10 chars) dropped",
+   "numbers": "1340->1227; 111 purged",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:145,179-183",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Dataset Bodo/gu/ (4,645 jpgs + Gujarati vocab.txt) is a copy of the main test set and test/test/ = 5,344 unlabeled hackathon eval jpgs: NOT GT, never use. (5,344 matches plan v4 official test size)",
+   "numbers": "5,344 unlabeled; 4,645",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:94-95",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Known confound: official_pair items native-res scans (max 4250x6500) vs official_pdf items 200-dpi renders; tier correlates with resolution; static columns (printed, has_table False, mixed_script False) are constants not signal",
+   "numbers": "4250x6500; 200 dpi",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:99-106",
+   "status": "CONTRADICTION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe cannot validate handwriting/table/mixed-script conclusions; all probe items labeled printed; needs manual stratification slice (~100 pages) before any denoiser/table claim",
+   "numbers": "~100 pages tagging",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:103-106,381-382",
+   "status": "UNKNOWN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Scorer integrity rules: empty pred = CER/WER 1.0 counted in means; <50 non-space GT chars (27 items) excluded and reported separately; space-equalization forgery removed; uncapped CER recorded; single denominator",
+   "numbers": "27 short-GT items",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:337-352",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Raw-vs-normalized ablation mandatory; all 11 engines delta <0.5pp, zero rank inversions -> RLVR gate PASS",
+   "numbers": "max delta 0.0034",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:171-187",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Power statement: with CER sd~0.3 min detectable pairwise gap n=100 ~8pp; n70-90 ~9-10pp; n=37 ~14pp; n=24-27 ~16-17pp; n=20 ~19pp. No per-language winner claims for n<50; pool by script family; report 95% CIs",
+   "numbers": "8pp/10/14/17/19",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:360-366",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Perso-Arabic (ur/sd/ks): WER primary, CER secondary; other langs CER primary",
+   "numbers": "",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:296-299",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Falsification test: pair-pdf CER gap < -0.10 flags PDF-layer GT as suspect (engine mirrors extractor). Flagged: tesseract_bilingual/indic/openbharat (-0.230), surya (-0.250: pair 0.5639, pdf 0.3135)",
+   "numbers": "-0.230; -0.250",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:127-147",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Surya pair CER 0.5639 (n=299) vs pdf 0.3135 (n=769): surya PDF-tier scores not valid evidence of GT quality; fill CER 0.3953",
+   "numbers": "0.5639/0.3135/0.3953",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:140,147,229",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT forensics R5 (2026-09-26): ne BARRED trust 26.6 (32 control chars, adherence 0.933); ks 45.0, mr 46.8, gu 51.4, ur 59.0 VERIFY-FIRST",
+   "numbers": "26.6/45.0/46.8/51.4/59.0",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:307-314",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sec 6.4 human/visual verification LOCKED 2026-09-27 04:55 (machine-assisted agent vision, 233->237 items): BARRED ks 0%, mni 0%, ur 10%, sat 15%, mr 42.9%, ne PDF-tier; SAFE as100 brx95.8 doi100 kok100 mai90 or91.7 pa100; VERIFY-FIRST gu85.7 sd85.7. 20-item human spot-check still pending user",
+   "numbers": "ks0 mni0 ur10 sat15 mr42.9",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:316-335",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Final verification state: visual dict 237 keys (165 pass + 72 fail); 4 'unaccounted' items = ceiling-sample fix (floor vs ceil div); bn/hi/sa skipped as gold. mr_o005, ne_o038 fail; mr pass rate 37.5%",
+   "numbers": "237=165+72; mr 37.5%",
+   "source": "level2/benchmark/docs/verify_unaccounted.md:4-47",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Verification was machine-verified by agent vision, not human; ne visual sample was only 20 fill + 1 PDF item (biased) so 90.5% visual pass is not evidence",
+   "numbers": "90.5%; 21 items",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:310-313",
+   "status": "CONTRADICTION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 GT guard: SFT on human pairs (10,434 gold: bn 2,938/hi 3,500/sa 494/en 3,500) + synthetic always; PDF-layer GT only per-lang if verified AND no falsification gap; RLVR only on human-verified gold; sarvam_fill never training data",
+   "numbers": "10,434 gold",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:422-433",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "RLVR waits for raw-vs-norm ablation no rank inversion (a gameable scorer = gameable reward); akshara-boundary aux loss scoped to Devanagari+Bengali-Assamese only (undefined for Perso-Arabic, Ol Chiki, Meitei Mayek)",
+   "numbers": "",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:428-437",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "'deskew + Otsu beats deep denoisers' is UNVERIFIED; needs manual old-scan slice ablation; structured extraction head parked until forms/table slice exists; script router for sat/ks/mni only after verification and CIs",
+   "numbers": "",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:438-447",
+   "status": "UNKNOWN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 sets built (no training): sft_unconditional 458 (bn100 hi100 sa99 or69 pa90), sft_conditional 342 (brx67 kok100 mai100 sd75, pending verify), rlvr 300 (bn/hi/sa pairs); or 19 fill items flagged EXCLUDE-D1",
+   "numbers": "458/342/300",
+   "source": "level2/benchmark/docs/w6_set_construction_log.md:7-47",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "w6_feasible_set arithmetic inconsistent (459+342+437=1238 vs 1227); sa pair count 99 not 100; feasible 459-801 (37-65%)",
+   "numbers": "11 item diff",
+   "source": "level2/benchmark/docs/w6_set_construction_log.md:51-52",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 feasibility: FEASIBLE NOW bn/hi/sa(gold)/or/pa; IF verify brx/kok/mai/sd; gu needs n boost; INFEASIBLE as/mni/sat/ne/mr/ks/ur/doi. South-400 carryover te/ta/kn FEASIBLE (te 0.06, ta 0.05 CER); ml conditional",
+   "numbers": "te 0.06; ta 0.05",
+   "source": "level2/benchmark/docs/w6_feasible_set.md:18-58",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Abstention training: 1,227 items, empty = CER 1.0 as correct label (silence = fail)",
+   "numbers": "1227",
+   "source": "level2/benchmark/docs/w6_feasible_set.md:74-75",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 PAUSED 2026-09-29: Vinay meeting 2026-09-30 gate; W5 freeze after Wed 2026-10-01; options A (resume scaffold) / B (wrap-only) / C (backbone swap, supersedes). No training/mlx-tune/QLoRA until then",
+   "numbers": "2026-09-30; 2026-10-01",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:2-24",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Kill criteria: K1 QLoRA killed unless McNemar p<T1=0.05 and closes >T2=3pp CER; K2 sat/ks micro-repair kill at 6h before freeze; K3 drop engine if Wilson 95% CI upper bound > next-best point estimate; n<50 no winner",
+   "numbers": "T1 0.05, T2 3pp, 6h",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:32-41",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 local plan: QLoRA via mlx-tune/mlx-vlm on M2 Max 32GB (peak <=24GB); backbone GLM-OCR 0.9B primary, Qwen2.5-VL-3B alt; cloud GPU rental INFEASIBLE under no-money law",
+   "numbers": "24GB; 0.9B; 3B",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:59-73,155",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QLoRA top-2: kok (surya 0.4285 vs best non-surya 0.7522 rapidocr, gap 32pp) and pa (surya 0.1373 vs 0.2159, gap 8pp); mai killed (gap 0.008), or marginal (0.029). Target is fine-tuning tesseract/rapidocr, not surya",
+   "numbers": "0.32; 0.079; 0.008; 0.029",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:79-113,318-331",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya is overall best local engine: CER 0.3849 (WER 0.5956) normalized; refresh: mean 0.3944, median 0.3058; 129 honest-empty layout-parse failures (10.5%), 60 loops",
+   "numbers": "0.3849; 0.3944; 129",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:36,200",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Overall CER ranking (1200 rows): sarvam 0.2400 (51-item subset), surya 0.3849, tess_bilingual 0.4853, tess_indic 0.4870, easyocr 0.4941, indicphotoocr 0.5586, paddle_indic 0.6562, rapidocr 0.6692, anuvaad 0.7114, doctr 0.8691",
+   "numbers": "see claim",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:33-45",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Refresh numbers (sheet.csv 12,324 rows): sarvam 0.2640 (n=54), surya 0.3944, tess_bil 0.4907, tess_indic/openbharat 0.4918, easyocr 0.5013, indicphotoocr 0.5634, paddle 0.6629, rapid 0.6753, anuvaad 0.7153, doctr 0.8704",
+   "numbers": "12,324 rows",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:127-141",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": "supersedes FINAL_REPORT 2026-09-28 means (same data, different basis)"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "openbharatocr exact duplicate of tesseract_indic; tess_bilingual=tess_indic=openbharat byte-identical on 340/1313 packs -> effective engines 9-10 not 11",
+   "numbers": "340/1313",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:119,359",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-script median CER winners: Devanagari surya 0.173 (easyocr 0.200); Perso-Arabic surya 0.581 (worst family; easyocr 0.667); Bengali-Assamese surya 0.410; pa surya 0.137; or surya 0.195; gu surya 0.111",
+   "numbers": "0.173/0.581/0.410/0.137/0.195/0.111",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:172-278",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Ol Chiki sat: no local engine below 0.49; indicphotoocr 0.504 median (best local), surya 0.613, sarvam 0.405 (3 items); needs Ol Chiki-aware synthetic (R3), vanilla QLoRA insufficient",
+   "numbers": "0.504/0.613/0.405",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:123,280-296",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Meitei Mayek mni: no local engine below 0.855 (tesseract), surya 1.000 (fails), sarvam 0.022 on 3 items; GT is 100% fill garbage so CERs meaningless",
+   "numbers": "0.855/1.000/0.022",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:298-314",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Perso-Arabic is worst family; ks/ur/sd best surya; ks CER 0.5894, ur 0.6232, sd 0.3155; rapidocr Arabic v5 on ur CER 0.9377. ks/ur McNemar wins are against garbage GT",
+   "numbers": "ks 0.5894 ur 0.6232 sd 0.3155",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:58,65-66; level2/benchmark/docs/transfer_obituaries.md:116",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya Sanskrit anomaly: sa all-empty (HONEST_EMPTY_SURYA_NO_OLCHIKI wrapper bug), so best-on-sa is unscored; sa scores come from sarvam 0.0195, easyocr 0.1677. Leaderboard refresh does not list sa row (13 langs claim)",
+   "numbers": "sa sarvam 0.0195, easyocr 0.1677",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:64,149; level2/benchmark/docs/transfer_obituaries.md:68",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya on sat CER 0.7357 (n=18), one pack 3.35 uncapped; surya as primary on Ol Chiki wrong; indicphotoocr niche is only Ol Chiki",
+   "numbers": "0.7357; 3.35",
+   "source": "level2/benchmark/docs/transfer_obituaries.md:69-70",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Per-lang best CER: mai surya 0.0298 (all engines 3-7%), pa 0.1447, brx 0.1527, or tesseract 0.2564 (surya 0.2759), mr tesseract 0.2046, kok surya 0.4248, bn surya 0.4763, hi surya 0.2198",
+   "numbers": "see claim",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:55-66",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Low-confidence cells (n<50): as sarvam 0.0009, gu surya 0.1810, ne tess_bil 0.1161, doi 0.0564, mni 0.0260, sat 0.2160; as/mni/sat 100% fill so CER = engine agreement",
+   "numbers": "",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:207-218",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Engines cannot read: paddleocr_indic 536 honest-empty (no models for as/bn/brx/doi/gu/ks/or/pa/mni/sat), rapidocr 343 empty (as/bn/gu/or/pa/mni/sat), anuvaad 617 empty (hin+eng only), doctr CER 0.87 with 54 loops",
+   "numbers": "536/343/617",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:189-205; level2/benchmark/docs/transfer_obituaries.md:82-118",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya McNemar (CER<0.5 pass/fail, 55 pairs x 19 langs=1045 triples, 606 computed 439 skipped): surya 67 wins/8 losses; easyocr 36; indicphotoocr 33; tesseract family 28; sarvam 0 (n_common<30). Surya 9/10 on bn, brx, hi, kok, ks",
+   "numbers": "67 wins/8 losses",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:70-114; level2/benchmark/scores/mcnemar_summary.md:11-42",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar summary file says computed 600 skipped 445 vs FINAL_REPORT 606/439 and doctr wins 5 vs 6: minor internal mismatch",
+   "numbers": "600/445 vs 606/439",
+   "source": "level2/benchmark/scores/mcnemar_summary.md:11,19",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam 87.39 bench does not transfer: sarvam on 3/lang (n=54) CER 0.2400 via our scorer; keep directional; no full API run funded; Bodhan/PaddleOCR-VL/Qwen-VL zero-shot NOT APPROVED earlier (needs download+GPU)",
+   "numbers": "0.2400; 87.39",
+   "source": "level2/benchmark/docs/transfer_obituaries.md:8-22; level2/benchmark/docs/AGENT_PROTOCOL.md:378-384",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Paper-vs-probe obituaries: IndicPhotoOCR paper bn CER 0.085 vs ours 0.6589; Tesseract hi 0.12-0.15 vs 0.8770 (uncapped 2.5525); surya partially transfers; docTR not Indic-aware; transfer law: only same-probe same-scorer numbers valid",
+   "numbers": "0.085 vs 0.6589; 0.12 vs 0.877",
+   "source": "level2/benchmark/docs/transfer_obituaries.md:26-55,169-184",
+   "status": "DEAD",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "EN sanity: all 11 engines BROKEN vs 5% threshold (surya 0.1514, sarvam 0.1078, paddle 0.2495, doctr 0.3957); EN images are 3120x4160 noisy old scans not clean pairs -> harness mismatch, not broken engines",
+   "numbers": "0.1514; 0.1078",
+   "source": "level2/benchmark/docs/FINAL_REPORT.md:151-169; level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:143",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Refresh routing: surya primary everywhere except sat (indicphotoocr) and mni (sarvam only); boss draft routing 3/5 wrong vs disk (Bengali, Gurmukhi, Odia); Sarvam never routed (bench target); surya wins 9 of 13 n>=50 langs",
+   "numbers": "3/5 wrong; 9/13",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:335-348,360",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Manifest grew to 1,283 items (mr/pa/sd re-sourced to 100) after FINAL_REPORT; 56 new items not yet run by engines; sheet.csv frozen at 12,324 rows",
+   "numbers": "1,283; 56 new",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:357-358",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Operations: 3 agents (Engine, Verdict, Miss); hard rules: no downloads, no training, no touching level2/out (sealed South 400) or reports; count everything from disk; honest labels; tesseract tessdata_best 12 packs approved 2026-09-26",
+   "numbers": "12 packs",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:9-46,190-194",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Wall times on worst-case 4250x6500 scans: rapidocr ~10m; tesseract ~1.5-3h; doctr ~2h; surya ~4h (25-30s/pack); easyocr ~6h; indicphotoocr ~12h; paddle 8-20h; paddle det OOM at 57GB uncapped, capped at 1600px",
+   "numbers": "25-30 s/pack surya",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:240-247; level2/benchmark/docs/README.md:20",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Hostile-audit reconciliation: n_total corrected 1229->1227 (README still says 1229, 1800 expected merge - stale); Assamese merge-loss claim FALSE (11 PDF items purged by corruption gates)",
+   "numbers": "1229 vs 1227",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:449-484; level2/benchmark/docs/README.md:13,18",
+   "status": "CONTRADICTION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Source PDF text layers largely corrupt for several langs: Bodo legacy-font mojibake; gu gates rejected nearly all 3,567 layers (4 survive); mni Mayek metadata; sat 0 clean PDF layers; ne 29 corrupt purged; Dogri only 11 clean upstream",
+   "numbers": "gu 3,567 rejected",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:62-79; level2/benchmark/docs/README.md:22-23",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "No handwriting data anywhere in these files: probe is all printed; nothing on word-level handwriting WRR/CER, IIIT-INDIC-HW, ICDAR'23",
+   "numbers": "",
+   "source": "level2/benchmark/docs/AGENT_PROTOCOL.md:103-106",
+   "status": "UNKNOWN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 lacks the K1-K3 kill criteria (T1 0.05 McNemar, T2 3pp, K3 Wilson drop): level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:32-41",
+  "Plan v4 has no per-GT-tier scoring / falsification-test discipline (pair vs PDF gap < -0.10 flag): level2/benchmark/docs/FINAL_REPORT.md:127-147",
+  "No power statement / no-winner-for-n<50 rule and McNemar CER<0.5 methodology in plan: level2/benchmark/docs/AGENT_PROTOCOL.md:360-366",
+  "Plan relies on Bodhan/Sarvam bench numbers; research says external numbers are directional only, never head-to-head, and obituaries show paper CERs do not transfer (IndicPhotoOCR 0.085 vs 0.6589): level2/benchmark/docs/transfer_obituaries.md:169-184",
+  "Plan names Tesseract as fallback but disk shows tess family needs script coverage; surya (or Page Expert) is primary printed engine and fails on sat/mni/sa wrapper; Plan v4 has no routing by script (surya, indicphotoocr for sat): level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:335-348",
+  "Weak cells ks/ur/sd/sat/mni/ne/mr GT barred; plan must not train on PDF-layer or sarvam_fill GT; no mention of GT verification gating: level2/benchmark/docs/AGENT_PROTOCOL.md:316-335",
+  "Raw-vs-normalized ablation as RLVR gate and abstention scoring (empty=1.0, honest-empty) absent from plan: level2/benchmark/docs/AGENT_PROTOCOL.md:337-358",
+  "Akshara-boundary aux loss scope limits (not Perso-Arabic, Ol Chiki, Mayek) absent: level2/benchmark/docs/AGENT_PROTOCOL.md:434-437",
+  "Compute constraints: M2 Max 32GB, peak <=24GB, no cloud GPU/no-money law, GLM-OCR 0.9B / Qwen2.5-VL-3B backbone in prior W6 plan; plan v4 must reconcile (Qwen3.5-0.8B) : level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:59-73,155",
+  "Official test set 5,344 unlabeled: eval harness there cannot measure; no handwriting labelled probe exists; Otsu/denoise and old-scan slice unverified: level2/benchmark/docs/AGENT_PROTOCOL.md:94-95,438-440"
+ ],
+ "contradictions": [
+  "FINAL_REPORT (2026-09-28) overall means differ from LEADERBOARD_REFRESH (2026-09-29): surya 0.3849 vs 0.3944, sarvam 0.2400 vs 0.2640 (different basis)",
+  "README says n_total 1229, or 70, as 20 and expects 1,800 merge; AGENT_PROTOCOL says 1227; refresh says manifest 1,283",
+  "FINAL_REPORT claims or/pa 'SAFE for SFT', but AGENT_PROTOCOL says pending 6.2 falsification; surya -0.25 gap flags PDF tier",
+  "Obituary claims paddle '7 of 11' honest-empty listing 10 languages; 'ks' listed as paddle-less vs McNemar notes",
+  "Boss draft routing for Bengali/Gurmukhi/Odia contradicted by disk (surya wins); transfer_obituaries cites surya sat 0.7357 vs refresh 0.613 median",
+  "mcnemar_summary 600/445 vs FINAL_REPORT 606/439",
+  "EN sanity: protocol expected clean pairs, disk shows noisy 3120x4160 scans"
+ ],
+ "open_items": [
+  "20-item human spot-check of verification pending user (gu_o005 first)",
+  "Full 1,227-item Sarvam API run unfunded; head-to-head vs 87.39 never established",
+  "Manual old-scan/table stratification slice (~100 pages) not done",
+  "Vinay meeting 2026-09-30 / W5 freeze 2026-10-01 decide Options A/B/C; K1-K3 thresholds not yet user-set",
+  "Engine reruns on 56 new manifest items deferred",
+  "Surya sa wrapper bug (HONEST_EMPTY_SURYA_NO_OLCHIKI) unresolved",
+  "Full PDF-tier visual verification for brx/kok/mai/sd pending; gu needs n boost"
+ ]
+}

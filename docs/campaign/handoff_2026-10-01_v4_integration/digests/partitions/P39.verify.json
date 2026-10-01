@@ -1,0 +1,212 @@
+{
+ "checked": 23,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "corrected",
+   "correction": "ml_020 and ml_035 are the only pages listed empty across all of tesseract_indic, doctr, easyocr, indicphotoocr, paddle, surya (anuvaad/tesseract/openbharat/bilingual list ml_020, ml_035, ml_036; ml_025 is not listed for tesseract-family or anuvaad engines; ml_025 is listed for doctr, easyocr, indicphotoocr, paddle, surya). Docs list only 3 example worst pages each, so 'across' is partial. RapidOCR: all 100 ml empty (ml_001..003 shown)."
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": "verified; line cite off by one (tesseract_indic/RUN.md:12 is the ta_055 row); ta_034 labelled 'Telugu form page 3' is in paddleocr_indic/RUN.md:14, not doctr"
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "weak_cells",
+   "claim": "Anuvaad-tuned Tesseract best-page char counts are lower than stock Tesseract (kn_084 3851 vs 3904, ta_055 3766 vs 3964) despite same 31 empties",
+   "numbers": "3851/3849/3766 vs 3904/3903/3964",
+   "source": "level2/engine_docs/anuvaad_tesseract/RUN.md:12-14",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "RapidOCR best pages: ta_055 3555, ta_057 3424, ta_068 3354; empties are ml_001/002/003 (all 100 ml)",
+   "numbers": "3555/3424/3354",
+   "source": "level2/engine_docs/rapidocr/RUN.md:12-17",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "IndicPhotoOCR best-page chars: kn_084 3649, kn_001 3648, ta_055 3580",
+   "numbers": "3649/3648/3580",
+   "source": "level2/engine_docs/indicphotoocr/RUN.md:12-14",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "PaddleOCR best-page chars: ta_055 3679, ta_057 3398, ta_034 3368",
+   "numbers": "3679/3398/3368",
+   "source": "level2/engine_docs/paddleocr_indic/RUN.md:12-14",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya best-page chars: kn_084 3894, kn_001 3891, ta_055 3731",
+   "numbers": "3894/3891/3731",
+   "source": "level2/engine_docs/surya/RUN.md:12-14",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Empty-count ranking (n=400): paddle 7, easyocr 9, indicphotoocr 10, doctr 11, surya 11, tesseract-family+openbharat+anuvaad 31, rapidocr 100",
+   "numbers": "7/9/10/11/11/31/100",
+   "source": "level2/engine_docs/*/RUN.md:5",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "docTR pipeline is DocumentFile.from_images -> ocr_predictor(pretrained=True), crnn_vgg16_bn; no Indic-specific recognizer or language hint",
+   "numbers": "crnn_vgg16_bn",
+   "source": "level2/engine_docs/doctr/PROMPT.md:4-12",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "RapidOCR config: Rec MOBILE, Det PPOCRV5 MOBILE lang CH, Cls off; Surya converts renders to RGB",
+   "numbers": "",
+   "source": "level2/engine_docs/rapidocr/PROMPT.md:12-15; surya/PROMPT.md:20-22",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "tesseract_bilingual stack is eng+indic+hin (eng first, deduped) vs tesseract_indic indic+hin+eng; identical outputs reported",
+   "numbers": "",
+   "source": "level2/engine_docs/tesseract_bilingual/PROMPT.md:8-14",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

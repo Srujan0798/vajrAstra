@@ -1,0 +1,310 @@
+{
+ "theme": "training_compute",
+ "established": [
+  {
+   "fact": "W6 locked data rules: SFT = human gold (10,432 pairs: bn 2,938 + hi 3,500 + sa 494 + en 3,500) + synthetic; PDF-layer GT only if sec 6.4 + 6.2 pass; sarvam_fill NEVER trains; RLVR on human-verified gold only after raw-vs-normalized no-inversion ablation (0.6707 vs 0.6692, delta 0.0015). Count is 10,434 in AGENT_PROTOCOL (minor drift).",
+   "sources": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:152-156; level2/benchmark/docs/AGENT_PROTOCOL.md:422-433; docs/research/level7/a/LEDGER.md:65-67"
+  },
+  {
+   "fact": "Barred from fine-tune on PDF/fill GT: ks, mni, mr, sat, ur, ne-PDF; safe set as/brx/doi/kok/mai/or/pa; verify-first gu/sd. All of these are printed-page rules, not handwriting.",
+   "sources": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:152-156; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:149-150"
+  },
+  {
+   "fact": "Kill-criteria framework exists and is locked: K1 (QLoRA only where McNemar p<T1=0.05 AND gap>T2=3pt), K2 (micro-repair time/gate), K3 (Wilson-CI routing), K4 (install T8=5min, memory peak T9=12.6GB, smoke fail aborts to wrap-only). Operator-set thresholds.",
+   "sources": "docs/research/level7/KILL_CRITERIA.md:38-47,64,127-129; docs/research/level7/MISS_MONITOR.md:386-388"
+  },
+  {
+   "fact": "K1 outcome: kok SURVIVES (surya 0.4285 vs rapidocr 0.7522, McNemar p=0.0033, 31 discordant); mai KILLED (gap 0.008, p=1.0); or KILLED (surya loses to tesseract); pa originally SURVIVES (gap 0.079, p<0.0001) but ERRATUM-F1 (09-30) re-evaluated pa on 90 common items as a TIE (87 ties, 3 discordant, p=1.00). Latest: QLoRA scope = Konkani only.",
+   "sources": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:284-318; docs/campaign/DRAFT_RESEARCH_PLAN.md:63,72,73,163; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:377"
+  },
+  {
+   "fact": "Wrap-only baseline (tier routing + per-script engine routing + R4 restoration, zero compute) is the only path that ever produced a measured number; QLoRA/GRPO/SimPO were SPEC-ONLY or PAUSED.",
+   "sources": "docs/campaign/MENTOR_PLAYBOOK.md:37-111; docs/research/level7/CALL_PACKET.md:255"
+  },
+  {
+   "fact": "W6 W5-options costed: A wrap+QLoRA kok+pa ~3-4h $0 (recommended then); B wrap-only ~30 min; C full QLoRA 4 safe langs + backbone swap ~7-8h. Realistic ceiling 85-88 word-acc, not 90+; QLoRA kok+pa worth only +0.5-1 pt.",
+   "sources": "docs/research/level7/MISS_MONITOR.md:499; docs/architecture/W5_STRATEGY_OPTIONS.md (via corpus_extract.md:39,56)"
+  },
+  {
+   "fact": "QLoRA spec recipe (printed-page, Mac): Qwen2.5-VL-3B-Instruct 4-bit MLX via mlx-tune, r=16 a=32 dropout 0.05, text decoder only, lr 1e-4, 3 ep, bs1 x grad-accum 8, max-seq 1024, image-res 512, seed 20260926; ~600MB adapter/lang. MLX is Mac-only.",
+   "sources": "docs/research/level7/W6_QLORA_SPEC.md:86-106; docs/benchmark_docs/QLORA_TRAINING_DATA.md:244"
+  },
+  {
+   "fact": "QLoRA training set was 200 printed PAGES (kok 100 + pa 100), gt_source=official_pdf_layer (machine GT), 80/10/10 split by hash(image_id) over pages from only 2 PDFs per language, so val/test share source PDFs (leakage-by-source risk); pages avg GT 2308 chars (kok) vs cap 1024.",
+   "sources": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:36-46,95-125,239-252,272"
+  },
+  {
+   "fact": "Local compute on the dev Mac: 24 GiB RAM (hw.memsize 25769803776; spec text says 'M2 Max 32GB'), strict free ~0.27-1.4GB, reclaimable 9.4-11.5GB, disk 12-17GB free (97-98% used); sudo purge not permitted. QLoRA 3B-4bit peak 8-12GB; abort gates 2-4GB free.",
+   "sources": "docs/research/level7/W6_QLORA_SPEC.md:63-72,194; level2/benchmark/docs/MEMORY_AUDIT.md:40-42,126-129; level2/benchmark/docs/MEMORY_RECLAIM_RESULT.md:38-45"
+  },
+  {
+   "fact": "MLX stack installed and smoke-tested on the Mac (user-approved 09-29): mlx 0.32.3, mlx-vlm 0.7.4, mlx-lm 0.31.3, mlx-tune 0.6.0 in .venv311; it forced fsspec 2024.9.0 and leaves indicphotoocr conflicting on 11 pins.",
+   "sources": "level2/benchmark/docs/MLX_INSTALL_RESULT.md:26-33,266-286; _claude_memory/proto-88-skill-routing.md:55-58"
+  },
+  {
+   "fact": "Smoke-test template: 5 items, 3 epochs, <=10 min, peak RSS <=12GB, adapter >1MB, pass if 5 of 6 criteria; 3+ fail aborts to wrap-only; max 2 re-attempts; W6 total budget ~3h.",
+   "sources": "docs/benchmark_docs/QLORA_SMOKE_TEST.md:53-59,108-115,136,164-177"
+  },
+  {
+   "fact": "QLoRA eval spec: McNemar exact + Wilson 95% CI, pass per item CER<0.5, T1=0.05/T2=3pt, n<30 INCONCLUSIVE; empty prediction CER=1.0. Pseudocode flaw: scores the full set including training rows.",
+   "sources": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:118-121,135-157,200-214,309-312"
+  },
+  {
+   "fact": "Untracked src/ QLoRA+GRPO training tree (~1,995 lines: src 1,834 across 15 files + tests 161; earlier miscounted 1,195) written 2026-09-29 19:51-20:07 while W6 PAUSED; boss DECIDED ARCHIVE (U3). LayaRouter routed on gt_text (answer-key leak) and mapped Meetei Mayek to 'Mend'.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1H_verify.md:50,170,205; _claude_memory/proto-92-boss-decisions.md:17"
+  },
+  {
+   "fact": "Training allowed only after Gate 2.5 (multi-LLM evaluation by process + 15-20 min Vinay cross-question session). Mentor red line: no LoRA/RL before research validation. Plan v4 G-2.5 matches in intent.",
+   "sources": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:32,41-42,63; _claude_memory/proto-99-concern-crosswalk.md:142-145"
+  },
+  {
+   "fact": "GPU: 'we have our own GPU resources' (Vinay, 09-10); a 24 GB VRAM SSH box was reported second-hand to arrive 2026-10-01; hardware CONFIRMED, login (host/port/user) still MISSING as of 2026-10-01; data moves by rsync not GitHub, keys in env vars only.",
+   "sources": ".ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md:18; _claude_memory/proto-99-concern-crosswalk.md:208-213; docs/campaign/checkpoints/HANDOFF_PLANNER_2026-09-30.md:47"
+  },
+  {
+   "fact": "GPU day-1 order (no LoRA/SFT/RL day 1): continuity check Mac vs GPU -> Bodhan D1 CUDA sample 100 -> H3 handwriting slice -> X Sarvam-bench test 6,909 -> latency table x 5,344 -> downloads (dots.ocr, PaddleOCR-VL) need boss.",
+   "sources": "docs/campaign/VINAY_CALL_AND_GPU_DAY1.md:45-71; _claude_memory/proto-106-vinay-call-and-gpu-day1.md:45-71"
+  },
+  {
+   "fact": "Night-run rules R-15: caffeinate+nohup/tmux, stop if disk <20GB, resumable per-item outputs, RUN_STATE json, device tag (mac-m4-cpu/mps/gpu-24gb), 5-min heartbeat, 10-min stall kill, HANDOFF.md.",
+   "sources": "_claude_memory/proto-104-project-first-critical-path.md:76-81"
+  },
+  {
+   "fact": "Measured speeds: surya 24.3 s/page (~36h for 5,344; p90 72 s ~107h); rapidocr 0.40 s/page (0.6h); Tesseract family ~3.8h; Bodhan MLX 4-bit port 636MB ~391 ms/crop (0.52 s/crop elsewhere). Another line says surya MLX/MPS 13.9 s/img on 3 images (~8h wrap-only).",
+   "sources": "docs/campaign/BOSS_EXPLAINER.md:16-17,47; docs/campaign/checkpoints/MONITOR_2026-09-30.md:5; BOSS_CONCERNS.md:239,514"
+  },
+  {
+   "fact": "Bodhan 4-bit ~ bf16 on Day 1 overall (MLX); B-01 rule: for ks/ur/sd inference AND LoRA base use bf16/8-bit unless 4-bit within 1 CER pt. Evidence conflicts: QARI 4-bit CER 3.45 vs 8-bit 0.091 vs Elkousy 4-bit Qwen2.5-VL -29% CER Arabic.",
+   "sources": "docs/campaign/B01_4BIT_ANALYSIS.md:5,78; docs/campaign/RESEARCH_DECISIONS.md:82; docs/research/level7/c/c3/LEDGER.md:500"
+  },
+  {
+   "fact": "Recipe order is locked: CPT -> SFT -> RLVR, never start with RL. PaddleOCR-VL-1.6 ablation: CPT +0.69, SFT +0.63, RL only +0.08 (94.93->96.33). Consensus RLVR evidence 4/10 (mostly cuts hallucination/format failures), hard-example mining 2/10 (do not build).",
+   "sources": "_reports/research/LEVEL7_RESEARCH_FINDINGS.md:30-36; docs/research/level7/a/LEDGER.md:81-86; docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:403,455-456"
+  },
+  {
+   "fact": "RL warning: English-favouring RL lowered Indic doc QA by up to 11 pts (MATH +36); restrict any RL to Indic-aware rewards on human-verified gold after SFT plateau; reward R=Valid*Struct*Sim with Sim=1-clip(CER), NFKC/bidi first.",
+   "sources": "LIVE_LATEST_2026-09-29.md:22-27,246; _claude_memory/proto-100-research-to-build.md:42; docs/research/R7_W6_TRAINING_TREE.md (corpus_extract.md:80)"
+  },
+  {
+   "fact": "Initialisation dominates data efficiency: same-language Indic pretraining 92% WRR vs cross-lingual 51% vs scratch 6%; OCR-specialised base + LoRA beats generic VLM; label cleaning alone gave up to 1.8 CER pts; 100-1,000 lines help transfer; full OCR needs hundreds of lines or thousands of word images.",
+   "sources": "docs/sources/consensus/2026-09-30_Q1_model-and-training.tex:334,470; docs/campaign/RESEARCH_DECISIONS.md:81,83-87"
+  },
+  {
+   "fact": "Synthetic necessary but insufficient: clean renders mislead (EasyOCR chrF++ 93.6 -> 58.3 on real scans; Baseer 300k synth + 200k real). Our official_pdf tier is clean renders and can overstate quality; Plan has 'real-gold fine-tune gate' as rule.",
+   "sources": "_claude_memory/proto-105-consensus-results-to-decisions.md:25; docs/campaign/RESEARCH_DECISIONS.md:83"
+  },
+  {
+   "fact": "QARI curriculum binding rules: plain->font order; no layout-mix in line-CER stage (v0.3 CER 0.061->0.300); curriculum S1 L1 x2ep -> S2 70:30 -> S3 50:20:30 -> RLVR <=20 GPU-h; word->line->block 50/35/15; failing language reverts to L1.",
+   "sources": "docs/research/level7/c/c3/STRATEGY.md:10; docs/research/level7/c/c3/LEDGER.md:500"
+  },
+  {
+   "fact": "Cheap-GPU facts (Sep-2026): H100 <$2/h cheapest reliable on-demand, A100-80GB $1.00-1.19, 4090 spot ~$0.13-0.34/h, L4 $0.32-0.89; 30 GPU-h SFT micro-run ~$27 floor/$54-68 mid; ask $15-30 total, 30h QLoRA $5-15. Cloud rental is INFEASIBLE under the no-money rule unless boss funds it.",
+   "sources": "docs/research/level7/c/c1/LEDGER.md:918-922,1028-1031,1062-1068; docs/research/level7/c/c2/LEDGER.md:160,275; docs/research/level7/CALL_PACKET.md:257"
+  },
+  {
+   "fact": "2B-class VLM QLoRA fits one 16-24GB card (QLoRA+Unsloth ~5-8GB; LoRA fp16 8-11GB; full-FT 18-24GB); QLoRA ~93-97% of LoRA. PaddleOCR-VL-1.5 vendor says fine-tuning NOT supported; NeMo Customizer is LLM-only.",
+   "sources": "docs/research/level7/c/c1/LEDGER.md:444-447,469-477,846-850,942-946; NOTE_LORA_VRAM.md:10-24"
+  },
+  {
+   "fact": "Quant policy (English-only evidence): SmoothQuant W8A8 Pareto default; FP8 KV-cache breaks VLMs (VQAv2 -8.8pp) so keep KV BF16; LLM decoder is the fragile part; per-GPU format locks (T4 no FP8-W8A8/INT4; NVFP4 Blackwell-only); gate quant on target-script CER not English MMLU.",
+   "sources": "docs/research/level7/c/c1/LEDGER.md:23-32,153-156,894-898; docs/research/level7/c/c1/NOTE_TRTLLM.md:20-27"
+  },
+  {
+   "fact": "Backbone candidates (all unresolved for v4): Qwen2-VL-2B (R7 default), Qwen2.5-VL-3B 4-bit (W6 spec primary), GLM-OCR 0.9B (D1 W6 primary 09-27), MonkeyOCRv2 0.7B (Apache weights), LightOnOCR-2-1B (Apache, GRPO), PaddleOCR-VL 0.9B; no candidate weights on disk; Bodhan 0.8B Qwen3.5 base chosen in v3/v4.",
+   "sources": "docs/research/level7/W6_QLORA_SPEC.md:53-57,231-238; docs/campaign/CHATGPT_EVAL_PROMPT.md:27,53; docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:37"
+  },
+  {
+   "fact": "Licence: IIIT-INDIC-HW-WORDS = CC BY 4.0 via AIKosh/BHASHINI (train OK); ICFHR-2022 and IHTR-2023/IHDR-2025 sets are academic/eval-only; IndicPhotoOCR code MIT, PARSeq code Apache-2.0, but PARSeq weight licence (STocr releases) UNVERIFIED.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md (THE EDGE, More facts); docs/campaign/checkpoints/W4_reports/RQ9_licences.md:199-201,436-438"
+  },
+  {
+   "fact": "Derivative-licence rules: training on surya outputs (pseudo-labels) inherits RAIL-M s8 share-alike/$5M cap and is NOT CLEARED; training on Bodhan outputs makes a Derivative under Bodhan licence (attribution, hosting approval s3.1, internal use s3.2).",
+   "sources": "docs/campaign/checkpoints/W4_reports/RQ9_licences.md:23,140-165,309-310"
+  },
+  {
+   "fact": "Kashmiri 600K dataset NOT commercially cleared (card says CC-BY-4.0 but embeds Controlled Research Access License; gated); B-03 on HOLD. Indic-ocr sat/mni tessdata Apache-2.0 (~40-70MB, needs boss download approval).",
+   "sources": "docs/campaign/RESEARCH_DECISIONS.md:41,94; DISPATCH_LOG.md:230,330-333"
+  },
+  {
+   "fact": "B-19 handwriting LoRA is triggered (RQ-10): LoRA on a recogniser with IIIT-HW-format data (Bodo/gu on disk + licensed HW set), word crops, after H1 + Gate 2.5; gate = HW split score vs zero-shot; needs boss GPU + data licence.",
+   "sources": "_claude_memory/proto-100-research-to-build.md:51"
+  },
+  {
+   "fact": "On-disk labelled handwriting is only Bodo/gu (Gujarati IIIT-HW, train 82,563 / val 17,643 per paper); only 4,645 of 16,490 H2 images present and mispathed, no writer_id/page_id. No Bengali HW data local; no prior local handwriting baseline (all 1,283 probe22 items printed).",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md; docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:23,35; docs/campaign/MENTOR_PLAYBOOK.md:217"
+  },
+  {
+   "fact": "Plan v3 time budget: ~5 active dev days remained on 2026-09-29, training not started; W6 window had been Oct 2-8, jury Oct 11-15; baseline PPT 2-backbone SFT (200-500 GPU-h, 10-15 days) was judged outside the window.",
+   "sources": "docs/research/uni_v3_ORIGINAL_2026-09-29.md:437-439; BOSS_CONCERNS.md:508; docs/research/level7/MISS_MONITOR.md:57"
+  },
+  {
+   "fact": "Sarvam budget: free credit only (Rs67 left on 09-30); 57-call trial cap spent; 12 approved South jobs completed (~Rs6) but outputs not retrieved (retrievable via get_download_links; must not resubmit).",
+   "sources": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:146-163; docs/campaign/checkpoints/W4.md:657"
+  },
+  {
+   "fact": "Post-correction must be trained on the specific engine's own noise: cross-engine byte-level corrector failed to transfer; synthetic corruption (under-corrupt beats over-corrupt, ~15% clean anchors) gave -55% CER on Hindi; PreP-OCR English only.",
+   "sources": "docs/research/level7/c/c3/LEDGER.md:510; docs/research/level7/a/LEDGER.md:3066; docs/campaign/RESEARCH_DECISIONS.md:101"
+  },
+  {
+   "fact": "Level-2 training assets (1,760 SFT noisy->gold lines, 126 DPO pairs, 50-page disagreement queue) are South-Indian printed machine-OCR vs PDF-layer pairs, usable only as a post-correction format, not for handwriting.",
+   "sources": "level2/training_assets/README.md:12-18,40-45"
+  },
+  {
+   "fact": "doctr-PARSeq lesson: a reinit-head PARSeq with an Indic vocab scored script ratio 0.53 but Jaccard 0.00 (fake pass); gate on content metrics (CER/WRR + Jaccard floor), not script ratio.",
+   "sources": "level2/research/gates/B1_doctr_parseq.md:43-52,76-82"
+  },
+  {
+   "fact": "Leak-safe fine-tune recipe: split by source document not image; remove probe/test items plus perceptual-hash/text-overlap neighbours; hold out 10% of documents per language; Sarvam bn/hi/sa/kok + 300 gold pairs as external test; no benchmark split ever trains (RLVR on small_representative was flagged as leakage).",
+   "sources": "_claude_memory/history-completed-protocols.md:1098-1105; docs/campaign/handoff_2026-10-01_v4_integration/corpus_extract.md:116,123"
+  }
+ ],
+ "decisions_current": [
+  "QLoRA scope = Konkani only (ERRATUM-F1 09-30); pa is a TIE; mai/or killed at K1. [DRAFT_RESEARCH_PLAN.md:63,72,73,163]",
+  "W6 training stays gated: no training/downloads/Sarvam calls until Gate 2.5 (multi-LLM-by-process + Vinay session) and boss go; U3 archived the unauthorised src/ training tree. [VINAY_CALL_AND_GPU_DAY1.md:32,41-42; proto-92-boss-decisions.md:17]",
+  "Training recipe order SFT before RLVR; RLVR gold-only, Indic-aware reward, optional/last; hard-example mining not built. [LEVEL7_RESEARCH_FINDINGS.md:30-36; RESEARCH_DECISIONS.md:85-87]",
+  "Plan v4 backbone: Handwriting Expert = PARSeq per script (IndicPhotoOCR ckpts) fine-tuned on IIIT-INDIC-HW-WORDS; Page Expert = Bodhan IndicDocLayout + IndicBlockOCR (Qwen3.5-0.8B); portable PyTorch/CUDA, MLX Mac-only fallback. [v4_notes.md; proto-108-plan-v4-final.md:127]",
+  "Compute: free only; GPU = Vinay's 24 GB SSH box (login pending); cloud rental infeasible without boss budget; GPU day-1 does no training. [proto-106-vinay-call-and-gpu-day1.md:45-71; CALL_PACKET.md:257]",
+  "Bodhan LoRA recipe (proto-89 section C): r16 a32 lr 2e-4, 1-2 ep, grad checkpointing, 5-item smoke test, never 4-bit for ks/ur/sd without parity, paired-bootstrap eval, GRPO only after SFT. [proto-89-plan-v3-bodhan-base.md:51-52]",
+  "Per-script PARSeq training only where >= few hundred real lines/words exist; label cleaning (GT-defect checks) before training. [proto-105-consensus-results-to-decisions.md:28]",
+  "Night-run rules R-15 and device tagging adopted for all long jobs. [proto-104-project-first-critical-path.md:76-81]"
+ ],
+ "superseded": [
+  "QLoRA scope kok+pa / kok+mai+or+pa / 2-lang ~3h (CALL_PACKET.md:36,232,246; KILL_CRITERIA.md:64; W5_FREEZE_AGENDA.md:218-231; W6_QLORA_SPEC.md:104-116): superseded by ERRATUM-F1/K1 (kok only; pa time ~1.5h drops out).",
+  "Backbone Qwen2-VL-2B (R7 N1) and Qwen2.5-VL-3B primary: superseded for v4 by Bodhan base (v3) and PARSeq HW expert; GLM-OCR 0.9B promoted 09-27 but never on disk.",
+  "Cloud-GPU INFEASIBLE / 'no GPU' framing and laptop-only 24GB QLoRA envelope: partly superseded by Vinay's 24 GB VRAM SSH box (ledger C-15, unconfirmed login). [LEADERBOARD.md:149-150 in A6_staging]",
+  "Old GPU rates (A100 $1.49, H100 $2.69-3.38 median): superseded by Sep-2026 refresh C1-154 (A100-80GB $1.00-1.19, H100 <$2 cheapest). [c1/LEDGER.md:924-928,1031,1062-1068]",
+  "proto-89 five-day gated schedule (Bodhan ~84.9 +-2 gate; Day-3 LoRA no language regressing >1pt): strategy superseded by proto-108. [proto-89-plan-v3-bodhan-base.md:25-34]",
+  "docs/PLAN.md 'W6 train only after W5 freeze' (4000 packs, no training): stale PLAN, superseded by proto-104/proto-108 gating. [docs/PLAN.md:3,23-24]",
+  "Plan v2 mlx_vlm.lora MLX 4-bit Mac-only training path: superseded by portable PyTorch requirement. [history-completed-protocols.md:1120-1122]",
+  "Strategy A (Bodhan + RLVR on small_representative, projected 89.4, P~0.65): superseded/forbidden (train-on-bench leakage; unsourced P). [corpus_extract.md:122-123; proto-93-measured-facts.md:85]",
+  "Textbook PPT 'TrOCR from scratch' arm: REFUTED/DROPPED in favour of OCR-VLM fine-tune. [LEVEL7_RESEARCH_FINDINGS.md:26,100]",
+  "c3 STRATEGY 'Bodo-gu/test-test as GT' do-not-collect line: superseded; Bodo/gu is labelled IIIT-HW Gujarati. [v4_notes.md]"
+ ],
+ "contradictions": [
+  "Training-set size for W6: 459-801 items (feasible set) vs 10,432 human pairs (cheatsheet) vs 200 pages (kok+pa) vs 'wrap-only'. Different generations of one plan. Resolution: for v4 the relevant set is IIIT-INDIC-HW word crops (82,554 bn train) plus Bodhan block data; old counts are printed-page and moot. [VALIDATION_CALL_CHEATSHEET_2026-09-28.md:61 vs BOSS_HANDOFF_2026-09-28.md:70-78]",
+  "Training time for the same job: ~3h (spec) vs 3-4h vs ~6h vs 7-8h (W5_FREEZE_PLAN) vs 5-7 DAYS local M2 (W1A audit) vs ~90 min (459 items on 32GB). Open; none was measured on the real run. [W6_QLORA_SPEC.md:33-46; W5_FREEZE_PLAN.md:37,43; W1A_PACKET_AUDIT.md:174,202,417]",
+  "Hardware: 'M2 Max 32GB' (spec) vs measured 24 GiB (hw.memsize) / ~23.0 GB vm_stat; reclaimable 9.4 vs 11.5 vs 9.7 GB; floors 4GB vs 3GB vs 2GB. Resolution: trust the measured 24 GiB and the K4/vm_stat re-check at launch. [W6_QLORA_SPEC.md:63-72; MEMORY_AUDIT.md:76; MEMORY_RECLAIM_RESULT.md:81]",
+  "pa K1: SURVIVES (gap 0.079-0.081, p<0.0001 vs tesseract, FIX_SPECS) vs TIE (87/90 tied, p=1.00 on common items, ERRATUM-F1). Resolution: later erratum wins, pa not a verified target. Also kok gap quoted 32 / 25 / 19.4 / 22.0 pt depending on opponent (rapidocr/easyocr/tesseract). [FIX_SPECS_R2_LEADERBOARD.md:170-175,291-315; DRAFT_RESEARCH_PLAN.md:63,72]",
+  "4-bit quant: QARI 3.45 vs 0.091 CER (4-bit kills) vs Elkousy 4-bit -29% CER and Day-1 Bodhan 4-bit ~= bf16. Resolution: measure per script at HW1/Day-1; default bf16/8-bit for Perso-Arabic. [RESEARCH_DECISIONS.md:82; B01_4BIT_ANALYSIS.md:5]",
+  "GLM-OCR in OmniDocBench v1.6 table: 'absent' (1G_verify) vs 94.71 rank 3 (1H_verify); citation says v1.5. Open, immaterial unless GLM-OCR becomes the backbone. [1G_verify.md:53,137; 1H_verify.md:51]",
+  "Surya speed: 24.3 s/page (~36h) vs 13.9 s/img (3 images, ~8h wrap-only). Resolution: 24.3 s is the larger-sample figure; both Mac-MPS, GPU speed unmeasured. [BOSS_CONCERNS.md:239 vs :514]",
+  "Licence of IIIT handwriting data: CC BY 4.0 (AIKosh) vs 'academic-use'/'All Rights Reserved' on IHTR/IHDR/ICFHR cards. Resolution: train only on the AIKosh CC-BY IIIT-INDIC-HW-WORDS; IHTR/IHDR eval-only; verify before HW2. [v4_notes.md; LEDGER.md:6121,6137 via gaps_misc P08]",
+  "Budget: packet says '$0' but its own table recommends ~Rs1005 ($12) Sarvam subsidy and ceiling $17-72; per-page price Rs0.5 vs Bodhan Rs0.20/image unreconciled. [W1A_PACKET_AUDIT.md:172,203,234,687]",
+  "Gold pair count 10,432 vs 10,434; sft_unconditional 459 vs 458 (and 439 usable after EXCLUDE-D1); feasible-set arithmetic 459+342+437=1238 vs 1227. Trivial but a rule against quoting counts without a generator. [w6_set_construction_log.md:9-11,51-52]",
+  "w6_sft_conditional includes 75 sd (Perso-Arabic) items although D6 says none; violates akshara-aux scope. [w6_set_construction_log.md:30,46]",
+  "Kill-criteria K4 meaning: 'kill script router' (CALL_PACKET.md:289) vs install/memory/smoke gate (CALL_PACKET.md:46). Resolution: latter in KILL_CRITERIA.md. [CALL_PACKET.md:46,289]"
+ ],
+ "recommendations": [
+  {
+   "rec": "Add numeric kill criteria for the HW Expert: promote/kill an adapter only if paired test (McNemar exact or paired bootstrap on CER) p<0.05 AND gain >=3 CER/WRR pts vs zero-shot on a writer-disjoint set with n>=50 (>=300 words recommended), Wilson 95% CI reported; otherwise keep zero-shot/wrap baseline. Reuse K1 T1=0.05/T2=3pt.",
+   "evidence": "docs/research/level7/KILL_CRITERIA.md:38-47; QLORA_EVAL_SPEC.md:135-157",
+   "priority": "P0"
+  },
+  {
+   "rec": "Add HW1->HW2 smoke gate before any full run: 5-item smoke (<=10 min, peak memory cap, adapter size>1MB, 5-of-6 criteria), abort-to-baseline if >2x wall-clock, max 2 re-attempts; re-run memory/disk check (abort <20GB disk per R-15).",
+   "evidence": "QLORA_SMOKE_TEST.md:53-59,162-177; proto-104:76-81",
+   "priority": "P0"
+  },
+  {
+   "rec": "State the training compute budget explicitly in Plan v4: target 24GB-VRAM PyTorch box, GPU-hours cap per stage, checkpointing, and a fallback if SSH never arrives (CPU/Mac MPS PARSeq fine-tune is small). Mark 'GPU login missing' as blocker O-3; do not assume hours measured on MLX transfer.",
+   "evidence": ".ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md:18; proto-99:208-213",
+   "priority": "P0"
+  },
+  {
+   "rec": "Rewrite the training gate to include BOTH Vinay OK AND the multi-LLM-by-process evaluation with data package (Gate 2.5 is more than a verbal OK); log repo@revision+size+sha256 for every approved download.",
+   "evidence": "proto-103/proto-99:142-145; proto-01-law-and-guardrails.md:28",
+   "priority": "P0"
+  },
+  {
+   "rec": "Close licence rows before training: PARSeq/STocr weight licence, IIIT-INDIC-HW-WORDS terms (use only the CC-BY AIKosh copy), BN-HTRd licence; ban surya-output pseudo-labels; treat Bodhan-derived data as derivative (attribution, hosting approval); keep NC data (UTRSet, Odia-lipi, 600K-KS) out of product weights.",
+   "evidence": "RQ9_licences.md:23,140-165,199-201,309-310; DRAFT_RESEARCH_PLAN/RESEARCH_DECISIONS.md:41,94",
+   "priority": "P0"
+  },
+  {
+   "rec": "HW0 must also cover training hygiene: split by writer/source document (10% docs held out), never same-source pages as val/test, sweep mislabeled folders (Bodo/gu 4,645 copy), forbid answer-key fields (gt_text) in routers, and add a gt_source guard so machine/sarvam_fill GT cannot enter any train file.",
+   "evidence": "history-completed-protocols.md:1098-1105; QLORA_TRAINING_DATA.md:257-262,272; proto-92:17",
+   "priority": "P0"
+  },
+  {
+   "rec": "Order training stages: zero-shot (HW1) -> SFT on IIIT-HW bn train with label-cleaning -> post-correction trained on the expert's own errors -> RLVR only if SFT plateaus and gold-only Indic-aware reward; budget no compute for hard-example mining. Use content metrics (CER/WRR+Jaccard), not script ratio.",
+   "evidence": "LEVEL7_RESEARCH_FINDINGS.md:30-36; Q1 .tex:403,455-456; B1_doctr_parseq.md:43-52",
+   "priority": "P1"
+  },
+  {
+   "rec": "Adopt the QARI/curriculum rules where a VLM block expert is tuned: plain->font order, no layout-mix in the line stage, bf16/8-bit for Perso-Arabic, measure 4-bit vs bf16 per script before any quantised product build; gate quant on Bengali/target-script CER.",
+   "evidence": "c3/LEDGER.md:500; B01_4BIT_ANALYSIS.md:5,78; c1/NOTE_TRTLLM.md:20-27",
+   "priority": "P1"
+  },
+  {
+   "rec": "Record explicitly that W6 'no training before freeze' (campaign law) is lifted only via G-2.5 + boss go; keep W6 PAUSED status/dates consistent in the plan, and keep Mac MLX only as a labelled fallback with a PyTorch parity number and Linux/CUDA Dockerfile.",
+   "evidence": "docs/research/level7/boss_directives/SESSION_DIRECTIVES_2026-09-28.md:20,214-217; proto-99:30-36",
+   "priority": "P1"
+  },
+  {
+   "rec": "Build the independent Bengali HW eval before claiming 85%: ICDAR-23 test (100 new writers) if obtainable, BN-HTRd (108,181 words, 150 writers; licence check), Bodhan HW bench as external; report Gujarati H2 only as a labelled proxy; state mapping from internal gates to the unknown official metric.",
+   "evidence": "v4_notes.md; W4.md:746; proto-108:218-219",
+   "priority": "P1"
+  },
+  {
+   "rec": "Port the semi-supervised idea (SemiHastakshar: unlabelled WILD/UC writers) and post-correction per-expert noise training into HW2 as optional P2 levers aimed at the independent-writer gap.",
+   "evidence": "LEDGER.md:6153 via gaps_misc P08; Q2:448; RESEARCH_DECISIONS.md:101",
+   "priority": "P2"
+  },
+  {
+   "rec": "Keep one kill/fallback ladder: wrap-only baseline (Bodhan + Tesseract + routing) always shippable; any adapter (HW or kok) ships only if K1-style gate passes; preserve QLoRA kok-only scope as a printed-side option, not default, since kok is not weak for Sarvam (97.41).",
+   "evidence": "CALL_PACKET.md:255; W1A_PACKET_AUDIT.md:175-176",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add a latency/cost table per engine on the target GPU (surya ~36h for 5,344 on Mac, rapidocr 0.4 s, Bodhan 0.52 s/crop) and quote utilization with any $/page figure; fix the 24.3 vs 13.9 s/img surya discrepancy by re-measuring on GPU.",
+   "evidence": "BOSS_EXPLAINER.md:16-17,47; c1/LEDGER.md:380-383",
+   "priority": "P1"
+  },
+  {
+   "rec": "Decide the backbone question explicitly for the Page Expert: stay Bodhan IndicBlockOCR (Qwen3.5-0.8B, LoRA supported by mlx-vlm) and list GLM-OCR/MonkeyOCRv2/LightOnOCR/PaddleOCR-VL as unproven hedges with a head-to-head only if Bodhan fails Gate 1 on pages (sample-100 CER 0.69 is a flag).",
+   "evidence": "v4_notes.md (Bodhan D1); ELITE_REPO_REFRESH_2026-09-27.md:15,37,199",
+   "priority": "P1"
+  },
+  {
+   "rec": "Protect training assets: git-track/bundle eval GT + code, keep weights outside level2, resumable per-item outputs, no datasets in GitHub (rsync), checksum bundle before training.",
+   "evidence": "A1_verify.md:103-129; A6_recovery.md:71; proto-107:66",
+   "priority": "P1"
+  },
+  {
+   "rec": "Reuse the printed-side training research (R2 Nastaliq: autoregressive decoders, R3 Ol Chiki/Mayek synthetic >=100k renders with script-ratio gates, R7 tree N0-N4) as a P2 appendix for weak printed cells; synthetic-first with real-gold gate; do not train barred languages.",
+   "evidence": "docs/research/R7_W6_TRAINING_TREE.md; c3/STRATEGY.md:16-38",
+   "priority": "P2"
+  },
+  {
+   "rec": "Verify environment isolation: IndicPhotoOCR pins conflict with mlx-tune stack (11 pins); use a separate pinned requirements + Docker for the HW expert.",
+   "evidence": "MLX_INSTALL_RESULT.md:103-122,266-286",
+   "priority": "P2"
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no numeric kill criteria or statistical test for HW0-HW2 (only 92%/85% thresholds); K1-K4 framework not carried over. [KILL_CRITERIA.md:38-47]",
+  "No training-compute budget, GPU-hours, or fallback if the 24 GB SSH box does not arrive; PARSeq training time never estimated. [proto-108:218; proto-99:208-213]",
+  "G-2.5 is written as 'Vinay OK' only; red line also requires multi-LLM-by-process evaluation. [proto-103:137; proto-99:142-145]",
+  "No licence ledger for training inputs (PARSeq weights, IIIT test count, BN-HTRd) and no derivative-output rules for Bodhan/surya. [RQ9_licences.md]",
+  "No smoke test, abort rule or memory/disk gate before training. [QLORA_SMOKE_TEST.md]",
+  "No Bengali handwriting data on disk or independent writer set; Gujarati proxy has no writer_id. [W4.md:746; blind_verify_H2.md:23,35]",
+  "No post-correction training spec (per-engine noise) and no label-cleaning step on IIIT-HW train. [RESEARCH_DECISIONS.md:101; Q1.tex:470]",
+  "No quantisation/portable-serving policy (4-bit vs bf16 per script, per-GPU formats). [B01_4BIT_ANALYSIS.md:5; c1/LEDGER.md:894-898]",
+  "No RLVR conditions (SFT plateau, gold-only, Indic-aware reward) and no mention that hard-example mining is rejected. [LEVEL7_RESEARCH_FINDINGS.md:30-36]",
+  "No akshara-aware loss or semi-supervised writers step; both unvalidated, so treat as P2 experiments. [PPT_SPEC.md:13,34; SemiHastakshar]",
+  "No data-hygiene/bundle step (untracked benchmark files, dangling symlinks) before training. [A1_verify.md:103-129]",
+  "W6 freeze/pause dates not reconciled in the plan (W6 PAUSED vs training gates HW2 on 2026-10-01). [artifact_230:43; LEADERBOARD_REFRESH_2026-09-29.md:2-24]"
+ ],
+ "open_questions": [
+  "Does the 24 GB VRAM box exist with login (host/port/user), and for how long (organiser deadline unknown, ~10 days)?",
+  "Which PARSeq checkpoints and weight licences (STocr releases V2.0.0) permit fine-tuning and product shipping?",
+  "Is the official 5,344-word test a subset of IIIT-HW bn train/val/test or ICDAR-23 (perceptual-hash result pending)? Official metric (CER vs WRR vs jury) unknown.",
+  "Is the test set all Bengali? Only 3 images viewed directly; 300-sample script ID UNKNOWN for all 300.",
+  "Can ICDAR-23 IHTR test (100 new writers) or BN-HTRd be obtained and licensed for eval?",
+  "4-bit vs bf16 per script for Bodhan and PARSeq on Bengali handwriting: parity number missing.",
+  "Is a kok-only QLoRA still worth doing at all (printed side, +0.5-1 pt, Sarvam already 97.41 on kok)?",
+  "Real time for a fine-tune on the target GPU: all prior numbers (3h, 6h, 7-8h, 5-7d) were MLX estimates.",
+  "Page Expert backbone: does Bodhan IndicBlockOCR clear Gate 1 on pages (sample-100 CER 0.69) or is a hedge needed?",
+  "Should the 12 uncollected Sarvam outputs be retrieved (read-only via get_download_links) and who approves?"
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "partition": "P39",
+ "files": [
+  {
+   "path": "level2/engine_docs/anuvaad_tesseract/PROMPT.md",
+   "total_lines": 29,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/anuvaad_tesseract/RUN.md",
+   "total_lines": 23,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/doctr/PROMPT.md",
+   "total_lines": 21,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/doctr/RUN.md",
+   "total_lines": 21,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/easyocr/PROMPT.md",
+   "total_lines": 29,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/easyocr/RUN.md",
+   "total_lines": 22,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/indicphotoocr/PROMPT.md",
+   "total_lines": 18,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/indicphotoocr/RUN.md",
+   "total_lines": 22,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/openbharatocr/PROMPT.md",
+   "total_lines": 25,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/openbharatocr/RUN.md",
+   "total_lines": 23,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/paddleocr_indic/PROMPT.md",
+   "total_lines": 38,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/paddleocr_indic/RUN.md",
+   "total_lines": 24,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/rapidocr/PROMPT.md",
+   "total_lines": 28,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/rapidocr/RUN.md",
+   "total_lines": 23,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/surya/PROMPT.md",
+   "total_lines": 32,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/surya/RUN.md",
+   "total_lines": 24,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/tesseract_bilingual/PROMPT.md",
+   "total_lines": 24,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/tesseract_bilingual/RUN.md",
+   "total_lines": 22,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/tesseract_indic/PROMPT.md",
+   "total_lines": 29,
+   "fully_read": true
+  },
+  {
+   "path": "level2/engine_docs/tesseract_indic/RUN.md",
+   "total_lines": 22,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "weak_cells",
+   "claim": "Tesseract (tel/tam/kan/mal+hin+eng open stack) on 400 L2 smoke pages: 31 empty, concentrated in Malayalam (ml_*); counts are non-empty-ness only, not accuracy",
+   "numbers": "n_json 400, empty 31 (7.8%), non_empty 369, ~1,150,000 chars",
+   "source": "level2/engine_docs/tesseract_indic/RUN.md:4-7,20",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "anuvaad_tesseract (anuvaad_tel/tam/kan/mal + hin + eng) is no better than stock Tesseract on emptiness: Malayalam still empty (ml_020, ml_035, ml_036)",
+   "numbers": "empty 31 (7.8%), ~1,150,000 chars",
+   "source": "level2/engine_docs/anuvaad_tesseract/RUN.md:4-17",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "tesseract_bilingual (eng+tel/tam/kan/mal+hin) gives identical counts and identical best/worst pages to tesseract_indic; stack order change is a no-op",
+   "numbers": "empty 31 (7.8%), ~1,150,000 chars; ta_055 3964, kn_084 3904, kn_001 3903",
+   "source": "level2/engine_docs/tesseract_bilingual/RUN.md:4-17",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "openbharatocr is an ID-card library (Aadhaar/PAN/DL/passport/voter ID); on full pages it falls back to tesseract_indic, output is a twin (same counts and chars). Not an independent SOTA",
+   "numbers": "empty 31 (7.8%), 3964/3904/3903 chars identical to tesseract_indic",
+   "source": "level2/engine_docs/openbharatocr/PROMPT.md:6-22; RUN.md:4-22",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "RapidOCR has no Malayalam rec model: all 100 ml pages return honest-empty (no mojibake). 25% empty overall; lowest total chars of all engines",
+   "numbers": "empty 100 (25.0%), non_empty 300, ~850,000 chars",
+   "source": "level2/engine_docs/rapidocr/RUN.md:4-8,20",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "RapidOCR models: te/ta PP-OCRv5, kn LangRec.KA PP-OCRv4, ml none; Mobile rec/det, Det lang CH, Cls off",
+   "numbers": "",
+   "source": "level2/engine_docs/rapidocr/PROMPT.md:6-15",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "PaddleOCR: te/ta PP-OCRv5, kn->ka PP-OCRv3, ml unsupported -> falls back to English stack (wrong-script); ml_020/025/035 still empty. Only 7 empty (1.8%) overall",
+   "numbers": "empty 7 (1.8%), non_empty 393, ~1,000,000 chars",
+   "source": "level2/engine_docs/paddleocr_indic/PROMPT.md:6-16; RUN.md:4-17",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR two-stage graceful degradation: full pipeline (server det + lang rec, 300s) then light retry (mobile det, input capped 960, 900s); poisoned-mode set avoids re-entering timed-out instances",
+   "numbers": "300s / 900s / 960 cap",
+   "source": "level2/engine_docs/paddleocr_indic/PROMPT.md:18-28",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "EasyOCR 1.7.2: Dravidian models pairwise-incompatible (te/ta/kn each only with en); Devanagari family hi+mr+ne+en works; strategy runs te+en, ta+en, kn+en, hi+mr+ne+en and keeps longest output; no Malayalam model; Tamil charset patched (143 classes vs 126 bundled)",
+   "numbers": "empty 9 (2.3%), non_empty 391, ~1,200,000 chars",
+   "source": "level2/engine_docs/easyocr/PROMPT.md:9-26; RUN.md:4-21",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "'Keep longest output' selection in EasyOCR inflates char counts (ta_055 4466 chars, highest of all engines) - char count is not a quality metric",
+   "numbers": "ta_055 4466 vs tesseract 3964, doctr 4033",
+   "source": "level2/engine_docs/easyocr/RUN.md:12; easyocr/PROMPT.md:11",
+   "status": "DERIVED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "docTR 1.1.0 crnn_vgg16_bn pretrained (Latin-trained) emits text on Indic pages: 11 empty, ~1.1M chars - char counts are unverified garbage-risk, no script-correctness check",
+   "numbers": "empty 11 (2.8%), non_empty 389, ~1,100,000 chars",
+   "source": "level2/engine_docs/doctr/PROMPT.md:4-12; RUN.md:4-21",
+   "status": "DERIVED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya 0.22.1 (surya-2, ~650M VLM): layout -> per-block recognition (full_page=False), text from block.html, fallback full_page=True if <5 chars; claims te/ta/kn/ml support; ml still empty on ml_020/025/035",
+   "numbers": "empty 11 (2.8%), ~1,100,000 chars; ~650M params",
+   "source": "level2/engine_docs/surya/PROMPT.md:4-22; RUN.md:4-17",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Surya licence: code Apache-2.0; weights modified AI Pubs OpenRAIL-M, free for research/personal/startups under ~$5M funding/revenue; NOT free for large commercial or competing-with-Datalab-API use",
+   "numbers": "~$5M",
+   "source": "level2/engine_docs/surya/PROMPT.md:27-29",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "IndicPhotoOCR (IIIT-H, PARSeq trust-patched) run on CPU, identifier_lang=auto, init once per process; this is a scene-text engine run on printed pages here; 10 empty (2.5%), ~1,050,000 chars; same ml_020/025/035 empty",
+   "numbers": "empty 10 (2.5%), non_empty 390, ~1,050,000 chars",
+   "source": "level2/engine_docs/indicphotoocr/PROMPT.md:4-8; RUN.md:4-22",
+   "status": "MEASURED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Malayalam is the universal weak cell in this smoke: ml_020, ml_025, ml_035 empty across tesseract, doctr, easyocr, indicphotoocr, paddle, surya; only RapidOCR has all 100 ml empty by design",
+   "numbers": "ml_020/025/035 empty in 6+ engines",
+   "source": "level2/engine_docs/tesseract_indic/RUN.md:15-17; surya/RUN.md:15-17",
+   "status": "DERIVED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "All engine docs only report emptiness counts and chars on 400 pages; no CER/WER or ground truth, so no engine ranking is derivable from these docs",
+   "numbers": "n_json 400 each",
+   "source": "level2/engine_docs/tesseract_indic/RUN.md:4-7",
+   "status": "DERIVED",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Shared harness: 400 pages (te/ta/kn/ml prefixes, ~100 each: rapidocr 100 ml empty), PDF rendered to PNG at 200 DPI, 300s timeout, 1 retry with Otsu-binarized variant, no deskew (skew correction never implemented)",
+   "numbers": "200 DPI, 300s, 400 pages",
+   "source": "level2/engine_docs/tesseract_indic/PROMPT.md:16-21",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Operator directive 'OPEN POLICY': read any script on the page, no language restriction; stack all Indic models + eng for mixed books",
+   "numbers": "",
+   "source": "level2/engine_docs/tesseract_indic/PROMPT.md:6-8",
+   "status": "DECISION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Output is Level-1-style JSON: page_id, source, lang, script, modality, domain, quality_tier; missing [L2] if empty; unreadable_reason ocr_empty; engine_meta (dpi=200); single paragraph region with full-page bbox - no word/line boxes",
+   "numbers": "",
+   "source": "level2/engine_docs/tesseract_indic/PROMPT.md:23-29",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Label inconsistency: page_ids with prefix ta_ (ta_055, ta_057, ta_068, ta_034) are annotated 'Telugu govt form' in notes; ta should be Tamil",
+   "numbers": "ta_055/057/068/034",
+   "source": "level2/engine_docs/tesseract_indic/RUN.md:11; doctr/RUN.md:12-14",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "RapidOCR version mismatch: PROMPT says RapidOCR 3.9.x with LangRec/OCRVersion enums, RUN says rapidocr-onnxruntime 1.4.4",
+   "numbers": "3.9.x vs 1.4.4",
+   "source": "level2/engine_docs/rapidocr/PROMPT.md:4; RUN.md:23",
+   "status": "CONTRADICTION",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Tesseract 5.5.2 is the version used across tesseract_indic, bilingual, anuvaad stacks",
+   "numbers": "5.5.2",
+   "source": "level2/engine_docs/tesseract_bilingual/PROMPT.md:4",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Anuvaad tessdata only covers te/ta/kn/ml (anuvaad_tel/tam/kan/mal); stack anuvaad_xxx+hin+eng, falls back to anuvaad_xxx alone if stack fails; tessdata at level2/research/smoke/anuvaad_tesseract/tessdata",
+   "numbers": "",
+   "source": "level2/engine_docs/anuvaad_tesseract/PROMPT.md:10-19",
+   "status": "PRIMARY",
+   "date": "",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 Tesseract fallback: these docs show Tesseract (any stack) leaves 7.8% of te/ta/kn/ml pages empty, concentrated in ml; fallback must handle empties (tesseract_indic/RUN.md:4-7,20)",
+  "Tesseract open stack incl. hin+eng, anuvaad variants and bilingual ordering give identical counts - no gain from stack variants; skip them (tesseract_bilingual/RUN.md:4-7)",
+  "IndicPhotoOCR as used here is a line/word scene engine on full pages (10 empty); plan's Handwriting Expert reuses its PARSeq checkpoints but docs give no accuracy, only non-emptiness (indicphotoocr/RUN.md:4-7)",
+  "No Bengali anywhere in these engine docs: smoke covers only te/ta/kn/ml; Bengali engine behaviour is unmeasured here (tesseract_indic/PROMPT.md:4)",
+  "No CER/WER or GT in engine docs; any engine comparison must use a real gold set, not char counts (easyocr/RUN.md:12)",
+  "Surya weights licence limits (~$5M, no competing use) matter if product/jury use is commercial (surya/PROMPT.md:27-29)",
+  "Skew correction was never implemented in the harness; plan R4 OldScan restoration/deskew has no baseline (tesseract_indic/PROMPT.md:18)"
+ ],
+ "contradictions": [
+  "ta_ page ids labelled Telugu in notes (tesseract_indic/RUN.md:11)",
+  "RapidOCR 3.9.x vs rapidocr-onnxruntime 1.4.4 (rapidocr/PROMPT.md:4 vs RUN.md:23)",
+  "PaddleOCR PROMPT says ml falls back to en yet ml pages empty; fallback produces nothing useful (paddleocr_indic/RUN.md:15-17)"
+ ],
+ "open_items": [
+  "Which accuracy metric/gold exists for these 400 pages (docs have none)",
+  "Whether surya ml empties are real failure or timeout"
+ ]
+}

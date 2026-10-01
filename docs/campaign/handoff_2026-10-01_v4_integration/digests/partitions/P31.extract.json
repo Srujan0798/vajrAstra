@@ -1,0 +1,439 @@
+{
+ "partition": "P31",
+ "files": [
+  {
+   "path": "/home/user/boss/AUDIT_REPORT.md",
+   "total_lines": 250,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/PROTOCOL_UPGRADES.md",
+   "total_lines": 155,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/CLEANUP_EXECUTION_LOG.md",
+   "total_lines": 152,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/README.md",
+   "total_lines": 16,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/HOW_TO_RUN.txt",
+   "total_lines": 91,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/INDEX.md",
+   "total_lines": 68,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/PLAN.md",
+   "total_lines": 31,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/architecture/PPT_SPEC.md",
+   "total_lines": 39,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "README goal: beat Sarvam Vision 2.1 and Bodhan on ONE fair 22-language benchmark with a portable product (PyTorch/CUDA/CPU; MLX Mac-only accelerator, never a dependency).",
+   "numbers": "Sarvam Vision 2.1 87.39 WA; Bodhan 84.94 WA",
+   "source": "README.md:6",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "README names the plan as proto-104 project-first critical path (rev 4); status never written in README but in W4.md and DISPATCH_LOG.md. Plan v4 memory is proto-108, so README/INDEX still point at rev 4.",
+   "numbers": "proto-104 rev 4",
+   "source": "README.md:11",
+   "status": "CONTRADICTION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INDEX: plan steps order R -> S -> H -> D1 -> X -> C -> G -> GPU -> Q -> D2-D5; NEXT.md only written by planner or boss.",
+   "numbers": "R,S,H,D1,X,C,G,GPU,Q,D2-D5",
+   "source": "docs/INDEX.md:6",
+   "status": "PLAN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INDEX rule: when a file listed in INDEX disagrees with a file under History, INDEX wins; scores come from disk; one topic one file.",
+   "numbers": "",
+   "source": "docs/INDEX.md:3",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INDEX law stack: AGENTS.md, proto-01 law (merges old proto-02/60/62/79/90/91), boss-rules.md, proto-92 (U-rows, settled conflicts C1-C15), ULTIMATE_HYBRID_CONCERN HL1-HL12, SOUTH_CANON.",
+   "numbers": "C1-C15; HL1-HL12",
+   "source": "docs/INDEX.md:12-18",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Facts/concerns registry: proto-93 F1-F82 each with a command; BOSS_CONCERNS themes K-01..K-30; proto-103 meetings Sep 9 to Oct 1 call; proto-97 RQ-1..12; proto-105 Consensus->decisions; proto-100 B-01..B-21 build rows; proto-89 Plan v3.",
+   "numbers": "F1-F82; K-01..K-30; RQ-1..12; B-01..B-21",
+   "source": "docs/INDEX.md:21-25",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Benchmark: level2/benchmark/manifest_v2.json = 1,683 items; South = 400 items from the Sarvam bench under R-7; packs append-only; AGENT_PROTOCOL locked; GT_DEFECTS.md is step Q, due before D2.",
+   "numbers": "1,683 items; South 400",
+   "source": "docs/INDEX.md:28-29",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam indic-ocr-bench pinned rev 84ce7ce4, Apache-2.0, at level2/models_bodhan/indic-ocr-bench/; INDEX says it should be git-ignored.",
+   "numbers": "rev 84ce7ce4; Apache-2.0",
+   "source": "docs/INDEX.md:30",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "level2/out/ (South v1, 4,001 files) is sealed and retires at S6.",
+   "numbers": "4,001",
+   "source": "docs/INDEX.md:31",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Product dir exists: schema, CLI, PDF writer, script ID, tesseract and bodhan recognisers; portable.",
+   "numbers": "",
+   "source": "docs/INDEX.md:34",
+   "status": "PRIMARY",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Env: .venv311 is THE env; .venv (Py3.14) legacy. Earlier HOW_TO_RUN mapping: .venv(3.14)=tesseract family (tesseract_indic, tesseract_bilingual, anuvaad_tesseract); .venv311=easyocr, openbharatocr, indicphotoocr, paddleocr_indic, rapidocr, doctr, surya.",
+   "numbers": "Py3.11 vs 3.14",
+   "source": "docs/INDEX.md:37; HOW_TO_RUN.txt:19-26",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "History files (read for audit only, never execute): PROJECT_COMPLETE.md claim is false; TREE.txt untrustworthy; CAMPAIGN_DIRECTIVE v5 superseded by proto-104; level2/probe22 moved into level2/benchmark/; archiving history PARKED under K-10.",
+   "numbers": "",
+   "source": "docs/INDEX.md:40-68",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "docs/PLAN.md is a stale 09-26 next-work list, do not execute; Plan v3 draft is docs/campaign/DRAFT_RESEARCH_PLAN.md (Gate 1 numbers + RF-21..37).",
+   "numbers": "RF-21..37",
+   "source": "docs/PLAN.md:31",
+   "status": "DEAD",
+   "date": "2026-09-26",
+   "currency": "superseded",
+   "superseded_by": "proto-104 rev 4 / Plan v4 (proto-108)"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Stale PLAN: first work complete - Level 1 frozen, Level 2 sealed 10 engines x 400 = 4000 packs; no second South flush, no training, no paid keys; W5 freeze 15-20 min after Wed 2026-10-01; W6 train only after freeze.",
+   "numbers": "10 engines x 400 = 4000",
+   "source": "docs/PLAN.md:3,23-24",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "superseded",
+   "superseded_by": "proto-104"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "W3 probe source switched 2026-09-26 to official hackathon dataset; size locked 100/lang x 18 langs x 10 engines; earlier Sarvam-bench run discarded by user order, its 360 images kept as shortfall fill.",
+   "numbers": "100/lang x 18 x 10; 360 images",
+   "source": "docs/PLAN.md:19",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "superseded",
+   "superseded_by": "manifest_v2 1,683 items per INDEX"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT audit 2026-09-26: direct pairs bn 2,938 / hi 3,500 / sa 494 / en 3,500; PDF text layers cover 100/lang for 15/18 languages (hi 23,486; pa 23,372; sd 4,342; gu 3,567 pages). Shortfalls Dogri 11, Santali 0 -> Sarvam fill.",
+   "numbers": "bn 2,938; hi 3,500; sa 494; en 3,500; Dogri 11; Santali 0",
+   "source": "docs/PLAN.md:20",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Bodo PDF text layers are legacy-font mojibake -> script-validation gate mandatory; Bodo/gu/ is a main-test-set copy, NOT GT. Santali has zero PDF-layer GT, Dogri 11.",
+   "numbers": "Dogri 11, Santali 0",
+   "source": "docs/PLAN.md:20",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Tesseract-family engines need traineddata packs: asm, ben, guj, mar, nep, ori, pan, san, snd, urd (user approval required for downloads).",
+   "numbers": "10 packs",
+   "source": "docs/PLAN.md:21",
+   "status": "PLAN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PPT architecture (Vaultstack AI, 4 slides): Stage0 OpenCV deskew/denoise/binarize; 1 DocLayout-YOLO (YOLOv10) SFT on IndicDLP with LoRA; 2 recognition SFT TrOCR + Qwen3.5 VL + PaddleOCR-VL 1.6 with akshara-boundary auxiliary loss on Qwen3-VL-8B/PaddleOCR; 2b SCST/RL on CER; 3 IndicBERT/Airavata post-SFT; 3b SimPO/DPO.",
+   "numbers": "",
+   "source": "docs/architecture/PPT_SPEC.md:9-17",
+   "status": "PRIMARY",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PPT recognition data options: A distill from Gemini; B human extraction for languages Gemini/ChatGPT miss; Kashmiri: layout boxes + PDF text under box as GT.",
+   "numbers": "",
+   "source": "docs/architecture/PPT_SPEC.md:13",
+   "status": "PLAN",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "PPT data boxes: S1 BSTD scene, S2 IIIT-HW/INDIC-HW-WORDS, S3 Sangraha/IndicCorp text->synth, S4 Bhashadaan, S5 govt/exam scans 5-10k pages/domain, S6 synthetic unlimited; HITL double annotation. Eval: no fine-tune on test.",
+   "numbers": "5-10k pages/domain",
+   "source": "docs/architecture/PPT_SPEC.md:19-21",
+   "status": "PLAN",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "PPT already lists IIIT-HW / INDIC-HW-WORDS as data box S2 (handwriting data was in original design); product claims akshara-aware conjuncts/matras/sandhi, calibrated confidence, low-confidence spans to human review.",
+   "numbers": "",
+   "source": "docs/architecture/PPT_SPEC.md:21,25",
+   "status": "PRIMARY",
+   "date": "2026-09-25",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan is the global worst category: Sarvam 2.1 olmOCR OldScan 55.3; PPT box 0 OpenCV preprocessing KEPT because cheap pixels still matter.",
+   "numbers": "OldScan 55.3",
+   "source": "docs/architecture/PPT_SPEC.md:31",
+   "status": "MEASURED",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Draft box label: layout stage HYBRID - prefer swapping detector to 2026 defaults (Sarvam semantic parser + pointer reading-order; Bodhan 33M PP-DocLayoutV3) over training YOLO from scratch.",
+   "numbers": "Bodhan 33M",
+   "source": "docs/architecture/PPT_SPEC.md:32",
+   "status": "DECISION",
+   "date": "2026-09",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Draft: drop TrOCR-from-scratch; Chitrapathak-2 says fine-tuning OCR-specialized VLM (Nanonets-OCR2-3B / Qwen2.5-VL) beats LLaVA-from-scratch on accuracy and 3-6x latency; PaddleOCR-VL 1.6 leads OmniDocBench 96.01; Qwen3.5 VL is Bodhan's recognizer family; akshara-boundary aux loss kept.",
+   "numbers": "OmniDocBench 96.01; 3-6x latency",
+   "source": "docs/architecture/PPT_SPEC.md:33",
+   "status": "DERIVED",
+   "date": "2026-09",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Draft: SCST/RL on CER keep only AFTER SFT (Sarvam 2.1 did SFT then RLVR; do not start at RL); SimPO/DPO keep; noisy->JSON SFT keep if product is forms.",
+   "numbers": "",
+   "source": "docs/architecture/PPT_SPEC.md:34-36",
+   "status": "DECISION",
+   "date": "2026-09",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Draft: add HF sarvamai/indic-ocr-bench (6,909 blocks, 22 langs + EN) to bench set; keep no-FT-on-test. Draft labels frozen at W5.",
+   "numbers": "6,909 blocks",
+   "source": "docs/architecture/PPT_SPEC.md:37",
+   "status": "PRIMARY",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Audit D2 (2026-09-28): scanned 50,000+ files; ~54,000 total; ~49,800 KEEP, ~4,082 MERGE, ~172 DELETE; sealed dirs: level2/out 4,001, level2/reports 34, probe22/out 12,739, arc_level_1 413, Datasets/akshardrishti_official 34,871.",
+   "numbers": "4,001; 34; 12,739; 413; 34,871",
+   "source": "AUDIT_REPORT.md:11-36,206-214",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "probe22 manifest.json final n=1227; 18 language candidate lists; 11 engine predictions; 12 Tesseract tessdata models; leakage_check.json, gt_forensics.json, gt_verification.json exist; GT verdicts LOCKED 2026-09-27 (\u00a76.4).",
+   "numbers": "n=1227; 11 engines; 12 tessdata",
+   "source": "AUDIT_REPORT.md:107-113,124; PROTOCOL_UPGRADES.md:127",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "AUDIT claimed level2/models (4,035) duplicates level2/out (4,001) -> MERGE; execution log reverted: different structures (models=per-engine docs PROMPT.md+RUN.md+json/; out=engine/lang nested). Audit false positive. Also verify_visual.py (9975B, \u00a76.4 complete) vs visual_verify.py (4718B, blind verify) merge reverted, both KEEP.",
+   "numbers": "4,035 vs 4,001; 9975B vs 4718B",
+   "source": "CLEANUP_EXECUTION_LOG.md:143-152",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "execution-log reverts to AUDIT_REPORT.md:83,101,135"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Cleanup status: all phases PENDING (172 DELETE + 4,082 MERGE); .env with Sarvam API key to be archived and moved to ~/.env_south; SHA256 TBD; laws L4 archive-never-delete, L10 no edits to shared pipeline.",
+   "numbers": "172 + 4,082",
+   "source": "CLEANUP_EXECUTION_LOG.md:27,124-142",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Level-2 ops: 400 South pages (te/ta/kn/ml x100) x 10 free OSS engines = 4000 JSON packs; metric = MAX RAW OUTPUT (coverage), not accuracy; engines read any script (open policy); 4-page gate before any 400 rerun (law \u00a717); no prompting engines; train never on bench data; level3 paid stubs LOCKED until Level 2 sealed.",
+   "numbers": "400 pages; 10 engines; 4000 packs",
+   "source": "HOW_TO_RUN.txt:7-17,42-46,72-74,90-91",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Orchestrator guards: 10-min stall kill, 5GB disk guard, 7-core guard, spawn-guard blocks known-broken respawns; autoloop every 30 min.",
+   "numbers": "10-min; 5GB; 7-core; 30 min",
+   "source": "HOW_TO_RUN.txt:54-61",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent protocol upgrades D5: 5-section briefing (DECISIONS|DELIVERED|BLOCKERS|RISKS|NEXT<=5) hard cap 2,000 tokens (from 4,500, ~55% saving); \u00a79 10-field pre-write gate for research records (source_url, date, status, relevance, recency, actionability, extraction, decision_it_changes, transfer SURVIVES/DIES/UNKNOWN, transfer_harness_fact); fix specs <=2h, max 2 fix-loop rounds then escalate.",
+   "numbers": "2,000 tokens; 4,500; 55%; 2h; 2 rounds",
+   "source": "PROTOCOL_UPGRADES.md:39-93,145-149",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Rejection criteria for agents: stale claims, vibes-based architecture (no paper/bench/failure slice), pretrained knowledge (pull 2025-26 papers live), hidden downloads (~/.cache/huggingface without approval), self-confirming evals (scorer=model=designer), quick fixes bypassing gates (e.g. lowering MAX_CTRL_CHARS).",
+   "numbers": "6 criteria",
+   "source": "PROTOCOL_UPGRADES.md:110-118",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Binding at D5: no downloads, no training, no Sarvam calls beyond cap; D1-D4 in LEVEL7_RESEARCH_CAMPAIGN \u00a710 binding; review at W5 freeze (after Wed 2026-10-01). Verdict agent mandated to counter Boss with file:line + MEASURED/REJECTED evidence.",
+   "numbers": "",
+   "source": "PROTOCOL_UPGRADES.md:124-130,153-155,19-21",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "superseded",
+   "superseded_by": "proto-104/108 (training now planned)"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Pre-flight tooling deployed 2026-09-28: verify_engine_readiness.py, spot_check_engine.py, engine_health_log.py, self_audit.py, engine_agent_contract.json v1.0.0, orchestrator_briefing_template.md.",
+   "numbers": "",
+   "source": "PROTOCOL_UPGRADES.md:27-33",
+   "status": "PRIMARY",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no reference to the H1 gate list K-01..K-30 / settled conflicts C1-C15 (docs/INDEX.md:15,22); check Plan v4 does not re-open settled conflicts.",
+  "PPT_SPEC lists akshara-boundary auxiliary loss as Indic-specific KEEP and SCST/RL after SFT (docs/architecture/PPT_SPEC.md:13,34); Plan v4 PARSeq handwriting plan has no akshara-aware loss or RL stage.",
+  "OldScan restoration weak (Sarvam 2.1 OldScan 55.3, PPT_SPEC.md:31); Plan v4 Page Expert has no preprocessing/restoration stage (OpenCV box 0).",
+  "GT gaps for Santali (0), Dogri (11), Bodo mojibake PDF layers need script-validation gate (docs/PLAN.md:20); Plan v4 weak-cell handling should include these.",
+  "GT_DEFECTS.md step Q due before D2 (docs/INDEX.md:29); Plan v4 gates HW0-HW2 omit GT defect audit.",
+  "Sarvam bench licence/pin: rev 84ce7ce4 Apache-2.0, 6,909 blocks (INDEX.md:30; PPT_SPEC.md:37); Plan v4 quotes 'Sarvam bench small_rep' without pin.",
+  "README still points at proto-104 rev 4 as the plan (README.md:11, INDEX.md:6) not proto-108/Plan v4; docs unsynced.",
+  "Agent-process rules (5-section briefing, 10-field \u00a79 gate, rejection criteria incl. self-confirming evals, PROTOCOL_UPGRADES.md:69-118) not mirrored in Plan v4 eval discipline."
+ ],
+ "contradictions": [
+  "AUDIT_REPORT says merge level2/models into out; CLEANUP_EXECUTION_LOG reverts (false positive) - CLEANUP_EXECUTION_LOG.md:148-152 vs AUDIT_REPORT.md:83.",
+  "PROTOCOL_UPGRADES 'no training' vs Plan v4 training gates HW2/G-2.5; PLAN.md W3 100/lang x18 vs INDEX manifest_v2 1,683 items.",
+  "README/INDEX plan = proto-104 rev 4 vs memory Plan v4 proto-108.",
+  "INDEX.md:55 says PROJECT_COMPLETE claim false."
+ ],
+ "open_items": [
+  "Cleanup phases A-J all PENDING; SHA256 verification TBD (CLEANUP_EXECUTION_LOG.md:124-137).",
+  "Orchestrator to verify Sarvam key still works after .env move (CLEANUP_EXECUTION_LOG.md:29).",
+  "Draft PPT box labels freeze at W5 (PPT_SPEC.md:27,39).",
+  "D7 post-cleanup hierarchy map pending."
+ ]
+}

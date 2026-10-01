@@ -1,0 +1,542 @@
+{
+ "partition": "P50",
+ "files": [
+  {
+   "path": ".ecc/memory/project/contexts/mem_20261001_590f2d2bf5904157a0ab.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md",
+   "total_lines": 18,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/decisions/mem_20260930_37ee139e4d3742af9d6b.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/decisions/mem_20260930_86f75c24289646bea96f.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md",
+   "total_lines": 22,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/decisions/mem_20261001_3306cccc54db41b9ad0c.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20260930_4ef89df43f994cd8b514.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20260930_7b7725ee541446ceb655.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_216c3fb9934941bb8888.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_4a7b62e06583439e9a4b.md",
+   "total_lines": 21,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_6af40ba4264f44a58c67.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_7e213f0ac9334790ba0b.md",
+   "total_lines": 21,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_b72971f19f7d4d308176.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_d5d1b198f84647ffaf2d.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/facts/mem_20261001_ed755c4d7e514c06a93f.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_211c9be432c54c5bbf2f.md",
+   "total_lines": 25,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_4ec2f75c621c47f5a5f4.md",
+   "total_lines": 27,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_5c36573f78e541d2bfb4.md",
+   "total_lines": 23,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_64dd545cbeed4e04aa52.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_90b4cc2b9dac4242b4f1.md",
+   "total_lines": 28,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_e31aa887385e41569ed8.md",
+   "total_lines": 40,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_e83af51b74f74e5ea6f7.md",
+   "total_lines": 54,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20260930_fb4b39d1ac704312a723.md",
+   "total_lines": 33,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20261001_138b92b97b444010824d.md",
+   "total_lines": 28,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20261001_7328735a266d457d9f91.md",
+   "total_lines": 20,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20261001_a16b7b5f391b4b60978b.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/handoffs/mem_20261001_a77cb25fe74f43fcaeae.md",
+   "total_lines": 23,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/notes/mem_20261001_037e83fd0b114afba984.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/notes/mem_20261001_3ee1c493c4884d53826c.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/runbooks/mem_20260930_9dbae1794e3446f2ab93.md",
+   "total_lines": 71,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/runbooks/mem_20260930_c680348f62d047b8bf3a.md",
+   "total_lines": 25,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/runbooks/mem_20261001_06d1c4936d3448c089a0.md",
+   "total_lines": 68,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/runbooks/mem_20261001_4d541960b3de4b6597bc.md",
+   "total_lines": 17,
+   "fully_read": true
+  },
+  {
+   "path": ".ecc/memory/project/runbooks/mem_20261001_54de4e62516b47f29e05.md",
+   "total_lines": 17,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "weak_cells",
+   "claim": "Bodhan (Bodhanx3 / indic-ocr) Gate 1 CONDITIONAL PASS: sample-100 n=99 CER 4-bit 0.6878 vs bf16 0.6863 (delta 0.0015, B-01 PASS); pair-only n=300 gold 4-bit 0.4034, bf16 0.4010, surya 0.5660.",
+   "numbers": "0.6878/0.6863; 0.4034/0.4010; surya 0.5660",
+   "source": ".ecc/memory/project/facts/mem_20260930_7b7725ee541446ceb655.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan bench small_rep n=1173 (4-bit): CER 0.0540, WER 0.1356. Official PyTorch path BLOCKED on Mac (vendor CUDA assert, MPS-only).",
+   "numbers": "CER 0.0540 WER 0.1356 n=1173",
+   "source": ".ecc/memory/project/facts/mem_20260930_7b7725ee541446ceb655.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "S4 local-engine CERs on South 400: tesseract 0.1450 (openbharatocr is alias), easyocr te/kn 0.2437/0.2096, anuvaad 0.1956 (n=355, ml45 empty), rapidocr 0.8427, doctr 0.8236. Tesseract is far better than rapidocr/doctr on South scripts.",
+   "numbers": "tess 0.1450; easyocr te 0.2437 kn 0.2096; anuvaad 0.1956 n=355; rapidocr 0.8427; doctr 0.8236",
+   "source": ".ecc/memory/project/facts/mem_20260930_7b7725ee541446ceb655.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H1 vision check: 13/13 viewed samples are Bengali handwritten words; the earlier 35.7% Devanagari figure is a method artifact, NEVER quote it as a script mix (contradiction closed for viewed sample only; H2/H3 open).",
+   "numbers": "13/13 Bengali; 35.7% retired",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_e83af51b74f74e5ea6f7.md:44",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 (official_hw scan of test set) marked DONE with 16490 items per Agent 1/2 overlay; but H2 heading missing in W4 per later overlay; H2 spec still assigned to Agent 2.",
+   "numbers": "H2 16490 items",
+   "source": ".ecc/memory/project/facts/mem_20261001_7e213f0ac9334790ba0b.md:21",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Honest leftover n per language (South/leftover): as 19, brx 67, doi 27, gu 24, sat 20, mni 20, or 69; S2 claim that all 22 langs have n>=100 was an overclaim, to be struck. Weak cells sat/mni/doi/gu/as have n<=27.",
+   "numbers": "as19 brx67 doi27 gu24 sat20 mni20 or69",
+   "source": ".ecc/memory/project/decisions/mem_20261001_3306cccc54db41b9ad0c.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "manifest_v2 = 1683 items; South 400 sits inside the 6909 (step X) items and must be counted once; GT tiers never pooled (R-12); sealed dirs read-only.",
+   "numbers": "manifest_v2 1683; South 400; 6909",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_90b4cc2b9dac4242b4f1.md:20",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "L1 gold is Telugu only; SPEC_100 was never cited (K-29 Sep-16 correction open for Vinay).",
+   "numbers": "L1 gold Telugu",
+   "source": ".ecc/memory/project/contexts/mem_20261001_590f2d2bf5904157a0ab.md:17",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Vinay (2026-10-01): SSH access to a 24 GB VRAM box will arrive; T6/GPU day 1 waits for user/host/port. U33 hardware CONFIRMED, login missing.",
+   "numbers": "24 GB VRAM",
+   "source": ".ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md:18",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Organisers gave no clear communication; expect ~10 days; official deadline UNKNOWN (U2/K-25). Open Vinay questions: test-set shape (U13), jury metric/format (U2), Bodhan hosting (U28), LoRA gate (U4/Gate 2.5), Sep-16 correction (K-29).",
+   "numbers": "~10 days; U2 U4 U13 U28 K-29",
+   "source": ".ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md:19",
+   "status": "UNKNOWN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Vinay's side is a registered company (U36 YES), helping a later Bodhan 3.1 company hosting request (U28 unanswered).",
+   "numbers": "U36 YES",
+   "source": ".ecc/memory/project/decisions/mem_20260930_c7018b59ce7d491a9907.md:20",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Plan v3 session with Vinay booked 2026-10-02 10:00 IST, 20 min. Training and Gate 2.5 stay closed until that session. No training tonight.",
+   "numbers": "2026-10-02 10:00 IST",
+   "source": ".ecc/memory/project/decisions/mem_20260930_37ee139e4d3742af9d6b.md:17",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Gate 2.5 (LoRA gate U4) + Vinay session required before any training (K-16: no training before validation).",
+   "numbers": "Gate 2.5",
+   "source": ".ecc/memory/project/contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:17",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "superseded",
+   "superseded_by": "Plan v4 gate G-2.5 'Vinay OK before training' (same rule)"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open U rows: U2 deadline; U4 architecture with Vinay; U10 run_probe locked; U12 .env move; U14 surya eval-only licence; U27 Kashmiri HOLD; U28 hosting; U33 GPU parked. Licences: surya eval-only (U14), U27 HOLD.",
+   "numbers": "U2 U4 U10 U12 U14 U27 U28 U33",
+   "source": ".ecc/memory/project/contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:18",
+   "status": "UNKNOWN",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K-01..K-30 concern homes: K-01 win=proto-104; K-02 product partial (missing official-vs-MLX parity); K-08 leakage R-12 tiers never pooled; K-11 research=campaign RESEARCH_DECISIONS RF-21..37; K-19 GT defects proto-65 (GT_DEFECTS.md missing, step Q before D2); K-21 metrics proto-80.",
+   "numbers": "K-01..K-30",
+   "source": ".ecc/memory/project/contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:17",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Standing rules: planner writes protocols only, boss assigns 3 OpenCode agents (Engine ses_f12a7b89, Verdict ses_f1233a0a, Miss ses_f16bc20e); free only; 12 existing Sarvam jobs only; LAYOUT FROZEN until S6; never delete; run_probe.py locked; A7 parked/closed; Laya file-triage never inside OCR model; teammates dropped.",
+   "numbers": "3 agents; 12 jobs",
+   "source": ".ecc/memory/project/decisions/mem_20261001_3306cccc54db41b9ad0c.md:17",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Session-1 (8e7ec69e): 80 USER headers, jsonl 21.9 MB, two workflows killed incomplete (wf_ee34a565 1.4M tok, wf_ff84d759 472k tok, result null) - compute wasted. 2026-09-30 15:04 boss: stop all subagents; Consensus 3/day.",
+   "numbers": "1.4M tok; 472k tok",
+   "source": ".ecc/memory/project/contexts/mem_20261001_590f2d2bf5904157a0ab.md:17",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Live MD ~306; the 56k figure is Datasets+benchmark+out (all files), not markdown. proto-108 MD consolidation parked until boss GO; canonical RESEARCH_DECISIONS = docs/campaign/RESEARCH_DECISIONS.md (RF-21..37); second copy archived to _archive/dedup_2026-10-01/.",
+   "numbers": "MD ~306; 56k files",
+   "source": ".ecc/memory/project/runbooks/mem_20261001_4d541960b3de4b6597bc.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Knowledge graph (graphify) counts: 8380/9577/775 (commit 8fec177d), later 8669/9890/802 (nodes/edges/communities); god nodes A4-EXT 43, BaseEngine 32, OCR AGENT MEMORY FEED 30.",
+   "numbers": "8669/9890/802",
+   "source": ".ecc/memory/project/contexts/mem_20261001_590f2d2bf5904157a0ab.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "superseded",
+   "superseded_by": "8380/9577/775 -> 8669/9890/802"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam: 12 jobs completed but no download_url; pred_sample still empty; endpoint client._client.get_download_links(job_id) found; fresh calls got 401 (DISPATCH 38, key dead) and locator Forbidden (DISPATCH 37); never resubmit; Rs67 credit left. Sarvam bench results unrecoverable for now.",
+   "numbers": "12 jobs; Rs67; 401",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_90b4cc2b9dac4242b4f1.md:20",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "R-16 ASK BEFORE DOWNLOAD: no leftover-language downloads; easyocr ta/ml (malayalam.pth, tamil.pth), surya, tessdata, indicphotoocr, paddleocr_indic remain un-run (surya module missing at A4 smoke).",
+   "numbers": "R-16",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_fb4b39d1ac704312a723.md:21",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "A-gate status: A0-A3 PASS; A4 PATHS PASS (smoke blocked: no module surya); A5 IN PROGRESS (mcnemar timeout) later S5 DONE; A6 PASS (13 recovered docs in W4_reports/A6_staging); LAYOUT FROZEN.",
+   "numbers": "A4 PASS; A5 timeout; A6 13 docs",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_90b4cc2b9dac4242b4f1.md:20",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Product skeleton on disk: product/requirements.txt + Dockerfile + B-21 spec + CPU dry run PASS + level2/benchmark/pipeline/run_bench_x.py (5-item dry run). Missing: official-vs-MLX parity, torch pin.",
+   "numbers": "CPU dry run PASS",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_90b4cc2b9dac4242b4f1.md:20",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Gate 1 numbers originally lived only in DISPATCH_LOG section 36; BODHAN_BASELINE.md was a 403 stub (~29 lines not 172) until Agent 2 rewrite; later landed with 0.4034/0.4010/0.6878/0.0540 and W4 all-22>=100 line struck.",
+   "numbers": "0.4034/0.4010/0.6878/0.0540",
+   "source": ".ecc/memory/project/facts/mem_20261001_ed755c4d7e514c06a93f.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "superseded",
+   "superseded_by": "BODHAN_BASELINE rewrite landed 10:21Z; DRAFT_RESEARCH_PLAN 10:46Z"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "GOLD W0 (session-1 24k gold merge, proto-107-gold-repo-consolidation): manifest 1277 lines, bundle 172MB, tar 2026-10-01_pre_gold.tar.gz, gitignore additive, level2/level2 entry. Manifest includes 85 pyc (FAIL-minor, protocol said exclude). W1-W4 read-only into docs/campaign/gold/; W6 needs boss GO; Agent 2 must verify W0.",
+   "numbers": "manifest 1277; 172MB; 85 pyc",
+   "source": ".ecc/memory/project/facts/mem_20261001_4a7b62e06583439e9a4b.md:19",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Two different proto-107 files exist: proto-107-gate1-and-s5-ssot.md and proto-107-gold-repo-consolidation.md; proto-108 = MD dispatch (parked). proto-00 pointer to 107/108 not landed.",
+   "numbers": "proto-107 x2",
+   "source": ".ecc/memory/project/facts/mem_20261001_4a7b62e06583439e9a4b.md:19",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Environment constraint: Semgrep PreToolUse hook denied Write/Bash/StrReplace for planner and subagents on the Mac repo (and /tmp); OpenCode 401. Leftover edits (proto-00 pointer, W4 W0-verify line) cannot land.",
+   "numbers": "exit 2",
+   "source": ".ecc/memory/project/facts/mem_20261001_6af40ba4264f44a58c67.md:17",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Mac protocol files are short vs GitHub boss/campaign-docs 2ae8a5b: boss-rules.md and proto-106 missing, proto-01 ends at section F, proto-104 no Appendix A, proto-93 F1-F72 only (no F73-F82), proto-100 B-01-B17 (no B-18-B21), archive dir missing.",
+   "numbers": "F73-F82; B-18-B21",
+   "source": ".ecc/memory/project/facts/mem_20260930_4ef89df43f994cd8b514.md:17",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Concern ledger C-01..C-36 at GitHub 2ae8a5b (docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md), mostly SUPERSEDED/DONE; permanent rules: planner no labour, builder never self-certifies, done = W4 + reproducing command.",
+   "numbers": "C-01..C-36",
+   "source": ".ecc/memory/project/runbooks/mem_20261001_06d1c4936d3448c089a0.md:61",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Order of work (12-step): copy-back, A5+BODHAN rewrite+S2 strike+graphify, D1 100 pair-only PyTorch then MLX, S4 remaining, S5, Sarvam retrieve, H2/H3, X runner, proto-105, step G, GPU T6, Q then D2-D5; proto-104 rev 4 order R,S,H,D1,X,C,G,GPU,Q,D2-D5.",
+   "numbers": "12-step",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_211c9be432c54c5bbf2f.md:25",
+   "status": "PLAN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "level2/ULTIMATE_HYBRID_CONCERN.md (Parts I-IX) is LAW for the hybrid architecture; latest section wins, disk truth wins; proto-104 rev 4 is the plan on top. Plan v4 is not referenced.",
+   "numbers": "Parts I-IX",
+   "source": ".ecc/memory/project/notes/mem_20261001_037e83fd0b114afba984.md:17",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "D1 weights on disk: level2/models_bodhan/ 5.35GB (indic-ocr + mlx-4bit + mlx-bf16 + bench). HF whoami Maya0769 with 39/30/30 repo files; rotate HF token after Bodhan download.",
+   "numbers": "5.35GB; 39/30/30",
+   "source": ".ecc/memory/project/handoffs/mem_20260930_fb4b39d1ac704312a723.md:19",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Agent 1 labour overclaim check: Gate 1 file ~29 lines not 172; DISPATCH 40 Agent 1 IDLE; official-path (PyTorch) waits for GPU day.",
+   "numbers": "~29 lines",
+   "source": ".ecc/memory/project/facts/mem_20261001_7e213f0ac9334790ba0b.md:19",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 states Bodhan-HW bench / ~86.4 Sarvam small_rep but ECC measured Bodhan bench small_rep CER 0.0540 WER 0.1356 n=1173 and pair-only gold CER 0.4034 vs surya 0.5660 (facts/mem_20260930_7b7725ee541446ceb655.md:17); sample-100 CER 0.6878 shows Page Expert is very weak on hard cases.",
+  "Plan v4 omits S4 engine baselines: tesseract 0.1450 vs rapidocr 0.8427 / doctr 0.8236 on South 400 (facts/mem_20260930_7b7725ee541446ceb655.md:17); supports Tesseract fallback but shows other engines unusable for Indic.",
+  "Plan lacks honest-n leftover caveat: as19 brx67 doi27 gu24 sat20 mni20 or69 (decisions/mem_20261001_3306cccc54db41b9ad0c.md:17); weak-cell claims on these langs are statistically thin.",
+  "Plan v4 not mentioning Vinay constraints: 24GB VRAM SSH not yet provided, organiser deadline unknown (~10 days), jury metric/test-set shape unanswered (decisions/mem_20260930_c7018b59ce7d491a9907.md:18-21).",
+  "Official-vs-MLX parity (K-02) and PyTorch official path blocked on Mac (CUDA assert) - Plan v4 says portable PyTorch but parity not measured (contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:17).",
+  "Sarvam benchmark results for 12 jobs unrecoverable (401, no download_url); any plan reliance on Sarvam bench numbers is unverified locally (handoffs/mem_20261001_a77cb25fe74f43fcaeae.md:19).",
+  "GT_DEFECTS.md missing / step Q (GT defects proto-65) before D2 not in plan (runbooks/mem_20261001_06d1c4936d3448c089a0.md:47).",
+  "Licence open items U14 surya eval-only, U27 Kashmiri HOLD, U28 hosting; Plan v4 lists only CC-BY-4.0 for IIIT (contexts/mem_20261001_81cdc6d0c4c74b1c8c84.md:18).",
+  "Plan v4's handwriting-only framing rests on H1 13/13 viewed samples; H2 (full 5,344 scan) status inconsistent (DONE 16490 items vs heading missing) (facts/mem_20261001_7e213f0ac9334790ba0b.md:21; facts/mem_20261001_ed755c4d7e514c06a93f.md:17).",
+  "Plan v4 says 'official test = 5,344 images'; the ECC notes' H2 count is 16490 items - the numbers differ and need reconciliation (facts/mem_20261001_7e213f0ac9334790ba0b.md:21)."
+ ],
+ "contradictions": [
+  "H1 13/13 Bengali vs earlier 35.7% Devanagari (retired as method artifact) (handoffs/mem_20260930_e83af51b74f74e5ea6f7.md:44).",
+  "H2 'DONE 16490 items' (facts/mem_20261001_7e213f0ac9334790ba0b.md:21) vs 'H2 heading missing in W4' (facts/mem_20261001_ed755c4d7e514c06a93f.md:17) vs Plan v4 5,344 test images.",
+  "Agent 2 claimed all done while BODHAN_BASELINE was still stub (handoffs/mem_20261001_a16b7b5f391b4b60978b.md:17); later landed.",
+  "graphify counts 8380/9577/775 vs 8669/9890/802 across ticks.",
+  "GOLD W0 manifest includes pyc despite protocol exclusion (FAIL-minor) (facts/mem_20261001_d5d1b198f84647ffaf2d.md:17)."
+ ],
+ "open_items": [
+  "U2 deadline/jury metric",
+  "U4 LoRA gate with Vinay",
+  "U13 test-set shape",
+  "U14 surya eval-only licence",
+  "U27 Kashmiri HOLD",
+  "U28 Bodhan hosting",
+  "U33 SSH login details",
+  "K-29 Sep-16 SPEC_100 correction",
+  "12 Sarvam pred_sample empty",
+  "GOLD W0 Agent 2 verification; W1 blocked; W6 needs boss GO",
+  "proto-00 107/108 pointer not landed",
+  "step Q GT defects",
+  "HF token rotation",
+  "official-vs-MLX parity"
+ ]
+}

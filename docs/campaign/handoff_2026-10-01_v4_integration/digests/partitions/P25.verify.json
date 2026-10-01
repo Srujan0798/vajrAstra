@@ -1,0 +1,342 @@
+{
+ "checked": 41,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "corrected",
+   "correction": "Cited lines do not support it: S2_RUN_LIST.md:11 only says South GT = Sarvam-bench fill; blind_verify_gate1.md:29 is the 'bench small_rep' 0.0540 row with no statement that small_rep is the Sarvam bench. The same-bench-family contamination worry is the extractor's own inference, not a source finding."
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "330 live symlinks in level2/benchmark/pages/ point into sealed Datasets/ (100 sa, 100 hi, 100 bn, 30 en); their bytes are not in the manifest or the bundle (pages/ excluded from tar).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:144",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Restoring from the A1 manifest recreates file contents only, not symlink topology (symlink target strings and dirs not captured).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:146",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A1 tar bundle scope: level2/benchmark minus pages/ and packs/, plus level2/engine_docs (10 engines x 3 files); 0 pages/packs entries, 0 symlinks, no absolute or ../ paths.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:64-74; docs/campaign/checkpoints/W4_reports/A1_verify.md:59-63",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 U10 path erratum proposed (not applied): run_probe.py needs repo-root ROOT, MANIFEST=level2/benchmark/manifest_v1.json, IMAGES=.../pages, OUT=.../packs, TESSDATA=.../pipeline/tessdata; AGENT_PROTOCOL.md L46,96,137,156,171,191,227,266 need probe22 -> benchmark paths.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A4_paths.md:96-104",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 verifier: --manifest CLI flag overrides only manifest read; image lookup (L106) and output (L114-115) are hardcoded, so smoke block is structural and no CWD choice fixes it.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A3A4_verify.md:89",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A3/A4 verifier side effect: 18 .pyc under benchmark/pipeline/__pycache__ were created by A4 py_compile (benchmark file count 14,673 now vs 14,655 after A3).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A3A4_verify.md:58",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A6 recovered docs live in docs/campaign/checkpoints/W4_reports/A6_staging/ (canonical source); no live file references the deleted docs; santa_method_cross_check generator script interpolates a runtime timestamp so replay cannot reproduce original bytes.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_recovery.md:29-37",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "anuvaad_tesseract ml: 45 of 100 items produced no output file (55 produced, all non-empty); rapidocr has 5 empty-text outputs (ta 4, te 1), CER 0.8427 computed excluding them.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_S5.md:20-21,28-29",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "BOSS_CONCERNS.md register: 296 rows, source 1-5 coverage PASS (CO 96/96, C 17/17, M 8/8, HL 12/12); verifier's own parser had produced false 'CO-032 missing' and 'H1-H12 missing' findings, corrected.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/PROTO66_VERDICT_CHECK.md:4-19,36-38",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 manifest: tier official_hw, source Datasets/akshardrishti_official/Bodo/gu/, generator level2/benchmark/handwriting/build_h2_slice.py; image_id range 1..16513, 16,490 unique; vocab_index resolves for all items with 0 mismatches.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:14-31",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "DRAFT_RESEARCH_PLAN.md (L28, L180) already states 'beats surya 0.5660' for Bodhan pair-only 0.4034/0.4010; BODHAN_BASELINE.md is 28 lines, official-path row has blank CER and note 'vendor assert; parity waits GPU day'.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_archive.md:33-39; docs/campaign/checkpoints/W4_reports/blind_verify_gate1.md:45",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "South feasibility: Kannada 2 encrypted PDFs skipped (39 of 41 processed); full per-page data in W_south_reports/S1_real_feasibility.json.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md:47,51",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "S2 South items: manifest_v2.json = v1 1,283 + South 400 = 1,683; S2_RUN_LIST DISPATCH_LOG entry line contains an unexpanded $(date ...) shell substitution (not a real timestamp).",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W_south_reports/S2_RUN_LIST.md:28,31",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

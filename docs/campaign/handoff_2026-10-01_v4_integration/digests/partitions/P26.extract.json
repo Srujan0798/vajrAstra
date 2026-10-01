@@ -1,0 +1,631 @@
+{
+ "partition": "P26",
+ "files": [
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-001.md",
+   "total_lines": 46,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-002.md",
+   "total_lines": 45,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-003.md",
+   "total_lines": 46,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-004.md",
+   "total_lines": 48,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-005.md",
+   "total_lines": 48,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-006.md",
+   "total_lines": 62,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-007.md",
+   "total_lines": 50,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-008.md",
+   "total_lines": 41,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-009.md",
+   "total_lines": 53,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-010.md",
+   "total_lines": 79,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md",
+   "total_lines": 181,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md",
+   "total_lines": 141,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/mcnemar_summary.md",
+   "total_lines": 57,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/W4_reports/A6_staging/santa_method_cross_check.md",
+   "total_lines": 143,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md",
+   "total_lines": 339,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "printed_architecture",
+   "claim": "Probe22 final leaderboard: 11 engines x 18 langs x 1227 items scored; only 10 effective independent engines (openbharatocr byte-identical to tesseract_indic, also tesseract_bilingual byte-identical on 1257 packs).",
+   "numbers": "11 engines; 10 independent; 1227 items; 1257 packs",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:6-8,182",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Overall CER ranking (disk-truth): sarvam_vision 0.2400 (only 54 items, 3/lang cap, directional), surya 0.3849, tesseract_bilingual 0.4853, tesseract_indic 0.4870, easyocr 0.4941, indicphotoocr 0.5586, paddleocr_indic 0.6562, rapidocr 0.6692, anuvaad_tesseract 0.7114, doctr 0.8691.",
+   "numbers": "CER 0.2400/0.3849/0.4853/0.4870/0.4941/0.5586/0.6562/0.6692/0.7114/0.8691; WER surya 0.5956",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:92-118",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-language winners (n>=50 only, D4): surya wins 9 langs (bn 0.476, brx 0.153, hi 0.220, kok 0.425, ks 0.589, mai 0.030, pa 0.145, sd 0.315, ur 0.623); tesseract family wins mr 0.205, or 0.256 (vs bilingual 0.258), ne 0.116 (n=34); easyocr wins sa 0.168 (paddle 0.171).",
+   "numbers": "surya 9 langs; tesseract 3; easyocr 1",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:31-55",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "sarvam_vision lowest CER on as 0.001, doi 0.056, mni 0.026, sat 0.216 but n=2-3 per lang so NO winner claim per D4 (n<50). Sarvam cap 3/lang x 18 = 54 calls; 48 valid.",
+   "numbers": "n=2,3,2,2; 54 calls; 48 valid",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:33-55,98",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "sat (Santali/Ol Chiki): every engine CER >=0.613 (indicphotoocr 0.613 best local, surya 0.736, tesseract 0.865, easyocr 0.876; paddle/rapidocr/anuvaad 1.000); 0 engines emit Ol Chiki, all emit Latin gibberish; tesseract sat.traineddata 404 upstream (tessdata/best/fast).",
+   "numbers": "sat n=18; best local 0.613; sarvam 0.216 n=2",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:84; docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:121,124",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "mni (Meitei Mayek) per-lang CER: tesseract 0.845, indicphotoocr 0.918, surya 0.967, easyocr 0.904, doctr 0.949; all four main engines 100% empty in abstention table; sarvam 0.026 on n=2 only.",
+   "numbers": "mni n=14; surya 0.967",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:78; docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:39",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ks (Kashmiri, Nastaliq): best local engine surya 0.589 (McNemar p<0.0006), easyocr 0.678, tesseract 0.781, indicphotoocr 0.926; sarvam 0.630 (n=3). ks is a BARRED lang (CER unreliable, GT garbage) so surya 'win' is on unreliable GT.",
+   "numbers": "ks n=100; surya 0.589; easyocr 0.678",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:76,126,129-131",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ur (Urdu): surya 0.623, easyocr 0.681, tesseract 0.792, paddle 0.872; barred lang per section 6.4; sd surya 0.315 vs paddle 0.420.",
+   "numbers": "ur n=100; sd n=75",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:85-86,66",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Barred langs per sec 6.4 lock: ks, mni, mr, sat, ur, ne-PDF-tier; per-lang CER is honest-engine score but GT is garbage/fill-only; do not compare to Sarvam 87.39; no training on them (W6 INFEASIBLE list).",
+   "numbers": "6 barred cells",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:66,129-131,150",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "or (Odia): tesseract_indic 0.256, bilingual 0.258, surya 0.276, indicphotoocr 0.353, sarvam 0.447 (n=3); paddle/rapidocr/anuvaad 100% empty; easyocr 0.809 (Odia unsupported effectively).",
+   "numbers": "or n=66",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:81",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "sa (Sanskrit, 99 items): surya 1.000 (129 honest-empty from layout-parse fail, mostly sa); easyocr 0.168, paddle 0.171, tesseract 0.253/0.237, indicphotoocr 0.462, sarvam 0.019 (n=3).",
+   "numbers": "sa n=99; surya 1.000; 129 empty",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:83,127",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "doi (Dogri) per-lang: surya 0.226, tesseract 0.269, easyocr 0.314, indicphotoocr 0.427; sarvam 0.056 n=3; n=22 so no winner; paddle 100% empty.",
+   "numbers": "doi n=22",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:72",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya coverage: 1227/1227 + 30 EN; 1098 non-empty, 129 honest-empty; wins 9 langs. Surya earlier stuck at 726 packs (busy-loop PID 15941) and auto-restarted 5:45PM.",
+   "numbers": "1098/129; 726 stuck",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:23,122-127",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "EN sanity column (30 items): surya CER 0.1514/WER 0.2601/word-acc 73.99%; paddle 0.2495; doctr 0.3957; rapidocr 0.4535 (restored from 1.0 broken, fix run_probe.py:290-291); easyocr 0.6036; indicphotoocr 0.6710; tesseract family 0.8077; anuvaad 1.0. Harness verdict INTACT.",
+   "numbers": "EN CER 0.1514..1.0",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:162-178",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Tier-1 routing draft (W6 feasible-now baseline): sec 6.2 tier routing + per-script engine routing + restoration pre-pass (R4); Devanagari surya first / tesseract fallback; Perso-Arabic surya; Odia/Gurmukhi tesseract family; sat/mni sarvam-only. No compute cost.",
+   "numbers": "no cost",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:148,152-160",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 FEASIBLE IF: local QLoRA on SAFE langs kok/mai/or/pa (>=50; brx borderline 67), 3-4B @4-bit ~3GB MLX, laptop ~43% free memory, swap ~97% (UNKNOWN at call time); sat/ks micro-repair only if W5 time permits.",
+   "numbers": "kok/mai/or/pa; 3-4B 4-bit ~3GB; swap 97%",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:149",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Plan v4 24GB GPU via Vinay SSH (ledger C-15) and Bodhan/IndicBlockOCR route"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "INFEASIBLE UNDER OLD RULES: cloud GPU rental (no budget, D1), new backbone invention, paid APIs beyond Sarvam 54-cap, training on barred langs ks/mni/mr/sat/ur + ne PDF-tier, sarvam_fill in SFT/RLVR.",
+   "numbers": "D1 no budget",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:150",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Vinay 24GB VRAM SSH GPU (ledger C-15, line 135)"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open user-decision gates (2026-09-28): GPU budget for W6 QLoRA; Sarvam EN extension; 20-item human spot-check (gu_o005); rapidocr EN fix; full Sarvam API run 1,227 items for a valid 'Beat 87.39' claim; resample vs keep 100/lang lock.",
+   "numbers": "6 gates; 1,227 items; 100/lang",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:133-140",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam 0.24 vs surya 0.38 headline is statistically invalid: sarvam n=54 (48 valid) Wilson 95% CI ~0.151-0.329 (+-0.15), surya n=1227 CI +-0.013 [0.372,0.398]. Claim 'beat 87.39' needs full 1,227-item Sarvam run.",
+   "numbers": "CI 0.151-0.329; +-0.013",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/santa_method_cross_check.md:113-122; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:139",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "FS-010 spec: add Wilson 95% CI to every per-lang/overall CER (sec 6.7; campaign sec 9.3). Caveat: Wilson is a binomial-proportion interval, applied here to CER (a mean error rate) - methodologically loose; examples inconsistent (sarvam n=3 'CI 0.151-0.329' vs per-item 0.001 n=2 [0.000-0.054]).",
+   "numbers": "z=1.96; surya [0.372,0.398]",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-010.md:10-69",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar discipline: two-sided exact McNemar on discordant pairs per (engine pair x lang), pass = CER<0.5 per item; pairs n_common<30 excluded; n_common<50 flagged low_conf (D4). Family 55 pairs x 19 langs = 1045 triples; computed 606, skipped 439.",
+   "numbers": "1045/606/439",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/mcnemar_summary.md:6-12",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "McNemar wins/losses (p<0.05): surya 67W/8L/42T, easyocr 36/15/66, indicphotoocr 33/27/63, tesseract_bilingual/indic/openbharatocr 28/15/80, paddle 27/24/66, rapidocr 15/51/57, anuvaad 12/33/78, doctr 6/77/40; sarvam 0/0/0 (n too small).",
+   "numbers": "surya 67-8-42",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/mcnemar_summary.md:14-28",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-lang McNemar partials: surya beats 9 opponents on bn, brx, hi, kok, ks; sd surya 7 / paddle 7; or and pa are tesseract-family/indicphotoocr/surya 5-way ties; sa easyocr 5 / paddle 5 (no outright winner); en doctr 6 partial.",
+   "numbers": "surya 9 on bn/brx/hi/kok/ks",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/mcnemar_summary.md:34-43",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya McNemar claims: brx p<0.012, ks p<0.0006, kok p<0.008 (leaderboard) - note leaderboard line 156 says 'surya dominates Devanagari at p<0.008' but mr/or are tesseract wins and sa surya empty.",
+   "numbers": "p<0.012/0.0006/0.008",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:109,126,156",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Abstention: LOW-COVERAGE engines (>20% honest-empty on n>=50): rapidocr 486/1370 (35.5%), paddleocr_indic 536/1227 (43.7%), anuvaad_tesseract 647/1257 (51.5%). Surya 129/1257 (10.3%). easyocr 0 empty; tesseract/doctr/indicphotoocr ~1-2 empty.",
+   "numbers": "35.5%/43.7%/51.5%/10.3%",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:11-25,46-52",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Scripts with 100% empty for rapidocr+paddle+anuvaad: bn, pa, gu, or, as (+mni, sat all four incl surya); ne rapidocr 54% empty; ks only anuvaad empty. Raw CER 1.000 for these = UNRELIABLE (abstention, not error).",
+   "numbers": "bn n=100, pa 90, gu 20, or 69(66)",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:30-42,74-90",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Abstention rule: report coverage + conditional CER separately (sec 6.7); suppress or footnote winner claims for n>=50 cells with high abstention (bn, pa, brx, ks CAUTION); no winner claims for n<50 cells as, mni, sat, ne, gu, doi.",
+   "numbers": "6 n<50 cells",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:94-111,138",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "D4 micro-repair only sat+ks (5-10 pages each) if W5 freeze-safe; ks promising: rapidocr 71% Arabic share, easyocr urdu.pth loads cached arabic.pth with Urdu charset; sat blocked (no tesseract sat traineddata).",
+   "numbers": "5-10 pages; 71% Arabic",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:115-124",
+   "status": "PLAN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya 'sa=100% honest-empty is CORRECT because Surya 2 has no Ol Chiki' - but sa is Sanskrit (Devanagari); Ol Chiki is sat, and surya emits sat output (0.736). The justification is mislabeled; surya sa failure is layout-parse failure on Devanagari Sanskrit.",
+   "numbers": "sa surya 1.000 n=99; sat surya 0.736 n=18",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:14,56-60; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:23,84,127",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Surya 2 supports 91-language benchmark per audit; spot-check sa_d029 empty confirmed.",
+   "numbers": "91 langs",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:58-60",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "H48 hostile pass (Santa-method 2 blind reviewers, consensus>=2) found 16 issues in CALL_PACKET.md vs FINAL_VERDICT vs LEADERBOARD: 3 CRITICAL, 3 HIGH, 5 MEDIUM, 5 LOW. Recommendation: refresh CALL_PACKET; FINAL_VERDICT authoritative for engine status.",
+   "numbers": "16 = 3+3+5+5",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/santa_method_cross_check.md:126-138",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "FS-001/002/003/004: CALL_PACKET said 'ALL 11 ENGINES SCORED', 'surya DONE 19:33', paddleocr_indic DONE 0.6562, '6/10 local' - specs rewrite to 8/11 scored, surya RUNNING PID 15941, paddle NOT IN QUEUE, 9/9 local. These specs are STALE vs LEADERBOARD (19:33 shows all 11 done incl surya and paddle 1227 packs 0.6562).",
+   "numbers": "8/11 vs 11/11; paddle 1227 packs",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-001.md:11-29; FS-VERDICT-H48-003.md:11-29; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:6,20,96",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": "LEADERBOARD.md refresh 2026-09-29 05:30 (line 142)"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "FS-005: indicphotoocr 994/1227 running -> 1257/1227 DONE (1255 non-empty, 2 empty, 0 errors). Evidence internally inconsistent (cites FINAL_VERDICT '15 langs 963 packs DONE').",
+   "numbers": "994 -> 1257; 963",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-005.md:11-39",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "FS-006: Kashmiri PDF trust 29/100 wrong; gt_forensics.json trust_score ks=45.0 (VERIFY-FIRST) but ks BARRED by AGENT_PROTOCOL 6.4 (visual 0/10 pass, visual fail >20% triggers BAR). Other trust scores: ne=26.6, mr=46.8.",
+   "numbers": "ks 45.0 (not 29); ne 26.6; mr 46.8",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-006.md:11-19,45; docs/campaign/checkpoints/W4_reports/A6_staging/santa_method_cross_check.md:65",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "FS-006 file body is corrupted: Required Change block contains pasted graphify audit text (Tautology pattern #4, shared-pool bias 167 files/~339K words, mni/sat/ks underrepresented) not the fix; contains factchk numbers list (87.39, 53.91, 54.82, 55.3, 80.01, 10,434, 617 honest-empties, $15-30, 436 records). Do not treat as clean spec.",
+   "numbers": "167 files; ~339K words",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-006.md:26-40",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Human gold pairs = 10,432 (bn 2,938 + hi 3,500 + sa 494 + en 3,500), not 10,434 (FS-007). AGENT_PROTOCOL sec 9 states 10,432.",
+   "numbers": "2938+3500+494+3500=10,432",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-007.md:14-17,41",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Per-language Sarvam scores 53.91/54.82/55.3/80.01 are publicly unverifiable (blog gives only 87.39 headline, 84.3 olmOCR English subset, 87.3 olmOCR-Bench); OBITUARIES.md O-02..O-05 declare all four DEAD-for-decisions (transfer obituary law sec 9.2); cite docs/research/level7/c/c4/OBITUARIES.md.",
+   "numbers": "53.91/54.82/55.3/80.01; 87.39; 84.3; 87.3",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-008.md:12,24",
+   "status": "DEAD",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "FS-009: LEADERBOARD '19/18 langs' labeling bug (probe is 18 langs + EN sanity of 30 items); current LEADERBOARD shows '18/18 + EN' so already applied.",
+   "numbers": "18 langs; EN 30 items",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-009.md:11-44; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:16-25",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "All 10 fix specs owners: Miss Agent for CALL_PACKET (001-008), Engine Agent for LEADERBOARD (009-010); law = sec 9 evidence law ('disk-verified claims'). Evidence law: external numbers need obituary citation.",
+   "numbers": "10 specs",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/FS-VERDICT-H48-001.md:40-47",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe sampling: 100/lang lock; per-lang n: bn 100, brx 66, hi 100, kok 100, ks 100, mai 100, mr 79, ne 34, or 66, pa 90, sa 99, sd 75, ur 100, as 17, doi 22, gu 20, mni 14, sat 18. Audit cites different n (or 69, ne 37, as 19, mni 20, sat 20, doi 27, brx 67).",
+   "numbers": "n values per leaderboard",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:70-86; docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:30-42,100-105",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Coverage table 'Langs with >=1 real output': anuvaad 8/18, paddle 8/18, rapidocr 11/18, surya 17/18, others 18/18 + EN. rapidocr 1370 packs 884 non-empty 486 empty (leaderboard states 647 honest-empty at line 116 - conflict).",
+   "numbers": "8/18; 11/18; 17/18",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:15-25,116",
+   "status": "CONTRADICTION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "anuvaad_tesseract is hin+eng only (no EN model: EN CER 1.0 honest-empty); paddle covers 8/18 langs only; doctr overall CER 0.8691 (unusable on Indic).",
+   "numbers": "doctr 0.8691",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:117,175",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Fusion (best-of-N) disproven by gate G-B12: 0/115 pages beat best single engine; LLM-made GT (Gemini) breaks rule L7; GitHub issues #2-#4 (fusion) and #6 should be closed - boss never said close.",
+   "numbers": "0/115 pages; issues #2,#3,#4,#6",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:29-31,43-47",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Round-1 reference findings (old South set): 26 of 126 sealed CER pages have legacy-font GT; corrected n=100 basis surya 0.347 / anuvaad 0.351; only 66 pages in own South script; pseudo-GT dead. Sep-16 correction (K-29) still owed. Sep-16 package contradicts itself (63 legacy layers vs 26 scored); 'human gold' true only for Telugu; SPEC_100 must never be cited.",
+   "numbers": "26/126; n=100; 0.347/0.351; 66; 63 vs 26",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:105-111,126-131",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Vinay's answers (second-hand, DERIVED): SSH access to 24 GB VRAM GPU; no clear communication, expect 10 days (unconfirmed, assumed Bhashini); registered company yes; call morning 2026-10-01 (proto-106 Q6).",
+   "numbers": "24 GB VRAM; 10 days",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:135-144",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Everything free: Sarvam only on free credit; Rs100 is free credit not the price; Rs67 left; 12 Sarvam calls (~Rs6) made but outputs NOT retrieved (T3 open).",
+   "numbers": "Rs67; 12 calls ~Rs6",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:146-149,163",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "External claims fact-checked: Sarvam Vision 2.1 (24 Sep; 87.3 olmOCR-Bench; 87.39 Indic bench; SFT->RLVR), olmOCR-2 GRPO, PaddleOCR-VL 1.6, dots.ocr true; Laya as pre-OCR router wrong (text-only); '8 candidates +4-6%' unsourced; sarvamai/indic-ocr-bench Apache-2.0 human GT 22 langs + en found.",
+   "numbers": "87.3; 87.39; Apache-2.0",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:169-185",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Benchmark data: 22-language benchmark in level2/benchmark/ = 18 langs + en = 1,283 items; South added from Sarvam bench -> manifest_v2 = 1,683 items (proto-104 R-7); X's 6,909 items include South items (never double-count); South v1 retires at S6.",
+   "numbers": "1,283; 1,683; 6,909",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:161-162,328",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open HF gated repos: bodhan-ai/indic-ocr, hari31416/indic-ocr-mlx-4bit, hari31416/indic-ocr-mlx-bf16 (boss forms as Maya0769); cloud cannot reach huggingface.co (proxy rejected 7 connections); token never on GitHub; rotate after download.",
+   "numbers": "3 repos",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:270-281",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Operating rules from boss: planner no labour; solo, all 22 langs+en, no teammates; Mac M4 runs tonight (caffeinate/tmux, --skip-existing, RUN_STATE, 20 GB disk floor) then GPU; 'done' = output in W4.md + reproducing command; builder never self-certifies; no commit/push except boss/campaign-docs; never delete.",
+   "numbers": "20 GB floor",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:186-196,330-339",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open agent items: Agent1 H1 vision check (35.7% Devanagari vs Bengali viewing), S4, retrieve 12 Sarvam outputs (T3), D1; Agent3 requirements.txt+Dockerfile (CPU/CUDA, MLX optional)+X runner (T7); step Q GT_DEFECTS.md before D2; Gate 2.5 before any training; Sep-25 vs Sep-29 meeting-date contradiction.",
+   "numbers": "T1-T7; Gate 2.5",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:310-328",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Product principle: portable (MLX never assumed); Docker CPU/CUDA; Sarvam/Bhashini Level-3 was old lever L4; Laya NOT used (proto-88); GRPO/CER reward last optional stage.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/CONCERN_LEDGER_CLOUD_SESSION_2026-09-30.md:25-28,183-185,204",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 lacks the barred-cell list (ks, mni, mr, sat, ur, ne-PDF) and no-training-on-barred-langs rule; per-lang CER on those cells is unreliable (LEADERBOARD.md:66,129-131,150).",
+  "No abstention policy: report coverage + conditional CER separately and suppress winner claims at n<50 or high-abstention cells (abstention_audit.md:111,138).",
+  "No Wilson/CI and McNemar-exact paired-comparison requirement for comparing engines; Bodhan 71.3 vs Gemini 74.8 style deltas need CIs (FS-VERDICT-H48-010.md:79; mcnemar_summary.md:6-12; santa_method_cross_check.md:122).",
+  "Printed-engine baselines missing: surya CER 0.3849 overall, per-script routing (Devanagari/Perso-Arabic surya; Odia/Gurmukhi tesseract), sat/mni Sarvam-only (LEADERBOARD.md:152-160); Plan v4 only has Tesseract fallback and ignores surya as printed baseline.",
+  "Plan has no sat/mni/ks micro-repair path (easyocr urdu.pth for ks, synthetic for Ol Chiki) and does not note tesseract sat.traineddata 404 (abstention_audit.md:115-124).",
+  "Evidence law: external numbers (e.g., Bodhan-HW 74.8/71.3/58.3, ICDAR 96.10) need obituary/source verification; per-lang Sarvam numbers 53.91/54.82/55.3/80.01 are DEAD-for-decisions (FS-VERDICT-H48-008.md:24).",
+  "Stale-status risk: docs asserted engine completion contradicting disk truth (16 issues in H48 hostile pass); plan needs a disk-truth verification step and 'done = output + reproducing command' rule (santa_method_cross_check.md:126-138; CONCERN_LEDGER:95).",
+  "Plan does not carry the 'no best-of-N fusion' kill (G-B12 0/115) or LLM-made-GT (rule L7) prohibition (CONCERN_LEDGER:29-31).",
+  "Free-only/Sarvam Rs67 budget and the unretrieved 12 Sarvam outputs, HF gated-repo forms, and token rotation are not in Plan v4 ops (CONCERN_LEDGER:149,163,270-281).",
+  "Sep-16 correction (26/126 legacy-font GT pages) and double-counting of South items within X's 6,909 not addressed (CONCERN_LEDGER:105-111,328).",
+  "Restoration pre-pass (R4) and sec 6.2 tier routing named as 'feasible now' no-cost baseline but absent from Plan v4 (LEADERBOARD.md:148)."
+ ],
+ "contradictions": [
+  "LEADERBOARD.md:6 (all 11 engines scored, surya done) vs FS-VERDICT-H48-001/002/003 and Santa cross-check (8/11, surya RUNNING, paddle not in queue) - timing/staleness; leaderboard later refreshed 2026-09-29.",
+  "abstention_audit.md:14,58 says surya sa empty because 'no Ol Chiki' but sa=Sanskrit; Ol Chiki=sat.",
+  "Abstention/leaderboard n and empty counts differ (rapidocr 486 vs 647 empty; or 66 vs 69; ne 34 vs 37; paddle '12 langs empty' vs 8/18 coverage).",
+  "FS-005 evidence cites 963 packs vs 1257 packs.",
+  "LEADERBOARD.md:156 says surya dominates Devanagari yet sa surya 1.000 and mr/or tesseract wins; lines 159-160 call pa tesseract-tied winner while winner table has surya 0.145 vs tesseract 0.226.",
+  "Surya/winner claims on barred langs (ks, ur) despite barred status.",
+  "LEADERBOARD.md:66-69 table header has 11 engine columns but 13 separators; LEADERBOARD header says winners table verified but Wilson CIs not yet added."
+ ],
+ "open_items": [
+  "Whether FS-001..010 were ever applied (status 'READY FOR APPLICATION').",
+  "Vinay '10 days' meaning unconfirmed; Sep-25 vs Sep-29 meeting date.",
+  "GPU budget/W6 QLoRA on kok/mai/or/pa; full 1,227-item Sarvam run for the 87.39 claim; 20-item human spot-check (gu_o005).",
+  "H1 vision check (35.7% Devanagari vs Bengali), Gate 2.5, step Q GT_DEFECTS.md.",
+  "GitHub issues #2/#3/#4/#6 close decision and PR #12 keep-as-reference."
+ ]
+}

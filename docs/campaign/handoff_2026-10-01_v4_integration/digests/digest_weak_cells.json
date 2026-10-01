@@ -1,0 +1,374 @@
+{
+ "theme": "weak_cells",
+ "established": [
+  {
+   "fact": "No local/open engine emits Ol Chiki: 0/200 Santali predictions (20 items x 10 engines) and 0/1,755 GT Ol Chiki chars; only sarvam_vision emits it (316 chars over 3 items). Surya 2 does not list Ol Chiki. Sat best local = indicphotoocr CER 0.6514, surya 0.7621 (n=20).",
+   "sources": "docs/campaign/EDGE_THESIS.md:21,33; docs/campaign/BOSS_EXPLAINER.md:14-15; docs/campaign/checkpoints/W1_reports/1E_lensB.md:61-71"
+  },
+  {
+   "fact": "Meitei Mayek likewise: no local engine emits it; best local mni = tesseract 0.855-0.858, surya 0.977-1.000 (n=20); mni GT is 100% sarvam_fill (visual pass 0%), so mni CERs are measured against garbage.",
+   "sources": "docs/campaign/BENCHMARK_22.md:94-115,279-299; docs/research/level7/HUMAN_SPOTCHECK_PACKET.md:34-41,45,55; level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:298-314"
+  },
+  {
+   "fact": "Sarvam Vision 2.1 Indic OCR Bench word-accuracy cells (higher=better): Santali 53.91, Kashmiri 54.82, Odia 80.01, Manipuri 85.12; Maithili 96.70, Konkani 97.41, Nepali 97.00. Vendor harness numbers (87.39 overall) are DEAD for decisions, directional only; they are not CER.",
+   "sources": "docs/research/level7/a/LEDGER.md:1257-1260; docs/research/level7/a/LEDGER.md:3821; docs/research/level7/c/c4/OBITUARIES.md:133-149"
+  },
+  {
+   "fact": "Bodhan vs Sarvam on the same bench: sat 68.30 vs 53.91 (Bodhan +14.39), ks 48.04 vs 54.82, or 75.45 vs 80.01, mni 82.85 vs 85.12, kok 95.99 vs 97.41; Gemini 3.6 Flash beats Sarvam on Odia (81.01 vs 80.01). Kashmiri is worst cell for everyone.",
+   "sources": "docs/research/level7/a/LEDGER.md:1188-1191; _claude_memory/proto-89-plan-v3-bodhan-base.md:15-16; _claude_memory/proto-93-measured-facts.md:80"
+  },
+  {
+   "fact": "Kashmiri is flat across Sarvam generations (55.93 -> 54.82), i.e. a structural Nastaliq problem; no off-the-shelf model wins ks (Bodhan 48.04, Gemini 36.04, Surya 26.27).",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:40; LIVE_LATEST_2026-09-29.md:88,94"
+  },
+  {
+   "fact": "ks probe (n=100): surya 0.589 best local, easyocr 0.678, tesseract 0.781, indicphotoocr 0.926. GT is fragmented (short_token_frac 0.658-0.863), so ks CER is unreliable; ks is BARRED from SFT and ks micro-repair was killed at K2.",
+   "sources": "docs/research/level7/CALL_PACKET.md:275; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:76,126,129-131; docs/research/level7/HUMAN_SPOTCHECK_PACKET.md:62-65,54"
+  },
+  {
+   "fact": "ks script fidelity: rapidocr ~71% Arabic share, tesseract family 40-42%, doctr/indicphotoocr 0%. Script-mismatch routing gives zero gain on ks/ur/sat (Nastaliq output is script-invariant).",
+   "sources": "docs/research/level7/W5_FREEZE_AGENDA.md:101-106; docs/research/level7/a/LEDGER.md:6827; docs/campaign/EDGE_THESIS.md:16,25"
+  },
+  {
+   "fact": "Worst measured n>=50 probe22 cells (surya CER, worst first): ur 0.6232, ks 0.5894, bn 0.4763, kok 0.4248, sd 0.3155, or 0.2588, hi 0.2198, mr 0.2046, sa 0.1751, brx 0.1653, pa 0.1447, mai 0.0298. Winner split at n>=50: surya 9, tesseract-family 2, easyocr 1.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:58; docs/campaign/checkpoints/W1_reports/1H_verify.md:77,78"
+  },
+  {
+   "fact": "Odia: tesseract-family wins (tess_indic 0.2588 vs bilingual 0.2606, n=69; older 66/0.256 stale); surya ~0.276-0.285; paddle/rapidocr 100% empty; easyocr effectively unsupported. Odia GT usable (91.7% visual pass). K1 killed or QLoRA (surya loses to tesseract).",
+   "sources": "docs/campaign/checkpoints/W1_reports/1G_verify.md:66-68,72-74,89,293-296; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:81; level2/benchmark/docs/fix_specs/W1A_PACKET_AUDIT.md:232"
+  },
+  {
+   "fact": "Sec 6.4 LOCKED GT verdicts: BARRED = ks 0%, mni 0%, ur 10%, sat 15%, mr 42.9%, ne PDF-tier (R5 trust 26.6); SAFE-pending = as/brx/doi/kok/mai/or/pa; VERIFY-FIRST = gu, sd. 6 of 18 probe langs barred from training; sarvam_fill never trains.",
+   "sources": "docs/research/level7/PROMPT_ENGINE_AGENT.md:32-35; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:66,129-131,150; LOOP_SPEC_W5_W6_W7.md:86,282-286"
+  },
+  {
+   "fact": "Honest per-language n (probe22/manifest_v2): as 19, sat 20, mni 20, gu 24, doi 27, ne 37, brx 67, or 69; labelled 1,683 of 2,200 (deficit 517); scored 1,227 of 1,283 probe22 + 126/400 South. n<50 = no winner claims; gates may not be relaxed.",
+   "sources": "docs/campaign/SAMPLING_PLAN.md:11,19,49; docs/campaign/checkpoints/W4_reports/blind_verify_100strike.md:33-59; docs/campaign/DRAFT_RESEARCH_PLAN.md:86-95"
+  },
+  {
+   "fact": "Short-language pools are exhausted within honesty gates (only +17 closable: as +11, gu +6): mni 1,353/1,353 text pages rejected, sat 0/207 pages have a text layer, gu 3,486/3,567 mojibake. Official image+transcription pairs for these: 0 usable.",
+   "sources": "docs/campaign/SAMPLING_PLAN.md:16-18,82-95; docs/campaign/checkpoints/W2_reports/variance.md:88-95,99-105"
+  },
+  {
+   "fact": "South (ta/te/kn/ml) official PDFs: 0/23,001 pages clean (76% legacy-font mojibake); South v1 only 126/400 carry CER (ta 70, te 26, kn 25, ml 5 by lang tag; kn/ml ~4 by dominant script). South was redrawn from Sarvam-bench fill (seed 20260926).",
+   "sources": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md:9-24,43-48; docs/campaign/SAMPLING_PLAN.md:55; docs/campaign/checkpoints/W_south_reports/S2_RUN_LIST.md:7-28"
+  },
+  {
+   "fact": "K1 erratum: only Konkani passes (surya 0.4248 vs easyocr 0.6186 = 19.4 pt; McNemar p=0.0033, 31 discordant, n=100). Punjabi is a TIE vs tesseract_indic (n=90, 87 ties, 3 discordant, p=1.0). QLoRA scope = Konkani only (mai, or killed; pa not significant).",
+   "sources": "docs/campaign/checkpoints/W1_reports/1G_verify.md:129-131; docs/campaign/checkpoints/W1_reports/1H_verify.md:32,154; level2/benchmark/docs/fix_specs/W1H_PLAN_FIXES.md:12,25"
+  },
+  {
+   "fact": "surya emits 100% empty on Sanskrit (100/100, CER 1.000) while sa is Devanagari; docs that label it 'Ol Chiki bug' are wrong (sa GT Ol Chiki 0.000). easyocr holds sa at 0.175. 67% of the fusion oracle gap is this one cell; ex-sa gap is 0.0332.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:91,234; docs/campaign/checkpoints/W1_reports/1G_verify.md:132; docs/campaign/checkpoints/W1_reports/1E_lensC.md:95-131"
+  },
+  {
+   "fact": "Fusion/ensemble is not a lever: oracle over 10 engines 0.3213 vs surya-always 0.4190 (gap 0.098, 67% from sa); akshara-validity argmax 0.6766 (worse than surya); script-mismatch abstention recall 0.0-5.2%; B-08 >=3-family agreement is a triage flag only (~5% coverage).",
+   "sources": "docs/campaign/DRAFT_RESEARCH_PLAN.md:220; docs/campaign/checkpoints/W1_reports/1E_lensB.md:106-135; docs/campaign/EDGE_THESIS.md:16,25"
+  },
+  {
+   "fact": "Human-verified pooled tier (n=18): Sarvam CER 0.171 vs best local 0.430 (2.51x); all 21 item-level local wins were in the PDF-text-layer tier. 'We beat Sarvam on its weak cells' is not supported by validated data.",
+   "sources": "docs/campaign/VAJRASTRA_SHEET_AUDIT.md:11-18,34"
+  },
+  {
+   "fact": "OldScan 55.3 is an olmOCR-Bench (English-only) column, not an Indic probe22 cell; probe22 has no OldScan subset. Field-wide worst column: Surya 2 42.8, Chandra-OCR2 49.2-51.1, Mistral OCR4 48.9, Opus 5 54.0, Sarvam 55.3, LightOnOCR-2 84.7 (different table versions).",
+   "sources": "level2/benchmark/docs/fix_specs/W1A_PACKET_AUDIT.md:175,206,216,608-609,668; docs/research/level7/a/LEDGER.md:6706; docs/research/level7/a/LEDGER.md:4910"
+  },
+  {
+   "fact": "R4 OldScan spec: arms A0 none / A1 deskew+Otsu / A2 deskew+Sauvola / A3 DocRes pilot (n<=8); adopt iff median dCER <= -0.03, 95% bootstrap CI excl 0, >=2/3 frozen engines, no dot/matra regression, CPU <=60 s (classical). Status: designed, never run; no labelled old-scan slice exists.",
+   "sources": "_claude_memory/proto-100-research-to-build.md:38; docs/research/level7/a/LEDGER.md:53-58; docs/research/level7/a/LEDGER.md:3414"
+  },
+  {
+   "fact": "Restoration evidence is Latin-only (PreP-OCR -63.9..-70.3% CER on 13,831 historical English/French/Spanish pages; DIBCO Latin/Greek). Super-resolution helped low-res but hurt high-res (87.44 vs 88.13). Judged likely net-negative for Nastaliq; must be conditional and gated.",
+   "sources": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:567-569; docs/campaign/checkpoints/W1_reports/1F_onepager.md:30; docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:597-599"
+  },
+  {
+   "fact": "R2 Nastaliq recipe: QARI (Qwen2-VL-2B) CER 0.550 -> 0.061 on 50k pure-synthetic lines; UTRSet synth-only 75.14% vs real-trained 90.87% (15-pt residual) so add 300-500 real ks lines. B-03 gate: ks CER <=0.20 on held-out real lines, abort >0.30. CTC fails Nastaliq (needs autoregressive decoder).",
+   "sources": "docs/research/level7/a/LEDGER.md:41-46; _claude_memory/proto-100-research-to-build.md:35; docs/research/level7/c/c3/LEDGER.md:86"
+  },
+  {
+   "fact": "4-bit hurts Arabic-script: QARI CER 3.45 at 4-bit vs 0.091 at 8-bit (B-01 bans 4-bit for ks/ur/sd unless within 1 CER pt). Bodhan Gate 1 4-bit vs bf16 is near-identical overall (sample-100 0.6878 vs 0.6863; pair-only 0.4034 vs 0.4010) but not tested on Perso-Arabic.",
+   "sources": "_claude_memory/proto-100-research-to-build.md:33; docs/campaign/DRAFT_RESEARCH_PLAN.md:25-30"
+  },
+  {
+   "fact": "Up to 3-8 pts of ks/ur/sd CER may be a scoring artefact (NFKC, yeh/kaf variants, digits, punctuation, LRI/PDI bidi isolates). B-02: opt-in normalize_arabic module, default metrics.py stays locked, report raw AND normalized; gate = reduces CER gap >=3 pts.",
+   "sources": "docs/campaign/B02_ARABIC_NORMALIZATION.md:5-12,132; docs/research/level7/c/c3/LEDGER.md:188; _claude_memory/proto-100-research-to-build.md:34"
+  },
+  {
+   "fact": "Kashmiri data: 600K-KS-OCR (arXiv:2601.01088; ~602,000 word images 256x64, ~10.6 GB) has CC-BY-4.0 tag but an embedded 'Controlled Research Access License' -> HOLD, no product use until authors confirm. KS-PRET-5M (5,090,244 words, CC-BY-4.0) is default render-string base; Koshur Pixel 613,078 pairs licence unverified.",
+   "sources": "_claude_memory/proto-92-boss-decisions.md:34; docs/campaign/checkpoints/W4_reports/RQ9_licences.md:24,338-341,384-386; docs/research/level7/c/c3/LEDGER.md:765"
+  },
+  {
+   "fact": "Ks render needs Kashmiri Yeh U+0620: Awami Nastaliq >=3.300 (OFL, Oct 2024); every ks batch must include U+0620 strings, pin font version; Jameel Noori excluded. Noto Nastaliq Urdu covers ~95% of Kashmiri glyphs.",
+   "sources": "docs/research/level7/c/c3/LEDGER.md:164; _claude_memory/proto-100-research-to-build.md:35; product/docs/B21_SYNTHETIC_LINES_SPEC.md:38-45"
+  },
+  {
+   "fact": "R3 fonts: Ol Chiki has one verified OFL design (Noto Sans Ol Chiki, 4 weights); Meitei Mayek has Noto (9 weights) + SIL Eeyek (font-disjoint val). Machine has 1 Ol Chiki and 10 Meetei Mayek fonts. Gate >=80% in U+1C50-1C7F / U+ABC0-ABFF; HarfBuzz/RAQM mandatory for Mayek.",
+   "sources": "docs/research/level7/c/c3/LEDGER.md:252; docs/research/level7/c/c3/LEDGER.md:320; docs/campaign/DRAFT_RESEARCH_PLAN.md:138"
+  },
+  {
+   "fact": "GlotOCR attributes low-tier failure to script-level pretraining coverage, not font availability; the 'fonts are the constraint' framing is suggestive only. Synthetic-only caps CER (Nayana 0.227 vs Tesseract 0.206); synthetic scores do not predict real-scan rank; synth is a gate, never eval.",
+   "sources": "docs/campaign/checkpoints/W1.md:238; docs/campaign/checkpoints/W1_reports/1H_verify.md:53,157-158; docs/research/level7/a/LEDGER.md:47-52"
+  },
+  {
+   "fact": "NE-OCR (MWire Labs, CC-BY-4.0, 86M ViTSTR+CTC): Meitei Mayek 95.56% char-acc vs EasyOCR 2.50% / Tesseract 2.24%; Chandra CER 184% on Mayek (VLM hallucination); word/line crops <=32 chars, needs external detector. Candidate mni specialist; evaluate vs Bodhan on 20 mni items.",
+   "sources": "docs/research/level7/c/c2/LEDGER.md:91,92,93; _claude_memory/proto-100-research-to-build.md:36"
+  },
+  {
+   "fact": "Printed low-resource specialists exist (Mozhi-LR, CRNN+LM, IIIT-H ICDAR 2024): Kashmiri word acc 93.80, Ol Chiki Santali 96.58 (synthetic-only head), Bodo 97.22, Nepali 95.13 (different data than Sarvam bench). Their ks real pages are Devanagari, not Nastaliq.",
+   "sources": "docs/research/level7/a/LEDGER.md:345-348; docs/research/level7/a/LEDGER.md:5054; docs/research/level7/c/c3/LEDGER.md:232"
+  },
+  {
+   "fact": "indic-ocr tessdata (Apache-2.0) includes sat.traineddata 1,546,915 B and mni.traineddata 2,843,488 B; cleared as U7, supersedes 'licence unverified' and the 40-70 MB estimate (that was six languages at 8-15 MB each). Quality on real scans untested; download needs boss.",
+   "sources": "docs/campaign/RESEARCH_DECISIONS.md:39; docs/campaign/MULTI_LLM_EVAL.md:66; docs/campaign/checkpoints/W1.md:60,94,237"
+  },
+  {
+   "fact": "Tesseract on disk (probe22/tessdata) = 12 files (asm ben eng guj hin mar nep ori pan san snd urd). tam/tel/kan/mal exist elsewhere (/opt/homebrew, anuvaad); only mni and sat are genuinely missing. sat.traineddata upstream tessdata/best/fast returns 404.",
+   "sources": "docs/campaign/checkpoints/W1_reports/1F_sonnet.md:36-40,222; docs/campaign/checkpoints/W1_reports/1H_verify.md:60,160-161; docs/campaign/checkpoints/W1.md:94,144"
+  },
+  {
+   "fact": "Script identification cannot route the dead scripts: IndicPhotoOCR script-ID (ViT) has 12 classes, no sat and no mni; routing must use Unicode ranges on recognised text (Ol Chiki U+1C50-1C7F, Mayek U+ABC0-ABFF) and IndicLID/GlotLID for same-script languages.",
+   "sources": "docs/campaign/RESEARCH_DECISIONS.md:43; _claude_memory/proto-89-plan-v3-bodhan-base.md:33; _claude_memory/proto-97-research-still-to-do.md:92"
+  },
+  {
+   "fact": "Santali is multi-script in practice: 16/20 sat probe items are bilingual (Ol Chiki + Bengali transliteration, word counts 1.00 ratio); Ol Chiki share of GT disagrees across five measurements (0.543/0.443/0.543/0.4331/0.6764); cell is not saturated (floor 0.324-0.567 vs best 0.6514).",
+   "sources": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:49-59; docs/campaign/checkpoints/W1.md:48; docs/benchmark_docs/LIST.md:28"
+  },
+  {
+   "fact": "Licence constraints on the weak-cell path: surya weights evaluation-only (OpenRAIL-M s2(c), $5M cap, s8 share-alike); Bodhan hosting needs written approval (s3.1/s3.2 internal component); EasyOCR .pth weight licence open; UTRSet/UTRNet CC-BY-NC (dies for ship).",
+   "sources": "_claude_memory/proto-99-concern-crosswalk.md:146-155,426; docs/research/level7/a/LEDGER.md:3551"
+  },
+  {
+   "fact": "Quantization law from lane C1: PTQ calibration must include Ol Chiki + Nastaliq + Mayek + Odia samples (multilingual ppl 14.64 vs 19.65 English-only); AWQ barred for script-heavy work; never INT3-class on tail scripts; INT8/SmoothQuant lossless on MME-OCR subtask.",
+   "sources": "docs/research/level7/c/c1/LEDGER.md:237-240; docs/research/level7/c/c1/LEDGER.md:34-37; docs/research/level7/c/c1/LEDGER.md:232-235"
+  },
+  {
+   "fact": "Bodhan Gate 1 (CONDITIONAL PASS): bench small_rep n=1,173 CER 0.0540 WER 0.1356 (0.52 s/crop); pair-only 300 gold CER 0.4034 vs surya 0.5660; sample-100 pages CER 0.6878 - strong on printed bench crops, very weak on hard real pages.",
+   "sources": "docs/campaign/DRAFT_RESEARCH_PLAN.md:25-30"
+  },
+  {
+   "fact": "Bodhan handwriting coverage misses 10 languages (brx, doi, kok, ks, mai, mni, ne, sa, sat, sd); plan only schedules ks/ur/sd -> B-02 and sat/mni -> synthetic B-03; brx/doi/kok/mai/ne/sa have no fallback and 'will score poorly on Day-1'.",
+   "sources": "docs/campaign/B12_HANDWRITING_SHARE.md:75-112; docs/campaign/B12_HANDWRITING_SHARE.md:107,112"
+  },
+  {
+   "fact": "Literature gaps: no Kashmiri Nastaliq CER paper; Ol Chiki = digits only (99.13%); Meitei Mayek no OCR paper; Odia char-level only. Best published hard-case CERs: printed Urdu 0.91%, handwritten Urdu 5.27%, handwritten Hindi words 2.14%, degraded Sanskrit print 3.71%. Own measurement is the reference.",
+   "sources": "docs/campaign/RESEARCH_DECISIONS.md:96; docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:436; docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:473-478"
+  },
+  {
+   "fact": "No new engine rescues the weak cells: no dedicated Ol Chiki/Nastaliq/Mayek OCR repos in 2026-03-27..09-27; Unlimited-OCR (OldScan) untested, HunyuanOCR-1.5 needs licence review (Tencent Community License); dots.mocr Old-scans 48.2.",
+   "sources": "docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:236; docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:240; docs/research/level7/b/b5_elite_repos/ELITE_REPO_REFRESH_2026-09-27.md:31"
+  },
+  {
+   "fact": "Engine empties: paddleocr_indic 100% empty on bn/brx/doi/gu/ks/mni/or/pa/sat (brx/doi = confirmed PADDLE_LANG mapping bug); rapidocr no Odia/Malayalam; anuvaad only kan/mal/tam/tel/hin/eng. Raw CER 1.000 on these cells is abstention, not error.",
+   "sources": "_claude_memory/proto-82-engine-empty-output-patterns.md:17,26-28; docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:11-25,46-52; docs/campaign/checkpoints/W4_reports/A6_staging/abstention_audit.md:30-42,74-90"
+  },
+  {
+   "fact": "Sarvam API state: cap 54 calls (3/lang x 18); 57 used; 12 South jobs completed but outputs unretrievable (403/401); Rs67 credit left; own-script clean 66 pages ~Rs33. Sarvam per-language n<=3, so no Sarvam winner claims.",
+   "sources": "DISPATCH_LOG.md:527,674,759,763; docs/campaign/VAJRASTRA_SHEET_AUDIT.md:11-18,34; docs/campaign/checkpoints/W4_reports/A6_staging/LEADERBOARD.md:33-55,98"
+  },
+  {
+   "fact": "B21 synthetic-lines spec (ks/sat/mni, 5,000 lines/script, OFL Noto fonts, gates G1-G4, seed 20260926) is spec only (no evidence generator ran) and has defects (Devanagari in ks sample, CC-BY-SA vs PD label); licensed text pools are small (~2k Ol Chiki, ~1.5k Mayek sentences).",
+   "sources": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:102-139; product/docs/B21_SYNTHETIC_LINES_SPEC.md:82,94,119,131,138-139; product/docs/B21_SYNTHETIC_LINES_SPEC.md:26-30"
+  },
+  {
+   "fact": "Edge-thesis refutation: 0 of 4 candidate edges survived (12 critiques); surviving non-edges = Ol Chiki/Meetei coverage gap, abstention bug, median+abstain reporting, sheet.csv integrity defect (mixed_script False on all 12,324 rows).",
+   "sources": "docs/campaign/checkpoints/W1.md:26,115; DISPATCH_LOG.md:198,242"
+  },
+  {
+   "fact": "Sindhi in the bench split is Devanagari, not Nastaliq (Nastaliq coverage = ur + ks only). Same-script language ID (Bengali/Assamese/Manipuri; Devanagari family) has no OCR-page evidence (3/10).",
+   "sources": "docs/benchmark_docs/LIST.md:7,29; docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex:482-484,614"
+  },
+  {
+   "fact": "Label-free adaptation (IIIT-H ICVGIP 2025): iterative pseudo-label self-training lifted Hindi 92%, Kannada 93%, Punjabi 77% WRR on degraded printed targets; proposed for barred ks/mni/ur/sat, but cross-lingual init is poor (Punjabi-init 51.93 vs Hindi-init 92.35).",
+   "sources": "docs/sources/consensus/2026-09-30_Q2_hard-scripts-handwriting-degraded.tex:540; docs/research/level7/a/LEDGER.md:3611"
+  },
+  {
+   "fact": "Chitrapathak-2 covers Odia and is near Gemini-2.5 Flash on nine languages, but degrades on handwriting/noise/forms; Odia fine-tune must beat Gemini 81.01 and Chitrapathak-2, not just Sarvam 80.01. Odia precedents: ori_hist Tesseract fine-tune CER 48.1->17.2; Qwen2.5-VL-3B LoRA ~12.7 h H100.",
+   "sources": "docs/research/level7/a/LEDGER.md:1188-1191; docs/research/level7/a/LEDGER.md:3803; docs/research/level7/c/c2/LEDGER.md:120,121,122,76"
+  },
+  {
+   "fact": "Planner notes: official test = 5,344 Bengali handwritten word crops; the weak-cell cells (sat/ks/mni/or/OldScan) are printed-page cells not in the test distribution; they matter for the 22-language product/jury story, not for the official score.",
+   "sources": "docs/campaign/handoff_2026-10-01_v4_integration/v4_notes.md:12"
+  }
+ ],
+ "decisions_current": [
+  "Weak-cell attack priority from locked decisions: sat/ks/mni/or get effort only after GT/eval discipline; barred cells (ks, mni, ur, sat, mr, ne-PDF) never train on PDF-layer or sarvam_fill GT (sec 6.4 LOCK). Source: PROMPT_ENGINE_AGENT.md:32-35; FINAL_VERDICT_2026-09-27.md:55-77.",
+  "QLoRA scope = Konkani only after K1 erratum (pa tie p=1.0; mai, or killed). Source: KILL_CRITERIA.md:238; W1H_PLAN_FIXES.md:12,25.",
+  "Odia (or) and Punjabi routing = wrap-only; Odia routes to tesseract-family (0.2588, n=69). Source: W5_FREEZE_AGENDA.md:108-121; W1_reports/1G_verify.md:66-68.",
+  "Cell numbers quoted for Sarvam weak cells = only Santali 53.91, Kashmiri 54.82, Odia 80.01 (Konkani 97.41 is NOT weak; OldScan 55.3 is English olmOCR, not an Indic cell). Source: W1A_PACKET_AUDIT.md:175-176,206.",
+  "U7 licence-cleared: indic-ocr tessdata (Apache-2.0) with sat/mni; download decided YES after licence check, still needs boss execution. Source: RESEARCH_DECISIONS.md:39; DRAFT_RESEARCH_PLAN.md:235.",
+  "600K-KS-OCR on HOLD (embedded research-only licence), supersedes boss's earlier YES (U27); ks data = OFL fonts + open text (KS-PRET-5M render strings). Source: proto-92-boss-decisions.md:34; proto-102:152.",
+  "Laya rejected for OCR/model use (U30); learned script-router rejected (recall 0-5%); ensemble text rejected, agreement only as per-block review flag (B-08). Source: proto-92:37; 1F_sonnet.md:81,152; proto-100:40.",
+  "Santali (proto-100 B-05): accept Bodhan unless Day-1 shows charset errors on 20 sat items; synthetic Ol Chiki only then (script-ratio gate >=80%, one OFL font). Mni: evaluate NE-OCR vs Bodhan on 20 probe items; router sends U+ABC0-ABFF to it if it wins. Source: proto-100-research-to-build.md:36-37.",
+  "Kashmiri (B-03) QARI-style recipe: 50k synthetic lines + 300-500 hand-verified real lines, 8-bit, gate ks CER <=0.20, abort >0.30; B-01 bans 4-bit for ks/ur/sd unless within 1 CER pt. Source: proto-100-research-to-build.md:33,35.",
+  "OldScan (B-06): ablation A0-A3 on our probe, never on test; RQ-6 pre-pass only if RQ-2 shows >=10% degraded pages. Source: proto-100:38; proto-97-research-still-to-do.md:74.",
+  "Beat-Sarvam framing is per weak cell, not average; 'beat 87.39' is unprovable on probe22 (different bench/harness); realistic target 85-88 weighted. Source: MISS_MONITOR.md:652; CALL_PACKET.md:98-99; corpus_extract.md:39.",
+  "Honest-n rule: never relax gates; low-n cells (as/doi/gu/mni/sat) accepted with permanent caveat; K-06 'find 1 assume 1000, fix pattern-wide' and L3 4-page gate before any full-set rerun. Source: BOSS_CONCERNS.md:71; proto-82-engine-empty-output-patterns.md:13."
+ ],
+ "superseded": [
+  "Sarvam weak-cell numbers as competitor targets (sat 53.91, ks 54.82, OldScan 55.3, or 80.01) are obituary'd DEAD for decisions (word-acc, vendor harness vs our CER); CALL_PACKET.md:108 still cites them as 'directional only'. Superseded by own paired on-manifest numbers. Source: OBITUARIES.md:133-149.",
+  "Kok/pa QLoRA (kok gap 0.32/32pt p=0.0033; pa gap 0.081 p<0.0001, 88 discordant) superseded: kok gap 0.1938, pa p=1.0 tie (87 ties, 3 discordant). Stale text remains in KILL_CRITERIA.md:56, W6_QLORA_SPEC.md:75, VINAY packet :44, feed 12.2, PER_LANG_ROUTING:34, COMPUTE_BUDGET:80. Source: 1H_verify.md:154,222.",
+  "Hunt F1/F2/F3 claims: sat 'saturated' (share 0.543, floor 0.457 = best 0.459) FALSE; mr Ol Chiki chars 645 and +0.098 contribution wrong (64 chars, max 0.0071); fusion ceiling 0.4277/0.5229 withdrawn (0.3213/0.4190). Source: W1_reports/1E_hunt.md:11-29; 1E_lensB.md:28-47,268-292.",
+  "'sat.traineddata = 404 DEAD / Tesseract gives nothing for sat/mni' superseded by indic-ocr Apache-2.0 sat/mni pack (1.5 MB / 2.8 MB). Earlier '2-4 MB', '40-70 MB', 'six languages needed' sizing superseded (only 2 missing, ~4.4 MB). Source: RESEARCH_DECISIONS.md:39; 1H_verify.md:60,160.",
+  "'Sarvam-API subsidy for sat/mni (D4.5/Option D, ~Rs1,005 for 2,010 pages)' superseded in v4 by Bodhan open weights reading sat 68.30 / mni 82.85; Sarvam calls need the boss anyway and key/cap state is dead. Source: corpus_extract.md:61; DISPATCH_LOG.md:759,763.",
+  "LIVE_LATEST sat/mni claims superseded by DEEPER_LIVE_RESEARCH corrigendum; Option Y 'win targets' (sat<0.40, ks<0.50, or<0.18) and 'wrap-only beats Sarvam 3-pack on brx/ks/mai/or/sd/gu' rest on n=3 Sarvam items and barred GT. Source: DEDUP_DOCS_RESEARCH.md:21-25; VINAY_MEETING_PACKET.md:14,184.",
+  "KS-LIT-3M as ks render base (licence contradiction cc-by-sa vs CC-BY-4.0) superseded by KS-PRET-5M; R7 default backbone Qwen2-VL-2B superseded by Bodhan base in v3/v4. Source: c/c3/LEDGER.md:65,765; corpus_extract.md (R7 note).",
+  "South v1 (400 self-labelled pages, different scorer) is history, never mixed into the 22-language table; South now Sarvam-bench fill (eval-only forever). Source: proto-71-south-rerun-same-standard.md:16-18; proto-104:41,413-414.",
+  "Law counts stale: disk shows 50 mojibake/224 gt_thin (law 55/219; gt_thin threshold 179 docs vs 200 code); tess/Plan claims that tam/tel/kan/mal tessdata were missing or that Ol Chiki font was absent were wrong. Source: VAJRASTRA_SHEET_AUDIT.md:20-33; W1H_PLAN_FIXES.md:16,41."
+ ],
+ "contradictions": [
+  "ks GT trust: 45.0 (gt_forensics.json; H48:63, FIX_SPECS_FOR_MISS:34) vs 26.6 (this is ne) vs ~29 (proto-100:35, FS-006 says '29 wrong'). Resolution: ks=45.0 VERIFY-FIRST by R5 but BARRED by visual 0/10; ne=26.6; mr=46.8.",
+  "Ol Chiki share of sat GT: hunt 0.543, lens A 0.443, lens B 0.543 (mean-per-item), lens C 0.4331 (953 Latin chars), lead 0.6764; lens C cannot source 0.543. OPEN, recorded not averaged; cell is not saturated under any of them. (W1.md:48)",
+  "Santali tessdata: 'indic-ocr pack licence NOT stated / contents never opened' (W1.md:60,94; H:69) vs 'Apache-2.0 cleared with sat 1,546,915 B / mni 2,843,488 B' (RESEARCH_DECISIONS.md:39). Resolution: later dated decision wins (cleared), quality still untested.",
+  "Perso-Arabic: 'every local engine CER 0.78-0.94, Sarvam leads 15-30 pts' (MISS_MONITOR.md:91) vs surya ks 0.589 / ur 0.623 best local (LEADERBOARD.md:76,85). Resolution: MISS_MONITOR was an early n=3 read; but ks/ur wins are on barred/garbage GT, so neither is a trusted claim.",
+  "600K-KS licence: CC-BY-4.0 tag/proposed YES (U27) vs embedded Controlled Research Access License -> HOLD (proto-92:34). KS-LIT-3M: paper CC-BY-4.0 vs HF cc-by-sa-4.0. Resolution: HOLD until written confirmation; KS-PRET-5M default.",
+  "4-bit: B-01 (QARI CER 3.45 vs 0.091; ban 4-bit for ks/ur/sd) vs consensus C1-2 (4-bit LoRA preserves gains, -29% CER Arabic print). Resolution: separate 4-bit QLoRA training from 4-bit inference; require per-script parity on a Perso-Arabic slice. (proto-105:21)",
+  "GLM-OCR in/absent from OmniDocBench v1.6 (94.71 rank 3 per blog vs absent); PaddleOCR-VL 1.6 96.01 vs 96.33 vs 96.36 (three cuts); Sarvam 94.97 vs 90.08; PaddleOCR-VL size 0.9B vs 34.5M. OPEN; do not cite a single value without the cut. (W1.md:87; LEDGER)",
+  "OldScan figures conflated: Sarvam 55.3 (Indic bench blog/olmOCR English) vs Surya 2 42.8 (Surya card) vs Surya 41.8 (EXTERNAL_BENCHMARK_MAP) vs olmOCR-2 OldScan 82.2 vs LightOnOCR 84.7 vs Chandra 50.4/51.1. Resolution: different benchmark versions; compare only within one table. (LEDGER.md:183-185,375-378,4910,4974)",
+  "Konkani: Sarvam rank 1 of 22 (97.41) and Bodhan 95.99, so kok is not a Sarvam weak cell; packet said it was. Our local kok gap is real (19.4 pt, p=0.0033) but QLoRA justification rests on local gap only. (W1A_PACKET_AUDIT.md:175-176,208-213)",
+  "Whether surya sa failure is a layout-parse bug or an unsupported language: wrapper tag 'NO_OLCHIKI' (wrong, sa is Devanagari) vs layout-parse failure (A6) vs 'surya does not support Sanskrit' (1F_sonnet:91). OPEN: 100/100 empty on sa but 0/100 on hi and bn.",
+  "Part I of FULL TECHNICAL BRIEFING lists ks/mni/ur/sat/mr/ne PDF layers as 'clean, usable' while Part II bars them. Resolution: barred (sec 6.4) wins. (FULL TECHNICAL BRIEFING.md:46-47 vs 266-269)",
+  "Headline 'wrap-only beats Sarvam on 6 langs / we lead 10/18' vs GT-tier stratification (pooled lead is entirely a PDF-text-layer artefact; human-verified Sarvam 2.51x better). Resolution: stratified result wins. (CALL_PACKET.md; 1G_verify.md)",
+  "Plan v4 vs HL7/K-06 'no spell-correction, raw is the benchmark / verify every output of every engine' conflicts with v4 post-correction step; resolve by reporting raw and corrected separately. (proto-99-concern-crosswalk.md:390,393,416)",
+  "Dependence on synthetic data: DeepEval-style dataset synthesis conflicts with protocol rule 'no synthetic data for GT or W6' (allowed only for harness fixtures) vs R3/B21 synthetic Ol Chiki/Mayek/Nastaliq SFT. Resolution: synthetic only as train, never eval/GT. (LEDGER.md:685-691)"
+ ],
+ "recommendations": [
+  {
+   "rec": "Do not pretend the weak cells move the official score: the official test is Bengali handwritten words. Add a 'Printed/22-language track' to Plan v4 as a separate, labelled product-and-jury section with its own gates, never mixed into HW0-HW2 numbers.",
+   "evidence": "v4_notes.md:12; corpus_extract.md:18,42; gaps_misc P44,P46",
+   "priority": "P0"
+  },
+  {
+   "rec": "Import the sec 6.4 GT-trust lock into v4: BARRED ks/mni/ur/sat/mr/ne-PDF, SAFE as/brx/doi/kok/mai/or/pa, VERIFY-FIRST gu/sd; sarvam_fill and PDF-layer GT never train or score claims; require an independent GT per weak cell before any metric is quoted.",
+   "evidence": "docs/research/level7/PROMPT_ENGINE_AGENT.md:32-35; docs/research/level7/FIX_SPECS_FOR_MISS.md:92-98",
+   "priority": "P0"
+  },
+  {
+   "rec": "Adopt K1-K4 style kill gates for every weak-cell effort: paired McNemar (CER<0.5 per-item pass), gap >3 pt, Wilson CIs, min n 30/50; report n beside every number (as 19, sat 20, mni 20, gu 24, doi 27, ne 37, brx 67, or 69).",
+   "evidence": "docs/research/level7/KILL_CRITERIA.md:38-47,99-118; docs/campaign/SAMPLING_PLAN.md:11,19,49",
+   "priority": "P0"
+  },
+  {
+   "rec": "Carry the K1 erratum into v4: QLoRA scope = Konkani only; never cite pa p<0.0001 or kok 0.32; do not plan per-language QLoRA on mai/or/pa.",
+   "evidence": "docs/campaign/checkpoints/W1_reports/1H_verify.md:154,222; docs/campaign/checkpoints/W1_reports/1G_verify.md:129-131",
+   "priority": "P1"
+  },
+  {
+   "rec": "Evaluate sat/mni with the free licence-cleared Apache-2.0 indic-ocr tessdata (1,546,915 B / 2,843,488 B) as the honest local baseline, measured on the 20+20 probe items and scored by Ol Chiki/Mayek codepoint-emitted ratio; needs boss approval for the download.",
+   "evidence": "docs/campaign/RESEARCH_DECISIONS.md:39,44; docs/campaign/checkpoints/W1_reports/1E_lensB.md:61-71,87",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add a Unicode-range script router on Bodhan OUTPUT text (Ol Chiki U+1C50-1C7F, Mayek U+ABC0-ABFF, Arabic block >50% then language tag) plus IndicLID/GlotLID, because script-ID ViT has no sat/mni class; routing must not assume script==language (bn/as/mni, Devanagari family).",
+   "evidence": "docs/campaign/RESEARCH_DECISIONS.md:43; docs/campaign/B01_4BIT_ANALYSIS.md:81-90; docs/sources/consensus/2026-09-30_Q3_system-layout-postcorrection-langid-eval.tex",
+   "priority": "P1"
+  },
+  {
+   "rec": "Run a Day-1 sat/ks/mni/or zero-shot check of Bodhan on the 20 sat, 20 mni and 100 ks probe items (Ol Chiki/Mayek charset errors, script adherence >=0.95 reported separately from CER, honest-empty as MISSING) before any weak-cell training; Bodhan sat 68.30 vs 53.91 is vendor-bench only.",
+   "evidence": "docs/research/level7/FIX_SPECS_FOR_MISS.md:92-98; _claude_memory/proto-100-research-to-build.md:36-37",
+   "priority": "P1"
+  },
+  {
+   "rec": "Kashmiri: do B-02 first (opt-in Arabic normalization in a NEW scorer module, raw+normalized reporting, gate >=3 pt gap reduction on ur/ks/sd) before any ks SFT decision; keep default metrics.py locked.",
+   "evidence": "docs/campaign/B02_ARABIC_NORMALIZATION.md:5-12,132; docs/research/level7/c/c3/LEDGER.md:188",
+   "priority": "P1"
+  },
+  {
+   "rec": "Kashmiri training (only after boss go and G-2.5): QARI-style 50k synthetic lines from KS-PRET-5M render strings + Awami Nastaliq >=3.300 (U+0620 in every batch, pinned font) + 300-500 hand-verified real lines, 8-bit, autoregressive decoder; gate ks CER <=0.20 held-out real, abort >0.30. Skip 600K-KS until licence confirmed.",
+   "evidence": "_claude_memory/proto-100-research-to-build.md:35; docs/research/level7/c/c3/LEDGER.md:164,765; _claude_memory/proto-92-boss-decisions.md:34",
+   "priority": "P2"
+  },
+  {
+   "rec": "Hold bf16/8-bit for any Perso-Arabic (ur/ks/sd) Page Expert path: require a per-script 4-bit vs bf16 table on GPU (B-01) since Bodhan Gate-1 parity was measured on non-Arabic crops only.",
+   "evidence": "_claude_memory/proto-100-research-to-build.md:33; docs/campaign/DRAFT_RESEARCH_PLAN.md:25-30",
+   "priority": "P1"
+  },
+  {
+   "rec": "Any PTQ/AWQ/GPTQ of the Qwen-based Page Expert must calibrate on multilingual samples incl. Bengali, Ol Chiki, Nastaliq, Mayek, Odia; AWQ barred for script-heavy work; never INT3 on tail scripts.",
+   "evidence": "docs/research/level7/c/c1/LEDGER.md:34-37,232-240",
+   "priority": "P2"
+  },
+  {
+   "rec": "Make restoration (R4) a gated, conditional pre-pass with the A0-A3 ablation on our own probe (never on test), adopt bar median dCER <=-0.03, CI excl 0, >=2/3 frozen engines, dot/matra audit; build the ~40-page manual old-scan slice first. Do not apply to Nastaliq/Ol Chiki without own evidence.",
+   "evidence": "docs/research/level7/c/c3/STRATEGY.md:41-43; _claude_memory/proto-100-research-to-build.md:38; docs/campaign/checkpoints/W1_reports/1F_sonnet.md:83",
+   "priority": "P2"
+  },
+  {
+   "rec": "Drop the OldScan 55.3 / Surya 42.8 / Chandra numbers as comparison targets; state OldScan is English olmOCR-Bench; restoration lane to be justified only by own dCER on a stratified slice (Real5-style axes: scan/skew/warp/photo/illumination).",
+   "evidence": "docs/research/level7/fix_specs/W1A_PACKET_AUDIT.md:175,206,608-609; docs/research/level7/c/c4/LEDGER.md:821-828",
+   "priority": "P1"
+  },
+  {
+   "rec": "Weak-cell data lever for sat/mni: build the B21 generator only with font-disjoint train/val (Noto train, Eeyek val), script-ratio gates >=80%, HarfBuzz/RAQM mandatory, text from licensed pools, and a real-scan validation set; treat synth val as a gate, not a claim. Needs boss approval before any training.",
+   "evidence": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:102-139; docs/research/level7/c/c3/LEDGER.md:252,320",
+   "priority": "P2"
+  },
+  {
+   "rec": "Evaluate NE-OCR (CC-BY-4.0, 86M) as an mni specialist against Bodhan on the 20 mni items before any mni synthetic training; check card/licence first (download needs boss).",
+   "evidence": "docs/research/level7/c/c2/LEDGER.md:91-93; _claude_memory/proto-100-research-to-build.md:36",
+   "priority": "P2"
+  },
+  {
+   "rec": "Add a per-component licence ledger to v4: surya eval-only (OpenRAIL-M s2(c)/s8), Bodhan hosting written approval, EasyOCR weights, UTRSet/UTRNet NC, 600K-KS HOLD, tessdata Apache-2.0; the product must not depend on surya weights or surya-derived data.",
+   "evidence": "_claude_memory/proto-99-concern-crosswalk.md:146-155,426; _claude_memory/proto-102-incident-repair-and-verdict-fixes.md:144-152",
+   "priority": "P0"
+  },
+  {
+   "rec": "Replace v4's 'Tesseract fallback' with a script-routed printed baseline: tesseract-family for or/mr/ne and Devanagari-gap cases, easyocr for sa (surya is empty on sa), Bodhan primary; dedupe tesseract_indic/bilingual/openbharatocr (byte twins) and fix PADDLE_LANG brx/doi before counting engines.",
+   "evidence": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:101-115; _claude_memory/proto-82-engine-empty-output-patterns.md:17,26-31",
+   "priority": "P1"
+  },
+  {
+   "rec": "Carry the measured 22-language printed baseline (surya CER 0.3849 best non-Sarvam, per-script winners, ur 0.6232/ks 0.5894 worst) into v4 as the printed backbone, with labelled n and scored n shown separately and the South 126/400 caveat.",
+   "evidence": "docs/campaign/BENCHMARK_22.md:94-115,206; docs/campaign/DRAFT_RESEARCH_PLAN.md:86-99",
+   "priority": "P1"
+  },
+  {
+   "rec": "Do not budget compute on RLVR/hard-example mining or ensemble/fusion as weak-cell CER levers (weak evidence; fusion ceiling ex-sa only 0.0332); spend first on GT, scoring normalization, routing and the free tessdata baseline.",
+   "evidence": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:95-131; gaps_misc P42 (Q1:455-456)",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add handwriting-coverage honesty for non-Bengali: Bodhan HW misses 10 languages; state brx/doi/kok/mai/ne/sa have no fallback and ICDAR'23 Gujarati best only 62.80 and Odia 83.38; no claim beyond Bengali without independent writers.",
+   "evidence": "docs/campaign/B12_HANDWRITING_SHARE.md:75-112; v4_notes.md (ICDAR 2023 Table 2 summary)",
+   "priority": "P2"
+  },
+  {
+   "rec": "Pitch/jury framing: claim only 'where Sarvam is weak we are measured honestly' (Santali 53.91, Kashmiri 54.82, Odia 80.01 as directional vendor numbers), never 'we beat 87.39'; pooled human-verified Sarvam leads 2.51x, so a weak-cell win must be shown on paired own-manifest data.",
+   "evidence": "docs/research/level7/MISS_MONITOR.md:652; FULL TECHNICAL BRIEFING.md:574-586; docs/research/level7/c/c4/OBITUARIES.md:32-47",
+   "priority": "P1"
+  },
+  {
+   "rec": "Add a GT script-purity/mixed-script audit (danda whitelist) beside HW0: sheet.csv mixed_script False on all 12,324 rows although 16/20 sat items are bilingual; 18/79 Marathi items carry injected Ol Chiki code points.",
+   "evidence": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:33,58-61; docs/campaign/checkpoints/W1_reports/1E_lensB.md:49-59",
+   "priority": "P2"
+  }
+ ],
+ "plan_v4_gaps": [
+  "v4 has no printed 22-language track: printed is routed to Bodhan only; sat/ks/mni/or/sa/doi get no per-cell recipe beyond 'LoRA where it trails'. (proto-108:104; proto-89:51)",
+  "v4 omits the GT trust/barred list (ks, mni, ur, sat, mr, ne-PDF) and the no-training-on-barred rule; HW0 leak-hash gate lacks a GT script-purity step. (FINAL_VERDICT:55-77; proto-65:19-27)",
+  "v4 has no per-weak-cell kill criteria or significance rules (K1-K4, McNemar, Wilson, min n); HW0-HW2 lack n thresholds. (KILL_CRITERIA.md:38-47,99-118)",
+  "v4 has no sat/mni plan: no local engine emits Ol Chiki/Mayek; script-ID lacks sat/mni; tessdata Apache-2.0 backstop and R3 synthetic path not mentioned. (RESEARCH_DECISIONS.md:39,43,44; B12_HANDWRITING_SHARE.md:104-112)",
+  "v4 has no Nastaliq/Perso-Arabic plan (R2): no B-01 bf16 rule, no B-02 normalization, no ks gate. (B01_4BIT_ANALYSIS.md:5; B02_ARABIC_NORMALIZATION.md:5-12)",
+  "v4 drops the old-scan/restoration lane (quality gate only); R4 ablation chain, adopt bar and conditional-restoration gate absent; no old-scan eval slice. (proto-108:89-92; LEDGER.md:3414-3422)",
+  "v4 lacks the licence ledger (surya eval-only, Bodhan hosting, EasyOCR weights, 600K-KS HOLD, tessdata Apache-2.0). (proto-99:146-155)",
+  "v4 lacks honest-n and sample-quality caveats (as19/sat20/mni20/gu24/doi27; kok/pa from 2 PDFs; ur 34% page<=1; South 126/400). (BOSS_CONCERNS.md:71; CAMPAIGN_DIRECTIVE.md:79-90)",
+  "v4 does not reconcile Bodhan numbers: bench small_rep CER 0.0540 vs sample-100 0.6878 vs pair-only 0.4034; Bodhan-HW 71.3 vs ledger sat 68.30/olmOCR 78.8; param count 0.8B vs ~3B. (mem_20260930_7b7725ee541446ceb655.md:17; LEDGER.md:592,948-949)",
+  "v4 does not name alternate backbones for weak cells (GLM-OCR 0.9B, MonkeyOCRv2 0.7B, LightOnOCR-2-1B, PaddleOCR-VL 0.9B, Unlimited-OCR for OldScan) or a head-to-head plan. (ELITE_REPO_REFRESH_2026-09-27.md:15,37,199)",
+  "v4 has no metric-comparability layer (CER_omni vs published word-accuracy/ pass-rate); vendor tables are not CER. (EXTERNAL_BENCHMARK_MAP.md:106,25-29)",
+  "v4 has no quantization policy for tail scripts (multilingual calibration incl. Bengali; AWQ barred). (c/c1/LEDGER.md:34-37,237-240)"
+ ],
+ "open_questions": [
+  "Which weak cells, if any, appear in the 5,344 official test crops? (Bengali handwritten only per v4_notes.md:12; if mixed-script crops exist a sat/mni route is needed.)",
+  "Does the indic-ocr pack really yield usable CER on sat/mni real scans, and what is the delta vs Bodhan on the 20+20 items? (listing licence-cleared but quality untested; boss download)",
+  "Boss decisions pending: RQ-4 Kashmiri go/no-go, RQ-5 sat/mni invest, repair vs exclude barred ks/mni/sat/ur/mr(+ne-PDF), 600K-KS written licence confirmation (U27), Bodhan s3.1 hosting approval.",
+  "Independent verified GT for sat/mni/ks: re-verify with a human (U6); 10-minute spot-check; is the BARRED verdict a verifier-competence artefact (GT is human-reviewed sarvam_bench)?",
+  "Was the R4 DocRes pilot (n<=8) vs Otsu ever run, and does restoration help any non-Latin script? (designed, never run; LEVEL7_RESEARCH_FINDINGS.md:90)",
+  "Does Bodhan beat surya/tesseract on non-weak printed cells (unknown), and does it read Ol Chiki/Mayek/Nastaliq without charset errors? (LEVEL7_RESEARCH_FINDINGS.md:67; proto-100:37)",
+  "Which GT-quality driver explains sat Ol Chiki share (five conflicting measurements 0.4331-0.6764)? Recompute from sheet.csv with a script-block metric (olchiki_emitted/olchiki_GT).",
+  "Are fonts really the constraint for Ol Chiki/Mayek synthetic data (GlotOCR says pretraining coverage)? Does any candidate base VLM (Qwen3-VL/Qwen3.5) cover Ol Chiki/Mayek/Nastaliq? (LEDGER.md:4168)",
+  "Why does surya return 100% empty on sa but not hi/bn (layout-parse vs unsupported language), and do paddle brx/doi mapping fixes recover those cells? (K-20)",
+  "Licence/terms for SynthOCR-Gen (HF 401), Koshur Pixel 613k, UTRSet, printed-Mayek bench, EasyOCR .pth weights, Odia-lipi.",
+  "Do tessdata_best models beat fast models on degraded/scan pages (Q-B3.2, untested) and is Malayalam psm1 instability a rescue path? (B3_tessdata_best.md:44-47,115-116)",
+  "Is sa/Sanskrit a 'weak cell' for the product (Sarvam 84.05, surya empty) and does doi (Sarvam 89.46 vs Bodhan 85.51) need a recipe? Probe n for doi is 27."
+ ]
+}

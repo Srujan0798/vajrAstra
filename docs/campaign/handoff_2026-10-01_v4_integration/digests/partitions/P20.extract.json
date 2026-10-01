@@ -1,0 +1,710 @@
+{
+ "partition": "P20",
+ "files": [
+  {
+   "path": "docs/campaign/checkpoints/W1_reports/1E_hunt.md",
+   "total_lines": 74,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W1_reports/1E_lensA.md",
+   "total_lines": 181,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W1_reports/1E_lensB.md",
+   "total_lines": 393,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W1_reports/1E_lensC.md",
+   "total_lines": 366,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F1: sat GT is Ol Chiki plus a Bengali transliteration of same line; claimed Ol Chiki share 0.543 gives monolingual floor 0.457 equal to best local engine 0.459 (cell 'saturated').",
+   "numbers": "54.3% Ol Chiki; floor 0.457; best local 0.459",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:11-17",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Lens B/C/A: share 0.543 reproduces on mean-per-item (Bb:35) but 0.459 best engine is not in data; best local sat is indicphotoocr 0.6514; floor claim of 'saturation' refuted"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F1: only sarvam_vision sat_05 clears the floor (CER 0.026, 112 vs 113 chars) by transcribing both scripts; n=3; proposed per-script-block CER (1 day, no training).",
+   "numbers": "0.026; n=3",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:14-17",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F2: 18 of 79 scored mr items contain Ol Chiki mojibake in Devanagari GT; claimed 645 Ol Chiki chars; best engine CER 0.105 (n=61 clean) vs 0.537-0.541 (n=18); contribution +0.098 to 79-item mean; proposed GT script-purity gate (0.5 day).",
+   "numbers": "18/79; 645 chars; 0.105 vs 0.537-0.541; +0.098",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:19-23",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Lens B/C: only 64 Ol Chiki chars in scored mr (645 conflated with manifest 916); causal claim refuted; descriptive 18/79 split holds"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt: Punjabi Devanagari-block chars are only danda U+0964, legitimate; any script-purity gate needs punctuation whitelist (pa 88/90).",
+   "numbers": "pa 88/90",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:23",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F3: fusion ceiling on seeded 300-item probe22 sample (seed 20260926), 10 local engines: best single surya 0.5229, per-item oracle 0.4277 (-0.095, -18% rel); ROVER-lite 0.5519 worse than best single, worse in 18/19 langs (sat +0.374, hi +0.290, bn +0.288).",
+   "numbers": "0.5229; 0.4277; 0.5519",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:26-27",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Lens B/C re-run: surya 0.4190, oracle 0.3213 on same seed (absolute numbers do not reproduce); gap reproduces ~0.098"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F3: proposed Indic akshara/orthography-validity verifier (~300 lines, 2 days, no training) gating a cross-engine vote, modelled on LV-ROVER-MLT (arXiv 2607.00250, DocEng 2026 Maltese competition winner, held-out CER 0.0074 vs 0.0161; restoration gate +0.00386, CI 0.00266-0.00517).",
+   "numbers": "0.0074 vs 0.0161; +0.00386",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:28-29",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Lens B: validity-argmax 0.6766 vs surya 0.4190 (worse than doing nothing); lens A: prior art ICDAR 2017"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt F4: leaderboard mean CER inflated by abstention: empty predictions paddleocr_indic 43.7%, anuvaad_tesseract 50.3%, rapidocr 28.0%, surya 10.5%; surya mean 0.3944 vs median 0.3058, 13.2% items CER>=0.999. Recommend median_CER, abstain_rate, cat_rate columns.",
+   "numbers": "43.7/50.3/28.0/10.5%; 0.3944 vs 0.3058; 13.2%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:31-35",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt F4: arXiv 2606.29213 (28 Jun 2026) argues median + catastrophic-rate over mean; DeepSeek-OCR mean 73.65 / median 1.50 / cat 2% / max 71.6x on blur.",
+   "numbers": "73.65/1.50/2%/71.6x",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:33",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt F5: GT-script-block match is a near-perfect error detector on non-empty rows: surya CER 0.313 match vs 0.963 mismatch (n=1098); tesseract_indic 0.483/0.886; indicphotoocr 0.453/0.904; doctr no signal 0.878/0.849. GlotOCR ScriptAcc metric (arXiv 2604.12978, Apr 2026).",
+   "numbers": "0.313 vs 0.963",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:37",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Lens C: mismatch set empty when Latin included; excluding Latin surya 0.2382 vs 0.6676 (n=886); lens B: recall 0-5.2%"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F6: GlotOCR Table 1 fonts per tier: High median 1907, Mid (9 scripts) 59, Low (148 scripts) median 1 min 1 max 29; best models Acc@5 7.7% on low tier. Local: NotoSansOlChiki=1 and MeeteiMayek=1 font vs Tamil 3, Telugu 4.",
+   "numbers": "1907/59/1; Acc@5 7.7%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:40-41",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F6: level2/probe22/tessdata has 12 traineddata files (asm ben eng guj hin mar nep ori pan san snd urd); NO mni, sat, kan, mal, tam, tel. Tesseract family gives nothing for sat/mni.",
+   "numbers": "12 files",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:41",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt F6: github.com/indic-ocr/indic-ocr.github.io claims Tesseract models incl. Ol Chiki (Santali) and Meetei Mayek; if present, fix for sat/mni is one ~2-4 MB file, no training; download needs boss approval; NOT verified (file listing not opened). Highest-leverage approval request.",
+   "numbers": "2-4 MB",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:43;69",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Hunt: any synthetic rendering plan for sat/mni is single-style (1 font each) and will not fix the cell; font diversity needed.",
+   "numbers": "1 font each",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:42",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Hunt F7 (queued, training paused): F-GRPO (arXiv 2602.06717) group-size tail-miss; Qwen2.5-7B N=8 pass@256 64.1 to 70.3 (GRPO), 69.3 to 72.5 (DAPO), 73.2 to 76.8 (CISPO). Relevant only if CER-reward RLVR reopens (W6).",
+   "numbers": "64.1->70.3",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:46",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt: NFC vs NFKC normalisation is a non-issue: 564/12,324 GT (4.6%) differ in form, 0 exact-match flips since normalize_for_metrics (NFC) applied symmetrically. Partial-CER sensitivity untested.",
+   "numbers": "564/12,324; 0 flips",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:62;65",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt: UNKNOWN whether Indic OCR benchmarks are contaminated; no OCR contamination study found.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:51;68",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Hunt rejected: ByT5/seq2seq post-correction gains +1.2-1.5 chrF++ only on the engine trained on and does not transfer across engines (2606.29213); cross-engine post-correction dead on arrival. VLM told script/code points: +0.7pp mean, 125 of 149 scripts unchanged (GlotOCR Fig 3b).",
+   "numbers": "+1.2-1.5 chrF++; +0.7pp",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:51",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Hunt rejected PreP-OCR (arXiv 2505.20429): 63.9-70.3% CER reduction only on English/French/Spanish historical pages, no non-Latin measurement (read from excerpt only). Relevant to R4 OldScan restoration plan.",
+   "numbers": "63.9-70.3%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:51;74",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Hunt: CER probe22 sheet.csv: 12,324 rows = 10 local engines x 1,227 + 54 sarvam_vision; 10 local engines include surya, tesseract_indic, tesseract_bilingual, openbharatocr, easyocr, indicphotoocr, paddleocr_indic, rapidocr, doctr, anuvaad_tesseract.",
+   "numbers": "12,324; 1,227",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_hunt.md:37;60",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens A: field has already published all 3 'cheap-move' ideas: per-block scoring (Sarvam Indic OCR Bench semantic-block, UniLipi per-script CER 13 scripts, MDIW-13 block script ID); abstention reporting (Sarvam scorer missing_prediction_count/loop_failure_count/valid_samples_cer; 2606.29213); orthography verifiers (UAX #29, ICDAR 2017 Script Grammar",
+   "numbers": "0 of 4 theses survive as stated",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:13-25",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens A: Sarvam Indic OCR Bench = 6,909 samples (6,609 across 22 Indian languages + 300 English), semantic-block level, GT reviewed twice by human experts; Vision 2.1 blog 24 Sep 2026 SOTA. Earlier Feb 2026 blog said 20,267 samples (unexplained change).",
+   "numbers": "6,909; 6,609+300; 20,267",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:33;83;156-158",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens A: sat per-item Ol Chiki share on scored n=20: min 0.000 median 0.406 mean 0.443 max 0.815; 0 items >=99.9% Ol Chiki; floor ~0.557; surya sat mean 0.7621; headroom ~0.205; NOT saturated. sheet.csv script column labels 19/20 sat as 'Ol Chiki' and mixed_script is False on all 12,324 rows.",
+   "numbers": "0.443; 0.557; 0.7621; 0.205",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:33;58-61",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens A: mr surya CER suspect 0.5396 (n=18) vs clean 0.1196 (n=61); per-engine suspect->clean: easyocr 0.546->0.109, paddleocr_indic 0.537->0.118, tesseract_indic 0.541->0.105, rapidocr 0.617->0.201, indicphotoocr 0.575->0.271, anuvaad 0.556->0.189, doctr 0.873->0.847. Dropping 18 moves surya Marathi 0.228->0.120.",
+   "numbers": "0.5396/0.1196; 0.228->0.120",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:36;62-65",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens A: Ol Chiki chars in mr GT = 64 (lens A) vs 645 (hunt): 10x discrepancy; mr GT suspect items 68.6% Devanagari vs 92.2% clean (residue also Balinese/Sundanese/Vedic-name code points).",
+   "numbers": "64 vs 645",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:36;66;148-151",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens A: mr suspect-vs-clean difficulty confound not excluded: quality and print_or_hand are 'unknown'/'printed' for all 79 mr rows; non-Devanagari residue could be harder source document, not decoding artefact.",
+   "numbers": "79 rows",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:177-181",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens A: Aksharamukha (pip, IIIT-B) covers orthographic conventions for 120+ scripts incl. Santali Ol Chiki and Meetei Mayek; using it is a download (boss approval), contradicting hunt's 'no download' cost claim.",
+   "numbers": "120+ scripts",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:34;93",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens A: CVPR 2026 Consensus Entropy (arXiv 2504.11101) = training-free inter-model agreement entropy for OCR verification/selection/routing to a stronger VLM; script agreement is coarser special case; demonstrated on VLMs only. Also arXiv 2409.04117 (OCR confidence error detection) and 2511.19806 (abstention +7.6%).",
+   "numbers": "+7.6%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:35;85",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens A incumbent map: GlotOCR Bench (158 scripts, CER+Acc@0/Acc@5+ScriptAcc), UniLipi IIIT-H (Aug 28 2026 unified multi-script Indic HTR, per-script CER 13 scripts), IndicVisionBench (OCR track 876 doc images, 10 Indic langs; likely named by Bhashini conversation), Datalab indic leaderboard (single aggregate score), IndicPhotoOCR (scene text, 11 la",
+   "numbers": "158 scripts; 876 images; 13 scripts",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:83-99",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens A: Bodhan, Google DocAI, Azure DI, Textract, LightOn, PaddleOCR-VL, Surya product page, GlotOCR model, Chitrapathak NOT individually checked (UNKNOWN, not cleared); Datalab indic leaderboard internals unknown.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:102;162-170",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens A: arXiv 2409.04117 date contradiction (ID implies Sep 2024, page displayed 2026-08-24); unresolved.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:94;165",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens A recommended surviving packet: repaired sat metadata + mixed_script audit; corrected sat statement (best local 0.762 vs floor 0.557, gap 0.205); mr split framed as hygiene; C3 as one-sentence positioning; C2 zero days.",
+   "numbers": "0.762 vs 0.557",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensA.md:108-124",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens B scorer caveat: metrics.py --normalize reproduces only 128/400 random sheet.csv rows; exact normaliser that built sheet.csv unknown; every downstream CER claim inherits this.",
+   "numbers": "128/400",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:8;386",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: sat Ol Chiki share reproduces 0.5430 mean (n=20), median 0.5000, char-weighted 0.5369 (1755/3269); floor 0.4570 exact; bilingual items 16/20, pure-Bengali 1/20.",
+   "numbers": "0.5430; 0.4570; 1755/3269",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:28-38",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "Lens C measures 0.4331 (1755/4052 incl. 953 Latin chars) - denominator conflict"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: claim 'best local engine sat 0.459' NOT in data: 0 cells within 0.0006 of 0.459; sat best local indicphotoocr 0.6514, surya 0.7621; bilingual-only n=16 best 0.5821. Best engine sits 0.194 above floor.",
+   "numbers": "0.6514; 0.7621; 0.5821",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:40-47",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: only sat is multi-script: 16/1227 items (1.30%) have >=2 Indic scripts, all sat (80% of sat); other 17 languages 0%. Sat Ol Chiki:Bengali word count ratio 1.00 on all 16 (transliteration, separable).",
+   "numbers": "16/1227; 1.30%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:49-59;73-77",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: NO local engine emits any Ol Chiki char on 20/20 sat items (0 of 1,755 GT); per-block Ol Chiki CER = 0.9500 for all 10 engines (degenerate); sarvam_vision emitted 316 Ol Chiki chars over 3/3. Surviving form: coverage metric olchiki_emitted/olchiki_GT = 0/1755 (0.5 day).",
+   "numbers": "0/1755; 0.9500; 316",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:61-71;87",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: akshara-validity-argmax fusion = 0.6766 vs surya-always 0.4190 on 300 sample (-263.8% of oracle gap, picks doctr 155/300); r(penalty,CER)=+0.1831 sign-flipped; penalty==0 CER 0.6304 vs >0 0.6099; validity gate added to consensus_script worsens 0.3534->0.4547. C2 REFUTED.",
+   "numbers": "0.6766; 0.4190; +0.1831; 0.3534->0.4547",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:106-135",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: Brahmic grapheme rules score Latin/no-block garbage (n=348) at penalty 0.234 (80% zero) vs real Indic 2.098: structurally prefers garbage; empty outputs n=441 CER 1.0.",
+   "numbers": "0.234 vs 2.098",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:118-125",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: on 300 sample surya 0.4190, oracle 0.3213 (gap +0.0977, 23.3% rel); all 1,227 surya 0.3944, oracle 0.2947 (gap 0.0997). Fusion ceiling is an EMPTY-STRING detector: if surya empty take longest non-empty = 0.3545 vs consensus_script 0.3534; 32 of 37 switches on surya-empty; non-abstained 268 items residual gap 0.0182.",
+   "numbers": "0.3545; 0.0182; 32/37",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:97-154",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: cross-engine consensus-script rule (char-weighted plurality script across 10 engines' outputs, tie-break surya, no GT) takes all-1227 surya 0.3944 -> 0.3296 (65% of oracle gap 0.2947), 144 switches; 300 sample 0.4190->0.3534, helped 36 hurt 0. Per language: sa -0.6352 (100/100 switches), mni -0.0416, sat -0.0777, doi -0.0988; sa = 80% of ga",
+   "numbers": "0.3944->0.3296; sa -0.6352",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:235-262",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Lens B: Nastaliq (ks, ur, sd): script-agreement/consensus-script mechanism gives exactly 0.0000 gain and 0 switches (ks surya 0.5894, ur 0.6232, sd 0.3155) - wrong-but-Arabic output is invariant in script block. Different fix needed for R2 Nastaliq.",
+   "numbers": "ks 0.5894; ur 0.6232; sd 0.3155",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:243-254",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: LV-ROVER-MLT does not transfer: five streams of same Tesseract 5 recogniser, Maltese lexicon gate, single author working paper, NOMOCRAT 57 pages, CER 0.0074; Hungarian transfer inconclusive. Operating point ~40x better than our 0.2947 oracle.",
+   "numbers": "0.0074; 57 pages",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:162-169",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens B: script-block-overlap detector precision 95-100% but recall 0.0-5.2% for 8 of 10 engines (anuvaad fires 0/610, paddleocr 1/691, surya 22 flagged recall 4.3%); doctr 1225 flags no signal; surya 1076 match 0.311 vs 22 mismatch 0.901.",
+   "numbers": "recall 0.0-5.2%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:186-211",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens B: script-overlap false positives are all Gujarati (gu_05, gu_01, gu_07): pages with large English span, 8 pooled FP of 1,812 flagged (0.44%); 1/24 = 4.2% of gu cell. Dropping flagged rows breaks fixed-n (doctr 0.8704 -> 0.9141 with n=2).",
+   "numbers": "8/1812; 0.8704->0.9141",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:213-233",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: mr clean/contaminated per engine reproduces exactly (openbharatocr 0.1055/0.5411 +0.0992; easyocr 0.1087/0.5464; surya 0.1196/0.5396; doctr 0.8468/0.8728 +0.0058). But Ol Chiki chars in 79 scored mr = 64 of 9,000 chars on 18 items; max CER contribution 0.0071 vs claimed 0.098 (14x); manifest 100 mr items = 916 Ol Chiki chars.",
+   "numbers": "64; 0.0071; 916",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:268-292",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens B: stripping the 64 Ol Chiki chars from GT changes CER on 18 items by +0.004 (surya 0.7244->0.7285): the 0.53 gap is not caused by Ol Chiki. The 18 items are Latin/digit-heavy (Latin+alnum share 0.1903 vs 0.0257, digits 0.0960 vs 0.0122); likely tables/English-heavy pages; sheet has_table False for all 79.",
+   "numbers": "0.1903 vs 0.0257",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:294-313",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens B: off-script Devanagari danda U+0964 is punctuation in pa 88/90, bn 99/100 (349/355 chars), or 34/69, as 12/19 - a naive purity gate hits 3+ cells; real off-script letters: gu 3/24, kok Gurmukhi 1/100, ur Devanagari 1/100, or Bengali 1/69.",
+   "numbers": "bn 99/100; or 34/69; as 12/19",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:315-328",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens B: dropping 18 hardest mr items takes mr 0.205 -> 0.105 and would be self-inflicted cherry-picking; if reported must be two columns (mr_prose 0.106 n=61 | mr_table 0.541 n=18). Gate wrong, split right.",
+   "numbers": "0.205->0.105",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:330-338",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens C: sat Ol Chiki share 0.4331 (1,755 of 4,052 chars; Bengali 0.3229, LATIN 0.2353 = 953 chars, Devanagari 0.0064); manifest sat 0.428; floor 0.5669; headroom 0.085; hunt's 54.3% provenance UNKNOWN.",
+   "numbers": "0.4331; 0.5669; 0.085",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:46-60;336",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens C: sat means n=20: indicphotoocr 0.6514, surya 0.7621, doctr 0.8683, tesseract_indic/bilingual/openbharatocr 0.8785, easyocr 0.8885, rapidocr/anuvaad/paddleocr 1.0000. Sarvam on 3 sat items: sat_05 CER 0.0265 (Ol Chiki 46->46, Latin 24->24); sat_13 prediction 500 chars vs GT 50, CER 1.0; sat_15 Ol Chiki 32->5, CER 0.4054.",
+   "numbers": "0.0265; 500 vs 50; 0.4054",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:59;68-72",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens C: surya returns nothing on sa (CER 1.0000, 100/100); documented in scores/abstention_audit.md sec 3 and directive defect K6 (Surya 2 has no Ol Chiki support). Fusion ceiling is a known surya coverage bug.",
+   "numbers": "sa 1.0000",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:66;129",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens C: fusion ceiling on 300 sample: surya 0.4190 oracle 0.3213 gap +0.0977; full 1227 gap +0.0997 (+25.3%). sa contributes 166% of gain; excluding sa (n=1,127): surya 0.3407 oracle 0.3074 gap +0.0332 (+9.8%); ex-sa 300 sample 0.3684/0.3356 +0.0328. Honest cross-language ceiling 0.033 not 0.095.",
+   "numbers": "0.0332; 9.8%; 166%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:95-131",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Lens C: tesseract_indic equals openbharatocr in 1225/1227 predictions but tesseract_bilingual only 370/1227 (directive A8 'bilingual = indic' is wrong). Dropping duplicates leaves gap 0.0977->0.0976.",
+   "numbers": "1225/1227; 370/1227",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:102-104",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Lens C: honest cost of akshara-validity-gated fusion across 22 scripts is 4-5 days (2 days = 3-script demo); rule sets for mni/sat/ks/ur are guesswork with no data/tessdata; rescoring is minutes (stdlib Levenshtein on stored predictions).",
+   "numbers": "4-5 days",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:137-143",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens C: abstention table exact: surya 10.5% empty mean 0.3944 median 0.3058; rapidocr 28.0% 0.6753/0.7577; paddleocr_indic 43.7% 0.6629/0.9241; anuvaad 50.3% 0.7153/1.0000. Already published scores/abstention_audit.md 2026-09-28 and LEADERBOARD 'Honest-empty' column.",
+   "numbers": "10.5/28.0/43.7/50.3%",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:159-169",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens C: script-mismatch re-measure excluding Latin: surya n=886 match 0.2382 (803) vs mismatch 0.6676 (83); latin_only 212 rows CER 0.5106 (17.3%) and empty 129. With Latin included mismatch set is empty for every engine - hunt's 0.963 has zero rows.",
+   "numbers": "0.2382 vs 0.6676; 212",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:173-190",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens C: routing on script mismatch: surya gain -0.0351 (n=83, own 0.6676 vs best other 0.7027) but indicphotoocr +0.3536 (n=298), tesseract_indic +0.1661, easyocr +0.0882, rapidocr +0.2760. Detects hard items, not bad engines; indicphotoocr oracle-routing may overlap sa/Devanagari gaps.",
+   "numbers": "-0.0351; +0.3536",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:194-210;342",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens C: median vs mean flips per-language winner in 6 of 18 languages (mr tesseract_bilingual->surya, ne->surya, or->surya, gu sarvam->surya, as ->sarvam n=3, sd ->sarvam n=3); n=3 Sarvam wins violate locked decision D4 (n<50 no winner); median column ~2 hours.",
+   "numbers": "6/18; n=3",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:216-233",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lens C: sheet.csv CER column not reproducible from repo scorer: preprocess(normalize=True)+calculate_cer 156/400 (39.0%), replace_n 128/400, raw/NFC/NFKC 2-6/400. score_engine.py reports valid_n 1056 of 1227, loop_n 148, short_gt_n 27, overall_cer 0.4870 for tesseract_indic; two denominators (12,324 rows vs 10,560 valid) in circulation. Question fo",
+   "numbers": "156/400; valid_n 1056; 10,560",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:24-36;334-335",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens C: mr 18 contaminated items: Ol Chiki 64 chars on scored 79 (39,500 GT chars; manifest 916 across 35 items); max CER injected 2x64/39,500 = 0.00324 vs observed delta +0.4356 (tesseract_indic) - off 134x. mr_o* all official_pdf; difficulty cause UNKNOWN.",
+   "numbers": "0.00324 vs 0.4356; 134x",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:243-277;338",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Lens C governance: sheet.csv LOCKED; scoring changes need boss decision U5 (unanswered); W1 STOPPED BY BOSS 2026-09-29 ~21:05 IST; BENCHMARK_22.md publishes mr 0.205 (tesseract_bilingual); AGENT_PROTOCOL.md/run_probe.py on CANNOT-apply list.",
+   "numbers": "U5; 21:05 IST",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:281-297",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens C: multi-block GT scope 220/1227 (204 two-block, 16 three-block); 154 are pa(81)/bn(77) danda artefacts; genuinely bilingual ~66 items (mr 23, or 16, sat 16, as 5, gu 1, kok 1).",
+   "numbers": "220; ~66",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:79",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Lens C recommendation: do median_CER + abstain_rate columns (2 hours, gated on D4 n>=50); sat as prose paragraph; fusion ceiling as sentence in D16; refuse mr re-score; ask which code produced sheet.csv CER.",
+   "numbers": "2 hours",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensC.md:313-326",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Lens C: 43 of 126 scored South (Tamil/Telugu/Kannada/Malayalam) pages are Latin-dominant per CER_BY_SCRIPT.md (English inside a Tamil book) - different mixed-script population; South tags only 4-6 scored pages each.",
+   "numbers": "43/126",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:387",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Lens B: ks 100, ur 100, sd 75 consensus-script gain 0; sat 20, mni 20 scored items only (tiny); mni surya 0.9769, best local 0.8531-0.858; doi n=27, sat best oracle 0.6481.",
+   "numbers": "mni 0.9769; sat oracle 0.6481",
+   "source": "docs/campaign/checkpoints/W1_reports/1E_lensB.md:246-252",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 gates only handwritten Bengali; these W1E files show printed-cell measurement discipline absent: report median_CER + abstain_rate + n>=50 gate (C:216-233, H:31-35) before quoting any mean.",
+  "Plan lacks a GT script-purity / mixed-script audit step (sheet.csv mixed_script False on all 12,324 rows; sat labelled single-script though ~57% non-Ol-Chiki) - A:58-61,110-112; HW0 leak hash gate should be extended with script histogram check with danda whitelist (Bb:315-328).",
+  "Weak cells sat/mni: no local engine emits any Ol Chiki (0/1755) and only 1 font each for Ol Chiki/Meetei Mayek; plan's R3 synthetic Ol Chiki/Mayek must solve font diversity; indic-ocr.github.io Tesseract mni/sat traineddata unverified and needs download approval (H:41-43,69; Bb:61-71).",
+  "Plan lacks cheap routing fix: sa surya returns empty 100/100; routing sa to any tesseract captures ~80% of the whole fusion gain (0.3944->0.3296) with no training (Bb:235-262; C:106-131). Fusion ceiling ex-sa only 0.0332.",
+  "Naive ROVER/char vote worse than best single (0.5519 vs 0.5229) and akshara-validity argmax 0.6766 vs 0.4190: plan's post-correction/fusion must not be rule-verifier voting; ByT5 post-correction does not transfer across engines (H:27,51; Bb:106-135).",
+  "R2 Nastaliq (ks/ur/sd): script-agreement is invariant (wrong-but-Arabic output), 0 gain; needs dedicated Nastaliq model, not routing (Bb:243-254).",
+  "Eval scorer provenance unresolved: sheet.csv CER reproduces only 39% (156/400) from repo metrics.py; 12,324 vs 10,560 valid denominators - plan's eval harness must pin one normaliser/denominator first (C:24-36).",
+  "Competition landscape the plan under-cites: Sarvam Indic OCR Bench (6,909 blocks, Vision 2.1 SOTA 24 Sep 2026), IndicVisionBench (876 doc images), UniLipi per-script HTR CER, GlotOCR ScriptAcc, Consensus Entropy CVPR 2026 (A:83-99).",
+  "Unmeasured: OCR benchmark contamination (H:51,68); Bodhan/DocAI/Azure/Textract/LightOn/PaddleOCR-VL not checked (A:102)."
+ ],
+ "contradictions": [
+  "sat Ol Chiki share: hunt 0.543 (H:12) / lens B 0.5430 mean-per-item (Bb:35) vs lens A 0.443 (A:59) vs lens C 0.4331 (C:46-60); lens C cannot find source of 0.543 (C:336).",
+  "Best local sat CER: hunt 0.459 (H:13) vs lens B/C 0.6514 indicphotoocr, 0.7621 surya (Bb:44, C:59); 0.459 not in data.",
+  "mr Ol Chiki chars: hunt 645 (H:20) vs lens A/B/C 64 on scored 79 (A:66, Bb:286, C:245); manifest 916.",
+  "mr causal story: hunt says Ol Chiki mojibake adds +0.098 (H:21) vs lens B/C: arithmetic ceiling 0.0071/0.00324, delta from difficulty/Latin-heavy content (Bb:284-313, C:252-277); lens A said gate 'improves' scores, lens B/C say it is cherry-picking.",
+  "Fusion sample numbers: hunt surya 0.5229/oracle 0.4277 (H:26) vs lens B/C 0.4190/0.3213 on same seed (Bb:97-100, C:99).",
+  "surya mismatch CER: hunt 0.313/0.963 n=1098 (H:37) vs lens C 0.2382/0.6676 n=886 (C:173-186); lens B 0.311/0.901 n=1076/22 (Bb:189).",
+  "Directive A8 tesseract_bilingual == tesseract_indic wrong: 370/1227 identical (C:104).",
+  "arXiv 2409.04117 date ID Sep 2024 vs displayed 2026-08-24 (A:94).",
+  "Sarvam bench size: 20,267 (Feb 2026 blog) vs 6,909 (Sep 2026) (A:156-158)."
+ ],
+ "open_items": [
+  "Which code produced sheet.csv CER column and intended denominator (12,324 vs 10,560 valid) (C:326).",
+  "Does indic-ocr pack contain mni/sat traineddata (H:69)?",
+  "Why 18 mr items score 0.44 worse (tables? scan tier?) - open a page image (Bb:391, C:337).",
+  "Does a learned router (script-coverage + is-empty features) close the residual 0.0182 gap (Bb:388)?",
+  "Latin_only surya outputs (212 rows) classification undefined (C:340).",
+  "Median-flip robustness via bootstrap (C:343); partial-CER sensitivity to NFC/NFKC (H:65).",
+  "Does any Sarvam block contain more than one script (A:159-161)?",
+  "indicphotoocr routing +0.3536 overlap with sa/Devanagari gaps (C:342).",
+  "Is OCR benchmark contamination present in competitor corpora (H:68)?"
+ ]
+}

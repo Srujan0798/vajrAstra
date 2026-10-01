@@ -1,0 +1,382 @@
+{
+ "checked": 53,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": "Verified; note ledger line 395 inversely says 'Sarvam ~3-6x cheaper' while 4320 (and the math: $2 vs ~$6 per 1000) says Mistral is ~3x cheaper."
+  },
+  {
+   "index": 3,
+   "verdict": "corrected",
+   "correction": "87.3 is the TOI 'overall' figure (LEDGER:4139), not an olmOCR-Bench score; LEDGER:4239 says only 'olmOCR-Bench SOTA + Indic OCR Bench SOTA (87.39 avg)'. 3B state-space VLM confirmed at LEDGER:4097/4231."
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": "Verified, but licence conflict in ledger: LEDGER:877 says 'Apache/Indic Open Model License' while 4255 says CC-BY-SA-4.0 (per HF card); 4257 says licence supports commercial shipment."
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": "Verified; LEDGER:5607 lists Chandra OCR 2 at 85.9 (vs 85.8 at 4367); Chandra 1 83.1 at 4359."
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": "Verified; chrF++99 9/10 detail is at LEDGER:3290, the Wilson/median adoption at 3405."
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": "Verified; MonkeyOCR non-commercial weights at LEDGER:4735, GOT-OCR2.0 580M at 4199."
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": "Verified; arm list at LEDGER:55 (note it lists A0-A4), >=4 warped pages at 3192, bar at 3414."
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "corrected",
+   "correction": "DIBCO09 Otsu 78.72 / Sauvola 85.41 not found anywhere in LEDGER; SauvolaNet 40K params is real (LEDGER:2529). Cited line 3563 is actually IndicSTR12 (excludes Sanskrit, Bodo, Dogri, Kashmiri, Konkani, Maithili, Nepali, Santali, Sindhi). Binarization/DIBCO-year claims are in ~754-768 and 2529-2561."
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 51,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 52,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Bodhan IndicOCR pipeline: 33M layout model (PP-DocLayoutV3/RT-DETR) + 0.8B Qwen3.5 block OCR; licence recorded as Apache/Indic Open Model License at one place and CC-BY-SA-4.0 at another (conflict to resolve before shipping)",
+   "numbers": "33M; 0.8B",
+   "source": "docs/research/level7/a/LEDGER.md:877",
+   "status": "PRIMARY",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya 2 licence: code Apache-2.0, weights modified OpenRAIL-M free for research/personal/<$5M startups (vs Chandra 2 <$2M)",
+   "numbers": "<$5M; <$2M",
+   "source": "docs/research/level7/a/LEDGER.md:148",
+   "status": "PRIMARY",
+   "date": "2026-05-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "UniLipi (13 Indic scripts) does NOT cover Ol Chiki, Meitei Mayek or Kashmiri, so it does not directly serve the weak-cell scripts (covers Konkani/Maithili/Bodo/Sindhi)",
+   "numbers": "13 scripts",
+   "source": "docs/research/level7/a/LEDGER.md:4026",
+   "status": "PRIMARY",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Mistral OCR 3 is superseded by OCR 4 but still available; $2/1000 standard, $3/1000 annotated; OCRBench v2 25.2%, Full-Page OCR 79.1%, OmniDocBench v1.6 composite 79.1 (79.75 elsewhere)",
+   "numbers": "25.2%; 79.1; 79.75",
+   "source": "docs/research/level7/a/LEDGER.md:4615",
+   "status": "PRIMARY",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": "Mistral OCR 4 (LEDGER:4327)"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ScriptMoE covers 10 scripts and does NOT include Ol Chiki or Meitei Mayek; cannot be used directly for sat/mni without script-expert extension; scene-text recognizer, not document",
+   "numbers": "65.71->80.89; 10 scripts",
+   "source": "docs/research/level7/a/LEDGER.md:508",
+   "status": "PRIMARY",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "AI4Bharat IndicOCR website is an 'In-Progress... Stay Tuned' placeholder; no shipped product as of 2026-09",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:3767",
+   "status": "PRIMARY",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Mozhi-LR CRNN+LM results: Kashmiri 87.71 char / 93.80 word (real); Ol Chiki Santali 90.60 / 96.58 (synthetic); Kashmiri uses 2 scripts, Santali 4 scripts",
+   "numbers": "87.71/93.80; 90.60/96.58",
+   "source": "docs/research/level7/a/LEDGER.md:3569",
+   "status": "MEASURED",
+   "date": "2024-08-15",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D1 = zero GPU cost (no cloud GPU spend; fine-tune post-W6 only); D2 = Sarvam is target, not pipeline component",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:4346",
+   "status": "DECISION",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam Vision v1 (Feb 2026): 3B state-space (Mamba-style) VLM, 23 langs (22 Indic + EN); ArXiv Math 86.5 vs Mistral OCR 3 85.4",
+   "numbers": "3B; 23 langs; 86.5 vs 85.4",
+   "source": "docs/research/level7/a/LEDGER.md:4231",
+   "status": "PRIMARY",
+   "date": "2026-02",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "olmOCR-2-7B-1025: RLVR/GRPO with binary unit-test rewards, built on Qwen2.5-VL-7B, olmOCR-mix-1025 270K pages, +14.2 points to 82.4",
+   "numbers": "270K pages; +14.2; 82.4",
+   "source": "docs/research/level7/a/LEDGER.md:4287",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Indic OCR Bench and IIIT benchmarks not downloaded; ledger has explicit UNKNOWN placeholder: our eval must use internal probe22 (n=1227) with Wilson 95% CIs until user approves download",
+   "numbers": "n=1227",
+   "source": "docs/research/level7/a/LEDGER.md:6219",
+   "status": "DECISION",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ]
+}

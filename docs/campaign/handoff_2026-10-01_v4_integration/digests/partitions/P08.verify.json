@@ -1,0 +1,354 @@
+{
+ "checked": 54,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 2,
+   "verdict": "corrected",
+   "correction": "Core fact holds but the academic-use license is on the IHTR-2023 card (6121-6122) and IHDR-2025 card (6138); D4 SAFE-lang bar is at 6139/6142, not 6137 only. Ledger does not state a license for the IIIT-INDIC-HW-WORDS card itself (A4-025); the plan's CC-BY-4.0 is not in this ledger range."
+  },
+  {
+   "index": 3,
+   "verdict": "corrected",
+   "correction": "Claim text is correct at LEDGER.md:6122 (A4-020 'Allows additional training data... Released under academic-use license'), cited line 6121 is header only; same as finding 2 it concerns IHTR card, not WORDS dataset."
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "corrected",
+   "correction": "Derived inference sits at LEDGER.md:6163 (not 6161); numbers 4.97 and ~5% OK."
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 12,
+   "verdict": "corrected",
+   "correction": "Bodhan 0.8B/15M+/live 2026-09-05 at 4799 OK; Sarvam 2.1 Indic handwriting recognition at 5335/5343, launch date 2026-09-24 at 6233; not at 4798."
+  },
+  {
+   "index": 13,
+   "verdict": "corrected",
+   "correction": "Fact at LEDGER.md:5095 (A1-24x Bhashini ULCA), not 5126 (which is MILU)."
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": "Bench size 6,909 / 6,609+300 EN / 22 langs at 6206."
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "corrected",
+   "correction": "Composite with wrong anchor 5190 (DvD). Items are at 5183 (cubic poly CER 0.0235), 5239 (DocRevive 30,078), 5175 (binarization), 5215 DocRes, 5199 TextSR, 5223 Uni-DocDiff, 5231 UniT, 5207 D2Dewarp; all exist."
+  },
+  {
+   "index": 25,
+   "verdict": "corrected",
+   "correction": "Bourne scrambled-text CER -55% WER -32% is at LEDGER.md:5247 and 5255 (IJDAR 2025); 5238 is DocRevive. 'beats real-data training' and low-corruption at 5247/5743 ok."
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": "95.69/+2.71 at 4823; 65.5M and 3-stage at 4831; NaViT-675M at 4839."
+  },
+  {
+   "index": 27,
+   "verdict": "corrected",
+   "correction": "MonkeyOCR facts at 4735 (weights non-commercial), 4751 (v2 1.2B beats 3B by 7.4% Chinese), 4759 (0.84 pg/s RTX 3090); cited 4734 is the header."
+  },
+  {
+   "index": 28,
+   "verdict": "corrected",
+   "correction": "DeepSeek-OCR facts at LEDGER.md:4887/4895/4871 (200K pg/day, 570M active, 380M DeepEncoder, 70/20/10 data, 6.68GB, MIT); cited 4950 is GLM-OCR. 71x repetition is from the Devanagari stress test at 6465, applied to DeepSeek-OCR (the ledger says 'reference length', Hindi scans)."
+  },
+  {
+   "index": 29,
+   "verdict": "corrected",
+   "correction": "Numbers exist but across lines: 96.33 at 5007/5015, ~2GB/45 pg/min at 5863, GLM-OCR 1.86 pg/s at 4951, Surya 2 5.35 pg/s at 5583, Surya license at 5575. 5862 is only the spheron record."
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "corrected",
+   "correction": "Surya v0.22.1 note is at LEDGER.md:5599 (cited 5594 is a prior record). It says backend needs Docker+NVIDIA GPU OR llama.cpp CPU/Apple Silicon, so 'hurts offline CPU claims' overstates; CPU path exists."
+  },
+  {
+   "index": 33,
+   "verdict": "corrected",
+   "correction": "Chandra $2M at 5151/5879 and MinerU thresholds at 5855; cited 5854 only covers MinerU. Chandra described as 'free for <$2M funding/revenue', not strictly revenue."
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "corrected",
+   "correction": "Wilson/McNemar law is restated across 6960-6962 and 6584; 'median CER, catastrophic' at 6637 (pred_len > 5x ref). Fine as stated, record at 6960 is a protocol re-cite."
+  },
+  {
+   "index": 37,
+   "verdict": "corrected",
+   "correction": "Wallis 6576, Fagerland 6610, evalci 6583-6584 (arXiv 2607.04429), >=3 runs std-dev at 6744; NIST dataplot not checked; cited line 6445 is a prior record."
+  },
+  {
+   "index": 38,
+   "verdict": "corrected",
+   "correction": "Obstacle and approval rule at 6213-6219, research-use license at 6206; N=1227 appears at 6473/6878, '18 langs ~100/lang' not found in these lines."
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "corrected",
+   "correction": "CER buckets (good 1-2, average 2-10, poor >10) are at 6456 (Towards Data Science explainer), not Reul at 6439; Reul CER formula and recommendation at 6440 OK."
+  },
+  {
+   "index": 41,
+   "verdict": "corrected",
+   "correction": "Spread across lines: Sarvam v1 per-language at 5887, 3B state-space at 5399, ArXiv Math 86.5 vs Mistral 85.4 at 6242 (PaddleOCR VL 1.5 also 85.4), v2.1 87.3 olmOCR/87.39 Indic at 5375, ranked 2nd to PaddleOCR at 5351."
+  },
+  {
+   "index": 42,
+   "verdict": "corrected",
+   "correction": "Funding $75M/$1.43B at 5903; Mistral OCR 3 $2/$1000, 74% at 5639; LEAP PS-2 at 5871. The '74% win vs v2 on forms/handwriting' mixes two re-cites (74% accuracy jump on forms/handwriting vs 74% win in doc text extraction)."
+  },
+  {
+   "index": 43,
+   "verdict": "corrected",
+   "correction": "Education DPI at 4783-4784 (worksheet digitisation demo angle) and Indic-Transcribe 1B ASR at 4791; cited 4790 only covers ASR."
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "corrected",
+   "correction": "Cited line 5062 is the IHTR record, unrelated. IndicDLP (Jun 2026) at 5134-5135 and 6366; 2-stage layout+recognition at 4815; 'plan's Page Expert 33M/0.8B' not in this ledger range."
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 49,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 50,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 51,
+   "verdict": "corrected",
+   "correction": "'adopt GRPO Stage 3b' decision is at 4835; no-paid-keys/W6 constraints are in the harness_fact lines, not here."
+  },
+  {
+   "index": 52,
+   "verdict": "corrected",
+   "correction": "AIR-Bench REJECTED at 6353; A4-085 UNKNOWN at 6693; A4-055 UNKNOWN 'failed verify' at 6426; tally at 7064."
+  },
+  {
+   "index": 53,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Indic OCR Bench HF card: 6,909 samples (6,609 Indic + 300 EN), 22 scheduled langs + EN, block-level GT, sources from 1800 to present; license Sarvam research-use; download forbidden without user approval.",
+   "numbers": "6909; 22 langs",
+   "source": "docs/research/level7/a/LEDGER.md:6206",
+   "status": "PRIMARY"
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Devanagari stress test N=100 FLORES-100 sentences x4 degradations; probe22 N=1227 is ~12x the power, adequate for paired McNemar.",
+   "numbers": "N=100 vs 1227",
+   "source": "docs/research/level7/a/LEDGER.md:6473",
+   "status": "DERIVED"
+  },
+  {
+   "theme": "handwriting",
+   "claim": "ICDAR 2025 IHDR timeline: val/test released 2025-04-15, submissions 2025-05-10, winner 2025-05-15, hosted on RRC portal; page-level 13 scripts.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:6130",
+   "status": "PRIMARY"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "BSTD GitHub (Bhashini-IITJ, Apache-2.0): 5,263 train + 1,319 test images, 94,128 train + 32,164 test bboxes.",
+   "numbers": "5263/1319 imgs",
+   "source": "docs/research/level7/a/LEDGER.md:6385",
+   "status": "PRIMARY"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam Indic OCR Bench per-language table is the only public per-script word-accuracy table; use as sanity check (within +-3 pts on hi/bn/ta/te).",
+   "numbers": "+-3 pts",
+   "source": "docs/research/level7/a/LEDGER.md:6227",
+   "status": "DECISION"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Probe22 script-fidelity means for ks: rapidocr 71%, tesseract_bilingual 41.7%, tesseract_indic 40.5%.",
+   "numbers": "71/41.7/40.5",
+   "source": "docs/research/level7/a/LEDGER.md:6827",
+   "status": "MEASURED"
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam Vision v1 ArXiv Math 86.5 vs Mistral OCR 3 85.4, PaddleOCR VL 1.5 85.4, Chandra 81.4, DeepSeek OCR v2 81.9, Gemini 3 Pro 70.6, GPT 5.2 61.",
+   "numbers": "86.5/85.4",
+   "source": "docs/research/level7/a/LEDGER.md:6242",
+   "status": "MEASURED"
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Mistral OCR 3 valuation EUR 11.7B; $2/1000 pages, $1 batch; self-hosting option.",
+   "numbers": "EUR11.7B",
+   "source": "docs/research/level7/a/LEDGER.md:5631",
+   "status": "PRIMARY"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Probe22 catastrophic_rate column: fraction of items with pred_length > k x ref_length, k=5 default; excluded from mean CER.",
+   "numbers": "k=5",
+   "source": "docs/research/level7/a/LEDGER.md:6637",
+   "status": "DECISION"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "DeepSeek-OCR/PaddleOCR-VL layouts: PaddleOCR-VL 0.9B NaViT + ERNIE-4.5-0.3B hybrid two-stage; MinerU2.5-Pro 1.2B (NaViT-675M + Qwen2-0.5B).",
+   "numbers": "0.9B; 1.2B",
+   "source": "docs/research/level7/a/LEDGER.md:4815",
+   "status": "PRIMARY"
+  },
+  {
+   "theme": "handwriting",
+   "claim": "BHASHA GCN-verifier (ResNet-50 + GCN 3 conv layers) on Hindi books as post-corrector candidate; SimPO reference-free, half DPO memory.",
+   "numbers": "",
+   "source": "docs/research/level7/a/LEDGER.md:6943",
+   "status": "PRIMARY"
+  }
+ ]
+}

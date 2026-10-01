@@ -1,0 +1,552 @@
+{
+ "partition": "P01",
+ "files": [
+  {
+   "path": "docs/research/level7/KILL_CRITERIA.md",
+   "total_lines": 238,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/FINAL_VERDICT_2026-09-27.md",
+   "total_lines": 283,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/W5_FREEZE_AGENDA.md",
+   "total_lines": 283,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/W6_QLORA_SPEC.md",
+   "total_lines": 315,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/SANTA_METHOD_FINAL.md",
+   "total_lines": 387,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "K1 kill rule: kill QLoRA unless a SAFE lang shows McNemar p<T1 AND CER gap >T2 where QLoRA could close it",
+   "numbers": "T1=0.05, T2=3.0pt, T3=50 min n",
+   "source": "docs/research/level7/KILL_CRITERIA.md:38-47",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K1 per-lang verdict table: kok surya 0.4285 vs rapidocr 0.7522, p=0.0033 SURVIVES; mai 0.0280 vs 0.0362 p=1.0 KILLED; or surya 0.1950 loses to tess_i 0.2241 KILLED; pa surya 0.1373 vs tess_i 0.2159 'p<0.0001, 88 discordant' SURVIVES",
+   "numbers": "kok 0.4285/0.7522; mai 0.0280/0.0362; or 0.1950/0.2241; pa 0.1373/0.2159",
+   "source": "docs/research/level7/KILL_CRITERIA.md:52-56",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "ERRATUM-K1 (K:232-238): pa claim wrong; only kok passes K1"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "ERRATUM-K1: Punjabi K1 survival was wrong. mcnemar_full_matrix tesseract_indic_vs_surya[pa]: n_common 90, n_ties 87, n_discordant 3, p=1.0, winner tie. The 88 discordant belongs to rapidocr pairs. Konkani only K1 pass (n_discordant 31, p=0.003327, winner b). W6 QLoRA scope = Konkani only",
+   "numbers": "pa n_ties 87, n_discordant 3, p 1.0; kok n_disc 31, p 0.003327",
+   "source": "docs/research/level7/KILL_CRITERIA.md:232-238",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar per-item pass definition = CER<0.5 (meta.cer_threshold=0.5), two-sided exact; it is a binary threshold test not continuous delta, so kok 'win' comes from surya 0.425 passing while tess_bi 0.644 fails",
+   "numbers": "cer_threshold 0.5; kok surya 0.425 vs tess_bi 0.644",
+   "source": "docs/research/level7/KILL_CRITERIA.md:238; docs/research/level7/SANTA_METHOD_FINAL.md:199-214",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K2 micro-repair kill: <T4=6h to freeze, or >T5=50% curated pages fail purge-era gates, or no download approval. sat micro-repair KILLED K2(b) by default (sat 15% visual pass, n=20 fill-only GT); ks DEFERRED (K2(c) blocks without download approval)",
+   "numbers": "T4=6h, T5=50%, ~84h to freeze at 2026-09-29 07:30, sat 15% visual pass, mni 0%, ks 0%",
+   "source": "docs/research/level7/KILL_CRITERIA.md:70-93,198-199",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Purge-era gates in verify_visual.py (lines 152-180): mojibake script_ratio>=0.85, control_chars>3, Latin fraction>0.6, ZWJ/ZWNJ>10/1k (Devanagari), pipe/danda ratio>0.5 and short_token_frac>0.65 (Perso-Arabic)",
+   "numbers": "6 gates",
+   "source": "docs/research/level7/KILL_CRITERIA.md:74-81",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K3 engine kill if Wilson 95% CI upper bound worse than next-best point estimate; no-op on kok/pa (kok surya CI upper ~0.50 < rapidocr 0.75; pa ~0.20 < tess_i 0.22)",
+   "numbers": "T6=95, T7=30, n>=90",
+   "source": "docs/research/level7/KILL_CRITERIA.md:99-118",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K4 readiness gate: kill QLoRA (ship wrap-only) if MLX install fails/unapproved or reclaimable memory <T8=2GB. Measured 2026-09-29 16:20 IST: free ~1.4GB, inactive ~9.1, purgeable ~0.3, reclaimable ~9.4GB; mlx, mlx_vlm, mlx-tune not installed (pending approval)",
+   "numbers": "T8=2GB; 9.4GB reclaimable; 24GiB RAM",
+   "source": "docs/research/level7/KILL_CRITERIA.md:122-155",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K1(a) trigger (beat Sarvam 87.39) declared DEAD per section 9.2 obituary: Sarvam 87.39 is on their bench not ours (TRANSFER-DEAD); K3 no-op; K4(c) smoke-test aborts to wrap-only if >2x expected wall-clock",
+   "numbers": "87.39",
+   "source": "docs/research/level7/KILL_CRITERIA.md:41,208-212",
+   "status": "DEAD",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Kill-criteria thresholds are user-set parameters, not agent-invented; 'No fantasy thresholds'. Rule: kill criteria are conditions on MEASURED numbers (campaign section 11)",
+   "numbers": "T1..T8 defaults",
+   "source": "docs/research/level7/KILL_CRITERIA.md:31-32",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Consequence of erratum: mai and or killed, pa now also fails K1 -> QLoRA scope kok only; stale text left as history per append-only law",
+   "numbers": "kok only",
+   "source": "docs/research/level7/KILL_CRITERIA.md:238",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Wrap-only deliverable is the guaranteed W6 deliverable (~30 min integration, no training); QLoRA conditional on K1-K4. Original scope 4 SAFE langs ~6h 2.4GB adapters deprecated to 2 langs ~3h 1.2GB",
+   "numbers": "~3h total if QLoRA, ~30 min wrap-only; 600MB adapter/lang",
+   "source": "docs/research/level7/KILL_CRITERIA.md:64,148-153; docs/research/level7/W6_QLORA_SPEC.md:33-46",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "ERRATUM-K1 reduces to kok only"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W6 pause banner: all fine-tuning prep PAUSED pending Vinay meeting 2026-09-30, then W5 freeze after Wed 2026-10-01. Option A resume QLoRA scaffold; Option B wrap-only ships; Option C backbone swap (spec superseded). Hard law: no downloads (sec 9), no training until W5 freeze",
+   "numbers": "Vinay 2026-09-30; freeze 2026-10-01",
+   "source": "docs/research/level7/KILL_CRITERIA.md:1-24; docs/research/level7/W6_QLORA_SPEC.md:1-24",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Final verdict (2026-09-27 21:20 IST) status: probe manifest locked n=1,227; GT verification 237 items; 11 engines done; 659 Lane B artifacts; zero blockers except paddleocr_indic scheduling (later completed 2026-09-27 21:55 per section 7)",
+   "numbers": "1,227 items; 11,097 sheet rows; 659 artifacts",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:21-41",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe manifest: 18 langs as,bn,brx,doi,gu,hi,ks,kok,mai,mni,mr,ne,or,pa,sa,sat,sd,ur; GT tiers official_pair 300 (bn/hi/sa=100 each), official_pdf 769, sarvam_fill 158; purge 1,340 -> 111 ctrl-char purged -> 2 noise = 1,227; do not re-merge backups",
+   "numbers": "1,227; 300/769/158",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:45-51",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe22 is printed/PDF-layer and fill GT across 18 langs (not handwriting); no handwriting items in these files",
+   "numbers": "18 langs",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:47-51",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT verification section 6.4: 237/237 machine-verified (Pass 165, Fail 72). SAFE-FOR-SFT 7 (as,brx,doi,kok,mai,or,pa); VERIFY-FIRST gu 85.7%, sd 85.7%; BARRED 6: ks,mni,mr,sat,ur,ne PDF-tier",
+   "numbers": "237 items; 165/72",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:55-64",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "R5 GT forensics trust: ne 26.6 (BARRED, 32 ctrl chars, script_adh 0.933), ks 45.0, mr 46.8 (BARRED at 42.9% visual), gu 51.4, ur 59.0 (Syriac contamination), brx/doi/pa/or/kok/mai 71.6-75.0, sd 97.8; kok trust 75.0, pa 73.2",
+   "numbers": "trust 26.6-97.8",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:67-77; docs/research/level7/W6_QLORA_SPEC.md:60-61",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Scorer integrity: metrics.py 32,352 bytes, 6 bugs fixed (empty preds excluded -> CER=1.0; space-forgery returning (gt2,gt2); CER cap -> cer_uncapped; dual denominators; LANG_ORDER South-only; control-char strip)",
+   "numbers": "6 bugs",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:81-90",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Engine execution: 11 engines (rapidocr, tesseract_bilingual, doctr, tesseract_indic, openbharatocr, anuvaad_tesseract, indicphotoocr, sarvam_vision cap 3/lang=54, surya, easyocr, paddleocr_indic); openbharatocr byte-identical dup of tesseract_indic so 10 effective; surya best non-Sarvam CER 0.3849",
+   "numbers": "surya CER 0.3849; 1,257 packs; 11,097 rows",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:108-126,158-159",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya 2 does NOT support Ol Chiki (not in 91-lang list); sa/sat honest-empty in surya (129 honest-empty mostly sa). 0 engines emit Ol Chiki: tesseract sat.traineddata 404, easyocr->en, paddleocr unmapped; only sarvam_vision reads it (54 cap)",
+   "numbers": "0 engines; 129 honest-empty",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:126,159; docs/research/level7/W5_FREEZE_AGENDA.md:94-99",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri Nastaliq: rapidocr 71% Arabic share, tesseract family 40-42%, doctr/indicphotoocr 0%; GT fragmented short_token_frac 0.658-0.863 so CER unreliable",
+   "numbers": "71%, 40-42%, 0%, 0.658-0.863",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:101-106",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan weak cell 55.3 (cross-language); attack = measure best-engine x restoration delta on small clean sample; W6 action none, log for W7. Odia 80.01, GT usable (91.7% visual pass), route wrap-only",
+   "numbers": "OldScan 55.3; or 80.01; 91.7%",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:108-121",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sarvam Kashmiri cell 54.82 is worst public number on Indic OCR Bench; Fayaz et al. 2026 Kraken baseline char-acc 54.91%",
+   "numbers": "54.82; 54.91%",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:245-246",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "600k-ks-ocr (arXiv:2601.01088, Malik 2026-01-03): 602,000 word-level synthetic Kashmiri images, 3 typefaces, 10.6GB, CC-BY-4.0; could bypass barred ks GT; proposed D4 Option D expansion (~30 min fine-tune, 5-10pt realistic); needs download approval",
+   "numbers": "602,000 imgs; 10.6GB; 5-10pt",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:240-247",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Feasible set W6 (w6_feasible_set.md): FEASIBLE NOW 459 items bn100 hi100 sa100 or69 pa90 + South-400 te/ta/kn/ml; IF verify-first 342 (brx67 kok100 mai100 sd75); gu 24 n-boost; INFEASIBLE as19 mni20 sat20 ne37 mr79 ks100 ur100 doi27; total SFT-eligible 459-801 (~37-65%)",
+   "numbers": "459-801 items",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:143-150",
+   "status": "DERIVED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Locked data rules: SFT = human gold (10,432) + synthetic OK; PDF-tier only if sec 6.4+6.2 pass; sarvam_fill NEVER. RLVR human-verified gold ONLY, waits for sec 6.6 ablation, reward-hacking tests mandatory. Barred from fine-tune: ks mni mr sat ur ne-PDF",
+   "numbers": "10,432 human gold",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:152-156",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D1-D6 locked: D1 GPU budget $0 wrap-only; D2 Sarvam EN skip; D3 20-item spot-check defer; D4 rapidocr EN fix applied (_RAPID_LANGV en=(EN,PPOCRV4)); D5 full Sarvam run skip ('beat 87.39' directional per OBITUARIES O-02..O-05); D6 accept 1227 sampling caveat",
+   "numbers": "D1-D6",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:132-141",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W5 agenda D4 text: barred langs ks/mni/ur/sat/mr + ne PDF-tier stay excluded from fine-tune; micro-repair only sat+ks 5-10 pages in W5 if freeze-safe; mni/mr/ur no repair; ne fill-tier usable. D1 text lists QLoRA kok+pa",
+   "numbers": "5-10 pages",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:30-60",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "ERRATUM-K1: scope kok only"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W5 freeze agenda: 6 sections A-F in 20 min (A decisions 3, B W6 path 5, C weak cells 3, D spot-check 2, E kill-criteria signoff 5, F freeze approval 2). Outputs W5_FREEZE_RECORD.md, w6_eval/k1_signoff.json, memory feed section 14",
+   "numbers": "20 min",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:1-283",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Net W6 time: wrap-only ~30 min; MLX install ~5 min; SFT jsonl 200 items ~10 min; smoke test 5 items <=20 min; kok ~30 min; pa ~30 min; eval 200 paired ~1h; routing ~30 min; total ~3h if all approved",
+   "numbers": "~3h vs ~30 min",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:218-231",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Spot-check: 20 items, gu_o005 first (GT has Latin p,B,C mixed into Gujarati, control_chars=3; gu n=20, 85.7%); if corrupted gu -> BARRED. Other 19: 1 ne, 4 mr, 6 ks, 8 mni, no decision impact",
+   "numbers": "20 items",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:125-149",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QLoRA recipe: Qwen2.5-VL-3B-Instruct 4-bit MLX via mlx-tune; r=16 alpha=32 dropout 0.05 all proj modules, vision OFF; bs1 grad-accum 8, lr 1e-4, 3 epochs, max-seq 1024, image-res 512, seed 20260926; aug jitter +-5px contrast +-10%, no rotation. 100 items x3 epochs ~30 min on M2 Max 32GB, ~600MB adapter",
+   "numbers": "r16/a32; lr1e-4; 3 ep",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:86-106",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Expected deltas: kok surya 0.425 -> target <=0.350; pa 0.145 -> <=0.115; spec itself warns small-n QLoRA on Indic often regresses, budget <=5pt or no change",
+   "numbers": "kok 0.350; pa 0.115",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:104-116",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "superseded",
+   "superseded_by": "ERRATUM-K1 for pa"
+  },
+  {
+   "theme": "contradiction",
+   "claim": "kok gap inconsistent across docs: K1 table says 0.32 gap vs rapidocr 0.7522; W6 spec fixed to 19.4pt vs easyocr 0.619 (surya 0.425); W6 also lists tess_b 0.644; K1 decision unchanged",
+   "numbers": "0.32 vs 0.194 vs 0.219",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:75; docs/research/level7/KILL_CRITERIA.md:53",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Memory: 24.0 GiB RAM (hw.memsize 25769803776) vs spec text 'M2 Max 32GB'; QLoRA 3B 4-bit peak 8-12GB; floor 4GB reclaimable, abort 2GB; 4-lang scope would fail on memory (8-16GB vs 10.8GB)",
+   "numbers": "24GiB vs 32GB; 8-12GB peak",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:63-72,194",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Alternate backbones: Qwen3-VL-2B-FP8 (~2.5GB), GLM-OCR-0.9B (OmniDocBench #1), LightOnOCR-2-1B (arXiv:2601.14251v2, Apache-2.0, SFT->GRPO, olmOCR-Bench SOTA at 1B, ~300MB adapters; MLX unverified), MonkeyOCRv2 0.7B deferred",
+   "numbers": "1B; 300MB",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:53-57,231-238",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR-VL 1.6 (arXiv:2606.03264, Baidu 2026-06-02): 0.9B NaViT+ERNIE-4.5-0.3B, OmniDocBench v1.6 96.33%, 109 langs incl Hindi, Apache-2.0; WATCH, MLX unverified",
+   "numbers": "96.33%",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:260-267",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Laya router/gate (422M mmBERT-base, Apache-2.0, 32.8ms/q on T4): could gate heavy backbones at P(true)<0.85 but confidently wrong OOD (Khmer 0.000 @ 0.952); must calibrate on weak cells sat/ks/OldScan/or; Phase 7",
+   "numbers": "0.85; Khmer 0.952",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:249-258",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Gnani Evon 3.3 (30B/3.5B active, 11 Indic) is text-only, no OCR; NeurIPS papers: embedding expansion +11.8 MILU; RL trade-off MATH +36 but Indic doc QA -11; supports RLVR-after-SFT caution",
+   "numbers": "+11.8 MILU; -11",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:269-277",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Santa review: McNemar winner claims on BARRED langs (ks surya 0.589, ur 0.623, p<0.0006) are engine-only comparisons vs garbage GT; needs footnote",
+   "numbers": "ks 0.589; ur 0.623",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:99-120",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Headline sarvam_vision 0.2400 is on 54 packs (3/lang) Wilson half-width >50pp vs surya 0.38 on 1,098 non-empty packs; ranking statistically meaningless; add Wilson CI",
+   "numbers": "0.2400; 54 packs",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:121-137",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Surya wins 9/18 langs (n>=50); true denominator 13 feasible langs; n<50 cells: as17 doi22 gu20 mni/sat; 9 winner langs bn,brx,hi,kok,ks,mai,pa,sd,ur",
+   "numbers": "9/18, 9/13",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:51-62,139-155",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "EN sanity: rapidocr pre-fix CER 1.000, post-fix 0.4535; surya 0.1514 best, measured on ornate pub_raw EN not clean print (likely <0.05)",
+   "numbers": "1.000->0.4535; 0.1514",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:64-70,222-235",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "openbharatocr == tesseract_indic preds byte-identical; metrics differ <=0.002 (CER 0.4870 vs 0.4853 indic vs bilingual); phrase should be precise",
+   "numbers": "0.4870/0.4853",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:259-278",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Leaderboard probe coverage: 11 engines x 1,227 = 13,497 expected; sheet 12,324 rows in santa vs 11,097 in final verdict (count drift); surya 17/18 langs, anuvaad 8/18",
+   "numbers": "12,324 vs 11,097",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:22-27; docs/research/level7/FINAL_VERDICT_2026-09-27.md:124",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Santa final: PASS-CONDITIONAL; 8 RED fix-specs for Miss (R2-A,B,C,D,G,I,J,K); stale memory claim ~43% free, swap ~97% should be verified at call time; paddleocr_indic peaked 15GB on 4250x6500 sa_d004",
+   "numbers": "7-8 RED; 15GB",
+   "source": "docs/research/level7/SANTA_METHOD_FINAL.md:237-258,306-371",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Process laws: no downloads without approval; no training before freeze; level2/out and reports read-only; all counts from disk; honest-empty correct; sec 10 audit closed forever; file audit freed ~12.23MB with 5 files deleted; graph 1324 nodes/1665 edges/206 communities",
+   "numbers": "12.23MB",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:169-186,262-270",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open human gates from final verdict: spot-check, GPU budget (max $/hr and cap), Sarvam EN extension, full Sarvam run (needed for 'beat 87.39'); timeline: W5 freeze Wed Oct 1",
+   "numbers": "5-6 gates",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:200-209,272-277",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 doesn't use the K1-K4 kill-criteria framework (McNemar p<0.05, gap >3pt, Wilson CI, min n 30/50, memory/install gate); HW0-HW2 gates lack statistical-significance and n thresholds (KILL_CRITERIA.md:38-47,99-118)",
+  "Plan v4 has no per-item-pass definition or paired test; prior eval used CER<0.5 binary McNemar two-sided exact (KILL_CRITERIA.md:238)",
+  "GT trust/barred-language discipline (sec 6.4, R5 trust, sarvam_fill never for SFT, RLVR gold only) is absent from v4; ks/mni/mr/sat/ur/ne-PDF barred (FINAL_VERDICT:55-77,152-156)",
+  "Weak cells sat/ks: no engine emits Ol Chiki, ks Nastaliq GT fragmented; v4 should adopt 600k-ks-ocr (602k synthetic, CC-BY-4.0, 10.6GB) and sat synthetic route rather than micro-repair of 5-10 pages (W6_QLORA_SPEC:240-247,K:198)",
+  "Earlier pipeline wins: surya best non-Sarvam CER 0.3849 and per-lang routing (kok/pa/or tess_i etc.); v4's Tesseract fallback ignores that tess_i beats surya on or (K:55) and surya lacks sat (FINAL_VERDICT:126)",
+  "Sarvam 87.39 declared TRANSFER-DEAD; v4 cites ~86.4 word-acc on Sarvam bench as target - same transfer risk (K:41,208)",
+  "Compute stance: earlier work assumed $0, local M2 Max MLX 24-32GB, QLoRA ~3h; v4 PyTorch training budget/hardware not reconciled (W6_QLORA_SPEC:63-72,194; FINAL_VERDICT:135)",
+  "Smoke-test (5 items) and abort if >2x wall-clock, plus K1 McNemar closure eval before adopting an adapter, are missing from v4 HW gates (W6_QLORA_SPEC:219; K:212)",
+  "Alternate backbone candidates LightOnOCR-2-1B, PaddleOCR-VL 1.6 (96.33 OmniDocBench), GLM-OCR-0.9B not weighed against Bodhan IndicBlockOCR (W6_QLORA_SPEC:53-57,231-267)",
+  "OldScan 55.3 restoration lane unmeasured; v4 has no restoration preprocessing step despite being the only cross-language weak cell with direct lane (W5_FREEZE_AGENDA:108-112)",
+  "Scorer integrity fixes (empty preds count as CER 1.0, uncapped CER, single denominator) must carry into v4 harness (FINAL_VERDICT:81-90)"
+ ],
+ "contradictions": [
+  "pa K1: SURVIVES (K:56, W5:80, W6:76) vs ERRATUM n_discordant 3 p=1.0 tie (K:234); QLoRA scope kok only.",
+  "kok gap: 0.32 (K:53) vs 19.4pt (W6:75) vs 0.219 arithmetic.",
+  "Memory: 24 GiB measured vs 'M2 Max 32GB' (W6:63,194).",
+  "Sheet rows 11,097 (F:124) vs 12,324 (S:26); engines 11 vs 10 effective.",
+  "Final verdict says paddleocr_indic missing (F:41) yet table shows DONE 2026-09-27 21:55 (F:122).",
+  "Artifact count 654 vs 659 (F:94,104).",
+  "W5 agenda D1 says kok+pa while K1 erratum says kok only."
+ ],
+ "open_items": [
+  "MLX install approval (K4a) pending; Vinay meeting outcome Option A/B/C unknown",
+  "gu_o005 spot-check verdict (gu SAFE or BARRED)",
+  "User approval for sat/ks source downloads and 600k-ks-ocr 10.6GB",
+  "GPU budget cap for any non-local training",
+  "Whether W5 freeze record was written (W5_FREEZE_RECORD.md) and thresholds signed (k1_signoff.json)",
+  "Full Sarvam run on 1,227 items not done; 'beat 87.39' only directional"
+ ]
+}

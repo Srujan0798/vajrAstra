@@ -1,0 +1,352 @@
+{
+ "checked": 49,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 1,
+   "verdict": "superseded",
+   "correction": "Table values verified, but pa row (p<0.0001, 88 discordant, SURVIVES) is wrong per ERRATUM-K1 at KILL_CRITERIA.md:232-238 (pa n_discordant 3, p=1.0, tie). Already marked superseded; verdict stands as superseded."
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 11,
+   "verdict": "corrected",
+   "correction": "Wrap-only ~30 min / QLoRA ~3h figures are in the files, but the 2-lang (kok+pa) scope is stale after ERRATUM-K1: QLoRA scope is kok only, so pa training/eval time (~1.5h) drops out; ~3h total is an overstatement."
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 30,
+   "verdict": "corrected",
+   "correction": "Table at W5_FREEZE_AGENDA.md:218-231 verified, but it still includes 'pa QLoRA (100 items) ~30 min' and 200-item SFT; after ERRATUM-K1 (kok only) this is stale; currency should be superseded for pa rows."
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 33,
+   "verdict": "corrected",
+   "correction": "pa target is stale per erratum; also pa baseline is 0.145 in W6 spec vs 0.1373 in K1 table (internal inconsistency)."
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 35,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 40,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 41,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 42,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 43,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 44,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 45,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 46,
+   "verdict": "verified",
+   "correction": "Santa says '7 RED issues' (line 302/310) but lists 8 RED fix-spec rows (R2-A,B,C,D,G,I,J,K at 321-328); extraction's '7-8' is accurate."
+  },
+  {
+   "index": 47,
+   "verdict": "verified",
+   "correction": ""
+  },
+  {
+   "index": 48,
+   "verdict": "verified",
+   "correction": ""
+  }
+ ],
+ "missed": [
+  {
+   "theme": "contradiction",
+   "claim": "W5_FREEZE_AGENDA C.4 says Odia 'K1 verdict: SURVIVES' while KILL_CRITERIA K1 table says or KILLED (surya loses to tess_i); text hedges internally",
+   "numbers": "or KILLED vs SURVIVES",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:113-117 vs docs/research/level7/KILL_CRITERIA.md:54",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "contradiction",
+   "claim": "ERRATUM-K1 (kok only) was applied to VINAY_MEETING_PACKET and DRAFT_RESEARCH_PLAN only; W5_FREEZE_AGENDA (D1, E.1, F.1) and W6_QLORA_SPEC (title, sec 2.2, sec 7) still say kok+pa and need update",
+   "numbers": "kok only vs kok+pa",
+   "source": "docs/research/level7/KILL_CRITERIA.md:238; docs/research/level7/W5_FREEZE_AGENDA.md:32-35,159; docs/research/level7/W6_QLORA_SPEC.md:75-76,105-109",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar matrix: 606 triples computed, 439 skipped for n<30; files at level2/probe22/scores/mcnemar_full_matrix.json and wilson_ci_*.json",
+   "numbers": "606/439",
+   "source": "docs/research/level7/KILL_CRITERIA.md:222-224",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Memory floors differ: W6 spec pre-train floor 4GB reclaimable vs K4 abort floor T8=2GB; measured 9.4GB reclaimable (~10.8GB incl. strict free); QLoRA 3B 4-bit peak 8-12GB (K4 text says 4-8GB estimate)",
+   "numbers": "4GB vs 2GB; 8-12GB vs 4-8GB",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:63-72; docs/research/level7/KILL_CRITERIA.md:127-129",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "contradiction",
+   "claim": "Final verdict lane B artifact total: header says 654 artifacts, total line says 659 (+5 regenerated b5); section 3 says 6 BARRED while KILL_CRITERIA says 5 langs stay barred (ne PDF-tier counted separately)",
+   "numbers": "654 vs 659; 6 vs 5",
+   "source": "docs/research/level7/FINAL_VERDICT_2026-09-27.md:99,104; docs/research/level7/KILL_CRITERIA.md:225",
+   "status": "CONTRADICTION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "LightOnOCR-2-1B citation inconsistency: arXiv:2601.14251v2 (a Jan 2026 id) dated 2026-06-30 in sec 9.1; treat date as unverified",
+   "numbers": "arXiv 2601.14251; 2026-06-30",
+   "source": "docs/research/level7/W6_QLORA_SPEC.md:231-233",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K1 kok row mixes comparators: gap 0.32 vs rapidocr 0.7522 but McNemar p=0.0033 is surya vs tesseract_bilingual; W6 spec uses easyocr 0.619 (19.4pt) as runner-up",
+   "numbers": "0.32/19.4pt",
+   "source": "docs/research/level7/KILL_CRITERIA.md:52; docs/research/level7/W6_QLORA_SPEC.md:75",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K2 time-to-freeze math: ~84h at 2026-09-29 07:30, micro-repair estimate ~5-6h minimum (10 min/page, 1h visual verify, 2h re-score); stale now (today 2026-10-01 freeze day) so K2(a) headroom no longer 84h",
+   "numbers": "84h; 5-6h",
+   "source": "docs/research/level7/KILL_CRITERIA.md:72-75",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K4 install gate commands: pip install mlx mlx-vlm mlx-tune on .venv311 (Python 3.11.10); plan in level2/probe22/MLX_INSTALL_PLAN.md; reclaim measured via reclaim_memory.sh -> MEMORY_RECLAIM_RESULT.md",
+   "numbers": "Python 3.11.10",
+   "source": "docs/research/level7/KILL_CRITERIA.md:124-127",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "W5 freeze Section E.5 sign-off JSON k1_signoff.json records T1=0.05,T2=3.0,T3=50,T4=6,T5=50,T6=95,T7=30,T8=2, mlx_install_approved flag; freeze go/no-go options: GO with QLoRA / GO wrap-only / NO-GO",
+   "numbers": "T1-T8",
+   "source": "docs/research/level7/W5_FREEZE_AGENDA.md:196-212,233",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

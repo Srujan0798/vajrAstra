@@ -1,0 +1,232 @@
+{
+ "checked": 43,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "corrected",
+   "correction": "Subagent counts: ralph_wiggum_001.md:54/68 give up to 500 Sonnet subagents for search/gap analysis and 250 for src/lib reading; '250+250+500' not exactly stated; cited file should be ralph_wiggum_001 (also 002)."
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 34,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 35,
+   "verdict": "corrected",
+   "correction": "$0.02/browser-hr is in browser_use_001.md:12/93, not composio_awesome_skills_001; other rejections plausible per cited records."
+  },
+  {
+   "index": 36,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 37,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 38,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 39,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 40,
+   "verdict": "corrected",
+   "correction": "Hardcoded frame verified at browser_use_001.md:19 and repeated in all records; the '5,344-image Bengali test' is from Plan v4, not these files (extractor inference)."
+  },
+  {
+   "index": 41,
+   "verdict": "corrected",
+   "correction": "Cited deepseek_harness_001.md:15 supports only 'campaign ends ~Sep 29'; M2 Max 32GB / 64GB for lift are in ELITE_REPO_REFRESH:79,84,203 and browser_use_001:109; '48h hackathon window' not located."
+  },
+  {
+   "index": 42,
+   "verdict": "corrected",
+   "correction": "Verified dates 2025-07-15 (ponytail_001:111, ralph_001:105, ralph_002:112) and ponytail created 2026-06-12 (ELITE:158); 2025-07-15 is a tweet-record date predating ponytail creation, an anomaly but ponytail_001's Huntley reference is at :118; 'ralph_wiggum_001 date 2026-01-08' at :91 verified. Interpretation 'provenance unreliable' is inference."
+  }
+ ],
+ "missed": [
+  {
+   "theme": "decisions_ops",
+   "claim": "ECC MCP policy June 2026: retired six default MCP connectors, ships exactly one (chrome-devtools).",
+   "numbers": "1 default",
+   "source": "docs/research/level7/b/b5_elite_repos/ecc_002.md:140",
+   "status": "PRIMARY",
+   "date": "2026-06-15",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}

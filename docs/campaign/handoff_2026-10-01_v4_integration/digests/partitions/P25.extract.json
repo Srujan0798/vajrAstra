@@ -1,0 +1,515 @@
+{
+ "partition": "P25",
+ "files": [
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/A1_preimage.md",
+   "total_lines": 146,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/A1_verify.md",
+   "total_lines": 129,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/A3_layout.md",
+   "total_lines": 39,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/A3A4_verify.md",
+   "total_lines": 54,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/A4_paths.md",
+   "total_lines": 107,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/A6_recovery.md",
+   "total_lines": 71,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/PROTO66_VERDICT_CHECK.md",
+   "total_lines": 50,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/blind_verify_100strike.md",
+   "total_lines": 77,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md",
+   "total_lines": 38,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/blind_verify_S5.md",
+   "total_lines": 33,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/blind_verify_archive.md",
+   "total_lines": 41,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W4_reports/blind_verify_gate1.md",
+   "total_lines": 71,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W_south_reports/S2_RUN_LIST.md",
+   "total_lines": 32,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md",
+   "total_lines": 52,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "A1 incident pre-image PASS: manifest hashes 19,202 regular files (level2 18,791; renders_shared 400; unified_symlinks 9; pages_400_symlinks 2); tarball of benchmark+engine_docs round-trips 207/207.",
+   "numbers": "19,202 files; tar 151,599,725 B, 230 entries (207 files+23 dirs); sha256 ac9af7e5...c08444",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:6-32,62-102",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "INCIDENT: 13,689 of 18,019 symlinks are broken; level2/renders_shared/ and level2/probe22/out/ are absent (13,289 rendered engine outputs dangle; 400 page symlinks dangle). Content unrecoverable from manifest.",
+   "numbers": "13,689/18,019 broken; 400 + 13,289 dangling",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:54-60,138-140",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "shasum -c on pre-image: 19,201 OK / 1 FAILED (level2/unified/run_bodhan.py rewritten by a concurrent agent after 17:00:46 snapshot). Repo has concurrent writers; manifest left unmodified as point-in-time evidence.",
+   "numbers": "19,201 OK, 1 FAILED; run_bodhan.py 10,555 B -> 10,680 B",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:121-136",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "400 real South render PNGs in _archive/south_renders_shared were not in the bundle (545 MB per A1; 570,147,487 B per verifier): highest-value un-backed-up data.",
+   "numbers": "545 MB / 570,147,487 B / 400 files",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_preimage.md:142; docs/campaign/checkpoints/W4_reports/A1_verify.md:122-124",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A1 blind verify: all five claims VERIFIED (19,202 lines; bundle size 151,599,725; 207/207; sha; 19,201/1) but manifest and bundle cover different scopes; bundle NOT adequate for second incident.",
+   "numbers": "manifest 151/151 sampled; tar 207 of 19,202 files; 98.9% (18,995) not in tar",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_verify.md:9-20,97-117",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Verifier: 14,961 manifest files (1.22 GB) are in neither tar nor git; 42 .py hashed but not in tar (18 untracked in git); run_bodhan.py untracked and absent from tar so its pre-repair bytes are unrecoverable.",
+   "numbers": "14,961 files; 1.22 GB; 42 .py; 18 untracked",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_verify.md:103-117",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Largest unprotected asset: level2/benchmark/pages = 1,194 scored GT page PNGs, 599,788,380 B, in neither tar nor git; 411 archive entries/572 MB have no byte backup. Verifier recommends re-freeze of unified/ + _archive/south_* and git add of untracked scripts.",
+   "numbers": "1,194 PNGs; 599,788,380 B; 411 entries/572 MB",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_verify.md:101-129",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A1 verifier method lesson: uniform random 60 was useless (48/60 in benchmark/packs = 69% of manifest, 0 in out/engine_docs/pages), so stratified + exhaustive passes were added; manifest has pages 1,194 and packs 13,289 files.",
+   "numbers": "60 random; packs 13,289; pages 1,194",
+   "source": "docs/campaign/checkpoints/W4_reports/A1_verify.md:22-37,92-95",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A3 layout repair: 12 moves (LIST.md + 4 QLORA_*.md -> docs/benchmark_docs; 3 w6_*.jsonl -> level2/training_assets/w6_sets; 4 engine/paddle logs -> benchmark/logs), zero deletions; packs stays 13,289, packs/out absent. Literal 'equal BEFORE' post-condition declared FAIL because 8 files legitimately left the tree.",
+   "numbers": "benchmark files 14,663 -> 14,655 (-8); 14,655+5+3=14,663",
+   "source": "docs/campaign/checkpoints/W4_reports/A3_layout.md:4-38",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 training-set files (w6_rlvr_unconditional, w6_sft_conditional, w6_sft_unconditional) now live at level2/training_assets/w6_sets/. w6_sft_conditional.jsonl is actually a pretty-printed JSON array (342 items, 2,183,169 B), not strict JSONL.",
+   "numbers": "342 items; 2,183,169 B; 3 files",
+   "source": "docs/campaign/checkpoints/W4_reports/A3A4_verify.md:15,18",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A3 verify: packs per-engine counts match expected 11 values (1313x7, 1426, 57, 1300, 1315; sum 13,289); sheet_v2.csv 853,307 B and metrics_80.csv 24,514 B undisturbed; delta fully explained (+18 pyc from A4).",
+   "numbers": "13,289 total; now 14,673 = 14,655+18 pyc",
+   "source": "docs/campaign/checkpoints/W4_reports/A3A4_verify.md:9-19",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 stale-path rewrite: 19 files edited, 103 of 134 scope lines rewritten by meaning, py_compile/bash -n green; editable-file grep residual 0; final grep leaves 17 lines (4 locked run_probe.py + 13 retired-source). Verified independently (identical 17 lines).",
+   "numbers": "19 files; 103/134 lines; 17 residual",
+   "source": "docs/campaign/checkpoints/W4_reports/A4_paths.md:4-8,54-75; docs/campaign/checkpoints/W4_reports/A3A4_verify.md:28",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 SMOKE-BLOCKED: locked run_probe.py computes ROOT=parents[2] which became level2/ after the move, so MANIFEST/IMAGES/OUT constants dangle under level2/level2/probe22; no CLI override for image lookup/output. Needs locked-file erratum U10 approval; blocked structurally.",
+   "numbers": "exit=1; FileNotFoundError level2/level2/probe22/manifest.json",
+   "source": "docs/campaign/checkpoints/W4_reports/A4_paths.md:77-88,96-104; docs/campaign/checkpoints/W4_reports/A3A4_verify.md:50",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 supplementary metrics parity MATCH: recomputed CER for surya/as/as_01 = 0.012605 vs stored sheet_v1 0.0126 (WER 0.0968); primary parity blocked because no smoked item.",
+   "numbers": "CER 0.012605 vs 0.0126; gt_len 233 pred_len 238",
+   "source": "docs/campaign/checkpoints/W4_reports/A4_paths.md:90-94; docs/campaign/checkpoints/W4_reports/A3A4_verify.md:30",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Retired-source readers still pointing at absent level2/renders_shared / pages_400 / reports/CER_STAGE3B.json: research/gates b1/b3/b4 gates, deep_verify, run_engine, seal_gen, test_registry, verify_v2, build_benchmark_22, reconcile_22, training_assets_gen, metrics_rigor_gen. level2/out (South v1) exists but retired.",
+   "numbers": "13 retired-source survivors; CER_STAGE3B.json ABSENT",
+   "source": "docs/campaign/checkpoints/W4_reports/A4_paths.md:6,15-16,39-52",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A4 deviation: manifest_22.json lives at level2/benchmark/manifest_22.json (749,957 B), not scores/; LEADERBOARD.md path in build_benchmark_22.py is a citation to an ABSENT file (incident loss).",
+   "numbers": "749,957 B",
+   "source": "docs/campaign/checkpoints/W4_reports/A4_paths.md:33-35",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Whole level2/benchmark tree is untracked in git (??), so git cannot prove non-modification; verification relied on mtimes. Locked files: run_probe.py (Sep 28), AGENT_PROTOCOL.md (only copy), manifest_v1.json, sheet_v1.csv.",
+   "numbers": "tree untracked",
+   "source": "docs/campaign/checkpoints/W4_reports/A3A4_verify.md:34-46",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A6 recovery PASS from OpenCode DB (~25 GB, table part): LEADERBOARD.md 12,558 B, mcnemar_summary.md 3,023 B, abstention_audit.md 6,832 B, 10 FS-VERDICT-H48-001..010 files recovered; santa_method_cross_check.md PARTIAL (143/173 lines; missing ## RESOLVED, recorded LOST).",
+   "numbers": "12,558 / 3,023 / 6,832 B; 143 of 173 lines",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_recovery.md:1-30",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "A5: metrics_*_normalized.json for 11 engines and 11 preds_*.json were copied from _archive/cleanup_2026-09-28/probe22_dups during A3, no regeneration; mcnemar_full_matrix.json TIMED OUT at 6 min (restarted in background, pending); build_sheet_v2 recomputed 12,324 rows validated on 24 rows.",
+   "numbers": "11 engines; 12,324 rows; 24 validated; 6-min timeout",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_recovery.md:34-55",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "LAYOUT FROZEN 2026-10-01: no mv/rename/delete under level2/ until S6; new files allowed; sealed dirs level2/out and level2/reports read-only; model weights never go inside level2 (boss 21:3x ruling). R-1: South v1 retired only after S6.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/A6_recovery.md:59-71",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "PROTO-66 verdict check on BOSS_CONCERNS.md (64,363 B, 296 rows): sources 1-5 complete (CO 96/96, C1-C17, M1-M8, HL1-HL12) but meetings (S10-*, S29-*) have 0 rows; red lines from meetings not registered.",
+   "numbers": "296 rows; 0 S10/S29 rows",
+   "source": "docs/campaign/checkpoints/W4_reports/PROTO66_VERDICT_CHECK.md:5-29",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Meeting red lines at risk: 'No training before research validation' (Sep 29 D4/D5), 'one standard, like one page, one sample' (Sep 10), Sep 29 method steps (a)-(j) and action items A1-A7.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/PROTO66_VERDICT_CHECK.md:25-29",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Register status hygiene: DONE-VERIFIED = 1 row, bare DONE = 35 rows (8 of 15 sampled have no runnable evidence command); 18 OVERCLAIMED should be OVERCLAIMED-REOPENED, 4 PENDING not in legend. Verdict PASS-WITH-FIXES, none applied.",
+   "numbers": "1 vs 35; 8/15 no command; 18+4 nonstandard",
+   "source": "docs/campaign/checkpoints/W4_reports/PROTO66_VERDICT_CHECK.md:31-50",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "S5/W4 per-language n (honest, not 100): as 19, brx 67, doi 27, gu 24, sat 20, mni 20, or 69; hi, bn, kok, ks, mai, mr, pa, sa, sd, ur = 100; kn/ta/te/ml = 100 new South.",
+   "numbers": "as19 brx67 doi27 gu24 sat20 mni20 or69",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_100strike.md:33-59",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Overclaim strike: W4.md must not claim all 22 languages >=100; verified none does (W4.md L17, L39 deny it). manifest_v2 = v1 1,283 + South 400 = 1,683.",
+   "numbers": "0 matches; 1,283+400=1,683",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_100strike.md:9-67",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "South per-engine CER on ta/te/kn/ml (n=100 each): tesseract_indic 0.1450 (ta .1706 te .1558 kn .1245 ml .1292); openbharatocr alias identical 0.1450; anuvaad_tesseract n=355 0.1956; rapidocr n~395 0.8427; doctr n=400 0.8236.",
+   "numbers": "0.1450; 0.1956; 0.8427; 0.8236",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_S5.md:14-22",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "easyocr South: te CER 0.2437, kn 0.2096; ta BROKEN (tamil.pth state_dict mismatch); ml skipped (malayalam.pth not cached, download needs boss approval). anuvaad ml only 55 of 100 outputs.",
+   "numbers": "te .2437 kn .2096; ml 55/100",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_S5.md:16-20",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan pair-only on 300 South gold: 4-bit CER 0.4034, bf16 CER 0.4010 (vs surya 0.5660); verified from preds_bodhan_*_pair.metrics.normalized.json total_sample_count=300.",
+   "numbers": "0.4034 / 0.4010; n=300",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_S5.md:23; docs/campaign/checkpoints/W4_reports/blind_verify_archive.md:36",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "South CERs are NOT in metrics_*_normalized.json (v1 18 langs only) nor sheet_v2.csv (7 engines, 1227 rows, no ta/te/kn/ml); must be read from per-prediction JSONs in packs/<engine>/<lang>. Tiered scoring never pooled.",
+   "numbers": "1227 rows",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_S5.md:8,27-30",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Gate 1 (BODHAN_BASELINE.md): sample-100 (n=99) 4-bit CER 0.6878 / bf16 0.6863; pair-only n=300 0.4034/0.4010; bench small_rep n=1173 CER 0.0540 WER 0.1356; official-path n=99 BLOCKED (vendor code asserts CUDA, GPU day). Status CONDITIONAL PASS.",
+   "numbers": "0.6878/0.6863; 0.4034/0.4010; 0.0540/0.1356; n 99/300/1173",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_gate1.md:10-47",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Bodhan variants on disk: indic-ocr, indic-ocr-mlx-4bit, indic-ocr-mlx-bf16 populated; indic-ocr-bench and indic-ocr-mlx-8bit are 0-safetensors placeholders.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_gate1.md:49-71",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 labelled handwriting slice: official_hw_gu_test_manifest.json = Gujarati IIIT-HW test, 16,490 items, 10,964 vocab words (8,113 unique used), gt_source iiit_hw, tier official_hw; splits train 82,563 / val 17,643 / test 16,490, vocab 10,963 lines; all 4 checks PASS.",
+   "numbers": "16,490 items; 82,563/17,643/16,490",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:7-31",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 leak rule only path-level: manifest has no writer_id/page_id; disjointness rests on split-dir namespacing and upstream IIIT-HW convention, not independently audited.",
+   "numbers": "test\u2229train=0, test\u2229val=0",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:19-23",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "H2 on-disk gap: manifest paths say gu/test/N.jpg but jpgs live at gu/test/test/N.jpg, train/ and val/ absent, only 4,645 jpgs present vs 16,490 manifest items.",
+   "numbers": "4,645 jpgs vs 16,490",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_H2.md:34-35",
+   "status": "MEASURED",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Consolidation: proto-107 (Gate 1 numbers SSOT in DISPATCH_LOG \u00a736, CONDITIONAL PASS) and proto-108-md-consolidation (parked until A7 go; canonical RESEARCH_DECISIONS = docs/campaign/RESEARCH_DECISIONS.md, docs/research copy archived, sha d751bf09...2d75, 3,173 B). docs/PLAN.md is stale 09-26; DRAFT_RESEARCH_PLAN.md is Plan v3 draft with 0.4034 at L28/L180.",
+   "numbers": "3,173 B",
+   "source": "docs/campaign/checkpoints/W4_reports/blind_verify_archive.md:7-39",
+   "status": "DECISION",
+   "date": "2026-10-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "South rerun feasibility: extraction from official Tamil/Telugu/Kannada/Malayalam PDFs yields 0 clean pages of 23,001 scanned (179 PDFs); 17,473 pages (76%) legacy-font mojibake. Rejection: Tamil 99.0%, Telugu 91.2%, Kannada 58.5%, Malayalam 0.7% by control-char gate.",
+   "numbers": "Ta 6,606 pp/34 PDFs; Te 8,231/84; Kn 5,825/41; Ml 2,339/20; 0 clean",
+   "source": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md:9-24,43-48",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Same gates gave 126/400 clean pages for the 18-language probe; gates MIN_CHARS=50, MIN_SCRIPT_RATIO=0.5, MAX_LATIN_RATIO=0.6, MAX_CTRL_CHARS=3. Legacy-font mojibake in Indic PDFs is the root cause for South GT shortage.",
+   "numbers": "126/400",
+   "source": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md:9,24",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "South decision path: Option 1 fill from Sarvam bench (sarvam_fill) per proto-71 \u00a7A / proto-104 \u00a7S2; needs boss approval of Sarvam bench download (U9, U24); sarvam_vision 'not run - cap spent'. Earlier 16:36 stub falsely said DONE.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md:30-41",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "S2 draw: 400 South items from Sarvam Indic OCR Bench (ta/te/kn/ml x100, seed 20260926 = v1 manifest seed; ids tam_105-204, tel_10-109, kan_1-100, mal_1-100); rendered to benchmark/pages/{ta,te,kn,ml}; manifest_v2.json = 1,683 items. South GT = Sarvam-bench fill (proto-104 R-7).",
+   "numbers": "400; seed 20260926; 1,683; existing 158 sarvam_fill items",
+   "source": "docs/campaign/checkpoints/W_south_reports/S2_RUN_LIST.md:7-28",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Probe-era honest shortfalls: as 19, gu 24, ne 37, doi 27, mni 20, sat 20 (listed as 5 langs but 6 named).",
+   "numbers": "as19 gu24 ne37 doi27 mni20 sat20",
+   "source": "docs/campaign/checkpoints/W_south_reports/SOUTH_RERUN_FEASIBILITY.md:35",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "South test GT is Sarvam bench (public benchmark); Bodhan/Sarvam bench small_rep 0.0540 CER is on the same bench family - potential contamination/saturation not discussed in these reports.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W_south_reports/S2_RUN_LIST.md:11; docs/campaign/checkpoints/W4_reports/blind_verify_gate1.md:29",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "unclear",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no incident/backup discipline: A1 shows 13,689 dangling symlinks, 600 MB GT pages and run_bodhan.py untracked and unrecoverable (A1_verify.md:103-129). Plan needs git-tracked/bundled eval GT+code before any training.",
+  "Plan v4 uses Bodhan CER 0.4034 vs surya 0.566 on 300 gold (South/Sarvam bench, printed), but Gate 1 official-path parity is BLOCKED (CUDA vendor assert) and verdict is only CONDITIONAL PASS (blind_verify_gate1.md:45; BODHAN_BASELINE).",
+  "Plan v4 omits South (ta/te/kn/ml) GT reality: PDFs yield 0 clean pages of 23,001; South GT is Sarvam-bench fill and per-engine CERs (tesseract 0.1450, doctr 0.8236, rapidocr 0.8427) live only in packs JSONs (SOUTH_RERUN_FEASIBILITY.md:20; blind_verify_S5.md:27).",
+  "Weak-cell n counts must be honest per language (as19 brx67 doi27 gu24 sat20 mni20 or69); any plan claim of >=100 per language is struck (blind_verify_100strike.md:33-59). Plan v4 weak cells need these n for CIs.",
+  "IIIT-HW slice has no writer_id/page_id so HW0 leak gate cannot be proven writer-disjoint from the manifest; on-disk images are 4,645 of 16,490 and mispathed (blind_verify_H2.md:23,35). Plan HW2 independent-writer gate needs real writer metadata.",
+  "Meeting red lines (no training before research validation; one standard one page one sample) are absent from the register (PROTO66_VERDICT_CHECK.md:25-29); Plan v4 training gates must encode them (G-2.5).",
+  "Layout frozen until S6; locked run_probe.py/AGENT_PROTOCOL.md need erratum U10 before engine smoke re-runs; plan must account for this (A4_paths.md:96-104).",
+  "Model weights must never go inside level2 (A6_recovery.md:71); portable PyTorch plan must keep weights outside the benchmark tree.",
+  "Many retired-source gates (b1/b3/b4 research gates, seal_gen) read absent renders_shared: earlier measured engine-gate results cannot be reproduced without restoring the 400 renders (A4_paths.md:41-52)."
+ ],
+ "contradictions": [
+  "A6 says A4 smoke gate 'BLOCKED on missing surya engine, not a path bug' (A6_recovery.md:36-37) but A4 and the verifier show it is structurally a path bug (parents[2], A4_paths.md:77-88; A3A4_verify.md:50).",
+  "A1 reports 545 MB for renders_shared; verifier measures 570,147,487 B / 572 MB (A1_preimage.md:142 vs A1_verify.md:101,122) - MB vs MiB difference.",
+  "A3 executor FAIL on equality (14,655 vs 14,663) vs verifier 'VERIFIED with amendment' (14,673 incl. 18 pyc) - not a data loss, framing difference.",
+  "SOUTH_RERUN_FEASIBILITY option 4 lists '5 probe langs' but names 6 (as, gu, ne, doi, mni, sat) and includes ne 37, absent from the W4 n table (SOUTH_RERUN_FEASIBILITY.md:35 vs blind_verify_100strike.md:36-44).",
+  "Verifier found H2 manifest paths inconsistent with disk (test/N.jpg vs test/test/N.jpg) yet scored PASS (blind_verify_H2.md:35).",
+  "Gate 1 label 'BLOCKED' paraphrased to 'vendor assert' in BODHAN_BASELINE (blind_verify_gate1.md:47)."
+ ],
+ "open_items": [
+  "mcnemar_full_matrix.json pending (timed out at 6 min, restarted) (A6_recovery.md:47-55).",
+  "santa_method_cross_check.md ## RESOLVED section (30 lines) LOST (A6_recovery.md:25-28).",
+  "Boss approval for U10 locked-file errata and Sarvam bench download (U9/U24) (A4_paths.md:96; SOUTH_RERUN_FEASIBILITY.md:41).",
+  "Add S10-*/S29-* meeting rows; normalise 35 bare DONE and 22 nonstandard status words (PROTO66_VERDICT_CHECK.md:47-50).",
+  "Official-path Bodhan parity waits GPU day (blind_verify_gate1.md:45).",
+  "Backup bundle for _archive/south_renders_shared, unified/, pages (A1_verify.md:126-129).",
+  "proto-108 MD consolidation parked until A7 go (blind_verify_archive.md:22)."
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "partition": "P34",
+ "files": [
+  {
+   "path": "docs/benchmark_docs/LIST.md",
+   "total_lines": 71,
+   "fully_read": true
+  },
+  {
+   "path": "docs/benchmark_docs/QLORA_EVAL_SPEC.md",
+   "total_lines": 429,
+   "fully_read": true
+  },
+  {
+   "path": "docs/benchmark_docs/QLORA_READINESS.md",
+   "total_lines": 231,
+   "fully_read": true
+  },
+  {
+   "path": "docs/benchmark_docs/QLORA_SMOKE_TEST.md",
+   "total_lines": 256,
+   "fully_read": true
+  },
+  {
+   "path": "docs/benchmark_docs/QLORA_TRAINING_DATA.md",
+   "total_lines": 314,
+   "fully_read": true
+  },
+  {
+   "path": "level2/training_assets/README.md",
+   "total_lines": 45,
+   "fully_read": true
+  },
+  {
+   "path": "product/docs/B21_SYNTHETIC_LINES_SPEC.md",
+   "total_lines": 151,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe list for Sarvam indic-ocr-bench small_representative: 20 pages x 18 remaining languages (stratified by word-count tertile 7/7/6), seed 20260925, plus 5x4 South add-on pages. Images not downloaded, engines not run.",
+   "numbers": "20x18=360 + 5x4=20; seed 20260925",
+   "source": "docs/benchmark_docs/LIST.md:1-5",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-25",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Script coverage from GT Unicode: Manipuri is Meitei Mayek 20/20; Santhali is Ol Chiki 19/20; Kashmiri and Urdu are Perso-Arabic 20/20 each.",
+   "numbers": "mni 20/20; sat 19/20; ks 20/20; ur 20/20",
+   "source": "docs/benchmark_docs/LIST.md:7",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sindhi in the bench split is Devanagari, not Nastaliq; Nastaliq is covered only by Urdu + Kashmiri.",
+   "numbers": "sd 20/20 Devanagari",
+   "source": "docs/benchmark_docs/LIST.md:7,29",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Santhali probe pages are heavily mixed-script (16 of 20 mixed; Bengali-Assamese + Ol Chiki), median 23 words. Punjabi has 6 mixed, Marathi 4.",
+   "numbers": "sat mixed 16/20; pa 6; mr 4",
+   "source": "docs/benchmark_docs/LIST.md:28",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Median words per page across probe list ranges 22 (sa) to 32 (mai); mni 29, ks 27, ur 29, doi 29, or 28.",
+   "numbers": "sa 22; mai 32",
+   "source": "docs/benchmark_docs/LIST.md:11-30",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Level-2 training assets generated 2026-09-13 from 4000 OCR packs: sft_noisy_to_gold.jsonl 1760 lines (176 dense pages x 10 engines), preference_pairs_dpo.jsonl 126 pairs (lowest-CER chosen vs highest-CER rejected), disagreement_queue.json 50 pages (top 50 of 394 rankable).",
+   "numbers": "1760; 126; 50/394",
+   "source": "level2/training_assets/README.md:12-18",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "2026-09-13",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Dense page = >=200 normalised PDF-text-layer chars; 176 dense pages (deck est ~177): Devanagari 24, Kannada 19, Latin 43, Malayalam 8, Tamil 53, Telugu 29. GT anchor is the PDF text layer (not human labels).",
+   "numbers": "176; Dev 24 Kan 19 Lat 43 Mal 8 Tam 53 Tel 29",
+   "source": "level2/training_assets/README.md:8-10",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "2026-09-13",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "224 of 400 pages are GT-thin (<200 chars) and excluded from SFT/DPO; 9 SFT lines have empty noisy_text; 6 queue pages unrankable (<2 engines producing tokens). South-400 assets are printed South-Indian pages, no handwriting.",
+   "numbers": "224/400; 9; 6",
+   "source": "level2/training_assets/README.md:40-45",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "2026-09-13",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "SFT/DPO training assets are machine-engine OCR output vs PDF text layer pairs (noisy->gold) -- a post-correction/VLM SFT format usable for a post-correction stage; disagreement queue uses median pairwise token Jaccard.",
+   "numbers": "median pairwise Jaccard ascending",
+   "source": "level2/training_assets/README.md:14-36",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "2026-09-13",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B21 synthetic-lines spec (proto-100 B-21, DRAFT, 2026-09-30) targets ks (Nastaliq), sat (Ol Chiki), mni (Meitei Mayek): sat and mni have zero real clean pages in probe22 (0/100 clean under gates); ks severe fragmentation, surrogate Sarvam fails.",
+   "numbers": "sat 0/100; mni 0/100",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:3-18",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "B21 hard rule: no text from Sarvam bench, Indic OCR Bench, IIIT-HW, IIIT-HW-words, BSTD or any public benchmark may be reused for synthetic text; gate G2 = grep for sarvam/indic-ocr-bench in product/synthetic/ must be empty.",
+   "numbers": "forbidden list incl IIIT-HW-words",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:20,32,136",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B21 licensed text sources: Ol Chiki = Unicode CLDR + OLPC Santali corpus (~2k sentences); Nastaliq = URDU-KB / Rekhta PD subset filtered for Kashmiri lexicon (CC-BY-4.0/PD); Meitei Mayek = Manipuri Wikipedia + CLDR (CC-BY-SA, ~1.5k sentences). Corpus sizes are small relative to 5,000 lines/script target.",
+   "numbers": "~2k; ~1.5k sentences; target 5000 lines",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:26-30",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B21 fonts (all OFL-1.1): Noto Sans Ol Chiki 100% coverage, Noto Nastaliq Urdu 95% (Kashmiri subset, i.e. 5% glyph gap), Noto Sans Meetei Mayek 100%; Noto Sans fallback. Render with PyMuPDF.",
+   "numbers": "95% Nastaliq coverage",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:38-45",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B21 degradation pipeline (seed=20260926+line_id): font 12-24pt; DPI 150/200/300 weights 0.5/0.3/0.2; blur sigma Gamma(2,0.5) 0-1.5px; gaussian noise 0-15; salt-pepper 0-2%; contrast 0.5-1.5x; brightness +-30%; rotation +-3deg; skew +-5%; coffee stains Poisson(0.5) 0-3; fold lines 0-2; JPEG Q 40-95; Otsu/Sauvola.",
+   "numbers": "as listed",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:49-69",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B21 generator CLI and gates: python -m product.tools.gen_synthetic_lines --scripts ks,sat,mni --count 5000 --seed 20260926; gates G1 license audit, G2 no bench text, G3 byte-identical determinism, G4 >=5,000 lines per script + 100 samples human-reviewed. Tool is spec only (no evidence it exists/ran).",
+   "numbers": "5000 lines/script; 100 human samples",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:102-139",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "B21 spec contains defects: example Kashmiri text field mixes Devanagari (bॅनٛوٛ) into Perso-Arabic string; license row 'synthetic_pd_unicode' while Wikipedia source is CC-BY-SA (share-alike conflicts with PD label); two sections numbered 7; two G4 rows; spec covers only printed-line synthesis (no handwriting, no R4 scan restoration beyond generic aging).",
+   "numbers": "n/a",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:82,94,119,131,138-139",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "All W6 QLoRA docs carry a PAUSE banner (2026-09-29): no training/mlx-tune/mlx_vlm until W5 freeze (after Wed 2026-10-01) and Vinay meeting (2026-09-30). Option A approved = resume; Option B = wrap-only ships, files archival; Option C = backbone swap, files superseded.",
+   "numbers": "Vinay meeting 2026-09-30; freeze after 2026-10-01",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:1-24",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QLoRA W6 scope locked to kok + pa ONLY, 200 records (100 each), all gt_source=official_pdf_layer (PDF text-layer GT, not human). mai killed at K1 (gap 0.8pt < T2=3pt; p=1.0; n=100); or killed at K1 (surya LOSES to tess_i). Barred: ks/mni/ur/sat/mr + ne PDF-tier (D4 + 6.4 lock).",
+   "numbers": "kok 100, pa 100; mai gap 0.8pt",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:36-46",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Backbone for QLoRA: Qwen2.5-VL-3B-Instruct 4-bit MLX via mlx-tune, text decoder only (q,k,v,o,gate,up,down), vision encoder frozen; recipe r=16 alpha=32 dropout 0.05 lr 1e-4 3 epochs, batch 1 grad-accum 8 (prod), max-seq 1024, image-res 512, seed 20260926. Mac/MLX only (not portable PyTorch).",
+   "numbers": "r16 a32 lr1e-4 3ep; seq1024; img 512",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:244; QLORA_SMOKE_TEST.md:95-108",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "SFT split 80/10/10 per language by hash(image_id)%10 (train 160, val 20, test 20 total); note: split is over PAGES from only 2 PDFs per language, so val/test are same-source-PDF pages (not independent writers/books) -- leakage-by-source risk acknowledged.",
+   "numbers": "160/20/20; kok 2 PDFs 50+50; pa 90+10 PDFs",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:107-125,95-101,272",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Training pairs are full printed PAGES with avg GT 2308 chars (kok; min152 max4011) and 1744 (pa; min940 max2409), capped at 1024 chars with truncation risk; page-level SFT on 80 images/lang is tiny (n=80), with memorisation risk acknowledged.",
+   "numbers": "kok avg 2308; pa avg 1744; cap 1024",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:239-252,271-272",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "pa source_pdf concentration: 90 of 100 items from s_punjabi0696pro_raw.pdf, 10 from s_punjabi0001pro_raw.pdf; kok 50/50 from two PDFs. Hash split across pages of the same PDF; test CER << val CER is the overfit tripwire.",
+   "numbers": "pa 90/10; kok 50/50",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:95-101,272",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT-source hygiene rule: gt_source=sarvam_fill (158 rows, machine GT) never trains (AGENT_PROTOCOL 9); official_pdf_layer only. Manifest 1,283 items; 357 rows in barred langs; sa 100 rows out of scope; 56 unlabeled mixed/test rows.",
+   "numbers": "158; 357; 100; 56; 1,283",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:257-262,296",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Image meta coverage: pa image_meta 90/100 (10 missing dims, non-blocking); image_meta.json 1,227 entries; Datasets/akshardrishti_official 34,871 files 25 GB.",
+   "numbers": "90/100; 1,227; 34,871 files 25GB",
+   "source": "docs/benchmark_docs/QLORA_TRAINING_DATA.md:91,300-303",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "QLoRA eval: McNemar exact (binomial two-sided) on paired per-item binary 'CER<=0.5 = correct'; K1 SURVIVES if p<0.05 AND qlora_correct>wrap_correct AND CER delta >=3.0pt (T1=0.05, T2=3.0pt); INCONCLUSIVE if n<30. Primary 200 paired (kok100+pa100), secondary 160 held-out. Qlora vs zero-shot Qwen2.5-VL-3B wrap baseline.",
+   "numbers": "T1 0.05; T2 3.0pt; thr CER<=0.5; n<30",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:36-67,126-157,289",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Eval spec internal inconsistency: 'validation 160 items (80 per lang)' conflated with the 80/10/10 split; resolved by 200 paired items on FULL probe22 set -- which INCLUDES the 160 train images (the McNemar on 100/lang is not held-out; only 20/lang is). Pseudocode evaluates on {lang}_sft.jsonl (all 100 incl. train).",
+   "numbers": "200 paired incl train vs 40 held-out",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:36-58,309-312",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Spec text leaves a 'wait, see 1' scratch note and mixed summary: Wilson 95% CI on binary CER<=0.5 outcome; K3 requires QLoRA CI lower > wrap CI upper; pseudocode k1 verdict both branches KILLED; `w6_wrap_only_langs` hard-codes ['mai','or'].",
+   "numbers": "Wilson 95%; K3",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:37,200-230,361-364",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "K1 baseline (2026-09-29 07:30 IST) on probe22 printed pages: kok surya CER 0.4285 vs rapidocr 0.7522 (McNemar p=0.0033); pa surya 0.1373 vs tess_i 0.2159 (p<0.0001). Surya is the 'wrap' engine for these languages; Konkani CER 0.4285 remains very weak.",
+   "numbers": "kok 0.4285 vs 0.7522 p=0.0033; pa 0.1373 vs 0.2159 p<0.0001",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:159-164",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Eval spec note: Indic OCR average CER ~0.15-0.45 used to justify 0.5 binary threshold; mai/or to remain wrap-only (K1 killed: mai tie, or surya loses to tesseract Indic).",
+   "numbers": "avg CER 0.15-0.45",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:129,265;QLORA_TRAINING_DATA.md:41-45",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Phase 6 sheet.csv frozen at 12,324 rows = 1,227 items x 10 engines + 54 sarvam_vision (3/lang x 18, credit cap); 0 error packs across 11 engines; manifest later 1,283 (56 new mr/pa/sd items not in any engine packs).",
+   "numbers": "12,324 rows; 1,227x10 + 54",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:54,180-196",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Sarvam Vision 2.1 is the bench target, NOT a routable pipeline component; Sarvam call cap 54 per AGENT_PROTOCOL 5.",
+   "numbers": "54 calls",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:193,216",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Laptop compute: Apple M2 Max 32GB (docs also say ~23 GB physical in vm_stat), MLX stack pinned mlx 0.32.3, mlx-vlm 0.7.4, mlx-lm 0.31.3, mlx-tune 0.6.0; est ~3s/iter, 8-12 GB peak; disk 12 GB free (98% used of 460 GiB). Training portable PyTorch/GPU not assessed -- plan v4 says portable PyTorch.",
+   "numbers": "3s/iter; 8-12GB; 12GB free; 98%",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:39-48,68-85;QLORA_SMOKE_TEST.md:113",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Readiness verdict flipped within one day: earlier refresh NEEDS_USER_APPROVAL (mlx tools absent, 17GB free) -> FINAL REFRESH 16:22 IST READY after user approved installs (12GB free). Memory raw free ~143MB fails strict 4GB gate; reclaimable ~9.43GB; abort rule Pages free<3GB at launch.",
+   "numbers": "READY; reclaimable 9.43 GB; <3GB abort",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:31-99,200-211",
+   "status": "DECISION",
+   "date": "current",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D1: wrap-only (ship existing pipeline, Surya-based) is locked stage-1 deliverable; QLoRA is conditional stage-2 on SAFE langs (kok/mai/or/pa, n>=50) gated on Phase 6 McNemar gap + memory + user go. Candidate backbones: GLM-OCR 0.9B (primary per INTEGRATED-ELITE-STACK) or Qwen2.5-VL-3B (spec); backbone inconsistent across docs.",
+   "numbers": "GLM-OCR 0.9B vs Qwen2.5-VL-3B",
+   "source": "docs/benchmark_docs/QLORA_READINESS.md:99,107,146;QLORA_TRAINING_DATA.md:32",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Smoke test: 5 items (kok_o009 152 chars, kok_o042 3306, kok_o088 4011, pa_o018 940, pa_o003 2409), 3 epochs batch1 grad-accum2, <=10 min, peak RSS <=12 GB, adapter >1MB; pass if 5 of 6 criteria; 3+ fail aborts to wrap-only; max 2 re-attempts; total W6 budget ~3h (30 min if smoke fails). Note spec says 3 epochs prod same as smoke.",
+   "numbers": "<=10min; <=12GB; 5/6 pass; ~3h",
+   "source": "docs/benchmark_docs/QLORA_SMOKE_TEST.md:53-59,108-115,136,164-177,251",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "K4 gates: K4(a) imports; K4(b) post-reclaim inactive+purgeable >= T8 = 2 GB (measured ~9.4GB). Kill criteria family K1 (QLoRA vs wrap McNemar), K2 micro-repair, K3 Wilson upper, K4 MLX/memory; defaults T1=0.05, T2=3.0pt.",
+   "numbers": "T8=2GB",
+   "source": "docs/benchmark_docs/QLORA_SMOKE_TEST.md:127,241;QLORA_EVAL_SPEC.md:416",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "2026-09-29",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "None of these 7 files address handwriting: all QLoRA data are printed PDF-layer pages (kok/pa) and bench list pages; no IIIT-INDIC-HW or Bengali handwriting training/eval design. Note B21 forbids IIIT-HW/IIIT-HW-words text for synthetic generation (distinct from using them to train).",
+   "numbers": "0 handwriting rows",
+   "source": "product/docs/B21_SYNTHETIC_LINES_SPEC.md:32",
+   "status": "UNKNOWN",
+   "date": "2026-09-29",
+   "currency": "2026-09-30",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Eval GT for QLoRA is PDF text layer (official_pdf_layer), GT is machine-derived and CER thr 0.5; level2 assets README also anchors on PDF text layer -- both measure agreement with PDF layer, not human-verified transcription.",
+   "numbers": "gt_source official_pdf_layer",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:418; level2/training_assets/README.md:8",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Wilson CI/McNemar tooling: scipy binom + statsmodels proportion_confint; existing level2/probe22/metrics.py cer() strips ctrl chars (MAX_CTRL_CHARS=3), empty prediction CER=1.0 (silence is failure); estimator law from LEVEL7_RESEARCH_CAMPAIGN 9.3.",
+   "numbers": "CER empty=1.0",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:118-121,200-214",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Eval spec expected wall: ~30 min per lang x2 = ~1h inference; verdict outputs level2/probe22/w6_eval/{kok,pa}/ + summary.json; Wilson files wilson_ci_*.json exist for 11 engines.",
+   "numbers": "1h; 11 engines",
+   "source": "docs/benchmark_docs/QLORA_EVAL_SPEC.md:114,216-249",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "B21 synthetic ks/sat/mni line spec (fonts, degradations, licensed text, gates G1-G4, 5,000 lines/script) exists but Plan v4 (Bengali handwriting) has no synthetic-data stage; Ol Chiki/Nastaliq/Meitei cells are unaddressed (product/docs/B21_SYNTHETIC_LINES_SPEC.md:5-20,102-139)",
+  "B21 aging degradations (coffee stains, fold lines, JPEG 40-95, Otsu/Sauvola) could be reused as augmentation for Bengali handwriting word images; Plan v4 lists none (B21:49-69)",
+  "Kill/gate discipline: McNemar exact + Wilson 95% + T1=0.05/T2=3pt + n<30 INCONCLUSIVE rule + hard-coded paired-eval; Plan v4 gates (HW0-HW2, G-2.5) lack paired significance testing and a 'keep wrap baseline' fallback (QLORA_EVAL_SPEC.md:135-157,289)",
+  "Eval leakage trap: QLoRA eval pseudocode scores on full set including training rows (QLORA_EVAL_SPEC.md:309-312) and train/val/test are pages of the same 2 PDFs; Plan v4 HW2 'independent writers' gate is right but should explicitly forbid same-source splits (QLORA_TRAINING_DATA.md:272)",
+  "GT provenance: machine PDF-layer GT and sarvam_fill (158 rows) must never train; Plan v4 should add a gt_source field guard (QLORA_TRAINING_DATA.md:257-262)",
+  "Plan v4 Page Expert uses Qwen3.5-0.8B on a portable stack while prior W6 scaffold is MLX/Qwen2.5-VL-3B Mac-only with 8-12GB peak, 12GB free disk and tiny n=80/lang; training compute path for Plan v4 not tied to measured hardware (QLORA_READINESS.md:39-85)",
+  "Smoke-test-before-train gate (5 items, <=10 min, 5-of-6 criteria, abort to wrap-only) is a ready template that Plan v4 lacks before HW training (QLORA_SMOKE_TEST.md:162-177)",
+  "Level-2 SFT/DPO/disagreement assets (1760 SFT lines, 126 DPO pairs, 50-page queue) could seed a post-correction learner but are South-Indian printed; plan has no use for them (level2/training_assets/README.md:14-18)",
+  "Sindhi in bench is Devanagari so Nastaliq coverage = ur+ks only; plan must not assume sd tests Nastaliq (LIST.md:7)"
+ ],
+ "contradictions": [
+  "Backbone: INTEGRATED-ELITE-STACK GLM-OCR 0.9B primary vs W6 spec Qwen2.5-VL-3B (QLORA_READINESS.md:146; QLORA_TRAINING_DATA.md:244)",
+  "Eval '160 validation' vs 200 paired items incl. training rows (QLORA_EVAL_SPEC.md:36-58)",
+  "QLoRA_SMOKE: 3 epochs both smoke and prod yet 'half of real run' (QLORA_SMOKE_TEST.md:94,108)",
+  "Readiness: NEEDS_USER_APPROVAL (QLORA_READINESS.md:202) vs READY (QLORA_READINESS.md:91); the FINAL REFRESH supersedes",
+  "B21 license label PD vs CC-BY-SA text source (B21:29-30,95-96)",
+  "Physical memory: M2 Max 32GB (QLORA_TRAINING_DATA.md:271) vs ~23 GB total in vm_stat (QLORA_READINESS.md:168)"
+ ],
+ "open_items": [
+  "Vinay meeting outcome (Option A/B/C) not recorded in these files",
+  "Whether product.tools.gen_synthetic_lines exists / was run",
+  "K1 for QLoRA vs wrap never measured (spec only)",
+  "mlx-tune recipe grad-accum 8 production referenced to W6_QLORA_SPEC.md (not in partition)",
+  "Bench probe images not downloaded; engines not run on probe list"
+ ]
+}

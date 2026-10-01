@@ -1,0 +1,546 @@
+{
+ "partition": "P09",
+ "files": [
+  {
+   "path": "docs/research/level7/c/c1/LEDGER.md",
+   "total_lines": 1070,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/c/c1/NOTE_EDGE.md",
+   "total_lines": 24,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/c/c1/NOTE_LORA_VRAM.md",
+   "total_lines": 33,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/c/c1/NOTE_QUANT_INDIC.md",
+   "total_lines": 29,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/c/c1/NOTE_SERVE_COST.md",
+   "total_lines": 27,
+   "fully_read": true
+  },
+  {
+   "path": "docs/research/level7/c/c1/NOTE_TRTLLM.md",
+   "total_lines": 27,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "training_compute",
+   "claim": "Qwen2-VL-2B on TRT-LLM: SmoothQuant W8A8 is Pareto-optimal, matching BF16 baseline accuracy at ~2x speed (RTX 5060 Ti 16GB, 7 configs)",
+   "numbers": "2.00x TTFT, 2.13x decode; VQAv2 82.8 vs 82.3; MME 1973 vs 1952; 4-bit tiers 2.39-2.42x decode",
+   "source": "docs/research/level7/c/c1/LEDGER.md:23-27",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "FP8 KV-cache breaks VLMs: visual-token KV clips in FP8-E4M3; keep KV in BF16 (hard deploy guard)",
+   "numbers": "VQAv2 -8.8pp, MME -189; fix restores 82.0/MME 1946; cost dyn VRAM 0.8->1.4GB, decode 2.3->2.0x",
+   "source": "docs/research/level7/c/c1/LEDGER.md:29-32",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "MME-OCR subtask: INT8/SmoothQuant lossless; AWQ worst; AWQ barred for script-heavy workloads (Ol Chiki/Nastaliq) until multilingual calibrated",
+   "numbers": "BF16 24/40, INT8 24/40, SQ 24/40, NVFP4 23/40, FP8 22/40, INT4-AWQ 21/40",
+   "source": "docs/research/level7/c/c1/LEDGER.md:34-37",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "INT4-AWQ collapses translation 90.0->62.5%; plain INT4 85.0%; NVFP4 hurts reasoning/code but perception only -1-3pp. NVFP4 ok for single-pass OCR, barred for reasoning-heavy layout/QA heads",
+   "numbers": "-27.5pp AWQ translation; NVFP4 commonsense 71.4->57.9, code 65->52.5",
+   "source": "docs/research/level7/c/c1/LEDGER.md:39-42",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "MANDATORY LAW: every PTQ/AWQ/GPTQ calibration corpus must include Ol Chiki + Nastaliq + Mayek + Odia samples (few hundred pages, ~zero cost); English-calibrated scales mismatch tail-script activations",
+   "numbers": "multilingual calib ppl 14.64 vs 19.65 English-only; up to +3.52 ppl on Llama-GPTQ (Llama-3.1-8B AWQ-4bit)",
+   "source": "docs/research/level7/c/c1/LEDGER.md:237-240",
+   "status": "PRIMARY",
+   "date": "2026-01-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Quantization error is language-anisotropic: English-calibrated INT3-GPTQ sub-4B gives 1.35x (English) vs 4.37x (Arabic) ppl degradation; LCD adapters recover 70-83% of ppl gap post-hoc; never INT3-class on tail scripts",
+   "numbers": "1.35x->4.37x; 2-4x larger non-English gaps; 70-83% ppl, 17-28% GlobalMMLU recovery",
+   "source": "docs/research/level7/c/c1/LEDGER.md:232-235",
+   "status": "PRIMARY",
+   "date": "2026-08-12",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Outlier shape is language-dependent: naive FP8 cast hurt English +18% vs PT-BR +3.9%; profile per-script activation outliers before choosing FP8 vs INT8-SmoothQuant (SQ suits spiky tails)",
+   "numbers": "+18% EN vs +3.9% PT-BR (Llama-3-8B)",
+   "source": "docs/research/level7/c/c1/LEDGER.md:247-250",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Quant split in VLMs: LLM decoder is the fragile part, ViT tolerates quant; protect decoder + projector; rotation PTQ (QuaRot/SpinQuant) worsens MXFP4",
+   "numbers": "W4A4 Qwen2.5-VL-7B: LLM -3% recovery vs ViT ~-1%; MXFP4 RTN ppl 8.27 vs QuaRot 10.34",
+   "source": "docs/research/level7/c/c1/LEDGER.md:153-156",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W8A8-FP8 effectively lossless at all scales; tuned W8A8-INT 1-3% degradation; calibration DATA is the load-bearing variable (random-token calib hurts INT4)",
+   "numbers": "500K+ evals Llama-3.1; INT 1-3% vs 10%+ prior",
+   "source": "docs/research/level7/c/c1/LEDGER.md:148-151",
+   "status": "PRIMARY",
+   "date": "2025-07-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "LLM-Compressor VLM quants: >99% @8-bit, ~98% @4-bit; 3B-class gets only 1.1-1.5x speedup (72B 3.5x); W4A16 for low-latency, W8A8 for throughput",
+   "numbers": "3.5x max; 3B 1.1-1.5x; W4A16 1.3-1.7x",
+   "source": "docs/research/level7/c/c1/LEDGER.md:158-161",
+   "status": "PRIMARY",
+   "date": "2025-04-01",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Qwen2-VL-2B official quant card on DocVQA (English): GPTQ-Int8 lossless, Int4 -1.1, AWQ -1.4; BF16 4.68GB (35 tok/s A100)",
+   "numbers": "DocVQA 88.34 -> 88.28 / 87.21 / 86.96; MMMU 41.88->41.33/39.22",
+   "source": "docs/research/level7/c/c1/LEDGER.md:173-176",
+   "status": "UNKNOWN",
+   "date": "2024-2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "NVFP4 = E2M1 + per-16 FP8 micro-scale + FP32 tensor scale; <=1% loss vs FP8 on DeepSeek-R1 (English gates only); Hopper/L4 have no native FP4 kernels; NVFP4 Blackwell-only",
+   "numbers": "3.5x mem vs FP16, 1.8x vs FP8; AIME -2%",
+   "source": "docs/research/level7/c/c1/LEDGER.md:118-121",
+   "status": "PRIMARY",
+   "date": "2026-01-08",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "FP4 recovery ladder if NVFP4-PTQ fails Indic slices: MR-GPTQ -> 4/6 scaling -> QAD (not blind QAT); no-retrain NVFP4 valid on edge, activation scaling dominates",
+   "numbers": "PTQ MATH500 91.4/AIME25 32.3 -> QAT 94.3/41.5 -> QAD 94.6/45.6 (BF16 95.8/46.0); NVFP4 B=16 4.5078 bits/input; MXFP4 ~10% drops",
+   "source": "docs/research/level7/c/c1/LEDGER.md:864-880",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Hard per-GPU format locks (vLLM kernels): T4 no optimized INT4, no FP8-W8A8 (W8A16 only); FP8-W8A8 needs Ada/Hopper; Blackwell no INT8 in vLLM; NVFP4 Blackwell-native; L4/Hopper fall back to W4A16 Marlin",
+   "numbers": "T4->INT8-SQ; L4->FP8/SQ/AWQ/GPTQ + W4A16_NVFP4 fallback; Thor->NVFP4",
+   "source": "docs/research/level7/c/c1/LEDGER.md:894-898",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Serve stack decision: Triton + TRT-LLM (inflight_batcher_llm) with per-script LoRA hot-swap; vLLM dynamic FP8 as zero-friction dev fallback; ModelOpt quantize-once for both; pin TRT-LLM >=1.2 (1.2.1 latest stable, 1.3 still RC Sep 2026)",
+   "numbers": "TRT-LLM 1.2.1 Apr 20 2026; 1.3.0rc25 tops list; ModelOpt 0.46.0 (2026-08-18) YAML recipes replace mtq CFG",
+   "source": "docs/research/level7/c/c1/LEDGER.md:79-82,163-166,786-790,983-984,1007",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "NIM self-host requires NVIDIA AI Enterprise licence $4,500/GPU/yr (~$0.51/GPU-hr floor) > L4 rental; recommendation: prototype on free dev NIMs, produce on Triton+TRT-LLM without NIM wrapper; no 2026 price change",
+   "numbers": "$4,500/GPU/yr; EDU $1,125; 5-yr $18K; ~$1/GPU-hr cloud; free dev 1,000 credits, 40 req/min; 90-day eval",
+   "source": "docs/research/level7/c/c1/LEDGER.md:326-329,1016",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Disaggregated/Dynamo serving NOT needed for single 2B single-GPU OCR; Dynamo README: single model on single GPU, engine alone suffices; E/P/D embedding-cache is P1 watch for repeated form layouts",
+   "numbers": "E/P/D 30% faster TTFT on image workloads",
+   "source": "docs/research/level7/c/c1/LEDGER.md:356-359,912-916",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Speculative decoding excluded from OCR latency budget (short deterministic outputs); EAGLE3 only a P1 edge experiment; draft quant drops acceptance",
+   "numbers": "DFlash 15x claim is reasoning-workload, listing-only, not cited; Thor EAGLE-3 2.5x on 70B",
+   "source": "docs/research/level7/c/c1/LEDGER.md:49-52,528-531,798-801,816-820",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Utilization dominates serving cost: same H100 $0.21-$15.25 per M tokens; under-utilization penalty 2.5-24x; any $/1M-page estimate must quote utilization",
+   "numbers": "36x spread; Mixtral 1->25 rps $15.25->$0.87; Ceff=Pgpu*1e6/(TPS*3600)",
+   "source": "docs/research/level7/c/c1/LEDGER.md:380-383",
+   "status": "PRIMARY",
+   "date": "2026-06-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Serve tier: quantized 2B VLM fits any 8GB card (L4/A10G/T4), not H100; VRAM map Qwen2-VL-2B",
+   "numbers": "BF16 4.1->4.9GB; FP8 2.1->2.5GB; INT4 1.0->1.2GB; L4 $0.33-0.70, A10G ~$1.00, H100 median $3.38 (Aug)",
+   "source": "docs/research/level7/c/c1/LEDGER.md:395-413",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Sep-2026 GPU price refresh supersedes Aug/Apr anchors: H100 cheapest reliable on-demand <$2/hr; A100-80GB $1.00-1.19; Vast H100 interruptible floor $0.90, mid $1.79-2.27, PCIe $1.87; 30 GPU-h SFT micro-run $27 floor / $54-68 mid",
+   "numbers": "H100 median $3.37-3.45; L4 typical $0.89 (cheapest $0.32); A100 spot $0.47; +11% H100 90-day trend",
+   "source": "docs/research/level7/c/c1/LEDGER.md:918-922,1028-1031,1062-1068",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": null,
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Per-JOB costing rule: $/job not $/hr decides (H100 2.29x faster than A100 made pricier GPU 20% cheaper per job); timed-trial gate; default L4/A100-cheapest under no-paid-keys",
+   "numbers": "36h A100 @$1.49=$53.64 vs 16h H100 @$2.69=$43.04 (Apr inputs, repriced Sep)",
+   "source": "docs/research/level7/c/c1/LEDGER.md:924-928,1031",
+   "status": "DECISION",
+   "date": "2026-04-19",
+   "currency": "superseded",
+   "superseded_by": "inputs superseded by C1-154 (A100 $1.00-1.19), rule confirmed"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "LoRA/QLoRA budget for a 2B VLM: NeMo ladder 1B LoRA 1x16GB, 3B LoRA 1x24GB -> 2B on one 16-24GB card; QLoRA+Unsloth ~5-8GB; full-FT not needed (QLoRA ~93-97% of LoRA, LoRA 95-98% of full)",
+   "numbers": "NeMo 1B 16GB/3B 24GB/7-8B 40GB; Unsloth 1.8-2.4x faster, 40-70% less mem; ~6-9GB at s1024-2048; 1.28% trainable",
+   "source": "docs/research/level7/c/c1/LEDGER.md:444-447,469-472,477,494-497",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Existence proof: Qwen2-VL-2B QLoRA on free 2xT4 Kaggle, 3 epochs/2.4K Nougat pairs raised ROUGE; template for per-weak-script adapters gated by CER not ROUGE",
+   "numbers": "ROUGE-1 0.18->0.41, ROUGE-L 0.37",
+   "source": "docs/research/level7/c/c1/LEDGER.md:459-462",
+   "status": "PRIMARY",
+   "date": "2026-05-12",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Starter LoRA config: LLaMA-Factory Qwen2-VL-2B lora_target=all, bs2 x accum4, >=12GB; bf16+fp32 mixed precision lowers val loss",
+   "numbers": "12GB floor",
+   "source": "docs/research/level7/c/c1/LEDGER.md:464-467",
+   "status": "PRIMARY",
+   "date": "2024-2025",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "NeMo Customizer catalog is LLM-only (no VLM entries); Qwen2-VL-2B LoRA support unverified; one post-freeze VLM probe needed; fallback LLaMA-Factory/Unsloth",
+   "numbers": "Customizer 26.3.x; 45-min Qwen3-0.6B example",
+   "source": "docs/research/level7/c/c1/LEDGER.md:449-452,846-850,1010-1011",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "PaddleOCR-VL-1.5 vendor FAQ: fine-tuning NOT supported -> Paddle-LoRA path killed; use frozen workhorse, LoRA routed to Qwen2-VL only",
+   "numbers": "1.5: 94.5% OmniDocBench v1.5; Real5 92.05%, skew 91.66% (+14.19); seal NED 0.138 vs 0.382",
+   "source": "docs/research/level7/c/c1/LEDGER.md:942-946",
+   "status": "DECISION",
+   "date": "2026-01-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR-VL-1.6 (0.9B) 96.33% OmniDocBench v1.6; method region-aware data optimization (fix weak regions, not corpus growth) validates weak-cell steering; Indic coverage UNKNOWN; VL-1.6 still tip Sep 2026",
+   "numbers": "96.33%; pipeline_version v1/v1.5/v1.6 only",
+   "source": "docs/research/level7/c/c1/LEDGER.md:930-934,995-996",
+   "status": "UNKNOWN",
+   "date": "2026-06-02",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR 3.7.0 (Jun 2026): PP-OCRv6 medium 34.5M +4.6% det/+5.1% rec over v5-server; tiers 1.5M/7.7M/34.5M; 50-lang unified; PaddleOCR-VL claims 109 langs incl. Hindi; Apache-2.0; candidate classical engine for Devanagari-shared lanes; 109-lang claim needs Ol Chiki/Nastaliq gate",
+   "numbers": "0.13s A100; 3.7.0 still latest Sep 2026",
+   "source": "docs/research/level7/c/c1/LEDGER.md:936-940,992-993",
+   "status": "PRIMARY",
+   "date": "2026-06-11",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "PaddleOCR-VL 0.9B = NaViT ViT + ERNIE-4.5-0.3B; servable today via vLLM; full pipeline (layout/order) not raw VLM; HPI backend needs TRT 8.6.1.6/CUDA11.8 (CUDA12.6 lacks TRT backend)",
+   "numbers": "v1.5 OmniDocBench 94.5%",
+   "source": "docs/research/level7/c/c1/LEDGER.md:277-285",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Nemotron-Parse 1.1: 885M encoder-decoder (256M LM decoder); OmniDocBench edit-dist 0.131 vs MinerU 0.133, GOT-OCR2 0.287, olmOCR 0.326; NIM container",
+   "numbers": "0.131/0.133/0.287/0.326",
+   "source": "docs/research/level7/c/c1/LEDGER.md:252-255",
+   "status": "PRIMARY",
+   "date": "2025-11-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Nemotron-OCR-v2 NIM: multilingual default variant but Ol Chiki/Nastaliq coverage unverified; proprietary container licence; VRAM L4 2.66 GiB multilingual vs 1.57 English (+1.1GiB)",
+   "numbers": "multilingual: L4 2.66, A10G 2.72, A100 2.88, H100 3.17, B200 3.26; 338K API calls/30d; JPEG>PNG for batch decode",
+   "source": "docs/research/level7/c/c1/LEDGER.md:257-260,822-832",
+   "status": "UNKNOWN",
+   "date": "2026-06",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Hosted-VLM beat-this price anchors: Nano-12B-v2-VL $0.20/$0.60 per 1M in/out; hosted NIM $0.90-1.20/M blended; derived ~$0.40-0.50 per 1K pages hosted; commodity API ~ $0.20/M output 8B",
+   "numbers": "~2K tok/page; LLMflation 10x/yr decay",
+   "source": "docs/research/level7/c/c1/LEDGER.md:321-324,385-388,834-838",
+   "status": "DERIVED",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "DERIVED cost sketch: ~$4-8 per 1M pages at saturation on L4 $0.50/hr SmoothQuant 2B VLM; interactive-idle 10-30x; full 1,227-page probe ~cents (NOTE_SERVE_COST); throughput placeholder INFERENCE, not measured",
+   "numbers": "~3K tok/page, ~1.5K tok/s sat, 1.8M pages/GPU-day, ~$7/day",
+   "source": "docs/research/level7/c/c1/NOTE_SERVE_COST.md:12-18",
+   "status": "DERIVED",
+   "date": "2026-09",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Edge: Orin Nano 8GB (Ampere SM87, no FP8) serves 2B-VLM-class INT4 across llama.cpp/vLLM/TRT-Edge-LLM; pin JetPack >=6.2.2 + vision profile cap; dual-checkpoint convention W4A16-Orin + NVFP4-Thor",
+   "numbers": "Nano 40 TOPS, Super 67 TOPS; Thor 2070 FP4-TFLOPS, 128GB, 270GB/s",
+   "source": "docs/research/level7/c/c1/LEDGER.md:518-536,900-904",
+   "status": "PRIMARY",
+   "date": "2026-09-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Thor memory-bound (weight bits are lever); LiteVLM visual-token pruning gives 2.5x latency same accuracy, P1 experiment for dense 200-dpi OldScan; Thor VLA 19Hz",
+   "numbers": "2.5x; pi0-2.7B 19Hz, VLM step 20.30ms",
+   "source": "docs/research/level7/c/c1/LEDGER.md:538-546",
+   "status": "PRIMARY",
+   "date": "2025-06",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Jetson procurement: Jul 2026 repricing Thor dev kit $3,499->$5,499 (partner ~$5,500), Nano Super $249->$399, AGX Orin $1,999->$3,499; cause unknown; Orin Nano 2 ships H1 2027 so not for 2026 pilot",
+   "numbers": "+57% Thor, +60% Nano Super, +75% AGX Orin; Nano 2 78 TOPS",
+   "source": "docs/research/level7/c/c1/LEDGER.md:553-556,1022-1026",
+   "status": "PRIMARY",
+   "date": "2026-07-22",
+   "currency": "superseded",
+   "superseded_by": "C1-151 supersedes C1-096 spec-only"
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Qwen3-VL-2B-Instruct-FP8 official (block-128, vLLM>=0.11, Apache-2.0, 3.48GB); Blackwell vLLM repetition-degeneration report; Qwen3.5-2B (Mar 2026) no OCR evidence",
+   "numbers": "Qwen3-VL-2B released 2025-10-21",
+   "source": "docs/research/level7/c/c1/LEDGER.md:998-1002,1059",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "superseded",
+   "superseded_by": "C1-143 supersedes C1-110 size-trivia row"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "vLLM v0.29.0 (online NVFP4/MXFP4) claim AMENDED: PyPI latest 0.28.0 (2026-08-26), 0.29.0 NOT confirmed stable; do not pin serving stack to it",
+   "numbers": "v0.28.0 2026-08-26",
+   "source": "docs/research/level7/c/c1/LEDGER.md:1058",
+   "status": "CONTRADICTION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "C1-021 Four-Over-Six: v2 says 4/6 hurts GPTQ (-34.6% gap widening) vs v3 says GPTQ mostly improved; unresolved until repo check; MR-GPTQ audit favours GPTQ-family for NVFP4",
+   "numbers": "AWQ+4/6 WikiText-2 11.58, C4 32.36",
+   "source": "docs/research/level7/c/c1/LEDGER.md:128-131,873",
+   "status": "CONTRADICTION",
+   "date": "2026-01-22",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "NVIDIA stack is English-centric: Nemotron-Nano-VL-8B English only; Nemotron-12B-v2-VL 9.83M OCR samples DocVQA 94.39/OCRBench 85.6; all NVFP4/FP8 vendor gates English; our weak cells have headroom",
+   "numbers": "OCRBench 85.6, ChartQA 89.72",
+   "source": "docs/research/level7/c/c1/LEDGER.md:104-107,262-265",
+   "status": "PRIMARY",
+   "date": "2025-10-28",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Weak-cell baselines cited as the lane target: Santali 53.91, Kashmiri 54.82, OldScan 55.3, Odia 80.01 (harness metric); no handwriting/Bengali data anywhere in lane C1",
+   "numbers": "53.91/54.82/55.3/80.01",
+   "source": "docs/research/level7/c/c1/LEDGER.md:11",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Qwen2-VL-2B: 675M ViT + 1.5B LLM; MTVQA 20.0 so multilingual doc reading is weakest axis out-of-box -> fine-tune not zero-shot",
+   "numbers": "DocVQA 90.1, MTVQA 20.0",
+   "source": "docs/research/level7/c/c1/LEDGER.md:267-270",
+   "status": "PRIMARY",
+   "date": "2024-09",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Pre-quantized vendor checkpoints and TRT Edge-LLM support matrix: Qwen2-VL-2B/Qwen2.5-VL-3B all precisions green incl FP8 ViT; VLM recipe = quantize LLM, FP16 visual encoder, separate visual engine",
+   "numbers": "FP8 ViT SM89+",
+   "source": "docs/research/level7/c/c1/LEDGER.md:44-47,798-801",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Dead/obituary note: 26 of 110 original rows DEAD (decision-free); transfer verdicts: 78 PRIMARY, 1 CONTRADICTION, 5 UNKNOWN (C1-030,046,052,062,082)",
+   "numbers": "110 rows; 27 new C1-111..137; 18 new C1-138..155; later C1-156..160",
+   "source": "docs/research/level7/c/c1/LEDGER.md:773-776,948-958,1037-1047",
+   "status": "DEAD",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Quant acceptance harness: trtllm-bench + no_quant baseline diff, CER gate on Santali/Kashmiri/Odia slices not English MMLU; engines arch-locked per GPU",
+   "numbers": "guards G1-G5",
+   "source": "docs/research/level7/c/c1/NOTE_TRTLLM.md:20-27",
+   "status": "DECISION",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "VLM-specific TensorRT bug/pin notes: pin classic TensorRT >=10.14 for ViT FP8 (55% MHA regression fixed); TRT-LLM 1.2 fixed KV-cache corruption and Qwen2.5-VL CUDA-graph failure",
+   "numbers": "up to 78% FP8 regression, 55% MHA fixed",
+   "source": "docs/research/level7/c/c1/LEDGER.md:787,810-814",
+   "status": "PRIMARY",
+   "date": "2026-05-23",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Lane note: calibration/slice reuse risk - quantization acceptance CER slices must be disjoint from calibration pages; lane does not state this explicitly",
+   "numbers": "n/a",
+   "source": "docs/research/level7/c/c1/LEDGER.md:240",
+   "status": "UNKNOWN",
+   "date": "2026",
+   "currency": "unclear",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 has no quantization policy: lane says multilingual calibration (Ol Chiki/Nastaliq/Mayek/Odia; Bengali would need adding) is mandatory for any AWQ/GPTQ/NVFP4 of the Qwen-based Page Expert (LEDGER:237-240) and AWQ is barred for script-heavy work (LEDGER:34-37)",
+  "Plan lacks a KV-cache guard: FP8 KV on VLMs cost -8.8pp VQAv2; Page Expert (Qwen3.5-0.8B) must keep KV BF16 and ViT/projector high precision (LEDGER:29-32,700,891)",
+  "Plan lacks per-GPU serve/format lookup (T4 INT8 only, L4 FP8, Thor NVFP4) and portable-PyTorch vs vLLM/TRT-LLM decision; MLX Mac-only has no coverage here (LEDGER:894-898)",
+  "Plan lacks a cost model: quote utilization with every $/1M-page figure; spans 36x on identical H100 (LEDGER:380-383); NIM licence $4.5K/GPU/yr kills NIM self-host under no-paid constraint (LEDGER:326-329)",
+  "Plan has no training-compute budget for the HW2 fine-tune: lane gives 2B-class QLoRA on single 16GB T4/L4, Unsloth stack, per-job costing rule, Sep-2026 rates (LEDGER:444-447,469-472,1062-1068); note PaddleOCR-VL cannot be fine-tuned, PARSeq/Qwen are not covered here",
+  "Plan relies on Qwen3.5-0.8B (IndicBlockOCR) but lane has zero OCR/CER evidence for Qwen3.5 (C1-144 UNKNOWN, LEDGER:1001-1002) and a Blackwell FP8 degeneration report (LEDGER:1059)",
+  "Plan has no per-script adapter architecture or router (one frozen base + N adapters via Triton LoRA, LEDGER:79-82,479-482) nor edge deployment story (Orin Nano INT4, JetPack>=6.2.2, Thor BOM $5.5K; LEDGER:534-536,1022)",
+  "No evidence in this lane addresses handwriting, Bengali, or the 5,344-image test; all quant evidence is English DocVQA/MME so Bengali handwriting CER gate must be built (LEDGER:176,665)",
+  "PaddleOCR-VL/PP-OCRv6 109-language claim (Hindi) is a competitor/baseline needing Bengali/Ol Chiki coverage check (LEDGER:936-940)"
+ ],
+ "contradictions": [
+  "C1-021 4/6 vs GPTQ: v2 (-34.6% widening) vs v3 (mostly improved), unresolved (LEDGER:128-131)",
+  "C1-140 vLLM v0.29.0 stable claim vs PyPI latest 0.28.0 (LEDGER:989 vs 1058)",
+  "H100 price anchors disagree: $3.38 median (Aug) / $3.37 / <$2 floor / Vast $3.45 / $1.79 / $0.90-2.27 (LEDGER:400,918,1028,1062-1068)",
+  "NOTE_SERVE_COST arithmetic: 1.5K tok/s sustained over 3K tok/page = ~43M pages/day not 1.8M; $0.50/hr x24 = $12 not $7 (NOTE_SERVE_COST.md:14-18); treat $4-8/1M as unreliable",
+  "C1-110 'Qwen3-VL-2B drop-in same envelope' vs C1-143 official FP8 and C1-144 Qwen3.5-2B; NOTE_EDGE still cites C1-110 (NOTE_EDGE.md:23-24)",
+  "Spec-decode: C1-097 Thor EAGLE-3 2.5x vs C1-006/113/116 do-not-budget for OCR (LEDGER:528-531 vs 49-52)"
+ ],
+ "open_items": [
+  "Indic-gated PTQ CER on Ol Chiki/Nastaliq/Odia untested (no MEASURED rows in lane; LEDGER:642)",
+  "English DocVQA delta predicting tail-script CER delta unestablished (LEDGER:691)",
+  "Customizer VLM LoRA support probe (post-freeze) (LEDGER:743,849)",
+  "Nemotron-OCR-v2 multilingual coverage of Ol Chiki/Nastaliq (LEDGER:707,826)",
+  "PaddleOCR-VL-1.6 accuracy on Indic scripts (LEDGER:934)",
+  "QAD cost on 2B VLM with Indic data (LEDGER:880)",
+  "A100/Thor/BF16/FP4 quotes not refreshed in last pass (LEDGER:1068-1070)",
+  "Verdict full-fetch sample: C1-112,118,127,140,143,151 (LEDGER:966,1055)"
+ ]
+}

@@ -1,0 +1,529 @@
+{
+ "partition": "P02",
+ "files": [
+  {
+   "path": "/home/user/boss/docs/research/level7/H48_HOSTILE_PASS.md",
+   "total_lines": 192,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/H48_ENGINE_SPOTCHECK.md",
+   "total_lines": 99,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/HUMAN_SPOTCHECK_PACKET.md",
+   "total_lines": 68,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/FIX_SPECS_FOR_MISS.md",
+   "total_lines": 124,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md",
+   "total_lines": 334,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/PROMPT_ENGINE_AGENT.md",
+   "total_lines": 96,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/PROMPT_MISS_AGENT.md",
+   "total_lines": 140,
+   "fully_read": true
+  },
+  {
+   "path": "/home/user/boss/docs/research/level7/PROMPT_VERDICT_AGENT.md",
+   "total_lines": 161,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam Vision 2.1 published numbers were primary-verified (sarvam.ai blog 2026-09-24) but declared TRANSFER-DEAD for decisions: Sarvam harness (VLM+layout parser+char accuracy on its own bench) differs from our CER-on-native-scan pipeline.",
+   "numbers": "87.39 Indic OCR Bench overall; 87.30 olmOCR-Bench; 55.3 OldScan; 53.91 Santhali; 54.82 Kashmiri; 80.01 Odia",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:47-52,71,179-180",
+   "status": "DEAD",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Per-language Sarvam 2.1 weak-cell numbers (sat 53.91, ks 54.82, OldScan 55.3, or 80.01) are the competitor reference cells the campaign targets, but only as obituary'd/DEAD numbers; metric is word accuracy (higher better) vs our CER (lower better).",
+   "numbers": "sat 53.91; ks 54.82; OldScan 55.3; or 80.01",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:47-52,124; docs/research/level7/PROMPT_ENGINE_AGENT.md:44",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Obituary law: an external benchmark number is DEAD-for-decisions unless its transfer obituary fails (different langs/scan quality/harness).",
+   "numbers": "",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:44; docs/research/level7/H48_HOSTILE_PASS.md:71",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "mandela 8-pattern audit of graphify GRAPH_REPORT: hits #4 Tautology (communities 0/1/2 are our own function names editdistance/cer/main/gate), #6 shared-pool bias (mni/sat/ks underrepresented), #2 partial (raw edge count not centrality), #5 partial verifier=designer. Graph is NAVIGATION only; any god node must be backed by disk number (preds_*.json, gt_verification.json, gt_forensics.json).",
+   "numbers": "1324 nodes/1665 edges/206 communities/52 hyperedges; 167 files/~339K words; avg confidence 0.82",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:18-35",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "factchk of CALL_PACKET: 12 PASS, 5 FAIL (all stale/typo): Kashmiri trust 29/100 wrong (correct 45.0); 10,434 human pairs wrong (10,432); sheet.csv 11,097 rows stale (12,324=10x1227+54); indicphotoocr 994/1227 stale (1257 packs, 1255 non-empty, 2 empty, 0 errors); 6/10 engines scored stale (10/10).",
+   "numbers": "29->45.0; 10,434->10,432 (2938+3500+494+3500); 11,097->12,324; 994->1257; 6/10->10/10",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:59-67,73",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Verified engine CERs: surya 0.3849 best non-Sarvam overall; list of engine overall CERs matches disk; raw-vs-normalized ablation 0.6707 vs 0.6692.",
+   "numbers": "surya 0.3849159820883989; CERs 0.487,0.485,0.559,0.494,0.656,0.669,0.711,0.869,0.24; 0.6707/0.6692",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:55-57",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri GT forensic trust: R5 per_language.ks.trust_score = 45.0 per gt_forensics.json (H48 and FS-V2), but spot-check log says ks trust 26.6 (the ne figure) -- inconsistent trust numbers across docs; ks combined verdict BARRED-from-SFT (visual 0/10 + R5 45.0 fails >20% gate).",
+   "numbers": "ks trust 45.0 (vs 26.6 cited in E:37 and ne trust 26.6)",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:63; docs/research/level7/FIX_SPECS_FOR_MISS.md:34-37; docs/research/level7/H48_ENGINE_SPOTCHECK.md:37",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "§6.4 LOCKED GT verdicts: BARRED = ks 0%, mni 0%, ur 10%, sat 15%, mr 42.9%, ne PDF-tier (R5 trust 26.6, 32 control chars, script_adherence 0.933, mojibake); SAFE-pending = as/brx/doi/kok/mai/or/pa; VERIFY-FIRST = gu 85.7%, sd 85.7%. 90.5% ne visual pass was on biased sample and overridden by R5.",
+   "numbers": "ks 0%; mni 0%; ur 10%; sat 15%; mr 42.9%; gu 85.7%; sd 85.7%; ne trust 26.6, 32 ctrl chars, adherence 0.933",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:32-35; docs/research/level7/PROMPT_VERDICT_AGENT.md:19-30; docs/research/level7/H48_HOSTILE_PASS.md:152",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Killer objection to D1 (QLoRA on SAFE langs): SAFE langs with n>=50 are only kok/mai/or/pa (4); as=19, brx=67 borderline, doi=27 are n<50. Official benchmark scores 18 langs incl 6 barred, so QLoRA moves <=4 of 18 cells; barred cells still count at the benchmark. Cheapest test: count SAFE langs with >3pt gap, if <=1 collapse to wrap-only.",
+   "numbers": "4 SAFE n>=50 langs; as=19, brx=67, doi=27; 18 langs; >3pt gap test",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:81-87",
+   "status": "PLAN",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Root objection across D1-D4: decisions optimize our internal CER leaderboard and treat the official benchmark as if it scores our internals; internal probe and official benchmark are different evals.",
+   "numbers": "",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:113",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "D4 objection: only sarvam_vision emits Ol Chiki on sat (MEASURED 2026-09-27 15:00); with mni barred and sat unfixable, the Ol Chiki/Mayek strategy hands Sarvam a free win on 2/18 cells; user should consent explicitly. Cheapest test: grep script_adherence on preds_*_sat.json.",
+   "numbers": "2/18 cells (mni, sat) ceded",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:105-111",
+   "status": "MEASURED",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Spot-check confirms 0 open engines emit Ol Chiki on sat: surya emits Ethiopic/Georgian/Malayalam/Thai/Bengali/Sinhala fragments; rapidocr honest-empty; only sarvam_vision emits Ol Chiki. surya not in 91-language support, Ol Chiki absent.",
+   "numbers": "sat n=20, GT=fill-only; sat_14, sat_05, sat_10 sampled; 0 engines emit Ol Chiki",
+   "source": "docs/research/level7/H48_ENGINE_SPOTCHECK.md:14-24; docs/research/level7/H48_HOSTILE_PASS.md:181",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Mni (Meitei Mayek) same: only sarvam_vision emits Mayek; surya hallucinates Kannada or empty; all 8 mni spot-check items fail with script_adherence 0.000-0.050; mni GT is sarvam_fill garbage (100% fill-only, visual pass 0%).",
+   "numbers": "script_adherence 0.000-0.050; n=20; visual pass 0%",
+   "source": "docs/research/level7/HUMAN_SPOTCHECK_PACKET.md:34-41,45,55; docs/research/level7/H48_HOSTILE_PASS.md:109",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri (Nastaliq): surya emits clean Nastaliq/Urdu (best), rapidocr fragmented Urdu (~71% Arabic share), tesseract_indic ~40-42% Arabic share with noise, tess_bilingual emits Devanagari/English artifacts. Output script is correct unlike sat; ks CER unreliable because GT is bad.",
+   "numbers": "ks n=100, PDF-tier; rapidocr ~71% Arabic; tess_indic 40-42%",
+   "source": "docs/research/level7/H48_ENGINE_SPOTCHECK.md:28-37; docs/research/level7/HUMAN_SPOTCHECK_PACKET.md:28-32",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "ks pipe_danda_ratio=1.00 on all 6 ks items is a Perso-Arabic font rendering issue (| instead of danda), not GT corruption; short_token_frac 0.658-0.863 (Nastaliq fragmentation) makes CER meaningless (one missing char inflates CER 30+pp), which is why ks is BARRED for W6 SFT. ks micro-repair KILLED at K2 default.",
+   "numbers": "pipe_danda 1.00; short_token_frac 0.658-0.863 (worst ks_o046 0.863); 6/6 ks items",
+   "source": "docs/research/level7/HUMAN_SPOTCHECK_PACKET.md:62-65,54",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia (or): surya and tesseract_indic produce clean Odia; rapidocr and paddleocr honest-empty (no Oriya model); easyocr garbled Latin transliteration; surya empty on or_06 is a layout-parse failure (129/1227 surya honest-empty layout-related).",
+   "numbers": "or n=69 (50 official_pdf + 19 sarvam_fill); surya honest-empty 129/1227",
+   "source": "docs/research/level7/H48_ENGINE_SPOTCHECK.md:55-65",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan proxy = Sanskrit (sa): 4250x6500 native-resolution scans, n=100 all official_pair, largest in probe. paddleocr_indic and easyocr produce clean Devanagari; surya runner bug tags all 100 sa packs HONEST_EMPTY_SURYA_NO_OLCHIKI (scored 1.000 = unscored). FINAL_REPORT.md:149 documents bug.",
+   "numbers": "sa n=100; 4250x6500 px; surya sa 100/100 mis-tagged",
+   "source": "docs/research/level7/H48_ENGINE_SPOTCHECK.md:42-51; docs/research/level7/H48_HOSTILE_PASS.md:134",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Leaderboard santa-method PASS-1 facts: 11 nominal / 10 effective engines (openbharatocr byte-identical to tesseract_indic on 1257 packs); surya completed 2026-09-28 19:33 IST overall CER 0.3849 and wins 9/18 langs by McNemar exact (bn, brx, hi, kok, ks, mai, pa, sd, ur); surya 129 empty + 1025 non-empty = 1154 scored.",
+   "numbers": "surya CER 0.3849; 9/18 wins; 129+1025=1154",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:121-125",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Engine-overlap count is inconsistent across docs: H48 says 10 effective (openbharatocr dup only); FS-R2-C says effective independent count is 9 (tesseract_bilingual = tesseract_indic = openbharatocr trio, 340/1313 packs byte-identical); Miss prompt says 10. Breakdown 38 sat/60 mni/58 ur/59 pa/54 or/30 en sums to 299 not 340; the other breakdown sums to 241. Unresolved.",
+   "numbers": "10 vs 9 effective; 340/1313; breakdown sums 299 and 241",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:121; docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:101-115,231-270; docs/research/level7/PROMPT_MISS_AGENT.md:33",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Surya runs ~1h, ~20GB peak; Engine prompt expected 5-10% sat/Nastaliq improvement and sarvam-quality on hi/ta/te (expectation, later contradicted for sat: no Ol Chiki). Queue order surya, easyocr (~30 min), paddleocr_indic (~2h, 15GB peak, detect cap 1600px).",
+   "numbers": "~1h/20GB surya; easyocr 30 min; paddleocr 2h/15GB; 1600px cap",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:21-24",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "superseded",
+   "superseded_by": "H48_ENGINE_SPOTCHECK sat finding"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-engine CER on probe22 (1227 items, 18 langs): sarvam_vision 0.24 (54 packs, 3/lang), surya 0.3849, indicphotoocr 0.559 (tiers pair 0.611/pdf 0.571/fill 0.369), easyocr 0.494, paddleocr_indic 0.656, doctr 0.869 (Latin mojibake, gated G-B1), rapidocr 1370 packs.",
+   "numbers": "sarvam 0.24; surya 0.3849; indicphotoocr 0.559; easyocr 0.494; paddle 0.656; doctr 0.869",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:15-19; docs/research/level7/PROMPT_MISS_AGENT.md:18-30; docs/research/level7/H48_HOSTILE_PASS.md:55",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Per-script median CER ordering (Devanagari, §3.1 of LEADERBOARD_REFRESH): sarvam 0.108, surya 0.173, easyocr 0.200, tesseract_bilingual 0.235, paddleocr 0.235, tesseract_indic 0.255, openbharatocr 0.255, anuvaad 0.328, indicphotoocr 0.402, rapidocr 0.476, doctr 0.861. Ol Chiki: surya 0.613 between indicphotoocr 0.504 and doctr 0.840.",
+   "numbers": "Devanagari list above; Ol Chiki indicphotoocr 0.504/surya 0.613/doctr 0.840",
+   "source": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:137-142",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Sarvam 0.24 vs 0.2640 discrepancy: H48/engine prompts cite sarvam_vision overall CER 0.24; FS-R2-B (07:30) cites 0.2640 from metrics_sarvam_vision_normalized.json avg_metrics.cer, and 'avg 0.1078 CER post-3-EN-call' in D2 anchor; Wilson CI stated '+/-0.30pp' (likely 30pp). Sarvam is bench target, not pipeline.",
+   "numbers": "0.24 vs 0.2640 vs 0.1078; n=54 (3/lang x 18)",
+   "source": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:60,74,303; docs/research/level7/H48_HOSTILE_PASS.md:55",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam 3/lang cap (54 calls = --limit-per-lang 3 x 18 langs) makes the point estimate useless: Wilson CI half-width >50pp at n=3 per language; ranking Sarvam #1 by point estimate is meaningless. Per-cell CER tables must annotate cap. No Sarvam calls beyond the 54 cap without user approval.",
+   "numbers": "54 calls; CI half-width >50pp at n=3",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:54,131,137; docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:47-77; docs/research/level7/PROMPT_ENGINE_AGENT.md:52",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam 0.24 CER and published 87.39 word-accuracy are different metrics: 87.39 != 1-0.24. Treat 0.24 as directional only.",
+   "numbers": "87.39 vs 0.24",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:124",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Leaderboard flaws found by santa-method: '19/18 langs' label bug in 5 rows (doctr, indicphotoocr, openbharatocr, tesseract_bilingual, tesseract_indic); surya sa honest-empty may be routing bug (SURYA_LANG mapping); non-empty counts include Latin gibberish so a script-correct column (script_adherence >=0.95) is needed for sat/ks/mni; leaderboard generated by orchestrator not Engine (roles conflict); McNemar ks wins (p<0.0006) meaningless because GT garbage.",
+   "numbers": "19/18 x5; ks McNemar p<0.0006; script_adherence >=0.95",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:131-142; docs/research/level7/FIX_SPECS_FOR_MISS.md:70-108",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Estimator law: Wilson 95% CI on every per-language CER; McNemar exact for paired engine comparisons; abstention reported as coverage + conditional CER separately; no winner claims on n<50 cells (§6.7); engine CERs vs fill-only GT are AGREEMENT RATES not capability claims; single denominator + empty=1.0 (§6.5).",
+   "numbers": "n<50 no winner claim",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:42; docs/research/level7/H48_HOSTILE_PASS.md:182,140",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "McNemar full matrix uses binary pass/fail at cer_threshold=0.5 (scores/mcnemar_full_matrix.json meta); low power when only one engine passes 0.5 (e.g. kok surya 0.425 vs easyocr 0.619); for pa both pass (surya 0.137, tesseract 0.216) so discordant counts are used. Caption must surface this.",
+   "numbers": "cer_threshold=0.5",
+   "source": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:152-175",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "K1 kill-criteria verdicts for SAFE langs (T1=0.05, T2=0.03 default, §11 LOCKED): kok SURVIVES (surya 0.4285 vs rapidocr 0.7522, gap 0.32, McNemar p=0.0033); pa SURVIVES (surya 0.1373 vs tess 0.2159, gap 0.079, p<0.0001); mai KILLED (0.0280 vs 0.0362 easyocr, gap 0.008, p=1.0 tie); or KILLED (surya 0.1950 vs tess 0.2241, gap 0.029<0.03; tess_i is wrap winner). Net 2 of 4 SAFE langs get QLoRA.",
+   "numbers": "kok p=0.0033; pa p<0.0001; mai p=1.0; or gap 0.029; T1=0.05 T2=0.03",
+   "source": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:284-318",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Inconsistent kok/pa gap numbers: table says pa gap 0.079 and 'best non-surya 0.2159', disk-check says pa gap 0.081; kok text 'surya 0.425' vs table 0.4285 and 'gap ~25 pt' vs 0.32; or: table gap 0.029 vs disk-check -0.020.",
+   "numbers": "pa 0.079 vs 0.081; kok 0.425 vs 0.4285, 19.4 vs 25 vs 0.32; or 0.029 vs -0.020",
+   "source": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:170-175,291-315",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Local QLoRA compute envelope (laptop MLX): 3-4B @ 4-bit ~3GB; with grad checkpointing peaks 8-16GB; kill if peak >24GB; adapter 600MB x 2 langs = 1.2GB; machine 24 GiB RAM, 1.10GB strict free, 11.5GB reclaimable (2026-09-29 06:51 IST); OS-level free 280MB; 17GB disk free; needs user-approved install of mlx-tune + mlx-vlm (PENDING_USER_APPROVAL). Stale '~43% free, swap ~97%'.",
+   "numbers": "3B@4bit 8-16GB peak; kill >24GB; 1.10GB free/11.5GB reclaimable; hw.memsize 25769803776; 17GB disk",
+   "source": "docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:185-216",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 OCR tool shortlist (keep-as-reference, install at W6 freeze): GLM-OCR (D1 W6 primary, 0.9B, OmniDocBench #1, official MLX deploy), mlx-tune (QLoRA), liteparse (PDF front-end), MonkeyOCRv2 (smallest fine-tune backbone), dots.mocr, Unlimited-OCR (OldScan long-horizon), light-ocr (CoreML PP-OCRv6), HunyuanOCR-1.5 (ancient-script, licence review first).",
+   "numbers": "GLM-OCR 0.9B",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:65",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D1 = W6 wrap-only baseline + conditional local QLoRA on SAFE langs; D2 = Sarvam EN column skipped (3 calls saved); D3 = 20-item human spot-check deferred to validation call; D4 = barred langs stay barred, sat+ks micro-repair only if W5 allows, mni/mr/ur no repair; D5 = full Sarvam API run budget (open).",
+   "numbers": "D1-D5",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:81,89,97,105; docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:280",
+   "status": "DECISION",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D2 objection: EN sanity column (30 items) is a cross-language canary for Latin pipe; rapidocr EN CER re-scored 1.0 to 0.4535 after _RAPID_LANGV['en']=('EN','PPOCRV4') fix at run_probe.py line 291 (D4 approved 2026-09-28 21:13 IST); engines with EN CER >0.05 imply broken Latin path; tesseract hi = 0.877.",
+   "numbers": "EN n=30; rapidocr 1.0 -> 0.4535; EN CER threshold 0.05; tesseract hi 0.877",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:93-95; docs/research/level7/H48_ENGINE_SPOTCHECK.md:88; docs/research/level7/PROMPT_ENGINE_AGENT.md:31",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "D3 20-item human spot-check: 30s/item is a stamp not verification; replace with targeted items (ks_o061 pipe_danda 1.00, mr_o005 repetition 0.161, ne_o038 control_chars=2). HUMAN_SPOTCHECK_PACKET lists 20: gu_o005 first (only W6-relevant; GT 3 control chars, gu VERIFY-FIRST n=20 visual pass 85.7%) + 1 ne + 4 mr + 6 ks + 8 mni confirmation-only; user verdict blank; on-call only; W5 freeze opens Wed 2026-10-01.",
+   "numbers": "20 items; gu_o005; 1 ne,4 mr,6 ks,8 mni; W5 freeze 2026-10-01",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:97-103; docs/research/level7/HUMAN_SPOTCHECK_PACKET.md:22,48-60,68",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Bengali is absent from every weak-cell/spot-check sample; all probe22 findings are printed/PDF/fill scans (native-scan GT). Human-pair counts: bn 2,938 / hi 3,500 / sa 494 / en 3,500 = 10,432 (not 10,434). No handwriting evidence in this partition.",
+   "numbers": "bn 2,938; hi 3,500; sa 494; en 3,500; total 10,432",
+   "source": "docs/research/level7/FIX_SPECS_FOR_MISS.md:45-53",
+   "status": "DERIVED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Probe22 disk truth: manifest n=1227 (+158 fill, 79 pdf, 237 visual sample per factchk), 18 languages, 11 runners (10 effective), sheet.csv 12,324 rows; gt_verification.json 237 visual keys / 233 machine-verified + 4 unaccounted (brx_o045, mr_o005, ne_o038, sd_o002) + 20 human pending; Engine spot-check log says manifest preserved at n=1283 (re-sourced) - conflicts with 1227.",
+   "numbers": "1227/158/79/237; 12,324 rows; n=1283 vs 1227",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:53,148-153; docs/research/level7/H48_ENGINE_SPOTCHECK.md:98-99",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Engine readiness GREEN=9 YELLOW=1 RED=1 (paddleocr_indic RED needs user-approved download; sarvam GREEN with API key). Lane B 281 records fixed for §9 evidence-law fields (B3 165, B4 116); 123 'actionality' typos; 26 B3 records malformed JSON; audit 1,129/1,129 §9-compliant; self_audit 99 jsonl records 0 missing.",
+   "numbers": "281 fixed; 1,129/1,129; GREEN9/YELLOW1/RED1",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:154-166",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "3-agent ops model (Engine/Verdict/Miss), fix-loop law: Verdict specifies, Miss applies, max 2 rounds then escalate; hard laws: no downloads without user approval, no training, sealed level2/out and level2/reports, honest-empty is correct, count from disk, no Sarvam calls beyond 54 cap, no new essays at repo root.",
+   "numbers": "max 2 fix rounds; 54 cap",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:50-55,95-96; docs/research/level7/PROMPT_VERDICT_AGENT.md:67-71,161; docs/research/level7/PROMPT_MISS_AGENT.md:85-91",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Lane A/B/C research targets: Lane A >=400 artifacts to docs/research/level7/a/; Lane B >=400; Lane C 436+ records (C1 NVIDIA stack, C2 competition, C3 data collection, C4 tooling). Every record needs 10 §9 fields (source_url, date, status, relevance, recency, actionability, extraction, decision_it_changes, transfer, transfer_harness_fact) with TRANSFER SURVIVES/DIES/UNKNOWN.",
+   "numbers": "400/400/436+",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:45; docs/research/level7/PROMPT_MISS_AGENT.md:16; docs/research/level7/PROMPT_VERDICT_AGENT.md:49,125",
+   "status": "PLAN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Open user decisions: GPU budget, Sarvam EN extension, 20-item spot-check review, rapidocr EN fix approval (since applied), full Sarvam API run budget (D5), sampling gate, mlx-tune/mlx-vlm install, paddleocr_indic download.",
+   "numbers": "",
+   "source": "docs/research/level7/PROMPT_MISS_AGENT.md:62,91,120-123; docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:204",
+   "status": "UNKNOWN",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Engine ops anomalies: rapidocr 1370 packs = 1227 + 30 EN + 83 pre-purge orphans (113 extra vs 1287 in Miss prompt; root-caused not bug); surya auto-restart loop (PIDs 99725/18709) needing PID dedup; tesseract timeouts raised 60->300s (bn_d014 ~78s, hi_d066 ~82s); 102 bilingual error packs earlier from stale run_probe copy; graph 3990 nodes/4681 edges/420 communities rebuilt over 18,239 files.",
+   "numbers": "1370=1227+30+83; timeouts 300s; 3990/4681/420",
+   "source": "docs/research/level7/PROMPT_ENGINE_AGENT.md:16,30,84; docs/research/level7/PROMPT_MISS_AGENT.md:35-40",
+   "status": "MEASURED",
+   "date": "2026-09-28",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Timestamps in prompt docs conflict: surya completion given as 2026-09-28 19:33 IST (H48, FS-V1/V9) vs 20:30 IST (Engine and Miss prompts); Miss prompt lists surya 726 entries 'auto-restarted' while stating it completed; Verdict prompt surya 726 partial 9 langs scored; prompts dated refreshed 2026-09-27 19:00 but cite 09-28/29 events.",
+   "numbers": "19:33 vs 20:30; surya 726 vs 1227",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:122; docs/research/level7/PROMPT_ENGINE_AGENT.md:13; docs/research/level7/PROMPT_MISS_AGENT.md:31-33; docs/research/level7/PROMPT_VERDICT_AGENT.md:40",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "unclear",
+   "superseded_by": ""
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Competition/product posture inherited: Sarvam Vision 2.1 is the bench target (not routed into pipeline); official benchmark scores 18 langs incl barred ones; hostile pass warns that ceding sat/mni to Sarvam needs explicit user consent; Lane C2 competition intel and C1 NVIDIA stack exist but are not summarized in this partition.",
+   "numbers": "18 langs; Sarvam 87.39",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:107-113; docs/research/level7/PROMPT_MISS_AGENT.md:16",
+   "status": "PRIMARY",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Process hygiene findings: 5 trash files deleted (~12.23 MB freed); 35 .md files regenerated for graph integrity; H48 fix specs: 6 applied to Verdict-owned artifacts, 4 specified for Miss (FS-V1..V4), plus FS-V5..V9 = 9 total; R2 leaderboard specs FS-R2-A,B,C,D,G,I,J,K (8, D is NO-OP) from SANTA_METHOD_FINAL.",
+   "numbers": "9 + 8 specs",
+   "source": "docs/research/level7/H48_HOSTILE_PASS.md:159-175; docs/research/level7/FIX_SPECS_FOR_MISS.md:122-124; docs/research/level7/FIX_SPECS_R2_LEADERBOARD.md:322-333; docs/research/level7/PROMPT_VERDICT_AGENT.md:41",
+   "status": "DECISION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": ""
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 ignores the 'internal probe vs official benchmark are different evals' root finding (H48_HOSTILE_PASS.md:113): HW gates (92% IIIT val, 85% independent writers) are internal-proxy gates; need an explicit mapping from them to the 5,344-image official score.",
+  "Plan v4 lacks an eval-discipline block: Wilson 95% CI on every cell, McNemar exact on paired items, coverage vs conditional CER separately, no winner claims n<50 (PROMPT_ENGINE_AGENT.md:42; H48_HOSTILE_PASS.md:182).",
+  "Plan v4 cites competitor numbers (Gemini 74.8/Bodhan 71.3/Sarvam 58.3, ICDAR'23 96.10 WRR, Sarvam 86.4) without transfer obituaries; the campaign's obituary law makes cross-harness numbers DEAD-for-decisions until proven to transfer (H48_HOSTILE_PASS.md:71,179; PROMPT_ENGINE_AGENT.md:44).",
+  "Kill criteria absent from plan: K1 (T1=0.05 McNemar, T2=0.03 CER gap) killed mai and or QLoRA and kept kok/pa; K2 killed ks micro-repair; plan v4 has no analogous per-script kill gate beyond HW2 (FIX_SPECS_R2_LEADERBOARD.md:284-318; HUMAN_SPOTCHECK_PACKET.md:54).",
+  "Weak-cell script facts not in plan: only sarvam_vision emits Ol Chiki/Mayek; every open engine emits Latin/Ethiopic/Thai garbage on sat and mni; ks/Nastaliq is readable by surya only; plan v4's R3 Ol Chiki/Mayek synthetic path must be justified against 0 open-engine capability (H48_ENGINE_SPOTCHECK.md:14-24; H48_HOSTILE_PASS.md:105-111).",
+  "GT barred set (ks, mni, ur, sat, mr, ne PDF-tier) means any evaluation/training on those cells is invalid until independent GT exists; plan v4 should state an independent-GT requirement per weak cell and use script-adherence (>=0.95) and honest-empty as separate metrics (FIX_SPECS_FOR_MISS.md:92-98; H48_HOSTILE_PASS.md:182).",
+  "Surya runner bug / honest-empty semantics: engine comparisons on sa (OldScan proxy, 4250x6500 scans) are invalid for surya; plan's printed-expert comparisons must treat honest-empty as MISSING and keep a script-correct column (H48_ENGINE_SPOTCHECK.md:42-51).",
+  "Plan v4 omits the tesseract-family byte-identical trio (340/1313 packs) which collapses engine counts; any ensemble/fallback evaluation must dedupe tesseract_bilingual/tesseract_indic/openbharatocr (FIX_SPECS_R2_LEADERBOARD.md:101-115).",
+  "Compute envelope for local training is concrete in this partition (24 GiB laptop, 8-16GB QLoRA peak, kill >24GB, 1.10GB strict free) while plan v4 assumes PyTorch portable training with no compute budget/kill threshold stated (FIX_SPECS_R2_LEADERBOARD.md:185-216).",
+  "Human verification: stamped 30s/item spot-checks were judged worse than none; plan G-2.5 'Vinay OK' gate should specify targeted high-risk items and logged verdicts (H48_HOSTILE_PASS.md:97-103; HUMAN_SPOTCHECK_PACKET.md:22,48-60).",
+  "Evidence-law fields (status PRIMARY/MEASURED/DERIVED/..., transfer SURVIVES/DIES/UNKNOWN, decision_it_changes) are mandatory for every record in the campaign; plan v4 numbers lack them (PROMPT_VERDICT_AGENT.md:125).",
+  "No handwriting data in this partition: nothing here supports or refutes the PARSeq/IIIT-INDIC-HW or Bengali handwriting claims; all probe evidence is printed/PDF scans (whole partition)."
+ ],
+ "contradictions": [
+  "Effective engine count: 10 (H48_HOSTILE_PASS.md:121, PROMPT_MISS_AGENT.md:33) vs 9 (FIX_SPECS_R2_LEADERBOARD.md:103).",
+  "ks GT trust: 45.0 (H48_HOSTILE_PASS.md:63; FIX_SPECS_FOR_MISS.md:34) vs 26.6 (H48_ENGINE_SPOTCHECK.md:37; HUMAN_SPOTCHECK_PACKET.md:123 for ne).",
+  "Sarvam overall CER 0.24 (H48_HOSTILE_PASS.md:55) vs 0.2640 (FIX_SPECS_R2_LEADERBOARD.md:60,74) vs 0.1078 (R2:303).",
+  "Manifest n=1227 (H48_HOSTILE_PASS.md:148) vs n=1283 re-sourced (H48_ENGINE_SPOTCHECK.md:98).",
+  "340/1313 byte-identical breakdown does not sum (299 or 241) in FIX_SPECS_R2_LEADERBOARD.md:231-270.",
+  "Surya completion time 19:33 (H48) vs 20:30 (engine/miss prompts); prompt surya entries 726 partial vs complete.",
+  "kok/pa/or K1 gap numbers differ inside FIX_SPECS_R2_LEADERBOARD.md (lines 170-175 vs 291-315)."
+ ],
+ "open_items": [
+  "gu_o005 human verdict (gu SAFE vs BARRED) pending user.",
+  "20-item human spot-check unreviewed; W5 freeze opens 2026-10-01.",
+  "D5 full Sarvam API run budget undecided; EN column skipped for Sarvam.",
+  "mlx-tune/mlx-vlm install and paddleocr_indic download pending user approval.",
+  "Whether surya sa honest-empty is a routing bug (SURYA_LANG/TESS_SAT mapping) not fixed.",
+  "as/brx/doi SAFE langs have n<50: no winner claims, QLoRA candidacy unresolved.",
+  "Complete 340-pack breakdown for tesseract-family overlap not produced."
+ ]
+}

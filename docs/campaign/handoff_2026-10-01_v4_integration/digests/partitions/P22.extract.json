@@ -1,0 +1,485 @@
+{
+ "partition": "P22",
+ "files": [
+  {
+   "path": "docs/campaign/checkpoints/W1_reports/1H_verify.md",
+   "total_lines": 225,
+   "fully_read": true
+  },
+  {
+   "path": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md",
+   "total_lines": 387,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "decisions_ops",
+   "claim": "Round 1 verdict on DRAFT_RESEARCH_PLAN.md: FAIL, 7 BLOCKERs; architecture (GT-tier stratification, zero edge theses survived, 22 languages labelled-only frame, no chase of 87.39) right; failures in the CEO-facing paragraph, option table, source misattributions.",
+   "numbers": "7 BLOCKERs; 67 numeric claims reproduce, 20 do not",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:9",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "1H_verify_round2.md (PASS-WITH-FIXES 4)"
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Round 2 verdict: PASS-WITH-FIXES (4); 2 of 7 BLOCKERs fully clear (#1,#4), 4 clear with one residual fix (#2,#3,#6,#7), #5 (K1/K2 kill-criterion nodes) still FAIL; 2 new numeric defects introduced by fixes plus pooled 10/18 not reproducing.",
+   "numbers": "2/7 clear, 4/7 residual, 1/7 FAIL",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:9",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sarvam Vision 87.39 is the unweighted mean of the 22 Indic rows on Sarvam's blog table (re-derived 87.3909); blog prints only 'Overall accuracy 87.39'. Plan must say 'unweighted mean of the 22 rows on their blog table', not attribute it to the benchmark card.",
+   "numbers": "87.3909 vs 87.39",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:42,225",
+   "status": "DERIVED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Macro n for 87.39 is 6,609 (22 Indic languages), not 6,909; 6,909 = 6,609 Indic + 300 English and English is excluded. Round 2: plan's gloss '6,609 valid after exclusion of ambiguous-GT/degenerate outputs' gives right number for wrong reason.",
+   "numbers": "6,909 = 6,609 + 300",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:25,56; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:273-278",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "HF indic-ocr-bench card quotes verified: 23 languages (22 Eighth-Schedule + English) sum to 6,909; 'curated at semantic block level'; 'reviewed twice by human language experts'; Word Accuracy = 100 x (1 - WER); ambiguous-GT samples and runaway-repetition outputs excluded from valid-sample metrics.",
+   "numbers": "6,909; 23 rows",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Whether 87.39 literally is the WER-based word-accuracy figure is UNKNOWN (card defines metric but never states 87.39 is it); no CER of ours is comparable to 87.39; plan correctly does not chase it.",
+   "numbers": "87.39",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:36",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam Konkani 97.41 is Sarvam's BEST of 22 cells (rank 1; ne 97.00, mai 96.70), not 'third-best'. Kashmiri 54.82, Odia 80.01, Santhali 53.91 on Sarvam blog.",
+   "numbers": "kok 97.41; ks 54.82; or 80.01; sat 53.91",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,46",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Measured worst n>=50 probe22 cells (surya CER means, worst first): ur 0.6232, ks 0.5894, bn 0.4763, kok 0.4248, sd 0.3155, or 0.2588, hi 0.2198, mr 0.2046, sa 0.1751, brx 0.1653, pa 0.1447, mai 0.0298. Konkani is 4th-worst of 12, not worst.",
+   "numbers": "12 values listed",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:58",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Per-language winner at n>=50 among local engines: surya 9, tesseract-family 2, easyocr 1; 7 of 12 winners sit in 0.10-0.40 CER band (brx hi mr or pa sa sd).",
+   "numbers": "9/2/1; 7 of 12",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:77,78",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Largest winner-to-runner-up gap is Hindi: surya 0.2198 vs paddleocr_indic 0.5037 = 28.4 pt; then kok 19.4pt (0.6186 easyocr - 0.4248), bn 0.1812, brx 0.1747. Plan's 'Konkani biggest gap' was false.",
+   "numbers": "hi 0.2839; kok 0.1938; bn 0.1812; brx 0.1747",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:44; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:59",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Konkani 19.4pt gain is McNemar p=0.0107 (surya vs easyocr, n=100); vs tesseract-family p=0.0033 (gap 0.2194/21.9pt). McNemar is a per-item pass/fail test at CER<0.5, not on mean CER (mcnemar_full_matrix.json cer_threshold 0.5).",
+   "numbers": "p=0.0107; p=0.0033; n=100; threshold 0.5",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:25; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:167-168",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Punjabi K1: surya vs tesseract_indic is a TIE (n=90, 87 ties, 3 discordant, p=1.0). This contradicts KILL_CRITERIA.md:56 and W6_QLORA_SPEC.md:75 which say 'pa K1 SURVIVES p<0.0001, 88 discordant, gap 0.081'. Plan number is right, sources wrong; correction must be stated.",
+   "numbers": "p=1.0 vs p<0.0001; 87/3 vs 88 discordant",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:32,154; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:169",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "pa still beats easyocr/paddleocr_indic/rapidocr/doctr/anuvaad at p=0.0 (n=90, 89 discordant; surya 0.1447 vs easyocr 0.8173) - 5 of 10 local engines - so pa is a runner-up question, not a kill; 'kills pa from scope' unsupported. QLoRA scope under Option A = Konkani only (U15).",
+   "numbers": "p=0.0; 89 discordant; 5 of 10 engines",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:32,154; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:191-194",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Round 2 BLOCKER 5 still FAIL: plan cites W6_QLORA_SPEC.md:75 as support for 'p=1.00 NOT MET' though that line says 'SURVIVES p<0.0001'; 'K2' is wrong label (KILL_CRITERIA K2 = micro-repair gate: <6h remain before freeze OR >50% pages fail purge-era gates); needs human decision on authoritative source (matrix vs prose).",
+   "numbers": "KILL_CRITERIA.md:68",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:174-196,377",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Surya on Sanskrit (sa) is 100% empty output (100 rows, mean CER 1.0000); 0 of 200 local Santali predictions contain any Ol Chiki codepoint (0x1C50-0x1C7F); Sarvam's 3 sat rows carry 316 codepoints. mni local surya 0.9769, sat 0.7621.",
+   "numbers": "sa 100/100 empty; sat 0/200; sat surya 0.7621; mni 0.9769",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:88; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:299,314-318",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Local engine abstention rate: 43.7% (536/1227) and 50.3% (617/1227) empty predictions.",
+   "numbers": "536/1227; 617/1227",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:91",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Only 'sat' and 'mni' traineddata need downloading; kan/mal/tam/tel already on disk at /opt/homebrew/share/tessdata and level2/research/smoke/anuvaad_tesseract/tessdata (anuvaad_kan/mal/tam/tel). probe22/tessdata has 12 files: asm ben eng guj hin mar nep ori pan san snd urd. Plan's 6-language ask was inflated 3x.",
+   "numbers": "2 of 6 needed; 12 files",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:60,160-161; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:238-244",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "indic-ocr tessdata README confirms Ol Chiki (Santali) and Meetei Mayek (Manipuri) traineddata exist; file listing, ~2-4 MB size, and licence UNVERIFIED and a hard gate before download.",
+   "numbers": "~2-4MB unsourced",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,221",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Machine has exactly 1 Ol Chiki font (NotoSansOlChiki-Regular.ttf) and 1 Meetei Mayek font (NotoSansMeeteiMayek-Regular.ttf) - constrains R3 synthetic-data diversity.",
+   "numbers": "1 + 1 fonts",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:98; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:224-226",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "GlotOCR Bench (arXiv 2604.12978): performance tracks script-level PRETRAINING COVERAGE, not font availability; plan had reversed this. 'median 1 font per family' figure not in abstract, still untagged. Font constraint is our own observation, analogy 'suggestive, not evidential', weakest link of the edge section.",
+   "numbers": "median 1 font/family unverified",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:53,157-158; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:211-230",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Consensus Entropy (arXiv 2504.11101): training-free inter-model agreement for verify/select/route; 'CVPR 2026' venue unverified; this paper killed an edge thesis but is missing from the plan's URL list. Verifier idea measured: 0.6766 vs surya 0.4190 ('61% worse'), 95-100% precision / 0-5.2% recall, routing gain -0.0351.",
+   "numbers": "0.6766 vs 0.4190; 61.5%; -0.0351",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,94-96",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "LV-ROVER-MLT (arXiv 2607.00250): five deterministic Tesseract configurations + diacritic gate; plan wrongly called it 'DocEng 2026 winner' - held-out result under organiser embargo, working paper; '57 Maltese pages' unsourced (abstract: 422-paragraph dev set).",
+   "numbers": "422 paragraphs",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:27,52,54",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Fusion ceiling reproduced on seeded 300-image sample (seed 20260926): surya 0.4190, tesseract_bilingual 0.5230, per-item oracle 0.3213, gap 0.0977 (~0.098); sa accounts for 67-69% of gap, ex-sa gap 0.0328-0.0332. Earlier 0.4277/0.5229 pair was impossible and withdrawn (EDGE_THESIS.md:56).",
+   "numbers": "0.4190/0.3213/0.0977; sa 69.1%; 0.0328",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:61,169; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:263-284",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "Fusion pair 0.4277/0.5229 originally stated in plan: surya (0.4190) beat the stated oracle, internally impossible.",
+   "numbers": "0.4277 vs 0.5229",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:61,217",
+   "status": "REJECTED",
+   "date": "2026-09-30",
+   "currency": "superseded",
+   "superseded_by": "R2 reproduces 0.4190/0.3213"
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "GLM-OCR is PRESENT on Sarvam's OmniDocBench v1.6 table at 94.71 (rank 3: Paddle 96.01, Sarvam 94.97, GLM 94.71); W6_QLORA_SPEC.md:55 '(OmniDocBench #1)' is v1.5. Round 2: plan now tags CONTRADICTION/UNKNOWN (reviewers disagree); GLM-OCR recommendation not evidence-backed. Sarvam blog also lists olmOCR-Bench OldScan 55.3.",
+   "numbers": "96.01/94.97/94.71; OldScan 55.3",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:29,151-152,212; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:147-149",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "QLoRA backbone per W6_QLORA_SPEC.md:53: Qwen2.5-VL-3B-Instruct @ 4-bit MLX (primary); alternate 2 GLM-OCR-0.9B.",
+   "numbers": "Qwen2.5-VL-3B 4-bit MLX",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,103,199",
+   "status": "PRIMARY",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT-tier stratification (54 Sarvam-paired items): official_pair_txt n=9 Sarvam 0.0641 / surya 0.5346 / best local 0.2425; official_pdf_layer n=36 0.3105/0.2295/0.2285; sarvam_bench n=9 0.2781/0.7296/0.6167. Pooled human-verified (18): Sarvam 0.1711 vs best local 0.4296 = 2.5x (2.511) behind.",
+   "numbers": "0.1711 vs 0.4296; ratio 2.511; n=9/36/9",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:131-136",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "All 21 item-level surya wins over Sarvam sit in PDF-layer tier (21W/13L/2T), none in human-verified tiers (pair_txt 0/9/0, sarvam_bench 0/6/3); PDF-layer GT is not human-verified. Manifest gt_source counts 825/300/158.",
+   "numbers": "21W/13L/2T; 825/300/158",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:86,136,205",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "'Pooled 10/18 languages where surya beats Sarvam' did NOT reproduce in round 2: 8/18 (as brx ks mai mr or pa sd); round 1 said 10/18 (brx gu ks mai mr ne or pa sd ur). Unresolved disagreement on unchanged sheet.csv; never to be presented as a win either way (n=3 per language).",
+   "numbers": "10/18 vs 8/18; best-local 9/18",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:90; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:308-328,381",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe data scale: sheet.csv 12,324 rows, 11 model strings (10 local x 1,227 scored + sarvam 54); manifest 1,283 items; labelled 1,683 = 1,283 + 400 South; South 126 of 400 scored (274 all-null); 219 gt_thin + 55 legacy_mojibake. gt_thin rule stated <200 GT chars but observed max 178 (directive says <179).",
+   "numbers": "12,324; 1,283; 1,683; 126/400; 219; 55",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:68-74,32",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "No language is labelled-only: all 22 have scored pages (min ml n=5; probe22 min as 19). 13 of 22 at n>=50 (12 probe22 + ta 70); 9 below 50: as 19, mni 20, sat 20, gu 24, kn 25, te 26, doi 27, ne 37, ml 5 (BENCHMARK_22 flags 9). ml below 5-10 floor. Plan row label '8 of 22' still inconsistent.",
+   "numbers": "13 + 9; ml 5",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:47,48,148-149; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:128-143",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Sampling check: of 400 seeded sample rows, 66 reproduce stored CER exactly, 110 within 1e-4, 111 within 5e-4 (seed 20260926, metrics.calculate_cer capped at 1.0); plan's '(111 exact)' is false and self-contradictory.",
+   "numbers": "66 / 110 / 111 of 400",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:49; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:260-271",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "564 of 12,324 gt strings differ NFC vs NFKC (predictions 0); 0 exact-match verdict flips from normalisation; mixed_script False on all 12,324 manifest rows.",
+   "numbers": "564/12,324; 0 flips",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:92-93,97",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Probe set is 100% printed, 0 tables, 983 of 1,283 quality 'unknown'; hackathon targets handwritten/low-quality documents (U13). Degraded-scan performance untested.",
+   "numbers": "1,283 items; 983 unknown",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,172",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "8 of 22 vendor-bench flips between Sarvam's table and Bodhan's; Kashmiri flips by 8.9 pt (52.2 vs 43.3). Sarvam rank of kok cell UNKNOWN across disagreeing tables.",
+   "numbers": "8 of 22; 8.9pt",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:89-90",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Surya has modified OpenRAIL-M licence with $5M funding/revenue cap (docs/legal/LICENSE_AUDIT.md) - CEO decision U14, missing from plan going to CEO.",
+   "numbers": "$5M cap",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,172",
+   "status": "UNKNOWN",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Four edge theses drafted, killed by three adversarial reviewers each (12 critiques); zero survived. Multi-LLM eval PARTIAL: 12 critiques, 7 of 11 accepted, #2 and #5 rejected by all three; legs: one NOT RUN (tooling), one NOT RUN (budget), one PENDING.",
+   "numbers": "4 theses; 12 critiques; 7/11",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:36,102",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Option table defect: round 1 found Option A and D columns described the same option; A defined variously: packet = wrap-only + kok/pa QLoRA + optional Rs1005 (~$12) Sarvam subsidy; level-7 W5 A = QLoRA kok+pa + wrap, $0, 3-4h; docs/architecture/W5 A = pure wrap $6, rank 3 (recommends D); Option D = wrap + script-router + R4 restoration + sat/mni API subsidy ($0-30). Round 2: columns fixed, recommendation = wrap-only A, $0, no downloads; but cited path docs/research/level7/W5_STRATEGY_OPTIONS.md does not exist (archived in _archive/pre_fix_2026-09-29/).",
+   "numbers": "Option A $0, 0.1d; D $0-30; Rs1005",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:145-146; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:81-124",
+   "status": "CONTRADICTION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Plan scope vs protocols: missing from CEO questions U10 (level2 restructure), U11 (South re-run), U12 (.env out of repo), U13 (handwriting/low-quality in scope), U14 (surya licence cap), U15 (Punjabi K1 -> QLoRA Konkani only). 12 of proto-86's 13 defects unapplied at round 1. Plan 2,661 words vs ~1,800 budget.",
+   "numbers": "2,661 words",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:30,175",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Dates: plan header 2026-09-29 vs evidence opened 2026-09-30; 2026-09-30 Wed, 2026-10-07 Wed, 2026-10-04 Sun correct; '43 files with wrong weekday' is at least 43 (grep found 49). 1D report does not exist on disk (content in COMPETITOR_INTEL.md).",
+   "numbers": "49 vs 43",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:32,223-224",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Untracked QLoRA/GRPO code is ~1,995 lines (src 1,834 across 15 files + tests 161), not ~1,195. Plan assumes no training and $0.",
+   "numbers": "1,995 lines",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:50,205; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:261",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W1A packet audit: 54 specs = 19 BLOCKER + 28 MAJOR + 7 MINOR.",
+   "numbers": "54=19+28+7",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:101",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Round 1 'Four stages SPEC-ONLY' is actually 5 nodes SPEC-ONLY (P1,L1,L2,R3,S1) and 2 PAUSED (T1,T3); every training node tagged PAUSED/SPEC-ONLY; no Sarvam call proposed.",
+   "numbers": "5 SPEC-ONLY; 2 PAUSED",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:59,34",
+   "status": "MEASURED",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Law/repo state: other agents write repo concurrently; root W5_STRATEGY_OPTIONS.md does not exist; verification must re-check against current bytes.",
+   "numbers": "",
+   "source": "docs/campaign/checkpoints/W1_reports/1H_verify.md:34,148",
+   "status": "DECISION",
+   "date": "2026-09-30",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 (handwritten-only) does not carry forward the measured printed per-language ordering (ur 0.6232, ks 0.5894, bn 0.4763, kok 0.4248 ... mai 0.0298) or the 9/2/1 winner split: docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:58",
+  "Plan lacks the GT-tier discipline: PDF-layer GT is not human-verified; on human-verified tiers Sarvam is 2.5x ahead (0.1711 vs 0.4296); never report pooled wins: docs/campaign/checkpoints/W1_reports/1H_verify.md:136",
+  "Kill-criteria evidence conflict (pa K1 tie p=1.0 vs 'SURVIVES p<0.0001') and K2 label confusion not resolved; QLoRA scope should be Konkani only: docs/campaign/checkpoints/W1_reports/1H_verify.md:154; docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:377",
+  "No handling of Ol Chiki/Meetei Mayek: 0/200 Santali predictions use Ol Chiki, surya sa 100% empty, only 1 font each; download of sat/mni tessdata needs licence check: docs/campaign/checkpoints/W1_reports/1H_verify.md:88,221",
+  "Metric comparability: 87.39 is unweighted mean of 22 rows, n=6,609, English excluded, exact metric UNKNOWN; McNemar here is pass/fail at CER<0.5: docs/campaign/checkpoints/W1_reports/1H_verify.md:25,36",
+  "Probe set is 100% printed with 983/1,283 quality unknown; degraded scans untested (U13) - plan's handwriting focus needs its own eval set with leak hash gate: docs/campaign/checkpoints/W1_reports/1H_verify.md:172",
+  "Licence gate: surya modified OpenRAIL-M $5M cap (U14) must be a decision for any product use: docs/campaign/checkpoints/W1_reports/1H_verify.md:172",
+  "Fusion/verifier routing was measured negative (-0.0351; verifier 0.6766 vs 0.4190) so ensemble/post-correction claims need measured gain: docs/campaign/checkpoints/W1_reports/1H_verify.md:94-96",
+  "Citation hygiene: verify source lines before citing (W6_QLORA_SPEC.md:55 OmniDocBench #1 is v1.5; LV-ROVER not a winner; GlotOCR conclusion reversed): docs/campaign/checkpoints/W1_reports/1H_verify.md:53,157"
+ ],
+ "contradictions": [
+  "pa K1: matrix p=1.0 vs KILL_CRITERIA.md:56 / W6_QLORA_SPEC.md:75 p<0.0001 (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:169-181)",
+  "Pooled 10/18 (round 1) vs 8/18 (round 2) on same sheet.csv (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:323-328)",
+  "GLM-OCR in/absent from OmniDocBench v1.6 (94.71 rank 3 per blog) (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:147)",
+  "Sarvam kok rank: blog says 97.41 rank 1; Bodhan table disagrees (FLIP) (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:65-68)",
+  "Option A defined three ways across packet, level-7 W5, docs/architecture W5 (docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:122)",
+  "gt_thin threshold <200 (JSON) vs <179 (directive) vs observed max 178 (docs/campaign/checkpoints/W1_reports/1H_verify.md:32)"
+ ],
+ "open_items": [
+  "Authoritative source on Punjabi K1 (matrix vs prose) - human decision docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:377",
+  "Pooled 10/18 vs 8/18 discrepancy docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:381",
+  "GlotOCR 'median 1 font per family' source docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:379",
+  "indic-ocr pack licence/size/file listing docs/campaign/checkpoints/W1_reports/1H_verify.md:221",
+  "CVPR venue for 2504.11101; 57 Maltese pages docs/campaign/checkpoints/W1_reports/1H_verify.md:218-219",
+  "Whether fonts are really the constraint for Ol Chiki/Meetei synthetic data (R3) - suggestive only docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:215",
+  "Sarvam rank of kok cell across disagreeing tables docs/campaign/checkpoints/W1_reports/1H_verify_round2.md:66"
+ ]
+}

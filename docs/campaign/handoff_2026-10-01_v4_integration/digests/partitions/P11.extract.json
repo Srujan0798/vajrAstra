@@ -1,0 +1,511 @@
+{
+ "partition": "P11",
+ "files": [
+  {
+   "path": "docs/research/level7/c/c3/LEDGER.md",
+   "total_lines": 981,
+   "fully_read": true
+  }
+ ],
+ "findings": [
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Honesty gates for any GT candidate: length>=50 chars, target-script ratio>=0.5, Latin ratio<=0.6, control chars<=3. Purge removed 111 control-char-corrupt PDF-layer items; manifest 1340->1229->n=1227.",
+   "numbers": "111 purged; 1340->1229->1227",
+   "source": "docs/research/level7/c/c3/LEDGER.md:17",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Machine GT forensics trust: ne BARRED 26.6; ks 45.0, mr 46.8, gu 51.4, ur 59.0 verify-first. No ks/ur/sd/gu/mr PDF-layer line trains until human verification passes and pair-vs-pdf gap check.",
+   "numbers": "ne 26.6; ks 45.0; mr 46.8; gu 51.4; ur 59.0",
+   "source": "docs/research/level7/c/c3/LEDGER.md:21",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "SFT allow-list: human pairs (10,432 gold: bn 2938/hi 3500/sa 494/en 3500) + synthetic always; PDF-layer per-language only on 6.4 pass + gap<=10pp; sarvam_fill NEVER trains; RLVR on human gold only after no-inversion. Mix S1 L1 100% x2ep; S2 70:30 x1ep; S3 50:20:30 x1ep; RLVR<=20 GPU-h.",
+   "numbers": "10,432 gold; 70:30; 50:20:30; RLVR<=20 GPU-h",
+   "source": "docs/research/level7/c/c3/LEDGER.md:26",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Bodo/gu/ (4,645 jpgs) is a copy of main test set - not GT; test/test 5,344 unlabeled = hackathon eval set, never train. Hard law: no downloads w/o user yes, no training before freeze, no 400-page sets.",
+   "numbers": "4,645 jpgs; 5,344",
+   "source": "docs/research/level7/c/c3/LEDGER.md:32",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Probe manifest n=1227 composition: bn/hi/sa 100 pairs; ks/kok/mai/ur 100 PDF; pa 90, mr 79, sd 75, or 69, brx 67; ne 37, gu 24, doi 27, as 19, mni 20, sat 20 (fill-heavy). as/mni/sat have ZERO trusted real lines -> synthetic-only bootstrap + fresh human gold; n<50 no winner claims.",
+   "numbers": "n=1227; as 19, mni 20, sat 20",
+   "source": "docs/research/level7/c/c3/LEDGER.md:36",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Nastaliq: QARI 0.550->0.061 CER on 50k pure-synthetic SFT of Qwen2-VL-2B; UTRSet synth-only 75.14% vs real-trained 90.87%; +500 real lines gives -6.13% rel WER. Rule: 40-60k synthetic curriculum + 300-500 hand-corrected real ks lines; no 400-page collection.",
+   "numbers": "0.550->0.061; 75.14 vs 90.87; 40-60k synth + 300-500 real",
+   "source": "docs/research/level7/c/c3/LEDGER.md:41",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Synthetic-only reaches classical parity on printed Indic (Nayana CER 0.227 vs Tesseract 0.206) and rescues zero-corpus scripts (Maltese LV-ROVER); but synthetic benchmark scores do not predict real-scan rank (Devanagari stress test 9/10 collapse). Synth-val is a gate not a claim; synth never eval. Synth base >=100k renders/script then human-gold fi",
+   "numbers": "0.227 vs 0.206; 9/10 collapse; >=100k renders/script",
+   "source": "docs/research/level7/c/c3/LEDGER.md:46",
+   "status": "DERIVED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan cell (55.3) has no labeled slice; Otsu cheap baseline until ablation A0 none/A1 deskew+Otsu/A2 Sauvola/A3 DocRes pilot n<=8; adopt bar median dCER<=-0.03, 95% bootstrap CI, >=2/3 frozen engines. Do not collect restoration training set; collect ~40-page manual old-scan eval slice. DIBCO Latin/Greek only.",
+   "numbers": "55.3; dCER<=-0.03; 40 pages",
+   "source": "docs/research/level7/c/c3/LEDGER.md:51",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "600k-ks-ocr: ~602,000 word-level 256x64 Kashmiri images, 3 typefaces, CC-BY-4.0, ~10.6 GB; word-level only so line/block curriculum needs own rendering. Synthetic, SFT-safe, never eval.",
+   "numbers": "602,000 imgs; 10.6 GB; CC-BY-4.0",
+   "source": "docs/research/level7/c/c3/LEDGER.md:60",
+   "status": "PRIMARY",
+   "date": "2026-01-03",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "KS-LIT-3M: 3.1M words/16.4M chars Kashmiri text via InPage converter; render-string source not GT. Paper says CC-BY-4.0 but HF card header says cc-by-sa-4.0 with model-training restrictions: contradiction, demoted to share-alike backup.",
+   "numbers": "3.1M words; 16.4M chars",
+   "source": "docs/research/level7/c/c3/LEDGER.md:65",
+   "status": "CONTRADICTION",
+   "date": "2026-01-03",
+   "currency": "superseded",
+   "superseded_by": "C3-153 (line 937) + C3-116"
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "KS-PRET-5M (Apr 2026): 5,090,244 words, ~12.13M subword tokens, CC-BY-4.0, script purity 81.3% (0.9965 mean KS ratio); DEFAULT ks render-string base, supersedes KS-LIT-3M. Re-confirmed live 2026-09-27.",
+   "numbers": "5,090,244 words; 12.13M tokens; 295,433 vocab",
+   "source": "docs/research/level7/c/c3/LEDGER.md:765",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "SynthOCR-Gen generator validated by producing the 600k Kashmiri set; Persian Pixel (343k+ pairs, sentence/paragraph/page) is second 2026 proof of chassis on Perso-Arabic. Chassis choice at freeze among TRDG/SynthTIGER/SynthOCR-Gen; both MIT TRDG/SynthTIGER. Persian CER numbers DIE for ks (no U+0620).",
+   "numbers": "343k+ pairs; 25+ augmentations",
+   "source": "docs/research/level7/c/c3/LEDGER.md:769",
+   "status": "PRIMARY",
+   "date": "2026-07-22",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "600k-ks release: 600k samples, 487k words, 89,743 unique, 90/10 split seed 42; canonical HF host Omarrran/600k_KS_OCR_Word_Segmented_Dataset; repo-vs-HF parity unverified.",
+   "numbers": "89,743 unique; 487k words",
+   "source": "docs/research/level7/c/c3/LEDGER.md:76",
+   "status": "UNKNOWN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "UTRNet: UPTI-trained -> 54.84% on Real (cross-domain collapse); synth-only 75.14% vs real-trained 90.87% (15-pt residual) justifies synth+real mixing. UTRSet-Real 9,065 train/2,096 val + Synth 20,000. UTRSet-Real is CC-BY-NC-4.0 and approval-gated; UTRNet accuracy numbers DEAD for VLM routing.",
+   "numbers": "54.84; 75.14 vs 90.87; 9,065/2,096",
+   "source": "docs/research/level7/c/c3/LEDGER.md:86",
+   "status": "PRIMARY",
+   "date": "2023-06-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Press-to-Pixels/UNB: 829 Nastaliq newspaper blocks (9,982 sentences); Gemini-2.5-Pro WER 0.133 UNB; 500-line GPT-4o FT -6.13% WER; SwinIR SR +50% avg accuracy; TrOCR best classical on OpenITI-Nastaliq WER 0.451/CER 0.177. Best real Nastaliq eval anchor; vendor WERs dead for routing.",
+   "numbers": "829 blocks; WER 0.133; -6.13%; +50%",
+   "source": "docs/research/level7/c/c3/LEDGER.md:100",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Other ur/ks sources: RAVI 99,000 Urdu word images (Mendeley); CLE Urdu corpora (academic non-commercial, fees); Urdu OCR Multi Source Dataset (Proxima AI, Aug 2026) pointer only with terms/volume/script unverified; MAKHZAN 1,497 pages incl 286 Nastaliq (73 Urdu) is heritage-domain eval candidate.",
+   "numbers": "99,000 words; 1,497 pages; 286 Nastaliq; 73 Urdu",
+   "source": "docs/research/level7/c/c3/LEDGER.md:105",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Kashmiri Yeh U+0620 undersupported before Awami Nastaliq v3.300 (Oct 2024, SIL OFL) which added Kashmiri; mandatory ks render font; every ks synthetic batch must include U+0620 strings, tofu/zero-ink clusters fail the batch; pin exact font version (Noto Nastaliq v3.004->v4.000 shaping drift).",
+   "numbers": "Awami 3.300; Noto Nastaliq 3.004->4.000",
+   "source": "docs/research/level7/c/c3/LEDGER.md:164",
+   "status": "PRIMARY",
+   "date": "2024-10",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Urdu normalization (RTL marks, LRI/PDI isolates, NFKC + Arabic-letter normalization, punctuation map) is a scorer-side GT-quality gate: 3-8 pts of ks/ur/sd CER may be scoring artifact without it; adopt before any ks/ur/sd SFT decision.",
+   "numbers": "3-8 pts CER",
+   "source": "docs/research/level7/c/c3/LEDGER.md:188",
+   "status": "DERIVED",
+   "date": "2026-06",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "PARSeq-Urdu CER 0.178 on ~160k Urdu word images (honest classical SOTA, Path-3 hedge); ks capped by Kashmiri-Yeh OOV. Community Tesseract-Urdu retrain BCER 27.1%/BWER 63.1%: LSTM/CTC-era ~27% BCER, autoregressive SFT is gap closer.",
+   "numbers": "CER 0.178; 160k; BCER 27.1%; BWER 63.1%",
+   "source": "docs/research/level7/c/c3/LEDGER.md:193",
+   "status": "MEASURED",
+   "date": "2024-08",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Paddle arabic rec 81.27% strict line acc; third-party off-shelf CER 0.77/0.81 vs Tesseract 0.14/0.31; fine-tuned PP-OCRv6-small on 500k printed Arabic -> ~10% CER. No off-shelf Paddle-Arabic path for ks (0.5-0.8 CER band); VLM branch only.",
+   "numbers": "81.27%; CER 0.77/0.81; ~10% on 500k",
+   "source": "docs/research/level7/c/c3/LEDGER.md:587",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Sindhi: Dootio corpus (host/license unverified); Sindhi Open Lexicon Master 223,342 entries (88,947 native words) attribution-mandatory but script mixed; sd resources need per-line Perso-Arabic gate (Sindhi also Devanagari).",
+   "numbers": "223,342 entries; 88,947 words",
+   "source": "docs/research/level7/c/c3/LEDGER.md:146",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Santali: sat.wiki ~15,928 articles (CC-BY-SA); FLORES-200 sat_Olck 3,001 sentences (CC-BY-SA-4.0; SEACrowd mirror CC-BY-NC DIES); MMLoSo EN-sat dataset third string pool. Most Santali digital text is NOT Ol Chiki (Bengali/Devanagari/Odia/Latin) so >=80% U+1C50-1C7F gate is load-bearing.",
+   "numbers": "3,001 sents; 15,928 articles; >=80% gate",
+   "source": "docs/research/level7/c/c3/LEDGER.md:218",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Mozhi-LR (IIIT CVIT 2024): synthetic + real word sets for 9 low-resource langs (Santali, Sindhi, Maithili, Kashmiri, Bodo, Dogri, Konkani, Nepali, Sanskrit); real = 20-25 book pages/lang at 300 DPI; synth-train then real-finetune is the precedent recipe. Their ks real pages are Devanagari, NOT our Nastaliq cell.",
+   "numbers": "20-25 pages/lang; 300 DPI",
+   "source": "docs/research/level7/c/c3/LEDGER.md:232",
+   "status": "PRIMARY",
+   "date": "2024-10-04",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Ol Chiki: only verified OFL design is Noto Sans Ol Chiki (4 weights, ~55 glyphs); single-design constraint -> degradation-heavy diversity, held weight-700 + held-seed synth-val. Unicode block U+1C50-1C7F 48/48 assigned (Unicode 17.0 unchanged); true alphabet, Pillow BASIC ok, RAQM preferred. Omniglot fonts quarantined.",
+   "numbers": "4 weights; ~55 glyphs; 48/48",
+   "source": "docs/research/level7/c/c3/LEDGER.md:252",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Meitei Mayek: Noto Sans Meetei Mayek (OFL, 9 weights) as train design; SIL Eeyek (OFL, v2.000) held exclusively for font-disjoint synth-val; legacy GPL-2.0+ Eeyek-Unicode excluded. Gate: >=80% U+ABC0-ABFF, historic <=2%, NFC; HarfBuzz mandatory (ABE3-ABEA/ABED misplace under BASIC); abort if raqm unavailable.",
+   "numbers": "9 weights; 92 glyphs; >=80%; <=2%",
+   "source": "docs/research/level7/c/c3/LEDGER.md:320",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Mayek string pools: DayanandaThokchom EN-Meitei Mayek 461,345 pairs MIT (415k/23k/23k); second Mayek-EN pool likely overlaps (dedupe not sum); MWirelabs Meitei 1,766,810 sentences are BENGALI script (CC-BY-SA-4.0) usable only via 95%/500-line transliteration gate; LDC-IL 6,145,278 words price-gated script unverified. FLORES has mni_Beng only, no Ma",
+   "numbers": "461,345 pairs; 1,766,810 sents; 6,145,278 words",
+   "source": "docs/research/level7/c/c3/LEDGER.md:286",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Mayek/Odia handwriting resources (eval pointers only, excluded from printed SFT): TUMMHCD 85,124 char images; Hijam 60,285 chars/37 classes; Deena 55-class 1,200+ img/class; Odia HW 182,152 chars (MIT); IIIT NLTM Oriya HW words 101,467 images (terms unverified); ICDAR-2023 HW competition covers 22 langs incl Santali.",
+   "numbers": "85,124; 60,285; 182,152; 101,467",
+   "source": "docs/research/level7/c/c3/LEDGER.md:291",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia (80.01 cell): odia-ocr-merged 192,000+ samples but mostly 182,152 32x32 chars (MIT), 10,000+ Mozhi words (academic), 64 lipi samples (CC-BY-NC-SA). Odia needs LINE/BLOCK data. Real eval anchors: Odia-lipi (<1K, NC-SA) + 223-row bench (NC-SA) + probe or_69 -> pooled n~350+ for CI-grade or claims.",
+   "numbers": "192,000+; 223 rows; n~350+",
+   "source": "docs/research/level7/c/c3/LEDGER.md:358",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Odia Qwen2.5-VL-3B FT precedent: 58,720 validated pairs, 98/2 split, LoRA r=64/a=128, LR 2e-4, bf16, 3 ep ~4h on A100-80GB (blog says H100), CER 20-40% by doc type, exact-match 40-70%. Plan S3 (<=30 GPU-h at <=2B) is conservative vs this. Merged model needs >=16GB VRAM; 400px strip-split recipe for full pages. CERs DEAD for our harness.",
+   "numbers": "58,720 pairs; ~4 GPU-h; CER 20-40%; >=16GB VRAM",
+   "source": "docs/research/level7/c/c3/LEDGER.md:378",
+   "status": "MEASURED",
+   "date": "2026-02-21",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Odia text bases: abhilash88 801 MB corpus CC-BY-4.0 = DEFAULT or render-string base; IndicCorp or 6.94M sents/107M tokens CC-BY-NC-4.0 overflow; IndicCorpV2 CC-0 or coverage unconfirmed; OdiEnCorp 98,302 pairs partly OCR-extracted (<=20% share).",
+   "numbers": "801 MB; 6.94M sents; 98,302",
+   "source": "docs/research/level7/c/c3/LEDGER.md:383",
+   "status": "PRIMARY",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "printed_architecture",
+   "claim": "IndicDLP: 119,806 layout-annotated doc images, 12 domains, 42 layout classes incl Odia, MIT; layout-harness data not OCR GT.",
+   "numbers": "119,806 images; 42 classes",
+   "source": "docs/research/level7/c/c3/LEDGER.md:403",
+   "status": "PRIMARY",
+   "date": "2025",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Licensing: OFL renders/weights not font redistribution (counsel-confirm); CC-BY-SA applicability to rendered images/weights is UNKNOWN - keep BY-SA minority share; NC-lineage tags in sidecar and FINAL PLAN must re-derive product allow-list excluding NC lineage; hackathon=non-commercial assumed, cross-check with competition rules.",
+   "numbers": "CC-BY-SA; CC-BY-NC",
+   "source": "docs/research/level7/c/c3/LEDGER.md:433",
+   "status": "UNKNOWN",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Quarantine list (excluded unless cleared): Rekhta bulk, santals.in bulk, Hueiyen Lanpao bulk, Jameel-Noori redistribution, community fonts, GPL legacy Eeyek, OpenSLR-ks GPL-3.0 transcripts, Kaggle-provenance sets, SEACrowd NC mirror, DocCreator import-chain (LGPL-3.0), 4-bit recognizer quant, API-at-inference.",
+   "numbers": "12 items",
+   "source": "docs/research/level7/c/c3/LEDGER.md:621",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Synthetic tooling: TRDG (MIT, v1.8.0), SynthTIGER (MIT, requires libraqm), Augraphy MIT default degrader, DocCreator LGPL param reference. Never use --word_split per-character for Nastaliq; arabic-reshaper vs HarfBuzz check. Shear cap <=0.2 for Mayek vowel-sign safety.",
+   "numbers": "shear<=0.2",
+   "source": "docs/research/level7/c/c3/LEDGER.md:465",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Nayana-OCR: GOT-OCR+LoRA on purely synthetic 850k/10-lang set CER 0.227 vs Tesseract 0.206, BLEU 0.395 vs 0.318; 3M-image extension. Maltese LV-ROVER shows synth lines + Tesseract-LSTM FT = usable OCR where none existed (sat analogue).",
+   "numbers": "850k; 0.227 vs 0.206",
+   "source": "docs/research/level7/c/c3/LEDGER.md:490",
+   "status": "MEASURED",
+   "date": "2025",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "QARI curriculum: v0.1 10k plain -> v0.2 50k diacritized CER 0.550->0.061 -> v0.3 10k layout/HTML REGRESSES plain CER 0.061->0.300; 4-bit quant CER 3.45 vs 8-bit 0.091. Binding rules: plain->font order, no layout-mix in line-CER stage, no 4-bit recognizer quant.",
+   "numbers": "0.061->0.300; 3.45 vs 0.091",
+   "source": "docs/research/level7/c/c3/LEDGER.md:500",
+   "status": "MEASURED",
+   "date": "2025",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "GutenOCR-7B stages 2.5M core ->0.5M real-spec->0.3M->0.3M, 2,048-sample val, stratified held-out; stage precedent for S1->S2->S3 but 7B outside <=2B envelope. olmOCR 2026: SFT 260K pages then RL with visual unit tests on synthetic docs = RLVR template (numbers dead).",
+   "numbers": "2.5M/0.5M/0.3M/0.3M; 260K pages",
+   "source": "docs/research/level7/c/c3/LEDGER.md:505",
+   "status": "PRIMARY",
+   "date": "2026",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "Post-OCR correction results: Bourne synthetic corruption -55% CER/-32% WER, under-corrupt beats over-corrupt, keep ~15% clean anchors; Guan&Greene glyph-similarity ByT5 up to 68.67% CER reduction. Scope: correction head, not recognizer.",
+   "numbers": "-55% CER; 68.67%; ~15% clean",
+   "source": "docs/research/level7/c/c3/LEDGER.md:510",
+   "status": "PRIMARY",
+   "date": "2024",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "GT verification design: 6.4 = 10% stratified sample seed 20260926 (~77 PDF lines) + all 158 sarvam_fill blind; per-language >20% fail bars tier from W6; falsification: pair-vs-pdf CER gap >10pp = PDF GT suspect; W6 eligibility needs verification pass + gap<=10pp + R5 trust>=70; blind dual-verify; seed 5 known-gold lines per verifier batch; ~2h task",
+   "numbers": "158 fill; ~77 lines; >20%; >10pp; trust>=70",
+   "source": "docs/research/level7/c/c3/LEDGER.md:549",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "eval_gt_leakage",
+   "claim": "Estimator law: Wilson 95% intervals per-language CER, McNemar exact on same-item paired comparisons, test family pre-declared, abstention=coverage + conditional CER; no point-estimate winners on n<50 cells (as/gu/ne/doi/mni/sat).",
+   "numbers": "Wilson 95%; n<50",
+   "source": "docs/research/level7/c/c3/LEDGER.md:872",
+   "status": "DECISION",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "OldScan restoration numbers: Otsu trails Sauvola ~2-7 FM; learned heads +8-18 FM; SOTA binarization avg F 95.8% (Tarba 2025); CPU <=3 min/page; dot-audit (>=2 smoothed dots/matra-hooks per page reject A3); diffusion/GAN deferred (ColDBin); FM are binarization-internal, not CER; judge restoration by downstream dCER.",
+   "numbers": "2-7 FM; 8-18 FM; 95.8%; <=3 min/page",
+   "source": "docs/research/level7/c/c3/LEDGER.md:577",
+   "status": "MEASURED",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Bodhan Indic-OCR leads sat (68.30) per W3 schema; sat router decision may dominate synth volume. Bodhan Sept 2026 collection (5 Sep 2026, 5 items). Cross-bench (Sarvam blog 2026-09-24): olmOCR-Bench Overall Sarvam 2.1 87.3 (OldScan 55.3) vs Bodhan 78.8 (OldScan 45.8); OmniDocBench v1.6 PaddleOCR-VL 1.6 96.01, Sarvam 94.97, Bodhan 92.17, DeepSeek-OC",
+   "numbers": "68.30; 87.3 vs 78.8; 55.3 vs 45.8; 96.01/94.97/92.17/87.91",
+   "source": "docs/research/level7/c/c3/LEDGER.md:948",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "product_jury_competition",
+   "claim": "Sarvam Vision 2.1 (2026-09-24) is latest, no 2.2; Indic bench 6,909 samples (6,609x22 langs + 300 EN); score 87.39; API Rs1.50/page; 87.39 stays benchmark target but dies for build decisions (different harness, no per-cell CER).",
+   "numbers": "87.39; 6,909 samples; Rs1.50/page",
+   "source": "docs/research/level7/c/c3/LEDGER.md:955",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "W6 feasible set: FEASIBLE NOW = wrap-only baseline (hybrid routing + restoration, zero GPU); FEASIBLE-IF local QLoRA on SAFE langs (needs McNemar-significant gap + laptop check) and ColDBin heads; INFEASIBLE under rules: cloud GPU spend (no-money law), 4-bit quant, API-at-inference. Kill-criteria thresholds are operator-set and missing.",
+   "numbers": "",
+   "source": "docs/research/level7/c/c3/LEDGER.md:875",
+   "status": "UNKNOWN",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Law: deny-by-default ledger - no downloads/weights/fonts without explicit user yes; no training before freeze; mirrors change licenses so trace canonical host; A 'hackathon=non-commercial' assumption governs NC data.",
+   "numbers": "",
+   "source": "docs/research/level7/c/c3/LEDGER.md:613",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "weak_cells",
+   "claim": "Fonts/Unicode refresh 2026-09-27: Noto Ol Chiki/Meetei Mayek Alpine rebuilds 2026.09.01-r0 packaging only; Eeyek latest v2.000 (adds U+ABE2); Unicode 17.0 current (no 18.0), Ol Chiki and Mayek blocks unchanged.",
+   "numbers": "Unicode 17.0",
+   "source": "docs/research/level7/c/c3/LEDGER.md:888",
+   "status": "PRIMARY",
+   "date": "2026-09-27",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "handwriting",
+   "claim": "Handwriting is peripheral in this ledger: all HW sets (Mayek, Odia, Urdu UHAT/CALAM, ICDAR-2023) tagged eval-pointer only, handwriting domain excluded from printed SFT; handwriting != printed tag must be applied.",
+   "numbers": "",
+   "source": "docs/research/level7/c/c3/LEDGER.md:298",
+   "status": "DECISION",
+   "date": "2026-09-26",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ],
+ "plan_v4_gaps": [
+  "Plan v4 handwriting-only framing ignores that this ledger's weak-cell program (sat/ks/mni/or) is printed synthetic-first; no mapping from IIIT-INDIC-HW-WORDS to these scripts, and HW sets here (ICDAR-2023, Mayek HW, Oriya HW 101,467) are eval-pointers with unverified terms (lines 246,291-298,847).",
+  "Plan lacks licence firewall: NC-lineage tagging (UTRSet, Odia-lipi, IndicCorp) and CC-BY-SA minority-share rule; IIIT-INDIC-HW CC-BY-4.0 fine but any NC data must not flow to product weights (433-439).",
+  "Plan lacks per-language W6 eligibility gates (verification pass, falsification gap<=10pp, R5 trust>=70) and ne BARRED lock (21,618).",
+  "Plan lacks scorer-side Urdu/Perso-Arabic normalization gate (3-8 pts CER artifact) (188).",
+  "Plan lacks QARI binding rules: no layout-mix in line-CER stage, no 4-bit recognizer quant (500-502).",
+  "Plan lacks Wilson/McNemar estimator law and n<50 no-winner rule (872-874).",
+  "Plan lacks shaping/raqm gates and U+0620/Mayek script-ratio gates for synthetic renders (170,342,603).",
+  "Plan lacks OldScan ablation protocol (A0-A3, dCER<=-0.03, 40-page slice) and Sarvam OldScan 55.3 vs Bodhan 45.8 comparison (51,948).",
+  "Plan Bodhan figures (Bodhan-HW bench 71.3) not reconciled with ledger Bodhan numbers: sat 68.30, olmOCR 78.8, OmniDocBench 92.17 (592,948-949).",
+  "Plan ignores kill-criteria thresholds and GPU-budget answer still missing (875-878)."
+ ],
+ "contradictions": [
+  "KS-LIT-3M licence: paper CC-BY-4.0 vs HF card cc-by-sa-4.0 (937).",
+  "Odia FT precedent GPU: A100-80GB (378) vs H100 (834); dataset size 58,720 vs 73k (838).",
+  "UTRSet-Real HF copy near-empty (4.21 kB) vs claimed 11k+ lines (90); Odia merged 'Mozhi' license academic vs 10,000+ words.",
+  "Sarvam Vision 2.1 score quoted 87.3 (olmOCR-Bench) and 87.39 (Indic) - distinct benchmarks (949,956)."
+ ],
+ "open_items": [
+  "Repo vs HF parity for 600k-ks (76,646)",
+  "sat router decision (Bodhan sat 68.30)",
+  "BY-SA scope on renders/weights (433)",
+  "IndicCorpV2 or coverage (399)",
+  "CVIT Mozhi mirror licence unresolved (560)",
+  "Operator kill thresholds and GPU budget (875)",
+  "Transliteration gate sample >=95%/500 lines (273)",
+  "Urdu OCR Multi Source Dataset terms (963)",
+  "Hackathon non-commercial status (439)"
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "checked": 34,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "corrected",
+   "correction": "Claim numbers correct but 1,572,864 pages / 25,769,803,776 B total comes from MEMORY_RECLAIM_RESULT.md:81,121,141 (memory_pressure output), not MEMORY_AUDIT.md:40; MEMORY_AUDIT.md:76 itself lists total physical ~1,475,196 pages ~23.0 GB"
+  },
+  {
+   "index": 1,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 2,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 3,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 4,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 5,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 6,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 7,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 8,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 9,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 10,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 11,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 12,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 13,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 14,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 15,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 16,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 17,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 18,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 19,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 20,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 21,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 22,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 23,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 24,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 25,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 26,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 27,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 28,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 29,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 30,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 31,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 32,
+   "verdict": "verified",
+   "correction": null
+  },
+  {
+   "index": 33,
+   "verdict": "verified",
+   "correction": null
+  }
+ ],
+ "missed": [
+  {
+   "theme": "training_compute",
+   "claim": "MEMORY_AUDIT vm_stat totals ~1,475,196 pages (~23.0 GB) vs memory_pressure 1,572,864 pages (24 GB): 24 GB machine with ~9.7 GB reclaimable and only ~272 MB truly free",
+   "numbers": "23.0 GB vs 24 GB",
+   "source": "level2/benchmark/docs/MEMORY_AUDIT.md:76; level2/benchmark/docs/MEMORY_RECLAIM_RESULT.md:81",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "decisions_ops",
+   "claim": "Contrast: leaderboard refresh plans QLoRA on 'M2 Max 32GB unified RAM (peak <=24GB)' but memory audit measures a 24 GB total machine, so the 24 GB peak budget exceeds physical RAM",
+   "numbers": "32GB vs 24GB",
+   "source": "level2/benchmark/docs/LEADERBOARD_REFRESH_2026-09-29.md:155; level2/benchmark/docs/MEMORY_AUDIT.md:76",
+   "status": "CONTRADICTION",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  },
+  {
+   "theme": "training_compute",
+   "claim": "MLX install also downgraded fsspec back to 2024.9.0 for mlx-tune (datasets<4 pin), leaving indicphotoocr still conflicting on 11 other pins (filelock, hf-hub, markupsafe, networkx, numpy, opencv, regex, safetensors, sympy, tqdm, typing-ext)",
+   "numbers": "11",
+   "source": "level2/benchmark/docs/MLX_INSTALL_RESULT.md:266-286",
+   "status": "MEASURED",
+   "date": "2026-09-29",
+   "currency": "current",
+   "superseded_by": null
+  }
+ ]
+}
