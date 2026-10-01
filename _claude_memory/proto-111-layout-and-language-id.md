@@ -6,7 +6,28 @@ metadata:
   type: project
 ---
 
-# PROTO-111 — LAYOUT + LANGUAGE DETECTION (Vinay's priority, 2026-10-01)
+# PROTO-111 — LAYOUT + LANGUAGE DETECTION — STATUS: PROPOSED / ON HOLD (planner self-correction, 2026-10-01)
+
+**HOLD:** I accepted Vinay's line without testing it against our evidence; that was a mistake. Until he answers the clarification questions in §0, this track does NOT displace Track A (handwriting) and does NOT become "first".
+- Only L0 (read-only eval-set building) may run, because it is cheap.
+- L1–L4 wait for his answers.
+
+## 0. Critical review of "first a really good layout + language detection model"
+- **On the test file it moves nothing.** The official test file is 5,344 single handwritten word crops (16/16 viewed are Bengali). A word crop has no layout to detect. Language on one word = its script, and if the set is all Bengali that is a constant. Neither model moves the score on the file we were given. (`TEST_SET_PROFILE.md:35-47`; `W4.md:431`)
+- **We already have a strong Indic layout model and have not measured it.** Bodhan IndicDocLayout: 37 classes, reading order, Indic-trained, on disk. "Add a really good one" before measuring ours is building blind. Our benchmark has no layout ground truth, so nothing can be scored yet.
+- **Same-script language ID is an unsolved research problem** (bn/as/mni; hi/mr/sa/ne/mai/doi/kok/brx). It is a time sink with no published OCR evidence. Distinct-script language ID is nearly free (Unicode ranges).
+- **Where he is right:**
+  - layout + language detection are named official focus areas (jury/product);
+  - Bodhan's page CER 0.69 vs crop 0.054 (O-1) may be a reading-order/layout problem, so layout matters for PAGES;
+  - his own PPT had DocLayout-YOLO + an IndicDLP stage.
+- **Questions for Vinay** (must be answered before L1):
+  1. Does he know the official test file is single handwritten word crops? Or does he know the final evaluation uses full pages or forms?
+  2. Is "first" for the product demo, or for the test submission?
+  3. "Really good" against what? Which dataset and metric (IndicDLP mAP, reading-order accuracy)? Does he have a model in mind?
+  4. Is language ID needed per page, per block or per word, and must it separate same-script languages?
+  5. Can we use IndicDLP / IndicLID (licences), and is a layout fine-tune inside the G-2.5 training gate?
+- **Planner recommendation:** keep Track A (handwriting recogniser) as the score item. Run L0 now. Measure Bodhan layout + Unicode script ID (L1) only after he answers. Build or fine-tune nothing for layout or LID until a measured gap exists.
+
 
 **Vinay (2026-10-01, WhatsApp, PRIMARY via the boss):** "first we need to add a really good layout and language detection model".
 **Planner reading:**
