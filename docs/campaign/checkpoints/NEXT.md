@@ -4,8 +4,8 @@
 - AGENT 2: eval_harness.py + selftest (A3 actions 1–2) → 3 licence rows (AIKosh, STocr bengali.ckpt, PARSeq) → HW0 leak gate (A5 §HW0) → Bodhan unblock + O-1 diagnostic (A2) · proto-109 sync A every round.
 - AGENT 3: D0 truth check of product/ + scripts/ → product CLI (crops → CSV+JSON; pages → JSON+PDF+MD, Bodhan prototype) + requirements/Dockerfile/NOTICE + 50-crop timed run → D4 pitch package (A7-JURY).
 - VIGILANTE: finish proto-110 K0 (manifest + bundle) only, then STOP until after submission.
-- proto-111 ACTIVE as a product-side bake-off (Vinay answered): Agent 3 after its D0 truth check (layout: DocLayout-YOLO vs Bodhan IndicDocLayout; LID: visual script ID → OCR → IndicLID; trocr-indic fallback). Agent 1 stays on Track A. Ask Vinay about the 2L dataset FIRST.
-- 2L DATASET (Vinay: 2 lakh pages, 1 image each): stays on Vinay's server. Step 2L-S1 = profile 1,000 sampled pages there (scripts, printed/HW share, quality, layout, s/page) once SSH exists; then 2L-S2 = 300-page gold eval set. Ask Vinay: labels? languages/doc types? confidentiality? is the final eval drawn from it? are the 5,344 test crops from it?
+- proto-111 ACTIVE as a product-side bake-off (Vinay answered): Agent 3 after its D0 truth check (layout: DocLayout-YOLO vs Bodhan IndicDocLayout; LID: visual script ID → OCR → IndicLID; trocr-indic fallback). Agent 1 stays on Track A.
+- 2L DATASET: all lanes run on the LOCAL data now (`Datasets/akshardrishti_official/`: 5,344 test crops, 10,432 bn/hi/sa/en pairs, per-language PDFs, `Bodo/gu`). Nothing waits on the 2L. One question only to Vinay: is the 2L the source/superset of our local set, and did the 5,344 test crops come from it? See proto-112 UPDATE (corrected).
 - CUT:, proto-110 K1+, proto-107 next waves, Track B per-cell recipes, committees, polish (proto-112 §4).
 - DEFAULT-PROCEED: an unanswered boss decision applies its recommended default after 24 h (never: deletes, spend, Bodhan hosting, push to main).
 - STOP-LOSS: D3 with no GPU and no IIIT data → ship HW1 zero-shot.

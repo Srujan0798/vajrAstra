@@ -138,31 +138,21 @@ The cloud planner saw text files only. `product/` code, `scripts/agent_bootstrap
 
 Evidence: `docs/campaign/final_audit_2026-10-01/A1…A10*.md`. Related: [[proto-108-plan-v4-final]], [[proto-109-github-mac-sync]], [[proto-110-knowledge-canon]], [[proto-111-layout-and-language-id]], [[proto-107-gold-repo-consolidation]].
 
-## UPDATE — Vinay's 2L dataset (2026-10-01, later)
+## UPDATE — Vinay's 2L dataset (2026-10-01, corrected)
 **Vinay (verbatim):** "2 L pages - 1 image per page, We can decide how much to use out of the total docs".
 
-**What this means:**
-- About 200,000 page images.
-- **Storage:** at ~1–3 MB a page that is ~200–600 GB. The Mac has ~12–17 GB free (`MEMORY_AUDIT.md:40-42`). The data must stay on Vinay's GPU server and be processed there, never copied to the Mac or GitHub.
+**Correction (boss error).** The earlier version of this section treated "2L" as new external data that had to stay on Vinay's server. That was wrong. The project already runs on local data on the Mac. The cloud planner only sees synced text, never the images, so it must not reason as if no data exists.
 
-**Still unknown** (decides everything):
-- labels (none / text / layout boxes / language);
-- languages and document types; printed vs handwritten;
-- confidentiality / PII (govt documents?);
-- whether the final evaluation is drawn from these pages;
-- whether the 5,344 test crops come from them (leak risk → extend HW0 to them).
+**Data we already have (local, `Datasets/akshardrishti_official/` + `Datasets/`):**
+- 34,871 files in `Datasets/`; 20,656 in the official set.
+- 5,344 unlabelled handwritten test crops (`test/test/`, Bengali in every crop viewed so far).
+- 10,432 bn/hi/sa/en image + transcription pairs.
+- Per-language PDFs (South PDFs: 0/23,001 clean text).
+- `Bodo/gu` = IIIT-INDIC-HW-WORDS Gujarati (4,645 images).
 
-**Use plan (staged; we decide how much, as he offered):**
-- **2L-S1 profile:** 1,000 pages, stratified random, seed fixed, on the server, read-only.
-  - Script/language mix (Unicode script of Bodhan output + visual script ID), printed vs handwritten share, quality buckets, layout types (Bodhan layout classes), s/page.
-  - Output: `docs/campaign/2L_PROFILE.md`.
-  - This tells us which languages and models matter. It replaces guesswork about the 22 languages.
-- **2L-S2 gold eval:** 300 pages from S1, hand-checked.
-  - Layout boxes + reading order on 100.
-  - Text GT on 200 blocks by machine pre-fill + human correction. Machine output is never GT on its own (B-14).
-  - Eval-only, frozen, hashed.
-  - This becomes the layout/LID bake-off set (proto-111) and the Page Expert test.
-- **2L-S3 training** (only if labels exist or after S2; after the training gate):
-  - if text labels exist → Bodhan LoRA on a page-disjoint split;
-  - if unlabelled → label-free adaptation (iterative pseudo-labels, IIIT-H ICVGIP 2025: Hindi 92% / Kannada 93% WRR on degraded print), with an S2 check every round.
-- **Leak rule:** S2 pages and the 5,344 test crops are never in any training split; HW0 hashes are run against them.
+**Rule:** all lanes (HW-ID, HW0, HW1, HW2, Bodhan O-1, proto-111 bake-off) run on this local data now. Nothing waits on the 2L.
+
+**The only open question about the 2L (one line to Vinay):** is it the full source corpus our local official set was sampled from, or a different, bigger pool? And did the 5,344 test crops come from it?
+- **Same corpus / superset:** treat the local set as the working sample. Pull more pages only for languages or doc types where local data is thin. Extend the HW0 leak check to anything pulled.
+- **Different pool:** profile a small stratified sample (≈1,000 pages: script mix, printed/HW share, quality, layout) before using it for anything.
+- Either way, the 5,344 test crops and any frozen eval set never enter training.
