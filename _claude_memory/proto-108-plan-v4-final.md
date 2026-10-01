@@ -349,7 +349,7 @@ metadata:
 - **U-HW3 / G-2.5:** run the multi-LLM evaluation of this plan, then the Vinay session; set the HW2 GPU-hour cap.
 - **U-TESS:** indic-ocr sat/mni pack (~4.4 MB) + `ben` tessdata — recommend YES.
 - **U-ORG:** ask Vinay whether to email gic.dibd@gmail.com about metric/format/deadline.
-- **Carried:** O-2 (the 12 Sarvam outputs: read-only retrieval, never resubmit), O-3 (GPU SSH), GO-A/GO-D/GO-G (proto-107), U14/U27/U28 (surya / 600K-KS / Bodhan hosting).
+- **Carried:** O-2 (the 12 South Sarvam outputs were lost with the old key; a re-run of about ₹6 only on the boss's yes), O-3 (GPU SSH), GO-A/GO-D/GO-G (proto-107), U14/U27/U28 (surya / 600K-KS / Bodhan hosting).
 
 ## 12. Paste lines (one per agent)
 1. **Agent 1:** `Read proto-108 (rev 2, top section). Now, read-only, no downloads/training: HW-ID — vision-check a stratified sample of >=300 of the 5,344 official test crops (>=10 per ID bucket), record script / single-word vs multi-word / quality per image in level2/benchmark/docs/HW_ID_AUDIT.md with the image IDs; then HW1 on what is local: IndicPhotoOCR bengali PARSeq + Bodhan handwriting mode on 200 viewed official crops (outputs + s/word only, no accuracy claims). Report the AIKosh URL + size for IIIT-INDIC-HW-WORDS Bengali. Log every step with its command in W4.md.`
@@ -597,7 +597,7 @@ Pre-registered kills:
 
 Related: [[proto-104-project-first-critical-path]], [[proto-89-plan-v3-bodhan-base]], [[proto-105-consensus-results-to-decisions]], [[proto-100-research-to-build]], [[proto-107-gold-repo-consolidation]], [[proto-103-meeting2-verbatim-truth-and-application]], [[boss-rules]]
 
-## Artifacts (published 2026-10-01 ~16:15 IST)
+## Artifacts (published 2026-10-01 ~16:15 IST; both Docs updated to rev 2 by the cloud planner — Plan v4 doc rev 16, showcase rev 30)
 - Showcase for Vinay (the previous plan Doc, rebuilt + renamed): https://claude.ai/artifact/Fn257YXfs4RD5htjZMUR3i — "AksharDrishti by Vaultstack — Project Showcase"
 - Plan v4 (separate Doc): https://claude.ai/artifact/X3Bg1Mg58pPzrB6AcGEan9 — "AksharDrishti — Plan v4 (final)"
 - The 3-hour integration loop (boss order) refreshes both from agents' results: HW1 numbers, HW0 overlap, licence checks, proto-107 gold facts.
