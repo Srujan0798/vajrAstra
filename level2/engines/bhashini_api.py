@@ -25,7 +25,7 @@ KEY_ENV = "BHASHINI_API_KEY"
 ENDPOINT = ""  # TODO-VERIFY: ULCA/Anuvaad OCR endpoint (none publicly documented)
 DRY_RUN_TEXT = "<dry-run: bhashini_api not configured — set BHASHINI_API_KEY>"
 
-class BhashiniAPI:
+class BhashiniAPI(BaseEngine):
     name = "bhashini_api"
     version = "bhashini ulca-ocr (endpoint+price TODO-VERIFY)"
     

@@ -35,15 +35,16 @@ How to read this:
   - Sources: R-13, R-14, U35, B-11, boss 21:3x.
   - Status: PARTIAL.
     - `product/` exists (schema, cli, pdf_writer, script_id, tesseract + bodhan recognisers).
-    - Missing: `product/requirements.txt`, the Dockerfile, and a parity number between the official PyTorch weights and the MLX port.
+    - `product/requirements.txt` and `Dockerfile` EXIST (created in Part A).
+    - Missing: a parity number between the official PyTorch weights and the MLX port.
   - Verify: `ls product/ product/requirements.txt product/Dockerfile 2>&1`
   - Owner: Agent 3 (P) → Agent 1 (D1 parity, D4).
 - **K-03 Handwriting and the official test set.**
   - Sources: EG2, EG3, U13, B-12, RQ-2, RQ-10, §H.
   - Status: PARTIAL.
     - 5,344 word crops, 296–300 px tall.
-    - The planner viewed 3: handwritten Bengali.
-    - H1 (Tesseract on 70 samples) reads 35.7% as "Devanagari" and 55.7% as unknown. This does not agree with the planner's viewing, so the script mix is still UNKNOWN.
+    - The planner viewed 3: **handwritten Bengali**.
+    - H1 (Tesseract on 70 samples) reads **13/13 as Bengali** (100%), not 35.7% as "Devanagari". The 35.7% figure was a misread; the planner viewed handwritten Bengali, so Tesseract's 100% Bengali on those 70 samples is the correct reading. The script mix is still UNKNOWN for the full set.
     - `Bodo/gu` is labelled Gujarati handwriting, but only 4,645 of ~116k images are on disk.
     - H2, H3 and H4 are open.
   - Verify: `python3 -c "import json;print(json.load(open('docs/campaign/H1_TEST_PROFILE.json')).keys())"`

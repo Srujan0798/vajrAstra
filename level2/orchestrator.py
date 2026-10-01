@@ -65,6 +65,75 @@ def running(engine: str) -> bool:
     return f"--engine {engine}" in out
 
 
+_PID_DEDUP_FILE = L2 / "logs_active" / "ACTIVE_SPAWNS.json"
+
+
+def _active_pids() -> dict[str, list[int]]:
+    """Read the set of currently-tracked engine PIDs from disk (one JSON file)."""
+    if not _PID_DEDUP_FILE.exists():
+        return {}
+    try:
+        return json.loads(_PID_DEDUP_FILE.read_text())
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def _save_active_pids(pids: dict[str, list[int]]) -> None:
+    _PID_DEDUP_FILE.parent.mkdir(exist_ok=True)
+    _PID_DEDUP_FILE.write_text(json.dumps(pids, indent=1), encoding="utf-8")
+
+
+def _live_pids(engine: str) -> list[int]:
+    """Return the PIDs of live processes for `engine` (cmd-line contains --engine X)."""
+    out = subprocess.run(["ps", "-axo", "pid=,command="], capture_output=True, text=True).stdout
+    pids: list[int] = []
+    needle = f"--engine {engine}"
+    for ln in out.splitlines():
+        if needle in ln and "grep" not in ln:
+            try:
+                pids.append(int(ln.split()[0]))
+            except (ValueError, IndexError):
+                pass
+    return pids
+
+
+def pid_already_spawned(engine: str) -> bool:
+    """Dedup guard (added 2026-09-28 orchestrator): if any tracked PID for this
+    engine is still alive, do NOT spawn another copy. Engine never needs
+    two concurrent runs; that is the surya auto-restart bug.
+    """
+    tracked = _active_pids().get(engine, [])
+    if not tracked:
+        return False
+    live_now = _live_pids(engine)
+    if not live_now:
+        return False
+    return any(pids in live_now for pids in tracked)
+
+
+def prune_dead_pids() -> int:
+    """Remove PIDs from the tracking file whose processes no longer exist.
+    Called by cmd_loop/cmd_autoloop on every tick — keeps the file lean.
+    """
+    if not _PID_DEDUP_FILE.exists():
+        return 0
+    active = _active_pids()
+    if not active:
+        return 0
+    removed = 0
+    for engine in list(active.keys()):
+        live = set(_live_pids(engine))
+        kept = [p for p in active[engine] if p in live]
+        removed += len(active[engine]) - len(kept)
+        if kept:
+            active[engine] = kept
+        else:
+            del active[engine]
+    if removed:
+        _save_active_pids(active)
+    return removed
+
+
 def engine_python(engine: str) -> Path:
     return PY314 if engine in PY314_ENGINES else PY311
 
@@ -124,6 +193,12 @@ def cmd_fill() -> None:
             continue
         if spawn_guard_active(e):
             continue
+        # PID dedup (2026-09-28 orchestrator): if a tracked PID for this engine
+        # is still alive, skip — prevents the surya auto-restart respawn loop
+        # that previously leaked PIDs 99725 / 18709 and burned CPU.
+        if pid_already_spawned(e):
+            print(f"PID-DEDUP {e}: tracked PID still alive, skipping respawn")
+            continue
         if e == "paddleocr_indic":
             for lang in ["te", "ta", "kn", "ml"]:
                 have = len(list((OUT / e / lang).glob("*.json")))
@@ -136,6 +211,7 @@ def cmd_fill() -> None:
         return
     if not fill_guards_ok(len(spawn)):
         return
+    active = _active_pids()
     for e, args in spawn:
         LOGS.mkdir(exist_ok=True)
         log = LOGS / f"orch_{e}_{time.strftime('%H%M%S')}.log"
@@ -143,14 +219,17 @@ def cmd_fill() -> None:
         if e == "surya":
             env["SURYA_GUIDED_LAYOUT"] = "false"  # llama-server grammar 400 fix
         with open(log, "w") as fh:
-            subprocess.Popen(
+            proc = subprocess.Popen(
                 [str(engine_python(e)), str(L2 / "run_engine.py"), *args],
                 stdout=fh,
                 stderr=subprocess.STDOUT,
                 cwd=str(ROOT),
                 env=env,
             )
-        print(f"spawned {e}: py={engine_python(e).parent.parent.name} log={log.name}")
+        # Track the new PID so cmd_fill can dedup future ticks.
+        active.setdefault(e, []).append(proc.pid)
+        _save_active_pids(active)
+        print(f"spawned {e}: pid={proc.pid} py={engine_python(e).parent.parent.name} log={log.name}")
 
 
 def cmd_migrate(replace: bool = False) -> None:
@@ -382,6 +461,7 @@ def cmd_report() -> None:
 
 def refresh_chain() -> None:
     """One full disk-truth refresh: stall-kill -> fill -> migrate -> report.py -> dashboard -> archive."""
+    prune_dead_pids()
     stall_kill()
     cmd_fill()
     time.sleep(60)

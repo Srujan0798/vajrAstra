@@ -19,6 +19,19 @@ Beat **Sarvam Vision 2.1** on Indic OCR across **22 Indian languages**, honestly
 
 **Our rule: no claim without its n.** At n=3 per language, nothing is a win.
 
+
+## Gate 1 — CONDITIONAL PASS (Bodhan base, MLX 4-bit + bf16 on disk)
+
+| Run | n | 4-bit CER | bf16 CER | Notes |
+|---|---|---|---|---|
+| sample-100 (same 99) | 99 | 0.6878 | 0.6863 | delta 0.0015 — B-01 PASS |
+| pair-only (300 gold) | 300 | 0.4034 | 0.4010 | beats surya 0.5660 |
+| bench small_rep | 1173 | 0.0540 (WER 0.1356) | — | official metrics.py; 0.52 s/crop |
+| official-path | 99 | — | — | vendor assert; parity waits GPU day |
+
+SSOT: `DISPATCH_LOG.md` §36. Variants on disk at `level2/models_bodhan/`: official (1.8 GB), MLX 4-bit (633 MB), MLX bf16 (1.7 GB). All Apache-2.0.
+
+
 ## 2. How an OCR model is trained — the flowchart (≈150 words)
 
 You asked for this first. Full version with every node's source line: `MENTOR_PLAYBOOK.md` §2.
@@ -125,6 +138,14 @@ Six items, each with a source opened on 2026-09-29. Full detail in `COMPETITOR_I
 5. **GlotOCR Bench (LMU/TU Munich)** — makes cross-script hallucination a headline metric and reports a **font-coverage effect**: low-resource tiers carry a median of **1 font per family** *(figure from the search excerpt, not re-read from the paper full text this run — UNVERIFIED)*, and the paper attributes low-tier failure to *pretraining coverage* of those scripts, **not** to font availability. Our machine has **1 Ol Chiki and 10 Meetei Mayek fonts (fc-list; macOS Supplemental)**, so the font count is *our* constraint, not their conclusion — the analogy is suggestive, not evidential. *Usable now, and this is the weakest link in §6.*
 6. **An Indic Tesseract traineddata pack including Ol Chiki and Meetei Mayek** exists (`github.com/indic-ocr/indic-ocr.github.io`), ~2–4 MB, no training. *Project README states the pack includes Ol Chiki + Meetei Mayek traineddata; licence still UNVERIFIED (boss decision). Needs your download approval.*
 
+7. **OCR-specialised base + LoRA beats generic VLM (Consensus Q1)** — in Indic print, same-language pretraining gave 92% WRR vs cross-lingual 51% vs scratch 6% (Faraz 2026 Chitrapathak-2; Manna 2025). Decision unchanged: Bodhan base + LoRA per language.
+8. **4-bit LoRA "often preserves gains" but with caveats** — QARI arXiv 2506.02295 used optional 4-bit; Elkousy 2026 4-bit Qwen2.5-VL −29% CER on Arabic print. Few controlled 4-bit vs 8-bit OCR ablations exist. CONTRADICTION-CHECK against proto-100 B-01 (no 4-bit for ks/ur/sd); B-01 stays until Day 1's measured 4-bit vs bf16 per script decides it.
+9. **Synthetic + real transfers better than synthetic alone** — Baseer 300k synthetic + 200k real; Singh 2026 shows real scans collapse 9/10 systems (EasyOCR chrF++ 93.6 → 58.3). Day 2 data must include real scans.
+10. **Layout + reading order strong** (Consensus Q3) — IndicDLP arXiv 2512.20236, dots.ocr arXiv 2512.02498. Justifies Bodhan's layout + reading-order stage.
+11. **LM post-OCR correction strong** — Bhandari 2026: hi 10.20→6.73, gu 6.10→1.39, mr 8.19→3.29 CER; Sanskrit +23 points (Maheshwari 2022). NEW build candidate B-18: post-correction on Bodhan's own errors (leak-free).
+12. **Handwriting: PARSeq-style transfer strongest across 10 Indic languages** (Consensus Q2) — Lalitha 2025; ICDAR 2023 Indic HTR winner 95.94% CRR / 88.31% WRR (Mondal 2023). Handwriting is now central (proto-104 rev 3 §H).
+13. **Best CERs for hard cases** — Urdu printed Nastaliq 0.91% (Nasir 2024); Urdu handwritten 5.27% (Hamza 2024); Hindi handwritten 2.14% (Kumar 2026); degraded Sanskrit print 3.71% (Dwivedi 2020). **Kashmiri Nastaliq: no CER paper** — our own measurement is the reference (B-03).
+
 **Deliberately not a priority: Unicode normalisation.** NFC vs NFKC differs in form on 564 of 12,324 strings but produces **0 exact-match flips**. Do not spend five days there.
 
 ## 5. Proposed hybrid integration vs your PPT (≈350 words)
@@ -146,6 +167,45 @@ Your PPT (4 stages): OpenCV → DocLayout-YOLO → parallel SFT of TrOCR + Qwen-
 **One commercial fact before you choose an engine (question 12).** Our best engine is **surya 0.22.1**, and its package contradicts itself: the dist-info METADATA says **Apache-2.0**, while the LICENSE text is a **modified AI Pubs OpenRAIL-M** — *"free for research, personal use, and startups under $5M funding/revenue"* (`docs/legal/LICENSE_AUDIT.md:21`). That is a business decision, not an engineering one, and it is the only licence question in the stack that is not clean.
 
 **Backbone (U4, unresolved conflict).** The feed locks **Qwen2.5-VL-3B @4-bit** as PRIMARY (`W6_QLORA_SPEC.md:53`); GLM-OCR 0.9B is ALTERNATE 2. **No candidate weights are on disk.** On GLM-OCR's OmniDocBench v1.6 presence our two reviewers **disagree** (one says the table omits it, one found it at 94.71, rank 3) — tagged **CONTRADICTION / UNKNOWN** pending a source check. Either way the GLM-OCR recommendation is not evidence-backed yet. Recommend Qwen2.5-VL-3B on the strength of the lock, with the note that it costs a download.
+
+
+
+## 5.1 Plan v3 additions — Gate 1 numbers, Day-2 leak-free data, RF-21..37 pointers
+
+### Gate 1 — CONDITIONAL PASS (Bodhan base, MLX 4-bit + bf16 on disk)
+
+| Run | n | 4-bit CER | bf16 CER | Notes |
+|---|---|---|---|---|
+| sample-100 (same 99) | 99 | 0.6878 | 0.6863 | delta 0.0015 — B-01 PASS |
+| pair-only (300 gold) | 300 | 0.4034 | 0.4010 | beats surya 0.5660 |
+| bench small_rep | 1173 | 0.0540 (WER 0.1356) | — | official metrics.py; 0.52 s/crop |
+| official-path | 99 | — | — | vendor assert; parity waits GPU day |
+
+SSOT:  §36. Variants on disk at : official (1.8 GB), MLX 4-bit (633 MB), MLX bf16 (1.7 GB). All Apache-2.0.
+
+### Day-2 leak-free data
+
+**Rule:** a writer/page must never appear in both train and eval. Split-by-source-document (proto-89 §R-65). Hold out 10% of documents per language as eval. Sarvam's bn/hi/sa + Korean (the 300 gold pairs) serve as the external test set the training never saw.
+
+### RF-21..37 pointers (from Consensus processing)
+
+- **RF-21** C1-1: OCR-specialised base + LoRA beats generic VLM — supports Bodhan choice.
+- **RF-22** C1-2: 4-bit LoRA caveats — CONTRADICTION-CHECK on B-01; measure first.
+- **RF-23** C1-3: synthetic + real transfers better — Day-2 data must include real scans.
+- **RF-24** C1-4: 100–1,000 labelled lines help cross-script transfer — Day-3 picks target languages with ≥ a few hundred real lines/words.
+- **RF-25** C1-5: RLVR/GRPO — moderate; keep RL last and optional.
+- **RF-26** C1-6: hard-example mining — weak; do not build.
+- **RF-27** C1-7: cleaning labels improves CER by up to 1.8 pts — run proto-65 GT-defect checks before Day 3.
+- **RF-28** C1-8: competitors to add — Chitrapathak-2, LightOnOCR-2-1B, HunyuanOCR-1.5, GlotOCR Bench, Qwen3-VL-8B.
+- **RF-29** C1-9: Kashmiri synthetic — licence check for B-03; 600K-KS stays HOLD.
+- **RF-30** C2-1..3: best CERs + Hindi/Urdu handwritten + no literature baseline for sat/mni/or.
+- **RF-31** C2-4..5: tables/forms + restoration — B-06 gated pre-pass.
+- **RF-32** C3-1: layout + reading order strong — justifies Bodhan layout stage.
+- **RF-33** C3-2: LM post-OCR correction strong — NEW build candidate B-18.
+- **RF-34** C3-3: multi-engine fusion — agreement flag only.
+- **RF-35** C3-4: same-script language ID — IndicLID on recognised text.
+- **RF-36** C3-5: structured output — our schema (B-11) is fine.
+- **RF-37** C3-6/7: fair evaluation + Tamil refs.
 
 ## 6. Our edge (≈250 words)
 

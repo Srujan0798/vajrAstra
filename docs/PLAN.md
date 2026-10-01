@@ -27,3 +27,5 @@
 ## Do not do
 
 Rerun South 400 to chase empty%. Invent a backbone. Train. Collect 400-page remaining-language dumps. Paid Level-3 keys before W5.
+
+## Plan v3 draft (current) → see `docs/campaign/DRAFT_RESEARCH_PLAN.md` (Gate 1 numbers + RF-21..37 pointers added). This file (`docs/PLAN.md`) is the stale 09-26 list of next-work; do not execute from it.

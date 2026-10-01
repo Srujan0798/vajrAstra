@@ -1,36 +1,16 @@
-# South Indic OCR Project
+# vajrAstra — AksharDrishti Indic OCR (22 languages + English)
 
-## Current Status (2026-09-30)
-- **Phase**: proto-102 Incident Repair (A2-A3 in progress)
-- **Gate**: Waiting for "A9 PASS" in W4.md before resuming proto-101
-- **Agent 3**: Paused, read-only until "A9 PASS" in W4.md
+The boss (Srujan) owns every language, solo. AI agents do the work; the planner writes the plan.
 
-## Project Structure
-- `level2/benchmark/` - 22-language benchmark (probe22 moved here)
-- `level2/engine_docs/` - Engine documentation (PROMPT.md, RUN.md, metrics.json)
-- `level2/benchmark/` - 22-language benchmark tree
-- `level2/out/` - South v1 packs (SEALED, 4001 files)
-- `level2/reports/` - SEALED (archived)
-- `level2/probe22/out/` - SEALED (13,289 files)
-- `arc_level_1/` - SEALED (413 files)
-- `Datasets/akshardrishti_official/` - SEALED (34,871 files)
+## Goal
+Beat Sarvam Vision 2.1 (87.39 Word Accuracy) and Bodhan (84.94) on one fair 22-language benchmark, with a portable product (PyTorch / CUDA / CPU; MLX is a Mac-only accelerator and never a dependency).
 
-## Key Documents
-- `VINAY_MEETING_PACKET.md` - Tomorrow's meeting packet
-- `LIVE_LATEST_2026-09-29.md` - 41 live research sources
-- `PAPERTHIN_AUDIT.md` - 8 mandela findings
-- `LOOP_SPEC_W5_W6_W7.md` - Loop design
-- `docs/research/W6_STRATEGY_UNIFIED.md` - Unified W6 strategy
-- `OCR_AGENT_MEMORY_FEED.md` - Master memory (1,600+ lines)
-- `FULL TECHNICAL BRIEFING.md` - Master briefing (Part I-IV)
+## Where to go
+- **Agents:** start at [AGENTS.md](AGENTS.md).
+- **Everything else:** [docs/INDEX.md](docs/INDEX.md) is the one map of the repo.
+- **The plan:** `docs/campaign/protocols/proto-104-project-first-critical-path.md` (rev 4).
+- **Today's step per agent:** `docs/campaign/checkpoints/NEXT.md`.
+- **Benchmark law:** [level2/ULTIMATE_HYBRID_CONCERN.md](level2/ULTIMATE_HYBRID_CONCERN.md) (HL1–HL12).
 
-## Gate Status
-- **A9 PASS**: NOT YET (waiting on Agent 2)
-- **Agent 3**: Paused, read-only until "A9 PASS" in W4.md
-
-## Key Links
-- `VINAY_MEETING_PACKET.md` - Tomorrow's meeting packet
-- `LIVE_LATEST_2026-09-29.md` - Live research (41 sources)
-- `PAPERTHIN_AUDIT.md` - 8 mandela findings
-- `LOOP_SPEC_W5_W6_W7.md` - Loop design
-- `W6_STRATEGY_UNIFIED.md` - Unified W6 strategy
+## Status
+Status is never written here. It lives in `docs/campaign/checkpoints/W4.md` and `DISPATCH_LOG.md`, each with a command that reproduces it.

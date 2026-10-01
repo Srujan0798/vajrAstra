@@ -7,6 +7,8 @@ metadata:
   originSessionId: 8e7ec69e-22b6-4702-a989-3397b9a99c1e
 ---
 
+> **2026-10-01 ~15:45 — STRATEGY = PLAN V4 ([[proto-108-plan-v4-final]]).** This file stays the execution order; add steps HW0–HW3, P1, R1, E1 from proto-108 §5; the handwriting expert is now the lead track.
+
 # PROTO-104 (rev 4) — THE ONE PLAN: finish it, win it, ship it portable
 
 **Understood as (readchk, 2026-09-30 ~21:40):** the boss wants the other session's final plans (verdict, handoff v2, the Mac overnight plan) folded into OUR plan — not a switch to its A0–A10 roster. His 3 agents do all labour; the planner writes protocols; no subagents; no team mates. The product must beat all competitors and run anywhere, not only on this Mac.

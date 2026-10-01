@@ -17,6 +17,59 @@ metadata:
 - Items that stay ambiguous are marked **U** (unattributed).
 - Everything outside the RAW block — the D1–D7 / A1–A7 tables, timeline and red lines — is **DERIVED** by an agent and is not evidence.
 
+## §0 — EVERY MEETING AND LEAD MESSAGE IN ONE PLACE (merged 2026-09-30 night by the planner; newest last)
+Evidence tag per item. Quotes to Vinay may only come from rows marked PRIMARY.
+
+- **2026-09-09 — WhatsApp, Vinay ↔ Srujan** (PRIMARY: `SOUTH_CANON.md` §C)
+  - Vinay: "first focus on how to label the dataset we already have"; "I will share the whole dataset."
+  - Srujan: labelling lands on proprietary govt/exam scans; the PDF text layer is free GT; asked for 20–30 sample pages.
+  - Still binding: SOUTH_CANON §J "Messages already sent — do not contradict".
+- **2026-09-10 — sync call "sync - ocr - September 10"** (PRIMARY)
+  - Sources: `SOUTH_CANON.md` §D; the docx at `_archive/cleanup_2026-09-28/root_clutter/sync - ocr - September 10.docx`; the Google doc linked in SOUTH_CANON §D.
+  - The proposal and team logistics: repo, language sheet, data sharing, the Saturday David call, 20-sample sets. Historical: the team lanes were dropped by R-9.
+  - Method principles (still binding): one page = one sample; our own benchmark on our own data; lab-style records (B-15); free-tier APIs for labelling proposals, never as GT (B-14 ruling).
+  - Vinay: "Anyhow, we have our own GPU resources. So we'll be able to do that." (F72)
+- **2026-09-16 — the Level-2 results package sent to Vinay's team** (PRIMARY: `level2/upload_sept16/` in git history, commit 8fec177)
+  - Not a meeting, but a team-facing claim set. Claims:
+    - 10 engines × 400 South pages;
+    - GAP 7.1% (lower bound);
+    - tied leaders surya + anuvaad (CER 0.43 / 0.48);
+    - Sarvam "≈ ₹100 for our 400 pages".
+  - Correction owed (K-29):
+    - 26 of the 126 CER pages carry legacy-font GT;
+    - the South v1 standard is retired;
+    - the "₹100" figure was the free credit, not the price (₹0.5/page).
+  - Quote the correction only after Agent 2 reproduces it.
+- **2026-09-25 — voice meeting + research pass** (DERIVED: `OCR_AGENT_MEMORY_FEED.md` lines 6, 29; no raw transcript found)
+  - The feed says it "locked the next process: research again → 22-language probe → hybrid plan vs PPT → 15–20 min human session → freeze → train".
+  - Probe size lock: 100 samples per language (the user amended it from 20 on 2026-09-26).
+  - **CONTRADICTION (planner, 2026-09-30):** that process is exactly the Sep 29 transcript's content (L1, L7, L12, L14).
+    - Either the process was stated twice, or the feed's "2026-09-25" is the wrong date for Meeting 2.
+    - Agent 2 checks the transcript's own metadata (the file date of `MEETING_2026-09-29_STRUCTURED.md`'s RAW block source) before anyone cites a date.
+- **2026-09-29 — Meeting 2 (Vinay + Srujan)** (PRIMARY: the RAW block of `docs/research/MEETING_2026-09-29_STRUCTURED.md`; full verbatim table in §1 below)
+  - Lead: L1–L14. Research → draft plan → multi-LLM evaluation by the process → 15–20 min cross-question session → execute. Cover all 22 languages. His PPT recipe stands unless something better is shown.
+  - Boss: S1–S5. AI-first team (S2); hybrid integration of existing models (S5), accepted by the lead.
+  - Red line from the lead (L10/L12): no training before the research and the session.
+  - Not said in the meeting (M1–M10): "no novel backbone", "H44–H48", a "deck", "decisions locked".
+- **2026-09-30 — the boss's decisions** (PRIMARY: proto-92 DECIDED rows; proto-104 rulings)
+  - Decided: U1 (Wednesday = 09-30; WhatsApp any time), U3 archive src/tests/configs, U6 re-verify mni/sat, U7 sat/mni tessdata, U9 sheet_v2, U10 level2 restructure, U11 South re-run, U23 Bodhan both builds, U24 full Sarvam bench, U26 HF MCP, U29 deletion rule, U30 Laya not used, U31 Laya triage trial, U32 official tree, U35 product scope, U37 delete guard.
+  - D-a: 12 South Sarvam calls.
+  - Rulings R-1…R-15: South from the Sarvam-bench fill; no team mates; portable product; bench fairness; night-run rules.
+  - The boss, 21:0x: "forget about team mates, we are the ones doing all".
+- **2026-09-30 — Vinay's 4 answers** (DERIVED: relayed second-hand through the vajrAstra cloud session handoff; the boss pasted them there)
+  1. SSH access to a 24 GB VRAM GPU (arriving 2026-10-01).
+  2. "no clear communication from them… expect 10 days". The subject is unconfirmed; the cloud session assumed Bhashini/ULCA access or results.
+  3. "yes, we are a registered company" → sign-ups and the Bodhan §3.1 approval route go through it.
+  4. A call on the morning of 2026-10-01; the boss sent the time.
+- **Next meeting — the call on 2026-10-01 morning.** The agenda goes into the Plan v3 draft (step G):
+  - the Plan v3 flowchart + per-stage table (L3, L5, L10);
+  - the 22-language benchmark with South merged (L7, L13);
+  - handwriting as the official test set's centre;
+  - GPU data rules;
+  - Sarvam on free credit;
+  - the Sep-16 correction (if Agent 2 has reproduced it);
+  - the 15–20 min cross-question slot (L12) before any training.
+
 ## 1. What was said — verbatim, by speaker
 **Lead (Vinay Gahlot):**
 | ID | Verbatim (shortened with …, never reworded) | Meaning |

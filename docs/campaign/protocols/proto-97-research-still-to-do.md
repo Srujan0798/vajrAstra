@@ -149,3 +149,17 @@ metadata:
 **Done when:** every RQ has a RESEARCH_DECISIONS row (an answer or UNKNOWN), and the decision it names is updated or sent to the boss as a U# row.
 
 Related: [[proto-95-research-harvest-decisions]], [[proto-89-plan-v3-bodhan-base]], [[proto-92-boss-decisions]], [[proto-81-handwriting-degraded-coverage]], [[proto-83-licence-verification]]
+
+
+## STATUS 2026-09-30 ~23:00 IST (planner; proto-104 rev 4 is the order)
+- **RQ-1 rules — DONE** (F69: no metric published; jury = product criteria).
+- **RQ-2 test-set profile — MOVED to step H1.** OPEN: H1's Tesseract says 35.7% Devanagari; the planner viewed Bengali handwriting (F73). Resolve with a vision check of a stratified sample, not Tesseract.
+- **RQ-3 Bodhan details — DONE on paper** (proto-104 §1); blocked on HF access for weights (F80).
+- **RQ-4 Kashmiri, RQ-5 Santali/Manipuri — OPEN** (before D-steps; bench has ks 262 · sat 274 · mni 207).
+- **RQ-6 degraded — OPEN, conditional** on H1.
+- **RQ-7 bench parity — DONE** (F77).
+- **RQ-8 language ID — OPEN, conditional.**
+- **RQ-9 licences — DONE** (bench Apache-2.0; Bodhan per proto-104).
+- **RQ-10 handwriting data — TRIGGERED** (the test set is handwritten words; Bodo/gu IIIT-HW on disk F74) → proto-100 B-19.
+- **RQ-11 oracle gap — OPEN**, before Day 4.
+- **RQ-12 Consensus — RUN DONE**; processing = [[proto-105-consensus-results-to-decisions]] (open, Agent 2).

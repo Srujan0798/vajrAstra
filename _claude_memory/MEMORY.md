@@ -1,7 +1,9 @@
 # Memory Index — AksharDrishti / Vaultstack OCR (all 22 languages + English; the boss owns all, solo)
 
 ## START HERE
-- [Concern ledger (cloud session)](concern-ledger-cloud-session-2026-09-30.md) — every boss message 2026-09-30 → raw line → meaning → my response → steps → status; open list at the end
+- [HANDOFF 2026-10-01 17:45 — REAL Plan v4 from ALL research](handoff-2026-10-01-v4-integration.md) — READ FIRST: boss says v4 + docs are thin; ready Sonnet-only workflow over 320 files (docs/campaign/handoff_2026-10-01_v4_integration/), what is read, what the real plan must integrate
+- [PLAN V4 — FINAL STRATEGY](proto-108-plan-v4-final.md) — 2026-10-01: test = 5,344 Bengali HANDWRITTEN words; Handwriting Expert (PARSeq from local IndicPhotoOCR ckpts + IIIT-INDIC-HW-WORDS CC-BY; ICDAR'23 bn 96.10 WRR vs Sarvam 58.3 HW) + Page Expert (Bodhan ≈86.4); leak gates; boss U-HW1..4; paste lines
+- [24K GOLD repo consolidation](proto-107-gold-repo-consolidation.md) — 2026-10-01: measured repo (203,380 files: envs/data vs ~2,000 authored), NO-LOSS fact-ledger law, waves W0–W9 with 30–40 subagents (read-only) + ONE executor, hazards H-1…H-6, boss GO-A/D/G, paste lines
 - [PLANNER CLOSE-OUT 2026-09-30 24:00](handoff-2026-10-01-planner-close.md) — READ FIRST: done, where it lives, running agents, triggers T1–T7, boss actions, open flags
 - [PLANNER HANDOFF 2026-09-30](handoff-2026-09-30-planner.md) — state, agents, next steps. Memory merge B + C is DONE (2026-09-30 ~23:15, cloud planner); read the lines below for where each merged file now lives
 - [PROJECT FIRST rev 4](proto-104-project-first-critical-path.md) — THE order: R → S → H → D1 → X → C → G → GPU → D2–D5; rulings R-1…R-15; Appendix A = old proto-65/71/75/76/78/80/81/82 verbatim + step Q (GT_DEFECTS.md before D2)
