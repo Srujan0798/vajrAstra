@@ -1,6 +1,7 @@
 # Memory Index — AksharDrishti / Vaultstack OCR (all 22 languages + English; the boss owns all, solo)
 
 ## START HERE
+- [GitHub ⇄ Mac sync](proto-109-github-mac-sync.md) — two-way sync via boss/campaign-docs: Mac→GitHub text snapshot (secret guard), GitHub→Mac path-scoped checkout; Agent 2 every round
 - [PLAN V4 rev 2 (INTEGRATED)](proto-108-plan-v4-final.md) — THE strategy, built from the full 320-file corpus pass; three tracks (handwriting / printed 22-lang / product & jury), kill table, licence ledger, paste lines §12
 - [HANDOFF 2026-10-01 17:45 — REAL Plan v4 from ALL research](handoff-2026-10-01-v4-integration.md) — READ FIRST: boss says v4 + docs are thin; ready Sonnet-only workflow over 320 files (docs/campaign/handoff_2026-10-01_v4_integration/), what is read, what the real plan must integrate
 - [PLAN V4 — FINAL STRATEGY](proto-108-plan-v4-final.md) — 2026-10-01: test = 5,344 Bengali HANDWRITTEN words; Handwriting Expert (PARSeq from local IndicPhotoOCR ckpts + IIIT-INDIC-HW-WORDS CC-BY; ICDAR'23 bn 96.10 WRR vs Sarvam 58.3 HW) + Page Expert (Bodhan ≈86.4); leak gates; boss U-HW1..4; paste lines
