@@ -1,6 +1,7 @@
 # Memory Index — AksharDrishti / Vaultstack OCR (all 22 languages + English; the boss owns all, solo)
 
 ## START HERE
+- [LAYOUT + LANGUAGE ID (Vinay priority)](proto-111-layout-and-language-id.md) — Track L: Bodhan IndicDocLayout vs IndicDLP challengers; two-level LID (image script-ID + text LID); eval sets L0, baselines L1, gates; no training before G-2.5
 - [KNOWLEDGE CANON (Vigilante)](proto-110-knowledge-canon.md) — one numbered hierarchy docs/knowledge/ + 00_CANON_MAP; every knowledge file LIVE/MERGED/LINKED/HISTORY with no-loss proof; waves K0–K8; never delete
 - [GitHub ⇄ Mac sync](proto-109-github-mac-sync.md) — two-way sync via boss/campaign-docs: Mac→GitHub text snapshot (secret guard), GitHub→Mac path-scoped checkout; Agent 2 every round
 - [PLAN V4 rev 2 (INTEGRATED)](proto-108-plan-v4-final.md) — THE strategy, built from the full 320-file corpus pass; three tracks (handwriting / printed 22-lang / product & jury), kill table, licence ledger, paste lines §12
