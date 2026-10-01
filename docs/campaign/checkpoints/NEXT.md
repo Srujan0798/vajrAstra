@@ -4,7 +4,8 @@
 - AGENT 2: eval_harness.py + selftest (A3 actions 1–2) → 3 licence rows (AIKosh, STocr bengali.ckpt, PARSeq) → HW0 leak gate (A5 §HW0) → Bodhan unblock + O-1 diagnostic (A2) · proto-109 sync A every round.
 - AGENT 3: D0 truth check of product/ + scripts/ → product CLI (crops → CSV+JSON; pages → JSON+PDF+MD, Bodhan prototype) + requirements/Dockerfile/NOTICE + 50-crop timed run → D4 pitch package (A7-JURY).
 - VIGILANTE: finish proto-110 K0 (manifest + bundle) only, then STOP until after submission.
-- CUT: proto-111 (until Vinay answers), proto-110 K1+, proto-107 next waves, Track B per-cell recipes, committees, polish (proto-112 §4).
+- proto-111 ACTIVE as a product-side bake-off (Vinay answered): Agent 3 after its D0 truth check (layout: DocLayout-YOLO vs Bodhan IndicDocLayout; LID: visual script ID → OCR → IndicLID; trocr-indic fallback). Agent 1 stays on Track A. Ask Vinay about the 2L dataset FIRST.
+- CUT:, proto-110 K1+, proto-107 next waves, Track B per-cell recipes, committees, polish (proto-112 §4).
 - DEFAULT-PROCEED: an unanswered boss decision applies its recommended default after 24 h (never: deletes, spend, Bodhan hosting, push to main).
 - STOP-LOSS: D3 with no GPU and no IIIT data → ship HW1 zero-shot.
 - Previous revisions: git history of this file.

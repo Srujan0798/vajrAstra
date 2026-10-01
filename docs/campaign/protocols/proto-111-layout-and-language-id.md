@@ -109,3 +109,48 @@ metadata:
 2. **Agent 1 (after its current HW-ID/HW1 step):** `Read proto-111. L1 on local models only, no downloads, no training: Bodhan IndicDocLayout on 50 benchmark pages (blocks, reading order, s/page); IndicPhotoOCR script-ID on the Sarvam-bench blocks; Unicode-range script on Bodhan outputs for the same blocks; per-language script accuracy + confusion matrix with Wilson CI and n. Log in W4.md.`
 
 Related: [[proto-108-plan-v4-final]], [[proto-104-project-first-critical-path]], [[proto-89-plan-v3-bodhan-base]], [[proto-105-consensus-results-to-decisions]]
+
+## UPDATE 2026-10-01 (later) — Vinay's answer and the hybrid decision (planner)
+**Vinay (verbatim):**
+- "we have 2L images dataset";
+- "overall plan is to go step by step doing each step properly which helps in our final goal to identifying the right character, word and sentence";
+- "1. Localize: Use DocLayout-YOLO to extract the precise structural bounding boxes.
+  2. Crop & Predict: Pass each cropped bounding box straight into AI4Bharat's IndicLID to tag it (e.g., Block 1 = Marathi, Block 2 = English, Block 3 = Gujarati).
+  fallback: If the document scan is low quality and text-based OCR might output gibberish, … QuickHawk/trocr-indic … decodes [text lines] while prefixing the correct <LANGUAGE TOKEN>."
+
+**Review (what holds, what does not):**
+- **NEW FACT:** a 2-lakh (200,000) image dataset. Unknown: what it is, its labels, its rights, and its relation to the 5,344 test crops. It could be the biggest lever in the project. Ask before anything else.
+- **Holds:** step-by-step character → word → sentence. This matches the curriculum word → line → block in R7 (50/35/15).
+- **Does NOT hold as written:** AI4Bharat IndicLID is a TEXT language identifier (native + romanised text). It cannot read an image crop.
+  - So the order must be: layout → visual script ID → OCR → IndicLID on the OCR text.
+  - Verify on the IndicLID card before quoting.
+- **Visual language ID** (trocr-indic token, IndicPhotoOCR ViT) can only separate SCRIPTS. Hindi / Marathi / Sanskrit / Nepali look identical, and so do Bengali / Assamese. Those need text LID after good OCR.
+- **DocLayout-YOLO:** a strong general layout model (DocSynth-300K pretraining), but not Indic-trained.
+  - Its licence is believed AGPL-3.0 (YOLO/ultralytics lineage). VERIFY: it may be unsuitable for a closed product.
+  - Bodhan IndicDocLayout (Indic-trained, 37 classes, reading order) is already on disk.
+- **QuickHawk/trocr-indic:** a community HF model with unknown training data, accuracy and licence. Line-level TrOCR. Candidate only, until its card is read and it is measured.
+- **On the 5,344 test crops** (single handwritten words) layout does nothing and LID = script. The pipeline above is for documents (the product and possibly the 2L set).
+
+**Hybrid decision (fair bake-off, keep what wins, his pipeline in the right order):**
+1. **Layout:** DocLayout-YOLO (his choice) vs Bodhan IndicDocLayout (ours) on the same labelled pages (IndicDLP test split or 50 hand-labelled pages).
+   - Pick by mAP@0.5 and reading-order accuracy, with a CI.
+   - If neither wins clearly on Indic pages, use Bodhan (licence and Indic) and keep YOLO as the fallback.
+2. **Visual script ID per block** (before OCR): IndicPhotoOCR ViT (12 scripts) vs trocr-indic's language token. Measured on the Sarvam-bench blocks (labelled, eval-only).
+3. **OCR per block** with the recogniser for that script (Bodhan for printed, the handwriting expert for handwritten).
+4. **Text LID:** IndicLID on the OCR text, for same-script languages.
+5. **Agreement check:**
+   - visual script ≠ OCR-text script → low-confidence flag → fallback model (trocr-indic) + "uncertain" in the JSON;
+   - never a silent guess.
+
+**Status change:** proto-111 is no longer on hold. It runs as a product-side bake-off.
+- Owner: **Agent 3**, after its D0 truth check.
+- Agent 2 builds the eval sets (L0) after the scorer.
+- Agent 1 stays on Track A (the test score).
+- Downloads needing the boss: DocLayout-YOLO weights, IndicLID, trocr-indic, IndicDLP test split. Each one only after its licence row.
+
+**Questions to Vinay (send before building):**
+1. The 2L images: what are they (pages / lines / words; printed / handwritten), which languages, which labels (text? layout boxes? language?), may we train on them, and are the 5,344 test crops separate from them?
+2. Will the final evaluation use full documents like these 2L images, rather than the 5,344 word crops?
+3. IndicLID reads text, not images. OK to run layout → script ID → OCR → IndicLID, with a visual model only as the fallback?
+4. DocLayout-YOLO's licence looks like AGPL-3.0. Is that acceptable for the product? We'll benchmark it against Bodhan's Indic layout model on the same pages and keep the better one.
+5. trocr-indic: do you know its training data or accuracy? We'll measure it as the fallback.

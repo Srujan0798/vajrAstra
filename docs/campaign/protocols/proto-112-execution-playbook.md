@@ -113,7 +113,7 @@ metadata:
 
 ## 4. CUT until submission (do not run, do not assign)
 - proto-110 knowledge canon beyond K0 (K0 = manifest + bundle only, safe, may finish). The Vigilante stops after K0.
-- proto-111 entirely (layout/LID) until Vinay answers; then only measure Bodhan layout + Unicode script ID.
+- proto-111: ACTIVE since Vinay's answer, but only as Agent 3's product-side bake-off after D0 (see proto-111 UPDATE). It never takes Agent 1 off Track A.
 - proto-107 waves after the current one.
 - Track B per-cell recipes (sat/mni/ks/or/sa/kok/R4), HW3, HW-P2, RL, post-correction.
 - The multi-LLM committee, 25-question drill, transfer obituaries, sampling proofs, GT_DEFECTS, South S5/S6.

@@ -3,7 +3,7 @@
 ## START HERE
 - [**FINAL HANDOFF 2026-10-01**](handoff-2026-10-01-FINAL.md) — READ FIRST, then proto-112
 - [**EXECUTION PLAYBOOK — FINAL**](proto-112-execution-playbook.md) — READ FIRST: verdict (research strong, execution ~0), the ONE path D0–D5, lanes per agent with exact files + done-when, 24-h default-proceed, stop-loss, cut list; evidence docs/campaign/final_audit_2026-10-01/
-- [LAYOUT + LANGUAGE ID — ON HOLD (proto-112 cut list)](proto-111-layout-and-language-id.md) — Track L: Bodhan IndicDocLayout vs IndicDLP challengers; two-level LID (image script-ID + text LID); eval sets L0, baselines L1, gates; no training before G-2.5
+- [LAYOUT + LANGUAGE ID — ACTIVE bake-off (Vinay answered; Agent 3)](proto-111-layout-and-language-id.md) — Track L: Bodhan IndicDocLayout vs IndicDLP challengers; two-level LID (image script-ID + text LID); eval sets L0, baselines L1, gates; no training before G-2.5
 - [KNOWLEDGE CANON — K0 only until submission](proto-110-knowledge-canon.md) — one numbered hierarchy docs/knowledge/ + 00_CANON_MAP; every knowledge file LIVE/MERGED/LINKED/HISTORY with no-loss proof; waves K0–K8; never delete
 - [GitHub ⇄ Mac sync](proto-109-github-mac-sync.md) — two-way sync via boss/campaign-docs: Mac→GitHub text snapshot (secret guard), GitHub→Mac path-scoped checkout; Agent 2 every round
 - [PLAN V4 rev 2 (INTEGRATED)](proto-108-plan-v4-final.md) — THE strategy, built from the full 320-file corpus pass; three tracks (handwriting / printed 22-lang / product & jury), kill table, licence ledger, paste lines §12
